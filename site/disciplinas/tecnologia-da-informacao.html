@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tecnologias da Informação — Guia de Estudos</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="disc-page">
+  <aside class="toc">
+    <p class="toc-label">Conhecimentos Específicos</p>
+    <h1 class="toc-title">💻 Tecnologias da Informação</h1>
+    <nav><ul><li><a href="#t0">1. Fundamentos de banco de dados</a></li><li><a href="#t1">2. Administração de dados</a></li><li><a href="#t2">3. Modelagem multidimensional e Data Warehouse</a></li><li><a href="#t3">4. Business Intelligence (BI)</a></li><li><a href="#t4">5. Mineração de dados (Data Mining)</a></li><li><a href="#t5">6. Introdução à ciência de dados</a></li></ul></nav>
+    <a class="back" href="../index.html">↩ Todas as disciplinas</a>
+  </aside>
+  <div class="content">
+    <p class="disc-resumo">Banco de dados, administração de dados, BI, mineração de dados e introdução à ciência de dados aplicadas à fiscalização.</p>
+    
+      <article class="topico" id="t0">
+        <h2>1. Fundamentos de banco de dados</h2>
+        <p class="explica">Banco de dados é uma coleção organizada de dados; o SGBD (Sistema Gerenciador) controla armazenamento, acesso e integridade. O modelo relacional organiza dados em tabelas (relações) com chaves.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Modelo relacional e chaves</h4>
+          <p>Tabelas, atributos e tuplas; chave primária identifica unicamente um registro; chave estrangeira referencia outra tabela, garantindo integridade referencial.</p>
+        </div>
+        <div class="sub">
+          <h4>Linguagens (SQL)</h4>
+          <p>DDL (definição: CREATE, ALTER), DML (manipulação: SELECT, INSERT, UPDATE, DELETE) e DCL (controle de acesso). SQL é a base da consulta a dados fiscais.</p>
+        </div>
+        <div class="sub">
+          <h4>Normalização</h4>
+          <p>Processo de organizar tabelas para reduzir redundância e anomalias (1FN, 2FN, 3FN). Equilibra integridade e desempenho das consultas.</p>
+        </div></div>
+      </article>
+      <article class="topico" id="t1">
+        <h2>2. Administração de dados</h2>
+        <p class="explica">Gestão do dado como ativo organizacional: integridade, segurança, disponibilidade e desempenho. Inclui backup, recuperação, controle de acesso e tuning de banco de dados.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Integridade e segurança</h4>
+          <p>Controle de transações (propriedades ACID), níveis de isolamento, autenticação e autorização. Protege dados sigilosos do contribuinte.</p>
+        </div>
+        <div class="sub">
+          <h4>Backup e recuperação</h4>
+          <p>Estratégias de cópia (completo, incremental, diferencial) e planos de recuperação garantem continuidade e auditabilidade dos dados fiscais.</p>
+        </div></div>
+      </article>
+      <article class="topico" id="t2">
+        <h2>3. Modelagem multidimensional e Data Warehouse</h2>
+        <p class="explica">Para análise, dados operacionais são integrados em um Data Warehouse (DW), modelado de forma multidimensional (esquema estrela/floco de neve) com fatos e dimensões, suportando OLAP.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Esquema estrela e OLAP</h4>
+          <p>Tabela-fato (métricas) cercada por dimensões; OLAP permite slice, dice, drill-down e roll-up para analisar grandes volumes.</p>
+        </div>
+        <div class="sub">
+          <h4>ETL</h4>
+          <p>Extração, Transformação e Carga: integra fontes heterogêneas, limpa e padroniza dados antes da carga no DW.</p>
+        </div></div>
+      </article>
+      <article class="topico" id="t3">
+        <h2>4. Business Intelligence (BI)</h2>
+        <p class="explica">Conjunto de técnicas para transformar dados em informação de apoio à decisão: dashboards, KPIs, relatórios e análises que orientam a inteligência fiscal.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Indicadores e visualização</h4>
+          <p>KPIs (indicadores-chave), painéis interativos e relatórios apoiam o monitoramento de arrecadação e a seleção de contribuintes para fiscalização.</p>
+        </div></div>
+      </article>
+      <article class="topico" id="t4">
+        <h2>5. Mineração de dados (Data Mining)</h2>
+        <p class="explica">Descoberta de padrões úteis em grandes bases. Tarefas principais: classificação, regressão, agrupamento (clustering), associação e detecção de anomalias — essenciais para identificar sonegação.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Tarefas de mineração</h4>
+          <p>Classificação prevê categorias (ex.: sonegador/não); clustering agrupa por semelhança; associação descobre regras (cesta de compras); anomalias revelam fraudes.</p>
+        </div>
+        <div class="sub">
+          <h4>Avaliação de modelos</h4>
+          <p>Métricas como acurácia, precisão, recall, matriz de confusão e curva ROC medem a qualidade dos modelos preditivos.</p>
+        </div></div>
+      </article>
+      <article class="topico" id="t5">
+        <h2>6. Introdução à ciência de dados</h2>
+        <p class="explica">Combina estatística, computação e conhecimento de negócio para extrair valor dos dados, com aprendizado de máquina supervisionado e não supervisionado.</p>
+        <div class="subs">
+        <div class="sub">
+          <h4>Aprendizado de máquina</h4>
+          <p>Supervisionado (regressão, árvores de decisão, redes neurais, SVM) usa dados rotulados; não supervisionado (k-means, PCA) descobre estrutura oculta.</p>
+        </div>
+        <div class="sub">
+          <h4>Big Data e fluxos</h4>
+          <p>Tratamento de grandes volumes e dados em tempo real; mineração de fluxos e séries temporais apoiam previsão e detecção precoce de irregularidades.</p>
+        </div></div>
+      </article>
+    <div class="pager-row"><a class="pager prev" href="realidade-de-goias.html">← Realidade Étnica, Social, Histórica, Geográfica, Cultural, Política e Econômica de Goiás</a><a class="pager next" href="auditoria.html">Auditoria →</a></div>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../assets/script.js"></script>
+</body></html>

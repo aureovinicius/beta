@@ -1,0 +1,7 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Arquivos temporários de renderização
+_p*.png
