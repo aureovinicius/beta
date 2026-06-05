@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantificadores — Raciocínio Lógico, Matemática Financeira e Estatística</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Quantificadores</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Argumentação e quantificadores</p>
+    <h1>Quantificadores</h1>
+    <p>Os quantificadores expressam a quantidade de elementos de um conjunto que satisfazem uma propriedade. Os principais são o universal — &#x27;todo&#x27;, &#x27;qualquer&#x27;, &#x27;nenhum&#x27; — e o existencial — &#x27;algum&#x27;, &#x27;existe&#x27;, &#x27;pelo menos um&#x27;. Frases como &#x27;todo auditor é servidor&#x27; ou &#x27;algum contribuinte sonega&#x27; são proposições categóricas, e a lógica de quantificadores estuda suas negações, equivalências e a validade de argumentos com elas.</p><p>O diagrama de Venn é a ferramenta gráfica que torna essas relações visíveis: conjuntos representados por círculos, com inclusões, interseções e exclusões. A prova fiscal cobra principalmente a negação correta dos quantificadores e a análise de conclusões a partir de premissas com &#x27;todo&#x27;, &#x27;algum&#x27; e &#x27;nenhum&#x27;.</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Tipos de proposições categóricas</h2>
+          <p>São quatro formas clássicas: Universal Afirmativa &#x27;Todo A é B&#x27; (A está contido em B); Universal Negativa &#x27;Nenhum A é B&#x27; (A e B são disjuntos); Particular Afirmativa &#x27;Algum A é B&#x27; (A e B têm interseção); Particular Negativa &#x27;Algum A não é B&#x27; (existe elemento de A fora de B).</p><p>Em lógica, &#x27;algum&#x27; significa &#x27;pelo menos um&#x27;, podendo ser todos — não exclui a totalidade. &#x27;Algum A é B&#x27; é verdadeiro mesmo que todo A seja B.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Negação dos quantificadores</h2>
+          <p>A negação de &#x27;Todo A é B&#x27; é &#x27;Algum A NÃO é B&#x27; (basta um contraexemplo para derrubar o &#x27;todo&#x27;). A negação de &#x27;Algum A é B&#x27; é &#x27;Nenhum A é B&#x27;. A negação de &#x27;Nenhum A é B&#x27; é &#x27;Algum A é B&#x27;.</p><p>Resumo: a negação troca universal por existencial e inverte a qualidade quando necessário. &#x27;Todo&#x27; nega com &#x27;algum não&#x27;; &#x27;nenhum&#x27; nega com &#x27;algum (é)&#x27;; &#x27;algum (é)&#x27; nega com &#x27;nenhum&#x27;.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Diagramas de Venn na análise de argumentos</h2>
+          <p>Para testar se uma conclusão decorre das premissas, desenhe os diagramas que tornam as premissas verdadeiras e verifique se a conclusão é forçada em TODAS as configurações possíveis. Se existir um único diagrama válido para as premissas em que a conclusão falha, o argumento é inválido.</p><p>Exemplo: &#x27;Todo A é B&#x27; e &#x27;Todo B é C&#x27; forçam &#x27;Todo A é C&#x27; (transitividade da inclusão) — válido. Já &#x27;Algum A é B&#x27; e &#x27;Algum B é C&#x27; NÃO forçam &#x27;Algum A é C&#x27;, pois as interseções podem ser disjuntas.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Cuidados com &#x27;algum&#x27; e existência</h2>
+          <p>Conclusões particulares (&#x27;algum&#x27;) exigem que pelo menos uma premissa seja particular. De duas premissas universais não se tira validamente uma conclusão existencial, salvo pressuposto de existência.</p><p>Outro ponto: &#x27;todo A é B&#x27; não permite concluir &#x27;todo B é A&#x27; (a recíproca não vale). E &#x27;algum A é B&#x27; permite concluir &#x27;algum B é A&#x27; (a interseção é simétrica).</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Premissas: (1) Todo fiscal é concursado. (2) Algum concursado é gaúcho. Pergunta: pode-se concluir que &#x27;algum fiscal é gaúcho&#x27;?</p><p>Desenhe: fiscal é subconjunto de concursado. &#x27;Algum concursado é gaúcho&#x27; coloca uma interseção entre concursado e gaúcho, mas essa interseção pode estar fora do círculo &#x27;fiscal&#x27;. Como existe um diagrama válido em que nenhum fiscal é gaúcho, a conclusão NÃO é válida. Resposta: não se pode concluir.</p><p>AgorA inverta: (1) Todo fiscal é concursado; (2) Nenhum concursado é estrangeiro. Conclusão &#x27;nenhum fiscal é estrangeiro&#x27;? Como fiscal está dentro de concursado, e concursado é totalmente disjunto de estrangeiro, então fiscal também é disjunto de estrangeiro. VÁLIDO.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>A negação de &#x27;todo&#x27; NÃO é &#x27;nenhum&#x27; — é &#x27;algum não&#x27; (basta um contraexemplo). Esse é o erro mais comum. Em argumentos com &#x27;algum&#x27;, desconfie de conclusões: na maioria das vezes não há validade. Sempre teste desenhando o diagrama mais &#x27;desfavorável&#x27; à conclusão: se ela ainda assim for forçada, o argumento é válido; caso contrário, é inválido.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t2-s0.html">← Argumentos válidos</a><a class="pager next" href="t3-s0.html">PA e PG →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>Negação de &#x27;Todo A é B&#x27; = &#x27;Algum A não é B&#x27;.</li><li>Negação de &#x27;Algum A é B&#x27; = &#x27;Nenhum A é B&#x27;.</li><li>Negação de &#x27;Nenhum A é B&#x27; = &#x27;Algum A é B&#x27;.</li><li>&#x27;Algum&#x27; significa &#x27;pelo menos um&#x27; (pode ser todos).</li><li>Use diagramas de Venn: a conclusão deve valer em TODA configuração.</li><li>De duas premissas com &#x27;algum&#x27; geralmente nada se conclui.</li><li>&#x27;Todo A é B&#x27; não implica &#x27;todo B é A&#x27; (sem recíproca).</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

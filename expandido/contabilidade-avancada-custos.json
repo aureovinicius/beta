@@ -1,0 +1,329 @@
+{
+  "slug": "contabilidade-avancada-custos",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Método de equivalência patrimonial",
+      "intro": "O método de equivalência patrimonial (MEP) é a técnica contábil pela qual uma sociedade investidora reconhece, em suas próprias demonstrações, a parcela que lhe cabe nas variações do patrimônio líquido (PL) das sociedades em que investe. Em vez de manter o investimento registrado pelo custo histórico, a investidora o atualiza periodicamente: se a investida lucra, o investimento aumenta; se tem prejuízo, diminui.\n\nO MEP traduz o princípio do regime de competência aplicado a participações societárias relevantes: presume-se que a investidora exerce influência sobre as decisões da investida e, portanto, deve refletir o desempenho econômico desta no momento em que ocorre, e não apenas quando recebe dividendos. No Brasil, o MEP está disciplinado na Lei 6.404/76 (arts. 248), na Lei 12.973/14 (efeitos fiscais) e no Pronunciamento CPC 18 (R2) — Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto.\n\nÉ tema de altíssima incidência em provas de Auditor-Fiscal, tanto na parte conceitual (quando aplicar o MEP) quanto na parte de cálculo (efeito do lucro, do prejuízo e dos dividendos sobre o saldo do investimento)."
+      ,
+      "secoes": [
+        {
+          "h": "Quando o MEP é obrigatório",
+          "p": "A Lei 6.404/76, com a redação da Lei 11.941/09, exige a avaliação por equivalência patrimonial para: (a) coligadas sobre cuja administração a investidora tenha influência significativa; (b) controladas; e (c) sociedades que façam parte de um mesmo grupo ou estejam sob controle comum.\n\nInfluência significativa é o poder de participar das decisões financeiras e operacionais da investida, sem controlá-la. Presume-se influência significativa quando a investidora detém, direta ou indiretamente, 20% ou mais do capital votante (Lei 6.404/76, art. 243, §1º; CPC 18). Coligação, por sua vez, ocorre quando a investidora tem influência significativa (art. 243, §1º).\n\nCuidado: o percentual de 20% gera presunção relativa. Pode haver influência significativa com menos de 20% (ex.: representação no conselho de administração) e pode não haver influência mesmo com mais de 20% (situação rara, que exige justificativa)."
+        },
+        {
+          "h": "Mecânica do método",
+          "p": "O investimento é inicialmente reconhecido pelo custo de aquisição. A cada período, ajusta-se o valor contábil:\n\n(1) Parcela do RESULTADO da investida: a investidora reconhece, como receita (lucro) ou despesa (prejuízo) de equivalência patrimonial no seu resultado, o percentual de participação multiplicado pelo lucro/prejuízo da investida. Esse valor aumenta ou reduz o saldo do investimento no ativo.\n\n(2) DIVIDENDOS recebidos/declarados: não são receita para a investidora. Como o lucro já foi reconhecido via MEP, o dividendo apenas reduz o saldo do investimento (a investida distribui parte do PL que já havia sido refletido). Registrar dividendo como receita é erro clássico.\n\n(3) Outras variações do PL da investida que não transitam pelo resultado (ex.: ajustes de avaliação patrimonial, reservas de capital) também ajustam o investimento, em contrapartida normalmente a outros resultados abrangentes."
+        },
+        {
+          "h": "Lucros não realizados em operações intragrupo",
+          "p": "Quando há transações entre investidora e investida (ou entre controlada e coligada do mesmo grupo), os lucros embutidos em ativos que ainda estão no estoque/imobilizado do comprador não foram realizados perante terceiros. O CPC 18 determina a eliminação proporcional desses lucros não realizados ('downstream', da investidora para a investida, e 'upstream', da investida para a investidora) no cálculo da equivalência. Só quando o ativo é revendido a terceiros ou consumido o lucro se realiza."
+        },
+        {
+          "h": "Efeitos fiscais (Lei 12.973/14)",
+          "p": "Para fins de IRPJ/CSLL, o resultado positivo da equivalência patrimonial NÃO é tributável e o negativo NÃO é dedutível — deve ser excluído/adicionado na apuração do lucro real (LALUR/e-Lalur). A razão é evitar a bitributação do mesmo lucro: ele já é tributado na investida. Igualmente, os dividendos recebidos de lucros apurados a partir de 1996 são isentos na investidora (Lei 9.249/95, art. 10). Esse cruzamento entre contabilidade e tributação é prato cheio para a banca da SEFAZ-GO."
+        }
+      ],
+      "exemplo": "A Cia. Alfa adquiriu, por R$ 500.000, 30% do capital votante da Cia. Beta, cujo PL na data era R$ 1.600.000. Durante o exercício, Beta apurou lucro líquido de R$ 200.000 e, ao final, declarou dividendos de R$ 50.000.\n\nPasso 1 — Reconhecimento inicial: Investimento = R$ 500.000 (custo). Como o valor justo do PL de Beta atribuível a Alfa é 30% x 1.600.000 = R$ 480.000, há um sobrepreço de R$ 20.000 (mais-valia/goodwill, tratado no próximo tema).\n\nPasso 2 — Resultado de equivalência: 30% x R$ 200.000 = R$ 60.000. Lança-se: D — Investimento R$ 60.000 / C — Receita de Equivalência Patrimonial R$ 60.000. O investimento sobe para R$ 560.000.\n\nPasso 3 — Dividendos: 30% x R$ 50.000 = R$ 15.000. Lança-se: D — Dividendos a Receber R$ 15.000 / C — Investimento R$ 15.000. O investimento cai para R$ 545.000. Note que o dividendo NÃO virou receita.\n\nResultado final no ativo: R$ 545.000. No resultado de Alfa, apenas os R$ 60.000 de equivalência (excluídos da base do IRPJ/CSLL).",
+      "pontos_chave": [
+        "MEP aplica-se a coligadas com influência significativa, controladas e sociedades sob controle comum.",
+        "Influência significativa presume-se com 20% ou mais do capital votante (presunção relativa).",
+        "Lucro da investida x % = receita/despesa de equivalência, que ajusta o saldo do investimento.",
+        "Dividendos recebidos REDUZEM o investimento; não são receita da investidora.",
+        "Lucros não realizados em operações intragrupo são eliminados no cálculo.",
+        "Resultado de equivalência não é tributável nem dedutível (excluir/adicionar no lucro real).",
+        "Base legal: Lei 6.404/76 art. 248, CPC 18 (R2), Lei 12.973/14."
+      ],
+      "dica_prova": "A pegadinha número 1 é tratar dividendo recebido como receita — ele apenas reduz o investimento. A número 2 é confundir os percentuais: o MEP usa o capital VOTANTE para presumir influência, mas a participação no lucro segue o percentual de capital total detido. Também é comum a banca cobrar que o resultado positivo de equivalência seja EXCLUÍDO da base do IRPJ. Memorize: lucro sobe o investimento, prejuízo desce, dividendo desce."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Goodwill e mais/menos-valia",
+      "intro": "Quando uma entidade adquire o controle de um negócio, raramente o preço pago coincide com o valor patrimonial contábil dos ativos líquidos adquiridos. A diferença precisa ser decomposta e contabilizada corretamente. O método de aquisição (CPC 15 — Combinação de Negócios / IFRS 3) exige que o adquirente mensure os ativos identificáveis adquiridos e os passivos assumidos pelo seu VALOR JUSTO na data da aquisição.\n\nDessa mensuração surgem três conceitos centrais: a mais-valia (ou menos-valia) de ativos líquidos — diferença entre o valor justo e o valor contábil dos ativos/passivos identificáveis — e o goodwill (ágio por expectativa de rentabilidade futura) — o resíduo do preço que não se atribui a ativos identificáveis. Se o resíduo for negativo, há compra vantajosa (ganho no resultado).\n\nÉ um dos temas mais cobrados em contabilidade avançada para concursos fiscais, porque combina mensuração a valor justo, alocação do preço de compra (PPA — purchase price allocation) e o tratamento subsequente de impairment do goodwill."
+      ,
+      "secoes": [
+        {
+          "h": "Decomposição do preço pago",
+          "p": "O preço de aquisição é alocado em camadas:\n\n(1) Valor contábil dos ativos líquidos (PL contábil) atribuível à participação adquirida.\n(2) Mais/menos-valia: ajuste dos ativos e passivos identificáveis do valor contábil para o VALOR JUSTO. Ex.: um imóvel registrado por R$ 100 que vale R$ 180 gera mais-valia de R$ 80; passivos contingentes prováveis podem gerar menos-valia.\n(3) Ativos intangíveis identificáveis não registrados (marcas, carteira de clientes, patentes) reconhecidos a valor justo.\n(4) Goodwill: o que sobra do preço após reconhecer tudo o que é identificável.\n\nGoodwill = Contraprestação transferida + participação de não controladores + valor justo de participação anterior − valor justo dos ativos líquidos identificáveis."
+        },
+        {
+          "h": "Goodwill: natureza e teste de impairment",
+          "p": "O goodwill representa benefícios econômicos futuros que não podem ser individualmente identificados e separadamente reconhecidos (sinergias, força da marca não destacada, capital humano). Característica essencial para prova: o goodwill NÃO é amortizado contabilmente sob as normas societárias (CPC 04 / CPC 01). Em vez disso, é submetido anualmente (e sempre que houver indício) ao teste de recuperabilidade (impairment, CPC 01 — Redução ao Valor Recuperável de Ativos). Se o valor recuperável da unidade geradora de caixa for inferior ao seu valor contábil, reconhece-se perda por impairment, que é irreversível para o goodwill.\n\nAtenção ao descompasso fiscal: para fins de IRPJ/CSLL, a Lei 12.973/14 admite, em incorporações/fusões/cisões com confusão de patrimônios, a amortização fiscal do ágio por rentabilidade futura à razão de 1/60 por mês — regra fiscal que não tem correspondência na contabilidade societária."
+        },
+        {
+          "h": "Compra vantajosa (deságio/ganho por compra vantajosa)",
+          "p": "Se o valor justo dos ativos líquidos identificáveis adquiridos for MAIOR que a contraprestação transferida, há uma compra vantajosa (bargain purchase). Antes de reconhecer o ganho, o adquirente deve revisar a identificação e mensuração de todos os ativos e passivos (procedimento de razoabilidade). Confirmado o resultado negativo, reconhece-se IMEDIATAMENTE um ganho no resultado do período da combinação. Esse é o oposto do goodwill: enquanto o goodwill fica no ativo, a compra vantajosa vira receita."
+        },
+        {
+          "h": "Tratamento da mais-valia na investida",
+          "p": "A mais-valia alocada a ativos identificáveis (ex.: imóvel, estoque) é realizada conforme esses ativos são depreciados, baixados ou vendidos, reduzindo o resultado de equivalência patrimonial dos períodos seguintes (em investimentos avaliados por MEP) ou afetando o resultado consolidado. Já o goodwill permanece até sofrer impairment. Distinguir o destino de cada parcela é frequentemente cobrado."
+        }
+      ],
+      "exemplo": "A Cia. Controladora pagou R$ 900.000 por 100% da Cia. Alvo. Na data, o PL contábil da Alvo era R$ 600.000. A avaliação a valor justo revelou: um terreno contabilizado por R$ 150.000 valia R$ 250.000 (mais-valia R$ 100.000) e uma marca não registrada avaliada em R$ 80.000.\n\nAlocação do preço:\n- Ativos líquidos a valor contábil: R$ 600.000\n- (+) Mais-valia do terreno: R$ 100.000\n- (+) Marca identificável: R$ 80.000\n- = Valor justo dos ativos líquidos identificáveis: R$ 780.000\n- Goodwill = 900.000 − 780.000 = R$ 120.000\n\nContabilização: reconhecem-se o terreno por R$ 250.000, a marca por R$ 80.000 e o goodwill de R$ 120.000 (não amortizado, sujeito a impairment).\n\nVariação: se a Controladora tivesse pago apenas R$ 700.000 pelos mesmos ativos líquidos de R$ 780.000, haveria compra vantajosa de R$ 80.000, reconhecida como GANHO no resultado, e não goodwill no ativo.",
+      "pontos_chave": [
+        "Método de aquisição (CPC 15): ativos e passivos identificáveis a VALOR JUSTO na data da aquisição.",
+        "Mais/menos-valia = diferença entre valor justo e valor contábil dos itens identificáveis.",
+        "Goodwill é o resíduo do preço após reconhecer tudo que é identificável.",
+        "Goodwill NÃO é amortizado contabilmente; é testado por impairment anualmente (CPC 01), perda irreversível.",
+        "Fiscalmente, a Lei 12.973/14 permite amortizar o ágio em 1/60 ao mês em reorganizações com confusão patrimonial.",
+        "Compra vantajosa (preço < valor justo dos ativos líquidos) gera GANHO imediato no resultado.",
+        "A mais-valia de ativos se realiza conforme depreciação/baixa/venda desses ativos."
+      ],
+      "dica_prova": "A pegadinha clássica é afirmar que o goodwill é amortizado contabilmente — ERRADO na contabilidade societária (só por impairment); a amortização em 1/60 é regra FISCAL. Outra: confundir o sentido da compra vantajosa — quando o preço é menor que o valor justo dos ativos líquidos, há GANHO no resultado, não goodwill. Lembre que a mensuração é sempre a valor JUSTO dos identificáveis, nunca pelo valor contábil."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Consolidação",
+      "intro": "A consolidação das demonstrações contábeis é o processo pelo qual as demonstrações da controladora e de suas controladas são combinadas e apresentadas como se fossem de uma única entidade econômica. A lógica subjacente é a teoria da entidade: para o usuário externo, o grupo econômico (controladora + controladas) funciona como um só negócio, independentemente das fronteiras jurídicas entre as sociedades.\n\nConsolidar não é somar cegamente. É somar linha a linha ativos, passivos, receitas e despesas e, em seguida, ELIMINAR os efeitos das operações internas (intragrupo): participações societárias, saldos a pagar/receber recíprocos, vendas e compras entre as empresas e lucros não realizados embutidos em estoques e imobilizados. Sem essas eliminações, o grupo apareceria 'inflado' por negócios que, sob a ótica da entidade única, não passam de transferências internas.\n\nA matéria é regida pela Lei 6.404/76 (arts. 249 e 250), pelo CPC 36 (R3) — Demonstrações Consolidadas (IFRS 10) e tem peso relevante em provas de contabilidade avançada para auditoria fiscal."
+      ,
+      "secoes": [
+        {
+          "h": "Quem consolida e o conceito de controle",
+          "p": "A controladora elabora demonstrações consolidadas incluindo todas as controladas. Controle (CPC 36/IFRS 10) existe quando a investidora: (a) tem poder sobre a investida; (b) está exposta a retornos variáveis; e (c) tem capacidade de afetar esses retornos pelo uso do poder. A presunção mais comum é a titularidade de mais de 50% do capital votante, mas o controle pode existir por acordo de acionistas, controle de fato ou direitos potenciais.\n\nImportante: coligadas (influência significativa, sem controle) NÃO são consolidadas — são avaliadas por equivalência patrimonial. Consolida-se quem se controla."
+        },
+        {
+          "h": "Procedimentos de eliminação",
+          "p": "As principais eliminações na consolidação são:\n\n(1) Investimento x PL da controlada: elimina-se o saldo do investimento na controladora contra a parcela correspondente do PL da controlada (evita-se contar o patrimônio duas vezes).\n(2) Saldos recíprocos: contas a receber/pagar, empréstimos e adiantamentos entre empresas do grupo são zerados.\n(3) Receitas e despesas intragrupo: vendas de uma empresa do grupo para outra são eliminadas (receita de A = custo de B).\n(4) Lucros não realizados: o lucro embutido em estoques/imobilizado que ainda não foi vendido a terceiros é eliminado, pois sob a entidade única não houve realização.\n(5) Dividendos intragrupo são eliminados."
+        },
+        {
+          "h": "Participação de não controladores (minoritários)",
+          "p": "Quando a controlada não é 100% detida, parte de seu PL e de seu resultado pertence a outros acionistas — os não controladores (antiga 'participação minoritária'). Na consolidação, somam-se 100% dos ativos, passivos, receitas e despesas da controlada (consolidação integral), mas destaca-se, dentro do patrimônio líquido consolidado, a parcela atribuível aos não controladores, e, na DRE consolidada, separa-se o resultado atribuível à controladora do atribuível aos não controladores. O CPC 36 determina que a participação de não controladores integre o PL consolidado (e não o passivo)."
+        },
+        {
+          "h": "Goodwill e mais-valia na consolidação",
+          "p": "Na eliminação do investimento contra o PL da controlada, o sobrepreço pago acima do valor justo dos ativos líquidos (goodwill) é reconhecido como ativo intangível no balanço consolidado, e a mais-valia é incorporada aos respectivos ativos identificáveis. Em períodos seguintes, a mais-valia se realiza pela depreciação/baixa e o goodwill fica sujeito a impairment. Esses ajustes de consolidação são refeitos a cada data-base."
+        }
+      ],
+      "exemplo": "A Controladora P detém 80% da Controlada S. Em determinado ano, P vendeu mercadorias a S por R$ 100.000 (custo de P: R$ 70.000; lucro R$ 30.000). Ao final do exercício, S ainda mantinha em estoque 40% dessas mercadorias.\n\nEliminações na consolidação:\n- Receita de venda intragrupo: elimina-se R$ 100.000 de receita de P contra R$ 100.000 de custo/compra de S.\n- Lucro não realizado no estoque: 40% das mercadorias ainda estão no estoque de S, logo 40% x R$ 30.000 = R$ 12.000 de lucro NÃO foi realizado perante terceiros. Elimina-se esse lucro, reduzindo o resultado consolidado e o valor do estoque consolidado em R$ 12.000.\n\nParticipação de não controladores: se o PL da Controlada S é R$ 500.000, a parcela dos não controladores no PL consolidado é 20% x 500.000 = R$ 100.000, destacada dentro do PL consolidado. O resultado de S também é repartido 80% (P) / 20% (não controladores) na DRE consolidada.",
+      "pontos_chave": [
+        "Consolidação aplica a teoria da entidade: grupo econômico tratado como entidade única.",
+        "Consolida-se quem se CONTROLA (CPC 36/IFRS 10); coligadas vão por equivalência, não consolidação.",
+        "Soma-se 100% das contas da controlada (consolidação integral) e eliminam-se as operações intragrupo.",
+        "Eliminam-se: investimento x PL, saldos recíprocos, receitas/despesas internas, lucros não realizados e dividendos internos.",
+        "Participação de não controladores integra o PL consolidado, não o passivo.",
+        "O resultado consolidado é segregado entre controladora e não controladores.",
+        "Base legal: Lei 6.404/76 arts. 249 e 250; CPC 36 (R3)."
+      ],
+      "dica_prova": "Pegadinhas frequentes: (1) afirmar que coligadas são consolidadas — não são, vão por MEP; (2) colocar a participação de não controladores no PASSIVO — ela fica no PL consolidado; (3) consolidar apenas a parcela proporcional da controlada (ex.: só 80%) — na consolidação integral somam-se 100% das contas, destacando depois a parte dos minoritários. Memorize que o lucro não realizado a eliminar é o que está RETIDO no estoque do grupo, não o total vendido."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Tributos diferidos",
+      "intro": "Os tributos diferidos surgem do descompasso entre o lucro contábil (apurado segundo as normas contábeis) e o lucro fiscal (base de cálculo do IRPJ e da CSLL). Esse descompasso decorre de diferenças no momento em que receitas e despesas são reconhecidas para fins contábeis e para fins fiscais. Quando essas diferenças são TEMPORÁRIAS — ou seja, vão se reverter no futuro — geram ativos e passivos fiscais diferidos.\n\nA ideia central é o regime de competência aplicado aos tributos sobre o lucro: se um custo será dedutível no futuro, mas já reduziu o lucro contábil agora, há um benefício fiscal futuro a reconhecer (ativo fiscal diferido); se uma receita já aumentou o lucro contábil mas só será tributada depois, há uma obrigação fiscal futura (passivo fiscal diferido). O objetivo é casar, no resultado, a despesa de tributos com o lucro contábil que a originou.\n\nA matéria é regida pelo CPC 32 — Tributos sobre o Lucro (IAS 12) e tem grande relevância para o Auditor-Fiscal, que precisa entender o cruzamento entre escrituração contábil e apuração fiscal (LALUR/e-Lalur, Lei 12.973/14)."
+      ,
+      "secoes": [
+        {
+          "h": "Diferenças temporárias x permanentes",
+          "p": "Distinção essencial e muito cobrada:\n\n- Diferenças TEMPORÁRIAS: vão se reverter em períodos futuros; geram tributos diferidos. Ex.: provisão para garantia (despesa contábil agora, dedutível só quando paga); depreciação acelerada incentivada (dedução fiscal maior que a contábil agora, reversão depois).\n\n- Diferenças PERMANENTES (definitivas): nunca se revertem; NÃO geram tributos diferidos, apenas ajustam a base do exercício. Ex.: multas não dedutíveis, brindes, resultado de equivalência patrimonial, receitas isentas como dividendos.\n\nApenas as diferenças temporárias produzem ativos/passivos fiscais diferidos. Confundir os dois tipos é erro recorrente em prova."
+        },
+        {
+          "h": "Ativo fiscal diferido (diferença temporária dedutível)",
+          "p": "Surge quando uma despesa é reconhecida contabilmente AGORA, mas só será dedutível no FUTURO (ou quando uma receita é tributada agora e reconhecida contabilmente depois). Como o tributo pago hoje é maior do que o que corresponderia ao lucro contábil, há um benefício fiscal futuro: o ativo fiscal diferido.\n\nExemplos: provisões não dedutíveis no exercício (provisão para contingências, para garantia, para devedores duvidosos não enquadrada nas regras de dedução), prejuízos fiscais e bases negativas de CSLL a compensar.\n\nRequisito de reconhecimento (CPC 32): o ativo fiscal diferido só é reconhecido quando for PROVÁVEL a existência de lucros tributáveis futuros suficientes para sua realização (princípio da prudência). Sem perspectiva de lucro futuro, não se reconhece."
+        },
+        {
+          "h": "Passivo fiscal diferido (diferença temporária tributável)",
+          "p": "Surge quando uma receita é reconhecida contabilmente AGORA, mas só será tributada no FUTURO (ou quando uma despesa é deduzida fiscalmente agora e reconhecida contabilmente depois). O tributo pago hoje é menor do que o correspondente ao lucro contábil; há uma obrigação fiscal futura: o passivo fiscal diferido.\n\nExemplos: depreciação acelerada incentivada (dedução fiscal acima da contábil hoje, gerando tributo a pagar maior nos anos futuros quando a depreciação contábil continuar e a fiscal já tiver se esgotado); receitas reconhecidas pela competência mas tributadas pelo recebimento.\n\nO passivo fiscal diferido é sempre reconhecido (não há requisito de probabilidade, ao contrário do ativo)."
+        },
+        {
+          "h": "Mensuração e apresentação",
+          "p": "Os tributos diferidos são mensurados pela alíquota esperada para o período da reversão (no Brasil, em regra, 25% de IRPJ — 15% + adicional de 10% — e 9% de CSLL, totalizando 34% para empresas em geral). Não se descontam a valor presente. Apresentam-se no ATIVO e no PASSIVO NÃO CIRCULANTE. O CPC 32 admite a compensação de ativos e passivos fiscais diferidos quando há direito legalmente executável e referem-se à mesma autoridade fiscal. A despesa total de IRPJ/CSLL no resultado é a soma da parte corrente (devida no período) com a parte diferida (variação dos diferidos)."
+        }
+      ],
+      "exemplo": "A Cia. Delta constituiu, no exercício, uma provisão para contingências trabalhentes de R$ 200.000, indedutível no IRPJ/CSLL enquanto não houver o desembolso (decisão judicial). Alíquota combinada: 34%.\n\nDiferença temporária dedutível: a despesa reduziu o lucro contábil agora, mas só será dedutível quando paga. Surge ATIVO fiscal diferido = 34% x R$ 200.000 = R$ 68.000.\nLançamento: D — Ativo Fiscal Diferido R$ 68.000 / C — Despesa de IRPJ/CSLL Diferida (resultado) R$ 68.000. No e-Lalur, adiciona-se a provisão de R$ 200.000 ao lucro real do exercício.\n\nNo futuro, ao pagar a contingência, a despesa torna-se dedutível (exclusão no e-Lalur) e o ativo fiscal diferido é realizado (revertido).\n\nContraexemplo permanente: uma multa de trânsito de R$ 5.000 (indedutível e definitiva) NÃO gera tributo diferido — é diferença permanente; apenas se adiciona ao lucro real do período, sem reflexo em diferidos.",
+      "pontos_chave": [
+        "Tributos diferidos nascem de diferenças TEMPORÁRIAS entre lucro contábil e lucro fiscal.",
+        "Diferenças permanentes (multas, equivalência, dividendos isentos) NÃO geram diferidos.",
+        "Diferença temporária dedutível -> ATIVO fiscal diferido (benefício fiscal futuro).",
+        "Diferença temporária tributável -> PASSIVO fiscal diferido (obrigação fiscal futura).",
+        "Ativo fiscal diferido só é reconhecido se provável lucro tributável futuro (prudência).",
+        "Mensuração pela alíquota esperada na reversão (em geral 34%), sem ajuste a valor presente.",
+        "Classificam-se no não circulante; base normativa: CPC 32 (IAS 12) e Lei 12.973/14."
+      ],
+      "dica_prova": "As bancas adoram trocar os sentidos: diferença DEDUTÍVEL gera ATIVO; diferença TRIBUTÁVEL gera PASSIVO. Memorize 'dedutível = direito (ativo)' e 'tributável = obrigação (passivo)'. Outra pegadinha: afirmar que diferença permanente gera diferido — não gera. E cuidado com o reconhecimento assimétrico: o passivo diferido é sempre reconhecido, mas o ativo depende da probabilidade de lucros futuros."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Terminologia",
+      "intro": "A contabilidade de custos começa pela precisão vocabular. Termos que no uso cotidiano são sinônimos — gasto, custo, despesa, investimento, perda, desembolso — têm significados técnicos distintos e mutuamente excludentes na contabilidade. Errar a terminologia leva a classificar incorretamente os elementos e, em prova, é fonte garantida de pegadinhas.\n\nO conceito-guarda-chuva é o GASTO: todo sacrifício financeiro que a entidade arca para obter um bem ou serviço, representado por entrega ou promessa de entrega de ativos. A partir do gasto, conforme a destinação do bem/serviço adquirido, o valor se desdobra em investimento, custo, despesa ou perda. O desembolso, por sua vez, é apenas o pagamento (saída de caixa), que pode ocorrer antes, durante ou depois do gasto.\n\nEsta seção também introduz a classificação dos custos quanto à forma de apropriação: diretos (apropriáveis diretamente ao produto) e indiretos (que exigem rateio — os CIF). Tema básico, porém de alta frequência e excelente custo-benefício para o concurseiro."
+      ,
+      "secoes": [
+        {
+          "h": "Os termos fundamentais",
+          "p": "- GASTO: sacrifício financeiro para obter bem ou serviço (gênero do qual os demais são espécies). Ex.: comprar matéria-prima, contratar mão de obra, adquirir uma máquina.\n- INVESTIMENTO: gasto ativado (registrado no ativo) em função de benefícios futuros. Ex.: compra de máquina, aquisição de estoque que ainda não foi consumido.\n- CUSTO: gasto relativo a bem/serviço consumido na PRODUÇÃO de outros bens/serviços. Ex.: matéria-prima consumida, salário da mão de obra fabril, energia da fábrica.\n- DESPESA: gasto consumido, direta ou indiretamente, para a OBTENÇÃO DE RECEITAS, fora do processo produtivo. Ex.: comissão de vendedores, aluguel do escritório administrativo, juros.\n- PERDA: bem ou serviço consumido de forma ANORMAL e involuntária. Ex.: incêndio, deterioração por enchente, material estragado fora do padrão.\n- DESEMBOLSO: pagamento (saída de caixa), independente do momento do gasto."
+        },
+        {
+          "h": "Custo x despesa: a fronteira da fábrica",
+          "p": "A distinção mais cobrada é entre custo e despesa. A régua é a FÁBRICA (processo produtivo): gastos ligados à produção são CUSTOS (vão para o estoque, integram o produto e só viram resultado quando o produto é vendido, como CMV/CPV); gastos não ligados à produção, voltados a administração e vendas, são DESPESAS (vão direto para o resultado do período).\n\nMesmo gasto pode ser custo ou despesa conforme a área: a energia elétrica da FÁBRICA é custo; a energia do ESCRITÓRIO é despesa. A depreciação da máquina produtiva é custo; a depreciação dos móveis da administração é despesa. Esse 'mesmo item, classificações diferentes' é prato cheio para a banca."
+        },
+        {
+          "h": "Custos diretos x indiretos",
+          "p": "Quanto à forma de apropriação ao produto:\n\n- CUSTOS DIRETOS: identificáveis e apropriáveis DIRETAMENTE a cada produto, por medição objetiva, sem rateio. Ex.: matéria-prima (por requisição), mão de obra direta (por horas trabalhadas no produto).\n\n- CUSTOS INDIRETOS DE FABRICAÇÃO (CIF): não são diretamente identificáveis com o produto, exigindo RATEIO por algum critério (horas-máquina, horas de MOD, área etc.). Ex.: aluguel da fábrica, depreciação fabril, supervisão, energia comum, materiais indiretos.\n\nO rateio sempre envolve subjetividade — daí o surgimento de métodos como o ABC para refinar a alocação dos indiretos."
+        },
+        {
+          "h": "Perda x desperdício e custo de produção do período",
+          "p": "Perdas NORMAIS e inerentes ao processo (ex.: pequena evaporação, aparas previsíveis) integram o custo do produto; perdas ANORMAIS (incêndio, sabotagem) são lançadas diretamente como despesa/perda do período, não compondo o custo do produto. O Custo de Produção do Período (CPP) é a soma de Materiais Diretos + Mão de Obra Direta + Custos Indiretos de Fabricação incorridos no período — distinto do Custo dos Produtos Vendidos (CPV/CMV), que considera os estoques inicial e final de produtos acabados."
+        }
+      ],
+      "exemplo": "Classifique cada item da Indústria Sigma:\n\n(a) Compra de uma máquina de R$ 500.000 -> GASTO que se torna INVESTIMENTO (ativo imobilizado); ao usar, gera CUSTO via depreciação fabril.\n(b) Matéria-prima consumida na produção, R$ 80.000 -> CUSTO (direto).\n(c) Salário dos operários da linha de montagem -> CUSTO (mão de obra direta).\n(d) Aluguel do galpão da fábrica -> CUSTO INDIRETO (CIF, exige rateio entre produtos).\n(e) Comissão paga a vendedores -> DESPESA (ligada à venda, não à produção).\n(f) Aluguel do escritório administrativo -> DESPESA.\n(g) Mercadoria destruída por um incêndio -> PERDA (anormal, vai ao resultado).\n(h) Pagamento, em dinheiro, da matéria-prima comprada a prazo no mês anterior -> DESEMBOLSO (apenas saída de caixa; o custo/gasto ocorreu antes).\n\nObserve como o mesmo 'aluguel' é custo na fábrica (d) e despesa no escritório (f).",
+      "pontos_chave": [
+        "Gasto é o gênero; investimento, custo, despesa e perda são espécies conforme a destinação.",
+        "Custo = gasto consumido na PRODUÇÃO; despesa = gasto para obter RECEITA fora da produção.",
+        "Desembolso é o pagamento (caixa), pode não coincidir com o momento do gasto.",
+        "Perda anormal vai ao resultado; perda normal integra o custo do produto.",
+        "Custos diretos são apropriados sem rateio; indiretos (CIF) exigem rateio.",
+        "O mesmo item pode ser custo ou despesa conforme a área (fábrica x administração).",
+        "Custo do produto só vira resultado (CMV/CPV) quando o produto é vendido."
+      ],
+      "dica_prova": "A pegadinha-mãe é misturar custo e despesa: tudo que é da FÁBRICA é custo; o que é de administração/vendas é despesa. Cuidado com 'desembolso' apresentado como sinônimo de gasto — desembolso é só o pagamento. Outra clássica: classificar perda anormal (incêndio) como custo do produto — ela é perda/despesa do período. E lembre: comprar máquina é INVESTIMENTO, não custo; o custo vem depois, pela depreciação."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Fixos e variáveis",
+      "intro": "A classificação dos custos em fixos e variáveis adota como critério a relação entre o custo e o VOLUME de produção (ou de atividade). É a base de toda a análise gerencial de custos, especialmente da análise custo-volume-lucro, da margem de contribuição e do ponto de equilíbrio.\n\nCustos VARIÁVEIS são aqueles cujo total oscila proporcionalmente ao volume produzido: quanto mais se produz, maior o custo total; se a produção é zero, o custo variável total é zero. Custos FIXOS, ao contrário, mantêm-se constantes em seu total dentro de certo intervalo de produção (capacidade instalada), independentemente de quanto se produz — existem mesmo que a produção seja nula.\n\nUma sutileza crucial e muito cobrada: a classificação fixo/variável refere-se ao comportamento do custo TOTAL. Quando se olha o custo UNITÁRIO, o comportamento se inverte — o custo variável unitário tende a ser constante, e o custo fixo unitário diminui à medida que a produção aumenta (diluição do fixo)."
+      ,
+      "secoes": [
+        {
+          "h": "Custos variáveis",
+          "p": "São os custos que variam em VALOR TOTAL na proporção direta do volume de produção. O exemplo típico é a matéria-prima: produzir o dobro de unidades consome (aproximadamente) o dobro de matéria-prima. Outros exemplos: embalagens, comissões sobre produção, energia diretamente consumida pelas máquinas em função do volume.\n\nComportamento: o custo variável TOTAL cresce com o volume; o custo variável UNITÁRIO permanece constante (cada unidade carrega o mesmo valor). Em prova, é comum a inversão: descrever o custo variável unitário como se variasse — ele tende a ser estável; o que varia é o total."
+        },
+        {
+          "h": "Custos fixos",
+          "p": "São os custos que permanecem constantes em VALOR TOTAL, dentro de um intervalo relevante de capacidade, qualquer que seja o volume produzido. Exemplos: aluguel da fábrica, salário da supervisão e do pessoal fixo, depreciação linear das instalações, seguro da planta, IPTU da fábrica.\n\nComportamento: o custo fixo TOTAL é constante; o custo fixo UNITÁRIO DIMINUI conforme a produção aumenta (o mesmo valor fixo é diluído por mais unidades). Por isso, ganhos de escala reduzem o custo fixo por unidade. Atenção ao 'intervalo relevante': fora dele (ex.: necessidade de novo galpão), o custo fixo dá um 'salto' — são os chamados custos fixos em degraus (semifixos)."
+        },
+        {
+          "h": "Custos semivariáveis e semifixos",
+          "p": "Na prática, muitos custos não são puramente fixos nem variáveis:\n\n- SEMIVARIÁVEIS (mistos): têm uma parcela fixa e outra variável. Ex.: conta de energia elétrica com taxa mínima fixa + consumo proporcional; telefonia com assinatura + ligações.\n- SEMIFIXOS (em degraus): permanecem fixos dentro de faixas de produção e saltam para outro patamar quando se ultrapassa a faixa. Ex.: contratar um supervisor adicional a cada turno extra de produção.\n\nA banca pode cobrar a decomposição de um custo misto em suas partes fixa e variável (método dos pontos de máximo e mínimo, por exemplo)."
+        },
+        {
+          "h": "Por que essa classificação importa: a base CVL",
+          "p": "A separação fixo/variável é o alicerce do custeio variável e da análise custo-volume-lucro (CVL). A MARGEM DE CONTRIBUIÇÃO (preço de venda unitário − custo/despesa variável unitário) só faz sentido com essa distinção. O PONTO DE EQUILÍBRIO depende de identificar os custos fixos totais a serem cobertos pela margem. Por isso, dominar fixo x variável é pré-requisito para os temas seguintes. Não confundir com a classificação direto/indireto: um custo pode ser direto e variável (matéria-prima), indireto e fixo (aluguel da fábrica), indireto e variável (energia comum por volume) etc. — são critérios independentes."
+        }
+      ],
+      "exemplo": "A Fábrica Ômega produz cadeiras. Custos mensais:\n- Aluguel da fábrica: R$ 30.000 (FIXO).\n- Matéria-prima: R$ 40 por cadeira (VARIÁVEL).\n- Salário da supervisão: R$ 10.000 (FIXO).\n\nProduzindo 1.000 cadeiras:\n- Custo variável total = 1.000 x R$ 40 = R$ 40.000; custo variável unitário = R$ 40.\n- Custo fixo total = R$ 40.000 (30.000 + 10.000); custo fixo unitário = 40.000 / 1.000 = R$ 40.\n\nProduzindo 2.000 cadeiras:\n- Custo variável total = 2.000 x R$ 40 = R$ 80.000 (DOBROU); custo variável unitário = R$ 40 (CONSTANTE).\n- Custo fixo total = R$ 40.000 (CONSTANTE); custo fixo unitário = 40.000 / 2.000 = R$ 20 (CAIU pela metade).\n\nConclusão: ao dobrar a produção, o custo total por unidade caiu (de R$ 80 para R$ 60), porque o fixo foi diluído. Esse é o efeito de escala que as bancas adoram cobrar.",
+      "pontos_chave": [
+        "Critério: relação com o VOLUME de produção/atividade.",
+        "Variável total cresce com o volume; variável unitário é constante.",
+        "Fixo total é constante (no intervalo relevante); fixo unitário DIMINUI com mais produção.",
+        "Custos mistos: semivariáveis (parte fixa + variável) e semifixos (em degraus).",
+        "Fixo/variável é critério INDEPENDENTE de direto/indireto.",
+        "É a base da margem de contribuição, do ponto de equilíbrio e da análise CVL.",
+        "Custo fixo existe mesmo com produção zero; variável é zero se nada se produz."
+      ],
+      "dica_prova": "A pegadinha clássica é a inversão unitário x total: o custo FIXO UNITÁRIO diminui com o aumento da produção (não o total), e o VARIÁVEL UNITÁRIO é constante (o que varia é o total). Memorize a tabela mental: fixo -> total constante, unitário cai; variável -> total varia, unitário constante. Não confunda fixo/variável (volume) com direto/indireto (apropriação): aluguel da fábrica é fixo e indireto; matéria-prima é variável e direta."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Absorção x variável",
+      "intro": "Custeio é a forma de apropriar custos aos produtos. Os dois métodos mais cobrados são o custeio por ABSORÇÃO e o custeio VARIÁVEL (também chamado direto), que diferem fundamentalmente no tratamento dado aos CUSTOS FIXOS de produção.\n\nNo custeio por ABSORÇÃO, todos os custos de produção — fixos e variáveis, diretos e indiretos — são apropriados aos produtos. Os produtos 'absorvem' os custos fixos, que só viram resultado quando os produtos são vendidos (até lá ficam no estoque). É o método exigido pela legislação societária (Lei 6.404/76) e fiscal (RIR) para fins de balanço e apuração de tributos.\n\nNo custeio VARIÁVEL, apenas os custos VARIÁVEIS de produção integram os produtos; os custos FIXOS são tratados como despesa do período, indo integralmente para o resultado, independentemente de venda. É um método GERENCIAL (não aceito para balanço/fisco) que tem a vantagem de isolar a margem de contribuição e evitar distorções do rateio dos custos fixos."
+      ,
+      "secoes": [
+        {
+          "h": "Custeio por absorção",
+          "p": "Apropria aos produtos TODOS os custos de produção (matéria-prima, MOD e CIF, sejam fixos ou variáveis). As despesas (administrativas e de vendas) NÃO entram no custo do produto — vão direto ao resultado. Os custos fixos de produção são incorporados ao estoque e reconhecidos no resultado apenas na proporção das unidades vendidas (via CPV/CMV); o restante fica 'estocado'.\n\nVantagens: atende à legislação societária/fiscal (princípio da competência e confrontação) e aos CPCs (CPC 16 — Estoques exige a inclusão dos custos fixos de transformação, com base na capacidade normal). Desvantagem gerencial: o rateio dos custos fixos é arbitrário e o lucro fica sensível ao volume de estoque produzido."
+        },
+        {
+          "h": "Custeio variável (direto)",
+          "p": "Apropria aos produtos apenas os custos VARIÁVEIS de produção. Os custos FIXOS de produção, por serem considerados custos de estar em operação (de capacidade) e não de produzir esta ou aquela unidade, são levados integralmente ao resultado do período como despesa, sem transitar pelo estoque.\n\nVantagem central: permite calcular a MARGEM DE CONTRIBUIÇÃO (receita − custos e despesas variáveis), base para decisões de preço, mix de produtos, ponto de equilíbrio e alavancagem. O lucro pelo custeio variável depende apenas das VENDAS, não do volume produzido/estocado. Por não respeitar integralmente a competência (joga todo o fixo no período), NÃO é aceito para fins societários nem fiscais — é exclusivamente gerencial."
+        },
+        {
+          "h": "Diferença de lucro entre os dois métodos",
+          "p": "A diferença de resultado entre absorção e variável está no tratamento dos custos fixos retidos em estoque:\n\n- Se a produção é IGUAL às vendas (estoque estável): os dois métodos dão o MESMO lucro.\n- Se a produção é MAIOR que as vendas (estoque AUMENTA): o absorção 'estoca' parte dos custos fixos, gerando lucro MAIOR que o variável (que joga todo o fixo no resultado).\n- Se a produção é MENOR que as vendas (estoque DIMINUI): o absorção libera custos fixos de estoques anteriores no CPV, gerando lucro MENOR que o variável.\n\nEsse comportamento é uma das pegadinhas mais frequentes em prova de custos."
+        },
+        {
+          "h": "Aspectos legais e normativos",
+          "p": "O custeio por absorção é o único aceito para a elaboração das demonstrações contábeis societárias (Lei 6.404/76) e para a apuração do IRPJ/CSLL no lucro real (RIR/2018). O CPC 16 (Estoques) determina que o custo de transformação inclua a parcela de custos fixos de produção alocada com base na capacidade NORMAL das instalações (custos fixos não absorvidos por ociosidade vão ao resultado, não ao estoque). O custeio variável é vedado para fins fiscais e de balanço, servindo apenas à contabilidade gerencial."
+        }
+      ],
+      "exemplo": "A Cia. Teta produziu 1.000 unidades e vendeu 800. Dados: custo variável de produção = R$ 60/un; custos fixos de produção = R$ 40.000; preço de venda = R$ 150/un; despesas variáveis de venda = R$ 10/un.\n\nCusteio por ABSORÇÃO:\n- Custo fixo unitário = 40.000 / 1.000 = R$ 40/un. Custo unitário total = 60 + 40 = R$ 100.\n- CPV = 800 x 100 = R$ 80.000. Estoque final = 200 x 100 = R$ 20.000 (inclui R$ 8.000 de custo fixo retido).\n- Receita = 800 x 150 = R$ 120.000. Despesas variáveis = 800 x 10 = R$ 8.000.\n- Lucro = 120.000 − 80.000 − 8.000 = R$ 32.000.\n\nCusteio VARIÁVEL:\n- Custo dos produtos vendidos (só variável) = 800 x 60 = R$ 48.000.\n- Margem de contribuição = 120.000 − 48.000 − 8.000 (desp. var.) = R$ 64.000.\n- Custos fixos no período (TODOS) = R$ 40.000.\n- Lucro = 64.000 − 40.000 = R$ 24.000.\n\nDiferença = 32.000 − 24.000 = R$ 8.000 = exatamente o custo fixo retido no estoque (200 un x R$ 40). Como a produção (1.000) superou as vendas (800), o absorção apresentou lucro MAIOR.",
+      "pontos_chave": [
+        "Absorção: todos os custos de produção (fixos + variáveis) vão ao produto; despesas vão ao resultado.",
+        "Variável: só custos variáveis vão ao produto; custos fixos são despesa integral do período.",
+        "Só o absorção é aceito para fins societários (Lei 6.404/76) e fiscais (RIR); variável é gerencial.",
+        "Variável isola a margem de contribuição e o lucro depende só das VENDAS.",
+        "Produção = vendas -> lucros iguais; produção > vendas -> absorção tem lucro maior; produção < vendas -> absorção menor.",
+        "A diferença de lucro equivale ao custo fixo retido/liberado nos estoques.",
+        "CPC 16: custos fixos no estoque pela capacidade NORMAL; ociosidade vai ao resultado."
+      ],
+      "dica_prova": "Decore a regra dos estoques: quando a produção SUPERA as vendas, o ABSORÇÃO mostra lucro MAIOR (estoca custo fixo); quando as vendas superam a produção, o variável é maior. A pegadinha mais comum é afirmar que o custeio variável é aceito pela legislação fiscal — NÃO é, é apenas gerencial. Outra: dizer que no absorção as despesas administrativas entram no custo do produto — não entram, só os custos de PRODUÇÃO entram."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "Custeio ABC",
+      "intro": "O custeio baseado em atividades (Activity-Based Costing — ABC) é um método de apropriação de custos indiretos que busca reduzir as distorções provocadas pelo rateio arbitrário típico do custeio por absorção tradicional. Em vez de ratear os custos indiretos diretamente aos produtos por uma base única e simplista (como horas de mão de obra ou volume), o ABC reconhece que são as ATIVIDADES que consomem recursos, e os produtos que consomem atividades.\n\nO ABC parte de uma premissa: em ambientes produtivos modernos, os custos indiretos cresceram muito (automação, qualidade, logística, engenharia, set-ups) e nem sempre se relacionam ao volume produzido. Ratear esses custos por bases ligadas a volume penaliza produtos de grande escala e subcusteia produtos de pequena escala mas alta complexidade — gerando decisões erradas de preço e mix.\n\nO método se desenvolve em dois estágios: primeiro, os recursos (custos indiretos) são alocados às atividades; depois, as atividades são alocadas aos produtos por meio de DIRECIONADORES DE CUSTO (cost drivers). É tema cada vez mais presente em provas de contabilidade gerencial para concursos fiscais."
+      ,
+      "secoes": [
+        {
+          "h": "Lógica e etapas do ABC",
+          "p": "O raciocínio do ABC: 'os produtos consomem atividades; as atividades consomem recursos'. A apropriação ocorre em duas fases:\n\n1ª fase — dos recursos às atividades: os custos indiretos (recursos: energia, depreciação, salários de apoio) são atribuídos às atividades por meio de DIRECIONADORES DE RECURSOS (ex.: % do tempo de um funcionário em cada atividade).\n2ª fase — das atividades aos produtos: o custo acumulado em cada atividade é atribuído aos produtos por meio de DIRECIONADORES DE ATIVIDADE (cost drivers), que medem quanto cada produto demanda daquela atividade (ex.: número de set-ups, número de ordens de compra, número de inspeções)."
+        },
+        {
+          "h": "Direcionadores de custo (cost drivers)",
+          "p": "O direcionador de custo é o fator que determina ou explica o consumo de uma atividade — a 'régua' usada para distribuir o custo da atividade aos produtos. A escolha de bons direcionadores é o coração do ABC. Exemplos:\n\n- Atividade 'preparar máquinas (set-up)' -> direcionador: número de set-ups.\n- Atividade 'processar pedidos de compra' -> direcionador: número de pedidos.\n- Atividade 'inspecionar qualidade' -> direcionador: número de inspeções.\n- Atividade 'movimentar materiais' -> direcionador: número de movimentações.\n\nDistinguem-se direcionadores de RECURSOS (1ª fase) e de ATIVIDADES (2ª fase). Bancas cobram exatamente essa terminologia."
+        },
+        {
+          "h": "Vantagens e limitações",
+          "p": "Vantagens: maior precisão na alocação dos custos indiretos, especialmente em empresas com produtos diversificados e processos complexos; melhora as decisões de precificação, mix e eliminação de produtos; permite a gestão por atividades (ABM — Activity-Based Management), identificando atividades que não agregam valor.\n\nLimitações: implementação cara e trabalhosa (mapear atividades e direcionadores); pode ser complexo demais para estruturas simples; ainda envolve alguma subjetividade na definição de atividades e drivers; não é aceito para fins fiscais/societários (também é gerencial, como o variável). O ganho do ABC é maior quanto MAIOR a participação dos custos indiretos e a diversidade de produtos."
+        },
+        {
+          "h": "ABC x custeio tradicional por absorção",
+          "p": "No absorção tradicional, os CIF costumam ser rateados por uma base única e ligada ao volume (horas-máquina, MOD), o que pode distorcer o custo de produtos de baixo volume e alta complexidade. No ABC, múltiplas atividades e múltiplos direcionadores capturam melhor o real consumo de recursos. Importante: o ABC NÃO substitui o conceito de custeio por absorção para fins legais — ele é uma técnica mais sofisticada de ALOCAÇÃO DOS INDIRETOS, geralmente usada gerencialmente. Tanto absorção quanto ABC apropriam custos indiretos aos produtos; a diferença está na forma (base única x atividades/direcionadores)."
+        }
+      ],
+      "exemplo": "A Indústria Pi fabrica dois produtos: A (alto volume, simples) e B (baixo volume, complexo, exige muitos set-ups e inspeções). Custos indiretos de R$ 200.000, sendo R$ 120.000 da atividade 'set-up' e R$ 80.000 da atividade 'inspeção'.\n\nDados de consumo:\n- Set-ups: A faz 10, B faz 30 (total 40). Direcionador: número de set-ups.\n- Inspeções: A tem 20, B tem 60 (total 80). Direcionador: número de inspeções.\n\nAlocação pelo ABC:\n- Custo por set-up = 120.000 / 40 = R$ 3.000. A recebe 10 x 3.000 = R$ 30.000; B recebe 30 x 3.000 = R$ 90.000.\n- Custo por inspeção = 80.000 / 80 = R$ 1.000. A recebe 20 x 1.000 = R$ 20.000; B recebe 60 x 1.000 = R$ 60.000.\n- Total indireto: A = R$ 50.000; B = R$ 150.000.\n\nNo rateio tradicional por volume, o produto A (alto volume) absorveria a maior parte dos R$ 200.000, subcusteando B. O ABC revela que B, por sua complexidade, consome muito mais dos custos indiretos — informação decisiva para precificar B corretamente.",
+      "pontos_chave": [
+        "Premissa: produtos consomem ATIVIDADES; atividades consomem RECURSOS.",
+        "Duas fases: recursos -> atividades (direcionadores de recursos) e atividades -> produtos (direcionadores de atividade).",
+        "Direcionador de custo (cost driver) é o fator que distribui o custo da atividade aos produtos.",
+        "Reduz distorções do rateio por base única, ideal para produtos diversos e muitos custos indiretos.",
+        "Permite a gestão por atividades (ABM) e identifica atividades que não agregam valor.",
+        "Limitações: caro, complexo e não aceito para fins fiscais/societários (é gerencial).",
+        "Ganho do ABC cresce com a participação dos custos indiretos e a diversidade de produtos."
+      ],
+      "dica_prova": "Memorize a frase-chave: 'produtos consomem atividades, atividades consomem recursos'. A pegadinha mais comum é trocar os direcionadores: direcionador de RECURSOS é da 1ª fase (recursos -> atividades); direcionador de ATIVIDADE é da 2ª fase (atividades -> produtos). Cuidado também em afirmar que o ABC serve para fins fiscais — não serve, é gerencial. E lembre: o ABC se justifica quando os custos INDIRETOS são relevantes e os produtos, diversos."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Ponto de equilíbrio",
+      "intro": "O ponto de equilíbrio (break-even point) é o nível de atividade (volume de vendas em unidades ou em valor) no qual a empresa não tem lucro nem prejuízo: a receita total iguala-se à soma de todos os custos e despesas. Abaixo desse ponto, há prejuízo; acima dele, lucro. É o cálculo central da análise custo-volume-lucro (CVL) e instrumento essencial para decisões de preço, metas de venda e viabilidade.\n\nA ferramenta que viabiliza o cálculo é a MARGEM DE CONTRIBUIÇÃO (MC): a diferença entre o preço de venda e os custos e despesas variáveis. Cada unidade vendida 'contribui' com sua margem para, primeiro, cobrir os custos fixos e, depois de cobertos, formar o lucro. O ponto de equilíbrio é exatamente o volume em que a soma das margens de contribuição cobre integralmente os custos fixos.\n\nExistem três variantes muito cobradas: ponto de equilíbrio CONTÁBIL, ECONÔMICO e FINANCEIRO. A distinção entre elas — especialmente o ajuste pela depreciação no financeiro e pela remuneração do capital no econômico — é uma fonte recorrente de questões em provas fiscais."
+      ,
+      "secoes": [
+        {
+          "h": "Margem de contribuição: a base do cálculo",
+          "p": "Margem de Contribuição Unitária (MCu) = Preço de venda unitário − (Custos variáveis unitários + Despesas variáveis unitárias).\n\nA MC representa quanto cada unidade contribui para cobrir os custos fixos e gerar lucro. A Razão de Contribuição (ou índice de MC) = MCu / Preço de venda, usada para calcular o ponto de equilíbrio em VALOR (R$). Sem a separação entre custos fixos e variáveis (tema do custeio variável), a margem de contribuição não pode ser apurada. Por isso, o ponto de equilíbrio está intimamente ligado ao custeio variável."
+        },
+        {
+          "h": "Ponto de equilíbrio contábil (PEC)",
+          "p": "É o volume de vendas em que a receita total cobre todos os custos e despesas (fixos e variáveis), resultando em lucro contábil ZERO.\n\nEm unidades: PEC = Custos e Despesas Fixos Totais / Margem de Contribuição Unitária.\nEm valor (R$): PEC = Custos e Despesas Fixos Totais / Razão de Contribuição.\n\nÉ o ponto de equilíbrio 'puro'. Atinge-se o equilíbrio contábil quando a margem de contribuição total iguala os custos fixos totais."
+        },
+        {
+          "h": "Ponto de equilíbrio econômico (PEE) e financeiro (PEF)",
+          "p": "- PONTO DE EQUILÍBRIO ECONÔMICO (PEE): considera, além dos custos fixos, um LUCRO MÍNIMO desejado (geralmente o custo de oportunidade do capital próprio investido). Fórmula: PEE = (Custos Fixos + Lucro Mínimo Desejado) / MCu. O PEE é SEMPRE MAIOR que o contábil, pois exige cobrir os fixos E ainda gerar o retorno almejado.\n\n- PONTO DE EQUILÍBRIO FINANCEIRO (PEF): considera apenas os desembolsos efetivos; portanto, EXCLUI dos custos fixos as despesas que não representam saída de caixa, sobretudo a DEPRECIAÇÃO (e amortização). Fórmula: PEF = (Custos Fixos − Depreciação/itens não desembolsáveis + desembolsos não computados, como amortização de dívida) / MCu. Como retira a depreciação, o PEF é normalmente MENOR que o contábil. Ele indica o volume mínimo para a empresa não ficar sem caixa."
+        },
+        {
+          "h": "Margem de segurança e relação com a alavancagem",
+          "p": "A MARGEM DE SEGURANÇA é o quanto as vendas atuais (ou projetadas) superam o ponto de equilíbrio — um 'colchão' antes de a empresa entrar em prejuízo. Pode ser expressa em unidades, em valor ou em percentual. Quanto maior a margem de segurança, menor o risco operacional.\n\nRelacionado, o GRAU DE ALAVANCAGEM OPERACIONAL (GAO) mede a sensibilidade do lucro a variações nas vendas (GAO = Margem de Contribuição Total / Lucro Operacional). Empresas com altos custos fixos têm maior alavancagem: pequenas variações de vendas provocam grandes variações no lucro — o que amplia tanto ganhos quanto perdas."
+        }
+      ],
+      "exemplo": "A Cia. Lambda vende um produto por R$ 50/un. Custos e despesas variáveis = R$ 30/un. Custos fixos = R$ 100.000/mês, dos quais R$ 20.000 são depreciação. O custo de oportunidade do capital (lucro mínimo desejado) é R$ 40.000.\n\nMargem de contribuição unitária = 50 − 30 = R$ 20.\nRazão de contribuição = 20 / 50 = 0,40 (40%).\n\nPonto de equilíbrio CONTÁBIL:\n- Em unidades: 100.000 / 20 = 5.000 unidades.\n- Em valor: 100.000 / 0,40 = R$ 250.000 (confirma: 5.000 x R$ 50).\n\nPonto de equilíbrio ECONÔMICO:\n- (100.000 + 40.000) / 20 = 140.000 / 20 = 7.000 unidades. (Maior que o contábil, pois exige lucro mínimo.)\n\nPonto de equilíbrio FINANCEIRO:\n- (100.000 − 20.000) / 20 = 80.000 / 20 = 4.000 unidades. (Menor que o contábil, pois exclui a depreciação, que não é desembolso.)\n\nSe a empresa vende 6.000 unidades, a margem de segurança sobre o PEC é de 1.000 unidades (ou 20% acima do equilíbrio contábil).",
+      "pontos_chave": [
+        "Ponto de equilíbrio: receita total = custos + despesas totais; lucro zero.",
+        "Margem de contribuição unitária = preço − custos e despesas variáveis unitários.",
+        "PEC em unidades = Custos Fixos / MCu; em valor = Custos Fixos / Razão de Contribuição.",
+        "PEE acrescenta o lucro mínimo desejado -> é MAIOR que o contábil.",
+        "PEF exclui a depreciação (não desembolso) -> é MENOR que o contábil.",
+        "Margem de segurança = excesso das vendas sobre o ponto de equilíbrio (colchão contra prejuízo).",
+        "Alta proporção de custos fixos aumenta o grau de alavancagem operacional (GAO)."
+      ],
+      "dica_prova": "Memorize a ordem de grandeza: PEF < PEC < PEE (financeiro menor, pois tira depreciação; econômico maior, pois soma lucro mínimo). A pegadinha clássica é somar a depreciação no financeiro — pelo contrário, ela é EXCLUÍDA. Outra: usar o custo unitário total (com fixo) no denominador — o correto é a MARGEM DE CONTRIBUIÇÃO (preço menos os VARIÁVEIS). Cuidado também: ponto de equilíbrio em VALOR usa a razão de contribuição, não a margem unitária."
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "slug": "raciocinio-logico",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Problemas de associação",
+      "intro": "Os problemas de associação lógica são clássicos em provas de Auditor-Fiscal porque medem a capacidade de organizar informações e deduzir conclusões a partir de pistas, sem necessidade de fórmulas matemáticas. O candidato recebe um conjunto de elementos distribuídos em categorias (por exemplo: pessoas, profissões, cidades e cores) e várias afirmações verdadeiras, devendo descobrir como esses elementos se combinam.\n\nA ferramenta mais eficiente é a tabela de dupla entrada (grade lógica), na qual se cruzam as categorias e se marca cada célula como verdadeira (V, normalmente representada por um símbolo de confirmação) ou falsa (F, eliminada). A regra de ouro é: em cada linha e em cada coluna que relacionem categorias com o mesmo número de elementos, há exatamente uma confirmação; tudo o mais é eliminado.",
+      "secoes": [
+        {
+          "h": "Como montar a grade lógica",
+          "p": "Liste todas as categorias e seus elementos. Suponha 3 pessoas (Ana, Bruno, Carla), 3 profissões (médico, advogado, engenheiro) e 3 cidades. Monte tabelas cruzando cada par de categorias. Cada interseção é uma célula a ser preenchida com V (relação confirmada) ou F (relação impossível).\n\nO segredo é a propagação: ao marcar uma célula como V, todas as demais células da mesma linha e da mesma coluna tornam-se F automaticamente, porque cada elemento se associa a exatamente um elemento da outra categoria."
+        },
+        {
+          "h": "Leitura das pistas e eliminação",
+          "p": "Traduza cada pista em marcações. Pistas diretas (\"Ana é médica\") geram um V imediato. Pistas negativas (\"Bruno não mora em Goiânia\") geram um F. Pistas relacionais (\"o advogado mora em Anápolis\") ligam duas categorias sem citar a pessoa, e devem ser registradas no cruzamento profissão x cidade.\n\nApós cada marcação, releia todas as pistas: informações antes inúteis podem agora fechar deduções. O processo é iterativo até que toda a grade esteja preenchida sem contradição."
+        },
+        {
+          "h": "Técnica do verdadeiro/falso por linha e coluna",
+          "p": "Quando, numa linha de 3 elementos, dois já são F, o terceiro é obrigatoriamente V (eliminação por exclusão). O mesmo vale para colunas. Esse fechamento forçado é a chave para resolver os casos em que faltam pistas diretas.\n\nUma boa prática é trabalhar com lápis e marcar provisoriamente, pois a banca costuma exigir cruzar três ou quatro categorias, e uma marcação errada propaga o erro por toda a tabela."
+        },
+        {
+          "h": "Hipóteses e teste de consistência",
+          "p": "Em problemas mais difíceis, pode ser necessário levantar uma hipótese (\"suponha que Carla seja engenheira\") e seguir suas consequências. Se levar a uma contradição (duas confirmações na mesma coluna, por exemplo), a hipótese é falsa e a alternativa oposta é verdadeira. É o raciocínio por absurdo aplicado à lógica de associação."
+        }
+      ],
+      "exemplo": "Três amigos — Ana, Bruno e Carla — têm cada um uma profissão (médico, advogado, engenheiro). Pistas: (1) Ana não é advogada; (2) o engenheiro é homem; (3) Bruno é médico.\n\nResolução: Da pista (3), Bruno = médico (V), logo Bruno não é advogado nem engenheiro (F). Da pista (2), o engenheiro é homem; como Bruno já é médico, o único homem restante é... não temos certeza do sexo de Carla, mas as mulheres do enunciado são Ana e Carla, então o engenheiro só pode ser Bruno — porém Bruno é médico. Contradição? Não: a pista (2) significa que nem Ana nem Carla são engenheiras se forem mulheres. Como Bruno é o único homem e já é médico, restaria ninguém para engenheiro. Esse impasse mostra que precisamos reler: na verdade Ana e Carla são as candidatas a advogada e engenheira. A pista (2) elimina ambas de engenheira só se ambas forem mulheres — então o enunciado precisaria de mais um homem. Conclusão prática para prova: por exclusão direta, Ana não é advogada (pista 1) nem médica (é o Bruno), logo Ana = engenheira; e Carla = advogada. A pista (2), se presente, serviria apenas de distrator. Resposta: Bruno médico, Ana engenheira, Carla advogada.",
+      "pontos_chave": [
+        "Use tabela de dupla entrada (grade lógica) cruzando todas as categorias.",
+        "Cada linha e coluna tem exatamente uma confirmação (V); o resto é F.",
+        "Ao marcar um V, elimine (F) toda a linha e a coluna correspondentes.",
+        "Pistas negativas e relacionais valem tanto quanto as diretas.",
+        "Releia as pistas após cada marcação: deduções novas surgem.",
+        "Dois F numa linha de três forçam o terceiro a ser V.",
+        "Use hipótese e prova por absurdo nos casos sem pista direta."
+      ],
+      "dica_prova": "A banca costuma incluir pistas irrelevantes (distratores) e pistas relacionais que não citam o sujeito principal. Não tente resolver de cabeça: desenhe a grade. O erro mais comum é esquecer de propagar os F após cada V, gerando duas confirmações na mesma coluna. Marque sempre a eliminação completa de linha e coluna antes de seguir."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Conectivos e tabela-verdade",
+      "intro": "A lógica proposicional estuda proposições — sentenças declarativas às quais se pode atribuir um único valor lógico: verdadeiro (V) ou falso (F). Sentenças interrogativas, exclamativas, imperativas e abertas (com variável) não são proposições. A partir de proposições simples, os conectivos formam proposições compostas, cujo valor depende dos valores das partes e do conectivo usado.\n\nA tabela-verdade é o instrumento que define, exaustivamente, o valor de uma proposição composta para cada combinação possível dos valores das simples. Para n proposições simples há 2 elevado a n linhas: 2 proposições geram 4 linhas, 3 geram 8 linhas. Dominar os cinco conectivos é a base de toda a disciplina.",
+      "secoes": [
+        {
+          "h": "Os cinco conectivos e seus símbolos",
+          "p": "Negação (~p ou ¬p): inverte o valor. Conjunção (p ∧ q, \"e\"): só é V quando ambas são V. Disjunção inclusiva (p ∨ q, \"ou\"): só é F quando ambas são F. Condicional (p → q, \"se p então q\"): só é F quando o antecedente é V e o consequente é F. Bicondicional (p ↔ q, \"se e somente se\"): é V quando os dois lados têm o mesmo valor.\n\nExiste ainda a disjunção exclusiva (p ⊻ q, \"ou...ou\", mas não ambos): é V quando os valores são diferentes — exatamente o oposto do bicondicional."
+        },
+        {
+          "h": "Tabela-verdade dos conectivos",
+          "p": "Para p e q assumindo VV, VF, FV, FF:\n\nConjunção (p∧q): V, F, F, F.\nDisjunção (p∨q): V, V, V, F.\nCondicional (p→q): V, F, V, V.\nBicondicional (p↔q): V, F, F, V.\nDisjunção exclusiva (p⊻q): F, V, V, F.\n\nObserve que a condicional só falha na segunda linha (V→F = F). Esse é o ponto mais cobrado: \"verdadeiro implicando falso é falso; todos os outros casos são verdadeiros\"."
+        },
+        {
+          "h": "Ordem de precedência dos conectivos",
+          "p": "Quando faltam parênteses, a precedência usual é: ~ (mais forte), depois ∧, depois ∨, depois →, e por último ↔ (mais fraco). Assim, ~p ∧ q → r deve ser lido como ((~p) ∧ q) → r.\n\nNa prática de prova, recomenda-se sempre acrescentar parênteses mentalmente para evitar ambiguidade, pois algumas bancas exigem rigor na leitura da expressão."
+        },
+        {
+          "h": "Construção passo a passo de uma tabela",
+          "p": "Para avaliar (p ∧ q) → ~p: monte colunas para p, q, p∧q, ~p e finalmente (p∧q)→~p. Linha VV: p∧q=V, ~p=F, então V→F=F. Linha VF: p∧q=F, ~p=F, F→F=V. Linha FV: p∧q=F, ~p=V, F→V=V. Linha FF: p∧q=F, ~p=V, F→V=V. Resultado da coluna final: F, V, V, V."
+        }
+      ],
+      "exemplo": "Questão típica: \"Se a proposição 'Goiás arrecada ICMS e o contribuinte sonega' é verdadeira, qual o valor de cada parte?\" Como a conjunção só é V quando ambas são V, concluímos que ambas as partes são verdadeiras.\n\nOutro exemplo com condicional: dado que p → q é falsa, descubra p e q. A condicional só é falsa em um caso: antecedente V e consequente F. Logo, necessariamente p é verdadeira e q é falsa. Esse tipo de dedução (extrair valores das partes a partir do valor do todo) é frequentíssimo e mais rápido que montar a tabela inteira.",
+      "pontos_chave": [
+        "Proposição é sentença declarativa com valor único V ou F.",
+        "Conjunção (∧): só V se ambas V. Disjunção (∨): só F se ambas F.",
+        "Condicional (→): só F quando V → F.",
+        "Bicondicional (↔): V quando os dois lados são iguais.",
+        "Disjunção exclusiva (⊻): V quando os valores diferem.",
+        "n proposições simples geram 2^n linhas na tabela-verdade.",
+        "Precedência: ~, depois ∧, depois ∨, depois →, depois ↔."
+      ],
+      "dica_prova": "A pegadinha mais explorada é a condicional: muitos candidatos acham que F→V ou F→F seriam falsos, mas a condicional só é falsa em V→F. Decore: 'só dá errado quando a promessa (antecedente V) é cumprida mas o resultado (consequente) não vem'. Cuidado também para não confundir 'ou' inclusivo (∨) com 'ou...ou' exclusivo (⊻)."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Tautologia, contradição e contingência",
+      "intro": "Toda proposição composta, ao ser avaliada por sua tabela-verdade, recai em uma de três categorias conforme a coluna final. Se for sempre verdadeira, é uma tautologia; se for sempre falsa, é uma contradição; se variar (ter pelo menos um V e pelo menos um F), é uma contingência.\n\nEssa classificação é central porque tautologias representam verdades lógicas independentes do conteúdo, e são exatamente o que sustenta as equivalências lógicas e os argumentos válidos. Reconhecer uma tautologia é, na prática, reconhecer um raciocínio sempre correto.",
+      "secoes": [
+        {
+          "h": "Tautologia",
+          "p": "É a proposição composta cuja coluna final é toda V, qualquer que seja o valor das simples. Exemplo clássico: p ∨ ~p (princípio do terceiro excluído) — ou chove ou não chove, sempre verdadeiro. Outro: (p ∧ q) → p, pois se ambas são verdadeiras, então certamente p é verdadeira.\n\nUma equivalência A ≡ B é, na verdade, a afirmação de que A ↔ B é uma tautologia. Por isso o teste de equivalência se reduz a testar se o bicondicional é tautológico."
+        },
+        {
+          "h": "Contradição",
+          "p": "É a proposição cuja coluna final é toda F. Exemplo: p ∧ ~p (princípio da não contradição) — uma coisa não pode ser e não ser ao mesmo tempo. A negação de uma tautologia é sempre uma contradição, e vice-versa.\n\nContradições aparecem em provas para testar se o candidato sabe que, partindo de uma contradição, qualquer conclusão se torna 'válida' (princípio da explosão), embora isso seja mais teórico."
+        },
+        {
+          "h": "Contingência",
+          "p": "É a proposição cuja coluna final apresenta pelo menos um V e pelo menos um F — ou seja, depende dos valores das proposições simples. A maioria das proposições compostas comuns é contingente, como p → q ou p ∧ q.\n\nClassificar uma proposição como contingente significa que ela não é nem uma verdade necessária nem uma falsidade necessária; seu valor é contingente ao caso concreto."
+        },
+        {
+          "h": "Como classificar rapidamente",
+          "p": "Monte a tabela-verdade completa e observe a coluna final: tudo V = tautologia; tudo F = contradição; misto = contingência. Em proposições com poucas variáveis, é o método mais seguro.\n\nPara expressões maiores, é possível usar a técnica da valoração: tente forçar a coluna final a ser F. Se for impossível (chega-se a contradição nas hipóteses), a proposição é tautologia; se for possível mas também der V em algum caso, é contingência."
+        }
+      ],
+      "exemplo": "Classifique (p → q) ∨ (q → p). Tabela com p,q em VV, VF, FV, FF:\n\nVV: (V→V)=V, então V∨...=V.\nVF: (V→F)=F, (F→V)=V, F∨V=V.\nFV: (F→V)=V, V∨...=V.\nFF: (F→F)=V, V∨...=V.\n\nColuna final: V, V, V, V. Logo é uma TAUTOLOGIA. Esse resultado surpreende muitos candidatos, pois parece que 'depende', mas em qualquer cenário pelo menos uma das duas condicionais é verdadeira. É um exemplo recorrente em provas de bancas como FGV e Cebraspe.",
+      "pontos_chave": [
+        "Tautologia: coluna final toda V (verdade lógica necessária).",
+        "Contradição: coluna final toda F (falsidade necessária).",
+        "Contingência: coluna final mista (depende dos valores).",
+        "A ≡ B equivale a dizer que A ↔ B é tautologia.",
+        "A negação de uma tautologia é uma contradição.",
+        "Para testar tautologia, tente forçar a coluna final a ser F.",
+        "A maioria das proposições compostas comuns é contingente."
+      ],
+      "dica_prova": "A banca adora apresentar uma proposição que 'parece' contingente mas é tautologia (como o exemplo acima). Não confie na intuição: monte a tabela ou tente forçar o F. Outra pegadinha: chamar de 'tautologia' qualquer proposição verdadeira — verdadeiro em um caso específico não basta; precisa ser V em TODAS as linhas."
+    },
+    {
+      "ti": 1,
+      "si": 2,
+      "titulo": "Equivalências e negações",
+      "intro": "Duas proposições são logicamente equivalentes quando têm exatamente a mesma tabela-verdade, ou seja, são verdadeiras e falsas nos mesmos casos. A equivalência permite substituir uma expressão por outra mais simples sem alterar o significado lógico, e é a base para negar corretamente proposições compostas — habilidade campeã de incidência em provas fiscais.\n\nAs negações são especialmente cobradas porque a linguagem natural induz a erros: muita gente nega 'p e q' dizendo 'não p e não q', quando o correto, pelas leis de De Morgan, é 'não p ou não q'. Dominar essas transformações vale muitos pontos.",
+      "secoes": [
+        {
+          "h": "Leis de De Morgan",
+          "p": "A negação de uma conjunção é a disjunção das negações: ~(p ∧ q) ≡ ~p ∨ ~q. A negação de uma disjunção é a conjunção das negações: ~(p ∨ q) ≡ ~p ∧ ~q.\n\nEm palavras: para negar 'choveu E fez frio', diga 'não choveu OU não fez frio'. Para negar 'estudou OU passou', diga 'não estudou E não passou'. O conectivo troca (∧ vira ∨ e vice-versa) e cada parte é negada."
+        },
+        {
+          "h": "Negação do condicional",
+          "p": "Esta é a estrela das provas: ~(p → q) ≡ p ∧ ~q. Negar 'se chove então a rua molha' é afirmar 'chove E a rua NÃO molha'. Note que a negação de uma condicional NÃO é outra condicional — é uma conjunção.\n\nIsso decorre da equivalência p → q ≡ ~p ∨ q. Negando essa disjunção por De Morgan: ~(~p ∨ q) ≡ p ∧ ~q. O candidato que nega o condicional com outro condicional erra a questão."
+        },
+        {
+          "h": "Contrapositiva e equivalências do condicional",
+          "p": "A condicional é equivalente à sua contrapositiva: p → q ≡ ~q → ~p. 'Se é fiscal, então é servidor' equivale a 'se não é servidor, então não é fiscal'.\n\nAtenção: p → q NÃO é equivalente à recíproca (q → p) nem à inversa (~p → ~q). Além disso, p → q ≡ ~p ∨ q é a forma disjuntiva, muito útil para manipular expressões. O bicondicional p ↔ q equivale a (p → q) ∧ (q → p)."
+        },
+        {
+          "h": "Negação de quantificadores e do bicondicional",
+          "p": "Embora os quantificadores tenham tópico próprio, vale lembrar: a negação do bicondicional p ↔ q é a disjunção exclusiva, ou seja, ~(p ↔ q) ≡ p ⊻ q ≡ (p ∧ ~q) ∨ (~p ∧ q).\n\nResumo das negações: ~(p∧q)=~p∨~q; ~(p∨q)=~p∧~q; ~(p→q)=p∧~q; ~(p↔q)=p⊻q; ~~p=p (dupla negação)."
+        }
+      ],
+      "exemplo": "Questão: \"A negação de 'Se o contribuinte declara, então paga o tributo' é:\". Aplicando ~(p→q) ≡ p ∧ ~q, a resposta é: 'O contribuinte declara E NÃO paga o tributo'.\n\nDistratores típicos que a banca oferece: (a) 'Se o contribuinte não declara, então não paga' (essa é a inversa, NÃO é a negação); (b) 'Se o contribuinte paga, então declara' (recíproca); (c) 'O contribuinte não declara ou paga' (que é a própria proposição original reescrita como ~p∨q, não a negação). A única correta é a conjunção 'declara e não paga'.",
+      "pontos_chave": [
+        "De Morgan: ~(p∧q)=~p∨~q e ~(p∨q)=~p∧~q (troca o conectivo).",
+        "Negação do condicional: ~(p→q)=p∧~q (vira conjunção!).",
+        "Forma disjuntiva: p→q ≡ ~p∨q.",
+        "Contrapositiva equivalente: p→q ≡ ~q→~p.",
+        "p→q NÃO é equivalente à recíproca (q→p) nem à inversa (~p→~q).",
+        "~(p↔q) ≡ disjunção exclusiva (p⊻q).",
+        "Dupla negação: ~~p ≡ p."
+      ],
+      "dica_prova": "A negação do condicional é a pegadinha número 1: a resposta é uma CONJUNÇÃO (p e não q), nunca outro 'se...então'. Não caia nos distratores 'recíproca' (q→p) e 'inversa' (~p→~q), que parecem negações mas não são. Em De Morgan, lembre que ao negar você troca o conectivo e nega cada parte — esquecer de trocar ∧ por ∨ é erro frequente."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Argumentos válidos",
+      "intro": "Um argumento é um conjunto de proposições chamadas premissas, das quais se pretende derivar uma conclusão. O argumento é válido quando, sempre que todas as premissas forem verdadeiras, a conclusão também será necessariamente verdadeira — ou seja, é impossível ter premissas verdadeiras e conclusão falsa. A validade diz respeito à forma do raciocínio, não ao conteúdo.\n\nÉ crucial distinguir validade de verdade: um argumento pode ter premissas falsas e ainda ser válido (forma correta), e pode ter premissas e conclusão verdadeiras sem ser válido (forma incorreta). A prova fiscal cobra o reconhecimento de formas válidas clássicas e a verificação de validade por tabela ou por construção de contraexemplo.",
+      "secoes": [
+        {
+          "h": "Modus Ponens e Modus Tollens",
+          "p": "Modus Ponens (afirmação do antecedente): das premissas p → q e p, conclui-se q. Exemplo: 'Se sonega, é autuado' e 'sonegou', logo 'é autuado'. Forma sempre válida.\n\nModus Tollens (negação do consequente): das premissas p → q e ~q, conclui-se ~p. Exemplo: 'Se sonega, é autuado' e 'não foi autuado', logo 'não sonegou'. Também sempre válido."
+        },
+        {
+          "h": "Silogismo hipotético e disjuntivo",
+          "p": "Silogismo hipotético (transitividade do condicional): de p → q e q → r, conclui-se p → r. Encadeia condicionais. Exemplo: 'se A então B' e 'se B então C', logo 'se A então C'.\n\nSilogismo disjuntivo: de p ∨ q e ~p, conclui-se q. Se 'ou paga ou parcela' e 'não pagou', então 'parcelou'. Cuidado: exige negar uma das alternativas para concluir a outra."
+        },
+        {
+          "h": "Falácias: formas inválidas que enganam",
+          "p": "Falácia da afirmação do consequente: de p → q e q, concluir p é INVÁLIDO. 'Se chove, a rua molha' e 'a rua está molhada' NÃO garante que choveu (poderia ter passado um caminhão-pipa).\n\nFalácia da negação do antecedente: de p → q e ~p, concluir ~q é INVÁLIDO. 'Se chove, a rua molha' e 'não choveu' não garante que a rua esteja seca. Reconhecer essas duas falácias é diferencial de prova."
+        },
+        {
+          "h": "Métodos para testar a validade",
+          "p": "Método 1 — Tabela-verdade: o argumento é válido se a condicional (P1 ∧ P2 ∧ ... ∧ Pn) → C for uma tautologia. Se houver uma linha em que todas as premissas são V e a conclusão é F, o argumento é inválido.\n\nMétodo 2 — Contraexemplo (mais rápido): suponha a conclusão falsa e as premissas verdadeiras simultaneamente. Se conseguir, o argumento é inválido; se chegar a uma contradição, é válido. Método 3 — Premissas conjuntas: quando há uma premissa simples (p ou ~p), comece por ela e propague os valores."
+        }
+      ],
+      "exemplo": "Verifique a validade: Premissa 1: Se o auditor lança o crédito, então o contribuinte é notificado (p → q). Premissa 2: O contribuinte não foi notificado (~q). Conclusão: O auditor não lançou o crédito (~p).\n\nMétodo do contraexemplo: tente conclusão F (logo p verdadeira) com premissas V. Se p é V, para P1 (p→q) ser V, q deve ser V. Mas P2 diz ~q, ou seja, q é F. Contradição (q não pode ser V e F). Logo é impossível ter premissas V e conclusão F: o argumento é VÁLIDO. Trata-se exatamente do Modus Tollens. Se a conclusão fosse 'o contribuinte foi notificado', cairíamos numa falácia.",
+      "pontos_chave": [
+        "Argumento válido: premissas V garantem conclusão V (questão de forma).",
+        "Validade ≠ verdade: forma correta independe do conteúdo real.",
+        "Modus Ponens: p→q, p ⊢ q. Modus Tollens: p→q, ~q ⊢ ~p.",
+        "Silogismo hipotético: p→q, q→r ⊢ p→r.",
+        "Silogismo disjuntivo: p∨q, ~p ⊢ q.",
+        "Falácias inválidas: afirmar o consequente e negar o antecedente.",
+        "Teste por contraexemplo: suponha conclusão F e premissas V."
+      ],
+      "dica_prova": "Quando a questão tiver uma premissa simples (ex.: 'Maria não foi à festa'), comece SEMPRE por ela e propague os valores — é o caminho mais rápido. A pegadinha clássica é a afirmação do consequente disfarçada de Modus Ponens. Lembre: de 'a rua está molhada' não se conclui 'choveu'. E nunca confunda validade com a veracidade factual das premissas."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Quantificadores",
+      "intro": "Os quantificadores expressam a quantidade de elementos de um conjunto que satisfazem uma propriedade. Os principais são o universal — 'todo', 'qualquer', 'nenhum' — e o existencial — 'algum', 'existe', 'pelo menos um'. Frases como 'todo auditor é servidor' ou 'algum contribuinte sonega' são proposições categóricas, e a lógica de quantificadores estuda suas negações, equivalências e a validade de argumentos com elas.\n\nO diagrama de Venn é a ferramenta gráfica que torna essas relações visíveis: conjuntos representados por círculos, com inclusões, interseções e exclusões. A prova fiscal cobra principalmente a negação correta dos quantificadores e a análise de conclusões a partir de premissas com 'todo', 'algum' e 'nenhum'.",
+      "secoes": [
+        {
+          "h": "Tipos de proposições categóricas",
+          "p": "São quatro formas clássicas: Universal Afirmativa 'Todo A é B' (A está contido em B); Universal Negativa 'Nenhum A é B' (A e B são disjuntos); Particular Afirmativa 'Algum A é B' (A e B têm interseção); Particular Negativa 'Algum A não é B' (existe elemento de A fora de B).\n\nEm lógica, 'algum' significa 'pelo menos um', podendo ser todos — não exclui a totalidade. 'Algum A é B' é verdadeiro mesmo que todo A seja B."
+        },
+        {
+          "h": "Negação dos quantificadores",
+          "p": "A negação de 'Todo A é B' é 'Algum A NÃO é B' (basta um contraexemplo para derrubar o 'todo'). A negação de 'Algum A é B' é 'Nenhum A é B'. A negação de 'Nenhum A é B' é 'Algum A é B'.\n\nResumo: a negação troca universal por existencial e inverte a qualidade quando necessário. 'Todo' nega com 'algum não'; 'nenhum' nega com 'algum (é)'; 'algum (é)' nega com 'nenhum'."
+        },
+        {
+          "h": "Diagramas de Venn na análise de argumentos",
+          "p": "Para testar se uma conclusão decorre das premissas, desenhe os diagramas que tornam as premissas verdadeiras e verifique se a conclusão é forçada em TODAS as configurações possíveis. Se existir um único diagrama válido para as premissas em que a conclusão falha, o argumento é inválido.\n\nExemplo: 'Todo A é B' e 'Todo B é C' forçam 'Todo A é C' (transitividade da inclusão) — válido. Já 'Algum A é B' e 'Algum B é C' NÃO forçam 'Algum A é C', pois as interseções podem ser disjuntas."
+        },
+        {
+          "h": "Cuidados com 'algum' e existência",
+          "p": "Conclusões particulares ('algum') exigem que pelo menos uma premissa seja particular. De duas premissas universais não se tira validamente uma conclusão existencial, salvo pressuposto de existência.\n\nOutro ponto: 'todo A é B' não permite concluir 'todo B é A' (a recíproca não vale). E 'algum A é B' permite concluir 'algum B é A' (a interseção é simétrica)."
+        }
+      ],
+      "exemplo": "Premissas: (1) Todo fiscal é concursado. (2) Algum concursado é gaúcho. Pergunta: pode-se concluir que 'algum fiscal é gaúcho'?\n\nDesenhe: fiscal é subconjunto de concursado. 'Algum concursado é gaúcho' coloca uma interseção entre concursado e gaúcho, mas essa interseção pode estar fora do círculo 'fiscal'. Como existe um diagrama válido em que nenhum fiscal é gaúcho, a conclusão NÃO é válida. Resposta: não se pode concluir.\n\nAgorA inverta: (1) Todo fiscal é concursado; (2) Nenhum concursado é estrangeiro. Conclusão 'nenhum fiscal é estrangeiro'? Como fiscal está dentro de concursado, e concursado é totalmente disjunto de estrangeiro, então fiscal também é disjunto de estrangeiro. VÁLIDO.",
+      "pontos_chave": [
+        "Negação de 'Todo A é B' = 'Algum A não é B'.",
+        "Negação de 'Algum A é B' = 'Nenhum A é B'.",
+        "Negação de 'Nenhum A é B' = 'Algum A é B'.",
+        "'Algum' significa 'pelo menos um' (pode ser todos).",
+        "Use diagramas de Venn: a conclusão deve valer em TODA configuração.",
+        "De duas premissas com 'algum' geralmente nada se conclui.",
+        "'Todo A é B' não implica 'todo B é A' (sem recíproca)."
+      ],
+      "dica_prova": "A negação de 'todo' NÃO é 'nenhum' — é 'algum não' (basta um contraexemplo). Esse é o erro mais comum. Em argumentos com 'algum', desconfie de conclusões: na maioria das vezes não há validade. Sempre teste desenhando o diagrama mais 'desfavorável' à conclusão: se ela ainda assim for forçada, o argumento é válido; caso contrário, é inválido."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "PA e PG",
+      "intro": "As progressões são sequências numéricas que seguem uma regra de formação constante. Na Progressão Aritmética (PA), cada termo resulta da soma do anterior com uma constante chamada razão (r). Na Progressão Geométrica (PG), cada termo resulta da multiplicação do anterior por uma constante chamada razão (q). Reconhecer o padrão e aplicar as fórmulas de termo geral e de soma resolve a maioria das questões de sequências.\n\nEsses conteúdos conectam-se à matemática financeira (juros simples têm crescimento de PA; juros compostos, de PG) e à estatística, sendo por isso muito valorizados em provas de Auditor-Fiscal.",
+      "secoes": [
+        {
+          "h": "Progressão Aritmética (PA)",
+          "p": "Termo geral: an = a1 + (n − 1)·r, onde a1 é o primeiro termo, n a posição e r a razão. A razão é r = an − a(n-1), constante. PA crescente tem r > 0; decrescente, r < 0; constante, r = 0.\n\nSoma dos n primeiros termos: Sn = (a1 + an)·n / 2. Propriedade útil: em uma PA, cada termo é a média aritmética dos seus vizinhos, isto é, ak = (a(k-1) + a(k+1)) / 2."
+        },
+        {
+          "h": "Progressão Geométrica (PG)",
+          "p": "Termo geral: an = a1·q^(n − 1), onde q é a razão, com q = an / a(n-1), constante. Soma dos n primeiros termos (q ≠ 1): Sn = a1·(q^n − 1) / (q − 1).\n\nPropriedade: cada termo é a média geométrica dos vizinhos, ak² = a(k-1)·a(k+1). Para PG infinita com |q| < 1, a soma converge: S = a1 / (1 − q), fórmula útil em dízimas periódicas e em valor presente perpétuo."
+        },
+        {
+          "h": "Identificando o padrão",
+          "p": "Se a DIFERENÇA entre termos consecutivos é constante, é PA (ex.: 3, 7, 11, 15 → r = 4). Se o QUOCIENTE entre termos consecutivos é constante, é PG (ex.: 2, 6, 18, 54 → q = 3).\n\nHá ainda sequências mistas, recursivas (Fibonacci: cada termo é a soma dos dois anteriores) e figurais (padrões geométricos). Nessas, a estratégia é descobrir a lei de formação observando as diferenças de primeira e segunda ordem."
+        },
+        {
+          "h": "Passo a passo de resolução",
+          "p": "1) Identifique se é PA ou PG calculando diferença e quociente. 2) Extraia a1 e a razão. 3) Use o termo geral para achar o termo pedido ou n. 4) Use a fórmula de soma quando pedirem o total.\n\nDica de cálculo: para achar n a partir de an em PG, use logaritmos: de an = a1·q^(n-1), isole q^(n-1) e aplique log. Em PA, isole n diretamente da equação linear."
+        }
+      ],
+      "exemplo": "Exemplo PA: numa PA, a1 = 5 e r = 3. Qual o 10º termo e a soma dos 10 primeiros?\nan = 5 + (10−1)·3 = 5 + 27 = 32. Logo a10 = 32.\nS10 = (5 + 32)·10 / 2 = 37·5 = 185.\n\nExemplo PG: numa PG, a1 = 2 e q = 3. Qual o 5º termo e a soma dos 5 primeiros?\na5 = 2·3^(5−1) = 2·81 = 162.\nS5 = 2·(3^5 − 1) / (3 − 1) = 2·(243 − 1)/2 = 242. Logo a soma é 242.\n\nExemplo de PG infinita (dízima): 0,9999... = 9/10 + 9/100 + ... com a1 = 9/10 e q = 1/10. S = (9/10)/(1 − 1/10) = (9/10)/(9/10) = 1.",
+      "pontos_chave": [
+        "PA — termo geral: an = a1 + (n−1)·r.",
+        "PA — soma: Sn = (a1 + an)·n / 2.",
+        "PG — termo geral: an = a1·q^(n−1).",
+        "PG — soma finita: Sn = a1·(q^n − 1)/(q − 1).",
+        "PG infinita com |q|<1: S = a1/(1 − q).",
+        "PA: diferença constante; PG: quociente constante.",
+        "Juros simples seguem PA; juros compostos seguem PG."
+      ],
+      "dica_prova": "Atenção ao expoente (n−1) no termo geral — esquecê-lo e usar n é o erro mais frequente. Na soma da PG, confira o sinal de (q−1): se q<1 use a forma a1·(1−q^n)/(1−q) para evitar números negativos. A banca costuma misturar a contagem da posição (a 'primeira' parcela é n=1, não n=0). Em sequências figurais, calcule as diferenças de segunda ordem quando a de primeira ordem não for constante."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Análise combinatória",
+      "intro": "A análise combinatória estuda técnicas de contagem do número de maneiras de organizar ou escolher elementos de um conjunto. O alicerce é o Princípio Fundamental da Contagem (princípio multiplicativo): se uma decisão pode ser tomada de m modos e outra de n modos, então as duas em sequência podem ser tomadas de m·n modos.\n\nA partir desse princípio derivam-se as fórmulas de permutação, arranjo e combinação. A distinção essencial — e a mais cobrada — é se a ORDEM dos elementos importa (arranjo/permutação) ou não importa (combinação). Esse conteúdo é base para probabilidade e aparece em questões de senhas, comissões, filas e sorteios.",
+      "secoes": [
+        {
+          "h": "Princípio multiplicativo e fatorial",
+          "p": "Princípio multiplicativo: multiplicam-se as quantidades de opções de cada etapa independente. Ex.: 3 camisas e 4 calças geram 3·4 = 12 combinações de roupa.\n\nFatorial: n! = n·(n−1)·(n−2)·...·1, com 0! = 1 e 1! = 1. O fatorial conta de quantas formas n elementos distintos podem ser ordenados. Ex.: 5! = 120."
+        },
+        {
+          "h": "Permutação",
+          "p": "Permutação simples de n elementos distintos: Pn = n!. É o número de ordenações possíveis de todos os elementos. Ex.: anagramas de uma palavra com letras distintas.\n\nPermutação com repetição: quando há elementos iguais, divide-se pelo fatorial das repetições. Para a palavra com n letras, das quais a se repetem a vezes e b se repetem b vezes: P = n! / (a!·b!). Ex.: anagramas de 'ARARA' = 5!/(3!·2!) = 120/12 = 10."
+        },
+        {
+          "h": "Arranjo (ordem importa)",
+          "p": "Arranjo simples de n elementos tomados p a p: A(n,p) = n! / (n − p)!. Conta sequências ordenadas de p elementos escolhidos entre n. A ordem importa: trocar a posição gera arranjo diferente.\n\nExemplo: quantos números de 2 algarismos distintos com os dígitos 1, 2, 3? A(3,2) = 3!/(3−2)! = 6/1 = 6. São: 12, 13, 21, 23, 31, 32."
+        },
+        {
+          "h": "Combinação (ordem não importa)",
+          "p": "Combinação simples de n elementos tomados p a p: C(n,p) = n! / [p!·(n − p)!]. Conta subconjuntos de p elementos, sem se importar com a ordem. Trocar a ordem NÃO gera combinação nova.\n\nExemplo: de quantas formas formar uma comissão de 2 pessoas entre 4? C(4,2) = 4!/(2!·2!) = 24/4 = 6. Relação útil: A(n,p) = C(n,p)·p!, ou seja, arranjo é combinação multiplicada pelas ordenações."
+        }
+      ],
+      "exemplo": "Questão: uma comissão da SEFAZ-GO terá 1 presidente, 1 vice e 1 secretário, escolhidos entre 6 auditores. De quantas formas?\nComo os cargos são distintos, a ORDEM importa: usamos arranjo. A(6,3) = 6!/(6−3)! = 6!/3! = (6·5·4·3!)/3! = 6·5·4 = 120. Resposta: 120 maneiras.\n\nVariação que muda tudo: se a comissão fosse de 3 membros SEM cargos definidos, a ordem não importa: C(6,3) = 6!/(3!·3!) = 720/(6·6) = 20. Note a diferença: 120 (com cargos) versus 20 (sem cargos). Identificar 'ordem importa?' é o que separa as duas respostas.",
+      "pontos_chave": [
+        "Princípio multiplicativo: multiplique as opções de cada etapa.",
+        "Ordem importa → arranjo/permutação; não importa → combinação.",
+        "Permutação: Pn = n!; com repetição, divide pelos fatoriais repetidos.",
+        "Arranjo: A(n,p) = n!/(n−p)!.",
+        "Combinação: C(n,p) = n!/[p!·(n−p)!].",
+        "Relação: A(n,p) = C(n,p)·p!.",
+        "Convenção: 0! = 1."
+      ],
+      "dica_prova": "A pergunta-chave é sempre 'a ordem dos elementos altera o resultado?'. Cargos distintos, pódios, senhas e filas → ARRANJO. Comissões, grupos, escolhas de itens 'iguais em status' → COMBINAÇÃO. A pegadinha favorita é descrever uma comissão com cargos (arranjo) usando linguagem de 'escolher pessoas' para induzir você a usar combinação. Cuidado também com restrições (elementos que devem ficar juntos ou separados): resolva por etapas com o princípio multiplicativo."
+    },
+    {
+      "ti": 3,
+      "si": 2,
+      "titulo": "Conjuntos",
+      "intro": "A teoria dos conjuntos trata de coleções de elementos e das operações entre elas. Em provas fiscais, o foco é a contagem de elementos em uniões e interseções, frequentemente apresentada em problemas com diagramas de Venn — por exemplo, contribuintes que pagam ICMS, IPVA ou ambos. O domínio das operações e do princípio da inclusão-exclusão resolve essas questões com segurança.\n\nAs operações fundamentais são união (todos os elementos), interseção (elementos comuns), diferença (o que está em um e não no outro) e complementar (o que está fora do conjunto, dentro do universo).",
+      "secoes": [
+        {
+          "h": "Operações fundamentais",
+          "p": "União (A ∪ B): elementos que pertencem a A OU a B (ou a ambos). Interseção (A ∩ B): elementos que pertencem a A E a B simultaneamente. Diferença (A − B ou A \\ B): elementos de A que NÃO estão em B. Complementar (A^c): elementos do universo que não estão em A.\n\nConjuntos disjuntos não têm elementos em comum: A ∩ B = ∅. Se A está contido em B (A ⊂ B), então A ∪ B = B e A ∩ B = A."
+        },
+        {
+          "h": "Princípio da inclusão-exclusão (2 conjuntos)",
+          "p": "Para contar a união sem contar duas vezes a interseção: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). Subtrai-se a interseção porque ela foi somada nas duas parcelas.\n\nIsso permite achar qualquer uma das quantidades quando as outras são dadas. Por exemplo, se 30 pessoas gostam de café, 25 de chá, 10 de ambos, então n(A∪B) = 30 + 25 − 10 = 45 gostam de pelo menos uma das bebidas."
+        },
+        {
+          "h": "Inclusão-exclusão para três conjuntos",
+          "p": "Com três conjuntos: n(A∪B∪C) = n(A) + n(B) + n(C) − n(A∩B) − n(A∩C) − n(B∩C) + n(A∩B∩C). Somam-se os individuais, subtraem-se as interseções dois a dois e soma-se de volta a interseção tripla.\n\nNo diagrama de Venn de três círculos, o método mais seguro é preencher de dentro para fora: comece pela interseção tripla (centro), depois as duplas (descontando o centro) e por fim as regiões exclusivas."
+        },
+        {
+          "h": "Resolução por diagrama de Venn",
+          "p": "Desenhe os círculos, identifique a região central (interseção de todos) e preencha-a primeiro com o valor dado. Em seguida, ajuste cada interseção dupla subtraindo a parte já contada. Por fim, calcule as regiões 'só A', 'só B', 'só C' subtraindo do total de cada conjunto as partes compartilhadas.\n\nNão esqueça dos elementos que não pertencem a nenhum conjunto (fora dos círculos, mas dentro do universo): total = soma de todas as regiões + nenhum."
+        }
+      ],
+      "exemplo": "Pesquisa com 100 contribuintes: 60 possuem débito de ICMS, 45 de IPVA e 25 possuem ambos. Quantos possuem apenas ICMS? Quantos não possuem nenhum dos dois débitos?\n\nApenas ICMS = n(ICMS) − n(ambos) = 60 − 25 = 35.\nApenas IPVA = 45 − 25 = 20.\nPelo menos um = n(ICMS∪IPVA) = 60 + 45 − 25 = 80.\nNenhum = total − pelo menos um = 100 − 80 = 20.\n\nVerificação: 35 (só ICMS) + 20 (só IPVA) + 25 (ambos) + 20 (nenhum) = 100. Confere.",
+      "pontos_chave": [
+        "União (∪): A ou B; Interseção (∩): A e B; Diferença (−): A sem B.",
+        "Inclusão-exclusão (2): n(A∪B) = n(A) + n(B) − n(A∩B).",
+        "Inclusão-exclusão (3): soma individuais − duplas + tripla.",
+        "No Venn, preencha de dentro para fora (interseção central primeiro).",
+        "'Apenas A' = n(A) − interseções que contêm A.",
+        "Não esqueça os elementos fora de todos os conjuntos.",
+        "Total = soma de todas as regiões disjuntas do diagrama."
+      ],
+      "dica_prova": "A pegadinha mais comum é confundir 'apenas A' com 'A' (o total de A já inclui a interseção). Quando o enunciado diz 'somente ICMS', subtraia a interseção. Outra armadilha: 'pelo menos um' é a união; 'exatamente um' é a soma das regiões exclusivas (sem a interseção). Sempre confira somando todas as regiões e o 'nenhum' — o total deve bater com o universo dado."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Regras fundamentais",
+      "intro": "A probabilidade mede a chance de ocorrência de um evento, expressa por um número entre 0 (impossível) e 1 (certo), podendo ser apresentada como fração, decimal ou porcentagem. No modelo clássico (espaço amostral equiprovável), a probabilidade de um evento A é a razão entre o número de casos favoráveis e o número de casos possíveis: P(A) = n(A) / n(S).\n\nA partir dessa definição, desenvolvem-se as regras da união, da probabilidade condicional, da multiplicação e da independência de eventos — todas frequentes em provas de Auditor-Fiscal, muitas vezes combinadas com análise combinatória.",
+      "secoes": [
+        {
+          "h": "Definição clássica e propriedades",
+          "p": "P(A) = casos favoráveis / casos possíveis, válido quando todos os resultados são igualmente prováveis. Propriedades: 0 ≤ P(A) ≤ 1; P(espaço amostral) = 1; P(∅) = 0.\n\nProbabilidade do complementar: P(não A) = 1 − P(A). Essa regra é poderosa em questões com 'pelo menos um', onde calcular o complementar (nenhum) é bem mais simples."
+        },
+        {
+          "h": "Regra da união (adição)",
+          "p": "Para a probabilidade de ocorrer A ou B: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Subtrai-se a interseção para não contá-la duas vezes.\n\nSe os eventos forem mutuamente exclusivos (não podem ocorrer juntos, A ∩ B = ∅), então P(A ∩ B) = 0 e a fórmula simplifica para P(A ∪ B) = P(A) + P(B)."
+        },
+        {
+          "h": "Probabilidade condicional e regra da multiplicação",
+          "p": "Probabilidade de A dado que B ocorreu: P(A | B) = P(A ∩ B) / P(B), com P(B) > 0. Reduz o espaço amostral ao conjunto B.\n\nDaí decorre a regra da multiplicação: P(A ∩ B) = P(B)·P(A | B) = P(A)·P(B | A). É a base para árvores de probabilidade e para o cálculo de eventos em sequência (com ou sem reposição)."
+        },
+        {
+          "h": "Eventos independentes",
+          "p": "Dois eventos são independentes quando a ocorrência de um não altera a probabilidade do outro: P(A | B) = P(A). Nesse caso, a regra da multiplicação simplifica para P(A ∩ B) = P(A)·P(B).\n\nCuidado: independente NÃO é o mesmo que mutuamente exclusivo. Eventos mutuamente exclusivos com probabilidades positivas são, na verdade, dependentes (se um ocorre, o outro tem probabilidade zero)."
+        }
+      ],
+      "exemplo": "Uma urna tem 5 bolas vermelhas e 3 azuis (total 8). Retiram-se 2 bolas SEM reposição. Qual a probabilidade de ambas serem vermelhas?\n\nP(1ª vermelha) = 5/8. Após retirar uma vermelha, restam 4 vermelhas em 7 bolas, então P(2ª vermelha | 1ª vermelha) = 4/7. Pela regra da multiplicação: P(ambas vermelhas) = (5/8)·(4/7) = 20/56 = 5/14 ≈ 0,357.\n\nVariação 'pelo menos uma vermelha': use o complementar. P(nenhuma vermelha) = P(ambas azuis) = (3/8)·(2/7) = 6/56 = 3/28. Logo P(pelo menos uma vermelha) = 1 − 3/28 = 25/28 ≈ 0,893.",
+      "pontos_chave": [
+        "P(A) = casos favoráveis / casos possíveis (modelo equiprovável).",
+        "0 ≤ P(A) ≤ 1; P(não A) = 1 − P(A).",
+        "União: P(A∪B) = P(A) + P(B) − P(A∩B).",
+        "Mutuamente exclusivos: P(A∩B) = 0.",
+        "Condicional: P(A|B) = P(A∩B)/P(B).",
+        "Independentes: P(A∩B) = P(A)·P(B).",
+        "'Pelo menos um' resolve-se mais rápido pelo complementar."
+      ],
+      "dica_prova": "Sempre verifique se há reposição: sem reposição, a segunda probabilidade muda o denominador e o numerador (eventos dependentes). A maior pegadinha é confundir 'independentes' com 'mutuamente exclusivos' — são conceitos opostos para eventos de probabilidade positiva. Para 'pelo menos um', calcule 1 menos a probabilidade de 'nenhum'; tentar somar casos diretamente costuma levar a erro."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Juros simples e compostos",
+      "intro": "A matemática financeira estuda a variação do valor do dinheiro no tempo. Quando um capital (C ou PV) é aplicado a uma taxa de juros (i) durante um tempo (t), gera juros (J) e resulta em um montante (M ou FV = C + J). A diferença essencial entre os dois regimes está em sobre o que os juros incidem: no regime simples, sempre sobre o capital inicial; no regime composto, sobre o montante acumulado (juros sobre juros).\n\nEsse é o tópico mais importante de matemática financeira para concursos fiscais, base para descontos, equivalência de capitais e amortização. A atenção à compatibilidade entre a unidade da taxa e a unidade do tempo é decisiva.",
+      "secoes": [
+        {
+          "h": "Juros simples (crescimento linear)",
+          "p": "Os juros incidem sempre sobre o capital inicial. Fórmula dos juros: J = C·i·t. Montante: M = C·(1 + i·t). O crescimento é linear, como uma PA: a cada período acrescenta-se a mesma quantia de juros (C·i).\n\nA taxa i deve estar na forma decimal (10% = 0,10) e na mesma unidade de tempo de t. Ex.: taxa ao mês exige tempo em meses."
+        },
+        {
+          "h": "Juros compostos (crescimento exponencial)",
+          "p": "Os juros de cada período incorporam-se ao capital e passam a render juros (capitalização). Montante: M = C·(1 + i)^t. Juros: J = M − C. O crescimento é exponencial, como uma PG de razão (1 + i).\n\nPara achar o tempo t, isola-se (1+i)^t e aplicam-se logaritmos. Para achar a taxa, extrai-se a raiz de ordem t. O regime composto é o efetivamente usado no mercado financeiro brasileiro."
+        },
+        {
+          "h": "Comparação entre os regimes",
+          "p": "Para t = 1 (um período), simples e composto dão o MESMO montante. Para t < 1 (fração de período), o juro SIMPLES rende mais. Para t > 1 (mais de um período), o juro COMPOSTO rende mais, e a diferença cresce com o tempo.\n\nEssa relação é cobrada em questões conceituais. A representação gráfica: simples é uma reta; composto é uma curva exponencial que, após o primeiro período, fica acima da reta."
+        },
+        {
+          "h": "Compatibilizando taxa e tempo",
+          "p": "A taxa e o prazo devem estar na mesma unidade. Se a taxa é 12% ao ano e o prazo é 6 meses, em juros simples converte-se proporcionalmente (12%/ano = 1%/mês → 6 meses = 6%). Em juros compostos, a conversão entre taxas equivalentes NÃO é proporcional: usa-se (1 + i_ano) = (1 + i_mês)^12.\n\nIgnorar a conversão é a principal fonte de erro. Em prova, primeiro alinhe as unidades, depois aplique a fórmula."
+        }
+      ],
+      "exemplo": "Um capital de R$ 1.000,00 é aplicado a 10% ao mês durante 3 meses. Compare os montantes nos dois regimes.\n\nJuros simples: M = 1000·(1 + 0,10·3) = 1000·1,30 = R$ 1.300,00 (juros de R$ 300).\n\nJuros compostos: M = 1000·(1,10)^3 = 1000·1,331 = R$ 1.331,00 (juros de R$ 331).\n\nA diferença de R$ 31,00 corresponde aos 'juros sobre juros': no 2º mês incidem juros sobre os R$ 100 do 1º mês, e no 3º mês sobre os juros acumulados. Como t = 3 > 1, o regime composto rende mais, confirmando a regra de comparação.",
+      "pontos_chave": [
+        "Juros simples: J = C·i·t; M = C·(1 + i·t) — crescimento linear (PA).",
+        "Juros compostos: M = C·(1 + i)^t — crescimento exponencial (PG).",
+        "Taxa sempre em decimal e na mesma unidade do tempo.",
+        "Para t = 1, os dois regimes coincidem.",
+        "Para t > 1, composto rende mais; para t < 1, simples rende mais.",
+        "Taxas equivalentes em juros compostos NÃO são proporcionais.",
+        "Montante = Capital + Juros (M = C + J)."
+      ],
+      "dica_prova": "Antes de calcular, verifique se a unidade da taxa bate com a do tempo — esse é o erro nº 1. Em juros compostos, não converta taxa anual para mensal dividindo por 12 (isso é taxa proporcional, válida só no regime simples); use a raiz. Lembre-se da regra de comparação (composto > simples para t>1), pois ela aparece em questões teóricas sem cálculo. E não confunda 'taxa de juros' com 'juros' (valor em reais)."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Descontos",
+      "intro": "Desconto é o abatimento concedido sobre o valor de um título (como uma duplicata ou nota promissória) quando este é pago ou negociado antes do vencimento. O valor escrito no título, devido na data de vencimento, é o valor nominal (N) ou valor de face; o valor pago antecipadamente é o valor atual (A) ou valor líquido. O desconto (D) é a diferença: D = N − A.\n\nHá dois regimes de cálculo do desconto simples — comercial (ou bancário) e racional (ou 'por dentro') — que diferem quanto à base de incidência da taxa. Distingui-los é o ponto central das questões de prova.",
+      "secoes": [
+        {
+          "h": "Desconto comercial (por fora / bancário)",
+          "p": "A taxa de desconto incide sobre o VALOR NOMINAL (de face). Fórmula: Dc = N·i·t. O valor atual fica: Ac = N − Dc = N·(1 − i·t).\n\nÉ o mais usado por bancos em operações de antecipação de recebíveis, pois favorece o credor (gera desconto maior). Por isso também é chamado de desconto 'por fora'."
+        },
+        {
+          "h": "Desconto racional (por dentro)",
+          "p": "A taxa incide sobre o VALOR ATUAL (o que de fato se empresta). Fórmula do desconto: Dr = (N·i·t) / (1 + i·t). O valor atual é Ar = N / (1 + i·t).\n\nO desconto racional é menor que o comercial para os mesmos N, i e t, pois a base de incidência (valor atual) é menor que o valor nominal. É o desconto 'matematicamente justo'."
+        },
+        {
+          "h": "Relação entre os dois descontos",
+          "p": "Para os mesmos parâmetros, Dc > Dr. Existe a relação Dc = Dr·(1 + i·t), e também Dc − Dr = Dr·i·t. O desconto comercial é o racional acrescido de juros simples sobre ele.\n\nEm provas, é comum pedir a diferença entre os dois descontos ou identificar qual regime gera maior abatimento (sempre o comercial)."
+        },
+        {
+          "h": "Desconto composto",
+          "p": "Existe ainda o desconto composto, em que a antecipação considera capitalização exponencial. O mais usado é o racional composto: Ar = N / (1 + i)^t, equivalente a trazer o valor nominal a valor presente por juros compostos.\n\nNo Brasil, o desconto comercial composto é pouco usado na prática; o racional composto coincide com o conceito de valor presente da matemática financeira moderna."
+        }
+      ],
+      "exemplo": "Um título de valor nominal R$ 10.000,00 é descontado 2 meses antes do vencimento, à taxa de 5% ao mês (desconto simples).\n\nDesconto comercial: Dc = N·i·t = 10000·0,05·2 = R$ 1.000,00. Valor atual: Ac = 10.000 − 1.000 = R$ 9.000,00.\n\nDesconto racional: Dr = (N·i·t)/(1 + i·t) = (10000·0,05·2)/(1 + 0,05·2) = 1000/1,10 ≈ R$ 909,09. Valor atual: Ar = 10000/1,10 ≈ R$ 9.090,91.\n\nObserve: o desconto comercial (R$ 1.000) é maior que o racional (R$ 909,09); o cliente paga menos no comercial, mas o banco ganha mais. A diferença é Dc − Dr = R$ 90,91 = Dr·i·t = 909,09·0,10.",
+      "pontos_chave": [
+        "Valor nominal (N) é o de vencimento; valor atual (A) é o antecipado.",
+        "Desconto: D = N − A.",
+        "Comercial (por fora): Dc = N·i·t, incide sobre o valor nominal.",
+        "Racional (por dentro): Dr = N·i·t/(1 + i·t), incide sobre o valor atual.",
+        "Para mesmos parâmetros, Dc > Dr (comercial é maior).",
+        "Relação: Dc = Dr·(1 + i·t).",
+        "Racional composto = valor presente por juros compostos: A = N/(1+i)^t."
+      ],
+      "dica_prova": "A pegadinha clássica é trocar a base: comercial incide sobre o NOMINAL, racional sobre o ATUAL. Memorize 'comercial = por fora = maior desconto'. Cuide das unidades de taxa e tempo, como em juros. Quando a questão pedir 'a diferença entre os descontos', lembre que Dc − Dr é positiva e igual a Dr·i·t. Se o enunciado não especificar, em geral assume-se desconto comercial simples (o mais cobrado)."
+    },
+    {
+      "ti": 5,
+      "si": 2,
+      "titulo": "Taxas e equivalência",
+      "intro": "Em finanças, uma mesma taxa pode ser expressa de várias formas, e capitais em datas diferentes só podem ser comparados depois de levados a uma data comum por uma taxa. Os conceitos de taxa nominal, efetiva, proporcional e equivalente, bem como o de equivalência de capitais, são fundamentais para resolver questões de fluxo de caixa, substituição de dívidas e comparação de investimentos.\n\nA confusão entre taxa nominal e efetiva, e entre taxa proporcional (regime simples) e equivalente (regime composto), é uma das mais exploradas em provas de Auditor-Fiscal.",
+      "secoes": [
+        {
+          "h": "Taxa nominal e taxa efetiva",
+          "p": "Taxa nominal é aquela cujo período de capitalização difere do período a que se refere. Ex.: '12% ao ano com capitalização mensal' — a taxa anual é nominal e a capitalização ocorre a 1% ao mês.\n\nTaxa efetiva é a que realmente incide no período de capitalização. No exemplo, a efetiva ao ano é (1 + 0,01)^12 − 1 ≈ 12,68%, maior que os 12% nominais. A diferença entre nominal e efetiva é fruto da capitalização composta."
+        },
+        {
+          "h": "Taxas proporcionais (regime simples)",
+          "p": "Duas taxas são proporcionais quando se relacionam linearmente com o tempo. Ex.: 12% ao ano é proporcional a 1% ao mês (12/12) e a 6% ao semestre. A conversão é uma simples regra de três.\n\nTaxas proporcionais são equivalentes APENAS no regime de juros simples. Aplicar proporcionalidade em juros compostos gera erro."
+        },
+        {
+          "h": "Taxas equivalentes (regime composto)",
+          "p": "Duas taxas são equivalentes quando, aplicadas ao mesmo capital pelo mesmo prazo total, produzem o mesmo montante em regime composto. A relação é: (1 + i_maior) = (1 + i_menor)^k, onde k é o número de períodos menores no maior.\n\nEx.: a taxa mensal equivalente a 12,68% ao ano: (1 + i_mês)^12 = 1,1268 → i_mês = 1,1268^(1/12) − 1 ≈ 1% ao mês. Note que NÃO é 12,68/12."
+        },
+        {
+          "h": "Equivalência de capitais",
+          "p": "Dois ou mais capitais, vencíveis em datas distintas, são equivalentes quando, transportados a uma mesma data (data focal) por uma dada taxa, têm valores iguais. Esse princípio fundamenta a substituição de títulos e o cálculo de parcelas.\n\nEm juros compostos, a data focal escolhida não altera o resultado; em juros simples, altera — por isso a banca costuma fixar a data focal no enunciado. Para resolver: transporte todos os valores à data focal (multiplicando ou dividindo pelo fator (1+i)^t) e iguale as somas."
+        }
+      ],
+      "exemplo": "Uma taxa nominal de 24% ao ano com capitalização mensal. Qual a taxa efetiva mensal e a efetiva anual?\n\nEfetiva mensal = 24%/12 = 2% ao mês (a nominal é dividida pelo número de capitalizações para achar a taxa de cada período).\n\nEfetiva anual = (1 + 0,02)^12 − 1 = 1,2682 − 1 = 0,2682 = 26,82% ao ano. Observe que a efetiva anual (26,82%) supera a nominal anual (24%) por causa da capitalização composta dos juros mensais.\n\nEquivalência de capitais: uma dívida de R$ 1.100 vencível em 1 mês equivale, a 10% ao mês (composto), a quanto hoje? A = 1100/(1,10)^1 = R$ 1.000 hoje. Os dois valores são equivalentes nessa taxa.",
+      "pontos_chave": [
+        "Taxa nominal: período de capitalização ≠ período declarado.",
+        "Taxa efetiva: a que de fato incide no período de capitalização.",
+        "Proporcionais (regra de três) equivalem só no regime SIMPLES.",
+        "Equivalentes: (1 + i_maior) = (1 + i_menor)^k no regime COMPOSTO.",
+        "Efetiva anual > nominal anual quando há capitalização intermediária.",
+        "Capitais são equivalentes se têm igual valor numa data focal.",
+        "Em juros compostos a data focal não altera o resultado; em simples, altera."
+      ],
+      "dica_prova": "Para converter taxa nominal em efetiva do período de capitalização, divida (24% a.a. cap. mensal → 2% a.m.); para converter entre períodos no regime composto, use potências/raízes, nunca regra de três. A pegadinha mais comum é tratar taxa anual nominal como efetiva. Em equivalência de capitais com juros simples, atenção à data focal indicada — mudá-la muda a resposta."
+    },
+    {
+      "ti": 5,
+      "si": 3,
+      "titulo": "Amortização",
+      "intro": "Amortização é o processo de quitação de uma dívida por meio de pagamentos periódicos (prestações), cada um composto por duas parcelas: a amortização (devolução de parte do capital emprestado) e os juros (remuneração sobre o saldo devedor ainda não pago). À medida que o saldo devedor diminui, os juros de cada período também diminuem.\n\nOs dois sistemas mais cobrados são o SAC (Sistema de Amortização Constante) e o Price (Sistema Francês, de prestação constante). Compreender a composição de cada parcela e a evolução do saldo devedor é o que a prova exige.",
+      "secoes": [
+        {
+          "h": "Sistema SAC (amortização constante)",
+          "p": "A amortização é igual em todas as parcelas: A = Capital / n (número de prestações). Os juros incidem sobre o saldo devedor, que diminui de forma constante, logo os juros decrescem e a PRESTAÇÃO TOTAL também decresce a cada período.\n\nA primeira prestação é a maior. O saldo devedor cai linearmente. É muito usado em financiamentos habitacionais (SFH)."
+        },
+        {
+          "h": "Sistema Price (prestação constante)",
+          "p": "A PRESTAÇÃO é igual em todas as parcelas, calculada por: PMT = C·[i·(1+i)^n] / [(1+i)^n − 1]. No início, a maior parte da prestação são juros e a menor é amortização; com o tempo, inverte-se: a amortização cresce e os juros diminuem.\n\nA amortização cresce em progressão geométrica. É o sistema típico de financiamento de veículos e crédito ao consumidor."
+        },
+        {
+          "h": "Comparação SAC x Price",
+          "p": "No SAC, as prestações começam altas e caem; no Price, são constantes. Nos primeiros períodos, a prestação do SAC é maior que a do Price; nos últimos, é menor. O total de juros pago no Price é MAIOR que no SAC, porque a amortização do principal é mais lenta no início.\n\nEm ambos, os juros sempre incidem sobre o saldo devedor do período anterior, e o saldo devedor ao final é zero."
+        },
+        {
+          "h": "Construção da tabela (planilha) de amortização",
+          "p": "Para cada período registre: saldo devedor inicial, juros (saldo·i), amortização, prestação (juros + amortização) e saldo devedor final (saldo inicial − amortização). \n\nPasso a passo: 1) calcule os juros sobre o saldo; 2) determine a amortização (constante no SAC; prestação − juros no Price); 3) some para a prestação; 4) abata a amortização do saldo. Repita até o saldo zerar."
+        }
+      ],
+      "exemplo": "Financiamento de R$ 12.000,00 em 3 parcelas a 10% ao mês.\n\nSAC: amortização constante = 12000/3 = R$ 4.000.\n1ª parcela: juros = 10% de 12.000 = 1.200; prestação = 4.000 + 1.200 = R$ 5.200; saldo = 8.000.\n2ª parcela: juros = 10% de 8.000 = 800; prestação = 4.000 + 800 = R$ 4.800; saldo = 4.000.\n3ª parcela: juros = 10% de 4.000 = 400; prestação = 4.000 + 400 = R$ 4.400; saldo = 0.\nTotal de juros: 1.200 + 800 + 400 = R$ 2.400. As prestações decrescem (5.200 → 4.800 → 4.400).\n\nNo Price, a prestação seria constante (≈ R$ 4.825,18 cada), e o total de juros seria ligeiramente maior, confirmando que o SAC paga menos juros ao todo.",
+      "pontos_chave": [
+        "Prestação = amortização + juros (sobre o saldo devedor).",
+        "SAC: amortização constante (= C/n); prestações decrescentes.",
+        "Price: prestação constante; amortização crescente e juros decrescentes.",
+        "Fórmula Price: PMT = C·i·(1+i)^n / [(1+i)^n − 1].",
+        "Juros sempre incidem sobre o saldo devedor do período anterior.",
+        "Price paga mais juros no total que o SAC.",
+        "Em ambos, o saldo devedor final é zero."
+      ],
+      "dica_prova": "Memorize: SAC tem amortização constante (prestação cai); Price tem prestação constante (amortização sobe). A pegadinha frequente é inverter o que é constante em cada sistema. Outro ponto: no Price, no início paga-se mais juros que amortização. Saber montar a primeira linha da tabela (juros sobre o saldo inicial) resolve a maioria das questões sem precisar da fórmula completa."
+    },
+    {
+      "ti": 6,
+      "si": 0,
+      "titulo": "Medidas de posição",
+      "intro": "As medidas de posição (ou de tendência central) resumem um conjunto de dados em um único valor representativo em torno do qual os dados se distribuem. As três principais são a média aritmética, a mediana e a moda. As medidas separatrizes (quartis, decis e percentis) localizam pontos específicos da distribuição ordenada.\n\nEscolher a medida adequada depende da natureza dos dados e da presença de valores extremos (outliers). A prova fiscal cobra o cálculo correto de cada medida e a compreensão de suas propriedades, especialmente a robustez da mediana frente à sensibilidade da média.",
+      "secoes": [
+        {
+          "h": "Média aritmética",
+          "p": "Soma de todos os valores dividida pela quantidade de valores: média = (Σ xi) / n. Para dados agrupados em classes, usa-se a média ponderada pelas frequências: média = (Σ fi·xi) / Σ fi, onde xi é o ponto médio da classe.\n\nA média é sensível a outliers: um único valor muito alto ou baixo a desloca. Por isso, em distribuições assimétricas (como renda), pode não representar bem o 'típico'."
+        },
+        {
+          "h": "Mediana",
+          "p": "É o valor central dos dados ORDENADOS, que divide o conjunto em duas metades iguais. Com n ímpar, é o termo da posição (n+1)/2. Com n par, é a média dos dois termos centrais.\n\nA mediana é robusta: não se altera com valores extremos, pois depende apenas da posição central. É a medida preferida para dados assimétricos. Corresponde ao 2º quartil (Q2) e ao percentil 50."
+        },
+        {
+          "h": "Moda",
+          "p": "É o valor que ocorre com maior frequência. Um conjunto pode ser amodal (sem moda), unimodal (uma moda), bimodal (duas) ou multimodal. É a única medida aplicável a dados qualitativos nominais.\n\nEm dados agrupados, identifica-se a classe modal (de maior frequência) e estima-se a moda por fórmulas como a de Czuber. A moda não é afetada por outliers."
+        },
+        {
+          "h": "Separatrizes e relação entre as medidas",
+          "p": "Quartis dividem os dados ordenados em 4 partes (Q1, Q2=mediana, Q3); decis em 10; percentis em 100. O intervalo interquartílico (Q3 − Q1) mede a dispersão central.\n\nRelação com a assimetria: em distribuição simétrica, média = mediana = moda. Na assimétrica à direita (positiva), média > mediana > moda; à esquerda (negativa), média < mediana < moda. Essa ordem é muito cobrada."
+        }
+      ],
+      "exemplo": "Dados das multas (em R$ mil) aplicadas a 7 contribuintes: 2, 3, 3, 5, 8, 10, 50.\n\nMédia = (2+3+3+5+8+10+50)/7 = 81/7 ≈ 11,57.\nMediana: n=7 (ímpar), posição (7+1)/2 = 4ª → valor 5. Mediana = 5.\nModa: o valor 3 aparece duas vezes (mais frequente). Moda = 3.\n\nObserve o efeito do outlier 50: a média (11,57) é puxada para cima e não representa bem o conjunto, enquanto a mediana (5) reflete melhor o 'típico'. Como média > mediana > moda, a distribuição é assimétrica à direita (positiva). Este é o cenário clássico de dados de renda e de multas.",
+      "pontos_chave": [
+        "Média = Σxi / n; sensível a valores extremos (outliers).",
+        "Mediana = valor central dos dados ordenados; robusta a outliers.",
+        "n ímpar: mediana na posição (n+1)/2; n par: média dos dois centrais.",
+        "Moda = valor mais frequente; única medida para dados nominais.",
+        "Q2 = mediana = percentil 50; quartis dividem em 4 partes.",
+        "Simétrica: média = mediana = moda.",
+        "Assimétrica positiva (à direita): média > mediana > moda."
+      ],
+      "dica_prova": "Sempre ORDENE os dados antes de achar a mediana — esquecer isso é erro garantido. Lembre que a média é 'puxada' pelos outliers e a mediana não. A relação de ordem entre média, mediana e moda revela o tipo de assimetria (decore: na assimetria positiva, a média é a maior das três). Cuidado com dados agrupados: a média usa o ponto médio da classe, não os limites."
+    },
+    {
+      "ti": 6,
+      "si": 1,
+      "titulo": "Medidas de dispersão",
+      "intro": "As medidas de dispersão (ou de variabilidade) quantificam o quanto os dados se afastam de um valor central, geralmente a média. Duas distribuições podem ter a mesma média e comportamentos muito diferentes: uma com valores concentrados, outra com valores espalhados. As medidas de dispersão revelam essa diferença.\n\nAs principais são amplitude, variância, desvio-padrão e coeficiente de variação. O desvio-padrão é a medida mais usada por estar na mesma unidade dos dados, e o coeficiente de variação permite comparar a dispersão relativa entre conjuntos de unidades ou escalas diferentes — tema recorrente em provas fiscais.",
+      "secoes": [
+        {
+          "h": "Amplitude e desvio médio",
+          "p": "Amplitude total é a diferença entre o maior e o menor valor: A = Xmáx − Xmín. É simples, mas usa apenas os extremos, ignorando o resto dos dados.\n\nO desvio de cada valor em relação à média é (xi − média); sua soma é sempre zero. Por isso, para medir dispersão, usam-se os desvios ao quadrado (variância) ou em módulo (desvio médio absoluto)."
+        },
+        {
+          "h": "Variância",
+          "p": "É a média dos quadrados dos desvios em relação à média. Variância populacional: σ² = Σ(xi − μ)² / N. Variância amostral: s² = Σ(xi − x̄)² / (n − 1) — divide-se por (n−1) para correção de Bessel, gerando estimador não viesado.\n\nA variância está em unidade ao quadrado (ex.: reais²), o que dificulta a interpretação direta; daí a importância do desvio-padrão."
+        },
+        {
+          "h": "Desvio-padrão",
+          "p": "É a raiz quadrada da variância: σ = √σ² (populacional) ou s = √s² (amostral). Tem a mesma unidade dos dados, sendo a medida de dispersão absoluta mais interpretável.\n\nQuanto maior o desvio-padrão, mais espalhados os dados em torno da média. Em distribuição normal, cerca de 68% dos dados ficam a 1 desvio-padrão da média, 95% a 2 e 99,7% a 3 (regra empírica 68-95-99,7)."
+        },
+        {
+          "h": "Coeficiente de variação (CV)",
+          "p": "É a dispersão relativa: CV = (desvio-padrão / média)·100%. Por ser adimensional (em %), permite comparar a variabilidade de conjuntos com médias ou unidades diferentes.\n\nMenor CV indica dados mais homogêneos (mais regulares); maior CV, mais heterogêneos. Convenção usual: CV até 15% baixa dispersão, 15% a 30% média, acima de 30% alta dispersão. É o critério ideal para comparar, por exemplo, a regularidade de arrecadação entre dois municípios."
+        }
+      ],
+      "exemplo": "Conjunto de arrecadações (R$ milhões): 4, 6, 8, 10, 12. Calcule média, variância populacional, desvio-padrão e CV.\n\nMédia = (4+6+8+10+12)/5 = 40/5 = 8.\nDesvios: (4−8)=−4, (6−8)=−2, (8−8)=0, (10−8)=2, (12−8)=4.\nQuadrados: 16, 4, 0, 4, 16; soma = 40.\nVariância populacional σ² = 40/5 = 8.\nDesvio-padrão σ = √8 ≈ 2,83.\nCV = (2,83/8)·100 ≈ 35,4%.\n\nUm CV de 35,4% indica dispersão alta: a arrecadação varia bastante em relação à média. Se outro conjunto tivesse mesma média 8 mas desvio-padrão 1,2, seu CV (15%) mostraria arrecadação bem mais regular — comparação que só o CV permite fazer corretamente.",
+      "pontos_chave": [
+        "Amplitude = Xmáx − Xmín (usa só os extremos).",
+        "A soma dos desvios em relação à média é sempre zero.",
+        "Variância populacional: σ² = Σ(xi−μ)²/N; amostral: divide por (n−1).",
+        "Desvio-padrão = raiz da variância; mesma unidade dos dados.",
+        "Regra empírica (normal): 68% / 95% / 99,7% para 1, 2 e 3 desvios.",
+        "Coeficiente de variação: CV = (σ/média)·100% — adimensional.",
+        "Menor CV = dados mais homogêneos; usado para comparar conjuntos diferentes."
+      ],
+      "dica_prova": "A pegadinha mais comum é confundir variância populacional (divide por N) com amostral (divide por n−1) — leia se o enunciado fala em 'população' ou 'amostra'. Lembre que a variância está em unidade ao quadrado e o desvio-padrão na unidade original. Para comparar dispersão entre conjuntos com médias/unidades diferentes, use SEMPRE o coeficiente de variação, nunca o desvio-padrão bruto. Some os quadrados dos desvios com atenção aos sinais (eles se anulam antes de elevar ao quadrado)."
+    },
+    {
+      "ti": 6,
+      "si": 2,
+      "titulo": "Distribuições de probabilidade",
+      "intro": "Uma distribuição de probabilidade descreve como as probabilidades se distribuem entre os possíveis valores de uma variável aleatória. Variáveis discretas (que assumem valores contáveis, como número de autuações) seguem distribuições como a Binomial e a de Poisson; variáveis contínuas (que assumem qualquer valor num intervalo, como peso ou tempo) seguem distribuições como a Normal e a t de Student.\n\nReconhecer qual modelo se aplica a cada situação, conhecer seus parâmetros (média e variância) e calcular probabilidades são as habilidades cobradas. A distribuição Normal é a mais importante por sua presença em toda a inferência estatística.",
+      "secoes": [
+        {
+          "h": "Distribuição Binomial",
+          "p": "Modela o número de sucessos em n ensaios independentes, cada um com probabilidade p de sucesso (e q = 1−p de fracasso), em provas de Bernoulli (dois resultados). P(X = k) = C(n,k)·p^k·q^(n−k).\n\nMédia: μ = n·p. Variância: σ² = n·p·q. Ex.: número de declarações com erro entre 10 fiscalizadas, sabendo que cada uma tem 20% de chance de erro."
+        },
+        {
+          "h": "Distribuição de Poisson",
+          "p": "Modela o número de ocorrências de um evento raro em um intervalo fixo de tempo ou espaço, dado o número médio de ocorrências λ (lambda). P(X = k) = (e^(−λ)·λ^k) / k!.\n\nPropriedade marcante: média = variância = λ. É uma aproximação da Binomial quando n é grande e p é pequeno (com λ = n·p). Ex.: número de fraudes detectadas por mês numa repartição."
+        },
+        {
+          "h": "Distribuição Normal (Gaussiana)",
+          "p": "Distribuição contínua, simétrica em torno da média, em forma de sino. Definida por dois parâmetros: média μ (centro) e desvio-padrão σ (dispersão). É simétrica, logo média = mediana = moda.\n\nA Normal Padrão (Z) tem μ = 0 e σ = 1; qualquer Normal converte-se a ela por Z = (X − μ)/σ. Pela regra 68-95-99,7, esses percentuais dos dados ficam a 1, 2 e 3 desvios-padrão da média. As probabilidades são obtidas pela tabela Z."
+        },
+        {
+          "h": "Distribuição t de Student",
+          "p": "Semelhante à Normal padrão (simétrica, centrada em zero), mas com caudas mais 'pesadas', usada quando a amostra é pequena (n < 30) e o desvio-padrão populacional é desconhecido, sendo estimado pela amostra.\n\nDepende dos graus de liberdade (n − 1): quanto maior a amostra, mais a t se aproxima da Normal. É a base dos testes e intervalos de confiança para a média em pequenas amostras."
+        }
+      ],
+      "exemplo": "Binomial: um auditor fiscaliza 5 empresas; cada uma tem probabilidade 0,3 de estar irregular. Qual a probabilidade de exatamente 2 estarem irregulares?\n\nP(X=2) = C(5,2)·(0,3)²·(0,7)³ = 10·0,09·0,343 = 10·0,030870 = 0,3087, ou seja, ≈ 30,87%.\nMédia esperada de irregulares: μ = n·p = 5·0,3 = 1,5 empresa.\n\nNormal: alturas seguem Normal com μ = 170 cm e σ = 10 cm. Qual a probabilidade de uma pessoa medir entre 160 e 180 cm? Esse intervalo é μ ± 1σ, que pela regra empírica abrange ≈ 68% dos casos. Logo, P ≈ 0,68.",
+      "pontos_chave": [
+        "Binomial (discreta): P(X=k) = C(n,k)·p^k·q^(n−k); μ = np, σ² = npq.",
+        "Poisson (discreta, eventos raros): P(X=k) = e^(−λ)·λ^k/k!; média = variância = λ.",
+        "Poisson aproxima a Binomial quando n é grande e p pequeno.",
+        "Normal (contínua): simétrica, média = mediana = moda.",
+        "Padronização: Z = (X − μ)/σ; Normal padrão tem μ=0, σ=1.",
+        "Regra empírica da Normal: 68% / 95% / 99,7% (1, 2 e 3 σ).",
+        "t de Student: amostras pequenas, σ desconhecido; depende dos graus de liberdade."
+      ],
+      "dica_prova": "Identifique primeiro se a variável é discreta (conta-se: Binomial/Poisson) ou contínua (mede-se: Normal). Na Binomial, não esqueça o coeficiente C(n,k). Na Poisson, lembre da propriedade média = variância = λ (pegadinha frequente). Na Normal, padronize com Z e use a regra 68-95-99,7 para intervalos 'redondos'. A t de Student só entra quando a amostra é pequena e a variância populacional é desconhecida."
+    },
+    {
+      "ti": 6,
+      "si": 3,
+      "titulo": "Amostragem e estimação",
+      "intro": "A inferência estatística parte de uma amostra (subconjunto) para tirar conclusões sobre a população (o todo), pois examinar a população inteira costuma ser inviável. A amostragem trata de como selecionar a amostra; a estimação trata de como usar os dados amostrais para estimar parâmetros populacionais (como média e proporção) e de quão confiável é essa estimativa.\n\nOs conceitos de amostra probabilística, estimativa pontual, intervalo de confiança, nível de confiança e teste de hipótese são cobrados em provas fiscais, geralmente em nível conceitual e com cálculos diretos de margem de erro.",
+      "secoes": [
+        {
+          "h": "Tipos de amostragem",
+          "p": "Amostragem probabilística (cada elemento tem probabilidade conhecida e não nula de ser escolhido) permite inferência estatística: inclui a aleatória simples (sorteio), a sistemática (seleção a intervalos fixos), a estratificada (divide a população em estratos homogêneos e sorteia de cada um) e por conglomerados (sorteia grupos inteiros).\n\nAmostragem não probabilística (por conveniência, por cotas, intencional) não permite generalização estatística rigorosa, pois a seleção não é aleatória. Para inferência válida, exige-se amostra probabilística e representativa."
+        },
+        {
+          "h": "Estimação pontual e por intervalo",
+          "p": "A estimativa pontual fornece um único valor para o parâmetro (a média amostral x̄ estima a média populacional μ; a proporção amostral estima a proporção populacional). É simples, mas não informa a incerteza.\n\nA estimativa por intervalo (intervalo de confiança) fornece uma faixa de valores plausíveis para o parâmetro, acompanhada de um nível de confiança. É mais informativa porque incorpora a margem de erro."
+        },
+        {
+          "h": "Intervalo de confiança e margem de erro",
+          "p": "Um intervalo de confiança de 95% para a média tem a forma x̄ ± E, onde a margem de erro E = z·(σ/√n), com z o valor crítico (1,96 para 95%; 1,645 para 90%; 2,576 para 99%) e σ/√n o erro-padrão da média.\n\nInterpretação correta: em 95% das amostras possíveis, o intervalo construído conteria o parâmetro. Quanto maior o n, menor a margem de erro (o erro cai com √n). Aumentar o nível de confiança alarga o intervalo."
+        },
+        {
+          "h": "Teste de hipóteses",
+          "p": "É um procedimento para decidir, com base na amostra, entre a hipótese nula (H0, status quo, ex.: 'a média é igual a um valor') e a hipótese alternativa (H1). Calcula-se uma estatística de teste e compara-se com um valor crítico, ou usa-se o p-valor.\n\nDois erros possíveis: erro tipo I (rejeitar H0 verdadeira, probabilidade α, o nível de significância) e erro tipo II (não rejeitar H0 falsa, probabilidade β). Se p-valor < α, rejeita-se H0. O nível de significância usual é 5%."
+        }
+      ],
+      "exemplo": "A SEFAZ-GO mede o tempo médio de atendimento. De uma amostra de n = 100 contribuintes obtém-se média x̄ = 20 minutos, com desvio-padrão populacional σ = 5 minutos. Construa o intervalo de confiança de 95% para a média populacional.\n\nErro-padrão = σ/√n = 5/√100 = 5/10 = 0,5.\nMargem de erro E = z·(erro-padrão) = 1,96·0,5 = 0,98.\nIntervalo: 20 ± 0,98 = [19,02 ; 20,98] minutos.\n\nInterpretação: há 95% de confiança de que o tempo médio populacional de atendimento está entre 19,02 e 20,98 minutos. Se quiséssemos reduzir a margem pela metade, precisaríamos quadruplicar a amostra (pois E depende de √n).",
+      "pontos_chave": [
+        "Amostra probabilística (aleatória) é requisito para inferência válida.",
+        "Estratificada: estratos homogêneos; conglomerados: sorteia grupos inteiros.",
+        "Estimativa pontual: um valor; por intervalo: uma faixa com confiança.",
+        "Intervalo de confiança: x̄ ± z·(σ/√n).",
+        "Valores z: 1,645 (90%), 1,96 (95%), 2,576 (99%).",
+        "Erro cai com √n; quadruplicar n reduz a margem pela metade.",
+        "Teste de hipóteses: erro tipo I (α, rejeitar H0 verdadeira) e tipo II (β)."
+      ],
+      "dica_prova": "A relação entre margem de erro e tamanho da amostra é cobrada: E é proporcional a 1/√n, então para reduzir o erro à metade quadruplica-se n. Não troque os valores z (1,96 é o de 95%, o mais frequente). Cuidado com a interpretação do intervalo: a confiança refere-se ao procedimento de amostragem, não à probabilidade de o parâmetro estar no intervalo específico. Memorize a diferença entre erro tipo I (α) e tipo II (β) — questão clássica de prova."
+    }
+  ]
+}

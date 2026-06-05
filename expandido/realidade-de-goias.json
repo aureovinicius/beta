@@ -1,0 +1,183 @@
+{
+  "slug": "realidade-de-goias",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Ciclo do ouro e decadência",
+      "intro": "A ocupação efetiva do território que hoje corresponde a Goiás está umbilicalmente ligada à descoberta de ouro no início do século XVIII. Antes disso, o sertão central era percorrido apenas esporadicamente por bandeiras de apresamento indígena (caça a escravos) e por entradas oficiais que buscavam metais preciosos. Foi a bandeira de Bartolomeu Bueno da Silva, o Anhanguera Filho, que em 1722-1725 reencontrou os veios auríferos da região, dando início ao chamado ciclo do ouro goiano.\n\nO ouro de aluvião encontrado nos rios e córregos atraiu rápida corrente migratória vinda de São Paulo, Minas Gerais e do Nordeste, fazendo surgir dezenas de arraiais mineradores. Esse povoamento foi, contudo, efêmero e desigual: dependia exclusivamente da abundância do metal. Quando as jazidas mais acessíveis se esgotaram, por volta da segunda metade do século XVIII, instalou-se uma longa fase de decadência e isolamento econômico que marcou Goiás por mais de um século, redirecionando a economia para a pecuária extensiva e a agricultura de subsistência.",
+      "secoes": [
+        {
+          "h": "As bandeiras e a chegada do Anhanguera",
+          "p": "As bandeiras eram expedições particulares, em geral organizadas a partir de São Paulo, com objetivos de apresamento indígena (escravização) e prospecção de metais e pedras preciosas. Distinguem-se das entradas, que eram expedições oficiais financiadas pela Coroa.\n\nBartolomeu Bueno da Silva, o Anhanguera Pai, teria estado na região goiana ainda no século XVII. Coube ao filho homônimo, Bartolomeu Bueno da Silva (Anhanguera Filho), liderar a bandeira que entre 1722 e 1725 localizou ouro às margens do Rio Vermelho, fundando o Arraial de Sant'Ana, núcleo que originaria a Vila Boa de Goiás, atual Cidade de Goiás. O apelido Anhanguera, do tupi, significa diabo velho ou espírito maligno, alusão à fama de ardiloso atribuída ao pai."
+        },
+        {
+          "h": "A economia mineradora e os arraiais",
+          "p": "O ouro extraído era predominantemente de aluvião (depositado em leitos de rios), explorado por faiscação e técnicas rudimentares de mineração com uso intenso de mão de obra escravizada africana. Surgiram arraiais como Vila Boa (capital), Meia Ponte (atual Pirenópolis), Pilar, Crixás, Traíras, Santa Luzia (atual Luziânia) e Corumbá.\n\nA Coroa portuguesa impôs pesada fiscalização tributária. Cobrava-se o quinto (20% sobre o ouro extraído) e, diante de fraudes e queda da produção, instituiu-se posteriormente a derrama, cobrança forçada para completar a cota anual mínima de tributo devida à Coroa. Goiás foi inicialmente subordinado à Capitania de São Paulo, tornando-se Capitania autônoma em 1748."
+        },
+        {
+          "h": "Decadência aurífera e a transição agropastoril",
+          "p": "A mineração de aluvião era esgotável e não houve, em Goiás, desenvolvimento tecnológico que permitisse explorar o ouro de filão (em rochas) em larga escala. A partir das décadas de 1770-1780, a produção despencou, levando ao despovoamento de muitos arraiais e a um quadro de profundo isolamento.\n\nA população remanescente voltou-se para a pecuária extensiva e a agricultura de subsistência, atividades de baixa lucratividade e voltadas ao consumo interno, agravadas pela distância dos centros consumidores e pela precariedade dos transportes. Essa estagnação econômica perdurou ao longo de quase todo o século XIX e início do XX, sendo rompida apenas com a chegada da ferrovia (1913), a Marcha para o Oeste e a construção de Goiânia e, depois, de Brasília."
+        },
+        {
+          "h": "Consequências sociais e territoriais",
+          "p": "O ciclo do ouro deixou marcas duradouras: o núcleo do povoamento goiano formou-se em torno dos arraiais mineradores, definindo a malha urbana colonial; a forte presença escravizada africana originou comunidades que, após fugas e alforrias, deram origem a quilombos, como os Kalunga, na região da Chapada dos Veadeiros.\n\nO patrimônio arquitetônico barroco e colonial preservado na Cidade de Goiás é herança direta desse período. A decadência, por sua vez, contribuiu para o relativo isolamento cultural que ajudou a preservar tradições, sotaques e manifestações populares características do interior goiano."
+        }
+      ],
+      "exemplo": "Questão comentada (estilo banca): \"A ocupação do território goiano no século XVIII deveu-se principalmente à atividade canavieira de exportação, financiada por entradas oficiais da Coroa.\" Item ERRADO. A ocupação decorreu da mineração do OURO (não da cana) e foi impulsionada sobretudo por BANDEIRAS particulares, em especial a do Anhanguera Filho (1722-1725), e não por entradas oficiais. A cana e a agroindústria sucroalcooleira só ganhariam relevância em Goiás no século XX/XXI.\n\nDica de aplicação: relacione sempre ouro de aluvião + esgotamento + isolamento + transição para pecuária. Essa cadeia causal é o eixo da matéria.",
+      "pontos_chave": [
+        "Anhanguera Filho (Bartolomeu Bueno da Silva) localizou ouro no Rio Vermelho entre 1722-1725, fundando o Arraial de Sant'Ana (Vila Boa de Goiás).",
+        "Bandeiras = expedições particulares (apresamento e prospecção); entradas = oficiais, da Coroa.",
+        "Ouro era de aluvião, esgotável, explorado com mão de obra escravizada africana.",
+        "Tributação: quinto (20%) e derrama; Goiás virou Capitania autônoma em 1748 (antes ligada a São Paulo).",
+        "Esgotamento das jazidas (fim do séc. XVIII) gerou decadência, isolamento e despovoamento de arraiais.",
+        "Transição para pecuária extensiva e agricultura de subsistência marcou longa estagnação até o séc. XX.",
+        "Herança: malha urbana colonial, quilombos (Kalunga), patrimônio barroco da Cidade de Goiás."
+      ],
+      "dica_prova": "Cuidado com a pegadinha que troca 'bandeiras' por 'entradas' ou que atribui a ocupação à cana/café. Memorize a data-âncora 1722-1725 e o nome Anhanguera Filho. Outra pegadinha comum: afirmar que Goiás sempre foi capitania autônoma desde o início da mineração; na verdade só se emancipou de São Paulo em 1748. Associe sempre a decadência aurífera ao isolamento que preservou a cultura interiorana e originou comunidades quilombolas."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Cerrado e recursos naturais",
+      "intro": "Goiás situa-se na região Centro-Oeste do Brasil e tem como bioma predominante o Cerrado, considerado a savana mais biodiversa do mundo e o segundo maior bioma brasileiro, atrás apenas da Amazônia. O Cerrado é frequentemente chamado de 'berço das águas' ou 'caixa d'água do Brasil', pois nele nascem rios que abastecem grandes bacias hidrográficas nacionais.\n\nO relevo goiano é dominado por planaltos e chapadas, com altitudes que favorecem a recarga de aquíferos e o surgimento de nascentes. O clima é o tropical de savana (Aw na classificação de Köppen), marcado por duas estações bem definidas: uma seca (inverno, com baixa umidade) e outra chuvosa (verão). Essa combinação de relevo aplainado, clima sazonal e solos passíveis de correção tornou o Cerrado goiano uma das principais fronteiras agrícolas do país, o que gera tensão permanente entre expansão produtiva e conservação ambiental.",
+      "secoes": [
+        {
+          "h": "O bioma Cerrado: características e biodiversidade",
+          "p": "O Cerrado é uma savana tropical com fisionomias variadas, que vão do campo limpo (predomínio de gramíneas) ao cerradão (formação florestal mais densa), passando pelo cerrado stricto sensu, campo sujo e veredas. Sua vegetação tem adaptações à seca e ao fogo: árvores de troncos retorcidos, casca grossa (cortiça) e raízes profundas que buscam água no subsolo.\n\nÉ reconhecido como hotspot mundial de biodiversidade, status atribuído a regiões de altíssima riqueza biológica e, ao mesmo tempo, fortemente ameaçadas. Abriga espécies emblemáticas como o lobo-guará, o tamanduá-bandeira, a onça-pintada e frutos típicos como pequi, baru, buriti e cagaita, que integram a culinária e a economia regional."
+        },
+        {
+          "h": "Relevo, solos e clima",
+          "p": "O relevo goiano é predominantemente de planaltos, chapadas e chapadões, com áreas de superfícies aplainadas que facilitam a mecanização agrícola. Destacam-se a Chapada dos Veadeiros (nordeste do estado, ponto culminante do Centro-Oeste em altitude elevada) e o Planalto Central.\n\nOs solos do Cerrado são, em geral, ácidos, profundos e pobres em nutrientes, ricos em alumínio (latossolos). Por muito tempo foram considerados impróprios para a agricultura, até que a correção com calagem (aplicação de calcário) e adubação, viabilizada por pesquisas da Embrapa a partir das décadas de 1970-1980, transformou-os em solos altamente produtivos. O clima Aw (tropical de savana) tem chuvas concentradas no verão (outubro a abril) e estiagem no inverno (maio a setembro)."
+        },
+        {
+          "h": "Hidrografia: dispersor de águas do Brasil",
+          "p": "Pela posição central e elevada, Goiás funciona como uma área dispersora de águas (divisor de águas) que alimenta três grandes bacias hidrográficas brasileiras: a Bacia do Tocantins-Araguaia (ao norte e oeste, com os rios Tocantins e Araguaia), a Bacia do Paraná/Platina (ao sul, com o Rio Paranaíba) e contribuições para a Bacia do São Francisco (a leste).\n\nO Rio Araguaia abriga, em seu curso, a Ilha do Bananal, considerada a maior ilha fluvial do mundo. Essa abundância hídrica sustenta a irrigação, a geração hidrelétrica (com diversas usinas e UHEs nos rios goianos) e o abastecimento, sendo recurso estratégico tanto econômica quanto ambientalmente."
+        },
+        {
+          "h": "Recursos naturais, mineração e tensão ambiental",
+          "p": "Além do potencial agrícola e hídrico, Goiás possui significativas reservas minerais: é grande produtor de níquel, nióbio, cobre, ouro, amianto e fosfato, com destaque para municípios como Niquelândia, Barro Alto, Catalão e Crixás. A mineração é fonte relevante de arrecadação (CFEM e ICMS) e de exportações.\n\nA expansão do agronegócio e da mineração pressiona o Cerrado, que é um dos biomas mais desmatados do país. Discute-se a necessidade de conciliar produção e conservação por meio de unidades de conservação (como o Parque Nacional da Chapada dos Veadeiros, também Patrimônio Natural da Humanidade pela UNESCO) e do cumprimento da legislação ambiental, como o Código Florestal e suas exigências de Reserva Legal e Áreas de Preservação Permanente."
+        }
+      ],
+      "exemplo": "Exemplo aplicado: imagine uma questão que afirme: \"O Cerrado goiano possui solos naturalmente férteis, o que sempre permitiu a agricultura intensiva sem necessidade de correção.\" ERRADO. Os solos do Cerrado são ácidos e pobres (latossolos, ricos em alumínio); só se tornaram produtivos após técnicas de calagem e adubação difundidas a partir das décadas de 1970-1980 (papel da Embrapa).\n\nOutro exemplo: \"Goiás concentra suas águas em uma única bacia hidrográfica.\" ERRADO. Por sua posição central e elevada, é dispersor de águas para as bacias do Tocantins-Araguaia, do Paraná (Paranaíba) e do São Francisco.",
+      "pontos_chave": [
+        "Cerrado: segundo maior bioma do Brasil e savana mais biodiversa do mundo; hotspot de biodiversidade.",
+        "Apelidado de 'berço/caixa d'água do Brasil' por abrigar nascentes de grandes bacias.",
+        "Clima predominante Aw (tropical de savana): verão chuvoso, inverno seco.",
+        "Solos ácidos e pobres (latossolos) tornados produtivos por calagem e adubação (Embrapa, anos 1970-80).",
+        "Relevo de planaltos e chapadas; destaque para a Chapada dos Veadeiros.",
+        "Dispersor de águas: bacias Tocantins-Araguaia, Paraná (Paranaíba) e São Francisco.",
+        "Mineração relevante: níquel, nióbio, cobre, ouro, amianto, fosfato (Niquelândia, Catalão, Barro Alto, Crixás).",
+        "Cerrado é dos biomas mais desmatados; tensão entre produção agrícola/mineral e conservação."
+      ],
+      "dica_prova": "As pegadinhas mais comuns: dizer que os solos do Cerrado são naturalmente férteis (são pobres, exigem correção) e dizer que Goiás pertence a uma só bacia (é dispersor de águas de três). Memorize Köppen Aw e a função da Embrapa na viabilização agrícola. Não confunda Cerrado (savana) com Pantanal ou Caatinga. Lembre que a Chapada dos Veadeiros é Patrimônio Natural da Humanidade (UNESCO) — diferente da Cidade de Goiás, que é Patrimônio Cultural."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Patrimônio e identidade",
+      "intro": "A sociedade goiana é fruto de intensa miscigenação e diversidade étnica, resultado do encontro entre povos indígenas originários, africanos escravizados trazidos para a mineração, colonizadores portugueses e, no século XX, levas de migrantes de várias regiões do Brasil atraídos pela fronteira agrícola e pela construção de Goiânia e Brasília. Dessa mescla nasceu uma identidade cultural rica, expressa em festas religiosas, culinária, música sertaneja e em um valioso patrimônio histórico colonial.\n\nDois marcos sintetizam essa identidade: a Cidade de Goiás (antiga Vila Boa), inscrita em 2001 na lista de Patrimônio Cultural da Humanidade pela UNESCO em razão de seu conjunto arquitetônico colonial preservado, e Pirenópolis, com suas festas tradicionais centenárias. Convivem ainda comunidades quilombolas, como os Kalunga, e diversos povos indígenas, que mantêm vivas formas próprias de organização social e cultural.",
+      "secoes": [
+        {
+          "h": "Diversidade étnica: indígenas, africanos e migrantes",
+          "p": "Antes da colonização, o território goiano era habitado por diversos povos indígenas. Hoje permanecem grupos como os Avá-Canoeiro (em grave risco demográfico), os Tapuia, os Karajá e os Javaé (estes na região do Araguaia/Ilha do Bananal), além dos Xerente e Krahô em áreas limítrofes. Muitos enfrentaram extermínio, aldeamentos forçados e perda territorial ao longo da colonização.\n\nA população africana e afrodescendente, trazida para a mineração no século XVIII, deixou profunda marca cultural e originou comunidades quilombolas. No século XX, a Marcha para o Oeste e a construção das novas capitais atraíram migrantes de Minas Gerais, do Nordeste, de São Paulo e do Sul, consolidando um caldeamento cultural que define o povo goiano."
+        },
+        {
+          "h": "Comunidade Kalunga e os quilombos",
+          "p": "Os Kalunga formam a maior comunidade quilombola (remanescente de quilombo) do Brasil em extensão territorial, situada no nordeste goiano, na região da Chapada dos Veadeiros, abrangendo os municípios de Cavalcante, Teresina de Goiás e Monte Alegre de Goiás. Descendem de africanos escravizados que fugiram da mineração e se refugiaram nos vales de difícil acesso, mantendo-se relativamente isolados por gerações.\n\nO Sítio Histórico e Patrimônio Cultural Kalunga foi oficialmente reconhecido, e a comunidade preserva tradições próprias, como a Festa do Império, danças como a sussa, culinária e formas de organização comunitária. Constituem exemplo emblemático da resistência negra e da diversidade social goiana, frequentemente cobrado em provas sobre a realidade étnica do estado."
+        },
+        {
+          "h": "Cidade de Goiás: Patrimônio da Humanidade",
+          "p": "A Cidade de Goiás, antiga Vila Boa e capital do estado até 1937, foi inscrita pela UNESCO em 2001 como Patrimônio Cultural da Humanidade, reconhecimento do excepcional conjunto arquitetônico e urbanístico colonial dos séculos XVIII e XIX, com igrejas barrocas, casarões, ruas estreitas de pedra e traçado preservado.\n\nNa cidade destaca-se a Procissão do Fogaréu, encenação noturna da Semana Santa, em que figuras encapuçadas (farricocos) percorrem a cidade representando a captura de Cristo. A cidade é também berço da poetisa Cora Coralina, ícone da literatura goiana, cuja casa tornou-se museu. É frequente em prova a distinção: a Cidade de Goiás é patrimônio CULTURAL, enquanto a Chapada dos Veadeiros é patrimônio NATURAL."
+        },
+        {
+          "h": "Pirenópolis, festas e cultura popular",
+          "p": "Pirenópolis (antiga Meia Ponte), também de origem mineradora, abriga um dos conjuntos arquitetônicos coloniais mais importantes do estado e é tombada pelo patrimônio nacional. É célebre pela Festa do Divino Espírito Santo e pelas Cavalhadas, encenações equestres que reproduzem batalhas medievais entre mouros e cristãos, com mascarados, cores e ritual próprios.\n\nNo conjunto da cultura goiana, somam-se manifestações como as folias de reis, as congadas, a música sertaneja de raiz, e a culinária baseada em produtos do Cerrado (pequi, guariroba, empadão goiano, pamonha). Essas expressões compõem a identidade simbólica do estado e costumam aparecer em itens sobre cultura e patrimônio imaterial."
+        }
+      ],
+      "exemplo": "Questão comentada: \"A Cidade de Goiás foi reconhecida pela UNESCO como Patrimônio Natural da Humanidade em razão de sua biodiversidade no Cerrado.\" ERRADO em dois pontos: o reconhecimento (2001) é como Patrimônio CULTURAL (e não natural), justificado pelo conjunto arquitetônico colonial. Quem é Patrimônio NATURAL é a Chapada dos Veadeiros.\n\nOutra: \"Os Kalunga são um povo indígena do sul de Goiás.\" ERRADO. Os Kalunga são uma comunidade QUILOMBOLA (afrodescendente), localizada no NORDESTE goiano (Chapada dos Veadeiros), sendo a maior do Brasil em território.",
+      "pontos_chave": [
+        "Identidade goiana = miscigenação de indígenas, africanos, portugueses e migrantes do séc. XX.",
+        "Povos indígenas atuais: Avá-Canoeiro, Tapuia, Karajá, Javaé, entre outros.",
+        "Kalunga: maior comunidade quilombola do Brasil em território, no nordeste goiano (Cavalcante, Teresina e Monte Alegre de Goiás).",
+        "Cidade de Goiás: Patrimônio CULTURAL da Humanidade pela UNESCO (2001); antiga capital até 1937.",
+        "Procissão do Fogaréu (Cidade de Goiás) e Cora Coralina como ícones culturais.",
+        "Pirenópolis (antiga Meia Ponte): Cavalhadas e Festa do Divino.",
+        "Culinária do Cerrado: pequi, guariroba, empadão goiano, pamonha.",
+        "Distinção-chave: Cidade de Goiás = cultural; Chapada dos Veadeiros = natural."
+      ],
+      "dica_prova": "A pegadinha clássica troca 'Patrimônio Cultural' por 'Patrimônio Natural' ao falar da Cidade de Goiás, ou inverte com a Chapada dos Veadeiros. Memorize: Cidade de Goiás (cultural, 2001) x Chapada dos Veadeiros (natural). Não confunda Kalunga (quilombola/afrodescendente) com povo indígena. Lembre que a antiga capital era a Cidade de Goiás até 1937. Cavalhadas pertencem a Pirenópolis; Fogaréu, à Cidade de Goiás."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Goiânia e Brasília",
+      "intro": "O século XX rompeu o longo isolamento de Goiás por meio de dois projetos urbanísticos de grande envergadura: a construção de Goiânia, nova capital planejada do estado, na década de 1930, e a edificação de Brasília, nova capital federal, no final da década de 1950. Ambas representaram a materialização da ideia de modernização e de interiorização do desenvolvimento nacional, a chamada Marcha para o Oeste.\n\nA transferência da capital estadual da histórica Cidade de Goiás para a recém-criada Goiânia simbolizou a ruptura com o passado colonial estagnado e a aposta no progresso, na racionalidade urbana e na integração econômica. Pouco depois, a construção de Brasília no território goiano (área desmembrada para formar o Distrito Federal) colocou o estado no centro geográfico das decisões nacionais, acelerando a urbanização, a chegada de infraestrutura e o adensamento populacional do Planalto Central.",
+      "secoes": [
+        {
+          "h": "A construção de Goiânia (anos 1930)",
+          "p": "A criação de Goiânia esteve ligada ao governo de Pedro Ludovico Teixeira, interventor e depois governador de Goiás após a Revolução de 1930, que liderou a mudança da capital. A cidade foi planejada pelo urbanista Attílio Corrêa Lima e teve seu projeto continuado por Armando de Godói, com traçado moderno inspirado em modelos de cidade-jardim, ruas radiais e setorização.\n\nA fundação ocorreu em 1933, e a transferência definitiva da capital, da Cidade de Goiás para Goiânia, consolidou-se em 1937 (com a chamada batismo cultural de Goiânia em 1942). A nova capital representou a modernização administrativa, a atração de investimentos e o deslocamento do eixo econômico e político do estado para o seu centro-sul, mais integrado às rotas nacionais."
+        },
+        {
+          "h": "Marcha para o Oeste e o contexto nacional",
+          "p": "A Marcha para o Oeste foi política de Estado, especialmente durante o Estado Novo de Getúlio Vargas, voltada à ocupação e à integração das regiões interioranas do Brasil, vistas como vazios demográficos a serem incorporados à economia nacional. Goiás, pela posição central, foi protagonista desse projeto.\n\nNo bojo dessa política, criaram-se colônias agrícolas, como a Colônia Agrícola Nacional de Goiás (CANG), que deu origem à cidade de Ceres, atraindo migrantes para a produção de alimentos. A expansão ferroviária (a ferrovia chegara a Goiás em 1913) e, depois, a malha rodoviária foram instrumentos centrais para vencer o isolamento histórico e viabilizar o escoamento da produção."
+        },
+        {
+          "h": "A construção de Brasília (1956-1960)",
+          "p": "A ideia de transferir a capital federal para o interior era antiga (já prevista em Constituições anteriores), mas concretizou-se no governo de Juscelino Kubitschek, dentro do Plano de Metas e do lema dos '50 anos em 5'. Brasília foi construída no Planalto Central, em território desmembrado de Goiás, e inaugurada em 21 de abril de 1960.\n\nO Plano Piloto foi concebido pelo urbanista Lúcio Costa (vencedor do concurso), com a arquitetura monumental de Oscar Niemeyer. A construção foi feita em ritmo acelerado por trabalhadores de todo o país, os candangos. O território cedido formou o Distrito Federal, juridicamente distinto de Goiás, embora geograficamente envolto por ele."
+        },
+        {
+          "h": "Impactos: urbanização e Entorno do DF",
+          "p": "Goiânia e Brasília transformaram radicalmente Goiás. A urbanização acelerou-se, a infraestrutura de transportes e energia expandiu-se, e o estado deixou de ser periferia isolada para integrar a dinâmica nacional. Surgiu a Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE), unindo o DF a municípios goianos vizinhos.\n\nO chamado Entorno do DF (cidades como Luziânia, Águas Lindas de Goiás, Valparaíso, Novo Gama, Formosa e Planaltina de Goiás) tornou-se uma das áreas de maior crescimento populacional do estado, com forte dependência funcional de Brasília, gerando desafios de planejamento, mobilidade, segurança e prestação de serviços públicos compartilhados."
+        }
+      ],
+      "exemplo": "Questão comentada: \"Brasília foi construída em território do antigo estado de Goiás e inaugurada em 1960, no governo de Juscelino Kubitschek, com plano piloto de Oscar Niemeyer.\" PARCIALMENTE ERRADO: a data (1960) e o governo (JK) estão corretos, mas o PLANO PILOTO (urbanismo) é de LÚCIO COSTA; Oscar Niemeyer foi o ARQUITETO dos edifícios. Trocar os papéis é pegadinha frequente.\n\nOutro item: \"A capital de Goiás sempre foi Goiânia.\" ERRADO. A capital foi a Cidade de Goiás (Vila Boa) até a transferência para Goiânia, consolidada em 1937. Goiânia foi fundada em 1933 e planejada por Attílio Corrêa Lima.",
+      "pontos_chave": [
+        "Goiânia: planejada por Attílio Corrêa Lima, fundada em 1933, sob Pedro Ludovico Teixeira.",
+        "Transferência da capital da Cidade de Goiás para Goiânia consolidada em 1937.",
+        "Marcha para o Oeste (Vargas/Estado Novo): integração do interior; CANG originou a cidade de Ceres.",
+        "Brasília: idealizada por JK (Plano de Metas), inaugurada em 21/04/1960.",
+        "Plano Piloto de Brasília = Lúcio Costa; arquitetura = Oscar Niemeyer; operários = candangos.",
+        "Brasília/DF foi formada em território desmembrado de Goiás, mas é juridicamente distinta do estado.",
+        "RIDE-DF e Entorno (Luziânia, Águas Lindas, Valparaíso etc.): áreas de forte crescimento e dependência de Brasília."
+      ],
+      "dica_prova": "As pegadinhas mais cobradas: (1) inverter Lúcio Costa (urbanismo/Plano Piloto) com Oscar Niemeyer (arquitetura); (2) dizer que Goiânia sempre foi a capital, ignorando a Cidade de Goiás; (3) confundir as datas — Goiânia (fundação 1933, capital 1937) e Brasília (1960). Lembre o nome Pedro Ludovico Teixeira para Goiânia e JK para Brasília. Note que o DF não integra o estado de Goiás juridicamente, mas o Entorno goiano depende funcionalmente de Brasília (RIDE)."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Agronegócio e indústria",
+      "intro": "A economia contemporânea de Goiás é uma das mais dinâmicas do Centro-Oeste, ancorada num agronegócio pujante, em agroindústrias modernas, na mineração, na geração de energia e em um setor de serviços em expansão. O estado figura entre os maiores produtores nacionais de grãos (soja e milho), cana-de-açúcar e proteína animal (bovinos, aves e suínos), além de liderar em derivados como etanol e carnes.\n\nEssa estrutura produtiva tem implicações fiscais diretas, tema central para o Auditor-Fiscal: o ICMS sobre a circulação de mercadorias (grãos, combustíveis, energia, agroindustriais) é a principal fonte de receita própria do estado. Goiás também se notabilizou por políticas de incentivos fiscais (como o FOMENTAR e o PRODUZIR) para atrair indústrias, política que entrou em debate nacional no contexto da guerra fiscal e, mais recentemente, da reforma tributária do consumo (EC 132/2023).",
+      "secoes": [
+        {
+          "h": "Agronegócio: grãos, cana e proteína animal",
+          "p": "Goiás é um dos líderes nacionais na produção de soja e milho, cultivados sobretudo no sul e sudoeste goiano (microrregiões de Rio Verde, Jataí, Cristalina), beneficiados pela mecanização do Cerrado e pela logística de escoamento. Cristalina destaca-se pela agricultura irrigada por pivôs centrais.\n\nO estado é também grande produtor de cana-de-açúcar, sustentando importante parque sucroenergético (açúcar e etanol). Na pecuária, Goiás tem um dos maiores rebanhos bovinos do país e forte produção de aves e suínos, com frigoríficos e abatedouros de grande porte. Rio Verde, no sudoeste, tornou-se polo agroindustrial de referência, sediando complexos de processamento de carnes e grãos."
+        },
+        {
+          "h": "Agroindústria, mineração e energia",
+          "p": "A agroindústria agrega valor à produção primária: usinas de açúcar e etanol, frigoríficos, indústrias de laticínios e processamento de grãos. A mineração é outro pilar: Goiás é destacado produtor de níquel, nióbio, cobre, ouro, amianto, fosfato e vermiculita, com municípios como Catalão, Ouvidor, Niquelândia, Barro Alto, Minaçu e Crixás.\n\nO setor energético é robusto, com diversas usinas hidrelétricas nos rios goianos e crescente geração solar e a partir da biomassa (bagaço de cana). A indústria de transformação inclui ainda o polo farmacêutico de Anápolis (Distrito Agroindustrial de Anápolis - DAIA), um dos maiores do país, e montadoras e fábricas atraídas por incentivos. Anápolis sedia também a Plataforma Logística e o aeroporto de cargas, reforçando o eixo Goiânia-Anápolis-Brasília."
+        },
+        {
+          "h": "Comércio exterior e logística",
+          "p": "Goiás tem forte inserção no comércio exterior, com a balança comercial superavitária impulsionada pela exportação de complexo soja (grão, farelo, óleo), carnes, milho, açúcar e minérios (com destaque para ferro-níquel e ouro). Os principais destinos incluem China, União Europeia e países asiáticos.\n\nA logística é fator decisivo: a posição central facilita o acesso a mercados, mas o estado depende fortemente do modal rodoviário. Investe-se em ferrovias (como a Ferrovia Norte-Sul, que corta o estado) e em plataformas logísticas para reduzir custos de escoamento da produção agrícola e mineral até os portos."
+        },
+        {
+          "h": "Incentivos fiscais, ICMS e reforma tributária",
+          "p": "Historicamente, Goiás usou programas de incentivo fiscal — como o FOMENTAR e, posteriormente, o PRODUZIR — concedendo financiamento e diferimento/redução de ICMS para atrair indústrias, política inserida na chamada guerra fiscal entre estados. O ICMS, regido em Goiás pelo Código Tributário do Estado (CTE-GO, Lei estadual nº 11.651/1991) e pela Constituição Federal (art. 155, II), é a principal receita estadual.\n\nA Lei Complementar nº 160/2017 e o Convênio CONFAZ ICMS 190/2017 buscaram convalidar incentivos fiscais concedidos sem aprovação unânime do CONFAZ. Já a Reforma Tributária do Consumo (Emenda Constitucional nº 132/2023) cria o IBS (estadual/municipal) e a CBS (federal) em substituição gradual ao ICMS, ISS, PIS, Cofins e IPI, com transição até 2033, impondo a Goiás profundas mudanças na arrecadação e no uso de incentivos, tema quentíssimo para a prova de Auditor-Fiscal."
+        }
+      ],
+      "exemplo": "Questão comentada (perfil SEFAZ): \"O ICMS, principal fonte de receita própria de Goiás e regido pelo CTE-GO (Lei 11.651/1991), será integralmente extinto e substituído pelo IBS já a partir da promulgação da EC 132/2023.\" ERRADO. A EC 132/2023 institui o IBS e a CBS, mas a substituição do ICMS é GRADUAL, com período de transição que se estende ao longo dos anos 2029-2033 (extinção plena do ICMS/ISS ao final da transição), e não imediata. A premissa de extinção 'já a partir da promulgação' é o erro.\n\nDica: relacione sempre a base econômica goiana (agro + agroindústria + mineração) com o ICMS como tributo-chave e com os programas FOMENTAR/PRODUZIR no contexto da guerra fiscal.",
+      "pontos_chave": [
+        "Goiás é dos maiores produtores nacionais de soja, milho, cana, etanol e proteína animal (boi, aves, suínos).",
+        "Polos: Rio Verde/Jataí (agroindústria), Cristalina (irrigação por pivô), Anápolis (DAIA, farmacêutico/logístico).",
+        "Mineração forte: níquel, nióbio, cobre, ouro, amianto, fosfato (Catalão, Niquelândia, Barro Alto, Minaçu, Crixás).",
+        "Balança comercial superavitária; exportações de complexo soja, carnes e minérios; China como destino-chave.",
+        "ICMS é a principal receita própria, regido pelo CTE-GO (Lei estadual 11.651/1991) e pela CF art. 155, II.",
+        "FOMENTAR e PRODUZIR: incentivos fiscais de ICMS no contexto da guerra fiscal; LC 160/2017 e Convênio 190/2017 convalidaram benefícios.",
+        "EC 132/2023 (Reforma Tributária): cria IBS e CBS, substituindo ICMS/ISS/PIS/Cofins/IPI gradualmente até 2033.",
+        "Logística depende do modal rodoviário; Ferrovia Norte-Sul e plataformas reduzem custos de escoamento."
+      ],
+      "dica_prova": "Para SEFAZ-GO, conecte a realidade econômica ao tributo: agro e mineração geram circulação de mercadorias tributada pelo ICMS, base do CTE-GO (Lei 11.651/1991). Pegadinhas: dizer que a EC 132/2023 extingue o ICMS imediatamente (é transição gradual até 2033) e confundir FOMENTAR/PRODUZIR (incentivos goianos) com tributos federais. Lembre que o nióbio e o níquel são minérios de destaque goiano e que Anápolis é polo farmacêutico/logístico, não apenas agrícola. Tenha confiança no número da Lei 11.651/1991 (CTE-GO) e da EC 132/2023."
+    }
+  ]
+}

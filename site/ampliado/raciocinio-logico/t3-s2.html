@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conjuntos — Raciocínio Lógico, Matemática Financeira e Estatística</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Conjuntos</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Sequências, matrizes e análise combinatória</p>
+    <h1>Conjuntos</h1>
+    <p>A teoria dos conjuntos trata de coleções de elementos e das operações entre elas. Em provas fiscais, o foco é a contagem de elementos em uniões e interseções, frequentemente apresentada em problemas com diagramas de Venn — por exemplo, contribuintes que pagam ICMS, IPVA ou ambos. O domínio das operações e do princípio da inclusão-exclusão resolve essas questões com segurança.</p><p>As operações fundamentais são união (todos os elementos), interseção (elementos comuns), diferença (o que está em um e não no outro) e complementar (o que está fora do conjunto, dentro do universo).</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Operações fundamentais</h2>
+          <p>União (A ∪ B): elementos que pertencem a A OU a B (ou a ambos). Interseção (A ∩ B): elementos que pertencem a A E a B simultaneamente. Diferença (A − B ou A \ B): elementos de A que NÃO estão em B. Complementar (A^c): elementos do universo que não estão em A.</p><p>Conjuntos disjuntos não têm elementos em comum: A ∩ B = ∅. Se A está contido em B (A ⊂ B), então A ∪ B = B e A ∩ B = A.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Princípio da inclusão-exclusão (2 conjuntos)</h2>
+          <p>Para contar a união sem contar duas vezes a interseção: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). Subtrai-se a interseção porque ela foi somada nas duas parcelas.</p><p>Isso permite achar qualquer uma das quantidades quando as outras são dadas. Por exemplo, se 30 pessoas gostam de café, 25 de chá, 10 de ambos, então n(A∪B) = 30 + 25 − 10 = 45 gostam de pelo menos uma das bebidas.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Inclusão-exclusão para três conjuntos</h2>
+          <p>Com três conjuntos: n(A∪B∪C) = n(A) + n(B) + n(C) − n(A∩B) − n(A∩C) − n(B∩C) + n(A∩B∩C). Somam-se os individuais, subtraem-se as interseções dois a dois e soma-se de volta a interseção tripla.</p><p>No diagrama de Venn de três círculos, o método mais seguro é preencher de dentro para fora: comece pela interseção tripla (centro), depois as duplas (descontando o centro) e por fim as regiões exclusivas.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Resolução por diagrama de Venn</h2>
+          <p>Desenhe os círculos, identifique a região central (interseção de todos) e preencha-a primeiro com o valor dado. Em seguida, ajuste cada interseção dupla subtraindo a parte já contada. Por fim, calcule as regiões &#x27;só A&#x27;, &#x27;só B&#x27;, &#x27;só C&#x27; subtraindo do total de cada conjunto as partes compartilhadas.</p><p>Não esqueça dos elementos que não pertencem a nenhum conjunto (fora dos círculos, mas dentro do universo): total = soma de todas as regiões + nenhum.</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Pesquisa com 100 contribuintes: 60 possuem débito de ICMS, 45 de IPVA e 25 possuem ambos. Quantos possuem apenas ICMS? Quantos não possuem nenhum dos dois débitos?</p><p>Apenas ICMS = n(ICMS) − n(ambos) = 60 − 25 = 35.
+Apenas IPVA = 45 − 25 = 20.
+Pelo menos um = n(ICMS∪IPVA) = 60 + 45 − 25 = 80.
+Nenhum = total − pelo menos um = 100 − 80 = 20.</p><p>Verificação: 35 (só ICMS) + 20 (só IPVA) + 25 (ambos) + 20 (nenhum) = 100. Confere.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>A pegadinha mais comum é confundir &#x27;apenas A&#x27; com &#x27;A&#x27; (o total de A já inclui a interseção). Quando o enunciado diz &#x27;somente ICMS&#x27;, subtraia a interseção. Outra armadilha: &#x27;pelo menos um&#x27; é a união; &#x27;exatamente um&#x27; é a soma das regiões exclusivas (sem a interseção). Sempre confira somando todas as regiões e o &#x27;nenhum&#x27; — o total deve bater com o universo dado.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t3-s1.html">← Análise combinatória</a><a class="pager next" href="t4-s0.html">Regras fundamentais →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>União (∪): A ou B; Interseção (∩): A e B; Diferença (−): A sem B.</li><li>Inclusão-exclusão (2): n(A∪B) = n(A) + n(B) − n(A∩B).</li><li>Inclusão-exclusão (3): soma individuais − duplas + tripla.</li><li>No Venn, preencha de dentro para fora (interseção central primeiro).</li><li>&#x27;Apenas A&#x27; = n(A) − interseções que contêm A.</li><li>Não esqueça os elementos fora de todos os conjuntos.</li><li>Total = soma de todas as regiões disjuntas do diagrama.</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

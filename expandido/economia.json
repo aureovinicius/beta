@@ -1,0 +1,364 @@
+{
+  "slug": "economia",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Escassez e custo de oportunidade",
+      "intro": "A Economia é a ciência social que estuda como sociedades administram recursos escassos para satisfazer necessidades e desejos que são, por natureza, ilimitados. Toda a teoria econômica nasce dessa tensão fundamental: como os recursos (terra, trabalho, capital e capacidade empresarial) são limitados, é impossível produzir tudo o que se deseja, o que obriga indivíduos, empresas e governos a fazerem escolhas.\n\nEscassez é o conceito-mãe da disciplina. Não significa raridade absoluta, mas insuficiência relativa: um bem é escasso quando, ao preço zero, a quantidade demandada supera a ofertada. Bens livres (como o ar atmosférico em condições normais) não são objeto de estudo econômico justamente porque não são escassos. Da escassez deriva o conceito de custo de oportunidade, peça central tanto na microeconomia quanto na avaliação de políticas públicas e tributárias.",
+      "secoes": [
+        {
+          "h": "O problema econômico fundamental e os fatores de produção",
+          "p": "Como os recursos são escassos, toda economia precisa responder a três perguntas básicas: O QUE e QUANTO produzir, COMO produzir e PARA QUEM produzir (distribuição). Os recursos disponíveis para a produção são os fatores de produção, classicamente quatro: terra (recursos naturais), trabalho (esforço humano), capital (máquinas, equipamentos, instalações — bens produzidos para produzir outros bens) e capacidade empresarial (a função de organizar e assumir riscos).\n\nA cada fator corresponde uma remuneração: aluguel/renda à terra, salário ao trabalho, juro ao capital e lucro à capacidade empresarial. Pegadinha frequente: dinheiro NÃO é capital no sentido econômico — é apenas um meio de troca; capital econômico são os bens de produção."
+        },
+        {
+          "h": "Custo de oportunidade",
+          "p": "Custo de oportunidade é o valor da MELHOR alternativa sacrificada quando se faz uma escolha. Não é a soma de todas as alternativas abandonadas, apenas a mais valiosa entre elas. É um custo implícito, nem sempre contabilizado em dinheiro.\n\nExemplo aplicado à decisão de estudar para o concurso: se você larga um emprego que pagava R$ 5.000/mês para estudar em tempo integral, o custo de oportunidade de estudar inclui esses R$ 5.000 mensais não recebidos, ainda que nenhum desembolso ocorra. Na ótica do Estado, o custo de oportunidade de conceder um benefício fiscal (renúncia de receita) é o conjunto de políticas públicas que poderiam ser financiadas com aquela arrecadação perdida — conceito que dialoga diretamente com a LRF (art. 14)."
+        },
+        {
+          "h": "Curva de Possibilidades de Produção (CPP)",
+          "p": "A CPP (ou fronteira de possibilidades de produção) é a representação gráfica das combinações máximas de dois bens que uma economia pode produzir usando plenamente e com eficiência todos os seus recursos e a tecnologia disponível. No gráfico, coloca-se o bem X no eixo horizontal e o bem Y no vertical; a curva é uma linha descendente da esquerda para a direita.\n\nA CPP é côncava em relação à origem (curvada para fora) por causa do custo de oportunidade CRESCENTE: à medida que se produz mais de um bem, sacrifica-se cada vez mais do outro, pois os fatores de produção não são perfeitamente adaptáveis a usos alternativos. Pontos SOBRE a curva são eficientes (pleno emprego); pontos DENTRO (à esquerda) indicam ineficiência ou desemprego de recursos; pontos FORA (à direita) são inalcançáveis no presente. Um deslocamento da curva inteira para a direita representa crescimento econômico (mais recursos ou melhor tecnologia)."
+        },
+        {
+          "h": "Bens econômicos, livres e de capital",
+          "p": "Bens econômicos são escassos e exigem esforço/pagamento para serem obtidos; bens livres são ilimitados e gratuitos. Bens de consumo satisfazem necessidades diretamente (alimentos, roupas); bens de capital (ou de produção) são usados para produzir outros bens. Bens intermediários são consumidos no processo produtivo e incorporados a outros (matéria-prima), enquanto bens finais chegam ao consumidor — distinção essencial para evitar dupla contagem no cálculo do PIB.\n\nBens substitutos satisfazem necessidades semelhantes (manteiga e margarina); bens complementares são consumidos em conjunto (carro e gasolina). Essas categorias retornam no estudo das elasticidades cruzadas."
+        }
+      ],
+      "exemplo": "Questão comentada (estilo Cebraspe/FGV): 'Uma economia que opera em um ponto situado abaixo de sua curva de possibilidades de produção está utilizando todos os seus recursos de forma plena e eficiente.' ERRADO. Pontos abaixo (internos) da CPP indicam justamente ineficiência ou desemprego de recursos — há capacidade ociosa. O pleno emprego eficiente ocorre apenas SOBRE a curva.\n\nExemplo numérico de custo de oportunidade: uma fazenda goiana pode produzir, com seus recursos, no máximo 1.000 sacas de soja OU 800 sacas de milho. Se o produtor decide plantar soja e abre mão do milho, o custo de oportunidade de cada saca de soja é 0,8 saca de milho (800/1.000). Esse trade-off é a inclinação (em módulo) da CPP naquele trecho.",
+      "pontos_chave": [
+        "Escassez é insuficiência relativa de recursos diante de necessidades ilimitadas — é o problema econômico central.",
+        "Fatores de produção: terra, trabalho, capital e capacidade empresarial; remunerados por renda, salário, juro e lucro.",
+        "Dinheiro não é capital econômico; capital são os bens de produção.",
+        "Custo de oportunidade = valor da MELHOR alternativa abandonada, não a soma de todas.",
+        "A CPP é côncava (curva para fora) por causa do custo de oportunidade crescente.",
+        "Pontos sobre a CPP = eficiência; pontos internos = ineficiência/ociosidade; pontos externos = inalcançáveis.",
+        "Deslocamento da CPP para a direita = crescimento econômico.",
+        "Bens intermediários x finais: distinção que evita a dupla contagem no PIB."
+      ],
+      "dica_prova": "A pegadinha clássica é confundir os pontos da CPP: memorize 'dentro = desperdício, sobre = ótimo, fora = sonho'. Outra armadilha é a banca afirmar que a CPP é uma reta — só seria reta se o custo de oportunidade fosse constante (fatores perfeitamente substituíveis), o que é caso de exceção. E cuidado com 'custo de oportunidade é a soma das alternativas': é apenas a MELHOR delas."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Deslocamentos x movimentos",
+      "intro": "A lei da demanda estabelece uma relação INVERSA entre preço e quantidade demandada: tudo o mais constante (ceteris paribus), quando o preço sobe, a quantidade procurada cai, e vice-versa. A lei da oferta estabelece uma relação DIRETA: quando o preço sobe, os produtores ofertam mais. O cruzamento das curvas de oferta e demanda determina o preço e a quantidade de equilíbrio do mercado.\n\nUm dos pontos mais cobrados em provas — e fonte recorrente de erro — é a distinção entre MOVIMENTO ao longo da curva e DESLOCAMENTO da curva inteira. Confundir os dois leva a respostas erradas em praticamente toda questão de equilíbrio de mercado.",
+      "secoes": [
+        {
+          "h": "Movimento ao longo da curva versus deslocamento da curva",
+          "p": "MOVIMENTO ao longo da curva ocorre quando muda o PRÓPRIO PREÇO do bem analisado. Nesse caso, varia a 'quantidade demandada' (ou ofertada), e nos deslocamos de um ponto a outro sobre a MESMA curva. Nada além do preço mudou.\n\nDESLOCAMENTO da curva inteira ocorre quando muda qualquer outro determinante que NÃO seja o preço do próprio bem. Aí a 'demanda' (ou a 'oferta') como um todo se altera — a curva se move para a direita (aumento) ou para a esquerda (redução). A regra mnemônica das bancas: variação no preço do próprio bem → movimento (varia a quantidade demandada); variação em qualquer outra coisa → deslocamento (varia a demanda)."
+        },
+        {
+          "h": "Determinantes que deslocam a curva de demanda",
+          "p": "A demanda se desloca por: (1) renda dos consumidores — para bens normais, mais renda desloca a demanda à direita; para bens inferiores, mais renda desloca à esquerda; (2) preço de bens relacionados — alta no preço de um substituto aumenta a demanda do bem; alta no preço de um complementar a reduz; (3) gostos e preferências; (4) expectativas (de preço ou renda futuros); (5) número de consumidores no mercado.\n\nGiffen e Veblen são casos especiais cobrados em provas mais difíceis: o bem de Giffen é um inferior tão extremo que tem demanda de inclinação positiva (sobe o preço, sobe a quantidade); o bem de Veblen (ou de ostentação) tem demanda crescente com o preço por status. Ambos são exceções à lei da demanda."
+        },
+        {
+          "h": "Determinantes que deslocam a curva de oferta",
+          "p": "A oferta se desloca por: (1) preço dos insumos/fatores de produção — insumos mais caros deslocam a oferta à esquerda; (2) tecnologia — avanços tecnológicos deslocam à direita; (3) tributos e subsídios — um imposto sobre o produtor desloca a oferta à esquerda (encarece produzir), um subsídio desloca à direita; (4) expectativas dos produtores; (5) número de vendedores; (6) preço de bens correlatos na produção.\n\nO item (3) é o gancho fiscal mais importante: a instituição ou aumento de ICMS sobre uma mercadoria desloca a curva de oferta para a esquerda, elevando o preço de equilíbrio e reduzindo a quantidade transacionada."
+        },
+        {
+          "h": "Equilíbrio, excesso de oferta e excesso de demanda",
+          "p": "No preço de equilíbrio, a quantidade ofertada iguala a demandada e não há tendência de mudança. Se o preço de mercado está ACIMA do equilíbrio, há excesso de oferta (excedente): sobra mercadoria e o preço tende a cair. Se está ABAIXO, há excesso de demanda (escassez): falta produto e o preço tende a subir, até retornar ao equilíbrio.\n\nQuando ambas as curvas se deslocam ao mesmo tempo, o efeito sobre preço ou quantidade pode ser indeterminado, dependendo da intensidade relativa dos deslocamentos. Esse é um cenário típico de pegadinha de prova: a banca pede a variação de preço E quantidade e uma delas é indeterminada."
+        }
+      ],
+      "exemplo": "Exemplo aplicado: o governo de Goiás reduz a alíquota de ICMS sobre energia elétrica. Efeito? Um tributo menor sobre o setor reduz o custo de fornecer energia, deslocando a curva de OFERTA para a direita. O novo equilíbrio terá preço MENOR e quantidade MAIOR. Note que a curva de demanda NÃO se deslocou — o que ocorreu com a demanda foi apenas um movimento ao longo dela (aumento da quantidade demandada por causa do preço mais baixo).\n\nQuestão comentada: 'O aumento da renda dos consumidores provoca um movimento ao longo da curva de demanda.' ERRADO. Renda não é o preço do próprio bem; portanto há DESLOCAMENTO da curva de demanda (para a direita, se o bem for normal), não movimento ao longo dela.",
+      "pontos_chave": [
+        "Preço do próprio bem muda → MOVIMENTO ao longo da curva (varia a quantidade demandada/ofertada).",
+        "Qualquer outro determinante muda → DESLOCAMENTO da curva inteira (varia a demanda/oferta).",
+        "Demanda desloca por: renda, preço de bens relacionados, gostos, expectativas, nº de consumidores.",
+        "Oferta desloca por: preço de insumos, tecnologia, tributos/subsídios, expectativas, nº de vendedores.",
+        "Imposto sobre o produtor desloca a oferta à esquerda; subsídio, à direita.",
+        "Preço acima do equilíbrio = excesso de oferta; abaixo = excesso de demanda.",
+        "Quando as duas curvas se deslocam, preço ou quantidade pode ficar indeterminado.",
+        "Giffen e Veblen são exceções à lei da demanda (inclinação positiva)."
+      ],
+      "dica_prova": "A banca adora trocar 'demanda' por 'quantidade demandada' (e vice-versa). Leia com lupa: se mudou o preço do próprio bem, fale em quantidade demandada e movimento; se mudou outra coisa, fale em demanda e deslocamento. Outra pegadinha: tributo sobre o produtor afeta a OFERTA (não a demanda). E lembre que quando as duas curvas se movem juntas, ou o preço ou a quantidade fica indeterminado."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Bens substitutos e complementares",
+      "intro": "Bens relacionados são aqueles cujo consumo ou preço afeta a demanda de outro bem. Eles se dividem essencialmente em substitutos e complementares, e a forma de medir essa relação é a elasticidade-preço cruzada da demanda. Esse tema conecta-se à definição de mercado relevante, usada inclusive em análises antitruste e em estudos de impacto tributário setorial.\n\nCompreender substitutos e complementares é indispensável para prever como uma alteração de preço (inclusive por motivo tributário, como uma mudança de alíquota de ICMS) em um produto repercute na demanda de outros produtos.",
+      "secoes": [
+        {
+          "h": "Bens substitutos",
+          "p": "Substitutos são bens que satisfazem necessidades semelhantes e podem ser trocados um pelo outro no consumo (manteiga e margarina, carne bovina e frango, transporte por aplicativo e táxi). A relação entre eles é DIRETA: quando o preço de um sobe, a demanda do outro AUMENTA, porque os consumidores migram para a alternativa que ficou relativamente mais barata.\n\nNa elasticidade-preço cruzada, substitutos apresentam coeficiente POSITIVO. Quanto mais próximos os substitutos, mais forte a relação. Substitutos perfeitos teriam elasticidade cruzada tendendo ao infinito."
+        },
+        {
+          "h": "Bens complementares",
+          "p": "Complementares são consumidos em conjunto, de forma que o uso de um exige o outro (automóvel e combustível, impressora e cartucho, pão e manteiga). A relação é INVERSA: quando o preço de um sobe, a demanda do outro DIMINUI, pois encarece o consumo do conjunto.\n\nNa elasticidade-preço cruzada, complementares têm coeficiente NEGATIVO. Bens independentes (sem relação de consumo) têm elasticidade cruzada igual a zero — a variação de preço de um não afeta a demanda do outro."
+        },
+        {
+          "h": "Elasticidade-preço cruzada da demanda",
+          "p": "A elasticidade cruzada (Exy) mede a variação percentual na quantidade demandada do bem X dividida pela variação percentual no preço do bem Y: Exy = (%ΔQx) / (%ΔPy). O SINAL do resultado revela a relação: positivo → substitutos; negativo → complementares; zero → independentes.\n\nNão confunda com a elasticidade-RENDA, que usa a variação da renda no denominador e cujo sinal classifica os bens em normais (positivo) e inferiores (negativo). São coeficientes diferentes com finalidades diferentes."
+        },
+        {
+          "h": "Aplicação tributária da relação entre bens",
+          "p": "Para o Fisco, a relação entre bens importa porque uma medida tributária sobre um produto repercute em mercados vizinhos. Se o Estado aumenta o ICMS sobre a gasolina (encarecendo-a), a demanda por etanol (substituto) tende a crescer, alterando a base de arrecadação de ambos. Já um aumento que encareça veículos pode reduzir a demanda por combustíveis (complementares), com efeito sobre a receita do setor.\n\nEssa interdependência mostra por que a análise de impacto de uma renúncia ou majoração tributária não pode olhar um produto isoladamente — o efeito-cruzado pode ampliar ou neutralizar a arrecadação esperada."
+        }
+      ],
+      "exemplo": "Exemplo numérico de elasticidade cruzada: o preço da carne bovina sobe 20% e, em decorrência, a quantidade demandada de frango aumenta 10%. Exy = (+10%)/(+20%) = +0,5. Sinal positivo confirma que carne e frango são substitutos.\n\nOutro caso: o preço da gasolina sobe 15% e a quantidade demandada de carros novos cai 6%. Exy = (-6%)/(+15%) = -0,4. Sinal negativo confirma que gasolina e automóveis são complementares.\n\nQuestão comentada: 'Se a elasticidade-preço cruzada entre dois bens é negativa, eles são substitutos.' ERRADO. Coeficiente NEGATIVO indica bens COMPLEMENTARES; substitutos têm coeficiente positivo.",
+      "pontos_chave": [
+        "Substitutos: relação direta — sobe o preço de um, aumenta a demanda do outro.",
+        "Complementares: relação inversa — sobe o preço de um, cai a demanda do outro.",
+        "Elasticidade cruzada POSITIVA = substitutos; NEGATIVA = complementares; ZERO = independentes.",
+        "Exy = (%ΔQx) / (%ΔPy): o que importa para classificar é o SINAL.",
+        "Não confunda elasticidade cruzada (preço de outro bem) com elasticidade-renda (variação da renda).",
+        "Elasticidade-renda positiva = bem normal; negativa = bem inferior.",
+        "Medidas tributárias sobre um bem repercutem na demanda de substitutos e complementares."
+      ],
+      "dica_prova": "Decore o sinal: substituto = positivo (Sim, ambos sobem juntos); complementar = negativo. A pegadinha mais comum é inverter os sinais ou misturar com a elasticidade-renda. Memorize: 'cruzada classifica relação ENTRE bens; renda classifica o bem em normal/inferior'. E lembre que bens independentes têm elasticidade cruzada zero."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Elasticidade e tributação",
+      "intro": "A elasticidade-preço da demanda mede a sensibilidade da quantidade demandada a variações no preço. É calculada como o módulo da razão entre a variação percentual da quantidade e a variação percentual do preço: Epd = |%ΔQ / %ΔP|. Esse conceito é, talvez, o mais cobrado da microeconomia em concursos fiscais, porque determina diretamente quem suporta o ônus de um imposto e quanto o Estado arrecada.\n\nA demanda é classificada como elástica (Epd > 1, muito sensível), inelástica (Epd < 1, pouco sensível) ou de elasticidade unitária (Epd = 1). Os casos extremos são a demanda perfeitamente elástica (Epd → infinito, curva horizontal) e a perfeitamente inelástica (Epd = 0, curva vertical). O Auditor-Fiscal precisa dominar a relação entre essas categorias, a receita do vendedor e a incidência tributária.",
+      "secoes": [
+        {
+          "h": "Cálculo e classificação da elasticidade-preço",
+          "p": "Epd = |variação % da quantidade demandada ÷ variação % do preço|. Usa-se o módulo porque, pela lei da demanda, numerador e denominador têm sinais opostos (a elasticidade seria sempre negativa); convenciona-se trabalhar com o valor absoluto.\n\nClassificação: Epd > 1 → demanda elástica (a quantidade varia proporcionalmente mais que o preço); Epd < 1 → inelástica (quantidade varia menos que o preço); Epd = 1 → unitária. Determinantes da elasticidade: existência de substitutos próximos (mais substitutos = mais elástica), essencialidade do bem (bens essenciais como remédios e alimentos básicos são inelásticos), peso no orçamento e horizonte de tempo (no longo prazo a demanda tende a ser mais elástica)."
+        },
+        {
+          "h": "Elasticidade e receita total do vendedor",
+          "p": "A receita total (RT = Preço × Quantidade) reage de forma oposta conforme a elasticidade. Se a demanda é ELÁSTICA, preço e receita caminham em sentidos OPOSTOS: aumentar o preço reduz tanto a quantidade que a receita cai; baixar o preço aumenta a receita. Se a demanda é INELÁSTICA, preço e receita caminham no MESMO sentido: aumentar o preço aumenta a receita, pois a quantidade cai pouco. Se a demanda é UNITÁRIA, a receita é máxima e não se altera com pequenas mudanças de preço.\n\nEssa lógica explica por que governos costumam tributar pesadamente bens inelásticos (cigarro, combustíveis, bebidas): eleva-se o preço sem grande queda de consumo, maximizando arrecadação."
+        },
+        {
+          "h": "Incidência tributária: quem paga o imposto",
+          "p": "A incidência ECONÔMICA (efetiva) de um tributo nem sempre coincide com a incidência LEGAL (quem a lei manda recolher). Quem suporta de fato o ônus depende das elasticidades relativas de oferta e demanda. Regra-chave: o lado do mercado MENOS elástico (mais inelástico) arca com a MAIOR parcela do imposto.\n\nSe a demanda é mais inelástica que a oferta, o consumidor paga a maior parte (caso típico de combustíveis e medicamentos). Se a oferta é mais inelástica que a demanda, o produtor é quem arca. Nos extremos: demanda perfeitamente inelástica → todo o imposto recai sobre o consumidor; demanda perfeitamente elástica → todo o imposto recai sobre o produtor. Esse é o fenômeno da repercussão/translação tributária (tributos indiretos, como o ICMS, repassam o ônus para frente, ao consumidor)."
+        },
+        {
+          "h": "Peso morto, arrecadação e a Curva de Laffer",
+          "p": "Todo imposto sobre o consumo gera um peso morto (perda de bem-estar / perda de eficiência): trata-se das transações que deixaram de ocorrer porque o tributo elevou o preço pago e reduziu o preço recebido. Quanto MAIS elásticas forem oferta e demanda, MAIOR o peso morto, pois mais transações são desestimuladas. Por isso tributar bens inelásticos gera menos perda de bem-estar — argumento de eficiência muito cobrado.\n\nA Curva de Laffer ilustra que a arrecadação não cresce indefinidamente com a alíquota: a partir de certo ponto, alíquotas maiores reduzem a base tributável (consumo, atividade) a ponto de DIMINUIR a receita total. Há, em tese, uma alíquota que maximiza a arrecadação; acima dela, aumentar o imposto reduz o que se arrecada."
+        }
+      ],
+      "exemplo": "Exemplo numérico: o preço da gasolina sobe 10% e a quantidade demandada cai apenas 2%. Epd = |-2%/+10%| = 0,2 → demanda INELÁSTICA. Como Epd < 1, ao subir o preço a receita total aumenta. Por isso, tributar combustível eleva a arrecadação com pequena queda de consumo, e o consumidor (lado inelástico) suporta a maior parte do tributo.\n\nQuestão comentada (perfil SEFAZ): 'Para maximizar a arrecadação e minimizar a perda de bem-estar (peso morto), é preferível tributar bens cuja demanda seja elástica.' ERRADO. O ideal é tributar bens INELÁSTICOS: a quantidade cai pouco (mais arrecadação) e o peso morto é menor. Tributar bens elásticos desestimula muito o consumo, reduz a base e gera grande perda de eficiência.",
+      "pontos_chave": [
+        "Epd = |%ΔQ ÷ %ΔP|; >1 elástica, <1 inelástica, =1 unitária.",
+        "Mais substitutos, bem supérfluo e longo prazo → demanda mais elástica.",
+        "Demanda inelástica: preço e receita andam juntos. Demanda elástica: andam em sentidos opostos.",
+        "O lado MAIS INELÁSTICO do mercado arca com a MAIOR parte do imposto.",
+        "Demanda perfeitamente inelástica → consumidor paga todo o imposto; perfeitamente elástica → produtor paga tudo.",
+        "Tributos indiretos (ICMS) tendem a ser repassados ao consumidor (translação para frente).",
+        "Peso morto cresce com a elasticidade; tributar bens inelásticos minimiza a perda de bem-estar.",
+        "Curva de Laffer: acima da alíquota ótima, aumentar o imposto REDUZ a arrecadação."
+      ],
+      "dica_prova": "A maior pegadinha é o sentido da relação preço-receita: grave que com demanda INELÁSTICA, aumentar o preço AUMENTA a receita. Outra clássica: associar erradamente quem paga o tributo — o ônus recai sobre o lado MENOS elástico, não o mais. E não confunda incidência legal (quem recolhe) com incidência econômica (quem efetivamente suporta). A Curva de Laffer NÃO diz que imposto baixo sempre arrecada mais — diz que existe um ponto ótimo."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Custos no curto e longo prazo",
+      "intro": "A teoria da produção e dos custos analisa como a empresa combina insumos para gerar produto e como seus custos evoluem conforme a escala de produção. A distinção entre curto e longo prazo é conceitual, não cronológica: no CURTO prazo existe pelo menos um fator de produção FIXO (tipicamente o capital/instalações); no LONGO prazo, TODOS os fatores são variáveis e a empresa pode até entrar ou sair do mercado.\n\nEsse tema fundamenta decisões de produção da firma, a curva de oferta e estruturas de mercado, sendo recorrente em provas que cobram cálculo e interpretação de custos médios e marginais.",
+      "secoes": [
+        {
+          "h": "Função de produção e rendimentos decrescentes",
+          "p": "A função de produção relaciona a quantidade de insumos à quantidade máxima de produto. No curto prazo, ao se acrescentar unidades de um fator variável (trabalho) a um fator fixo (capital), vale a Lei dos Rendimentos Marginais Decrescentes: a partir de certo ponto, cada unidade adicional do fator variável gera um acréscimo de produto cada vez MENOR.\n\nAtenção a três conceitos: produto total (PT), produto médio (PMe = PT/quantidade de fator) e produto marginal (PMg = ΔPT/Δfator). O produto marginal cresce, atinge um máximo e depois decresce — daí o formato das curvas de custo. Quando o PMg está acima do PMe, este sobe; quando está abaixo, o PMe cai; cruzam-se no máximo do PMe."
+        },
+        {
+          "h": "Custos de curto prazo: fixos, variáveis, totais, médios e marginais",
+          "p": "Custo Fixo Total (CFT): não varia com a produção (aluguel, depreciação) — existe mesmo se a produção for zero. Custo Variável Total (CVT): varia com a quantidade produzida (matéria-prima, mão de obra direta). Custo Total (CT) = CFT + CVT.\n\nDos totais derivam os MÉDIOS (por unidade): CFMe = CFT/Q (sempre decrescente, pois o custo fixo se dilui); CVMe = CVT/Q; CTMe = CT/Q (formato de U). O Custo Marginal (CMg = ΔCT/ΔQ) é o custo de produzir uma unidade adicional. Propriedade fundamental: a curva de CMg corta as curvas de CVMe e de CTMe exatamente em seus pontos de MÍNIMO. Quando CMg < CTMe, o médio cai; quando CMg > CTMe, o médio sobe."
+        },
+        {
+          "h": "Custos de longo prazo e economias de escala",
+          "p": "No longo prazo, sem fatores fixos, a empresa escolhe a escala (tamanho de planta) ótima. A curva de Custo Médio de Longo Prazo (CMeLP) é a envoltória das curvas de curto prazo e costuma ter formato de U por causa das economias e deseconomias de escala.\n\nEconomias de escala (rendimentos crescentes): ao expandir a produção, o custo médio CAI — por especialização, descontos em compras, diluição de custos fixos. Rendimentos constantes: custo médio estável. Deseconomias de escala: a partir de certo porte, o custo médio SOBE, geralmente por dificuldades de gestão e coordenação. A escala em que o CMeLP é mínimo é a Escala Mínima Eficiente."
+        },
+        {
+          "h": "Custos contábeis x econômicos e decisões da firma",
+          "p": "O custo CONTÁBIL considera apenas desembolsos explícitos. O custo ECONÔMICO soma também os custos implícitos (custo de oportunidade dos recursos próprios). Por isso o LUCRO ECONÔMICO (receita menos custos explícitos E implícitos) é menor que o lucro contábil. Quando o lucro econômico é zero, fala-se em lucro normal — a empresa cobre inclusive o custo de oportunidade e permanece no mercado.\n\nDecisões: no curto prazo, a firma produz enquanto o preço cobrir ao menos o custo variável médio (ponto de fechamento = mínimo do CVMe); abaixo disso, vale mais a pena parar. No longo prazo, só permanece se o preço cobrir o custo total médio (ponto de nivelamento = mínimo do CTMe)."
+        }
+      ],
+      "exemplo": "Exemplo numérico: uma empresa tem CFT = R$ 1.000. Para produzir 10 unidades, o CVT é R$ 500; para 11 unidades, o CVT é R$ 560.\n- Para 10 unidades: CT = 1.000 + 500 = R$ 1.500; CTMe = 1.500/10 = R$ 150; CFMe = 1.000/10 = R$ 100.\n- Custo marginal da 11ª unidade: CMg = ΔCT/ΔQ = (560-500)/1 = R$ 60.\nComo o CMg (R$ 60) está abaixo do CTMe anterior (R$ 150), produzir a 11ª unidade REDUZ o custo total médio.\n\nQuestão comentada: 'A curva de custo marginal intercepta as curvas de custo variável médio e custo total médio em seus pontos de máximo.' ERRADO. A curva de CMg corta as de CVMe e CTMe nos pontos de MÍNIMO, não de máximo. Esse é um dos erros mais explorados em prova.",
+      "pontos_chave": [
+        "Curto prazo = ao menos um fator fixo; longo prazo = todos os fatores variáveis.",
+        "Lei dos rendimentos marginais decrescentes opera no curto prazo (fator fixo presente).",
+        "CT = CFT + CVT; CFT existe mesmo com produção zero.",
+        "CFMe é sempre decrescente; CTMe e CVMe têm formato de U.",
+        "CMg corta CVMe e CTMe nos pontos de MÍNIMO.",
+        "Economias de escala (longo prazo) reduzem o custo médio; deseconomias o elevam.",
+        "Custo econômico inclui custos implícitos (oportunidade); lucro econômico < lucro contábil.",
+        "Ponto de fechamento = mínimo do CVMe (curto prazo); ponto de nivelamento = mínimo do CTMe (longo prazo)."
+      ],
+      "dica_prova": "Memorize a propriedade do marginal cortando os médios no MÍNIMO — é a pegadinha número um. Não confunda rendimentos decrescentes (curto prazo, fenômeno de produtividade) com deseconomias de escala (longo prazo, fenômeno de gestão). E saiba distinguir os pontos de decisão: no curto prazo a firma fecha quando o preço não cobre o CVMe; no longo prazo sai quando não cobre o CTMe."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Falhas de mercado",
+      "intro": "Em concorrência perfeita ideal, o mercado aloca recursos de forma eficiente sem necessidade de intervenção. Falhas de mercado são situações em que o livre funcionamento dos preços NÃO produz a alocação eficiente, justificando a atuação do Estado — seja regulando, provendo bens ou tributando/subsidiando para corrigir o resultado. Esse tema é central para o Auditor-Fiscal porque a tributação corretiva (tributos pigouvianos, seletividade) nasce exatamente da existência de falhas.\n\nAs quatro falhas clássicas são: externalidades, bens públicos, assimetria de informação e poder de mercado (concorrência imperfeita). A elas se somam, em sentido amplo, os mercados incompletos e os problemas de equidade na distribuição.",
+      "secoes": [
+        {
+          "h": "Externalidades",
+          "p": "Externalidade é o efeito (custo ou benefício) que a atividade de um agente impõe a terceiros SEM que isso se reflita nos preços de mercado. Externalidade NEGATIVA (ex.: poluição de uma fábrica): o custo social supera o custo privado, e o mercado produz EM EXCESSO o bem. Externalidade POSITIVA (ex.: vacinação, educação): o benefício social supera o privado, e o mercado produz DE MENOS.\n\nCorreção: para externalidades negativas, o tributo pigouviano (imposto igual ao dano marginal externo) internaliza o custo e reduz a produção ao nível ótimo. É o fundamento econômico da seletividade do ICMS e do IPI e do futuro 'Imposto Seletivo' (EC 132/2023), incidente sobre bens nocivos à saúde e ao meio ambiente. Para externalidades positivas, usam-se subsídios. O Teorema de Coase sugere que, com direitos de propriedade bem definidos e custos de transação baixos, as partes podem negociar a solução eficiente sem intervenção estatal."
+        },
+        {
+          "h": "Bens públicos",
+          "p": "Bens públicos puros têm duas características: NÃO RIVALIDADE (o consumo por um não reduz a disponibilidade para outro — ex.: iluminação pública, defesa nacional) e NÃO EXCLUSIVIDADE (não se consegue impedir alguém de consumir). Por isso o mercado privado não os fornece adequadamente: surge o problema do 'carona' (free rider), quem se beneficia sem pagar.\n\nComo o setor privado não tem incentivo para ofertá-los, cabe ao Estado provê-los, financiando-os com TRIBUTOS — em especial com impostos, cuja receita não é vinculada a contraprestação específica. Cuidado: bens públicos no sentido econômico não se confundem com 'bens públicos' do Direito Administrativo (de uso comum, especial, dominical)."
+        },
+        {
+          "h": "Assimetria de informação",
+          "p": "Ocorre quando uma das partes da transação detém mais informação que a outra. Dois efeitos clássicos: SELEÇÃO ADVERSA (informação assimétrica ANTES do contrato — ex.: no seguro de saúde, os mais doentes têm mais incentivo a contratar, elevando o risco médio; mercado de carros usados/'lemons' de Akerlof) e RISCO MORAL/moral hazard (mudança de comportamento DEPOIS do contrato — ex.: o segurado se torna menos cuidadoso).\n\nA assimetria informacional dialoga diretamente com a administração tributária: o contribuinte conhece sua real capacidade contributiva melhor que o Fisco, o que motiva obrigações acessórias, cruzamento de dados, nota fiscal eletrônica e SPED como instrumentos de redução dessa assimetria."
+        },
+        {
+          "h": "Poder de mercado e o papel do Estado",
+          "p": "Quando um agente tem poder de mercado (monopólio, oligopólio), consegue fixar preço acima do custo marginal, produzindo MENOS e cobrando MAIS do que em concorrência, gerando peso morto. É falha de mercado que justifica a regulação e a defesa da concorrência (no Brasil, o CADE, sob a Lei 12.529/2011).\n\nA atuação do Estado diante das falhas assume três formas principais: (1) provisão direta (bens públicos); (2) regulação (agências reguladoras, antitruste); e (3) instrumentos tributários — tributos corretivos sobre externalidades negativas e subsídios sobre positivas. A CF/88 (art. 174) prevê o Estado como agente normativo e regulador da atividade econômica."
+        }
+      ],
+      "exemplo": "Exemplo aplicado à tributação: uma usina lança poluentes em um rio, impondo custos de saúde e despoluição à população (externalidade negativa). Sem intervenção, o preço de mercado não reflete esse dano e a usina produz acima do socialmente ótimo. A solução pigouviana é instituir um tributo igual ao custo externo marginal, encarecendo a produção poluente e reduzindo-a ao nível eficiente. Esse raciocínio fundamenta a seletividade tributária e o Imposto Seletivo da Reforma Tributária (EC 132/2023), o chamado 'imposto do pecado'.\n\nQuestão comentada: 'Bens públicos puros caracterizam-se por serem rivais e não excludentes.' ERRADO. Bens públicos puros são NÃO rivais e NÃO excludentes. A rivalidade é característica de bens privados.",
+      "pontos_chave": [
+        "Externalidade negativa: custo social > privado; mercado produz em EXCESSO; corrige-se com tributo (pigouviano).",
+        "Externalidade positiva: benefício social > privado; mercado produz DE MENOS; corrige-se com subsídio.",
+        "Bens públicos puros: NÃO rivais e NÃO excludentes; geram o problema do carona (free rider).",
+        "Bens públicos são financiados por tributos, pois o mercado privado não os oferta.",
+        "Seleção adversa = assimetria ANTES do contrato; risco moral = comportamento DEPOIS do contrato.",
+        "Poder de mercado (monopólio/oligopólio) gera preço alto, produção baixa e peso morto.",
+        "Teorema de Coase: com direitos definidos e baixo custo de transação, as partes resolvem sem o Estado.",
+        "CF/88 art. 174: Estado como agente normativo e regulador; CADE atua na defesa da concorrência."
+      ],
+      "dica_prova": "Não inverta o efeito das externalidades: NEGATIVA gera EXCESSO de produção (corrige-se reduzindo, via imposto); POSITIVA gera produção INSUFICIENTE (corrige-se incentivando, via subsídio). Outra pegadinha: confundir bem público econômico (não rival/não excludente) com bem público do Direito Administrativo. E distinga seleção adversa (antes) de risco moral (depois). O tributo seletivo/pigouviano é o gancho fiscal mais cobrado deste tema."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "PIB e agregados",
+      "intro": "A macroeconomia estuda os grandes agregados da economia, e o Produto Interno Bruto (PIB) é o indicador central. O PIB é o valor de mercado de todos os bens e serviços FINAIS produzidos dentro das fronteiras de um país (ou estado) em determinado período, geralmente um ano. Três palavras-chave merecem destaque: 'finais' (evita dupla contagem dos bens intermediários), 'produzidos no período' (fluxo, não estoque) e 'dentro das fronteiras' (critério territorial, não de nacionalidade).\n\nO PIB pode ser medido por três óticas que, por identidade contábil, dão o mesmo resultado: produção (valor adicionado), renda (remuneração dos fatores) e despesa (gasto dos agentes). Dominar essas identidades e a fórmula da despesa é essencial para a prova.",
+      "secoes": [
+        {
+          "h": "As três óticas de cálculo do PIB",
+          "p": "ÓTICA DA PRODUÇÃO: soma-se o valor ADICIONADO em cada etapa produtiva (valor de venda menos o valor dos insumos comprados de outras empresas), evitando contar o mesmo bem várias vezes.\n\nÓTICA DA RENDA: soma-se a remuneração dos fatores de produção — salários, juros, aluguéis e lucros (mais impostos indiretos líquidos e depreciação, em versões mais completas).\n\nÓTICA DA DESPESA (a mais cobrada): PIB = C + I + G + (X − M), onde C = consumo das famílias, I = investimento (formação bruta de capital fixo + variação de estoques), G = gastos do governo em bens e serviços e (X − M) = exportações líquidas (saldo da balança comercial). As três óticas resultam no mesmo número por identidade contábil."
+        },
+        {
+          "h": "PIB nominal x PIB real e o deflator",
+          "p": "O PIB NOMINAL é calculado a preços CORRENTES (do próprio ano), de modo que pode crescer apenas por causa da inflação, sem aumento real de produção. O PIB REAL usa preços CONSTANTES de um ano-base, isolando o efeito dos preços e medindo a variação efetiva de quantidades produzidas — é o que indica crescimento econômico verdadeiro.\n\nO Deflator do PIB é a razão entre PIB nominal e PIB real (× 100). É um índice de preços AMPLO, que cobre todos os bens e serviços do PIB (diferente do IPCA, restrito à cesta de consumo das famílias). Crescimento econômico se mede pela variação do PIB REAL."
+        },
+        {
+          "h": "Outros agregados: PIB x PNB, PNL, RN e identidade poupança-investimento",
+          "p": "PIB (Produto Interno Bruto) usa critério TERRITORIAL; PNB (Produto Nacional Bruto) usa critério de NACIONALIDADE: PNB = PIB + Renda Recebida do Exterior − Renda Enviada ao Exterior (a Renda Líquida Enviada/Recebida do Exterior, RLEE). Como o Brasil tradicionalmente envia mais renda do que recebe, seu PNB costuma ser MENOR que o PIB.\n\nDescontando a depreciação do capital, obtém-se o Produto Nacional LÍQUIDO (PNL). Retirando os impostos indiretos e somando subsídios, chega-se à Renda Nacional. Identidade fundamental em economia fechada sem governo: a POUPANÇA é igual ao INVESTIMENTO (S = I) — tudo que não é consumido é poupado e, por identidade contábil, financia o investimento."
+        },
+        {
+          "h": "Limitações do PIB e relação com a tributação",
+          "p": "O PIB não capta a economia informal nem atividades não monetizadas (trabalho doméstico não remunerado), não mede distribuição de renda, qualidade de vida ou degradação ambiental. Por isso convive com indicadores complementares (IDH, PIB per capita, índices de Gini).\n\nPara o Fisco, o PIB é relevante como base de comparação da carga tributária (tributos arrecadados ÷ PIB) e como proxy da atividade econômica que gera fato gerador de tributos. O crescimento do PIB tende a ampliar a base de arrecadação de ICMS, ISS e tributos sobre renda e consumo — daí o interesse do Estado em mensurá-lo corretamente."
+        }
+      ],
+      "exemplo": "Exemplo numérico (ótica da despesa): em uma economia, o consumo das famílias é R$ 600 bi, o investimento R$ 200 bi, os gastos do governo R$ 150 bi, as exportações R$ 120 bi e as importações R$ 90 bi. PIB = C + I + G + (X − M) = 600 + 200 + 150 + (120 − 90) = 600 + 200 + 150 + 30 = R$ 980 bi.\n\nExemplo de valor adicionado (evitando dupla contagem): um agricultor vende trigo por R$ 100 a um moinho; o moinho vende farinha por R$ 180 a uma padaria; a padaria vende pães por R$ 300. O PIB pela produção = valor adicionado = 100 + (180−100) + (300−180) = 100 + 80 + 120 = R$ 300 — exatamente o valor do bem FINAL. Somar 100+180+300 = 580 seria dupla contagem (erro clássico de prova).",
+      "pontos_chave": [
+        "PIB = valor de mercado dos bens e serviços FINAIS produzidos no território, em um período.",
+        "Três óticas equivalentes: produção (valor adicionado), renda (fatores) e despesa.",
+        "Fórmula da despesa: PIB = C + I + G + (X − M).",
+        "PIB nominal usa preços correntes; PIB real, preços constantes — crescimento se mede pelo PIB REAL.",
+        "Deflator do PIB = (PIB nominal / PIB real) × 100; é índice de preços amplo.",
+        "PIB é territorial; PNB é por nacionalidade: PNB = PIB + Renda Líquida Recebida do Exterior.",
+        "No Brasil, PNB costuma ser menor que o PIB (envia mais renda do que recebe).",
+        "Identidade básica em economia fechada sem governo: Poupança = Investimento (S = I)."
+      ],
+      "dica_prova": "Decore a fórmula da despesa e o sinal das importações: subtraem-se (são produção estrangeira). A pegadinha mais comum é a dupla contagem — só entram bens FINAIS ou o valor adicionado. Outra: confundir PIB (território) com PNB (nacionalidade); lembre que PNB = PIB + RLEE. E não troque PIB nominal por real: crescimento econômico se mede pelo PIB REAL. Variação de estoques entra no INVESTIMENTO."
+    },
+    {
+      "ti": 6,
+      "si": 0,
+      "titulo": "Política monetária",
+      "intro": "Política monetária é o conjunto de medidas pelas quais o Banco Central controla a oferta de moeda e as condições de liquidez e crédito da economia, com o objetivo principal, no Brasil, de manter a inflação na meta (regime de metas de inflação). É chamada de 'política monetária' porque atua sobre a moeda e a taxa de juros, em contraste com a política fiscal, que atua sobre receitas e despesas do governo.\n\nNo Brasil, o Banco Central (BCB) executa a política monetária, e o COPOM define a taxa básica de juros, a Selic-meta. Compreender os instrumentos e a transmissão da política monetária é essencial, inclusive pela ligação com a arrecadação real de tributos.",
+      "secoes": [
+        {
+          "h": "Funções da moeda e agregados monetários",
+          "p": "A moeda cumpre três funções clássicas: meio de troca (intermedeia transações, eliminando a dupla coincidência de desejos do escambo), unidade de conta (padrão de medida de valor / referência de preços) e reserva de valor (permite transportar poder de compra ao longo do tempo).\n\nA oferta de moeda é medida por agregados: M1 (mais líquido — papel-moeda em poder do público + depósitos à vista), M2, M3 e M4 (cada vez mais amplos, incluindo depósitos a prazo, títulos e poupança). A moeda é criada não só pelo BC, mas também pelos bancos comerciais, por meio do multiplicador bancário: ao emprestar parte dos depósitos, os bancos multiplicam os meios de pagamento."
+        },
+        {
+          "h": "Os três instrumentos clássicos de política monetária",
+          "p": "(1) OPERAÇÕES DE MERCADO ABERTO (open market): compra e venda de títulos públicos pelo BC. Vendendo títulos, o BC RETIRA moeda da economia (enxuga liquidez, política contracionista); comprando títulos, INJETA moeda (expansionista). É o instrumento mais ágil e usado no dia a dia.\n\n(2) DEPÓSITO COMPULSÓRIO: percentual dos depósitos que os bancos são obrigados a recolher ao BC. Aumentar o compulsório reduz o que os bancos podem emprestar (contracionista); reduzi-lo expande o crédito.\n\n(3) REDESCONTO / TAXA DE JUROS: a taxa de juros (Selic) e a taxa de redesconto (empréstimo do BC aos bancos). Elevar a Selic encarece o crédito e reduz a demanda (contracionista, combate inflação); reduzi-la estimula consumo e investimento (expansionista)."
+        },
+        {
+          "h": "Política expansionista x contracionista e transmissão",
+          "p": "Política EXPANSIONISTA (afrouxamento): aumenta a oferta de moeda e/ou reduz juros → mais crédito, mais consumo e investimento, mais demanda agregada e atividade — porém com risco de inflação. Política CONTRACIONISTA (aperto): reduz a oferta de moeda e/ou eleva juros → menos crédito e demanda, controlando a inflação, ao custo de menor crescimento e maior desemprego no curto prazo.\n\nMecanismos de transmissão: juros mais altos elevam o custo do crédito, valorizam a moeda nacional (atraindo capital externo), reduzem preços de ativos e desestimulam consumo e investimento, esfriando a inflação. A relação inversa de curto prazo entre inflação e desemprego é descrita pela Curva de Phillips."
+        },
+        {
+          "h": "Relação com a tributação e a arrecadação real",
+          "p": "A política monetária afeta o Fisco de várias formas. A inflação, que a política monetária busca controlar, corrói a arrecadação real entre o fato gerador e o efetivo recolhimento — fenômeno conhecido como efeito Tanzi-Olivera (a defasagem temporal reduz o valor real do tributo em ambiente inflacionário). Daí a importância da correção monetária de tributos e multas (no CTE-GO e na legislação federal).\n\nAlém disso, juros mais altos elevam o serviço da dívida pública e reduzem a atividade econômica, encolhendo a base de tributos sobre consumo (ICMS) e renda. Há, portanto, interação entre política monetária, fiscal e a saúde da arrecadação estadual."
+        }
+      ],
+      "exemplo": "Exemplo aplicado: diante de inflação acima da meta, o COPOM eleva a Selic. Efeito esperado: crédito mais caro, menor consumo e investimento, valorização do real, queda da demanda agregada e desaquecimento da inflação. Simultaneamente, o BC pode VENDER títulos públicos no mercado aberto e/ou AUMENTAR o compulsório — todas medidas contracionistas que enxugam liquidez.\n\nQuestão comentada: 'Para combater a inflação, o Banco Central deve reduzir a taxa de juros e diminuir o depósito compulsório.' ERRADO. Essas são medidas EXPANSIONISTAS, que aumentam a liquidez e pressionam ainda mais os preços. Para combater inflação, o correto é AUMENTAR a Selic, VENDER títulos no open market e ELEVAR o compulsório (políticas contracionistas).",
+      "pontos_chave": [
+        "Moeda: meio de troca, unidade de conta e reserva de valor.",
+        "M1 é o agregado mais líquido (papel-moeda em poder do público + depósitos à vista).",
+        "Bancos comerciais criam moeda via multiplicador bancário ao emprestar depósitos.",
+        "Três instrumentos: open market (títulos), depósito compulsório e taxa de juros/redesconto.",
+        "Contracionista (combate inflação): vender títulos, aumentar compulsório, subir a Selic.",
+        "Expansionista (estimula a economia): comprar títulos, reduzir compulsório, baixar a Selic.",
+        "Curva de Phillips: relação inversa de curto prazo entre inflação e desemprego.",
+        "Efeito Tanzi-Olivera: a inflação corrói o valor real da arrecadação entre fato gerador e recolhimento."
+      ],
+      "dica_prova": "A pegadinha mais frequente é trocar o sentido dos instrumentos. Fixe a lógica do open market: BC VENDE títulos = ENXUGA moeda (contracionista); BC COMPRA títulos = INJETA moeda (expansionista). E para combater inflação, TUDO aperta: juros sobem, compulsório sobe, vende títulos. Não confunda política monetária (moeda/juros, feita pelo BC) com política fiscal (tributos/gastos, feita pelo governo)."
+    },
+    {
+      "ti": 6,
+      "si": 1,
+      "titulo": "Inflação",
+      "intro": "Inflação é o aumento CONTÍNUO e GENERALIZADO do nível geral de preços da economia, com a consequente perda do poder de compra da moeda. Não se confunde com a alta isolada de um único produto: para haver inflação, o movimento de alta deve ser persistente e abranger o conjunto dos preços. O fenômeno oposto, a deflação, é a queda contínua e generalizada dos preços (que também traz problemas, como adiamento de consumo e recessão).\n\nPara o Auditor-Fiscal, a inflação importa por afetar a correção monetária de tributos, bases de cálculo, multas e a arrecadação real, além de ser tema clássico de macroeconomia em concursos.",
+      "secoes": [
+        {
+          "h": "Tipos de inflação quanto à causa",
+          "p": "INFLAÇÃO DE DEMANDA (demand-pull): ocorre quando a demanda agregada cresce além da capacidade produtiva da economia (excesso de moeda ou de gasto) — 'muito dinheiro perseguindo poucos bens'. Típica de economias próximas do pleno emprego. Combate-se com políticas contracionistas (monetária e fiscal).\n\nINFLAÇÃO DE CUSTOS (cost-push): decorre da elevação dos custos de produção (insumos, salários acima da produtividade, câmbio, choques de oferta como alta do petróleo), deslocando a oferta agregada para a esquerda. É mais difícil de combater, pois reduzir a demanda pode gerar recessão sem eliminar a pressão de custos (estagflação).\n\nINFLAÇÃO INERCIAL: mecanismo de perpetuação em que os preços sobem porque subiram no passado — indexação de contratos, salários e expectativas realimentam a inflação independentemente das causas originais."
+        },
+        {
+          "h": "Índices de preços no Brasil",
+          "p": "IPCA (Índice de Preços ao Consumidor Amplo, do IBGE): é o índice OFICIAL do regime de metas de inflação, mede a variação de preços para famílias com renda de 1 a 40 salários mínimos. INPC (IBGE): foca rendas mais baixas (1 a 5 salários), usado em reajustes salariais. IGP-M e IGP-DI (FGV): índices gerais de preços que combinam atacado, consumidor e construção; o IGP-M é muito usado em reajuste de aluguéis e contratos.\n\nO Deflator do PIB também mede preços, mas de forma ainda mais ampla, cobrindo todos os bens e serviços do produto. Distinguir esses índices é cobrado com frequência."
+        },
+        {
+          "h": "Efeitos da inflação e a hiperinflação",
+          "p": "A inflação corrói o poder de compra, distorce preços relativos, dificulta o cálculo econômico e prejudica sobretudo os mais pobres e os assalariados (que têm renda fixa e menor acesso a proteção). Beneficia devedores (pagam em moeda desvalorizada) e prejudica credores. Quando os preços disparam de forma descontrolada (convencionalmente acima de 50% ao mês), há HIPERINFLAÇÃO, que pode levar à fuga da moeda nacional.\n\nMecanismos de defesa: indexação e correção monetária. No Brasil, a história inflacionária moldou a legislação tributária — daí índices de correção de débitos fiscais e a atualização de bases. O regime de metas de inflação (desde 1999) busca ancorar expectativas e dar previsibilidade."
+        },
+        {
+          "h": "Inflação, tributação e arrecadação",
+          "p": "A inflação interage com o sistema tributário de modo importante. Pelo efeito Tanzi-Olivera, a defasagem entre o fato gerador e o recolhimento do tributo reduz seu valor real em ambiente inflacionário, prejudicando a arrecadação. Por isso a legislação prevê correção monetária de tributos, multas e créditos tributários (no CTE-GO e na legislação federal usam-se índices de atualização).\n\nAlém disso, em sistemas de imposto de renda com tabela não corrigida, a inflação provoca o 'bracket creep' (aumento da carga real sem mudança de alíquota nominal). A chamada 'senhoriagem' — receita que o governo obtém ao emitir moeda — e o 'imposto inflacionário' (perda de valor da moeda retida pelo público) também ligam inflação e finanças públicas."
+        }
+      ],
+      "exemplo": "Exemplo aplicado: o preço internacional do petróleo dispara e encarece combustíveis, fretes e insumos em geral, elevando o nível de preços. Trata-se de inflação de CUSTOS (choque de oferta), e não de demanda. A política monetária contracionista pura teria eficácia limitada e poderia gerar estagflação (inflação alta com estagnação/recessão).\n\nQuestão comentada: 'A alta isolada e momentânea do preço de um único produto configura inflação.' ERRADO. Inflação exige aumento CONTÍNUO e GENERALIZADO do nível geral de preços. Alta isolada de um bem é apenas mudança de preço relativo, não inflação.\n\nOutra: 'O IPCA é o índice oficial utilizado no regime de metas de inflação no Brasil.' CERTO — é calculado pelo IBGE e referência para as metas definidas pelo CMN.",
+      "pontos_chave": [
+        "Inflação = aumento CONTÍNUO e GENERALIZADO do nível geral de preços (perda do poder de compra).",
+        "Inflação de demanda: excesso de demanda agregada; combate-se com política contracionista.",
+        "Inflação de custos: elevação dos custos de produção; pode gerar estagflação.",
+        "Inflação inercial: preços sobem por terem subido antes (indexação/expectativas).",
+        "IPCA é o índice oficial das metas de inflação (IBGE); IGP-M (FGV) é comum em aluguéis.",
+        "Inflação prejudica credores e assalariados; beneficia devedores.",
+        "Hiperinflação: alta descontrolada (convenção: acima de 50% ao mês).",
+        "Efeito Tanzi-Olivera e 'imposto inflacionário' ligam inflação à arrecadação e às finanças públicas."
+      ],
+      "dica_prova": "Marque os adjetivos 'contínuo' e 'generalizado' — sem eles não há inflação (a banca testa alta isolada de um produto). Distinga as causas: demanda (excesso de demanda) x custos (choque de oferta) x inercial (indexação). Decore que o índice OFICIAL é o IPCA do IBGE. E lembre da ligação fiscal: efeito Tanzi-Olivera corrói a arrecadação real, justificando a correção monetária de tributos."
+    },
+    {
+      "ti": 7,
+      "si": 0,
+      "titulo": "Política fiscal",
+      "intro": "Política fiscal é a utilização das RECEITAS (principalmente tributos) e das DESPESAS públicas pelo governo para influenciar a atividade econômica — nível de produto, emprego, demanda agregada e preços. É distinta da política monetária (que atua sobre moeda e juros, via Banco Central): a política fiscal é conduzida pelo Poder Executivo e materializa-se no orçamento público.\n\nPara o Auditor-Fiscal, este é o tema que mais conecta economia, Direito Financeiro e Tributário, pois a tributação é instrumento central da política fiscal e está submetida à LRF (LC 101/2000), à CF/88 e ao orçamento (PPA, LDO, LOA).",
+      "secoes": [
+        {
+          "h": "Política fiscal expansionista e contracionista",
+          "p": "Política fiscal EXPANSIONISTA: aumenta os gastos públicos e/ou REDUZ tributos, elevando a demanda agregada para combater recessão e desemprego — ao custo de maior déficit/dívida e risco inflacionário. Política fiscal CONTRACIONISTA (austeridade): reduz gastos e/ou AUMENTA tributos, contraindo a demanda para conter inflação e sanear as contas públicas, com risco de desaquecer a economia.\n\nO efeito sobre o produto é amplificado pelo MULTIPLICADOR fiscal: um aumento de gasto público gera rodadas sucessivas de renda e consumo. O multiplicador dos gastos é, em regra, maior que o dos tributos, porque parte do alívio tributário é poupada e não vira demanda imediatamente."
+        },
+        {
+          "h": "Estabilizadores automáticos e discricionariedade",
+          "p": "A política fiscal pode ser DISCRICIONÁRIA (decisões deliberadas: criar um programa de gastos, mudar alíquotas) ou operar por ESTABILIZADORES AUTOMÁTICOS — mecanismos que reagem ao ciclo sem nova decisão. Exemplos: o imposto de renda progressivo (na expansão, a arrecadação cresce automaticamente, contendo a demanda; na recessão, cai, aliviando) e o seguro-desemprego (aumenta os gastos na crise, sustentando a renda).\n\nEsses estabilizadores suavizam os ciclos econômicos automaticamente, sem o tempo de reação (defasagens) das medidas discricionárias."
+        },
+        {
+          "h": "Funções da política fiscal e resultados fiscais",
+          "p": "Seguindo Musgrave, a política fiscal cumpre três funções: ALOCATIVA (prover bens públicos e corrigir falhas de mercado, inclusive via tributos corretivos), DISTRIBUTIVA (redistribuir renda por tributos progressivos e transferências) e ESTABILIZADORA (suavizar ciclos, controlar inflação e desemprego).\n\nResultados fiscais: resultado PRIMÁRIO = receitas menos despesas EXCLUINDO os juros da dívida; resultado NOMINAL = inclui os juros. Superávit primário indica esforço de pagar a dívida; déficit primário, o contrário. A meta de resultado primário consta da LDO, e a LRF impõe limites de despesa, transparência e compensação para renúncias de receita (art. 14) e novas despesas obrigatórias (arts. 16 e 17)."
+        },
+        {
+          "h": "Tributação como instrumento e seus limites jurídicos",
+          "p": "A tributação é o principal instrumento de receita da política fiscal e tem funções FISCAL (arrecadar) e EXTRAFISCAL (induzir comportamentos — ex.: seletividade do ICMS/IPI, Imposto Seletivo da EC 132/2023). A escolha entre tributos diretos (sobre renda/patrimônio, mais progressivos) e indiretos (sobre consumo, regressivos) tem forte impacto distributivo: o Brasil é criticado pela alta participação de tributos indiretos, que pesam mais sobre os mais pobres.\n\nOs limites jurídicos da política fiscal tributária estão na CF/88 (legalidade, anterioridade, capacidade contributiva, vedação ao confisco), no CTN e, no plano da responsabilidade, na LRF. Toda renúncia de receita (benefício fiscal de ICMS, por exemplo) exige estimativa de impacto e medida de compensação, sob pena de irregularidade — ponto de interseção direto com as atribuições do Auditor-Fiscal."
+        }
+      ],
+      "exemplo": "Exemplo aplicado: em recessão com desemprego alto, o governo adota política fiscal EXPANSIONISTA — amplia investimentos em infraestrutura e reduz alíquotas de certos tributos. A demanda agregada sobe, estimulando produção e emprego, mas o déficit e a dívida tendem a crescer. Em cenário de inflação alta e contas deterioradas, faz-se o oposto (contracionista): cortam-se gastos e/ou elevam-se tributos.\n\nQuestão comentada (perfil SEFAZ): 'Uma redução de tributos, mantidos os gastos, caracteriza política fiscal contracionista.' ERRADO. Reduzir tributos AUMENTA a renda disponível e a demanda agregada — é política EXPANSIONISTA. Contracionista seria AUMENTAR tributos ou reduzir gastos.\n\nOutra: o resultado primário exclui o pagamento de juros da dívida; o resultado nominal os inclui. Confundir os dois é erro recorrente.",
+      "pontos_chave": [
+        "Política fiscal usa tributos (receita) e gastos públicos (despesa); é conduzida pelo Executivo, não pelo BC.",
+        "Expansionista: mais gasto e/ou menos tributo (combate recessão); contracionista: o oposto (combate inflação/déficit).",
+        "Multiplicador dos gastos > multiplicador dos tributos (parte do alívio tributário é poupada).",
+        "Estabilizadores automáticos (IR progressivo, seguro-desemprego) suavizam o ciclo sem nova decisão.",
+        "Funções de Musgrave: alocativa, distributiva e estabilizadora.",
+        "Resultado primário exclui juros da dívida; resultado nominal os inclui.",
+        "Tributos indiretos (sobre consumo) são regressivos; diretos (renda/patrimônio) tendem à progressividade.",
+        "LRF (LC 101/2000) exige compensação para renúncia de receita (art. 14) e novas despesas (arts. 16 e 17)."
+      ],
+      "dica_prova": "Não inverta o sentido: REDUZIR tributos é EXPANSIONISTA (mais demanda); AUMENTAR tributos é contracionista. A pegadinha mais clássica é confundir resultado PRIMÁRIO (sem juros) com NOMINAL (com juros). Lembre que política fiscal é do Executivo e política monetária é do BC — a banca troca os instrumentos. E associe sempre a renúncia de receita à exigência de compensação da LRF, gancho típico do concurso fiscal."
+    }
+  ]
+}

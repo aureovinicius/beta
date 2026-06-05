@@ -1,0 +1,411 @@
+{
+  "slug": "direito-constitucional",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Aplicabilidade das normas",
+      "intro": "A classificação da aplicabilidade das normas constitucionais é tema clássico, desenvolvido no Brasil principalmente por José Afonso da Silva, e divide as normas em três grupos quanto à intensidade dos efeitos que produzem desde a promulgação da Constituição: eficácia plena, contida e limitada. Trata-se de assunto recorrente em provas de concursos fiscais, sobretudo porque toca diretamente a aplicação imediata de princípios e a necessidade (ou não) de lei regulamentadora.\n\nO ponto de partida é o art. 5º, § 1º, da CF/88, segundo o qual \"as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata\". Apesar disso, a doutrina reconhece que mesmo direitos fundamentais podem depender, em alguma medida, de regulamentação para produzir todos os efeitos, o que faz a temática transcender o catálogo do art. 5º.\n\nDominar essa classificação é essencial para responder questões sobre quando uma norma já pode ser invocada diretamente, quando pode ser restringida por lei e quando depende de complementação legislativa para gerar efeitos plenos."
+      ,
+      "secoes": [
+        {
+          "h": "Normas de eficácia plena",
+          "p": "São aquelas que, desde a entrada em vigor da Constituição, produzem ou estão aptas a produzir todos os seus efeitos essenciais, independentemente de lei integradora. Possuem aplicabilidade direta, imediata e integral.\n\nExemplos clássicos: o art. 2º (separação dos Poderes), o art. 14, § 2º (vedação ao alistamento eleitoral de estrangeiros e conscritos) e o art. 44 (composição do Congresso Nacional). O legislador pode até detalhar a matéria, mas não pode reduzir o alcance da norma."
+        },
+        {
+          "h": "Normas de eficácia contida (ou prospectiva/restringível)",
+          "p": "Também têm aplicabilidade direta, imediata e, em princípio, integral, MAS podem ter seu alcance restringido por lei, por outra norma constitucional ou por conceitos como ordem pública e bons costumes. Enquanto não sobrevém a restrição, produzem todos os efeitos.\n\nO exemplo mais cobrado é o art. 5º, XIII: \"é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer\". A liberdade existe desde já, mas a lei pode exigir requisitos (ex.: inscrição em conselho profissional). Outro exemplo é o art. 5º, LVIII (identificação criminal do civilmente identificado, salvo nas hipóteses legais)."
+        },
+        {
+          "h": "Normas de eficácia limitada",
+          "p": "Possuem aplicabilidade indireta, mediata e reduzida: dependem de regulamentação infraconstitucional para produzirem todos os seus efeitos. Subdividem-se em normas de princípio institutivo/organizativo (criam órgãos ou institutos, ex.: art. 18, § 2º, sobre territórios) e normas de princípio programático (traçam programas e diretrizes ao Estado, ex.: art. 196, direito à saúde; art. 205, educação).\n\nMesmo antes de regulamentadas, produzem um efeito mínimo (eficácia negativa): revogam normas anteriores incompatíveis e impedem a edição de leis contrárias ao seu comando, servindo de parâmetro de constitucionalidade."
+        },
+        {
+          "h": "Efeitos mínimos comuns a todas as normas",
+          "p": "Nenhuma norma constitucional é destituída de eficácia jurídica. Mesmo as limitadas geram a chamada eficácia negativa ou paralisante: vinculam o legislador (ele não pode contrariá-las) e revogam a legislação anterior incompatível.\n\nÉ desse raciocínio que decorrem os instrumentos de combate à omissão inconstitucional, como o mandado de injunção (art. 5º, LXXI) e a ação direta de inconstitucionalidade por omissão (art. 103, § 2º), cabíveis justamente quando a falta de regulamentação inviabiliza o exercício de um direito previsto em norma de eficácia limitada."
+        }
+      ],
+      "exemplo": "Questão comentada (estilo FGV/banca de concurso fiscal): \"A norma do art. 5º, XIII, da CF/88, que assegura o livre exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer, é norma de eficácia limitada, pois depende de lei para produzir efeitos.\" ERRADO.\n\nComentário: a norma é de eficácia CONTIDA (ou restringível). Ela produz efeitos desde já — qualquer pessoa pode exercer profissões — e a lei apenas RESTRINGE seu alcance ao exigir qualificações (diploma, registro em conselho). Não confundir com eficácia limitada, em que a lei é condição para o exercício do direito. A pegadinha está em trocar \"contida\" por \"limitada\"."
+      ,
+      "pontos_chave": [
+        "Plena: aplicabilidade direta, imediata e integral; não restringível por lei.",
+        "Contida: direta e imediata, mas restringível por lei (ex.: art. 5º, XIII).",
+        "Limitada: aplicabilidade indireta e mediata; depende de regulamentação para efeitos plenos.",
+        "Limitada subdivide-se em princípio institutivo e programático.",
+        "Toda norma tem ao menos eficácia negativa (revoga lei anterior e vincula o legislador).",
+        "Art. 5º, § 1º: direitos e garantias fundamentais têm aplicação imediata.",
+        "Omissão de norma limitada é combatida por mandado de injunção e ADO."
+      ],
+      "dica_prova": "A pegadinha mais frequente é embaralhar 'contida' e 'limitada'. Memorize o gatilho: se a lei AMPLIA/condiciona o exercício, é limitada; se a lei RESTRINGE algo que já existe, é contida. Outra cilada comum é afirmar que norma programática 'não tem eficácia alguma' — está errado, pois sempre há eficácia negativa. Cuidado também com a expressão 'eficácia plena e aplicabilidade imediata' aplicada a normas que claramente dependem de lei (como criação de territórios)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Princípios fundamentais (arts. 1º a 4º)",
+      "intro": "O Título I da CF/88 (arts. 1º a 4º) reúne os princípios fundamentais que estruturam a República brasileira: fundamentos, separação de Poderes, objetivos fundamentais e princípios que regem as relações internacionais. São normas de elevada densidade axiológica que orientam a interpretação de todo o restante do texto.\n\nPara o concurso de Auditor-Fiscal, esses dispositivos são cobrados de forma quase literal, exigindo memorização dos róis e atenção a 'pegadinhas' que trocam ou inventam incisos. A dignidade da pessoa humana e os valores sociais do trabalho e da livre iniciativa, por exemplo, têm reflexos diretos na ordem econômica e tributária.\n\nÉ comum a banca exigir que o candidato distinga FUNDAMENTOS (art. 1º) de OBJETIVOS (art. 3º) e de PRINCÍPIOS DAS RELAÇÕES INTERNACIONAIS (art. 4º), pois os róis são parecidos e geram confusão."
+      ,
+      "secoes": [
+        {
+          "h": "Fundamentos da República (art. 1º) — mnemônico SO-CI-DI-VA-PLU",
+          "p": "O art. 1º estabelece que a República Federativa do Brasil, formada pela união indissolúvel dos Estados, Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, e pluralismo político (incisos I a V).\n\nUm mnemônico útil é SO-CI-DI-VA-PLU. O parágrafo único consagra que todo o poder emana do povo, exercido por representantes eleitos ou diretamente (democracia semidireta). Note que a União (pessoa jurídica) não está no rol dos entes que formam a federação no caput; ela é o ente central, mas o caput menciona Estados, Municípios e DF."
+        },
+        {
+          "h": "Separação dos Poderes (art. 2º)",
+          "p": "\"São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.\" É norma de eficácia plena e cláusula pétrea (art. 60, § 4º, III).\n\nA separação não é absoluta: vigora o sistema de freios e contrapesos (checks and balances), em que cada Poder exerce funções típicas e atípicas e fiscaliza os demais. Ex.: o Executivo legisla atipicamente por medida provisória; o Legislativo julga o Presidente em crimes de responsabilidade."
+        },
+        {
+          "h": "Objetivos fundamentais (art. 3º)",
+          "p": "São objetivos (verbos no infinitivo, indicando metas a alcançar): I — construir uma sociedade livre, justa e solidária; II — garantir o desenvolvimento nacional; III — erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; IV — promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.\n\nDica de memorização: objetivos começam com VERBOS DE AÇÃO (construir, garantir, erradicar, promover), porque são normas programáticas que projetam o Estado para o futuro."
+        },
+        {
+          "h": "Princípios das relações internacionais (art. 4º)",
+          "p": "O art. 4º lista dez princípios que regem o Brasil nas relações internacionais: independência nacional; prevalência dos direitos humanos; autodeterminação dos povos; não intervenção; igualdade entre os Estados; defesa da paz; solução pacífica dos conflitos; repúdio ao terrorismo e ao racismo; cooperação entre os povos para o progresso da humanidade; e concessão de asilo político.\n\nO parágrafo único prevê que o Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações."
+        },
+        {
+          "h": "Dignidade da pessoa humana como vetor interpretativo",
+          "p": "A dignidade da pessoa humana (art. 1º, III) é frequentemente apontada pelo STF como núcleo axiológico do ordenamento e fonte de direitos não expressamente catalogados. Funciona como princípio matriz e critério de ponderação em colisões de direitos fundamentais.\n\nNa seara fiscal, conecta-se ao mínimo existencial (limite à tributação que comprometa a subsistência digna) e ao princípio da capacidade contributiva (art. 145, § 1º)."
+        }
+      ],
+      "exemplo": "Questão comentada: \"São objetivos fundamentais da República Federativa do Brasil a soberania, a cidadania e o pluralismo político.\" ERRADO.\n\nComentário: soberania, cidadania e pluralismo político são FUNDAMENTOS (art. 1º), não OBJETIVOS (art. 3º). Os objetivos são construir sociedade livre/justa/solidária, garantir o desenvolvimento, erradicar a pobreza e promover o bem de todos. A banca explora justamente a troca entre os róis dos arts. 1º e 3º. Macete: fundamento = substantivo (soberania, cidadania); objetivo = verbo (construir, erradicar)."
+      ,
+      "pontos_chave": [
+        "Fundamentos (art. 1º): soberania, cidadania, dignidade, valores sociais do trabalho e da livre iniciativa, pluralismo político (SO-CI-DI-VA-PLU).",
+        "Todo poder emana do povo (art. 1º, parágrafo único) — democracia semidireta.",
+        "Separação dos Poderes (art. 2º) é cláusula pétrea, com freios e contrapesos.",
+        "Objetivos (art. 3º) começam com verbos: construir, garantir, erradicar, promover.",
+        "Relações internacionais (art. 4º) têm 10 princípios, incluindo prevalência dos direitos humanos e concessão de asilo.",
+        "Integração latino-americana é meta do art. 4º, parágrafo único.",
+        "Dignidade da pessoa humana é vetor interpretativo e base do mínimo existencial."
+      ],
+      "dica_prova": "Decore que FUNDAMENTOS são substantivos e OBJETIVOS são verbos — a maioria das pegadinhas troca um pelo outro. Cuidado: 'erradicar a pobreza' (objetivo) costuma ser apresentado como fundamento. Atenção também ao caput do art. 1º, que NÃO inclui a União entre os entes federativos formadores; e ao art. 4º, em que bancas inserem princípios falsos (como 'expansão territorial') no rol das relações internacionais."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Direitos individuais e coletivos",
+      "intro": "O art. 5º da CF/88 é o coração dos direitos fundamentais individuais e coletivos, com seus 78 incisos (originais) que asseguram igualdade, liberdade, segurança e propriedade a brasileiros e estrangeiros residentes no País — entendimento ampliado pelo STF para abranger também estrangeiros não residentes e pessoas jurídicas no que couber.\n\nEsses direitos integram o núcleo das cláusulas pétreas (art. 60, § 4º, IV): não podem ser abolidos nem por emenda constitucional. Para o auditor-fiscal, destacam-se garantias com reflexo direto na fiscalização: inviolabilidade do domicílio e dos sigilos, devido processo legal, contraditório e ampla defesa.\n\nA cobrança costuma ser literal, mas exige conhecimento da jurisprudência consolidada do STF sobre temas como sigilo bancário, quebra de sigilo pelo Fisco e inviolabilidade do domicílio profissional."
+      ,
+      "secoes": [
+        {
+          "h": "Igualdade e legalidade",
+          "p": "O caput do art. 5º consagra a isonomia (todos são iguais perante a lei). O princípio da legalidade (inc. II) estabelece que ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei — base do Estado de Direito e, no campo tributário, reforçado pela legalidade estrita do art. 150, I.\n\nA igualdade tem dimensão formal (perante a lei) e material (tratar desigualmente os desiguais), o que fundamenta, por exemplo, a progressividade de tributos e a capacidade contributiva."
+        },
+        {
+          "h": "Inviolabilidade do domicílio (art. 5º, XI)",
+          "p": "A casa é asilo inviolável: ninguém nela pode penetrar sem consentimento do morador, salvo em flagrante delito, desastre, para prestar socorro, ou, durante o dia, por determinação judicial.\n\nO STF entende 'casa' em sentido amplo, incluindo escritórios, consultórios e estabelecimentos comerciais na parte não aberta ao público. Para a fiscalização tributária, isso é crítico: a entrada do Fisco em recinto fechado de empresa, sem consentimento, exige autorização judicial; não há autoexecutoriedade que dispense ordem judicial para devassa de domicílio profissional."
+        },
+        {
+          "h": "Sigilos e a quebra pelo Fisco",
+          "p": "O art. 5º, XII, protege o sigilo das comunicações; o inciso X resguarda a intimidade e a vida privada. Quanto ao sigilo bancário e fiscal, o STF, no julgamento das ADIs 2.390, 2.386, 2.397 e do RE 601.314 (Tema 225), considerou CONSTITUCIONAL o art. 6º da LC 105/2001, que permite à administração tributária requisitar diretamente das instituições financeiras dados bancários, sem prévia autorização judicial, desde que haja processo administrativo instaurado e observado o dever de sigilo.\n\nO entendimento é que não há 'quebra', mas 'transferência' do sigilo do banco para o Fisco, que permanece obrigado a mantê-lo. Esse é um dos temas mais cobrados em provas fiscais."
+        },
+        {
+          "h": "Devido processo legal, contraditório e ampla defesa",
+          "p": "O inc. LIV garante o devido processo legal (substantivo e processual); os incs. LV e LV asseguram contraditório e ampla defesa em processos judiciais e administrativos. Essas garantias incidem plenamente sobre o processo administrativo fiscal (autos de infração, impugnações, recursos).\n\nSúmula Vinculante 21 do STF: é inconstitucional exigir depósito ou arrolamento prévios de dinheiro ou bens como condição de admissibilidade de recurso administrativo. Súmula Vinculante 28: inconstitucional a exigência de depósito prévio como requisito de admissibilidade de ação judicial na qual se discuta exigência de crédito tributário."
+        },
+        {
+          "h": "Remédios constitucionais",
+          "p": "O art. 5º prevê garantias instrumentais: habeas corpus (LXVIII, liberdade de locomoção), mandado de segurança individual e coletivo (LXIX e LXX, direito líquido e certo não amparado por HC/HD), habeas data (LXXII, acesso/retificação de informações pessoais), mandado de injunção (LXXI, omissão regulamentadora que inviabiliza direito) e ação popular (LXXIII, anulação de ato lesivo ao patrimônio público, à moralidade, ao meio ambiente).\n\nEm matéria tributária, o mandado de segurança é amplamente usado para discutir ilegalidades em lançamentos e exigências fiscais."
+        }
+      ],
+      "exemplo": "Questão comentada (foco fiscal): \"A administração tributária só pode obter dados bancários do contribuinte mediante prévia autorização judicial, sob pena de violação ao sigilo de dados.\" ERRADO.\n\nComentário: o STF (RE 601.314, Tema 225, e ADIs 2.390 e outras) firmou que o art. 6º da LC 105/2001 é constitucional. O Fisco pode requisitar dados diretamente das instituições financeiras, sem ordem judicial, desde que exista processo administrativo regularmente instaurado e seja preservado o sigilo (transferência, não quebra). A pegadinha é afirmar a necessidade de autorização judicial prévia, que é exatamente o que o STF afastou."
+      ,
+      "pontos_chave": [
+        "Art. 5º: direitos individuais e coletivos; cláusulas pétreas (art. 60, § 4º, IV).",
+        "STF estende direitos a estrangeiros não residentes e pessoas jurídicas no que couber.",
+        "Domicílio (XI) inclui escritórios e parte não aberta de estabelecimentos; Fisco precisa de ordem judicial para devassa.",
+        "LC 105/2001 (art. 6º) é constitucional: Fisco acessa dados bancários sem ordem judicial (transferência de sigilo) — RE 601.314.",
+        "Devido processo legal e ampla defesa aplicam-se ao processo administrativo fiscal.",
+        "SV 21 e SV 28: inconstitucional exigir depósito prévio para recurso administrativo ou ação judicial tributária.",
+        "Remédios: HC, MS (individual/coletivo), HD, MI e ação popular."
+      ],
+      "dica_prova": "O tema campeão em prova fiscal é o acesso do Fisco a dados bancários sem ordem judicial (constitucional, LC 105/2001) — não caia na ideia de 'sempre precisa de juiz'. Outra cilada: confundir os remédios — habeas data NÃO serve para obter certidões (isso é direito de petição/certidão do inc. XXXIV), e mandado de injunção pressupõe OMISSÃO regulamentadora, não simples ilegalidade. Lembre que SV 21 e SV 28 derrubam depósito prévio como condição de recurso/ação."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Direitos sociais, nacionalidade e políticos",
+      "intro": "Este subtópico reúne três blocos do Título II da CF/88: os direitos sociais (arts. 6º a 11), os direitos de nacionalidade (arts. 12 e 13) e os direitos políticos (arts. 14 a 16). São matérias de alta incidência por sua redação detalhada e por exigirem memorização de prazos, hipóteses e vedações.\n\nOs direitos sociais são direitos de segunda dimensão, que demandam prestações positivas do Estado. A nacionalidade define quem é brasileiro (nato ou naturalizado) e suas consequências. Os direitos políticos disciplinam a participação na vida pública: alistamento, voto, elegibilidade e inelegibilidades.\n\nPara o concurso, a banca costuma explorar as distinções entre brasileiro nato e naturalizado (cargos privativos), as condições de elegibilidade e as hipóteses de perda/suspensão de direitos políticos."
+      ,
+      "secoes": [
+        {
+          "h": "Direitos sociais (art. 6º e seguintes)",
+          "p": "O art. 6º enumera como direitos sociais: educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, e assistência aos desamparados. São direitos prestacionais, muitos veiculados por normas de eficácia limitada e caráter programático.\n\nOs arts. 7º a 11 detalham os direitos dos trabalhadores (salário mínimo, FGTS, férias, 13º, licença-maternidade), a liberdade sindical e o direito de greve. Atenção: o transporte foi incluído pela EC 90/2015 e a alimentação pela EC 64/2010 — itens que bancas adoram cobrar."
+        },
+        {
+          "h": "Nacionalidade: nato x naturalizado (art. 12)",
+          "p": "São brasileiros natos: os nascidos no Brasil (ainda que de pais estrangeiros, salvo se a serviço de seu país — critério ius soli); os nascidos no exterior de pai ou mãe brasileiros a serviço do Brasil; e os nascidos no exterior de pai ou mãe brasileiros, desde que registrados em repartição competente OU venham residir no Brasil e optem pela nacionalidade (nacionalidade potestativa).\n\nNaturalizados são os que adquirem a nacionalidade. A lei não pode distinguir entre natos e naturalizados, SALVO nos casos da própria CF (art. 12, § 2º): cargos privativos de nato (Presidente e Vice, presidentes da Câmara e do Senado, Ministro do STF, carreira diplomática, oficial das Forças Armadas, Ministro de Estado da Defesa) e a composição do Conselho da República."
+        },
+        {
+          "h": "Direitos políticos: alistamento e voto (art. 14)",
+          "p": "A soberania popular se exerce pelo sufrágio universal e voto direto, secreto, com valor igual, e por plebiscito, referendo e iniciativa popular. O alistamento e o voto são obrigatórios para maiores de 18 e menores de 70 anos; e FACULTATIVOS para analfabetos, maiores de 70 anos e maiores de 16 e menores de 18 anos.\n\nNão podem alistar-se como eleitores os estrangeiros e os conscritos durante o serviço militar obrigatório (art. 14, § 2º). Sem alistamento, não há capacidade eleitoral ativa nem passiva."
+        },
+        {
+          "h": "Condições de elegibilidade e inelegibilidades (art. 14, §§ 3º a 9º)",
+          "p": "São condições de elegibilidade: nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição, filiação partidária e idade mínima (35 para Presidente/Vice e Senador; 30 para Governador/Vice; 21 para Deputado, Prefeito e juiz de paz; 18 para Vereador).\n\nSão inelegíveis os inalistáveis e os analfabetos. O § 7º trata da inelegibilidade reflexa (cônjuge e parentes até 2º grau do Chefe do Executivo, no território de jurisdição, salvo se já titular de mandato e candidato à reeleição). A LC 64/1990 (alterada pela LC 135/2010 — Lei da Ficha Limpa) traz outras hipóteses."
+        },
+        {
+          "h": "Perda e suspensão de direitos políticos (art. 15)",
+          "p": "É VEDADA a cassação de direitos políticos. A perda ou suspensão só ocorre nos casos do art. 15: cancelamento da naturalização por sentença transitada em julgado (perda); incapacidade civil absoluta (suspensão); condenação criminal transitada em julgado, enquanto durarem seus efeitos (suspensão); recusa de cumprir obrigação a todos imposta ou prestação alternativa (perda/suspensão, art. 5º, VIII); e improbidade administrativa (art. 37, § 4º — suspensão).\n\nPegadinha clássica: a CF NÃO admite cassação; admite apenas perda e suspensão, taxativamente."
+        }
+      ],
+      "exemplo": "Questão comentada: \"O brasileiro naturalizado pode ocupar o cargo de Ministro do Supremo Tribunal Federal, desde que preencha os requisitos legais.\" ERRADO.\n\nComentário: o art. 12, § 3º, reserva determinados cargos privativamente a brasileiros NATOS, entre eles o de Ministro do STF (pois o presidente do STF pode assumir a Presidência da República). Logo, naturalizado não pode ser Ministro do STF. Decore os cargos privativos de nato com o mnemônico 'MP3.COM': Ministro do STF, Presidente/Vice da República, Presidente da Câmara, Presidente do Senado, carreira Diplomática, Oficial das Forças Armadas, Ministro de Estado da Defesa."
+      ,
+      "pontos_chave": [
+        "Direitos sociais (art. 6º): incluem moradia, transporte (EC 90/2015) e alimentação (EC 64/2010).",
+        "Natos por ius soli, ius sanguinis + serviço, e nacionalidade potestativa (registro ou opção).",
+        "Cargos privativos de nato: 'MP3.COM' (Min. STF, Presid./Vice, Presid. Câmara/Senado, Diplomata, Oficial FA, Min. Defesa).",
+        "Voto: obrigatório de 18 a 70; facultativo para 16-18, +70 e analfabetos.",
+        "Conscritos e estrangeiros não se alistam (art. 14, § 2º).",
+        "Idades de elegibilidade: 35 (Presid./Senador), 30 (Governador), 21 (Deputado/Prefeito), 18 (Vereador).",
+        "CF veda cassação de direitos políticos; só admite perda e suspensão (art. 15, taxativo)."
+      ],
+      "dica_prova": "Memorize 'MP3.COM' para cargos de nato e os limites etários de elegibilidade — caem quase sempre. A pegadinha mais clássica é dizer que a CF admite 'cassação' de direitos políticos: NÃO admite, apenas perda e suspensão. Cuidado também com analfabeto: pode VOTAR (facultativo), mas é INELEGÍVEL. E lembre que condenação criminal transitada em julgado SUSPENDE (não perde) os direitos políticos enquanto durarem seus efeitos."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Repartição de competências",
+      "intro": "A repartição de competências é a espinha dorsal do federalismo brasileiro. Como União, Estados, Distrito Federal e Municípios são entes autônomos, a CF/88 distribui entre eles as competências administrativas (materiais) e legislativas, evitando conflitos e definindo quem faz e quem legisla sobre o quê.\n\nO critério central é o da predominância do interesse: assuntos de interesse geral cabem à União; de interesse regional, aos Estados; de interesse local, aos Municípios. O DF acumula competências estaduais e municipais (art. 32, § 1º).\n\nPara o auditor-fiscal, este tema é vital porque a competência TRIBUTÁRIA é uma espécie de competência legislativa repartida pela própria Constituição (arts. 153 a 156), tema que se conecta ao Sistema Tributário Nacional."
+      ,
+      "secoes": [
+        {
+          "h": "Competências da União (arts. 21 e 22)",
+          "p": "O art. 21 traz as competências ADMINISTRATIVAS (materiais) EXCLUSIVAS da União (indelegáveis): emitir moeda, manter relações com Estados estrangeiros, declarar guerra, decretar estado de sítio, explorar serviços de telecomunicações etc.\n\nO art. 22 lista as competências LEGISLATIVAS PRIVATIVAS da União (direito civil, penal, processual, eleitoral, do trabalho, comercial, normas gerais de licitação etc.). Diferença-chave: as privativas do art. 22 podem ser DELEGADAS aos Estados por lei complementar, quanto a questões específicas (art. 22, parágrafo único); as exclusivas do art. 21 não."
+        },
+        {
+          "h": "Competências comuns (art. 23)",
+          "p": "São competências ADMINISTRATIVAS (materiais) COMUNS a todos os entes (União, Estados, DF e Municípios), exercidas em cooperação: cuidar da saúde e assistência pública, proteger o meio ambiente, preservar o patrimônio histórico, combater a pobreza, fomentar a produção agropecuária etc.\n\nO parágrafo único do art. 23 prevê leis complementares para fixar normas de cooperação entre os entes. Por serem 'comuns', não há hierarquia: todos podem atuar simultaneamente."
+        },
+        {
+          "h": "Competências concorrentes (art. 24)",
+          "p": "São competências LEGISLATIVAS CONCORRENTES entre União, Estados e DF (os Municípios NÃO constam no art. 24): direito tributário, financeiro, penitenciário, econômico, urbanístico; orçamento; produção e consumo; proteção ao meio ambiente etc.\n\nFunciona em dois níveis: a União edita NORMAS GERAIS (§ 1º); os Estados exercem competência SUPLEMENTAR (§ 2º). Inexistindo norma geral federal, os Estados exercem competência LEGISLATIVA PLENA (§ 3º); sobrevindo a norma geral da União, esta suspende a eficácia da lei estadual no que lhe for contrário (§ 4º) — suspende, não revoga."
+        },
+        {
+          "h": "Competências dos Municípios (art. 30)",
+          "p": "Aos Municípios compete legislar sobre assuntos de INTERESSE LOCAL e SUPLEMENTAR à legislação federal e estadual no que couber (art. 30, I e II). Embora não estejam no art. 24, podem suplementar a legislação concorrente quando houver interesse local.\n\nTambém lhes cabe instituir e arrecadar tributos de sua competência (IPTU, ISS, ITBI), organizar serviços públicos de interesse local (incluindo transporte coletivo, que é serviço público essencial) e manter programas de educação infantil e ensino fundamental em cooperação."
+        },
+        {
+          "h": "Competência tributária e o caso de Goiás",
+          "p": "A competência tributária é repartição constitucional do poder de instituir tributos. Aos Estados (e ao DF) cabem o ICMS (art. 155, II), o ITCMD (art. 155, I) e o IPVA (art. 155, III) — tributos centrais para a SEFAZ-GO. À União cabem os impostos do art. 153 (II, IE, IR, IPI, IOF, ITR, IGF); aos Municípios, os do art. 156 (IPTU, ITBI, ISS).\n\nA competência tributária é indelegável, irrenunciável e incaducável (art. 7º do CTN), embora a capacidade tributária ativa (arrecadar/fiscalizar) possa ser delegada. A EC 132/2023 (Reforma Tributária) instituiu o IBS (estadual/municipal) e a CBS (federal), em substituição gradual ao ICMS e ao ISS, alterando profundamente esse arranjo."
+        }
+      ],
+      "exemplo": "Questão comentada (foco fiscal): \"Em matéria de direito tributário, competência legislativa concorrente, inexistindo lei federal sobre normas gerais, o Estado de Goiás pode exercer competência legislativa plena; editada posteriormente a norma geral pela União, esta revoga a lei estadual no que for contrária.\" ERRADO (na parte final).\n\nComentário: o art. 24, § 4º, é claro: a superveniência de lei federal sobre normas gerais SUSPENDE a eficácia da lei estadual no que lhe for contrário — NÃO revoga. A distinção é importante: se a lei federal for posteriormente revogada, a lei estadual recupera sua eficácia. A pegadinha está em trocar 'suspende' por 'revoga'."
+      ,
+      "pontos_chave": [
+        "Critério-base: predominância do interesse (geral=União, regional=Estado, local=Município).",
+        "Art. 21: competências administrativas exclusivas da União (indelegáveis).",
+        "Art. 22: legislativas privativas da União, delegáveis aos Estados por LC.",
+        "Art. 23: competências administrativas comuns a todos os entes.",
+        "Art. 24: legislativas concorrentes (União, Estados, DF — sem Municípios); União faz normas gerais, Estados suplementam.",
+        "Lei federal superveniente SUSPENDE (não revoga) a lei estadual contrária (art. 24, § 4º).",
+        "Competência tributária estadual: ICMS, ITCMD, IPVA; indelegável (art. 7º CTN). EC 132/2023 criou IBS e CBS."
+      ],
+      "dica_prova": "As pegadinhas mais frequentes: (1) trocar 'suspende' por 'revoga' no art. 24, § 4º; (2) incluir Municípios no art. 24 (eles não estão lá, mas suplementam pelo art. 30, II); (3) confundir competência EXCLUSIVA (indelegável, art. 21) com PRIVATIVA (delegável por LC, art. 22). Lembre que a competência tributária é indelegável, mas a capacidade tributária ativa (fiscalizar/arrecadar) pode ser delegada — distinção campeã em prova fiscal."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Administração Pública (arts. 37 a 41)",
+      "intro": "Os arts. 37 a 41 da CF/88 estabelecem o regime constitucional da Administração Pública direta e indireta de todos os entes federativos. É um dos blocos mais cobrados, pois fixa princípios, regras de acesso a cargos, sistema remuneratório, responsabilidade e estabilidade dos servidores.\n\nO art. 37, caput, consagra os princípios expressos da Administração — Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (mnemônico LIMPE) — sendo a eficiência acrescentada pela EC 19/1998 (Reforma Administrativa).\n\nPara o auditor-fiscal, este conteúdo é duplamente relevante: cai em Direito Constitucional e fundamenta o Direito Administrativo, especialmente quanto ao regime do servidor público, concursos e responsabilidade do Estado."
+      ,
+      "secoes": [
+        {
+          "h": "Princípios LIMPE (art. 37, caput)",
+          "p": "Legalidade (a Administração só pode agir conforme a lei), Impessoalidade (atuação voltada ao interesse público, sem favoritismos; vedação à promoção pessoal de autoridades, § 1º), Moralidade (atuação ética e proba), Publicidade (transparência como regra; sigilo é exceção) e Eficiência (boa gestão dos recursos, acrescida pela EC 19/1998).\n\nEsses princípios vinculam toda a Administração direta e indireta de qualquer dos Poderes da União, Estados, DF e Municípios."
+        },
+        {
+          "h": "Acesso a cargos e concurso público (art. 37, I a V)",
+          "p": "Os cargos, empregos e funções são acessíveis aos brasileiros que preencham os requisitos legais e aos estrangeiros na forma da lei (inc. I). A investidura em cargo ou emprego público depende de aprovação prévia em CONCURSO PÚBLICO de provas ou de provas e títulos (inc. II), ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração.\n\nSúmula Vinculante 43: é inconstitucional toda modalidade de provimento que propicie ao servidor investir-se, sem prévia aprovação em concurso público destinado ao seu provimento, em cargo que não integra a carreira na qual anteriormente investido. O prazo de validade do concurso é de até 2 anos, prorrogável uma vez por igual período (inc. III)."
+        },
+        {
+          "h": "Sistema remuneratório e teto (art. 37, X a XV)",
+          "p": "A remuneração e o subsídio dos servidores só podem ser fixados ou alterados por lei específica, observada a iniciativa privativa em cada caso, assegurada revisão geral anual (inc. X). O TETO remuneratório (inc. XI) tem como limite o subsídio dos Ministros do STF, com subtetos no âmbito dos Estados (Governador no Executivo; Deputados no Legislativo; Desembargadores do TJ no Judiciário, limitados a 90,25% do subsídio do Ministro do STF).\n\nÉ vedada a vinculação ou equiparação de remunerações (inc. XIII) e a acumulação remunerada de cargos, salvo as exceções constitucionais (dois cargos de professor; um de professor e outro técnico/científico; dois cargos privativos de profissionais de saúde com profissões regulamentadas — inc. XVI)."
+        },
+        {
+          "h": "Responsabilidade civil do Estado (art. 37, § 6º)",
+          "p": "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\n\nTrata-se de responsabilidade OBJETIVA (teoria do risco administrativo): basta comprovar conduta do agente, dano e nexo causal, dispensada a prova de culpa. O direito de regresso contra o agente, porém, é SUBJETIVO (exige dolo ou culpa). O STF reconhece a teoria da dupla garantia: em regra, a vítima deve acionar o Estado, não diretamente o agente."
+        },
+        {
+          "h": "Estabilidade do servidor (art. 41)",
+          "p": "São estáveis após 3 anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público. A aquisição depende de avaliação especial de desempenho por comissão.\n\nO servidor estável só perde o cargo: por sentença judicial transitada em julgado; mediante processo administrativo com ampla defesa; por procedimento de avaliação periódica de desempenho (na forma de LC); e por excesso de despesa com pessoal (art. 169). Atenção: estabilidade é no SERVIÇO PÚBLICO/cargo efetivo, não se confunde com vitaliciedade (de magistrados, membros do MP e Tribunais de Contas), que só se perde por sentença judicial transitada em julgado."
+        }
+      ],
+      "exemplo": "Questão comentada (foco fiscal): \"A responsabilidade civil das pessoas jurídicas de direito público por danos causados por seus agentes é objetiva, e o direito de regresso contra o agente independe de demonstração de dolo ou culpa.\" ERRADO (na parte final).\n\nComentário: pelo art. 37, § 6º, a responsabilidade do Estado perante o terceiro é OBJETIVA (risco administrativo, sem prova de culpa). Mas o direito de REGRESSO contra o agente é SUBJETIVO: só cabe nos casos de DOLO ou CULPA. A pegadinha inverte a regra, sugerindo regresso objetivo. Decore: Estado responde objetivamente; agente responde regressivamente de forma subjetiva."
+      ,
+      "pontos_chave": [
+        "Princípios LIMPE (art. 37); eficiência veio com a EC 19/1998.",
+        "Investidura depende de concurso público; exceção: cargos em comissão (livre nomeação/exoneração).",
+        "Validade do concurso: até 2 anos, prorrogável uma vez por igual período.",
+        "Teto remuneratório: subsídio do Ministro do STF, com subtetos estaduais.",
+        "Vedada acumulação remunerada de cargos, salvo exceções constitucionais.",
+        "Responsabilidade do Estado é OBJETIVA (risco administrativo); regresso contra o agente é SUBJETIVO (dolo/culpa).",
+        "Estabilidade: 3 anos + avaliação; não se confunde com vitaliciedade."
+      ],
+      "dica_prova": "Cuidado para não confundir responsabilidade objetiva do Estado (perante a vítima) com o regresso subjetivo (contra o agente, só com dolo/culpa) — pegadinha clássica. Outra: prazo do concurso é 'até 2 anos', e a prorrogação é 'uma vez, por igual período' — bancas inserem prazos falsos. Lembre que estabilidade (3 anos, cargo efetivo) é diferente de vitaliciedade (juízes/MP/TC). E a eficiência NÃO é princípio originário da CF — foi inserida pela EC 19/1998."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Processo legislativo",
+      "intro": "O processo legislativo (arts. 59 a 69 da CF/88) é o conjunto de atos para elaboração das espécies normativas. Para o auditor-fiscal, é tema crítico porque o Direito Tributário se constrói por leis: a instituição de tributos exige lei (legalidade tributária), e muitas matérias fiscais demandam lei complementar.\n\nO art. 59 elenca as espécies: emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções. Cada uma tem rito, quórum e iniciativa próprios.\n\nDominar quóruns (maioria simples x absoluta x 3/5), iniciativa (comum x reservada) e os limites das medidas provisórias em matéria tributária é essencial para a prova."
+      ,
+      "secoes": [
+        {
+          "h": "Espécies normativas (art. 59)",
+          "p": "As espécies primárias são: emendas constitucionais (EC), leis complementares (LC), leis ordinárias (LO), leis delegadas (LD), medidas provisórias (MP), decretos legislativos e resoluções.\n\nNão há hierarquia rígida entre LC e LO: a diferença está na MATÉRIA (a LC trata de temas que a CF expressamente lhe reserva) e no QUÓRUM (LC exige maioria absoluta; LO, maioria simples). Lei ordinária que invade matéria de LC é inconstitucional; mas LC que trate de matéria de LO é formalmente complementar e materialmente ordinária (podendo ser revogada por LO, segundo o STF)."
+        },
+        {
+          "h": "Quóruns e maiorias",
+          "p": "Maioria SIMPLES (relativa): primeiro número inteiro acima da metade dos PRESENTES (exige-se quórum de instalação de maioria absoluta) — é a regra para a lei ordinária (art. 47). Maioria ABSOLUTA: primeiro número inteiro acima da metade dos MEMBROS (ex.: LC, art. 69). Maioria de 3/5 dos membros, em dois turnos em cada Casa: emenda constitucional (art. 60, § 2º).\n\nExemplo prático: em uma Casa de 81 membros (Senado), maioria absoluta = 41; 3/5 = 49 (arredondando para cima)."
+        },
+        {
+          "h": "Iniciativa e tramitação",
+          "p": "A iniciativa pode ser geral/comum (qualquer membro do Congresso, comissões, Presidente da República, STF, Tribunais Superiores, PGR e cidadãos — iniciativa popular, art. 61, § 2º) ou reservada/privativa (ex.: leis sobre regime de servidores e criação de cargos no Executivo são de iniciativa privativa do Presidente — art. 61, § 1º).\n\nA tramitação envolve discussão e votação nas duas Casas (Câmara como iniciadora, em regra, quando o projeto vem do Presidente, STF, TST ou cidadãos — art. 64), sanção ou veto presidencial (art. 66). O veto pode ser total ou parcial e deve ser motivado; é apreciado pelo Congresso, que pode derrubá-lo por maioria absoluta em sessão conjunta."
+        },
+        {
+          "h": "Medidas provisórias e matéria tributária (art. 62)",
+          "p": "A MP é editada pelo Presidente em casos de relevância e urgência, com força de lei, submetida de imediato ao Congresso; vigora por 60 dias, prorrogáveis uma vez por igual período (art. 62, § 7º). É VEDADA MP sobre matéria reservada a lei complementar (art. 62, § 1º, III) — logo, não cabe MP em temas tributários reservados à LC (como normas gerais de tributação, conflitos de competência, empréstimos compulsórios).\n\nPara impostos, o art. 62, § 2º, exige que MP que implique INSTITUIÇÃO ou MAJORAÇÃO de imposto só produza efeitos no exercício seguinte se houver sido CONVERTIDA EM LEI até o último dia do exercício em que editada (ressalvados II, IE, IPI, IOF e imposto extraordinário de guerra)."
+        },
+        {
+          "h": "Emenda constitucional e limites (art. 60)",
+          "p": "A EC pode ser proposta por 1/3 da Câmara ou do Senado, pelo Presidente da República ou por mais da metade das Assembleias Legislativas (cada uma por maioria relativa). É aprovada por 3/5, em dois turnos, em cada Casa, e promulgada pelas Mesas da Câmara e do Senado (não há sanção presidencial).\n\nLimites materiais (cláusulas pétreas, § 4º): não pode ser objeto de deliberação proposta tendente a abolir a forma federativa, o voto direto/secreto/universal/periódico, a separação dos Poderes e os direitos e garantias individuais. Há ainda limites circunstanciais: vedada emenda na vigência de intervenção federal, estado de defesa ou estado de sítio."
+        }
+      ],
+      "exemplo": "Questão comentada (foco fiscal): \"É admissível a edição de medida provisória para instituir contribuição social cuja disciplina a Constituição reserva a lei complementar, desde que presentes relevância e urgência.\" ERRADO.\n\nComentário: o art. 62, § 1º, III, veda expressamente MP sobre matéria reservada a lei complementar. Se a CF exige LC para o tributo (ex.: empréstimo compulsório, art. 148; impostos residuais, art. 154, I; contribuições residuais, art. 195, § 4º), NÃO cabe MP. Já tributos instituíveis por lei ordinária podem, em tese, ser veiculados por MP, observado o art. 62, § 2º (anterioridade). A pegadinha é autorizar MP em matéria de LC."
+      ,
+      "pontos_chave": [
+        "Espécies (art. 59): EC, LC, LO, LD, MP, decreto legislativo e resolução.",
+        "LC x LO: diferença é de matéria e quórum (maioria absoluta x simples), não de hierarquia.",
+        "Quóruns: simples (presentes), absoluta (membros), 3/5 em 2 turnos (EC).",
+        "Iniciativa reservada do Presidente: servidores, cargos e organização administrativa.",
+        "MP: 60+60 dias; vedada em matéria de LC e em diversos temas (art. 62, § 1º).",
+        "MP que cria/majora imposto: efeito no exercício seguinte exige conversão em lei até 31/12 (art. 62, § 2º), salvo II, IE, IPI, IOF e IEG.",
+        "EC: 3/5, 2 turnos, sem sanção; limites materiais (cláusulas pétreas) e circunstanciais."
+      ],
+      "dica_prova": "O tema mais cobrado em prova fiscal é o limite das MPs em matéria tributária: NÃO cabe MP onde a CF exige LC, e a MP que institui/majora imposto precisa ser convertida em lei até 31/12 para valer no ano seguinte (exceções: II, IE, IPI, IOF e IEG). Não confunda os quóruns: maioria absoluta é sobre MEMBROS, simples sobre PRESENTES. E lembre: EC não tem sanção presidencial — é promulgada pelas Mesas das Casas."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Poder Judiciário e funções essenciais",
+      "intro": "Este subtópico abrange a estrutura do Poder Judiciário (arts. 92 a 126), o controle de constitucionalidade e as funções essenciais à Justiça (arts. 127 a 135): Ministério Público, Advocacia Pública, Advocacia e Defensoria Pública. É tema de grande relevância porque o STF é o guardião da Constituição e o controle de constitucionalidade molda a validade das normas tributárias.\n\nO Judiciário exerce a função típica de julgar, com garantias de independência (vitaliciedade, inamovibilidade e irredutibilidade de subsídios) e de imparcialidade. Suas decisões em controle concentrado têm efeitos erga omnes e vinculantes.\n\nPara o auditor-fiscal, importa compreender as vias do controle de constitucionalidade (difuso e concentrado) e os efeitos das decisões do STF, pois inúmeras teses tributárias são definidas nesse âmbito."
+      ,
+      "secoes": [
+        {
+          "h": "Estrutura e garantias do Judiciário",
+          "p": "Compõem o Judiciário (art. 92): STF, CNJ, STJ, TST, TSE, STM, os Tribunais Regionais Federais e juízes federais, os Tribunais e juízes do Trabalho, Eleitorais, Militares, e os Tribunais e juízes dos Estados e do DF.\n\nGarantias dos magistrados (art. 95): vitaliciedade (após 2 anos, só perdem o cargo por sentença judicial transitada em julgado), inamovibilidade (não podem ser removidos contra a vontade, salvo interesse público por decisão da maioria absoluta do tribunal ou do CNJ) e irredutibilidade de subsídio. Vedações: exercer outro cargo (salvo magistério), receber custas/honorários e dedicar-se à atividade político-partidária."
+        },
+        {
+          "h": "STF e suas competências (art. 102)",
+          "p": "O STF é o guardião da Constituição. Tem competência originária para ADI, ADC, ADPF, ações contra atos do Presidente, e competência recursal extraordinária (RE) para julgar causas decididas em última instância que contrariem a CF.\n\nA repercussão geral (art. 102, § 3º) é requisito de admissibilidade do RE: o recorrente deve demonstrar a relevância das questões constitucionais discutidas. Muitas teses tributárias (Temas de repercussão geral) vinculam as instâncias inferiores."
+        },
+        {
+          "h": "Controle difuso x concentrado",
+          "p": "Controle DIFUSO (incidental/concreto): exercido por qualquer juiz ou tribunal, no caso concreto, como questão prejudicial; a inconstitucionalidade é causa de pedir, não o pedido principal; efeitos, em regra, inter partes. Nos tribunais, observa-se a cláusula de reserva de plenário (art. 97 e Súmula Vinculante 10): só o plenário ou órgão especial pode declarar a inconstitucionalidade.\n\nControle CONCENTRADO (abstrato): exercido perante o STF (ou TJ, em face da Constituição Estadual), por ações próprias (ADI, ADC, ADO, ADPF); o pedido principal é a própria (in)constitucionalidade; efeitos erga omnes e vinculantes (art. 102, § 2º). O Senado, no controle difuso, pode suspender a execução de lei declarada inconstitucional pelo STF (art. 52, X)."
+        },
+        {
+          "h": "Ações do controle concentrado e legitimados",
+          "p": "ADI (declarar inconstitucional lei/ato normativo federal ou estadual), ADC (declarar constitucional lei/ato federal, afastando controvérsia), ADPF (evitar/reparar lesão a preceito fundamental, caráter subsidiário) e ADO (omissão inconstitucional). Os legitimados estão no art. 103: Presidente, Mesas da Câmara, Senado e Assembleias, Governadores, PGR, Conselho Federal da OAB, partido político com representação no Congresso e confederação sindical ou entidade de classe de âmbito nacional.\n\nO STF distingue legitimados UNIVERSAIS (sem necessidade de demonstrar pertinência temática) de ESPECIAIS (Governadores, Mesas das Assembleias e entidades de classe, que devem demonstrar pertinência temática)."
+        },
+        {
+          "h": "Funções essenciais à Justiça",
+          "p": "Ministério Público (arts. 127-130): instituição permanente, defensor da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis; princípios da unidade, indivisibilidade e independência funcional. Não integra o Judiciário, mas tem autonomia.\n\nAdvocacia Pública (arts. 131-132): AGU representa a União; Procuradorias representam Estados e DF (inclusive a representação da Fazenda Pública estadual, atuando na execução fiscal e na defesa de autos de infração). Advocacia (art. 133): indispensável à administração da justiça. Defensoria Pública (art. 134): orientação jurídica e defesa dos necessitados, com autonomia funcional e administrativa."
+        }
+      ],
+      "exemplo": "Questão comentada (foco fiscal): \"No controle difuso de constitucionalidade exercido por um tribunal, um órgão fracionário (turma ou câmara) pode declarar a inconstitucionalidade de lei tributária estadual, dispensada manifestação do plenário.\" ERRADO.\n\nComentário: vigora a cláusula de reserva de plenário (art. 97 da CF e Súmula Vinculante 10). Somente pelo voto da maioria absoluta dos membros do tribunal OU do respectivo órgão especial pode ser declarada a inconstitucionalidade. Órgão fracionário que afasta a aplicação de lei por inconstitucionalidade, sem submeter ao plenário, viola a SV 10. A pegadinha autoriza o órgão fracionário a decidir sozinho."
+      ,
+      "pontos_chave": [
+        "Garantias da magistratura: vitaliciedade, inamovibilidade e irredutibilidade de subsídios.",
+        "STF é guardião da Constituição; RE depende de repercussão geral.",
+        "Controle difuso: qualquer juiz, caso concreto, efeitos inter partes; Senado pode suspender lei (art. 52, X).",
+        "Controle concentrado: STF, ADI/ADC/ADO/ADPF, efeitos erga omnes e vinculantes.",
+        "Cláusula de reserva de plenário (art. 97 e SV 10) no controle difuso dos tribunais.",
+        "Legitimados do art. 103: universais e especiais (estes exigem pertinência temática).",
+        "Procuradorias estaduais (Advocacia Pública) defendem a Fazenda na execução fiscal."
+      ],
+      "dica_prova": "A reserva de plenário (SV 10) é campeã: órgão fracionário não declara inconstitucionalidade sozinho. Cuidado com efeitos: controle concentrado é erga omnes e vinculante; difuso é inter partes (com o Senado podendo ampliar via art. 52, X). Não confunda os legitimados especiais (Governador, Mesa de Assembleia, entidade de classe — precisam de pertinência temática) com os universais. E lembre: o MP NÃO integra o Poder Judiciário, é função essencial à Justiça."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Sistema Tributário Nacional",
+      "intro": "O Sistema Tributário Nacional (STN) está nos arts. 145 a 162 da CF/88 e constitui o núcleo do interesse para o concurso de Auditor-Fiscal. Define as espécies tributárias, reparte a competência para instituir tributos, fixa as limitações ao poder de tributar (princípios e imunidades) e disciplina a repartição de receitas entre os entes.\n\nA tributação é a principal fonte de receita derivada do Estado, decorrente do seu poder de império. Por isso, a Constituição cerca o poder de tributar de garantias ao contribuinte, evitando abusos. A EC 132/2023 promoveu a Reforma Tributária do consumo, criando IBS, CBS e Imposto Seletivo.\n\nO domínio das limitações constitucionais (legalidade, anterioridade, isonomia, vedação ao confisco, imunidades) e da competência estadual (ICMS, ITCMD, IPVA) é indispensável para a SEFAZ-GO."
+      ,
+      "secoes": [
+        {
+          "h": "Espécies tributárias e competência",
+          "p": "O art. 145 menciona impostos, taxas e contribuições de melhoria. O STF adota a teoria PENTAPARTITE: além desses três, são tributos os empréstimos compulsórios (art. 148) e as contribuições especiais (art. 149). A natureza jurídica do tributo é dada pelo fato gerador (art. 4º do CTN).\n\nCompetência: União (art. 153 — II, IE, IR, IPI, IOF, ITR, IGF; mais residuais e extraordinários); Estados/DF (art. 155 — ITCMD, ICMS, IPVA); Municípios (art. 156 — IPTU, ITBI, ISS). A competência tributária é indelegável; já a capacidade tributária ativa (fiscalizar, arrecadar) pode ser delegada."
+        },
+        {
+          "h": "Princípios: legalidade, anterioridade e noventena",
+          "p": "Legalidade tributária (art. 150, I): é vedado exigir ou aumentar tributo sem lei. Exceções (alteração de alíquotas por ato do Executivo, dentro de limites legais): II, IE, IPI, IOF e CIDE-combustíveis e ICMS-monofásico sobre combustíveis.\n\nAnterioridade do exercício (art. 150, III, b): o tributo só pode ser cobrado no exercício seguinte ao da publicação da lei. Anterioridade nonagesimal/noventena (alínea c): exige 90 dias. Em regra, aplicam-se as duas cumulativamente. Exceções importantes: II, IE, IOF e IEG (não respeitam nenhuma das duas); IR e fixação da base de cálculo do IPTU e IPVA respeitam só a anual (não a noventena); IPI, contribuições sociais e ICMS/CIDE-combustíveis respeitam só a noventena (não a anual)."
+        },
+        {
+          "h": "Demais princípios e vedação ao confisco",
+          "p": "Isonomia tributária (art. 150, II): vedado tratamento desigual entre contribuintes em situação equivalente. Capacidade contributiva (art. 145, § 1º): os impostos serão graduados conforme a capacidade econômica. Irretroatividade (art. 150, III, a): a lei não alcança fatos geradores anteriores à sua vigência.\n\nVedação ao confisco (art. 150, IV): o tributo não pode ter efeito de confisco (caráter excessivamente oneroso). Vedação às limitações ao tráfego (art. 150, V): tributos não podem restringir a circulação de pessoas/bens, ressalvado o pedágio. Uniformidade geográfica (art. 151) impede a União de instituir tributo não uniforme no território nacional."
+        },
+        {
+          "h": "Imunidades tributárias (art. 150, VI)",
+          "p": "Imunidades são limitações constitucionais que afastam a competência tributária (não incidência constitucionalmente qualificada), distintas da isenção (legal). A imunidade recíproca (alínea a) veda impostos sobre patrimônio, renda e serviços entre os entes federativos. As demais alíneas trazem imunidades para templos de qualquer culto (b); partidos políticos, sindicatos de trabalhadores, instituições de educação e assistência social sem fins lucrativos, atendidos os requisitos de lei (c); livros, jornais, periódicos e o papel destinado à sua impressão (d); e fonogramas/videofonogramas musicais produzidos no Brasil (e, EC 75/2013).\n\nO STF estendeu a imunidade de livros aos livros eletrônicos e e-readers (RE 330.817 e 595.676, Tema 593). As imunidades da alínea 'a' e 'c' alcançam apenas IMPOSTOS, não taxas ou contribuições."
+        },
+        {
+          "h": "Repartição de receitas e Reforma Tributária (EC 132/2023)",
+          "p": "Os arts. 157 a 162 disciplinam a repartição de receitas tributárias. Por exemplo, pertencem aos Estados 20% dos impostos residuais e parte do IR e do IPI via fundos; aos Municípios, parcelas do ICMS (25%), do IPVA (50%) e do ITR. Os fundos de participação (FPE e FPM) redistribuem IR e IPI.\n\nA EC 132/2023 instituiu o IBS (competência compartilhada de Estados e Municípios, gerido pelo Comitê Gestor) e a CBS (federal), em substituição gradual a ICMS, ISS, PIS, Cofins e IPI, além do Imposto Seletivo sobre bens prejudiciais à saúde e ao meio ambiente. O princípio do destino e a não cumulatividade plena são marcas do novo IBS/CBS — tema certo em provas fiscais recentes."
+        }
+      ],
+      "exemplo": "Questão comentada (foco SEFAZ-GO): \"Lei estadual de Goiás publicada em 20 de dezembro de 2025, majorando a alíquota do ICMS, pode ser aplicada a fatos geradores ocorridos a partir de 1º de janeiro de 2026.\" ERRADO.\n\nComentário: o ICMS submete-se à anterioridade NONAGESIMAL (noventena), mas é EXCEÇÃO à anterioridade anual apenas em hipóteses específicas (combustíveis monofásicos). Para a majoração geral do ICMS, aplicam-se as DUAS anterioridades: a do exercício e os 90 dias. Lei publicada em 20/12/2025 só poderia produzir efeitos após 90 dias (por volta de 20/03/2026) E no exercício seguinte — prevalecendo a data mais distante. Logo, não vale já em 1º/01/2026. A pegadinha ignora a noventena."
+      ,
+      "pontos_chave": [
+        "Teoria pentapartite (STF): impostos, taxas, contribuições de melhoria, empréstimos compulsórios e contribuições especiais.",
+        "Competência estadual: ITCMD, ICMS e IPVA (art. 155); indelegável.",
+        "Legalidade (art. 150, I) com exceções de alíquota: II, IE, IPI, IOF, CIDE-combustíveis.",
+        "Anterioridade anual + noventena em regra; cada uma tem exceções próprias.",
+        "Vedação ao confisco (art. 150, IV) e às limitações ao tráfego, ressalvado o pedágio.",
+        "Imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/entidades, livros e fonogramas); só afastam IMPOSTOS nas alíneas a e c.",
+        "EC 132/2023: IBS (estadual/municipal), CBS (federal) e Imposto Seletivo."
+      ],
+      "dica_prova": "O assunto que mais cai é o quadro de exceções às anterioridades — decore quais tributos não respeitam a anual, quais não respeitam a noventena e quais não respeitam nenhuma (II, IE, IOF, IEG). Cuidado: imunidade é constitucional, isenção é legal — bancas trocam os termos. As imunidades das alíneas 'a' e 'c' alcançam só IMPOSTOS, não taxas/contribuições. Sobre a Reforma (EC 132/2023): o IBS é de competência compartilhada de Estados e Municípios, e o princípio é o do DESTINO."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "Ordem econômica e financeira",
+      "intro": "A ordem econômica e financeira está nos arts. 170 a 192 da CF/88. O art. 170 fixa que a ordem econômica é fundada na valorização do trabalho humano e na livre iniciativa, com o fim de assegurar a todos existência digna conforme os ditames da justiça social. Trata-se de um capítulo que concilia o capitalismo com a função social e a intervenção estatal.\n\nPara o auditor-fiscal, este tema conecta-se à atuação do Estado na economia, aos princípios que orientam a tributação extrafiscal (ex.: tratamento favorecido a pequenas empresas e a defesa do meio ambiente) e aos limites da intervenção estatal no domínio econômico.\n\nA cobrança costuma ser principiológica e literal: memorizar os nove princípios do art. 170 e compreender as formas de atuação do Estado (agente normativo/regulador x explorador direto da atividade econômica)."
+      ,
+      "secoes": [
+        {
+          "h": "Princípios da ordem econômica (art. 170)",
+          "p": "São princípios (incisos I a IX): soberania nacional; propriedade privada; função social da propriedade; livre concorrência; defesa do consumidor; defesa do meio ambiente (inclusive mediante tratamento diferenciado conforme o impacto ambiental); redução das desigualdades regionais e sociais; busca do pleno emprego; e tratamento favorecido para empresas de pequeno porte constituídas sob as leis brasileiras e com sede e administração no País.\n\nO parágrafo único assegura a todos o livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos, salvo nos casos previstos em lei (liberdade econômica)."
+        },
+        {
+          "h": "Fundamentos: livre iniciativa e valorização do trabalho",
+          "p": "A ordem econômica funda-se em DOIS pilares: a valorização do trabalho humano e a livre iniciativa (art. 170, caput). Ambos já aparecem como fundamentos da República (art. 1º, IV).\n\nA livre iniciativa garante a liberdade de empreender e concorrer; a valorização do trabalho impõe o respeito à dignidade do trabalhador. O equilíbrio entre os dois orienta a interpretação dos demais princípios — não se trata de capitalismo puro, mas de uma economia voltada à justiça social."
+        },
+        {
+          "h": "Atuação do Estado na economia (arts. 173 e 174)",
+          "p": "A exploração DIRETA da atividade econômica pelo Estado é EXCEPCIONAL: só é permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei (art. 173). Nesses casos, atua por empresas públicas e sociedades de economia mista, sujeitas ao regime jurídico próprio das empresas privadas (inclusive obrigações tributárias).\n\nComo agente NORMATIVO e REGULADOR (art. 174), o Estado exerce as funções de fiscalização, incentivo e planejamento (este determinante para o setor público e indicativo para o privado). É a base das agências reguladoras. Atenção: o § 4º do art. 173 reprime o abuso do poder econômico que vise à dominação dos mercados, à eliminação da concorrência e ao aumento arbitrário dos lucros."
+        },
+        {
+          "h": "Monopólios, serviços públicos e tributação extrafiscal",
+          "p": "O art. 177 define monopólios da União (ex.: pesquisa e lavra de petróleo e gás natural). O art. 175 atribui ao Poder Público a prestação de serviços públicos, diretamente ou sob regime de concessão/permissão, sempre por meio de licitação.\n\nNa interface com o Direito Tributário, a ordem econômica fundamenta a EXTRAFISCALIDADE: tributos usados como instrumentos de intervenção (ex.: alíquotas do IPI e do II para proteger a indústria nacional; tratamento favorecido a microempresas via Simples Nacional, art. 146, III, d). O ICMS estadual também tem função indutora em incentivos fiscais, sujeitos à deliberação dos Estados no CONFAZ (LC 24/1975 e LC 160/2017)."
+        },
+        {
+          "h": "Tratamento favorecido a pequenas empresas",
+          "p": "O art. 170, IX, e o art. 179 determinam tratamento jurídico diferenciado às microempresas e empresas de pequeno porte, visando incentivá-las pela simplificação ou redução de obrigações administrativas, tributárias, previdenciárias e creditícias.\n\nIsso se materializa no Simples Nacional (LC 123/2006), regime unificado de arrecadação previsto no art. 146, III, 'd', da CF. Para a SEFAZ-GO, é relevante porque o ICMS pode integrar o Simples, e o tema costuma ser cobrado na conexão entre ordem econômica e sistema tributário."
+        }
+      ],
+      "exemplo": "Questão comentada: \"A exploração direta de atividade econômica pelo Estado é a regra geral na ordem econômica brasileira, cabendo à iniciativa privada atuar apenas subsidiariamente.\" ERRADO.\n\nComentário: é exatamente o oposto. A ordem econômica funda-se na LIVRE INICIATIVA (art. 170); a exploração direta da atividade econômica pelo Estado é EXCEPCIONAL, só admitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo (art. 173). A regra é a atuação privada; o Estado, em geral, atua como agente normativo e regulador (art. 174). A pegadinha inverte a relação regra/exceção."
+      ,
+      "pontos_chave": [
+        "Ordem econômica funda-se na valorização do trabalho e na livre iniciativa (art. 170, caput).",
+        "Nove princípios do art. 170, incluindo função social da propriedade, livre concorrência e defesa do meio ambiente.",
+        "Exploração direta pelo Estado é EXCEPCIONAL (art. 173): segurança nacional ou relevante interesse coletivo.",
+        "Estatais exploradoras de atividade econômica seguem o regime das empresas privadas.",
+        "Estado é agente normativo e regulador (art. 174): fiscalização, incentivo e planejamento.",
+        "Tratamento favorecido a ME/EPP (arts. 170, IX, e 179; Simples Nacional, LC 123/2006).",
+        "Extrafiscalidade e incentivos de ICMS dependem de deliberação no CONFAZ (LC 24/1975 e LC 160/2017)."
+      ],
+      "dica_prova": "A pegadinha clássica inverte regra e exceção: a livre iniciativa é a REGRA; a atuação direta do Estado é EXCEÇÃO (art. 173). Decore que o planejamento é determinante para o setor público e apenas indicativo para o privado (art. 174). Para o foco fiscal de Goiás, lembre que incentivos de ICMS exigem convênio no CONFAZ (LC 24/1975), sob pena de inconstitucionalidade da 'guerra fiscal' — tema recorrente na jurisprudência do STF. Não confunda os princípios do art. 170 com os fundamentos do art. 1º (embora livre iniciativa apareça em ambos)."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PA e PG — Raciocínio Lógico, Matemática Financeira e Estatística</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>PA e PG</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Sequências, matrizes e análise combinatória</p>
+    <h1>PA e PG</h1>
+    <p>As progressões são sequências numéricas que seguem uma regra de formação constante. Na Progressão Aritmética (PA), cada termo resulta da soma do anterior com uma constante chamada razão (r). Na Progressão Geométrica (PG), cada termo resulta da multiplicação do anterior por uma constante chamada razão (q). Reconhecer o padrão e aplicar as fórmulas de termo geral e de soma resolve a maioria das questões de sequências.</p><p>Esses conteúdos conectam-se à matemática financeira (juros simples têm crescimento de PA; juros compostos, de PG) e à estatística, sendo por isso muito valorizados em provas de Auditor-Fiscal.</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Progressão Aritmética (PA)</h2>
+          <p>Termo geral: an = a1 + (n − 1)·r, onde a1 é o primeiro termo, n a posição e r a razão. A razão é r = an − a(n-1), constante. PA crescente tem r &gt; 0; decrescente, r &lt; 0; constante, r = 0.</p><p>Soma dos n primeiros termos: Sn = (a1 + an)·n / 2. Propriedade útil: em uma PA, cada termo é a média aritmética dos seus vizinhos, isto é, ak = (a(k-1) + a(k+1)) / 2.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Progressão Geométrica (PG)</h2>
+          <p>Termo geral: an = a1·q^(n − 1), onde q é a razão, com q = an / a(n-1), constante. Soma dos n primeiros termos (q ≠ 1): Sn = a1·(q^n − 1) / (q − 1).</p><p>Propriedade: cada termo é a média geométrica dos vizinhos, ak² = a(k-1)·a(k+1). Para PG infinita com |q| &lt; 1, a soma converge: S = a1 / (1 − q), fórmula útil em dízimas periódicas e em valor presente perpétuo.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Identificando o padrão</h2>
+          <p>Se a DIFERENÇA entre termos consecutivos é constante, é PA (ex.: 3, 7, 11, 15 → r = 4). Se o QUOCIENTE entre termos consecutivos é constante, é PG (ex.: 2, 6, 18, 54 → q = 3).</p><p>Há ainda sequências mistas, recursivas (Fibonacci: cada termo é a soma dos dois anteriores) e figurais (padrões geométricos). Nessas, a estratégia é descobrir a lei de formação observando as diferenças de primeira e segunda ordem.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Passo a passo de resolução</h2>
+          <p>1) Identifique se é PA ou PG calculando diferença e quociente. 2) Extraia a1 e a razão. 3) Use o termo geral para achar o termo pedido ou n. 4) Use a fórmula de soma quando pedirem o total.</p><p>Dica de cálculo: para achar n a partir de an em PG, use logaritmos: de an = a1·q^(n-1), isole q^(n-1) e aplique log. Em PA, isole n diretamente da equação linear.</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Exemplo PA: numa PA, a1 = 5 e r = 3. Qual o 10º termo e a soma dos 10 primeiros?
+an = 5 + (10−1)·3 = 5 + 27 = 32. Logo a10 = 32.
+S10 = (5 + 32)·10 / 2 = 37·5 = 185.</p><p>Exemplo PG: numa PG, a1 = 2 e q = 3. Qual o 5º termo e a soma dos 5 primeiros?
+a5 = 2·3^(5−1) = 2·81 = 162.
+S5 = 2·(3^5 − 1) / (3 − 1) = 2·(243 − 1)/2 = 242. Logo a soma é 242.</p><p>Exemplo de PG infinita (dízima): 0,9999... = 9/10 + 9/100 + ... com a1 = 9/10 e q = 1/10. S = (9/10)/(1 − 1/10) = (9/10)/(9/10) = 1.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>Atenção ao expoente (n−1) no termo geral — esquecê-lo e usar n é o erro mais frequente. Na soma da PG, confira o sinal de (q−1): se q&lt;1 use a forma a1·(1−q^n)/(1−q) para evitar números negativos. A banca costuma misturar a contagem da posição (a &#x27;primeira&#x27; parcela é n=1, não n=0). Em sequências figurais, calcule as diferenças de segunda ordem quando a de primeira ordem não for constante.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t2-s1.html">← Quantificadores</a><a class="pager next" href="t3-s1.html">Análise combinatória →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>PA — termo geral: an = a1 + (n−1)·r.</li><li>PA — soma: Sn = (a1 + an)·n / 2.</li><li>PG — termo geral: an = a1·q^(n−1).</li><li>PG — soma finita: Sn = a1·(q^n − 1)/(q − 1).</li><li>PG infinita com |q|&lt;1: S = a1/(1 − q).</li><li>PA: diferença constante; PG: quociente constante.</li><li>Juros simples seguem PA; juros compostos seguem PG.</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

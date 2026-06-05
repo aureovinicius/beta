@@ -1,0 +1,216 @@
+{
+  "slug": "direito-financeiro",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "PPA, LDO e LOA",
+      "intro": "O Direito Financeiro disciplina a atividade financeira do Estado: obtenção de receitas, gestão e aplicação de despesas, crédito público e orçamento. No núcleo dessa disciplina está o orçamento público, instrumento por meio do qual o Estado planeja e autoriza suas receitas e despesas para um período. A Constituição de 1988 (arts. 165 a 169) consagrou um sistema orçamentário integrado e hierarquizado, composto por três leis de iniciativa do Poder Executivo: o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).\n\nEssas leis não são isoladas: elas se comunicam em cascata. O PPA estabelece o planejamento de médio prazo (4 anos); a LDO seleciona, a cada ano, as prioridades do PPA e fixa metas e regras; e a LOA materializa, em um único exercício financeiro, a previsão de receitas e a fixação de despesas, em compatibilidade com o PPA e a LDO. Esse encadeamento é a espinha dorsal do que se chama 'ciclo orçamentário'.\n\nPara o concurso da SEFAZ-GO, dominar prazos, conteúdo de cada lei e princípios orçamentários é essencial, pois é tema recorrente e de alta previsibilidade nas bancas.",
+      "secoes": [
+        {
+          "h": "Plano Plurianual (PPA) — art. 165, § 1º, CF",
+          "p": "O PPA é a lei de planejamento de médio prazo, com vigência de 4 anos. Ele estabelece, de forma regionalizada, as diretrizes, objetivos e metas da administração pública para as despesas de capital e outras delas decorrentes, e para as relativas aos programas de duração continuada.\n\nUm ponto cobrado em prova é a vigência peculiar do PPA: ele começa a vigorar no segundo ano do mandato do chefe do Executivo e vai até o final do primeiro ano do mandato seguinte. Isso garante continuidade administrativa entre governos. Enquanto não promulgada a lei complementar prevista no art. 165, § 9º, da CF, aplicam-se os prazos do ADCT, art. 35, § 2º: o projeto de PPA é encaminhado até 4 meses antes do encerramento do exercício (31/08) e devolvido para sanção até o encerramento da sessão legislativa."
+        },
+        {
+          "h": "Lei de Diretrizes Orçamentárias (LDO) — art. 165, § 2º, CF",
+          "p": "A LDO é anual e funciona como ponte entre o PPA e a LOA. Ela compreende as metas e prioridades da administração para o exercício seguinte, orienta a elaboração da LOA, dispõe sobre alterações na legislação tributária e estabelece a política das agências financeiras oficiais de fomento.\n\nA LRF (LC 101/2000) ampliou enormemente o conteúdo da LDO, que passou a conter o Anexo de Metas Fiscais e o Anexo de Riscos Fiscais. Prazo (ADCT, art. 35, § 2º, II): encaminhada até 8,5 meses antes do fim do exercício (15/04) e devolvida até o fim do primeiro período da sessão legislativa (17/07). Importante: o Congresso/Assembleia não pode entrar em recesso sem aprovar a LDO."
+        },
+        {
+          "h": "Lei Orçamentária Anual (LOA) — art. 165, § 5º, CF",
+          "p": "A LOA é o orçamento propriamente dito: prevê as receitas e fixa as despesas do exercício. Compreende três peças: o orçamento fiscal, o orçamento de investimento das empresas estatais e o orçamento da seguridade social.\n\nReceita é prevista (estimativa, não obrigação de arrecadar tudo); despesa é fixada (limite-teto de gasto autorizado). Prazo: encaminhada até 31/08 (4 meses antes do fim do exercício) e devolvida para sanção até o encerramento da sessão legislativa (22/12). Vedação da regra de exclusividade (art. 165, § 8º): a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa, ressalvadas a autorização para abertura de créditos suplementares e a contratação de operações de crédito, ainda que por ARO."
+        },
+        {
+          "h": "Princípios orçamentários",
+          "p": "Unidade (orçamento uno, integrado), Universalidade (todas as receitas e despesas devem constar), Anualidade/Periodicidade (vigência de um exercício financeiro, que coincide com o ano civil — art. 34 da Lei 4.320/64), Exclusividade (a LOA só trata de receita e despesa, art. 165, § 8º), Legalidade, Especificação/Especialização (vedação a dotações globais, art. 5º, Lei 4.320/64), Não afetação ou não vinculação da receita de impostos (art. 167, IV, CF — com ressalvas como saúde, educação e o FPE/FPM), Orçamento Bruto (valores brutos, sem deduções, art. 6º, Lei 4.320/64) e Publicidade.\n\nAtenção à pegadinha do princípio da não afetação: ele se aplica à receita de IMPOSTOS, não a todos os tributos. Taxas e contribuições podem ter destinação vinculada."
+        }
+      ],
+      "exemplo": "Questão típica: 'O Plano Plurianual terá vigência de quatro anos, coincidindo exatamente com o mandato do chefe do Executivo que o elaborou.' (ERRADO). O PPA inicia no segundo ano do mandato e termina no primeiro ano do mandato seguinte, justamente para não coincidir com o mandato e garantir transição.\n\nOutro exemplo aplicado: em Goiás, o Governador deve encaminhar à Assembleia Legislativa o projeto de LOA com a previsão de arrecadação do ICMS (principal receita estadual). Se a banca afirmar que a LOA 'obriga' o Estado a arrecadar exatamente o valor previsto de ICMS, está ERRADO: a receita é apenas estimada/prevista; já a despesa é fixada como teto.",
+      "pontos_chave": [
+        "PPA = 4 anos, planejamento de médio prazo (art. 165, §1º, CF)",
+        "PPA vigora do 2º ano de um mandato ao 1º ano do mandato seguinte",
+        "LDO = anual, ponte entre PPA e LOA; contém Anexo de Metas e de Riscos Fiscais (LRF)",
+        "LOA = orçamento fiscal + investimento das estatais + seguridade social",
+        "Receita é PREVISTA (estimada); despesa é FIXADA (teto)",
+        "Princípio da não afetação aplica-se à receita de IMPOSTOS, não de todos os tributos",
+        "Prazos do ADCT art. 35, §2º: PPA/LOA até 31/08; LDO até 15/04"
+      ],
+      "dica_prova": "Decore os prazos do ADCT, art. 35, § 2º, pois caem com frequência. A pegadinha clássica troca 'receita prevista' por 'receita fixada' (e vice-versa para despesa). Outra: afirmar que a LDO cria o Anexo de Metas Fiscais pela própria CF — na verdade quem o exigiu foi a LRF. Cuidado também com a regra da exclusividade: créditos suplementares e operações de crédito (inclusive ARO) PODEM constar na LOA sem violar o princípio."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Estágios da receita",
+      "intro": "Receita pública é o ingresso de recursos financeiros aos cofres do Estado, em caráter definitivo e sem correspondente baixa no patrimônio (no sentido estrito das receitas efetivas). É preciso distinguir receita pública dos meros 'ingressos' ou 'entradas provisórias' (como cauções, depósitos e fianças), que entram nos cofres mas serão devolvidos e, portanto, não constituem receita em sentido próprio.\n\nA doutrina classifica a receita sob diversos critérios. Quanto à origem: receita originária (decorre da exploração do patrimônio do próprio Estado — aluguéis, dividendos de estatais, preços públicos) e receita derivada (decorre do poder de império, da imposição estatal sobre o patrimônio do particular — tributos, multas). Quanto à categoria econômica (Lei 4.320/64): receitas correntes e receitas de capital.\n\nPara concursos fiscais, os estágios da receita e a classificação por categoria econômica são os pontos mais cobrados, ao lado da distinção originária x derivada.",
+      "secoes": [
+        {
+          "h": "Os quatro estágios da receita",
+          "p": "Embora a Lei 4.320/64 trate expressamente apenas de lançamento, arrecadação e recolhimento (arts. 51 a 57), a doutrina majoritária acrescenta a previsão como primeiro estágio. A sequência é: 1) PREVISÃO — estimativa de quanto se espera arrecadar, registrada na LOA, hoje disciplinada também pela LRF (art. 12, que exige previsão conforme normas técnicas e legais, observada a evolução dos últimos três anos); 2) LANÇAMENTO — ato administrativo que individualiza e identifica o devedor e o valor (art. 53 da Lei 4.320/64); 3) ARRECADAÇÃO — entrega dos recursos pelos contribuintes/devedores aos agentes arrecadadores (bancos, rede credenciada); 4) RECOLHIMENTO — transferência dos valores arrecadados à conta única do Tesouro (princípio da unidade de tesouraria, art. 56)."
+        },
+        {
+          "h": "Atenção ao conceito de lançamento financeiro x tributário",
+          "p": "O lançamento previsto na Lei 4.320/64 (art. 53) NÃO se confunde inteiramente com o lançamento tributário do CTN (art. 142). Nem toda receita passa por lançamento prévio: a Lei 4.320/64, no art. 52, prevê o lançamento das rendas com vencimento determinado, tributos diretos e outras com data certa.\n\nPegadinha frequente: dizer que 'toda receita pública necessariamente passa pelo estágio de lançamento'. Isso é falso — receitas como tributos lançados por homologação, em que o sujeito passivo antecipa o pagamento, na prática têm o estágio de arrecadação sem lançamento prévio formal. A ordem lógica é previsão → lançamento → arrecadação → recolhimento, mas há receitas que não percorrem o lançamento."
+        },
+        {
+          "h": "Classificação por categoria econômica (Lei 4.320/64)",
+          "p": "Receitas CORRENTES: tributárias (impostos, taxas, contribuições de melhoria), de contribuições, patrimonial, agropecuária, industrial, de serviços e transferências correntes. São recursos para custear a atividade ordinária do Estado.\n\nReceitas DE CAPITAL: operações de crédito (empréstimos/financiamentos), alienação de bens, amortização de empréstimos concedidos, transferências de capital e superávit do orçamento corrente (este último é apenas contábil, não constitui item de receita). Servem para financiar investimentos e despesas de capital. Para Goiás, o ICMS é a maior receita corrente tributária; já uma emissão de dívida para obras é receita de capital."
+        },
+        {
+          "h": "Receita originária x derivada",
+          "p": "Receita ORIGINÁRIA: o Estado atua como se particular fosse, explorando seu próprio patrimônio em regime de direito privado, sem coerção. Exemplos: aluguéis, foros, laudêmios, dividendos, preços públicos/tarifas, receitas de empresas estatais.\n\nReceita DERIVADA: o Estado usa seu poder de império (jus imperii) e impõe a contribuição compulsória sobre o patrimônio do particular, em regime de direito público. Exemplos: tributos (impostos, taxas, contribuições), multas e penalidades pecuniárias, reparações de guerra. Para um Auditor-Fiscal, a receita tributária — derivada por excelência — é o objeto central do trabalho."
+        }
+      ],
+      "exemplo": "Exercício comentado: 'Os estágios da receita pública, na ordem prevista expressamente na Lei 4.320/64, são previsão, lançamento, arrecadação e recolhimento.' (ERRADO). A Lei 4.320/64 disciplina expressamente apenas lançamento, arrecadação e recolhimento; a PREVISÃO é estágio reconhecido pela doutrina e tratado em outros dispositivos (e na LRF), não constando no rol legal dos arts. 51-57.\n\nAplicação SEFAZ-GO: o ICMS recolhido por um contribuinte goiano em rede bancária credenciada está no estágio de ARRECADAÇÃO; quando esses valores são transferidos para a conta única do Tesouro Estadual, ocorre o RECOLHIMENTO. A multa aplicada pelo Auditor-Fiscal por infração é receita DERIVADA e CORRENTE (tributária, no caso de penalidade tributária).",
+      "pontos_chave": [
+        "Estágios (doutrina): previsão, lançamento, arrecadação, recolhimento",
+        "Lei 4.320/64 (arts. 51-57) prevê expressamente só lançamento, arrecadação e recolhimento",
+        "Arrecadação = contribuinte paga ao agente; Recolhimento = vai à conta única do Tesouro",
+        "Receita originária = patrimônio do Estado (sem coerção); derivada = poder de império (tributos)",
+        "Categoria econômica: correntes (tributárias, contribuições) x de capital (op. de crédito, alienação)",
+        "Operação de crédito é receita DE CAPITAL, não corrente",
+        "Nem toda receita passa por lançamento prévio"
+      ],
+      "dica_prova": "A pegadinha mais comum inverte arrecadação e recolhimento — memorize: ARRECADAÇÃO vem antes (contribuinte paga ao banco), RECOLHIMENTO depois (vai ao Tesouro/conta única). Outra: classificar operação de crédito como receita corrente — é DE CAPITAL. E cuidado: superávit do orçamento corrente é receita de capital apenas contábil, não ingressa de fato. Multa é receita derivada, ainda que originada de descumprimento."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Estágios da despesa",
+      "intro": "Despesa pública é o conjunto de dispêndios do Estado para o funcionamento dos serviços públicos e a realização de suas finalidades. Diferentemente da receita, a despesa segue rígido processo de execução previsto na Lei 4.320/64 (arts. 58 a 70), pois compromete recursos públicos e exige controle prévio.\n\nA despesa classifica-se, quanto à categoria econômica, em despesas correntes (de custeio e transferências correntes — manutenção da máquina, pessoal, juros) e despesas de capital (investimentos, inversões financeiras e amortização da dívida). Os estágios da despesa — empenho, liquidação e pagamento — são o tema mais cobrado, especialmente as definições de cada um e as exceções (restos a pagar, despesas de exercícios anteriores).\n\nPara o cargo de Auditor-Fiscal, embora a atuação seja mais ligada à receita, a despesa cai como conhecimento de Direito Financeiro/AFO em todas as bancas.",
+      "secoes": [
+        {
+          "h": "Empenho — art. 58 a 61 da Lei 4.320/64",
+          "p": "Empenho é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento, pendente ou não de implemento de condição (art. 58). É a reserva de dotação orçamentária para um fim específico. Regra de ouro do art. 60: é vedado realizar despesa sem prévio empenho.\n\nO empenho é formalizado pela Nota de Empenho (art. 61), que indica o nome do credor, a representação e a importância da despesa. Tipos: ordinário (despesa de valor fixo e pagamento de uma só vez), estimativo (valor não se pode determinar previamente — ex.: contas de energia, água) e global (despesa contratual parcelada de valor conhecido — ex.: aluguel anual). Atenção: o empenho NÃO cria a obrigação de pagar definitivamente; ele reserva o crédito e formaliza a relação."
+        },
+        {
+          "h": "Liquidação — art. 63 da Lei 4.320/64",
+          "p": "Liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito. É a fase em que se confere se o credor cumpriu sua obrigação (entregou o bem, prestou o serviço).\n\nA liquidação verifica três pontos (art. 63, § 1º): a origem e o objeto do que se deve pagar; a importância exata a pagar; e a quem se deve pagar para extinguir a obrigação. Tem por base o contrato/ajuste, a nota de empenho e os comprovantes da entrega (notas fiscais, recibos). Aqui se reconhece que a despesa é líquida e certa."
+        },
+        {
+          "h": "Pagamento — art. 64 e 65 da Lei 4.320/64",
+          "p": "O pagamento é o terceiro estágio: a ordem de pagamento é o despacho exarado por autoridade competente determinando que a despesa seja paga (art. 64). O pagamento só pode ocorrer após a regular liquidação (art. 62). A ordem deve ser exarada em documentos processados pelos serviços de contabilidade.\n\nResumo da ordem correta: EMPENHO → LIQUIDAÇÃO → PAGAMENTO. Mnemônico útil: 'ELP'. Pegadinha clássica: incluir a 'fixação' como estágio da despesa — fixação é etapa orçamentária prévia (na LOA), não estágio de execução. Outra: dizer que o pagamento pode ocorrer antes da liquidação — proibido, salvo adiantamentos/suprimento de fundos."
+        },
+        {
+          "h": "Restos a pagar e despesas de exercícios anteriores",
+          "p": "Restos a Pagar (art. 36 da Lei 4.320/64) são as despesas empenhadas mas não pagas até 31 de dezembro, distinguindo-se em PROCESSADAS (já liquidadas — credor com direito reconhecido) e NÃO PROCESSADAS (empenhadas mas ainda não liquidadas). A LRF impõe limites para inscrição de restos a pagar, especialmente nos últimos meses de mandato (art. 42, vedação de assumir obrigação sem disponibilidade de caixa nos dois últimos quadrimestres).\n\nDespesas de Exercícios Anteriores (DEA — art. 37) referem-se a despesas de exercícios encerrados, para as quais o orçamento respectivo consignava crédito próprio, que não se processaram à época. São pagas à conta de dotação específica do orçamento vigente, mediante reconhecimento da autoridade competente."
+        }
+      ],
+      "exemplo": "Questão comentada: 'A liquidação da despesa antecede o empenho, pois é necessário verificar o direito do credor antes de reservar a dotação.' (ERRADO). A ordem é empenho → liquidação → pagamento. Primeiro se reserva a dotação (empenho), depois se verifica o cumprimento da obrigação pelo credor (liquidação), e só então se paga.\n\nAplicação prática: o Estado de Goiás contrata uma empresa para fornecer equipamentos de fiscalização. Ao assinar e reservar o crédito, ocorre o EMPENHO. Quando a empresa entrega os equipamentos e o setor confere a nota fiscal e a entrega, ocorre a LIQUIDAÇÃO. Quando o Tesouro emite a ordem bancária e transfere o valor, ocorre o PAGAMENTO. Se o ano virar com os equipamentos entregues (liquidados) mas sem pagamento, inscreve-se em Restos a Pagar PROCESSADOS.",
+      "pontos_chave": [
+        "Estágios da despesa: EMPENHO → LIQUIDAÇÃO → PAGAMENTO (mnemônico ELP)",
+        "Empenho (art. 58) = reserva de dotação; vedado despesa sem prévio empenho (art. 60)",
+        "Tipos de empenho: ordinário, estimativo e global",
+        "Liquidação (art. 63) = verificação do direito do credor (origem, valor, beneficiário)",
+        "Pagamento só após liquidação regular (art. 62)",
+        "Restos a Pagar: processados (liquidados) x não processados (não liquidados)",
+        "Fixação NÃO é estágio de execução da despesa, é etapa orçamentária"
+      ],
+      "dica_prova": "A banca adora trocar a ordem dos estágios ou inserir 'fixação'/'previsão' como estágio da despesa — não são. Memorize que o EMPENHO não é a obrigação de pagar definitiva, é a reserva. Cuidado com a LRF art. 42: nos dois últimos quadrimestres do mandato, é vedado contrair obrigação de despesa que não possa ser paga no exercício ou que não tenha disponibilidade de caixa para o exercício seguinte. Restos a pagar processados = já liquidados; não processados = ainda não liquidados."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Tipos e fontes",
+      "intro": "Créditos adicionais são autorizações de despesa não computadas ou insuficientemente dotadas na Lei Orçamentária Anual. Como a LOA é elaborada com antecedência e o futuro é incerto, é natural que surjam necessidades não previstas ou que dotações se revelem insuficientes durante o exercício. Para corrigir isso sem violar a legalidade orçamentária, a Lei 4.320/64 (arts. 40 a 46) e a CF/88 (art. 167) criaram os créditos adicionais.\n\nEles se dividem em três espécies: suplementares (reforço de dotação já existente), especiais (despesa nova, sem dotação específica) e extraordinários (despesas urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública). A diferença entre eles está no objeto, na forma de autorização e na exigência de indicação de recursos.\n\nO tema é altamente cobrado por exigir memorização de detalhes técnicos sobre vigência, autorização legislativa e fonte de recursos.",
+      "secoes": [
+        {
+          "h": "Créditos suplementares — art. 41, I, Lei 4.320/64",
+          "p": "Destinam-se ao REFORÇO de dotação orçamentária já existente, mas que se mostrou insuficiente. Exigem autorização legislativa e indicação dos recursos (fontes) que os cobrirão.\n\nPeculiaridade importante: a autorização para abertura de créditos suplementares pode constar na própria LOA (art. 165, § 8º, CF — é a exceção à regra da exclusividade). Por isso, na prática, os créditos suplementares costumam ser abertos por decreto do Executivo, com base em autorização prévia já dada na LOA, até um determinado percentual/limite. Vigência: limitada ao exercício financeiro em que foram abertos."
+        },
+        {
+          "h": "Créditos especiais — art. 41, II, Lei 4.320/64",
+          "p": "Destinam-se a despesas para as quais NÃO HAJA dotação orçamentária específica — ou seja, uma despesa nova, não prevista na LOA. Dependem de prévia autorização legislativa por lei específica e de indicação dos recursos correspondentes.\n\nDiferentemente dos suplementares, NÃO podem ser autorizados genericamente na LOA, pois tratam de despesa nova. Vigência: também restrita ao exercício, EXCETO quando o ato de autorização for promulgado nos últimos quatro meses do exercício — nesse caso, reaberto nos limites do saldo, podem viger no exercício seguinte (art. 167, § 2º, CF). Essa regra de prorrogação vale para especiais e extraordinários, NÃO para suplementares."
+        },
+        {
+          "h": "Créditos extraordinários — art. 41, III, Lei 4.320/64; art. 167, §3º, CF",
+          "p": "Destinam-se a atender despesas URGENTES E IMPREVISÍVEIS, como as decorrentes de guerra, comoção interna ou calamidade pública (art. 167, § 3º, CF). São abertos por MEDIDA PROVISÓRIA na esfera federal (ou decreto, conforme o ente), dada a urgência, e independem de prévia autorização legislativa e de indicação de recursos no momento da abertura (embora sejam comunicados ao Legislativo).\n\nO STF já firmou que os requisitos de urgência, imprevisibilidade e relevância são pressupostos constitucionais e podem ser controlados (ADI 4048). A enumeração do art. 167, § 3º (guerra, comoção, calamidade) é exemplificativa quanto às hipóteses de imprevisibilidade. Como os especiais, podem ter vigência prorrogada para o exercício seguinte se abertos nos últimos 4 meses."
+        },
+        {
+          "h": "Fontes de recursos — art. 43, Lei 4.320/64",
+          "p": "Para suplementares e especiais, exige-se a indicação dos recursos. As fontes possíveis são: superávit financeiro apurado em balanço patrimonial do exercício anterior; excesso de arrecadação; anulação parcial ou total de dotações orçamentárias ou de créditos adicionais autorizados em lei; e o produto de operações de crédito autorizadas.\n\nOs créditos extraordinários, por sua urgência, dispensam a indicação prévia de fonte. Pegadinha: 'créditos extraordinários dependem de prévia autorização legislativa e indicação de recursos' — ERRADO; eles são justamente a exceção, abertos por MP/decreto sem essas exigências prévias."
+        }
+      ],
+      "exemplo": "Questão comentada: 'Os créditos suplementares destinam-se a despesas para as quais não haja dotação orçamentária específica.' (ERRADO). Essa é a definição de créditos ESPECIAIS. Os suplementares servem para REFORÇAR dotação já existente, porém insuficiente.\n\nAplicação SEFAZ-GO: imagine que o orçamento de Goiás previu R$ 10 milhões para informatização da fiscalização, mas a necessidade subiu para R$ 13 milhões — abre-se crédito SUPLEMENTAR de R$ 3 milhões (reforço). Se o Estado decide criar um programa totalmente novo, não previsto na LOA, abre-se crédito ESPECIAL (por lei específica). Se uma enchente exige socorro imediato à população, abre-se crédito EXTRAORDINÁRIO por MP/decreto, sem autorização prévia.",
+      "pontos_chave": [
+        "Suplementar = reforço de dotação existente (art. 41, I)",
+        "Especial = despesa nova sem dotação (art. 41, II)",
+        "Extraordinário = despesa urgente e imprevisível: guerra, comoção, calamidade (art. 167, §3º)",
+        "Suplementar pode ser autorizado na própria LOA (exceção à exclusividade)",
+        "Extraordinário: por MP/decreto, sem prévia autorização legislativa nem indicação de recursos",
+        "Especiais e extraordinários abertos nos últimos 4 meses podem viger no exercício seguinte (art. 167, §2º)",
+        "Fontes (art. 43): superávit financeiro, excesso de arrecadação, anulação de dotação, operações de crédito"
+      ],
+      "dica_prova": "A confusão suplementar x especial é a campeã de erros: SUPLEMENTAR reforça o que existe; ESPECIAL cria dotação nova. Memorize que só o EXTRAORDINÁRIO dispensa autorização legislativa prévia e indicação de fonte. A prorrogação de vigência para o exercício seguinte (art. 167, §2º) vale para especiais e extraordinários abertos nos últimos 4 meses — NUNCA para suplementares. E a autorização na própria LOA só serve para suplementares, não para especiais."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Limites e controle",
+      "intro": "Dívida pública é o conjunto de compromissos financeiros assumidos pelo Estado em razão de empréstimos, financiamentos e demais operações que geram obrigação de pagamento futuro. O endividamento público é instrumento legítimo de financiamento, mas, por comprometer gerações futuras e o equilíbrio fiscal, está sujeito a rígidos limites e controles previstos na CF/88, na Lei 4.320/64, na LRF (LC 101/2000) e em resoluções do Senado Federal.\n\nA classificação fundamental distingue a dívida flutuante (de curto prazo, sem autorização orçamentária específica — restos a pagar, depósitos, serviço da dívida a pagar) da dívida fundada ou consolidada (de longo prazo, superior a 12 meses, que demanda autorização e onera exercícios futuros). As operações de crédito são o mecanismo pelo qual o Estado capta recursos por endividamento.\n\nPara o Auditor-Fiscal, o tema conecta-se à LRF e ao papel do Senado na fixação de limites de endividamento dos entes federativos.",
+      "secoes": [
+        {
+          "h": "Dívida flutuante x dívida fundada/consolidada",
+          "p": "Dívida FLUTUANTE (art. 92, Lei 4.320/64): compromissos de curto prazo que a Tesouraria assume, como restos a pagar (exceto serviços da dívida), serviços da dívida a pagar, depósitos de terceiros e débitos de tesouraria. Caracteriza-se pela exigibilidade no curto prazo e pela ausência de autorização orçamentária específica para sua contratação.\n\nDívida FUNDADA ou CONSOLIDADA (art. 98 da LRF): montante total das obrigações financeiras do ente apuradas com prazo superior a 12 meses, assumidas em virtude de leis, contratos, convênios ou operações de crédito. A LRF equiparou à dívida consolidada também as operações de crédito de prazo inferior a 12 meses cujas receitas tenham constado do orçamento (regra anti-burla)."
+        },
+        {
+          "h": "Operações de crédito e a regra de ouro",
+          "p": "Operação de crédito é o compromisso financeiro assumido em razão de mútuo, abertura de crédito, emissão e aceite de título, aquisição financiada de bens, recebimento antecipado de valores, entre outros (art. 29, III, LRF). É a forma típica de o Estado se endividar.\n\nA REGRA DE OURO (art. 167, III, CF) veda a realização de operações de crédito que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta. Em outras palavras: o ente não pode se endividar para pagar despesa corrente (custeio); o endividamento deve, em regra, financiar investimentos (despesas de capital). É um limite estrutural ao endividamento."
+        },
+        {
+          "h": "Competência do Senado Federal — art. 52, CF",
+          "p": "Cabe ao SENADO FEDERAL, por resolução, fixar os limites globais e condições para o montante da dívida consolidada da União, Estados, DF e Municípios (art. 52, VI); dispor sobre limites e condições para operações de crédito externo e interno (VII); e fixar limites para as garantias e para o montante da dívida mobiliária dos Estados, DF e Municípios (VIII e IX).\n\nA LRF (art. 30) determinou que o Presidente da República encaminhasse ao Senado propostas de limites. As Resoluções do Senado nº 40/2001 e 43/2001 fixam, respectivamente, os limites da dívida consolidada líquida dos Estados/Municípios e das operações de crédito. Para os Estados, a DCL não pode exceder, em regra, 2 vezes a Receita Corrente Líquida (RCL)."
+        },
+        {
+          "h": "Vedações e controle (LRF)",
+          "p": "A LRF estabelece um conjunto de vedações para o endividamento: proibição de operações de crédito entre entes da Federação (art. 35); vedação de operações de Antecipação de Receita Orçamentária (ARO) no último ano de mandato (art. 38, IV, b) e antes de quitada a anterior; proibição de o ente que ultrapassar o limite da dívida contratar novas operações de crédito (art. 31).\n\nQuando a dívida consolidada ultrapassa o limite ao final de um quadrimestre, o ente deve reconduzi-la ao limite até o término dos três quadrimestres subsequentes, reduzindo o excedente em pelo menos 25% no primeiro. Enquanto perdurar o excesso, fica proibido de obter garantias e de receber transferências voluntárias. O controle é feito pelos Tribunais de Contas e pelo Relatório de Gestão Fiscal (RGF)."
+        }
+      ],
+      "exemplo": "Questão comentada: 'A regra de ouro permite que o ente realize operações de crédito para financiar despesas correntes, desde que dentro do limite da dívida consolidada.' (ERRADO). A regra de ouro (art. 167, III, CF) veda operações de crédito que excedam as despesas de CAPITAL — ou seja, é justamente para impedir que o endividamento financie despesa corrente (custeio).\n\nAplicação prática: se o Estado de Goiás emitir títulos da dívida pública (operação de crédito) cujo produto seja superior ao total de suas despesas de capital no exercício, há violação à regra de ouro, salvo autorização por crédito suplementar/especial aprovado por maioria absoluta. Já uma Antecipação de Receita Orçamentária (ARO) contratada em dezembro do último ano de mandato do Governador é VEDADA pela LRF (art. 38).",
+      "pontos_chave": [
+        "Dívida flutuante = curto prazo (restos a pagar, depósitos); fundada/consolidada = +12 meses",
+        "Operação de crédito (art. 29, III, LRF) = forma típica de endividamento",
+        "Regra de ouro (art. 167, III, CF): vedada op. de crédito que exceda as despesas de capital",
+        "Senado Federal fixa limites de dívida e operações de crédito (art. 52, VI a IX)",
+        "Resoluções Senado 40/2001 e 43/2001: DCL dos Estados até 2x a RCL",
+        "Vedada ARO no último ano de mandato (art. 38, LRF)",
+        "Excesso de dívida: recondução em 3 quadrimestres, redução de 25% no 1º"
+      ],
+      "dica_prova": "A regra de ouro é campeã de pegadinhas: ela LIMITA o endividamento ao montante das despesas de CAPITAL (impede financiar custeio). Não confunda dívida flutuante (curto prazo, sem autorização específica) com consolidada (longo prazo, +12 meses). Lembre que quem fixa limites globais de dívida é o SENADO (por resolução), não a Câmara nem o Executivo. E a ARO é vedada no último ano de mandato e antes de quitada a anterior."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Gestão fiscal responsável",
+      "intro": "A Lei de Responsabilidade Fiscal — LC 101/2000 (LRF) — é o marco normativo do equilíbrio das contas públicas no Brasil. Editada com fundamento no art. 163 da CF/88, ela estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, pressupondo ação planejada e transparente, em que se previnem riscos e se corrigem desvios capazes de afetar o equilíbrio das contas, mediante o cumprimento de metas de resultados entre receitas e despesas (art. 1º, § 1º).\n\nOs pilares da LRF são: PLANEJAMENTO (metas fiscais na LDO, anexos), TRANSPARÊNCIA (relatórios, audiências, participação popular, portais), CONTROLE e RESPONSABILIZAÇÃO. A lei impõe limites para despesa com pessoal e endividamento, exige compensação para renúncia de receita e criação de despesas obrigatórias de caráter continuado, e estabelece vedações em fim de mandato.\n\nPara concursos fiscais, a LRF é um dos temas mais densos e cobrados, com forte exigência de números (percentuais e limites) e regras de compensação.",
+      "secoes": [
+        {
+          "h": "Planejamento: metas fiscais e anexos da LDO",
+          "p": "A LRF reforçou o papel da LDO, que passou a conter o ANEXO DE METAS FISCAIS (art. 4º, § 1º) — com metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultados nominal e primário e montante da dívida pública, para o exercício a que se referir e os dois seguintes — e o ANEXO DE RISCOS FISCAIS (art. 4º, § 3º), que avalia passivos contingentes e outros riscos.\n\nO RESULTADO PRIMÁRIO é a diferença entre receitas e despesas não financeiras (exclui juros); o RESULTADO NOMINAL inclui os juros e mede a variação da dívida. A execução orçamentária também é acompanhada por mecanismos como a limitação de empenho (contingenciamento, art. 9º) quando a arrecadação não comporta o cumprimento das metas."
+        },
+        {
+          "h": "Limites de despesa com pessoal — arts. 19 e 20",
+          "p": "A despesa total com pessoal não pode exceder, em relação à Receita Corrente Líquida (RCL): 50% para a UNIÃO e 60% para ESTADOS e MUNICÍPIOS (art. 19). Esses limites são repartidos entre os Poderes (art. 20). Para os ESTADOS, dentro dos 60%: 49% para o Executivo, 3% para o Legislativo (incluído o TCE), 6% para o Judiciário e 2% para o Ministério Público.\n\nExiste o LIMITE PRUDENCIAL, correspondente a 95% do limite (art. 22, parágrafo único): atingido, ficam vedados, p. ex., aumento, criação de cargo, contratação de pessoal e horas extras. Se ultrapassar o limite total, o excedente deve ser eliminado nos dois quadrimestres seguintes (pelo menos 1/3 no primeiro), sob pena de sanções como suspensão de transferências voluntárias."
+        },
+        {
+          "h": "Renúncia de receita e despesa obrigatória continuada — arts. 14 e 17",
+          "p": "RENÚNCIA DE RECEITA (art. 14): a concessão ou ampliação de incentivo ou benefício de natureza tributária que importe renúncia deve vir acompanhada de estimativa do impacto orçamentário-financeiro e atender a uma de duas condições: (i) demonstrar que a renúncia foi considerada na estimativa da LOA e não afetará as metas; ou (ii) estar acompanhada de medidas de compensação por aumento de receita (elevação de alíquotas, ampliação da base, majoração de tributo). Tema central para o Auditor-Fiscal, pois envolve benefícios de ICMS.\n\nDESPESA OBRIGATÓRIA DE CARÁTER CONTINUADO (DOCC, art. 17): despesa corrente derivada de lei/ato que fixe obrigação por período superior a dois exercícios. Sua criação ou aumento exige estimativa de impacto trienal e demonstração de origem dos recursos (compensação por aumento permanente de receita ou redução permanente de despesa)."
+        },
+        {
+          "h": "Transparência, vedações de fim de mandato e relatórios",
+          "p": "TRANSPARÊNCIA (arts. 48 e 48-A, com a LC 131/2009 — Lei da Transparência): ampla divulgação, em meios eletrônicos e tempo real, da execução orçamentária e financeira; audiências públicas; incentivo à participação popular.\n\nVEDAÇÕES DE FIM DE MANDATO: art. 21 (nulo o ato de aumento de despesa com pessoal nos 180 dias anteriores ao fim do mandato) e art. 42 (vedado, nos dois últimos quadrimestres, contrair obrigação de despesa que não possa ser cumprida no exercício ou cujas parcelas a pagar no exercício seguinte não tenham disponibilidade de caixa).\n\nRELATÓRIOS: o Relatório Resumido da Execução Orçamentária (RREO, bimestral, art. 52) e o Relatório de Gestão Fiscal (RGF, quadrimestral, art. 54), que demonstram o cumprimento dos limites. O descumprimento da LRF gera sanções institucionais (LRF) e pessoais (Lei 10.028/2000 — crimes contra as finanças públicas)."
+        }
+      ],
+      "exemplo": "Questão comentada: 'A despesa total com pessoal dos Estados não poderá exceder 50% da Receita Corrente Líquida.' (ERRADO). Para os ESTADOS e Municípios o limite é 60% da RCL; o limite de 50% é da UNIÃO.\n\nAplicação SEFAZ-GO: o Estado de Goiás pretende conceder um benefício fiscal de ICMS (redução de base de cálculo) a um setor industrial. Pela LRF (art. 14), além de observar a exigência de convênio CONFAZ/LC 24/75, deve apresentar estimativa do impacto orçamentário-financeiro e, se a renúncia não estiver prevista na LOA, instituir medida de compensação (ex.: elevação de outra receita). Sem isso, a concessão é irregular. Esse é exatamente o tipo de controle que um Auditor-Fiscal precisa conhecer ao analisar incentivos.",
+      "pontos_chave": [
+        "LRF (LC 101/2000): planejamento, transparência, controle e responsabilização (art. 1º)",
+        "LDO ganha Anexo de Metas Fiscais e Anexo de Riscos Fiscais (art. 4º)",
+        "Despesa com pessoal: União 50%, Estados e Municípios 60% da RCL (art. 19)",
+        "Limite prudencial = 95% do limite (art. 22)",
+        "Renúncia de receita (art. 14): estimativa de impacto + compensação",
+        "DOCC (art. 17): impacto trienal e compensação permanente",
+        "Vedações fim de mandato: art. 21 (pessoal, 180 dias) e art. 42 (restos a pagar)",
+        "Relatórios: RREO (bimestral) e RGF (quadrimestral)"
+      ],
+      "dica_prova": "Os percentuais de pessoal caem muito: União 50%, Estados/Municípios 60% da RCL — e dentro dos 60% estaduais, 49% é do Executivo. Não confunda limite prudencial (95%) com limite total (100% do teto). Para renúncia de receita (art. 14), lembre que ela admite DUAS alternativas: ou estar prevista na LOA sem afetar metas, OU vir com medida de compensação — não exige sempre as duas. Resultado PRIMÁRIO exclui juros; NOMINAL inclui. RREO é bimestral; RGF é quadrimestral — não troque."
+    }
+  ]
+}

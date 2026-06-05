@@ -1,0 +1,293 @@
+{
+  "slug": "auditoria",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Materialidade",
+      "intro": "Materialidade (ou relevância) é um conceito central no planejamento e na execução da auditoria. Diz respeito ao patamar a partir do qual uma distorção (erro, omissão ou fraude) — isolada ou agregada a outras — é capaz de influenciar as decisões econômicas dos usuários das demonstrações contábeis. Uma informação é material quando sua omissão ou distorção pode mudar o julgamento de quem se baseia naquelas demonstrações.\n\nA matéria é disciplinada principalmente pela NBC TA 320 (Materialidade no Planejamento e na Execução da Auditoria) e pela NBC TA 450 (Avaliação das Distorções Identificadas durante a Auditoria). A própria estrutura conceitual contábil (NBC TG Estrutura Conceitual / CPC 00) trata a materialidade como aspecto específico da relevância, uma das características qualitativas fundamentais da informação útil.\n\nNa auditoria, a materialidade serve a dois propósitos: orientar o planejamento (a natureza, a época e a extensão dos procedimentos) e fundamentar a avaliação final do efeito das distorções sobre a opinião. Não é um valor absoluto fixado em norma: depende do julgamento profissional do auditor diante das circunstâncias da entidade.",
+      "secoes": [
+        {
+          "h": "Conceito e dupla função (planejamento e avaliação)",
+          "p": "A materialidade é determinada logo no início, na fase de planejamento, e revisada ao longo do trabalho. Cumpre duas funções complementares. No planejamento, define o tamanho da distorção tolerável e direciona quanto e onde testar: itens, contas e transações com valores próximos ou superiores ao nível de materialidade recebem maior atenção. Na conclusão, serve de parâmetro para avaliar se as distorções não corrigidas, individualmente ou em conjunto, são relevantes a ponto de afetar a opinião.\n\nA NBC TA 320 trabalha com a ideia de que distorções abaixo do patamar de materialidade, em regra, não comprometem a fidedignidade das demonstrações tomadas em conjunto."
+        },
+        {
+          "h": "Materialidade global, para execução e específica",
+          "p": "A norma distingue três níveis. (1) Materialidade para as demonstrações como um todo (global), calculada a partir de um referencial (benchmark) — por exemplo, um percentual do lucro antes dos tributos, da receita, do ativo total ou do patrimônio líquido. (2) Materialidade para execução (performance materiality), fixada em valor inferior à global, para reduzir a probabilidade de que a soma de distorções não corrigidas e não detectadas ultrapasse a global — funciona como margem de segurança. (3) Materialidade específica, aplicada a determinadas classes de transações, saldos ou divulgações para as quais distorções menores ainda influenciariam os usuários (ex.: remuneração de administradores, transações com partes relacionadas).\n\nPegadinha clássica: a materialidade para execução é SEMPRE menor que a materialidade global, e não o contrário."
+        },
+        {
+          "h": "Relação inversa com risco e com a extensão dos procedimentos",
+          "p": "Existe relação inversa entre materialidade e risco/extensão dos procedimentos. Quanto MENOR o nível de materialidade adotado (mais rigor), MAIOR a quantidade de evidência necessária e mais extensos os procedimentos, porque distorções menores passam a importar. Inversamente, uma materialidade mais alta tolera distorções maiores e tende a reduzir a extensão dos testes.\n\nEssa relação conecta a materialidade ao risco de auditoria: ela ajuda a calibrar o risco de detecção aceitável."
+        },
+        {
+          "h": "Aspecto quantitativo e qualitativo",
+          "p": "A materialidade não é só questão de valor (aspecto quantitativo). Há distorções que, mesmo de pequeno valor, são materiais por sua natureza (aspecto qualitativo): por exemplo, valores que transformam prejuízo em lucro, que afetam o cumprimento de cláusulas contratuais (covenants), que mascaram tendências, que envolvem fraude ou atos ilícitos, ou que dizem respeito a divulgações exigidas por lei. O auditor deve considerar ambas as dimensões.\n\nA NBC TA 450 reforça que distorções qualitativamente relevantes devem ser comunicadas e podem, por si só, exigir ajuste ou modificação da opinião."
+        },
+        {
+          "h": "Revisão da materialidade ao longo do trabalho",
+          "p": "A materialidade definida no planejamento não é imutável. Se, durante a execução, o auditor toma conhecimento de informações que teriam levado a um valor inicial diferente (ex.: o resultado real ficou muito distante da projeção usada como referencial), ele deve revisar a materialidade e reavaliar se a natureza, a época e a extensão dos procedimentos continuam adequadas. A revisão deve ser documentada nos papéis de trabalho."
+        }
+      ],
+      "exemplo": "Questão comentada (estilo FGV/Cebraspe): 'Ao planejar a auditoria de uma indústria, o auditor fixou a materialidade global em 5% do lucro antes dos tributos. Sobre o tema, é correto afirmar que a materialidade para execução deverá ser estabelecida em valor superior à materialidade global, garantindo maior conforto ao auditor.'\n\nComentário: a assertiva está ERRADA. A materialidade para execução (performance materiality) é fixada em valor INFERIOR à global, exatamente para criar margem de segurança que reduza a chance de que distorções não detectadas, somadas, superem a materialidade global. Inverter essa relação é a pegadinha mais cobrada.\n\nAplicação prática: materialidade global de R$ 100.000 e para execução de R$ 70.000. Ao final, foram identificadas distorções não corrigidas de R$ 65.000. Mesmo abaixo da materialidade global, o auditor deve avaliar a proximidade do limite e fatores qualitativos (ex.: parte das distorções decorre de transações com partes relacionadas), pois isso pode tornar o conjunto relevante apesar do valor.",
+      "pontos_chave": [
+        "Materialidade = patamar de relevância que influencia decisões dos usuários (NBC TA 320 e 450).",
+        "Tem dupla função: orientar o planejamento e avaliar as distorções na conclusão.",
+        "Três níveis: global, para execução (performance) e específica.",
+        "Materialidade para execução é SEMPRE menor que a global (margem de segurança).",
+        "Relação INVERSA com risco e extensão: materialidade menor exige mais procedimentos e mais evidência.",
+        "Tem dimensão quantitativa (valor) e qualitativa (natureza da distorção).",
+        "Pode e deve ser revisada durante o trabalho se surgirem novas informações.",
+        "Baseia-se no julgamento profissional; não há percentual fixo definido em norma."
+      ],
+      "dica_prova": "As bancas adoram (1) inverter a relação entre materialidade global e para execução, (2) afirmar que a materialidade é valor fixo previsto em norma (falso — é julgamento profissional) e (3) reduzir a materialidade ao aspecto quantitativo, ignorando o qualitativo. Decore: materialidade menor (mais rigor) → mais procedimentos e mais evidência (relação inversa). Distorções abaixo da materialidade, em regra, não modificam a opinião, mas fatores qualitativos podem tornar relevante até um valor pequeno."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Componentes do risco",
+      "intro": "Risco de auditoria é a probabilidade de o auditor expressar uma opinião inadequada — por exemplo, opinar sem ressalva sobre demonstrações que contêm distorção relevante. Esse risco nunca é eliminado por completo, pois a auditoria trabalha por amostragem e com base em evidência persuasiva, não conclusiva. O objetivo do auditor é reduzi-lo a um nível aceitavelmente baixo.\n\nO tema é disciplinado pela NBC TA 200 (Objetivos Gerais do Auditor) e pela NBC TA 315 (Identificação e Avaliação dos Riscos de Distorção Relevante). O risco de auditoria decompõe-se em três componentes que se combinam, segundo o modelo clássico RA = RI x RC x RD.\n\nDistinção essencial: o risco inerente e o risco de controle são RISCOS DA ENTIDADE (existem independentemente da auditoria e, juntos, formam o risco de distorção relevante), enquanto o risco de detecção é o ÚNICO componente que o auditor controla diretamente, ajustando a natureza, a época e a extensão de seus procedimentos.",
+      "secoes": [
+        {
+          "h": "Risco inerente (RI)",
+          "p": "É a suscetibilidade de uma afirmação sobre uma classe de transações, saldo de conta ou divulgação a uma distorção que possa ser relevante, antes de considerar quaisquer controles internos. Decorre da natureza do próprio item ou do ambiente. São mais sujeitos a risco inerente alto, por exemplo: estimativas contábeis complexas (provisões, perdas estimadas), itens que exigem julgamento, contas envolvendo cálculos sofisticados, ativos de fácil apropriação (caixa, estoques de alto valor) e operações novas ou incomuns.\n\nO auditor avalia o RI, mas não o altera — ele é uma característica da entidade e de suas transações."
+        },
+        {
+          "h": "Risco de controle (RC)",
+          "p": "É o risco de que uma distorção relevante, que poderia ocorrer numa afirmação, NÃO seja evitada, detectada ou corrigida tempestivamente pelos controles internos da entidade. Quanto mais frágeis os controles (falta de segregação de funções, ausência de conciliações, controles facilmente burláveis), maior o risco de controle.\n\nO auditor avalia o RC por meio do entendimento do sistema de controle interno e dos testes de observância (testes de controle). Assim como o RI, o RC é da entidade: o auditor o mede, mas não o controla — sempre haverá um risco de controle, pois nenhum sistema de controle é perfeito (há limitações inerentes, como conluio e burla pela administração)."
+        },
+        {
+          "h": "Risco de detecção (RD)",
+          "p": "É o risco de que os procedimentos aplicados pelo auditor para reduzir o risco de auditoria a um nível aceitável NÃO detectem uma distorção relevante existente. É o único componente diretamente gerenciável pelo auditor: ele o reduz tornando os procedimentos mais eficazes (natureza), aplicando-os mais perto do fim do período (época) e ampliando o tamanho das amostras (extensão).\n\nO risco de detecção tem relação INVERSA com os demais: quanto maior o risco de distorção relevante avaliado (RI x RC), MENOR deve ser o risco de detecção aceito — logo, mais e melhores procedimentos."
+        },
+        {
+          "h": "O modelo RA = RI x RC x RD e o risco de distorção relevante",
+          "p": "No modelo clássico, o risco de auditoria é o produto dos três componentes. O risco de distorção relevante (RDR), conceito central da NBC TA 315, corresponde à combinação RI x RC, avaliado no nível das demonstrações como um todo e no nível das afirmações. Fixado um nível aceitável de risco de auditoria, e avaliado o RDR, o auditor determina o risco de detecção tolerável e, a partir dele, calibra seus procedimentos.\n\nExemplo numérico: se o auditor aceita RA de 5% e avalia RI = 80% e RC = 50% (RDR = 40%), o RD aceitável é RA/(RI x RC) = 0,05/0,40 = 12,5%. Um RD baixo significa que os procedimentos precisam ser robustos."
+        },
+        {
+          "h": "Relação inversa e calibragem dos procedimentos",
+          "p": "A lógica operacional: o RI e o RC são avaliados (não controlados); com base neles, o auditor define o RD aceitável; e o RD aceitável determina a quantidade e a qualidade do trabalho. Risco de distorção relevante ALTO → risco de detecção aceitável BAIXO → procedimentos mais extensos, mais eficazes e mais próximos do encerramento. Risco de distorção relevante BAIXO → o auditor pode tolerar RD mais alto → procedimentos mais reduzidos.\n\nEssa relação inversa entre RD e RDR é uma das ideias mais cobradas e a base do enfoque de auditoria baseada em riscos."
+        }
+      ],
+      "exemplo": "Questão comentada (estilo Cebraspe — certo/errado): 'O risco de detecção é inerente à atividade da entidade auditada e independe dos procedimentos adotados pelo auditor.'\n\nComentário: ERRADO. Quem é inerente à entidade e independe do auditor é o risco INERENTE (e também o de controle). O risco de DETECÇÃO depende diretamente da natureza, época e extensão dos procedimentos do auditor — é o único componente que ele controla. A questão troca os conceitos, pegadinha clássica.\n\nAplicação: uma empresa com estoques de joias (alto valor, fácil apropriação → RI alto) e sem inventário rotativo nem segregação de funções no almoxarifado (controles frágeis → RC alto) apresenta RDR elevado. O auditor, para manter o RA baixo, deve aceitar RD baixo: ampliar a contagem física, confirmar com terceiros e fazer testes substantivos mais robustos, de preferência na data-base.",
+      "pontos_chave": [
+        "Risco de auditoria = probabilidade de opinião inadequada; nunca é zero (RA = RI x RC x RD).",
+        "Risco inerente: suscetibilidade natural a distorção, antes dos controles — é da entidade.",
+        "Risco de controle: controles internos não evitam/detectam/corrigem a distorção — é da entidade.",
+        "Risco de detecção: procedimentos do auditor não detectam a distorção — único que o auditor controla.",
+        "RI x RC = risco de distorção relevante (RDR), conceito-chave da NBC TA 315.",
+        "Relação INVERSA: RDR maior → RD aceitável menor → mais procedimentos.",
+        "Risco de detecção é reduzido pela natureza, época e extensão dos procedimentos.",
+        "Sempre existe risco de controle: nenhum controle é perfeito (limitações inerentes)."
+      ],
+      "dica_prova": "A pegadinha número um é trocar risco de detecção por risco inerente/de controle (ou afirmar que o auditor controla o risco inerente). Fixe: o auditor AVALIA inerente e de controle, mas só CONTROLA o de detecção. A segunda pegadinha é a relação direta/inversa: RDR alto exige RD baixo (mais trabalho). A terceira é dizer que o risco de auditoria pode ser zerado — não pode, apenas reduzido a nível aceitavelmente baixo."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Componentes (COSO)",
+      "intro": "Controle interno é o conjunto de políticas, procedimentos, métodos e medidas adotados pela entidade — sob responsabilidade da administração e da governança — para fornecer segurança razoável quanto ao alcance dos objetivos de confiabilidade da informação (especialmente a contábil/financeira), eficiência e eficácia operacional e conformidade com leis e regulamentos.\n\nO modelo de referência mundial é o COSO (Committee of Sponsoring Organizations of the Treadway Commission). O COSO Internal Control – Integrated Framework estrutura o controle interno em CINCO componentes inter-relacionados: ambiente de controle, avaliação de riscos, atividades de controle, informação e comunicação, e monitoramento. Esse modelo é referência tanto na auditoria independente (NBC TA 315) quanto na auditoria interna e governamental.\n\nO auditor estuda e avalia os controles internos para definir a natureza, a época e a extensão de seus procedimentos: controles confiáveis permitem reduzir (mas nunca eliminar) os testes substantivos.",
+      "secoes": [
+        {
+          "h": "Ambiente de controle",
+          "p": "É a base, o 'tom dado pela cúpula' (tone at the top). Reúne a integridade, os valores éticos, a competência das pessoas, a filosofia e o estilo da administração, a estrutura organizacional, a atribuição de autoridade e responsabilidade, e as políticas de recursos humanos. Um ambiente de controle fraco (administração desonesta, desorganização, pressão por resultados a qualquer custo) compromete todos os demais componentes, por melhores que sejam.\n\nÉ o componente mais 'cultural' e o alicerce sobre o qual os outros se apoiam."
+        },
+        {
+          "h": "Avaliação de riscos",
+          "p": "É o processo da entidade para identificar, analisar e gerenciar os riscos relevantes que ameaçam o alcance de seus objetivos. Pressupõe que a entidade estabeleça objetivos claros e, a partir deles, identifique eventos internos e externos que possam impedir seu cumprimento, avaliando probabilidade e impacto. Inclui a consideração do risco de fraude.\n\nNão confundir com a avaliação de riscos feita pelo AUDITOR (NBC TA 315): aqui se trata do processo de gestão de riscos DA ENTIDADE, que é um componente do controle interno."
+        },
+        {
+          "h": "Atividades de controle",
+          "p": "São as políticas e os procedimentos que asseguram que as diretrizes da administração sejam executadas e que os riscos sejam mitigados. Exemplos: aprovações e autorizações, verificações, conciliações, revisões de desempenho, controles físicos sobre ativos, controles de tecnologia da informação e, sobretudo, a SEGREGAÇÃO DE FUNÇÕES — controle-chave que separa as funções de autorizar, executar/custodiar e registrar/contabilizar, de modo que uma mesma pessoa não controle todas as etapas de uma transação.\n\nA segregação de funções reduz o risco de que erros e fraudes passem despercebidos."
+        },
+        {
+          "h": "Informação e comunicação",
+          "p": "A entidade precisa identificar, capturar e comunicar informações pertinentes, em forma e prazo que permitam às pessoas cumprir suas responsabilidades. Abrange os sistemas de informação (inclusive contábeis) e a comunicação interna (fluxo de informações de cima para baixo, de baixo para cima e horizontal) e externa (com clientes, fornecedores, reguladores). Sem informação tempestiva e confiável, os controles não funcionam."
+        },
+        {
+          "h": "Monitoramento (atividades de monitoramento)",
+          "p": "É o acompanhamento contínuo e/ou as avaliações independentes (ex.: auditoria interna) para verificar se os controles continuam operando de forma eficaz ao longo do tempo, identificando e corrigindo deficiências. O monitoramento garante que o sistema de controle se adapte a mudanças e que as falhas sejam comunicadas aos responsáveis (administração e governança).\n\nDica de memorização: 'AAAIM' — Ambiente, Avaliação de riscos, Atividades de controle, Informação/comunicação, Monitoramento."
+        },
+        {
+          "h": "Limitações inerentes do controle interno",
+          "p": "Nenhum sistema de controle, por mais bem desenhado, oferece segurança absoluta — apenas segurança razoável. As limitações inerentes incluem: erro humano, falha de julgamento, conluio entre funcionários, burla dos controles pela própria administração (management override), e a análise de custo-benefício (o custo do controle não deve superar o benefício). Por isso o auditor nunca confia integralmente nos controles e sempre realiza algum grau de testes substantivos."
+        }
+      ],
+      "exemplo": "Questão comentada: 'Assinale o componente do COSO que constitui o alicerce dos demais e abrange a integridade, os valores éticos e a competência dos colaboradores da entidade.'\n\nComentário: a resposta é o AMBIENTE DE CONTROLE. É o componente-base, que dá o 'tom' e sustenta os outros quatro. As bancas costumam oferecer 'atividades de controle' como distrator, mas estas são os procedimentos concretos (aprovações, conciliações, segregação de funções), não a base cultural.\n\nAplicação prática (auditoria-fiscal): ao examinar uma empresa, o Auditor-Fiscal constata que a mesma pessoa emite as notas fiscais, recebe os pagamentos e concilia o caixa. Trata-se de falha de SEGREGAÇÃO DE FUNÇÕES (dentro de 'atividades de controle'), que eleva o risco de omissão de receitas e de apropriação indevida — sinalizando necessidade de testes substantivos mais amplos sobre faturamento e caixa.",
+      "pontos_chave": [
+        "Controle interno dá segurança RAZOÁVEL (nunca absoluta) sobre confiabilidade, eficiência e conformidade.",
+        "COSO tem 5 componentes: ambiente, avaliação de riscos, atividades de controle, informação/comunicação e monitoramento.",
+        "Ambiente de controle é a base/alicerce (tone at the top): integridade, ética, competência.",
+        "Atividades de controle incluem a SEGREGAÇÃO DE FUNÇÕES (autorizar, custodiar, registrar).",
+        "Avaliação de riscos do componente é da ENTIDADE, não a do auditor (NBC TA 315).",
+        "Monitoramento verifica se os controles continuam eficazes ao longo do tempo.",
+        "Limitações inerentes: erro humano, conluio, burla pela administração (override), custo-benefício.",
+        "Controles bons reduzem, mas não eliminam, os testes substantivos."
+      ],
+      "dica_prova": "Memorize os 5 componentes e saiba identificar cada um por exemplos. Pegadinhas frequentes: (1) confundir 'ambiente de controle' (base/cultura) com 'atividades de controle' (procedimentos concretos); (2) afirmar que o controle interno dá segurança ABSOLUTA (errado — é razoável, por causa das limitações inerentes); (3) dizer que controles eficazes dispensam testes substantivos (errado — reduzem, não eliminam). Segregação de funções é o controle-chave mais citado."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Tipos de procedimentos",
+      "intro": "Procedimentos de auditoria são o conjunto de técnicas e investigações que o auditor aplica para obter evidência apropriada e suficiente que fundamente sua opinião. Quanto à finalidade, dividem-se classicamente em duas grandes categorias: testes de observância (ou testes de controle) e testes substantivos. Há ainda os procedimentos de avaliação de risco, voltados a entender a entidade e identificar os riscos.\n\nOs testes de observância verificam se os controles internos estão sendo aplicados como foram concebidos e se são eficazes; os testes substantivos buscam detectar diretamente distorções relevantes nos valores e divulgações. A NBC TA 330 (Respostas do Auditor aos Riscos Avaliados) e a NBC TA 500 (Evidência de Auditoria) regem o tema.\n\nA escolha e a dosagem entre esses procedimentos dependem da avaliação de risco: quanto mais confiáveis os controles (comprovados por testes de observância bem-sucedidos), menor pode ser a extensão dos testes substantivos — mas estes nunca são totalmente dispensados.",
+      "secoes": [
+        {
+          "h": "Testes de observância (testes de controle)",
+          "p": "Destinam-se a obter evidência sobre a EFICÁCIA OPERACIONAL dos controles internos: se foram aplicados de maneira consistente, por quem deveriam, e ao longo de todo o período. Respondem à pergunta 'os controles funcionaram?'. Exemplos: verificar se as notas fiscais foram aprovadas pelo responsável, se conciliações bancárias foram feitas e revisadas, se há evidência de segregação de funções.\n\nQuando os testes de observância confirmam que os controles são eficazes, o auditor pode reduzir (não eliminar) os testes substantivos. Se os controles falham, o auditor amplia os testes substantivos."
+        },
+        {
+          "h": "Testes substantivos: de transações e de saldos",
+          "p": "Visam detectar diretamente distorções relevantes nos valores. Subdividem-se em (a) testes de detalhes de transações (examinar lançamentos e movimentações individuais — ex.: vouching de compras, conferência de documentos de vendas) e (b) testes de detalhes de saldos (examinar o saldo final de uma conta — ex.: confirmação de saldos com clientes/fornecedores, contagem física de estoques e de caixa). Há também os procedimentos analíticos substantivos (tratados no próximo subtópico).\n\nOs testes substantivos respondem à pergunta 'os valores estão corretos?'. São sempre obrigatórios em algum grau, pois os controles têm limitações inerentes."
+        },
+        {
+          "h": "Técnicas de obtenção de evidência",
+          "p": "Para executar os testes, o auditor usa as técnicas previstas na NBC TA 500: inspeção (de registros, documentos e ativos físicos), observação (acompanhar um processo executado por terceiros, ex.: a contagem de estoque feita pela entidade), confirmação externa (resposta direta de terceiros — circularização de bancos, clientes), recálculo (verificar a exatidão matemática), reexecução (executar de forma independente procedimentos ou controles), indagação (perguntar a pessoas internas/externas) e procedimentos analíticos.\n\nAtenção: a INDAGAÇÃO, isoladamente, não fornece evidência suficiente — deve ser corroborada por outras técnicas."
+        },
+        {
+          "h": "Natureza, época e extensão",
+          "p": "Todo procedimento é dimensionado por três variáveis. Natureza: o tipo e a finalidade do procedimento (qual técnica usar, mais ou menos eficaz). Época (timing): o momento de aplicação (durante o período ou na data-base; quanto maior o risco, mais perto do encerramento). Extensão: a quantidade — o tamanho da amostra ou o número de itens examinados. Risco maior leva a procedimentos mais eficazes (natureza), mais próximos do fim (época) e em maior quantidade (extensão)."
+        },
+        {
+          "h": "Direção do teste: superavaliação x subavaliação",
+          "p": "A direção do teste importa conforme o objetivo. Para detectar SUPERAVALIAÇÃO (ativos/receitas inflados), parte-se do registro contábil para o documento de suporte (vouching) — confirma-se a existência/ocorrência do que está registrado. Para detectar SUBAVALIAÇÃO/omissão (passivos ou despesas não registrados), parte-se do documento de origem para o registro (rastreamento/tracing) — testa-se a integralidade (completeness). Essa lógica conecta os procedimentos às afirmações (assertions) sendo testadas."
+        }
+      ],
+      "exemplo": "Questão comentada: 'O auditor confirmou, junto a uma amostra de clientes, os saldos a receber registrados no balanço. Esse procedimento classifica-se como teste de observância.'\n\nComentário: ERRADO. Confirmar saldos com terceiros (circularização) é técnica de CONFIRMAÇÃO EXTERNA aplicada em um TESTE SUBSTANTIVO de detalhes de saldos — busca detectar distorção no valor da conta 'clientes', não avaliar a eficácia de um controle. Seria teste de observância se o objetivo fosse, por exemplo, verificar se as vendas passaram pela aprovação de crédito exigida pelo controle.\n\nAplicação: para detectar SUPERAVALIAÇÃO de receita (sonegação ao contrário, ou inflar resultado), o auditor parte do lançamento de venda para a nota fiscal e a entrega (vouching). Para detectar OMISSÃO de receita (sonegação típica de ICMS), parte de documentos de saída de mercadoria/notas para verificar se foram todas registradas e tributadas (tracing — teste de integralidade).",
+      "pontos_chave": [
+        "Dois grandes tipos: testes de observância (de controle) e testes substantivos.",
+        "Observância verifica se os controles funcionaram; substantivos detectam distorções nos valores.",
+        "Substantivos = testes de detalhes (transações e saldos) + procedimentos analíticos substantivos.",
+        "Técnicas (NBC TA 500): inspeção, observação, confirmação, recálculo, reexecução, indagação, analíticos.",
+        "Indagação isolada NÃO é evidência suficiente; precisa ser corroborada.",
+        "Procedimentos dimensionados por natureza, época e extensão (risco maior = mais robustos).",
+        "Vouching (registro→documento) detecta superavaliação; tracing (documento→registro) detecta omissão.",
+        "Controles eficazes reduzem, mas nunca eliminam, os testes substantivos."
+      ],
+      "dica_prova": "Pegadinhas comuns: (1) classificar uma confirmação/contagem como teste de observância — é substantivo; (2) afirmar que a indagação sozinha basta como evidência — não basta; (3) confundir vouching e tracing. Lembre: observância = controle; substantivo = valor. E saiba que reexecução é o auditor refazendo o controle de forma independente, enquanto recálculo é só conferir a exatidão matemática de um número já existente."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Procedimentos analíticos",
+      "intro": "Procedimentos analíticos (ou revisão analítica) consistem na avaliação de informações financeiras por meio do estudo das relações plausíveis entre dados financeiros e não financeiros. Em vez de examinar documento por documento, o auditor compara valores, calcula índices, analisa tendências e investiga as variações ou relações que se mostram inconsistentes com o esperado ou que divergem significativamente de valores previstos.\n\nA NBC TA 520 (Procedimentos Analíticos) disciplina o tema. Os procedimentos analíticos têm três usos ao longo da auditoria: na fase de PLANEJAMENTO (obrigatórios, como procedimento de avaliação de risco, para entender a entidade e identificar áreas de risco); como procedimento SUBSTANTIVO (para obter evidência sobre afirmações, junto ou no lugar de testes de detalhes, conforme o risco); e na fase de REVISÃO/CONCLUSÃO (obrigatórios, para avaliar se as demonstrações como um todo são coerentes com o entendimento do auditor).\n\nSão poderosos porque, com baixo custo, sinalizam onde podem estar as distorções, direcionando o aprofundamento dos exames.",
+      "secoes": [
+        {
+          "h": "Em que consistem e como se aplicam",
+          "p": "O auditor estabelece uma expectativa (valor esperado) com base em relações conhecidas e plausíveis e a compara com o valor registrado. As principais técnicas: comparação com períodos anteriores; comparação com orçamentos e previsões; análise de índices (margem bruta, liquidez, giro de estoque, prazo médio de recebimento); análise de tendências; comparação com dados do setor; e relações entre contas (ex.: despesa de comissão x receita de vendas; despesa de depreciação x ativo imobilizado). Variações relevantes em relação ao esperado disparam investigação adicional."
+        },
+        {
+          "h": "Procedimentos analíticos obrigatórios x opcionais",
+          "p": "Ponto muito cobrado: os procedimentos analíticos são OBRIGATÓRIOS em duas fases — no PLANEJAMENTO (como parte da avaliação de risco, para conhecer o negócio e identificar riscos) e na fase final de REVISÃO GERAL (para checar a coerência das demonstrações tomadas em conjunto). Já o uso como procedimento SUBSTANTIVO é OPCIONAL: o auditor decide empregá-los conforme a eficácia esperada e o risco avaliado, podendo substituir ou complementar testes de detalhes."
+        },
+        {
+          "h": "Procedimentos analíticos substantivos",
+          "p": "Quando usados como teste substantivo, fornecem evidência sobre afirmações específicas. Sua adequação depende de: (a) a relação entre os dados ser plausível e previsível; (b) a confiabilidade dos dados usados para construir a expectativa; (c) a precisão da expectativa; e (d) o valor da diferença aceitável sem investigação. São mais eficazes para grandes volumes de transações previsíveis (ex.: receita de aluguel, folha de pagamento) e menos eficazes para itens sujeitos a julgamento ou pouco previsíveis."
+        },
+        {
+          "h": "Investigação de variações significativas",
+          "p": "Identificada uma flutuação ou relação inconsistente com o esperado, o auditor deve investigar: indagar a administração, obter evidências corroborativas dessas respostas e, se necessário, executar outros procedimentos. Atenção: a explicação da administração, isoladamente, NÃO é suficiente — precisa ser corroborada por evidência independente. Variações não explicadas podem indicar distorção ou risco de fraude."
+        },
+        {
+          "h": "Vantagens, limitações e exemplos fiscais",
+          "p": "Vantagens: baixo custo, visão de conjunto, capacidade de sinalizar áreas de risco e de detectar omissões que um teste documento a documento não revelaria. Limitações: dependem da qualidade dos dados e da plausibilidade das relações; podem não detectar distorções compensatórias. Na auditoria-fiscal, são muito usados: comparar a margem de valor agregado declarada com a do setor, cruzar compras x vendas x estoque para flagrar omissão de saídas, confrontar consumo de energia/insumos com a produção declarada, e analisar a evolução do faturamento frente ao recolhimento de ICMS."
+        }
+      ],
+      "exemplo": "Questão comentada: 'Os procedimentos analíticos são facultativos em todas as fases da auditoria, cabendo ao auditor decidir se os emprega.'\n\nComentário: ERRADO. Eles são OBRIGATÓRIOS no planejamento (avaliação de risco) e na revisão final (conclusão). Apenas o uso como procedimento substantivo é facultativo. A banca explora justamente a confusão entre o caráter obrigatório e o opcional.\n\nAplicação fiscal: ao auditar um supermercado, o Auditor-Fiscal calcula que, dado o estoque inicial, as compras e o estoque final informados, as saídas (vendas) deveriam totalizar R$ 10 milhões, mas a empresa declarou apenas R$ 7 milhões. A relação compras-estoque-vendas (procedimento analítico substantivo) sinaliza forte indício de OMISSÃO DE RECEITAS de R$ 3 milhões, direcionando testes de detalhes (exame de notas, levantamento físico) e, eventualmente, arbitramento.",
+      "pontos_chave": [
+        "Procedimentos analíticos avaliam relações plausíveis entre dados (índices, tendências, comparações) — NBC TA 520.",
+        "Três usos: planejamento (avaliação de risco), substantivo e revisão final.",
+        "OBRIGATÓRIOS no planejamento e na revisão final; OPCIONAIS como teste substantivo.",
+        "O auditor cria uma expectativa e compara com o valor registrado, investigando variações relevantes.",
+        "Explicação da administração para variações deve ser CORROBORADA por evidência independente.",
+        "Mais eficazes para itens previsíveis e de grande volume.",
+        "Vantagens: baixo custo e visão de conjunto; podem revelar omissões.",
+        "Na auditoria-fiscal: cruzamento compras x estoque x vendas detecta omissão de receita."
+      ],
+      "dica_prova": "A pegadinha campeã é o caráter obrigatório/opcional: decore que são obrigatórios no planejamento e na revisão final, e opcionais como substantivo. Outra pegadinha: aceitar a justificativa da administração sem corroboração — sempre é preciso evidência independente. Lembre que procedimento analítico pode ser tanto procedimento de avaliação de risco quanto substantivo, dependendo da finalidade."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Métodos de seleção",
+      "intro": "Amostragem em auditoria é a aplicação de procedimentos a menos de 100% dos itens de uma população relevante, de modo que todas as unidades de amostragem tenham chance de seleção, com o objetivo de obter e avaliar evidência sobre alguma característica dos itens selecionados e, a partir dela, formar conclusão sobre toda a população. A NBC TA 530 (Amostragem em Auditoria) rege o tema.\n\nA amostragem pode ser ESTATÍSTICA (probabilística — usa seleção aleatória e teoria das probabilidades para medir o risco de amostragem) ou NÃO ESTATÍSTICA (baseada no julgamento do auditor, sem medição estatística do risco). Em ambas, a amostra deve ser representativa da população.\n\nOs métodos de seleção determinam COMO os itens da amostra são escolhidos. Os principais são a seleção aleatória, a seleção sistemática, a seleção por unidade monetária (MUM/PPS), a seleção por blocos e a seleção casual (haphazard). A escolha do método e do tamanho da amostra deve assegurar representatividade e controlar o risco de amostragem.",
+      "secoes": [
+        {
+          "h": "Seleção aleatória",
+          "p": "Cada item da população tem a mesma probabilidade conhecida de ser selecionado, geralmente com auxílio de geradores de números aleatórios ou tabelas. É o método mais robusto sob a ótica estatística, pois elimina o viés do auditor e permite projetar resultados e medir o risco de amostragem. É compatível com a amostragem estatística. Sua limitação prática é exigir uma população bem definida e numerada."
+        },
+        {
+          "h": "Seleção sistemática",
+          "p": "Seleciona-se um ponto de partida aleatório e, a partir dele, escolhem-se itens em INTERVALOS FIXOS (intervalo = tamanho da população ÷ tamanho da amostra). Ex.: para 50 itens numa população de 1.000, o intervalo é 20; sorteia-se um ponto inicial entre 1 e 20 e seguem-se os itens de 20 em 20. É simples e eficiente. Cuidado: se a população tiver um padrão cíclico que coincida com o intervalo, a amostra fica enviesada — risco específico desse método."
+        },
+        {
+          "h": "Seleção por unidade monetária (MUM/PPS)",
+          "p": "Também chamada amostragem por valor monetário ou PPS (probability proportional to size). A unidade de amostragem é o REAL (cada unidade monetária), e não o item físico. Assim, itens de maior valor têm maior probabilidade de seleção, pois 'contêm' mais unidades monetárias. É muito eficaz para detectar SUPERAVALIAÇÃO de saldos (ex.: contas a receber, estoques), justamente onde os erros monetários costumam ser maiores. Tende a deixar de fora itens de valor zero ou muito baixo (e não detecta bem subavaliações/omissões)."
+        },
+        {
+          "h": "Seleção por blocos e seleção casual",
+          "p": "Na seleção por BLOCOS, escolhem-se grupos contíguos de itens (ex.: todas as notas de uma semana). É a menos recomendada para amostragem estatística, pois um bloco raramente representa a população inteira — só se usa com cautela. Na seleção CASUAL (haphazard), o auditor escolhe itens 'sem critério' consciente, tentando evitar viés; é usada apenas em amostragem NÃO estatística, pois não permite medir o risco de amostragem e ainda pode embutir vieses inconscientes."
+        },
+        {
+          "h": "Risco de amostragem e risco não decorrente da amostragem",
+          "p": "Risco de AMOSTRAGEM é a possibilidade de a conclusão do auditor a partir da amostra ser diferente da que obteria se examinasse 100% da população — ou seja, a amostra não representa a população. Ele se reduz aumentando o tamanho da amostra e usando boa seleção. Já o risco NÃO decorrente da amostragem (não amostral) é o erro do auditor por outras causas: aplicar procedimento inadequado, interpretar mal a evidência, não reconhecer uma distorção. Este NÃO se reduz aumentando a amostra — reduz-se com planejamento, supervisão e competência.\n\nNa amostragem estatística mede-se o risco de amostragem; na não estatística, ele não é quantificado."
+        }
+      ],
+      "exemplo": "Questão comentada: 'Na amostragem por unidades monetárias, todos os itens da população, independentemente do valor, têm a mesma probabilidade de seleção.'\n\nComentário: ERRADO. Na seleção por unidade monetária (MUM/PPS), itens de MAIOR valor têm MAIOR probabilidade de seleção, porque a unidade de amostragem é o real, e itens mais valiosos contêm mais unidades monetárias. A 'mesma probabilidade para todos os itens' descreveria a seleção aleatória simples, não a MUM.\n\nAplicação: numa população de 1.000 notas fiscais a serem testadas, com amostra de 50, o auditor que usa seleção SISTEMÁTICA calcula o intervalo 1.000 ÷ 50 = 20, sorteia o ponto de partida (digamos, o item 7) e seleciona os itens 7, 27, 47, 67... Já se quisesse focar nos saldos de maior risco de superavaliação, usaria MUM, capturando preferencialmente as notas de maior valor.",
+      "pontos_chave": [
+        "Amostragem (NBC TA 530): testar menos de 100% e concluir sobre toda a população.",
+        "Pode ser estatística (probabilística, mede o risco) ou não estatística (julgamento).",
+        "Aleatória: igual probabilidade para todos os itens; elimina viés.",
+        "Sistemática: ponto de partida aleatório + intervalo fixo (população ÷ amostra); cuidado com padrões cíclicos.",
+        "Unidade monetária (MUM/PPS): item de maior valor, maior chance; ótima para superavaliação.",
+        "Bloco e casual (haphazard): usadas só em amostragem não estatística; menos representativas.",
+        "Risco de amostragem: amostra não representa a população; reduz-se aumentando a amostra.",
+        "Risco não amostral: erro do auditor por outras causas; NÃO se reduz aumentando a amostra."
+      ],
+      "dica_prova": "Pegadinhas: (1) dizer que na MUM todos os itens têm a mesma probabilidade — falso, é proporcional ao valor; (2) afirmar que o risco não amostral diminui aumentando a amostra — falso, só o risco de amostragem; (3) trocar seleção casual (haphazard, sem viés intencional, não estatística) por aleatória (probabilística, estatística). Lembre: amostragem estatística exige seleção aleatória ou sistemática; bloco e casual não servem para estatística."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Tipos de opinião",
+      "intro": "O relatório (parecer) do auditor independente comunica a conclusão do trabalho: a opinião sobre se as demonstrações contábeis estão, em todos os aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável. A NBC TA 700 trata da formação da opinião e do relatório; a NBC TA 705 disciplina as MODIFICAÇÕES na opinião; e a NBC TA 706 trata dos parágrafos de ênfase e de outros assuntos.\n\nA opinião pode ser NÃO MODIFICADA (sem ressalva/limpa), quando as demonstrações estão livres de distorções relevantes, ou MODIFICADA, quando há problemas. A opinião modificada tem três formas: com ressalva, adversa e abstenção (negativa) de opinião.\n\nA escolha entre os tipos de opinião modificada depende de DOIS fatores combinados: (1) a NATUREZA do problema — se há distorção relevante nas demonstrações ou se há impossibilidade de obter evidência apropriada e suficiente; e (2) a DISSEMINAÇÃO (pervasividade) — se os efeitos são generalizados (afetam as demonstrações como um todo) ou apenas localizados.",
+      "secoes": [
+        {
+          "h": "Opinião não modificada (sem ressalva)",
+          "p": "É a opinião 'limpa', emitida quando o auditor conclui que as demonstrações contábeis estão livres de distorção relevante e foram elaboradas, em todos os aspectos relevantes, de acordo com a estrutura aplicável (ex.: práticas contábeis brasileiras / IFRS). Não significa que as demonstrações sejam perfeitas ou que a empresa seja saudável — significa apenas que não há distorções relevantes e que o auditor obteve evidência suficiente. Pode conter parágrafos de ÊNFASE (NBC TA 706) sem deixar de ser não modificada."
+        },
+        {
+          "h": "Opinião com ressalva (qualified opinion)",
+          "p": "Emitida em dois casos: (a) há distorção relevante, mas NÃO generalizada (localizada em uma conta/área específica); ou (b) o auditor não conseguiu obter evidência apropriada e suficiente, mas os possíveis efeitos da limitação seriam relevantes e NÃO generalizados. A redação usa a expressão 'EXCETO POR' (exceto pelos efeitos do assunto descrito), indicando que, afora aquele ponto, as demonstrações estão adequadas. É a modificação 'mais branda'."
+        },
+        {
+          "h": "Opinião adversa (adverse opinion)",
+          "p": "Emitida quando há distorção relevante E GENERALIZADA (pervasiva), de modo que as demonstrações como um todo NÃO representam adequadamente a situação. O auditor obteve evidência suficiente e concluiu que as demonstrações estão erradas em aspecto fundamental e disseminado. A opinião afirma que as demonstrações NÃO apresentam adequadamente a posição patrimonial e financeira. É a resposta para distorção (não para falta de evidência) quando o efeito é generalizado."
+        },
+        {
+          "h": "Abstenção (negativa) de opinião (disclaimer)",
+          "p": "Emitida quando o auditor NÃO consegue obter evidência apropriada e suficiente e os possíveis efeitos dessa limitação seriam relevantes E GENERALIZADOS — a ponto de o auditor não conseguir formar opinião. Também se aplica em situações raras de múltiplas incertezas significativas. Aqui o auditor declara que NÃO expressa opinião. O ponto-chave: abstenção decorre de FALTA DE EVIDÊNCIA (limitação no alcance), nunca de distorção comprovada."
+        },
+        {
+          "h": "A matriz natureza x disseminação",
+          "p": "A NBC TA 705 organiza a decisão numa matriz de dois eixos. Eixo da NATUREZA: distorção relevante (as demonstrações estão erradas) ou impossibilidade de obter evidência (limitação de alcance). Eixo da DISSEMINAÇÃO: não generalizada ou generalizada. Cruzando: distorção + não generalizada = COM RESSALVA; distorção + generalizada = ADVERSA; falta de evidência + não generalizada = COM RESSALVA; falta de evidência + generalizada = ABSTENÇÃO. Dominar essa matriz resolve a maioria das questões."
+        },
+        {
+          "h": "Ênfase, outros assuntos e PAA — não modificam a opinião",
+          "p": "Cuidado para não confundir: o parágrafo de ÊNFASE (NBC TA 706) destaca um assunto já divulgado e fundamental para o entendimento (ex.: incerteza relevante de continuidade, evento subsequente), mas NÃO modifica a opinião. O parágrafo de OUTROS ASSUNTOS comunica algo não divulgado nas demonstrações, mas relevante ao usuário, e também NÃO modifica a opinião. Os PRINCIPAIS ASSUNTOS DE AUDITORIA (PAA / KAM — NBC TA 701) são os temas mais significativos do trabalho e igualmente NÃO constituem modificação da opinião nem substituem ressalva."
+        }
+      ],
+      "exemplo": "Questão comentada: 'O auditor não conseguiu acompanhar a contagem física dos estoques, que representam parcela substancial e disseminada do ativo, e não obteve evidência alternativa suficiente. Qual o tipo de opinião adequado?'\n\nComentário: como o problema é FALTA DE EVIDÊNCIA (limitação de alcance) e os efeitos são RELEVANTES E GENERALIZADOS, a opinião correta é a ABSTENÇÃO (negativa) de opinião. Se os estoques fossem relevantes mas NÃO generalizados, seria opinião COM RESSALVA. Se, em vez de falta de evidência, o auditor tivesse PROVADO que os estoques estão grosseiramente superavaliados de forma generalizada, a opinião seria ADVERSA.\n\nFixação da matriz: distorção comprovada → ressalva (localizada) ou adversa (generalizada); falta de evidência → ressalva (localizada) ou abstenção (generalizada).",
+      "pontos_chave": [
+        "Opinião não modificada (sem ressalva): demonstrações livres de distorção relevante (NBC TA 700).",
+        "Opinião modificada (NBC TA 705): com ressalva, adversa ou abstenção.",
+        "Dois eixos: natureza (distorção x falta de evidência) e disseminação (localizada x generalizada).",
+        "Distorção localizada → COM RESSALVA ('exceto por'); distorção generalizada → ADVERSA.",
+        "Falta de evidência localizada → COM RESSALVA; falta de evidência generalizada → ABSTENÇÃO.",
+        "Adversa pressupõe evidência suficiente; abstenção pressupõe falta de evidência.",
+        "Ênfase e outros assuntos (NBC TA 706) NÃO modificam a opinião.",
+        "Principais Assuntos de Auditoria (PAA/KAM, NBC TA 701) NÃO são modificação nem substituem ressalva."
+      ],
+      "dica_prova": "A pegadinha clássica é trocar adversa por abstenção: lembre que ADVERSA = distorção comprovada e generalizada; ABSTENÇÃO = falta de evidência generalizada. Outra: tratar parágrafo de ênfase como se modificasse a opinião — não modifica. E memorize a matriz natureza x disseminação, que é a chave para classificar qualquer caso. Opinião sem ressalva NÃO atesta saúde financeira da empresa, apenas ausência de distorção relevante."
+    }
+  ]
+}

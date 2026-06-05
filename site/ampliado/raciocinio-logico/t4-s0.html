@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regras fundamentais — Raciocínio Lógico, Matemática Financeira e Estatística</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Regras fundamentais</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Probabilidade</p>
+    <h1>Regras fundamentais</h1>
+    <p>A probabilidade mede a chance de ocorrência de um evento, expressa por um número entre 0 (impossível) e 1 (certo), podendo ser apresentada como fração, decimal ou porcentagem. No modelo clássico (espaço amostral equiprovável), a probabilidade de um evento A é a razão entre o número de casos favoráveis e o número de casos possíveis: P(A) = n(A) / n(S).</p><p>A partir dessa definição, desenvolvem-se as regras da união, da probabilidade condicional, da multiplicação e da independência de eventos — todas frequentes em provas de Auditor-Fiscal, muitas vezes combinadas com análise combinatória.</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Definição clássica e propriedades</h2>
+          <p>P(A) = casos favoráveis / casos possíveis, válido quando todos os resultados são igualmente prováveis. Propriedades: 0 ≤ P(A) ≤ 1; P(espaço amostral) = 1; P(∅) = 0.</p><p>Probabilidade do complementar: P(não A) = 1 − P(A). Essa regra é poderosa em questões com &#x27;pelo menos um&#x27;, onde calcular o complementar (nenhum) é bem mais simples.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Regra da união (adição)</h2>
+          <p>Para a probabilidade de ocorrer A ou B: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Subtrai-se a interseção para não contá-la duas vezes.</p><p>Se os eventos forem mutuamente exclusivos (não podem ocorrer juntos, A ∩ B = ∅), então P(A ∩ B) = 0 e a fórmula simplifica para P(A ∪ B) = P(A) + P(B).</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Probabilidade condicional e regra da multiplicação</h2>
+          <p>Probabilidade de A dado que B ocorreu: P(A | B) = P(A ∩ B) / P(B), com P(B) &gt; 0. Reduz o espaço amostral ao conjunto B.</p><p>Daí decorre a regra da multiplicação: P(A ∩ B) = P(B)·P(A | B) = P(A)·P(B | A). É a base para árvores de probabilidade e para o cálculo de eventos em sequência (com ou sem reposição).</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Eventos independentes</h2>
+          <p>Dois eventos são independentes quando a ocorrência de um não altera a probabilidade do outro: P(A | B) = P(A). Nesse caso, a regra da multiplicação simplifica para P(A ∩ B) = P(A)·P(B).</p><p>Cuidado: independente NÃO é o mesmo que mutuamente exclusivo. Eventos mutuamente exclusivos com probabilidades positivas são, na verdade, dependentes (se um ocorre, o outro tem probabilidade zero).</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Uma urna tem 5 bolas vermelhas e 3 azuis (total 8). Retiram-se 2 bolas SEM reposição. Qual a probabilidade de ambas serem vermelhas?</p><p>P(1ª vermelha) = 5/8. Após retirar uma vermelha, restam 4 vermelhas em 7 bolas, então P(2ª vermelha | 1ª vermelha) = 4/7. Pela regra da multiplicação: P(ambas vermelhas) = (5/8)·(4/7) = 20/56 = 5/14 ≈ 0,357.</p><p>Variação &#x27;pelo menos uma vermelha&#x27;: use o complementar. P(nenhuma vermelha) = P(ambas azuis) = (3/8)·(2/7) = 6/56 = 3/28. Logo P(pelo menos uma vermelha) = 1 − 3/28 = 25/28 ≈ 0,893.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>Sempre verifique se há reposição: sem reposição, a segunda probabilidade muda o denominador e o numerador (eventos dependentes). A maior pegadinha é confundir &#x27;independentes&#x27; com &#x27;mutuamente exclusivos&#x27; — são conceitos opostos para eventos de probabilidade positiva. Para &#x27;pelo menos um&#x27;, calcule 1 menos a probabilidade de &#x27;nenhum&#x27;; tentar somar casos diretamente costuma levar a erro.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t3-s2.html">← Conjuntos</a><a class="pager next" href="t5-s0.html">Juros simples e compostos →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>P(A) = casos favoráveis / casos possíveis (modelo equiprovável).</li><li>0 ≤ P(A) ≤ 1; P(não A) = 1 − P(A).</li><li>União: P(A∪B) = P(A) + P(B) − P(A∩B).</li><li>Mutuamente exclusivos: P(A∩B) = 0.</li><li>Condicional: P(A|B) = P(A∩B)/P(B).</li><li>Independentes: P(A∩B) = P(A)·P(B).</li><li>&#x27;Pelo menos um&#x27; resolve-se mais rápido pelo complementar.</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indicadores e visualização — Tecnologias da Informação</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/tecnologia-da-informacao.html">💻 Tecnologias da Informação</a> ›
+    <span>Indicadores e visualização</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Business Intelligence (BI)</p>
+    <h1>Indicadores e visualização</h1>
+    <p>Business Intelligence (BI) é o conjunto de processos, tecnologias e ferramentas que transformam dados brutos em informação e conhecimento para apoiar a tomada de decisão. O BI engloba a cadeia que vai das fontes operacionais, passando pelo ETL e pelo Data Warehouse, até a entrega final em relatórios, dashboards e análises OLAP. Seu objetivo é entregar a informação certa, à pessoa certa, no momento certo.</p><p>Na ponta do BI estão os indicadores (KPIs) e a visualização de dados, que traduzem grandes volumes em painéis intuitivos. Para a administração tributária, isso significa monitorar a arrecadação, acompanhar metas e, sobretudo, apoiar a seleção de contribuintes para fiscalização com base em evidências, e não em intuição.</p><p>Um conceito moderno relacionado é o self-service BI, que dá ao próprio auditor/gestor autonomia para explorar dados sem depender constantemente da equipe de TI.</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Indicadores e KPIs</h2>
+          <p>Indicador é uma métrica que mede o desempenho de um processo. KPI (Key Performance Indicator — Indicador-Chave de Desempenho) é o subconjunto de indicadores realmente críticos para os objetivos estratégicos. Bons KPIs costumam ser SMART (específicos, mensuráveis, atingíveis, relevantes e temporais).</p><p>Distinga métrica de KPI: toda KPI é uma métrica, mas nem toda métrica é KPI (só as estratégicas). Exemplos fiscais: arrecadação de ICMS por setor, índice de inadimplência, tempo médio de conclusão de fiscalização, taxa de autuações mantidas em julgamento, recuperação de crédito tributário.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Dashboards e relatórios</h2>
+          <p>Um dashboard (painel) é uma visualização consolidada e geralmente interativa dos principais indicadores, permitindo monitoramento em tempo quase real. Painéis estratégicos (visão executiva/longo prazo), táticos (acompanhamento de metas) e operacionais (monitoramento do dia a dia) atendem a públicos diferentes.</p><p>Relatórios podem ser estáticos (periódicos, padronizados) ou interativos/ad hoc (criados sob demanda). Recursos como drill-down, filtros e parametrização aproximam o relatório das operações OLAP.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Visualização de dados (data viz)</h2>
+          <p>A escolha do gráfico depende da mensagem: barras/colunas para comparar categorias; linhas para tendências ao longo do tempo; pizza/rosca para participação (proporção) — com parcimônia; dispersão para correlação entre variáveis; mapas/coropléticos para distribuição geográfica (ex.: arrecadação por município de Goiás); e heatmaps para densidade.</p><p>Boas práticas: evitar poluição visual (excesso de cores/elementos), escolher escalas honestas (não truncar eixos para exagerar variações) e priorizar clareza. Ferramentas comuns: Power BI, Tableau, Qlik e bibliotecas de código.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>BI aplicado à inteligência fiscal</h2>
+          <p>Na fiscalização, o BI sustenta a malha fiscal: painéis cruzam declarações (EFD/SPED) com NF-e e pagamentos, sinalizando divergências; mapas mostram a arrecadação por região; indicadores de risco rankeiam contribuintes para auditoria, otimizando a alocação dos auditores.</p><p>O BI também alimenta a gestão por resultados da Secretaria de Fazenda, com metas de arrecadação e acompanhamento de desempenho, e conecta-se à mineração de dados quando a análise evolui de descritiva (o que aconteceu) para preditiva (o que tende a acontecer).</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Painel de seleção para fiscalização: um dashboard estratégico da SEFAZ-GO exibe, em mapa coroplético, a arrecadação de ICMS por município; em colunas, os 10 setores (CNAE) com maior queda anual; e um KPI de &#x27;score de risco&#x27; que ordena contribuintes pela divergência entre o ICMS declarado na EFD e o destacado nas NF-e. O auditor aplica drill-down em um setor suspeito e chega à lista nominal de contribuintes com maior risco, direcionando a malha.</p><p>Questão típica: &#x27;Todo indicador de desempenho de uma organização é um KPI.&#x27; — ERRADO; KPI é o subconjunto de indicadores ligados a objetivos estratégicos (chave). Indicadores secundários não são KPIs.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>A distinção métrica x KPI é cobrada com frequência: KPI é estratégico (chave), nem toda métrica é KPI. Cuidado também com a fronteira BI x Data Mining: BI tende a ser descritivo (relatórios, dashboards do passado/presente), enquanto a mineração busca padrões e previsões (preditivo). Não diga que dashboard &#x27;substitui&#x27; o DW — o dashboard é a camada de apresentação que consome o DW.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t2-s1.html">← ETL</a><a class="pager next" href="t4-s0.html">Tarefas de mineração →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>BI transforma dados em informação para decisão (das fontes ao dashboard).</li><li>KPI = indicador CHAVE/estratégico; nem toda métrica é KPI (mas toda KPI é métrica).</li><li>Dashboards: estratégico, tático e operacional, conforme o público.</li><li>Gráfico segue a mensagem: barras (comparar), linhas (tendência), mapa (geografia).</li><li>Self-service BI dá autonomia de exploração ao usuário de negócio.</li><li>Boas práticas de data viz: evitar poluição visual e escalas enganosas.</li><li>BI sustenta a malha fiscal e a seleção baseada em risco.</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/tecnologia-da-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

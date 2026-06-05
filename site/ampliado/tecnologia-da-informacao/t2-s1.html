@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ETL — Tecnologias da Informação</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../index.html">
+    <span class="brand-mark">GO</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>Auditor-Fiscal da Receita Estadual de Goiás</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../index.html">Início</a> ›
+    <a href="../../disciplinas/tecnologia-da-informacao.html">💻 Tecnologias da Informação</a> ›
+    <span>ETL</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Modelagem multidimensional e Data Warehouse</p>
+    <h1>ETL</h1>
+    <p>ETL (Extract, Transform, Load — Extração, Transformação e Carga) é o processo que alimenta o Data Warehouse, integrando dados de fontes heterogêneas (bancos OLTP, planilhas, arquivos SPED/EFD, NF-e, web services) em um repositório único, limpo e padronizado. É frequentemente a etapa mais cara e demorada de um projeto de BI, consumindo grande parte do esforço.</p><p>O ETL resolve um problema concreto da fiscalização: as informações estão dispersas em sistemas diferentes, com formatos, códigos e qualidades distintos. Sem integração e limpeza, os cruzamentos fiscais seriam pouco confiáveis. O ETL transforma esse caos em uma base coerente para análise.</p><p>É comum tratar a área de staging como o &#x27;laboratório&#x27; onde os dados são preparados antes de irem para o DW, e distinguir o ETL do ELT, variação moderna em que a transformação ocorre após a carga, dentro de plataformas de grande capacidade (data lakes, nuvem).</p>
+  </header>
+
+  <div class="amp-grid">
+    <article class="amp-body">
+      
+        <section class="amp-sec">
+          <h2>Extração (Extract)</h2>
+          <p>A extração coleta dados das fontes de origem, que podem ser estruturadas (bancos relacionais), semiestruturadas (XML da NF-e, JSON) ou não estruturadas (textos). Pode ser completa (full) ou, mais comum em cargas periódicas, incremental (apenas o que mudou — via CDC, Change Data Capture, ou marcadores de data/hora).</p><p>Um princípio importante é minimizar o impacto nos sistemas de origem (OLTP), por isso a extração frequentemente é agendada para janelas de baixa atividade e os dados são copiados para a staging antes de qualquer processamento pesado.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Transformação (Transform)</h2>
+          <p>É o coração do ETL: limpeza (corrigir/eliminar dados inválidos, tratar nulos e duplicados), padronização (unificar formatos de data, unidades, códigos), conformação de dimensões (uniformizar chaves entre fontes), deduplicação, validação de regras de negócio, agregações e cálculos derivados.</p><p>É aqui que se garante a qualidade dos dados (data quality): exatidão, completude, consistência e atualidade. Em dados fiscais, isso inclui validar CNPJ/CPF, normalizar CNAE e padronizar a representação de valores monetários antes do cruzamento.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>Carga (Load)</h2>
+          <p>A carga insere os dados transformados no DW (ou data mart). Pode ser inicial (full load) ou incremental. Um ponto sensível é o tratamento das dimensões que mudam ao longo do tempo (SCD — Slowly Changing Dimensions): SCD Tipo 1 sobrescreve o valor antigo (perde histórico); SCD Tipo 2 cria uma nova versão da linha preservando o histórico (com data de início/fim ou flag); SCD Tipo 3 guarda um número limitado de versões em colunas.</p><p>A carga costuma ocorrer em janelas (batch) periódicas, e o DW permanece consultável durante o uso analítico.</p>
+        </section>
+        <section class="amp-sec">
+          <h2>ETL x ELT, staging e governança</h2>
+          <p>No ETL tradicional, transforma-se ANTES de carregar (ideal para DWs estruturados). No ELT, carregam-se os dados brutos primeiro e transforma-se depois, aproveitando o poder de processamento do destino (data lakes, nuvem, big data) — mais flexível para grandes volumes e dados variados.</p><p>A staging area é o repositório intermediário onde os dados ficam durante o processamento, isolando o DW das fontes. Boas práticas incluem metadados, linhagem de dados (rastrear de onde cada dado veio) e tratamento de erros/reprocessamento, que dão auditabilidade ao processo — algo valioso no contexto fiscal.</p>
+        </section>
+      <section class="amp-exemplo">
+        <h2>💡 Exemplo aplicado</h2>
+        <p>Carga noturna de NF-e na SEFAZ-GO: (E) extraem-se os XMLs autorizados no dia para a staging; (T) validam-se CNPJ emitente/destinatário, convertem-se valores e datas para formato padrão, eliminam-se notas canceladas duplicadas e conformam-se os códigos de município ao padrão do DW; (L) carregam-se as métricas na FATO_NFE e atualiza-se a DIM_CONTRIBUINTE com SCD Tipo 2, criando nova versão quando a razão social muda, preservando o histórico para auditoria retroativa.</p><p>Questão típica: &#x27;No ELT, a transformação dos dados ocorre antes da carga no repositório de destino.&#x27; — ERRADO; no ELT a carga vem antes e a transformação ocorre depois (no destino). Quem transforma antes de carregar é o ETL.</p>
+      </section>
+      <section class="amp-dica">
+        <h2>🎯 Na prova</h2>
+        <p>Memorize a ordem das siglas: ETL transforma antes da carga; ELT transforma depois. Sobre SCD, a pegadinha frequente: Tipo 1 PERDE o histórico (sobrescreve); Tipo 2 PRESERVA (nova linha versionada). Bancas também afirmam que a transformação ocorre nos sistemas de origem — geralmente não; ocorre na staging/destino, justamente para não sobrecarregar o OLTP.</p>
+      </section>
+      <div class="pager-row"><a class="pager prev" href="t2-s0.html">← Esquema estrela e OLAP</a><a class="pager next" href="t3-s0.html">Indicadores e visualização →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card">
+        <h3>Pontos-chave</h3>
+        <ul class="amp-chave"><li>ETL = Extração, Transformação e Carga; alimenta o Data Warehouse.</li><li>Extração pode ser full ou incremental (CDC); minimize o impacto no OLTP.</li><li>Transformação = limpeza, padronização, deduplicação, validação, agregação (data quality).</li><li>Carga full ou incremental; trata dimensões com SCD (Tipo 1 sobrescreve, Tipo 2 historiza).</li><li>Staging area isola o DW das fontes durante o processamento.</li><li>ETL transforma ANTES de carregar; ELT carrega primeiro e transforma depois.</li><li>ETL é a fase mais custosa/demorada de um projeto de BI.</li></ul>
+      </div>
+      <a class="back" href="../../disciplinas/tecnologia-da-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot">
+  <p>Auditor-Fiscal da Receita Estadual de Goiás — material de estudo de apoio. Confira sempre o edital oficial.</p>
+</footer>
+<script src="../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,443 @@
+{
+  "slug": "direito-civil-empresarial",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Integração e interpretação",
+      "intro": "A Lei de Introdução às Normas do Direito Brasileiro (LINDB), originalmente o Decreto-Lei 4.657/1942 (renomeado pela Lei 12.376/2010), é uma \"norma sobre normas\" (sobredireito): não regula relações jurídicas específicas, mas a forma de criar, aplicar, interpretar e integrar todo o ordenamento. Por isso seu estudo é transversal e cai com frequência em provas fiscais, sobretudo nos pontos de vigência, irretroatividade e integração.\n\nDois eixos concentram a cobrança: (a) a aplicação da lei no tempo e no espaço (arts. 1º a 6º), incluindo vacatio legis, repristinação e direito intertemporal; e (b) os métodos de integração e interpretação (arts. 4º e 5º), usados quando a lei é omissa ou ambígua. A LINDB também foi modernizada pela Lei 13.655/2018, que inseriu os arts. 20 a 30 com foco em segurança jurídica e eficiência na atuação dos gestores públicos — tema de alto interesse para o Auditor-Fiscal.",
+      "secoes": [
+        {
+          "h": "Vigência, vacatio legis e repristinação",
+          "p": "Salvo disposição em contrário, a lei começa a vigorar em todo o país 45 dias depois de oficialmente publicada (art. 1º da LINDB). Esse intervalo entre publicação e vigência é a vacatio legis. Para os Estados estrangeiros, quando admitida, a vigência ocorre três meses após a publicação.\n\nA contagem do prazo de vacatio segue a Lei Complementar 95/1998: inclui-se o dia da publicação e o último dia do prazo, entrando em vigor no dia subsequente à consumação integral. A repristinação (lei revogada que volta a viger porque a lei revogadora foi por sua vez revogada) NÃO é automática no Brasil: depende de disposição expressa (art. 2º, §3º). Pegadinha clássica de prova."
+        },
+        {
+          "h": "Irretroatividade e o art. 6º",
+          "p": "A regra é a irretroatividade: a lei nova tem efeito imediato e geral, respeitando o ato jurídico perfeito, o direito adquirido e a coisa julgada (art. 6º da LINDB, espelhando o art. 5º, XXXVI, da CF/88). Esse tripé protege situações já consolidadas.\n\nAto jurídico perfeito é o já consumado segundo a lei vigente ao tempo em que se efetuou; direito adquirido é aquele já incorporado ao patrimônio, cujo exercício depende apenas da vontade do titular ou de termo/condição preestabelecidos; coisa julgada é a decisão judicial de que já não cabe recurso. Em matéria tributária, soma-se a irretroatividade do art. 150, III, 'a', da CF/88."
+        },
+        {
+          "h": "Integração: analogia, costumes e princípios gerais (art. 4º)",
+          "p": "Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito (art. 4º). Há uma ordem hierárquica e sucessiva: primeiro tenta-se a analogia, depois os costumes, por fim os princípios gerais. A vedação do non liquet impede o julgador de se recusar a decidir alegando lacuna.\n\nAnalogia aplica a um caso não previsto a norma de caso semelhante (legis, de um dispositivo; ou juris, de um conjunto). Cuidado: em direito tributário a analogia não pode resultar em exigência de tributo não previsto em lei (art. 108, §1º, do CTN), e em direito penal não se admite analogia in malam partem — restrições importantes para concursos."
+        },
+        {
+          "h": "Interpretação e a equidade (art. 5º)",
+          "p": "Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum (art. 5º). Esse comando consagra a interpretação teleológica e sociológica, afastando o literalismo puro.\n\nA interpretação pode ser quanto à fonte (autêntica, jurisprudencial, doutrinária), quanto ao método (gramatical, lógico, sistemático, histórico, teleológico) e quanto ao resultado (declarativa, extensiva, restritiva). A equidade é forma de integração admitida só nos casos previstos em lei (art. 108, IV, do CTN, no campo tributário)."
+        },
+        {
+          "h": "Segurança jurídica e eficiência (arts. 20 a 30)",
+          "p": "A Lei 13.655/2018 acrescentou dispositivos voltados ao gestor público e ao controle. O art. 20 veda decisões com base em valores jurídicos abstratos sem considerar as consequências práticas; o art. 22 manda considerar os obstáculos reais do gestor e as circunstâncias do caso. O art. 24 protege atos praticados conforme orientações gerais da época, vedando declaração de invalidade com base em mudança posterior de interpretação.\n\nPara o Auditor-Fiscal, destaca-se o art. 28: o agente público responderá pessoalmente por suas decisões ou opiniões técnicas apenas em caso de dolo ou erro grosseiro. Isso limita a responsabilização do fiscal que age de boa-fé e tecnicamente."
+        }
+      ],
+      "exemplo": "Questão comentada: Uma lei estadual nova entra em vigor sem cláusula de vigência expressa, publicada em 10/03. Quando passa a vigorar? Resposta: 45 dias após a publicação (art. 1º da LINDB), pois não houve disposição em contrário — não vigora imediatamente. Erro comum é marcar \"na data da publicação\", que só vale se a lei assim dispuser.\n\nOutro caso: a Lei A é revogada pela Lei B; depois a Lei B é revogada pela Lei C. A Lei A volta a vigorar? Não, salvo se a Lei C disser expressamente (art. 2º, §3º — repristinação não automática). Se a prova afirmar que \"a revogação da lei revogadora restaura automaticamente a lei anterior\", está ERRADO.",
+      "pontos_chave": [
+        "LINDB é norma sobre normas (sobredireito): rege todo o ordenamento.",
+        "Vacatio legis padrão: 45 dias (art. 1º), salvo disposição em contrário.",
+        "Repristinação não é automática: exige previsão expressa (art. 2º, §3º).",
+        "Irretroatividade protege ato jurídico perfeito, direito adquirido e coisa julgada (art. 6º).",
+        "Integração (art. 4º) em ordem: analogia, costumes, princípios gerais.",
+        "Vedação do non liquet: juiz não pode deixar de julgar por lacuna.",
+        "Arts. 20 a 30 (Lei 13.655/2018): segurança jurídica; agente responde só por dolo ou erro grosseiro (art. 28)."
+      ],
+      "dica_prova": "As bancas adoram trocar 45 dias por 'data da publicação' (só vale se a lei dispuser) e afirmar que a revogação da lei revogadora restaura a anterior automaticamente (falso). Lembre que, no tributário, a analogia não cria tributo (art. 108, §1º, CTN) e a equidade não dispensa tributo devido."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Pessoa jurídica",
+      "intro": "Pessoa jurídica é a entidade a que o ordenamento atribui personalidade própria, distinta da de seus membros, tornando-a apta a ser titular de direitos e obrigações na ordem civil. O Código Civil de 2002 (Lei 10.406/2002) trata do tema nos arts. 40 a 69, classificando-as e estabelecendo o regime de constituição, funcionamento e extinção.\n\nO tema é caro ao Auditor-Fiscal porque o sujeito passivo de muitos tributos é uma pessoa jurídica, e institutos como a desconsideração da personalidade jurídica (art. 50) e a responsabilidade dos sócios e administradores (que dialoga com os arts. 134 e 135 do CTN) são decisivos na cobrança do crédito tributário.",
+      "secoes": [
+        {
+          "h": "Início e registro da personalidade",
+          "p": "A existência legal das pessoas jurídicas de direito privado começa com a inscrição do ato constitutivo no respectivo registro (art. 45 do CC), precedida, quando necessário, de autorização ou aprovação do Poder Executivo. Para sociedades simples e associações, o registro é o Cartório de Registro Civil de Pessoas Jurídicas; para sociedades empresárias, a Junta Comercial (Registro Público de Empresas Mercantis).\n\nNote a diferença em relação à pessoa natural, cuja personalidade começa com o nascimento com vida (art. 2º). O prazo decadencial para anular a constituição por defeito do ato é de 3 anos contados da publicação da inscrição (art. 45, parágrafo único)."
+        },
+        {
+          "h": "Classificação: direito público e privado",
+          "p": "São pessoas jurídicas de direito público interno a União, os Estados, o Distrito Federal, os Territórios, os Municípios, as autarquias (inclusive associações públicas) e as demais entidades de caráter público criadas por lei (art. 41). De direito público externo: os Estados estrangeiros e organismos internacionais (art. 42).\n\nSão pessoas jurídicas de direito privado (art. 44): as associações, as sociedades, as fundações, as organizações religiosas, os partidos políticos e as empresas individuais de responsabilidade limitada (EIRELI — embora a EIRELI tenha sido extinta pela Lei 14.195/2021, transformada automaticamente em sociedade limitada unipessoal). Associações não têm fins econômicos; sociedades, sim; fundações nascem de um patrimônio afetado a uma finalidade."
+        },
+        {
+          "h": "Desconsideração da personalidade jurídica (art. 50)",
+          "p": "A autonomia patrimonial pode ser episodicamente afastada (disregard doctrine) quando houver abuso da personalidade, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, para que os efeitos de certas obrigações sejam estendidos aos bens particulares de administradores ou sócios beneficiados (art. 50, com a redação dada pela Lei 13.874/2019 — Lei da Liberdade Econômica).\n\nA Lei 13.874/2019 definiu desvio de finalidade como a utilização da pessoa jurídica com o propósito de lesar credores e para a prática de atos ilícitos (§1º), e confusão patrimonial como a ausência de separação de fato entre os patrimônios (§2º). O CC adota a teoria MAIOR (exige abuso); o CDC e o Direito Ambiental adotam a teoria MENOR (basta o obstáculo ao ressarcimento). Distinção campeã de prova."
+        },
+        {
+          "h": "Desconsideração no campo tributário",
+          "p": "No crédito tributário, a responsabilização de terceiros segue lógica própria: o art. 135, III, do CTN responsabiliza pessoalmente diretores, gerentes ou representantes por créditos resultantes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos. A mera inadimplência do tributo NÃO caracteriza, por si só, infração apta a redirecionar (Súmula 430 do STJ).\n\nA dissolução irregular da empresa, presumida quando ela deixa de funcionar no domicílio fiscal sem comunicação aos órgãos competentes, autoriza o redirecionamento ao sócio-gerente (Súmula 435 do STJ). Esses enunciados são recorrentes em provas de Auditoria Fiscal."
+        },
+        {
+          "h": "Direitos da personalidade da pessoa jurídica",
+          "p": "Aplica-se à pessoa jurídica, no que couber, a proteção dos direitos da personalidade (art. 52 do CC). Assim, ela pode sofrer dano moral, especialmente quanto à honra objetiva (imagem e reputação no mercado), conforme a Súmula 227 do STJ: \"A pessoa jurídica pode sofrer dano moral\".\n\nNão se confunde dano à honra objetiva (reputação perante terceiros, possível para a PJ) com honra subjetiva (autoestima, sentimento), que é exclusiva da pessoa natural. Provas costumam testar exatamente esse limite."
+        }
+      ],
+      "exemplo": "Questão comentada: Determinada sociedade limitada deixa de recolher ICMS por vários meses e está em débito com a Fazenda de Goiás. O Fisco pode redirecionar a execução fiscal automaticamente contra o sócio-administrador apenas pelo não pagamento? Não. A Súmula 430 do STJ é clara: o inadimplemento da obrigação tributária pela sociedade não gera, por si só, a responsabilidade solidária do sócio-gerente. É preciso demonstrar excesso de poderes, infração de lei/contrato (art. 135, III, do CTN) ou indícios de dissolução irregular (Súmula 435 do STJ).\n\nSe a empresa some do endereço cadastrado na SEFAZ-GO sem comunicar, presume-se dissolução irregular e o redirecionamento ao sócio-gerente passa a ser cabível. A pegadinha está em equiparar simples inadimplência a infração de lei.",
+      "pontos_chave": [
+        "PJ de direito privado nasce com a inscrição do ato constitutivo (art. 45 do CC).",
+        "Decadência de 3 anos para anular constituição por defeito (art. 45, parágrafo único).",
+        "PJ direito público: arts. 41/42; privado: art. 44 (associações, sociedades, fundações etc.).",
+        "Desconsideração (art. 50): teoria MAIOR no CC (exige abuso); MENOR no CDC/ambiental.",
+        "Desvio de finalidade e confusão patrimonial definidos pela Lei 13.874/2019.",
+        "Súmula 430 STJ: inadimplência tributária não redireciona por si só ao sócio.",
+        "Súmula 435 STJ: dissolução irregular autoriza redirecionamento ao sócio-gerente.",
+        "PJ pode sofrer dano moral (Súmula 227 STJ) por ofensa à honra objetiva."
+      ],
+      "dica_prova": "Não confunda a desconsideração do art. 50 do CC (teoria maior) com a do art. 135 do CTN. O simples não pagamento de tributo nunca basta para atingir o sócio (Súmula 430 STJ); precisa de excesso de poderes, infração de lei ou dissolução irregular (Súmula 435 STJ). Cuidado: a EIRELI foi extinta e convertida em limitada unipessoal."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Domicílio e bens",
+      "intro": "Domicílio e bens são categorias estruturantes do Direito Civil. Domicílio define o local onde a pessoa responde por seus atos jurídicos, com reflexos diretos em competência, citação e — no campo fiscal — na fixação do domicílio tributário (art. 127 do CTN). Bens são os objetos suscetíveis de valoração econômica e de apropriação, sobre os quais recaem os direitos reais e muitas obrigações.\n\nO Código Civil trata de bens nos arts. 79 a 103 e de domicílio nos arts. 70 a 78. Para o Auditor-Fiscal, a classificação dos bens (móveis/imóveis, públicos/particulares) é relevante para impostos como ITCD, ITBI e ITR e para o regime dos bens públicos, ao passo que o domicílio é base da relação jurídico-tributária.",
+      "secoes": [
+        {
+          "h": "Conceito e espécies de domicílio",
+          "p": "O domicílio da pessoa natural é o lugar onde ela estabelece a sua residência com ânimo definitivo (art. 70 do CC). Se a pessoa tiver várias residências onde alternadamente viva, considera-se domicílio seu qualquer delas (art. 71) — domicílio plúrimo. Para as relações concernentes à profissão, o lugar onde esta é exercida também é domicílio (art. 72).\n\nO domicílio pode ser voluntário (eleito livremente), necessário/legal (imposto por lei — do incapaz, do servidor público, do militar, do marítimo e do preso, art. 76) ou de eleição/contratual (fixado em contrato para os direitos e obrigações dele decorrentes, art. 78). A pessoa jurídica tem por domicílio o lugar onde funciona a diretoria/administração ou onde elegeu em seu estatuto (art. 75)."
+        },
+        {
+          "h": "Domicílio tributário (ponte com o CTN)",
+          "p": "Em regra, o contribuinte elege seu domicílio tributário; na falta de eleição, aplicam-se as regras do art. 127 do CTN: para pessoas naturais, a residência habitual ou o centro habitual de atividade; para pessoas jurídicas de direito privado, o lugar de cada estabelecimento.\n\nA autoridade administrativa pode RECUSAR o domicílio eleito quando este impossibilite ou dificulte a arrecadação ou a fiscalização (art. 127, §2º). Esse poder de recusa é detalhe que cai muito em prova fiscal, porque limita a liberdade de eleição quando há embaraço à atuação do Fisco."
+        },
+        {
+          "h": "Bens imóveis e móveis",
+          "p": "São imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmente (art. 79). Consideram-se imóveis por determinação legal os direitos reais sobre imóveis e as ações que os asseguram, além do direito à sucessão aberta (art. 80). São móveis os bens suscetíveis de movimento próprio (semoventes) ou de remoção por força alheia sem alteração da substância (art. 82), bem como, por determinação legal, energias com valor econômico, direitos reais sobre objetos móveis e os direitos pessoais de caráter patrimonial (art. 83).\n\nAtenção a institutos: pertenças (art. 93) são bens que servem ao uso de outro sem dele fazer parte; benfeitorias (art. 96) classificam-se em necessárias, úteis e voluptuárias, com regimes distintos de indenização e retenção."
+        },
+        {
+          "h": "Bens fungíveis/infungíveis, divisíveis/indivisíveis, consumíveis",
+          "p": "Fungíveis são os móveis que podem substituir-se por outros da mesma espécie, qualidade e quantidade (art. 85) — o dinheiro é o exemplo máximo. Infungíveis são insubstituíveis (uma obra de arte). Consumíveis são os bens móveis cujo uso importa destruição imediata da própria substância, e os destinados à alienação (art. 86).\n\nDivisíveis são os que se podem fracionar sem alteração na sua substância, diminuição considerável de valor ou prejuízo do uso a que se destinam (art. 87); a lei ou a vontade das partes pode torná-los indivisíveis. Essa classificação importa em obrigações (de dar coisa certa x incerta) e em condomínio."
+        },
+        {
+          "h": "Bens públicos e particulares",
+          "p": "Bens públicos são os do domínio nacional pertencentes às pessoas jurídicas de direito público interno; todos os demais são particulares (art. 98). Classificam-se em (art. 99): de uso comum do povo (rios, mares, estradas, ruas, praças); de uso especial (edifícios e terrenos destinados a serviço/estabelecimento público); e dominicais (patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal ou real).\n\nOs bens públicos de uso comum e de uso especial são INALIENÁVEIS enquanto conservarem essa qualificação (art. 100); os dominicais podem ser alienados, observadas as exigências legais (art. 101). Bens públicos são imprescritíveis (não sofrem usucapião, art. 102, e arts. 183, §3º, e 191, parágrafo único, da CF/88) e impenhoráveis. Tríade clássica de prova: inalienabilidade, impenhorabilidade e imprescritibilidade."
+        }
+      ],
+      "exemplo": "Questão comentada: Um contribuinte de ICMS elege como domicílio tributário um endereço em município distante de qualquer estabelecimento e de difícil fiscalização. A SEFAZ-GO é obrigada a aceitar? Não. Pelo art. 127, §2º, do CTN, a autoridade administrativa pode recusar o domicílio eleito quando ele impossibilite ou dificulte a arrecadação ou fiscalização, fixando como domicílio o lugar do estabelecimento.\n\nSobre bens: uma praça pública pode ser usucapida por quem a ocupa há 20 anos? Nunca. Bens públicos (de uso comum) são imprescritíveis (art. 102 do CC e art. 183, §3º, da CF/88). A pegadinha frequente afirma que bens dominicais seriam inalienáveis — errado: os dominicais PODEM ser alienados; inalienáveis são os de uso comum e de uso especial enquanto mantiverem essa destinação.",
+      "pontos_chave": [
+        "Domicílio da pessoa natural: residência com ânimo definitivo (art. 70).",
+        "Domicílio pode ser voluntário, necessário/legal (art. 76) ou de eleição (art. 78).",
+        "Domicílio tributário: art. 127 do CTN; Fisco pode recusar o eleito que dificulte a fiscalização (§2º).",
+        "Imóvel: solo e o que se incorpora; direitos reais sobre imóveis e a sucessão aberta são imóveis por lei (art. 80).",
+        "Fungível substitui-se por outro de mesma espécie/qualidade/quantidade (art. 85).",
+        "Bens públicos: uso comum, uso especial e dominicais (art. 99).",
+        "Bens públicos são inalienáveis (uso comum/especial), impenhoráveis e imprescritíveis."
+      ],
+      "dica_prova": "Memorize a tríade dos bens públicos (inalienabilidade relativa, impenhorabilidade e imprescritibilidade) e que apenas os DOMINICAIS podem ser alienados. No domicílio, a pegadinha é negar o poder de recusa do Fisco (art. 127, §2º, CTN). Praças e ruas (uso comum) nunca sofrem usucapião."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Defeitos do negócio jurídico",
+      "intro": "O negócio jurídico, manifestação de vontade dirigida a produzir efeitos jurídicos queridos pelas partes, percorre os planos de existência, validade e eficácia (Escada Ponteana). Os defeitos atacam o plano da validade: são vícios que, presentes, tornam o negócio anulável (vícios de consentimento) ou nulo (algumas hipóteses de vício social, como a simulação).\n\nO Código Civil disciplina os defeitos nos arts. 138 a 165. Há duas grandes categorias: os vícios de consentimento (erro, dolo, coação, estado de perigo e lesão), que maculam a vontade do próprio declarante; e os vícios sociais (fraude contra credores e simulação), que ofendem terceiros ou a ordem jurídica. Distinguir nulidade de anulabilidade e os prazos correlatos é o coração da cobrança.",
+      "secoes": [
+        {
+          "h": "Erro e dolo",
+          "p": "Erro é a falsa percepção da realidade pelo próprio declarante; para anular, deve ser substancial (essencial) e, segundo o CC, escusável segundo o padrão de uma pessoa de diligência normal — embora o art. 138 fale em erro perceptível por pessoa de diligência normal, dispensando a discussão sobre escusabilidade em sentido estrito. O erro acidental, sobre qualidades secundárias, não anula (art. 142).\n\nDolo é o erro provocado por artifício ou manobra da outra parte. O dolo principal (causa do negócio) anula (art. 145); o dolo acidental só obriga à satisfação de perdas e danos, sem anular (art. 146). Há ainda o dolo bilateral (ambas as partes agem com dolo), caso em que nenhuma pode alegá-lo (art. 150)."
+        },
+        {
+          "h": "Coação, estado de perigo e lesão",
+          "p": "Coação é a violência psicológica (vis compulsiva) que incute fundado temor de dano iminente e considerável à pessoa, à família ou aos bens do paciente (art. 151). Não se considera coação a ameaça do exercício normal de um direito nem o simples temor reverencial (art. 153).\n\nEstado de perigo ocorre quando alguém, premido da necessidade de salvar-se ou a pessoa da família de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa (art. 156). Lesão configura-se quando, sob premente necessidade ou inexperiência, a pessoa se obriga a prestação manifestamente desproporcional ao valor da prestação oposta (art. 157) — afere-se a desproporção no momento do negócio, e o negócio pode ser salvo se a parte favorecida concordar com a revisão (§2º)."
+        },
+        {
+          "h": "Fraude contra credores",
+          "p": "A fraude contra credores ocorre quando o devedor insolvente (ou que assim se torna) pratica atos de disposição patrimonial que reduzem sua garantia perante credores (arts. 158 a 165). Exige dois requisitos: o eventus damni (prejuízo ao credor) e, nos negócios onerosos, o consilium fraudis (ciência do terceiro sobre a insolvência). Nos atos gratuitos e no perdão de dívida, basta o eventus damni.\n\nO instrumento de proteção é a ação pauliana (ou revocatória), de natureza anulatória, ajuizada pelos credores quirografários anteriores ao ato. Importante distinguir da fraude à execução, que é instituto processual (art. 792 do CPC), pressupõe demanda em curso e gera ineficácia do ato perante o exequente, sem necessidade de ação própria."
+        },
+        {
+          "h": "Simulação",
+          "p": "A simulação é o único defeito que o CC de 2002 tratou como causa de NULIDADE, e não de anulabilidade (art. 167). Há divergência entre a vontade declarada e a realidade: simulação absoluta (negócio é totalmente fictício) ou relativa/dissimulação (esconde-se outro negócio sob a aparência de um). Na relativa, subsiste o negócio dissimulado se válido na substância e na forma (art. 167, caput).\n\nPor ser nulidade, pode ser alegada por qualquer interessado, pelo Ministério Público, reconhecida de ofício, não convalesce pelo tempo e é imprescritível (em regra). Diferença essencial frente aos vícios de consentimento, que geram anulabilidade sujeita a prazo decadencial de 4 anos (art. 178)."
+        },
+        {
+          "h": "Nulidade x anulabilidade: efeitos e prazos",
+          "p": "O negócio nulo (art. 166: objeto ilícito/impossível, agente absolutamente incapaz, forma não prescrita, simulação etc.) não produz efeitos, é imprescritível, não admite confirmação/convalidação e pode ser declarado de ofício. O negócio anulável (art. 171: incapacidade relativa e vícios de consentimento/sociais não simulatórios) produz efeitos até ser desfeito, admite confirmação (art. 172) e tem prazos decadenciais.\n\nPrazos do art. 178: 4 anos para anular por coação (do dia em que cessar), por erro, dolo, fraude contra credores, estado de perigo ou lesão (do dia em que se realizou o negócio), e por incapacidade relativa (de cessada a incapacidade). Quando a lei não fixar prazo, a anulabilidade decai em 2 anos da conclusão do ato (art. 179)."
+        }
+      ],
+      "exemplo": "Questão comentada: Um contrato de compra e venda é celebrado por preço aparente de R$ 10.000, mas as partes querem, na verdade, doar o imóvel para fraudar a legítima de herdeiros. Há simulação. Qual a consequência? O negócio aparente (compra e venda) é NULO por simulação (art. 167), mas pode subsistir o negócio dissimulado (doação) se for válido na substância e na forma — na simulação relativa.\n\nPegadinha frequente: a banca afirma que \"a simulação torna o negócio anulável, sujeito a prazo de 4 anos\". ERRADO no CC/2002 — a simulação é causa de NULIDADE (art. 167), imprescritível e arguível por qualquer interessado. Outra distinção cobrada: fraude contra credores (defeito do negócio, ação pauliana, gera anulabilidade) versus fraude à execução (instituto processual, gera ineficácia, art. 792 do CPC).",
+      "pontos_chave": [
+        "Defeitos atacam o plano da VALIDADE do negócio jurídico.",
+        "Vícios de consentimento: erro, dolo, coação, estado de perigo e lesão (anulabilidade).",
+        "Dolo principal anula; dolo acidental só gera perdas e danos (arts. 145/146).",
+        "Lesão e estado de perigo aferem desproporção no momento do negócio.",
+        "Fraude contra credores: ação pauliana; exige eventus damni (e consilium fraudis se oneroso).",
+        "Simulação é causa de NULIDADE (art. 167), não de anulabilidade.",
+        "Anulabilidade decai em 4 anos (art. 178); nulidade é imprescritível.",
+        "Fraude contra credores (anulabilidade) x fraude à execução (ineficácia, art. 792 CPC)."
+      ],
+      "dica_prova": "O erro mais cobrado é tratar a simulação como anulável: no CC/2002 ela é NULA (art. 167), imprescritível e arguível por qualquer interessado. Decore os prazos do art. 178 (4 anos) e a diferença entre fraude contra credores (defeito do negócio) e fraude à execução (instituto processual)."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Prescrição e decadência",
+      "intro": "Prescrição e decadência são institutos ligados ao decurso do tempo que extinguem situações jurídicas, conferindo estabilidade e segurança às relações. A distinção é decisiva e altamente cobrada em provas de Auditor-Fiscal, porque a extinção do crédito tributário pelo tempo (decadência do direito de lançar e prescrição da pretensão de cobrar) segue lógica análoga e está nos arts. 173 e 174 do CTN.\n\nNo Código Civil, a prescrição extingue a pretensão (o poder de exigir judicialmente uma prestação), nascida da violação de um direito subjetivo (art. 189). A decadência extingue o próprio direito potestativo pelo seu não exercício no prazo legal ou convencional. A teoria de Agnelo Amorim Filho, adotada pela doutrina e jurisprudência, é a chave para separar os dois.",
+      "secoes": [
+        {
+          "h": "Conceitos e o critério de Agnelo Amorim Filho",
+          "p": "Prescrição atinge a pretensão: violado um direito a uma prestação (direito subjetivo a uma conduta de outrem), nasce para o titular a pretensão, que se extingue pela prescrição (art. 189). Liga-se a direitos a uma prestação e a ações condenatórias.\n\nDecadência atinge o direito potestativo — aquele que sujeita a outra parte sem que ela possa se opor (ex.: anular um negócio, exercer preferência). Liga-se a ações constitutivas com prazo legal. As ações declaratórias (ex.: declarar nulidade) são, em regra, imprescritíveis. Esse é o critério científico que separa prescrição (prestacional/condenatório) de decadência (potestativo/constitutivo)."
+        },
+        {
+          "h": "Regimes distintos: renúncia, prazos e conhecimento de ofício",
+          "p": "A prescrição: pode ser renunciada, expressa ou tacitamente, após consumar-se, desde que sem prejuízo de terceiro (art. 191); seus prazos são fixados exclusivamente em lei e não podem ser alterados pelas partes (art. 192); pode ser alegada em qualquer grau de jurisdição (art. 193); e o juiz deve pronunciá-la de ofício (art. 487, II, do CPC).\n\nA decadência LEGAL não pode ser renunciada (art. 209), deve ser conhecida de ofício (art. 210) e seus prazos são improrrogáveis; já a decadência CONVENCIONAL (fixada por contrato) não pode ser conhecida de ofício, mas pode ser alegada pela parte (art. 211). Prazos prescricionais estão concentrados nos arts. 205 (regra geral: 10 anos) e 206 (prazos especiais de 1 a 5 anos); todo prazo fora desses artigos, em regra, é decadencial."
+        },
+        {
+          "h": "Impedimento, suspensão e interrupção",
+          "p": "A prescrição admite causas de impedimento e suspensão (arts. 197 a 201) — por exemplo, não corre entre cônjuges na constância do casamento, contra os absolutamente incapazes, ou pendente condição suspensiva. Suspensa, o prazo recomeça de onde parou, somando-se o tempo anterior.\n\nA prescrição também admite interrupção (art. 202), que só pode ocorrer UMA vez; interrompida, o prazo recomeça do zero. Causas: despacho do juiz que ordena a citação, protesto, apresentação do título em juízo de inventário/concurso de credores, e qualquer ato inequívoco de reconhecimento do direito pelo devedor. A decadência, por sua natureza, em regra NÃO se suspende nem se interrompe (art. 207), salvo disposição legal em contrário."
+        },
+        {
+          "h": "Prazos prescricionais relevantes do art. 206",
+          "p": "Alguns prazos campeões de prova: prescreve em 1 ano a pretensão do segurado contra o segurador; em 3 anos a pretensão de reparação civil e a de cobrança de aluguéis; em 5 anos a pretensão de cobrança de dívidas líquidas constantes de instrumento público ou particular, e a pretensão do vencedor para haver honorários.\n\nA regra geral residual é o art. 205: quando a lei não fixar prazo menor, a prescrição ocorre em 10 anos. Atenção: a pretensão de reparação civil tem prazo de 3 anos (art. 206, §3º, V) — erro comum é aplicar os 10 anos genéricos a danos."
+        },
+        {
+          "h": "Paralelo com o crédito tributário (CTN)",
+          "p": "No tributário, o direito de a Fazenda CONSTITUIR o crédito pelo lançamento decai em 5 anos (decadência, art. 173 do CTN — em regra, do primeiro dia do exercício seguinte; ou da data do fato gerador nos tributos por homologação com pagamento, art. 150, §4º). Constituído definitivamente o crédito, a pretensão de COBRAR (ação de execução fiscal) prescreve em 5 anos (prescrição, art. 174 do CTN).\n\nA prescrição tributária se interrompe pelo despacho que ordena a citação na execução fiscal, pelo protesto judicial, por ato judicial constitutivo em mora e por reconhecimento do débito pelo devedor (parcelamento, p. ex.). Tanto a decadência quanto a prescrição EXTINGUEM o crédito tributário (art. 156, V, do CTN). Esse paralelo Civil/Tributário é dos pontos mais cobrados na carreira fiscal."
+        }
+      ],
+      "exemplo": "Questão comentada: Um contribuinte sofre dano material por ato ilícito de um terceiro em 2020 e ajuíza ação de reparação em 2024. Houve prescrição? Sim. A pretensão de reparação civil prescreve em 3 anos (art. 206, §3º, V, do CC); ajuizada após 4 anos, está prescrita. Pegadinha clássica: marcar 10 anos (art. 205) por desatenção ao prazo especial.\n\nNo campo fiscal: a Fazenda de Goiás lança um ICMS por homologação cujo fato gerador ocorreu em 01/2018, com pagamento parcial; até quando pode constituir a diferença? Cinco anos contados do fato gerador (art. 150, §4º, do CTN), decaindo em 01/2023. Distinção essencial: prazo para LANÇAR é DECADÊNCIA (art. 173/150); prazo para EXECUTAR após constituído é PRESCRIÇÃO (art. 174). Confundir os dois é o erro mais cobrado.",
+      "pontos_chave": [
+        "Prescrição extingue a PRETENSÃO (art. 189); decadência extingue o DIREITO potestativo.",
+        "Critério de Agnelo Amorim: prescrição liga-se a ações condenatórias; decadência, a constitutivas.",
+        "Prazos prescricionais só na lei (arts. 205 e 206); regra geral residual de 10 anos.",
+        "Prescrição interrompe-se uma vez (art. 202); decadência, em regra, não se suspende/interrompe.",
+        "Reparação civil prescreve em 3 anos (art. 206, §3º, V).",
+        "Decadência legal é conhecida de ofício e irrenunciável (arts. 209/210).",
+        "CTN: lançar é DECADÊNCIA (art. 173/150, §4º); cobrar é PRESCRIÇÃO (art. 174) — 5 anos cada.",
+        "Ambas extinguem o crédito tributário (art. 156, V, do CTN)."
+      ],
+      "dica_prova": "A confusão clássica é trocar o prazo para LANÇAR (decadência) pelo prazo para EXECUTAR (prescrição) no tributário. Em civil, atenção ao prazo de reparação civil (3 anos, não 10). Lembre que a prescrição se interrompe só uma vez e que a decadência, em regra, corre sem suspensão."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Modalidades e extinção",
+      "intro": "A obrigação é o vínculo jurídico transitório pelo qual o devedor se compromete a cumprir uma prestação economicamente apreciável em favor do credor, que pode exigi-la. Compõe-se de elementos subjetivos (credor e devedor), objetivo (a prestação) e do vínculo (o liame jurídico, com a responsabilidade patrimonial — Schuld e Haftung).\n\nO Código Civil disciplina o Direito das Obrigações a partir do art. 233. Classificam-se as obrigações quanto ao objeto (dar, fazer, não fazer; alternativas, facultativas), quanto aos sujeitos (solidárias, conjuntas) e quanto à divisibilidade. A extinção ocorre normalmente pelo pagamento (adimplemento) e, de modo especial, por mecanismos como compensação, novação, confusão, remissão e dação em pagamento.",
+      "secoes": [
+        {
+          "h": "Modalidades quanto ao objeto",
+          "p": "Obrigação de DAR coisa certa (art. 233) abrange a entrega de coisa determinada e seus acessórios; se a coisa se perde sem culpa antes da tradição, resolve-se a obrigação (res perit domino). Dar coisa incerta (art. 243) indica a coisa pela espécie e quantidade, cabendo a escolha (concentração), em regra, ao devedor.\n\nObrigação de FAZER (art. 247) é a prestação de um fato; se infungível e inadimplida por culpa, converte-se em perdas e danos. Obrigação de NÃO FAZER (art. 250) é uma abstenção. Há ainda as obrigações alternativas (art. 252 — pluralidade de objetos, extingue-se com um deles) e as facultativas (apenas um objeto devido, com faculdade de substituição pelo devedor)."
+        },
+        {
+          "h": "Obrigações solidárias",
+          "p": "A solidariedade não se presume; resulta da lei ou da vontade das partes (art. 265). Na solidariedade ATIVA, cada credor tem direito de exigir a dívida toda; na PASSIVA, o credor pode exigir de qualquer dos devedores a totalidade, cabendo ação de regresso entre eles (art. 283).\n\nDistingue-se da obrigação indivisível: na solidária, o vínculo é o que torna a dívida exigível por inteiro; na indivisível, é a natureza da prestação. Se a obrigação indivisível se converter em perdas e danos, perde a indivisibilidade (art. 263). No tributário, há solidariedade do art. 124 do CTN, sem benefício de ordem (art. 124, parágrafo único) — paralelo cobrado em prova."
+        },
+        {
+          "h": "Adimplemento: o pagamento e seus elementos",
+          "p": "O pagamento é a forma natural de extinção, exigindo análise de quem deve pagar (art. 304 — qualquer interessado, e mesmo terceiro não interessado em nome próprio), a quem se deve pagar (art. 308 — ao credor ou a quem o represente), do objeto (art. 313 — credor não é obrigado a receber prestação diversa), do tempo e do lugar (art. 327 — em regra, no domicílio do devedor: dívida quesível/quérable).\n\nPagamento em dívida quesível é aquele em que o credor vai buscar; portável (portable) é o que o devedor leva ao credor. A prova do pagamento é a quitação (art. 319), direito do devedor. A imputação do pagamento (arts. 352 a 355) define a qual dívida o pagamento se aplica quando há várias do mesmo credor."
+        },
+        {
+          "h": "Formas especiais de extinção",
+          "p": "Compensação (art. 368): extinguem-se até onde se compensarem duas dívidas entre pessoas que são, ao mesmo tempo, credora e devedora uma da outra; exige dívidas líquidas, vencidas e fungíveis homogêneas (art. 369). Novação (art. 360): cria-se nova obrigação para extinguir e substituir a anterior (objetiva, subjetiva ativa ou passiva), com animus novandi.\n\nConfusão (art. 381): reúnem-se na mesma pessoa as qualidades de credor e devedor. Remissão (art. 385): perdão da dívida pelo credor. Dação em pagamento (art. 356): o credor consente em receber prestação diversa da devida. Atenção: no tributário, a compensação depende de lei autorizadora (art. 170 do CTN) e a remissão (perdão) também exige lei específica (art. 172) — não se aplica a autonomia privada do Código Civil."
+        },
+        {
+          "h": "Inadimplemento e suas consequências",
+          "p": "O inadimplemento pode ser absoluto (prestação não mais útil ou impossível) ou relativo (mora — atraso, art. 394). A mora do devedor (solvendi) sujeita-o aos prejuízos e juros; a mora do credor (accipiendi) o obriga a ressarcir despesas de conservação (art. 400). Nas obrigações com termo certo, a mora é automática (ex re — dies interpellat pro homine, art. 397); sem termo, exige interpelação (ex persona).\n\nO inadimplemento por culpa do devedor enseja perdas e danos, que abrangem danos emergentes e lucros cessantes (art. 402), além de juros, atualização e honorários (art. 404). Distinguir mora (cabe purgação) de inadimplemento absoluto (não cabe) é frequentemente cobrado."
+        }
+      ],
+      "exemplo": "Questão comentada: 'A' deve R$ 5.000 a 'B', e 'B' deve R$ 3.000 a 'A', ambas dívidas líquidas, vencidas e em dinheiro. O que ocorre? Compensação total até o limite da menor (art. 368/369): extinguem-se R$ 3.000 de cada lado, restando 'A' devedor de R$ 2.000. A compensação opera de pleno direito quando presentes os requisitos.\n\nPegadinha fiscal: a banca tenta transpor essa lógica para o tributário afirmando que o contribuinte pode \"compensar\" automaticamente créditos contra a Fazenda. ERRADO — no tributário a compensação depende de LEI autorizadora (art. 170 do CTN) e de créditos líquidos e certos, vencidos ou vincendos; não basta a regra do Código Civil. O mesmo vale para a remissão, que no Direito Tributário exige lei específica (art. 172 do CTN).",
+      "pontos_chave": [
+        "Obrigação: vínculo com prestação economicamente apreciável (dar, fazer, não fazer).",
+        "Solidariedade não se presume: decorre de lei ou vontade (art. 265).",
+        "Pagamento é a forma natural de extinção; quitação é direito do devedor (art. 319).",
+        "Dívida quesível: credor busca; portável: devedor leva (regra do art. 327: domicílio do devedor).",
+        "Compensação exige dívidas líquidas, vencidas e fungíveis homogêneas (art. 369).",
+        "Novação cria nova obrigação para extinguir a anterior (animus novandi).",
+        "No tributário, compensação (art. 170) e remissão (art. 172) dependem de LEI.",
+        "Mora ex re é automática em obrigações com termo (art. 397: dies interpellat pro homine)."
+      ],
+      "dica_prova": "A banca tenta transpor a compensação automática do Código Civil para o tributário — errado: lá exige lei autorizadora (art. 170 CTN). Decore os requisitos da compensação civil (líquidas, vencidas, fungíveis homogêneas) e a regra da mora automática nas obrigações a termo."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Responsabilidade civil",
+      "intro": "Responsabilidade civil é o dever jurídico de reparar o dano causado a outrem, restabelecendo o equilíbrio patrimonial ou moral violado. Funda-se na ideia de que aquele que, por ato ilícito, causar dano a outrem é obrigado a repará-lo (art. 927 do CC, em diálogo com os arts. 186 e 187, que definem o ato ilícito).\n\nDistinguem-se duas grandes vertentes: a responsabilidade SUBJETIVA, que exige a demonstração de culpa (em sentido amplo: dolo ou culpa estrita — imprudência, negligência, imperícia); e a OBJETIVA, que prescinde da culpa, bastando a conduta, o dano e o nexo causal, fundada na teoria do risco. O tema dialoga com a responsabilidade do Estado (art. 37, §6º, da CF/88) e com a responsabilidade tributária por infrações (art. 136 do CTN, objetiva).",
+      "secoes": [
+        {
+          "h": "Pressupostos: conduta, dano e nexo causal",
+          "p": "São elementos essenciais: (1) conduta humana, comissiva ou omissiva, voluntária; (2) dano — lesão a bem juridicamente tutelado, que pode ser material (danos emergentes e lucros cessantes), moral (lesão a direitos da personalidade) ou estético; e (3) nexo de causalidade, liame entre a conduta e o resultado danoso. Na responsabilidade subjetiva, soma-se a culpa.\n\nSem dano não há dever de indenizar (a responsabilidade civil é reparatória, não punitiva como regra). O Brasil adota majoritariamente a teoria do dano direto e imediato (ou da causalidade necessária, art. 403) para aferir o nexo, embora a teoria da causalidade adequada também seja invocada."
+        },
+        {
+          "h": "Responsabilidade subjetiva e o ato ilícito",
+          "p": "Comete ato ilícito quem, por ação ou omissão voluntária, negligência ou imprudência, viola direito e causa dano a outrem, ainda que exclusivamente moral (art. 186). É a cláusula geral da responsabilidade subjetiva: o ônus de provar a culpa é, em regra, da vítima.\n\nO art. 187 traz o abuso de direito: também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico/social, pela boa-fé ou pelos bons costumes. O abuso de direito tem natureza OBJETIVA (independe de culpa para configurar-se), segundo o Enunciado 37 da Jornada de Direito Civil — pegadinha recorrente."
+        },
+        {
+          "h": "Responsabilidade objetiva e teoria do risco",
+          "p": "Haverá obrigação de reparar o dano, independentemente de culpa, nos casos especificados em lei, ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem (art. 927, parágrafo único). É a cláusula geral da responsabilidade objetiva pela teoria do risco criado.\n\nExemplos legais: responsabilidade do fornecedor no CDC, responsabilidade do empregador por atos de seus empregados (art. 932, III, c/c art. 933 — objetiva), responsabilidade por danos causados por animais (art. 936) e por produtos (art. 931). O Estado responde objetivamente por atos de seus agentes (art. 37, §6º, da CF/88), com direito de regresso em caso de dolo ou culpa do agente."
+        },
+        {
+          "h": "Excludentes de responsabilidade",
+          "p": "Rompem o nexo causal e afastam (total ou parcialmente) o dever de indenizar: o caso fortuito e a força maior (art. 393), a culpa exclusiva da vítima, o fato de terceiro e, no campo lícito, a legítima defesa, o estado de necessidade e o exercício regular de direito (art. 188).\n\nNos atos praticados em estado de necessidade (deterioração de coisa alheia para remover perigo iminente), embora lícitos, pode haver dever de indenizar o dono da coisa se este não foi o culpado pelo perigo (arts. 929 e 930), cabendo ação regressiva contra o causador. Distinguir fortuito interno (ligado à atividade, não exclui a responsabilidade objetiva) de fortuito externo (alheio, exclui) é tema avançado e cobrado."
+        },
+        {
+          "h": "Quantificação e responsabilidade por infrações tributárias",
+          "p": "A indenização mede-se pela extensão do dano (art. 944); havendo desproporção excessiva entre a culpa e o dano, o juiz pode reduzir equitativamente a indenização (parágrafo único). Em caso de homicídio ou lesão, há regras específicas (arts. 948 a 951).\n\nNo Direito Tributário, a responsabilidade por infrações é, em regra, OBJETIVA: salvo disposição de lei em contrário, independe da intenção do agente e da efetividade, natureza e extensão dos efeitos do ato (art. 136 do CTN). Por isso, multas tributárias incidem ainda que o contribuinte não tenha agido com dolo, salvo previsão legal específica — paralelo importante para a banca de Auditor-Fiscal."
+        }
+      ],
+      "exemplo": "Questão comentada: Um empregado de uma transportadora, dirigindo a serviço, causa acidente e dano a terceiro. A empresa responde? Sim, objetivamente, pelos atos de seus empregados no exercício do trabalho (art. 932, III, c/c art. 933) — não cabe à vítima provar culpa da empresa na escolha ou vigilância (afastada a antiga culpa in eligendo/in vigilando). A empresa terá ação regressiva contra o empregado culpado (art. 934).\n\nPegadinha: a banca afirma que o abuso de direito (art. 187) depende de comprovação de dolo do agente. ERRADO — o abuso de direito tem natureza objetiva (Enunciado 37 da Jornada de Direito Civil); basta o exercício que exceda manifestamente os limites do fim social/econômico, da boa-fé ou dos bons costumes, independentemente de intenção de prejudicar.",
+      "pontos_chave": [
+        "Pressupostos: conduta, dano e nexo causal (na subjetiva soma-se a culpa).",
+        "Art. 186: cláusula geral da responsabilidade subjetiva (vítima prova a culpa).",
+        "Abuso de direito (art. 187) tem natureza OBJETIVA (Enunciado 37 JDC).",
+        "Art. 927, parágrafo único: responsabilidade objetiva pela teoria do risco.",
+        "Empregador responde objetivamente por atos do empregado (arts. 932, III, e 933).",
+        "Estado responde objetivamente (art. 37, §6º, CF/88), com regresso em dolo/culpa do agente.",
+        "Excludentes: fortuito/força maior, culpa exclusiva da vítima, fato de terceiro.",
+        "Responsabilidade por infração tributária é objetiva (art. 136 do CTN)."
+      ],
+      "dica_prova": "Pegadinha frequente: exigir culpa para o abuso de direito (art. 187) — ele é objetivo. Lembre que a responsabilidade do empregador por atos do empregado é objetiva (não mais culpa in eligendo/vigilando) e que, no tributário, a responsabilidade por infrações independe da intenção do agente (art. 136 CTN), salvo lei em contrário."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Teoria geral e espécies",
+      "intro": "Contrato é o negócio jurídico bilateral ou plurilateral que, pelo acordo de vontades, cria, modifica ou extingue direitos e obrigações de conteúdo patrimonial. É a principal fonte das obrigações e expressão da autonomia privada, hoje funcionalizada pelos princípios da boa-fé objetiva e da função social.\n\nO Código Civil trata da teoria geral dos contratos a partir do art. 421 e das espécies (contratos em espécie) a partir do art. 481. A liberdade contratual será exercida nos limites da função social do contrato (art. 421, com redação dada pela Lei 13.874/2019, que reforçou a intervenção mínima e a excepcionalidade da revisão). Conhecer formação, classificação, princípios e os tipos contratuais mais comuns é o foco da prova.",
+      "secoes": [
+        {
+          "h": "Princípios contratuais",
+          "p": "Quatro pilares estruturam os contratos: (1) autonomia privada/liberdade contratual (liberdade de contratar e de definir conteúdo, art. 421); (2) força obrigatória (pacta sunt servanda — o contrato faz lei entre as partes); (3) boa-fé objetiva (art. 422 — dever de lealdade e cooperação em todas as fases); e (4) função social do contrato (art. 421 — o contrato não pode ferir interesses metaindividuais nem a dignidade alheia).\n\nDa boa-fé objetiva derivam figuras como o venire contra factum proprium (proibição de comportamento contraditório), a supressio, a surrectio e o tu quoque. A relatividade dos efeitos (o contrato, em regra, só vincula as partes) é mitigada pela função social, que admite efeitos perante terceiros em certos casos."
+        },
+        {
+          "h": "Formação do contrato",
+          "p": "O contrato forma-se pelo encontro de proposta (policitação/oferta) e aceitação. A proposta obriga o proponente (art. 427), salvo as exceções do art. 428 (ex.: proposta sem prazo a presente não aceita imediatamente perde a força). A aceitação fora do prazo, com adições ou modificações, importa nova proposta (contraproposta, art. 431).\n\nEntre presentes, o contrato se forma instantaneamente; entre ausentes, adota-se em regra a teoria da expedição (reputa-se concluído quando a aceitação é expedida, art. 434), com exceções. O contrato preliminar (arts. 462 a 466) gera obrigação de contratar o definitivo e, se não cumprido, pode ensejar adjudicação compulsória se não houver cláusula de arrependimento."
+        },
+        {
+          "h": "Classificação dos contratos",
+          "p": "Quanto às prestações: unilaterais (obrigações só para uma parte, ex.: doação pura) x bilaterais/sinalagmáticos (obrigações recíprocas, ex.: compra e venda). Quanto ao sacrifício: onerosos x gratuitos. Quanto ao momento: comutativos (prestações certas e equivalentes) x aleatórios (dependem de evento incerto, ex.: seguro, emptio spei).\n\nQuanto à forma: consensuais (formam-se pelo consenso) x reais (exigem entrega da coisa, ex.: mútuo, comodato) x formais/solenes (exigem forma legal). Quanto à previsão legal: típicos/nominados x atípicos. Institutos correlatos: vícios redibitórios (defeitos ocultos, art. 441), evicção (perda da coisa por decisão judicial/ato administrativo, art. 447) e exceptio non adimpleti contractus (art. 476)."
+        },
+        {
+          "h": "Extinção e revisão contratual",
+          "p": "A extinção normal dá-se pelo cumprimento. Extinções anormais: resolução por inadimplemento (com cláusula resolutiva expressa ou tácita, arts. 474/475), resilição (bilateral — distrato; ou unilateral — denúncia, quando admitida, art. 473) e rescisão (extinção por vício/lesão).\n\nA teoria da imprevisão permite a resolução por onerosidade excessiva quando, em contratos de execução continuada ou diferida, a prestação se torna excessivamente onerosa por acontecimentos extraordinários e imprevisíveis (arts. 478 a 480). O réu pode evitar a resolução oferecendo-se a modificar equitativamente as condições (art. 479). Diferente da lesão (vício contemporâneo à formação)."
+        },
+        {
+          "h": "Espécies típicas relevantes",
+          "p": "Compra e venda (art. 481): contrato pelo qual um se obriga a transferir o domínio de coisa certa e o outro a pagar preço em dinheiro; gera apenas efeitos obrigacionais, a transferência da propriedade depende da tradição (móveis) ou registro (imóveis). Inclui cláusulas especiais como retrovenda, venda a contento e preempção/preferência.\n\nOutras espécies cobradas: locação de coisas (cessão do uso e gozo mediante aluguel), prestação de serviços (art. 593), empreitada (art. 610), mandato (art. 653 — representação), fiança (art. 818 — garantia fidejussória, exige forma escrita e não admite interpretação extensiva, art. 819) e seguro (art. 757 — contrato aleatório). A fiança, por ser garantia pessoal, é fonte de pegadinhas (ex.: benefício de ordem do art. 827)."
+        }
+      ],
+      "exemplo": "Questão comentada: Em um contrato de locação por prazo determinado, o fiador pode invocar o benefício de ordem para exigir que primeiro sejam executados os bens do locatário? Em regra sim (art. 827 do CC), mas o fiador NÃO terá esse benefício se a ele renunciou expressamente, se se obrigou como principal pagador/devedor solidário, ou se o afiançado for insolvente/falido (art. 828). Em locações, é praxe a renúncia ao benefício de ordem — pegadinha frequente.\n\nOutro ponto: a banca afirma que a compra e venda de imóvel, por si só, transfere a propriedade ao comprador no momento da assinatura. ERRADO — no Direito brasileiro a compra e venda gera efeitos obrigacionais; a propriedade imobiliária só se transfere com o registro do título no Cartório de Registro de Imóveis (arts. 1.227 e 1.245 do CC). Relevante inclusive para a incidência do ITBI.",
+      "pontos_chave": [
+        "Princípios: autonomia privada, força obrigatória, boa-fé objetiva (art. 422) e função social (art. 421).",
+        "Da boa-fé objetiva derivam venire contra factum proprium, supressio, surrectio e tu quoque.",
+        "Entre ausentes vigora, em regra, a teoria da expedição (art. 434).",
+        "Contraproposta: aceitação com modificações é nova proposta (art. 431).",
+        "Classificação: unilateral/bilateral, oneroso/gratuito, comutativo/aleatório, consensual/real/formal.",
+        "Onerosidade excessiva (arts. 478-480): resolução por fato extraordinário e imprevisível.",
+        "Compra e venda gera efeitos obrigacionais; propriedade exige tradição ou registro.",
+        "Fiança exige forma escrita e não admite interpretação extensiva (art. 819)."
+      ],
+      "dica_prova": "Lembre que a compra e venda, por si só, não transfere a propriedade (precisa de registro/tradição) — relevante para o ITBI. No fiador, o benefício de ordem (art. 827) é afastado por renúncia, solidariedade ou insolvência do afiançado (art. 828), comum em locação. Distinga lesão (vício na formação) de onerosidade excessiva (fato superveniente)."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Empresário e estabelecimento",
+      "intro": "O Direito de Empresa, inserido no Código Civil de 2002 (arts. 966 a 1.195), adotou a Teoria da Empresa de matriz italiana, abandonando a antiga Teoria dos Atos de Comércio. Empresário é quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços (art. 966).\n\nDois núcleos concentram a cobrança: a figura do empresário (e a delimitação de quem NÃO é empresário) e o estabelecimento empresarial como complexo de bens, com destaque para o trespasse (sua alienação). Para o Auditor-Fiscal, o registro na Junta Comercial e a sucessão tributária no trespasse (art. 133 do CTN) são pontos sensíveis e frequentemente cobrados.",
+      "secoes": [
+        {
+          "h": "Conceito de empresário e exclusões",
+          "p": "Empresário caracteriza-se por quatro elementos: profissionalismo (habitualidade), atividade econômica (visando lucro), organização (articulação dos fatores de produção: capital, trabalho, insumos e tecnologia) e produção/circulação de bens ou serviços. O empresário pode ser individual (pessoa física) ou a sociedade empresária (pessoa jurídica).\n\nO parágrafo único do art. 966 EXCLUI do conceito quem exerce profissão intelectual, de natureza científica, literária ou artística, ainda com auxiliares ou colaboradores — salvo se o exercício constituir elemento de empresa. Assim, médicos, advogados e artistas, em regra, não são empresários; mas se a atividade for absorvida por uma organização empresarial (ex.: um grande hospital), passa a ser elemento de empresa. Pegadinha clássica."
+        },
+        {
+          "h": "Registro, capacidade e impedimentos",
+          "p": "É obrigatória a inscrição do empresário no Registro Público de Empresas Mercantis (Junta Comercial) ANTES do início da atividade (art. 967). Atenção: o registro tem natureza declaratória da condição de empresário (que decorre do exercício da atividade), não constitutiva — o exercício sem registro torna o empresário irregular, mas ainda empresário, sujeito a sanções (ex.: não pode requerer recuperação judicial, art. 48 da Lei 11.101/2005).\n\nPode ser empresário quem estiver em pleno gozo da capacidade civil e não for legalmente impedido (art. 972). Há impedidos (ex.: magistrados, membros do MP, militares da ativa, falidos não reabilitados, servidores públicos conforme estatuto); se o impedido exercer, responde pelas obrigações contraídas (art. 973). O incapaz pode, excepcionalmente, CONTINUAR empresa antes exercida por ele ou por seus pais, mediante autorização judicial (art. 974)."
+        },
+        {
+          "h": "Nome empresarial",
+          "p": "O nome empresarial identifica o empresário e a sociedade. Há duas espécies: a firma (ou razão social), formada a partir do nome civil do empresário ou dos sócios; e a denominação, que pode usar elemento fantasia e indica o objeto social. O empresário individual e algumas sociedades de pessoas operam por firma; a sociedade anônima opera por denominação (art. 1.160); a limitada pode adotar firma ou denominação (art. 1.158).\n\nO nome empresarial não pode ser objeto de alienação (art. 1.164) — é inalienável, diferentemente do estabelecimento e da marca. O nome goza de proteção pelo registro na Junta Comercial, no âmbito do Estado. Não confundir nome empresarial (identifica o sujeito) com marca (identifica produtos/serviços, registrada no INPI) nem com título de estabelecimento (nome fantasia do ponto)."
+        },
+        {
+          "h": "Estabelecimento e trespasse",
+          "p": "Estabelecimento (fundo de empresa) é todo complexo de bens organizado para o exercício da empresa, por empresário ou sociedade (art. 1.142). É uma universalidade de fato, que pode ser objeto unitário de direitos e negócios jurídicos. Inclui bens corpóreos (mercadorias, máquinas) e incorpóreos (ponto, aviamento, clientela).\n\nTrespasse é o contrato de alienação (transferência) do estabelecimento. Para produzir efeitos perante terceiros, o contrato deve ser averbado no Registro Público de Empresas Mercantis e publicado (art. 1.144). Se ao alienante não restarem bens suficientes para solver o passivo, a eficácia depende do pagamento de todos os credores ou do consentimento destes, expresso ou tácito em 30 dias (art. 1.145) — sob pena de configurar fraude/ineficácia, inclusive na falência."
+        },
+        {
+          "h": "Cláusula de não concorrência e sucessão tributária",
+          "p": "Salvo autorização expressa, o alienante do estabelecimento NÃO pode fazer concorrência ao adquirente nos cinco anos subsequentes à transferência (art. 1.147) — cláusula de não restabelecimento implícita. O adquirente responde pelo pagamento dos débitos anteriores à transferência, desde que regularmente contabilizados, e o devedor primitivo continua solidariamente obrigado pelo prazo de um ano (art. 1.146).\n\nNo plano TRIBUTÁRIO, a sucessão segue o art. 133 do CTN: quem adquire fundo de comércio ou estabelecimento e continua a respectiva exploração responde pelos tributos relativos ao estabelecimento adquirido — integralmente, se o alienante cessar a exploração; subsidiariamente, se o alienante prosseguir ou recomeçar atividade em 6 meses. Há exceções na aquisição em processo de falência/recuperação judicial (art. 133, §1º). Ponto altíssimo de cobrança para Auditor-Fiscal."
+        }
+      ],
+      "exemplo": "Questão comentada: Um empresário vende seu estabelecimento (trespasse) e, três meses depois, abre negócio idêntico na mesma rua. É lícito? Não, salvo autorização expressa no contrato: o art. 1.147 do CC veda ao alienante concorrer com o adquirente pelos cinco anos seguintes. Trata-se de cláusula de não restabelecimento implícita, protetora do aviamento adquirido.\n\nPegadinha fiscal central: ao adquirir um estabelecimento e CONTINUAR a exploração, o adquirente assume os tributos do estabelecimento (art. 133 do CTN). Se o alienante encerrou suas atividades, a responsabilidade do adquirente é INTEGRAL; se o alienante continuou em qualquer ramo ou reiniciou em até 6 meses, a responsabilidade do adquirente é SUBSIDIÁRIA. A banca costuma inverter integral/subsidiário — fique atento.",
+      "pontos_chave": [
+        "Empresário (art. 966): profissionalismo, atividade econômica, organização e produção/circulação.",
+        "Profissão intelectual não é empresa, salvo se constituir elemento de empresa (art. 966, parágrafo único).",
+        "Registro na Junta Comercial é obrigatório e declaratório (art. 967).",
+        "Estabelecimento é universalidade de fato; complexo de bens organizado (art. 1.142).",
+        "Trespasse: averbação no registro e publicação para eficácia perante terceiros (art. 1.144).",
+        "Se faltarem bens, trespasse depende de pagamento ou anuência dos credores (art. 1.145).",
+        "Cláusula de não concorrência implícita por 5 anos ao alienante (art. 1.147).",
+        "Sucessão tributária no trespasse: art. 133 do CTN (integral ou subsidiária)."
+      ],
+      "dica_prova": "O ponto-chave fiscal é o art. 133 do CTN: adquirente que continua a exploração responde INTEGRALMENTE se o alienante cessou a atividade, e SUBSIDIARIAMENTE se ele prosseguiu ou recomeçou em 6 meses. A banca inverte integral/subsidiário. Lembre também que profissional intelectual em regra não é empresário, salvo elemento de empresa."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Sociedades",
+      "intro": "Sociedade é o contrato pelo qual duas ou mais pessoas (ou, em certos casos, uma só) reciprocamente se obrigam a contribuir, com bens ou serviços, para o exercício de atividade econômica e a partilha, entre si, dos resultados (art. 981 do CC). O Direito Societário do Código Civil (arts. 981 a 1.141) e a Lei 6.404/1976 (Lei das S.A.) regem os tipos societários.\n\nA classificação fundamental separa sociedades não personificadas (em comum e em conta de participação) das personificadas, e estas em sociedades simples (atividade não empresarial) e empresárias (exercem empresa, registradas na Junta Comercial). Para o Auditor-Fiscal, importa a responsabilidade dos sócios — limitada ou ilimitada — e a sociedade limitada, tipo dominante no Brasil, além da sociedade anônima.",
+      "secoes": [
+        {
+          "h": "Sociedades não personificadas",
+          "p": "A sociedade EM COMUM (arts. 986 a 990) é a sociedade de fato/irregular, sem registro de seus atos constitutivos; nela, todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais, excluído do benefício de ordem aquele que contratou pela sociedade (art. 990). Os bens sociais formam um patrimônio especial.\n\nA sociedade EM CONTA DE PARTICIPAÇÃO (arts. 991 a 996) tem dois tipos de sócio: o ostensivo, que exerce a atividade em seu nome e se obriga perante terceiros; e o(s) participante(s)/oculto(s), que só se vincula(m) ao ostensivo. Não tem personalidade jurídica ainda que registrada (o registro não lhe confere personalidade, art. 993), e atua sem nome empresarial."
+        },
+        {
+          "h": "Sociedade simples x empresária",
+          "p": "O critério é o objeto: a sociedade empresária tem por objeto o exercício de empresa (atividade econômica organizada, art. 982) e registra-se na Junta Comercial; a sociedade simples exerce atividade não empresarial (ex.: prestação de serviços intelectuais) e registra-se no Registro Civil de Pessoas Jurídicas.\n\nIndependentemente do objeto, considera-se SEMPRE empresária a sociedade por ações (S.A.) e SEMPRE simples a cooperativa (art. 982, parágrafo único). A sociedade simples é também o regime supletivo/modelo geral, aplicando-se suas normas a outros tipos no que couber. Pegadinha: a S.A. é sempre empresária mesmo que seu objeto seja atividade intelectual."
+        },
+        {
+          "h": "Sociedade limitada",
+          "p": "A sociedade limitada (arts. 1.052 a 1.087) é o tipo mais difundido. A responsabilidade de cada sócio é restrita ao valor de suas quotas, mas TODOS respondem solidariamente pela integralização do capital social (art. 1.052) — ou seja, enquanto o capital não estiver totalmente integralizado, há solidariedade entre os sócios por essa diferença.\n\nA Lei 13.874/2019 admitiu a limitada UNIPESSOAL (um único sócio, art. 1.052, §§1º e 2º), absorvendo a função da extinta EIRELI. Rege-se supletivamente pelas normas da sociedade simples, podendo o contrato prever regência supletiva pela Lei das S.A. (art. 1.053). A administração cabe a pessoas designadas no contrato ou em ato separado; deliberações relevantes exigem quóruns específicos (arts. 1.071 e 1.076), tema cobrado."
+        },
+        {
+          "h": "Sociedade anônima",
+          "p": "A sociedade anônima ou companhia (Lei 6.404/1976) tem o capital dividido em ações, e a responsabilidade do acionista limita-se ao preço de emissão das ações subscritas ou adquiridas (art. 1.088 do CC e art. 1º da LSA). É sempre empresária e identificada por denominação. Divide-se em aberta (valores mobiliários admitidos à negociação no mercado, sob registro na CVM) e fechada.\n\nÓrgãos típicos: Assembleia Geral (deliberativo soberano), Conselho de Administração (facultativo nas fechadas, obrigatório nas abertas e de capital autorizado), Diretoria (representação e gestão) e Conselho Fiscal (fiscalização). As ações classificam-se em ordinárias (direito a voto), preferenciais (vantagens patrimoniais, voto restrito) e de fruição. Distinguir os tipos de ações e os direitos essenciais do acionista (art. 109 da LSA) é cobrado."
+        },
+        {
+          "h": "Outros tipos e responsabilidade dos sócios",
+          "p": "Tipos do CC com responsabilidade ILIMITADA: sociedade em nome coletivo (N/C — todos os sócios, pessoas físicas, respondem ilimitada e solidariamente, art. 1.039). Tipos com responsabilidade MISTA: comandita simples (sócios comanditados, ilimitados; comanditários, limitados ao valor da quota, art. 1.045) e comandita por ações.\n\nQuadro-resumo de responsabilidade: limitada e S.A. = limitada; em nome coletivo = ilimitada para todos; em comandita = mista; sociedade em comum = ilimitada e solidária. Cuidado: a limitação da responsabilidade não é absoluta — pode ser afastada por desconsideração (art. 50 do CC) ou pela responsabilidade tributária do art. 135 do CTN, quando há infração de lei. Tema-ponte recorrente em concursos fiscais."
+        }
+      ],
+      "exemplo": "Questão comentada: Em uma sociedade limitada com capital social de R$ 100.000, ainda não totalmente integralizado (faltam R$ 30.000), um credor não recebe seu crédito. Os sócios respondem? Sim, solidariamente, pela parcela NÃO integralizada do capital (R$ 30.000), conforme o art. 1.052 do CC. Após a integralização total, a responsabilidade dos sócios pelas dívidas sociais, em regra, cessa, limitando-se ao valor das quotas.\n\nPegadinha frequente: a banca afirma que \"a cooperativa é sempre sociedade empresária\". ERRADO — a cooperativa é SEMPRE sociedade simples, e a sociedade por ações é SEMPRE empresária (art. 982, parágrafo único). Outra: a limitação de responsabilidade do sócio nunca pode ser superada — ERRADO, pode ser afastada por desconsideração (art. 50) ou no tributário pelo art. 135 do CTN (infração de lei pelo sócio-gerente).",
+      "pontos_chave": [
+        "Não personificadas: sociedade em comum (de fato) e em conta de participação.",
+        "Sociedade em comum: sócios respondem ilimitada e solidariamente (art. 990).",
+        "Critério simples x empresária é o objeto; S.A. é sempre empresária e cooperativa sempre simples (art. 982, p.ú.).",
+        "Limitada: responsabilidade restrita às quotas, com solidariedade pela integralização (art. 1.052).",
+        "Limitada unipessoal admitida pela Lei 13.874/2019 (absorveu a EIRELI).",
+        "S.A.: capital em ações; acionista responde pelo preço de emissão (LSA, art. 1º).",
+        "Órgãos da S.A.: Assembleia, Conselho de Administração, Diretoria e Conselho Fiscal.",
+        "Em nome coletivo: responsabilidade ilimitada; em comandita: responsabilidade mista."
+      ],
+      "dica_prova": "Decore: cooperativa é SEMPRE simples e sociedade por ações é SEMPRE empresária. Na limitada, há solidariedade entre sócios pela parte NÃO integralizada do capital. A limitação de responsabilidade pode ser superada por desconsideração (art. 50) ou pelo art. 135 do CTN — não é absoluta."
+    },
+    {
+      "ti": 5,
+      "si": 2,
+      "titulo": "Falência e recuperação",
+      "intro": "A Lei 11.101/2005 (Lei de Recuperação de Empresas e Falência — LREF), profundamente alterada pela Lei 14.112/2020, disciplina três institutos: a recuperação judicial, a recuperação extrajudicial e a falência do empresário e da sociedade empresária. Seu eixo é o princípio da preservação da empresa viável (art. 47) e da função social, separando a sorte da empresa (atividade) da sorte do empresário insolvente.\n\nPara o Auditor-Fiscal, o tema é estratégico: a falência e a recuperação afetam a ordem dos créditos (com posição específica do crédito tributário), a habilitação da Fazenda, a sucessão tributária na alienação de ativos e a exigência de regularidade fiscal. Conhecer quem se submete à lei, a classificação dos créditos e os efeitos sobre o crédito tributário é essencial.",
+      "secoes": [
+        {
+          "h": "Âmbito de aplicação e juízo competente",
+          "p": "A LREF aplica-se ao empresário e à sociedade empresária (art. 1º). NÃO se submetem a ela (art. 2º): empresas públicas e sociedades de economia mista; instituições financeiras públicas ou privadas, cooperativas de crédito, consórcios, entidades de previdência complementar, sociedades operadoras de plano de saúde, seguradoras, sociedades de capitalização e outras equiparadas — sujeitas a regimes próprios (ex.: liquidação extrajudicial pelo Banco Central).\n\nO juízo da falência é universal/indivisível (art. 76): atrai todas as ações sobre bens, interesses e negócios do falido, salvo exceções (causas trabalhistas, fiscais e as que demandam quantia ilíquida). É competente o juízo do principal estabelecimento do devedor (art. 3º)."
+        },
+        {
+          "h": "Recuperação judicial",
+          "p": "A recuperação judicial visa viabilizar a superação da crise econômico-financeira do devedor, permitindo a manutenção da fonte produtora, do emprego e dos interesses dos credores (art. 47). Pode requerê-la o devedor que, no momento do pedido, exerça regularmente suas atividades há mais de 2 anos (art. 48) e atenda a requisitos (não ser falido, não ter obtido recuperação nos últimos 5 anos etc.).\n\nDeferido o processamento, suspendem-se por 180 dias (prorrogáveis) as execuções contra o devedor — o stay period (art. 6º). O plano de recuperação é apresentado em 60 dias e submetido à assembleia-geral de credores. Os créditos sujeitam-se à recuperação se existentes na data do pedido, ainda que não vencidos; os créditos TRIBUTÁRIOS, porém, NÃO se sujeitam à recuperação (art. 6º, §7º-B, e art. 187 do CTN)."
+        },
+        {
+          "h": "Crédito tributário na recuperação e falência",
+          "p": "O crédito tributário não se sujeita ao concurso de credores nem à habilitação em falência, recuperação judicial, inventário ou arrolamento (art. 187 do CTN e art. 29 da LEF — Lei 6.830/80). A execução fiscal não se suspende automaticamente pelo deferimento da recuperação, embora atos de constrição passem por juízo de cooperação.\n\nA concessão da recuperação judicial exige a apresentação de certidões negativas de débitos tributários (art. 57 da LREF, c/c art. 191-A do CTN), viabilizada por parcelamento específico de devedores em recuperação (art. 155-A, §§3º e 4º, do CTN, e a Lei 10.522/2002, art. 10-A, com a redação dada pela Lei 14.112/2020). A transação tributária (Lei 13.988/2020) também passou a ser via relevante para esses devedores."
+        },
+        {
+          "h": "Falência: efeitos e arrecadação",
+          "p": "A falência é processo de execução coletiva do devedor empresário insolvente, com afastamento da atividade e liquidação do patrimônio para pagamento dos credores conforme a ordem legal. Pode ser requerida por impontualidade injustificada (dívida líquida superior a 40 salários mínimos protestada, art. 94, I), execução frustrada (II) ou prática de atos de falência (III).\n\nDecretada a falência (sentença), instaura-se o juízo universal, nomeia-se administrador judicial, arrecadam-se os bens e forma-se a massa falida. O termo legal da falência (art. 99, II) retroage até 90 dias para identificar atos ineficazes/revogáveis (arts. 129 e 130). Há vencimento antecipado das dívidas do falido (art. 77). A alienação de ativos pode ocorrer livre de sucessão (art. 141, II), inclusive tributária (art. 133, §1º, do CTN), o que estimula a aquisição."
+        },
+        {
+          "h": "Ordem de classificação dos créditos na falência",
+          "p": "A ordem de pagamento (art. 83, com a redação da Lei 14.112/2020) é: (I) créditos trabalhistas até 150 salários mínimos por credor e acidentários; (II) créditos com garantia real até o limite do bem gravado; (III) créditos tributários, exceto as multas tributárias; (IV) créditos quirografários; (V) multas contratuais e penas pecuniárias, inclusive as MULTAS tributárias; (VI) créditos subordinados.\n\nAntes do art. 83 pagam-se os créditos extraconcursais (art. 84 — surgidos após a decretação, despesas da massa, remunerações do administrador, tributos fatos geradores posteriores) e as restituições (arts. 85 e 86). Pegadinha central: o crédito tributário fica em 3º lugar, ABAIXO do trabalhista (limitado) e da garantia real; e a MULTA tributária é rebaixada para a 5ª posição, separada do tributo em si. A Súmula Vinculante 21 e a vedação de exigir depósito/arrolamento como condição de recurso também tangenciam o tema."
+        }
+      ],
+      "exemplo": "Questão comentada: Decretada a falência de uma empresa devedora de ICMS para Goiás, em que posição a Fazenda recebe? O crédito tributário (principal) ocupa a TERCEIRA posição (art. 83, III, da Lei 11.101/2005), depois dos trabalhistas (até 150 salários mínimos) e dos créditos com garantia real. A multa tributária, porém, é rebaixada para a quinta posição (art. 83, VII/V — penas pecuniárias). Já os tributos com fato gerador POSTERIOR à decretação são extraconcursais (art. 84), com preferência sobre os do art. 83.\n\nPegadinha recorrente: afirmar que o crédito tributário não precisa de qualquer cuidado porque \"não se habilita\". É verdade que o crédito tributário não se sujeita a concurso nem se habilita (art. 187 do CTN), mas, na falência, submete-se à ordem de classificação do art. 83 para fins de pagamento pela massa. E a concessão de recuperação judicial exige regularidade fiscal (certidões / parcelamento, art. 57 da LREF e art. 191-A do CTN).",
+      "pontos_chave": [
+        "Lei 11.101/2005, atualizada pela Lei 14.112/2020; princípio da preservação da empresa (art. 47).",
+        "Não se submetem à LREF: instituições financeiras, seguradoras, planos de saúde etc. (art. 2º).",
+        "Juízo falimentar é universal (art. 76); competente o do principal estabelecimento (art. 3º).",
+        "Recuperação judicial: stay period de 180 dias (art. 6º); exige 2 anos de atividade regular (art. 48).",
+        "Crédito tributário não se sujeita a concurso nem se habilita (art. 187 do CTN).",
+        "Concessão de recuperação exige regularidade fiscal (art. 57 LREF; art. 191-A do CTN).",
+        "Falência (art. 83): crédito tributário em 3º lugar; multa tributária rebaixada para a 5ª posição.",
+        "Aquisição de ativos na falência pode ocorrer sem sucessão tributária (art. 133, §1º, CTN)."
+      ],
+      "dica_prova": "A ordem do art. 83 é campeã: trabalhista (até 150 SM) > garantia real > tributário > quirografário > multas (inclusive tributárias) > subordinados. A multa tributária NÃO acompanha o tributo principal. Lembre que o crédito tributário não se habilita (art. 187 CTN), mas entra na ordem de pagamento, e que a recuperação exige certidões/parcelamento fiscal."
+    }
+  ]
+}

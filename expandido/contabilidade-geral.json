@@ -1,0 +1,329 @@
+{
+  "slug": "contabilidade-geral",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Estrutura conceitual",
+      "intro": "A Estrutura Conceitual para Relatório Financeiro (CPC 00 - R2, correlato à Conceptual Framework do IASB) é a \"constituição\" da contabilidade. Ela não é uma norma propriamente dita (não prevalece sobre um CPC específico em caso de conflito), mas serve de base para a elaboração e revisão dos Pronunciamentos e para suprir lacunas quando não há norma aplicável a uma operação.\n\nO objetivo do relatório financeiro de propósito geral é fornecer informações úteis aos usuários externos (investidores, credores e outros fornecedores de capital) que servem de base para suas decisões de aporte de recursos. A contabilidade adota a perspectiva da entidade que reporta, não a dos sócios isoladamente.\n\nO ponto mais cobrado em prova é o sistema de características qualitativas da informação contábil-financeira útil, dividido em fundamentais e de melhoria.",
+      "secoes": [
+        {
+          "h": "Características qualitativas fundamentais",
+          "p": "São duas e indispensáveis: relevância e representação fidedigna. A informação relevante é capaz de fazer diferença nas decisões dos usuários, possuindo valor preditivo (ajuda a prever resultados futuros) e/ou valor confirmatório (confirma ou altera avaliações anteriores). À relevância liga-se a materialidade, um aspecto específico de cada entidade: uma informação é material se sua omissão ou distorção puder influenciar decisões.\n\nA representação fidedigna exige que a informação seja completa (todos os dados necessários), neutra (sem viés, sem manipulação para induzir resultado) e livre de erro (sem erros no processo, o que não significa exatidão absoluta). A neutralidade é apoiada pela prudência (cautela ao julgar em condições de incerteza), mas prudência NÃO significa assimetria — não se deve superavaliar passivos/despesas nem subavaliar ativos/receitas deliberadamente."
+        },
+        {
+          "h": "Características qualitativas de melhoria",
+          "p": "São quatro e servem para aumentar a utilidade da informação que já é relevante e fidedigna: comparabilidade, verificabilidade, tempestividade e compreensibilidade. Um macete clássico de prova é o mnemônico \"CVTC\".\n\nComparabilidade permite identificar semelhanças e diferenças entre entidades ou períodos (não confunda com uniformidade/consistência, que é apenas um meio para atingi-la). Verificabilidade significa que observadores independentes e bem informados chegariam a consenso sobre a representação. Tempestividade é ter a informação disponível a tempo de influenciar decisões. Compreensibilidade é classificar e apresentar a informação de forma clara e concisa para usuários com conhecimento razoável de negócios."
+        },
+        {
+          "h": "Pressupostos e restrição",
+          "p": "O regime de competência (accrual basis) e a continuidade (going concern) são os pressupostos básicos. A continuidade presume que a entidade operará no futuro previsível, sem intenção de liquidar; se a continuidade for afastada, as demonstrações devem ser elaboradas em outra base (por exemplo, valores de liquidação), o que deve ser divulgado.\n\nA restrição que permeia tudo é o custo versus benefício: o benefício de produzir a informação deve justificar seu custo. Esta é a única restrição abrangente reconhecida pela Estrutura Conceitual."
+        },
+        {
+          "h": "Elementos e reconhecimento",
+          "p": "A Estrutura Conceitual define os elementos das demonstrações: ativo, passivo, patrimônio líquido, receitas e despesas. Na versão revisada (R2), ativo é um recurso econômico presente controlado pela entidade como resultado de eventos passados, sendo recurso econômico um direito com potencial de produzir benefícios econômicos. Passivo é uma obrigação presente de transferir recurso econômico, resultante de eventos passados.\n\nReconhecimento é o processo de captar para inclusão no balanço/DRE um item que atenda à definição de elemento, desde que forneça informação relevante e representação fidedigna. As bases de mensuração são o custo histórico e o valor corrente (que engloba valor justo, valor em uso/valor de cumprimento e custo corrente)."
+        }
+      ],
+      "exemplo": "Questão típica (Cebraspe/FGV): \"As características qualitativas de melhoria da informação contábil-financeira são a relevância, a comparabilidade, a verificabilidade e a tempestividade.\" O item é ERRADO. A relevância é característica FUNDAMENTAL (junto com a representação fidedigna), não de melhoria. As de melhoria são apenas comparabilidade, verificabilidade, tempestividade e compreensibilidade.\n\nOutra aplicação: uma empresa deixa de informar uma contingência de R$ 5 milhões em uma demonstração cujo patrimônio é de R$ 8 bilhões; o auditor avalia se a omissão é material — neste caso o valor é pequeno frente ao porte, mas a NATUREZA (litígio relevante) pode torná-lo material, pois materialidade considera magnitude e natureza.",
+      "pontos_chave": [
+        "Fundamentais: relevância e representação fidedigna (sem elas a informação é inútil).",
+        "De melhoria: comparabilidade, verificabilidade, tempestividade, compreensibilidade.",
+        "Relevância = valor preditivo e/ou confirmatório; ligada à materialidade.",
+        "Representação fidedigna = completa, neutra e livre de erro.",
+        "Prudência apoia a neutralidade, mas não admite assimetria proposital.",
+        "Pressupostos: regime de competência e continuidade.",
+        "Única restrição abrangente: custo versus benefício.",
+        "A Estrutura Conceitual não prevalece sobre Pronunciamento específico."
+      ],
+      "dica_prova": "A pegadinha clássica é trocar uma característica de melhoria por uma fundamental, ou listar a 'confiabilidade' (termo antigo, substituído por 'representação fidedigna' desde a convergência ao IFRS). Lembre também que materialidade é aspecto específico da entidade da relevância, e que 'compreensibilidade' não autoriza omitir informação complexa, apenas exige apresentá-la com clareza."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Patrimônio",
+      "intro": "Patrimônio, em sentido contábil, é o conjunto de bens, direitos e obrigações de uma entidade, expresso em moeda. Ele é o objeto de estudo da contabilidade. A representação gráfica do patrimônio é o Balanço Patrimonial, dividido em dois grandes blocos: o ativo (aplicações de recursos) e o passivo + patrimônio líquido (origens de recursos).\n\nA igualdade entre aplicações e origens é a equação patrimonial fundamental, que NUNCA se rompe: Ativo = Passivo + Patrimônio Líquido. Por isso o balanço sempre fecha — todo recurso aplicado teve uma origem.",
+      "secoes": [
+        {
+          "h": "Ativo: bens e direitos",
+          "p": "O ativo reúne os recursos econômicos controlados pela entidade dos quais se esperam benefícios futuros. Compõe-se de bens (tangíveis como estoques, máquinas, veículos, imóveis; e intangíveis como marcas e patentes) e direitos (valores a receber, aplicações financeiras, adiantamentos).\n\nNa Lei 6.404/76, o ativo é ordenado em grau decrescente de liquidez e classificado em Ativo Circulante (realizável em até 12 meses ou no ciclo operacional) e Ativo Não Circulante, este subdividido em Realizável a Longo Prazo, Investimentos, Imobilizado e Intangível."
+        },
+        {
+          "h": "Passivo: obrigações",
+          "p": "O passivo exigível representa as obrigações presentes da entidade com terceiros (capital de terceiros): fornecedores, empréstimos, salários a pagar, tributos a recolher, financiamentos. É ordenado em grau decrescente de exigibilidade e dividido em Passivo Circulante (vence em até 12 meses ou no ciclo operacional) e Passivo Não Circulante (longo prazo).\n\nO passivo representa origem de recursos de terceiros. Quando vencido e pago, reduz simultaneamente um ativo (caixa) e a obrigação."
+        },
+        {
+          "h": "Patrimônio Líquido: capital próprio",
+          "p": "O patrimônio líquido (PL) é o valor residual dos ativos após deduzidos todos os passivos — representa a riqueza própria, o capital dos sócios. Pela Lei 6.404/76 (art. 178, §2º, III), o PL compreende: Capital Social, Reservas de Capital, Ajustes de Avaliação Patrimonial, Reservas de Lucros, Ações em Tesouraria (reduz o PL) e Prejuízos Acumulados (conta devedora; a Lei das S.A. não admite a conta 'Lucros Acumulados' como saldo permanente, pois o lucro deve ser destinado).\n\nO PL pode ser positivo, nulo ou até negativo (passivo a descoberto), situação em que as obrigações superam os ativos."
+        },
+        {
+          "h": "A equação patrimonial e suas variações",
+          "p": "A equação A = P + PL pode ser reescrita como PL = A − P (situação líquida). As situações patrimoniais possíveis são: Ativo > Passivo (PL positivo, situação favorável); Ativo = Passivo (PL nulo); Ativo < Passivo (PL negativo, passivo a descoberto); Ativo sem Passivo (PL = Ativo, situação ótima); Passivo sem Ativo (situação extrema/impossível na prática).\n\nFatos contábeis alteram o patrimônio: fatos permutativos só trocam elementos sem mudar o PL (ex.: comprar máquina à vista); fatos modificativos alteram o PL via receita ou despesa; fatos mistos combinam permuta e modificação."
+        }
+      ],
+      "exemplo": "Uma empresa possui: Caixa R$ 20.000, Estoques R$ 50.000, Imóveis R$ 130.000 (Ativo total = R$ 200.000); Fornecedores R$ 40.000 e Empréstimos R$ 60.000 (Passivo = R$ 100.000). Qual o Patrimônio Líquido?\n\nAplicando PL = A − P = 200.000 − 100.000 = R$ 100.000. A situação é favorável (PL positivo).\n\nAgora um fato misto: a empresa paga um empréstimo de R$ 60.000 com juros de R$ 5.000, totalizando R$ 65.000 em dinheiro. O Caixa cai R$ 65.000, o Passivo cai R$ 60.000 e surge uma despesa de juros de R$ 5.000 que reduz o PL. Permuta (caixa x empréstimo) + modificação (despesa) = fato misto.",
+      "pontos_chave": [
+        "Equação fundamental: Ativo = Passivo + Patrimônio Líquido.",
+        "Ativo = bens + direitos (aplicações); ordenado por liquidez decrescente.",
+        "Passivo = obrigações com terceiros; ordenado por exigibilidade decrescente.",
+        "PL = capital próprio = valor residual (Ativo − Passivo).",
+        "PL negativo = passivo a descoberto (Passivo > Ativo).",
+        "Fatos permutativos não mexem no PL; modificativos sim (receita/despesa).",
+        "Fato misto = permuta + modificação na mesma operação.",
+        "Lei 6.404/76 ordena ativo e passivo em circulante e não circulante."
+      ],
+      "dica_prova": "Cuidado: 'patrimônio bruto' costuma ser usado como sinônimo de ativo total, enquanto 'patrimônio líquido' é o residual. Bancas adoram pedir a situação líquida e variar os números para que o candidato calcule PL = A − P. Outra pegadinha é classificar 'Ações em Tesouraria' como ativo — elas são conta REDUTORA do PL. E lembre: na Lei das S.A., não existe saldo permanente em 'Lucros Acumulados', apenas 'Prejuízos Acumulados'."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Débito e crédito",
+      "intro": "O método das partidas dobradas, sistematizado por Luca Pacioli em 1494, é a base universal da escrituração: para todo débito há um crédito de igual valor, de modo que a soma dos débitos sempre iguala a soma dos créditos. Daí o nome 'partidas dobradas' — cada fato é registrado em pelo menos duas contas.\n\nDébito e crédito são apenas lados/convenções de registro (esquerda e direita do razonete), sem conotação de 'bom' ou 'ruim'. O efeito de debitar ou creditar depende da NATUREZA da conta.",
+      "secoes": [
+        {
+          "h": "Mecânica do débito e do crédito",
+          "p": "A regra de aumento/diminuição segue a natureza da conta:\n\nContas de natureza DEVEDORA — Ativo e Despesas: aumentam a débito, diminuem a crédito.\n\nContas de natureza CREDORA — Passivo, Patrimônio Líquido e Receitas: aumentam a crédito, diminuem a débito.\n\nUm mnemônico útil: 'ADD' (Ativo e Despesa aumentam a Débito) e 'PRC' (Passivo, Receita e PL aumentam a Crédito). Saldo devedor é quando a soma dos débitos supera a dos créditos; saldo credor, o contrário."
+        },
+        {
+          "h": "Razonete (conta T) e balancete",
+          "p": "O razonete é a representação gráfica em 'T' de uma conta: à esquerda os débitos, à direita os créditos. Ele sintetiza toda a movimentação e revela o saldo final de cada conta.\n\nO balancete de verificação lista todas as contas com seus saldos devedores e credores. Por força das partidas dobradas, o total de saldos devedores deve igualar o total de saldos credores. Se não fechar, há erro de escrituração. Atenção: o balancete que fecha NÃO garante ausência de erros — um lançamento na conta errada (mas com valores iguais em débito e crédito) passa despercebido."
+        },
+        {
+          "h": "Estrutura do lançamento contábil",
+          "p": "O lançamento contábil completo contém: data, conta(s) debitada(s), conta(s) creditada(s), histórico (descrição do fato) e valor. Os lançamentos classificam-se quanto ao número de contas em: 1ª fórmula (um débito e um crédito); 2ª fórmula (um débito e vários créditos); 3ª fórmula (vários débitos e um crédito); 4ª fórmula (vários débitos e vários créditos).\n\nExemplo de 1ª fórmula — compra de mercadorias à vista: D - Estoques (ativo aumenta) / C - Caixa (ativo diminui), R$ 1.000."
+        },
+        {
+          "h": "Contas patrimoniais x contas de resultado",
+          "p": "As contas patrimoniais (ativo, passivo, PL) compõem o Balanço e têm saldo que transita de um período para outro (são permanentes). As contas de resultado (receitas e despesas) são transitórias: ao fim do exercício são encerradas contra a conta Apuração do Resultado do Exercício (ARE), zerando para iniciar o próximo período. O saldo da ARE (lucro ou prejuízo) é transferido ao PL."
+        }
+      ],
+      "exemplo": "Lançar a aquisição de um veículo por R$ 80.000, sendo R$ 30.000 à vista e R$ 50.000 a prazo (financiamento de longo prazo). É um lançamento de 3ª fórmula (vários débitos? não — é 2ª, vários créditos):\n\nD - Veículos (Imobilizado) ......... 80.000\nC - Caixa ................................. 30.000\nC - Financiamentos a Pagar (NC) .. 50.000\n\nO ativo Veículos aumenta (débito), o ativo Caixa diminui (crédito) e surge um passivo (crédito). Total de débitos (80.000) = total de créditos (80.000). É lançamento de 2ª fórmula (um débito, dois créditos).",
+      "pontos_chave": [
+        "Partidas dobradas: soma dos débitos = soma dos créditos, sempre.",
+        "Ativo e Despesa: aumentam a débito (natureza devedora).",
+        "Passivo, PL e Receita: aumentam a crédito (natureza credora).",
+        "Razonete = conta 'T'; débito à esquerda, crédito à direita.",
+        "Balancete que fecha não prova ausência de erros.",
+        "Fórmulas de lançamento: 1ª, 2ª, 3ª e 4ª conforme nº de contas.",
+        "Contas de resultado são transitórias; encerram na ARE.",
+        "Lançamento completo: data, débito, crédito, histórico e valor."
+      ],
+      "dica_prova": "A pegadinha mais comum associa débito a 'algo negativo' e crédito a 'positivo' — falso, depende da natureza da conta. Outra: afirmar que um balancete que fecha está necessariamente correto. Decore que erro de conta trocada, valor duplicado em ambos os lados ou lançamento totalmente omitido não desbalanceia o balancete. Saiba identificar a fórmula do lançamento contando débitos e créditos."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Regime de competência",
+      "intro": "O regime de competência (accrual basis) é o pressuposto básico para o reconhecimento de receitas e despesas: elas são registradas no período em que ocorrem (quando o fato gerador econômico se concretiza), INDEPENDENTEMENTE do recebimento ou do pagamento em dinheiro. É o regime obrigatório pela Lei 6.404/76 e pela contabilidade societária.\n\nSeu oposto é o regime de caixa, no qual receitas e despesas só são reconhecidas quando há efetiva entrada ou saída de dinheiro. O regime de caixa é usado em algumas situações específicas (entidades públicas para certos fins, microempreendedores), mas NÃO na escrituração societária plena.",
+      "secoes": [
+        {
+          "h": "O princípio da confrontação (matching)",
+          "p": "Atrelado à competência está o princípio da confrontação das despesas com as receitas: as despesas devem ser reconhecidas no mesmo período das receitas que ajudaram a gerar. Assim, o Custo das Mercadorias Vendidas é reconhecido junto com a receita de venda; comissões de vendedores acompanham as vendas, etc.\n\nQuando não há relação direta com receita, a despesa é reconhecida no período em que é incorrida (ex.: aluguel do mês, energia consumida)."
+        },
+        {
+          "h": "Receitas e despesas a apropriar / antecipadas",
+          "p": "Da competência decorrem as contas de ajuste. Despesa antecipada (pré-paga) é um ATIVO: paga-se hoje algo cujo benefício é futuro (ex.: seguro anual pago à vista). A cada mês transfere-se 1/12 para despesa. Receita antecipada/diferida (recebida antecipadamente) é um PASSIVO: recebeu-se sem ainda ter cumprido a obrigação (ex.: aluguel recebido adiantado).\n\nReceita a receber é ativo (direito já ganho, ainda não recebido) e despesa a pagar é passivo (despesa já incorrida, ainda não paga). São esses os 'ajustes de exercícios' que materializam a competência."
+        },
+        {
+          "h": "Diferença prática entre competência e caixa",
+          "p": "Considere uma venda a prazo realizada em dezembro/X1 com recebimento em janeiro/X2. Pelo regime de competência, a receita pertence a X1 (quando a venda ocorreu); pelo regime de caixa, pertenceria a X2 (quando o dinheiro entrou). O resultado contábil societário usa SEMPRE a competência.\n\nO mesmo vale para despesas: salários de dezembro pagos em janeiro são despesa de dezembro (competência), embora o caixa só saia em janeiro."
+        },
+        {
+          "h": "Reconhecimento de receita (CPC 47)",
+          "p": "O CPC 47 (Receita de Contrato com Cliente) detalha o reconhecimento em cinco etapas: identificar o contrato; identificar as obrigações de desempenho; determinar o preço da transação; alocar o preço às obrigações; e reconhecer a receita à medida que (ou quando) cada obrigação de desempenho é satisfeita. Reforça que a receita surge com a transferência do controle do bem/serviço ao cliente, não com o mero recebimento."
+        }
+      ],
+      "exemplo": "Em 01/10/X1 uma empresa paga R$ 12.000 por um seguro anual (cobertura de out/X1 a set/X2). Quanto de despesa de seguro deve constar na DRE de X1 (encerrada em 31/12)?\n\nPelo regime de competência, apropria-se apenas o período decorrido: out, nov e dez = 3 meses. Despesa = (12.000 / 12) × 3 = R$ 3.000. Os R$ 9.000 restantes ficam no ativo como 'Seguros a Apropriar' (despesa antecipada), a serem reconhecidos em X2.\n\nLançamento do pagamento: D - Seguros a Apropriar (ativo) 12.000 / C - Caixa 12.000. Ajuste em 31/12: D - Despesa de Seguros 3.000 / C - Seguros a Apropriar 3.000.",
+      "pontos_chave": [
+        "Competência: reconhece receita/despesa no fato gerador, não no caixa.",
+        "Regime obrigatório na contabilidade societária (Lei 6.404/76).",
+        "Confrontação: despesa no mesmo período da receita que gerou.",
+        "Despesa antecipada (paga adiantado) = ATIVO.",
+        "Receita antecipada (recebida adiantado) = PASSIVO.",
+        "Despesa a pagar = passivo; receita a receber = ativo.",
+        "Venda a prazo: receita pelo regime de competência na data da venda.",
+        "CPC 47: receita reconhecida pela transferência de controle (5 etapas)."
+      ],
+      "dica_prova": "A banca adora o cenário de seguro/aluguel pago ou recebido antecipadamente para testar o cálculo proporcional (pró-rata). Erro comum: lançar despesa antecipada como despesa imediata (deveria ir ao ativo). Outra pegadinha: confundir competência com caixa em vendas/compras a prazo. Memorize: 'antecipada que paguei = ativo; antecipada que recebi = passivo'."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "CMV e avaliação de estoques",
+      "intro": "O Custo das Mercadorias Vendidas (CMV) é o valor de custo dos itens que saíram do estoque por venda durante o período. Numa empresa comercial, é tipicamente a maior despesa e o principal determinante do lucro bruto (Receita Líquida − CMV = Lucro Bruto). Em indústrias fala-se em Custo dos Produtos Vendidos (CPV) e em serviços, Custo dos Serviços Prestados (CSP).\n\nA fórmula básica do CMV decorre da movimentação do estoque: CMV = Estoque Inicial + Compras Líquidas − Estoque Final (CMV = EI + C − EF). Isolando, também se obtém EF = EI + C − CMV.",
+      "secoes": [
+        {
+          "h": "Composição das compras e do custo de aquisição",
+          "p": "O CPC 16 (Estoques) determina que o custo de aquisição inclui o preço de compra, fretes, seguros, tributos NÃO recuperáveis e demais gastos para colocar o item em condições de venda. Tributos recuperáveis (ICMS, IPI quando creditável, PIS/COFINS não cumulativos) NÃO integram o custo do estoque — são registrados como tributos a recuperar (ativo).\n\nAs Compras Líquidas = Compras Brutas + Fretes/Seguros sobre compras − Devoluções de compras − Abatimentos − ICMS recuperável sobre compras. O ICMS embutido na nota de compra, sendo recuperável, é destacado como crédito e reduz o custo do estoque."
+        },
+        {
+          "h": "Sistemas de inventário: permanente e periódico",
+          "p": "No inventário PERMANENTE, o estoque e o CMV são controlados a cada operação (cada venda baixa o estoque pelo custo e registra o CMV em tempo real). É o sistema compatível com fichas de controle PEPS/média móvel.\n\nNo inventário PERIÓDICO, o CMV só é apurado ao final do período por diferença (CMV = EI + C − EF), exigindo a contagem física do estoque final. Não há controle contínuo do CMV durante o período."
+        },
+        {
+          "h": "Métodos de avaliação de estoques",
+          "p": "PEPS (FIFO - primeiro que entra, primeiro que sai): baixa-se primeiro o custo das unidades mais antigas. Em cenário de preços crescentes (inflação), gera o MENOR CMV, MAIOR lucro e MAIOR estoque final.\n\nMédia Ponderada (custo médio): recalcula o custo médio unitário a cada nova compra (média móvel, no permanente) ou ao final (média fixa, no periódico). Gera resultado intermediário.\n\nUEPS (LIFO - último que entra, primeiro que sai): baixa o custo mais recente; gera MAIOR CMV e MENOR lucro em inflação. ATENÇÃO: o UEPS é PROIBIDO pela legislação brasileira (fiscal e societária — CPC 16 e Lei 6.404/76), justamente porque reduziria o lucro tributável artificialmente."
+        },
+        {
+          "h": "Mensuração: custo x valor realizável líquido",
+          "p": "O CPC 16 exige que o estoque seja avaliado pelo MENOR valor entre o custo e o valor realizável líquido (VRL = preço de venda estimado − gastos para concluir e vender). Se o VRL ficar abaixo do custo (mercadoria obsoleta, danificada, em queda de preço), reconhece-se uma perda por redução ao valor realizável líquido. É aplicação da prudência."
+        }
+      ],
+      "exemplo": "Movimentação no período: EI = 100 un a R$ 10 (R$ 1.000). Compra de 200 un a R$ 12 (R$ 2.400). Venda de 250 un. Calcule o CMV e o EF pelo PEPS e pela Média Ponderada (inventário permanente).\n\nPEPS: vende-se primeiro as 100 un a R$ 10 (1.000) + 150 un a R$ 12 (1.800) = CMV de R$ 2.800. EF = 50 un a R$ 12 = R$ 600.\n\nMédia Ponderada: custo médio = (1.000 + 2.400) / (100 + 200) = 3.400 / 300 = R$ 11,333/un. CMV = 250 × 11,333 = R$ 2.833,33. EF = 50 × 11,333 = R$ 566,67.\n\nObserve que com preços em alta o PEPS produziu menor CMV (R$ 2.800 < R$ 2.833,33) e, portanto, maior lucro e maior estoque final — exatamente o esperado.",
+      "pontos_chave": [
+        "CMV = Estoque Inicial + Compras Líquidas − Estoque Final.",
+        "Lucro Bruto = Receita Líquida de Vendas − CMV.",
+        "Tributos recuperáveis (ICMS, etc.) não integram o custo do estoque.",
+        "Inventário permanente controla CMV em tempo real; periódico, por diferença.",
+        "Em inflação: PEPS = menor CMV, maior lucro, maior EF.",
+        "UEPS é PROIBIDO no Brasil (fiscal e societário).",
+        "Estoque avaliado pelo menor valor entre custo e valor realizável líquido.",
+        "Frete sobre compras entra no custo; frete sobre vendas é despesa."
+      ],
+      "dica_prova": "Pegadinhas frequentes: (1) incluir ICMS recuperável no custo do estoque — errado, ele é crédito a recuperar; (2) somar frete de VENDAS ao custo do estoque — frete de vendas é despesa operacional, só o frete de COMPRAS integra o custo; (3) afirmar que o UEPS é permitido. Memorize o efeito do PEPS em inflação (menor CMV → maior lucro) e saiba isolar qualquer variável na fórmula CMV = EI + C − EF."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Depreciação",
+      "intro": "Depreciação é a alocação sistemática do valor depreciável de um ativo imobilizado ao longo de sua vida útil, refletindo o consumo dos benefícios econômicos do bem (desgaste físico, uso, obsolescência). É a forma de cumprir o regime de competência e a confrontação: o custo de um bem que serve a vários períodos é distribuído entre eles, não jogado todo em um só.\n\nO CPC 27 (Ativo Imobilizado) e a Lei 6.404/76 (art. 183, §2º) regem o tema. Termos correlatos: amortização (intangíveis com vida útil definida) e exaustão (recursos naturais, jazidas, florestas).",
+      "secoes": [
+        {
+          "h": "Conceitos: valor depreciável, residual e vida útil",
+          "p": "Valor depreciável = custo do ativo − valor residual. O valor residual é a estimativa do quanto se obteria pela venda do bem ao fim da vida útil. A depreciação incide apenas sobre o valor depreciável; o valor residual NÃO é depreciado.\n\nVida útil é o período durante o qual a entidade espera utilizar o ativo (em tempo ou em unidades de produção). Importante: terrenos NÃO se depreciam (vida útil indefinida), embora edificações sobre eles sim. Itens em construção/instalação ainda não começam a depreciar até estarem em condições de uso."
+        },
+        {
+          "h": "Método linear (cotas constantes)",
+          "p": "É o mais cobrado. A depreciação é constante a cada período: Depreciação anual = Valor depreciável / Vida útil (em anos), ou Valor depreciável × taxa anual. A taxa = 100% / vida útil. Ex.: vida útil de 10 anos → taxa de 10% a.a.\n\nA legislação fiscal traz taxas usuais: veículos 20% a.a. (5 anos), móveis e máquinas 10% a.a. (10 anos), edifícios 4% a.a. (25 anos), computadores 20% a.a. Em prova fiscal essas taxas costumam ser fornecidas, mas vale conhecê-las."
+        },
+        {
+          "h": "Métodos da soma dos dígitos e das unidades produzidas",
+          "p": "Soma dos dígitos (Cole) é um método acelerado: para vida útil de n anos, soma-se 1+2+...+n e a fração de cada ano usa os dígitos em ordem decrescente (crescente para o método invertido). Ex.: 5 anos → soma = 15; ano 1 deprecia 5/15, ano 2 → 4/15, e assim por diante. Deprecia mais no início.\n\nUnidades produzidas: a depreciação é proporcional à produção real. Depreciação por unidade = Valor depreciável / produção total estimada; multiplica-se pela produção do período. Não depende do tempo, mas do uso efetivo."
+        },
+        {
+          "h": "Registro contábil e a depreciação acumulada",
+          "p": "A depreciação é registrada: D - Despesa (ou Custo) de Depreciação (resultado) / C - Depreciação Acumulada (conta RETIFICADORA do ativo imobilizado, saldo credor). O valor contábil líquido = custo − depreciação acumulada.\n\nA Depreciação Acumulada NÃO reduz o caixa — é despesa não desembolsável (por isso é readicionada na DFC pelo método indireto). Quando o ativo é vendido, baixam-se tanto o custo quanto a depreciação acumulada, e a diferença entre o valor contábil residual e o preço de venda gera ganho ou perda."
+        }
+      ],
+      "exemplo": "Uma máquina foi adquirida por R$ 100.000, com valor residual estimado de R$ 10.000 e vida útil de 5 anos. Calcule a depreciação anual pelo método linear e o valor contábil após 2 anos.\n\nValor depreciável = 100.000 − 10.000 = R$ 90.000. Depreciação anual = 90.000 / 5 = R$ 18.000.\n\nApós 2 anos: Depreciação Acumulada = 18.000 × 2 = R$ 36.000. Valor contábil líquido = 100.000 − 36.000 = R$ 64.000.\n\nPela soma dos dígitos (5 anos, soma = 15): ano 1 = 90.000 × 5/15 = R$ 30.000; ano 2 = 90.000 × 4/15 = R$ 24.000. Após 2 anos a depreciação acumulada seria R$ 54.000 e o valor contábil R$ 46.000 — bem menor, pois o método acelera no início.",
+      "pontos_chave": [
+        "Depreciação aloca o valor depreciável pela vida útil (competência).",
+        "Valor depreciável = custo − valor residual (residual não se deprecia).",
+        "Terrenos NÃO depreciam; edificações sim.",
+        "Linear: depreciação constante = valor depreciável / vida útil.",
+        "Soma dos dígitos e unidades produzidas são métodos não lineares.",
+        "Depreciação Acumulada é conta retificadora do ativo (saldo credor).",
+        "Depreciação é despesa não desembolsável (não afeta o caixa).",
+        "Amortização = intangível; exaustão = recursos naturais."
+      ],
+      "dica_prova": "Erros clássicos: (1) depreciar sobre o custo total esquecendo de abater o valor residual; (2) depreciar terrenos; (3) confundir depreciação com amortização/exaustão. A banca pode pedir o valor contábil líquido após X anos ou comparar métodos (o acelerado deprecia mais no início). Lembre que a despesa de depreciação reduz o lucro e o ativo, mas não o caixa — ponto-chave para a DFC e para análise de geração de caixa."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Balanço Patrimonial e DRE",
+      "intro": "O Balanço Patrimonial (BP) e a Demonstração do Resultado do Exercício (DRE) são as duas demonstrações nucleares exigidas pela Lei 6.404/76 (art. 176). O BP é ESTÁTICO: retrata a posição patrimonial e financeira em uma data específica (fotografia). A DRE é DINÂMICA: evidencia a formação do resultado (lucro ou prejuízo) ao longo de um período (filme).\n\nAmbas se conectam: o lucro líquido apurado na DRE incorpora-se ao Patrimônio Líquido no BP (via lucros/prejuízos acumulados e destinações), fechando o ciclo contábil.",
+      "secoes": [
+        {
+          "h": "Estrutura do Balanço Patrimonial (Lei 6.404/76)",
+          "p": "ATIVO (ordem decrescente de liquidez): Ativo Circulante (disponível, contas a receber, estoques, despesas antecipadas) e Ativo Não Circulante — subdividido em Realizável a Longo Prazo, Investimentos, Imobilizado e Intangível.\n\nPASSIVO E PL (ordem decrescente de exigibilidade): Passivo Circulante, Passivo Não Circulante e Patrimônio Líquido (Capital Social, Reservas de Capital, Ajustes de Avaliação Patrimonial, Reservas de Lucros, Ações em Tesouraria e Prejuízos Acumulados). A reforma da Lei 11.638/07 extinguiu o Ativo Diferido e o grupo Resultados de Exercícios Futuros."
+        },
+        {
+          "h": "Estrutura da DRE (art. 187 da Lei 6.404/76)",
+          "p": "A DRE segue uma cascata: Receita Bruta de Vendas − Deduções (devoluções, abatimentos, ICMS, ISS, PIS/COFINS) = Receita Líquida; − CMV/CPV = Lucro Bruto; − Despesas operacionais (vendas, administrativas, gerais) ± Resultado financeiro ± Outras receitas/despesas = Resultado antes do IR e CSLL (Lucro Operacional); − Provisão para IR e CSLL = Lucro líquido antes das participações; − Participações (debêntures, empregados, administradores) = LUCRO LÍQUIDO DO EXERCÍCIO; ao final, o Lucro por Ação."
+        },
+        {
+          "h": "Deduções da receita e a receita líquida",
+          "p": "Um ponto crítico: a Receita BRUTA inclui os tributos sobre vendas (ICMS, ISS, PIS, COFINS). Estes são DEDUÇÕES para chegar à Receita Líquida — não são despesas operacionais. Devoluções e abatimentos comerciais também deduzem. Confundir tributo sobre vendas (dedução da receita) com despesa operacional é erro frequente.\n\nO CPC 47, ao tratar de receita 'líquida' de certos tributos cobrados em nome de terceiros, gerou ajustes na apresentação, mas o esquema básico da Lei 6.404/76 permanece cobrado em prova."
+        },
+        {
+          "h": "Conexão entre BP e DRE",
+          "p": "O resultado da DRE não fica isolado: o lucro líquido aumenta o PL e o prejuízo o reduz. As receitas e despesas (contas de resultado) são encerradas na conta Apuração do Resultado do Exercício; o saldo é transferido para o PL. Por isso diz-se que a DRE 'explica' a variação do PL decorrente das operações (sem considerar aportes/distribuições aos sócios)."
+        }
+      ],
+      "exemplo": "Dados (R$): Receita Bruta de Vendas 1.000.000; ICMS sobre vendas 180.000; Devoluções 20.000; CMV 480.000; Despesas com Vendas 90.000; Despesas Administrativas 60.000; Despesas Financeiras 30.000; IR e CSLL 40.000. Monte a DRE até o lucro líquido.\n\nReceita Líquida = 1.000.000 − 180.000 − 20.000 = 800.000.\nLucro Bruto = 800.000 − 480.000 = 320.000.\nResultado operacional = 320.000 − 90.000 − 60.000 − 30.000 = 140.000.\nLucro antes do IR/CSLL = 140.000. Lucro Líquido = 140.000 − 40.000 = R$ 100.000.\n\nEsse lucro líquido de R$ 100.000 será destinado e parte irá compor as Reservas de Lucros no PL do Balanço.",
+      "pontos_chave": [
+        "BP é estático (uma data); DRE é dinâmica (um período).",
+        "Ativo por liquidez decrescente; Passivo+PL por exigibilidade decrescente.",
+        "Receita Líquida = Receita Bruta − tributos s/ vendas − devoluções/abatimentos.",
+        "Lucro Bruto = Receita Líquida − CMV/CPV.",
+        "Tributos sobre vendas são DEDUÇÃO da receita, não despesa operacional.",
+        "DRE em cascata até o Lucro Líquido e o Lucro por Ação.",
+        "Lei 11.638/07 extinguiu Ativo Diferido e Resultados de Exercícios Futuros.",
+        "Lucro líquido da DRE incorpora-se ao PL do Balanço."
+      ],
+      "dica_prova": "A banca testa muito a sequência da DRE e a posição dos tributos sobre vendas (dedução, não despesa). Pegadinha: somar o ICMS sobre vendas às despesas operacionais — derruba o cálculo. No BP, cuidado com a classificação de Investimentos x Imobilizado x Intangível e em lembrar que o Diferido não existe mais. Saiba diferenciar lucro bruto, operacional e líquido — são pontos de corte distintos na cascata."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "DFC e DVA",
+      "intro": "A Demonstração dos Fluxos de Caixa (DFC) e a Demonstração do Valor Adicionado (DVA) foram tornadas obrigatórias pela Lei 11.638/07, que reformou a Lei 6.404/76. A DFC substituiu a antiga DOAR (Demonstração das Origens e Aplicações de Recursos) e é regida pelo CPC 03. A DVA é regida pelo CPC 09.\n\nA DFC mostra a movimentação de CAIXA e equivalentes de caixa no período. A DVA evidencia quanta riqueza a entidade gerou e como a distribuiu entre os agentes que contribuíram para criá-la (empregados, governo, financiadores e sócios).",
+      "secoes": [
+        {
+          "h": "DFC: as três atividades",
+          "p": "A DFC classifica os fluxos em três grupos: OPERACIONAIS (decorrentes das atividades-fim: recebimento de clientes, pagamento a fornecedores, salários, tributos); de INVESTIMENTO (compra/venda de ativos de longo prazo, imobilizado, participações); e de FINANCIAMENTO (captação e amortização de empréstimos, emissão de ações, pagamento de dividendos).\n\nA soma dos três fluxos = variação do saldo de caixa e equivalentes no período. Equivalentes de caixa são aplicações de altíssima liquidez e baixo risco, conversíveis em valor conhecido (vencimento original geralmente até 90 dias)."
+        },
+        {
+          "h": "Métodos direto e indireto da DFC",
+          "p": "O método DIRETO apresenta as entradas e saídas brutas de caixa das atividades operacionais (recebimentos de clientes, pagamentos a fornecedores, etc.).\n\nO método INDIRETO parte do lucro líquido e o ajusta: soma de volta despesas que não afetaram o caixa (depreciação, amortização, provisões), exclui receitas não-caixa, e considera as variações nas contas do capital de giro (aumento de estoque/clientes reduz caixa; aumento de fornecedores aumenta caixa). Ambos chegam ao MESMO fluxo operacional — divergem só na forma de apresentar a parte operacional."
+        },
+        {
+          "h": "DVA: geração e distribuição da riqueza",
+          "p": "A DVA tem duas partes que se igualam. Na PRIMEIRA, calcula-se o valor adicionado: Receitas − Insumos adquiridos de terceiros (matérias-primas, mercadorias, serviços, energia) = Valor Adicionado Bruto; − Depreciação/Amortização = Valor Adicionado Líquido; + Valor adicionado recebido em transferência (receitas financeiras, equivalência patrimonial) = Valor Adicionado Total a Distribuir.\n\nNa SEGUNDA parte, distribui-se essa riqueza entre: Pessoal (salários, benefícios, FGTS); Impostos, Taxas e Contribuições (governo); Remuneração de Capitais de Terceiros (juros, aluguéis); e Remuneração de Capitais Próprios (dividendos, lucros retidos). As duas partes têm sempre o mesmo total."
+        },
+        {
+          "h": "Importância da DVA para o fisco",
+          "p": "A DVA é a demonstração contábil que mais se aproxima do conceito de PIB pela ótica da entidade e é especialmente cara à área fiscal: evidencia a parcela da riqueza destinada ao governo (tributos), permitindo análises de carga tributária. Para o Auditor-Fiscal estadual, a DVA dialoga com o conceito de valor adicionado que fundamenta o ICMS (imposto sobre valor agregado). Companhias abertas são obrigadas a publicá-la."
+        }
+      ],
+      "exemplo": "Cálculo do fluxo de caixa operacional pelo método indireto. Dados: Lucro Líquido R$ 100.000; Depreciação R$ 30.000; aumento de Estoques R$ 15.000; aumento de Fornecedores R$ 10.000; aumento de Clientes (duplicatas a receber) R$ 20.000.\n\nFCO = 100.000 + 30.000 (readiciona depreciação, não-caixa) − 15.000 (aumento de estoque consome caixa) + 10.000 (aumento de fornecedor é financiamento, gera caixa) − 20.000 (aumento de clientes significa venda não recebida) = R$ 105.000.\n\nNote como a depreciação, despesa não desembolsável, volta a ser somada — esse é o ajuste mais cobrado em provas sobre DFC indireta.",
+      "pontos_chave": [
+        "DFC (CPC 03) substituiu a DOAR; obrigatória desde a Lei 11.638/07.",
+        "Três atividades: operacionais, de investimento e de financiamento.",
+        "Soma dos três fluxos = variação de caixa e equivalentes no período.",
+        "Métodos direto e indireto chegam ao mesmo fluxo operacional.",
+        "Indireto parte do lucro líquido e readiciona depreciação/provisões.",
+        "DVA (CPC 09): parte 1 = geração; parte 2 = distribuição da riqueza.",
+        "DVA distribui entre pessoal, governo, terceiros e capitais próprios.",
+        "DVA evidencia a parcela destinada ao governo — relevante para o fisco."
+      ],
+      "dica_prova": "Memorize a classificação correta dos fluxos: dividendos PAGOS geralmente são financiamento; juros pagos podem ser operacionais; compra de imobilizado é investimento. Pegadinha frequente: dizer que os métodos direto e indireto geram fluxos operacionais diferentes — falso, o resultado é idêntico. Na DVA, lembre que as duas partes (geração e distribuição) SEMPRE têm o mesmo total, e que os tributos aparecem como distribuição ao governo, não como redução do valor adicionado."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Índices",
+      "intro": "A análise de balanços (ou análise das demonstrações contábeis) interpreta os dados das demonstrações por meio de quocientes (índices) que medem liquidez, endividamento (estrutura de capital), rentabilidade e atividade (prazos/giros). Complementa-se com a análise horizontal (evolução no tempo) e a análise vertical (participação de cada item no total).\n\nNenhum índice isolado conclui sobre a saúde da empresa; a interpretação é comparativa (com períodos anteriores, com o setor, com concorrentes). A seguir, os grupos mais cobrados.",
+      "secoes": [
+        {
+          "h": "Índices de liquidez",
+          "p": "Medem a capacidade de pagamento. Liquidez Corrente = Ativo Circulante / Passivo Circulante (capacidade de honrar obrigações de curto prazo; > 1 é favorável). Liquidez Seca = (Ativo Circulante − Estoques) / Passivo Circulante (exclui estoques, item de menor liquidez). Liquidez Imediata = Disponibilidades / Passivo Circulante (só caixa/equivalentes). Liquidez Geral = (AC + Realizável a Longo Prazo) / (PC + PNC) — visão de longo prazo. Quanto maior, em regra melhor a folga financeira; valores muito altos, porém, podem indicar recursos ociosos."
+        },
+        {
+          "h": "Índices de endividamento (estrutura de capital)",
+          "p": "Avaliam a dependência de capital de terceiros. Participação de Capital de Terceiros = Capital de Terceiros (PC + PNC) / Patrimônio Líquido (quanto a empresa deve para cada R$ 1 de capital próprio). Composição do Endividamento = Passivo Circulante / Capital de Terceiros total (quanto da dívida vence no curto prazo — quanto menor, melhor o perfil). Grau de Endividamento Geral = Passivo Total / Ativo Total. Quanto MAIOR o endividamento, maior o risco financeiro."
+        },
+        {
+          "h": "Índices de rentabilidade",
+          "p": "Medem o retorno gerado. Margem Líquida = Lucro Líquido / Receita Líquida. ROA (Retorno sobre o Ativo) = Lucro Líquido / Ativo Total (eficiência no uso dos ativos). ROE (Retorno sobre o PL) = Lucro Líquido / Patrimônio Líquido (retorno ao acionista). Giro do Ativo = Receita Líquida / Ativo Total. A análise DuPont decompõe: ROA = Margem Líquida × Giro do Ativo — útil para identificar se o retorno vem de margem ou de giro."
+        },
+        {
+          "h": "Índices de atividade (prazos e ciclos)",
+          "p": "Prazo Médio de Estocagem (PME), Prazo Médio de Recebimento (PMR) e Prazo Médio de Pagamento (PMP) medem em dias quanto tempo a empresa leva para girar estoques, receber clientes e pagar fornecedores. Ciclo Operacional = PME + PMR. Ciclo Financeiro (de Caixa) = Ciclo Operacional − PMP. Quanto menor o ciclo financeiro, melhor: a empresa financia menos sua operação com recursos próprios. Um ciclo financeiro negativo (paga fornecedores depois de receber clientes) é sinal de forte poder de barganha."
+        }
+      ],
+      "exemplo": "Dados (R$): Ativo Circulante 300.000 (sendo Estoques 120.000); Passivo Circulante 150.000; Passivo Não Circulante 100.000; Patrimônio Líquido 250.000; Lucro Líquido 50.000; Receita Líquida 500.000; Ativo Total 500.000.\n\nLiquidez Corrente = 300.000 / 150.000 = 2,0 (para cada R$ 1 de dívida de curto prazo há R$ 2 de ativo circulante — favorável).\nLiquidez Seca = (300.000 − 120.000) / 150.000 = 180.000 / 150.000 = 1,2.\nParticipação de Capital de Terceiros = (150.000 + 100.000) / 250.000 = 1,0 (capital próprio igual ao de terceiros).\nROE = 50.000 / 250.000 = 20%. ROA = 50.000 / 500.000 = 10%. Margem Líquida = 50.000 / 500.000 = 10%. Giro do Ativo = 500.000 / 500.000 = 1,0. Confirme DuPont: ROA = 10% × 1,0 = 10%.",
+      "pontos_chave": [
+        "Liquidez Corrente = AC / PC; Seca exclui estoques; Imediata só disponível.",
+        "Liquidez Geral = (AC + RLP) / (PC + PNC).",
+        "Endividamento: Capital de Terceiros / PL; quanto maior, maior o risco.",
+        "Composição do endividamento = PC / Capital de Terceiros (perfil da dívida).",
+        "ROE = LL / PL (acionista); ROA = LL / Ativo (eficiência dos ativos).",
+        "DuPont: ROA = Margem Líquida × Giro do Ativo.",
+        "Ciclo Operacional = PME + PMR; Ciclo Financeiro = CO − PMP.",
+        "Índice isolado não conclui; análise é comparativa e por tendência."
+      ],
+      "dica_prova": "Confusões clássicas: trocar liquidez seca por imediata (seca tira ESTOQUES; imediata usa só DISPONÍVEL); inverter o numerador/denominador de ROE e ROA; achar que liquidez quanto maior sempre melhor (excesso indica ociosidade). Na análise vertical/horizontal, lembre: vertical = % sobre o total da demonstração (base 100% é o Ativo Total no BP e a Receita Líquida na DRE); horizontal = evolução percentual entre períodos (base 100 é o ano-base). Saiba que ciclo financeiro menor (ou negativo) é desejável."
+    }
+  ]
+}

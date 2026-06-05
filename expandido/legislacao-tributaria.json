@@ -1,0 +1,364 @@
+{
+  "slug": "legislacao-tributaria",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Estrutura do CTE-GO",
+      "intro": "O Código Tributário do Estado de Goiás (CTE-GO) foi instituído pela Lei estadual nº 11.651, de 26 de dezembro de 1991. É a lei ordinária que consolida, num único diploma, todos os tributos de competência do Estado de Goiás (ICMS, ITCD, IPVA e as taxas estaduais), além das normas sobre obrigação tributária, lançamento, crédito tributário, obrigações acessórias, infrações, penalidades e o processo administrativo tributário.\n\nÉ fundamental compreender que o CTE-GO ocupa o papel de 'lei do tributo' no plano estadual, sempre subordinada à Constituição Federal (que reparte competências e fixa as limitações ao poder de tributar) e às leis complementares nacionais — especialmente o CTN (Lei 5.172/66) e a LC 87/96 (Lei Kandir), que veiculam normas gerais que o legislador estadual não pode contrariar.\n\nPara a prova de Auditor-Fiscal da SEFAZ-GO, conhecer a arquitetura do Código é o primeiro passo: saber onde está disciplinado cada tributo e distinguir o que é matéria reservada à lei (instituição, fato gerador, base de cálculo, alíquota, contribuinte) do que pode ser tratado por decreto (RICMS-GO) e por atos infralegais (instruções normativas, portarias).",
+      "secoes": [
+        {
+          "h": "Natureza e fundamento de validade do CTE-GO",
+          "p": "O CTE-GO é uma lei ordinária estadual. Sua validade decorre da competência tributária outorgada aos Estados pela CF/88 (arts. 145 e 155) e do exercício do poder de tributar dentro dos limites das normas gerais nacionais.\n\nA hierarquia é a seguinte: Constituição Federal (reparte competências e fixa imunidades e princípios) → Leis Complementares nacionais (CTN e LC 87/96, veiculando normas gerais de direito tributário, conforme art. 146 da CF) → Lei estadual instituidora (o próprio CTE-GO) → Decreto regulamentador (RICMS-GO, Decreto 4.852/97) → atos administrativos normativos (instruções normativas da SEFAZ, portarias). O CTE-GO não pode inovar onde a lei complementar nacional já fixou a regra-matriz."
+        },
+        {
+          "h": "Estrutura interna do Código",
+          "p": "O CTE-GO se organiza, em linhas gerais, em: (i) disposições preliminares e princípios gerais do sistema tributário estadual; (ii) normas específicas de cada tributo estadual — ICMS, ITCD, IPVA e taxas — com fato gerador, contribuinte, base de cálculo e alíquotas; (iii) obrigação tributária principal e acessória, sujeição passiva, responsabilidade e substituição; (iv) crédito tributário (lançamento, suspensão, extinção e exclusão); (v) infrações e penalidades (multas formais e multas de natureza tributária); e (vi) administração tributária e o processo administrativo tributário (contencioso).\n\nA parte de penalidades é especialmente cobrada: o CTE-GO traz extensa gradação de multas conforme a gravidade da infração."
+        },
+        {
+          "h": "Reserva legal e o papel do RICMS-GO",
+          "p": "Pelo princípio da legalidade tributária (art. 150, I, da CF e art. 97 do CTN), só a lei pode instituir ou majorar tributo, definir fato gerador, fixar alíquota e base de cálculo e cominar penalidades. Por isso, esses elementos estão no CTE-GO (lei), não no regulamento.\n\nO Regulamento do ICMS de Goiás (RICMS-GO, Decreto 4.852/1997) detalha a operacionalização: prazos de recolhimento, modelos de documentos fiscais, regimes especiais, procedimentos de escrituração e o funcionamento da substituição tributária. O decreto não pode criar tributo nem ampliar hipótese de incidência — apenas regulamentar a lei. Atenção: alterar prazo de pagamento e atualizar a base de cálculo por índice oficial NÃO ofendem a legalidade (Súmula Vinculante 50 do STF e jurisprudência consolidada)."
+        },
+        {
+          "h": "Relação com as normas gerais (CTN e LC 87/96)",
+          "p": "Mesmo sendo o Estado competente para instituir seus tributos, ele deve obediência às normas gerais editadas por lei complementar nacional (art. 146, III, da CF). Assim, conceitos como obrigação, lançamento, prescrição, decadência e responsabilidade seguem o CTN; e a regra-matriz do ICMS (fato gerador, não cumulatividade, contribuinte, regimes de substituição) segue a LC 87/96.\n\nO CTE-GO reproduz e detalha essas balizas no plano estadual. Em prova, uma pegadinha clássica é afirmar que o Estado poderia, por lei ordinária estadual, fixar prazo de decadência ou prescrição diferente do CTN — não pode, pois prescrição e decadência tributárias são reservadas à lei complementar nacional."
+        }
+      ],
+      "exemplo": "Questão típica: 'O Estado de Goiás, por meio de decreto que regulamenta o ICMS, pode instituir nova hipótese de incidência não prevista na Lei 11.651/91, desde que para combater a evasão fiscal.' — ERRADO. A instituição de tributo e a definição de fato gerador são reservadas à lei (legalidade estrita, art. 150, I, CF e art. 97 do CTN). O decreto (RICMS-GO) apenas regulamenta o que a lei já criou.\n\nOutro exemplo: 'Decreto que apenas antecipa o prazo de pagamento do ICMS é inconstitucional por ofensa à legalidade e à anterioridade.' — ERRADO. Alteração de prazo de recolhimento não se submete à legalidade estrita nem à anterioridade (Súmula Vinculante 50 do STF).",
+      "pontos_chave": [
+        "CTE-GO = Lei estadual 11.651/1991; lei ordinária instituidora dos tributos de Goiás",
+        "Hierarquia: CF → LC nacional (CTN, LC 87/96) → CTE-GO → RICMS-GO (Dec. 4.852/97) → INs/portarias",
+        "Legalidade estrita (art. 150, I, CF; art. 97 CTN): fato gerador, base, alíquota e penalidade só por lei",
+        "RICMS-GO regulamenta; não cria tributo nem amplia incidência",
+        "Prescrição e decadência são matéria de lei complementar nacional, não de lei estadual",
+        "Alterar prazo de pagamento não exige lei nem respeita anterioridade (SV 50)",
+        "Estrutura: disposições gerais, tributos, obrigação, crédito, infrações/penalidades e processo administrativo"
+      ],
+      "dica_prova": "A banca mistura os planos normativos. Memorize: tudo que toca a regra-matriz (fato gerador, base, alíquota, contribuinte, penalidade) exige LEI; operacionalização (prazos, formulários, procedimentos) vai no DECRETO/RICMS. E o CTE-GO não pode contrariar o CTN nem a LC 87/96."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Hipóteses de incidência",
+      "intro": "O ICMS (Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de transporte interestadual e intermunicipal e de comunicação) é o tributo de maior arrecadação estadual e o coração da prova. Sua competência está no art. 155, II, da CF/88; suas normas gerais, na LC 87/96 (Lei Kandir); e sua instituição estadual, no CTE-GO (Lei 11.651/91) e no RICMS-GO.\n\nApesar de a sigla falar em 'circulação de mercadorias', o ICMS reúne várias materialidades distintas sob um mesmo nome. Identificar corretamente cada hipótese de incidência — e seus contornos jurisprudenciais — é decisivo, pois a banca explora muito as fronteiras (o que incide ICMS e o que incide ISS).\n\nO fato gerador é, em regra, a saída física ou jurídica da mercadoria do estabelecimento, mas há outras hipóteses autônomas: importação, transporte interestadual/intermunicipal, comunicação e fornecimento de energia, entre outras.",
+      "secoes": [
+        {
+          "h": "As materialidades do ICMS (art. 155, II, CF e art. 2º da LC 87/96)",
+          "p": "O ICMS incide sobre: (a) operações relativas à circulação de mercadorias; (b) prestações de serviço de transporte interestadual e intermunicipal; (c) prestações onerosas de serviços de comunicação; (d) fornecimento de mercadorias com prestação de serviços não compreendidos na competência dos Municípios (não previstos na lista do ISS); (e) entrada de mercadoria ou bem importado do exterior, por pessoa física ou jurídica, ainda que não contribuinte habitual; (f) serviço prestado no exterior ou cuja prestação se inicie no exterior; e (g) entrada, no território do Estado, de petróleo, lubrificantes e combustíveis líquidos e gasosos dele derivados e de energia elétrica, quando não destinados à comercialização ou industrialização.\n\nObserve que o transporte INTRAMUNICIPAL não é ICMS — é ISS (competência municipal). Só transporte interestadual e intermunicipal é ICMS."
+        },
+        {
+          "h": "Conceito de 'operação de circulação de mercadoria'",
+          "p": "Não basta a mera movimentação física: exige-se operação jurídica que transfira a titularidade (circulação jurídica). Mercadoria é o bem móvel objeto de mercancia, com intuito de habitualidade e finalidade comercial.\n\nPor isso, a Súmula 166 do STJ firmou que NÃO constitui fato gerador do ICMS o simples deslocamento de mercadoria de um estabelecimento para outro do MESMO contribuinte (transferência entre filiais). O STF reafirmou esse entendimento (ADC 49), declarando inconstitucional a cobrança de ICMS nessas transferências, embora se assegure a manutenção/transferência dos créditos. É pegadinha clássica."
+        },
+        {
+          "h": "Importação, energia, transporte e comunicação",
+          "p": "Na IMPORTAÇÃO, o ICMS incide ainda que o importador não seja contribuinte habitual (EC 33/2001), inclusive sobre bem destinado a uso/consumo ou ativo fixo. O imposto cabe ao Estado onde está domiciliado/estabelecido o destinatário (Súmula 166 não se aplica aqui).\n\nENERGIA ELÉTRICA é juridicamente tratada como mercadoria para fins de ICMS. TRANSPORTE só gera ICMS se interestadual ou intermunicipal e oneroso. COMUNICAÇÃO exige prestação onerosa de serviço (Súmula 334 do STJ: o ICMS não incide sobre serviços de habilitação de celular; e Súmula 350: não incide sobre serviços de provedor de acesso à internet)."
+        },
+        {
+          "h": "Não incidência e fronteira com o ISS",
+          "p": "Há imunidades (art. 155, §2º, X, CF): exportações de mercadorias e serviços, operações com petróleo/combustíveis derivados destinados a outro Estado, ouro como ativo financeiro e prestações de comunicação de radiodifusão sonora e de sons e imagens de recepção livre e gratuita.\n\nA fronteira com o ISS resolve-se pela Lista Anexa à LC 116/2003: se o serviço está na lista, incide ISS (ainda que haja fornecimento de mercadoria, salvo ressalva expressa na própria lista, quando o material é tributado pelo ICMS). Se há fornecimento de mercadoria com serviço NÃO listado, incide ICMS sobre o todo. Exemplo de ressalva: fornecimento de alimentação em bar/restaurante incide ICMS (Súmula 163 do STJ)."
+        }
+      ],
+      "exemplo": "Uma indústria goiana transfere mercadorias de sua matriz em Goiânia para a filial em Anápolis (mesmo CNPJ-base, mesmo titular). Incide ICMS? — NÃO. Não há circulação jurídica (transferência de titularidade), apenas deslocamento físico entre estabelecimentos do mesmo contribuinte (Súmula 166 do STJ; ADC 49 do STF). O crédito, contudo, pode ser transferido ao estabelecimento de destino.\n\nJá uma loja goiana que vende uma geladeira a consumidor: há operação de circulação com transferência de titularidade — incide ICMS normalmente. E uma empresa de táxi que faz corrida dentro de Goiânia: transporte intramunicipal, incide ISS, não ICMS.",
+      "pontos_chave": [
+        "ICMS = competência estadual (art. 155, II, CF); normas gerais na LC 87/96",
+        "Materialidades: circulação de mercadoria, transporte interestadual/intermunicipal, comunicação, importação, energia",
+        "Transporte intramunicipal = ISS; interestadual/intermunicipal = ICMS",
+        "Súmula 166 STJ + ADC 49 STF: transferência entre estabelecimentos do mesmo titular não gera ICMS",
+        "Importação incide mesmo sobre não contribuinte habitual (EC 33/2001)",
+        "Súmula 334 STJ (habilitação de celular) e 350 (provedor de internet): não incide ICMS",
+        "Imunidade: exportações; combustíveis interestaduais; ouro ativo financeiro; radiodifusão livre",
+        "Fronteira ISS x ICMS resolve-se pela lista da LC 116/2003"
+      ],
+      "dica_prova": "A pegadinha número 1 é a transferência entre estabelecimentos do mesmo titular (NÃO incide ICMS — ADC 49). A número 2 é confundir transporte intramunicipal (ISS) com inter/intermunicipal (ICMS). Decore as imunidades do art. 155, §2º, X, e as súmulas 163, 166, 334 e 350 do STJ."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Não cumulatividade",
+      "intro": "A não cumulatividade é o princípio constitucional que define a sistemática de apuração do ICMS. Está no art. 155, §2º, I, da CF/88: o imposto será não cumulativo, compensando-se o que for devido em cada operação relativa à circulação de mercadorias ou prestação de serviços com o montante cobrado nas operações anteriores pelo mesmo ou por outro Estado.\n\nA lógica é tributar apenas o valor agregado em cada etapa da cadeia, evitando o 'efeito cascata' (tributo sobre tributo). Operacionaliza-se por meio do sistema de débitos e créditos: a cada saída tributada gera-se um DÉBITO; a cada entrada tributada gera-se um CRÉDITO; ao fim do período, apura-se o saldo.\n\nPara o Auditor-Fiscal, dominar o regime de creditamento, suas vedações e os efeitos da isenção/não incidência é essencial, pois é onde se concentram as autuações e as questões mais técnicas da prova.",
+      "secoes": [
+        {
+          "h": "Mecânica de débitos e créditos",
+          "p": "Em cada período de apuração, o contribuinte soma os DÉBITOS (ICMS destacado nas suas saídas/vendas) e abate os CRÉDITOS (ICMS destacado nas entradas de mercadorias e insumos). Se os débitos superam os créditos, há saldo devedor a recolher; se os créditos superam, há saldo credor que se transfere para o período seguinte.\n\nO crédito é escritural: nasce do imposto destacado em documento fiscal idôneo. Daí a importância da NF-e e da EFD. Crédito amparado em nota inidônea ou de operação simulada é glosado e enseja autuação, com multa."
+        },
+        {
+          "h": "Efeitos da isenção e da não incidência (art. 155, §2º, II, CF)",
+          "p": "A regra constitucional: salvo determinação em contrário da legislação, a isenção ou não incidência (a) NÃO implicará crédito para compensação com o montante devido nas operações seguintes; e (b) ACARRETARÁ a anulação do crédito relativo às operações anteriores.\n\nEm outras palavras, quem vende com isenção não passa crédito ao adquirente (alínea a); e quem comprou com crédito e revende isento deve estornar o crédito da entrada (alínea b). Exceções importantes: nas EXPORTAÇÕES (imunes), a CF assegura a manutenção do crédito das entradas — é o regime de desoneração plena das exportações (art. 155, §2º, X, 'a' c/c LC 87/96)."
+        },
+        {
+          "h": "Vedações e estornos de crédito (LC 87/96, arts. 20 e 21)",
+          "p": "Não dá direito a crédito a entrada de mercadoria alheia à atividade do estabelecimento, nem a destinada a uso/consumo (com diferimento legal de prazo) ou que não venha a ser objeto de saída tributada. Deve-se estornar o crédito quando a mercadoria: for objeto de saída isenta/não tributada; for integrada/consumida em processo que resulte em produto não tributado; for utilizada para fim alheio à atividade; ou perecer, deteriorar-se ou extraviar-se.\n\nCrédito de bens do ATIVO PERMANENTE é apropriado em 48 parcelas mensais (1/48), com regra do CIAP. Crédito de energia e de comunicação tem restrições temporais previstas na LC 87/96 (postergações sucessivas)."
+        },
+        {
+          "h": "Não cumulatividade x cumulatividade (regimes especiais)",
+          "p": "Nem todo recolhimento de ICMS segue a sistemática plena de débito e crédito. Em regimes como o Simples Nacional, o ICMS é cobrado de forma unificada e, em geral, sem aproveitamento de créditos pelo optante. Na substituição tributária, antecipa-se o imposto de toda a cadeia, encerrando-se a tributação.\n\nA não cumulatividade do ICMS é constitucional e OBRIGATÓRIA (diferente do IPI, que também é não cumulativo). Não confunda com a seletividade, que no ICMS é FACULTATIVA ('poderá ser seletivo'), ao passo que no IPI é obrigatória."
+        }
+      ],
+      "exemplo": "Um atacadista goiano compra mercadoria por R$ 1.000 com ICMS destacado de R$ 170 (17%). Revende por R$ 1.500 com ICMS de R$ 255. Apuração: débito R$ 255 - crédito R$ 170 = R$ 85 a recolher. O imposto incidiu apenas sobre o valor agregado de R$ 500 (17% de 500 = R$ 85). Esse é o efeito da não cumulatividade.\n\nVariação com isenção: se a SAÍDA fosse isenta, o atacadista NÃO destacaria débito, mas teria de ESTORNAR o crédito de R$ 170 da entrada (art. 155, §2º, II, 'b', CF). Pegadinha: muitos candidatos esquecem o estorno e mantêm o crédito indevidamente.",
+      "pontos_chave": [
+        "Não cumulatividade: art. 155, §2º, I, CF — compensa-se o devido com o cobrado nas operações anteriores",
+        "Sistema de débitos (saídas) e créditos (entradas); saldo apurado por período",
+        "Isenção/não incidência: não gera crédito e anula o crédito anterior (art. 155, §2º, II)",
+        "Exportação é exceção: mantém-se o crédito das entradas (desoneração plena)",
+        "Crédito exige documento fiscal idôneo; nota inidônea é glosada",
+        "Ativo permanente: crédito em 48 parcelas (1/48) via CIAP",
+        "ICMS: não cumulatividade obrigatória; seletividade facultativa ('poderá')",
+        "Simples Nacional e ST afastam a sistemática plena de crédito"
+      ],
+      "dica_prova": "Decore o art. 155, §2º, II: isenção NÃO gera crédito e ANULA o crédito anterior (salvo lei em contrário) — exceto exportação, que mantém crédito. E nunca troque: no ICMS a seletividade é FACULTATIVA e a não cumulatividade é OBRIGATÓRIA (no IPI ambas são obrigatórias)."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Alíquotas internas e interestaduais",
+      "intro": "As alíquotas do ICMS variam conforme o produto (seletividade) e conforme a natureza da operação (interna ou interestadual). Esse é um dos temas mais cobrados, porque envolve a partilha do imposto entre os Estados de origem e de destino e a sistemática do DIFAL (diferencial de alíquota).\n\nAs alíquotas INTERNAS são fixadas por lei estadual (no CTE-GO/RICMS-GO), respeitando o piso da alíquota interestadual (art. 155, §2º, VI, CF). As alíquotas INTERESTADUAIS e de exportação são fixadas por RESOLUÇÃO DO SENADO FEDERAL (art. 155, §2º, IV, CF), justamente para uniformizar o tratamento entre as unidades federadas e reduzir a guerra fiscal.\n\nEm Goiás, a alíquota interna padrão (modal) é de 17% (com adicional do Fundo de Combate à Pobreza/Protege em situações específicas), com alíquotas majoradas para bens supérfluos e reduzidas para itens essenciais — reflexo da seletividade facultativa do ICMS.",
+      "secoes": [
+        {
+          "h": "Quem fixa cada alíquota",
+          "p": "Alíquotas INTERNAS: lei estadual (CTE-GO). O Senado pode fixar alíquotas internas MÍNIMAS (por resolução, iniciativa de 1/3 e aprovação por maioria absoluta) e MÁXIMAS (para resolver conflito específico, iniciativa de maioria absoluta e aprovação por 2/3) — art. 155, §2º, V, CF. Na prática, é facultativo e raro.\n\nAlíquotas INTERESTADUAIS e de EXPORTAÇÃO: Resolução do Senado Federal (art. 155, §2º, IV) — obrigatória. As alíquotas internas não podem ser inferiores às interestaduais, salvo deliberação do CONFAZ (art. 155, §2º, VI)."
+        },
+        {
+          "h": "Alíquotas interestaduais (Resolução SF 22/89 e 13/2012)",
+          "p": "A Resolução SF 22/1989 fixou: 12% como regra geral nas operações interestaduais; e 7% nas operações dos Estados das regiões Sul e Sudeste (exceto ES) destinadas a Estados do Norte, Nordeste, Centro-Oeste e ao Espírito Santo. Goiás está no Centro-Oeste: portanto, mercadoria que sai de SP/RJ/MG para Goiás carrega 7% de ICMS interestadual.\n\nA Resolução SF 13/2012 criou a alíquota interestadual de 4% para mercadorias IMPORTADAS (ou com conteúdo de importação superior a 40%) em operações interestaduais — medida de combate à 'guerra dos portos'."
+        },
+        {
+          "h": "Seletividade e alíquotas internas em Goiás",
+          "p": "O ICMS PODERÁ ser seletivo em função da essencialidade (art. 155, §2º, III, CF) — facultativo. Goiás aplica a seletividade: alíquota modal de 17% para a maioria das mercadorias; alíquotas mais altas (ex.: 25%-29%) para supérfluos como cigarros, bebidas alcoólicas, armas, energia e comunicação; e alíquotas reduzidas para itens da cesta básica.\n\nHá ainda o adicional destinado ao Fundo de Combate à Pobreza (Protege Goiás), de até 2 pontos percentuais sobre determinados produtos, cobrado junto com a alíquota do ICMS. Atenção: o STF decidiu que a seletividade não obriga a alíquota de energia e telecomunicações a ser igual à modal, mas firmou (Tema 745) que não pode ser SUPERIOR à de mercadorias em geral quando o Estado adota a seletividade — esses serviços são essenciais."
+        },
+        {
+          "h": "DIFAL — diferencial de alíquota (EC 87/2015 e LC 190/2022)",
+          "p": "Nas operações e prestações interestaduais que destinem bens e serviços a CONSUMIDOR FINAL localizado em outro Estado, aplica-se a alíquota interestadual e cabe ao Estado de DESTINO o imposto correspondente à diferença entre a alíquota interna do destino e a interestadual (DIFAL) — art. 155, §2º, VII e VIII, CF.\n\nSe o destinatário é CONTRIBUINTE, ele próprio recolhe o DIFAL. Se NÃO é contribuinte (ex.: consumidor pessoa física em compra pela internet), o REMETENTE é o responsável pelo recolhimento ao Estado de destino. A LC 190/2022 regulamentou o DIFAL ao não contribuinte, exigindo lei estadual e respeito à anterioridade. Goiás disciplinou o DIFAL no CTE-GO/RICMS."
+        }
+      ],
+      "exemplo": "Uma loja virtual de São Paulo vende um notebook (nacional) por R$ 5.000 a um consumidor pessoa física em Goiânia. Alíquota interestadual SP→GO = 7%; alíquota interna de GO = 17% (suponha). DIFAL = 17% - 7% = 10%, ou seja, R$ 500. Como o destinatário NÃO é contribuinte, o REMETENTE paulista recolhe os R$ 500 a Goiás (Estado de destino). Os 7% (R$ 350) ficam com SP.\n\nPegadinha: se o produto fosse importado, a alíquota interestadual seria 4% (Res. SF 13/2012), e o DIFAL para Goiás seria 17% - 4% = 13%.",
+      "pontos_chave": [
+        "Internas: lei estadual; interestaduais e de exportação: Resolução do Senado (art. 155, §2º, IV)",
+        "Regra geral interestadual = 12%; Sul/Sudeste (exceto ES) → N/NE/CO/ES = 7%",
+        "Importados em operação interestadual = 4% (Res. SF 13/2012, guerra dos portos)",
+        "Goiás: modal 17%; supérfluos 25-29%; cesta básica reduzida (seletividade facultativa)",
+        "DIFAL (EC 87/2015): destino recebe a diferença alíquota interna - interestadual",
+        "Destinatário contribuinte recolhe DIFAL; não contribuinte → remetente recolhe (LC 190/2022)",
+        "Internas não podem ser inferiores às interestaduais, salvo CONFAZ (art. 155, §2º, VI)",
+        "Tema 745 STF: energia/telecom não podem ter alíquota superior à modal quando há seletividade"
+      ],
+      "dica_prova": "Memorize o mapa 12% x 7% x 4%. Goiás é Centro-Oeste, então recebe a 7% de Sul/Sudeste. No DIFAL, a chave é QUEM recolhe: contribuinte (ele mesmo) vs. não contribuinte (remetente). E lembre: alíquota interestadual é do Senado (obrigatório); interna é da lei estadual."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Substituição tributária (ST)",
+      "intro": "A substituição tributária (ST) é o regime pelo qual a responsabilidade pelo recolhimento do ICMS de uma ou mais operações é atribuída a um terceiro (o substituto), em lugar do contribuinte que pratica o fato gerador (o substituído). Tem fundamento no art. 150, §7º, da CF/88 e nos arts. 6º a 10 da LC 87/96, e é amplamente disciplinada no CTE-GO e no RICMS-GO, além de convênios e protocolos do CONFAZ.\n\nO grande objetivo é simplificar e concentrar a fiscalização: em vez de fiscalizar milhares de varejistas, o Fisco cobra o imposto de toda a cadeia de poucos fabricantes/importadores. A modalidade mais cobrada é a ST 'para frente' (progressiva), em que se antecipa o imposto de fatos geradores FUTUROS, presumidos.\n\nÉ um tema denso e muito cobrado, com pegadinhas sobre as modalidades, a base de cálculo presumida (MVA), o cálculo do imposto retido e o direito à restituição quando o fato gerador presumido não ocorre.",
+      "secoes": [
+        {
+          "h": "Modalidades de substituição",
+          "p": "(1) ST 'para frente' (progressiva ou subsequente): o substituto antecipa o ICMS de operações FUTURAS, presumindo-se o fato gerador e a base de cálculo (art. 150, §7º, CF). Ex.: fabricante de refrigerante recolhe o ICMS de toda a cadeia até o varejo.\n\n(2) ST 'para trás' (regressiva ou diferimento): adia-se o recolhimento para etapa posterior; quem recebe a mercadoria recolhe o imposto da operação anterior. Ex.: produtor rural entrega leite à indústria, e a indústria recolhe o ICMS diferido.\n\n(3) ST concomitante: a responsabilidade é atribuída a outro contribuinte no mesmo momento do fato gerador (ex.: tomador do serviço de transporte de autônomo)."
+        },
+        {
+          "h": "Base de cálculo presumida e a MVA",
+          "p": "Na ST para frente, como o preço final ainda não existe, a base é PRESUMIDA. A LC 87/96 (art. 8º) prevê critérios: preço tabelado/sugerido pelo fabricante; média ponderada de preços (PMPF); ou a base própria da operação do substituto acrescida do frete, seguro, IPI e demais despesas, mais a MARGEM DE VALOR AGREGADO (MVA ou IVA-ST).\n\nO ICMS-ST a recolher = (base presumida × alíquota interna do destino) - ICMS da operação própria do substituto (crédito). Em operações interestaduais entre Estados conveniados, usa-se a 'MVA ajustada' para equalizar a diferença entre alíquota interna e interestadual."
+        },
+        {
+          "h": "Restituição e o Tema 201 do STF (RE 593.849)",
+          "p": "O art. 150, §7º, da CF assegura a restituição imediata e preferencial caso o fato gerador presumido NÃO se realize. A grande controvérsia era: e se o fato gerador ocorre, mas por valor MENOR que a base presumida?\n\nO STF, no RE 593.849 (Tema 201, repercussão geral, 2016), superou entendimento anterior e firmou: é DEVIDA a restituição da diferença do ICMS-ST pago a mais quando a base de cálculo efetiva da operação for INFERIOR à presumida. Simetricamente, alguns Estados (Goiás inclusive, em regimes específicos) podem exigir a complementação quando a base efetiva for SUPERIOR. É uma das pegadinhas mais quentes do tema."
+        },
+        {
+          "h": "Convênios, protocolos e o âmbito da ST",
+          "p": "A ST interestadual depende de ACORDO entre os Estados: convênios (todos os Estados) ou protocolos (alguns Estados) no âmbito do CONFAZ. Sem acordo, um Estado não pode obrigar contribuinte de outro Estado a reter ICMS-ST em favor dele.\n\nA ST aplica-se a produtos específicos definidos em lei/convênio (combustíveis, bebidas, cigarros, autopeças, medicamentos, materiais de construção etc.), identificados por NCM/CEST. Em Goiás, o RICMS lista os produtos sujeitos a ST nos seus anexos. A inclusão indevida de produto não previsto em acordo, ou a cobrança sem convênio, é ilegal — ponto explorado em prova."
+        }
+      ],
+      "exemplo": "Uma fábrica de cervejas em GO vende um lote ao distribuidor por R$ 10.000, sendo a MVA do produto 40% e a alíquota interna 27% (suponha, supérfluo). Base presumida ST = 10.000 × 1,40 = R$ 14.000. ICMS total presumido = 27% × 14.000 = R$ 3.780. ICMS da operação própria da fábrica = 27% × 10.000 = R$ 2.700. ICMS-ST a reter = 3.780 - 2.700 = R$ 1.080. A fábrica recolhe esse valor antecipando o imposto de toda a cadeia.\n\nSe o varejista vender a cerveja por valor MENOR do que o presumido (base efetiva inferior a R$ 14.000), tem direito a pedir restituição da diferença do ICMS-ST (Tema 201/STF, RE 593.849).",
+      "pontos_chave": [
+        "ST: responsabilidade pelo ICMS atribuída a terceiro (substituto) — art. 150, §7º, CF; arts. 6º-10 LC 87/96",
+        "Para frente (progressiva): antecipa fato gerador futuro presumido; base presumida via MVA/PMPF",
+        "Para trás (diferimento): adia o recolhimento à etapa seguinte (ex.: produtor rural)",
+        "ICMS-ST = (base presumida × alíquota) - ICMS próprio do substituto",
+        "MVA ajustada em operações interestaduais entre Estados conveniados",
+        "Tema 201 STF (RE 593.849): restitui-se ICMS-ST se a base efetiva for inferior à presumida",
+        "ST interestadual exige convênio/protocolo CONFAZ; sem acordo não há retenção em favor de outro Estado",
+        "Produtos sujeitos a ST identificados por NCM/CEST nos anexos do RICMS-GO"
+      ],
+      "dica_prova": "Não troque as modalidades: 'para frente' = antecipa o futuro (presunção); 'para trás'/diferimento = adia o passado. Decore o Tema 201 do STF (restituição quando a base efetiva é menor que a presumida) — é o ponto mais cobrado. E lembre que ST interestadual SEM convênio é inválida."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Convênios CONFAZ",
+      "intro": "Os convênios do CONFAZ (Conselho Nacional de Política Fazendária) são o instrumento por meio do qual os Estados e o Distrito Federal deliberam, em conjunto, sobre a concessão e revogação de isenções, incentivos e benefícios fiscais de ICMS. O fundamento está no art. 155, §2º, XII, 'g', da CF/88, regulamentado pela LC 24/1975.\n\nA exigência de deliberação conjunta tem um objetivo central: evitar a GUERRA FISCAL, ou seja, a concessão unilateral de benefícios por um Estado para atrair investimentos, em prejuízo dos demais. Como o ICMS é um imposto nacionalmente harmonizado, benefícios isolados distorcem a concorrência federativa.\n\nO CONFAZ é composto pelos Secretários de Fazenda dos Estados e do DF, sob presidência do Ministro da Fazenda. Suas reuniões geram convênios que, após ratificação, integram a legislação tributária. Para o Auditor-Fiscal de Goiás, é essencial dominar o quórum, o processo de ratificação e as consequências da concessão de benefício sem convênio.",
+      "secoes": [
+        {
+          "h": "Fundamento e a LC 24/1975",
+          "p": "O art. 155, §2º, XII, 'g', da CF determina que cabe à lei complementar regular a forma como, mediante DELIBERAÇÃO dos Estados e do DF, isenções, incentivos e benefícios fiscais de ICMS serão concedidos e revogados. Essa lei é a LC 24/1975, recepcionada pela CF/88.\n\nPela LC 24/75, dependem de convênio: isenções, reduções de base de cálculo, créditos presumidos/outorgados, devolução total ou parcial do imposto, e quaisquer benefícios dos quais resulte redução ou eliminação do ônus do ICMS. A finalidade é dar tratamento uniforme e impedir benefício unilateral."
+        },
+        {
+          "h": "Quórum: concessão x revogação",
+          "p": "Aqui está a pegadinha clássica de prova. Pela LC 24/75: a CONCESSÃO de benefícios depende de decisão UNÂNIME dos Estados representados (todos presentes devem concordar). Já a REVOGAÇÃO total ou parcial pode ser feita por deliberação de, no mínimo, QUATRO QUINTOS (4/5) dos representantes presentes.\n\nOu seja: para DAR benefício, unanimidade; para TIRAR, 4/5. As reuniões só ocorrem com a presença da maioria das unidades federadas. Decorar essa assimetria de quórum é praticamente garantia de acerto."
+        },
+        {
+          "h": "Ratificação e vigência dos convênios",
+          "p": "Celebrado o convênio no CONFAZ, ele precisa ser RATIFICADO pelos Estados. A LC 24/75 prevê a ratificação por decreto do Executivo de cada Estado, dentro de 15 dias da publicação no Diário Oficial da União. O silêncio (ausência de manifestação no prazo) implica ratificação TÁCITA.\n\nHá convênios AUTORIZATIVOS (apenas facultam ao Estado conceder o benefício, dependendo de lei/decreto interno) e IMPOSITIVOS (obrigam todos os Estados). A rejeição de um convênio por uma só unidade pode comprometer sua eficácia, dependendo do tipo. Após a ratificação nacional, publica-se novo ato confirmando a vigência."
+        },
+        {
+          "h": "Guerra fiscal, sanções e a LC 160/2017",
+          "p": "Benefício concedido SEM convênio é inconstitucional. A LC 24/75 prevê sanções severas: nulidade do ato, ineficácia do crédito atribuído ao estabelecimento recebedor, exigibilidade do imposto não pago e até a presunção de irregularidade das contas do gestor. O STF tem ampla jurisprudência declarando inconstitucionais benefícios unilaterais (guerra fiscal).\n\nA LC 160/2017, em conjunto com o Convênio ICMS 190/2017, criou um regime de REMISSÃO e CONVALIDAÇÃO dos benefícios fiscais irregularmente concedidos no passado, permitindo sua reinstituição por prazo determinado, mediante registro e depósito dos atos no CONFAZ — uma 'anistia' da guerra fiscal. Tema cobrado por bancas atualizadas."
+        }
+      ],
+      "exemplo": "Goiás, isoladamente e por lei estadual, concede crédito outorgado de ICMS a indústrias que se instalem no Estado, sem convênio CONFAZ. Esse benefício é válido? — NÃO. Viola o art. 155, §2º, XII, 'g', CF e a LC 24/75 (necessidade de convênio). O STF declara inconstitucionais tais benefícios unilaterais (guerra fiscal), e o crédito apropriado pelo adquirente pode ser glosado por outro Estado.\n\nQuestão de quórum: 'A concessão de isenção de ICMS exige aprovação por quatro quintos dos Estados; a revogação, unanimidade.' — ERRADO. É o INVERSO: concessão = unanimidade; revogação = 4/5.",
+      "pontos_chave": [
+        "Convênio CONFAZ: art. 155, §2º, XII, 'g', CF + LC 24/1975 — evita guerra fiscal",
+        "Concessão de benefício = UNANIMIDADE; revogação = QUATRO QUINTOS (4/5)",
+        "Dependem de convênio: isenção, redução de base, crédito presumido/outorgado, devolução do imposto",
+        "Ratificação por decreto estadual em 15 dias; silêncio = ratificação tácita",
+        "Convênios autorizativos (facultam) x impositivos (obrigam)",
+        "Benefício sem convênio é inconstitucional: nulidade, crédito ineficaz, imposto exigível",
+        "LC 160/2017 + Convênio 190/2017: convalidação/remissão de benefícios da guerra fiscal",
+        "CONFAZ = Secretários de Fazenda dos Estados/DF, presidido pelo Ministro da Fazenda"
+      ],
+      "dica_prova": "A pegadinha número 1 é o quórum invertido: CONCEDER = unanimidade, REVOGAR = 4/5. A número 2 é achar que basta lei estadual para dar benefício de ICMS — precisa de convênio. Lembre também da LC 160/2017 como mecanismo de convalidação da guerra fiscal."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Documentos fiscais eletrônicos",
+      "intro": "Os documentos fiscais eletrônicos e a Escrituração Fiscal Digital são o núcleo da fiscalização moderna do ICMS. Eles integram o SPED (Sistema Público de Escrituração Digital), instituído pelo Decreto federal 6.022/2007, que digitalizou as obrigações acessórias e permitiu o cruzamento automático de dados entre os fiscos federal, estaduais e municipais.\n\nA obrigação de emitir documento fiscal e escriturar livros é uma OBRIGAÇÃO ACESSÓRIA (art. 113, §2º, do CTN): um dever instrumental de fazer/não fazer no interesse da arrecadação e da fiscalização. Seu descumprimento gera multa formal, mesmo que o imposto principal tenha sido pago.\n\nPara o Auditor-Fiscal, conhecer os principais documentos (NF-e, NFC-e, CT-e, MDF-e), a EFD ICMS/IPI e o conceito de idoneidade documental é essencial — tanto para autuar quanto para entender as defesas dos contribuintes no contencioso.",
+      "secoes": [
+        {
+          "h": "Os documentos fiscais eletrônicos",
+          "p": "NF-e (modelo 55): nota fiscal eletrônica para operações entre empresas (B2B) e outras saídas; substitui a antiga nota em papel. NFC-e (modelo 65): nota fiscal de consumidor eletrônica, para varejo ao consumidor final, substitui o cupom fiscal/ECF. CT-e (modelo 57): conhecimento de transporte eletrônico, documenta a prestação de serviço de transporte. MDF-e (modelo 58): manifesto eletrônico de documentos fiscais, agrega NF-e/CT-e de uma carga em trânsito.\n\nTodos exigem AUTORIZAÇÃO DE USO emitida pela SEFAZ antes da circulação da mercadoria, com assinatura digital (certificado ICP-Brasil) e chave de acesso de 44 dígitos. O DANFE (Documento Auxiliar da NF-e) é só a representação impressa que acompanha o transporte — não é a nota em si."
+        },
+        {
+          "h": "EFD e o SPED",
+          "p": "A EFD ICMS/IPI (Escrituração Fiscal Digital) é o arquivo digital que substitui os antigos livros fiscais em papel (Registro de Entradas, Saídas, Apuração do ICMS, Inventário, CIAP etc.). É transmitida periodicamente ao Fisco e cruzada com as NF-e emitidas e recebidas.\n\nO SPED reúne, além da EFD ICMS/IPI, a EFD-Contribuições, a ECD (Escrituração Contábil Digital), a ECF (Escrituração Contábil Fiscal) e os próprios documentos eletrônicos. Essa integração permite à fiscalização goiana identificar divergências (ex.: nota emitida e não escriturada, crédito sem lastro) de forma automatizada, base de grande parte das autuações atuais."
+        },
+        {
+          "h": "Idoneidade documental e suas consequências",
+          "p": "Documento fiscal idôneo é o que atende a todos os requisitos legais e corresponde a operação real. Documento INIDÔNEO (nota 'fria', 'calçada', 'paralela' ou 'meia-nota') é aquele falso, simulado ou que não retrata a operação efetiva.\n\nConsequências: o crédito de ICMS amparado em nota inidônea é GLOSADO; a operação é considerada não documentada; e há autuação com multa. A Súmula 509 do STJ protege o adquirente de BOA-FÉ: é lícito ao comerciante de boa-fé aproveitar o crédito de ICMS de nota depois declarada inidônea, desde que comprove a veracidade da compra e venda. Pegadinha frequente em prova."
+        },
+        {
+          "h": "Obrigação acessória x principal (art. 113 do CTN)",
+          "p": "A obrigação PRINCIPAL é o dever de pagar o tributo ou a penalidade pecuniária (art. 113, §1º). A obrigação ACESSÓRIA é o dever instrumental (emitir documento, escriturar, declarar, tolerar fiscalização — art. 113, §2º).\n\nPonto cobradíssimo: o §3º do art. 113 diz que a obrigação acessória, pelo simples fato da sua inobservância, CONVERTE-SE em obrigação principal relativamente à PENALIDADE pecuniária. Ou seja, descumprir um dever acessório gera multa (que é obrigação principal). E a obrigação acessória existe ainda que a operação seja isenta ou imune — a desoneração do imposto não dispensa o dever de documentar."
+        }
+      ],
+      "exemplo": "Uma transportadora circula com mercadoria em Goiás acompanhada apenas do DANFE, mas a SEFAZ verifica que a NF-e correspondente foi CANCELADA. A mercadoria está desacompanhada de documento idôneo: cabe apreensão (nos limites legais), exigência do ICMS e multa. O DANFE não vale sem a NF-e autorizada e válida.\n\nOutro caso: um contribuinte de boa-fé creditou ICMS de notas de um fornecedor depois declarado inidôneo pelo Fisco. Se comprovar que a operação foi real (pagamento, entrada da mercadoria, registro), o crédito é mantido (Súmula 509 do STJ). Se não comprovar, o crédito é glosado.",
+      "pontos_chave": [
+        "SPED (Dec. 6.022/2007) integra documentos e escriturações digitais; permite cruzamento automático",
+        "NF-e (55), NFC-e (65), CT-e (57), MDF-e (58); exigem autorização de uso e assinatura digital",
+        "DANFE é só a representação impressa da NF-e — não substitui a nota autorizada",
+        "EFD ICMS/IPI substitui os livros fiscais em papel",
+        "Nota inidônea: crédito glosado, operação não documentada, multa",
+        "Súmula 509 STJ: adquirente de boa-fé mantém o crédito se comprova a operação real",
+        "Obrigação acessória (art. 113, §2º, CTN) é dever instrumental; existe mesmo em operação isenta/imune",
+        "Art. 113, §3º: descumprir acessória converte-se em principal quanto à penalidade"
+      ],
+      "dica_prova": "Decore o art. 113 do CTN (principal x acessória x conversão em penalidade). Lembre que obrigação acessória subsiste mesmo havendo isenção/imunidade. E não esqueça a Súmula 509 do STJ (boa-fé do adquirente) — é o ponto mais explorado sobre idoneidade documental."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Incidência e base",
+      "intro": "O ITCD (Imposto sobre Transmissão Causa Mortis e Doação de quaisquer bens ou direitos) é o imposto estadual sobre a transmissão GRATUITA de bens e direitos, seja por herança/legado (causa mortis), seja por doação (inter vivos). Sua competência está no art. 155, I, da CF/88, e em Goiás é disciplinado pelo CTE-GO (Lei 11.651/91) e legislação específica.\n\nÉ um tributo de fácil cobrança em prova porque mistura conceitos de Direito Civil (sucessão, herança, doação) com regras constitucionais de competência (quem é o Estado competente para cobrar, conforme o bem). A não cumulatividade NÃO se aplica ao ITCD — é imposto direto, real e de incidência sobre a transferência patrimonial gratuita.\n\nPara o Auditor-Fiscal de Goiás, é essencial dominar a fixação do Estado competente (art. 155, §1º), a base de cálculo (valor venal) e o teto de alíquota fixado pelo Senado, além das novidades trazidas pela EC 132/2023 (Reforma Tributária).",
+      "secoes": [
+        {
+          "h": "Fato gerador e contribuinte",
+          "p": "O fato gerador é a transmissão NÃO ONEROSA (gratuita) de bens ou direitos: (i) causa mortis, com a morte (abertura da sucessão — pelo princípio de saisine, a herança se transmite no instante do óbito); e (ii) doação, na liberalidade entre vivos.\n\nO contribuinte (art. 35, parágrafo único, do CTN, e legislação estadual) é, conforme o caso: o herdeiro ou legatário (na transmissão causa mortis) e, na doação, geralmente o DONATÁRIO (quem recebe). A lei estadual pode definir, na doação, o donatário como contribuinte e o doador como responsável, ou vice-versa. Súmula 112 do STF: o imposto causa mortis é devido pela alíquota vigente ao tempo da abertura da sucessão."
+        },
+        {
+          "h": "Estado competente (art. 155, §1º, CF)",
+          "p": "Esta é a parte mais cobrada. Para BENS IMÓVEIS e respectivos direitos, o imposto cabe ao Estado onde se situa o bem (ou ao DF). Para BENS MÓVEIS, títulos e créditos: na causa mortis, ao Estado onde se processa o INVENTÁRIO ou arrolamento; na doação, ao Estado onde tem domicílio o DOADOR.\n\nAtenção: se o doador tiver domicílio ou residência no exterior, ou se o de cujus possuía bens, era residente ou domiciliado ou teve seu inventário processado no exterior, a competência será regulada por LEI COMPLEMENTAR (ainda não editada — o STF, no Tema 825/RE 851108, decidiu que os Estados NÃO podem cobrar ITCD nessas hipóteses sem a LC nacional)."
+        },
+        {
+          "h": "Base de cálculo e alíquotas",
+          "p": "A base de cálculo é o VALOR VENAL dos bens ou direitos transmitidos, no momento da avaliação (valor de mercado). Para imóveis, costuma-se usar a avaliação fazendária. Não há não cumulatividade nem creditamento.\n\nAs alíquotas são fixadas pela lei estadual, mas o SENADO FEDERAL fixa a alíquota MÁXIMA (Resolução SF 9/1992: teto de 8%). Goiás adota alíquotas próprias dentro desse teto. A EC 132/2023 tornou a PROGRESSIVIDADE do ITCD OBRIGATÓRIA em razão do valor do quinhão/legado/doação (antes era apenas facultada, e o STF já a admitia no RE 562.045). Goiás deverá adequar sua legislação à progressividade obrigatória."
+        },
+        {
+          "h": "Imunidades, isenções e a EC 132/2023",
+          "p": "Aplicam-se ao ITCD as imunidades genéricas do art. 150, VI, da CF (templos, partidos, entidades de educação e assistência social sem fins lucrativos, etc.) quando o bem transmitido vincula-se às suas finalidades. A legislação goiana prevê isenções para transmissões de pequeno valor e situações específicas.\n\nA EC 132/2023 trouxe mudanças relevantes: além da progressividade obrigatória, previu que o ITCD sobre heranças/doações no exterior será regulado por lei complementar; e que doações destinadas a instituições sem fins lucrativos de relevância pública e social terão imunidade. É tema de alta probabilidade em concursos recentes."
+        }
+      ],
+      "exemplo": "Um falecido residia em Goiânia, deixou um apartamento em Brasília (DF) e aplicações financeiras, com inventário processado em Goiás. Quem cobra o ITCD? — Sobre o APARTAMENTO (imóvel), o DF (onde se situa o bem). Sobre as APLICAÇÕES (bens móveis/créditos), GOIÁS (onde se processa o inventário). É o art. 155, §1º, I e II, da CF.\n\nDoação: um doador domiciliado em Goiás doa um carro a um donatário em Minas. O ITCD cabe a GOIÁS (domicílio do doador, art. 155, §1º, II). Pegadinha: muitos marcam o Estado do donatário, mas na doação de bem móvel o critério é o domicílio do DOADOR.",
+      "pontos_chave": [
+        "ITCD = imposto estadual sobre transmissão gratuita causa mortis e doação (art. 155, I, CF)",
+        "Causa mortis: fato gerador na abertura da sucessão (óbito); Súmula 112 STF (alíquota vigente ao óbito)",
+        "Imóvel: imposto ao Estado da situação do bem",
+        "Móvel causa mortis: Estado do inventário; doação: Estado do domicílio do DOADOR",
+        "Heranças/doações com elemento no exterior: dependem de LC (Tema 825 STF) — hoje não cobrável",
+        "Base de cálculo = valor venal; teto de alíquota 8% (Res. SF 9/1992)",
+        "EC 132/2023: progressividade do ITCD passou a ser OBRIGATÓRIA",
+        "Não há não cumulatividade no ITCD; aplicam-se imunidades do art. 150, VI"
+      ],
+      "dica_prova": "Decore o art. 155, §1º: imóvel → Estado do bem; móvel causa mortis → Estado do inventário; doação → domicílio do DOADOR (não do donatário!). Lembre do teto de 8% (Senado) e da novidade da EC 132/2023 (progressividade obrigatória). E que ITCD no exterior exige LC ainda inexistente (Tema 825)."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Fato gerador e repartição",
+      "intro": "O IPVA (Imposto sobre a Propriedade de Veículos Automotores) é o imposto estadual anual sobre a propriedade de veículos automotores. Tem competência no art. 155, III, da CF/88 e, em Goiás, é disciplinado pelo CTE-GO (Lei 11.651/91). É um imposto direto, real e de arrecadação expressiva, com forte componente de repartição com os Municípios.\n\nUma peculiaridade importante: o IPVA NÃO possui lei complementar nacional de normas gerais. Diante dessa lacuna, o STF reconheceu que os Estados podem exercer a competência legislativa plena (art. 24, §3º, CF e art. 34, §3º, ADCT), legislando integralmente sobre o imposto enquanto não houver LC nacional.\n\nPara o Auditor-Fiscal de Goiás, é essencial dominar o fato gerador (propriedade, e não 'uso' ou 'licenciamento'), a base de cálculo (valor venal/tabela), a repartição de 50% com o município de licenciamento e a jurisprudência do STF sobre limites do imposto (não incidência sobre embarcações e aeronaves).",
+      "secoes": [
+        {
+          "h": "Fato gerador e contribuinte",
+          "p": "O fato gerador é a PROPRIEDADE de veículo automotor. Considera-se ocorrido: anualmente, em 1º de janeiro (para veículos já registrados); na data da PRIMEIRA AQUISIÇÃO por consumidor final (veículo novo); na data do DESEMBARAÇO ADUANEIRO (importado); ou quando o veículo deixa de gozar de imunidade/isenção.\n\nO contribuinte é o PROPRIETÁRIO do veículo. A legislação goiana atribui responsabilidade solidária em casos como o do adquirente (em relação a débitos anteriores) e o do alienante que não comunica a venda. O IPVA é obrigação propter rem em parte: segue o veículo, daí a importância da comunicação de venda ao DETRAN."
+        },
+        {
+          "h": "Base de cálculo e alíquotas",
+          "p": "A base de cálculo é o VALOR VENAL do veículo, normalmente apurado por tabela oficial (referência de mercado, tipo tabela FIPE) divulgada pela SEFAZ-GO. A atualização anual do valor venal por tabela NÃO configura majoração sujeita à legalidade/anterioridade (é mera atualização).\n\nAs alíquotas variam por TIPO e uso do veículo (a CF, art. 155, §6º, II, permite alíquotas diferenciadas em função do tipo e utilização). A EC 132/2023 ampliou: permitiu diferenciar também em razão do valor, do impacto ambiental e da utilização, e estendeu o IPVA a veículos aquáticos e aéreos (com ressalvas/exceções). Goiás fixa alíquotas próprias (ex.: menores para veículos de carga/utilitários, maiores para automóveis de passeio)."
+        },
+        {
+          "h": "Anterioridade e a base de cálculo (exceção)",
+          "p": "O IPVA segue a legalidade e a anterioridade do exercício para majoração de ALÍQUOTA. Porém, a fixação da BASE DE CÁLCULO do IPVA (assim como a do IPTU) é EXCEÇÃO à anterioridade NONAGESIMAL (noventena) — art. 150, §1º, CF.\n\nOu seja: a base de cálculo do IPVA pode ser alterada e aplicada já em 1º de janeiro do ano seguinte, sem esperar os 90 dias. Atenção: a exceção é só à noventena; a anterioridade do exercício (virada do ano) continua exigida. É uma pegadinha clássica das bancas."
+        },
+        {
+          "h": "Repartição de receita e não incidência",
+          "p": "Repartição: 50% do produto da arrecadação do IPVA pertence ao MUNICÍPIO onde o veículo for LICENCIADO (art. 158, III, CF). Os outros 50% ficam com o Estado. Por isso o IPVA tem forte interesse municipal.\n\nNão incidência jurisprudencial: o STF firmou que o IPVA NÃO incide sobre EMBARCAÇÕES e AERONAVES (RE 134.509 e RE 255.111), pois o conceito de 'veículo automotor' do imposto historicamente abrangia apenas os veículos terrestres. (A EC 132/2023 alterou esse cenário para o futuro, permitindo a tributação de veículos aquáticos e aéreos, com exceções — mas a regra histórica é cobrada para o passado.) Há ainda imunidades e isenções (ex.: veículos de pessoas com deficiência, máquinas agrícolas, transporte público em certas hipóteses)."
+        }
+      ],
+      "exemplo": "Um veículo é licenciado em Aparecida de Goiânia, com IPVA de R$ 2.000 no ano. Da arrecadação, R$ 1.000 (50%) vão para o município de Aparecida de Goiânia e R$ 1.000 para o Estado de Goiás (art. 158, III, CF).\n\nPegadinha de anterioridade: 'A nova tabela de valor venal do IPVA publicada em dezembro só pode ser aplicada após 90 dias.' — ERRADO. A fixação da BASE DE CÁLCULO do IPVA é exceção à noventena (art. 150, §1º, CF), podendo valer já em 1º de janeiro. Outra pegadinha: 'Incide IPVA sobre lanchas e jatos.' — Historicamente ERRADO (RE 134.509/STF); cuidado apenas com as mudanças da EC 132/2023.",
+      "pontos_chave": [
+        "IPVA = imposto estadual sobre a propriedade de veículo automotor (art. 155, III, CF)",
+        "Sem LC nacional: Estados exercem competência legislativa plena (art. 24, §3º, CF)",
+        "Fato gerador: 1º de janeiro (anual); 1ª aquisição (novo); desembaraço (importado)",
+        "Base = valor venal (tabela); contribuinte = proprietário",
+        "50% da arrecadação vão ao MUNICÍPIO de licenciamento (art. 158, III, CF)",
+        "Base de cálculo do IPVA é EXCEÇÃO à noventena (art. 150, §1º) — mas respeita a anterioridade do exercício",
+        "STF: não incide sobre embarcações e aeronaves (RE 134.509) — alterado p/ futuro pela EC 132/2023",
+        "Alíquotas diferenciadas por tipo/uso/valor/impacto ambiental (art. 155, §6º; EC 132/2023)"
+      ],
+      "dica_prova": "Memorize: 50% ao município de licenciamento; base de cálculo é exceção SÓ à noventena (não à anterioridade do exercício); e a regra histórica de não incidência sobre barcos e aviões (RE 134.509), atenta às novidades da EC 132/2023. O fato gerador é a PROPRIEDADE — não o licenciamento nem o uso."
+    },
+    {
+      "ti": 6,
+      "si": 0,
+      "titulo": "Hierarquia normativa",
+      "intro": "Além dos impostos (ICMS, ITCD, IPVA), o Estado de Goiás institui TAXAS, tributos vinculados a uma atuação estatal específica. E todo o sistema tributário goiano organiza-se segundo uma HIERARQUIA NORMATIVA: da Constituição Federal, no topo, até os atos infralegais da SEFAZ, na base. Compreender essa pirâmide é essencial para saber qual norma prevalece e o que cada espécie pode disciplinar.\n\nAs taxas têm fundamento no art. 145, II, da CF/88 e nos arts. 77 a 80 do CTN. São cobradas em razão do exercício do PODER DE POLÍCIA ou pela utilização, efetiva ou potencial, de SERVIÇO PÚBLICO específico e divisível, prestado ao contribuinte ou posto à sua disposição.\n\nPara o Auditor-Fiscal, este tópico cobra dois eixos: (1) o conceito e os limites das taxas (distinção de imposto e de preço público/tarifa); e (2) a estrutura hierárquica das fontes do Direito Tributário aplicáveis em Goiás (CF, LC, lei ordinária/CTE-GO, decreto/RICMS, instruções normativas, convênios CONFAZ).",
+      "secoes": [
+        {
+          "h": "Conceito e requisitos das taxas (arts. 77-78 do CTN)",
+          "p": "A taxa é tributo VINCULADO: pressupõe uma contraprestação estatal específica. Há duas espécies: (i) taxa de POLÍCIA, pelo exercício regular do poder de polícia (fiscalização, licenciamento, autorizações); e (ii) taxa de SERVIÇO, pela utilização efetiva ou potencial de serviço público específico e divisível (uti singuli).\n\nRequisitos do serviço: ESPECÍFICO (destacável em unidades autônomas) e DIVISÍVEL (suscetível de utilização separada por cada usuário). Por isso, a taxa de iluminação pública é inconstitucional (Súmula Vinculante 41: o serviço de iluminação pública não pode ser remunerado por taxa, por ser indivisível). A taxa NÃO pode ter base de cálculo própria de imposto (art. 145, §2º, CF; Súmula Vinculante 29: é permitido adotar um ou mais elementos da base de imposto, desde que não haja integral identidade)."
+        },
+        {
+          "h": "Taxa x imposto x preço público (tarifa)",
+          "p": "Imposto é tributo NÃO VINCULADO (não depende de contraprestação estatal — art. 16 do CTN). Taxa é VINCULADA. Já o PREÇO PÚBLICO (tarifa) NÃO é tributo: decorre de relação contratual, é facultativo e cobrado por concessionárias/permissionárias (ex.: tarifa de ônibus, pedágio explorado por concessão).\n\nA Súmula 545 do STF distingue: taxas são compulsórias e têm cobrança condicionada à prévia autorização orçamentária (hoje relativizada); preços públicos são facultativos. Pegadinha clássica: pedágio cobrado pelo Poder Público diretamente tende a ser taxa; pedágio cobrado por concessionária é tarifa/preço público (o STF, na ADI 800, tratou o pedágio como preço público nesse caso)."
+        },
+        {
+          "h": "A pirâmide das fontes em Goiás",
+          "p": "A hierarquia das normas tributárias aplicáveis a Goiás é: (1) CONSTITUIÇÃO FEDERAL — reparte competências, fixa imunidades, princípios e limitações; (2) LEIS COMPLEMENTARES nacionais (CTN, LC 87/96, LC 24/75, LC 116/03) — normas gerais (art. 146, CF); (3) LEIS ORDINÁRIAS estaduais — o CTE-GO (Lei 11.651/91), que institui os tributos; (4) DECRETOS — o RICMS-GO (Decreto 4.852/97), que regulamenta; (5) NORMAS COMPLEMENTARES (art. 100 do CTN) — instruções normativas, portarias, atos da SEFAZ, decisões com eficácia normativa e os CONVÊNIOS.\n\nA Constituição Estadual de Goiás também integra o sistema, mas não pode contrariar a CF/88. Cada norma inferior deve compatibilidade com a superior; o decreto não cria nem majora tributo (legalidade)."
+        },
+        {
+          "h": "Normas complementares e os convênios (art. 100 do CTN)",
+          "p": "O art. 100 do CTN lista como NORMAS COMPLEMENTARES das leis e decretos: os atos normativos das autoridades administrativas (instruções normativas, portarias da SEFAZ); as decisões dos órgãos com eficácia normativa (decisões do contencioso administrativo com força normativa); as práticas reiteradamente observadas pelas autoridades; e os CONVÊNIOS celebrados entre os entes (CONFAZ).\n\nImportante: a observância das normas complementares EXCLUI a imposição de penalidades, a cobrança de juros de mora e a atualização do valor monetário da base (art. 100, parágrafo único, CTN). Ou seja, quem segue uma IN da SEFAZ de boa-fé não é punido se ela depois for alterada. Ponto cobrado com frequência."
+        }
+      ],
+      "exemplo": "Goiás institui, por lei, uma taxa de fiscalização ambiental cobrada das empresas potencialmente poluidoras (poder de polícia). É válida? — SIM, desde que vinculada ao efetivo exercício do poder de polícia (fiscalização) e que sua base de cálculo não coincida integralmente com a de um imposto (art. 145, §2º, CF; SV 29). O STF validou taxas similares (ex.: TCFA do IBAMA, RE 416.601).\n\nHierarquia (questão típica): 'Uma instrução normativa da SEFAZ-GO pode majorar a alíquota do ICMS.' — ERRADO. IN é norma complementar (art. 100, CTN), subordinada à lei; majorar alíquota exige LEI (legalidade, art. 150, I, CF). Outra: 'O contribuinte que seguiu uma IN da SEFAZ posteriormente revogada deve pagar multa e juros.' — ERRADO (art. 100, parágrafo único, CTN: exclui penalidades e juros).",
+      "pontos_chave": [
+        "Taxa (art. 145, II, CF; arts. 77-80 CTN): tributo vinculado a poder de polícia ou serviço específico e divisível",
+        "SV 41: iluminação pública não pode ser custeada por taxa (serviço indivisível)",
+        "SV 29: taxa pode usar elementos da base de imposto, sem identidade integral (art. 145, §2º, CF)",
+        "Taxa é compulsória; preço público/tarifa é contratual e facultativo (Súmula 545 STF)",
+        "Hierarquia: CF → LC nacional → CTE-GO (lei) → RICMS (decreto) → normas complementares (art. 100 CTN)",
+        "Decreto não cria nem majora tributo (legalidade, art. 150, I, CF)",
+        "Convênios CONFAZ e INs da SEFAZ são normas complementares (art. 100 CTN)",
+        "Art. 100, p. único: seguir norma complementar exclui multa, juros e correção"
+      ],
+      "dica_prova": "Não confunda taxa (tributo, compulsória, vinculada) com preço público/tarifa (contratual, facultativo, não tributo). Decore as Súmulas Vinculantes 29 e 41. Na hierarquia, a chave é: só LEI cria/majora tributo; decreto e IN apenas regulamentam. E lembre do art. 100, p. único (boa-fé exclui multa e juros)."
+    }
+  ]
+}

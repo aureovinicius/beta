@@ -1,0 +1,429 @@
+{
+  "slug": "tecnologia-da-informacao",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Modelo relacional e chaves",
+      "intro": "Um banco de dados é uma coleção organizada e persistente de dados inter-relacionados, gerenciada por um software chamado SGBD (Sistema Gerenciador de Banco de Dados), responsável por armazenamento, acesso concorrente, segurança e integridade. O SGBD cria uma camada de abstração entre os dados físicos (arquivos em disco) e o usuário/aplicação, evitando a redundância descontrolada e a dependência dos programas em relação à estrutura física dos dados.\n\nO modelo relacional, proposto por Edgar F. Codd (IBM, 1970), é o paradigma dominante e fundamenta-se na teoria dos conjuntos e na lógica de predicados. Nele, os dados são organizados em relações (tabelas bidimensionais), e os relacionamentos entre os dados são representados por meio de valores (chaves), e não por ponteiros físicos. Esse é o ponto que mais cai em prova: no modelo relacional, ligações entre tabelas se fazem por valores de chaves, não por endereços de memória.\n\nPara o Auditor-Fiscal, dominar tabelas e chaves é a base para consultar dados de NF-e, EFD/SPED, cadastro de contribuintes e cruzamentos fiscais, pois toda a inteligência fiscal repousa sobre bases relacionais bem modeladas.",
+      "secoes": [
+        {
+          "h": "Terminologia: relação, tupla, atributo, domínio",
+          "p": "Na linguagem formal do modelo relacional, uma tabela é uma relação; cada linha é uma tupla (registro); cada coluna é um atributo (campo); e o conjunto de valores permitidos para um atributo é o domínio (ex.: o domínio de um CPF são strings de 11 dígitos numéricos).\n\nDois conceitos derivados são o grau (cardinalidade de atributos = número de colunas) e a cardinalidade (número de tuplas = número de linhas). Cuidado com a pegadinha: grau é sobre colunas, cardinalidade é sobre linhas. Uma propriedade essencial é que, formalmente, uma relação é um conjunto de tuplas — logo não admite tuplas duplicadas e a ordem das linhas e colunas é irrelevante."
+        },
+        {
+          "h": "Chave primária (PK) e chave candidata",
+          "p": "Uma superchave é qualquer conjunto de atributos que identifica unicamente uma tupla. Uma chave candidata é uma superchave mínima (sem atributos supérfluos). Dentre as chaves candidatas, o projetista escolhe uma como chave primária (PK — Primary Key); as demais tornam-se chaves alternativas.\n\nA PK tem duas restrições inseparáveis: unicidade (não há valores repetidos) e integridade de entidade — nenhum atributo da PK pode ser NULL. Por isso, uma coluna que admite NULL nunca pode ser, sozinha, chave primária. Uma PK formada por mais de um atributo é chamada chave composta (ou concatenada)."
+        },
+        {
+          "h": "Chave estrangeira (FK) e integridade referencial",
+          "p": "A chave estrangeira (FK — Foreign Key) é um atributo (ou conjunto) de uma tabela que referencia a chave primária de outra (ou da mesma) tabela. Ela materializa os relacionamentos no modelo relacional e impõe a integridade referencial: todo valor de FK deve corresponder a um valor existente de PK na tabela referenciada, ou ser NULL (quando permitido).\n\nA integridade referencial é mantida por ações de propagação em UPDATE/DELETE, definidas no CREATE TABLE: ON DELETE CASCADE (apaga as filhas), SET NULL (anula a FK), RESTRICT/NO ACTION (proíbe a operação se houver filhas). Pegadinha clássica: a FK pode aceitar valores NULL e pode haver valores repetidos de FK (relacionamento 1:N), o que NÃO ocorre com a PK."
+        },
+        {
+          "h": "Regras de integridade e o catálogo",
+          "p": "O modelo relacional define duas integridades fundamentais: a integridade de entidade (PK não nula e única) e a integridade referencial (FK consistente). Há ainda a integridade de domínio (valores dentro do domínio/tipo, garantida por CHECK, NOT NULL, DEFAULT) e integridades definidas pelo usuário (regras de negócio).\n\nAs definições de tabelas, colunas, chaves e restrições ficam no dicionário de dados (catálogo/metadados), que é a 'tabela das tabelas' consultada pelo SGBD para validar operações."
+        }
+      ],
+      "exemplo": "Considere o cadastro de contribuintes do ICMS. Tabela CONTRIBUINTE(insc_estadual PK, cnpj, razao_social, municipio) e tabela NFE(chave_acesso PK, insc_emitente FK -> CONTRIBUINTE, valor, data). Aqui insc_emitente é uma FK: toda NF-e deve apontar para um contribuinte cadastrado (integridade referencial). Se um auditor tentar excluir um contribuinte que já emitiu notas, uma restrição ON DELETE RESTRICT bloqueará a operação, preservando o histórico fiscal.\n\nQuestão típica (estilo FGV/Cebraspe): 'Em um banco relacional, uma chave estrangeira pode assumir valor nulo.' — CERTO, desde que a coluna permita NULL; isso representa um relacionamento opcional. Já a afirmação 'a chave primária pode conter valores nulos' é ERRADA, por violar a integridade de entidade.",
+      "pontos_chave": [
+        "Modelo relacional liga tabelas por VALORES (chaves), não por ponteiros físicos.",
+        "Grau = nº de colunas (atributos); cardinalidade = nº de linhas (tuplas).",
+        "PK: única e NÃO nula (integridade de entidade). Chave candidata mínima vira PK.",
+        "FK referencia PK de outra tabela; garante integridade referencial.",
+        "FK PODE ser nula e PODE repetir; PK não pode nenhum dos dois.",
+        "Ações referenciais: CASCADE, SET NULL, RESTRICT/NO ACTION.",
+        "Relação é um conjunto: sem tuplas duplicadas e ordem das linhas irrelevante."
+      ],
+      "dica_prova": "A pegadinha mais frequente troca as propriedades de PK e FK: lembre que só a FK admite NULL e repetição. Outra armadilha confunde grau (colunas) com cardinalidade (linhas). E desconfie de afirmações que dizem que o modelo relacional usa 'ponteiros' ou 'endereços' para relacionar tabelas — isso é característica de modelos de rede/hierárquico, não do relacional."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Linguagens (SQL)",
+      "intro": "SQL (Structured Query Language) é a linguagem padrão (ANSI/ISO) para definir, manipular e controlar dados em bancos relacionais. É uma linguagem declarativa: o usuário descreve O QUE quer obter, e o SGBD decide COMO obter (via otimizador de consultas). Esse caráter declarativo a diferencia de linguagens procedurais.\n\nSQL é tradicionalmente subdividida em sublinguagens conforme a finalidade dos comandos: DDL (definição), DML (manipulação), DCL (controle de acesso) e DTL/TCL (controle de transações). Algumas bancas incluem ainda a DQL para o SELECT, mas é comum tratar o SELECT dentro da DML — atenção a essa divergência de classificação.\n\nPara a fiscalização, SQL é a ferramenta central: cruzar EFD com NF-e, somar bases de cálculo de ICMS por período, localizar contribuintes omissos e gerar malhas fiscais são, no fundo, consultas SQL.",
+      "secoes": [
+        {
+          "h": "DDL — Data Definition Language",
+          "p": "A DDL define e altera a estrutura (esquema) do banco. Comandos principais: CREATE (cria tabelas, índices, views, esquemas), ALTER (modifica estruturas existentes), DROP (remove objetos) e TRUNCATE (esvazia uma tabela rapidamente).\n\nPegadinha importante: TRUNCATE é classificado como DDL (não DML), remove todas as linhas sem registrar cada exclusão no log da mesma forma que o DELETE, e em muitos SGBDs provoca commit implícito (não pode ser desfeito por ROLLBACK). DROP remove a própria estrutura; TRUNCATE remove só os dados, mantendo a tabela."
+        },
+        {
+          "h": "DML — Data Manipulation Language",
+          "p": "A DML manipula os dados (linhas) dentro das estruturas: INSERT (insere), UPDATE (altera), DELETE (remove) e SELECT (consulta). O SELECT é o comando mais rico, com cláusulas em ordem lógica: FROM (origem e JOINs), WHERE (filtro de linhas), GROUP BY (agrupamento), HAVING (filtro de grupos), SELECT (projeção de colunas) e ORDER BY (ordenação).\n\nDistinção que cai muito: WHERE filtra linhas ANTES do agrupamento; HAVING filtra grupos DEPOIS do GROUP BY (e pode usar funções de agregação como SUM, COUNT, AVG, MAX, MIN). Funções de agregação ignoram NULL (exceto COUNT(*))."
+        },
+        {
+          "h": "DCL e TCL — controle de acesso e de transações",
+          "p": "A DCL (Data Control Language) controla privilégios: GRANT concede permissões (SELECT, INSERT, etc.) a usuários/papéis; REVOKE as retira. É a base da segurança e da segregação de funções no acesso a dados sigilosos do contribuinte.\n\nA TCL/DTL (Transaction Control Language) gerencia transações: COMMIT confirma e torna permanentes as alterações; ROLLBACK desfaz; SAVEPOINT cria pontos intermediários de retorno. Algumas bancas cobram esses comandos como parte da DCL — verifique o enunciado, mas o mais técnico é separá-los."
+        },
+        {
+          "h": "JOINs e operações de conjunto",
+          "p": "Para combinar tabelas, usam-se JOINs: INNER JOIN (só linhas com correspondência nas duas tabelas), LEFT/RIGHT OUTER JOIN (preservam todas as linhas de um lado, completando com NULL), FULL OUTER JOIN (preserva ambos) e CROSS JOIN (produto cartesiano).\n\nOperadores de conjunto combinam resultados de SELECTs com mesma estrutura: UNION (une eliminando duplicatas), UNION ALL (une mantendo duplicatas — mais rápido), INTERSECT (interseção) e EXCEPT/MINUS (diferença). Pegadinha: UNION elimina duplicatas e ordena/processa mais; UNION ALL não elimina."
+        }
+      ],
+      "exemplo": "Para identificar contribuintes cujo total declarado de saídas de ICMS em 2025 ultrapassou R$ 1 milhão, mas que não estão no regime normal:\n\nSELECT c.insc_estadual, c.razao_social, SUM(n.valor) AS total\nFROM nfe n\nJOIN contribuinte c ON c.insc_estadual = n.insc_emitente\nWHERE EXTRACT(YEAR FROM n.data) = 2025\nGROUP BY c.insc_estadual, c.razao_social\nHAVING SUM(n.valor) > 1000000\nORDER BY total DESC;\n\nNote o uso de WHERE (filtra notas de 2025), GROUP BY (agrupa por contribuinte), HAVING (filtra somente os grupos cujo total excede 1 milhão) e ORDER BY. Questão típica: 'A cláusula HAVING pode ser usada sem GROUP BY?' — Em geral sim, tratando toda a tabela como um único grupo, mas conceitualmente HAVING filtra grupos e WHERE filtra linhas; trocar os dois é o erro mais cobrado.",
+      "pontos_chave": [
+        "SQL é declarativa e padrão ANSI/ISO para bancos relacionais.",
+        "DDL: CREATE, ALTER, DROP, TRUNCATE (estrutura). DML: INSERT, UPDATE, DELETE, SELECT (dados).",
+        "DCL: GRANT/REVOKE (acesso). TCL: COMMIT, ROLLBACK, SAVEPOINT (transações).",
+        "WHERE filtra linhas antes; HAVING filtra grupos após GROUP BY.",
+        "TRUNCATE é DDL, esvazia rápido e costuma ter commit implícito; DELETE é DML e transacional.",
+        "Funções de agregação (SUM, AVG, COUNT, MAX, MIN) ignoram NULL, salvo COUNT(*).",
+        "UNION remove duplicatas; UNION ALL mantém. INNER JOIN só traz correspondências."
+      ],
+      "dica_prova": "Memorize a alocação de cada comando à sua sublinguagem — bancas adoram dizer que TRUNCATE é DML (errado, é DDL) ou que GRANT é DML (errado, é DCL). Outra cilada recorrente: afirmar que HAVING é usada para filtrar linhas (não, ela filtra grupos) ou que DELETE remove a estrutura da tabela (não, só os dados; quem remove a estrutura é DROP)."
+    },
+    {
+      "ti": 0,
+      "si": 2,
+      "titulo": "Normalização",
+      "intro": "Normalização é um processo formal de decomposição de tabelas, baseado em dependências funcionais, com o objetivo de reduzir a redundância de dados e eliminar anomalias de atualização, inserção e exclusão. Foi desenvolvida por E. F. Codd e refinada em formas normais sucessivas (1FN, 2FN, 3FN, BCNF, 4FN, 5FN), cada uma corrigindo um tipo específico de problema.\n\nA ideia central é a dependência funcional: dizemos que B depende funcionalmente de A (A -> B) quando cada valor de A determina um único valor de B. As formas normais são definidas a partir de como os atributos não-chave dependem (ou não) da chave. Um banco bem normalizado evita, por exemplo, armazenar o nome do município repetido em milhares de notas fiscais.\n\nNa prática fiscal, a normalização garante consistência das bases (cadastro, NF-e, EFD), mas o desempenho analítico às vezes pede o caminho inverso (desnormalização), tema que reaparece no Data Warehouse.",
+      "secoes": [
+        {
+          "h": "Anomalias e o porquê de normalizar",
+          "p": "Tabelas mal projetadas, que misturam várias entidades, sofrem três anomalias: de inserção (não consigo inserir um produto sem ter uma venda associada), de exclusão (ao apagar a última venda, perco os dados do produto) e de atualização (preciso mudar o nome de um município em centenas de linhas, arriscando inconsistência).\n\nA normalização ataca essas anomalias separando cada conjunto coeso de dados em sua própria tabela, ligada às demais por chaves estrangeiras."
+        },
+        {
+          "h": "Primeira Forma Normal (1FN)",
+          "p": "Uma tabela está na 1FN quando todos os atributos são atômicos (indivisíveis) e não há grupos repetitivos nem atributos multivalorados. Ou seja: nada de uma coluna 'telefones' guardando '3232-1111; 99999-2222', nem colunas repetidas como produto1, produto2, produto3.\n\nA solução é decompor os valores multivalorados em linhas separadas (criando uma tabela própria). A 1FN é o pré-requisito para todas as demais formas."
+        },
+        {
+          "h": "Segunda Forma Normal (2FN)",
+          "p": "Uma tabela está na 2FN quando está na 1FN e todos os atributos não-chave dependem da chave primária INTEIRA, não apenas de parte dela. A 2FN só faz diferença quando a chave é composta — se a PK é simples e a tabela está na 1FN, ela já está automaticamente na 2FN.\n\nA 2FN elimina dependências parciais. Exemplo: em ITEM_NOTA(num_nota, cod_produto, qtd, nome_produto), 'nome_produto' depende só de cod_produto (parte da chave), não da chave inteira — viola a 2FN. Solução: mover nome_produto para uma tabela PRODUTO."
+        },
+        {
+          "h": "Terceira Forma Normal (3FN) e BCNF",
+          "p": "Uma tabela está na 3FN quando está na 2FN e não há dependências transitivas — nenhum atributo não-chave depende de outro atributo não-chave. Frase mnemônica clássica: cada atributo depende 'da chave, de toda a chave e de nada além da chave'.\n\nExemplo de violação: CONTRIBUINTE(insc, municipio, uf_municipio) — uf_municipio depende de municipio (não da PK), dependência transitiva. Solução: tabela MUNICIPIO(municipio, uf). A BCNF (Forma Normal de Boyce-Codd) é um refinamento mais rígido da 3FN, exigindo que todo determinante seja chave candidata; trata casos com múltiplas chaves candidatas sobrepostas."
+        },
+        {
+          "h": "Desnormalização e o trade-off com desempenho",
+          "p": "Normalizar reduz redundância e melhora a integridade, mas aumenta o número de tabelas e, consequentemente, a quantidade de JOINs nas consultas, o que pode degradar o desempenho de leitura.\n\nEm ambientes analíticos (Data Warehouse), aceita-se a desnormalização controlada — reintroduzir redundância proposital para acelerar consultas. Esse é o motivo de o esquema estrela manter dimensões desnormalizadas. Trata-se de um equilíbrio: OLTP tende ao normalizado; OLAP tende ao desnormalizado."
+        }
+      ],
+      "exemplo": "Tabela não normalizada de notas fiscais: NOTA(num, data, cnpj_emit, razao_emit, municipio_emit, uf_emit, cod_prod, desc_prod, qtd, valor).\n\nObservações: 'razao_emit' e 'municipio_emit' dependem de cnpj_emit (e não da chave composta num+cod_prod) — violação da 2FN; 'uf_emit' depende de municipio_emit — dependência transitiva, violação da 3FN. Normalizando em 3FN, obtemos quatro tabelas: NOTA(num, data, cnpj_emit), CONTRIBUINTE(cnpj, razao, municipio), MUNICIPIO(municipio, uf) e ITEM(num, cod_prod, qtd, valor) com PRODUTO(cod_prod, desc).\n\nQuestão típica: 'Uma tabela com chave primária simples e na 1FN está necessariamente na 2FN.' — CERTO, pois sem chave composta não há dependência parcial possível.",
+      "pontos_chave": [
+        "Normalização reduz redundância e elimina anomalias (inserção, exclusão, atualização).",
+        "1FN: atributos atômicos, sem grupos repetitivos nem multivalorados.",
+        "2FN: 1FN + sem dependência parcial (só importa se a chave for composta).",
+        "3FN: 2FN + sem dependência transitiva ('chave, toda a chave e nada além da chave').",
+        "BCNF é mais rígida que a 3FN: todo determinante deve ser chave candidata.",
+        "PK simples + 1FN => já está em 2FN automaticamente.",
+        "Desnormalização troca integridade por desempenho — típica de DW/OLAP."
+      ],
+      "dica_prova": "Decore a frase 'depende da chave, de toda a chave e de nada além da chave' (3FN). A pegadinha mais comum afirma que uma tabela com chave simples pode violar a 2FN — não pode, pois dependência parcial exige chave composta. Outra cilada inverte os conceitos: dependência PARCIAL é da 2FN; dependência TRANSITIVA é da 3FN. E lembre que normalizar tende a piorar o desempenho de consultas (mais JOINs), motivo da desnormalização em data warehouses."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Integridade e segurança",
+      "intro": "A administração de dados trata o dado como ativo estratégico da organização, zelando por sua integridade (correção e consistência), confidencialidade (sigilo) e disponibilidade. No contexto fiscal, isso é crítico: dados do contribuinte são protegidos por sigilo fiscal (art. 198 do CTN), e qualquer falha de integridade ou vazamento tem repercussão legal e funcional.\n\nDois pilares sustentam esse zelo: o controle de transações, que garante a consistência mesmo diante de falhas e acessos concorrentes (propriedades ACID e níveis de isolamento), e o controle de acesso, que assegura que apenas usuários autorizados manipulem cada dado (autenticação e autorização).\n\nEntender ACID e isolamento é decisivo porque bancas cobram exatamente onde as garantias começam e terminam — por exemplo, por que uma transação pode 'enxergar' dados não confirmados de outra.",
+      "secoes": [
+        {
+          "h": "Transações e propriedades ACID",
+          "p": "Uma transação é uma unidade lógica de trabalho composta por uma ou mais operações que devem ocorrer 'tudo ou nada'. As propriedades ACID garantem sua confiabilidade:\n\nAtomicidade — a transação é indivisível: ou todas as operações se efetivam (COMMIT) ou nenhuma (ROLLBACK). Consistência — leva o banco de um estado válido a outro estado válido, respeitando todas as restrições. Isolamento — transações concorrentes não interferem indevidamente umas nas outras (como se fossem seriais). Durabilidade — após o COMMIT, as alterações persistem mesmo diante de falhas de energia ou queda do sistema (garantida por logs e gravação em disco)."
+        },
+        {
+          "h": "Problemas de concorrência",
+          "p": "Quando várias transações acessam os mesmos dados simultaneamente, podem surgir anomalias: dirty read (leitura suja — ler dado alterado por transação ainda não confirmada, que pode sofrer rollback); non-repeatable read (leitura não repetível — ler o mesmo registro duas vezes com valores diferentes); e phantom read (leitura fantasma — uma nova consulta retorna linhas que não existiam antes, inseridas por outra transação).\n\nO isolamento controla quais dessas anomalias são toleradas: quanto maior o isolamento, menos anomalias e menor a concorrência (desempenho)."
+        },
+        {
+          "h": "Níveis de isolamento (SQL padrão)",
+          "p": "O padrão SQL define quatro níveis crescentes: READ UNCOMMITTED (permite dirty read); READ COMMITTED (impede dirty read, mas admite non-repeatable e phantom); REPEATABLE READ (impede dirty e non-repeatable, mas pode permitir phantom); e SERIALIZABLE (o mais rígido, impede todas as anomalias, simulando execução serial).\n\nMecanismos de implementação incluem bloqueios (locks) e controle de concorrência multiversão (MVCC). O trade-off central: mais isolamento = mais integridade, menos concorrência/desempenho."
+        },
+        {
+          "h": "Autenticação, autorização e sigilo fiscal",
+          "p": "A segurança lógica do banco assenta-se em autenticação (verificar quem é o usuário) e autorização (definir o que ele pode fazer), implementada por GRANT/REVOKE e por papéis (RBAC — controle de acesso baseado em papéis). Aplica-se o princípio do menor privilégio e a segregação de funções.\n\nComplementam o quadro: criptografia (em repouso e em trânsito), trilhas de auditoria (logs de acesso), mascaramento de dados sensíveis e o respeito ao sigilo fiscal (art. 198 do CTN) e à LGPD (Lei 13.709/2018). O cruzamento de dados pela administração tributária é lícito, mas o acesso individualizado exige autorização e registro."
+        }
+      ],
+      "exemplo": "Imagine duas operações simultâneas sobre a conta corrente fiscal de um contribuinte: a transação T1 registra um pagamento de R$ 50.000 (débito da dívida) e a transação T2 gera uma certidão consultando o saldo devedor. Sem isolamento adequado, T2 poderia ler o saldo já reduzido por T1 antes do COMMIT (dirty read); se T1 sofrer rollback, a certidão teria sido emitida com base em dado inexistente. Com isolamento READ COMMITTED, T2 só enxergaria valores confirmados, evitando a certidão indevida.\n\nQuestão típica (Cebraspe): 'No nível SERIALIZABLE, é possível ocorrer leitura fantasma.' — ERRADO; SERIALIZABLE impede dirty, non-repeatable E phantom reads. Já em REPEATABLE READ, a leitura fantasma ainda pode ocorrer no padrão SQL.",
+      "pontos_chave": [
+        "ACID: Atomicidade, Consistência, Isolamento, Durabilidade.",
+        "Atomicidade = tudo ou nada; Durabilidade = persiste após COMMIT mesmo com falha.",
+        "Anomalias de concorrência: dirty read, non-repeatable read, phantom read.",
+        "Níveis: READ UNCOMMITTED < READ COMMITTED < REPEATABLE READ < SERIALIZABLE.",
+        "Mais isolamento = mais integridade, menos concorrência/desempenho.",
+        "Segurança: autenticação + autorização (GRANT/REVOKE, RBAC, menor privilégio).",
+        "Sigilo fiscal: art. 198 do CTN; proteção de dados: LGPD (Lei 13.709/2018)."
+      ],
+      "dica_prova": "Associe cada anomalia ao nível que a impede: SERIALIZABLE bloqueia tudo; REPEATABLE READ ainda deixa passar phantom; READ COMMITTED só barra dirty read. A pegadinha mais comum troca atomicidade por durabilidade (atomicidade é 'tudo ou nada' durante a execução; durabilidade é 'persiste após o commit'). Cuidado também com 'Consistência' do ACID, que se refere a respeitar as regras de integridade do banco, e não a 'consistência eventual' de bancos distribuídos."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Backup e recuperação",
+      "intro": "Backup (cópia de segurança) e recovery (recuperação) constituem a estratégia de continuidade dos dados, assegurando que informações fiscais possam ser restauradas após falhas de hardware, erros humanos, corrupção lógica, desastres ou ataques (como ransomware). Para o fisco, essa garantia também tem dimensão de auditabilidade: a integridade temporal dos dados precisa ser comprovável.\n\nA recuperação de bancos de dados apoia-se em dois recursos centrais: as cópias de backup e os logs de transações (registro sequencial de todas as alterações). Com eles, o SGBD reconstrói um estado consistente após uma falha, refazendo (REDO) transações confirmadas e desfazendo (UNDO) as não confirmadas.\n\nO planejamento define dois parâmetros-chave de negócio: RPO (quanto de dado se aceita perder) e RTO (em quanto tempo se precisa voltar a operar) — conceitos cada vez mais cobrados em provas de TI para a área fiscal.",
+      "secoes": [
+        {
+          "h": "Tipos de backup: completo, incremental e diferencial",
+          "p": "Backup completo (full) copia todos os dados; é a base e o mais demorado/volumoso, mas o mais simples de restaurar. Backup incremental copia apenas o que mudou desde o ÚLTIMO backup (full ou incremental anterior) — econômico em espaço/tempo de cópia, porém a restauração exige o full mais TODOS os incrementais na sequência. Backup diferencial copia tudo o que mudou desde o último backup COMPLETO — ocupa mais espaço que o incremental, mas a restauração exige apenas o full + o último diferencial.\n\nPegadinha clássica: incremental restaura a partir do último backup (qualquer um); diferencial restaura a partir do último FULL. Não confunda."
+        },
+        {
+          "h": "Backup a frio e a quente; lógico e físico",
+          "p": "Backup a frio (offline/cold) é feito com o banco parado — simples e consistente, mas indisponibiliza o serviço. Backup a quente (online/hot) ocorre com o banco em operação, usando logs para garantir consistência — essencial para sistemas 24x7 como os da Receita.\n\nQuanto à forma: backup físico copia os arquivos do banco (datafiles, logs); backup lógico exporta os dados em comandos/objetos (ex.: dump SQL), sendo mais portável entre versões, porém geralmente mais lento."
+        },
+        {
+          "h": "Logs de transação e recuperação (REDO/UNDO)",
+          "p": "O log de transações (write-ahead logging — WAL) registra cada alteração ANTES de aplicá-la aos dados, permitindo recuperação. Após uma falha, o processo de recovery faz REDO das transações já confirmadas (commit registrado no log) cujas alterações talvez não tenham chegado ao disco, e UNDO (rollback) das transações que estavam em andamento sem commit.\n\nCheckpoints são marcos periódicos que sincronizam memória e disco, reduzindo o trabalho de recuperação. Combinando o último backup com os logs subsequentes, é possível a recuperação ponto-no-tempo (point-in-time recovery)."
+        },
+        {
+          "h": "RPO, RTO e a regra 3-2-1",
+          "p": "RPO (Recovery Point Objective) é a perda máxima de dados tolerável, medida em tempo (ex.: 15 minutos) — define a frequência dos backups/log shipping. RTO (Recovery Time Objective) é o tempo máximo aceitável para restaurar o serviço — orienta a infraestrutura de recuperação.\n\nA boa prática 3-2-1 recomenda: 3 cópias dos dados, em 2 mídias/tecnologias diferentes, com 1 cópia off-site (fora do local). Testes periódicos de restauração são obrigatórios: um backup que nunca foi testado não é um backup confiável."
+        }
+      ],
+      "exemplo": "Política da SEFAZ-GO: full aos domingos e incrementais diários de segunda a sábado, com RPO de 1 dia e RTO de 4 horas. Se ocorrer corrupção na quinta-feira, a restauração exige o full de domingo + os incrementais de segunda, terça e quarta, na ordem. Se a política fosse diferencial, bastaria o full de domingo + o diferencial de quarta (mais simples de restaurar, embora os arquivos diferenciais cresçam dia a dia).\n\nQuestão típica: 'O backup incremental copia todas as alterações ocorridas desde o último backup completo.' — ERRADO; isso descreve o backup DIFERENCIAL. O incremental copia o que mudou desde o último backup, seja ele completo ou incremental.",
+      "pontos_chave": [
+        "Full: copia tudo; base de qualquer estratégia e restauração mais simples.",
+        "Incremental: copia desde o ÚLTIMO backup; restaura full + todos os incrementais.",
+        "Diferencial: copia desde o último FULL; restaura full + apenas o último diferencial.",
+        "Backup a quente (online) usa logs; a frio (offline) exige banco parado.",
+        "Recovery: REDO (refaz confirmadas) e UNDO (desfaz não confirmadas) via log/WAL.",
+        "RPO = perda máxima de dados; RTO = tempo máximo de indisponibilidade.",
+        "Regra 3-2-1; e sempre TESTE a restauração dos backups."
+      ],
+      "dica_prova": "A confusão incremental x diferencial é a campeã de erros: incremental = 'desde o último backup'; diferencial = 'desde o último FULL'. Decore também RPO (ponto/dado perdido) versus RTO (tempo de retorno) — bancas trocam os dois. E lembre que durabilidade do ACID e os logs de transação andam juntos: é o log/WAL que garante a recuperação e a persistência após o commit."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Esquema estrela e OLAP",
+      "intro": "Quando o objetivo deixa de ser registrar operações (OLTP) e passa a ser analisar grandes volumes históricos, recorre-se à modelagem multidimensional e ao Data Warehouse (DW). Um DW, na definição de Bill Inmon, é uma coleção de dados orientada a assunto, integrada, não-volátil e variável no tempo, destinada a apoiar a tomada de decisão.\n\nA modelagem multidimensional, popularizada por Ralph Kimball, organiza os dados em fatos (medidas numéricas dos eventos de negócio) e dimensões (os eixos de análise: tempo, produto, contribuinte, local). Essa estrutura espelha a forma como o gestor pensa — 'qual a arrecadação (fato) por município (dimensão) e por mês (dimensão)?'.\n\nSobre esse modelo opera o OLAP (Online Analytical Processing), que permite navegar interativamente pelos dados em múltiplas perspectivas. Para a inteligência fiscal, é o que viabiliza acompanhar a arrecadação de ICMS por setor, período e região com agilidade.",
+      "secoes": [
+        {
+          "h": "Tabela-fato e tabelas de dimensão",
+          "p": "A tabela-fato fica no centro do modelo e armazena as métricas/medidas do negócio (valor de ICMS, quantidade vendida, base de cálculo) e as chaves estrangeiras que apontam para as dimensões. É tipicamente longa (muitas linhas) e estreita (poucas colunas), com granularidade definida (o nível de detalhe de cada linha, ex.: um item por nota).\n\nAs tabelas de dimensão são curtas e largas: contêm os atributos descritivos e textuais usados para filtrar e agrupar (nome do contribuinte, CNAE, município, hierarquia de tempo). São elas que fornecem o 'contexto' das análises."
+        },
+        {
+          "h": "Esquema estrela x floco de neve (snowflake)",
+          "p": "No esquema estrela (star schema), a tabela-fato central conecta-se diretamente a dimensões DESNORMALIZADAS (cada dimensão é uma única tabela, mesmo com redundância). É simples, tem poucos JOINs e consultas rápidas — o formato preferido para BI.\n\nNo esquema floco de neve (snowflake), as dimensões são NORMALIZADAS, decompostas em sub-tabelas hierárquicas (ex.: dimensão local quebrada em município -> estado -> região). Economiza espaço e melhora a integridade, mas aumenta o número de JOINs e tende a ser mais lento. Há ainda o constelação de fatos (galaxy), com várias tabelas-fato compartilhando dimensões."
+        },
+        {
+          "h": "Operações OLAP",
+          "p": "O OLAP modela os dados como um cubo multidimensional e oferece operações de navegação: drill-down (descer no detalhe, ex.: do ano para o mês); roll-up (subir/agregar, ex.: do município para o estado); slice (fatiar — fixar um valor de uma dimensão, ex.: somente 2025); dice (recortar um subcubo combinando vários filtros); e pivot/rotate (girar os eixos para trocar a perspectiva de visualização).\n\nDrill-down e roll-up são opostos: um detalha, o outro agrega. Existe também o drill-across (entre fatos) e o drill-through (do agregado até o dado detalhado de origem)."
+        },
+        {
+          "h": "Arquiteturas OLAP: MOLAP, ROLAP e HOLAP",
+          "p": "MOLAP (Multidimensional OLAP) armazena os dados em cubos pré-calculados — consultas muito rápidas, mas maior consumo de espaço e processamento de carga. ROLAP (Relational OLAP) mantém os dados em tabelas relacionais e gera as consultas em SQL em tempo de execução — escala melhor para grandes volumes, porém pode ser mais lento. HOLAP (Hybrid) combina os dois: agregados em cubo, detalhe no relacional.\n\nComplementam o ecossistema os data marts (recortes departamentais do DW) e a área de staging, onde os dados são preparados antes da carga."
+        }
+      ],
+      "exemplo": "Cubo de arrecadação de ICMS na SEFAZ-GO: tabela-fato FATO_ARRECADACAO(sk_tempo, sk_contribuinte, sk_municipio, sk_cnae, valor_icms, base_calculo) cercada pelas dimensões DIM_TEMPO, DIM_CONTRIBUINTE, DIM_MUNICIPIO e DIM_CNAE — um esquema estrela. O auditor parte do total anual do estado (roll-up), faz drill-down até o mês e o município, aplica um slice para o setor de combustíveis (CNAE) e um dice combinando 'combustíveis + região metropolitana + 2º semestre', identificando rapidamente quedas atípicas de arrecadação.\n\nQuestão típica: 'No esquema floco de neve, as dimensões são desnormalizadas para acelerar consultas.' — ERRADO; é o esquema ESTRELA que mantém dimensões desnormalizadas. No floco de neve as dimensões são normalizadas.",
+      "pontos_chave": [
+        "DW (Inmon): orientado a assunto, integrado, não-volátil e variável no tempo.",
+        "Fato = métricas + FKs (longa/estreita); Dimensão = atributos descritivos (curta/larga).",
+        "Estrela: dimensões DESNORMALIZADAS, poucos JOINs, mais rápido (preferido em BI).",
+        "Floco de neve: dimensões NORMALIZADAS, mais JOINs, economiza espaço.",
+        "Drill-down detalha; roll-up agrega; slice fatia; dice recorta subcubo; pivot gira.",
+        "MOLAP (cubo pré-calculado), ROLAP (relacional/SQL), HOLAP (híbrido).",
+        "Data mart é um recorte departamental do DW."
+      ],
+      "dica_prova": "A inversão estrela x floco de neve é a pegadinha número um: ESTRELA = desnormalizado (rápido); FLOCO DE NEVE = normalizado. Decore que drill-down DESCE ao detalhe e roll-up SOBE para o agregado — bancas costumam trocar os dois. E não confunda 'não-volátil' do DW (dados não são alterados/excluídos, só acrescentados) com algo relativo a memória; é característica conceitual de Inmon."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "ETL",
+      "intro": "ETL (Extract, Transform, Load — Extração, Transformação e Carga) é o processo que alimenta o Data Warehouse, integrando dados de fontes heterogêneas (bancos OLTP, planilhas, arquivos SPED/EFD, NF-e, web services) em um repositório único, limpo e padronizado. É frequentemente a etapa mais cara e demorada de um projeto de BI, consumindo grande parte do esforço.\n\nO ETL resolve um problema concreto da fiscalização: as informações estão dispersas em sistemas diferentes, com formatos, códigos e qualidades distintos. Sem integração e limpeza, os cruzamentos fiscais seriam pouco confiáveis. O ETL transforma esse caos em uma base coerente para análise.\n\nÉ comum tratar a área de staging como o 'laboratório' onde os dados são preparados antes de irem para o DW, e distinguir o ETL do ELT, variação moderna em que a transformação ocorre após a carga, dentro de plataformas de grande capacidade (data lakes, nuvem).",
+      "secoes": [
+        {
+          "h": "Extração (Extract)",
+          "p": "A extração coleta dados das fontes de origem, que podem ser estruturadas (bancos relacionais), semiestruturadas (XML da NF-e, JSON) ou não estruturadas (textos). Pode ser completa (full) ou, mais comum em cargas periódicas, incremental (apenas o que mudou — via CDC, Change Data Capture, ou marcadores de data/hora).\n\nUm princípio importante é minimizar o impacto nos sistemas de origem (OLTP), por isso a extração frequentemente é agendada para janelas de baixa atividade e os dados são copiados para a staging antes de qualquer processamento pesado."
+        },
+        {
+          "h": "Transformação (Transform)",
+          "p": "É o coração do ETL: limpeza (corrigir/eliminar dados inválidos, tratar nulos e duplicados), padronização (unificar formatos de data, unidades, códigos), conformação de dimensões (uniformizar chaves entre fontes), deduplicação, validação de regras de negócio, agregações e cálculos derivados.\n\nÉ aqui que se garante a qualidade dos dados (data quality): exatidão, completude, consistência e atualidade. Em dados fiscais, isso inclui validar CNPJ/CPF, normalizar CNAE e padronizar a representação de valores monetários antes do cruzamento."
+        },
+        {
+          "h": "Carga (Load)",
+          "p": "A carga insere os dados transformados no DW (ou data mart). Pode ser inicial (full load) ou incremental. Um ponto sensível é o tratamento das dimensões que mudam ao longo do tempo (SCD — Slowly Changing Dimensions): SCD Tipo 1 sobrescreve o valor antigo (perde histórico); SCD Tipo 2 cria uma nova versão da linha preservando o histórico (com data de início/fim ou flag); SCD Tipo 3 guarda um número limitado de versões em colunas.\n\nA carga costuma ocorrer em janelas (batch) periódicas, e o DW permanece consultável durante o uso analítico."
+        },
+        {
+          "h": "ETL x ELT, staging e governança",
+          "p": "No ETL tradicional, transforma-se ANTES de carregar (ideal para DWs estruturados). No ELT, carregam-se os dados brutos primeiro e transforma-se depois, aproveitando o poder de processamento do destino (data lakes, nuvem, big data) — mais flexível para grandes volumes e dados variados.\n\nA staging area é o repositório intermediário onde os dados ficam durante o processamento, isolando o DW das fontes. Boas práticas incluem metadados, linhagem de dados (rastrear de onde cada dado veio) e tratamento de erros/reprocessamento, que dão auditabilidade ao processo — algo valioso no contexto fiscal."
+        }
+      ],
+      "exemplo": "Carga noturna de NF-e na SEFAZ-GO: (E) extraem-se os XMLs autorizados no dia para a staging; (T) validam-se CNPJ emitente/destinatário, convertem-se valores e datas para formato padrão, eliminam-se notas canceladas duplicadas e conformam-se os códigos de município ao padrão do DW; (L) carregam-se as métricas na FATO_NFE e atualiza-se a DIM_CONTRIBUINTE com SCD Tipo 2, criando nova versão quando a razão social muda, preservando o histórico para auditoria retroativa.\n\nQuestão típica: 'No ELT, a transformação dos dados ocorre antes da carga no repositório de destino.' — ERRADO; no ELT a carga vem antes e a transformação ocorre depois (no destino). Quem transforma antes de carregar é o ETL.",
+      "pontos_chave": [
+        "ETL = Extração, Transformação e Carga; alimenta o Data Warehouse.",
+        "Extração pode ser full ou incremental (CDC); minimize o impacto no OLTP.",
+        "Transformação = limpeza, padronização, deduplicação, validação, agregação (data quality).",
+        "Carga full ou incremental; trata dimensões com SCD (Tipo 1 sobrescreve, Tipo 2 historiza).",
+        "Staging area isola o DW das fontes durante o processamento.",
+        "ETL transforma ANTES de carregar; ELT carrega primeiro e transforma depois.",
+        "ETL é a fase mais custosa/demorada de um projeto de BI."
+      ],
+      "dica_prova": "Memorize a ordem das siglas: ETL transforma antes da carga; ELT transforma depois. Sobre SCD, a pegadinha frequente: Tipo 1 PERDE o histórico (sobrescreve); Tipo 2 PRESERVA (nova linha versionada). Bancas também afirmam que a transformação ocorre nos sistemas de origem — geralmente não; ocorre na staging/destino, justamente para não sobrecarregar o OLTP."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Indicadores e visualização",
+      "intro": "Business Intelligence (BI) é o conjunto de processos, tecnologias e ferramentas que transformam dados brutos em informação e conhecimento para apoiar a tomada de decisão. O BI engloba a cadeia que vai das fontes operacionais, passando pelo ETL e pelo Data Warehouse, até a entrega final em relatórios, dashboards e análises OLAP. Seu objetivo é entregar a informação certa, à pessoa certa, no momento certo.\n\nNa ponta do BI estão os indicadores (KPIs) e a visualização de dados, que traduzem grandes volumes em painéis intuitivos. Para a administração tributária, isso significa monitorar a arrecadação, acompanhar metas e, sobretudo, apoiar a seleção de contribuintes para fiscalização com base em evidências, e não em intuição.\n\nUm conceito moderno relacionado é o self-service BI, que dá ao próprio auditor/gestor autonomia para explorar dados sem depender constantemente da equipe de TI.",
+      "secoes": [
+        {
+          "h": "Indicadores e KPIs",
+          "p": "Indicador é uma métrica que mede o desempenho de um processo. KPI (Key Performance Indicator — Indicador-Chave de Desempenho) é o subconjunto de indicadores realmente críticos para os objetivos estratégicos. Bons KPIs costumam ser SMART (específicos, mensuráveis, atingíveis, relevantes e temporais).\n\nDistinga métrica de KPI: toda KPI é uma métrica, mas nem toda métrica é KPI (só as estratégicas). Exemplos fiscais: arrecadação de ICMS por setor, índice de inadimplência, tempo médio de conclusão de fiscalização, taxa de autuações mantidas em julgamento, recuperação de crédito tributário."
+        },
+        {
+          "h": "Dashboards e relatórios",
+          "p": "Um dashboard (painel) é uma visualização consolidada e geralmente interativa dos principais indicadores, permitindo monitoramento em tempo quase real. Painéis estratégicos (visão executiva/longo prazo), táticos (acompanhamento de metas) e operacionais (monitoramento do dia a dia) atendem a públicos diferentes.\n\nRelatórios podem ser estáticos (periódicos, padronizados) ou interativos/ad hoc (criados sob demanda). Recursos como drill-down, filtros e parametrização aproximam o relatório das operações OLAP."
+        },
+        {
+          "h": "Visualização de dados (data viz)",
+          "p": "A escolha do gráfico depende da mensagem: barras/colunas para comparar categorias; linhas para tendências ao longo do tempo; pizza/rosca para participação (proporção) — com parcimônia; dispersão para correlação entre variáveis; mapas/coropléticos para distribuição geográfica (ex.: arrecadação por município de Goiás); e heatmaps para densidade.\n\nBoas práticas: evitar poluição visual (excesso de cores/elementos), escolher escalas honestas (não truncar eixos para exagerar variações) e priorizar clareza. Ferramentas comuns: Power BI, Tableau, Qlik e bibliotecas de código."
+        },
+        {
+          "h": "BI aplicado à inteligência fiscal",
+          "p": "Na fiscalização, o BI sustenta a malha fiscal: painéis cruzam declarações (EFD/SPED) com NF-e e pagamentos, sinalizando divergências; mapas mostram a arrecadação por região; indicadores de risco rankeiam contribuintes para auditoria, otimizando a alocação dos auditores.\n\nO BI também alimenta a gestão por resultados da Secretaria de Fazenda, com metas de arrecadação e acompanhamento de desempenho, e conecta-se à mineração de dados quando a análise evolui de descritiva (o que aconteceu) para preditiva (o que tende a acontecer)."
+        }
+      ],
+      "exemplo": "Painel de seleção para fiscalização: um dashboard estratégico da SEFAZ-GO exibe, em mapa coroplético, a arrecadação de ICMS por município; em colunas, os 10 setores (CNAE) com maior queda anual; e um KPI de 'score de risco' que ordena contribuintes pela divergência entre o ICMS declarado na EFD e o destacado nas NF-e. O auditor aplica drill-down em um setor suspeito e chega à lista nominal de contribuintes com maior risco, direcionando a malha.\n\nQuestão típica: 'Todo indicador de desempenho de uma organização é um KPI.' — ERRADO; KPI é o subconjunto de indicadores ligados a objetivos estratégicos (chave). Indicadores secundários não são KPIs.",
+      "pontos_chave": [
+        "BI transforma dados em informação para decisão (das fontes ao dashboard).",
+        "KPI = indicador CHAVE/estratégico; nem toda métrica é KPI (mas toda KPI é métrica).",
+        "Dashboards: estratégico, tático e operacional, conforme o público.",
+        "Gráfico segue a mensagem: barras (comparar), linhas (tendência), mapa (geografia).",
+        "Self-service BI dá autonomia de exploração ao usuário de negócio.",
+        "Boas práticas de data viz: evitar poluição visual e escalas enganosas.",
+        "BI sustenta a malha fiscal e a seleção baseada em risco."
+      ],
+      "dica_prova": "A distinção métrica x KPI é cobrada com frequência: KPI é estratégico (chave), nem toda métrica é KPI. Cuidado também com a fronteira BI x Data Mining: BI tende a ser descritivo (relatórios, dashboards do passado/presente), enquanto a mineração busca padrões e previsões (preditivo). Não diga que dashboard 'substitui' o DW — o dashboard é a camada de apresentação que consome o DW."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Tarefas de mineração",
+      "intro": "Mineração de dados (Data Mining) é a etapa de descoberta de padrões úteis, válidos e antes desconhecidos em grandes volumes de dados, situada dentro do processo mais amplo de KDD (Knowledge Discovery in Databases — Descoberta de Conhecimento em Bases de Dados). O KDD compreende seleção, pré-processamento, transformação, mineração propriamente dita e interpretação/avaliação dos padrões.\n\nÉ um erro comum confundir mineração com simples consulta SQL ou com OLAP: o OLAP responde perguntas que o analista já formulou (top-down), enquanto a mineração descobre padrões que ninguém perguntou (bottom-up), usando algoritmos de estatística e aprendizado de máquina. Para o fisco, é o que permite ir além do conhecido e revelar esquemas de sonegação não óbvios.\n\nAs tarefas de mineração agrupam-se em preditivas (estimar um valor/classe futura a partir de exemplos) e descritivas (encontrar estrutura e relações nos dados).",
+      "secoes": [
+        {
+          "h": "Classificação (preditiva, supervisionada)",
+          "p": "A classificação prevê a qual CATEGORIA (rótulo discreto) um registro pertence, a partir de exemplos já rotulados. É uma tarefa supervisionada. Algoritmos comuns: árvores de decisão, Naive Bayes, k-NN, SVM, redes neurais e métodos de ensemble (Random Forest, boosting).\n\nExemplo fiscal: classificar um contribuinte como 'alto risco de sonegação' ou 'baixo risco' com base em histórico, ramo, porte e divergências declaratórias. Quando o alvo é um valor NUMÉRICO contínuo (e não uma categoria), a tarefa passa a ser regressão (ex.: prever o valor de ICMS esperado)."
+        },
+        {
+          "h": "Agrupamento / Clustering (descritiva, não supervisionada)",
+          "p": "O agrupamento (clustering) divide os registros em grupos (clusters) de modo que itens do mesmo grupo sejam semelhantes entre si e diferentes dos demais grupos — SEM rótulos prévios (não supervisionado). Algoritmos: k-means, hierárquico, DBSCAN.\n\nDiferença essencial da classificação: na classificação as classes são conhecidas e há dados rotulados; no clustering os grupos EMERGEM dos dados. Uso fiscal: segmentar contribuintes por perfil de comportamento, fazendo sobressair quem destoa do próprio grupo (potencial irregularidade)."
+        },
+        {
+          "h": "Associação e detecção de anomalias",
+          "p": "A análise de associação descobre regras do tipo 'se A então B' com base em coocorrência (a clássica 'análise de cesta de compras'). Mede-se a relevância por suporte (frequência do conjunto), confiança (probabilidade de B dado A) e lift (força da associação acima do acaso). Algoritmo típico: Apriori.\n\nA detecção de anomalias (outliers) identifica registros que fogem do padrão esperado — exatamente o que interessa à detecção de fraudes: notas com valores atípicos, sequências improváveis de operações, contribuintes cujo comportamento se desvia bruscamente do seu histórico ou do seu cluster."
+        },
+        {
+          "h": "O processo KDD e a relação com OLAP",
+          "p": "A mineração é uma fase do KDD: antes dela, é preciso selecionar e pré-processar os dados (limpeza, integração, redução, transformação); depois, interpretar e validar os padrões. Dados sujos ou enviesados produzem padrões inúteis — 'garbage in, garbage out'.\n\nDistinção cobrada em prova: OLAP/relatórios respondem ao que o analista pergunta (verificação de hipóteses); a mineração GERA hipóteses, encontrando padrões ocultos automaticamente. Ambos consomem o DW, mas com lógicas opostas (top-down x bottom-up)."
+        }
+      ],
+      "exemplo": "Combate à sonegação de ICMS: (1) Classificação treina um modelo com contribuintes historicamente autuados/não autuados para prever o risco dos demais. (2) Clustering agrupa empresas por padrão de compras e vendas; uma empresa que, sozinha em seu grupo, declara margens muito menores chama atenção. (3) Associação revela que 'quem emite nota com CFOP X e sem destaque de ICMS frequentemente apresenta divergência na EFD'. (4) Detecção de anomalias aponta um contribuinte cujas saídas despencaram 90% sem justificativa, sinalizando possível 'nota calçada' ou omissão.\n\nQuestão típica: 'A tarefa de agrupamento (clustering) é supervisionada, pois utiliza dados rotulados.' — ERRADO; clustering é NÃO supervisionado, sem rótulos. Quem usa rótulos é a classificação.",
+      "pontos_chave": [
+        "Data Mining é a fase de descoberta de padrões dentro do processo KDD.",
+        "Preditivas: classificação (categoria) e regressão (valor numérico contínuo).",
+        "Descritivas: clustering (grupos), associação (regras) e anomalias (outliers).",
+        "Classificação = supervisionada (rótulos); clustering = não supervisionada (sem rótulos).",
+        "Associação: suporte, confiança e lift (algoritmo Apriori).",
+        "Detecção de anomalias é central no combate a fraudes fiscais.",
+        "OLAP verifica hipóteses (top-down); mineração gera hipóteses (bottom-up)."
+      ],
+      "dica_prova": "Memorize o par classificação x clustering: ambas separam registros, mas classificação é SUPERVISIONADA (classes conhecidas, dados rotulados) e clustering é NÃO supervisionada (grupos emergem). A outra dupla é classificação (alvo categórico) x regressão (alvo numérico contínuo) — trocar isso é erro clássico. E não confunda Data Mining (descobre padrões novos) com OLAP/consulta SQL (responde perguntas já formuladas)."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "Avaliação de modelos",
+      "intro": "De nada adianta treinar um modelo preditivo se não soubermos quão confiável ele é. A avaliação de modelos quantifica o desempenho usando métricas adequadas ao tipo de problema (classificação, regressão) e protocolos que evitam ilusões de qualidade — como testar o modelo nos mesmos dados em que foi treinado.\n\nO conceito central é separar dados de treino e dados de teste, garantindo que a avaliação meça a capacidade de generalização (acertar em dados nunca vistos), e não a mera memorização. Daí surgem dois vilões: o overfitting (modelo decora o treino e vai mal no teste) e o underfitting (modelo simples demais, vai mal em ambos).\n\nPara a fiscalização, escolher a métrica correta é crucial: em bases muito desbalanceadas (poucos sonegadores entre muitos contribuintes regulares), a acurácia engana, e métricas como recall e precisão tornam-se decisivas.",
+      "secoes": [
+        {
+          "h": "Matriz de confusão",
+          "p": "Para classificação binária (ex.: sonegador x não sonegador), a matriz de confusão cruza o previsto com o real, gerando: VP (verdadeiro positivo — sonegador corretamente identificado), VN (verdadeiro negativo), FP (falso positivo — regular acusado indevidamente) e FN (falso negativo — sonegador que passou despercebido).\n\nÉ a base de quase todas as métricas. Em contexto fiscal, FN (sonegador não detectado) significa perda de arrecadação, enquanto FP (auditar quem é regular) significa desperdício de recurso e incômodo ao contribuinte — o equilíbrio depende da política da Receita."
+        },
+        {
+          "h": "Acurácia, precisão, recall e F1",
+          "p": "Acurácia = (VP+VN)/total: proporção de acertos. Engana em bases desbalanceadas (um modelo que diz 'ninguém sonega' teria alta acurácia se sonegadores forem 1%). Precisão = VP/(VP+FP): dos apontados como positivos, quantos eram de fato (qualidade do alerta). Recall (sensibilidade/revocação) = VP/(VP+FN): dos positivos reais, quantos foram capturados (cobertura).\n\nHá um trade-off entre precisão e recall. O F1-score é a média harmônica das duas, útil quando se busca equilíbrio. Na caça a fraudes, prioriza-se recall (não deixar sonegador escapar), aceitando alguma perda de precisão."
+        },
+        {
+          "h": "Curva ROC e AUC",
+          "p": "A curva ROC plota a taxa de verdadeiros positivos (recall) contra a taxa de falsos positivos, à medida que se varia o limiar de decisão. A AUC (área sob a curva) resume a capacidade discriminatória do modelo: AUC = 1,0 é perfeito; AUC = 0,5 equivale a um palpite aleatório (a diagonal).\n\nA AUC é robusta a desbalanceamento e independe da escolha de um limiar específico, sendo muito usada para comparar modelos. Quanto mais a curva se aproxima do canto superior esquerdo, melhor."
+        },
+        {
+          "h": "Validação, overfitting e métricas de regressão",
+          "p": "Para estimar a generalização, usa-se holdout (divisão treino/teste) ou validação cruzada k-fold (rodízio de partições, mais robusto). Overfitting se combate com regularização, poda de árvores, mais dados e validação adequada.\n\nPara modelos de regressão (alvo numérico), as métricas mudam: MAE (erro absoluto médio), MSE/RMSE (erro quadrático, penaliza grandes erros) e R² (coeficiente de determinação, fração da variância explicada). Não se aplica acurácia/recall a regressão — é uma confusão comum em provas."
+        }
+      ],
+      "exemplo": "Modelo de detecção de sonegadores aplicado a 10.000 contribuintes, dos quais 200 são realmente sonegadores. Um modelo preguiçoso que classifica TODOS como 'regulares' acerta 9.800 e tem acurácia de 98% — mas seu recall é 0 (não pega nenhum sonegador) e sua precisão é indefinida. Isso mostra por que, em bases desbalanceadas, a acurácia ENGANA e o recall/precisão revelam a verdade.\n\nQuestão típica: 'A acurácia é a métrica mais adequada para avaliar modelos em bases fortemente desbalanceadas.' — ERRADO; em bases desbalanceadas a acurácia é enganosa; recall, precisão, F1 e AUC são mais apropriados.",
+      "pontos_chave": [
+        "Matriz de confusão: VP, VN, FP, FN — base das métricas de classificação.",
+        "Acurácia = (VP+VN)/total; engana em bases desbalanceadas.",
+        "Precisão = VP/(VP+FP) (qualidade do alerta); Recall = VP/(VP+FN) (cobertura).",
+        "F1 = média harmônica de precisão e recall (equilíbrio).",
+        "AUC/ROC: 1,0 perfeito, 0,5 aleatório; robusta a desbalanceamento.",
+        "Overfitting decora o treino; underfitting é simples demais; use validação cruzada.",
+        "Regressão usa MAE, RMSE, R² — não acurácia nem recall."
+      ],
+      "dica_prova": "A pegadinha favorita explora a acurácia em bases desbalanceadas: um modelo pode ter 99% de acurácia e ser inútil para detectar fraude (recall baixíssimo). Decore precisão (VP sobre todos os PREVISTOS positivos) versus recall (VP sobre todos os positivos REAIS) — trocar os denominadores é o erro mais comum. E lembre: métricas de classificação (recall, F1, AUC) não se aplicam a regressão, que usa RMSE/MAE/R²."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Aprendizado de máquina",
+      "intro": "Ciência de dados é o campo interdisciplinar que combina estatística, computação e conhecimento de negócio para extrair valor de dados. No seu núcleo técnico está o aprendizado de máquina (machine learning — ML), subárea da inteligência artificial em que algoritmos aprendem padrões a partir de dados (em vez de serem programados com regras explícitas) e melhoram seu desempenho com a experiência.\n\nO ML organiza-se classicamente em três paradigmas: supervisionado (aprende de exemplos rotulados), não supervisionado (descobre estrutura em dados sem rótulos) e por reforço (aprende por tentativa e erro, maximizando recompensas). Saber a qual paradigma cada algoritmo pertence é o ponto mais cobrado em prova.\n\nPara o Auditor-Fiscal, o ML é o motor da malha fiscal inteligente: prever risco, segmentar contribuintes e antecipar comportamentos de sonegação a partir do enorme volume de dados de NF-e, SPED e pagamentos.",
+      "secoes": [
+        {
+          "h": "Aprendizado supervisionado",
+          "p": "No supervisionado, o algoritmo aprende a partir de um conjunto de dados rotulados (entrada -> saída conhecida) e generaliza para prever a saída de novos dados. Divide-se em classificação (saída categórica) e regressão (saída numérica contínua).\n\nAlgoritmos típicos: regressão linear e logística, árvores de decisão, Random Forest, SVM (máquinas de vetores de suporte), k-NN, Naive Bayes e redes neurais. Exemplo fiscal: treinar com contribuintes já fiscalizados (rotulados como autuados/não) para prever o risco dos demais. A qualidade depende fortemente da disponibilidade de bons rótulos."
+        },
+        {
+          "h": "Aprendizado não supervisionado",
+          "p": "No não supervisionado, NÃO há rótulos: o algoritmo descobre estrutura oculta nos dados. As tarefas principais são clustering (agrupamento, ex.: k-means, hierárquico, DBSCAN) e redução de dimensionalidade (ex.: PCA — Análise de Componentes Principais, que comprime muitas variáveis em poucas componentes preservando a variância). Também inclui a detecção de anomalias e a análise de associação.\n\nUso fiscal: segmentar contribuintes em perfis comportamentais sem hipótese prévia, ou reduzir dezenas de indicadores a poucos fatores para visualização e análise."
+        },
+        {
+          "h": "Aprendizado por reforço e redes neurais/deep learning",
+          "p": "No aprendizado por reforço, um agente aprende interagindo com um ambiente, recebendo recompensas ou punições por suas ações, e busca a política que maximiza a recompensa acumulada (ex.: robótica, jogos, otimização de decisões sequenciais).\n\nRedes neurais artificiais, inspiradas no cérebro, encadeiam neurônios em camadas; quando há muitas camadas ocultas, fala-se em deep learning (aprendizado profundo), poderoso para imagens, texto e voz, mas exigente em dados e computação e de menor interpretabilidade (efeito 'caixa-preta')."
+        },
+        {
+          "h": "Fluxo de um projeto e cuidados",
+          "p": "Um projeto de ML segue etapas: definição do problema, coleta e preparação dos dados (limpeza, feature engineering), divisão treino/teste, treinamento, avaliação (métricas) e implantação/monitoramento. A maior parte do esforço costuma estar na preparação dos dados.\n\nCuidados essenciais: evitar overfitting (validação cruzada, regularização); atentar a vieses nos dados (um modelo treinado em dados enviesados perpetua injustiças); cuidar da interpretabilidade (decisões que afetam contribuintes devem ser explicáveis e auditáveis); e observar a LGPD ao tratar dados pessoais."
+        }
+      ],
+      "exemplo": "Pipeline de risco fiscal: a SEFAZ-GO usa aprendizado SUPERVISIONADO (Random Forest) treinado com 5 anos de fiscalizações concluídas para prever a probabilidade de irregularidade de cada contribuinte; e aprendizado NÃO supervisionado (k-means) para descobrir, sem rótulos, perfis de comportamento e fazer sobressair os contribuintes atípicos dentro de cada perfil. Antes, aplica PCA para reduzir 60 indicadores a 8 componentes, facilitando a visualização. As decisões precisam ser explicáveis para sustentar eventuais autuações.\n\nQuestão típica: 'O algoritmo k-means é um exemplo de aprendizado supervisionado.' — ERRADO; k-means é clustering, aprendizado NÃO supervisionado. SVM, regressão logística e árvores de decisão é que são tipicamente supervisionados.",
+      "pontos_chave": [
+        "ML é subárea da IA: aprende padrões dos dados em vez de regras programadas.",
+        "Supervisionado (rótulos): classificação e regressão — árvores, SVM, redes neurais.",
+        "Não supervisionado (sem rótulos): clustering (k-means) e redução (PCA).",
+        "Por reforço: agente aprende por recompensa/punição (tentativa e erro).",
+        "Deep learning = redes neurais profundas; poderoso, porém 'caixa-preta'.",
+        "PCA reduz dimensionalidade preservando a variância.",
+        "Cuidados: overfitting, viés, interpretabilidade e LGPD."
+      ],
+      "dica_prova": "Saiba enquadrar cada algoritmo: k-means e PCA = não supervisionado; regressão logística, SVM, árvores e Random Forest = supervisionado. A pegadinha clássica chama o k-means de supervisionado. Outra cilada confunde os paradigmas com as tarefas: supervisionado abrange classificação E regressão; não confunda 'não supervisionado' com 'por reforço' (este aprende por recompensa, interagindo com um ambiente)."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Big Data e fluxos",
+      "intro": "Big Data designa o tratamento de conjuntos de dados grandes, rápidos e variados demais para as ferramentas tradicionais. É clássico caracterizá-lo pelos 'Vs': Volume (escala massiva), Velocidade (geração e processamento rápidos, às vezes em tempo real), Variedade (estruturados, semiestruturados e não estruturados) e, em versões ampliadas, Veracidade (qualidade/confiabilidade) e Valor (utilidade extraída).\n\nNo mundo fiscal, NF-e, EFD, cupons fiscais eletrônicos e demais documentos geram um fluxo contínuo e gigantesco de dados. Processá-los exige arquiteturas distribuídas e técnicas específicas de mineração de fluxos (streams) e de séries temporais, que permitem detectar irregularidades quase no instante em que ocorrem.\n\nÉ a fronteira entre o que era análise histórica (batch) e a análise em tempo real, que viabiliza a fiscalização proativa em vez de apenas retrospectiva.",
+      "secoes": [
+        {
+          "h": "Os Vs do Big Data e tipos de dados",
+          "p": "Volume (terabytes/petabytes), Velocidade (alta taxa de chegada e necessidade de resposta rápida) e Variedade (formatos heterogêneos) são os três Vs originais; somam-se Veracidade (incerteza/qualidade) e Valor (retorno de negócio).\n\nQuanto à estrutura: dados estruturados (tabelas, fácil consulta), semiestruturados (XML da NF-e, JSON, logs — com marcadores mas sem esquema rígido) e não estruturados (texto livre, imagens, áudio). A maior parte dos dados do mundo é não/semiestruturada, o que motiva tecnologias além do banco relacional."
+        },
+        {
+          "h": "Arquiteturas: Hadoop, Spark, NoSQL e data lake",
+          "p": "Para escalar horizontalmente, usa-se processamento distribuído: Hadoop (com HDFS para armazenamento e MapReduce para processamento em lote) e Spark (processamento em memória, muito mais rápido, com suporte a streaming e ML). Bancos NoSQL (chave-valor, documento, coluna, grafo) trocam parte das garantias relacionais por escalabilidade e flexibilidade de esquema.\n\nO data lake armazena dados brutos em qualquer formato (schema-on-read), diferindo do Data Warehouse (estruturado, schema-on-write). É comum a coexistência: data lake para exploração ampla, DW para análise governada."
+        },
+        {
+          "h": "Processamento batch x streaming e mineração de fluxos",
+          "p": "Processamento em lote (batch) trata grandes volumes acumulados periodicamente (ex.: carga noturna). Processamento em fluxo (streaming) analisa os dados continuamente, à medida que chegam, com baixa latência — essencial para detectar fraudes em tempo quase real.\n\nA mineração de fluxos (data stream mining) lida com dados infinitos e em movimento: usa janelas deslizantes, exige uma passada (não dá para reler tudo) e enfrenta o concept drift (mudança do padrão ao longo do tempo, exigindo modelos que se adaptam). É a base de alertas instantâneos de operações suspeitas."
+        },
+        {
+          "h": "Séries temporais e aplicação fiscal",
+          "p": "Séries temporais são sequências de observações ao longo do tempo (arrecadação mensal, faturamento diário). Sua análise busca tendência, sazonalidade e ciclos, e permite previsão (forecasting) com modelos como médias móveis, ARIMA ou redes neurais recorrentes. Detecta-se anomalia quando um valor observado destoa do previsto.\n\nNa fiscalização, isso sustenta a previsão de arrecadação, a detecção precoce de quedas atípicas em um contribuinte ou setor e o monitoramento contínuo, deslocando o fisco do modelo reativo para o preventivo."
+        }
+      ],
+      "exemplo": "Monitoramento em tempo real na SEFAZ-GO: à medida que NF-e são autorizadas (streaming), um modelo compara o volume e o valor com a série temporal histórica de cada contribuinte; se um atacadista que emitia R$ 2 milhões/mês cai abruptamente para R$ 100 mil sem sazonalidade que justifique, dispara-se um alerta de anomalia para análise — possivelmente omissão de saídas. Em paralelo, o data lake guarda todos os XMLs brutos para mineração posterior, enquanto o DW consolida métricas para os painéis de BI.\n\nQuestão típica: 'Os 3 Vs originais do Big Data são Volume, Velocidade e Veracidade.' — ERRADO; os 3 Vs originais são Volume, Velocidade e VARIEDADE. Veracidade e Valor são acréscimos posteriores.",
+      "pontos_chave": [
+        "Big Data: Volume, Velocidade, Variedade (3 Vs); + Veracidade e Valor.",
+        "Dados estruturados, semiestruturados (XML/JSON) e não estruturados (texto/imagem).",
+        "Hadoop (HDFS + MapReduce, batch) e Spark (memória, batch e streaming).",
+        "Data lake = bruto, schema-on-read; Data Warehouse = estruturado, schema-on-write.",
+        "Batch (lote periódico) x streaming (contínuo, baixa latência).",
+        "Mineração de fluxos: janelas deslizantes, uma passada, concept drift.",
+        "Séries temporais: tendência, sazonalidade, ciclo e previsão (forecasting)."
+      ],
+      "dica_prova": "Decore os 3 Vs ORIGINAIS: Volume, Velocidade e Variedade — bancas trocam 'Variedade' por 'Veracidade' (esta é um V posterior). Não confunda data lake (dados brutos, schema-on-read) com Data Warehouse (estruturado, schema-on-write). E lembre do concept drift na mineração de fluxos: como os padrões mudam com o tempo, modelos de streaming precisam se readaptar continuamente, ao contrário de um modelo batch treinado uma vez."
+    }
+  ]
+}
