@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistemas distribuídos, serverless e contêineres — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/computacao-nuvem.html">☁️ Computação em Nuvem</a> ›
+    <span>Sistemas distribuídos, serverless e contêineres</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Plataformas e arquitetura de soluções</p>
+    <h1>Sistemas distribuídos, serverless e contêineres</h1>
+    
+    <p>Arquiteturas modernas em nuvem são, por natureza, sistemas distribuídos: componentes executam em máquinas diferentes, comunicam-se pela rede e devem tolerar falhas parciais. Projetar para a nuvem significa abraçar a falha como inevitável e construir resiliência por design — com redundância, idempotência, retries e desacoplamento por eventos.</p><p>Duas tecnologias dominam esse cenário: o serverless, que abstrai totalmente o servidor (FaaS e BaaS), e os contêineres com orquestração (Docker e Kubernetes), que padronizam o empacotamento e a operação de aplicações.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Fundamentos de sistemas distribuídos</h2><p>Em sistemas distribuídos vale lembrar das &#x27;falácias da computação distribuída&#x27; (a rede não é confiável, a latência não é zero, a banda não é infinita etc.) e do teorema CAP: em presença de partição de rede (P), um sistema distribuído só pode garantir Consistência (C) OU Disponibilidade (A), não ambas simultaneamente. Bancos distribuídos escolhem ser CP (priorizam consistência) ou AP (priorizam disponibilidade). Arquiteturas event-driven usam mensageria (AWS SQS/SNS/EventBridge, Apache Kafka) para desacoplar produtores e consumidores, aumentando resiliência. Padrões úteis: Circuit Breaker, retry com backoff exponencial, idempotência e bulkhead.</p></section><section class="amp-sec"><h2>Serverless: FaaS e BaaS</h2><p>Serverless não significa &#x27;sem servidor&#x27;, mas que o gerenciamento do servidor é totalmente abstraído pelo provedor. Inclui FaaS (Function as a Service: AWS Lambda, Azure Functions, Google Cloud Functions) — código executado em resposta a eventos, com escala automática e cobrança por execução/tempo — e BaaS (Backend as a Service). Vantagens: zero gestão de servidor, elasticidade automática e custo zero quando ocioso. Limitações: cold start (latência inicial), timeout de execução, statelessness (estado deve ir para serviços externos) e risco de vendor lock-in. É o ápice do pay-per-use.</p></section><section class="amp-sec"><h2>Contêineres e Docker</h2><p>Contêineres empacotam a aplicação e suas dependências em uma unidade isolada que compartilha o kernel do SO hospedeiro — diferentemente de máquinas virtuais, que virtualizam o hardware e carregam um SO convidado completo. Por isso contêineres são mais leves, iniciam em segundos e têm maior densidade. Docker é a plataforma padrão: a imagem é o artefato imutável (definido por um Dockerfile) e o contêiner é a instância em execução. Princípio-chave: portabilidade — &#x27;build once, run anywhere&#x27;. Pegadinha: contêiner NÃO é máquina virtual; ele não tem SO convidado próprio, apenas isolamento via namespaces e cgroups do Linux.</p></section><section class="amp-sec"><h2>Orquestração com Kubernetes</h2><p>Em produção, gerenciar muitos contêineres exige orquestração. Kubernetes (K8s) é o padrão de fato: agenda contêineres, faz self-healing (recria contêineres que falham), balanceamento de carga, scaling automático (HPA — Horizontal Pod Autoscaler) e rollout/rollback de versões. Conceitos: Pod (menor unidade implantável, agrupa contêineres), Node (máquina worker), Deployment (estado desejado declarativo), Service (exposição estável de rede), Namespace (isolamento lógico). Os provedores oferecem K8s gerenciado: EKS (AWS), AKS (Azure) e GKE (GCP). Kubernetes é declarativo: você descreve o estado desejado e o controle reconcilia o estado real continuamente.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário aplicado: um sistema de processamento de documentos do TCU recebe uploads que disparam uma função AWS Lambda (serverless) para extração de texto, publicando o resultado em uma fila SQS consumida por microsserviços em contêineres no EKS. Essa arquitetura event-driven é resiliente (a fila absorve picos e desacopla os componentes) e elástica (Lambda e HPA escalam sob demanda). Em auditoria, verifica-se se há tratamento de idempotência e dead-letter queue para mensagens com falha — ausência indica risco de perda ou reprocessamento indevido.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Duas confusões campeãs: (1) afirmar que contêiner virtualiza o hardware como uma VM — ERRADO, ele compartilha o kernel do host; (2) dizer que serverless dispensa servidores fisicamente — na verdade só abstrai a gestão. Saiba que a menor unidade implantável no K8s é o Pod (não o contêiner) e que cold start é limitação do FaaS.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s0.html">← AWS, Azure e Google Cloud</a><a class="pager next" href="t2-s0.html">IAM, RBAC e criptografia (KMS) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Sistemas distribuídos: projete para falha; teorema CAP (sob partição, escolha C ou A)</li><li>Serverless abstrai o servidor (FaaS/BaaS); escala automática e cobrança por uso; sofre cold start</li><li>Contêiner compartilha o kernel do host; VM virtualiza o hardware com SO convidado completo</li><li>Docker: Dockerfile gera imagem (imutável); contêiner é a instância em execução</li><li>Kubernetes orquestra contêineres: Pods, Deployments, Services, self-healing e HPA</li><li>K8s gerenciado: EKS (AWS), AKS (Azure), GKE (GCP); modelo declarativo de estado desejado</li></ul></div>
+      <a class="back" href="../../disciplinas/computacao-nuvem.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

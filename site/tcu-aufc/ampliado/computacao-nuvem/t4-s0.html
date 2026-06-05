@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Governança, compliance e FinOps — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/computacao-nuvem.html">☁️ Computação em Nuvem</a> ›
+    <span>Governança, compliance e FinOps</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Governança, custos, dados e multicloud</p>
+    <h1>Governança, compliance e FinOps</h1>
+    
+    <p>A facilidade de provisionar recursos em nuvem (&#x27;self-service&#x27;) é também um risco: sem governança, surgem custos descontrolados, recursos órfãos e configurações inseguras (shadow IT). Governança em nuvem é o conjunto de políticas, controles e processos que garantem uso seguro, conforme e econômico dos recursos — alinhado a frameworks como ISO/IEC 27001, NIST SP 800-53 e à LGPD no contexto brasileiro.</p><p>FinOps é a disciplina de gestão financeira da nuvem, trazendo accountability sobre os gastos variáveis. Para um auditor do TCU, governança e compliance em nuvem conectam segurança da informação, controle de custos e legalidade no trato de dados públicos.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Governança: tags, cotas e guardrails</h2><p>Mecanismos práticos de governança: tagueamento (tagging) — rotular recursos com metadados (centro de custo, ambiente, responsável) para rastrear gastos e aplicar políticas; cotas/limites de serviço (service quotas) para evitar consumo excessivo; e guardrails/políticas preventivas, como AWS Service Control Policies (SCPs) em AWS Organizations, Azure Policy/Management Groups e GCP Organization Policies. Esses controles aplicam regras em escala (ex.: bloquear regiões não permitidas, exigir criptografia). Estruturas de boas práticas: AWS Well-Architected Framework, Cloud Adoption Framework (Azure) e o Cloud Controls Matrix (CCM) da Cloud Security Alliance.</p></section><section class="amp-sec"><h2>Compliance e normas aplicáveis</h2><p>ISO/IEC 27001: norma de gestão de segurança da informação (estabelece o SGSI/ISMS), com controles detalhados no Anexo A (alinhados à ISO/IEC 27002); há ainda a ISO/IEC 27017 (controles de segurança específicos para serviços em nuvem) e a 27018 (proteção de dados pessoais em nuvem). NIST SP 800-53: catálogo de controles de segurança e privacidade muito usado no setor público (organizado em famílias de controles). No Brasil, a LGPD (Lei nº 13.709/2018) rege o tratamento de dados pessoais — relevante para localização de dados, base legal, e papéis de controlador/operador (o provedor de nuvem normalmente atua como operador). SOC 2 e o atestado/relatórios de conformidade dos provedores também são referências de auditoria.</p></section><section class="amp-sec"><h2>FinOps: gestão financeira da nuvem</h2><p>FinOps une finanças, engenharia e negócio para maximizar o valor de cada real gasto em nuvem. Seu ciclo tem três fases: Inform (visibilidade e alocação de custos via tags e relatórios), Optimize (otimizar: rightsizing, desligar recursos ociosos, usar Reserved Instances/Savings Plans e instâncias spot) e Operate (operar com governança contínua e melhoria). Modelos de precificação importantes: on-demand (flexível e caro), reservado/committed (desconto por compromisso de 1-3 anos) e spot (capacidade ociosa, barata, mas interruptível). Conceito-chave: na nuvem o gasto é variável e OpEx, exigindo accountability descentralizada — quem provisiona, responde pelo custo.</p></section><section class="amp-sec"><h2>Auditoria e rastreabilidade em nuvem</h2><p>Para auditoria, são essenciais: trilhas de auditoria imutáveis (AWS CloudTrail, Azure Activity Log), serviços de avaliação de conformidade e configuração (AWS Config, Azure Policy compliance), e gestão de postura de segurança (CSPM — Cloud Security Posture Management) para detectar configurações fora de conformidade. A separação de funções (segregation of duties) e o registro de quem alterou cada recurso sustentam a responsabilização. Para o TCU, isso se relaciona ao controle externo da gestão de TI da Administração Pública.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: ao examinar a conta de nuvem de um órgão, o auditor identifica dezenas de instâncias sem tags de centro de custo, várias ligadas 24/7 com baixíssima utilização, e ausência de políticas preventivas (SCPs). Recomenda-se implementar tagueamento obrigatório, rightsizing, desligamento programado e Reserved Instances para cargas estáveis — práticas FinOps que, combinadas com guardrails de governança, reduzem desperdício e aumentam a conformidade. A falta de uma trilha de auditoria habilitada (CloudTrail) seria um achado de controle interno relevante.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A banca confunde as ISOs: 27001 é o SGSI, 27017 é controles para nuvem, 27018 é privacidade em nuvem. Também testa papéis da LGPD (na nuvem, o provedor costuma ser operador, e o cliente, controlador) e as fases do FinOps. Lembre que custo em nuvem é variável/OpEx e que instâncias spot são interruptíveis.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t3-s1.html">← Observabilidade em nuvem</a><a class="pager next" href="t4-s1.html">Dados, migração e multicloud →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Governança usa tags, cotas e guardrails (SCPs, Azure Policy) para controlar uso em escala</li><li>ISO/IEC 27001 (SGSI); 27017 (nuvem) e 27018 (dados pessoais em nuvem); NIST SP 800-53 (controles, setor público)</li><li>LGPD (Lei 13.709/2018): provedor geralmente é operador; órgão é controlador</li><li>FinOps em três fases: Inform (visibilidade), Optimize (otimizar) e Operate (operar)</li><li>Precificação: on-demand (flexível/caro), reservado (desconto por compromisso) e spot (barato/interruptível)</li><li>Auditoria: CloudTrail/Activity Log, AWS Config e CSPM sustentam rastreabilidade e conformidade</li></ul></div>
+      <a class="back" href="../../disciplinas/computacao-nuvem.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

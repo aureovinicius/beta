@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docker e Kubernetes — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Docker e Kubernetes</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. DevOps e integração contínua</p>
+    <h1>Docker e Kubernetes</h1>
+    
+    <p>Contêineres empacotam uma aplicação com todas as suas dependências em uma unidade leve, portável e isolada, garantindo que ela execute igualmente em qualquer ambiente. Docker é a tecnologia de contêineres mais difundida; Kubernetes (K8s) é o orquestrador padrão de mercado para gerenciar contêineres em escala. Juntos, são a base operacional de microsserviços e nuvem.</p><p>Diferentemente das máquinas virtuais, contêineres compartilham o kernel do sistema operacional hospedeiro, sendo muito mais leves e rápidos de iniciar. Para o auditor, o domínio desses conceitos é indispensável ao avaliar segurança, disponibilidade e governança de ambientes modernos.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Contêineres x máquinas virtuais e Docker</h2><p>Máquinas virtuais (VMs) virtualizam o hardware: cada VM inclui um sistema operacional convidado completo sobre um hipervisor — pesadas e com isolamento forte. Contêineres virtualizam o sistema operacional: compartilham o kernel do host e isolam processos via recursos do Linux (namespaces para isolamento e cgroups para limites de recursos) — muito mais leves, iniciam em segundos.</p><p>Docker: uma imagem é um artefato imutável e versionado, construído em camadas a partir de um Dockerfile (receita declarativa). Um contêiner é uma instância em execução de uma imagem. Imagens são guardadas em um registry (Docker Hub, registries privados). Boas práticas de segurança: usar imagens base mínimas (distroless/Alpine), não rodar como root, escanear vulnerabilidades, fixar versões e usar imagens assinadas/confiáveis (a OWASP mantém guias de segurança para contêineres).</p></section><section class="amp-sec"><h2>Kubernetes: arquitetura</h2><p>Kubernetes orquestra contêineres em um cluster, automatizando deploy, escalonamento, balanceamento, autorrecuperação e atualizações. Arquitetura: o Control Plane (plano de controle) tem o API Server (porta de entrada), etcd (armazenamento de estado chave-valor), Scheduler (decide onde alocar pods) e Controller Manager (reconcilia o estado desejado). Os Worker Nodes executam os pods e rodam o kubelet (agente) e o kube-proxy (rede).</p><p>Kubernetes é declarativo: define-se o estado desejado em manifestos YAML e o sistema trabalha continuamente para alcançá-lo e mantê-lo (loop de reconciliação) — autorrecuperação: se um pod cai, é recriado automaticamente.</p></section><section class="amp-sec"><h2>Objetos do Kubernetes</h2><p>Principais objetos: Pod (menor unidade implantável; um ou mais contêineres que compartilham rede e armazenamento); Deployment (gerencia réplicas de pods e atualizações declarativas, com rolling update e rollback); ReplicaSet (mantém o número desejado de réplicas); Service (abstração de rede estável para acessar pods, com balanceamento — ClusterIP, NodePort, LoadBalancer); Ingress (roteamento HTTP/HTTPS externo); ConfigMap (configuração não sensível) e Secret (dados sensíveis); Namespace (isolamento lógico); PersistentVolume (armazenamento persistente).</p><p>Escalabilidade: o HPA (Horizontal Pod Autoscaler) ajusta automaticamente o número de réplicas conforme métricas (CPU, memória). Empacotamento de aplicações: Helm (gerenciador de pacotes/charts). Pods são efêmeros — estado deve ficar em volumes persistentes ou serviços externos.</p></section><section class="amp-sec"><h2>Observabilidade e segurança</h2><p>Observabilidade apoia-se em três pilares: métricas (Prometheus para coleta, Grafana para dashboards/visualização), logs (centralizados — ELK/EFK Stack, Loki) e traces distribuídos (Jaeger, OpenTelemetry). Ferramentas de APM como New Relic e Datadog integram esses sinais. Observabilidade é essencial para diagnosticar sistemas distribuídos, onde falhas são parciais e difíceis de reproduzir.</p><p>Segurança em K8s: RBAC para controle de acesso à API; Network Policies (microssegmentação de rede entre pods); Secrets para credenciais; Pod Security Standards/admission controllers; varredura de imagens; e princípio do menor privilégio. O CIS Benchmark para Kubernetes e Docker é referência de hardening usada em auditorias.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado: &quot;Assim como as máquinas virtuais, cada contêiner Docker executa seu próprio sistema operacional convidado completo, isolado do sistema hospedeiro por um hipervisor.&quot; — ERRADO. Contêineres NÃO incluem um SO convidado completo nem dependem de hipervisor: eles compartilham o kernel do host e usam namespaces/cgroups para isolamento, o que os torna mais leves que VMs. Quem usa SO convidado completo e hipervisor são as máquinas virtuais. Essa distinção é a mais cobrada do tema.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha clássica é dizer que contêiner tem SO convidado completo ou usa hipervisor (isso é VM). Memorize que contêineres compartilham o kernel. Cebraspe também troca objetos do K8s: Pod é a menor unidade (não o contêiner isolado); Deployment gerencia réplicas e atualizações; Service dá rede estável; Ingress faz roteamento HTTP externo. Cuidado: o etcd guarda o estado do cluster, e o Kubernetes é declarativo (estado desejado), não imperativo.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Pipelines de CI/CD</a><a class="pager next" href="t5-s0.html">Testes automatizados e qualidade →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Contêineres compartilham o kernel do host (namespaces/cgroups) — mais leves que VMs, que têm SO convidado completo + hipervisor.</li><li>Docker: Dockerfile gera imagem (imutável, em camadas); contêiner é a instância em execução; imagens ficam em registry.</li><li>Kubernetes orquestra contêineres com escalonamento, balanceamento e autorrecuperação, de forma declarativa (YAML).</li><li>Control Plane: API Server, etcd, Scheduler, Controller Manager. Worker Node: kubelet e kube-proxy.</li><li>Objetos: Pod (menor unidade), Deployment, ReplicaSet, Service, Ingress, ConfigMap, Secret, Namespace, PersistentVolume.</li><li>HPA escala réplicas por métricas; Helm empacota aplicações; pods são efêmeros (estado em volumes).</li><li>Observabilidade: métricas (Prometheus/Grafana), logs (ELK/Loki), traces (Jaeger); APM como New Relic.</li><li>Segurança K8s: RBAC, Network Policies, Secrets, menor privilégio; CIS Benchmark como referência de hardening.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

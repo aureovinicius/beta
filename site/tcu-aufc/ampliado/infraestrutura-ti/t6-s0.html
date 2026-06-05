@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clusters e balanceamento de carga — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Clusters e balanceamento de carga</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">7. Alta disponibilidade e recuperação de desastres</p>
+    <h1>Clusters e balanceamento de carga</h1>
+    
+    <p>A alta disponibilidade (HA) busca manter serviços operacionais minimizando o tempo de indisponibilidade, eliminando pontos únicos de falha por meio de redundância e mecanismos automáticos de recuperação. Clusters agrupam múltiplos servidores (nós) que cooperam para parecer um sistema único, oferecendo HA e/ou desempenho. O balanceamento de carga distribui requisições entre vários servidores, evitando sobrecarga e aumentando a capacidade.</p><p>Conceitos como failover, heartbeat, fencing e quórum sustentam o funcionamento dos clusters de HA. Em conjunto com balanceadores de carga (camada 4 ou 7), formam a base de aplicações resilientes e escaláveis. Dominar esses mecanismos é essencial para auditar a continuidade operacional de serviços críticos.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Tipos de cluster</h2><p>Clusters de alta disponibilidade (failover) mantêm um serviço disponível: se um nó falha, outro assume (ativo-passivo) ou todos atendem (ativo-ativo). Clusters de balanceamento de carga distribuem requisições para escalar capacidade. Clusters de alto desempenho/computação (HPC) dividem grandes tarefas entre nós para processamento paralelo.</p><p>Em configuração ativo-passivo, o nó secundário fica em espera e só assume na falha do primário (subutilização, mas simples). Em ativo-ativo, todos os nós trabalham simultaneamente (melhor uso de recursos e capacidade somada, mas exige sincronização e tratamento de concorrência). Exemplos de tecnologias: Pacemaker/Corosync no Linux, Windows Server Failover Clustering, Kubernetes para contêineres.</p></section><section class="amp-sec"><h2>Failover, heartbeat e fencing</h2><p>Failover é o processo de transferir automaticamente a operação de um nó/componente falho para outro em standby, restaurando o serviço com mínima interrupção; failback é o retorno ao nó original após a recuperação. O heartbeat é o sinal periódico trocado entre os nós para verificar se estão vivos; a ausência de heartbeats indica falha e dispara o failover.</p><p>O fencing (ou STONITH — Shoot The Other Node In The Head) isola ou desliga um nó suspeito de falha para impedir que ele continue acessando recursos compartilhados e cause corrupção. É crucial para evitar o split-brain — situação em que, por falha de comunicação, dois nós julgam-se o ativo e ambos acessam os mesmos dados, corrompendo-os. O quórum (maioria de votos entre nós, às vezes com um disco/witness de desempate) é o mecanismo que decide qual partição do cluster permanece ativa, prevenindo o split-brain.</p></section><section class="amp-sec"><h2>Balanceamento de carga</h2><p>O balanceador de carga (load balancer) distribui o tráfego entre múltiplos servidores back-end. Pode operar na camada 4 (transporte — distribui por IP/porta, sem entender a aplicação, mais rápido) ou na camada 7 (aplicação — decide com base em conteúdo HTTP, URLs, cookies, permitindo afinidade de sessão e roteamento avançado). Algoritmos comuns: round-robin, least connections, weighted e por hash de origem.</p><p>O balanceador também faz health checks (verificações de saúde) para parar de enviar tráfego a servidores indisponíveis, contribuindo para a HA. A persistência de sessão (sticky session) mantém um cliente no mesmo servidor quando necessário. Balanceadores podem ser dedicados (appliances), software (HAProxy, NGINX) ou serviços de nuvem (ELB/ALB).</p></section><section class="amp-sec"><h2>HA x tolerância a falhas e o papel do quórum</h2><p>Vale reforçar a distinção: alta disponibilidade admite uma breve interrupção durante o failover (recuperação rápida), enquanto a tolerância a falhas (fault tolerance) mantém a operação sem interrupção perceptível, geralmente por hardware/replicação redundante e operação contínua. Clusters de HA tipicamente entregam HA com failover, não tolerância a falhas plena.</p><p>O quórum é vital em clusters com número par de nós: um voto adicional (witness/quorum disk ou nó testemunha) evita empates e o split-brain quando a rede entre os nós se rompe. Sem quórum adequado, uma partição de rede pode levar duas metades a operar isoladamente, corrompendo dados — por isso, projeto de quórum e fencing andam juntos.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;Em um cluster de alta disponibilidade, o mecanismo de fencing (STONITH) tem a finalidade de balancear a carga de requisições igualmente entre os nós ativos.&#x27; — ERRADO. O fencing isola/desliga um nó suspeito de falha para evitar que acesse recursos compartilhados e cause split-brain e corrupção de dados — não tem relação com balanceamento de carga, que é função do load balancer.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe cobra os termos: heartbeat (detecção de falha), fencing/STONITH (isolar nó para evitar split-brain), quórum (decidir partição ativa) e failover (assumir a operação). Não confunda fencing com balanceamento. Lembre da diferença camada 4 x camada 7 no balanceador e que HA não é igual a tolerância a falhas.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t5-s1.html">← Automação (PowerShell, Bash, Puppet)</a><a class="pager next" href="t6-s1.html">Continuidade de negócios e testes de DR →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Clusters: HA/failover (disponibilidade), balanceamento (capacidade) e HPC (processamento paralelo)</li><li>Ativo-passivo: secundário em espera; ativo-ativo: todos atendem (maior uso, exige sincronização)</li><li>Failover transfere a operação ao nó standby; heartbeat detecta falhas pela ausência de sinal</li><li>Fencing/STONITH isola o nó suspeito para evitar split-brain e corrupção</li><li>Quórum (maioria/witness) decide a partição ativa e previne split-brain</li><li>Load balancer: camada 4 (IP/porta) x camada 7 (conteúdo HTTP); usa health checks e sticky sessions</li><li>HA admite breve failover; tolerância a falhas não tem interrupção perceptível</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

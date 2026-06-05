@@ -1,0 +1,146 @@
+{
+  "slug": "lingua-inglesa",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Estratégias de leitura (skimming e scanning)",
+      "intro": "Em provas de Língua Inglesa para concursos de alto nível, como o de Auditor Federal de Controle Externo (AUFC-TI) do TCU, banca Cebraspe, o objetivo não é traduzir o texto palavra por palavra, mas compreendê-lo de forma estratégica e eficiente. O tempo é escasso e os textos costumam ser técnicos (frequentemente sobre governança de TI, segurança da informação, auditoria e tecnologia), o que torna o domínio de técnicas de leitura (reading strategies) decisivo para o desempenho.\n\nAs duas técnicas centrais são o skimming (leitura global, para captar a ideia geral, o gist) e o scanning (leitura localizada, para encontrar informação específica). Elas não são excludentes: o candidato eficiente combina ambas, geralmente fazendo um skimming inicial para entender o panorama e, depois, um scanning dirigido pelas perguntas. Saber quando aplicar cada uma evita o erro clássico de ler tudo linearmente e perder tempo.",
+      "secoes": [
+        {
+          "h": "Skimming: leitura global para captar o gist",
+          "p": "Skimming é a leitura rápida e superficial cujo objetivo é obter a ideia geral (the main idea / the gist) e a organização do texto, sem se prender a detalhes. Na prática, o leitor passa os olhos pelo título (title), subtítulos (headings/subheadings), pela primeira e última frase de cada parágrafo (topic sentence e concluding sentence) e por palavras em destaque (negrito, itálico, números).\n\nO skimming responde a perguntas como: 'What is the text about?', 'What is the author's main point?' ou 'Which title best summarizes the text?'. Ele é especialmente útil para questões sobre tema central, propósito do autor (purpose) e tom (tone). Em um texto sobre 'cloud computing security', por exemplo, o skimming já permite perceber se o autor está alertando para riscos, comparando soluções ou defendendo a adoção da tecnologia, mesmo sem entender cada termo técnico."
+        },
+        {
+          "h": "Scanning: leitura localizada de informação específica",
+          "p": "Scanning é a busca dirigida por uma informação pontual: um nome, uma data, um número, um termo técnico ou um dado citado. O leitor já sabe o que procura e percorre o texto rapidamente até localizar o trecho relevante, ignorando o restante. É a técnica ideal para questões que pedem detalhes explícitos (explicit information).\n\nA estratégia mais eficaz é ler primeiro o enunciado/item da questão, extrair as palavras-chave (keywords) e procurá-las (ou seus sinônimos/paráfrases) no texto. Cuidado: a Cebraspe raramente repete a palavra exata; ela parafraseia. Se a questão menciona 'malicious software', o texto pode trazer 'malware'; se fala em 'unauthorized access', o texto pode usar 'breach' ou 'intrusion'. Reconhecer essas equivalências é parte do scanning bem feito."
+        },
+        {
+          "h": "Cognatos, falsos cognatos e pistas contextuais",
+          "p": "Como o vocabulário técnico de TI é largamente derivado do inglês, o leitor brasileiro se beneficia de muitos cognatos (cognates) — palavras de forma e sentido semelhantes: 'firewall', 'protocol', 'encryption' (criptografia), 'algorithm', 'database', 'server'. Eles aceleram a compreensão.\n\nPorém, é preciso atenção aos falsos cognatos (false friends), armadilha recorrente: 'actually' significa 'na verdade' (não 'atualmente', que é 'currently'); 'eventually' significa 'no fim/finalmente' (não 'eventualmente'); 'comprehensive' significa 'abrangente' (não 'compreensivo'); 'library' é 'biblioteca' (não 'livraria'); 'support' pode ser 'sustentar/apoiar' além de 'suporte'. Além disso, o significado de um termo desconhecido muitas vezes pode ser inferido pelo contexto (context clues), pela formação da palavra (prefixos/sufixos: 'mis-', 'un-', '-less', '-able') e por marcadores como 'such as', 'that is', 'i.e.', que introduzem definições ou exemplos."
+        },
+        {
+          "h": "Predição, propósito e estrutura do texto",
+          "p": "Antes mesmo de ler, o leitor estratégico faz predições (prediction) a partir do título, da fonte e do gênero textual (genre): um abstract científico, um artigo de revista de tecnologia, um relatório de auditoria e um post institucional têm estruturas e propósitos diferentes. Identificar o gênero ajuda a prever a organização das ideias.\n\nReconhecer a macroestrutura — introdução, desenvolvimento e conclusão — e os marcadores discursivos (discourse markers / linking words) como 'however', 'therefore', 'moreover', 'on the other hand', 'in conclusion' permite mapear como as ideias se relacionam (contraste, causa, adição, conclusão) e localizar rapidamente onde está cada tipo de informação."
+        }
+      ],
+      "exemplo": "Item de prova comentado (estilo Cebraspe, certo/errado). Texto-base (trecho): 'Although cloud services offer scalability and cost savings, organizations must implement robust access controls; otherwise, sensitive data may be exposed to unauthorized parties.' Item: 'According to the text, cloud services are inherently insecure and should be avoided by organizations.' Gabarito: ERRADO. Comentário: um skimming rápido mostra que o tom não é de rejeição à nuvem — o conector 'Although' concede vantagens (scalability, cost savings) e a oração principal apenas condiciona a segurança a controles de acesso. Um scanning pela palavra-chave 'insecure'/'avoided' não encontra suporte: o texto não diz que a nuvem é inseguranmente intrínseca nem que deve ser evitada; diz que a exposição ocorre 'otherwise' (caso os controles não sejam implementados). A banca testa, aqui, a leitura do conector concessivo e a tentação do candidato de extrapolar.",
+      "pontos_chave": [
+        "Skimming = leitura global para captar a ideia geral (gist) e o propósito do autor",
+        "Scanning = leitura localizada para encontrar informação específica (datas, nomes, termos)",
+        "Estratégia eficiente: ler a questão, extrair keywords e buscá-las (ou sinônimos) no texto",
+        "Cognatos (firewall, protocol, encryption) aceleram a leitura técnica de TI",
+        "Falsos cognatos são armadilha: actually = na verdade; eventually = no fim; library = biblioteca",
+        "Context clues, prefixos/sufixos e marcadores (such as, i.e.) ajudam a inferir vocabulário",
+        "Discourse markers (however, therefore, although) revelam a relação entre as ideias",
+        "A Cebraspe parafraseia: a palavra do enunciado dificilmente é idêntica à do texto"
+      ],
+      "dica_prova": "A Cebraspe quase nunca cobra tradução literal; cobra compreensão global e localização de informação. A pegadinha mais comum é a paráfrase enganosa: o item reescreve o texto com um termo aparentemente equivalente, mas que muda o sentido (intensidade, polaridade ou escopo). Desconfie de itens com palavras absolutas (always, never, only, must, all) e de extrapolações que vão além do que o texto afirma. Atenção redobrada aos conectores concessivos (although, despite, even though) e adversativos (however, but), que frequentemente invertem a expectativa e são a chave do gabarito."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Ideias explícitas e implícitas",
+      "intro": "Compreender um texto em inglês exige distinguir o que está dito de forma explícita (explicit / stated information) do que está apenas sugerido e precisa ser deduzido (implicit information / inference). A banca Cebraspe explora intensamente essa diferença: parte dos itens cobra dados literais do texto, e outra parte exige que o candidato faça inferências bem fundamentadas, sem extrapolar.\n\nIdeias explícitas estão na superfície do texto e podem ser localizadas por scanning. Ideias implícitas dependem da relação entre informações, do conhecimento de mundo controlado pelo próprio texto e de pistas linguísticas (escolha de palavras, conectores, modalização). O ponto crítico é que uma inferência válida deve ser logicamente sustentada pelo texto — não é 'achismo' nem opinião do leitor.",
+      "secoes": [
+        {
+          "h": "Ideia principal, tese e ideias secundárias",
+          "p": "A ideia principal (main idea) é a mensagem central do texto ou do parágrafo; quando aparece de forma explícita, costuma estar na topic sentence (frase-tópico), geralmente no início do parágrafo. A tese (thesis / author's claim) é a posição que o autor defende, e os detalhes de apoio (supporting details) são exemplos, dados, comparações e justificativas que a sustentam.\n\nDistinguir principal de secundário é essencial em itens que pedem o 'best title', o 'main purpose' ou um resumo. Uma pegadinha frequente é oferecer como resposta um detalhe verdadeiro do texto, porém periférico, fazendo-o passar por ideia central. O detalhe está correto, mas não é a ideia principal — e o item fica ERRADO."
+        },
+        {
+          "h": "Inferência: do explícito ao implícito",
+          "p": "Inferir é concluir algo que o texto não afirma diretamente, mas que decorre necessariamente (ou muito provavelmente) do que ele diz. Exemplo: se o texto afirma 'The system flagged the login attempt and locked the account after three failed passwords', pode-se inferir que existe um mecanismo de segurança que detecta tentativas suspeitas — ainda que a palavra 'security' não apareça.\n\nA inferência se apoia em pistas: escolhas lexicais (palavras com carga positiva ou negativa), modalização ('may', 'might', 'could' indicam possibilidade; 'must', 'should' indicam obrigação/recomendação), e conectores que sinalizam causa, contraste ou conclusão. O limite é rígido: se a conclusão depende de informação externa não amparada pelo texto, a inferência é inválida e o item, na lógica da Cebraspe, costuma estar ERRADO."
+        },
+        {
+          "h": "Propósito do autor, tom e atitude",
+          "p": "O propósito (purpose) responde a 'por que o autor escreveu o texto?' — informar, criticar, persuadir, alertar, instruir. O tom (tone) e a atitude (attitude) revelam a postura do autor diante do tema: neutra, crítica, cética (skeptical), entusiasmada, cautelosa (cautious), irônica. Essas dimensões raramente são explícitas; são inferidas pela seleção de palavras (word choice) e pela estrutura argumentativa.\n\nEm textos técnicos de TI, o tom é frequentemente neutro/expositivo, mas relatórios e editoriais podem ser críticos ou recomendativos. Identificar verbos e adjetivos avaliativos ('fortunately', 'unfortunately', 'alarmingly', 'promising', 'flawed') é decisivo para acertar itens sobre tom."
+        },
+        {
+          "h": "Coesão referencial e relações intertextuais",
+          "p": "Boa parte da compreensão implícita depende de relações de referência (reference): pronomes ('it', 'they', 'this', 'these', 'such'), elipses e substituições que retomam ou antecipam termos. Saber a quem 'it' ou 'this approach' se refere é, muitas vezes, a chave da questão. A Cebraspe cobra explicitamente referenciação (pedindo a que termo 'it' ou 'this' se refere em determinada linha).\n\nAlém das relações dentro do texto (intratextuais), há relações intertextuais (intertextuality): diálogos com outros textos, citações, alusões e contraste de posições entre fontes. Em comparações entre dois textos, o item pode pedir se ambos concordam, divergem ou tratam de aspectos distintos do mesmo tema — exigindo síntese das ideias principais de cada um."
+        }
+      ],
+      "exemplo": "Item de prova comentado (certo/errado). Texto-base (trecho): 'The new authentication protocol has been praised by experts, though some critics argue that its adoption could strain legacy systems.' Item 1 (explícito): 'The text states that experts have praised the new authentication protocol.' Gabarito: CERTO — informação literal ('has been praised by experts'). Item 2 (inferência): 'It can be inferred that the new protocol is fully incompatible with all legacy systems.' Gabarito: ERRADO. Comentário: o texto apenas registra que críticos 'argue that its adoption could strain legacy systems' — o modal 'could' indica possibilidade, e 'strain' (sobrecarregar) não equivale a 'fully incompatible'. O item extrapola com o absoluto 'fully... all', que o texto não sustenta. Distinguir a força do modal e a polaridade dos termos separa a inferência válida da extrapolação indevida.",
+      "pontos_chave": [
+        "Ideia explícita está na superfície (scanning); ideia implícita exige inferência fundamentada",
+        "Main idea costuma estar na topic sentence; não confundir com um detalhe verdadeiro porém secundário",
+        "Inferência válida decorre do texto; sem amparo textual vira extrapolação (item ERRADO)",
+        "Modais (may, might, could, must) e word choice sinalizam possibilidade, obrigação e tom",
+        "Purpose e tone do autor são quase sempre inferidos pela seleção lexical",
+        "Referência (it, this, these, such) é cobrada diretamente e resolve muitas questões",
+        "Relações intertextuais: comparar se dois textos concordam, divergem ou tratam de aspectos distintos"
+      ],
+      "dica_prova": "A pegadinha clássica da Cebraspe é transformar uma possibilidade ('could', 'may', 'some critics argue') em certeza/generalização ('is', 'all', 'always', 'fully'). Sempre confira a força modal e a polaridade. Outra armadilha é o item que apresenta uma inferência plausível no mundo real, mas que o texto não autoriza — em compreensão de texto, só vale o que o texto sustenta. Em itens de referência, localize o antecedente exato do pronome antes de julgar; a banca troca o referente correto por outro termo próximo no parágrafo."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Gramática aplicada à compreensão",
+      "intro": "No edital do TCU/Cebraspe, a gramática inglesa não é cobrada como fim em si, mas como meio para a compreensão do conteúdo semântico do texto. Ou seja: o candidato precisa reconhecer estruturas gramaticais para entender corretamente o que está sendo dito — quem fez o quê, quando, com que grau de certeza e em que relação lógica com o restante do texto.\n\nOs pontos gramaticais mais decisivos para a compreensão são os tempos e aspectos verbais, a voz passiva, os verbos modais, os conectivos (linking words) e os mecanismos de referência. Dominá-los permite, por exemplo, perceber se um fato é passado, presente ou hipotético, se a ação foi sofrida ou praticada pelo sujeito, e se uma afirmação é uma certeza, uma recomendação ou uma mera possibilidade — distinções que a banca explora em itens certo/errado.",
+      "secoes": [
+        {
+          "h": "Tempos e aspectos verbais",
+          "p": "A correta interpretação depende de reconhecer tempo (tense) e aspecto (aspect). O simple past ('the breach occurred') indica fato concluído no passado; o present perfect ('the breach has occurred / systems have been updated') liga o passado ao presente, indicando relevância atual ou resultado vigente; o present continuous ('the team is migrating the database') indica ação em curso. As formas progressivas (continuous) enfatizam duração; as perfeitas, a anterioridade e o resultado.\n\nEsses contrastes mudam o sentido em itens de prova. Confundir 'the patch has been applied' (já foi aplicado, efeito atual) com 'the patch will be applied' (futuro) leva ao erro. O candidato deve mapear a linha temporal dos eventos descritos, sobretudo em textos que narram incidentes de segurança ou cronologias de projeto."
+        },
+        {
+          "h": "Voz passiva (passive voice)",
+          "p": "A voz passiva (be + particípio passado), muito comum em textos técnicos e acadêmicos em inglês, desloca o foco para o objeto/resultado da ação e frequentemente omite o agente: 'The data was encrypted', 'Access logs are monitored continuously', 'The vulnerability had been exploited before the patch was released'. Compreender a passiva é saber que o sujeito gramatical sofre a ação, não a pratica.\n\nA Cebraspe explora isso invertendo papéis: se o texto diz 'The server was attacked by the malware', um item que afirme 'The server attacked the malware' está ERRADO. Reconhecer a estrutura 'be + past participle (+ by + agente)' evita essa troca de quem é agente e quem é paciente da ação."
+        },
+        {
+          "h": "Verbos modais e modalização",
+          "p": "Os modais (modal verbs) ajustam a força da afirmação e são cruciais para a compreensão. 'Must/have to' = obrigação ou forte certeza; 'should/ought to' = recomendação; 'can/could' = capacidade/possibilidade; 'may/might' = possibilidade mais remota; 'will' = previsão/futuro; 'would' = condicional/hipótese. A diferença entre 'organizations must encrypt data' (obrigação) e 'organizations may encrypt data' (faculdade) é enorme para o sentido.\n\nA modalização também aparece em advérbios e expressões ('possibly', 'likely', 'it is recommended that', 'it is required that'). A banca testa se o candidato distingue obrigação de recomendação e certeza de possibilidade — clássico em itens que substituem 'should' por 'must', alterando indevidamente o sentido."
+        },
+        {
+          "h": "Conectivos, condicionais e referência",
+          "p": "Os conectivos (connectives / linking words) explicitam a relação lógica entre orações: adição ('moreover', 'in addition'), contraste ('however', 'whereas', 'although', 'despite'), causa/consequência ('because', 'since', 'therefore', 'thus', 'as a result'), condição ('if', 'unless', 'provided that') e conclusão ('in conclusion', 'overall'). Trocar um conector por outro de sentido oposto muda completamente a interpretação.\n\nAs orações condicionais (conditionals) merecem destaque: o primeiro condicional ('If the system fails, an alert is triggered') trata de situações reais/prováveis; o segundo ('If the system failed, an alert would be triggered') trata de hipóteses. Já a referência (referência anafórica e catafórica via pronomes 'it', 'they', 'this', 'which', e relativos 'who', 'that') garante a coesão e costuma ser cobrada diretamente: identificar o antecedente correto é, muitas vezes, o que decide o item."
+        }
+      ],
+      "exemplo": "Item de prova comentado (certo/errado). Texto-base (trecho): 'Had the administrator enabled multi-factor authentication, the attacker would not have gained access to the database.' Item: 'According to the text, the administrator enabled multi-factor authentication and prevented the attack.' Gabarito: ERRADO. Comentário: a estrutura 'Had the administrator enabled... would not have gained' é um terceiro condicional (third conditional) invertido, que expressa uma hipótese contrária ao passado real. Ou seja, na realidade o administrador NÃO habilitou o MFA e o ataque OCORREU. A banca explora o desconhecimento da inversão condicional ('Had + sujeito + particípio' = 'If ... had'), que inverte exatamente o que o item afirma. Reconhecer a forma hipotética é o que separa o acerto do erro.",
+      "pontos_chave": [
+        "Gramática é cobrada como ferramenta de compreensão, não como fim em si",
+        "Tense e aspect definem a linha temporal: simple past x present perfect x will mudam o sentido",
+        "Voz passiva (be + past participle) inverte agente e paciente — atenção a quem pratica a ação",
+        "Modais ajustam a força: must (obrigação) ≠ should (recomendação) ≠ may/might (possibilidade)",
+        "Conectivos sinalizam relações lógicas; trocar however por therefore inverte a interpretação",
+        "Condicionais: 1st (real/provável) x 2nd (hipotético) x 3rd (irreal no passado, inversão com Had)",
+        "Referência (it, this, which, that) e antecedentes são cobrados diretamente pela banca"
+      ],
+      "dica_prova": "A Cebraspe adora trocar modais e conectores: substitui 'should' por 'must', 'may' por 'will', ou 'although' por 'because', e pede para julgar se o item mantém o sentido — quase sempre não mantém. Cuidado especial com a voz passiva (não inverta agente/paciente) e com condicionais invertidos ('Had he known...', 'Were the system...', 'Should you need...'), que indicam hipótese e frequentemente significam o oposto do fato real. Sempre identifique o antecedente exato de pronomes antes de aceitar uma paráfrase como correta."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Formas contemporâneas do inglês",
+      "intro": "Os textos de provas atuais refletem o inglês contemporâneo (contemporary English): a língua como efetivamente usada hoje em contextos profissionais, acadêmicos e tecnológicos, com vocabulário atualizado, expressões idiomáticas correntes e registros variados. Para o cargo de AUFC-TI do TCU, isso significa, sobretudo, familiaridade com o léxico técnico de tecnologia da informação, governança, segurança cibernética e dados, que predomina nos textos selecionados pela Cebraspe.\n\nDominar as formas contemporâneas envolve reconhecer registro (formal x informal), terminologia técnica atual (muitas vezes em siglas e acrônimos), collocations (combinações usuais de palavras) e expressões idiomáticas (idioms / phrasal verbs) frequentes em textos jornalísticos e corporativos. Não se trata de gírias, mas do inglês real e atualizado que circula em artigos, relatórios e publicações especializadas.",
+      "secoes": [
+        {
+          "h": "Registro, gênero e adequação",
+          "p": "O registro (register) é o grau de formalidade adequado a cada situação. Textos acadêmicos e relatórios oficiais usam registro formal (estruturas completas, voz passiva, nominalizações, conectores formais como 'therefore', 'furthermore'); já artigos de divulgação e comunicações corporativas podem mesclar formal e informal, com contrações ('it's', 'don't'), phrasal verbs e linguagem mais direta.\n\nReconhecer o registro ajuda a interpretar a intenção e o público-alvo (audience). Em provas, identificar se um texto é um abstract científico, uma notícia de tecnologia, um post institucional ou um trecho de relatório orienta a leitura e pode ser objeto de questão sobre gênero textual e adequação de linguagem."
+        },
+        {
+          "h": "Vocabulário técnico de TI e acrônimos",
+          "p": "O inglês contemporâneo de TI é fortemente marcado por termos e siglas que o candidato a AUFC-TI deve reconhecer de imediato: 'cloud computing', 'machine learning', 'artificial intelligence (AI)', 'big data', 'data breach', 'ransomware', 'phishing', 'firewall', 'encryption', 'two-factor/multi-factor authentication (2FA/MFA)', 'API (Application Programming Interface)', 'IoT (Internet of Things)', 'DevOps', 'zero trust', 'data governance', 'compliance'.\n\nMuitos desses termos são usados em português sem tradução, o que favorece a compreensão, mas exige conhecer também verbos e collocations associados: 'to deploy a system' (implantar), 'to roll out an update' (lançar/distribuir), 'to mitigate a risk', 'to leverage data' (aproveitar/alavancar), 'to scale up/down'. Reconhecer essas combinações típicas acelera e qualifica a leitura."
+        },
+        {
+          "h": "Phrasal verbs, idioms e collocations",
+          "p": "Os phrasal verbs (verbo + partícula) são onipresentes no inglês contemporâneo e mudam de sentido conforme a partícula: 'set up' (configurar/montar), 'carry out' (realizar/executar), 'roll out' (lançar), 'back up' (fazer backup), 'log in/out', 'shut down', 'figure out' (descobrir/entender), 'point out' (apontar/destacar). Traduzir literalmente costuma falhar; é preciso conhecer o sentido idiomático.\n\nIdioms e expressões correntes ('state of the art' = de ponta; 'cutting-edge' = de vanguarda; 'in the long run' = a longo prazo; 'at stake' = em jogo) e collocations ('make a decision', 'take measures', 'raise concerns', 'meet requirements', 'address an issue') aparecem com frequência. Conhecê-las evita interpretações equivocadas e itens errados baseados em leitura literal."
+        },
+        {
+          "h": "Variação, neologismos e linguagem da tecnologia",
+          "p": "O inglês contemporâneo absorve neologismos e usos novos rapidamente, em especial no campo da tecnologia: verbos derivados de produtos e práticas ('to google', 'to stream', 'to onboard'), termos emergentes ('generative AI', 'prompt', 'large language model (LLM)', 'cybersecurity posture', 'data lake', 'edge computing') e abreviações de uso profissional ('e.g.', 'i.e.', 'etc.', 'aka').\n\nHá ainda variação entre o inglês britânico e o americano (British x American English) em grafia ('organisation' x 'organization', 'centre' x 'center', 'analyse' x 'analyze') e vocabulário, o que normalmente não compromete a compreensão, mas pode aparecer em questões de ortografia ou uso. O essencial é ler com flexibilidade, reconhecendo que a língua é dinâmica e que o sentido se constrói no contexto de uso atual."
+        }
+      ],
+      "exemplo": "Item de prova comentado (certo/errado). Texto-base (trecho): 'Before rolling out the new platform, the team carried out a thorough security assessment to address potential vulnerabilities.' Item: 'In the text, the expressions \"rolling out\" and \"carried out\" mean, respectively, launching/deploying and performing/conducting.' Gabarito: CERTO. Comentário: 'roll out' é phrasal verb para lançar/implantar amplamente uma solução, e 'carry out' significa realizar/executar (a security assessment). A pegadinha seria interpretar 'rolling out' literalmente como 'enrolar/desenrolar' ou 'carried out' como 'carregar para fora'. O domínio dos phrasal verbs contemporâneos e de collocations como 'address vulnerabilities' (tratar/enfrentar vulnerabilidades) é o que garante a interpretação correta em textos técnicos de TI.",
+      "pontos_chave": [
+        "Inglês contemporâneo = língua real e atual de contextos profissionais, acadêmicos e de TI",
+        "Registro (formal x informal) e gênero orientam a interpretação e o propósito do texto",
+        "Vocabulário técnico de TI e acrônimos (AI, MFA, API, IoT, ransomware) devem ser reconhecidos de imediato",
+        "Phrasal verbs mudam de sentido pela partícula: set up, carry out, roll out, back up, point out",
+        "Idioms e collocations (state of the art, address an issue, meet requirements) evitam leitura literal",
+        "Neologismos da tecnologia (generative AI, LLM, edge computing) aparecem em textos atuais",
+        "Variação British x American (organisation/organization) raramente compromete a compreensão"
+      ],
+      "dica_prova": "A Cebraspe cobra phrasal verbs e collocations pedindo sinônimos ou paráfrases; a armadilha é a tradução literal da partícula ('carry out' não é 'carregar para fora'). Para itens sobre vocabulário técnico, confie nos cognatos, mas confirme o sentido pelo contexto. Em questões de registro e gênero, observe contrações, voz passiva e conectores formais para classificar o texto. Lembre-se de que variações de grafia britânica/americana não tornam uma palavra 'errada' — são apenas variantes legítimas do inglês contemporâneo."
+    }
+  ]
+}

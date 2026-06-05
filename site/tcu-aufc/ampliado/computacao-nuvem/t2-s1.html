@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zero Trust e conectividade — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/computacao-nuvem.html">☁️ Computação em Nuvem</a> ›
+    <span>Zero Trust e conectividade</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Redes e segurança em nuvem</p>
+    <h1>Zero Trust e conectividade</h1>
+    
+    <p>O modelo tradicional de segurança baseado em perímetro (&#x27;castelo e fosso&#x27;) pressupõe que tudo dentro da rede corporativa é confiável. Esse modelo falha em nuvem, onde recursos estão distribuídos e acessíveis pela internet. O Zero Trust (confiança zero) substitui essa premissa pelo princípio &#x27;nunca confie, sempre verifique&#x27;: nenhum usuário ou dispositivo é confiável por padrão, esteja dentro ou fora da rede.</p><p>Em paralelo, a conectividade segura em nuvem é construída com redes virtuais isoladas, sub-redes, gateways e ligações dedicadas (VPN, Direct Connect, ExpressRoute) que controlam como o ambiente em nuvem se comunica com a internet e com o ambiente on-premises.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Princípios do Zero Trust (NIST SP 800-207)</h2><p>A arquitetura Zero Trust é formalizada na publicação NIST SP 800-207. Princípios essenciais: verificação explícita e contínua de toda solicitação (identidade, dispositivo, contexto), acesso de menor privilégio com microssegmentação, e a presunção de violação (assume breach) — projete como se o invasor já estivesse dentro. A decisão de acesso é tomada por um Policy Decision Point (PDP) e aplicada por um Policy Enforcement Point (PEP) a cada requisição, considerando sinais dinâmicos (risco, saúde do dispositivo, localização). Pegadinha: Zero Trust não é um produto único, e sim uma estratégia/arquitetura; não elimina a autenticação — ao contrário, a intensifica e a torna contínua.</p></section><section class="amp-sec"><h2>Microssegmentação e perímetro definido por software</h2><p>Em vez de uma grande rede plana, Zero Trust usa microssegmentação: dividir a rede em zonas pequenas com políticas próprias, limitando o movimento lateral do atacante. Tecnologias correlatas incluem SDP (Software-Defined Perimeter) e ZTNA (Zero Trust Network Access), que dão acesso a aplicações específicas em vez de acesso amplo à rede (substituindo VPNs tradicionais de rede). O conceito de SASE (Secure Access Service Edge) combina rede (SD-WAN) e segurança (incluindo ZTNA) entregues como serviço na nuvem.</p></section><section class="amp-sec"><h2>Redes virtuais, sub-redes e gateways</h2><p>Toda nuvem oferece uma rede virtual privada e isolada — VPC na AWS/GCP, VNet na Azure — segmentada em sub-redes públicas (com rota para a internet via Internet Gateway) e privadas (sem exposição direta). Controles de tráfego: Security Groups (firewall com estado, no nível da instância) e Network ACLs (firewall sem estado, no nível da sub-rede, na AWS). Um NAT Gateway permite que recursos em sub-redes privadas iniciem conexões de saída sem ficarem expostos a conexões de entrada. Pegadinha: Security Group é stateful (a resposta é automaticamente permitida); NACL é stateless (precisa de regra para o tráfego de retorno).</p></section><section class="amp-sec"><h2>Conectividade híbrida: VPN x links dedicados</h2><p>Para conectar o ambiente on-premises à nuvem há duas opções principais. VPN site-to-site: túnel criptografado (IPsec) que trafega pela internet pública — rápido de configurar e barato, mas com largura de banda e latência sujeitas à internet. Conexão dedicada/privada: um link físico privado que não passa pela internet pública, oferecendo banda consistente, menor latência e maior segurança — AWS Direct Connect, Azure ExpressRoute e Google Cloud Interconnect. Pegadinha clássica: Direct Connect/ExpressRoute NÃO trafegam pela internet pública e, por si, não criptografam o tráfego como uma VPN IPsec (a privacidade vem do isolamento do circuito; criptografia adicional pode ser sobreposta).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: ao revisar a arquitetura de rede de um sistema do TCU em nuvem, o auditor constata que os bancos de dados estão em sub-redes privadas, sem IP público, acessíveis apenas a partir de Security Groups específicos das aplicações, e que a conexão com o datacenter do Tribunal usa ExpressRoute (link dedicado) com VPN IPsec sobreposta. Esse desenho aplica defesa em profundidade e princípios de Zero Trust. A presença de um banco em sub-rede pública com acesso 0.0.0.0/0 seria um achado crítico.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe testa: (1) Zero Trust como &#x27;produto&#x27; ou como &#x27;dispensa de autenticação&#x27; — ambos falsos; (2) a diferença stateful (Security Group) x stateless (NACL); (3) afirmar que Direct Connect/ExpressRoute passam pela internet pública e são intrinsecamente criptografados — falso, são links privados dedicados. Lembre do número da norma: NIST SP 800-207 para Zero Trust.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t2-s0.html">← IAM, RBAC e criptografia (KMS)</a><a class="pager next" href="t3-s0.html">Infraestrutura como código (Terraform) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Zero Trust (NIST SP 800-207): nunca confie, sempre verifique; assume breach; menor privilégio</li><li>Zero Trust é estratégia/arquitetura, não um produto; intensifica a autenticação (não a elimina)</li><li>Microssegmentação limita movimento lateral; ZTNA/SDP substituem VPN de rede; SASE une rede e segurança</li><li>VPC/VNet isolam a rede; sub-redes públicas têm Internet Gateway, privadas usam NAT Gateway para saída</li><li>Security Group é stateful (instância); Network ACL é stateless (sub-rede)</li><li>VPN IPsec trafega pela internet (criptografada); Direct Connect/ExpressRoute são links dedicados fora da internet pública</li></ul></div>
+      <a class="back" href="../../disciplinas/computacao-nuvem.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

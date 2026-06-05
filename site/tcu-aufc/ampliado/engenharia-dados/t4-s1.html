@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qualidade de dados — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>Qualidade de dados</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Governança e qualidade de dados</p>
+    <h1>Qualidade de dados</h1>
+    
+    <p>Qualidade de dados é o grau em que os dados atendem às necessidades de uso, sendo confiáveis, completos, consistentes e adequados à decisão. Dados de baixa qualidade — duplicados, incompletos, inconsistentes ou desatualizados — comprometem análises, relatórios e a própria credibilidade das decisões de gestão e fiscalização (&quot;garbage in, garbage out&quot;).</p><p>A gestão de qualidade envolve definir dimensões mensuráveis, validar dados contra regras, tratar inconsistências (limpeza/cleansing), eliminar duplicidades (deduplicação) e monitorar continuamente por meio de métricas e regras automatizadas dentro dos pipelines. É um pilar da governança de dados e tema recorrente em auditorias de TI.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Dimensões da qualidade de dados</h2><p>A qualidade é avaliada em dimensões. As mais cobradas: Completude (ausência de valores faltantes onde são esperados); Acurácia/Exatidão (o dado reflete corretamente a realidade); Consistência (ausência de contradições entre fontes/sistemas); Validade/Conformidade (o dado obedece a formato, tipo e regras — ex.: CPF válido, data dentro do intervalo); Unicidade (ausência de duplicatas); Atualidade/Tempestividade (o dado está atualizado e disponível a tempo); e Integridade (relações referenciais preservadas).</p><p>Essas dimensões orientam a definição de indicadores e regras de qualidade que podem ser medidos objetivamente — por exemplo, &quot;percentual de registros com CPF inválido&quot; ou &quot;taxa de campos obrigatórios em branco&quot;.</p></section><section class="amp-sec"><h2>Validação e conformidade</h2><p>A validação aplica regras (data quality rules) para verificar se os dados atendem às dimensões: restrições de tipo e formato, intervalos permitidos, listas de domínio, regras de negócio e integridade referencial. A conformidade verifica a aderência a padrões definidos (ex.: padronização de unidades, máscaras, codificações).</p><p>Na prática, frameworks como Great Expectations, dbt tests, Soda e Deequ (AWS) permitem declarar expectativas sobre os dados (ex.: &quot;esta coluna não pode ter nulos&quot;, &quot;valores devem estar entre 0 e 100&quot;) e executá-las automaticamente no pipeline, bloqueando ou sinalizando cargas que violem as regras. Isso integra qualidade ao CI/CD de dados, deslocando a verificação para o início do fluxo (shift-left).</p></section><section class="amp-sec"><h2>Deduplicação</h2><p>A deduplicação identifica e remove (ou consolida) registros duplicados que representam a mesma entidade. A duplicidade pode ser exata (registros idênticos) ou aproximada/fuzzy (mesma pessoa grafada de formas diferentes — &quot;João da Silva&quot; e &quot;Joao Silva&quot;).</p><p>Técnicas incluem deduplicação por chave determinística (mesmo CPF), correspondência aproximada (fuzzy matching, com distância de edição/Levenshtein, similaridade fonética) e record linkage/entity resolution, que vinculam registros de fontes distintas referentes à mesma entidade. A deduplicação melhora as dimensões de unicidade e consistência e é etapa típica da limpeza de dados (data cleansing), frequentemente apoiada por MDM (Master Data Management), que mantém uma versão única e confiável dos dados mestres (clientes, fornecedores, produtos).</p></section><section class="amp-sec"><h2>Monitoramento e ciclo de melhoria</h2><p>Qualidade não é evento único, mas processo contínuo: perfilamento de dados (data profiling) para conhecer a distribuição e detectar anomalias; definição de regras e métricas; medição com painéis e scorecards de qualidade; correção das causas-raiz; e monitoramento contínuo com alertas. Detecção de anomalias e observabilidade de dados (data observability) acompanham frescor, volume, esquema e distribuição.</p><p>Governança atribui responsáveis (data stewards) pela qualidade de cada domínio. Para auditoria, métricas de qualidade documentadas e o tratamento de exceções são evidências de controle; a inexistência de controles de qualidade configura risco à confiabilidade das informações.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: o TCU analisa uma base de beneficiários e o auditor executa um perfilamento que revela 4% de CPFs inválidos (falha de validade) e múltiplos cadastros para a mesma pessoa (falha de unicidade), corrigíveis por deduplicação com record linkage. Item de prova: &quot;Validade (ou conformidade) refere-se à aderência do dado a formatos e regras definidas, enquanto unicidade trata da ausência de registros duplicados; a deduplicação atua sobre esta última dimensão.&quot; — CERTO.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe testa o pareamento dimensão-definição: não confunda completude (faltantes) com acurácia (reflete a realidade) nem unicidade (duplicatas) com consistência (contradições entre fontes). Deduplicação cai associada a unicidade e a fuzzy matching/record linkage. Cuidado: validação/conformidade verifica regras e formatos, não a veracidade factual (isso é acurácia, que depende de fonte de verdade externa).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Linhagem, catalogação e metadados</a><a class="pager next" href="t5-s0.html">Serviços gerenciados (Azure Data Factory, Databricks) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Dimensões: completude, acurácia, consistência, validade/conformidade, unicidade, atualidade, integridade</li><li>Regras de qualidade tornam as dimensões mensuráveis objetivamente</li><li>Validação verifica tipo, formato, domínio, intervalo e regras de negócio</li><li>Frameworks: Great Expectations, dbt tests, Soda, Deequ (integram ao CI/CD)</li><li>Deduplicação remove duplicatas (exatas ou fuzzy); record linkage vincula entidades</li><li>MDM mantém versão única e confiável dos dados mestres</li><li>Qualidade é processo contínuo: profiling, regras, métricas, monitoramento, correção</li><li>Ausência de controles de qualidade = risco à confiabilidade (achado de auditoria)</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

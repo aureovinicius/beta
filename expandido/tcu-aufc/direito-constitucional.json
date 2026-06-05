@@ -1,0 +1,223 @@
+{
+  "slug": "direito-constitucional",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Poder constituinte (originário e derivado)",
+      "intro": "O poder constituinte é o poder de criar, modificar ou complementar uma Constituição. A teoria clássica, sistematizada por Sieyès em sua obra \"O que é o Terceiro Estado?\" (1789), distingue o poder constituinte originário (que elabora uma nova Constituição) do poder constituinte derivado (que atua dentro dos limites fixados pela própria Constituição já existente).\n\nNo Brasil, a CF/88 foi fruto do poder constituinte originário, exercido pela Assembleia Nacional Constituinte instalada em 1987. Compreender a diferença de natureza e de limites entre o originário e o derivado é essencial para entender por que emendas constitucionais podem ser declaradas inconstitucionais, ao passo que o texto originário da Constituição não pode.",
+      "secoes": [
+        {
+          "h": "Poder constituinte originário",
+          "p": "É o poder de elaborar uma nova Constituição, dando início a uma nova ordem jurídica. Pela doutrina majoritária (positivista), suas características são: inicial (rompe com a ordem anterior e funda nova ordem), autônomo (escolhe livremente o conteúdo), ilimitado juridicamente (não se submete ao direito positivo anterior) e incondicionado (não segue forma ou procedimento preestabelecido). Pode ser histórico (primeira Constituição de um Estado) ou revolucionário (Constituições posteriores que rompem com a ordem anterior).\n\nNa corrente jusnaturalista, o originário encontraria limites em valores suprapositivos (direitos humanos, valores éticos). A doutrina e o STF reconhecem que normas constitucionais originárias não se sujeitam a controle de constitucionalidade — não há hierarquia entre normas do texto originário, afastando-se a tese alemã da \"norma constitucional inconstitucional\" de Otto Bachof (vide ADI 815, em que o STF não admitiu o controle de normas originárias)."
+        },
+        {
+          "h": "Poder constituinte derivado reformador",
+          "p": "É o poder de modificar a Constituição por meio de emendas (art. 60 da CF/88). Tem natureza jurídica de poder constituído (criado pela própria Constituição), sendo, portanto, secundário, limitado e condicionado. Está sujeito a:\n\nLimitações formais/procedimentais (art. 60, I a III e §§ 2º, 3º e 5º): iniciativa restrita (1/3 da Câmara ou do Senado, Presidente da República, ou mais da metade das Assembleias Legislativas das unidades da Federação); votação em dois turnos em cada Casa, com aprovação por 3/5 dos votos; promulgação pelas Mesas da Câmara e do Senado; e a matéria rejeitada não pode ser reapresentada na mesma sessão legislativa.\n\nLimitações circunstanciais (art. 60, §1º): a Constituição não pode ser emendada na vigência de intervenção federal, estado de defesa ou estado de sítio.\n\nLimitações materiais (cláusulas pétreas, art. 60, §4º): não será objeto de deliberação a proposta de emenda tendente a abolir a forma federativa de Estado; o voto direto, secreto, universal e periódico; a separação dos Poderes; e os direitos e garantias individuais."
+        },
+        {
+          "h": "Poder constituinte derivado decorrente",
+          "p": "É o poder atribuído aos Estados-membros para elaborar suas próprias Constituições estaduais (art. 25 da CF c/c art. 11 do ADCT). Também é limitado: deve observar os princípios da Constituição Federal — princípios constitucionais sensíveis (art. 34, VII), estabelecidos (normas de organização que limitam a autonomia) e extensíveis (normas de observância obrigatória pelos Estados). O Distrito Federal exerce competência por meio de Lei Orgânica com natureza de Constituição estadual; já os Municípios elaboram Lei Orgânica, mas a doutrina majoritária NÃO reconhece poder constituinte decorrente aos Municípios, pois a Lei Orgânica municipal deve obediência dupla (à CF e à Constituição Estadual)."
+        },
+        {
+          "h": "Mutação constitucional e cláusulas pétreas",
+          "p": "O poder constituinte difuso manifesta-se na mutação constitucional: mudança informal do sentido/alcance da norma sem alteração do texto, por meio de interpretação. Exemplo emblemático no STF foi a evolução do conceito de família (ADI 4.277/ADPF 132, união homoafetiva).\n\nQuanto às cláusulas pétreas, o STF firmou que elas não são intangíveis em sentido absoluto: vedam apenas emendas \"tendentes a abolir\" o núcleo essencial do bem protegido, admitindo-se modificações que não o esvaziem. No julgamento da ADI 939, o STF reconheceu que o princípio da anterioridade tributária (garantia individual do contribuinte) constitui cláusula pétrea, ainda que esteja fora do art. 5º."
+        }
+      ],
+      "exemplo": "Item Cebraspe (estilo certo/errado): \"As normas constitucionais originárias podem ser objeto de controle de constitucionalidade quando contrariarem direitos fundamentais previstos na própria Constituição.\" — ERRADO. O STF não admite controle de constitucionalidade de normas constitucionais originárias, pois são fruto do poder constituinte originário, juridicamente ilimitado; rejeita-se a tese da norma constitucional inconstitucional (ADI 815).",
+      "pontos_chave": [
+        "Originário: inicial, autônomo, ilimitado juridicamente e incondicionado.",
+        "Derivado reformador (art. 60): poder constituído, limitado e condicionado.",
+        "Cláusulas pétreas (art. 60, §4º): forma federativa, voto direto/secreto/universal/periódico, separação de Poderes e direitos/garantias individuais.",
+        "Quórum de emenda: 2 turnos em cada Casa, 3/5 dos votos (art. 60, §2º).",
+        "Limitação circunstancial: vedada emenda durante intervenção federal, estado de defesa ou de sítio (art. 60, §1º).",
+        "Derivado decorrente: Estados elaboram suas Constituições; Municípios NÃO têm poder constituinte decorrente (doutrina majoritária).",
+        "Normas constitucionais originárias não se submetem a controle de constitucionalidade (ADI 815)."
+      ],
+      "dica_prova": "A Cebraspe adora cobrar o quórum e os turnos de emenda (3/5, dois turnos em CADA Casa — não é maioria absoluta nem turno único). Pegadinha clássica: afirmar que cláusulas pétreas são absolutamente imutáveis (errado — vedam-se apenas emendas TENDENTES A ABOLIR) ou que direitos sociais são cláusulas pétreas (a literalidade do art. 60, §4º, IV fala em direitos e garantias INDIVIDUAIS; o STF, porém, já protegeu garantias fora do art. 5º, como a anterioridade tributária na ADI 939). Outra pegadinha: dizer que os Municípios exercem poder constituinte decorrente."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Sistemas e controle difuso (incidental)",
+      "intro": "O controle de constitucionalidade é a verificação da compatibilidade das normas com a Constituição, fundada no princípio da supremacia constitucional e na rigidez da CF/88. O Brasil adota um sistema misto (ou combinado), reunindo o controle difuso (modelo norte-americano, judicial review, caso Marbury v. Madison, 1803) e o controle concentrado (modelo austríaco/europeu, kelseniano).\n\nO controle difuso (também chamado incidental, concreto ou por via de exceção/defesa) é aquele que pode ser exercido por qualquer juiz ou tribunal, no curso de um processo concreto, em que a questão constitucional surge como questão prejudicial (incidental), e não como pedido principal. O objetivo imediato é resolver o caso concreto; a declaração de inconstitucionalidade é apenas o fundamento da decisão.",
+      "secoes": [
+        {
+          "h": "Características do controle difuso",
+          "p": "É exercido de forma incidental: a inconstitucionalidade é apreciada como causa de pedir, não como pedido. Qualquer das partes (autor, réu, terceiro interveniente), o Ministério Público ou o próprio juiz de ofício podem suscitá-la. Não há legitimados específicos como no controle concentrado.\n\nA competência é de todo o Poder Judiciário, do juiz de primeiro grau ao STF (quando este julga, por exemplo, um recurso extraordinário). A via processual pode ser qualquer ação (inclusive mandado de segurança), mas o STF firmou que NÃO cabe controle difuso por meio de ação civil pública quando esta tiver por pedido principal a declaração de inconstitucionalidade com efeitos erga omnes (usurparia a competência do controle concentrado); admite-se a ACP apenas quando a inconstitucionalidade for questão incidental e os efeitos limitados às partes."
+        },
+        {
+          "h": "Cláusula de reserva de plenário (full bench)",
+          "p": "Prevista no art. 97 da CF/88: somente pelo voto da maioria absoluta de seus membros (ou dos membros do respectivo órgão especial) os tribunais podem declarar a inconstitucionalidade de lei ou ato normativo do poder público. É garantia de segurança jurídica e presunção de constitucionalidade das leis.\n\nA reserva de plenário aplica-se aos tribunais, NÃO aos juízes singulares de primeiro grau (que decidem monocraticamente) nem às Turmas Recursais dos Juizados Especiais (que não são tribunais). A Súmula Vinculante 10 do STF estabelece que viola a cláusula de reserva de plenário a decisão de órgão fracionário (turma/câmara) que, embora sem declarar expressamente a inconstitucionalidade, afasta a incidência de lei ou ato normativo. O art. 949, parágrafo único, do CPC dispensa nova submissão ao plenário quando já houver pronunciamento deste ou do STF sobre a questão."
+        },
+        {
+          "h": "Efeitos da decisão e o papel do Senado (art. 52, X)",
+          "p": "Em regra, no controle difuso os efeitos são inter partes (apenas entre as partes do processo) e ex tunc (retroativos, pois a lei inconstitucional é nula desde a origem). O STF, porém, admite a modulação de efeitos também no controle difuso (analogia ao art. 27 da Lei 9.868/99), atribuindo efeito ex nunc ou pro futuro por razões de segurança jurídica ou excepcional interesse social.\n\nO art. 52, X, da CF prevê que compete privativamente ao Senado Federal suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF (no controle difuso). Tradicionalmente, esse ato do Senado dava eficácia erga omnes e ex nunc à decisão. Contudo, no julgamento das ADIs 3.406 e 3.470 (e na Rcl 4.335), o STF adotou a tese da abstrativização (ou objetivação) do controle difuso: as decisões definitivas de mérito do STF em controle difuso passam a ter eficácia ampla, geral e vinculante, cabendo ao Senado apenas dar publicidade à decisão. O sistema de precedentes do CPC/2015 reforçou essa tendência."
+        },
+        {
+          "h": "Comparação com o controle concentrado",
+          "p": "No difuso, a inconstitucionalidade é incidental (causa de pedir), discutida em caso concreto, por qualquer juiz, com legitimação ampla e efeitos em regra inter partes. No concentrado, a inconstitucionalidade é o pedido principal (objeto da ação), discutida em tese (abstratamente), perante o STF (ou TJ, no plano estadual), por legitimados específicos do art. 103, com efeitos erga omnes e vinculantes. A abstrativização vem aproximando os dois sistemas quanto aos efeitos."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"Câmara cível de um tribunal de justiça, ao julgar apelação, deixou de aplicar determinada lei estadual por reputá-la incompatível com a Constituição, sem submeter a questão ao plenário ou órgão especial. Tal decisão é válida.\" — ERRADO. Viola a cláusula de reserva de plenário (art. 97 da CF) e a Súmula Vinculante 10, pois órgão fracionário afastou a incidência da lei equivalendo a declará-la inconstitucional, sem observar a maioria absoluta do pleno/órgão especial.",
+      "pontos_chave": [
+        "Sistema brasileiro é misto: difuso (EUA, Marbury v. Madison) + concentrado (Áustria, Kelsen).",
+        "Difuso = incidental, concreto, por via de exceção; exercido por qualquer juiz/tribunal.",
+        "A inconstitucionalidade é causa de pedir (questão prejudicial), não o pedido principal.",
+        "Reserva de plenário (art. 97 + SV 10): só por maioria absoluta o tribunal declara inconstitucionalidade; não vale para juiz singular nem Turma Recursal.",
+        "Efeitos em regra inter partes e ex tunc, com possibilidade de modulação.",
+        "Art. 52, X: Senado suspende a execução da lei declarada inconstitucional pelo STF no controle difuso.",
+        "Tese da abstrativização: decisões do STF em controle difuso ganham eficácia geral; Senado apenas dá publicidade (ADIs 3.406 e 3.470)."
+      ],
+      "dica_prova": "Memorize a Súmula Vinculante 10 — é campeã de provas: afastar a aplicação da lei sem declarar formalmente a inconstitucionalidade JÁ viola a reserva de plenário. Pegadinha frequente: dizer que a reserva de plenário se aplica a juiz singular (errado) ou que o difuso só pode ser feito por juiz de primeiro grau (errado — vai até o STF). Cuidado com a tese da abstrativização: hoje o STF entende que suas decisões em controle difuso têm eficácia geral e que o Senado apenas dá publicidade, mas a literalidade do art. 52, X (que fala em 'suspender a execução') ainda é cobrada — atente para o enunciado pedir a letra da lei ou a posição atual do STF."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Controle concentrado (ADI, ADC, ADPF, ADO)",
+      "intro": "O controle concentrado de constitucionalidade concentra a competência para julgar a constitucionalidade em tese de leis e atos normativos em um único órgão de cúpula: no plano federal, o Supremo Tribunal Federal (art. 102, I, \"a\", da CF/88); no plano estadual, o Tribunal de Justiça (art. 125, §2º). É um controle abstrato, em que a constitucionalidade é o próprio objeto da ação (pedido principal), discutido em tese, sem caso concreto subjacente.\n\nAs ações do controle concentrado são processos objetivos: não há partes em sentido material, lide ou direito subjetivo em disputa, mas a defesa da ordem constitucional. São quatro as principais ações: ADI (ação direta de inconstitucionalidade), ADC (ação declaratória de constitucionalidade), ADPF (arguição de descumprimento de preceito fundamental) e ADO (ação direta de inconstitucionalidade por omissão). As ADIs e ADC são regidas pela Lei 9.868/99; a ADPF pela Lei 9.882/99.",
+      "secoes": [
+        {
+          "h": "Legitimados (art. 103) e processo objetivo",
+          "p": "O art. 103 da CF lista os legitimados para ADI, ADC, ADO e ADPF: I - Presidente da República; II - Mesa do Senado Federal; III - Mesa da Câmara dos Deputados; IV - Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF; V - Governador de Estado ou do DF; VI - Procurador-Geral da República; VII - Conselho Federal da OAB; VIII - partido político com representação no Congresso Nacional; IX - confederação sindical ou entidade de classe de âmbito nacional.\n\nO STF divide os legitimados em universais (podem questionar qualquer matéria: Presidente, Mesas do Senado e da Câmara, PGR, Conselho Federal da OAB e partido político) e especiais ou temáticos (precisam demonstrar pertinência temática — relação de afinidade entre a matéria impugnada e suas finalidades: Mesa de Assembleia/Câmara Legislativa, Governador e confederação sindical/entidade de classe). No processo objetivo, em regra não se admite desistência, intervenção de terceiros (salvo amicus curiae) nem ação rescisória."
+        },
+        {
+          "h": "ADI e ADC",
+          "p": "A ADI tem por objeto declarar a inconstitucionalidade de lei ou ato normativo federal ou estadual (não cabe contra lei municipal no STF — esta pode ser objeto de ADPF ou de ADI estadual no TJ). Exige-se que a norma seja posterior à Constituição vigente: lei anterior incompatível resolve-se por não recepção, não por inconstitucionalidade (não cabe ADI). Também não cabe ADI contra norma de efeitos concretos, ato normativo revogado ou de eficácia exaurida.\n\nA ADC tem por objeto declarar a constitucionalidade de lei ou ato normativo FEDERAL (apenas federal, não estadual). Exige requisito específico: existência de controvérsia judicial relevante sobre a aplicação da norma (art. 14, III, da Lei 9.868/99). ADI e ADC têm caráter dúplice ou ambivalente (art. 24 da Lei 9.868/99): a procedência de uma equivale à improcedência da outra. As decisões têm eficácia erga omnes e efeito vinculante em relação aos demais órgãos do Judiciário e à Administração Pública direta e indireta (federal, estadual e municipal) — não vinculam o Poder Legislativo em sua função típica de legislar (para evitar a fossilização da Constituição) nem o próprio STF."
+        },
+        {
+          "h": "ADPF",
+          "p": "A ADPF (Lei 9.882/99) destina-se a evitar ou reparar lesão a preceito fundamental resultante de ato do poder público. Seu grande diferencial é o princípio da subsidiariedade (art. 4º, §1º): só é cabível quando não houver outro meio eficaz de sanar a lesividade (especialmente as demais ações do controle concentrado). Por isso, é o instrumento adequado para questionar: leis ou atos normativos MUNICIPAIS em face da CF, direito pré-constitucional (anterior à CF/88, hipótese de não recepção), normas já revogadas e até atos não normativos do poder público.\n\n\"Preceitos fundamentais\" são as normas mais relevantes da Constituição (princípios fundamentais, cláusulas pétreas, direitos e garantias, princípios constitucionais sensíveis). Suas decisões também têm eficácia erga omnes e vinculante. Exemplos célebres: ADPF 54 (interrupção da gravidez de feto anencéfalo), ADPF 132 (união homoafetiva, julgada com a ADI 4.277), ADPF 347 (estado de coisas inconstitucional do sistema carcerário)."
+        },
+        {
+          "h": "ADO",
+          "p": "A ADO (ação direta de inconstitucionalidade por omissão, art. 103, §2º, da CF, regulada pela Lei 9.868/99) combate a inconstitucionalidade por omissão: a inércia do poder público em editar norma necessária para tornar efetiva norma constitucional de eficácia limitada. Declarada a omissão, o STF dará ciência ao Poder competente para a adoção das providências necessárias; tratando-se de órgão administrativo, este deverá fazê-lo em 30 dias (ou prazo razoável fixado pelo STF). O STF não pode legislar no lugar do Congresso, em respeito à separação dos Poderes (diferente do mandado de injunção, controle concreto da omissão, em que o STF pode concretizar o direito para o caso). A ADO compartilha os legitimados do art. 103."
+        },
+        {
+          "h": "Efeitos comuns, modulação e cautelar",
+          "p": "As decisões de mérito do controle concentrado produzem, em regra, efeitos ex tunc (retroativos, nulidade), erga omnes e vinculantes. O art. 27 da Lei 9.868/99 autoriza a modulação dos efeitos (ex nunc ou pro futuro) por maioria de 2/3 dos membros do STF (8 ministros), tendo em vista razões de segurança jurídica ou excepcional interesse social. É possível medida cautelar, dotada, em regra, de efeito ex nunc e vinculante, com efeito repristinatório (restaura a legislação anterior, salvo manifestação em contrário). A defesa da norma impugnada cabe ao Advogado-Geral da União (art. 103, §3º — curador da presunção de constitucionalidade), e o PGR atua sempre como fiscal (art. 103, §1º)."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"É cabível ação direta de inconstitucionalidade perante o STF para impugnar lei municipal que contrarie a Constituição Federal.\" — ERRADO. A ADI no STF só alcança leis/atos normativos FEDERAIS e ESTADUAIS. Lei municipal em face da CF é controlada por ADPF (no STF) ou por ADI estadual no TJ (em face da Constituição Estadual). Variação: \"Cabe ADC para declarar a constitucionalidade de lei estadual.\" — ERRADO, a ADC só alcança lei/ato normativo FEDERAL.",
+      "pontos_chave": [
+        "Controle concentrado = abstrato; a inconstitucionalidade é o pedido principal, julgada pelo STF (art. 102, I, a).",
+        "Legitimados: art. 103 (9 incisos), divididos em universais e especiais (com pertinência temática).",
+        "ADI: lei/ato normativo federal OU estadual; ADC: somente FEDERAL e exige controvérsia judicial relevante.",
+        "ADI e ADC são ambivalentes/dúplices (art. 24, Lei 9.868/99).",
+        "ADPF: subsidiária; cabe contra lei MUNICIPAL e direito PRÉ-constitucional.",
+        "ADO combate omissão de norma de eficácia limitada; STF dá ciência ao Poder (órgão administrativo: 30 dias).",
+        "Efeitos: erga omnes, vinculantes (não vinculam o Legislativo típico nem o STF) e ex tunc; modulação por 2/3 (art. 27).",
+        "AGU defende a norma impugnada (art. 103, §3º); PGR é fiscal da lei."
+      ],
+      "dica_prova": "Pegadinhas certeiras da Cebraspe: (1) ADC só para lei FEDERAL; ADI também para estadual; nenhuma das duas no STF para lei municipal. (2) Lei municipal vs. CF = ADPF. (3) Direito pré-constitucional = não recepção, resolvido por ADPF, nunca por ADI. (4) O efeito vinculante NÃO atinge o Poder Legislativo em sua função de legislar (pode editar nova lei de igual conteúdo) nem o próprio STF. (5) Modulação exige quórum qualificado de 2/3 (8 ministros), não maioria simples. (6) Pertinência temática só é exigida dos legitimados especiais. Decore quem defende a norma (AGU) e quem é fiscal (PGR)."
+    },
+    {
+      "ti": 4,
+      "si": 3,
+      "titulo": "Ordem social e Reforma da Previdência (EC 103/2019)",
+      "intro": "A ordem social está disciplinada no Título VIII da CF/88 (arts. 193 a 232) e tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais (art. 193). Seu eixo central é a seguridade social (art. 194), definida como um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social — o tripé da seguridade.\n\nA Emenda Constitucional 103/2019 (Reforma da Previdência) promoveu a mais profunda alteração no regime previdenciário desde 1988, atingindo sobretudo o Regime Geral de Previdência Social (RGPS, art. 201) e os Regimes Próprios de Previdência Social dos servidores (RPPS, art. 40), com regras de transição para quem já estava no sistema.",
+      "secoes": [
+        {
+          "h": "A seguridade social e seus princípios",
+          "p": "A saúde é direito de todos e dever do Estado (art. 196), de acesso universal e igualitário, independentemente de contribuição, organizada no SUS (art. 198). A assistência social (arts. 203-204) é prestada a quem dela necessitar, independentemente de contribuição (ex.: BPC/LOAS de um salário mínimo ao idoso e à pessoa com deficiência). Já a previdência social (art. 201) é de caráter CONTRIBUTIVO e de filiação OBRIGATÓRIA — essa é a distinção fundamental: previdência exige contribuição; saúde e assistência, não.\n\nOs princípios (objetivos) da seguridade estão no art. 194, parágrafo único: universalidade da cobertura e do atendimento; uniformidade e equivalência dos benefícios às populações urbanas e rurais; seletividade e distributividade; irredutibilidade do valor dos benefícios; equidade na forma de participação no custeio; diversidade da base de financiamento; e caráter democrático e descentralizado da administração. O financiamento é feito por toda a sociedade, de forma direta e indireta (art. 195), e a regra da contrapartida (art. 195, §5º) impede criar/majorar benefício sem a correspondente fonte de custeio."
+        },
+        {
+          "h": "Principais mudanças da EC 103/2019 - regra geral",
+          "p": "A reforma alterou substancialmente as regras de aposentadoria no RGPS. As principais inovações: estabelecimento de IDADE MÍNIMA combinada com tempo de contribuição (antes era possível aposentar-se só por tempo de contribuição, sem idade mínima). Para quem ingressou após a EC 103/2019, a aposentadoria voluntária no RGPS exige, em regra, 65 anos (homem) e 62 anos (mulher), com tempo mínimo de contribuição de 20 anos (homem) e 15 anos (mulher).\n\nA reforma também alterou o cálculo do benefício: a média passou a considerar 100% dos salários de contribuição (antes descartavam-se os 20% menores), e o coeficiente parte de 60% da média aos 20 anos de contribuição, acrescido de 2 pontos percentuais por ano que exceder esse tempo (alcançando 100% com 40 anos de contribuição). Foi extinta a aposentadoria por tempo de contribuição pura para novos segurados."
+        },
+        {
+          "h": "Servidores (RPPS) e regras de transição",
+          "p": "Para os servidores públicos federais (RPPS, art. 40, com redação da EC 103), a aposentadoria voluntária passou a exigir 62 anos (mulher) e 65 anos (homem) de idade, além de tempo mínimo de contribuição e de serviço público/cargo. A EC 103 ainda: vedou, como regra, a contagem de tempo fictício; estabeleceu alíquotas progressivas de contribuição; e proibiu novos regimes de previdência complementar fora dos parâmetros constitucionais.\n\nPara não prejudicar quem já estava filiado, a EC 103 criou diversas regras de transição (por pontos — soma de idade e tempo de contribuição; por pedágio de 50% ou 100%; por idade mínima progressiva). O direito adquirido foi preservado (art. 5º, XXXVI): quem já preenchera os requisitos antes da vigência da emenda aposenta-se pelas regras antigas. Importante: a reforma promovida pela EC 103 alcançou diretamente apenas a União; Estados, DF e Municípios precisam de leis próprias para adotar as novas regras em seus respectivos RPPS, embora algumas normas (como alíquotas mínimas) tenham aplicação imediata."
+        },
+        {
+          "h": "Outros temas da ordem social",
+          "p": "O Título VIII também trata da educação (arts. 205-214, direito de todos e dever do Estado e da família, com aplicação mínima de recursos), cultura, desporto, ciência e tecnologia, comunicação social, meio ambiente (art. 225 — direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida), família, criança, adolescente, jovem e idoso (arts. 226-230 — proteção integral e prioridade absoluta da criança/adolescente, art. 227), e os índios (arts. 231-232). É um título que reúne os direitos prestacionais (sociais) do Estado brasileiro."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"A previdência social, a assistência social e a saúde, integrantes da seguridade social, são prestadas independentemente de contribuição do beneficiário.\" — ERRADO. Saúde e assistência social independem de contribuição, mas a previdência social tem caráter contributivo e filiação obrigatória (art. 201). Confundir esse ponto é a pegadinha mais frequente do tema seguridade.",
+      "pontos_chave": [
+        "Ordem social: Título VIII (arts. 193 a 232); base no primado do trabalho.",
+        "Seguridade social (art. 194) = saúde + previdência + assistência (tripé).",
+        "Previdência: contributiva e de filiação obrigatória; saúde e assistência: independem de contribuição.",
+        "Regra da contrapartida (art. 195, §5º): sem fonte de custeio, não se cria/majora benefício.",
+        "EC 103/2019 instituiu idade mínima no RGPS: 65 anos (h) e 62 anos (m), com tempo mínimo (20/15 anos).",
+        "Cálculo: média de 100% dos salários; coeficiente de 60% aos 20 anos + 2 p.p. por ano excedente.",
+        "Direito adquirido preservado e regras de transição (pontos, pedágio 50%/100%).",
+        "EC 103 atingiu diretamente só a União; Estados/Municípios dependem de lei própria para seus RPPS."
+      ],
+      "dica_prova": "A pegadinha número 1 é tentar igualar previdência a saúde/assistência quanto à contribuição — só a previdência é contributiva e obrigatória. A Cebraspe também explora a regra da contrapartida (art. 195, §5º) e a universalidade da saúde (independe de contribuição, art. 196). Sobre a EC 103, cuidado: a reforma não revogou direitos já adquiridos e não se aplicou automaticamente a Estados e Municípios. Memorize as idades mínimas do RGPS (65 homem / 62 mulher) — costumam inverter os números ou suprimir a idade mínima alegando que basta o tempo de contribuição (errado após a reforma)."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Estado de defesa, de sítio e segurança pública",
+      "intro": "O Título V da CF/88 trata da Defesa do Estado e das Instituições Democráticas. Nele se insere o chamado sistema constitucional de crises, composto pelo estado de defesa (art. 136) e pelo estado de sítio (arts. 137 a 139), que são mecanismos extraordinários e temporários de restrição de direitos para preservar ou restabelecer a ordem em situações de grave anormalidade. Esses institutos regem-se pelos princípios da necessidade (a medida deve ser indispensável) e da temporariedade (têm prazo certo).\n\nO mesmo Título disciplina ainda as Forças Armadas (arts. 142-143) e a segurança pública (art. 144), esta última um capítulo de altíssima incidência em provas pela enumeração taxativa dos órgãos policiais.",
+      "secoes": [
+        {
+          "h": "Estado de defesa (art. 136)",
+          "p": "É decretado pelo Presidente da República, ouvidos o Conselho da República e o Conselho de Defesa Nacional (órgãos meramente consultivos — o Presidente não está vinculado aos pareceres), para preservar ou prontamente restabelecer, em locais restritos e determinados, a ordem pública ou a paz social ameaçadas por grave e iminente instabilidade institucional ou atingidas por calamidades naturais de grandes proporções.\n\nO decreto determinará o tempo de duração (máximo de 30 dias, prorrogável uma vez por igual período) e indicará as medidas coercitivas, que podem restringir os direitos de reunião, sigilo de correspondência e sigilo das comunicações telegráficas e telefônicas. O CONTROLE POLÍTICO é POSTERIOR: o Presidente decreta primeiro e, dentro de 24 horas, submete o ato ao Congresso Nacional, que decide por maioria absoluta em até 10 dias; se rejeitado, cessa imediatamente o estado de defesa."
+        },
+        {
+          "h": "Estado de sítio (arts. 137 a 139)",
+          "p": "É mais grave que o estado de defesa. O Presidente da República, também ouvidos os Conselhos da República e de Defesa Nacional, SOLICITA AUTORIZAÇÃO ao Congresso Nacional para decretá-lo — aqui o controle político é PRÉVIO (autorização por maioria absoluta antes da decretação). Cabe em duas hipóteses (art. 137): I - comoção grave de repercussão nacional ou ineficácia de medida tomada durante o estado de defesa; II - declaração de estado de guerra ou resposta a agressão armada estrangeira.\n\nO prazo varia conforme a hipótese: no caso do inciso I, cada decretação não pode exceder 30 dias, prorrogável por igual período; no caso do inciso II (guerra/agressão estrangeira), pode durar por todo o tempo que perdurar. Durante o estado de sítio do inciso I, o art. 139 autoriza medidas mais severas: obrigação de permanência em localidade determinada, detenção em edifício não destinado a réus, restrições à inviolabilidade da correspondência e das comunicações, suspensão da liberdade de reunião, busca e apreensão em domicílio, intervenção nas empresas de serviços públicos e requisição de bens."
+        },
+        {
+          "h": "Garantias e controles do sistema de crises",
+          "p": "Há salvaguardas importantes: durante a vigência do estado de defesa ou de sítio, a Constituição NÃO pode ser emendada (limitação circunstancial ao poder de reforma, art. 60, §1º). A imunidade dos parlamentares subsiste, só podendo ser suspensa pelo voto de 2/3 dos membros da Casa respectiva, e apenas quanto a atos praticados fora do Congresso incompatíveis com a execução da medida (art. 53, §8º). Os controles são: político (Congresso Nacional, prévio no sítio e posterior no estado de defesa, com mesa que designa comissão de acompanhamento), jurisdicional (o Judiciário aprecia eventuais ilegalidades e abusos) e a responsabilização posterior dos executores por excessos. Cessado o estado de defesa ou de sítio, cessam também seus efeitos, sem prejuízo da responsabilidade pelos ilícitos cometidos (art. 141)."
+        },
+        {
+          "h": "Segurança pública (art. 144)",
+          "p": "A segurança pública é dever do Estado, direito e responsabilidade de todos, exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. O rol de órgãos do art. 144 é TAXATIVO: I - polícia federal; II - polícia rodoviária federal; III - polícia ferroviária federal; IV - polícias civis; V - polícias militares e corpos de bombeiros militares; e VI - polícias penais (federal, estaduais e distrital, incluídas pela EC 104/2019).\n\nResumo de atribuições: a Polícia Federal exerce, com exclusividade, as funções de polícia judiciária da União (apura infrações penais contra a ordem política e social, ou em detrimento de bens/serviços/interesses da União; reprime tráfico ilícito e contrabando interestadual/internacional; polícia marítima, aeroportuária e de fronteiras). A polícia rodoviária federal patrulha as rodovias federais; a ferroviária federal, as ferrovias federais. As polícias civis (dirigidas por delegados de carreira) exercem a polícia judiciária e a apuração de infrações penais estaduais, salvo as militares. As polícias militares fazem o policiamento ostensivo e a preservação da ordem pública; os corpos de bombeiros militares executam atividades de defesa civil. As polícias penais cuidam da segurança dos estabelecimentos penais."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"O estado de defesa é decretado pelo Presidente da República após autorização do Congresso Nacional, ao passo que o estado de sítio prescinde de manifestação do Legislativo.\" — ERRADO, está invertido. No estado de DEFESA o controle do Congresso é POSTERIOR (decreta primeiro, submete em 24h). No estado de SÍTIO há SOLICITAÇÃO DE AUTORIZAÇÃO PRÉVIA ao Congresso. A inversão prévio/posterior é a pegadinha clássica do tema.",
+      "pontos_chave": [
+        "Sistema de crises: estado de defesa (art. 136) e estado de sítio (arts. 137-139).",
+        "Estado de defesa: controle do Congresso POSTERIOR (decreta e submete em 24h); até 30 dias, prorrogável 1 vez.",
+        "Estado de sítio: autorização PRÉVIA do Congresso (maioria absoluta); cabe em comoção grave/ineficácia ou guerra.",
+        "Conselho da República e Conselho de Defesa Nacional são apenas consultivos.",
+        "Durante estado de defesa/sítio NÃO se pode emendar a Constituição (art. 60, §1º).",
+        "Segurança pública (art. 144): rol TAXATIVO de órgãos policiais.",
+        "EC 104/2019 incluiu as polícias penais (federal, estaduais e distrital) no art. 144.",
+        "Polícia Federal exerce com exclusividade a polícia judiciária da União."
+      ],
+      "dica_prova": "A pegadinha mestra é trocar o momento do controle: defesa = posterior (24h); sítio = prévio (autorização). Decore os prazos: estado de defesa até 30 dias prorrogável uma vez; sítio do inciso I até 30 dias prorrogável; sítio por guerra/agressão dura o tempo do conflito. No art. 144, a Cebraspe inventa órgãos fora do rol (ex.: 'guarda municipal' como órgão de segurança pública do art. 144 — as guardas municipais são mencionadas no §8º, mas não integram o rol taxativo dos incisos I a VI) ou troca atribuições entre polícias. Lembre que os Conselhos são apenas consultivos (não vinculam o Presidente) e que a CF não pode ser emendada durante a vigência desses estados."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Populações indígenas e quilombolas",
+      "intro": "A CF/88 representou uma ruptura paradigmática no tratamento dos povos indígenas: abandonou o paradigma integracionista/assimilacionista (que via o índio como sujeito em transição até se incorporar à 'comunhão nacional') e adotou o paradigma do reconhecimento e proteção da diversidade cultural. Os direitos indígenas estão no Capítulo VIII do Título VIII (arts. 231 e 232).\n\nOs direitos das comunidades remanescentes de quilombos, por sua vez, têm sede no Ato das Disposições Constitucionais Transitórias (ADCT), especialmente o art. 68, além do amparo cultural dos arts. 215 e 216. São direitos de comunidades tradicionais, ligados à identidade étnico-cultural e ao território.",
+      "secoes": [
+        {
+          "h": "Direitos dos índios (art. 231)",
+          "p": "O art. 231 reconhece aos índios sua organização social, costumes, línguas, crenças e tradições, e os DIREITOS ORIGINÁRIOS sobre as terras que tradicionalmente ocupam — \"originários\" significa que esses direitos são anteriores e independentes de qualquer reconhecimento estatal (teoria do indigenato); a demarcação é meramente declaratória, não constitutiva. Compete à União demarcar essas terras, protegê-las e fazer respeitar todos os seus bens.\n\nO §1º define terras tradicionalmente ocupadas como as habitadas em caráter permanente, utilizadas para suas atividades produtivas, imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar e à reprodução física e cultural, segundo seus usos, costumes e tradições. Essas terras destinam-se à posse permanente dos índios, cabendo-lhes o usufruto exclusivo das riquezas do solo, dos rios e dos lagos (§2º). São terras de propriedade da UNIÃO (art. 20, XI), inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis (§4º). É vedada a remoção dos grupos indígenas de suas terras, salvo, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia, ou no interesse da soberania do País (§5º). São nulos os atos que tenham por objeto a ocupação, o domínio e a posse dessas terras (§6º)."
+        },
+        {
+          "h": "Aproveitamento de recursos e capacidade processual",
+          "p": "O aproveitamento dos recursos hídricos (incluindo potenciais energéticos) e a pesquisa/lavra de riquezas minerais em terras indígenas só podem ser efetivados com autorização do Congresso Nacional, ouvidas as comunidades afetadas, ficando-lhes assegurada participação nos resultados da lavra (art. 231, §3º).\n\nO art. 232 confere capacidade processual própria: os índios, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, intervindo o Ministério Público em todos os atos do processo. Isso representou a superação da antiga tutela orfanológica/incapacidade civil presumida do Estatuto do Índio (Lei 6.001/73), reconhecendo-se a capacidade postulatória das comunidades."
+        },
+        {
+          "h": "Marco temporal: a posição do STF",
+          "p": "Um dos temas mais relevantes e atuais é a chamada tese do marco temporal, segundo a qual só seriam reconhecidas como terras indígenas aquelas ocupadas (ou sob disputa física/jurídica comprovada) na data da promulgação da CF/88 (05/10/1988). No julgamento do RE 1.017.365 (Tema 1.031 da repercussão geral), em 2023, o STF REJEITOU a tese do marco temporal, firmando que a proteção constitucional aos direitos originários sobre as terras tradicionalmente ocupadas independe da existência de um marco temporal de ocupação na data da promulgação da Constituição. Posteriormente foi editada lei tratando do tema (Lei 14.701/2023), cuja constitucionalidade foi objeto de discussão no STF (ADIs/ADC), prevalecendo o entendimento de que a fixação do marco temporal é inconstitucional. Para prova, o ponto seguro é: o STF rejeitou o marco temporal."
+        },
+        {
+          "h": "Comunidades remanescentes de quilombos",
+          "p": "O art. 68 do ADCT estabelece que aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos. Note a diferença em relação aos índios: as terras quilombolas são de PROPRIEDADE dos próprios quilombolas (titulada pelo Estado), ao passo que as terras indígenas são de propriedade da UNIÃO, com posse e usufruto dos índios.\n\nO Decreto 4.887/2003 regulamentou o procedimento de identificação, reconhecimento, delimitação, demarcação e titulação das terras quilombolas, adotando o critério da AUTOATRIBUIÇÃO (autoidentificação) da comunidade como remanescente de quilombo. No julgamento da ADI 3.239 (2018), o STF declarou CONSTITUCIONAL o Decreto 4.887/2003, validando o critério da autoatribuição e rejeitando, também aqui, a aplicação de marco temporal às comunidades quilombolas. Os arts. 215, §1º, e 216, §5º, da CF reforçam a proteção das manifestações culturais afro-brasileiras e tombam todos os documentos e sítios detentores de reminiscências históricas dos antigos quilombos."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"As terras tradicionalmente ocupadas pelos índios integram o patrimônio da União, sendo asseguradas aos indígenas a posse permanente e o usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes.\" — CERTO. Reflete o art. 20, XI, c/c art. 231, §2º. Pegadinha correlata: afirmar que a propriedade das terras indígenas pertence às próprias comunidades — ERRADO; a propriedade é da União, cabendo aos índios a posse permanente e o usufruto. Já nas terras QUILOMBOLAS a propriedade é da comunidade (art. 68 do ADCT).",
+      "pontos_chave": [
+        "Direitos indígenas: arts. 231 e 232 da CF; superação do paradigma integracionista.",
+        "Direitos sobre as terras são ORIGINÁRIOS (anteriores ao Estado); demarcação é declaratória.",
+        "Terras indígenas são de propriedade da UNIÃO (art. 20, XI); índios têm posse permanente e usufruto exclusivo.",
+        "Terras indígenas: inalienáveis, indisponíveis e os direitos sobre elas, imprescritíveis (art. 231, §4º).",
+        "Recursos minerais/hídricos: dependem de autorização do Congresso, ouvidas as comunidades (art. 231, §3º).",
+        "Art. 232: índios e comunidades têm capacidade processual própria; MP intervém em todos os atos.",
+        "Marco temporal: REJEITADO pelo STF (RE 1.017.365, Tema 1.031, 2023).",
+        "Quilombolas (art. 68 do ADCT): propriedade definitiva DA COMUNIDADE; Decreto 4.887/2003 (autoatribuição) declarado constitucional na ADI 3.239."
+      ],
+      "dica_prova": "A confusão que a Cebraspe mais explora é a titularidade das terras: indígenas = propriedade da UNIÃO (posse e usufruto dos índios); quilombolas = propriedade DA PRÓPRIA COMUNIDADE. Decore que os direitos indígenas sobre as terras são 'originários' e que a demarcação apenas declara (não cria) o direito. Sobre temas atuais, lembre que o STF REJEITOU o marco temporal (tanto para indígenas, RE 1.017.365, quanto, na linha da ADI 3.239, para quilombolas) e considerou constitucional o critério da autoatribuição (Decreto 4.887/2003). Cuidado com itens que afirmem que a remoção de indígenas é livremente possível — ela é vedada, salvo as exceções do art. 231, §5º, com referendo do Congresso."
+    }
+  ]
+}

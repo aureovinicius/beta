@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backup e recuperação — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/tecnologia-da-informacao.html">💻 Tecnologias da Informação</a> ›
+    <span>Backup e recuperação</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Administração de dados</p>
+    <h1>Backup e recuperação</h1>
+    
+    <p>Backup (cópia de segurança) e recovery (recuperação) constituem a estratégia de continuidade dos dados, assegurando que informações fiscais possam ser restauradas após falhas de hardware, erros humanos, corrupção lógica, desastres ou ataques (como ransomware). Para o fisco, essa garantia também tem dimensão de auditabilidade: a integridade temporal dos dados precisa ser comprovável.</p><p>A recuperação de bancos de dados apoia-se em dois recursos centrais: as cópias de backup e os logs de transações (registro sequencial de todas as alterações). Com eles, o SGBD reconstrói um estado consistente após uma falha, refazendo (REDO) transações confirmadas e desfazendo (UNDO) as não confirmadas.</p><p>O planejamento define dois parâmetros-chave de negócio: RPO (quanto de dado se aceita perder) e RTO (em quanto tempo se precisa voltar a operar) — conceitos cada vez mais cobrados em provas de TI para a área fiscal.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Tipos de backup: completo, incremental e diferencial</h2><p>Backup completo (full) copia todos os dados; é a base e o mais demorado/volumoso, mas o mais simples de restaurar. Backup incremental copia apenas o que mudou desde o ÚLTIMO backup (full ou incremental anterior) — econômico em espaço/tempo de cópia, porém a restauração exige o full mais TODOS os incrementais na sequência. Backup diferencial copia tudo o que mudou desde o último backup COMPLETO — ocupa mais espaço que o incremental, mas a restauração exige apenas o full + o último diferencial.</p><p>Pegadinha clássica: incremental restaura a partir do último backup (qualquer um); diferencial restaura a partir do último FULL. Não confunda.</p></section><section class="amp-sec"><h2>Backup a frio e a quente; lógico e físico</h2><p>Backup a frio (offline/cold) é feito com o banco parado — simples e consistente, mas indisponibiliza o serviço. Backup a quente (online/hot) ocorre com o banco em operação, usando logs para garantir consistência — essencial para sistemas 24x7 como os da Receita.</p><p>Quanto à forma: backup físico copia os arquivos do banco (datafiles, logs); backup lógico exporta os dados em comandos/objetos (ex.: dump SQL), sendo mais portável entre versões, porém geralmente mais lento.</p></section><section class="amp-sec"><h2>Logs de transação e recuperação (REDO/UNDO)</h2><p>O log de transações (write-ahead logging — WAL) registra cada alteração ANTES de aplicá-la aos dados, permitindo recuperação. Após uma falha, o processo de recovery faz REDO das transações já confirmadas (commit registrado no log) cujas alterações talvez não tenham chegado ao disco, e UNDO (rollback) das transações que estavam em andamento sem commit.</p><p>Checkpoints são marcos periódicos que sincronizam memória e disco, reduzindo o trabalho de recuperação. Combinando o último backup com os logs subsequentes, é possível a recuperação ponto-no-tempo (point-in-time recovery).</p></section><section class="amp-sec"><h2>RPO, RTO e a regra 3-2-1</h2><p>RPO (Recovery Point Objective) é a perda máxima de dados tolerável, medida em tempo (ex.: 15 minutos) — define a frequência dos backups/log shipping. RTO (Recovery Time Objective) é o tempo máximo aceitável para restaurar o serviço — orienta a infraestrutura de recuperação.</p><p>A boa prática 3-2-1 recomenda: 3 cópias dos dados, em 2 mídias/tecnologias diferentes, com 1 cópia off-site (fora do local). Testes periódicos de restauração são obrigatórios: um backup que nunca foi testado não é um backup confiável.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Política da SEFAZ-GO: full aos domingos e incrementais diários de segunda a sábado, com RPO de 1 dia e RTO de 4 horas. Se ocorrer corrupção na quinta-feira, a restauração exige o full de domingo + os incrementais de segunda, terça e quarta, na ordem. Se a política fosse diferencial, bastaria o full de domingo + o diferencial de quarta (mais simples de restaurar, embora os arquivos diferenciais cresçam dia a dia).</p><p>Questão típica: &#x27;O backup incremental copia todas as alterações ocorridas desde o último backup completo.&#x27; — ERRADO; isso descreve o backup DIFERENCIAL. O incremental copia o que mudou desde o último backup, seja ele completo ou incremental.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A confusão incremental x diferencial é a campeã de erros: incremental = &#x27;desde o último backup&#x27;; diferencial = &#x27;desde o último FULL&#x27;. Decore também RPO (ponto/dado perdido) versus RTO (tempo de retorno) — bancas trocam os dois. E lembre que durabilidade do ACID e os logs de transação andam juntos: é o log/WAL que garante a recuperação e a persistência após o commit.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s0.html">← Integridade e segurança</a><a class="pager next" href="t2-s0.html">Esquema estrela e OLAP →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Full: copia tudo; base de qualquer estratégia e restauração mais simples.</li><li>Incremental: copia desde o ÚLTIMO backup; restaura full + todos os incrementais.</li><li>Diferencial: copia desde o último FULL; restaura full + apenas o último diferencial.</li><li>Backup a quente (online) usa logs; a frio (offline) exige banco parado.</li><li>Recovery: REDO (refaz confirmadas) e UNDO (desfaz não confirmadas) via log/WAL.</li><li>RPO = perda máxima de dados; RTO = tempo máximo de indisponibilidade.</li><li>Regra 3-2-1; e sempre TESTE a restauração dos backups.</li></ul></div>
+      <a class="back" href="../../disciplinas/tecnologia-da-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

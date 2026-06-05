@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firewall, IDS/IPS, SIEM e proxy — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/seguranca-informacao.html">🔐 Segurança da Informação</a> ›
+    <span>Firewall, IDS/IPS, SIEM e proxy</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Soluções de segurança</p>
+    <h1>Firewall, IDS/IPS, SIEM e proxy</h1>
+    
+    <p>A defesa em profundidade (defense in depth) pressupõe múltiplas camadas de controle, de modo que a falha de uma não comprometa todo o ambiente. As soluções clássicas de perímetro e monitoramento — firewall, IDS/IPS, SIEM e proxy — cumprem papéis complementares e são frequentemente confundidas entre si nas provas.</p><p>A distinção essencial gira em torno de duas perguntas: o controle BLOQUEIA ou apenas DETECTA/REGISTRA? E em qual camada ele opera (rede/transporte x aplicação)? Responder corretamente a isso resolve a maioria dos itens.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Firewall e suas gerações</h2><p>Firewall controla o tráfego entre redes com base em regras (política de filtragem). Tipos: filtro de pacotes (stateless — analisa cabeçalhos IP/porta isoladamente, camadas 3/4); stateful inspection (mantém tabela de estado das conexões, mais seguro); firewall de aplicação/proxy (camada 7); e NGFW (Next-Generation Firewall), que agrega inspeção profunda (DPI), IPS, controle por aplicação/usuário e inteligência de ameaças. Caso específico: WAF (Web Application Firewall) protege aplicações web filtrando requisições HTTP/HTTPS (ataca SQLi, XSS — OWASP), operando na camada de aplicação. O firewall tradicional NÃO entende, por si, o conteúdo de aplicações web — essa é função do WAF.</p></section><section class="amp-sec"><h2>IDS x IPS: detectar x prevenir</h2><p>IDS (Intrusion Detection System): MONITORA e DETECTA atividades suspeitas, gerando alertas — é passivo, normalmente fora do caminho do tráfego (out-of-band, via espelhamento de porta). NÃO bloqueia. IPS (Intrusion Prevention System): além de detectar, BLOQUEIA/previne o ataque em tempo real — é ativo, fica inline (no caminho do tráfego). Métodos de detecção: por assinatura (compara com padrões conhecidos — eficaz contra ameaças conhecidas, mas cego a zero-day) e por anomalia/comportamento (estabelece uma linha de base e sinaliza desvios — pode detectar novidades, mas gera mais falsos positivos). Podem ser baseados em rede (NIDS/NIPS) ou em host (HIDS/HIPS).</p></section><section class="amp-sec"><h2>Proxy</h2><p>Proxy é um intermediário entre cliente e servidor. Forward proxy: representa os clientes ao acessar a internet — provê controle de navegação, filtragem de conteúdo, cache e anonimização da origem. Reverse proxy: fica à frente de servidores, recebendo as requisições externas e distribuindo-as (balanceamento, cache, terminação TLS, e frequentemente hospedando o WAF). O proxy pode atuar na camada de aplicação, inspecionando o protocolo (HTTP), diferentemente do firewall de pacotes.</p></section><section class="amp-sec"><h2>SIEM (e SOAR)</h2><p>SIEM (Security Information and Event Management) centraliza, correlaciona e analisa logs e eventos de múltiplas fontes (firewalls, IDS/IPS, servidores, aplicações) para detectar incidentes, gerar alertas e apoiar a resposta e a conformidade. Combina SIM (gestão de informações/armazenamento e relatórios) e SEM (gestão de eventos em tempo real e correlação). O SIEM NÃO bloqueia ataques por si — ele detecta e alerta; a automação da resposta cabe ao SOAR (Security Orchestration, Automation and Response), que orquestra playbooks. Em conjunto, sustentam o SOC (Security Operations Center).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;O IDS, ao identificar tráfego malicioso, bloqueia automaticamente a conexão, impedindo a continuidade do ataque.&#x27; — ERRADO. Quem BLOQUEIA é o IPS (inline, ativo); o IDS apenas DETECTA e ALERTA (passivo). Em uma auditoria do TCU sobre o SOC de um órgão, a equipe avalia se os logs de firewall, IDS/IPS e aplicações são enviados a um SIEM com correlação e retenção adequada (atendendo inclusive requisitos de rastreabilidade e LGPD), e se há IPS inline nos pontos críticos, não apenas IDS passivo.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha campeã é atribuir bloqueio ao IDS (é detecção; bloqueio é IPS). Outra é dizer que o SIEM &#x27;bloqueia ataques&#x27; — ele detecta/correlaciona; bloqueio é firewall/IPS, automação é SOAR. Cuidado também ao confundir firewall comum com WAF: WAF entende HTTP e protege contra SQLi/XSS. E &#x27;detecção por assinatura detecta zero-day&#x27; é falso — assinatura só pega o já conhecido.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s1.html">← Ataques a redes e aplicações</a><a class="pager next" href="t2-s1.html">Controles para aplicações web →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Firewall filtra tráfego por regras; stateful inspeciona estado de conexões; NGFW agrega IPS/DPI.</li><li>WAF protege aplicações web (HTTP), na camada 7 — diferente do firewall de pacotes.</li><li>IDS detecta e alerta (passivo); IPS detecta e BLOQUEIA (ativo, inline).</li><li>Detecção por assinatura pega o conhecido; por anomalia pode pegar zero-day (mais falsos positivos).</li><li>Proxy é intermediário; forward (clientes) x reverse (servidores).</li><li>SIEM correlaciona logs e alerta — NÃO bloqueia; o SOAR automatiza a resposta.</li><li>Defesa em profundidade combina as camadas; nenhuma solução isolada é suficiente.</li></ul></div>
+      <a class="back" href="../../disciplinas/seguranca-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

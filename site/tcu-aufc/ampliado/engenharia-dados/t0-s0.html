@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo relacional e chaves — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>Modelo relacional e chaves</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Bancos de dados</p>
+    <h1>Modelo relacional e chaves</h1>
+    <div class="reuse-banner">♻ Conteúdo compartilhado com o concurso <strong>Auditor-Fiscal da Receita Estadual de Goiás</strong> — mesmo assunto cobrado em ambos.</div>
+    <p>Um banco de dados é uma coleção organizada e persistente de dados inter-relacionados, gerenciada por um software chamado SGBD (Sistema Gerenciador de Banco de Dados), responsável por armazenamento, acesso concorrente, segurança e integridade. O SGBD cria uma camada de abstração entre os dados físicos (arquivos em disco) e o usuário/aplicação, evitando a redundância descontrolada e a dependência dos programas em relação à estrutura física dos dados.</p><p>O modelo relacional, proposto por Edgar F. Codd (IBM, 1970), é o paradigma dominante e fundamenta-se na teoria dos conjuntos e na lógica de predicados. Nele, os dados são organizados em relações (tabelas bidimensionais), e os relacionamentos entre os dados são representados por meio de valores (chaves), e não por ponteiros físicos. Esse é o ponto que mais cai em prova: no modelo relacional, ligações entre tabelas se fazem por valores de chaves, não por endereços de memória.</p><p>Para o Auditor-Fiscal, dominar tabelas e chaves é a base para consultar dados de NF-e, EFD/SPED, cadastro de contribuintes e cruzamentos fiscais, pois toda a inteligência fiscal repousa sobre bases relacionais bem modeladas.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Terminologia: relação, tupla, atributo, domínio</h2><p>Na linguagem formal do modelo relacional, uma tabela é uma relação; cada linha é uma tupla (registro); cada coluna é um atributo (campo); e o conjunto de valores permitidos para um atributo é o domínio (ex.: o domínio de um CPF são strings de 11 dígitos numéricos).</p><p>Dois conceitos derivados são o grau (cardinalidade de atributos = número de colunas) e a cardinalidade (número de tuplas = número de linhas). Cuidado com a pegadinha: grau é sobre colunas, cardinalidade é sobre linhas. Uma propriedade essencial é que, formalmente, uma relação é um conjunto de tuplas — logo não admite tuplas duplicadas e a ordem das linhas e colunas é irrelevante.</p></section><section class="amp-sec"><h2>Chave primária (PK) e chave candidata</h2><p>Uma superchave é qualquer conjunto de atributos que identifica unicamente uma tupla. Uma chave candidata é uma superchave mínima (sem atributos supérfluos). Dentre as chaves candidatas, o projetista escolhe uma como chave primária (PK — Primary Key); as demais tornam-se chaves alternativas.</p><p>A PK tem duas restrições inseparáveis: unicidade (não há valores repetidos) e integridade de entidade — nenhum atributo da PK pode ser NULL. Por isso, uma coluna que admite NULL nunca pode ser, sozinha, chave primária. Uma PK formada por mais de um atributo é chamada chave composta (ou concatenada).</p></section><section class="amp-sec"><h2>Chave estrangeira (FK) e integridade referencial</h2><p>A chave estrangeira (FK — Foreign Key) é um atributo (ou conjunto) de uma tabela que referencia a chave primária de outra (ou da mesma) tabela. Ela materializa os relacionamentos no modelo relacional e impõe a integridade referencial: todo valor de FK deve corresponder a um valor existente de PK na tabela referenciada, ou ser NULL (quando permitido).</p><p>A integridade referencial é mantida por ações de propagação em UPDATE/DELETE, definidas no CREATE TABLE: ON DELETE CASCADE (apaga as filhas), SET NULL (anula a FK), RESTRICT/NO ACTION (proíbe a operação se houver filhas). Pegadinha clássica: a FK pode aceitar valores NULL e pode haver valores repetidos de FK (relacionamento 1:N), o que NÃO ocorre com a PK.</p></section><section class="amp-sec"><h2>Regras de integridade e o catálogo</h2><p>O modelo relacional define duas integridades fundamentais: a integridade de entidade (PK não nula e única) e a integridade referencial (FK consistente). Há ainda a integridade de domínio (valores dentro do domínio/tipo, garantida por CHECK, NOT NULL, DEFAULT) e integridades definidas pelo usuário (regras de negócio).</p><p>As definições de tabelas, colunas, chaves e restrições ficam no dicionário de dados (catálogo/metadados), que é a &#x27;tabela das tabelas&#x27; consultada pelo SGBD para validar operações.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Considere o cadastro de contribuintes do ICMS. Tabela CONTRIBUINTE(insc_estadual PK, cnpj, razao_social, municipio) e tabela NFE(chave_acesso PK, insc_emitente FK -&gt; CONTRIBUINTE, valor, data). Aqui insc_emitente é uma FK: toda NF-e deve apontar para um contribuinte cadastrado (integridade referencial). Se um auditor tentar excluir um contribuinte que já emitiu notas, uma restrição ON DELETE RESTRICT bloqueará a operação, preservando o histórico fiscal.</p><p>Questão típica (estilo FGV/Cebraspe): &#x27;Em um banco relacional, uma chave estrangeira pode assumir valor nulo.&#x27; — CERTO, desde que a coluna permita NULL; isso representa um relacionamento opcional. Já a afirmação &#x27;a chave primária pode conter valores nulos&#x27; é ERRADA, por violar a integridade de entidade.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha mais frequente troca as propriedades de PK e FK: lembre que só a FK admite NULL e repetição. Outra armadilha confunde grau (colunas) com cardinalidade (linhas). E desconfie de afirmações que dizem que o modelo relacional usa &#x27;ponteiros&#x27; ou &#x27;endereços&#x27; para relacionar tabelas — isso é característica de modelos de rede/hierárquico, não do relacional.</p></section>
+      <div class="pager-row"><span></span><a class="pager next" href="t0-s1.html">SQL (DDL, DML, DCL) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Modelo relacional liga tabelas por VALORES (chaves), não por ponteiros físicos.</li><li>Grau = nº de colunas (atributos); cardinalidade = nº de linhas (tuplas).</li><li>PK: única e NÃO nula (integridade de entidade). Chave candidata mínima vira PK.</li><li>FK referencia PK de outra tabela; garante integridade referencial.</li><li>FK PODE ser nula e PODE repetir; PK não pode nenhum dos dois.</li><li>Ações referenciais: CASCADE, SET NULL, RESTRICT/NO ACTION.</li><li>Relação é um conjunto: sem tuplas duplicadas e ordem das linhas irrelevante.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

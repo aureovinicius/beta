@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MLOps e deploy de modelos — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/inteligencia-artificial.html">🤖 Inteligência Artificial</a> ›
+    <span>MLOps e deploy de modelos</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Engenharia e ética de IA</p>
+    <h1>MLOps e deploy de modelos</h1>
+    
+    <p>MLOps (Machine Learning Operations) é a disciplina que aplica os princípios de DevOps ao ciclo de vida de modelos de machine learning, integrando desenvolvimento, operação e monitoramento de forma contínua. O objetivo é levar modelos do experimento para a produção de maneira confiável, reproduzível, escalável e auditável - e mantê-los úteis ao longo do tempo.</p><p>Diferentemente do software tradicional, sistemas de ML têm três artefatos que evoluem: código, dados e modelo. Isso traz desafios próprios, como versionamento de dados e modelos, reprodutibilidade de experimentos, monitoramento de degradação por mudança nos dados (drift) e necessidade de retreinamento. MLOps organiza esse fluxo por meio de pipelines automatizados e práticas de CI/CD/CT (integração, entrega e treinamento contínuos).</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Ciclo de vida de um modelo</h2><p>O ciclo típico abrange: definição do problema e dos dados; coleta e preparação (feature engineering); experimentação e treinamento; avaliação; implantação (deploy); monitoramento; e retreinamento. É iterativo e contínuo, não linear.</p><p>MLOps automatiza esse ciclo com pipelines reproduzíveis, garantindo que cada etapa - da ingestão de dados ao deploy - possa ser executada de forma consistente e rastreável. Ferramentas comuns: MLflow (rastreamento de experimentos e registro de modelos), Kubeflow, Airflow, DVC (versionamento de dados) e TFX.</p></section><section class="amp-sec"><h2>Versionamento e reprodutibilidade</h2><p>Em ML, é necessário versionar não só o código, mas também os dados, os hiperparâmetros e os modelos resultantes. Sem isso, é impossível reproduzir um experimento ou auditar por que um modelo produziu certa decisão.</p><p>Um model registry (registro de modelos) cataloga versões, metadados, métricas e estágio (staging, produção). O rastreamento de experimentos (experiment tracking) registra cada execução com seus parâmetros e resultados. Essa rastreabilidade é fundamental para governança, auditabilidade e accountability dos sistemas de IA - aspectos diretamente relevantes ao controle externo.</p></section><section class="amp-sec"><h2>Deploy e integração com nuvem</h2><p>Há várias estratégias de implantação: como API REST/serviço online (inferência em tempo real, ex.: TensorFlow Serving, contêineres em Kubernetes), inferência em lote (batch) e em borda/edge (no dispositivo). Padrões de release como canary, blue-green e shadow deployment reduzem riscos ao colocar novos modelos em produção.</p><p>Provedores de nuvem oferecem plataformas gerenciadas de ML (ex.: AWS SageMaker, Google Vertex AI, Azure Machine Learning) que cobrem treinamento, registro, deploy e monitoramento. Contêineres (Docker) e orquestração (Kubernetes) são a base para empacotar e escalar modelos de forma portável.</p></section><section class="amp-sec"><h2>Monitoramento, drift e CI/CD/CT</h2><p>Após o deploy, é preciso monitorar latência, throughput, erros e, sobretudo, a qualidade das previsões. Dois fenômenos importantes: o data drift (mudança na distribuição dos dados de entrada) e o concept drift (mudança na relação entre entradas e saídas). Ambos degradam o desempenho e disparam a necessidade de retreinamento.</p><p>MLOps amplia o CI/CD do DevOps com o CT (Continuous Training): além de integração e entrega contínuas, há retreinamento contínuo automatizado quando o monitoramento detecta degradação ou chegam novos dados, fechando o ciclo de melhoria.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Auditando um sistema de IA do governo que pontua risco de crédito ou fraude, o auditor verifica se há versionamento de dados e modelos, registro de experimentos e monitoramento de drift. A ausência de rastreabilidade (não saber qual versão do modelo gerou determinada decisão) é um achado de auditoria relevante para accountability. Item Cebraspe: &#x27;O concept drift ocorre quando a relação estatística entre as variáveis de entrada e a variável-alvo se altera ao longo do tempo, podendo degradar o desempenho de um modelo em produção.&#x27; Afirmativa CERTA.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe associa MLOps a DevOps e cobra a distinção entre data drift e concept drift - não os confunda. Pegadinha: tratar o deploy como etapa final e estática; em ML, monitoramento e retreinamento são contínuos justamente por causa do drift. Lembre que MLOps versiona dados e modelos (não só código), o que é peça-chave para a auditabilidade exigida em sistemas públicos de IA.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t2-s1.html">← IA generativa</a><a class="pager next" href="t3-s1.html">Ética, viés e LGPD →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>MLOps aplica princípios de DevOps ao ciclo de vida de modelos de ML (código + dados + modelo).</li><li>Ciclo: dados, treinamento, avaliação, deploy, monitoramento e retreinamento - contínuo e iterativo.</li><li>Versionamento de dados/modelos e model registry garantem reprodutibilidade e auditabilidade.</li><li>Estratégias de deploy: online (API), batch e edge; releases canary, blue-green e shadow.</li><li>Data drift (mudança nos dados de entrada) e concept drift (mudança na relação entrada-saída) degradam modelos.</li><li>MLOps adiciona o CT (Continuous Training) ao CI/CD para retreinamento automatizado.</li></ul></div>
+      <a class="back" href="../../disciplinas/inteligencia-artificial.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

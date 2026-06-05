@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testes automatizados e qualidade — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Testes automatizados e qualidade</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Testes e desenvolvimento seguro</p>
+    <h1>Testes automatizados e qualidade</h1>
+    
+    <p>Testes automatizados são programas que verificam, de forma repetível e rápida, se o software se comporta conforme o esperado. São pilar da CI/CD: a cada mudança, a esteira executa os testes e barra regressões. A qualidade de código, por sua vez, é avaliada por métricas e análise estática, que detectam defeitos, vulnerabilidades e dívida técnica sem executar o programa.</p><p>Para o auditor de TI, a existência, cobertura e automação de testes, bem como a análise estática (ex.: SonarQube) nas esteiras, são evidências objetivas de maturidade e controle de qualidade do desenvolvimento de software.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Níveis e pirâmide de testes</h2><p>Testes unitários verificam a menor unidade de código (método/classe) isoladamente, usando dublês de teste (mocks, stubs) para dependências — rápidos e numerosos. Testes de integração verificam a interação entre componentes (ex.: serviço com banco de dados). Testes de sistema/E2E (end-to-end) validam o fluxo completo pela perspectiva do usuário — lentos e frágeis. Testes de aceitação validam requisitos de negócio.</p><p>A Pirâmide de Testes (Mike Cohn) recomenda muitos testes unitários (base), menos de integração (meio) e poucos E2E (topo), pelo custo e velocidade. O &quot;antipadrão cone de sorvete&quot; (muitos E2E, poucos unitários) é lento e instável. Testes de contrato (ex.: Pact) verificam que provedor e consumidor de uma API respeitam um contrato — essenciais em microsserviços.</p></section><section class="amp-sec"><h2>Caixa-preta, caixa-branca e tipos não funcionais</h2><p>Quanto ao conhecimento da estrutura interna: caixa-preta (black-box) testa entradas/saídas sem ver o código (técnicas: partição de equivalência, análise de valor-limite, tabela de decisão); caixa-branca (white-box) baseia-se na estrutura interna (cobertura de comandos, de decisão/ramos, de caminhos); caixa-cinza combina ambos.</p><p>Testes não funcionais: desempenho/carga (JMeter, Gatling), estresse, segurança (DAST), usabilidade e compatibilidade. Testes de regressão reexecutam casos para garantir que mudanças não quebraram o que funcionava. Abordagens dirigidas por testes: TDD (Test-Driven Development — escreve-se o teste antes do código, ciclo red-green-refactor), BDD (comportamento, com Gherkin/Cucumber) e ATDD.</p></section><section class="amp-sec"><h2>Análise estática, cobertura e SonarQube</h2><p>Análise estática inspeciona o código-fonte sem executá-lo, detectando bugs, code smells, vulnerabilidades (SAST), violações de padrão e duplicação. SonarQube é a plataforma de referência: calcula métricas de qualidade, aplica Quality Gates (portões que reprovam o build se limiares não forem atendidos — ex.: cobertura mínima, zero vulnerabilidades novas) e mede a dívida técnica (esforço estimado para corrigir problemas).</p><p>Cobertura de código (code coverage) mede o percentual de código exercitado pelos testes (linhas, ramos, condições — ferramentas como JaCoCo em Java). Cuidado: alta cobertura não garante qualidade — pode-se cobrir código sem realmente verificar o comportamento (asserções fracas). Testes de mutação avaliam a qualidade dos próprios testes, introduzindo defeitos para ver se os testes os detectam.</p></section><section class="amp-sec"><h2>Ferramentas e integração na esteira</h2><p>Frameworks de teste: JUnit e Mockito (Java), além de TestNG; em outras linguagens, pytest, Jest etc. Testes de API: REST Assured, Postman/Newman. E2E web: Selenium, Cypress, Playwright. BDD: Cucumber. Performance: JMeter, Gatling.</p><p>Na esteira CI/CD, os testes e a análise estática rodam automaticamente a cada commit/PR; o Quality Gate do SonarQube pode bloquear o merge ou o deploy se a qualidade regredir. Essa automação cria evidência auditável e impõe controles objetivos de qualidade, alinhados a boas práticas de governança de TI e à melhoria contínua.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: a equipe reporta 90% de cobertura de testes como prova de qualidade. O auditor verifica o relatório do SonarQube/JaCoCo e constata que muitos testes não possuem asserções significativas (apenas executam o código). Conclusão: a métrica de cobertura, isoladamente, não evidencia qualidade — pode haver cobertura alta com baixa eficácia. Recomenda-se complementar com Quality Gates, revisão de asserções e, se possível, testes de mutação.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe adora afirmar que &quot;100% de cobertura garante ausência de defeitos&quot; (ERRADO — cobertura não mede a qualidade das asserções nem cobre todos os caminhos lógicos). Memorize a pirâmide (base = unitários) e não inverta. Cuidado com TDD: escreve-se o teste ANTES do código de produção. Distinga caixa-preta (sem ver código) de caixa-branca (com estrutura interna). E lembre que análise estática NÃO executa o programa (diferente de testes dinâmicos).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s1.html">← Docker e Kubernetes</a><a class="pager next" href="t5-s1.html">Desenvolvimento seguro (DevSecOps) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Pirâmide de testes: muitos unitários (base), menos integração, poucos E2E (topo); evitar o cone de sorvete.</li><li>Unitário isola a menor unidade com mocks/stubs; integração testa interação; E2E valida fluxo completo.</li><li>Caixa-preta (entradas/saídas) × caixa-branca (estrutura interna/cobertura); caixa-cinza combina.</li><li>Testes de contrato (Pact) são chave em microsserviços; testes de regressão evitam reintrodução de defeitos.</li><li>TDD escreve o teste antes do código (red-green-refactor); BDD usa Gherkin/Cucumber.</li><li>Análise estática (SAST) não executa o código; SonarQube aplica Quality Gates e mede dívida técnica.</li><li>Cobertura (JaCoCo) mede código exercitado, mas alta cobertura NÃO garante qualidade (asserções fracas).</li><li>Ferramentas: JUnit/Mockito, Selenium/Cypress, JMeter; testes e análise rodam na esteira CI/CD.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

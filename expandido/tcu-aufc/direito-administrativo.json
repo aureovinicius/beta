@@ -1,0 +1,261 @@
+{
+  "slug": "direito-administrativo",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Objeto, fontes e regime jurídico-administrativo",
+      "intro": "O Direito Administrativo é o ramo do direito público interno que disciplina a função administrativa do Estado, ou seja, o conjunto de órgãos, agentes, atividades e relações jurídicas voltados à concretização do interesse público, dentro da estrutura dos três Poderes. Seu objeto não se confunde com o de um único Poder: embora a função administrativa seja típica do Executivo, ela também é exercida atipicamente pelo Legislativo e pelo Judiciário (quando organizam seus serviços, contratam, nomeiam servidores etc.).\n\nO traço que define todo o ramo é o chamado regime jurídico-administrativo, expressão que designa o conjunto de prerrogativas e sujeições que diferenciam a atuação da Administração da atuação dos particulares. Esse regime se assenta em dois pilares apontados por Celso Antônio Bandeira de Mello: a supremacia do interesse público sobre o privado (que confere à Administração prerrogativas, como a autoexecutoriedade e a presunção de legitimidade dos atos) e a indisponibilidade do interesse público (que impõe sujeições, como a legalidade estrita, a licitação e o concurso público).\n\nPara o concurso de AUFC-TI do TCU (Cebraspe), é essencial dominar o conceito, o objeto e, sobretudo, as fontes do Direito Administrativo, tema que a banca explora com frequência, cobrando a distinção entre fontes primárias e secundárias e o papel da jurisprudência e dos costumes.",
+      "secoes": [
+        {
+          "h": "Conceito e objeto",
+          "p": "Não há definição legal de Direito Administrativo; o conceito é doutrinário. Predomina o critério funcional (ou da Administração Pública), segundo o qual o Direito Administrativo regula a função administrativa, independentemente do Poder que a exerça. Hely Lopes Meirelles o define como o conjunto harmônico de princípios jurídicos que regem os órgãos, os agentes e as atividades públicas tendentes a realizar concreta, direta e imediatamente os fins desejados pelo Estado.\n\nObserve as três notas do conceito: a função administrativa é concreta (produz efeitos individualizados, diferindo da função legislativa, que é abstrata e geral), direta (independe de provocação, diferindo da jurisdicional, que é provocada e inerte) e imediata (realiza desde logo os fins do Estado). O Direito Administrativo NÃO disciplina a atividade legislativa nem a jurisdicional típicas."
+        },
+        {
+          "h": "Fontes do Direito Administrativo",
+          "p": "As fontes dividem-se em primárias (ou diretas) e secundárias (ou indiretas).\n\nA lei, em sentido amplo, é a fonte primária por excelência: abrange a Constituição, as emendas, as leis complementares e ordinárias, as medidas provisórias, os decretos autônomos e os regulamentos. Por ser o Direito Administrativo um ramo do direito público regido pela legalidade estrita, a lei ocupa posição central.\n\nSão fontes secundárias a doutrina (construção teórica dos estudiosos), a jurisprudência (decisões reiteradas dos tribunais, especialmente as súmulas do STF e do STJ, com destaque para as súmulas vinculantes) e os costumes (prática reiterada e uniforme tida como obrigatória). O costume tem papel supletivo e integrativo: não pode contrariar a lei (costume contra legem é inadmissível), mas pode preencher lacunas (praeter legem). Os princípios gerais de direito também são apontados como fonte."
+        },
+        {
+          "h": "Regime jurídico-administrativo: prerrogativas e sujeições",
+          "p": "O regime jurídico-administrativo é o conjunto de regras e princípios de direito público a que se submete a Administração e que a colocam em posição de verticalidade (desigualdade jurídica) frente ao particular, ao contrário das relações privadas, marcadas pela horizontalidade (igualdade).\n\nDesse regime decorrem prerrogativas (poderes especiais): autoexecutoriedade, presunção de legitimidade e veracidade, imperatividade dos atos, poder de polícia, cláusulas exorbitantes nos contratos, autotutela, prazos processuais especiais e bens impenhoráveis. Em contrapartida, há sujeições (limitações): princípio da legalidade, obrigatoriedade de licitar e de realizar concurso público, observância da finalidade pública, motivação dos atos, controle pelos Tribunais de Contas e responsabilidade civil objetiva (art. 37, §6º, CF)."
+        },
+        {
+          "h": "Os dois pilares: supremacia e indisponibilidade",
+          "p": "A doutrina clássica (Bandeira de Mello) reduz todo o regime a duas pedras de toque. A supremacia do interesse público sobre o particular fundamenta as prerrogativas e justifica que a Administração possa, por exemplo, desapropriar, requisitar bens ou executar diretamente suas decisões. A indisponibilidade do interesse público significa que o administrador não é dono da coisa pública: gere bens e interesses alheios (da coletividade) e, por isso, não pode deles dispor livremente, o que fundamenta as sujeições.\n\nParte da doutrina moderna critica a supremacia como princípio absoluto, defendendo a ponderação entre interesse público e direitos fundamentais. A Lei 13.655/2018, que alterou a LINDB (Lei de Introdução às Normas do Direito Brasileiro), reforçou esse movimento ao exigir consideração das consequências práticas das decisões administrativas e ao limitar a invalidação de atos com base em valores jurídicos abstratos."
+        }
+      ],
+      "exemplo": "(Estilo Cebraspe) Item: \"O costume pode ser invocado como fonte do Direito Administrativo, inclusive para afastar a aplicação de uma lei vigente, quando a prática administrativa reiterada assim recomendar.\" — ERRADO. O costume é fonte secundária e supletiva; admite-se o costume praeter legem (que integra lacunas), mas jamais o costume contra legem (que contraria a lei), pois isso violaria a legalidade estrita que rege a Administração.",
+      "pontos_chave": [
+        "Direito Administrativo regula a função administrativa, exercida tipicamente pelo Executivo e atipicamente por Legislativo e Judiciário.",
+        "Função administrativa é concreta, direta e imediata.",
+        "Fonte primária: a lei em sentido amplo (Constituição, leis, MPs, regulamentos).",
+        "Fontes secundárias: doutrina, jurisprudência (súmulas) e costume.",
+        "Costume admite-se praeter legem (integra lacuna), nunca contra legem.",
+        "Regime jurídico-administrativo = prerrogativas (poderes) + sujeições (limites).",
+        "Pilares: supremacia e indisponibilidade do interesse público (Bandeira de Mello).",
+        "A LINDB (Lei 13.655/2018) trouxe segurança jurídica e exigência de análise consequencialista."
+      ],
+      "dica_prova": "A Cebraspe adora cobrar: (1) que o costume é fonte mas nunca pode contrariar a lei; (2) que jurisprudência e doutrina são fontes secundárias; (3) que o regime jurídico-administrativo se compõe simultaneamente de prerrogativas E sujeições (a banca costuma omitir uma delas para induzir erro). Cuidado com itens que afirmam que o Direito Administrativo é codificado: ele NÃO é codificado no Brasil, é esparso e construído fortemente pela doutrina e jurisprudência."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Lei 8.112/1990 (servidores federais)",
+      "intro": "A Lei 8.112/1990 é o Regime Jurídico Único (RJU) dos servidores públicos civis da União, das autarquias e das fundações públicas federais. Trata-se do estatuto que disciplina toda a vida funcional do servidor estatutário federal: ingresso, provimento dos cargos, posse e exercício, direitos e vantagens, deveres e proibições, regime disciplinar e o processo administrativo disciplinar (PAD).\n\nServidor público, na lei, é a pessoa legalmente investida em cargo público (art. 2º). Cargo público é o conjunto de atribuições e responsabilidades, criado por lei, com denominação própria e vencimento pago pelos cofres públicos, para provimento em caráter efetivo ou em comissão (art. 3º). O vínculo é estatutário (legal), e não contratual: o regime decorre da lei e pode ser alterado unilateralmente, não havendo direito adquirido a regime jurídico.\n\nPara o cargo de AUFC-TI do TCU (Cebraspe), a Lei 8.112/1990 é cobrada com profundidade literal: prazos (posse, exercício, estágio probatório, prescrição), espécies de provimento e vacância, hipóteses de penalidade e o rito do PAD são campeões de incidência. A banca testa o conhecimento dos números exatos.",
+      "secoes": [
+        {
+          "h": "Provimento, posse e exercício",
+          "p": "Provimento é o ato de preenchimento do cargo. As formas de provimento (art. 8º) são: nomeação (única forma de provimento originário) e os provimentos derivados — promoção, readaptação, reversão, aproveitamento, reintegração e recondução. (A ascensão e a transferência foram extintas por inconstitucionalidade.)\n\nA posse é o ato de investidura no cargo, devendo ocorrer no prazo de 30 dias contados da publicação do ato de nomeação (art. 13, §1º). Só há posse nos casos de provimento por nomeação. Não havendo posse no prazo, a nomeação é tornada sem efeito. O exercício é o efetivo desempenho das atribuições: o prazo para entrar em exercício é de 15 dias contados da posse (art. 15, §1º). A não entrada em exercício no prazo gera exoneração de ofício."
+        },
+        {
+          "h": "Estágio probatório e estabilidade",
+          "p": "O estágio probatório, na Lei 8.112/1990, é de 24 meses (art. 20), período em que se avaliam aptidão e capacidade do servidor (assiduidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade). Atenção à pegadinha clássica: a estabilidade, por força da EC 19/1998, exige 3 anos (36 meses) de efetivo exercício (art. 41 da CF). O STF e a AGU firmaram entendimento de que o estágio probatório acompanha o prazo da estabilidade (3 anos). Ainda assim, a Cebraspe pode cobrar a literalidade dos 24 meses do art. 20 — leia o enunciado com cuidado.\n\nO estável só perde o cargo por sentença judicial transitada em julgado, processo administrativo com ampla defesa, avaliação periódica de desempenho (na forma de lei complementar) ou por excesso de despesa (art. 169 da CF)."
+        },
+        {
+          "h": "Vacância e deslocamentos",
+          "p": "Vacância é a situação em que o cargo fica sem titular. As formas de vacância (art. 33) são: exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável e falecimento. Note que exoneração (sem caráter punitivo) e demissão (penalidade) NÃO se confundem — confusão muito explorada em prova.\n\nDeslocamentos não geram vacância: a remoção é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede. A redistribuição é o deslocamento de cargo de provimento efetivo, ocupado ou vago, no âmbito do quadro geral de pessoal, para outro órgão ou entidade."
+        },
+        {
+          "h": "Regime disciplinar: deveres, proibições e penalidades",
+          "p": "Os deveres do servidor estão no art. 116 (lealdade, assiduidade, urbanidade, cumprir ordens legais, levar irregularidades ao conhecimento da autoridade etc.) e as proibições no art. 117. As penalidades disciplinares (art. 127) são: advertência, suspensão (até 90 dias), demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão e destituição de função comissionada.\n\nA demissão é cabível em hipóteses graves do art. 132 (crime contra a administração, improbidade, abandono de cargo — ausência intencional por mais de 30 dias consecutivos —, inassiduidade habitual — 60 dias intercalados em 12 meses —, insubordinação, corrupção, acumulação ilegal de má-fé etc.). A advertência prescreve em 180 dias; a suspensão em 2 anos; a demissão em 5 anos (art. 142). O prazo prescricional começa a correr da data em que o fato se tornou conhecido."
+        },
+        {
+          "h": "Processo Administrativo Disciplinar (PAD)",
+          "p": "O PAD é o instrumento destinado a apurar responsabilidade de servidor por infração praticada no exercício de suas atribuições (art. 143). É obrigatório quando a infração puder ensejar penalidade superior a 30 dias de suspensão, demissão, cassação ou destituição. Suas fases (art. 151) são: instauração (com a publicação da portaria que constitui a comissão), inquérito administrativo (instrução, defesa e relatório) e julgamento.\n\nA comissão é composta por três servidores estáveis, sendo um deles o presidente. O prazo para conclusão do PAD é de 60 dias, prorrogáveis por igual período (art. 152). São assegurados o contraditório e a ampla defesa (art. 5º, LV, da CF). A Súmula Vinculante 5 do STF firma que a falta de defesa técnica por advogado no PAD não ofende a Constituição. Para infrações leves, admite-se a sindicância. Importante: a autoridade julgadora não está vinculada às conclusões do relatório da comissão, podendo dele divergir motivadamente."
+        }
+      ],
+      "exemplo": "(Cenário de auditoria) Em fiscalização de pessoal, o auditor do TCU verifica que um servidor foi demitido por abandono de cargo após faltar 25 dias consecutivos. Há irregularidade: o art. 138 da Lei 8.112/1990 caracteriza abandono de cargo apenas pela ausência intencional por mais de 30 dias consecutivos. Como o servidor faltou apenas 25 dias, não se configurou a hipótese legal, e a demissão padece de vício de motivo, sendo passível de anulação — eventual achado de auditoria com determinação de revisão do ato.",
+      "pontos_chave": [
+        "RJU = Lei 8.112/1990, aplicável a servidores civis da União, autarquias e fundações públicas federais.",
+        "Posse: 30 dias da nomeação; exercício: 15 dias da posse.",
+        "Estágio probatório: 24 meses (art. 20); estabilidade: 3 anos (art. 41 da CF).",
+        "Provimento originário só por nomeação; demais são derivados (promoção, reintegração, recondução etc.).",
+        "Penalidades: advertência, suspensão (até 90 dias), demissão, cassação, destituição.",
+        "Prescrição: advertência 180 dias, suspensão 2 anos, demissão 5 anos.",
+        "PAD: comissão de 3 servidores estáveis; prazo de 60 dias prorrogáveis; fases instauração/inquérito/julgamento.",
+        "Súmula Vinculante 5: ausência de advogado no PAD não viola a Constituição."
+      ],
+      "dica_prova": "A Cebraspe explora a confusão entre prazos: estágio probatório (24 meses na lei) versus estabilidade (3 anos na CF) é a pegadinha número um. Também cobra a diferença entre exoneração (não é punição) e demissão (é punição), e entre abandono de cargo (mais de 30 dias consecutivos) e inassiduidade habitual (60 dias intercalados em 12 meses). Memorize que a autoridade pode divergir do relatório da comissão do PAD e que a Súmula Vinculante 5 dispensa defesa técnica obrigatória."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Conceito, princípios e classificação",
+      "intro": "Serviço público é toda atividade material que o Estado assume como própria, prestando-a diretamente ou por delegação a terceiros, sob regime jurídico predominantemente de direito público, para satisfazer necessidades coletivas essenciais da população. Maria Sylvia Zanella Di Pietro o define como toda atividade que a Administração executa, direta ou indiretamente, para satisfazer concretamente às necessidades coletivas, sob regime jurídico total ou parcialmente público.\n\nO conceito exige três elementos: o subjetivo (a titularidade é sempre do Estado, mesmo quando a execução é delegada), o material (é atividade que atende a necessidade coletiva) e o formal (submete-se a regime jurídico de direito público, com prerrogativas e restrições). A Constituição prevê serviços públicos em diversos dispositivos, destacando-se o art. 175, que incumbe ao Poder Público a prestação de serviços públicos diretamente ou sob regime de concessão ou permissão.\n\nPara o concurso de AUFC-TI do TCU, dominar os princípios específicos dos serviços públicos (sobretudo a continuidade e a modicidade) e as classificações doutrinárias é fundamental, pois esses conceitos fundamentam a fiscalização de concessões e permissões pelo controle externo.",
+      "secoes": [
+        {
+          "h": "Princípios dos serviços públicos",
+          "p": "Os principais princípios específicos dos serviços públicos são: generalidade (ou universalidade) — o serviço deve ser prestado ao maior número possível de usuários, de forma impessoal e sem discriminação; continuidade — o serviço não pode ser interrompido, pois atende a necessidades essenciais e permanentes; modicidade — as tarifas devem ser as mais baixas possíveis, acessíveis aos usuários; atualidade (ou adaptabilidade) — o serviço deve acompanhar a evolução tecnológica e ser modernizado; cortesia — bom tratamento ao usuário; e eficiência — prestação adequada e econômica.\n\nA Lei 8.987/1995, em seu art. 6º, consagra o conceito de serviço adequado, que satisfaz as condições de regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia na prestação e modicidade das tarifas."
+        },
+        {
+          "h": "O princípio da continuidade e suas exceções",
+          "p": "A continuidade é o princípio mais cobrado em provas. Ele veda a interrupção injustificada do serviço. Contudo, a própria Lei 8.987/1995 (art. 6º, §3º) prevê hipóteses em que a interrupção NÃO viola a continuidade: situação de emergência; após aviso prévio, por razões de ordem técnica ou de segurança das instalações; e após aviso prévio, por inadimplemento do usuário, considerado o interesse da coletividade.\n\nQuanto ao corte por inadimplemento, o STJ admite a interrupção do serviço, desde que precedida de aviso, ressalvando, porém, que não se admite o corte quando o serviço atende a unidades essenciais de interesse coletivo (hospitais, prontos-socorros) ou quando a dívida é antiga (caso em que o meio adequado é a cobrança judicial, não o corte). Também se relaciona à continuidade a disciplina do direito de greve no serviço público e a teoria da imprevisão nos contratos administrativos."
+        },
+        {
+          "h": "Classificação: quanto à essencialidade e à exclusividade",
+          "p": "Quanto à essencialidade, os serviços dividem-se em próprios (ou propriamente ditos), que atendem a necessidades essenciais da coletividade e são prestados pelo Estado com prerrogativas públicas (segurança, saúde), e impróprios (ou de utilidade pública), que atendem a necessidades secundárias e podem ser delegados a particulares.\n\nQuanto à exclusividade, classificam-se em exclusivos do Estado (apenas o Poder Público pode titularizar, como o serviço postal e o correio aéreo nacional) e não exclusivos (podem ser prestados também pela iniciativa privada independentemente de delegação, como saúde, educação e previdência — os chamados serviços sociais)."
+        },
+        {
+          "h": "Classificação: quanto aos destinatários (uti universi e uti singuli)",
+          "p": "Quanto aos destinatários e à divisibilidade, os serviços classificam-se em gerais (uti universi) e individuais (uti singuli). Os serviços gerais (uti universi) são prestados a toda a coletividade indistintamente, sem possibilidade de identificar e mensurar o uso individual (iluminação pública, segurança, limpeza de logradouros). Por serem indivisíveis, são remunerados pela receita geral de impostos, e não por taxa.\n\nOs serviços individuais (uti singuli) têm usuários determinados e uso mensurável (água, energia, telefonia). Por serem divisíveis e específicos, podem ser remunerados por taxa (tributo) ou por tarifa/preço público (quando delegados). A Súmula Vinculante 19 do STF estabelece que a taxa de coleta de lixo domiciliar (serviço específico e divisível) é constitucional, enquanto a iluminação pública (uti universi) não pode ser custeada por taxa (Súmula Vinculante 41)."
+        }
+      ],
+      "exemplo": "(Item comentado, estilo Cebraspe) \"A concessionária de energia elétrica pode interromper o fornecimento ao usuário inadimplente, sem que isso configure ofensa ao princípio da continuidade do serviço público.\" — CERTO. O art. 6º, §3º, II, da Lei 8.987/1995 autoriza a interrupção por inadimplemento, desde que precedida de aviso prévio. A jurisprudência do STJ, porém, ressalva os casos de serviço essencial coletivo (hospitais) e dívidas pretéritas, em que o corte não é admitido — nuance que a banca pode explorar.",
+      "pontos_chave": [
+        "Serviço público: atividade do Estado para satisfazer necessidade coletiva, sob regime de direito público (titularidade estatal).",
+        "Base constitucional: art. 175 (prestação direta ou por concessão/permissão).",
+        "Princípios: generalidade, continuidade, modicidade, atualidade, cortesia, eficiência.",
+        "Serviço adequado (art. 6º da Lei 8.987/95): regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia e modicidade.",
+        "Continuidade admite exceções: emergência, razões técnicas/segurança e inadimplemento (com aviso prévio).",
+        "Uti universi (gerais/indivisíveis): custeados por impostos, não por taxa.",
+        "Uti singuli (individuais/divisíveis): podem ser remunerados por taxa ou tarifa.",
+        "SV 19 (taxa de lixo é constitucional) e SV 41 (iluminação pública não pode ser custeada por taxa)."
+      ],
+      "dica_prova": "A pegadinha mais comum é afirmar que a continuidade é absoluta e impede qualquer interrupção — ERRADO, há as três exceções da Lei 8.987/95. Outra: a banca troca a remuneração dos serviços uti universi (impostos) com a dos uti singuli (taxa/tarifa). Memorize as súmulas vinculantes 19 (taxa de lixo, OK) e 41 (iluminação pública, NÃO pode taxa). E lembre: a titularidade do serviço público é sempre do Estado, mesmo quando delegada a execução."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Delegação: concessão, permissão e autorização",
+      "intro": "Os serviços públicos podem ser prestados diretamente pela Administração (centralizada) ou ter sua execução transferida a terceiros, por delegação. A delegação por colaboração transfere apenas a execução do serviço ao particular, mantendo-se a titularidade com o Estado (art. 175 da CF). Os instrumentos clássicos de delegação a particulares são a concessão, a permissão e a autorização de serviço público.\n\nA Lei 8.987/1995 é o marco regulatório geral das concessões e permissões de serviços públicos, regulamentando o art. 175 da Constituição. Ela disciplina o regime de prestação, os direitos dos usuários, a política tarifária, os encargos do poder concedente e da concessionária, a intervenção, a extinção e o equilíbrio econômico-financeiro do contrato. A Lei 11.079/2004 acrescentou as parcerias público-privadas (PPP), nas modalidades patrocinada e administrativa.\n\nPara o concurso de AUFC-TI do TCU (Cebraspe), o tema é altamente recorrente: a banca cobra as diferenças entre concessão, permissão e autorização, a exigência de licitação e a sua modalidade, a natureza dos contratos e o regime do equilíbrio econômico-financeiro, que fundamenta a fiscalização de tarifas e revisões pelo controle externo.",
+      "secoes": [
+        {
+          "h": "Concessão de serviço público",
+          "p": "A concessão comum (Lei 8.987/1995) é a delegação da prestação de serviço público, feita pelo poder concedente, mediante licitação na modalidade concorrência (ou diálogo competitivo, após a Lei 14.133/2021), a pessoa jurídica ou consórcio de empresas que demonstre capacidade para seu desempenho, por sua conta e risco e por prazo determinado.\n\nNote os traços essenciais: depende de licitação obrigatória na modalidade concorrência; o contratado é necessariamente pessoa jurídica ou consórcio (jamais pessoa física); é formalizada por contrato administrativo (vínculo bilateral, com maior estabilidade); o prazo é determinado; e a remuneração se dá basicamente por tarifa paga pelos usuários. A concessão admite a subconcessão (com autorização do poder concedente e licitação) e a reversão dos bens ao término do contrato, com eventual indenização das parcelas não amortizadas."
+        },
+        {
+          "h": "Permissão de serviço público",
+          "p": "A permissão de serviço público (art. 40 da Lei 8.987/1995) é a delegação, a título precário, mediante licitação, a pessoa física ou jurídica que demonstre capacidade para seu desempenho, por sua conta e risco. Tradicionalmente, a doutrina a tratava como ato administrativo unilateral, discricionário e precário. Contudo, a Lei 8.987/95 a formalizou como contrato de adesão, gerando aparente contradição com a precariedade.\n\nDiferenças em relação à concessão: a permissão admite pessoa física ou jurídica (a concessão, só pessoa jurídica ou consórcio); a permissão é formalizada por contrato de adesão e revestida de precariedade e revogabilidade unilateral pelo poder concedente; e a lei não fixa a modalidade licitatória, admitindo-se modalidade menos rigorosa que a concorrência. Apesar disso, aplicam-se à permissão, no que couber, as regras da concessão (art. 40, parágrafo único)."
+        },
+        {
+          "h": "Autorização de serviço público",
+          "p": "A autorização de serviço público é ato administrativo unilateral, discricionário e precário, pelo qual o Poder Público delega a execução de serviço de interesse predominantemente do próprio particular ou de pequenas dimensões, dispensando, em regra, licitação. Diferencia-se profundamente das anteriores: não é contrato, mas ato unilateral; é precária ao extremo (pode ser revogada a qualquer tempo, em regra sem indenização); e atende sobretudo ao interesse do autorizatário, embora haja interesse coletivo.\n\nA Constituição prevê autorização para alguns serviços (art. 21, XI e XII: telecomunicações, energia, transporte etc.). Exemplos clássicos de serviço autorizado: táxi, despachante e serviços de telecomunicação de interesse restrito. Atenção: a autorização também é usada como ato de polícia (autorização de porte de arma, por exemplo), hipótese diferente da autorização de serviço público."
+        },
+        {
+          "h": "Equilíbrio econômico-financeiro e PPP",
+          "p": "O equilíbrio econômico-financeiro é a relação entre os encargos do concessionário e a remuneração que recebe, fixada no momento da proposta, que deve ser mantida durante toda a execução do contrato. Sua quebra, por fato imprevisível (álea econômica extraordinária), fato do príncipe, fato da administração ou alteração unilateral do contrato, enseja a recomposição (revisão tarifária ou outras medidas), distinta do simples reajuste (atualização periódica por índice). A garantia tem base no art. 37, XXI, da CF e na Lei 8.987/95.\n\nAs parcerias público-privadas (Lei 11.079/2004) são concessões especiais. Na concessão patrocinada, há tarifa do usuário SOMADA a contraprestação pecuniária do parceiro público. Na concessão administrativa, a Administração é a usuária direta ou indireta, e a remuneração é integralmente paga pelo poder público (não há tarifa do usuário). As PPPs têm valor mínimo de contrato, prazo entre 5 e 35 anos e exigem licitação na modalidade concorrência."
+        }
+      ],
+      "exemplo": "(Item comentado, estilo Cebraspe) \"A concessão de serviço público pode ser outorgada a pessoa física que demonstre capacidade técnica e econômica para o desempenho do serviço, desde que precedida de licitação.\" — ERRADO. A concessão comum (art. 2º, II, da Lei 8.987/95) só pode ser delegada a pessoa jurídica ou consórcio de empresas, nunca a pessoa física. Quem admite pessoa física é a PERMISSÃO. Essa troca entre os requisitos subjetivos de concessão e permissão é uma das pegadinhas favoritas da banca.",
+      "pontos_chave": [
+        "Delegação transfere a execução, não a titularidade (titularidade é sempre do Estado, art. 175 CF).",
+        "Concessão: contrato, licitação na modalidade concorrência, só pessoa jurídica ou consórcio, prazo determinado.",
+        "Permissão: contrato de adesão, precária, pessoa física ou jurídica, qualquer modalidade licitatória.",
+        "Autorização: ato unilateral, discricionário e precário, em regra sem licitação, interesse predominante do particular.",
+        "Lei 8.987/1995 regulamenta o art. 175 da CF (concessões e permissões).",
+        "Equilíbrio econômico-financeiro: garantido constitucionalmente (art. 37, XXI); reajuste ≠ revisão.",
+        "PPP (Lei 11.079/2004): patrocinada (tarifa + contraprestação pública) e administrativa (só pagamento público).",
+        "PPP exige concorrência, valor e prazo mínimos (5 a 35 anos)."
+      ],
+      "dica_prova": "Cole na memória a tabela: concessão (contrato, concorrência, só PJ/consórcio) x permissão (contrato de adesão, precária, PF ou PJ) x autorização (ato unilateral, precário, sem licitação). A banca troca esses requisitos constantemente. Outra pegadinha clássica é confundir reajuste (atualização periódica por índice, automática) com revisão/recomposição (restauração do equilíbrio após fato imprevisível). Lembre que na PPP administrativa NÃO há tarifa do usuário — quem paga é só o Poder Público."
+    },
+    {
+      "ti": 6,
+      "si": 1,
+      "titulo": "Excludentes, atenuantes e direito de regresso",
+      "intro": "A responsabilidade civil do Estado, no Brasil, é, em regra, objetiva, fundada na teoria do risco administrativo (art. 37, §6º, da CF): as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, independentemente de prova de culpa ou dolo. Basta ao lesado demonstrar a conduta do agente, o dano e o nexo de causalidade entre eles.\n\nA teoria adotada é a do risco administrativo (e não a do risco integral): por isso, admite excludentes e atenuantes do nexo causal. Diferentemente, a teoria do risco integral, aplicada apenas a hipóteses excepcionais (dano ambiental, dano nuclear, atos terroristas em aeronaves), não admite excludentes. Compreender quando o nexo causal é rompido ou mitigado é o ponto central deste subtópico.\n\nAlém disso, a Constituição assegura ao Estado o direito de regresso contra o agente causador do dano, nos casos de dolo ou culpa, transferindo a ele, internamente, o ônus do ressarcimento. Para o concurso de AUFC-TI do TCU (Cebraspe), as excludentes e o regime do direito de regresso (subjetivo, contra o agente) são temas de altíssima incidência.",
+      "secoes": [
+        {
+          "h": "Excludentes da responsabilidade",
+          "p": "As excludentes rompem o nexo de causalidade e afastam totalmente a responsabilidade do Estado. São elas: a culpa exclusiva da vítima (quando o dano decorre apenas do comportamento do próprio lesado); o caso fortuito e a força maior (eventos imprevisíveis e/ou inevitáveis, estranhos à atuação estatal); e o fato exclusivo de terceiro (quando o dano é causado integralmente por pessoa alheia à Administração).\n\nProvada qualquer dessas hipóteses, o Estado nada paga, pois a teoria do risco administrativo (regra geral) admite tais excludentes. Aqui reside a distinção crucial com a teoria do risco integral (excepcional), que não admite excludente alguma — por isso, em dano ambiental ou nuclear, o Estado responde ainda que haja força maior."
+        },
+        {
+          "h": "Atenuantes (causas de redução)",
+          "p": "As atenuantes não eliminam, mas reduzem o valor da indenização, pois apenas diminuem (sem romper totalmente) o nexo causal. A principal é a culpa concorrente da vítima: quando o dano resulta da soma da conduta estatal e da conduta da vítima, a indenização é repartida proporcionalmente ao grau de contribuição de cada um (art. 945 do Código Civil).\n\nÉ fundamental distinguir: culpa EXCLUSIVA da vítima é excludente (Estado não paga); culpa CONCORRENTE da vítima é atenuante (Estado paga, mas menos). A Cebraspe explora exatamente essa diferença, trocando uma pela outra."
+        },
+        {
+          "h": "Responsabilidade por omissão",
+          "p": "Quanto à conduta omissiva do Estado, há divergência. A doutrina tradicional (Bandeira de Mello) defende que a responsabilidade por omissão é subjetiva, fundada na teoria da culpa administrativa ou faute du service (a falta do serviço: serviço que não funcionou, funcionou mal ou tardiamente), exigindo prova de que o Estado descumpriu um dever legal de agir.\n\nO STF, contudo, tem evoluído para distinguir omissão genérica (responsabilidade subjetiva, exige culpa do serviço) de omissão específica (quando o Estado tinha o dever concreto e individualizado de proteção e falhou — ex.: morte de detento sob custódia, RE 841.526, tema 592), caso em que a responsabilidade é objetiva. A custódia de pessoas e bens é o exemplo clássico de responsabilidade objetiva por omissão específica."
+        },
+        {
+          "h": "Direito de regresso e dupla garantia",
+          "p": "O art. 37, §6º, da CF assegura o direito de regresso do Estado contra o agente público responsável, nos casos de dolo ou culpa. Observe a dupla natureza: a responsabilidade do ESTADO perante a vítima é objetiva (risco administrativo), mas a responsabilidade do AGENTE perante o Estado, na ação regressiva, é subjetiva (depende de prova de dolo ou culpa).\n\nO STF firmou a tese da dupla garantia (RE 1.027.633, tema 940): a vítima só pode ajuizar a ação indenizatória contra o Estado (pessoa jurídica), e não diretamente contra o agente. O Estado, depois de indenizar, é que aciona regressivamente o agente que agiu com dolo ou culpa. Essa tese protege tanto a vítima (que demanda contra ente solvente) quanto o agente (que só responde internamente, com aferição de culpa). O ressarcimento ao erário decorrente de ato de improbidade administrativa dolosa é imprescritível (STF, tema 897)."
+        }
+      ],
+      "exemplo": "(Cenário de controle externo) Em uma tomada de contas especial, o TCU apura prejuízo ao erário causado por servidor que, com culpa grave, autorizou pagamento indevido. Embora a responsabilidade do Estado perante terceiros seja objetiva, a imputação de débito ao agente exige a demonstração de dolo ou culpa (responsabilidade subjetiva na via regressiva), em consonância com o art. 37, §6º, da CF. Sem essa demonstração, não cabe condenar o agente a ressarcir.",
+      "pontos_chave": [
+        "Regra: responsabilidade objetiva do Estado, teoria do risco administrativo (art. 37, §6º, CF).",
+        "Excludentes (rompem o nexo, Estado não paga): culpa exclusiva da vítima, caso fortuito/força maior, fato de terceiro.",
+        "Atenuante (reduz a indenização): culpa concorrente da vítima.",
+        "Risco integral (excepcional): não admite excludentes (dano ambiental, nuclear, atos terroristas em aeronaves).",
+        "Omissão genérica: responsabilidade subjetiva (faute du service); omissão específica: objetiva.",
+        "Custódia de pessoas/bens: responsabilidade objetiva (ex.: morte de detento).",
+        "Direito de regresso contra o agente é subjetivo (exige dolo ou culpa).",
+        "Tese da dupla garantia (STF, tema 940): vítima só demanda contra o Estado, não diretamente contra o agente."
+      ],
+      "dica_prova": "A confusão clássica da Cebraspe: culpa EXCLUSIVA da vítima é EXCLUDENTE (Estado não paga); culpa CONCORRENTE é ATENUANTE (Estado paga menos). Outra pegadinha: afirmar que o agente responde objetivamente na ação de regresso — ERRADO, a via regressiva é sempre subjetiva (dolo ou culpa). Memorize a tese da dupla garantia (a vítima não pode acionar diretamente o agente) e que a teoria do risco INTEGRAL não admite excludentes, ao contrário do risco ADMINISTRATIVO, que é a regra."
+    },
+    {
+      "ti": 7,
+      "si": 0,
+      "titulo": "Controle da administração pública",
+      "intro": "Controle da Administração Pública é o poder-dever de vigilância, orientação e correção que recai sobre a atuação administrativa, exercido pela própria Administração ou por outros Poderes, para assegurar que ela atue conforme a lei, os princípios e o interesse público. É consequência direta do princípio da indisponibilidade do interesse público e instrumento essencial do Estado Democrático de Direito e da accountability.\n\nO controle pode ser classificado segundo vários critérios: quanto ao órgão controlador (administrativo, legislativo e judicial); quanto à extensão (interno e externo); quanto ao momento (prévio, concomitante e posterior); quanto à natureza (de legalidade e de mérito); e quanto à iniciativa (de ofício ou provocado). Dominar essas classificações e seus efeitos é o cerne deste subtópico.\n\nPara o concurso de AUFC-TI do TCU (Cebraspe), este é um tema nuclear, pois define a própria razão de ser do Tribunal de Contas. Merecem destaque a autotutela administrativa (consagrada nas Súmulas 346 e 473 do STF) e os limites do controle judicial sobre o mérito administrativo.",
+      "secoes": [
+        {
+          "h": "Controle administrativo e autotutela",
+          "p": "O controle administrativo é o exercido pela própria Administração sobre seus atos e agentes, decorrente do poder de autotutela. Abrange o controle de legalidade e o de mérito (conveniência e oportunidade) e materializa-se por meio da supervisão ministerial, da fiscalização hierárquica, dos recursos administrativos (representação, reclamação, pedido de reconsideração, recurso hierárquico próprio e impróprio) e da revisão de ofício dos próprios atos.\n\nA autotutela está cristalizada em duas súmulas clássicas do STF. A Súmula 346 afirma que a Administração Pública pode declarar a nulidade dos seus próprios atos. A Súmula 473 complementa: a Administração pode ANULAR seus próprios atos quando eivados de vícios que os tornem ilegais (controle de legalidade), e pode REVOGÁ-LOS por motivo de conveniência ou oportunidade (controle de mérito), respeitados os direitos adquiridos e ressalvada, em todos os casos, a apreciação judicial."
+        },
+        {
+          "h": "Anulação, revogação e o prazo decadencial",
+          "p": "A anulação retira do ordenamento o ato ilegal e produz, em regra, efeitos retroativos (ex tunc). Pode ser feita pela própria Administração ou pelo Judiciário. A revogação extingue ato válido por razões de conveniência e oportunidade, produzindo efeitos prospectivos (ex nunc), e é privativa da Administração (o Judiciário não revoga ato administrativo de outro Poder, só anula por ilegalidade).\n\nO dever de anular não é ilimitado: a Lei 9.784/1999 (art. 54) fixa prazo decadencial de 5 anos para a Administração anular atos administrativos de que decorram efeitos favoráveis aos destinatários, salvo comprovada má-fé. Expirado o prazo, o ato ilegal convalida-se pelo decurso do tempo, em homenagem à segurança jurídica. Esse prazo é amplamente cobrado em provas."
+        },
+        {
+          "h": "Controle legislativo e dos Tribunais de Contas",
+          "p": "O controle legislativo é exercido pelo Poder Legislativo, diretamente ou com o auxílio do Tribunal de Contas, e abrange o controle político (CPIs, convocação de autoridades, sustação de atos normativos do Executivo que exorbitem o poder regulamentar — art. 49, V) e o controle financeiro-orçamentário (arts. 70 a 75 da CF).\n\nO TCU é o órgão de controle externo que auxilia o Congresso Nacional. Suas competências (art. 71 da CF) incluem apreciar as contas do Presidente (parecer prévio); julgar as contas dos administradores e responsáveis por dinheiros públicos; apreciar a legalidade de admissões e aposentadorias; realizar auditorias e inspeções; e aplicar sanções. A Súmula Vinculante 3 do STF assegura o contraditório e a ampla defesa nos processos do TCU, ressalvada a apreciação inicial de aposentadorias/pensões (ato complexo). O TCU pode sustar a execução de ATO impugnado (art. 71, X); quanto a CONTRATO, a sustação é, em regra, do Congresso Nacional (art. 71, §1º)."
+        },
+        {
+          "h": "Controle judicial e seus limites",
+          "p": "O controle judicial decorre do princípio da inafastabilidade da jurisdição (art. 5º, XXXV, da CF) e do sistema de jurisdição una adotado no Brasil. O Judiciário pode controlar a legalidade e a legitimidade de qualquer ato administrativo — vinculado ou discricionário — e anulá-lo se ilegal, inclusive quanto aos vícios de competência, finalidade, forma, motivo e objeto.\n\nO limite tradicional é que o Judiciário NÃO pode substituir o administrador no juízo de mérito (conveniência e oportunidade) do ato discricionário, sob pena de violar a separação de Poderes. Contudo, a doutrina e a jurisprudência modernas admitem o controle do mérito quando há ofensa a princípios (razoabilidade, proporcionalidade, moralidade) ou à teoria dos motivos determinantes (quando o motivo declarado é falso ou inexistente, o ato é nulo). O controle judicial é sempre POSTERIOR e PROVOCADO (o Judiciário não age de ofício)."
+        }
+      ],
+      "exemplo": "(Item comentado, estilo Cebraspe) \"A Administração Pública pode revogar seus próprios atos quando eivados de ilegalidade, com efeitos retroativos, em razão do poder de autotutela.\" — ERRADO. Há troca de conceitos: ato ILEGAL é ANULADO (com efeitos ex tunc); REVOGAÇÃO é de ato VÁLIDO, por conveniência e oportunidade, com efeitos ex nunc (prospectivos). A Súmula 473 do STF distingue claramente as duas figuras.",
+      "pontos_chave": [
+        "Classificações: quanto ao órgão (administrativo, legislativo, judicial); extensão (interno/externo); momento (prévio, concomitante, posterior).",
+        "Autotutela: Súmula 346 (declara nulidade) e Súmula 473 (anula o ilegal, revoga o inconveniente) do STF.",
+        "Anulação: ato ilegal, efeitos ex tunc, pela Administração ou pelo Judiciário.",
+        "Revogação: ato válido, efeitos ex nunc, privativa da Administração.",
+        "Prazo decadencial de 5 anos para anular atos favoráveis de boa-fé (art. 54 da Lei 9.784/99).",
+        "TCU susta ATO (art. 71, X); sustação de CONTRATO é, em regra, do Congresso (art. 71, §1º).",
+        "Súmula Vinculante 3: contraditório no TCU, salvo apreciação inicial de aposentadorias (ato complexo).",
+        "Controle judicial: posterior e provocado; alcança legalidade, não o mérito (salvo ofensa a princípios)."
+      ],
+      "dica_prova": "A Cebraspe vive trocando anulação (ato ilegal, ex tunc) por revogação (ato válido, ex nunc) — leia com atenção. Decore que a revogação é PRIVATIVA da Administração e que o Judiciário só ANULA. Cuidado com a sustação: o TCU susta o ATO, mas o CONTRATO em regra é sustado pelo Congresso. Memorize o prazo decadencial de 5 anos do art. 54 da Lei 9.784/99 e as Súmulas 346, 473 (STF) e Súmula Vinculante 3."
+    },
+    {
+      "ti": 7,
+      "si": 2,
+      "titulo": "Processo administrativo (Lei 9.784/1999)",
+      "intro": "A Lei 9.784/1999 estabelece as normas gerais do processo administrativo no âmbito da Administração Pública Federal direta e indireta, aplicando-se também aos órgãos dos Poderes Legislativo e Judiciário da União quando no desempenho de função administrativa. Seu objetivo declarado é a proteção dos direitos dos administrados e o melhor cumprimento dos fins da Administração (art. 1º).\n\nA lei tem caráter subsidiário: aplica-se às hipóteses não reguladas por lei específica (princípio da especialidade). Por isso, processos disciplinares (Lei 8.112/90), tributários, licitatórios etc. seguem suas leis próprias, recorrendo-se à Lei 9.784/99 apenas para suprir lacunas. O STJ, inclusive, aplica o prazo decadencial de 5 anos do art. 54 da Lei 9.784/99, por analogia, a entes federativos que não possuam lei própria.\n\nPara o concurso de AUFC-TI do TCU (Cebraspe), a Lei 9.784/1999 é cobrada com profundidade: princípios expressos (art. 2º), o dever de motivação (art. 50), prazos (decisão em 30 dias, recurso em 10 dias), a possibilidade de reformatio in pejus no recurso e o efeito não suspensivo deste são pontos campeões de incidência.",
+      "secoes": [
+        {
+          "h": "Princípios e critérios do processo administrativo",
+          "p": "O art. 2º elenca os princípios a que a Administração obedecerá: legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência. O parágrafo único traz um rol de critérios operacionais, como a atuação conforme a lei e o Direito, a objetividade no atendimento do interesse público, a adoção de formas simples e suficientes (formalismo moderado), a garantia dos direitos à comunicação e à produção de provas, e a proibição de cobrança de despesas processuais ressalvadas as previstas em lei.\n\nDestaca-se o princípio da oficialidade: a Administração tem o dever de impulsionar o processo de ofício, sem depender de provocação do interessado, podendo determinar diligências e produzir provas. Outro princípio central é o do informalismo (formalismo moderado): exige-se apenas a forma necessária para dar certeza e segurança, sem rigor excessivo."
+        },
+        {
+          "h": "O dever de motivação (art. 50)",
+          "p": "A motivação é a indicação dos pressupostos de fato e de direito que determinam a decisão. O art. 50 lista as hipóteses em que os atos administrativos DEVEM ser motivados, com indicação dos fatos e fundamentos jurídicos, quando: neguem, limitem ou afetem direitos ou interesses; imponham deveres, encargos ou sanções; decidam recursos administrativos; decidam processos de licitação ou concurso; deixem de aplicar jurisprudência firmada; entre outros.\n\nA lei admite a motivação aliunde (per relationem): a motivação pode consistir em declaração de concordância com fundamentos de pareceres, informações ou decisões anteriores, que passarão a integrar o ato (art. 50, §1º). A ausência de motivação, quando exigida, vicia o ato. Vincula-se aqui a teoria dos motivos determinantes: declarado o motivo, sua veracidade e existência condicionam a validade do ato."
+        },
+        {
+          "h": "Fases, prazos e impedimento/suspeição",
+          "p": "O processo pode iniciar-se de ofício ou a pedido do interessado (art. 5º). Não há um rito rígido único, mas a lei fixa prazos importantes: os atos do processo devem realizar-se em até 5 dias, salvo motivo de força maior (art. 24); concluída a instrução, a Administração tem o dever de decidir em até 30 dias, prorrogáveis por igual período mediante justificativa (art. 49); a intimação do interessado deve ocorrer com antecedência mínima de 3 dias úteis (art. 26, §2º).\n\nA lei disciplina o impedimento e a suspeição (arts. 18 a 21). É impedido de atuar o servidor que tenha interesse direto/indireto na matéria, que tenha participado como perito/testemunha/representante, ou cujo cônjuge/parente até o terceiro grau esteja litigando. A suspeição decorre de amizade íntima ou inimizade notória. A autoridade impedida que omitir o impedimento comete falta grave."
+        },
+        {
+          "h": "Recursos administrativos e reformatio in pejus",
+          "p": "Das decisões administrativas cabe recurso, por razões de legalidade e de mérito (art. 56), dirigido à autoridade que proferiu a decisão, a qual, se não reconsiderar em 5 dias, o encaminhará à autoridade superior. O prazo para interpor recurso é de 10 dias, salvo disposição legal específica (art. 59), e o prazo para a autoridade decidir o recurso é de 30 dias, prorrogáveis. Em regra, o recurso NÃO tem efeito suspensivo (art. 61), salvo previsão legal ou decisão fundamentada por justo receio de prejuízo de difícil ou incerta reparação.\n\nO recurso pode tramitar por, no máximo, três instâncias administrativas, salvo disposição legal diversa (art. 57). Ponto crucial e muito cobrado: a Lei 9.784/99 ADMITE a reformatio in pejus no recurso administrativo. O art. 64, parágrafo único, permite que, se da análise do recurso resultar gravame à situação do recorrente, ele seja cientificado para formular alegações antes da decisão — ou seja, a piora é possível, diferentemente do processo penal. Já o prazo decadencial de 5 anos do art. 54 fulmina o poder de anular atos favoráveis de boa-fé."
+        }
+      ],
+      "exemplo": "(Item comentado, estilo Cebraspe) \"No processo administrativo regido pela Lei 9.784/1999, é vedada a reformatio in pejus, de modo que a decisão do recurso jamais poderá agravar a situação do recorrente.\" — ERRADO. A Lei 9.784/99 ADMITE a reforma para pior: o art. 64, parágrafo único, autoriza o agravamento da situação do recorrente, exigindo apenas que ele seja previamente cientificado para apresentar alegações. A vedação à reformatio in pejus é regra do processo penal, não do administrativo federal.",
+      "pontos_chave": [
+        "Lei 9.784/99: normas gerais do processo administrativo federal; aplicação subsidiária (especialidade).",
+        "Princípios (art. 2º): legalidade, finalidade, motivação, razoabilidade, proporcionalidade, ampla defesa, contraditório, segurança jurídica, eficiência.",
+        "Oficialidade: a Administração impulsiona o processo de ofício; formalismo moderado.",
+        "Dever de motivação (art. 50); admite-se motivação aliunde (per relationem).",
+        "Prazo para decidir: 30 dias após a instrução, prorrogáveis (art. 49).",
+        "Recurso: prazo de 10 dias; em regra SEM efeito suspensivo; até 3 instâncias.",
+        "A Lei 9.784/99 ADMITE reformatio in pejus (art. 64, p.ú.), com prévia ciência ao recorrente.",
+        "Decadência de 5 anos para anular atos favoráveis de boa-fé (art. 54), aplicável por analogia (STJ)."
+      ],
+      "dica_prova": "A pegadinha mais clássica: a Cebraspe afirma que é VEDADA a reformatio in pejus no processo administrativo — ERRADO, ela é ADMITIDA (art. 64, p.ú.), com prévia ciência. Memorize os prazos: recurso em 10 dias, decisão em 30 dias, atos em 5 dias, decadência em 5 anos. Lembre que o recurso, em regra, NÃO tem efeito suspensivo e que a lei admite no máximo 3 instâncias. Cuidado: a Lei 9.784/99 é subsidiária — o PAD da Lei 8.112/90 tem rito próprio."
+    }
+  ]
+}

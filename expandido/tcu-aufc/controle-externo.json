@@ -1,0 +1,188 @@
+{
+  "slug": "controle-externo",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Controle interno e externo",
+      "intro": "Controle da Administração Pública é o poder-dever de fiscalização e correção que os Poderes, órgãos e entidades exercem sobre a própria atuação ou sobre a de outros, para assegurar conformidade com a lei, com os princípios constitucionais (legalidade, impessoalidade, moralidade, publicidade, eficiência) e com o interesse público. É instrumento essencial do Estado de Direito e da accountability.\n\nQuanto à posição do órgão controlador em relação ao controlado, o controle classifica-se em interno e externo. O controle interno é exercido dentro da estrutura do próprio Poder (decorre da autotutela administrativa); o controle externo é exercido por Poder ou órgão estranho à estrutura controlada. A Constituição de 1988 desenhou um sistema integrado, em que controle interno e externo se complementam e devem manter integração recíproca (art. 74, IV, da CF).\n\nPara o AUFC-TI do TCU, dominar a distinção entre controle interno e externo, seus titulares e a base constitucional (arts. 70 a 75 da CF) é indispensável, pois define o próprio campo de atuação do Tribunal de Contas e do auditor.",
+      "secoes": [
+        {
+          "h": "Controle externo: titularidade e o papel do TCU",
+          "p": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da administração direta e indireta, quanto à legalidade, legitimidade, economicidade, aplicação das subvenções e renúncia de receitas, é exercida pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder (art. 70 da CF).\n\nO controle externo, portanto, é titularizado pelo Poder Legislativo, que o exerce com o AUXÍLIO do Tribunal de Contas da União (art. 71, caput, da CF). É pegadinha clássica: o TCU NÃO é o titular do controle externo nem é órgão do Legislativo subordinado a ele; é órgão constitucional autônomo que auxilia o Congresso. O alcance subjetivo do controle externo é amplo: abrange qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda (art. 70, parágrafo único, da CF, redação da EC 19/98)."
+        },
+        {
+          "h": "Controle interno: o sistema do art. 74 da CF",
+          "p": "Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno (cada Poder tem o seu) com as finalidades do art. 74 da CF: I - avaliar o cumprimento das metas do plano plurianual, a execução dos programas de governo e dos orçamentos; II - comprovar a legalidade e avaliar resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial nos órgãos e entidades, bem como da aplicação de recursos públicos por entidades de direito privado; III - exercer o controle das operações de crédito, avais e garantias, e dos direitos e haveres da União; IV - apoiar o controle externo no exercício de sua missão institucional.\n\nDuas regras de prova são valiosas. Primeiro, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao TCU, sob pena de responsabilidade SOLIDÁRIA (art. 74, § 1º). Segundo, qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante o Tribunal de Contas (art. 74, § 2º) — é o caráter popular do controle."
+        },
+        {
+          "h": "Comparando interno e externo",
+          "p": "O controle interno é manifestação da autotutela (Súmulas 346 e 473 do STF: a Administração pode anular seus atos ilegais e revogar os inconvenientes, respeitados os direitos adquiridos). É exercido pelo próprio Poder sobre seus órgãos e agentes, de modo hierárquico e finalístico, e funciona de forma contínua e cotidiana.\n\nO controle externo é exercido por estrutura distinta da controlada e abrange, além do controle parlamentar (com auxílio do Tribunal de Contas), o controle jurisdicional. No modelo brasileiro, controle interno e externo NÃO se excluem: são complementares e integrados. O controle interno apoia o externo (art. 74, IV) e o externo pode determinar o aperfeiçoamento dos controles internos das unidades fiscalizadas. A omissão do controle interno em comunicar irregularidades ao TCU gera responsabilidade solidária do agente."
+        },
+        {
+          "h": "Relevância para auditoria de TI",
+          "p": "Na prática de uma auditoria de TI no setor público, o controle interno aparece como objeto e como apoio. Como objeto, o auditor avalia a adequação dos controles internos de TI (segregação de funções, gestão de acessos, trilhas de auditoria, gestão de continuidade), frequentemente com referência a modelos como COBIT 2019 e à NBR ISO/IEC 27001/27002. Como apoio, a unidade de controle interno (auditoria interna governamental) fornece insumos ao TCU, que exerce o controle externo. A própria avaliação de governança e gestão de TI das organizações públicas (levantamentos do tipo iGovTI/Perfil de Governança) é exemplo concreto de controle externo operacional sobre os sistemas de controle interno."
+        }
+      ],
+      "exemplo": "Item de prova (estilo Cebraspe): \"O controle externo da administração pública federal é exercido pelo Tribunal de Contas da União, órgão integrante do Poder Legislativo.\" Errado. O titular do controle externo é o Congresso Nacional; o TCU apenas o AUXILIA. Além disso, o TCU é órgão constitucional autônomo, não subordinado ao Legislativo e dele não integrante na qualidade de órgão hierarquicamente submetido. Variação que costuma estar CERTA: \"Constatada irregularidade, o responsável pelo controle interno que dela tomar ciência e não comunicar o TCU responde solidariamente.\" (art. 74, § 1º, CF).",
+      "pontos_chave": [
+        "Controle interno: exercido dentro da estrutura do próprio Poder (autotutela); cada Poder mantém o seu (art. 74).",
+        "Controle externo: titular é o Congresso Nacional; o TCU apenas auxilia (art. 71, caput).",
+        "Alcance subjetivo amplo: qualquer pessoa que gerencie bens/valores públicos ou pelos quais a União responda (art. 70, p.ú.).",
+        "Finalidades do controle interno: avaliar metas, comprovar legalidade e resultados, controlar crédito/garantias e apoiar o controle externo.",
+        "Omissão do controle interno em comunicar irregularidade ao TCU gera responsabilidade SOLIDÁRIA (art. 74, §1º).",
+        "Qualquer cidadão é parte legítima para denunciar irregularidades ao Tribunal de Contas (art. 74, §2º).",
+        "Interno e externo são complementares e integrados, não excludentes."
+      ],
+      "dica_prova": "A Cebraspe explora trocas: dizer que o TCU é o titular do controle externo (errado), que o controle interno é único e centralizado (errado: cada Poder tem o seu), ou suprimir a integração entre os dois sistemas. Memorize os incisos do art. 74 e a responsabilidade solidária do §1º. Não confunda controle interno (autotutela, art. 74) com controle externo (Congresso + TCU, arts. 70-71)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Controle parlamentar, administrativo e jurisdicional",
+      "intro": "Quanto ao órgão ou Poder que o exerce, o controle da Administração divide-se em três grandes espécies: controle administrativo (exercido pela própria Administração sobre seus atos), controle legislativo ou parlamentar (exercido pelo Poder Legislativo) e controle judicial ou jurisdicional (exercido pelo Poder Judiciário). Cada espécie tem fundamentos, instrumentos e limites próprios.\n\nO traço estrutural do sistema brasileiro é a jurisdição una (sistema inglês ou de unidade de jurisdição), adotado no art. 5º, XXXV, da CF: nenhuma lesão ou ameaça a direito será excluída da apreciação do Poder Judiciário. Por isso, no Brasil, somente o Judiciário produz coisa julgada material; as decisões administrativas, ainda que de órgãos especializados como os Tribunais de Contas, podem ser submetidas ao crivo do Judiciário. Isso distingue o Brasil do sistema francês de dualidade de jurisdição (contencioso administrativo)."
+      ,
+      "secoes": [
+        {
+          "h": "Controle administrativo",
+          "p": "É o controle exercido pela própria Administração sobre sua atuação, decorrente da autotutela e da hierarquia. Pode ser de ofício ou provocado (por recursos administrativos, representações, reclamações). Alcança tanto a legalidade (conformidade com a norma) quanto o mérito (conveniência e oportunidade dos atos discricionários).\n\nNa Administração indireta, o controle que a Administração direta exerce sobre autarquias, fundações, empresas públicas e sociedades de economia mista NÃO é hierárquico (não há subordinação), mas sim tutela ou supervisão ministerial (controle finalístico), limitado aos termos da lei. Instrumentos típicos: recursos administrativos, pedido de reconsideração, revisão, e o controle interno do art. 74 da CF."
+        },
+        {
+          "h": "Controle parlamentar (legislativo)",
+          "p": "É o controle exercido pelo Poder Legislativo sobre a Administração, com dupla natureza. Há o controle político, que recai sobre conveniência e oportunidade e legalidade (ex.: convocação de autoridades, pedidos de informação, sustação de atos normativos do Executivo que exorbitem do poder regulamentar - art. 49, V; apreciação de contas do Presidente; competências de fiscalização do art. 49; comissões parlamentares de inquérito - CPIs, com poderes de investigação próprios de autoridades judiciais, art. 58, §3º; e o controle financeiro-orçamentário do art. 70).\n\nHá também o controle financeiro, exercido com o auxílio do Tribunal de Contas (arts. 70 a 75 da CF). É fundamental notar que o controle do Legislativo sobre a Administração é restrito às hipóteses previstas na Constituição, em respeito à separação de Poderes; não pode o Legislativo, fora dos casos constitucionais, sobrepor-se à atuação administrativa."
+        },
+        {
+          "h": "Controle jurisdicional e a jurisdição una",
+          "p": "É o controle exercido pelo Poder Judiciário sobre atos administrativos. No sistema de jurisdição una adotado no Brasil (art. 5º, XXXV), o Judiciário aprecia atos de qualquer Poder e produz coisa julgada material. Os instrumentos incluem ações comuns e os remédios constitucionais: habeas corpus, habeas data, mandado de segurança (individual e coletivo), mandado de injunção, ação popular e ação civil pública.\n\nO controle judicial recai, em regra, sobre a LEGALIDADE/legitimidade e a constitucionalidade do ato, inclusive em relação aos princípios (moralidade, proporcionalidade, razoabilidade). Quanto ao mérito administrativo (juízo de conveniência e oportunidade do ato discricionário), a regra tradicional é que o Judiciário não o substitui pelo seu próprio juízo. Contemporaneamente, porém, admite-se o controle dos limites da discricionariedade, dos elementos vinculados do ato discricionário (competência, forma, finalidade) e da observância de princípios constitucionais."
+        },
+        {
+          "h": "Jurisdição una x dualidade de jurisdição",
+          "p": "No sistema de unidade de jurisdição (modelo inglês), há um único órgão apto a dizer o direito com força de coisa julgada: o Poder Judiciário. É o adotado no Brasil. No sistema de dualidade de jurisdição (modelo francês), coexistem a jurisdição comum e a jurisdição administrativa (contencioso administrativo), esta com órgãos próprios (como o Conselho de Estado) que julgam definitivamente lides envolvendo a Administração.\n\nConsequência prática no Brasil: decisões dos Tribunais de Contas, decisões em processos administrativos disciplinares e quaisquer atos administrativos podem ser revistos pelo Judiciário. Atenção, porém: o Judiciário controla a legalidade/regularidade do processo, não substituindo o mérito técnico-administrativo da decisão do controle externo, salvo ilegalidade, teratologia ou ofensa a direitos."
+        }
+      ],
+      "exemplo": "Item comentado (Cebraspe): \"Por adotar o sistema de jurisdição una, o ordenamento brasileiro admite que decisões definitivas dos tribunais de contas, em matéria de julgamento de contas, sejam submetidas à apreciação do Poder Judiciário.\" Certo. A jurisdição una (art. 5º, XXXV) impede que qualquer lesão ou ameaça a direito seja subtraída do Judiciário; logo, mesmo a decisão do TCU pode ser judicialmente questionada (em regra quanto a aspectos de legalidade e devido processo). Pegadinha frequente: afirmar que o Brasil adota o contencioso administrativo (sistema francês) — errado.",
+      "pontos_chave": [
+        "Três espécies por Poder: administrativo (a própria Administração), parlamentar/legislativo e jurisdicional/judicial.",
+        "Brasil adota jurisdição UNA (sistema inglês): só o Judiciário faz coisa julgada material (art. 5º, XXXV).",
+        "Controle administrativo alcança legalidade E mérito; na Administração indireta é tutela/supervisão, não hierarquia.",
+        "Controle parlamentar tem dupla face: político (CPIs, convocações, art. 49) e financeiro (com auxílio do TCU).",
+        "Controle do Legislativo só nas hipóteses previstas na CF (separação de Poderes).",
+        "Controle judicial recai sobre legalidade/legitimidade; mérito do ato discricionário, em regra, não é substituído.",
+        "Diferença: jurisdição una (inglês, adotado no Brasil) x dualidade/contencioso administrativo (francês)."
+      ],
+      "dica_prova": "Memorize: Brasil = jurisdição UNA = sistema inglês. A banca inverte e diz \"sistema francês\" ou \"dualidade de jurisdição\" (errado). Outra troca comum: afirmar que o Judiciário pode rever o MÉRITO do ato discricionário livremente (em regra não substitui o mérito; controla legalidade e limites da discricionariedade). Lembre que o controle do Legislativo é limitado às hipóteses constitucionais."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "TCU, TCEs e TCDF",
+      "intro": "O Tribunal de Contas da União (TCU) é órgão constitucional autônomo, integrante da estrutura de controle externo, que auxilia o Congresso Nacional na fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (arts. 70 a 73 da CF). Não é subordinado ao Legislativo, ao Executivo ou ao Judiciário; goza das mesmas garantias de autonomia que asseguram sua independência funcional.\n\nO modelo do TCU é replicado, por simetria, aos demais entes: cada Estado tem seu Tribunal de Contas do Estado (TCE); o Distrito Federal tem o Tribunal de Contas do Distrito Federal (TCDF); e alguns Municípios mantêm Tribunais de Contas dos Municípios. O art. 75 da CF determina que as normas dos arts. 70 a 74 aplicam-se, no que couber, à organização, composição e fiscalização dos Tribunais de Contas dos Estados, do DF e dos Municípios.\n\nPara o AUFC-TI, é central conhecer a composição do TCU, suas competências (art. 71), a natureza jurídica de suas decisões e a jurisprudência consolidada, em especial a Súmula Vinculante 3 do STF.",
+      "secoes": [
+        {
+          "h": "Composição e garantias do TCU",
+          "p": "O TCU é integrado por 9 Ministros, tem sede no Distrito Federal, quadro próprio de pessoal e jurisdição em todo o território nacional (art. 73). Os Ministros são escolhidos: 1/3 pelo Presidente da República (com aprovação do Senado), sendo dois alternadamente entre auditores (Ministros-substitutos) e membros do Ministério Público junto ao Tribunal, indicados em lista tríplice pelo Tribunal segundo critérios de antiguidade e merecimento; e 2/3 pelo Congresso Nacional.\n\nRequisitos para Ministro (art. 73, §1º): mais de 35 e menos de 65 anos de idade; idoneidade moral e reputação ilibada; notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública; e mais de 10 anos de exercício de função ou efetiva atividade profissional que exija esses conhecimentos. Os Ministros do TCU têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Ministros do STJ (art. 73, §3º). Junto ao TCU atua um Ministério Público especializado (MP de Contas)."
+        },
+        {
+          "h": "Competências do TCU (art. 71)",
+          "p": "Entre as principais competências do art. 71: apreciar as contas anuais do Presidente da República, mediante PARECER PRÉVIO (quem as julga é o Congresso); JULGAR as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração direta e indireta, e as contas daqueles que derem causa a perda, extravio ou outra irregularidade de que resulte prejuízo ao erário; apreciar, para fins de REGISTRO, a legalidade dos atos de admissão de pessoal (exceto nomeações para cargo em comissão) e das concessões de aposentadorias, reformas e pensões; realizar inspeções e auditorias; fiscalizar a aplicação de recursos repassados mediante convênio; aplicar sanções e determinar a correção de ilegalidades; assinar prazo para o órgão sanar ilegalidades; e, no caso de ato, SUSTAR sua execução, comunicando ao Congresso.\n\nDistinção essencial: o TCU APRECIA as contas de governo (do Presidente) e dá parecer prévio, mas quem as JULGA é o Congresso Nacional; já as contas de gestão dos administradores são efetivamente JULGADAS pelo próprio TCU."
+        },
+        {
+          "h": "Natureza das decisões e responsabilidade",
+          "p": "As decisões do TCU de que resulte imputação de débito (alcance) ou multa têm eficácia de TÍTULO EXECUTIVO (art. 71, §3º, da CF). O débito é cobrado em execução, mas o TCU não possui legitimidade para promover a execução: cabe à entidade credora/ente público fazê-lo, por meio de sua representação judicial (entendimento do STF). A natureza dessas decisões é administrativa; \"julgar contas\" não significa exercer jurisdição em sentido próprio - não há coisa julgada material, e a decisão pode ser revista pelo Judiciário quanto à legalidade e ao devido processo (jurisdição una).\n\nO TCU pode decretar a indisponibilidade de bens do responsável por prazo determinado e declarar a inidoneidade de licitante fraudador. Pode ainda determinar medidas cautelares para evitar dano ao erário."
+        },
+        {
+          "h": "Jurisprudência: Súmula Vinculante 3 e contraditório",
+          "p": "A Súmula Vinculante 3 do STF estabelece que, nos processos perante o TCU, asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado. PORÉM, há uma exceção crucial: tais garantias NÃO se aplicam à apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão. A razão é que esse registro é ato complexo, que só se aperfeiçoa com a manifestação do Tribunal.\n\nComplemento jurisprudencial relevante: o STF firmou que, ultrapassado o prazo de cinco anos da chegada do processo ao TCU sem julgamento da legalidade do ato de aposentadoria, o Tribunal deve assegurar contraditório e ampla defesa ao interessado (decorrência da segurança jurídica). Esse conjunto é campeão de cobrança em provas."
+        },
+        {
+          "h": "TCEs, TCDF e a regra da simetria (art. 75)",
+          "p": "Os Tribunais de Contas dos Estados e o do DF reproduzem o modelo federal por simetria (art. 75). Os TCEs são integrados por 7 Conselheiros (jurisprudência do STF sobre o modelo de composição estadual: 3 indicados pelo Governador, sendo um de livre escolha e dois alternadamente entre auditores e membros do MP de Contas, e 4 pela Assembleia Legislativa). O TCDF segue padrão análogo.\n\nDuas vedações relevantes do art. 31: é vedada a criação de novos Tribunais, Conselhos ou órgãos de contas MUNICIPAIS (§4º) - os que já existiam, como em São Paulo e Rio de Janeiro, permanecem. O controle externo da Câmara Municipal é exercido com auxílio dos Tribunais de Contas dos Estados ou do Município, e o parecer prévio do Tribunal sobre as contas do Prefeito só deixa de prevalecer por decisão de 2/3 dos vereadores."
+        }
+      ],
+      "exemplo": "Item (Cebraspe): \"Aplica-se o contraditório e a ampla defesa, no âmbito do TCU, à apreciação da legalidade do ato de concessão inicial de aposentadoria de servidor.\" Errado. A Súmula Vinculante 3 EXCLUI expressamente a concessão inicial de aposentadoria, reforma e pensão da exigência de contraditório, por ser ato complexo que se aperfeiçoa com o registro pelo Tribunal. Outro item comum: \"As contas do Presidente da República são julgadas pelo TCU.\" Errado: o TCU emite PARECER PRÉVIO; o julgamento cabe ao Congresso Nacional. Já as contas dos administradores (contas de gestão) são julgadas pelo próprio TCU.",
+      "pontos_chave": [
+        "TCU: 9 Ministros, sede no DF, jurisdição nacional; 1/3 indicado pelo Presidente, 2/3 pelo Congresso (art. 73).",
+        "Garantias dos Ministros do TCU equiparadas às dos Ministros do STJ.",
+        "Contas do Presidente: TCU dá PARECER PRÉVIO; quem julga é o Congresso. Contas de gestão: TCU JULGA.",
+        "Decisões com imputação de débito ou multa têm eficácia de título executivo (art. 71, §3º); execução cabe ao ente credor, não ao TCU.",
+        "Decisões do TCU têm natureza administrativa, sem coisa julgada material; revisáveis pelo Judiciário (jurisdição una).",
+        "Súmula Vinculante 3: contraditório/ampla defesa no TCU, SALVO concessão inicial de aposentadoria/reforma/pensão (ato complexo).",
+        "Após 5 anos sem julgamento do ato de aposentadoria, o TCU deve assegurar contraditório (STF).",
+        "Art. 75 e simetria: TCEs (7 Conselheiros) e TCDF; vedada a criação de novos Tribunais de Contas municipais (art. 31, §4º)."
+      ],
+      "dica_prova": "As três pegadinhas estrela: (1) trocar APRECIAR/parecer prévio (contas do Presidente) por JULGAR; (2) afirmar que a SV 3 exige contraditório também na concessão inicial de aposentadoria (errado, é exceção); (3) dizer que o TCU executa suas próprias decisões (não executa; o título é executivo, mas a execução é do ente credor). Cuidado também com a composição: 9 Ministros no TCU, 7 Conselheiros nos TCEs."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Controle pelos tribunais de contas",
+      "intro": "Além de descrever quem são os Tribunais de Contas, é preciso compreender COMO eles exercem o controle externo: os tipos de contas que apreciam ou julgam, os instrumentos de fiscalização que utilizam e os limites de sua atuação, especialmente quanto à sustação de atos e contratos.\n\nO controle exercido pelos Tribunais de Contas é amplo e abrange dimensões de legalidade, legitimidade, economicidade, eficiência, eficácia e efetividade (controle operacional ou de resultados). Atua de forma prévia, concomitante e posterior, mediante diversos instrumentos previstos na Constituição, nas leis orgânicas (Lei 8.443/92, no caso do TCU) e nos regimentos internos.",
+      "secoes": [
+        {
+          "h": "Contas de governo x contas de gestão",
+          "p": "As contas de GOVERNO (ou contas de desempenho/de resultado) referem-se à atuação política e global do Chefe do Executivo na execução orçamentária e no cumprimento de metas; sobre elas o Tribunal emite PARECER PRÉVIO, e o JULGAMENTO compete ao Poder Legislativo (Congresso, Assembleia ou Câmara, conforme o ente).\n\nAs contas de GESTÃO (ou de ordenação de despesas) referem-se aos atos concretos de administradores e responsáveis por recursos públicos; essas o Tribunal de Contas EFETIVAMENTE JULGA (art. 71, II). A distinção foi central no Tema 835 do STF (RE 848.826): para fins de inelegibilidade (Lei da Ficha Limpa), a competência para julgar as contas de prefeitos - tanto as de governo quanto as de gestão - é da Câmara Municipal, cabendo ao Tribunal de Contas apenas auxiliar com parecer prévio. Esse precedente é muito cobrado por restringir, no âmbito municipal, o efeito de \"julgamento\" do Tribunal sobre o prefeito ordenador de despesas."
+        },
+        {
+          "h": "Instrumentos de fiscalização",
+          "p": "Os Tribunais de Contas dispõem de instrumentos típicos (no TCU, disciplinados na Lei 8.443/92 e no Regimento Interno): levantamento (conhecimento de órgãos e sistemas), auditoria (exame da legalidade e legitimidade dos atos de gestão, inclusive auditorias operacionais e de TI), inspeção (suprir omissões e esclarecer dúvidas, apurar fatos), acompanhamento (monitorar a gestão ao longo do exercício) e monitoramento (verificar o cumprimento de suas deliberações).\n\nA fiscalização pode ser deflagrada de ofício, por solicitação do Congresso, ou por DENÚNCIA/REPRESENTAÇÃO. Qualquer cidadão, partido, associação ou sindicato é parte legítima para denunciar irregularidades (art. 74, §2º). No exercício dessas competências, o Tribunal pode aplicar multas, imputar débito, determinar correções, fixar prazos para saneamento e adotar medidas cautelares, inclusive a indisponibilidade de bens."
+        },
+        {
+          "h": "Sustação de atos e a regra especial dos contratos",
+          "p": "Verificada ilegalidade, o Tribunal assina prazo para que o órgão adote providências. Se não atendido e tratando-se de ATO, o próprio Tribunal SUSTA a execução do ato impugnado, comunicando a decisão à Câmara dos Deputados e ao Senado Federal (art. 71, X).\n\nQuanto aos CONTRATOS, a regra é diferente e cai muito em prova: o ato de sustação será adotado diretamente pelo CONGRESSO NACIONAL, que solicitará, de imediato, ao Poder Executivo as medidas cabíveis (art. 71, §1º). Ou seja, o Tribunal NÃO susta contratos diretamente. E se o Congresso ou o Executivo, no prazo de 90 dias, não efetivar as medidas, o TRIBUNAL decidirá a respeito (art. 71, §2º) - retomando a competência por inércia dos demais. O STF reconhece, ainda, que o Tribunal pode determinar, cautelarmente, a suspensão de procedimento ou de execução de contrato eivado de grave ilegalidade, como medida de poder geral de cautela."
+        },
+        {
+          "h": "Limites e jurisprudência relevante",
+          "p": "O Tribunal de Contas exerce controle de legalidade e economicidade, mas não exerce jurisdição: suas decisões são administrativas e sujeitas a revisão judicial. A Súmula 347 do STF (que admitia ao TCU apreciar a constitucionalidade de leis e atos do poder público no exercício de suas atribuições) teve sua aplicabilidade fortemente questionada e mitigada pelo STF, prevalecendo o entendimento de que o controle de constitucionalidade incidental por tribunais de contas é, no mínimo, restrito.\n\nOutras balizas: o TCU não pode anular ou sustar contratos diretamente (regra do art. 71, §1º), nem substituir o administrador em juízos discricionários legítimos. A Súmula Vinculante 3 (contraditório/ampla defesa, salvo concessão inicial de aposentadoria) também rege a atuação desses tribunais. Por fim, prazos de prescrição das pretensões de ressarcimento por dano ao erário, decorrente de ato de improbidade ou de decisão de tribunal de contas, foram delimitados pelo STF (em regra, prescritíveis, salvo a hipótese de ressarcimento decorrente de ato doloso de improbidade reconhecido judicialmente, conforme Tema 897)."
+        }
+      ],
+      "exemplo": "Item (Cebraspe): \"Constatada ilegalidade em contrato administrativo e não atendido o prazo para saneamento, o próprio Tribunal de Contas determinará a sustação do contrato.\" Errado. Em regra, a sustação de CONTRATO compete ao Congresso Nacional, que solicita as medidas ao Executivo (art. 71, §1º). Só se Congresso e Executivo não agirem em 90 dias é que o Tribunal decide (art. 71, §2º). Já a sustação de ATO (não contrato) é feita diretamente pelo Tribunal (art. 71, X), com comunicação às Casas do Congresso. A confusão ato x contrato é a pegadinha clássica do tema.",
+      "pontos_chave": [
+        "Contas de governo: parecer prévio do Tribunal + julgamento pelo Legislativo. Contas de gestão: julgadas pelo próprio Tribunal.",
+        "Tema 835/STF: contas de prefeito (governo e gestão) são julgadas pela Câmara Municipal; Tribunal só dá parecer prévio.",
+        "Instrumentos de fiscalização: levantamento, auditoria, inspeção, acompanhamento e monitoramento (Lei 8.443/92).",
+        "Sustação de ATO: feita diretamente pelo Tribunal, comunicando ao Congresso (art. 71, X).",
+        "Sustação de CONTRATO: cabe ao Congresso (art. 71, §1º); se ele e o Executivo não agirem em 90 dias, o Tribunal decide (§2º).",
+        "Tribunal pode, cautelarmente, suspender procedimento/contrato com grave ilegalidade (poder geral de cautela - STF).",
+        "Decisões são administrativas, sem coisa julgada; sujeitas a controle judicial.",
+        "Súmula 347/STF (controle de constitucionalidade pelo TC) está mitigada; aplicabilidade restrita."
+      ],
+      "dica_prova": "Decore o esquema da sustação: ATO = Tribunal susta direto; CONTRATO = Congresso susta, e só por inércia (90 dias) o Tribunal decide. A Cebraspe inverte isso constantemente. Lembre também que tribunal de contas NÃO julga as contas do Chefe do Executivo (parecer prévio + julgamento legislativo) e que suas decisões não fazem coisa julgada material. Cuidado com a Súmula 347: hoje sua aplicação é restrita."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Controle da atividade financeira do Estado",
+      "intro": "A atividade financeira do Estado é o conjunto de ações voltadas a obter, gerir e aplicar recursos para a realização de suas finalidades públicas. Compreende a receita pública (arrecadação), a despesa pública (aplicação), o orçamento (planejamento) e o crédito público (endividamento). Por movimentar dinheiro público, essa atividade submete-se a um sistema rigoroso de controle.\n\nO controle da atividade financeira é a fiscalização da regularidade na arrecadação e no dispêndio dos recursos públicos, à luz da legalidade, legitimidade e economicidade. Está positivado no art. 70 da CF (fiscalização contábil, financeira, orçamentária, operacional e patrimonial) e operacionalizado por normas como a Lei 4.320/64 (normas gerais de direito financeiro) e a Lei Complementar 101/2000 (Lei de Responsabilidade Fiscal - LRF).",
+      "secoes": [
+        {
+          "h": "Espécies de controle: quanto ao momento",
+          "p": "Quanto ao momento de exercício, o controle financeiro pode ser PRÉVIO (a priori), exercido antes da prática ou conclusão do ato, com função preventiva (ex.: empenho prévio da despesa, exigência de prévia dotação orçamentária, registro prévio do TCU em certos atos); CONCOMITANTE (sucessivo), exercido durante a execução, acompanhando a gestão em tempo real (ex.: acompanhamento da execução orçamentária, auditorias durante o exercício); e POSTERIOR (a posteriori ou subsequente), exercido após a conclusão do ato ou do exercício, para verificar a regularidade e corrigir desvios (ex.: julgamento das contas anuais, tomada de contas).\n\nNo modelo brasileiro, predomina o controle concomitante e posterior; o controle prévio externo (visto/registro prévio de despesas pelo Tribunal) foi reduzido em relação a modelos antigos, ganhando força a fiscalização operacional e o acompanhamento contínuo."
+        },
+        {
+          "h": "Espécies quanto ao objeto e à extensão",
+          "p": "Quanto ao objeto, distingue-se o controle de LEGALIDADE (conformidade com a norma), o de LEGITIMIDADE (conformidade com o interesse público e os princípios), o de ECONOMICIDADE (melhor relação custo-benefício, eficiência alocativa) e o de MÉRITO (resultados e oportunidade). O art. 70 da CF é expresso ao incluir legalidade, legitimidade e economicidade.\n\nQuanto à extensão/dimensão fiscalizada, o art. 70 estrutura a fiscalização em: contábil (escrituração e demonstrações), financeira (fluxos de ingresso e saída de recursos e disponibilidades), orçamentária (execução do orçamento e cumprimento dos limites e da programação), operacional (eficiência, eficácia e efetividade da gestão - auditoria de desempenho) e patrimonial (bens, direitos e obrigações; variações do patrimônio público)."
+        },
+        {
+          "h": "Sistemas de controle: interno, externo e social",
+          "p": "Quanto ao órgão que controla, há o controle INTERNO (sistema mantido por cada Poder, art. 74 - auditorias internas, contabilidade, órgãos de controle como a CGU no Executivo federal), o controle EXTERNO (Congresso com auxílio do TCU; nos demais entes, os respectivos Legislativos e Tribunais de Contas) e o controle SOCIAL (exercido pela sociedade - conselhos, audiências públicas, transparência ativa e passiva, portais de transparência, e a legitimidade do cidadão para denunciar, art. 74, §2º).\n\nA LRF (LC 101/2000) reforçou esse sistema ao instituir mecanismos de transparência da gestão fiscal (relatórios resumidos da execução orçamentária - RREO, relatórios de gestão fiscal - RGF), limites de despesa com pessoal e de endividamento, e a exigência de planejamento (PPA, LDO, LOA, integrados). A Lei de Acesso à Informação (Lei 12.527/2011) e a transparência por meios eletrônicos potencializam o controle social."
+        },
+        {
+          "h": "Instrumentos contábeis e papel da TI",
+          "p": "O controle da atividade financeira apoia-se em instrumentos contábeis e tecnológicos. A Lei 4.320/64 fixa estágios da despesa (empenho, liquidação, pagamento) e da receita (lançamento, arrecadação, recolhimento), bem como a estrutura dos demonstrativos contábeis. Sistemas estruturantes de TI são hoje essenciais: o SIAFI (execução financeira e orçamentária federal), o Tesouro Gerencial, o SICONFI (informações contábeis e fiscais de entes), entre outros.\n\nPara o auditor de TI, esse é um ponto de conexão direta: a confiabilidade do controle financeiro depende da integridade, disponibilidade e segurança dos sistemas de informação que processam dados orçamentários e contábeis. Auditorias de TI sobre sistemas estruturantes avaliam controles de acesso, segregação de funções, trilhas de auditoria (logs), integridade de dados e continuidade - frequentemente referenciando COBIT 2019, NBR ISO/IEC 27001 e normas de auditoria do setor público (ISSAI/NBASP)."
+        }
+      ],
+      "exemplo": "Item (Cebraspe): \"A fiscalização da atividade financeira do Estado, nos termos do art. 70 da CF, abrange os aspectos contábil, financeiro, orçamentário, operacional e patrimonial, sob os critérios de legalidade, legitimidade e economicidade.\" Certo. O enunciado reproduz fielmente o art. 70, caput. Pegadinha comum: suprimir a economicidade ou a fiscalização operacional, ou afirmar que o controle se restringe à legalidade (errado - inclui legitimidade e economicidade, e a dimensão operacional/de resultados). Outra cobrança típica vincula a LRF ao controle da gestão fiscal e à transparência (controle social).",
+      "pontos_chave": [
+        "Atividade financeira: obter (receita), gerir e aplicar (despesa) recursos; inclui orçamento e crédito público.",
+        "Quanto ao momento: controle prévio, concomitante e posterior (no Brasil, predominam concomitante e posterior).",
+        "Quanto ao objeto: legalidade, legitimidade, economicidade e mérito (art. 70 cita os três primeiros expressamente).",
+        "Dimensões do art. 70: contábil, financeira, orçamentária, operacional e patrimonial.",
+        "Sistemas por órgão: controle interno (art. 74), externo (Congresso + TCU) e social (sociedade/transparência).",
+        "LRF (LC 101/2000) e LAI (Lei 12.527/2011) reforçam transparência fiscal e controle social.",
+        "Lei 4.320/64: estágios da despesa (empenho, liquidação, pagamento) e da receita.",
+        "Sistemas estruturantes de TI (SIAFI, SICONFI) são objeto de auditoria de TI: integridade, acessos, logs, continuidade."
+      ],
+      "dica_prova": "A banca cobra a literalidade do art. 70: cinco dimensões (contábil, financeira, orçamentária, operacional, patrimonial) e três critérios (legalidade, legitimidade, economicidade). Erros típicos: omitir a economicidade ou a fiscalização operacional, ou dizer que o controle financeiro é só posterior (também há prévio e concomitante). Associe LRF e LAI ao controle social/transparência. Para TI, lembre que a auditoria financeira moderna depende da auditoria dos sistemas que processam os dados."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Segurança em nuvem e contêineres — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/seguranca-informacao.html">🔐 Segurança da Informação</a> ›
+    <span>Segurança em nuvem e contêineres</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Criptografia e proteção de dados</p>
+    <h1>Segurança em nuvem e contêineres</h1>
+    
+    <p>A adoção de nuvem e de contêineres mudou o modelo de segurança: a responsabilidade passa a ser COMPARTILHADA entre provedor e cliente, e novas superfícies de ataque (configurações, identidades, orquestração) ganham protagonismo. Para a auditoria de TI, entender o que cabe a cada parte e os controles específicos desses ambientes é indispensável.</p><p>Dois princípios atravessam o tema: privacy by design / privacy by default (privacidade desde a concepção e por padrão, exigida pela LGPD) e o modelo de responsabilidade compartilhada, frequentemente mal compreendido — gerando os erros de configuração que são a causa mais comum de incidentes em nuvem.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Modelo de responsabilidade compartilhada</h2><p>Na nuvem, o provedor é responsável pela segurança DA nuvem (infraestrutura física, hardware, virtualização) e o cliente pela segurança NA nuvem (seus dados, configurações, identidades, acessos). A divisão varia com o modelo de serviço: em IaaS, o cliente assume mais (SO, rede, aplicação); em PaaS, divide-se; em SaaS, o provedor cobre quase tudo, restando ao cliente os dados e o controle de acesso. Ponto crítico: a proteção dos DADOS e a configuração de ACESSO são SEMPRE responsabilidade do cliente. A maioria dos vazamentos em nuvem decorre de misconfiguration (ex.: bucket de armazenamento exposto publicamente), não de falha do provedor.</p></section><section class="amp-sec"><h2>Controles essenciais em nuvem</h2><p>Gestão de identidade e acesso (IAM) com menor privilégio e MFA; criptografia de dados em trânsito (TLS) e em repouso, com gestão de chaves (KMS/HSM); segmentação de rede (VPC, security groups, sub-redes); CSPM (Cloud Security Posture Management) para detectar misconfigurations e desvios de conformidade; CASB para visibilidade/controle do uso de serviços de nuvem; logging e monitoramento centralizados; e arquitetura Zero Trust. Em ambientes federais, observam-se ISO/IEC 27001/27017/27018 (nuvem e proteção de dados pessoais em nuvem), LGPD e requisitos de soberania/localização de dados.</p></section><section class="amp-sec"><h2>Segurança de contêineres e orquestração</h2><p>Contêineres (ex.: Docker) empacotam aplicação e dependências, compartilhando o kernel do host — por isso oferecem isolamento mais fraco que VMs (o comprometimento do kernel afeta todos os contêineres). Controles: usar imagens mínimas e de fontes confiáveis, escanear imagens em busca de vulnerabilidades (image scanning no pipeline), não rodar como root, aplicar least privilege e capabilities mínimas, garantir imutabilidade e proteger o registry. A orquestração com Kubernetes adiciona controles próprios: RBAC, Network Policies (microssegmentação), Secrets (não em texto claro), Pod Security Standards/admission controllers e proteção do API Server e do etcd. O conceito DevSecOps integra esses scans e políticas ao CI/CD (&#x27;shift left&#x27;).</p></section><section class="amp-sec"><h2>Privacidade e conformidade (LGPD)</h2><p>A LGPD impõe medidas de segurança técnicas e administrativas e os princípios de privacy by design e by default — a privacidade deve ser considerada desde a concepção do sistema e ser a configuração padrão. Em nuvem, isso implica: minimização de dados, criptografia, controle de acesso, contratos com o operador (provedor) prevendo tratamento adequado, e atenção a transferências internacionais de dados. Para o controle externo, contratos de nuvem do setor público devem prever requisitos de segurança, portabilidade/reversibilidade, localização e auditabilidade dos dados.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;No modelo de computação em nuvem, a responsabilidade pela proteção dos dados e pela configuração dos controles de acesso é integralmente do provedor, independentemente do modelo de serviço.&#x27; — ERRADO. A proteção dos DADOS e a configuração de ACESSO são responsabilidade do CLIENTE em todos os modelos (a divisão de outras camadas varia entre IaaS/PaaS/SaaS). Em auditoria do TCU, ao avaliar uma contratação de nuvem, a equipe verifica configurações (CSPM), buckets públicos indevidos, criptografia e gestão de chaves, IAM com menor privilégio, e cláusulas contratuais de segurança, reversibilidade e localização dos dados (LGPD).</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha central é atribuir TODA a segurança ao provedor: na verdade, dados e acessos são do cliente, e a divisão depende de IaaS/PaaS/SaaS. Outra: dizer que contêineres isolam tanto quanto VMs — não; compartilham o kernel, isolamento mais fraco. Cuidado com &#x27;a nuvem é segura por padrão&#x27; — a maioria dos incidentes vem de configuração do cliente. Associe privacy by design/by default à LGPD.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Criptografia e certificação digital</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Responsabilidade compartilhada: provedor pela segurança DA nuvem; cliente pela segurança NA nuvem.</li><li>Dados e controle de acesso são SEMPRE responsabilidade do cliente; misconfiguration causa a maioria dos vazamentos.</li><li>A divisão varia por modelo: IaaS (cliente assume mais) → SaaS (provedor assume mais).</li><li>Controles: IAM/MFA, criptografia + KMS, segmentação, CSPM, CASB, logging, Zero Trust.</li><li>Contêineres compartilham o kernel do host: isolamento mais fraco que VMs.</li><li>Segurança de contêiner: imagens mínimas/escaneadas, não rodar como root, registry seguro.</li><li>Kubernetes: RBAC, Network Policies, Secrets cifrados, proteção do API Server/etcd.</li><li>LGPD: privacy by design e by default; contratos de nuvem com requisitos de segurança e reversibilidade.</li></ul></div>
+      <a class="back" href="../../disciplinas/seguranca-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

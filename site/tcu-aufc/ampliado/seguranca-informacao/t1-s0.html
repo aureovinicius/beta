@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tipos de malware — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/seguranca-informacao.html">🔐 Segurança da Informação</a> ›
+    <span>Tipos de malware</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Malware e ataques a redes</p>
+    <h1>Tipos de malware</h1>
+    
+    <p>Malware (malicious software) é qualquer programa ou código desenvolvido para causar dano, obter acesso indevido, espionar ou comprometer a confidencialidade, integridade ou disponibilidade de sistemas. A banca cobra com frequência a CLASSIFICAÇÃO precisa de cada tipo, pois as definições têm fronteiras que se confundem facilmente — sobretudo entre vírus, worm e trojan.</p><p>O critério mais útil para separá-los é o mecanismo de propagação e ativação: o vírus precisa de um hospedeiro e da ação do usuário; o worm é autônomo e se autopropaga; o trojan se disfarça de software legítimo; e há ainda categorias definidas pela FINALIDADE (espionar, sequestrar dados, dar acesso remoto, ocultar-se).</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Vírus, worm e trojan: a tríade que mais cai</h2><p>Vírus: anexa-se a um arquivo ou programa hospedeiro e depende da execução desse hospedeiro (ação do usuário) para se ativar e replicar. NÃO se propaga sozinho. Worm (verme): é um programa AUTÔNOMO que se autopropaga pela rede, explorando vulnerabilidades, sem necessidade de hospedeiro nem de ação do usuário — por isso se alastra muito rápido (ex.: Conficker, WannaCry usou um componente worm via EternalBlue). Trojan (cavalo de Troia): disfarça-se de software legítimo/útil para enganar o usuário a executá-lo; NÃO se autorreplica — sua característica é o disfarce e a entrega de uma carga maliciosa (ex.: abrir um backdoor).</p></section><section class="amp-sec"><h2>Ransomware e malwares de extorsão</h2><p>Ransomware: criptografa os dados da vítima (ou bloqueia o sistema) e exige resgate (ransom), geralmente em criptomoeda, para liberar a chave. Variantes modernas praticam dupla extorsão: além de cifrar, exfiltram os dados e ameaçam divulgá-los. É hoje uma das principais ameaças a órgãos públicos. A melhor defesa é backup íntegro, testado e offline/imutável (regra 3-2-1), além de segmentação de rede e MFA — pagar o resgate é desaconselhado e não garante a recuperação.</p></section><section class="amp-sec"><h2>Espionagem e captura: spyware, keylogger, adware</h2><p>Spyware: monitora atividades e coleta informações do usuário sem consentimento. Keylogger: tipo de spyware que registra as teclas digitadas (captura senhas, podendo ser por software ou hardware). Adware: exibe propaganda de forma intrusiva; nem sempre é malicioso, mas frequentemente associado a spyware. Screenlogger captura telas/cliques (contorna teclados virtuais).</p></section><section class="amp-sec"><h2>Ocultação e persistência: rootkit, backdoor, bot, fileless</h2><p>Rootkit: conjunto de ferramentas que ocultam a presença do malware e do atacante, garantindo acesso privilegiado (root) e dificultando a detecção; pode operar em nível de kernel. Backdoor: mecanismo que abre uma &#x27;porta dos fundos&#x27; para acesso remoto futuro, contornando a autenticação normal. Bot/zumbi: máquina comprometida controlada remotamente; um conjunto de bots forma uma botnet (usada em DDoS, spam). Fileless malware: opera na memória RAM, sem gravar arquivos em disco, abusando de ferramentas legítimas do sistema (ex.: PowerShell, WMI — &#x27;living off the land&#x27;), o que dificulta a detecção por antivírus baseado em assinatura.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado: &#x27;Diferentemente do vírus, o worm é capaz de se propagar automaticamente pela rede, sem necessidade de um arquivo hospedeiro ou de ação do usuário.&#x27; — CERTO. Essa é a distinção canônica. Em um cenário de auditoria, o TCU pode verificar a maturidade da resposta a ransomware de um órgão: existência de backups offline testados, segmentação de rede, EDR e plano de continuidade. A ausência de backup imutável é achado crítico, pois ransomware com dupla extorsão neutraliza backups online conectados.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha número um é dizer que vírus &#x27;se propaga sozinho pela rede&#x27; (isso é worm) ou que worm &#x27;precisa de hospedeiro&#x27; (não precisa). Outra: afirmar que trojan se replica (não replica). Lembre que keylogger é uma subespécie de spyware. Cuidado com &#x27;antivírus detecta qualquer malware&#x27; — fileless e ataques zero-day frequentemente escapam de assinaturas tradicionais.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s1.html">← MFA, IAM e PAM</a><a class="pager next" href="t1-s1.html">Ataques a redes e aplicações →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Vírus precisa de hospedeiro e ação do usuário; NÃO se autopropaga.</li><li>Worm é autônomo e se autopropaga pela rede explorando vulnerabilidades.</li><li>Trojan se disfarça de software legítimo e NÃO se autorreplica.</li><li>Ransomware cifra dados e exige resgate; dupla extorsão também exfiltra.</li><li>Keylogger é spyware que captura teclas; spyware espiona em geral.</li><li>Rootkit oculta presença e garante acesso privilegiado (kernel).</li><li>Backdoor abre acesso remoto; botnet é conjunto de bots/zumbis.</li><li>Fileless atua na memória, sem arquivo em disco, dificultando assinatura.</li></ul></div>
+      <a class="back" href="../../disciplinas/seguranca-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

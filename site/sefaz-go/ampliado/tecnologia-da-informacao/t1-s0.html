@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integridade e segurança — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/tecnologia-da-informacao.html">💻 Tecnologias da Informação</a> ›
+    <span>Integridade e segurança</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Administração de dados</p>
+    <h1>Integridade e segurança</h1>
+    
+    <p>A administração de dados trata o dado como ativo estratégico da organização, zelando por sua integridade (correção e consistência), confidencialidade (sigilo) e disponibilidade. No contexto fiscal, isso é crítico: dados do contribuinte são protegidos por sigilo fiscal (art. 198 do CTN), e qualquer falha de integridade ou vazamento tem repercussão legal e funcional.</p><p>Dois pilares sustentam esse zelo: o controle de transações, que garante a consistência mesmo diante de falhas e acessos concorrentes (propriedades ACID e níveis de isolamento), e o controle de acesso, que assegura que apenas usuários autorizados manipulem cada dado (autenticação e autorização).</p><p>Entender ACID e isolamento é decisivo porque bancas cobram exatamente onde as garantias começam e terminam — por exemplo, por que uma transação pode &#x27;enxergar&#x27; dados não confirmados de outra.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Transações e propriedades ACID</h2><p>Uma transação é uma unidade lógica de trabalho composta por uma ou mais operações que devem ocorrer &#x27;tudo ou nada&#x27;. As propriedades ACID garantem sua confiabilidade:</p><p>Atomicidade — a transação é indivisível: ou todas as operações se efetivam (COMMIT) ou nenhuma (ROLLBACK). Consistência — leva o banco de um estado válido a outro estado válido, respeitando todas as restrições. Isolamento — transações concorrentes não interferem indevidamente umas nas outras (como se fossem seriais). Durabilidade — após o COMMIT, as alterações persistem mesmo diante de falhas de energia ou queda do sistema (garantida por logs e gravação em disco).</p></section><section class="amp-sec"><h2>Problemas de concorrência</h2><p>Quando várias transações acessam os mesmos dados simultaneamente, podem surgir anomalias: dirty read (leitura suja — ler dado alterado por transação ainda não confirmada, que pode sofrer rollback); non-repeatable read (leitura não repetível — ler o mesmo registro duas vezes com valores diferentes); e phantom read (leitura fantasma — uma nova consulta retorna linhas que não existiam antes, inseridas por outra transação).</p><p>O isolamento controla quais dessas anomalias são toleradas: quanto maior o isolamento, menos anomalias e menor a concorrência (desempenho).</p></section><section class="amp-sec"><h2>Níveis de isolamento (SQL padrão)</h2><p>O padrão SQL define quatro níveis crescentes: READ UNCOMMITTED (permite dirty read); READ COMMITTED (impede dirty read, mas admite non-repeatable e phantom); REPEATABLE READ (impede dirty e non-repeatable, mas pode permitir phantom); e SERIALIZABLE (o mais rígido, impede todas as anomalias, simulando execução serial).</p><p>Mecanismos de implementação incluem bloqueios (locks) e controle de concorrência multiversão (MVCC). O trade-off central: mais isolamento = mais integridade, menos concorrência/desempenho.</p></section><section class="amp-sec"><h2>Autenticação, autorização e sigilo fiscal</h2><p>A segurança lógica do banco assenta-se em autenticação (verificar quem é o usuário) e autorização (definir o que ele pode fazer), implementada por GRANT/REVOKE e por papéis (RBAC — controle de acesso baseado em papéis). Aplica-se o princípio do menor privilégio e a segregação de funções.</p><p>Complementam o quadro: criptografia (em repouso e em trânsito), trilhas de auditoria (logs de acesso), mascaramento de dados sensíveis e o respeito ao sigilo fiscal (art. 198 do CTN) e à LGPD (Lei 13.709/2018). O cruzamento de dados pela administração tributária é lícito, mas o acesso individualizado exige autorização e registro.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Imagine duas operações simultâneas sobre a conta corrente fiscal de um contribuinte: a transação T1 registra um pagamento de R$ 50.000 (débito da dívida) e a transação T2 gera uma certidão consultando o saldo devedor. Sem isolamento adequado, T2 poderia ler o saldo já reduzido por T1 antes do COMMIT (dirty read); se T1 sofrer rollback, a certidão teria sido emitida com base em dado inexistente. Com isolamento READ COMMITTED, T2 só enxergaria valores confirmados, evitando a certidão indevida.</p><p>Questão típica (Cebraspe): &#x27;No nível SERIALIZABLE, é possível ocorrer leitura fantasma.&#x27; — ERRADO; SERIALIZABLE impede dirty, non-repeatable E phantom reads. Já em REPEATABLE READ, a leitura fantasma ainda pode ocorrer no padrão SQL.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Associe cada anomalia ao nível que a impede: SERIALIZABLE bloqueia tudo; REPEATABLE READ ainda deixa passar phantom; READ COMMITTED só barra dirty read. A pegadinha mais comum troca atomicidade por durabilidade (atomicidade é &#x27;tudo ou nada&#x27; durante a execução; durabilidade é &#x27;persiste após o commit&#x27;). Cuidado também com &#x27;Consistência&#x27; do ACID, que se refere a respeitar as regras de integridade do banco, e não a &#x27;consistência eventual&#x27; de bancos distribuídos.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s2.html">← Normalização</a><a class="pager next" href="t1-s1.html">Backup e recuperação →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>ACID: Atomicidade, Consistência, Isolamento, Durabilidade.</li><li>Atomicidade = tudo ou nada; Durabilidade = persiste após COMMIT mesmo com falha.</li><li>Anomalias de concorrência: dirty read, non-repeatable read, phantom read.</li><li>Níveis: READ UNCOMMITTED &lt; READ COMMITTED &lt; REPEATABLE READ &lt; SERIALIZABLE.</li><li>Mais isolamento = mais integridade, menos concorrência/desempenho.</li><li>Segurança: autenticação + autorização (GRANT/REVOKE, RBAC, menor privilégio).</li><li>Sigilo fiscal: art. 198 do CTN; proteção de dados: LGPD (Lei 13.709/2018).</li></ul></div>
+      <a class="back" href="../../disciplinas/tecnologia-da-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

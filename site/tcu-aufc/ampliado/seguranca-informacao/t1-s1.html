@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ataques a redes e aplicações — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/seguranca-informacao.html">🔐 Segurança da Informação</a> ›
+    <span>Ataques a redes e aplicações</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Malware e ataques a redes</p>
+    <h1>Ataques a redes e aplicações</h1>
+    
+    <p>Os ataques cobrados na prova podem ser organizados por alvo: ataques à DISPONIBILIDADE (DoS/DDoS), ataques baseados em ENGENHARIA SOCIAL (phishing), ataques que exploram FALHAS DESCONHECIDAS (zero-day), ataques de FALSIFICAÇÃO/INTERCEPTAÇÃO em rede (spoofing, DNS poisoning, MITM) e ataques contra APLICAÇÕES (buffer overflow, SQL injection, XSS).</p><p>O examinador costuma exigir que você identifique o mecanismo do ataque e a propriedade da segurança violada (confidencialidade, integridade, disponibilidade). Dominar essas correspondências é o que separa o acerto do erro em itens certo/errado.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Ataques à disponibilidade: DoS e DDoS</h2><p>DoS (Denial of Service): negação de serviço, em que o atacante esgota recursos (banda, CPU, conexões) para tornar o serviço indisponível, partindo geralmente de UMA origem. DDoS (Distributed DoS): negação distribuída, com múltiplas origens coordenadas (uma botnet), o que dificulta o bloqueio e amplifica o volume. Há ataques de amplificação/reflexão (DNS, NTP, memcached) que multiplicam o tráfego. Violam a DISPONIBILIDADE. Defesas: rate limiting, scrubbing centers, CDNs, anti-DDoS de provedores.</p></section><section class="amp-sec"><h2>Engenharia social: phishing e variantes</h2><p>Phishing: fraude que induz a vítima a revelar dados sensíveis (senhas, dados bancários) por mensagens falsas que se passam por entidades legítimas. Variantes: spear phishing (direcionado a alvo específico), whaling (alvos executivos), smishing (por SMS), vishing (por voz/telefone) e pharming (redireciona a vítima a site falso, frequentemente via DNS poisoning). Explora o fator humano; a defesa combina conscientização, filtros antispam, DMARC/SPF/DKIM e MFA.</p></section><section class="amp-sec"><h2>Zero-day e ataques de rede (spoofing, poisoning, MITM)</h2><p>Zero-day: explora uma vulnerabilidade ainda DESCONHECIDA do fabricante (sem correção/patch disponível) — &#x27;zero dias&#x27; de aviso prévio; por isso assinaturas tradicionais não a detectam. IP spoofing: falsifica o endereço IP de origem dos pacotes para se passar por outra máquina ou ocultar a origem. ARP spoofing (ARP poisoning): envia respostas ARP forjadas na LAN para associar o IP da vítima/gateway ao MAC do atacante, permitindo interceptar o tráfego (viabiliza Man-in-the-Middle). DNS poisoning (cache poisoning): corrompe o cache de um resolvedor DNS para que um domínio legítimo resolva para um IP malicioso, redirecionando usuários (base do pharming). MITM intercepta a comunicação entre duas partes que creem falar diretamente.</p></section><section class="amp-sec"><h2>Ataques a aplicações: overflow, injeção e XSS</h2><p>Buffer overflow (estouro de buffer): escreve dados além do limite de um buffer na memória, podendo corromper a pilha e executar código arbitrário; explora linguagens sem verificação de limites (C/C++). SQL Injection (SQLi): insere comandos SQL maliciosos em campos de entrada não validados, permitindo ler, alterar ou apagar dados do banco e burlar autenticação (ex.: &#x27; OR &#x27;1&#x27;=&#x27;1). XSS (Cross-Site Scripting): injeta scripts maliciosos (JavaScript) em páginas web que serão executados no NAVEGADOR de outros usuários — tipos: stored (armazenado), reflected (refletido) e DOM-based; permite roubar cookies de sessão e sequestrar contas. A defesa central é validação/sanitização de entradas, consultas parametrizadas (prepared statements) para SQLi e output encoding/CSP para XSS.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;No ataque de cross-site scripting, o invasor injeta código que é executado no servidor da aplicação web, comprometendo o banco de dados.&#x27; — ERRADO. O XSS executa scripts no NAVEGADOR de outros usuários (lado cliente), não no servidor; quem ataca diretamente o banco via comandos injetados é o SQL Injection. Em auditoria, ao avaliar um sistema web do governo, o TCU pode solicitar evidências de testes de segurança (pentest, DAST) cobrindo o OWASP Top 10 e verificar se as entradas são parametrizadas (anti-SQLi) e codificadas na saída (anti-XSS).</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A confusão favorita da banca é XSS x SQLi: XSS = cliente/navegador; SQLi = servidor/banco. Outra: dizer que DDoS quebra a confidencialidade — não; ataca a DISPONIBILIDADE. Zero-day é definido pela ausência de correção conhecida, não pela técnica. ARP spoofing é local (camada de enlace, na LAN); IP spoofing falsifica o endereço de rede. Saiba mapear cada ataque à propriedade (CID) que viola.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s0.html">← Tipos de malware</a><a class="pager next" href="t2-s0.html">Firewall, IDS/IPS, SIEM e proxy →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>DoS parte de uma origem; DDoS é distribuído (botnet); ambos violam disponibilidade.</li><li>Phishing explora o fator humano; pharming redireciona via DNS poisoning.</li><li>Zero-day explora falha desconhecida sem patch; escapa de assinaturas.</li><li>IP spoofing falsifica IP de origem; ARP spoofing viabiliza MITM na LAN.</li><li>DNS poisoning corrompe o cache para redirecionar a sites maliciosos.</li><li>SQL Injection ataca o banco (servidor); XSS executa script no navegador (cliente).</li><li>Buffer overflow estoura limites de memória e pode executar código arbitrário.</li><li>Defesas de app: validação de entrada, prepared statements (SQLi), CSP/encoding (XSS).</li></ul></div>
+      <a class="back" href="../../disciplinas/seguranca-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

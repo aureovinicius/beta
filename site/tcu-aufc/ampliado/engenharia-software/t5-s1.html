@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desenvolvimento seguro (DevSecOps) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Desenvolvimento seguro (DevSecOps)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Testes e desenvolvimento seguro</p>
+    <h1>Desenvolvimento seguro (DevSecOps)</h1>
+    
+    <p>Desenvolvimento seguro é a prática de integrar a segurança em todas as fases do ciclo de vida do software (SDLC), em vez de tratá-la como verificação final. DevSecOps estende o DevOps incorporando a segurança como responsabilidade compartilhada e automatizada na esteira — o lema é &quot;shift left&quot;: antecipar os controles de segurança para o início do desenvolvimento, quando corrigir é mais barato.</p><p>Para o auditor de TI do TCU, avaliar se a organização adota práticas de desenvolvimento seguro (modelagem de ameaças, análise de vulnerabilidades automatizada, gestão de dependências) é parte de verificar a segurança e a conformidade dos sistemas, em linha com a LGPD, a ISO/IEC 27001 e diretrizes de segurança cibernética do governo.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Princípio do shift left e SDLC seguro</h2><p>No modelo tradicional, a segurança era testada só ao fim, gerando retrabalho caro e atrasos. DevSecOps move a segurança para a esquerda (shift left): requisitos de segurança desde a concepção, modelagem de ameaças (threat modeling, ex.: STRIDE) no design, codificação segura, testes de segurança automatizados no pipeline e monitoramento contínuo em produção (shift right também: observabilidade de segurança em runtime).</p><p>Frameworks de referência: o Microsoft SDL e o OWASP SAMM/DSOMM (modelos de maturidade), além de NIST SSDF (Secure Software Development Framework). Segurança passa a ser responsabilidade de todos (cultura), não de uma equipe isolada ao final.</p></section><section class="amp-sec"><h2>Tipos de análise de segurança no pipeline</h2><p>SAST (Static Application Security Testing): analisa o código-fonte/binário sem executá-lo, achando vulnerabilidades cedo (ex.: injeções, uso inseguro de APIs). DAST (Dynamic Application Security Testing): testa a aplicação em execução, de fora (caixa-preta), simulando ataques (ex.: OWASP ZAP). IAST combina ambos, instrumentando a aplicação em teste.</p><p>SCA (Software Composition Analysis): analisa as dependências de terceiros e bibliotecas em busca de vulnerabilidades conhecidas (CVEs) — crucial, pois a maioria do código moderno são dependências (ex.: OWASP Dependency-Check, Snyk). Também: secret scanning (detecta credenciais no código), varredura de imagens de contêiner e IaC scanning. Esses controles rodam automaticamente na esteira, com gates que barram builds inseguros.</p></section><section class="amp-sec"><h2>OWASP, vulnerabilidades e codificação segura</h2><p>O OWASP Top 10 lista as falhas web mais críticas (ex.: Broken Access Control, Injection, Cryptographic Failures, Security Misconfiguration, Vulnerable Components). Codificação segura mitiga-as: validar e sanitizar toda entrada, usar consultas parametrizadas/prepared statements contra SQL Injection, codificar saídas contra XSS, aplicar autenticação/autorização robustas, princípio do menor privilégio, gestão segura de segredos (cofres como HashiCorp Vault, nunca hardcoded), criptografia adequada (dados em trânsito com TLS, em repouso) e defesa em profundidade.</p><p>CWE/SANS Top 25 e o OWASP ASVS (Application Security Verification Standard) fornecem requisitos verificáveis. Gestão da cadeia de suprimentos (supply chain): SBOM (Software Bill of Materials) documenta os componentes; ataques como dependency confusion e typosquatting visam exatamente as dependências.</p></section><section class="amp-sec"><h2>Segurança em Java e na aplicação</h2><p>Em Java, boas práticas incluem: usar PreparedStatement (não concatenar SQL), validar deserialização (a deserialização insegura é uma falha grave), aplicar o Bean Validation para entradas, usar bibliotecas atualizadas (lição do Log4Shell/CVE no Log4j em 2021), configurar corretamente frameworks como Spring Security (autenticação/autorização, proteção CSRF, headers de segurança) e gerir segredos fora do código.</p><p>No ciclo, complementa-se com revisão de código (code review com foco em segurança), testes de penetração periódicos, gestão de patches/atualizações e resposta a incidentes. A segurança da própria esteira CI/CD (proteger credenciais, assinar artefatos, controlar acesso) também é parte do DevSecOps, dada a relevância de ataques à cadeia de suprimentos de software.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado: &quot;No DevSecOps, a verificação de segurança deve ser concentrada em uma fase final de testes, executada por equipe especializada após a conclusão do desenvolvimento.&quot; — ERRADO. O DevSecOps prega o oposto: o shift left integra a segurança desde o início do ciclo, de forma automatizada e contínua, como responsabilidade compartilhada por toda a equipe — não concentrada ao final por um time isolado. Concentrar a segurança no fim é justamente o modelo tradicional que o DevSecOps veio superar.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha central é apresentar segurança como etapa final isolada (modelo antigo) e chamar isso de DevSecOps — está ERRADO; DevSecOps é shift left, contínuo e compartilhado. Distinga SAST (estático, código) de DAST (dinâmico, em execução) e de SCA (dependências). Cebraspe testa que SQL Injection se previne com consultas parametrizadas (prepared statements), não com concatenação. Lembre que segredos no código-fonte são falha grave e que SBOM se relaciona à segurança da cadeia de suprimentos.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t5-s0.html">← Testes automatizados e qualidade</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>DevSecOps integra segurança em todo o SDLC, automatizada e como responsabilidade compartilhada (shift left).</li><li>Shift left antecipa controles ao início; modelagem de ameaças (STRIDE) no design.</li><li>SAST analisa código sem executar; DAST testa a aplicação em execução (caixa-preta); IAST combina.</li><li>SCA verifica dependências de terceiros contra CVEs conhecidas (essencial pela maioria do código ser de terceiros).</li><li>OWASP Top 10 lista falhas web críticas; mitigação: validação de entrada, prepared statements, codificação de saída, menor privilégio.</li><li>Segredos nunca no código (usar cofres como Vault); criptografar dados em trânsito (TLS) e em repouso.</li><li>SBOM documenta componentes; cadeia de suprimentos (supply chain) é alvo de ataques (ex.: Log4Shell).</li><li>Em Java: PreparedStatement, deserialização segura, dependências atualizadas, Spring Security bem configurado.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

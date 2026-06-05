@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IAM, RBAC e criptografia (KMS) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/computacao-nuvem.html">☁️ Computação em Nuvem</a> ›
+    <span>IAM, RBAC e criptografia (KMS)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Redes e segurança em nuvem</p>
+    <h1>IAM, RBAC e criptografia (KMS)</h1>
+    
+    <p>Em nuvem, a identidade é o novo perímetro. Com a infraestrutura exposta por APIs e acessível de qualquer lugar, o controle de quem pode fazer o quê (IAM — Identity and Access Management) torna-se o principal mecanismo de segurança. A maioria dos incidentes em nuvem decorre de identidades superprivilegiadas, credenciais vazadas ou configurações de acesso permissivas.</p><p>Complementarmente, a criptografia protege os dados em repouso e em trânsito, e o gerenciamento de chaves (KMS) garante que as chaves criptográficas sejam armazenadas, rotacionadas e auditadas com segurança. Juntos, IAM e criptografia formam a base da segurança &#x27;na&#x27; nuvem, que é responsabilidade do cliente.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>IAM, autenticação e autorização</h2><p>IAM distingue autenticação (provar quem você é) de autorização (o que você pode fazer). Os principais (principals) podem ser usuários, grupos, papéis (roles) e identidades de aplicação/serviço. Boas práticas centrais: princípio do menor privilégio (least privilege) — conceder apenas as permissões necessárias — e separação de funções (segregation of duties). Em vez de chaves de acesso estáticas embutidas no código, prefira roles temporárias assumidas por serviços (ex.: AWS IAM Roles), que emitem credenciais de curta duração. Federação de identidade (SAML 2.0, OpenID Connect, OAuth 2.0) integra o IdP corporativo à nuvem, permitindo SSO.</p></section><section class="amp-sec"><h2>RBAC, ABAC e políticas</h2><p>RBAC (Role-Based Access Control) concede permissões com base em papéis/funções organizacionais — o usuário herda permissões do papel atribuído (ex.: &#x27;Leitor&#x27;, &#x27;Contribuidor&#x27;, &#x27;Proprietário&#x27; no Azure RBAC). ABAC (Attribute-Based Access Control) decide com base em atributos (tags, departamento, ambiente), sendo mais granular e dinâmico. Em AWS, o acesso é definido por políticas JSON (identity-based e resource-based); o modelo é &#x27;deny por padrão&#x27; e uma negação explícita sempre prevalece sobre qualquer permissão. Pegadinha: em caso de conflito, o &#x27;deny&#x27; explícito vence; e a ausência de permissão equivale a negação implícita.</p></section><section class="amp-sec"><h2>MFA e proteção de credenciais</h2><p>MFA (autenticação multifator) exige dois ou mais fatores de categorias distintas: algo que você sabe (senha), algo que você tem (token/app autenticador, chave FIDO2) e algo que você é (biometria). É a defesa mais eficaz contra credenciais vazadas e deve ser obrigatória especialmente para contas privilegiadas (root/administrador). Pegadinha: usar duas senhas NÃO é MFA — os fatores precisam ser de categorias diferentes. Senha + OTP do app é MFA; senha + PIN não é.</p></section><section class="amp-sec"><h2>Criptografia e KMS</h2><p>Criptografia em repouso protege dados armazenados (em discos, buckets, bancos); em trânsito protege a comunicação pela rede, tipicamente com TLS (HTTPS). O KMS (Key Management Service) — AWS KMS, Azure Key Vault, Google Cloud KMS — gera, armazena, rotaciona e controla o acesso às chaves, frequentemente com respaldo de HSM (Hardware Security Module) certificado (FIPS 140-2/140-3). Uma prática comum é a envelope encryption: os dados são cifrados por uma chave de dados (DEK), que por sua vez é cifrada por uma chave-mestra (KEK/CMK) custodiada no KMS. Isso permite rotação eficiente sem recifrar todos os dados. O CMK normalmente nunca sai do KMS em texto claro.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado: &#x27;A adoção do princípio do menor privilégio no IAM implica conceder a cada usuário todas as permissões que ele possa eventualmente precisar, evitando interrupções de trabalho.&#x27; — ERRADO. O menor privilégio determina conceder somente as permissões estritamente necessárias para a tarefa atual; conceder permissões &#x27;que possam eventualmente ser precisas&#x27; é exatamente o oposto (overprovisioning), ampliando a superfície de ataque. Em auditoria, identidades com políticas excessivamente amplas (ex.: AdministratorAccess para uso rotineiro) são achados típicos.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe adora afirmar que &#x27;duas senhas constituem MFA&#x27; (falso) e inverter o princípio do menor privilégio. Também testa a regra de precedência: negação explícita vence permissão. Saiba diferenciar RBAC (papéis) de ABAC (atributos) e lembrar que no KMS a chave-mestra geralmente não sai em claro.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s1.html">← Sistemas distribuídos, serverless e contêineres</a><a class="pager next" href="t2-s1.html">Zero Trust e conectividade →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>IAM separa autenticação (quem é) de autorização (o que pode); identidade é o novo perímetro</li><li>Menor privilégio e segregação de funções; prefira roles temporárias a credenciais estáticas</li><li>RBAC concede por papéis; ABAC por atributos/tags (mais granular); deny explícito sempre prevalece</li><li>MFA exige fatores de categorias diferentes (saber, ter, ser); duas senhas não é MFA</li><li>Criptografia em repouso (disco/bucket) e em trânsito (TLS/HTTPS)</li><li>KMS gerencia chaves com HSM (FIPS 140-2/140-3); envelope encryption usa DEK cifrada por KEK/CMK</li></ul></div>
+      <a class="back" href="../../disciplinas/computacao-nuvem.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

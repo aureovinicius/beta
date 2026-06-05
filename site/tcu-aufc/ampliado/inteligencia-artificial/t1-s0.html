@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arquiteturas e frameworks — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/inteligencia-artificial.html">🤖 Inteligência Artificial</a> ›
+    <span>Arquiteturas e frameworks</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Redes neurais e deep learning</p>
+    <h1>Arquiteturas e frameworks</h1>
+    
+    <p>Redes neurais artificiais são modelos computacionais inspirados (de forma simplificada) no funcionamento de neurônios biológicos. A unidade básica é o neurônio (perceptron), que calcula uma soma ponderada das entradas (pesos + viés/bias) e aplica uma função de ativação não linear, como ReLU, sigmoide ou tanh. O empilhamento de várias camadas de neurônios dá origem às redes profundas (deep learning), em que cada camada aprende representações cada vez mais abstratas dos dados.</p><p>A escolha da arquitetura depende do tipo de dado e da tarefa. As redes densas (totalmente conectadas, MLP) servem para dados tabulares; as CNN dominam visão computacional; as RNN/LSTM/GRU tratam sequências; e os transformers, baseados em atenção, tornaram-se o padrão para linguagem natural e, cada vez mais, para outras modalidades. Frameworks como TensorFlow e PyTorch fornecem a infraestrutura para construir, treinar e implantar essas redes com aceleração por GPU/TPU.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Redes densas (MLP) e a função de ativação</h2><p>A rede neural multicamadas (Multilayer Perceptron - MLP) é totalmente conectada: cada neurônio de uma camada liga-se a todos os neurônios da camada seguinte. É adequada para dados tabulares e tarefas de classificação/regressão simples.</p><p>O que dá poder expressivo à rede é a função de ativação não linear. Sem ela, a composição de várias camadas lineares colapsaria em uma única transformação linear, incapaz de modelar relações complexas. A ReLU (Rectified Linear Unit, f(x)=max(0,x)) é a ativação mais usada em camadas ocultas por mitigar o problema do gradiente que desaparece (vanishing gradient). Softmax é típica da camada de saída em classificação multiclasse, pois produz uma distribuição de probabilidade.</p></section><section class="amp-sec"><h2>CNN (Redes Convolucionais)</h2><p>As Convolutional Neural Networks são especializadas em dados com estrutura espacial, sobretudo imagens. Em vez de conexões totais, usam filtros (kernels) que percorrem a imagem aplicando convoluções, explorando localidade e compartilhamento de pesos. Isso reduz drasticamente o número de parâmetros e captura padrões invariantes à translação (bordas, texturas, formas).</p><p>Camadas de pooling (ex.: max pooling) reduzem a dimensionalidade e dão robustez a pequenas variações. Arquiteturas clássicas incluem LeNet, AlexNet, VGG, ResNet (com conexões residuais/skip connections que permitem treinar redes muito profundas) e Inception. Aplicações: classificação de imagens, detecção de objetos e segmentação.</p></section><section class="amp-sec"><h2>RNN, LSTM e GRU (sequências)</h2><p>As Recurrent Neural Networks processam dados sequenciais (texto, séries temporais, áudio) mantendo um estado interno (memória) que é atualizado a cada passo de tempo. A limitação clássica das RNN simples é a dificuldade de aprender dependências de longo prazo, devido ao desaparecimento/explosão do gradiente.</p><p>Para contornar isso surgiram a LSTM (Long Short-Term Memory) e a GRU (Gated Recurrent Unit), que usam mecanismos de portões (gates) para controlar o que é lembrado, esquecido e propagado. Por muito tempo foram o estado da arte em PLN, até serem amplamente superadas pelos transformers.</p></section><section class="amp-sec"><h2>Transformers e o mecanismo de atenção</h2><p>Introduzidos no artigo Attention Is All You Need (2017), os transformers abandonam a recorrência e baseiam-se no mecanismo de self-attention, que pondera a relevância de cada elemento da sequência em relação aos demais, capturando dependências de longo alcance e permitindo paralelização massiva no treinamento.</p><p>A arquitetura original tem blocos encoder e decoder. Modelos como BERT usam apenas o encoder (compreensão bidirecional); GPT usa apenas o decoder (geração autorregressiva). Os transformers são a base dos grandes modelos de linguagem (LLMs) e também já se aplicam a visão (Vision Transformers - ViT) e multimodalidade.</p></section><section class="amp-sec"><h2>TensorFlow e PyTorch</h2><p>TensorFlow (Google) e PyTorch (Meta) são os dois principais frameworks de deep learning. PyTorch popularizou o grafo de computação dinâmico (define-by-run), mais intuitivo para depuração e pesquisa; tornou-se dominante na academia. TensorFlow consolidou-se em produção, com o ecossistema Keras (API de alto nível), TensorFlow Serving, TensorFlow Lite (mobile/edge) e TFX para pipelines.</p><p>Ambos oferecem diferenciação automática (autograd), aceleração por GPU/TPU e suporte a treinamento distribuído. A diferenciação automática é o que viabiliza o cálculo eficiente dos gradientes usados no backpropagation.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Em uma auditoria sobre um sistema de reconhecimento de documentos do TCU, o auditor verifica a arquitetura do modelo: tratando-se de classificação de imagens digitalizadas, esperar-se-ia uma CNN (ou um Vision Transformer), e não uma RNN. Item de prova (Cebraspe), estilo certo/errado: &#x27;Redes neurais convolucionais (CNN) empregam compartilhamento de pesos e operações de convolução, sendo especialmente adequadas ao processamento de dados com estrutura espacial, como imagens.&#x27; Afirmativa CERTA.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe costuma trocar a aplicação típica de cada arquitetura (ex.: afirmar que RNN é a melhor opção para imagens, ou que CNN é própria para séries temporais) - isso torna o item ERRADO. Memorize: CNN=imagens, RNN/LSTM=sequências, Transformer=linguagem e atenção. Outra pegadinha: associar self-attention às RNN; a atenção é justamente o que dispensa a recorrência nos transformers.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s1.html">← Análise preditiva e avaliação de modelos</a><a class="pager next" href="t1-s1.html">Treinamento e aplicações →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>A função de ativação não linear (ReLU, sigmoide, tanh) é o que confere poder expressivo às redes profundas; sem ela, várias camadas colapsam em uma transformação linear.</li><li>CNN para dados espaciais (imagens), com convolução, filtros e pooling; ResNet usa conexões residuais.</li><li>RNN/LSTM/GRU para sequências; LSTM e GRU usam portões para mitigar o desaparecimento de gradiente.</li><li>Transformers baseiam-se em self-attention, dispensam recorrência e são a base dos LLMs.</li><li>BERT usa só encoder (compreensão); GPT usa só decoder (geração autorregressiva).</li><li>PyTorch (grafo dinâmico, pesquisa) e TensorFlow/Keras (produção, edge) são os frameworks dominantes.</li></ul></div>
+      <a class="back" href="../../disciplinas/inteligencia-artificial.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

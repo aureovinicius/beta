@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hardening, firewalls e IDS/IPS — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Hardening, firewalls e IDS/IPS</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Segurança de infraestrutura</p>
+    <h1>Hardening, firewalls e IDS/IPS</h1>
+    
+    <p>A segurança de infraestrutura combina o endurecimento (hardening) dos sistemas, a defesa de perímetro e a detecção/prevenção de intrusões. Hardening é o processo de reduzir a superfície de ataque de servidores, redes e dispositivos, desativando serviços desnecessários, aplicando correções, configurando de forma segura e seguindo benchmarks reconhecidos (CIS Benchmarks, guias DISA STIG).</p><p>Na defesa de perímetro e segmentação, firewalls controlam o tráfego conforme regras; firewalls de próxima geração (NGFW) agregam inspeção profunda. IDS e IPS monitoram e, no caso do IPS, bloqueiam atividades maliciosas. Proxies intermedeiam o acesso e o NAC controla quem se conecta à rede. Esses controles, em camadas (defesa em profundidade), formam a base da proteção de redes corporativas.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Hardening</h2><p>Hardening consiste em configurar sistemas para o estado mais seguro possível mantendo a funcionalidade necessária: remover/desativar serviços, contas e portas desnecessários; aplicar o princípio do menor privilégio; manter patches em dia; reforçar autenticação (MFA, políticas de senha); habilitar logging e auditoria; e aplicar controles de acesso obrigatório (SELinux/AppArmor no Linux). Referências consagradas são os CIS Benchmarks e os STIGs da DISA.</p><p>O hardening é uma prática contínua, alinhada à gestão de vulnerabilidades e de configuração segura (baseline). Em auditoria de TI, verificar a aderência a um baseline de configuração segura e a tempestividade dos patches é central. A redução da superfície de ataque é o objetivo essencial.</p></section><section class="amp-sec"><h2>Firewalls e NGFW</h2><p>Um firewall filtra o tráfego entre redes conforme regras (permitir/bloquear) baseadas em endereços, portas e protocolos. Firewalls de filtragem de pacotes (stateless) analisam pacotes isoladamente; os stateful inspecionam o estado das conexões (tabela de estados), decisão mais inteligente e padrão atual. NGFW (Next-Generation Firewall) adiciona inspeção profunda de pacotes (DPI), reconhecimento de aplicação (camada 7), IPS integrado, filtragem por usuário/identidade e inteligência de ameaças.</p><p>Uma política comum é o deny-by-default (nega tudo, libera o necessário). WAF (Web Application Firewall) é específico para proteger aplicações web (camada 7) contra ataques como SQL injection e XSS — não confundir com firewall de rede tradicional. A segmentação por zonas (ex.: DMZ para serviços expostos) reforça o perímetro.</p></section><section class="amp-sec"><h2>IDS e IPS</h2><p>IDS (Intrusion Detection System) monitora e detecta atividades suspeitas, gerando alertas, mas NÃO bloqueia o tráfego (atua de forma passiva, geralmente fora do caminho, recebendo cópia do tráfego por SPAN/TAP). IPS (Intrusion Prevention System) atua em linha (inline), no caminho do tráfego, podendo bloquear/descartar pacotes maliciosos em tempo real, de forma ativa.</p><p>Quanto ao método de detecção: por assinatura (compara com padrões de ataques conhecidos — eficaz contra ameaças conhecidas, mas cego a ataques novos) e por anomalia/comportamento (detecta desvios de um baseline — pode pegar ataques desconhecidos, porém gera mais falsos positivos). NIDS monitora a rede; HIDS monitora um host. A distinção IDS (detecta/alerta) x IPS (previne/bloqueia) é a mais cobrada.</p></section><section class="amp-sec"><h2>Proxies e NAC</h2><p>Um proxy intermedeia conexões: o proxy de encaminhamento (forward) atende clientes internos acessando a Internet, permitindo filtragem de conteúdo, cache e anonimização; o proxy reverso (reverse) fica à frente de servidores, distribuindo carga, terminando TLS e protegendo as aplicações. Proxies operam tipicamente na camada de aplicação.</p><p>NAC (Network Access Control) controla a admissão de dispositivos na rede, autenticando e verificando a conformidade (postura) do endpoint (antivírus atualizado, patches) antes de conceder acesso, frequentemente via 802.1X com RADIUS. Pode colocar dispositivos não conformes em quarentena (VLAN isolada). O NAC reforça a segmentação e impede que dispositivos não autorizados ou inseguros se conectem.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;Diferentemente do IDS, o IPS atua de forma passiva, limitando-se a registrar e alertar sobre atividades suspeitas, sem capacidade de bloquear o tráfego malicioso.&#x27; — ERRADO. A descrição (passivo, apenas alerta, sem bloqueio) é a do IDS. O IPS atua em linha (inline) e de forma ATIVA, podendo bloquear ou descartar o tráfego malicioso em tempo real.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A distinção IDS x IPS é quase certa em prova: IDS = detecta/alerta (passivo); IPS = previne/bloqueia (ativo, inline). Cuidado também ao confundir firewall stateful x stateless, e WAF (camada 7, apps web) com firewall de rede. Em detecção, por assinatura não pega ataques desconhecidos (zero-day); por anomalia pega, mas gera mais falsos positivos.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t3-s1.html">← Backup e recuperação (RPO/RTO)</a><a class="pager next" href="t4-s1.html">VPNs, PKI e segmentação de rede →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Hardening reduz a superfície de ataque (remover serviços, patches, menor privilégio); CIS Benchmarks/STIG são referências</li><li>Firewall stateful inspeciona o estado das conexões; NGFW adiciona DPI, camada 7 e IPS integrado</li><li>WAF protege aplicações web (camada 7), distinto do firewall de rede</li><li>IDS detecta e alerta (passivo); IPS previne e bloqueia (ativo, inline)</li><li>Detecção por assinatura (ameaças conhecidas) x por anomalia (desvios, mais falsos positivos)</li><li>NIDS monitora rede; HIDS monitora host</li><li>NAC controla admissão e postura de dispositivos (802.1X/RADIUS), com quarentena de não conformes</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taxas e equivalência — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Taxas e equivalência</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Matemática Financeira</p>
+    <h1>Taxas e equivalência</h1>
+    
+    <p>Em finanças, uma mesma taxa pode ser expressa de várias formas, e capitais em datas diferentes só podem ser comparados depois de levados a uma data comum por uma taxa. Os conceitos de taxa nominal, efetiva, proporcional e equivalente, bem como o de equivalência de capitais, são fundamentais para resolver questões de fluxo de caixa, substituição de dívidas e comparação de investimentos.</p><p>A confusão entre taxa nominal e efetiva, e entre taxa proporcional (regime simples) e equivalente (regime composto), é uma das mais exploradas em provas de Auditor-Fiscal.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Taxa nominal e taxa efetiva</h2><p>Taxa nominal é aquela cujo período de capitalização difere do período a que se refere. Ex.: &#x27;12% ao ano com capitalização mensal&#x27; — a taxa anual é nominal e a capitalização ocorre a 1% ao mês.</p><p>Taxa efetiva é a que realmente incide no período de capitalização. No exemplo, a efetiva ao ano é (1 + 0,01)^12 − 1 ≈ 12,68%, maior que os 12% nominais. A diferença entre nominal e efetiva é fruto da capitalização composta.</p></section><section class="amp-sec"><h2>Taxas proporcionais (regime simples)</h2><p>Duas taxas são proporcionais quando se relacionam linearmente com o tempo. Ex.: 12% ao ano é proporcional a 1% ao mês (12/12) e a 6% ao semestre. A conversão é uma simples regra de três.</p><p>Taxas proporcionais são equivalentes APENAS no regime de juros simples. Aplicar proporcionalidade em juros compostos gera erro.</p></section><section class="amp-sec"><h2>Taxas equivalentes (regime composto)</h2><p>Duas taxas são equivalentes quando, aplicadas ao mesmo capital pelo mesmo prazo total, produzem o mesmo montante em regime composto. A relação é: (1 + i_maior) = (1 + i_menor)^k, onde k é o número de períodos menores no maior.</p><p>Ex.: a taxa mensal equivalente a 12,68% ao ano: (1 + i_mês)^12 = 1,1268 → i_mês = 1,1268^(1/12) − 1 ≈ 1% ao mês. Note que NÃO é 12,68/12.</p></section><section class="amp-sec"><h2>Equivalência de capitais</h2><p>Dois ou mais capitais, vencíveis em datas distintas, são equivalentes quando, transportados a uma mesma data (data focal) por uma dada taxa, têm valores iguais. Esse princípio fundamenta a substituição de títulos e o cálculo de parcelas.</p><p>Em juros compostos, a data focal escolhida não altera o resultado; em juros simples, altera — por isso a banca costuma fixar a data focal no enunciado. Para resolver: transporte todos os valores à data focal (multiplicando ou dividindo pelo fator (1+i)^t) e iguale as somas.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Uma taxa nominal de 24% ao ano com capitalização mensal. Qual a taxa efetiva mensal e a efetiva anual?</p><p>Efetiva mensal = 24%/12 = 2% ao mês (a nominal é dividida pelo número de capitalizações para achar a taxa de cada período).</p><p>Efetiva anual = (1 + 0,02)^12 − 1 = 1,2682 − 1 = 0,2682 = 26,82% ao ano. Observe que a efetiva anual (26,82%) supera a nominal anual (24%) por causa da capitalização composta dos juros mensais.</p><p>Equivalência de capitais: uma dívida de R$ 1.100 vencível em 1 mês equivale, a 10% ao mês (composto), a quanto hoje? A = 1100/(1,10)^1 = R$ 1.000 hoje. Os dois valores são equivalentes nessa taxa.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Para converter taxa nominal em efetiva do período de capitalização, divida (24% a.a. cap. mensal → 2% a.m.); para converter entre períodos no regime composto, use potências/raízes, nunca regra de três. A pegadinha mais comum é tratar taxa anual nominal como efetiva. Em equivalência de capitais com juros simples, atenção à data focal indicada — mudá-la muda a resposta.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t5-s1.html">← Descontos</a><a class="pager next" href="t5-s3.html">Amortização →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Taxa nominal: período de capitalização ≠ período declarado.</li><li>Taxa efetiva: a que de fato incide no período de capitalização.</li><li>Proporcionais (regra de três) equivalem só no regime SIMPLES.</li><li>Equivalentes: (1 + i_maior) = (1 + i_menor)^k no regime COMPOSTO.</li><li>Efetiva anual &gt; nominal anual quando há capitalização intermediária.</li><li>Capitais são equivalentes se têm igual valor numa data focal.</li><li>Em juros compostos a data focal não altera o resultado; em simples, altera.</li></ul></div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

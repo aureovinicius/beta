@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APIs, arquivos e mensageria — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>APIs, arquivos e mensageria</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. Conectores e integração</p>
+    <h1>APIs, arquivos e mensageria</h1>
+    
+    <p>A engenharia de dados depende de conectores que captam dados de fontes heterogêneas. Os três grandes mecanismos de integração são: APIs (interfaces de aplicação, como REST e SOAP, para consumo síncrono via requisição/resposta), arquivos (lotes de dados em formatos como CSV, JSON, XML e Parquet) e mensageria (troca assíncrona de mensagens e eventos via brokers como o Apache Kafka).</p><p>Cada mecanismo atende a um padrão de integração distinto. APIs são adequadas para consultas pontuais e integração em tempo real entre sistemas; arquivos são típicos de cargas em lote (batch) e intercâmbio entre organizações; mensageria habilita arquiteturas orientadas a eventos, desacopladas e escaláveis, processando fluxos contínuos (streaming) de dados.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>APIs: REST e SOAP</h2><p>Web Services expõem funcionalidades e dados pela rede. SOAP (Simple Object Access Protocol) é um protocolo baseado em XML, com contrato formal definido em WSDL, suporte a padrões WS-* (WS-Security, transações) e independência de transporte (HTTP, SMTP). É verboso e mais rígido, comum em sistemas legados, bancos e governo.</p><p>REST (Representational State Transfer) é um estilo arquitetural (não um protocolo) que usa os métodos HTTP (GET, POST, PUT, DELETE), URIs para identificar recursos e, tipicamente, JSON como formato. É stateless, mais leve e amplamente dominante em integrações web modernas. GraphQL e gRPC são alternativas relevantes: o primeiro permite ao cliente especificar exatamente os campos desejados; o segundo, baseado em HTTP/2 e Protocol Buffers, é eficiente para comunicação interna de microsserviços.</p></section><section class="amp-sec"><h2>Formatos de arquivo</h2><p>CSV: texto delimitado (vírgula/ponto-e-vírgula), simples e universal, mas sem tipos nem hierarquia; problemático com acentos, separadores e dados aninhados.</p><p>JSON: texto semiestruturado, hierárquico, legível, padrão de APIs REST. XML: também hierárquico, mais verboso, com suporte a esquemas (XSD) e namespaces; comum em SOAP e intercâmbios B2B.</p><p>Parquet: formato colunar, binário e comprimido, otimizado para análise (OLAP) e Big Data. Por armazenar dados por coluna, permite ler apenas as colunas necessárias e comprimir eficientemente, sendo padrão em Data Lakes (junto com ORC e Avro — este último orientado a linha e ideal para serialização em streaming). A regra prática: CSV/JSON para intercâmbio e legibilidade; Parquet para volume e desempenho analítico.</p></section><section class="amp-sec"><h2>Mensageria e eventos (Kafka)</h2><p>A mensageria desacopla produtores e consumidores: o produtor publica mensagens em um intermediário (broker) e os consumidores as leem de forma assíncrona, sem que os sistemas precisem estar disponíveis ao mesmo tempo. Dois modelos clássicos: filas (point-to-point, uma mensagem para um consumidor) e publicação/assinatura (pub/sub, uma mensagem para múltiplos assinantes).</p><p>Apache Kafka é uma plataforma de streaming de eventos distribuída. Organiza mensagens em tópicos, particionados e replicados entre brokers. Diferentemente de filas tradicionais (RabbitMQ, ActiveMQ), o Kafka persiste os eventos em um log ordenado e imutável por um período configurável (retention), permitindo reprocessamento e múltiplos consumidores independentes (consumer groups). É a espinha dorsal de pipelines de dados em tempo real e arquiteturas orientadas a eventos (event-driven). RabbitMQ, por sua vez, é um broker tradicional focado em roteamento de mensagens e protocolo AMQP.</p></section><section class="amp-sec"><h2>Escolhendo o mecanismo de captação</h2><p>A decisão de arquitetura considera latência, volume, acoplamento e garantias de entrega. Para sincronismo e consulta pontual, usa-se API REST. Para grandes lotes periódicos (ex.: extração noturna de um sistema legado), arquivos em Parquet ou CSV. Para fluxos contínuos, alto throughput e desacoplamento entre dezenas de sistemas, mensageria com Kafka.</p><p>Em pipelines reais, esses mecanismos coexistem: eventos chegam via Kafka, são enriquecidos com chamadas a APIs e materializados como arquivos Parquet em um Data Lake. As garantias de entrega (at-most-once, at-least-once, exactly-once) e a idempotência dos consumidores são preocupações centrais para evitar perda ou duplicação de dados.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: o TCU avalia um sistema de integração de dados orçamentários. O auditor verifica que a captação de um sistema legado é feita por SOAP/XML com WS-Security, os relatórios analíticos são gravados em Parquet num Data Lake, e notificações de empenho trafegam por tópicos Kafka consumidos por vários sistemas. Item de prova: &quot;O Apache Kafka, por persistir eventos em um log particionado e replicado, permite que múltiplos consumidores leiam o mesmo fluxo de mensagens de forma independente e que ocorra reprocessamento.&quot; — CERTO.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe confunde REST (estilo arquitetural) com SOAP (protocolo) — atenção a essa classificação. Outra pegadinha: dizer que Parquet é orientado a linha (é colunar) ou que CSV suporta dados hierárquicos (não suporta nativamente). Sobre Kafka, lembre que ele persiste o log e permite reprocessamento, diferentemente de filas que costumam descartar a mensagem após consumo.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s1.html">← Business Intelligence</a><a class="pager next" href="t2-s1.html">Integridade e segurança na captação →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>SOAP: protocolo XML com WSDL e WS-*; REST: estilo arquitetural sobre HTTP, leve, geralmente JSON</li><li>REST é stateless e usa métodos HTTP (GET/POST/PUT/DELETE)</li><li>CSV/JSON/XML para intercâmbio; Parquet (colunar, comprimido) para análise/Big Data</li><li>Parquet e ORC são colunares; Avro é orientado a linha (streaming)</li><li>Mensageria desacopla produtor e consumidor de forma assíncrona (filas e pub/sub)</li><li>Kafka: streaming de eventos, tópicos particionados, log persistente, consumer groups</li><li>Garantias de entrega e idempotência evitam perda/duplicação de dados</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

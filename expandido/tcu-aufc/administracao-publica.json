@@ -1,0 +1,356 @@
+{
+  "slug": "administracao-publica",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Abordagens clássica, burocrática e sistêmica",
+      "intro": "A Teoria Geral da Administração (TGA) evoluiu por meio de abordagens que enfatizaram, em momentos distintos, as tarefas, a estrutura, as pessoas, o ambiente e a tecnologia. As três abordagens cobradas neste subtópico — clássica, burocrática e sistêmica — representam respostas históricas a problemas organizacionais e formam a base conceitual de boa parte das questões de administração geral em provas da Cebraspe.\n\nDe forma resumida, a abordagem clássica (Taylor e Fayol) busca a eficiência por meio da racionalização do trabalho e da estrutura; a burocrática (Weber) busca a racionalidade legal por meio de normas impessoais; e a sistêmica enxerga a organização como um sistema aberto que troca matéria, energia e informação com o ambiente. Saber distinguir o foco de cada uma é o que costuma separar o acerto do erro na prova.",
+      "secoes": [
+        {
+          "h": "Administração Científica (Taylor) e Teoria Clássica (Fayol)",
+          "p": "A Administração Científica, de Frederick W. Taylor, nasce no chão de fábrica e tem ênfase nas tarefas. Seu objetivo é a eficiência operária por meio do estudo de tempos e movimentos, da seleção e treinamento do trabalhador (homo economicus), da padronização e da divisão entre quem planeja (gerência) e quem executa (operário). Os princípios tayloristas são: planejamento, preparo, controle e execução. A crítica clássica é a visão mecanicista do homem e a superespecialização.\n\nA Teoria Clássica, de Henri Fayol, parte do topo da organização (visão anatômica/estrutural) e tem ênfase na estrutura. Fayol definiu as seis funções da empresa (técnica, comercial, financeira, de segurança, contábil e administrativa) e foi o primeiro a sistematizar as funções do administrador no acrônimo POCCC (prever, organizar, comandar, coordenar e controlar), origem do atual PODC. Enunciou ainda 14 princípios gerais, como divisão do trabalho, unidade de comando, unidade de direção e hierarquia (cadeia escalar)."
+        },
+        {
+          "h": "Modelo burocrático (Max Weber)",
+          "p": "Para Weber, a burocracia é a forma de organização baseada na dominação racional-legal — a autoridade decorre de normas escritas e impessoais, não da tradição (dominação tradicional) nem do carisma (dominação carismática). As características da burocracia ideal são: caráter legal das normas, formalidade das comunicações, impessoalidade nas relações, divisão racional do trabalho, hierarquia da autoridade, rotinas e procedimentos padronizados, competência técnica e meritocracia, especialização da administração (separação entre propriedade e gestão), profissionalização e previsibilidade do funcionamento.\n\nWeber descreve a burocracia como tipo ideal e racional. Os autores posteriores (especialmente Merton) apontaram as disfunções da burocracia: apego excessivo às regras, formalismo, resistência a mudanças, despersonalização, exibição de sinais de autoridade e dificuldade no atendimento ao público. Pegadinha clássica: para Weber a burocracia é positiva (eficiente); o sentido pejorativo de 'burocracia' corresponde às disfunções, não ao modelo weberiano."
+        },
+        {
+          "h": "Abordagem sistêmica",
+          "p": "A Teoria de Sistemas (Bertalanffy) e a abordagem sociotécnica trouxeram a visão da organização como sistema aberto, que interage com o ambiente por meio de entradas (inputs), processamento (throughput), saídas (outputs) e retroalimentação (feedback). Conceitos-chave: sinergia (o todo é maior que a soma das partes), entropia (tendência à desordem, combatida pela entropia negativa/negentropia), homeostase (equilíbrio dinâmico) e equifinalidade (um mesmo resultado pode ser alcançado por caminhos diferentes).\n\nA abordagem sistêmica supera a visão de sistema fechado das teorias clássica e burocrática, que ignoravam o ambiente externo. Dela deriva a abordagem contingencial, segundo a qual não há um modelo único e ótimo de administração: a melhor estrutura depende (é contingente) de variáveis como ambiente, tecnologia e tamanho. Tudo é relativo, tudo depende."
+        },
+        {
+          "h": "Quadro comparativo de ênfases",
+          "p": "Para a prova, fixe a ênfase de cada escola. Administração Científica (Taylor): ênfase nas tarefas. Teoria Clássica (Fayol): ênfase na estrutura. Teoria da Burocracia (Weber): ênfase na estrutura e nas normas. Teoria das Relações Humanas (Mayo): ênfase nas pessoas. Abordagem sistêmica e contingencial: ênfase no ambiente e na tecnologia.\n\nClássica e burocrática compartilham a visão de sistema fechado, racionalidade e ênfase formal; diferem porque Taylor olha a tarefa, Fayol olha a estrutura de cima para baixo e Weber fundamenta a autoridade na norma legal-impessoal. A abordagem sistêmica rompe com todas ao introduzir o ambiente."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'Conforme o modelo burocrático weberiano, a impessoalidade e a hierarquia da autoridade constituem disfunções que comprometem a eficiência organizacional.' O item está ERRADO. Impessoalidade e hierarquia são características (positivas) da burocracia ideal de Weber. As disfunções (apego às regras, resistência a mudanças, despersonalização) foram identificadas pelos críticos, sobretudo Merton, como efeitos colaterais não previstos no tipo ideal.",
+      "pontos_chave": [
+        "Taylor: ênfase nas tarefas, eficiência e estudo de tempos e movimentos.",
+        "Fayol: ênfase na estrutura, funções do administrador (POCCC) e 14 princípios.",
+        "Weber: burocracia = dominação racional-legal, normas impessoais e meritocracia.",
+        "Disfunções da burocracia (Merton) não se confundem com o tipo ideal weberiano.",
+        "Abordagem sistêmica: organização como sistema aberto (entrada-processamento-saída-feedback).",
+        "Sinergia, entropia, homeostase e equifinalidade são conceitos da Teoria de Sistemas.",
+        "Abordagem contingencial: não há modelo único; a estrutura depende do ambiente e da tecnologia."
+      ],
+      "dica_prova": "A Cebraspe adora inverter a ênfase das escolas (atribuir a Taylor o foco na estrutura, ou a Fayol o foco nas tarefas) e tratar a burocracia weberiana como algo necessariamente negativo. Decore: Taylor=tarefa, Fayol=estrutura, Weber=normas/legal-racional. Lembre que sistemas fechados ignoram o ambiente (clássica/burocrática) e sistemas abertos consideram-no (sistêmica)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Evolução da AP no Brasil e nova gestão pública",
+      "intro": "A administração pública brasileira costuma ser estudada a partir de três modelos sucessivos e não excludentes: patrimonialista, burocrático e gerencial. A passagem de um para outro está ligada a reformas administrativas que marcaram o século XX e início do XXI, sendo as mais cobradas a criação do DASP (anos 1930-40), o Decreto-Lei 200/1967 e a reforma gerencial de 1995 (Plano Diretor da Reforma do Aparelho do Estado).\n\nA expressão 'nova gestão pública' (New Public Management) designa o conjunto de ideias gerenciais que importou para o setor público práticas da iniciativa privada — foco em resultados, eficiência, cidadão-cliente, descentralização e controle por desempenho —, em contraposição ao formalismo do modelo burocrático tradicional.",
+      "secoes": [
+        {
+          "h": "Modelo patrimonialista",
+          "p": "No patrimonialismo não há distinção entre o público e o privado: o aparelho do Estado é tratado como extensão do poder do governante. Predominam o nepotismo, o clientelismo e a corrupção, pois cargos e recursos públicos são apropriados como patrimônio pessoal. É o ponto de partida histórico, anterior à profissionalização do serviço público."
+        },
+        {
+          "h": "Modelo burocrático",
+          "p": "Inspirado em Max Weber, surge para combater o patrimonialismo por meio do formalismo, da impessoalidade, da hierarquia e do mérito (concurso). No Brasil, marca a criação do DASP (1936-38), no governo Vargas. Sua disfunção é o apego excessivo a normas e o controle de processos (meios) em vez de resultados, gerando rigidez e ineficiência."
+        },
+        {
+          "h": "Reforma desenvolvimentista — DL 200/1967",
+          "p": "O Decreto-Lei 200/1967 é considerado um primeiro ensaio de administração gerencial: promoveu a descentralização para a administração indireta (autarquias, fundações, empresas estatais), consagrou princípios como planejamento, coordenação e controle, mas conviveu com o núcleo burocrático e não enfrentou a estabilidade do patrimonialismo nos cargos de cúpula."
+        },
+        {
+          "h": "Modelo gerencial e nova gestão pública (1995)",
+          "p": "O Plano Diretor da Reforma do Aparelho do Estado (1995), liderado por Bresser-Pereira, institui a administração gerencial: foco em resultados, eficiência, autonomia com responsabilização (accountability), cidadão-cliente e controle a posteriori. Distingue atividades exclusivas do Estado, serviços não exclusivos (publicização para o terceiro setor) e produção de bens/serviços para o mercado. A EC 19/1998 (princípio da eficiência, contrato de gestão) deu base constitucional a essa reforma."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'A reforma gerencial de 1995 substituiu integralmente o modelo burocrático pelo gerencial na administração pública brasileira.' — ERRADO. Os modelos são sucessivos, mas NÃO excludentes: traços patrimonialistas, burocráticos e gerenciais coexistem. A reforma buscou superar disfunções da burocracia, não eliminá-la (concurso, impessoalidade e hierarquia permanecem).",
+      "pontos_chave": [
+        "Três modelos: patrimonialista → burocrático → gerencial (sucessivos, não excludentes).",
+        "Patrimonialismo: confusão entre público e privado; clientelismo.",
+        "Burocracia (Weber): formalismo, impessoalidade, hierarquia, mérito; disfunção = foco em meios.",
+        "DASP (1936): marco da burocracia no Brasil.",
+        "DL 200/1967: descentralização e primeiro ensaio gerencial.",
+        "Reforma gerencial de 1995 (Bresser/PDRAE): foco em resultados e accountability.",
+        "EC 19/1998: princípio da eficiência e contrato de gestão.",
+        "Nova Gestão Pública (NPM): práticas privadas, cidadão-cliente, controle por desempenho."
+      ],
+      "dica_prova": "O Cebraspe adora a tese de que os modelos NÃO são excludentes — coexistem. Cuidado também para não trocar as datas/marcos: DASP (burocrático, anos 1930), DL 200 (1967, descentralização) e PDRAE (1995, gerencial). Associar 'eficiência' e 'contrato de gestão' à EC 19/1998."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Funções da administração (PODC)",
+      "intro": "As funções administrativas descrevem o que todo administrador faz, em qualquer organização e nível hierárquico. O modelo moderno mais cobrado é o PODC — Planejamento, Organização, Direção e Controle —, evolução do POCCC de Fayol. As quatro funções formam um processo cíclico e interligado (processo administrativo): o resultado do controle realimenta o planejamento.",
+      "secoes": [
+        {
+          "h": "Planejamento",
+          "p": "É a primeira função e define objetivos e os meios para alcançá-los; olha para o futuro e reduz incertezas. Desdobra-se em três níveis: estratégico (longo prazo, toda a organização, alta direção), tático (médio prazo, por unidade/departamento) e operacional (curto prazo, tarefas específicas). Produz planos, que podem ser permanentes (políticas, procedimentos, regras) ou de uso único (programas, projetos, orçamentos). Ferramentas típicas: análise SWOT, definição de missão/visão/valores e objetivos (inclusive metas SMART)."
+        },
+        {
+          "h": "Organização",
+          "p": "É a função que distribui e estrutura o trabalho, a autoridade e os recursos para executar os planos. Envolve dividir o trabalho (especialização), agrupar atividades (departamentalização), atribuir responsabilidades e definir a cadeia de comando, a amplitude de controle e o grau de centralização/descentralização. O produto típico é a estrutura organizacional, representada no organograma. Não confundir a função 'organização' (verbo, ato de organizar) com 'organização' no sentido de empresa/entidade."
+        },
+        {
+          "h": "Direção",
+          "p": "É a função que aciona e orienta as pessoas para executar as tarefas e atingir os objetivos. Lida diretamente com o fator humano: liderança, motivação, comunicação e trabalho em equipe. É a única função que atua diretamente sobre as pessoas e ocorre em todos os níveis (no topo chama-se mais propriamente direção; na gerência, gerência; na supervisão, supervisão). É, portanto, a função mais associada ao comportamento organizacional."
+        },
+        {
+          "h": "Controle",
+          "p": "É a função que mede o desempenho e o compara com o planejado, corrigindo desvios. Tem quatro etapas: estabelecer padrões, mensurar o desempenho, comparar desempenho com o padrão e adotar ação corretiva. Quanto ao momento, o controle pode ser prévio/preventivo (antes), concomitante (durante) ou posterior/de feedback (depois). O controle fecha o ciclo PODC e realimenta o planejamento — por isso o processo é cíclico, e não linear."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'No processo administrativo, a função de organização é a responsável por liderar e motivar as pessoas para a execução das tarefas.' O item está ERRADO. Quem lidera, motiva e comunica é a DIREÇÃO. A organização estrutura o trabalho e a autoridade (divisão do trabalho, departamentalização, organograma). A Cebraspe explora justamente a troca entre 'organização' (estruturar) e 'direção' (conduzir pessoas).",
+      "pontos_chave": [
+        "PODC = Planejar, Organizar, Dirigir e Controlar; processo cíclico e interligado.",
+        "Planejamento: define objetivos e meios; níveis estratégico, tático e operacional.",
+        "Organização: divide e estrutura o trabalho; gera o organograma.",
+        "Direção: única função que atua diretamente sobre as pessoas (liderança, motivação, comunicação).",
+        "Controle: padrões, mensuração, comparação e ação corretiva; pode ser prévio, concomitante ou posterior.",
+        "O controle realimenta o planejamento, fechando o ciclo.",
+        "Evolução do POCCC de Fayol (previsão deu origem a planejamento; comando e coordenação, à direção)."
+      ],
+      "dica_prova": "A Cebraspe troca as funções entre si e inverte a ordem do ciclo. Memorize a ordem P-O-D-C e a 'pessoa' associada a cada uma: planejar (objetivos), organizar (estrutura), dirigir (pessoas), controlar (desvios). Cuidado com o controle: prévio/concomitante/posterior é classificação quanto ao momento; o controle não se limita ao 'depois'."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Estrutura e cultura organizacional",
+      "intro": "A estrutura organizacional é o arranjo formal de cargos, unidades, autoridade e fluxos de trabalho que define como a organização divide e coordena suas atividades; é o 'esqueleto' representado no organograma. A cultura organizacional é o conjunto de pressupostos, valores e normas compartilhados que orientam o comportamento das pessoas — é a 'personalidade' da organização. Estrutura e cultura, juntas, moldam o funcionamento e o desempenho organizacional.",
+      "secoes": [
+        {
+          "h": "Elementos e tipos de estrutura",
+          "p": "A estrutura resulta de decisões sobre: especialização do trabalho, departamentalização, cadeia de comando, amplitude de controle, centralização/descentralização e formalização. A departamentalização pode ser funcional (por especialidade), por produto/serviço, geográfica, por clientes, por processo, matricial (combina dois critérios, gerando dupla subordinação) ou por projetos.\n\nQuanto à centralização x descentralização: na centralização, as decisões concentram-se no topo (maior controle e padronização); na descentralização, a autoridade decisória é delegada aos níveis inferiores (maior agilidade e motivação, porém menor uniformidade). Não confundir com desconcentração, conceito de direito administrativo (distribuição interna de competências dentro da mesma pessoa jurídica)."
+        },
+        {
+          "h": "Estrutura formal e informal",
+          "p": "A estrutura formal é a planejada e oficial, expressa em normas e no organograma. A estrutura informal surge espontaneamente das relações sociais entre as pessoas (grupos de afinidade, liderança informal, redes de comunicação) e não aparece no organograma. A organização informal pode reforçar ou contrariar os objetivos formais; um bom gestor a reconhece e a utiliza, em vez de ignorá-la."
+        },
+        {
+          "h": "Cultura organizacional: níveis e componentes",
+          "p": "Edgar Schein descreve a cultura em três níveis: (1) artefatos — elementos visíveis e superficiais (vestuário, layout, rituais, símbolos, histórias); (2) valores compartilhados — justificativas e estratégias declaradas, parcialmente conscientes; e (3) pressupostos básicos — crenças inconscientes, profundas e tidas como verdades, o nível mais difícil de mudar. Quanto mais profundo o nível, mais difícil de observar e de modificar.\n\nA cultura pode ser forte (valores intensamente compartilhados, maior controle comportamental) ou fraca. Existem ainda subculturas (em unidades específicas) e contraculturas. A cultura desempenha funções de identidade, comprometimento, estabilidade e controle, mas pode tornar-se barreira a mudanças, à diversidade e a fusões."
+        },
+        {
+          "h": "Cultura x clima organizacional",
+          "p": "Cultura e clima são conceitos distintos e muito cobrados juntos. A cultura é mais profunda, estável e duradoura (valores e pressupostos). O clima organizacional é a percepção momentânea e coletiva das pessoas sobre o ambiente de trabalho — humor, satisfação, motivação — e, por isso, é mais superficial, volátil e mensurável por pesquisas de clima. A cultura influencia o clima, mas não se confunde com ele."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'O clima organizacional, por refletir os pressupostos básicos e os valores mais profundos da organização, é estável e dificilmente se altera no curto prazo.' O item está ERRADO. Quem é profunda, estável e de difícil mudança é a CULTURA (níveis de valores e pressupostos de Schein). O CLIMA é a percepção momentânea sobre o ambiente, volátil e passível de variação no curto prazo.",
+      "pontos_chave": [
+        "Estrutura = arranjo formal de cargos, autoridade e fluxos (organograma).",
+        "Elementos: especialização, departamentalização, cadeia de comando, amplitude, (des)centralização e formalização.",
+        "Estrutura informal surge das relações sociais e não aparece no organograma.",
+        "Centralização concentra decisões no topo; descentralização delega aos níveis inferiores.",
+        "Cultura (Schein): artefatos (visíveis), valores compartilhados e pressupostos básicos (mais profundo).",
+        "Cultura é profunda e estável; clima é percepção momentânea e volátil.",
+        "Cultura forte = valores intensamente compartilhados; pode dificultar mudanças."
+      ],
+      "dica_prova": "Duas pegadinhas recorrentes: (1) trocar cultura por clima (a banca chama de estável e profundo o que é volátil, ou vice-versa); (2) inverter os níveis de Schein (dizer que pressupostos básicos são visíveis/superficiais — são os artefatos que são visíveis). Lembre que descentralização (administração) não é desconcentração (direito administrativo)."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Comportamento organizacional",
+      "intro": "O comportamento organizacional (CO) é o campo de estudo que investiga o impacto que indivíduos, grupos e a estrutura têm sobre o comportamento dentro das organizações, com o objetivo de aplicar esse conhecimento para melhorar a eficácia organizacional. É o ramo mais ligado à função de direção e às pessoas, abrangendo temas como motivação, liderança, percepção, atitudes, aprendizagem, grupos e equipes.",
+      "secoes": [
+        {
+          "h": "Teorias de conteúdo da motivação",
+          "p": "As teorias de conteúdo explicam o que motiva, identificando as necessidades humanas. A Hierarquia de Necessidades de Maslow organiza cinco níveis em pirâmide: fisiológicas, segurança, sociais (afeto), estima e autorrealização; as inferiores devem estar razoavelmente satisfeitas antes que as superiores motivem. A Teoria dos Dois Fatores de Herzberg distingue fatores higiênicos (extrínsecos: salário, condições de trabalho, supervisão, relações), cuja ausência gera insatisfação mas cuja presença não motiva, dos fatores motivacionais (intrínsecos: realização, reconhecimento, o próprio trabalho, responsabilidade, crescimento), que efetivamente geram satisfação. A Teoria ERC de Alderfer condensa Maslow em existência, relacionamento e crescimento; e a Teoria das Necessidades de McClelland foca realização, poder e afiliação."
+        },
+        {
+          "h": "Teorias de processo da motivação",
+          "p": "As teorias de processo explicam como ocorre a motivação. A Teoria da Expectativa de Vroom afirma que a motivação é o produto de expectativa (esforço gera desempenho) x instrumentalidade (desempenho gera recompensa) x valência (valor atribuído à recompensa); se qualquer fator for zero, a motivação é nula. A Teoria da Equidade de Adams sustenta que as pessoas comparam a relação entre suas contribuições e recompensas com a de outros; a percepção de iniquidade gera tensão e ajuste de comportamento. A Teoria da Fixação de Objetivos (Locke) defende que metas específicas e desafiadoras, aceitas pelo indivíduo, elevam o desempenho."
+        },
+        {
+          "h": "Liderança",
+          "p": "As teorias de liderança evoluíram em ondas. Traços: o líder nasce com características inatas (visão hoje superada como explicação isolada). Estilos/comportamental: foca o comportamento — autocrático, democrático e liberal (laissez-faire), ou as dimensões orientação para a tarefa x orientação para as pessoas. Contingencial/situacional: o melhor estilo depende da situação — modelo de Fiedler (favorabilidade da situação) e modelo de Hersey e Blanchard (estilo varia conforme a maturidade do liderado: determinar, persuadir, compartilhar, delegar). As abordagens contemporâneas distinguem liderança transacional (troca recompensa por desempenho) de liderança transformacional (inspira, transforma valores e eleva o liderado acima do interesse próprio)."
+        },
+        {
+          "h": "Desempenho e demais variáveis do CO",
+          "p": "O desempenho no trabalho resulta da combinação de motivação, capacidade (competências) e condições/oportunidade. O CO também estuda percepção (e seus vieses, como efeito halo, estereótipos e profecia autorrealizável), atitudes (satisfação, envolvimento e comprometimento), aprendizagem, grupos e equipes (diferença entre grupo de trabalho e equipe de alto desempenho com sinergia positiva) e poder/conflito. A avaliação de desempenho é o instrumento que mede a contribuição individual, sujeita a erros como leniência, tendência central e o já citado efeito halo."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'Segundo a teoria dos dois fatores de Herzberg, a melhoria do salário e das condições físicas de trabalho é capaz de gerar, por si só, satisfação e motivação duradoura nos empregados.' O item está ERRADO. Salário e condições de trabalho são fatores HIGIÊNICOS (extrínsecos): sua melhoria apenas evita a insatisfação, mas não motiva. A satisfação/motivação vem dos fatores MOTIVACIONAIS (intrínsecos): realização, reconhecimento, responsabilidade e crescimento.",
+      "pontos_chave": [
+        "Maslow: pirâmide de cinco necessidades, das fisiológicas à autorrealização.",
+        "Herzberg: higiênicos (extrínsecos) evitam insatisfação; motivacionais (intrínsecos) geram satisfação.",
+        "Vroom (expectativa): motivação = expectativa x instrumentalidade x valência.",
+        "Adams (equidade): comparação de contribuições e recompensas com referências externas.",
+        "Liderança: traços, comportamental (autocrático/democrático/liberal) e situacional (Hersey-Blanchard).",
+        "Transacional (troca) x transformacional (inspira e transforma valores).",
+        "Desempenho = motivação x capacidade x condições; avaliação sujeita a vieses (efeito halo)."
+      ],
+      "dica_prova": "Os maiores erros de prova: (1) afirmar que fatores higiênicos motivam (não motivam, só evitam insatisfação); (2) tratar satisfação e insatisfação como extremos de uma única escala em Herzberg (são dimensões independentes); (3) confundir os estilos de liderança e o modelo situacional. Em Vroom, lembre que basta um fator igual a zero para zerar a motivação."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Objetivos e desafios da gestão de pessoas",
+      "intro": "A gestão de pessoas (GP) é o conjunto de políticas e práticas que conduz os aspectos relativos às pessoas no trabalho — recrutar, selecionar, desenvolver, recompensar e reter. A GP moderna passou de uma visão operacional e burocrática (administração de pessoal) para uma visão estratégica, tratando as pessoas como parceiras e fonte de vantagem competitiva, e não como meros recursos ou custos.",
+      "secoes": [
+        {
+          "h": "Conceito e evolução da gestão de pessoas",
+          "p": "A área evoluiu por fases: relações industriais (foco legal e disciplinar), administração de recursos humanos (foco em processos de RH) e gestão de pessoas/gestão estratégica de pessoas (pessoas como parceiras e capital intelectual). No setor público, essa evolução é mediada pelo regime estatutário, pelo concurso público e pelos princípios constitucionais, o que impõe limites e características próprias (estabilidade, isonomia, impessoalidade)."
+        },
+        {
+          "h": "Objetivos e processos da gestão de pessoas",
+          "p": "Chiavenato organiza a GP em seis processos básicos: agregar (recrutamento e seleção), aplicar (desenho de cargos, avaliação de desempenho), recompensar (remuneração, benefícios), desenvolver (treinamento, desenvolvimento, gestão do conhecimento), manter (higiene, segurança, qualidade de vida, relações sindicais) e monitorar (banco de dados, sistemas de informação de RH). Os objetivos da GP incluem: ajudar a organização a alcançar metas, proporcionar competitividade, oferecer pessoas treinadas e motivadas, aumentar a satisfação e a qualidade de vida no trabalho, desenvolver e manter qualidade de vida, administrar a mudança e manter políticas éticas."
+        },
+        {
+          "h": "Equilíbrio organizacional",
+          "p": "A Teoria do Equilíbrio Organizacional (Barnard, Simon, March) explica a relação de troca entre indivíduo e organização. As pessoas oferecem contribuições (trabalho, esforço, dedicação) e, em troca, recebem incentivos (salário, benefícios, reconhecimento). A organização permanece em equilíbrio enquanto os incentivos oferecidos forem percebidos como iguais ou superiores às contribuições exigidas — só assim o participante continua disposto a contribuir e a permanecer. Romper esse equilíbrio (incentivos percebidos como insuficientes) leva à insatisfação, à queda de desempenho e ao desligamento (turnover)."
+        },
+        {
+          "h": "Desafios contemporâneos da gestão de pessoas",
+          "p": "Os principais desafios atuais da GP são: alinhamento estratégico (conectar práticas de RH aos objetivos organizacionais), gestão por competências, gestão da diversidade e inclusão, retenção de talentos, gestão da mudança, trabalho remoto/híbrido, transformação digital e people analytics. No serviço público, somam-se desafios como rigidez do regime jurídico, dificuldade de remuneração por desempenho, dimensionamento da força de trabalho e gestão do conhecimento frente à rotatividade e às aposentadorias."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'De acordo com a teoria do equilíbrio organizacional, a organização mantém-se equilibrada enquanto as contribuições exigidas dos participantes superarem os incentivos a eles oferecidos.' O item está ERRADO. A relação é inversa: o equilíbrio se mantém enquanto os INCENTIVOS oferecidos forem iguais ou superiores às CONTRIBUIÇÕES exigidas. Se as contribuições passam a superar os incentivos percebidos, o participante tende a reduzir o esforço ou a deixar a organização.",
+      "pontos_chave": [
+        "GP evoluiu de administração de pessoal (operacional) para gestão estratégica de pessoas.",
+        "Seis processos (Chiavenato): agregar, aplicar, recompensar, desenvolver, manter e monitorar.",
+        "Pessoas vistas como parceiras e capital intelectual, não como custo.",
+        "Equilíbrio organizacional: incentivos devem ser >= contribuições para reter o participante.",
+        "Contribuições (do indivíduo) x incentivos (da organização) formam a relação de troca.",
+        "Desafios atuais: gestão por competências, diversidade, retenção, transformação digital e people analytics.",
+        "No setor público: regime estatutário, concurso e princípios constitucionais condicionam a GP."
+      ],
+      "dica_prova": "A inversão entre incentivos e contribuições é a pegadinha clássica do equilíbrio organizacional — leia com atenção qual lado deve superar qual. A Cebraspe também cobra a associação de cada processo de GP à sua atividade (ex.: 'recompensar' inclui remuneração e benefícios; 'desenvolver' inclui treinamento). Lembre que a GP estratégica não elimina as rotinas operacionais, apenas as subordina aos objetivos da organização."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Mapeamento e melhoria de processos",
+      "intro": "Um processo é um conjunto de atividades inter-relacionadas que transforma entradas (insumos) em saídas (produtos ou serviços) que agregam valor para um cliente. A gestão de processos de negócio (BPM — Business Process Management) é a disciplina que identifica, modela, analisa, melhora e monitora processos de forma contínua, deslocando o foco da estrutura funcional (departamentos isolados) para o fluxo horizontal que atravessa a organização.",
+      "secoes": [
+        {
+          "h": "Conceitos: processo, cadeia de valor e tipos de processo",
+          "p": "Os processos classificam-se em: finalísticos (primários ou de negócio) — entregam valor diretamente ao cliente e cumprem a missão da organização; de apoio (suporte) — sustentam os finalísticos (TI, RH, compras); e gerenciais (de gestão) — coordenam, monitoram e controlam (planejamento, governança). A cadeia de valor de Porter representa o encadeamento das atividades primárias e de apoio que geram valor e margem. O BPM segue um ciclo de vida contínuo, frequentemente descrito como planejar, modelar (as-is), analisar, desenhar/redesenhar (to-be), implementar e monitorar."
+        },
+        {
+          "h": "Mapeamento e notação BPMN",
+          "p": "O mapeamento de processos documenta como o trabalho realmente flui. O padrão de mercado é o BPMN (Business Process Model and Notation), mantido pela OMG. Seus elementos principais são: objetos de fluxo — eventos (círculos: início, intermediário, fim), atividades/tarefas (retângulos arredondados) e gateways (losangos, para decisões e paralelismos); objetos de conexão — fluxos de sequência, fluxos de mensagem e associações; swimlanes — pools (organizações/participantes) e lanes (raias, papéis/setores dentro do pool); e artefatos — objetos de dados, grupos e anotações. As raias deixam explícito quem é responsável por cada atividade."
+        },
+        {
+          "h": "Modelo as-is e to-be",
+          "p": "O modelo as-is retrata o processo como ele é hoje, expondo gargalos, retrabalho, atividades que não agregam valor e pontos de controle. A partir da análise (que pode usar técnicas como SIPOC, diagrama de causa-efeito de Ishikawa, 5W2H e indicadores de desempenho), constrói-se o modelo to-be, que representa o processo redesenhado e otimizado. A diferença entre a melhoria contínua (incremental, kaizen) e a reengenharia (radical, ruptura) é frequentemente cobrada: BPM tradicional prioriza melhoria contínua; reengenharia propõe repensar o processo do zero."
+        },
+        {
+          "h": "Melhoria e monitoramento por indicadores",
+          "p": "A melhoria de processos busca eliminar desperdícios, reduzir o tempo de ciclo (lead time), padronizar e automatizar. Abordagens complementares incluem Lean (eliminação de desperdícios), Six Sigma (redução da variabilidade, ciclo DMAIC: definir, medir, analisar, melhorar e controlar) e automação (BPMS e RPA). O desempenho dos processos é monitorado por indicadores (KPIs) que medem eficiência, eficácia, qualidade, tempo e custo, realimentando o ciclo de melhoria contínua (PDCA)."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'Na notação BPMN, os gateways são representados por círculos e indicam o início e o fim do processo, ao passo que os eventos, representados por losangos, controlam a divergência e a convergência do fluxo.' O item está ERRADO. A notação está trocada: EVENTOS são círculos (início/intermediário/fim) e GATEWAYS são losangos (controlam divergência e convergência, decisões e paralelismos). Trocar as formas dos elementos do BPMN é pegadinha frequente.",
+      "pontos_chave": [
+        "Processo: transforma entradas em saídas que agregam valor ao cliente.",
+        "Tipos: finalísticos (cliente), de apoio (suporte) e gerenciais (gestão).",
+        "BPM é ciclo contínuo: modelar (as-is), analisar, redesenhar (to-be), implementar e monitorar.",
+        "BPMN: eventos=círculos, atividades=retângulos arredondados, gateways=losangos.",
+        "Pools e lanes (raias) definem responsáveis pelas atividades.",
+        "As-is = processo atual; to-be = processo otimizado.",
+        "Melhoria contínua (incremental) x reengenharia (radical); Lean, Six Sigma (DMAIC) e PDCA."
+      ],
+      "dica_prova": "Memorize as formas do BPMN, pois a banca adora trocá-las (evento=círculo, gateway=losango, atividade=retângulo). Outra pegadinha: confundir a melhoria contínua (incremental, kaizen) com a reengenharia (radical, ruptura) — não são sinônimos. Lembre que o foco do BPM é horizontal (o fluxo que atravessa setores), em oposição à visão vertical/funcional tradicional."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Gestão de projetos e metodologia ágil",
+      "intro": "Projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado único (definição do PMI/PMBOK). As duas características essenciais são a temporariedade (tem início e fim definidos) e a singularidade/exclusividade (entrega algo novo). Isso o distingue das operações continuadas e repetitivas. A gestão de projetos aplica conhecimentos, habilidades, ferramentas e técnicas às atividades do projeto para atender a seus requisitos, equilibrando escopo, prazo, custo e qualidade.",
+      "secoes": [
+        {
+          "h": "Ciclo de vida e grupos de processos (abordagem preditiva)",
+          "p": "O ciclo de vida do projeto é a sequência de fases que vai do início ao encerramento. Na abordagem tradicional/preditiva (cascata), o PMBOK organiza o gerenciamento em cinco grupos de processos: iniciação, planejamento, execução, monitoramento e controle, e encerramento. O termo de abertura (project charter) autoriza formalmente o projeto e nomeia o gerente; a EAP (estrutura analítica do projeto / WBS) decompõe o escopo em entregas menores. As dez áreas de conhecimento clássicas incluem integração, escopo, cronograma, custos, qualidade, recursos, comunicações, riscos, aquisições e partes interessadas. A 7ª edição do PMBOK passou a adotar uma abordagem por princípios e domínios de desempenho, reduzindo o foco em processos rígidos."
+        },
+        {
+          "h": "Restrição tripla e restrições do projeto",
+          "p": "A restrição tripla (triângulo de ferro) relaciona escopo, prazo (tempo) e custo, tendo a qualidade como elemento central afetado por eles: alterar um vértice impacta os demais. Modelos ampliados incluem também qualidade, recursos e riscos. Compreender essa interdependência é essencial para avaliar trade-offs (por exemplo, antecipar o prazo geralmente eleva custo ou reduz escopo)."
+        },
+        {
+          "h": "Abordagem ágil",
+          "p": "A abordagem ágil é iterativa e incremental, baseada no Manifesto Ágil (2001) e seus quatro valores: indivíduos e interações mais que processos e ferramentas; software/produto em funcionamento mais que documentação abrangente; colaboração com o cliente mais que negociação de contratos; e responder a mudanças mais que seguir um plano. Observe que o ágil valoriza ambos os lados, mas dá mais peso ao primeiro. O framework mais cobrado é o Scrum: papéis (Product Owner, Scrum Master e Time de Desenvolvimento), eventos (Sprint, Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective) e artefatos (Product Backlog, Sprint Backlog e Incremento). O Kanban gerencia o fluxo com quadro visual e limite de trabalho em progresso (WIP)."
+        },
+        {
+          "h": "Preditivo x ágil e abordagens híbridas",
+          "p": "A abordagem preditiva (cascata) é adequada quando os requisitos são estáveis e bem definidos; planeja-se tudo no início e entrega-se ao final. A abordagem ágil é adequada a contextos de alta incerteza e requisitos mutáveis; entrega valor de forma incremental, em ciclos curtos, com forte interação com o cliente. As abordagens híbridas combinam elementos dos dois mundos. Não existe abordagem universalmente melhor — a escolha depende da natureza do projeto, do nível de incerteza e do contexto organizacional."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'Por valorizar indivíduos e interações mais que processos e ferramentas, o Manifesto Ágil dispensa completamente a documentação e o planejamento na condução dos projetos.' O item está ERRADO. O Manifesto Ágil reconhece valor nos itens à direita (processos, documentação, plano), apenas atribui MAIS valor aos da esquerda. Ágil não significa ausência de documentação ou de planejamento — significa documentação e planejamento na medida necessária, adaptáveis à mudança.",
+      "pontos_chave": [
+        "Projeto: esforço temporário que gera produto/serviço/resultado único.",
+        "Grupos de processos (PMBOK): iniciação, planejamento, execução, monitoramento e controle, encerramento.",
+        "Termo de abertura autoriza o projeto; EAP/WBS decompõe o escopo.",
+        "Restrição tripla: escopo, prazo e custo (com a qualidade ao centro).",
+        "Manifesto Ágil: valoriza mais (não exclusivamente) indivíduos, produto funcionando, colaboração e mudança.",
+        "Scrum: papéis (PO, SM, Time), eventos (Sprint, Daily, Review, Retrospective) e artefatos (backlogs, incremento).",
+        "Preditivo (requisitos estáveis) x ágil (alta incerteza); existem abordagens híbridas."
+      ],
+      "dica_prova": "A pegadinha mais comum é interpretar o Manifesto Ágil como negação total dos itens da direita ('ágil não tem documentação/planejamento') — falso, ele apenas prioriza. Outra: confundir grupos de processos (iniciação...encerramento) com fases do ciclo de vida, ou afirmar que ágil é sempre superior ao preditivo (não é; depende do contexto). Decore os papéis, eventos e artefatos do Scrum, muito cobrados."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Administração de recursos materiais",
+      "intro": "A administração de recursos materiais (ou de materiais) é a área responsável por planejar, dirigir e controlar o fluxo de materiais na organização, da aquisição ao consumo ou descarte, ao menor custo e sem comprometer o atendimento das necessidades. Abrange gestão de estoques, compras, armazenagem, movimentação e patrimônio, sendo parte da logística e da cadeia de suprimentos (supply chain).",
+      "secoes": [
+        {
+          "h": "Gestão de estoques",
+          "p": "Estoques existem para regular o fluxo entre suprimento e demanda, mas geram custo de manutenção. A gestão busca o ponto ótimo entre disponibilidade e custo. Conceitos centrais: estoque de segurança (margem contra incertezas), ponto de pedido (nível que dispara a reposição), lote econômico de compra (LEC/EOQ — quantidade que minimiza a soma dos custos de pedido e de manutenção) e curva ABC (classificação de Pareto: itens A, poucos itens que representam grande valor, exigem controle rigoroso; B intermediários; C, muitos itens de baixo valor). Indicadores típicos: giro/rotatividade de estoque e cobertura/antigiro."
+        },
+        {
+          "h": "Compras e cadeia de suprimentos",
+          "p": "A função compras adquire materiais na quantidade certa, na qualidade certa, no momento certo, ao preço certo e da fonte certa. Envolve seleção e qualificação de fornecedores, negociação e acompanhamento. Filosofias modernas: Just in Time (JIT), que busca estoque mínimo com suprimento sincronizado à demanda, e MRP (planejamento das necessidades de materiais), que calcula necessidades a partir da demanda dependente. No setor público, as compras são regidas por licitação (Lei 14.133/2021), com instrumentos como sistema de registro de preços, e a gestão de almoxarifado segue normas próprias de controle."
+        },
+        {
+          "h": "Armazenagem, movimentação e classificação de materiais",
+          "p": "A armazenagem cuida do recebimento, guarda, conservação e expedição dos materiais, com layout, endereçamento e métodos de avaliação/saída de estoque: PEPS/FIFO (primeiro que entra, primeiro que sai), UEPS/LIFO (último que entra, primeiro que sai — vedado para fins fiscais no Brasil) e custo médio. A classificação de materiais (codificação, especificação, padronização e catalogação) organiza os itens para identificação e controle. A movimentação interna e a logística reversa (retorno de materiais e resíduos) completam o fluxo."
+        },
+        {
+          "h": "Gestão patrimonial",
+          "p": "A gestão de patrimônio trata dos bens permanentes (material permanente, duráveis), distinguindo-os do material de consumo. Inclui tombamento (registro e plaqueta de identificação), controle, inventário físico, depreciação, alienação e baixa (descarte, doação, leilão). No setor público, a distinção entre material de consumo e material permanente segue critérios (durabilidade, fragilidade, perecibilidade, incorporação e transformabilidade) e o controle patrimonial é objeto de auditoria, dado o risco de extravio e a obrigatoriedade do inventário anual."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'Na curva ABC, os itens da classe A são os mais numerosos e de menor valor, devendo, por isso, receber controle mais rigoroso do que os da classe C.' O item está ERRADO. A relação está invertida: os itens da classe A são POUCOS, porém de ALTO valor (devem ter controle rigoroso); os da classe C são MUITOS e de BAIXO valor (controle mais simples). A curva ABC aplica o princípio de Pareto (poucos itens concentram a maior parte do valor).",
+      "pontos_chave": [
+        "Administração de materiais: planeja e controla o fluxo de materiais ao menor custo.",
+        "Estoque de segurança, ponto de pedido e lote econômico (LEC/EOQ) otimizam a reposição.",
+        "Curva ABC: itens A (poucos, alto valor), B (intermediários), C (muitos, baixo valor).",
+        "JIT busca estoque mínimo; MRP calcula necessidades a partir da demanda.",
+        "Métodos de saída: PEPS/FIFO, UEPS/LIFO (vedado no fisco brasileiro) e custo médio.",
+        "Classificação de materiais: codificação, especificação, padronização e catalogação.",
+        "Patrimônio: tombamento, inventário, depreciação, alienação e baixa de bens permanentes."
+      ],
+      "dica_prova": "A inversão da curva ABC (dizer que A são muitos/baratos) é a pegadinha número um. Cuidado também com PEPS (FIFO) x UEPS (LIFO): no PEPS sai primeiro o item mais antigo. A banca confunde material de consumo com material permanente — lembre que permanente é durável e tombável. Associe sempre A = poucos e valiosos = controle rigoroso."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "ESG na gestão pública",
+      "intro": "ESG é a sigla em inglês para Environmental, Social and Governance (ambiental, social e governança) e designa um conjunto de critérios que avaliam o desempenho de organizações nessas três dimensões, para além do resultado puramente financeiro. Originada no mercado de capitais, a agenda ESG foi incorporada à gestão pública como referência para decisões responsáveis, sustentáveis e transparentes, dialogando com os Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 da ONU.",
+      "secoes": [
+        {
+          "h": "As três dimensões do ESG",
+          "p": "Ambiental (E): trata do impacto da organização sobre o meio ambiente — emissões e mudanças climáticas, uso de água e energia, gestão de resíduos, biodiversidade e eficiência no uso de recursos naturais. Social (S): trata das relações com pessoas e a sociedade — direitos humanos, diversidade e inclusão, condições de trabalho, saúde e segurança, relação com comunidades e impacto social das políticas. Governança (G): trata de como a organização é dirigida e controlada — ética, integridade, transparência, prestação de contas (accountability), gestão de riscos, controles internos e combate à corrupção. As três dimensões são interdependentes e devem ser tratadas de forma integrada."
+        },
+        {
+          "h": "ESG aplicado ao setor público",
+          "p": "Na gestão pública, o ESG conecta-se a temas já consagrados: a dimensão de governança aproxima-se da governança pública (liderança, estratégia e controle, conforme o referencial do TCU e o Decreto 9.203/2017, que dispõe sobre governança na administração pública federal). A dimensão social relaciona-se a políticas públicas e à promoção de equidade; a ambiental, à sustentabilidade ambiental do Estado. Em vez de gerar lucro a acionistas, o ESG público busca gerar valor público e sustentabilidade para a sociedade e as futuras gerações."
+        },
+        {
+          "h": "Instrumentos e contratações sustentáveis",
+          "p": "Um dos campos mais concretos do ESG público são as contratações públicas sustentáveis: a Lei 14.133/2021 estabelece o desenvolvimento nacional sustentável como um dos objetivos do processo licitatório e admite critérios e práticas de sustentabilidade ambiental, social e econômica. Outros instrumentos incluem a logística sustentável (planos de logística sustentável), critérios sociais em editais, programas de integridade (compliance) e a transparência ativa exigida pela Lei de Acesso à Informação (Lei 12.527/2011). A agenda ESG também se ancora nos 17 ODS da Agenda 2030."
+        },
+        {
+          "h": "ESG, governança e controle externo",
+          "p": "Para o controle externo, o ESG é relevante porque amplia o escopo da fiscalização para além da conformidade financeira, alcançando resultados ambientais, sociais e de governança. Práticas de greenwashing (alegações ambientais falsas ou exageradas) e socialwashing são riscos a serem auditados. A integração entre ESG, gestão de riscos e controles internos (em linha com o COSO e a governança do TCU) reforça a prestação de contas e a geração de valor público, temas centrais para um auditor de controle externo."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'No contexto ESG aplicado à administração pública, a dimensão de governança (G) restringe-se à preservação ambiental e à eficiência no uso de recursos naturais.' O item está ERRADO. A preservação ambiental é a dimensão AMBIENTAL (E). A GOVERNANÇA (G) refere-se a como a organização é dirigida e controlada: ética, transparência, prestação de contas, gestão de riscos, controles internos e combate à corrupção. A banca troca o conteúdo das três letras com frequência.",
+      "pontos_chave": [
+        "ESG = Environmental (ambiental), Social (social) e Governance (governança).",
+        "E: meio ambiente (emissões, resíduos, energia, recursos naturais).",
+        "S: pessoas e sociedade (direitos humanos, diversidade, trabalho, comunidades).",
+        "G: direção e controle (ética, transparência, accountability, gestão de riscos).",
+        "No setor público, G dialoga com governança pública (TCU; Decreto 9.203/2017).",
+        "Lei 14.133/2021: desenvolvimento nacional sustentável como objetivo da licitação.",
+        "ESG público gera valor público e conecta-se aos ODS da Agenda 2030; greenwashing é risco a auditar."
+      ],
+      "dica_prova": "A pegadinha central é trocar o significado das letras (atribuir governança ao ambiental, ou social ao governança). Fixe: E=ambiental, S=social, G=governança. No setor público, lembre que ESG gera valor público (não lucro a acionistas) e que a Lei 14.133/2021 traz a sustentabilidade como objetivo licitatório. A dimensão G é a ponte natural com a governança pública e o controle externo."
+    }
+  ]
+}

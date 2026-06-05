@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monolito, microsserviços e serverless — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Monolito, microsserviços e serverless</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Arquitetura de software</p>
+    <h1>Monolito, microsserviços e serverless</h1>
+    
+    <p>Os estilos arquiteturais definem como o software é estruturado, dividido e implantado. As três grandes escolhas contemporâneas — monolito, microsserviços e serverless (FaaS) — não formam uma escala de &quot;pior para melhor&quot;, mas sim um conjunto de trade-offs entre simplicidade operacional, acoplamento, escalabilidade e custo. A arquitetura orientada a eventos (Event-Driven Architecture, EDA) atravessa esses estilos, propondo a comunicação assíncrona por meio de eventos e mensageria.</p><p>Para o auditor de TI (AUFC), entender esses estilos importa porque a escolha arquitetural afeta diretamente governança, continuidade, custo e segurança dos sistemas auditados. Adotar microsserviços sem maturidade de DevOps, por exemplo, costuma ser apontado como achado por aumentar a complexidade operacional sem benefício correspondente.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Monolito</h2><p>No estilo monolítico, toda a aplicação é construída, empacotada e implantada como uma única unidade (por exemplo, um único arquivo WAR/JAR em Java, ou um único processo). Há um único banco de dados compartilhado e as funcionalidades se comunicam por chamadas de método em memória.</p><p>Vantagens: simplicidade de desenvolvimento, teste, depuração e implantação inicial; transações ACID locais; menor latência interna. Desvantagens: à medida que cresce, vira um &quot;monolito espaguete&quot; (big ball of mud); qualquer alteração exige reimplantar tudo; a escalabilidade é grosseira (escala-se a aplicação inteira, não a parte sobrecarregada); um defeito pode derrubar todo o sistema. O &quot;monolito modular&quot; (modular monolith) é uma evolução que mantém implantação única mas com forte separação interna de módulos.</p></section><section class="amp-sec"><h2>Microsserviços</h2><p>A aplicação é decomposta em vários serviços pequenos, independentes, cada um com responsabilidade de negócio bem definida (geralmente alinhada a um bounded context do Domain-Driven Design), banco de dados próprio (database per service) e implantação independente. A comunicação ocorre por rede, via APIs (REST/gRPC) ou mensageria assíncrona.</p><p>Vantagens: escalabilidade granular, implantação e times independentes, isolamento de falhas, liberdade tecnológica (poliglota). Desvantagens: complexidade distribuída (latência de rede, falhas parciais, consistência eventual em vez de transações ACID globais — daí padrões como Saga), necessidade de observabilidade robusta, sobrecarga operacional (exige CI/CD maduro, contêineres, orquestração). Microsserviços trocam complexidade de código por complexidade operacional.</p></section><section class="amp-sec"><h2>Serverless (FaaS)</h2><p>No modelo serverless de funções (Function as a Service — AWS Lambda, Azure Functions, Google Cloud Functions), o desenvolvedor implanta funções acionadas por eventos (requisição HTTP, mensagem em fila, upload em storage). O provedor gerencia provisionamento, escalonamento automático (inclusive até zero) e cobrança por execução/tempo.</p><p>Vantagens: sem gerência de servidores, escala automática, paga-se apenas pelo uso. Desvantagens: cold start (latência ao acionar função ociosa), limites de tempo de execução, statelessness imposta, vendor lock-in e dificuldade de depuração/teste local. &quot;Serverless&quot; não significa &quot;sem servidor&quot;: há servidores, mas geridos pelo provedor.</p></section><section class="amp-sec"><h2>Arquitetura orientada a eventos (EDA) e mensageria</h2><p>Na EDA, componentes produzem e consomem eventos (fatos ocorridos, como &quot;PedidoCriado&quot;) de forma assíncrona, normalmente via brokers de mensagens (Apache Kafka, RabbitMQ, AWS SQS/SNS). Promove baixo acoplamento temporal e espacial: produtor e consumidor não precisam estar disponíveis ao mesmo tempo nem se conhecer.</p><p>Padrões comuns: publish/subscribe (pub/sub), filas ponto a ponto, event sourcing (estado reconstruído a partir do log de eventos) e event streaming. A EDA favorece resiliência e escalabilidade, mas introduz consistência eventual, ordenação de mensagens e necessidade de idempotência nos consumidores.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item ao estilo Cebraspe: &quot;Em uma arquitetura de microsserviços, recomenda-se que todos os serviços compartilhem o mesmo banco de dados relacional, a fim de garantir a integridade referencial e transações ACID globais.&quot; — ERRADO. O padrão é database per service (cada serviço tem sua própria base), justamente para garantir independência; a consistência entre serviços passa a ser eventual, tratada por padrões como Saga. Compartilhar a base recriaria forte acoplamento, descaracterizando os microsserviços.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe cobra trade-offs e os erra de propósito: cuidado com afirmações de que microsserviços são &quot;sempre melhores&quot; ou &quot;reduzem a complexidade&quot; — eles reduzem acoplamento, mas aumentam complexidade operacional. Outra pegadinha clássica: dizer que serverless &quot;não usa servidores&quot; (falso) ou que monolitos &quot;não podem escalar&quot; (podem, mas de forma grosseira/horizontal por réplica). Associe database per service a microsserviços e consistência eventual/Saga a sistemas distribuídos.</p></section>
+      <div class="pager-row"><span></span><a class="pager next" href="t0-s1.html">Padrões de integração (API Gateway, Service Mesh, CQRS) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Monolito: implantação única, banco compartilhado, simples no início, mas escala grosseira e acoplamento crescente.</li><li>Microsserviços: serviços independentes, database per service, escala granular, mas trocam complexidade de código por complexidade operacional.</li><li>Serverless/FaaS: funções acionadas por evento, escala automática até zero, paga-se pelo uso; sofre com cold start e vendor lock-in.</li><li>EDA usa eventos assíncronos via brokers (Kafka, RabbitMQ), promovendo baixo acoplamento e consistência eventual.</li><li>Microsserviços exigem DevOps/CI-CD maduro e observabilidade; adotá-los sem maturidade é antipadrão.</li><li>Consistência eventual e padrão Saga substituem transações ACID globais em sistemas distribuídos.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

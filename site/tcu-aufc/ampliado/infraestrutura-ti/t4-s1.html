@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VPNs, PKI e segmentação de rede — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>VPNs, PKI e segmentação de rede</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Segurança de infraestrutura</p>
+    <h1>VPNs, PKI e segmentação de rede</h1>
+    
+    <p>A proteção de dados em trânsito e o controle de quem acessa o quê dependem de VPNs, criptografia, infraestrutura de chaves públicas (PKI) e segmentação de rede. VPNs criam túneis seguros sobre redes públicas; a criptografia (simétrica e assimétrica) garante confidencialidade, integridade e autenticidade; a PKI gerencia certificados digitais que sustentam a confiança; e a segmentação isola partes da rede para conter ameaças.</p><p>Esses mecanismos materializam princípios de segurança como confidencialidade, integridade, autenticidade e não repúdio, e arquiteturas modernas como zero trust e microsegmentação. Em auditoria, verifica-se o uso de protocolos seguros (TLS, IPsec), a validade e a cadeia de certificados e a adequada segregação de zonas de segurança.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>VPNs: IPsec e SSL/TLS</h2><p>Uma VPN (Virtual Private Network) estabelece um túnel criptografado sobre uma rede pública. As VPNs site-to-site interligam redes (ex.: filiais), tipicamente via IPsec; as VPNs de acesso remoto conectam usuários individuais, frequentemente via SSL/TLS (portal/cliente web) ou IPsec.</p><p>O IPsec opera na camada de rede e tem dois protocolos: AH (Authentication Header — integridade e autenticidade, sem confidencialidade) e ESP (Encapsulating Security Payload — confidencialidade, integridade e autenticidade). Possui dois modos: transporte (cifra apenas o payload, host-a-host) e túnel (cifra todo o pacote original, padrão em VPNs gateway-a-gateway). O IKE negocia as chaves/associações de segurança (SA). VPNs SSL/TLS operam na camada de aplicação/transporte e dispensam cliente dedicado (acesso por navegador). Soluções modernas como WireGuard usam criptografia atualizada e código enxuto.</p></section><section class="amp-sec"><h2>Criptografia simétrica e assimétrica</h2><p>Na criptografia simétrica, a mesma chave cifra e decifra (ex.: AES); é rápida e adequada a grandes volumes, mas exige distribuição segura da chave. Na criptografia assimétrica (de chave pública, ex.: RSA, ECC), há um par de chaves: a pública cifra/verifica e a privada decifra/assina; resolve a distribuição de chaves e habilita assinatura digital, porém é mais lenta.</p><p>Na prática, usam-se em conjunto (criptografia híbrida, como no TLS): a assimétrica troca/protege uma chave de sessão simétrica, que então cifra os dados. Funções de hash (SHA-256) garantem integridade. A assinatura digital combina hash + cifra com a chave privada do emissor, provendo integridade, autenticidade e não repúdio. Confidencialidade vem de cifrar com a chave PÚBLICA do destinatário; assinatura, de cifrar o hash com a chave PRIVADA do emissor.</p></section><section class="amp-sec"><h2>PKI e certificados digitais</h2><p>A PKI (Public Key Infrastructure) é o conjunto de papéis, políticas e tecnologias que gerencia certificados digitais e chaves públicas. A Autoridade Certificadora (AC/CA) emite e assina certificados; a Autoridade de Registro (AR/RA) valida a identidade dos solicitantes. O certificado digital (padrão X.509) vincula uma chave pública a uma identidade, sendo assinado pela AC, formando uma cadeia de confiança até uma AC raiz.</p><p>A revogação é tratada por listas de certificados revogados (CRL) ou pelo protocolo OCSP (consulta em tempo real). No Brasil, a ICP-Brasil é a infraestrutura nacional, cuja AC Raiz é gerida pelo ITI, conferindo validade jurídica a assinaturas digitais. A confiança em um certificado depende de validar a cadeia, a validade temporal e o status de revogação.</p></section><section class="amp-sec"><h2>Segmentação, zonas e zero trust</h2><p>A segmentação divide a rede em zonas com diferentes níveis de confiança e controles, limitando o movimento lateral de um atacante. A DMZ (zona desmilitarizada) hospeda serviços acessíveis externamente (web, e-mail), isolando-os da rede interna. VLANs e firewalls implementam a segmentação; a microsegmentação leva o isolamento ao nível de carga de trabalho/VM individual, comum em SDN e nuvem.</p><p>O modelo zero trust (&#x27;nunca confie, sempre verifique&#x27;) abandona a premissa de que o interior da rede é confiável: cada acesso é autenticado, autorizado e verificado continuamente, com menor privilégio e microsegmentação. É o oposto do modelo de perímetro tradicional, em que tudo dentro era confiável. A segmentação adequada é controle-chave para conter incidentes e atende a princípios de defesa em profundidade.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;Para garantir a confidencialidade de uma mensagem enviada a um destinatário, o emissor deve cifrá-la com a sua própria chave privada.&#x27; — ERRADO. Para confidencialidade, o emissor cifra com a chave PÚBLICA do destinatário (só a privada do destinatário decifra). Cifrar com a chave privada do emissor é o que se faz na assinatura digital (garante autenticidade/não repúdio, não confidencialidade).</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha clássica de criptografia: confidencialidade usa a chave PÚBLICA do destinatário; assinatura usa a chave PRIVADA do emissor. A Cebraspe inverte isso constantemente. Em IPsec, lembre que AH não cifra (sem confidencialidade) e ESP cifra. Em PKI, a revogação é por CRL/OCSP. E zero trust elimina a confiança implícita no perímetro interno.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Hardening, firewalls e IDS/IPS</a><a class="pager next" href="t5-s0.html">Monitoramento e ITIL v4 →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>VPN site-to-site (IPsec) liga redes; acesso remoto usa SSL/TLS ou IPsec</li><li>IPsec: AH (integridade/autenticidade) e ESP (também confidencialidade); modos transporte e túnel; IKE negocia SAs</li><li>Simétrica (AES) é rápida e usa mesma chave; assimétrica (RSA/ECC) usa par público/privado; TLS combina ambas (híbrida)</li><li>Confidencialidade: cifrar com a chave pública do destinatário; assinatura: cifrar o hash com a privada do emissor</li><li>PKI: CA emite e assina certificados X.509; cadeia de confiança até a raiz; revogação por CRL/OCSP</li><li>ICP-Brasil é a PKI nacional (AC Raiz no ITI), com validade jurídica</li><li>Segmentação/DMZ/microsegmentação contêm movimento lateral; zero trust nunca confia por padrão</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

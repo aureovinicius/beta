@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Armazenamento em nuvem e IA — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>Armazenamento em nuvem e IA</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Integração com nuvem</p>
+    <h1>Armazenamento em nuvem e IA</h1>
+    
+    <p>O armazenamento de objetos em nuvem é a fundação dos Data Lakes e das arquiteturas de dados modernas. Serviços como Amazon S3 (AWS), Azure Blob Storage (Microsoft) e Google Cloud Storage (GCS) oferecem armazenamento praticamente ilimitado, durável, escalável e de baixo custo para dados estruturados, semiestruturados e não estruturados, com cobrança por uso.</p><p>Sobre essa base de armazenamento integram-se serviços de inteligência artificial e análise: os dados acumulados alimentam plataformas de machine learning e serviços de IA gerenciada (visão computacional, processamento de linguagem natural, IA generativa), formando o ciclo dado → modelo → insight que caracteriza as arquiteturas analíticas em nuvem.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Armazenamento de objetos: S3, Blob e GCS</h2><p>O armazenamento de objetos guarda dados como objetos em contêineres planos (buckets no S3/GCS; containers no Azure Blob), cada objeto identificado por uma chave e acompanhado de metadados. Diferentemente do armazenamento de blocos ou de arquivos, é acessado via API/HTTP, escala horizontalmente de forma quase ilimitada e é otimizado para alta durabilidade (o S3 anuncia durabilidade de 99,999999999% — &quot;11 noves&quot;) e disponibilidade.</p><p>Recursos comuns: classes de armazenamento por temperatura de acesso (quente, frio, arquivamento — ex.: S3 Glacier, Azure Archive) para otimizar custo; versionamento de objetos; políticas de ciclo de vida; criptografia em repouso e em trânsito; e controle de acesso por políticas e IAM. São a camada de armazenamento padrão de Data Lakes, onde convivem arquivos Parquet, JSON e logs.</p></section><section class="amp-sec"><h2>Do armazenamento ao Data Lake e Lakehouse</h2><p>Sobre o armazenamento de objetos constrói-se o Data Lake: repositório centralizado que retém dados brutos em seu formato nativo, sem esquema prévio (schema-on-read), barato e flexível. Para evitar que vire um &quot;pântano de dados&quot; (data swamp) sem governança, adicionam-se catálogo, metadados e formatos transacionais (Delta Lake, Iceberg, Hudi), originando o Lakehouse, que combina a economia do lake com as garantias do data warehouse.</p><p>Serviços de consulta como Amazon Athena, Google BigQuery e Azure Synapse permitem executar SQL diretamente sobre os arquivos no armazenamento de objetos, sem mover os dados para um banco dedicado, reforçando o desacoplamento entre armazenamento e processamento (compute).</p></section><section class="amp-sec"><h2>Integração com IA e machine learning</h2><p>Os dados armazenados em nuvem alimentam plataformas de ML gerenciadas — Amazon SageMaker, Azure Machine Learning, Google Vertex AI — que cobrem o ciclo de vida de modelos: preparação de dados, treinamento, ajuste, implantação e monitoramento. Há também serviços de IA prontos (cognitive/AI services) acessíveis por API para visão computacional, OCR, transcrição de fala, tradução e PLN, sem necessidade de treinar modelos do zero.</p><p>Mais recentemente, serviços de IA generativa e LLMs gerenciados (Amazon Bedrock, Azure OpenAI Service, Google Vertex AI) permitem incorporar geração de texto, sumarização e técnicas como RAG (Retrieval-Augmented Generation), que combinam um modelo de linguagem com a base de dados/conhecimento da organização para respostas contextualizadas. A engenharia de dados garante o pipeline que prepara, limpa e organiza os dados que sustentam esses modelos.</p></section><section class="amp-sec"><h2>Segurança, custo e governança na nuvem</h2><p>O modelo de responsabilidade compartilhada vale também aqui: o provedor protege a infraestrutura física; o cliente é responsável por configurar corretamente permissões (IAM/RBAC), criptografia, políticas de bucket e classificação de dados. Buckets públicos mal configurados são causa frequente de vazamento de dados — achado clássico de auditoria.</p><p>Governança de custos (lifecycle policies, classes de armazenamento adequadas), conformidade com a LGPD (localização e proteção de dados pessoais, inclusive em treinamento de IA), e rastreabilidade (logs de acesso, linhagem) são preocupações centrais. Para IA, somam-se temas de transparência, viés algorítmico e proteção de dados usados no treinamento.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria de TI: o TCU avalia um Data Lake institucional em Amazon S3 que alimenta um modelo de detecção de irregularidades. O auditor verifica que um bucket está com acesso público indevido (risco de vazamento) e que faltam políticas de ciclo de vida, elevando custos. Item de prova: &quot;No modelo de responsabilidade compartilhada, a configuração de permissões de acesso e a criptografia dos dados armazenados em serviços como o Amazon S3 são responsabilidade do cliente, não do provedor de nuvem.&quot; — CERTO.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe explora o armazenamento de objetos x blocos x arquivos — objetos são acessados por API e identificados por chave, não por hierarquia de diretórios tradicional. A pegadinha mais cobrada é a responsabilidade compartilhada: usar S3/Blob não transfere ao provedor a responsabilidade por configurar acessos e criptografia. Cuidado também ao confundir Data Lake (dados brutos, schema-on-read) com Data Warehouse (estruturado, schema-on-write).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t5-s0.html">← Serviços gerenciados (Azure Data Factory, Databricks)</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>S3, Azure Blob e GCS = armazenamento de objetos: buckets/containers, acesso via API, escala e durabilidade altas</li><li>Classes por temperatura (quente/frio/arquivo) otimizam custo; versionamento e lifecycle policies</li><li>Armazenamento de objetos é a base de Data Lakes (schema-on-read)</li><li>Lakehouse: lake + formatos transacionais (Delta/Iceberg/Hudi) + governança</li><li>Athena/BigQuery/Synapse: SQL direto sobre arquivos, desacoplando storage e compute</li><li>Plataformas de ML: SageMaker, Azure ML, Vertex AI; IA generativa: Bedrock, Azure OpenAI</li><li>RAG combina LLM com a base de dados da organização para respostas contextualizadas</li><li>Responsabilidade compartilhada: cliente configura IAM, criptografia e políticas (buckets públicos = risco)</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

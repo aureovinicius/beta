@@ -1,0 +1,76 @@
+{
+  "slug": "lingua-portuguesa",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 3,
+      "titulo": "Tipos e gêneros textuais",
+      "intro": "Um dos eixos clássicos da prova de Língua Portuguesa do Cebraspe é a distinção entre TIPOS textuais (também chamados de sequências ou tipologias) e GÊNEROS textuais. Confundir os dois é o erro mais comum, e a banca explora exatamente essa fronteira. Tipo textual é uma categoria teórica, fechada e finita, definida pela estrutura linguística interna do texto (modos de organizar o discurso): narração, descrição, dissertação/argumentação, exposição e injunção. Gênero textual é uma categoria prática, aberta e ilimitada, definida pela função social, pelo contexto de circulação e pela esfera comunicativa: edital, parecer, acórdão, relatório de auditoria, e-mail, notícia, ofício, manual, ata, lei.\n\nA relação entre os dois é de combinação, não de exclusão: um mesmo gênero quase sempre mistura vários tipos. Um relatório de auditoria do TCU, por exemplo, descreve achados, narra a execução dos trabalhos, expõe normas e argumenta para recomendar providências. Por isso a banca costuma falar em tipo PREDOMINANTE ou SEQUÊNCIA dominante: o texto é classificado pelo tipo que organiza a maior parte de sua estrutura, não por uma passagem isolada.\n\nPara o concurso, o domínio dessa matéria serve a dois fins: identificar a intenção comunicativa do autor (informar, convencer, instruir, relatar) e prever as marcas linguísticas que cada tipo carrega (tempos verbais, conectores, pessoa do discurso), que reaparecem em questões de coesão e reescrita.",
+      "secoes": [
+        {
+          "h": "Os cinco tipos textuais e suas marcas linguísticas",
+          "p": "NARRAÇÃO: relata fatos em sequência temporal, com personagens, enredo e progressão de ações. Marca típica: verbos de ação no pretérito perfeito e imperfeito, advérbios de tempo, conectores temporais (então, depois, em seguida).\n\nDESCRIÇÃO: caracteriza seres, objetos, lugares ou processos, criando uma 'fotografia' estática. Marca típica: predomínio de adjetivos e locuções adjetivas, verbos de estado (ser, estar, parecer), verbos no presente ou pretérito imperfeito, ausência de progressão temporal.\n\nDISSERTAÇÃO-ARGUMENTATIVA: defende um ponto de vista (tese) com argumentos, visando convencer. Marca típica: conectores lógico-argumentativos (portanto, contudo, visto que), 3ª pessoa, presente do indicativo, verbos modais.\n\nEXPOSIÇÃO (dissertação-expositiva): apresenta/explica um conceito de forma objetiva, SEM defender tese. Marca típica: linguagem impessoal e neutra, definições, comparações.\n\nINJUNÇÃO (instrucional): orienta o leitor a agir, ditando comportamentos ou procedimentos. Marca típica: verbos no imperativo ou infinitivo (anexe, preencha, não ultrapasse), sequência de passos. Aparece em manuais, editais, bulas, receitas e nos comandos de provas."
+        },
+        {
+          "h": "Tipo x gênero: a diferença que a banca cobra",
+          "p": "Tipos textuais são em número fixo (a maioria dos autores reconhece cinco) e definidos por critérios LINGUÍSTICOS internos. Gêneros textuais são potencialmente infinitos e definidos por critérios SOCIOCOMUNICATIVOS: quem fala, para quem, com que objetivo, em que suporte e esfera (jurídica, jornalística, administrativa, literária).\n\nUm gênero como o 'edital' não é um tipo; ele é um gênero da esfera administrativa que combina tipos injuntivo (instruções para inscrição), expositivo (descrição do cargo) e descritivo. O 'acórdão' é gênero jurídico predominantemente argumentativo. A 'notícia' é gênero jornalístico predominantemente narrativo-expositivo. Note que gêneros são reconhecidos socialmente: o leitor identifica um requerimento, uma ata ou um ofício por sua forma e função convencionais, mesmo sem ler o conteúdo todo."
+        },
+        {
+          "h": "Domínios discursivos e gêneros do setor público",
+          "p": "Gêneros se agrupam em domínios ou esferas discursivas (jurídico, administrativo, jornalístico, acadêmico, literário, publicitário). No contexto do TCU, predominam gêneros da esfera oficial/administrativa, normatizados pelo Manual de Redação da Presidência da República: ofício, memorando (hoje unificados sob a denominação 'ofício'), exposição de motivos, mensagem, ata, parecer, relatório e despacho.\n\nEsses gêneros oficiais exigem qualidades como impessoalidade, clareza, concisão, formalidade e padronização (pronomes de tratamento corretos, fecho adequado). Embora o tipo predominante seja muitas vezes expositivo ou injuntivo, o que define o gênero é a finalidade comunicativa institucional e a estrutura convencional (cabeçalho, vocativo, corpo, fecho, assinatura)."
+        },
+        {
+          "h": "Intertextualidade e hibridismo de gêneros",
+          "p": "A banca também explora o hibridismo: gêneros que incorporam características de outros (uma crônica que parece notícia, uma propaganda em forma de receita). Esse fenômeno se liga à intertextualidade, a presença de um texto dentro de outro, que pode ser explícita (citação, referência) ou implícita (alusão, paródia, paráfrase). Reconhecer o gênero ajuda a interpretar a intenção: um texto publicitário disfarçado de instrução técnica busca persuadir, não apenas informar. Distinguir a função real da forma aparente é habilidade de interpretação cobrada com frequência."
+        }
+      ],
+      "exemplo": "Item no estilo Cebraspe: 'O texto, por apresentar verbos predominantemente no imperativo e orientar o leitor quanto aos procedimentos de inscrição, classifica-se como predominantemente narrativo.' (ERRADO) — verbos no imperativo orientando procedimentos caracterizam o tipo INJUNTIVO/instrucional, não o narrativo. A pegadinha mistura a marca linguística correta (imperativo) com a tipologia errada. Outro item: 'Trata-se de gênero textual do tipo edital.' (ERRADO) — 'edital' é gênero, não tipo; os tipos são apenas narração, descrição, dissertação, exposição e injunção.",
+      "pontos_chave": [
+        "Tipo textual é categoria fechada e linguística (5 tipos); gênero é categoria aberta e sociocomunicativa (ilimitados).",
+        "Os tipos: narração, descrição, dissertação-argumentativa, exposição e injunção.",
+        "Um mesmo gênero combina vários tipos; classifica-se pelo tipo PREDOMINANTE.",
+        "Injunção = verbos no imperativo/infinitivo orientando ação (manuais, editais, comandos de prova).",
+        "Gêneros se organizam em domínios discursivos; no TCU predominam os da esfera oficial/administrativa.",
+        "Cada tipo tem marcas próprias: tempos verbais, conectores e pessoa do discurso.",
+        "Hibridismo e intertextualidade podem disfarçar a função real do texto."
+      ],
+      "dica_prova": "A pegadinha número um é chamar gênero de 'tipo' e vice-versa: 'o tipo textual carta', 'o gênero narração' são formulações ERRADAS. Memorize que tipos são só cinco e fechados. A banca também cobra a marca linguística associada a cada tipo (imperativo = injunção; muitos adjetivos = descrição; conectores argumentativos = dissertação) e exige cautela com o 'predominantemente': um trecho isolado de outro tipo não muda a classificação geral do texto."
+    },
+    {
+      "ti": 3,
+      "si": 2,
+      "titulo": "Reescrita de frases e parágrafos",
+      "intro": "A reescrita é talvez o item mais característico e temido da prova de Língua Portuguesa do Cebraspe. O comando típico é: 'A reescrita do trecho mantém a correção gramatical e os sentidos originais do texto.' O candidato deve julgar se a versão proposta (a) continua gramaticalmente correta E (b) preserva o sentido. Basta UMA das duas condições falhar para o item ser ERRADO. Essa lógica de dupla exigência é a chave da matéria.\n\nReescrever envolve operações como trocar uma palavra por sinônimo, substituir uma conjunção por outra, transformar voz ativa em passiva, deslocar termos, fundir ou dividir orações, nominalizar verbos. Cada operação tem armadilhas próprias: um sinônimo pode mudar a regência; uma conjunção 'equivalente' pode inverter a relação lógica; a passiva pode exigir ajuste de concordância.\n\nO examinador trabalha com pares de 'pegadinhas': a reescrita parece boa, mas (1) introduz erro gramatical sutil (concordância, regência, crase, pontuação) ou (2) altera o sentido (muda a relação de causa/consequência, restringe o que era amplo, troca certeza por hipótese). Dominar reescrita é, na prática, dominar toda a gramática aplicada simultaneamente.",
+      "secoes": [
+        {
+          "h": "As duas perguntas obrigatórias: correção E sentido",
+          "p": "Todo item de reescrita exige checar duas dimensões independentes:\n\n1) CORREÇÃO GRAMATICAL: a nova frase respeita concordância, regência, colocação pronominal, crase, pontuação e ortografia? Uma reescrita pode preservar perfeitamente o sentido e mesmo assim ser ERRADA por um erro de regência introduzido ('assistir o filme' em vez de 'assistir ao filme').\n\n2) PRESERVAÇÃO DO SENTIDO: a nova frase diz exatamente o mesmo que a original? Uma reescrita pode estar gramaticalmente impecável e ser ERRADA porque mudou a mensagem (transformou uma concessão em causa, por exemplo).\n\nEstratégia: julgue as duas coisas separadamente. Se qualquer uma falha, o gabarito é ERRADO. Cuidado especial: às vezes a banca afirma só 'mantém a correção gramatical' (sem citar sentido) — nesse caso só a gramática importa, e uma frase correta mas com sentido diferente seria CERTA."
+        },
+        {
+          "h": "Conectores: o coração da reescrita",
+          "p": "Trocar conectivos é a operação mais cobrada e a mais traiçoeira. É preciso saber se as conjunções expressam a MESMA relação lógica:\n\nCAUSA (porque, visto que, já que, uma vez que) ≠ CONSEQUÊNCIA (de modo que, portanto, logo). Inverter causa e efeito muda o sentido.\n\nCONCESSÃO (embora, ainda que, conquanto, mesmo que + subjuntivo) ≠ CONDIÇÃO (se, caso, contanto que) ≠ ADVERSIDADE (mas, porém, contudo, todavia). 'Embora chova' (concessão: contrariedade prevista) é diferente de 'Se chover' (condição: hipótese).\n\nAtenção a 'como' (pode ser causal, comparativo ou conformativo) e a 'enquanto' (temporal ou de contraste). Trocar 'porque' por 'porquanto' costuma ser válido; trocar 'porque' por 'portanto' inverte a lógica. Verbos no subjuntivo após concessivas e condicionais também precisam ser ajustados na reescrita."
+        },
+        {
+          "h": "Transformação de voz e ajustes obrigatórios",
+          "p": "Passar da voz ativa para a passiva (ou vice-versa) é operação frequente. 'O auditor analisou os contratos' (ativa) ↔ 'Os contratos foram analisados pelo auditor' (passiva analítica) ↔ 'Analisaram-se os contratos' (passiva sintética/pronominal). Na conversão, o objeto direto vira sujeito, exigindo NOVA concordância: o verbo passa a concordar com o que era objeto. Erro clássico: 'Analisou-se os contratos' (errado; deveria ser 'Analisaram-se', pois 'os contratos' é o sujeito da passiva sintética).\n\nA nominalização (transformar verbo em substantivo: 'quando o gestor decidiu' → 'após a decisão do gestor') também é comum e costuma manter o sentido, mas pode apagar informações de tempo, modo ou agente, alterando a precisão. Verifique sempre se nenhuma informação se perdeu."
+        },
+        {
+          "h": "Substituição lexical, deslocamento e pontuação",
+          "p": "Trocar uma palavra por sinônimo parece inofensivo, mas pode (a) alterar a regência ('preferir A a B' não admite 'do que'), (b) restringir o sentido (sinônimos raramente são perfeitos: 'casa' não é sempre 'lar') ou (c) exigir/eliminar crase. Deslocar termos da frase exige reajustar a pontuação: um adjunto adverbial deslocado para o início costuma pedir vírgula; uma oração subordinada adjetiva mudando de explicativa (com vírgulas) para restritiva (sem vírgulas) MUDA O SENTIDO — 'os servidores, que erraram, foram punidos' (todos erraram) ≠ 'os servidores que erraram foram punidos' (só os que erraram). Esse contraste explicativa/restritiva é uma das pegadinhas favoritas da banca."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): Trecho original: 'Embora o sistema estivesse atualizado, a falha persistiu.' Reescrita proposta: 'Como o sistema estava atualizado, a falha persistiu.' Comando: 'A reescrita preserva a correção e os sentidos originais.' Gabarito: ERRADO. A gramática está correta, mas o sentido mudou: 'embora' expressa CONCESSÃO (a falha persistiu apesar de o sistema estar atualizado), enquanto 'como' aqui expressa CAUSA (a falha teria persistido por causa da atualização). A relação lógica foi invertida — basta isso para o item ser falso, mesmo sem nenhum erro gramatical.",
+      "pontos_chave": [
+        "Reescrita exige checar DUAS coisas: correção gramatical E preservação do sentido — falhar em uma já torna o item errado.",
+        "Leia o comando: se ele cita só 'correção gramatical', o sentido pode mudar sem invalidar a frase.",
+        "Conectores são o foco principal: causa ≠ consequência, concessão ≠ condição ≠ adversidade.",
+        "Voz passiva sintética exige reconcordância: 'Analisaram-se os contratos', não 'Analisou-se os contratos'.",
+        "Sinônimos podem alterar regência, crase ou restringir o sentido — não são neutros.",
+        "Oração adjetiva explicativa (com vírgula) ≠ restritiva (sem vírgula): a pontuação muda o sentido.",
+        "Nominalização costuma manter o sentido, mas pode apagar tempo, modo ou agente.",
+        "Deslocar termos quase sempre obriga a reajustar a pontuação."
+      ],
+      "dica_prova": "Sempre identifique a relação lógica do conectivo original ANTES de avaliar a troca; é onde a banca mais derruba candidatos. Desconfie de reescritas que 'parecem mais elegantes' — beleza não é critério, fidelidade de sentido e correção são. Lembre-se de que um item pode estar gramaticalmente perfeito e ainda assim ERRADO por mudança de sentido, e vice-versa. Atenção redobrada à concordância na voz passiva sintética e ao par explicativa/restritiva (vírgula define quem é o referente)."
+    }
+  ]
+}

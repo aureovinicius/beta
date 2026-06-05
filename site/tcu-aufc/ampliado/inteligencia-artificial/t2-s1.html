@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IA generativa — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/inteligencia-artificial.html">🤖 Inteligência Artificial</a> ›
+    <span>IA generativa</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. PLN e IA generativa</p>
+    <h1>IA generativa</h1>
+    
+    <p>A IA generativa é a categoria de modelos capazes de criar conteúdo novo - texto, imagens, áudio, vídeo, código - a partir de padrões aprendidos em grandes volumes de dados, em vez de apenas classificar ou prever rótulos. Difere da IA discriminativa, que aprende fronteiras de decisão entre classes; a generativa aprende a distribuição dos dados para gerar amostras plausíveis.</p><p>No domínio textual, os protagonistas são os Grandes Modelos de Linguagem (LLMs), baseados em arquitetura transformer e treinados de forma autorregressiva (prevendo o próximo token). Outras famílias incluem GANs e modelos de difusão (geração de imagens). O uso eficaz desses modelos depende fortemente de engenharia de prompt e de técnicas para reduzir limitações como alucinações e desatualização do conhecimento.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>LLMs: como funcionam</h2><p>Os Large Language Models são redes transformer com bilhões de parâmetros, treinadas em corpora massivos para prever o próximo token de uma sequência (treinamento autorregressivo). Esse pré-treinamento é seguido de ajustes como o fine-tuning supervisionado e o RLHF (aprendizado por reforço com feedback humano), que alinham o modelo a instruções e preferências humanas.</p><p>Dois conceitos centrais: a janela de contexto (quantidade de tokens que o modelo processa de uma vez) e os parâmetros de geração, como a temperatura (controla a aleatoriedade: baixa = respostas mais determinísticas; alta = mais criativas/diversas). Exemplos de LLMs: GPT, Claude, Gemini, Llama.</p></section><section class="amp-sec"><h2>Outros modelos generativos: GANs e difusão</h2><p>As GANs (Generative Adversarial Networks) treinam dois modelos em competição: um gerador, que cria amostras falsas, e um discriminador, que tenta distinguir falsas de reais. O equilíbrio desse jogo produz amostras cada vez mais realistas. São usadas em geração de imagens e deepfakes.</p><p>Os modelos de difusão (ex.: Stable Diffusion, DALL-E) geram imagens partindo de ruído puro e removendo-o gradualmente, condicionados por texto. Tornaram-se o estado da arte em geração de imagens de alta qualidade.</p></section><section class="amp-sec"><h2>Engenharia de prompt e RAG</h2><p>A engenharia de prompt é a prática de formular instruções para obter as melhores saídas de um LLM. Técnicas: zero-shot (sem exemplos), few-shot (com exemplos no prompt) e chain-of-thought (induzir raciocínio passo a passo). A qualidade do prompt afeta diretamente a qualidade da resposta.</p><p>O RAG (Retrieval-Augmented Generation) combina o LLM com uma base de conhecimento externa: a consulta recupera documentos relevantes (geralmente via busca vetorial em embeddings) e os injeta no contexto, fundamentando a resposta. Isso reduz alucinações e contorna a desatualização do conhecimento do modelo, sendo essencial para usar IA generativa com bases institucionais confiáveis.</p></section><section class="amp-sec"><h2>Limitações e riscos</h2><p>LLMs alucinam: geram afirmações plausíveis, mas falsas, com tom de confiança - risco grave em contextos jurídicos e de auditoria. Têm conhecimento limitado à data de corte do treinamento (knowledge cutoff), não citam fontes nativamente e podem reproduzir vieses dos dados de treino.</p><p>Riscos adicionais: vazamento de dados sensíveis inseridos nos prompts, geração de conteúdo enganoso (deepfakes, desinformação), violação de propriedade intelectual e dependência acrítica. Por isso, saídas de IA generativa em ambiente de controle exigem supervisão e verificação humana (human in the loop).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Um auditor usa um assistente de IA com RAG sobre a base de acórdãos do TCU para localizar jurisprudência aplicável. Sem RAG, o LLM poderia alucinar números de acórdãos inexistentes; com RAG, ele fundamenta a resposta em documentos reais recuperados. Item Cebraspe: &#x27;A técnica de Retrieval-Augmented Generation (RAG) reduz alucinações de modelos de linguagem ao recuperar e fornecer ao modelo, no momento da inferência, documentos relevantes de uma base de conhecimento externa.&#x27; Afirmativa CERTA.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe gosta de cobrar a distinção entre IA generativa e discriminativa, e a definição de alucinação (resposta plausível porém falsa). Pegadinha frequente: afirmar que o fine-tuning é a forma de dar ao modelo conhecimento atualizado/factual em tempo real - na prática, o RAG é a abordagem indicada para conhecimento atualizado e fundamentado em fontes. Lembre também que LLMs não possuem entendimento ou consciência: apenas modelam probabilidades de tokens.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t2-s0.html">← Processamento de linguagem natural e agentes</a><a class="pager next" href="t3-s0.html">MLOps e deploy de modelos →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>IA generativa cria conteúdo novo; difere da discriminativa, que apenas separa classes.</li><li>LLMs são transformers autorregressivos; RLHF alinha o modelo a instruções humanas.</li><li>Temperatura controla a aleatoriedade da geração; janela de contexto limita os tokens processados.</li><li>GANs (gerador vs. discriminador) e difusão (remoção de ruído) geram imagens.</li><li>Engenharia de prompt: zero-shot, few-shot, chain-of-thought.</li><li>RAG fundamenta respostas em base externa, reduzindo alucinações e desatualização.</li><li>Alucinação, viés, data de corte e vazamento de dados são limitações que exigem supervisão humana.</li></ul></div>
+      <a class="back" href="../../disciplinas/inteligencia-artificial.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hiperconvergência, escalabilidade e redundância — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Hiperconvergência, escalabilidade e redundância</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Arquitetura de infraestrutura</p>
+    <h1>Hiperconvergência, escalabilidade e redundância</h1>
+    
+    <p>A infraestrutura hiperconvergente (HCI) integra, em um único appliance ou nó padronizado, os recursos de computação, armazenamento e rede, gerenciados por software (SDS — software-defined storage). Ela evoluiu da infraestrutura convergente (em que os componentes eram pré-integrados mas ainda separados) ao consolidar tudo em nós que formam um cluster gerenciado por uma camada de virtualização.</p><p>Escalabilidade e redundância são atributos de projeto que garantem que a infraestrutura cresça conforme a demanda e continue operando diante de falhas. A escalabilidade pode ser vertical (scale-up, adicionar recursos a um nó) ou horizontal (scale-out, adicionar nós). A redundância elimina pontos únicos de falha (SPOF) por meio de duplicação de componentes, e a tolerância a falhas garante operação contínua mesmo com componentes degradados.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Infraestrutura hiperconvergente (HCI)</h2><p>Na HCI, cada nó contribui com CPU, memória e discos locais; o software (ex.: VMware vSAN, Nutanix AOS, Microsoft Azure Stack HCI) agrega o armazenamento local de todos os nós em um pool distribuído e replicado. Não há SAN externa — o armazenamento é distribuído e definido por software.</p><p>Vantagens: simplicidade operacional, gerência única, crescimento incremental nó a nó e melhor uso de commodity hardware. A diferença essencial em relação à infraestrutura convergente é que nesta os blocos (servidor, storage, switch) permanecem distintos e apenas pré-validados; na hiperconvergente, são fundidos por software no mesmo nó.</p></section><section class="amp-sec"><h2>Escalabilidade vertical x horizontal</h2><p>Escalabilidade vertical (scale-up) consiste em aumentar a capacidade de um nó existente (mais CPU, RAM ou disco). É simples, mas limitada pelo hardware máximo e cria um ponto de concentração. Escalabilidade horizontal (scale-out) adiciona mais nós ao conjunto, distribuindo a carga; é o modelo natural da HCI e da nuvem, oferecendo crescimento quase linear e maior tolerância a falhas.</p><p>A Cebraspe costuma testar a definição: scale-out (horizontal) adiciona instâncias/nós; scale-up (vertical) reforça uma instância. Elasticidade é a capacidade de escalar automaticamente para cima e para baixo conforme a demanda, característica típica da nuvem.</p></section><section class="amp-sec"><h2>Redundância e tolerância a falhas</h2><p>Redundância é a duplicação de componentes críticos (fontes de energia, links de rede via NIC teaming, controladoras, nós) para eliminar pontos únicos de falha (SPOF). Tolerância a falhas (fault tolerance) vai além: o sistema continua operando sem interrupção perceptível mesmo com a falha de um componente, geralmente por replicação síncrona e operação ativo-ativo.</p><p>É importante distinguir alta disponibilidade (HA) de tolerância a falhas: em HA, uma falha provoca um breve failover (pequena interrupção até a recuperação); em tolerância a falhas, não há interrupção. Conceitos como N+1, N+2 e 2N descrevem o grau de redundância (N+1 = um componente extra além do necessário; 2N = duplicação total).</p></section><section class="amp-sec"><h2>Disponibilidade e os &#x27;noves&#x27;</h2><p>A disponibilidade é medida pela fórmula MTBF / (MTBF + MTTR), onde MTBF é o tempo médio entre falhas e MTTR o tempo médio de reparo. Quanto maior o MTBF e menor o MTTR, maior a disponibilidade. Ela é expressa em &#x27;noves&#x27;: 99,9% (três noves) equivale a cerca de 8,76 horas de indisponibilidade por ano; 99,99% (quatro noves) a ~52 minutos; 99,999% (cinco noves) a ~5 minutos por ano.</p><p>Projetos de redundância visam aumentar o MTBF (componentes redundantes raramente falham todos juntos) e reduzir o MTTR (failover automático e peças sobressalentes), elevando a disponibilidade global.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;A infraestrutura hiperconvergente depende de uma rede de armazenamento SAN dedicada para consolidar os discos dos servidores.&#x27; — ERRADO. A HCI dispensa a SAN externa: o armazenamento é local em cada nó e agregado por software (SDS) em um pool distribuído e replicado. A dependência de SAN dedicada é característica de arquiteturas tradicionais (três camadas) ou convergentes, não da hiperconvergente.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha clássica é igualar alta disponibilidade a tolerância a falhas — na HA há um failover (pequena parada), na tolerância a falhas não há interrupção. Também confunde-se scale-up com scale-out: lembre que &#x27;up&#x27; é para cima no mesmo nó (vertical) e &#x27;out&#x27; é para fora, espalhando em mais nós (horizontal). E HCI NÃO usa SAN dedicada.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s0.html">← Topologias e arquiteturas de data center</a><a class="pager next" href="t1-s0.html">Protocolos de comunicação →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>HCI funde computação, armazenamento e rede em nós gerenciados por software, dispensando SAN externa</li><li>Convergente apenas pré-integra blocos separados; hiperconvergente os funde por software</li><li>Scale-up (vertical) reforça um nó; scale-out (horizontal) adiciona nós</li><li>Redundância elimina SPOF; tolerância a falhas mantém operação sem interrupção</li><li>HA tolera breve failover; tolerância a falhas não tem interrupção perceptível</li><li>Disponibilidade = MTBF/(MTBF+MTTR); &#x27;cinco noves&#x27; ≈ 5 min de parada/ano</li><li>N+1, 2N descrevem o grau de redundância de componentes</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

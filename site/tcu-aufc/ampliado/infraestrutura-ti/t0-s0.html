@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topologias e arquiteturas de data center — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Topologias e arquiteturas de data center</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Arquitetura de infraestrutura</p>
+    <h1>Topologias e arquiteturas de data center</h1>
+    
+    <p>O data center é o ambiente físico e lógico que concentra os recursos computacionais (servidores, armazenamento, rede) de uma organização. Sua arquitetura define onde a infraestrutura reside e como é estruturada para atender requisitos de desempenho, disponibilidade, segurança e custo. As três grandes modalidades são on-premises (instalações próprias), cloud (nuvem de terceiros) e híbrida (combinação das duas).</p><p>Além da localização, a arquitetura abrange topologias físicas (cabeamento, racks, disposição de equipamentos) e lógicas (como o tráfego e os serviços se organizam). Em ambientes corporativos modernos predomina a arquitetura espinha-folha (spine-leaf), que substituiu o tradicional modelo hierárquico de três camadas (core, distribuição e acesso) por oferecer latência previsível e melhor escalabilidade leste-oeste (entre servidores).</p><p>O padrão de referência mais citado para classificação de disponibilidade de data centers é a norma ANSI/TIA-942 e a classificação em Tiers (I a IV) do Uptime Institute, que graduam a redundância de energia, refrigeração e caminhos físicos.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>On-premises, cloud e híbrida</h2><p>On-premises significa infraestrutura mantida nas instalações da própria organização, que detém o controle físico, faz o investimento de capital (CAPEX) e assume a responsabilidade por energia, refrigeração e manutenção. Cloud transfere a infraestrutura para um provedor (AWS, Azure, GCP), operando em modelo de despesa operacional (OPEX) e pagamento por uso, com elasticidade sob demanda.</p><p>A arquitetura híbrida combina os dois mundos: cargas sensíveis ou de baixa latência ficam on-premises enquanto picos de demanda e cargas elásticas vão para a nuvem (cloud bursting). É comum confundir híbrida com multicloud: multicloud é o uso de vários provedores de nuvem simultaneamente, sem necessariamente integrar com ambiente local; híbrida exige integração entre on-premises e nuvem.</p></section><section class="amp-sec"><h2>Modelos de serviço de nuvem</h2><p>Segundo a definição do NIST (SP 800-145), a nuvem tem cinco características essenciais (autosserviço sob demanda, amplo acesso à rede, pooling de recursos, elasticidade rápida e serviço medido) e três modelos de serviço: IaaS (infraestrutura como serviço, ex.: máquinas virtuais), PaaS (plataforma, ex.: bancos gerenciados) e SaaS (software, ex.: aplicativos prontos).</p><p>O modelo de responsabilidade compartilhada determina o que cabe ao provedor e ao cliente: em IaaS o cliente é responsável por SO, dados e aplicação; em SaaS o provedor assume quase tudo, restando ao cliente a gestão de identidades e dos próprios dados. Os modelos de implantação são nuvem pública, privada, comunitária e híbrida.</p></section><section class="amp-sec"><h2>Topologias físicas e lógicas</h2><p>A topologia física descreve a disposição real de cabos e equipamentos (estrela, barramento, anel, malha). A topologia lógica descreve o fluxo de dados independentemente do arranjo físico. Uma rede pode ter topologia física em estrela (todos os nós ligados a um switch central) mas operar logicamente como barramento ou como malha comutada.</p><p>No data center moderno, a topologia spine-leaf forma uma malha não bloqueante (Clos network): cada switch leaf (acesso aos servidores) conecta-se a todos os switches spine (núcleo), garantindo que qualquer servidor alcance outro em no máximo dois saltos, com latência uniforme. Isso favorece o tráfego leste-oeste, predominante em virtualização e microsserviços.</p></section><section class="amp-sec"><h2>Classificação de disponibilidade (Tiers)</h2><p>O Uptime Institute classifica data centers em quatro Tiers: Tier I (capacidade básica, sem redundância, ~99,671% de disponibilidade); Tier II (componentes redundantes, ~99,741%); Tier III (manutenção concorrente, caminhos múltiplos mas apenas um ativo, ~99,982%); e Tier IV (tolerância a falhas, totalmente redundante e ativo-ativo, ~99,995%). A norma ANSI/TIA-942 padroniza cabeamento, energia, refrigeração e segurança física correlatos.</p><p>Quanto maior o Tier, maior a redundância de caminhos (energia e refrigeração) e a tolerância a falhas, mas também o custo. Tier III permite manutenção sem parada; somente Tier IV tolera falha de qualquer componente único sem impacto.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item estilo Cebraspe: &#x27;Em uma arquitetura de nuvem híbrida, as cargas de trabalho que rodam no data center local não podem se integrar a serviços executados na nuvem pública.&#x27; — ERRADO. A essência da arquitetura híbrida é justamente a integração entre on-premises e nuvem pública, com orquestração e conectividade (ex.: VPN site-to-site, links dedicados como AWS Direct Connect) permitindo que cargas locais consumam serviços em nuvem e vice-versa.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe explora a confusão entre nuvem híbrida e multicloud, e entre as responsabilidades em IaaS x SaaS. Memorize: em SaaS o provedor é responsável por quase tudo, mas a gestão de identidades e dos dados é sempre do cliente. Cuidado também ao afirmar que Tier IV &#x27;nunca&#x27; tem indisponibilidade — ele tolera falhas, mas sua disponibilidade declarada é ~99,995%, não 100%.</p></section>
+      <div class="pager-row"><span></span><a class="pager next" href="t0-s1.html">Hiperconvergência, escalabilidade e redundância →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>On-premises usa CAPEX e controle total; cloud usa OPEX e elasticidade sob demanda</li><li>Híbrida integra local + nuvem; multicloud usa vários provedores sem exigir integração com o local</li><li>NIST define IaaS, PaaS e SaaS, com responsabilidade compartilhada variando por modelo</li><li>Spine-leaf (Clos) favorece tráfego leste-oeste com latência uniforme, substituindo o modelo de 3 camadas</li><li>Topologia física é o arranjo de cabos; topologia lógica é o fluxo de dados</li><li>Uptime Institute classifica em Tiers I a IV; Tier III permite manutenção concorrente, Tier IV é tolerante a falhas</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

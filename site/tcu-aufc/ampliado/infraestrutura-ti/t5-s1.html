@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automação (PowerShell, Bash, Puppet) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Automação (PowerShell, Bash, Puppet)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Monitoramento, gestão e automação</p>
+    <h1>Automação (PowerShell, Bash, Puppet)</h1>
+    
+    <p>A automação de infraestrutura reduz tarefas manuais, padroniza configurações, diminui erros humanos e acelera a entrega de serviços. Vai de scripts (Bash no Linux, PowerShell no Windows) a ferramentas de gerenciamento de configuração (Puppet, Ansible, Chef) e à infraestrutura como código (IaC), em que a infraestrutura é definida em arquivos versionados.</p><p>Associada à automação está a gestão de capacidade e desempenho, que assegura que os recursos de TI atendam à demanda atual e futura de forma custo-eficiente, por meio de monitoramento, análise de tendências, dimensionamento (sizing) e planejamento de capacidade. Automação e gestão de capacidade são pilares de uma operação madura, alinhadas a DevOps e à melhoria contínua.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Scripting: Bash e PowerShell</h2><p>O Bash é o shell padrão da maioria das distribuições Linux; scripts Bash encadeiam comandos, usam variáveis, estruturas de controle (if, for, while), pipes e redirecionamentos, sendo ideais para tarefas de administração e automação no mundo Unix/Linux. Operam essencialmente sobre texto (a filosofia &#x27;tudo é texto&#x27;).</p><p>O PowerShell é o shell e linguagem de automação da Microsoft (multiplataforma desde o PowerShell Core/7), orientado a OBJETOS: seus cmdlets (verbo-substantivo, ex.: Get-Service) retornam objetos .NET, não apenas texto, permitindo encadeamento rico via pipeline. É amplamente usado para administrar Windows, Active Directory, Azure e Microsoft 365. A diferença essencial: Bash processa texto; PowerShell processa objetos.</p></section><section class="amp-sec"><h2>Gerenciamento de configuração: Puppet, Ansible e Chef</h2><p>Essas ferramentas garantem que os sistemas atinjam e mantenham um estado desejado (declarativo) de forma idempotente — aplicar a configuração várias vezes leva ao mesmo resultado, sem efeitos colaterais. O Puppet usa modelo declarativo com manifests (linguagem própria), tipicamente arquitetura agente-servidor (pull): os agentes consultam o Puppet master periodicamente. O Chef usa &#x27;recipes&#x27; em Ruby, também agente-servidor.</p><p>O Ansible é agentless (sem agente nos alvos), operando via SSH (Linux) ou WinRM (Windows), com playbooks em YAML e modelo push — popular pela simplicidade. Idempotência é o conceito-chave dessas ferramentas e é frequentemente cobrado. Elas materializam a IaC ao tratar a configuração como código versionado e reproduzível.</p></section><section class="amp-sec"><h2>Infraestrutura como código (IaC)</h2><p>IaC define e provisiona infraestrutura (redes, VMs, balanceadores) por meio de arquivos de configuração versionados, em vez de configuração manual. Ferramentas como Terraform (declarativo, multicloud, mantém um arquivo de estado) e AWS CloudFormation provisionam recursos de nuvem de forma reproduzível e auditável.</p><p>Benefícios: consistência, repetibilidade, versionamento (Git), revisão por pares, rollback e redução de drift de configuração. Distingue-se aprovisionamento (Terraform cria a infraestrutura) de gerenciamento de configuração (Puppet/Ansible configuram o que já existe), embora haja sobreposição. IaC é pilar de DevOps e de pipelines de CI/CD, permitindo auditar a infraestrutura como se audita código-fonte.</p></section><section class="amp-sec"><h2>Gestão de capacidade e desempenho</h2><p>A gestão de capacidade assegura, ao menor custo, que a TI tenha capacidade suficiente para atender aos requisitos de negócio, atuais e futuros. Envolve monitorar utilização (CPU, memória, disco, rede), analisar tendências, modelar cenários e planejar aquisições/escalonamento antes que gargalos ocorram (abordagem proativa). A gestão de desempenho foca em otimizar a resposta e a vazão dos serviços.</p><p>Técnicas incluem análise de tendência, modelagem analítica e simulação, e benchmarking. Em ambientes de nuvem, a elasticidade e o autoscaling automatizam parte da gestão de capacidade, mas o planejamento (e o controle de custos — FinOps) continua necessário. Para auditoria, verificar se há planejamento de capacidade documentado e baseado em dados evita tanto a subutilização (desperdício) quanto a saturação (indisponibilidade).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;Ferramentas de gerenciamento de configuração como Puppet e Ansible são idempotentes, de modo que a reaplicação de uma mesma configuração a um sistema já no estado desejado não produz alterações adicionais.&#x27; — CERTO. A idempotência é uma propriedade central dessas ferramentas: a aplicação repetida converge ao mesmo estado final sem efeitos colaterais, diferentemente de scripts imperativos que poderiam reexecutar ações já realizadas.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe cobra a idempotência (propriedade-chave do gerenciamento de configuração) e a diferença Ansible (agentless, push) x Puppet (agente, pull). Lembre que PowerShell é orientado a objetos (não texto) e multiplataforma. Em capacidade, a abordagem correta é PROATIVA (planejar antes), não apenas reagir a incidentes.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t5-s0.html">← Monitoramento e ITIL v4</a><a class="pager next" href="t6-s0.html">Clusters e balanceamento de carga →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Bash é shell Linux e processa texto; PowerShell é multiplataforma e processa objetos (.NET, cmdlets verbo-substantivo)</li><li>Puppet/Chef são agente-servidor (pull); Ansible é agentless (SSH/WinRM, push, YAML)</li><li>Idempotência: reaplicar a configuração leva ao mesmo estado sem efeitos colaterais</li><li>IaC versiona a infraestrutura como código (Terraform multicloud com arquivo de estado; CloudFormation)</li><li>Provisionamento (Terraform) x gerenciamento de configuração (Puppet/Ansible) têm focos distintos</li><li>Gestão de capacidade é proativa: monitora, analisa tendências e planeja antes de gargalos</li><li>Automação e IaC são pilares de DevOps e CI/CD</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

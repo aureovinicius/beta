@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design e versionamento de APIs REST — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Design e versionamento de APIs REST</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. APIs e integrações</p>
+    <h1>Design e versionamento de APIs REST</h1>
+    
+    <p>REST (Representational State Transfer) é um estilo arquitetural definido por Roy Fielding (2000) para sistemas distribuídos sobre HTTP. Uma API RESTful expõe recursos (substantivos, identificados por URIs) manipulados por verbos HTTP padronizados, com mensagens autodescritivas. O bom design de APIs afeta usabilidade, manutenibilidade e interoperabilidade — pilares da interoperabilidade de governo (Padrão ePING).</p><p>O versionamento é necessário porque APIs evoluem, mas clientes existentes não podem quebrar; gerenciá-lo bem é parte da governança de integrações que o auditor avalia.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Restrições do estilo REST</h2><p>Fielding define seis restrições: (1) cliente-servidor (separação de responsabilidades); (2) stateless — o servidor não guarda estado de sessão entre requisições; cada requisição é autossuficiente; (3) cacheável — respostas indicam se podem ser cacheadas; (4) interface uniforme (o coração do REST); (5) sistema em camadas; (6) código sob demanda (opcional).</p><p>A interface uniforme inclui: identificação de recursos por URI, manipulação por representações (JSON, XML), mensagens autodescritivas e HATEOAS (Hypermedia as the Engine of Application State — respostas trazem links para próximas ações). O Modelo de Maturidade de Richardson classifica APIs do nível 0 (RPC sobre HTTP) ao nível 3 (HATEOAS). APIs que não atendem às restrições são REST-like, não plenamente RESTful.</p></section><section class="amp-sec"><h2>Verbos HTTP, idempotência e segurança</h2><p>Mapeamento usual: GET (ler), POST (criar), PUT (substituir/atualizar integralmente), PATCH (atualizar parcialmente), DELETE (remover). Dois conceitos cruciais:</p><p>Métodos seguros (safe): não alteram estado no servidor — GET, HEAD, OPTIONS. Métodos idempotentes: executar N vezes tem o mesmo efeito de executar uma vez — GET, PUT, DELETE, HEAD. POST não é idempotente (cada chamada cria um novo recurso); PATCH geralmente não é. A idempotência é fundamental para resiliência: clientes podem reenviar PUT/DELETE com segurança após timeout. Para tornar criações seguras a retries, usa-se idempotency key.</p></section><section class="amp-sec"><h2>Boas práticas de design</h2><p>Usar substantivos no plural para coleções (/usuarios, /usuarios/42), evitar verbos na URI (a ação está no método HTTP), aninhar recursos com moderação (/usuarios/42/pedidos), usar códigos de status HTTP corretos (2xx sucesso, 3xx redirecionamento, 4xx erro do cliente — 400, 401, 403, 404, 409, 422, 429 —, 5xx erro do servidor). Recursos transversais: paginação, filtros, ordenação e campos parciais via query string; HATEOAS quando aplicável; respostas de erro padronizadas (ex.: RFC 7807 / Problem Details).</p><p>Documentação: o padrão de fato é a OpenAPI Specification (antiga Swagger), que descreve a API em YAML/JSON, permitindo geração de documentação, clientes e validação. Contratos claros viabilizam testes de contrato e integração.</p></section><section class="amp-sec"><h2>Estratégias de versionamento</h2><p>Principais abordagens: (1) versionamento na URI — /v1/usuarios, /v2/usuarios (simples e visível, mas &quot;polui&quot; a URI e fere a pureza REST de que o recurso é único); (2) por cabeçalho — Accept: application/vnd.empresa.v2+json (content negotiation, mais limpo, porém menos visível); (3) por query string — ?version=2.</p><p>Diferencie mudanças retrocompatíveis (adicionar campo opcional, novo endpoint — não exigem nova versão) de breaking changes (remover/renomear campo, mudar tipo, alterar semântica — exigem nova versão). Boas práticas: manter versões antigas por período de transição com política de depreciação (deprecation) anunciada (cabeçalhos Deprecation/Sunset) e seguir, quando possível, o versionamento semântico (SemVer: MAJOR.MINOR.PATCH).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado: &quot;Em uma API RESTful, o método POST é idempotente, pois múltiplas requisições idênticas produzem o mesmo resultado no servidor.&quot; — ERRADO. POST não é idempotente: cada chamada normalmente cria um novo recurso (e pode gerar duplicatas em retries). São idempotentes GET, PUT, DELETE e HEAD. Para mitigar duplicações em POST, usa-se uma chave de idempotência. Outra confusão: PUT (substitui o recurso inteiro) × PATCH (atualiza parcialmente).</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Idempotência e segurança de métodos HTTP são campeões de incidência — memorize: POST não é idempotente nem seguro; GET é seguro e idempotente; PUT/DELETE são idempotentes mas não seguros. Cebraspe afirma que REST é stateful (falso, é stateless) ou que HATEOAS é obrigatório em toda API REST (na prática é o nível mais alto de maturidade, raramente implementado). Cuidado também com PUT×PATCH e com a ideia errada de que versionar por URI é a única forma válida.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s1.html">← Concorrência e programação assíncrona</a><a class="pager next" href="t2-s1.html">Autenticação e autorização (OAuth2, JWT, OpenID) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>REST tem 6 restrições; stateless e interface uniforme são centrais. HATEOAS é o nível 3 de Richardson.</li><li>Stateless: o servidor não mantém estado de sessão; cada requisição é autossuficiente.</li><li>Métodos seguros: GET, HEAD, OPTIONS. Idempotentes: GET, PUT, DELETE, HEAD. POST não é idempotente.</li><li>PUT substitui o recurso inteiro; PATCH atualiza parcialmente.</li><li>Usar códigos HTTP corretos (2xx/3xx/4xx/5xx) e substantivos (não verbos) nas URIs.</li><li>OpenAPI/Swagger é o padrão para documentar contratos REST.</li><li>Versionamento: por URI (/v1), por cabeçalho (Accept) ou query string; distinga mudanças retrocompatíveis de breaking changes.</li><li>Política de depreciação com cabeçalhos Deprecation/Sunset gerencia a transição entre versões.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

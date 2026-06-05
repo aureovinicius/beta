@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Infraestrutura como código (Terraform) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/computacao-nuvem.html">☁️ Computação em Nuvem</a> ›
+    <span>Infraestrutura como código (Terraform)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. DevOps, CI/CD e IaC</p>
+    <h1>Infraestrutura como código (Terraform)</h1>
+    
+    <p>Infraestrutura como Código (IaC) é a prática de provisionar e gerenciar recursos de infraestrutura (redes, VMs, bancos, políticas) por meio de arquivos de definição versionados, em vez de configuração manual via console. Isso traz reprodutibilidade, auditabilidade, controle de versão e automação — pilares da cultura DevOps e da operação confiável em nuvem.</p><p>O Terraform, da HashiCorp, é a ferramenta de IaC mais difundida por ser multicloud e declarativa. Junto com IaC, pipelines de CI/CD automatizam build, teste e entrega, fechando o ciclo de entrega contínua.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>IaC: declarativo x imperativo, mutável x imutável</h2><p>IaC pode ser declarativa (você descreve o ESTADO desejado e a ferramenta calcula como chegar lá — ex.: Terraform, CloudFormation) ou imperativa (você descreve os PASSOS — ex.: scripts). O modelo declarativo é idempotente: aplicar a mesma definição repetidamente converge ao mesmo estado, sem efeitos colaterais. IaC também viabiliza infraestrutura imutável: em vez de alterar servidores existentes (mutável, sujeito a &#x27;configuration drift&#x27;), substitui-se a infraestrutura por uma nova versão a partir do código. Benefícios: elimina o &#x27;drift&#x27;, reduz erros manuais e permite rollback.</p></section><section class="amp-sec"><h2>Terraform: linguagem, estado e fluxo</h2><p>O Terraform usa a linguagem declarativa HCL (HashiCorp Configuration Language) e providers (plugins) para falar com cada nuvem (AWS, Azure, GCP) — por isso é multicloud/cloud-agnostic. Conceito central: o tfstate (arquivo de estado) mapeia os recursos descritos no código aos recursos reais provisionados; deve ser armazenado de forma remota e segura (ex.: backend S3 + DynamoDB para travamento), pois pode conter dados sensíveis. Fluxo de trabalho: terraform init (inicializa providers) → terraform plan (mostra o que será criado/alterado/destruído, sem aplicar) → terraform apply (aplica) → terraform destroy (remove). O plan é a etapa de revisão que antecede a mudança real.</p></section><section class="amp-sec"><h2>Ferramentas correlatas e diferenças</h2><p>CloudFormation (AWS) e Azure Resource Manager (ARM)/Bicep são as soluções nativas (single-cloud) de IaC declarativa. Ansible, Chef e Puppet são ferramentas de gestão de CONFIGURAÇÃO (instalam pacotes e configuram SO dentro das máquinas), enquanto Terraform foca em provisionar a INFRAESTRUTURA — muitas vezes se combinam. Pegadinha: Ansible é majoritariamente para configuração (e é agentless, via SSH); Terraform é para provisionamento de infraestrutura. Confundir os dois é erro comum.</p></section><section class="amp-sec"><h2>CI/CD: integração e entrega contínuas</h2><p>CI (Continuous Integration) integra e testa código com frequência, executando build e testes automatizados a cada commit. CD pode significar Continuous Delivery (a entrega até produção fica pronta, mas o deploy final é uma decisão/aprovação manual) ou Continuous Deployment (todo commit aprovado vai automaticamente a produção, sem intervenção humana). Ferramentas: Jenkins, GitHub Actions, GitLab CI, Azure DevOps Pipelines, AWS CodePipeline. Boas práticas incluem &#x27;pipeline as code&#x27;, testes automatizados, e estratégias de deploy de baixo risco (blue-green, canary, rolling). GitOps usa o Git como fonte única da verdade para infraestrutura e deploy.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário aplicado/auditoria: a equipe de TI do TCU provisiona todo o ambiente de um sistema via Terraform versionado em Git, com pipeline no GitHub Actions executando &#x27;terraform plan&#x27; em pull requests e exigindo aprovação antes do &#x27;apply&#x27;. O tfstate fica em backend S3 cifrado, com travamento via DynamoDB. Em auditoria, isso evidencia rastreabilidade e segregação de funções. Um achado negativo seria infraestrutura criada manualmente no console (sem IaC), gerando &#x27;drift&#x27; e impossibilidade de reproduzir o ambiente para DR.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Pegadinhas: (1) &#x27;terraform plan&#x27; já aplica as mudanças — FALSO, ele apenas mostra o plano; (2) confundir Terraform (provisionamento, multicloud) com Ansible (configuração, agentless); (3) tratar Continuous Delivery e Continuous Deployment como sinônimos — a diferença é a aprovação manual antes da produção. Saiba que IaC declarativa é idempotente.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t2-s1.html">← Zero Trust e conectividade</a><a class="pager next" href="t3-s1.html">Observabilidade em nuvem →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>IaC versiona a infraestrutura; traz reprodutibilidade, auditabilidade e rollback</li><li>Declarativo (estado desejado, idempotente) x imperativo (passos); imutável combate o configuration drift</li><li>Terraform: HCL, multicloud via providers; tfstate mapeia código a recursos reais (proteger e remotizar)</li><li>Fluxo Terraform: init → plan (revisão, não aplica) → apply → destroy</li><li>Terraform provisiona infraestrutura; Ansible/Chef/Puppet gerenciam configuração (Ansible é agentless)</li><li>CI testa a cada commit; Continuous Delivery exige aprovação manual, Continuous Deployment é automático até produção</li></ul></div>
+      <a class="back" href="../../disciplinas/computacao-nuvem.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

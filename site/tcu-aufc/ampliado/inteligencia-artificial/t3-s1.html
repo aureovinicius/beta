@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ética, viés e LGPD — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/inteligencia-artificial.html">🤖 Inteligência Artificial</a> ›
+    <span>Ética, viés e LGPD</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Engenharia e ética de IA</p>
+    <h1>Ética, viés e LGPD</h1>
+    
+    <p>A adoção de IA em decisões que afetam pessoas - crédito, benefícios, triagem, vigilância - levanta questões éticas e jurídicas críticas. Os pilares de uma IA responsável incluem justiça (fairness), transparência e explicabilidade, accountability (prestação de contas), privacidade, segurança e supervisão humana. No setor público, esses princípios ganham peso adicional pela exigência de legalidade, impessoalidade e motivação dos atos.</p><p>Dois temas dominam a discussão técnica e jurídica: o viés algorítmico (que pode produzir discriminação ilegal contra grupos) e a explicabilidade (a capacidade de entender e justificar decisões automatizadas). No Brasil, a Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018) estabelece deveres concretos sobre o tratamento de dados pessoais, incluindo decisões automatizadas, e dialoga com normas e frameworks internacionais como o AI Act europeu e a estrutura de gestão de riscos de IA do NIST.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Viés algorítmico e discriminação</h2><p>O viés algorítmico ocorre quando um modelo produz resultados sistematicamente injustos contra determinados grupos. As fontes são diversas: dados de treino enviesados ou pouco representativos (a IA aprende e amplifica preconceitos históricos), viés de seleção da amostra, rótulos enviesados, escolha das variáveis e até o modo como o problema é formulado.</p><p>O risco concreto é a discriminação automatizada - por exemplo, negar crédito ou priorizar fiscalização com base em raça, gênero ou origem. Mitigação envolve dados representativos, métricas de fairness (paridade demográfica, igualdade de oportunidade), auditoria de modelos e supervisão humana. A máxima &#x27;garbage in, garbage out&#x27; resume o problema: dados ruins geram modelos ruins e injustos.</p></section><section class="amp-sec"><h2>Explicabilidade e interpretabilidade (XAI)</h2><p>Muitos modelos de deep learning são caixas-pretas (black box): produzem decisões sem explicação compreensível. A IA Explicável (XAI) reúne técnicas para tornar as decisões inteligíveis. Métodos populares e agnósticos ao modelo: LIME (explicações locais por aproximação) e SHAP (atribuição de importância às variáveis com base em teoria dos jogos).</p><p>Distinguem-se interpretabilidade (modelos intrinsecamente compreensíveis, como árvores de decisão e regressão linear) e explicabilidade (técnicas que explicam modelos complexos a posteriori). No setor público, a explicabilidade é essencial para motivar decisões, permitir contraditório e viabilizar a auditoria - uma decisão administrativa não pode ser fundamentada apenas em &#x27;o algoritmo decidiu&#x27;.</p></section><section class="amp-sec"><h2>LGPD e decisões automatizadas</h2><p>A LGPD (Lei 13.709/2018) rege o tratamento de dados pessoais com base em princípios como finalidade, adequação, necessidade (minimização), transparência, segurança e não discriminação, e exige uma base legal para o tratamento (ex.: consentimento, cumprimento de obrigação legal, execução de políticas públicas).</p><p>De especial relevância para IA, o art. 20 assegura ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses (perfis pessoais, crédito, perfil de consumo), bem como informações sobre os critérios utilizados, respeitados os segredos comercial e industrial. A LGPD também impõe medidas de segurança e, conforme o caso, o Relatório de Impacto à Proteção de Dados Pessoais (RIPD/DPIA). A fiscalização cabe à ANPD (Autoridade Nacional de Proteção de Dados).</p></section><section class="amp-sec"><h2>Governança, regulação e o papel do controle externo</h2><p>Além da LGPD, ganham relevância frameworks de governança de IA: o AI Act da União Europeia (regulação baseada em risco, com categorias de risco inaceitável, alto, limitado e mínimo), o NIST AI Risk Management Framework e princípios da OCDE e da UNESCO. No Brasil, tramita marco legal específico para IA e há orientações de transparência algorítmica no setor público.</p><p>Para o controle externo, isso significa auditar sistemas de IA quanto a legalidade, ausência de discriminação, transparência, proteção de dados, segurança e accountability. O auditor avalia se há base legal, documentação, rastreabilidade (ligando-se a MLOps), avaliação de impacto e mecanismos de revisão humana - assegurando que a automação não viole direitos fundamentais nem os princípios da Administração Pública.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Um órgão usa IA para priorizar concessão de benefícios e o sistema passa a negar sistematicamente pedidos de determinada região - indício de viés algorítmico decorrente de dados históricos enviesados. Em auditoria, verifica-se: base legal sob a LGPD, possibilidade de revisão humana (art. 20), explicabilidade das decisões e métricas de fairness. Item Cebraspe: &#x27;A LGPD assegura ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.&#x27; Afirmativa CERTA.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A LGPD é a Lei 13.709/2018 - número que vale memorizar com confiança. Cebraspe cobra muito o art. 20 (revisão de decisões automatizadas): atenção, a redação fala em decisões tomadas &#x27;unicamente&#x27; com base em tratamento automatizado. Pegadinha comum: afirmar que a LGPD garante explicação completa do algoritmo - ela assegura informações sobre os critérios, mas ressalva os segredos comercial e industrial. Não confunda interpretabilidade (modelo intrinsecamente claro) com explicabilidade (técnica que explica a caixa-preta), nem viés com overfitting.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t3-s0.html">← MLOps e deploy de modelos</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Viés algorítmico decorre majoritariamente de dados de treino enviesados e pode gerar discriminação automatizada.</li><li>XAI: LIME e SHAP explicam modelos caixa-preta; interpretabilidade (modelo simples) difere de explicabilidade (explicação a posteriori).</li><li>LGPD (Lei 13.709/2018): princípios de finalidade, necessidade, transparência e não discriminação; exige base legal.</li><li>Art. 20 da LGPD: direito à revisão de decisões unicamente automatizadas que afetem o titular.</li><li>ANPD fiscaliza; RIPD/DPIA avalia impacto sobre dados pessoais.</li><li>Frameworks de governança: AI Act (baseado em risco), NIST AI RMF, princípios da OCDE/UNESCO.</li><li>Pilares de IA responsável: justiça, transparência, accountability, privacidade e supervisão humana.</li></ul></div>
+      <a class="back" href="../../disciplinas/inteligencia-artificial.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Continuidade de negócios e testes de DR — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Continuidade de negócios e testes de DR</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">7. Alta disponibilidade e recuperação de desastres</p>
+    <h1>Continuidade de negócios e testes de DR</h1>
+    
+    <p>A continuidade de negócios garante que a organização mantenha suas funções essenciais durante e após incidentes graves (desastres naturais, falhas massivas, ataques cibernéticos). O Plano de Continuidade de Negócios (PCN/BCP) é o documento que define estratégias, papéis e procedimentos para sustentar ou retomar rapidamente as operações críticas, abrangendo pessoas, processos, instalações e tecnologia.</p><p>O Plano de Recuperação de Desastres (PRD/DRP) é o componente focado em TI: restaura sistemas, dados e infraestrutura após um desastre. Métricas como RPO e RTO orientam o dimensionamento, e a estratégia de sites de recuperação (hot, warm, cold) define a prontidão. Crucialmente, planos só têm valor se testados periodicamente — testes de DR validam a eficácia e revelam falhas antes que um desastre real ocorra.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>BCP, DRP e BIA</h2><p>O BCP (Business Continuity Plan) é abrangente: cobre a continuidade de todos os processos críticos de negócio (não só TI), incluindo pessoas, comunicação, instalações alternativas e fornecedores. O DRP (Disaster Recovery Plan) é um subconjunto focado na recuperação dos recursos de TI (sistemas, dados, redes). Todo DRP integra um BCP, mas o BCP é mais amplo.</p><p>A BIA (Business Impact Analysis — análise de impacto no negócio) é a base de ambos: identifica os processos críticos, o impacto (financeiro, legal, reputacional) de sua interrupção ao longo do tempo e define requisitos como RTO, RPO e o MTPD/MTD (período máximo tolerável de interrupção). A análise/avaliação de riscos complementa a BIA ao identificar ameaças e vulnerabilidades. A ISO 22301 é a norma de sistema de gestão de continuidade de negócios.</p></section><section class="amp-sec"><h2>Estratégias de recuperação: sites e RPO/RTO</h2><p>A escolha do site de recuperação reflete o RTO desejado. O hot site é um ambiente totalmente equipado e em sincronia, capaz de assumir quase imediatamente (RTO baixíssimo, custo alto). O warm site tem infraestrutura parcial, exigindo alguma configuração e carga de dados (RTO e custo intermediários). O cold site oferece apenas espaço/infraestrutura básica, demandando provisionamento completo (RTO alto, custo baixo).</p><p>A replicação de dados (síncrona para RPO próximo de zero; assíncrona para sites distantes, com algum atraso) sustenta os sites. Em nuvem, há padrões como backup-and-restore, pilot light, warm standby e multi-site ativo-ativo, que graduam custo x RTO/RPO. O RPO orienta a frequência de replicação/backup; o RTO orienta o nível de prontidão do site.</p></section><section class="amp-sec"><h2>Testes de DR</h2><p>Planos não testados são presumidamente ineficazes. Os testes de DR validam procedimentos, treinam equipes e expõem lacunas. Níveis comuns, do menos ao mais disruptivo: (1) revisão de documentação/checklist; (2) walkthrough/tabletop (simulação em mesa, discussão de cenário sem execução real); (3) teste de simulação; (4) teste paralelo (recupera no site alternativo sem desligar a produção, comparando resultados); e (5) teste de interrupção total (full interruption — desativa a produção e opera pelo site de DR, o mais realista e arriscado).</p><p>O tabletop é discussão teórica; o teste paralelo executa a recuperação sem afetar a produção; o full interruption efetivamente comuta para o DR. Testes devem ser periódicos e após mudanças relevantes, com lições aprendidas realimentando o plano (melhoria contínua).</p></section><section class="amp-sec"><h2>Governança e relação com segurança</h2><p>A continuidade integra-se à gestão de segurança da informação: na ISO/IEC 27001, há controles de continuidade; a ISO 22301 estabelece o sistema de gestão de continuidade de negócios (SGCN) com ciclo PDCA. Papéis e responsabilidades, cadeia de acionamento, comunicação de crise e critérios de declaração de desastre devem estar definidos.</p><p>Em auditoria de TI (contexto TCU), avalia-se se há BIA atualizada, planos formalizados e aprovados, RTO/RPO compatíveis com a criticidade, sites/estratégias adequados e, sobretudo, evidência de testes periódicos e tratamento das falhas identificadas. A ausência de testes documentados é uma constatação frequente, pois compromete a confiabilidade do plano.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;O plano de recuperação de desastres (DRP) é mais abrangente que o plano de continuidade de negócios (BCP), pois engloba, além da TI, todos os processos de negócio da organização.&#x27; — ERRADO. A relação é inversa: o BCP é o plano abrangente (todos os processos críticos, pessoas, instalações), e o DRP é um subconjunto focado na recuperação dos recursos de TI. O DRP está contido no BCP.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha número um é inverter a relação BCP x DRP: o BCP é o amplo, o DRP é o de TI (contido no BCP). Saiba também distinguir os tipos de teste (tabletop é teórico/discussão; paralelo não para a produção; full interruption comuta de fato) e que hot site dá menor RTO e maior custo. RPO define frequência de backup/replicação; RTO define a prontidão do site.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t6-s0.html">← Clusters e balanceamento de carga</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>BCP é abrangente (todo o negócio); DRP é o subconjunto de TI; DRP está contido no BCP</li><li>BIA identifica processos críticos e define RTO, RPO e MTPD/MTD; ISO 22301 é a norma de continuidade</li><li>Hot site (RTO mínimo, custo alto); warm (intermediário); cold (RTO alto, custo baixo)</li><li>Replicação síncrona aproxima o RPO de zero; assíncrona tolera latência/distância</li><li>Testes de DR: checklist, tabletop (teórico), simulação, paralelo (sem parar produção), full interruption (comuta para DR)</li><li>Planos não testados são presumidamente ineficazes; testes devem ser periódicos</li><li>Em auditoria, verifica-se BIA atual, planos aprovados, RTO/RPO adequados e evidência de testes</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

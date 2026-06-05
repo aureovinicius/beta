@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amostragem e estimação — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Amostragem e estimação</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">7. Estatística descritiva</p>
+    <h1>Amostragem e estimação</h1>
+    
+    <p>A inferência estatística parte de uma amostra (subconjunto) para tirar conclusões sobre a população (o todo), pois examinar a população inteira costuma ser inviável. A amostragem trata de como selecionar a amostra; a estimação trata de como usar os dados amostrais para estimar parâmetros populacionais (como média e proporção) e de quão confiável é essa estimativa.</p><p>Os conceitos de amostra probabilística, estimativa pontual, intervalo de confiança, nível de confiança e teste de hipótese são cobrados em provas fiscais, geralmente em nível conceitual e com cálculos diretos de margem de erro.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Tipos de amostragem</h2><p>Amostragem probabilística (cada elemento tem probabilidade conhecida e não nula de ser escolhido) permite inferência estatística: inclui a aleatória simples (sorteio), a sistemática (seleção a intervalos fixos), a estratificada (divide a população em estratos homogêneos e sorteia de cada um) e por conglomerados (sorteia grupos inteiros).</p><p>Amostragem não probabilística (por conveniência, por cotas, intencional) não permite generalização estatística rigorosa, pois a seleção não é aleatória. Para inferência válida, exige-se amostra probabilística e representativa.</p></section><section class="amp-sec"><h2>Estimação pontual e por intervalo</h2><p>A estimativa pontual fornece um único valor para o parâmetro (a média amostral x̄ estima a média populacional μ; a proporção amostral estima a proporção populacional). É simples, mas não informa a incerteza.</p><p>A estimativa por intervalo (intervalo de confiança) fornece uma faixa de valores plausíveis para o parâmetro, acompanhada de um nível de confiança. É mais informativa porque incorpora a margem de erro.</p></section><section class="amp-sec"><h2>Intervalo de confiança e margem de erro</h2><p>Um intervalo de confiança de 95% para a média tem a forma x̄ ± E, onde a margem de erro E = z·(σ/√n), com z o valor crítico (1,96 para 95%; 1,645 para 90%; 2,576 para 99%) e σ/√n o erro-padrão da média.</p><p>Interpretação correta: em 95% das amostras possíveis, o intervalo construído conteria o parâmetro. Quanto maior o n, menor a margem de erro (o erro cai com √n). Aumentar o nível de confiança alarga o intervalo.</p></section><section class="amp-sec"><h2>Teste de hipóteses</h2><p>É um procedimento para decidir, com base na amostra, entre a hipótese nula (H0, status quo, ex.: &#x27;a média é igual a um valor&#x27;) e a hipótese alternativa (H1). Calcula-se uma estatística de teste e compara-se com um valor crítico, ou usa-se o p-valor.</p><p>Dois erros possíveis: erro tipo I (rejeitar H0 verdadeira, probabilidade α, o nível de significância) e erro tipo II (não rejeitar H0 falsa, probabilidade β). Se p-valor &lt; α, rejeita-se H0. O nível de significância usual é 5%.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>A SEFAZ-GO mede o tempo médio de atendimento. De uma amostra de n = 100 contribuintes obtém-se média x̄ = 20 minutos, com desvio-padrão populacional σ = 5 minutos. Construa o intervalo de confiança de 95% para a média populacional.</p><p>Erro-padrão = σ/√n = 5/√100 = 5/10 = 0,5.
+Margem de erro E = z·(erro-padrão) = 1,96·0,5 = 0,98.
+Intervalo: 20 ± 0,98 = [19,02 ; 20,98] minutos.</p><p>Interpretação: há 95% de confiança de que o tempo médio populacional de atendimento está entre 19,02 e 20,98 minutos. Se quiséssemos reduzir a margem pela metade, precisaríamos quadruplicar a amostra (pois E depende de √n).</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A relação entre margem de erro e tamanho da amostra é cobrada: E é proporcional a 1/√n, então para reduzir o erro à metade quadruplica-se n. Não troque os valores z (1,96 é o de 95%, o mais frequente). Cuidado com a interpretação do intervalo: a confiança refere-se ao procedimento de amostragem, não à probabilidade de o parâmetro estar no intervalo específico. Memorize a diferença entre erro tipo I (α) e tipo II (β) — questão clássica de prova.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t6-s2.html">← Distribuições de probabilidade</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Amostra probabilística (aleatória) é requisito para inferência válida.</li><li>Estratificada: estratos homogêneos; conglomerados: sorteia grupos inteiros.</li><li>Estimativa pontual: um valor; por intervalo: uma faixa com confiança.</li><li>Intervalo de confiança: x̄ ± z·(σ/√n).</li><li>Valores z: 1,645 (90%), 1,96 (95%), 2,576 (99%).</li><li>Erro cai com √n; quadruplicar n reduz a margem pela metade.</li><li>Teste de hipóteses: erro tipo I (α, rejeitar H0 verdadeira) e tipo II (β).</li></ul></div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

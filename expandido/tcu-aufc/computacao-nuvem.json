@@ -1,0 +1,345 @@
+{
+  "slug": "computacao-nuvem",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Modelos de serviço e de implantação",
+      "intro": "Computação em nuvem é, segundo a definição canônica do NIST (publicação SP 800-145), um modelo que permite acesso ubíquo, conveniente e sob demanda, por meio da rede, a um conjunto compartilhado de recursos computacionais configuráveis (redes, servidores, armazenamento, aplicações e serviços) que podem ser rapidamente provisionados e liberados com mínimo esforço de gerenciamento ou interação com o provedor. Essa definição é o ponto de partida obrigatório para qualquer prova de TI.\n\nO NIST estrutura a nuvem em três eixos: cinco características essenciais, três modelos de serviço (IaaS, PaaS, SaaS) e quatro modelos de implantação (pública, privada, comunitária e híbrida). Dominar essa taxonomia é o que separa o acerto do erro nas questões da Cebraspe, que costuma trocar conceitos entre os eixos.",
+      "secoes": [
+        {
+          "h": "As cinco características essenciais do NIST",
+          "p": "São cinco e caem com frequência: (1) on-demand self-service (autosserviço sob demanda) — o usuário provisiona recursos sem interação humana com o provedor; (2) broad network access (amplo acesso à rede) — disponível via rede por mecanismos padrão acessíveis a clientes heterogêneos; (3) resource pooling (agrupamento de recursos) — recursos do provedor são agrupados para atender múltiplos consumidores em modelo multilocatário (multi-tenant), com localização independente e abstraída; (4) rapid elasticity (elasticidade rápida) — capacidade provisionada e liberada elasticamente, parecendo ilimitada ao usuário; (5) measured service (serviço mensurado) — o uso é monitorado, controlado e reportado, viabilizando o modelo pay-per-use.\n\nPegadinha clássica: multilocação (multi-tenancy) NÃO é uma das cinco características essenciais; ela é uma consequência do resource pooling. A Cebraspe gosta de listar multi-tenancy como se fosse característica essencial."
+        },
+        {
+          "h": "Modelos de serviço: IaaS, PaaS e SaaS",
+          "p": "IaaS (Infrastructure as a Service): o provedor entrega capacidade de processamento, armazenamento e rede; o cliente gerencia sistema operacional, middleware e aplicações. Exemplos: AWS EC2, Azure Virtual Machines, Google Compute Engine. PaaS (Platform as a Service): o provedor entrega uma plataforma de desenvolvimento/execução (runtime, banco, middleware); o cliente gerencia apenas a aplicação e os dados. Exemplos: AWS Elastic Beanstalk, Azure App Service, Google App Engine. SaaS (Software as a Service): o provedor entrega a aplicação pronta, acessada normalmente via navegador; o cliente gerencia apenas configurações limitadas e seus dados. Exemplos: Microsoft 365, Salesforce, Google Workspace.\n\nA regra mnemônica: quanto mais se sobe de IaaS para SaaS, menos o cliente gerencia e mais o provedor assume. No IaaS o cliente controla até o SO; no SaaS ele praticamente só usa."
+        },
+        {
+          "h": "Modelos de implantação",
+          "p": "Nuvem pública: infraestrutura disponível ao público em geral, de propriedade e operada por um provedor (AWS, Azure, GCP). Nuvem privada: infraestrutura provisionada para uso exclusivo de uma única organização — pode ser on-premises ou hospedada por terceiros, mas é dedicada. Nuvem comunitária: compartilhada por organizações com preocupações comuns (ex.: mesma missão, requisitos de segurança ou compliance). Nuvem híbrida: composição de duas ou mais nuvens distintas (privada, comunitária ou pública) que permanecem entidades únicas, mas são unidas por tecnologia que permite portabilidade de dados e aplicações (ex.: cloud bursting).\n\nNote que o NIST define QUATRO modelos de implantação — incluindo a comunitária, que costuma ser esquecida e por isso é alvo de pegadinha."
+        },
+        {
+          "h": "Modelo de responsabilidade compartilhada",
+          "p": "Conceito central de segurança em nuvem: o provedor é responsável pela segurança 'da' nuvem (infraestrutura física, hardware, rede do datacenter) e o cliente é responsável pela segurança 'na' nuvem (dados, configuração, IAM, criptografia). A fronteira da responsabilidade do cliente se desloca conforme o modelo: é maior no IaaS e menor no SaaS. Falhas de segurança em nuvem decorrem majoritariamente de erro de configuração do cliente (ex.: bucket S3 público), não de falha do provedor."
+        }
+      ],
+      "exemplo": "Item de prova (estilo Cebraspe): 'No modelo IaaS, o provedor de nuvem é responsável pela atualização e correção (patching) do sistema operacional das máquinas virtuais utilizadas pelo cliente.' — ERRADO. No IaaS, o gerenciamento do SO (incluindo patches) é responsabilidade do cliente; o provedor responde pela camada de virtualização e infraestrutura física para baixo. Esse patching só passaria a ser do provedor em PaaS ou SaaS.",
+      "pontos_chave": [
+        "NIST SP 800-145: 5 características essenciais, 3 modelos de serviço, 4 modelos de implantação",
+        "Características essenciais: autosserviço sob demanda, amplo acesso à rede, pooling de recursos, elasticidade rápida e serviço mensurado",
+        "IaaS < PaaS < SaaS em quantidade de gerenciamento pelo cliente (no IaaS o cliente controla o SO)",
+        "Implantação: pública, privada, COMUNITÁRIA e híbrida (a comunitária é a mais esquecida)",
+        "Multi-tenancy é consequência do resource pooling, não característica essencial",
+        "Responsabilidade compartilhada: provedor cuida 'da' nuvem; cliente cuida 'na' nuvem (maior carga no IaaS)"
+      ],
+      "dica_prova": "A Cebraspe troca papéis entre os modelos (atribui a SaaS uma responsabilidade típica de IaaS) e omite a nuvem comunitária para induzir o candidato a marcar 'apenas três modelos de implantação'. Memorize: 4 modelos de implantação e 3 de serviço. Também testa multi-tenancy como falsa característica essencial."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Elasticidade, escalabilidade e SOA",
+      "intro": "Elasticidade e escalabilidade são propriedades frequentemente confundidas, mas distintas. Escalabilidade é a capacidade de um sistema crescer (ou diminuir) para atender à demanda; elasticidade é a capacidade de fazê-lo automaticamente e em tempo real, provisionando e liberando recursos conforme a carga oscila. Toda nuvem elástica é escalável, mas nem todo sistema escalável é elástico.\n\nEssas propriedades se apoiam em arquiteturas adequadas. A SOA (arquitetura orientada a serviços) e sua evolução em microsserviços permitem decompor sistemas em componentes independentes que escalam de forma seletiva, sustentando alta disponibilidade e resiliência.",
+      "secoes": [
+        {
+          "h": "Escalabilidade vertical x horizontal",
+          "p": "Escalabilidade vertical (scale up/down): aumentar a capacidade de um único nó (mais CPU, RAM, disco). É simples, mas limitada pelo teto do hardware e geralmente exige indisponibilidade para o redimensionamento, além de criar ponto único de falha. Escalabilidade horizontal (scale out/in): adicionar ou remover instâncias/nós em paralelo, distribuindo a carga. É o modelo preferido em nuvem porque é praticamente ilimitado, tolerante a falhas e combina com balanceamento de carga e Auto Scaling.\n\nPegadinha: 'scale up' é vertical; 'scale out' é horizontal. A Cebraspe inverte os termos."
+        },
+        {
+          "h": "Elasticidade e alta disponibilidade",
+          "p": "Elasticidade implica automação: grupos de Auto Scaling (AWS Auto Scaling, Azure VM Scale Sets, GCP Managed Instance Groups) monitoram métricas (CPU, latência, fila) e ajustam o número de instâncias dinamicamente, casando com o serviço mensurado e o pay-per-use. Alta disponibilidade (HA) é a capacidade de o sistema permanecer operacional apesar de falhas, obtida com redundância e distribuição em múltiplas zonas de disponibilidade (Availability Zones) e regiões. Conceitos correlatos: tolerância a falhas, RTO (tempo objetivo de recuperação) e RPO (ponto objetivo de recuperação), centrais em DR (disaster recovery). HA não é o mesmo que DR: HA evita a queda; DR recupera após a queda."
+        },
+        {
+          "h": "SOA e seus princípios",
+          "p": "SOA (Service-Oriented Architecture) organiza a aplicação em serviços fracamente acoplados (loosely coupled), reutilizáveis, com contratos bem definidos e descobríveis. Historicamente associa-se a um ESB (Enterprise Service Bus) como barramento de integração e a protocolos como SOAP/WS-* e WSDL. Princípios: baixo acoplamento, abstração, reusabilidade, autonomia e interoperabilidade. A SOA é mais 'grossa' (coarse-grained) e centralizada que os microsserviços."
+        },
+        {
+          "h": "Microsserviços: SOA refinada",
+          "p": "Microsserviços levam a decomposição ao extremo: serviços pequenos, independentes, cada um com seu banco de dados e ciclo de implantação próprio, comunicando-se tipicamente via APIs REST/HTTP ou mensageria assíncrona (filas, eventos). Diferenças para SOA: microsserviços dispensam o ESB central (preferindo 'smart endpoints, dumb pipes'), favorecem deploy independente e poliglotismo tecnológico. Vantagens: escalabilidade seletiva (escala só o serviço sob pressão), resiliência e times autônomos. Desafios: complexidade operacional, consistência distribuída e observabilidade. Padrões de apoio: API Gateway, Service Discovery, Circuit Breaker (ex.: padrão popularizado pelo Hystrix) e Saga para transações distribuídas."
+        }
+      ],
+      "exemplo": "Cenário de auditoria: ao avaliar a arquitetura de um sistema crítico do TCU hospedado em nuvem, o auditor verifica se há Auto Scaling configurado com base em métricas e distribuição em múltiplas Availability Zones. A ausência de balanceamento e a dependência de uma única instância grande (apenas scale up) indicam fragilidade de disponibilidade e escalabilidade — achado de auditoria relevante, pois cria ponto único de falha e limita a elasticidade prometida pela nuvem.",
+      "pontos_chave": [
+        "Escalabilidade = poder crescer; elasticidade = crescer/encolher automaticamente em tempo real",
+        "Vertical (scale up) = nó maior; horizontal (scale out) = mais nós (preferida em nuvem)",
+        "Auto Scaling provê elasticidade; múltiplas AZs provêem alta disponibilidade",
+        "HA evita a falha; DR recupera após a falha (RTO/RPO)",
+        "SOA: serviços coarse-grained, ESB, SOAP/WSDL, baixo acoplamento",
+        "Microsserviços: serviços pequenos, deploy independente, sem ESB central, API Gateway e Circuit Breaker"
+      ],
+      "dica_prova": "A inversão entre vertical/horizontal e entre escalabilidade/elasticidade é a pegadinha número um. Outra é afirmar que microsserviços e SOA são idênticos: são relacionados, mas microsserviços eliminam o ESB e priorizam deploy independente e bancos descentralizados. Cebraspe também confunde HA com DR."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "AWS, Azure e Google Cloud",
+      "intro": "Os três principais hyperscalers — Amazon Web Services (AWS), Microsoft Azure e Google Cloud Platform (GCP) — dominam o mercado de nuvem pública. Embora ofereçam capacidades equivalentes, usam nomenclaturas diferentes para serviços análogos, e a banca costura questões pedindo a correspondência entre eles.\n\nConhecer o mapeamento dos serviços fundamentais (computação, armazenamento, banco, rede, identidade e serverless) entre os três provedores é o que mais cai. Vale também entender o conceito de regiões e zonas de disponibilidade, comum a todos.",
+      "secoes": [
+        {
+          "h": "Regiões, zonas de disponibilidade e edge",
+          "p": "Todos os hyperscalers organizam sua infraestrutura em Regiões (áreas geográficas independentes) compostas por múltiplas Availability Zones (AZs) — datacenters isolados em falhas, mas interligados por baixa latência. Distribuir cargas entre AZs garante alta disponibilidade; distribuir entre Regiões atende latência, soberania de dados e DR. Há ainda locais de borda (edge/PoPs) usados por CDNs (AWS CloudFront, Azure Front Door/CDN, Google Cloud CDN) para entregar conteúdo próximo ao usuário."
+        },
+        {
+          "h": "Computação e armazenamento (mapeamento)",
+          "p": "Máquinas virtuais: AWS EC2, Azure Virtual Machines, GCP Compute Engine. Armazenamento de objetos: AWS S3, Azure Blob Storage, Google Cloud Storage. Armazenamento de blocos: AWS EBS, Azure Managed Disks, GCP Persistent Disk. Funções serverless: AWS Lambda, Azure Functions, Google Cloud Functions. Contêineres gerenciados (Kubernetes): AWS EKS, Azure AKS, Google GKE. Conhecer S3 como armazenamento de OBJETOS (não de blocos) é recorrente."
+        },
+        {
+          "h": "Bancos de dados e rede",
+          "p": "Banco relacional gerenciado: AWS RDS/Aurora, Azure SQL Database, Google Cloud SQL/Spanner. NoSQL: AWS DynamoDB, Azure Cosmos DB, Google Firestore/Bigtable. Data warehouse: AWS Redshift, Azure Synapse Analytics, Google BigQuery. Rede virtual isolada: AWS VPC, Azure VNet, GCP VPC. DNS: AWS Route 53, Azure DNS, Google Cloud DNS. Conectividade dedicada: AWS Direct Connect, Azure ExpressRoute, Google Cloud Interconnect."
+        },
+        {
+          "h": "Identidade e governança",
+          "p": "Gestão de identidade e acesso: AWS IAM, Azure usa Microsoft Entra ID (antigo Azure Active Directory) somado a RBAC e Azure AD, GCP usa Cloud IAM. Gestão de chaves: AWS KMS, Azure Key Vault, Google Cloud KMS. Monitoramento: AWS CloudWatch, Azure Monitor, Google Cloud Monitoring (antigo Stackdriver). Faturamento/governança em escala: AWS Organizations, Azure Management Groups, Google Cloud Resource Manager. Atenção ao rebranding Azure AD → Microsoft Entra ID, que já aparece em editais recentes."
+        }
+      ],
+      "exemplo": "Item de prova: 'O Amazon S3, o Azure Blob Storage e o Google Cloud Storage são serviços de armazenamento de objetos adequados para guardar grandes volumes de dados não estruturados, como arquivos de mídia e backups.' — CERTO. Os três são serviços de object storage, acessados por API/HTTP, ideais para dados não estruturados, com alta durabilidade. Não devem ser confundidos com armazenamento de blocos (EBS/Managed Disks/Persistent Disk), usado como disco de VMs.",
+      "pontos_chave": [
+        "Hyperscalers: AWS, Azure e GCP — mesmos conceitos, nomes diferentes",
+        "VMs: EC2 / Azure VM / Compute Engine; object storage: S3 / Blob / Cloud Storage",
+        "Serverless: Lambda / Azure Functions / Cloud Functions; Kubernetes: EKS / AKS / GKE",
+        "Data warehouse: Redshift / Synapse / BigQuery; NoSQL: DynamoDB / Cosmos DB / Firestore",
+        "Conectividade dedicada: Direct Connect / ExpressRoute / Cloud Interconnect",
+        "Regiões contêm múltiplas Availability Zones; Azure AD foi renomeado para Microsoft Entra ID"
+      ],
+      "dica_prova": "A Cebraspe explora o mapeamento cruzado (ex.: associar Lambda à Azure, ou chamar S3 de banco de dados/armazenamento de blocos). Memorize as tríades. Cuidado com BigQuery (data warehouse, não banco transacional) e com a renomeação Azure AD → Microsoft Entra ID."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Sistemas distribuídos, serverless e contêineres",
+      "intro": "Arquiteturas modernas em nuvem são, por natureza, sistemas distribuídos: componentes executam em máquinas diferentes, comunicam-se pela rede e devem tolerar falhas parciais. Projetar para a nuvem significa abraçar a falha como inevitável e construir resiliência por design — com redundância, idempotência, retries e desacoplamento por eventos.\n\nDuas tecnologias dominam esse cenário: o serverless, que abstrai totalmente o servidor (FaaS e BaaS), e os contêineres com orquestração (Docker e Kubernetes), que padronizam o empacotamento e a operação de aplicações.",
+      "secoes": [
+        {
+          "h": "Fundamentos de sistemas distribuídos",
+          "p": "Em sistemas distribuídos vale lembrar das 'falácias da computação distribuída' (a rede não é confiável, a latência não é zero, a banda não é infinita etc.) e do teorema CAP: em presença de partição de rede (P), um sistema distribuído só pode garantir Consistência (C) OU Disponibilidade (A), não ambas simultaneamente. Bancos distribuídos escolhem ser CP (priorizam consistência) ou AP (priorizam disponibilidade). Arquiteturas event-driven usam mensageria (AWS SQS/SNS/EventBridge, Apache Kafka) para desacoplar produtores e consumidores, aumentando resiliência. Padrões úteis: Circuit Breaker, retry com backoff exponencial, idempotência e bulkhead."
+        },
+        {
+          "h": "Serverless: FaaS e BaaS",
+          "p": "Serverless não significa 'sem servidor', mas que o gerenciamento do servidor é totalmente abstraído pelo provedor. Inclui FaaS (Function as a Service: AWS Lambda, Azure Functions, Google Cloud Functions) — código executado em resposta a eventos, com escala automática e cobrança por execução/tempo — e BaaS (Backend as a Service). Vantagens: zero gestão de servidor, elasticidade automática e custo zero quando ocioso. Limitações: cold start (latência inicial), timeout de execução, statelessness (estado deve ir para serviços externos) e risco de vendor lock-in. É o ápice do pay-per-use."
+        },
+        {
+          "h": "Contêineres e Docker",
+          "p": "Contêineres empacotam a aplicação e suas dependências em uma unidade isolada que compartilha o kernel do SO hospedeiro — diferentemente de máquinas virtuais, que virtualizam o hardware e carregam um SO convidado completo. Por isso contêineres são mais leves, iniciam em segundos e têm maior densidade. Docker é a plataforma padrão: a imagem é o artefato imutável (definido por um Dockerfile) e o contêiner é a instância em execução. Princípio-chave: portabilidade — 'build once, run anywhere'. Pegadinha: contêiner NÃO é máquina virtual; ele não tem SO convidado próprio, apenas isolamento via namespaces e cgroups do Linux."
+        },
+        {
+          "h": "Orquestração com Kubernetes",
+          "p": "Em produção, gerenciar muitos contêineres exige orquestração. Kubernetes (K8s) é o padrão de fato: agenda contêineres, faz self-healing (recria contêineres que falham), balanceamento de carga, scaling automático (HPA — Horizontal Pod Autoscaler) e rollout/rollback de versões. Conceitos: Pod (menor unidade implantável, agrupa contêineres), Node (máquina worker), Deployment (estado desejado declarativo), Service (exposição estável de rede), Namespace (isolamento lógico). Os provedores oferecem K8s gerenciado: EKS (AWS), AKS (Azure) e GKE (GCP). Kubernetes é declarativo: você descreve o estado desejado e o controle reconcilia o estado real continuamente."
+        }
+      ],
+      "exemplo": "Cenário aplicado: um sistema de processamento de documentos do TCU recebe uploads que disparam uma função AWS Lambda (serverless) para extração de texto, publicando o resultado em uma fila SQS consumida por microsserviços em contêineres no EKS. Essa arquitetura event-driven é resiliente (a fila absorve picos e desacopla os componentes) e elástica (Lambda e HPA escalam sob demanda). Em auditoria, verifica-se se há tratamento de idempotência e dead-letter queue para mensagens com falha — ausência indica risco de perda ou reprocessamento indevido.",
+      "pontos_chave": [
+        "Sistemas distribuídos: projete para falha; teorema CAP (sob partição, escolha C ou A)",
+        "Serverless abstrai o servidor (FaaS/BaaS); escala automática e cobrança por uso; sofre cold start",
+        "Contêiner compartilha o kernel do host; VM virtualiza o hardware com SO convidado completo",
+        "Docker: Dockerfile gera imagem (imutável); contêiner é a instância em execução",
+        "Kubernetes orquestra contêineres: Pods, Deployments, Services, self-healing e HPA",
+        "K8s gerenciado: EKS (AWS), AKS (Azure), GKE (GCP); modelo declarativo de estado desejado"
+      ],
+      "dica_prova": "Duas confusões campeãs: (1) afirmar que contêiner virtualiza o hardware como uma VM — ERRADO, ele compartilha o kernel do host; (2) dizer que serverless dispensa servidores fisicamente — na verdade só abstrai a gestão. Saiba que a menor unidade implantável no K8s é o Pod (não o contêiner) e que cold start é limitação do FaaS."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "IAM, RBAC e criptografia (KMS)",
+      "intro": "Em nuvem, a identidade é o novo perímetro. Com a infraestrutura exposta por APIs e acessível de qualquer lugar, o controle de quem pode fazer o quê (IAM — Identity and Access Management) torna-se o principal mecanismo de segurança. A maioria dos incidentes em nuvem decorre de identidades superprivilegiadas, credenciais vazadas ou configurações de acesso permissivas.\n\nComplementarmente, a criptografia protege os dados em repouso e em trânsito, e o gerenciamento de chaves (KMS) garante que as chaves criptográficas sejam armazenadas, rotacionadas e auditadas com segurança. Juntos, IAM e criptografia formam a base da segurança 'na' nuvem, que é responsabilidade do cliente.",
+      "secoes": [
+        {
+          "h": "IAM, autenticação e autorização",
+          "p": "IAM distingue autenticação (provar quem você é) de autorização (o que você pode fazer). Os principais (principals) podem ser usuários, grupos, papéis (roles) e identidades de aplicação/serviço. Boas práticas centrais: princípio do menor privilégio (least privilege) — conceder apenas as permissões necessárias — e separação de funções (segregation of duties). Em vez de chaves de acesso estáticas embutidas no código, prefira roles temporárias assumidas por serviços (ex.: AWS IAM Roles), que emitem credenciais de curta duração. Federação de identidade (SAML 2.0, OpenID Connect, OAuth 2.0) integra o IdP corporativo à nuvem, permitindo SSO."
+        },
+        {
+          "h": "RBAC, ABAC e políticas",
+          "p": "RBAC (Role-Based Access Control) concede permissões com base em papéis/funções organizacionais — o usuário herda permissões do papel atribuído (ex.: 'Leitor', 'Contribuidor', 'Proprietário' no Azure RBAC). ABAC (Attribute-Based Access Control) decide com base em atributos (tags, departamento, ambiente), sendo mais granular e dinâmico. Em AWS, o acesso é definido por políticas JSON (identity-based e resource-based); o modelo é 'deny por padrão' e uma negação explícita sempre prevalece sobre qualquer permissão. Pegadinha: em caso de conflito, o 'deny' explícito vence; e a ausência de permissão equivale a negação implícita."
+        },
+        {
+          "h": "MFA e proteção de credenciais",
+          "p": "MFA (autenticação multifator) exige dois ou mais fatores de categorias distintas: algo que você sabe (senha), algo que você tem (token/app autenticador, chave FIDO2) e algo que você é (biometria). É a defesa mais eficaz contra credenciais vazadas e deve ser obrigatória especialmente para contas privilegiadas (root/administrador). Pegadinha: usar duas senhas NÃO é MFA — os fatores precisam ser de categorias diferentes. Senha + OTP do app é MFA; senha + PIN não é."
+        },
+        {
+          "h": "Criptografia e KMS",
+          "p": "Criptografia em repouso protege dados armazenados (em discos, buckets, bancos); em trânsito protege a comunicação pela rede, tipicamente com TLS (HTTPS). O KMS (Key Management Service) — AWS KMS, Azure Key Vault, Google Cloud KMS — gera, armazena, rotaciona e controla o acesso às chaves, frequentemente com respaldo de HSM (Hardware Security Module) certificado (FIPS 140-2/140-3). Uma prática comum é a envelope encryption: os dados são cifrados por uma chave de dados (DEK), que por sua vez é cifrada por uma chave-mestra (KEK/CMK) custodiada no KMS. Isso permite rotação eficiente sem recifrar todos os dados. O CMK normalmente nunca sai do KMS em texto claro."
+        }
+      ],
+      "exemplo": "Item de prova comentado: 'A adoção do princípio do menor privilégio no IAM implica conceder a cada usuário todas as permissões que ele possa eventualmente precisar, evitando interrupções de trabalho.' — ERRADO. O menor privilégio determina conceder somente as permissões estritamente necessárias para a tarefa atual; conceder permissões 'que possam eventualmente ser precisas' é exatamente o oposto (overprovisioning), ampliando a superfície de ataque. Em auditoria, identidades com políticas excessivamente amplas (ex.: AdministratorAccess para uso rotineiro) são achados típicos.",
+      "pontos_chave": [
+        "IAM separa autenticação (quem é) de autorização (o que pode); identidade é o novo perímetro",
+        "Menor privilégio e segregação de funções; prefira roles temporárias a credenciais estáticas",
+        "RBAC concede por papéis; ABAC por atributos/tags (mais granular); deny explícito sempre prevalece",
+        "MFA exige fatores de categorias diferentes (saber, ter, ser); duas senhas não é MFA",
+        "Criptografia em repouso (disco/bucket) e em trânsito (TLS/HTTPS)",
+        "KMS gerencia chaves com HSM (FIPS 140-2/140-3); envelope encryption usa DEK cifrada por KEK/CMK"
+      ],
+      "dica_prova": "A Cebraspe adora afirmar que 'duas senhas constituem MFA' (falso) e inverter o princípio do menor privilégio. Também testa a regra de precedência: negação explícita vence permissão. Saiba diferenciar RBAC (papéis) de ABAC (atributos) e lembrar que no KMS a chave-mestra geralmente não sai em claro."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Zero Trust e conectividade",
+      "intro": "O modelo tradicional de segurança baseado em perímetro ('castelo e fosso') pressupõe que tudo dentro da rede corporativa é confiável. Esse modelo falha em nuvem, onde recursos estão distribuídos e acessíveis pela internet. O Zero Trust (confiança zero) substitui essa premissa pelo princípio 'nunca confie, sempre verifique': nenhum usuário ou dispositivo é confiável por padrão, esteja dentro ou fora da rede.\n\nEm paralelo, a conectividade segura em nuvem é construída com redes virtuais isoladas, sub-redes, gateways e ligações dedicadas (VPN, Direct Connect, ExpressRoute) que controlam como o ambiente em nuvem se comunica com a internet e com o ambiente on-premises.",
+      "secoes": [
+        {
+          "h": "Princípios do Zero Trust (NIST SP 800-207)",
+          "p": "A arquitetura Zero Trust é formalizada na publicação NIST SP 800-207. Princípios essenciais: verificação explícita e contínua de toda solicitação (identidade, dispositivo, contexto), acesso de menor privilégio com microssegmentação, e a presunção de violação (assume breach) — projete como se o invasor já estivesse dentro. A decisão de acesso é tomada por um Policy Decision Point (PDP) e aplicada por um Policy Enforcement Point (PEP) a cada requisição, considerando sinais dinâmicos (risco, saúde do dispositivo, localização). Pegadinha: Zero Trust não é um produto único, e sim uma estratégia/arquitetura; não elimina a autenticação — ao contrário, a intensifica e a torna contínua."
+        },
+        {
+          "h": "Microssegmentação e perímetro definido por software",
+          "p": "Em vez de uma grande rede plana, Zero Trust usa microssegmentação: dividir a rede em zonas pequenas com políticas próprias, limitando o movimento lateral do atacante. Tecnologias correlatas incluem SDP (Software-Defined Perimeter) e ZTNA (Zero Trust Network Access), que dão acesso a aplicações específicas em vez de acesso amplo à rede (substituindo VPNs tradicionais de rede). O conceito de SASE (Secure Access Service Edge) combina rede (SD-WAN) e segurança (incluindo ZTNA) entregues como serviço na nuvem."
+        },
+        {
+          "h": "Redes virtuais, sub-redes e gateways",
+          "p": "Toda nuvem oferece uma rede virtual privada e isolada — VPC na AWS/GCP, VNet na Azure — segmentada em sub-redes públicas (com rota para a internet via Internet Gateway) e privadas (sem exposição direta). Controles de tráfego: Security Groups (firewall com estado, no nível da instância) e Network ACLs (firewall sem estado, no nível da sub-rede, na AWS). Um NAT Gateway permite que recursos em sub-redes privadas iniciem conexões de saída sem ficarem expostos a conexões de entrada. Pegadinha: Security Group é stateful (a resposta é automaticamente permitida); NACL é stateless (precisa de regra para o tráfego de retorno)."
+        },
+        {
+          "h": "Conectividade híbrida: VPN x links dedicados",
+          "p": "Para conectar o ambiente on-premises à nuvem há duas opções principais. VPN site-to-site: túnel criptografado (IPsec) que trafega pela internet pública — rápido de configurar e barato, mas com largura de banda e latência sujeitas à internet. Conexão dedicada/privada: um link físico privado que não passa pela internet pública, oferecendo banda consistente, menor latência e maior segurança — AWS Direct Connect, Azure ExpressRoute e Google Cloud Interconnect. Pegadinha clássica: Direct Connect/ExpressRoute NÃO trafegam pela internet pública e, por si, não criptografam o tráfego como uma VPN IPsec (a privacidade vem do isolamento do circuito; criptografia adicional pode ser sobreposta)."
+        }
+      ],
+      "exemplo": "Cenário de auditoria: ao revisar a arquitetura de rede de um sistema do TCU em nuvem, o auditor constata que os bancos de dados estão em sub-redes privadas, sem IP público, acessíveis apenas a partir de Security Groups específicos das aplicações, e que a conexão com o datacenter do Tribunal usa ExpressRoute (link dedicado) com VPN IPsec sobreposta. Esse desenho aplica defesa em profundidade e princípios de Zero Trust. A presença de um banco em sub-rede pública com acesso 0.0.0.0/0 seria um achado crítico.",
+      "pontos_chave": [
+        "Zero Trust (NIST SP 800-207): nunca confie, sempre verifique; assume breach; menor privilégio",
+        "Zero Trust é estratégia/arquitetura, não um produto; intensifica a autenticação (não a elimina)",
+        "Microssegmentação limita movimento lateral; ZTNA/SDP substituem VPN de rede; SASE une rede e segurança",
+        "VPC/VNet isolam a rede; sub-redes públicas têm Internet Gateway, privadas usam NAT Gateway para saída",
+        "Security Group é stateful (instância); Network ACL é stateless (sub-rede)",
+        "VPN IPsec trafega pela internet (criptografada); Direct Connect/ExpressRoute são links dedicados fora da internet pública"
+      ],
+      "dica_prova": "A Cebraspe testa: (1) Zero Trust como 'produto' ou como 'dispensa de autenticação' — ambos falsos; (2) a diferença stateful (Security Group) x stateless (NACL); (3) afirmar que Direct Connect/ExpressRoute passam pela internet pública e são intrinsecamente criptografados — falso, são links privados dedicados. Lembre do número da norma: NIST SP 800-207 para Zero Trust."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "Infraestrutura como código (Terraform)",
+      "intro": "Infraestrutura como Código (IaC) é a prática de provisionar e gerenciar recursos de infraestrutura (redes, VMs, bancos, políticas) por meio de arquivos de definição versionados, em vez de configuração manual via console. Isso traz reprodutibilidade, auditabilidade, controle de versão e automação — pilares da cultura DevOps e da operação confiável em nuvem.\n\nO Terraform, da HashiCorp, é a ferramenta de IaC mais difundida por ser multicloud e declarativa. Junto com IaC, pipelines de CI/CD automatizam build, teste e entrega, fechando o ciclo de entrega contínua.",
+      "secoes": [
+        {
+          "h": "IaC: declarativo x imperativo, mutável x imutável",
+          "p": "IaC pode ser declarativa (você descreve o ESTADO desejado e a ferramenta calcula como chegar lá — ex.: Terraform, CloudFormation) ou imperativa (você descreve os PASSOS — ex.: scripts). O modelo declarativo é idempotente: aplicar a mesma definição repetidamente converge ao mesmo estado, sem efeitos colaterais. IaC também viabiliza infraestrutura imutável: em vez de alterar servidores existentes (mutável, sujeito a 'configuration drift'), substitui-se a infraestrutura por uma nova versão a partir do código. Benefícios: elimina o 'drift', reduz erros manuais e permite rollback."
+        },
+        {
+          "h": "Terraform: linguagem, estado e fluxo",
+          "p": "O Terraform usa a linguagem declarativa HCL (HashiCorp Configuration Language) e providers (plugins) para falar com cada nuvem (AWS, Azure, GCP) — por isso é multicloud/cloud-agnostic. Conceito central: o tfstate (arquivo de estado) mapeia os recursos descritos no código aos recursos reais provisionados; deve ser armazenado de forma remota e segura (ex.: backend S3 + DynamoDB para travamento), pois pode conter dados sensíveis. Fluxo de trabalho: terraform init (inicializa providers) → terraform plan (mostra o que será criado/alterado/destruído, sem aplicar) → terraform apply (aplica) → terraform destroy (remove). O plan é a etapa de revisão que antecede a mudança real."
+        },
+        {
+          "h": "Ferramentas correlatas e diferenças",
+          "p": "CloudFormation (AWS) e Azure Resource Manager (ARM)/Bicep são as soluções nativas (single-cloud) de IaC declarativa. Ansible, Chef e Puppet são ferramentas de gestão de CONFIGURAÇÃO (instalam pacotes e configuram SO dentro das máquinas), enquanto Terraform foca em provisionar a INFRAESTRUTURA — muitas vezes se combinam. Pegadinha: Ansible é majoritariamente para configuração (e é agentless, via SSH); Terraform é para provisionamento de infraestrutura. Confundir os dois é erro comum."
+        },
+        {
+          "h": "CI/CD: integração e entrega contínuas",
+          "p": "CI (Continuous Integration) integra e testa código com frequência, executando build e testes automatizados a cada commit. CD pode significar Continuous Delivery (a entrega até produção fica pronta, mas o deploy final é uma decisão/aprovação manual) ou Continuous Deployment (todo commit aprovado vai automaticamente a produção, sem intervenção humana). Ferramentas: Jenkins, GitHub Actions, GitLab CI, Azure DevOps Pipelines, AWS CodePipeline. Boas práticas incluem 'pipeline as code', testes automatizados, e estratégias de deploy de baixo risco (blue-green, canary, rolling). GitOps usa o Git como fonte única da verdade para infraestrutura e deploy."
+        }
+      ],
+      "exemplo": "Cenário aplicado/auditoria: a equipe de TI do TCU provisiona todo o ambiente de um sistema via Terraform versionado em Git, com pipeline no GitHub Actions executando 'terraform plan' em pull requests e exigindo aprovação antes do 'apply'. O tfstate fica em backend S3 cifrado, com travamento via DynamoDB. Em auditoria, isso evidencia rastreabilidade e segregação de funções. Um achado negativo seria infraestrutura criada manualmente no console (sem IaC), gerando 'drift' e impossibilidade de reproduzir o ambiente para DR.",
+      "pontos_chave": [
+        "IaC versiona a infraestrutura; traz reprodutibilidade, auditabilidade e rollback",
+        "Declarativo (estado desejado, idempotente) x imperativo (passos); imutável combate o configuration drift",
+        "Terraform: HCL, multicloud via providers; tfstate mapeia código a recursos reais (proteger e remotizar)",
+        "Fluxo Terraform: init → plan (revisão, não aplica) → apply → destroy",
+        "Terraform provisiona infraestrutura; Ansible/Chef/Puppet gerenciam configuração (Ansible é agentless)",
+        "CI testa a cada commit; Continuous Delivery exige aprovação manual, Continuous Deployment é automático até produção"
+      ],
+      "dica_prova": "Pegadinhas: (1) 'terraform plan' já aplica as mudanças — FALSO, ele apenas mostra o plano; (2) confundir Terraform (provisionamento, multicloud) com Ansible (configuração, agentless); (3) tratar Continuous Delivery e Continuous Deployment como sinônimos — a diferença é a aprovação manual antes da produção. Saiba que IaC declarativa é idempotente."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Observabilidade em nuvem",
+      "intro": "Observabilidade é a capacidade de inferir o estado interno de um sistema a partir de seus dados de saída (telemetria), permitindo entender não só SE algo falhou, mas POR QUE falhou — inclusive para problemas nunca antes vistos. Diferencia-se do monitoramento tradicional, que verifica condições conhecidas e dispara alertas previsíveis. Em arquiteturas distribuídas e de microsserviços, a observabilidade é essencial porque uma requisição percorre dezenas de serviços.\n\nA observabilidade se apoia em três pilares — métricas, logs e traces — coletados por serviços como AWS CloudWatch, Azure Monitor e Google Cloud Monitoring, e por padrões abertos como o OpenTelemetry.",
+      "secoes": [
+        {
+          "h": "Os três pilares: métricas, logs e traces",
+          "p": "Métricas: valores numéricos agregados ao longo do tempo (uso de CPU, latência, taxa de erro, requisições por segundo); leves e ideais para dashboards e alertas. Logs: registros de eventos discretos, com timestamp, detalhados e textuais; essenciais para investigação forense e auditoria. Traces (rastreamento distribuído): seguem o caminho de uma única requisição por todos os serviços que ela atravessa, revelando onde está o gargalo ou a falha em sistemas distribuídos. Pegadinha: monitoramento ≠ observabilidade — o monitoramento responde a perguntas conhecidas; a observabilidade permite explorar problemas desconhecidos."
+        },
+        {
+          "h": "Serviços nativos dos provedores",
+          "p": "AWS: CloudWatch (métricas, logs, alarmes e dashboards), X-Ray (tracing distribuído) e CloudTrail — atenção: CloudTrail registra chamadas de API/atividade da conta (auditoria de QUEM fez O QUÊ), enquanto CloudWatch foca em desempenho/operação. Azure: Azure Monitor, com Log Analytics e Application Insights (APM). Google Cloud: Cloud Monitoring, Cloud Logging e Cloud Trace (antiga suíte Stackdriver). Não confunda CloudWatch (observabilidade/performance) com CloudTrail (trilha de auditoria de ações)."
+        },
+        {
+          "h": "Padrões abertos e ecossistema",
+          "p": "OpenTelemetry (OTel) é o padrão aberto, mantido pela CNCF, para instrumentar, gerar e exportar telemetria (métricas, logs e traces) de forma agnóstica ao fornecedor — evitando lock-in de observabilidade. Stacks populares incluem Prometheus (métricas) + Grafana (visualização), e o stack ELK/Elastic (Elasticsearch + Logstash + Kibana) para logs. APM (Application Performance Monitoring) refere-se a ferramentas focadas em desempenho de aplicações (Application Insights, New Relic, Datadog)."
+        },
+        {
+          "h": "SLI, SLO, SLA e alertas",
+          "p": "A observabilidade alimenta a engenharia de confiabilidade (SRE). SLI (Service Level Indicator): a métrica medida (ex.: % de requisições com latência < 200ms). SLO (Service Level Objective): a meta interna para o SLI (ex.: 99,9% das requisições abaixo do limite). SLA (Service Level Agreement): o compromisso CONTRATUAL com o cliente, geralmente com penalidades se violado. O 'error budget' é o complemento do SLO (se o SLO é 99,9%, o orçamento de erro é 0,1%). Bons alertas baseiam-se em sintomas que afetam o usuário (SLOs), não em ruído. Pegadinha: SLA é contratual/externo; SLO é meta interna; SLI é a medição — a Cebraspe troca essas siglas."
+        }
+      ],
+      "exemplo": "Item de prova comentado: 'No ecossistema AWS, o serviço responsável por registrar as chamadas de API realizadas na conta, permitindo auditar quem executou cada ação, é o Amazon CloudWatch.' — ERRADO. Esse papel é do AWS CloudTrail, que registra a atividade de API/eventos de gestão para fins de auditoria e governança. O CloudWatch coleta métricas, logs operacionais e dispara alarmes de desempenho. A troca CloudWatch/CloudTrail é uma pegadinha recorrente.",
+      "pontos_chave": [
+        "Observabilidade infere o estado interno pela telemetria; vai além do monitoramento (explica o porquê)",
+        "Três pilares: métricas (agregadas), logs (eventos discretos) e traces (caminho da requisição)",
+        "CloudWatch = performance/operação; CloudTrail = auditoria de chamadas de API (quem fez o quê)",
+        "OpenTelemetry (CNCF) é o padrão aberto e agnóstico de telemetria; Prometheus+Grafana e ELK são stacks comuns",
+        "SLI é a medição; SLO é a meta interna; SLA é o compromisso contratual externo",
+        "Error budget = complemento do SLO; bons alertas baseiam-se em sintomas ligados a SLO"
+      ],
+      "dica_prova": "As duas trocas favoritas da banca: CloudWatch x CloudTrail (operação vs. auditoria) e SLI/SLO/SLA (medição vs. meta interna vs. contrato externo). Também testa monitoramento como sinônimo de observabilidade — não são iguais. Saiba os três pilares e que OpenTelemetry é o padrão aberto da CNCF."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Governança, compliance e FinOps",
+      "intro": "A facilidade de provisionar recursos em nuvem ('self-service') é também um risco: sem governança, surgem custos descontrolados, recursos órfãos e configurações inseguras (shadow IT). Governança em nuvem é o conjunto de políticas, controles e processos que garantem uso seguro, conforme e econômico dos recursos — alinhado a frameworks como ISO/IEC 27001, NIST SP 800-53 e à LGPD no contexto brasileiro.\n\nFinOps é a disciplina de gestão financeira da nuvem, trazendo accountability sobre os gastos variáveis. Para um auditor do TCU, governança e compliance em nuvem conectam segurança da informação, controle de custos e legalidade no trato de dados públicos.",
+      "secoes": [
+        {
+          "h": "Governança: tags, cotas e guardrails",
+          "p": "Mecanismos práticos de governança: tagueamento (tagging) — rotular recursos com metadados (centro de custo, ambiente, responsável) para rastrear gastos e aplicar políticas; cotas/limites de serviço (service quotas) para evitar consumo excessivo; e guardrails/políticas preventivas, como AWS Service Control Policies (SCPs) em AWS Organizations, Azure Policy/Management Groups e GCP Organization Policies. Esses controles aplicam regras em escala (ex.: bloquear regiões não permitidas, exigir criptografia). Estruturas de boas práticas: AWS Well-Architected Framework, Cloud Adoption Framework (Azure) e o Cloud Controls Matrix (CCM) da Cloud Security Alliance."
+        },
+        {
+          "h": "Compliance e normas aplicáveis",
+          "p": "ISO/IEC 27001: norma de gestão de segurança da informação (estabelece o SGSI/ISMS), com controles detalhados no Anexo A (alinhados à ISO/IEC 27002); há ainda a ISO/IEC 27017 (controles de segurança específicos para serviços em nuvem) e a 27018 (proteção de dados pessoais em nuvem). NIST SP 800-53: catálogo de controles de segurança e privacidade muito usado no setor público (organizado em famílias de controles). No Brasil, a LGPD (Lei nº 13.709/2018) rege o tratamento de dados pessoais — relevante para localização de dados, base legal, e papéis de controlador/operador (o provedor de nuvem normalmente atua como operador). SOC 2 e o atestado/relatórios de conformidade dos provedores também são referências de auditoria."
+        },
+        {
+          "h": "FinOps: gestão financeira da nuvem",
+          "p": "FinOps une finanças, engenharia e negócio para maximizar o valor de cada real gasto em nuvem. Seu ciclo tem três fases: Inform (visibilidade e alocação de custos via tags e relatórios), Optimize (otimizar: rightsizing, desligar recursos ociosos, usar Reserved Instances/Savings Plans e instâncias spot) e Operate (operar com governança contínua e melhoria). Modelos de precificação importantes: on-demand (flexível e caro), reservado/committed (desconto por compromisso de 1-3 anos) e spot (capacidade ociosa, barata, mas interruptível). Conceito-chave: na nuvem o gasto é variável e OpEx, exigindo accountability descentralizada — quem provisiona, responde pelo custo."
+        },
+        {
+          "h": "Auditoria e rastreabilidade em nuvem",
+          "p": "Para auditoria, são essenciais: trilhas de auditoria imutáveis (AWS CloudTrail, Azure Activity Log), serviços de avaliação de conformidade e configuração (AWS Config, Azure Policy compliance), e gestão de postura de segurança (CSPM — Cloud Security Posture Management) para detectar configurações fora de conformidade. A separação de funções (segregation of duties) e o registro de quem alterou cada recurso sustentam a responsabilização. Para o TCU, isso se relaciona ao controle externo da gestão de TI da Administração Pública."
+        }
+      ],
+      "exemplo": "Cenário de auditoria: ao examinar a conta de nuvem de um órgão, o auditor identifica dezenas de instâncias sem tags de centro de custo, várias ligadas 24/7 com baixíssima utilização, e ausência de políticas preventivas (SCPs). Recomenda-se implementar tagueamento obrigatório, rightsizing, desligamento programado e Reserved Instances para cargas estáveis — práticas FinOps que, combinadas com guardrails de governança, reduzem desperdício e aumentam a conformidade. A falta de uma trilha de auditoria habilitada (CloudTrail) seria um achado de controle interno relevante.",
+      "pontos_chave": [
+        "Governança usa tags, cotas e guardrails (SCPs, Azure Policy) para controlar uso em escala",
+        "ISO/IEC 27001 (SGSI); 27017 (nuvem) e 27018 (dados pessoais em nuvem); NIST SP 800-53 (controles, setor público)",
+        "LGPD (Lei 13.709/2018): provedor geralmente é operador; órgão é controlador",
+        "FinOps em três fases: Inform (visibilidade), Optimize (otimizar) e Operate (operar)",
+        "Precificação: on-demand (flexível/caro), reservado (desconto por compromisso) e spot (barato/interruptível)",
+        "Auditoria: CloudTrail/Activity Log, AWS Config e CSPM sustentam rastreabilidade e conformidade"
+      ],
+      "dica_prova": "A banca confunde as ISOs: 27001 é o SGSI, 27017 é controles para nuvem, 27018 é privacidade em nuvem. Também testa papéis da LGPD (na nuvem, o provedor costuma ser operador, e o cliente, controlador) e as fases do FinOps. Lembre que custo em nuvem é variável/OpEx e que instâncias spot são interruptíveis."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "Dados, migração e multicloud",
+      "intro": "A nuvem é a plataforma natural para grandes volumes de dados, viabilizando data lakes, data warehouses e pipelines analíticos elásticos. Ao mesmo tempo, mover sistemas legados para a nuvem (migração) e operar em mais de um provedor (multicloud) exigem estratégia, sob pena de custo, lock-in e riscos de conformidade — incluindo a soberania de dados, tema sensível para o setor público brasileiro.\n\nPara o auditor de TI do TCU, entender essas escolhas arquiteturais e seus trade-offs (custo, risco, dependência de fornecedor e localização dos dados) é essencial para avaliar a adequação das contratações e da gestão de TI dos órgãos.",
+      "secoes": [
+        {
+          "h": "Armazenamento e processamento de dados",
+          "p": "Data lake: repositório centralizado que armazena dados brutos em qualquer formato (estruturados, semiestruturados e não estruturados), com schema-on-read (a estrutura é aplicada na leitura) — tipicamente sobre object storage (S3, ADLS, GCS). Data warehouse: armazena dados estruturados, modelados e tratados, com schema-on-write, otimizado para BI/consultas analíticas (Redshift, Synapse, BigQuery). Data lakehouse: arquitetura que combina a flexibilidade do lake com a governança/desempenho do warehouse. Processamento em lote (batch) x streaming (tempo real, ex.: Kafka, Kinesis). Pegadinha: data lake é schema-on-read e guarda dados brutos; data warehouse é schema-on-write e guarda dados tratados — a banca inverte."
+        },
+        {
+          "h": "Estratégias de migração (os 6/7 R's)",
+          "p": "Frameworks de migração (popularizados como os '6 R's' da AWS/Gartner): Rehost ('lift and shift' — mover sem alterar; rápido, baixo aproveitamento de nuvem); Replatform ('lift, tinker and shift' — pequenas otimizações); Repurchase (trocar por solução SaaS); Refactor/Re-architect (rearquitetar para nuvem nativa; maior esforço e benefício); Retire (desativar o que não é mais necessário); Retain (manter on-premises por ora). Algumas versões incluem Relocate. A escolha equilibra esforço, custo e ganho de modernização. Pegadinha: rehost (lift and shift) é o mais rápido, mas o que MENOS aproveita os recursos nativos da nuvem."
+        },
+        {
+          "h": "Multicloud, híbrida e vendor lock-in",
+          "p": "Multicloud: uso de mais de um provedor de nuvem pública (ex.: AWS + Azure), buscando evitar dependência de um único fornecedor (lock-in), aproveitar o melhor de cada um e atender requisitos regulatórios. Difere de nuvem híbrida (que combina nuvem pública com privada/on-premises). Trade-offs do multicloud: reduz o lock-in e aumenta a resiliência, mas eleva a complexidade operacional, exige competências múltiplas e dificulta a padronização. Tecnologias agnósticas (Kubernetes, Terraform, contêineres) e padrões abertos reduzem o lock-in. Pegadinha: multicloud (vários provedores públicos) não é sinônimo de híbrida (pública + privada/on-premises)."
+        },
+        {
+          "h": "Soberania e residência de dados",
+          "p": "Residência de dados refere-se ao local geográfico onde os dados são armazenados; soberania de dados vai além: implica que os dados estão sujeitos às leis e à jurisdição do país onde residem. Para órgãos públicos, isso é crítico — dados de cidadãos podem precisar permanecer em território nacional, e legislações estrangeiras (ex.: o CLOUD Act dos EUA) podem alcançar dados sob custódia de provedores sujeitos àquela jurisdição mesmo que armazenados em outro país. A LGPD disciplina a transferência internacional de dados pessoais. Por isso, escolha de região, cláusulas contratuais, criptografia com chaves sob controle do cliente (BYOK/HYOK) e nuvens governamentais (ex.: regiões soberanas/GovCloud) são mitigadores típicos."
+        }
+      ],
+      "exemplo": "Item de prova comentado: 'A estratégia de migração denominada rehost (lift and shift) consiste em rearquitetar a aplicação para torná-la nativa de nuvem, aproveitando ao máximo serviços gerenciados e serverless.' — ERRADO. Rehost é mover a aplicação 'como está', com mínimas alterações; é a migração mais rápida, porém a que MENOS explora recursos nativos. A descrição apresentada corresponde ao Refactor/Re-architect. Em uma contratação do TCU, optar por refactor faz sentido quando se busca modernização; rehost, quando se prioriza velocidade e menor risco inicial.",
+      "pontos_chave": [
+        "Data lake: dados brutos, qualquer formato, schema-on-read; data warehouse: dados tratados, schema-on-write",
+        "Lakehouse combina flexibilidade do lake com governança/desempenho do warehouse",
+        "6 R's de migração: rehost, replatform, repurchase, refactor, retire, retain (rehost é o mais rápido e menos otimizado)",
+        "Multicloud = vários provedores públicos (anti lock-in); híbrida = pública + privada/on-premises",
+        "Kubernetes, Terraform e padrões abertos reduzem o vendor lock-in",
+        "Residência = onde os dados estão; soberania = a qual jurisdição estão sujeitos (atenção ao CLOUD Act e à LGPD)"
+      ],
+      "dica_prova": "Três pegadinhas certeiras: (1) inverter schema-on-read (lake) com schema-on-write (warehouse); (2) descrever rehost como rearquitetura nativa (na verdade é lift and shift, o mais simples); (3) tratar multicloud como sinônimo de nuvem híbrida. Sobre soberania, lembre que residência (local) e soberania (jurisdição) não são a mesma coisa, e que leis estrangeiras como o CLOUD Act podem alcançar dados sob provedores estrangeiros."
+    }
+  ]
+}

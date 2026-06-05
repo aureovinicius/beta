@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Processamento de linguagem natural e agentes — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/inteligencia-artificial.html">🤖 Inteligência Artificial</a> ›
+    <span>Processamento de linguagem natural e agentes</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">3. PLN e IA generativa</p>
+    <h1>Processamento de linguagem natural e agentes</h1>
+    
+    <p>O Processamento de Linguagem Natural (PLN, ou NLP) é o campo da IA dedicado a fazer máquinas compreenderem, interpretarem e gerarem linguagem humana. Envolve desde tarefas básicas de pré-processamento textual até modelos de linguagem sofisticados. As aplicações incluem tradução automática, análise de sentimento, reconhecimento de entidades nomeadas, classificação de textos, resposta a perguntas e chatbots.</p><p>Agentes inteligentes, por sua vez, são entidades que percebem o ambiente por meio de sensores e atuam sobre ele por meio de atuadores, buscando atingir objetivos. Quando vários agentes interagem - cooperando ou competindo - em um ambiente compartilhado, temos um sistema multiagente. Modernamente, LLMs são usados como núcleo de raciocínio de agentes capazes de planejar, usar ferramentas e executar tarefas de forma autônoma.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Pré-processamento e representação de texto</h2><p>Antes de modelar, o texto passa por etapas como tokenização (dividir em palavras/subpalavras), normalização (minúsculas), remoção de stopwords (palavras muito frequentes e pouco informativas), stemming (truncar ao radical) e lematização (reduzir à forma canônica do dicionário).</p><p>Para que algoritmos processem texto, é preciso representá-lo numericamente. Abordagens tradicionais: Bag of Words e TF-IDF (que pesa termos por frequência e raridade). Abordagens modernas usam embeddings - vetores densos que capturam semântica (Word2Vec, GloVe, FastText) - em que palavras de significado próximo ficam próximas no espaço vetorial. Embeddings contextuais (BERT) atribuem vetores diferentes conforme o contexto da frase.</p></section><section class="amp-sec"><h2>Modelos de linguagem</h2><p>Um modelo de linguagem estima a probabilidade de sequências de palavras, prevendo o próximo token. Modelos estatísticos clássicos usavam n-gramas. Modelos neurais (RNN/LSTM e, principalmente, transformers) capturam contexto muito mais rico.</p><p>Modelos pré-treinados como BERT (compreensão, bidirecional) e a família GPT (geração) revolucionaram o PLN ao serem treinados em grandes corpora e depois ajustados para tarefas específicas. São a base da IA generativa textual.</p></section><section class="amp-sec"><h2>Agentes inteligentes</h2><p>Na definição clássica (Russell e Norvig), um agente racional percebe o ambiente e age para maximizar seu desempenho em direção a um objetivo. Os ambientes classificam-se em totalmente/parcialmente observáveis, determinísticos/estocásticos, estáticos/dinâmicos, discretos/contínuos e de agente único/múltiplos agentes.</p><p>Tipos de agentes: reativos simples (reagem à percepção atual), baseados em modelo (mantêm estado interno), baseados em objetivos, baseados em utilidade (maximizam uma função de utilidade) e agentes que aprendem. Agentes baseados em LLM acoplam raciocínio (ex.: padrões como ReAct), memória e uso de ferramentas externas (APIs, busca, código) para executar tarefas complexas de forma autônoma.</p></section><section class="amp-sec"><h2>Sistemas multiagentes</h2><p>Um sistema multiagente (SMA) é composto por vários agentes autônomos que interagem em um ambiente comum. Eles podem cooperar (dividir tarefas, negociar, coordenar) ou competir. São úteis para problemas distribuídos, descentralizados ou que se beneficiam de especialização.</p><p>Questões centrais em SMA incluem comunicação (protocolos e linguagens de comunicação entre agentes), coordenação, negociação e resolução de conflitos. Aplicações modernas incluem orquestração de múltiplos agentes de LLM, cada um com um papel especializado (ex.: um planeja, outro executa, outro revisa), e simulações de mercados, logística e tráfego.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>O TCU pode empregar PLN para classificar automaticamente milhares de processos por assunto e analisar o sentimento/teor de manifestações de ouvidoria. Pipeline típico: tokenização, remoção de stopwords, vetorização por TF-IDF ou embeddings, e classificação. Item Cebraspe: &#x27;No pré-processamento textual, a lematização reduz uma palavra à sua forma canônica (lema), considerando o contexto morfológico, diferentemente do stemming, que apenas trunca a palavra ao seu radical.&#x27; Afirmativa CERTA.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe explora a diferença entre stemming (corte mecânico do radical, pode gerar não-palavras) e lematização (forma de dicionário, mais sofisticada). Outra pegadinha: afirmar que TF-IDF captura semântica/significado das palavras - não captura; quem captura proximidade semântica são os embeddings. Sobre agentes, lembre da classificação de ambientes (observável, determinístico, estático, etc.) e dos tipos de agentes de Russell e Norvig.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s1.html">← Treinamento e aplicações</a><a class="pager next" href="t2-s1.html">IA generativa →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Pré-processamento: tokenização, remoção de stopwords, stemming (trunca radical) e lematização (forma canônica).</li><li>Representação: Bag of Words e TF-IDF (tradicionais); embeddings/Word2Vec e BERT (semânticos/contextuais).</li><li>Modelo de linguagem prevê o próximo token; transformers superaram n-gramas e RNN.</li><li>Agente racional percebe e age para maximizar desempenho; tipos: reativo, baseado em modelo, em objetivos, em utilidade e que aprende.</li><li>Sistema multiagente: vários agentes autônomos cooperando ou competindo em ambiente comum.</li><li>Agentes de LLM combinam raciocínio, memória e uso de ferramentas (ex.: padrão ReAct).</li></ul></div>
+      <a class="back" href="../../disciplinas/inteligencia-artificial.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

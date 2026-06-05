@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Switching, roteamento, SDN e wireless — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Switching, roteamento, SDN e wireless</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Redes e comunicação de dados</p>
+    <h1>Switching, roteamento, SDN e wireless</h1>
+    
+    <p>A comutação (switching) ocorre na camada 2 (enlace), encaminhando quadros com base em endereços MAC dentro de um mesmo domínio de broadcast. O roteamento (routing) ocorre na camada 3 (rede), encaminhando pacotes entre redes distintas com base em endereços IP. Switches segmentam domínios de colisão e, com VLANs, criam múltiplos domínios de broadcast lógicos; roteadores interconectam essas redes.</p><p>As redes definidas por software (SDN) separam o plano de controle do plano de dados, centralizando a inteligência em um controlador programável. No ambiente sem fio corporativo, padrões como Wi-Fi 6 (802.11ax) e WPA3 elevaram desempenho, capacidade e segurança, enquanto arquiteturas mesh ampliam a cobertura.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>VLANs, trunk e STP</h2><p>VLANs (IEEE 802.1Q) segmentam logicamente uma rede física em múltiplos domínios de broadcast, isolando tráfego e melhorando segurança e desempenho; o tráfego entre VLANs exige roteamento (inter-VLAN routing/router-on-a-stick ou switch de camada 3). O protocolo 802.1Q insere uma tag (VLAN ID) no quadro; links que carregam várias VLANs são trunks.</p><p>O Spanning Tree Protocol (STP — IEEE 802.1D) previne loops de camada 2 em topologias com links redundantes, bloqueando portas redundantes e mantendo uma topologia em árvore livre de loops; ao falhar um link ativo, reativa um bloqueado. Variantes: RSTP (802.1w, convergência mais rápida) e MSTP (802.1s, múltiplas instâncias por VLAN). Sem STP, loops causam tempestades de broadcast.</p></section><section class="amp-sec"><h2>Roteamento e QoS</h2><p>O roteamento pode ser estático (rotas configuradas manualmente) ou dinâmico (protocolos como OSPF, EIGRP, BGP que aprendem e atualizam rotas automaticamente). A tabela de roteamento é consultada para decidir o próximo salto; quando há rotas concorrentes, decide-se pela distância administrativa e pela métrica.</p><p>QoS (Quality of Service) gerencia e prioriza o tráfego para garantir desempenho a aplicações sensíveis (voz, vídeo). Técnicas incluem classificação e marcação (DSCP no cabeçalho IP, CoS 802.1p na camada 2), enfileiramento com prioridade, policiamento e shaping (controle de taxa) e prevenção de congestionamento. QoS é essencial em VoIP e videoconferência, onde latência, jitter e perda de pacotes degradam a experiência.</p></section><section class="amp-sec"><h2>SDN e redes programáveis</h2><p>SDN (Software-Defined Networking) separa o plano de controle (decisões de roteamento) do plano de dados (encaminhamento de pacotes), centralizando o controle em um controlador SDN com visão global da rede, programável via APIs. O protocolo OpenFlow foi o pioneiro na comunicação entre controlador e switches (southbound API); APIs northbound expõem a rede a aplicações.</p><p>Benefícios: automação, programabilidade, gerência centralizada, agilidade na entrega de serviços e melhor uso de recursos. Conceitos correlatos: NFV (Network Functions Virtualization), que virtualiza funções de rede como firewalls e balanceadores em software; e SD-WAN, que aplica SDN a redes de longa distância. A centralização do controle é a marca da SDN — não confundir com a inteligência distribuída das redes tradicionais.</p></section><section class="amp-sec"><h2>Wireless corporativo: Wi-Fi 6, WPA3 e mesh</h2><p>Wi-Fi 6 (IEEE 802.11ax) opera em 2,4 e 5 GHz (e 6 GHz no Wi-Fi 6E), trazendo OFDMA (subdivisão de canais para múltiplos clientes simultâneos), MU-MIMO em uplink e downlink, BSS Coloring (reduz interferência entre células) e Target Wake Time (economia de energia em IoT). O foco é a eficiência em ambientes densos, não apenas a velocidade máxima.</p><p>WPA3 (sucessor do WPA2) substitui o handshake PSK pelo SAE (Simultaneous Authentication of Equals — Dragonfly), resistente a ataques de dicionário offline e oferecendo forward secrecy; inclui modo Enterprise com criptografia de 192 bits. Redes mesh usam múltiplos pontos de acesso que se interconectam dinamicamente para ampliar a cobertura com roaming transparente. Em ambiente corporativo, autenticação 802.1X/RADIUS (WPA2/3-Enterprise) é preferível à PSK.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;O Spanning Tree Protocol (STP) tem por finalidade rotear pacotes entre VLANs distintas, atuando na camada 3 do modelo OSI.&#x27; — ERRADO. O STP atua na camada 2 (enlace) e sua finalidade é prevenir loops em topologias com links redundantes, bloqueando portas redundantes. O roteamento entre VLANs (camada 3) é feito por roteadores ou switches de camada 3, não pelo STP.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe explora a separação de planos na SDN (controle x dados): a centralização do plano de controle é o conceito-chave. Cuidado em confundir as camadas: STP e VLAN são camada 2; roteamento e QoS por DSCP envolvem camada 3. Outra pegadinha: WPA3 NÃO usa o mesmo handshake do WPA2 — substitui o PSK pelo SAE (Dragonfly).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t1-s0.html">← Protocolos de comunicação</a><a class="pager next" href="t2-s0.html">Linux e Windows Server →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Switching é camada 2 (MAC); roteamento é camada 3 (IP); inter-VLAN exige roteamento</li><li>VLAN (802.1Q) segmenta domínios de broadcast logicamente; trunk carrega várias VLANs</li><li>STP (802.1D) previne loops de camada 2; RSTP/MSTP melhoram a convergência</li><li>QoS prioriza tráfego via DSCP/CoS, enfileiramento, policing e shaping</li><li>SDN separa plano de controle (centralizado e programável) do plano de dados; OpenFlow é southbound</li><li>NFV virtualiza funções de rede; SD-WAN aplica SDN à WAN</li><li>Wi-Fi 6 (802.11ax) traz OFDMA e MU-MIMO; WPA3 usa SAE/Dragonfly contra ataques de dicionário</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

@@ -60,6 +60,32 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 .card-meta span{font-size:.76rem;color:var(--brand);font-weight:600}
 .no-results{text-align:center;color:var(--muted);margin-top:30px}
 
+/* ===== Landing: cards de concurso ===== */
+.crumbs{font-size:.84rem;color:var(--muted);margin-bottom:18px}
+.crumbs a{color:var(--brand);font-weight:600}
+.concurso-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+.concurso-card{position:relative;display:flex;flex-direction:column;gap:8px;padding:24px;
+  background:var(--surface);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);
+  border-top:4px solid var(--accent);transition:transform .18s,box-shadow .18s}
+.concurso-card:hover{transform:translateY(-4px);box-shadow:0 14px 38px rgba(20,30,50,.16)}
+.cc-top{display:flex;align-items:center;justify-content:space-between}
+.cc-icon{font-size:1.6rem}
+.cc-orgao{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:var(--accent);padding:4px 10px;border-radius:999px}
+.concurso-card h3{margin:6px 0 0;font-size:1.22rem;font-weight:800;line-height:1.25}
+.cc-cargo{margin:0;font-size:.9rem;font-weight:600;color:var(--accent)}
+.cc-desc{margin:6px 0;color:var(--muted);font-size:.92rem;flex:1}
+.cc-meta{display:flex;gap:16px;font-size:.82rem;color:var(--muted)}
+.cc-stats{display:flex;gap:18px;margin-top:6px;padding-top:14px;border-top:1px solid var(--border)}
+.cc-stats span{font-size:.84rem;color:var(--muted)}
+.cc-stats strong{color:var(--text);font-size:1rem}
+.cc-go{margin-top:12px;font-weight:700;color:var(--accent)}
+
+/* badge de reaproveitamento */
+.tag-reuse{margin-left:8px;cursor:help;color:var(--brand);font-weight:700}
+.reuse-banner{margin:14px 0;padding:10px 14px;border-radius:10px;font-size:.9rem;
+  background:color-mix(in srgb,var(--brand) 12%,transparent);border:1px solid var(--border);color:var(--text)}
+
 /* Discipline page */
 .disc-page{display:grid;grid-template-columns:280px 1fr;gap:40px;align-items:start}
 .toc{position:sticky;top:80px;background:var(--surface);border:1px solid var(--border);

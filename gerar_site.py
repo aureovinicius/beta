@@ -1,25 +1,22 @@
 # -*- coding: utf-8 -*-
-"""Gera o site estático a partir do conteúdo programático + aprofundamentos."""
+"""Gera o site estático multi-concurso (landing + concursos + aprofundamentos)."""
 import glob
 import html
 import json
 import os
-from conteudo import DISCIPLINAS
-from conteudo_especificos import ESPECIFICOS
+from concursos import CONCURSOS, CONCURSO_POR_ID
 
-TODAS = DISCIPLINAS + ESPECIFICOS
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(BASE, "site")
-CONCURSO = "Auditor-Fiscal da Receita Estadual de Goiás"
-SUBT = "SEFAZ-GO · ANEXO II — Conteúdo Programático"
 GRUPOS = ["Conhecimentos Básicos", "Conhecimentos Específicos"]
 
-# ---- carrega aprofundamentos: (slug, ti, si) -> item ----
+# ---- carrega aprofundamentos: (concurso_id, slug, ti, si) -> item ----
 EXP = {}
-for f in glob.glob(os.path.join(BASE, "expandido", "*.json")):
-    data = json.load(open(f, encoding="utf-8"))
-    for it in data["itens"]:
-        EXP[(data["slug"], it["ti"], it["si"])] = it
+for c in CONCURSOS:
+    for f in glob.glob(os.path.join(BASE, "expandido", c["id"], "*.json")):
+        data = json.load(open(f, encoding="utf-8"))
+        for it in data["itens"]:
+            EXP[(c["id"], data["slug"], it["ti"], it["si"])] = it
 
 
 def e(s):
@@ -27,49 +24,108 @@ def e(s):
 
 
 def paras(text):
-    """Converte texto com \\n\\n em parágrafos HTML."""
     blocks = [b.strip() for b in str(text).split("\n\n") if b.strip()]
     return "".join(f"<p>{e(b)}</p>" for b in blocks)
 
 
-def head(title, css_path, depth_script):
+def get_content(cid, slug, ti, si, s):
+    """Retorna (item, origem_concurso_id|None). origem != None => reaproveitado."""
+    if "reuse" in s:
+        key = tuple(s["reuse"])
+        return EXP.get(key), key[0]
+    return EXP.get((cid, slug, ti, si)), None
+
+
+def head(title, up):
+    css = "../" * up + "assets/style.css"
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<link rel="stylesheet" href="{css_path}">
+<link rel="stylesheet" href="{css}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>"""
 
 
-def topbar(home):
+def topbar(up, sub=""):
+    home = "../" * up + "index.html"
+    subhtml = f"<small>{e(sub)}</small>" if sub else "<small>Guia de Estudos para Concursos</small>"
     return f"""
 <header class="topbar">
   <a class="brand" href="{home}">
-    <span class="brand-mark">GO</span>
-    <span class="brand-text"><strong>Guia de Estudos</strong><small>{e(CONCURSO)}</small></span>
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong>{subhtml}</span>
   </a>
   <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
 </header>"""
 
 
-def foot(script_path):
+def foot(up, rodape=""):
+    script = "../" * up + "assets/script.js"
+    txt = rodape or "Material de estudo de apoio. Confira sempre o edital oficial."
     return f"""
-<footer class="foot">
-  <p>{e(CONCURSO)} — material de estudo de apoio. Confira sempre o edital oficial.</p>
-</footer>
-<script src="{script_path}"></script>
+<footer class="foot"><p>{e(txt)}</p></footer>
+<script src="{script}"></script>
 </body></html>"""
 
 
-# =============================== HOME ===============================
-def build_index():
+def counts(c):
+    disc = len(c["disciplinas"])
+    top = sum(len(d["topicos"]) for d in c["disciplinas"])
+    sub = sum(len(t["subtopicos"]) for d in c["disciplinas"] for t in d["topicos"])
+    return disc, top, sub
+
+
+# ================================ LANDING ================================
+def build_landing():
+    cards = ""
+    for c in CONCURSOS:
+        disc, top, sub = counts(c)
+        cards += f"""
+      <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}">
+        <div class="cc-top">
+          <span class="cc-icon">{c['icone']}</span>
+          <span class="cc-orgao">{e(c['orgao'])}</span>
+        </div>
+        <h3>{e(c['nome'])}</h3>
+        <p class="cc-cargo">{e(c['cargo'])}</p>
+        <p class="cc-desc">{e(c['descricao'])}</p>
+        <div class="cc-meta">
+          <span>🏛️ {e(c['banca'])}</span><span>📅 {e(c['ano'])}</span>
+        </div>
+        <div class="cc-stats"><span><strong>{disc}</strong> disciplinas</span>
+          <span><strong>{sub}</strong> subtópicos</span></div>
+        <span class="cc-go">Estudar →</span>
+      </a>"""
+
+    doc = head("Guia de Estudos para Concursos", 0)
+    doc += topbar(0)
+    doc += f"""
+<main>
+  <section class="hero">
+    <p class="eyebrow">Plataforma de estudos</p>
+    <h1>Escolha o seu concurso</h1>
+    <p class="lead">Conteúdo programático explicado, disciplina por disciplina, com páginas de
+    aprofundamento para cada subtópico. Selecione um concurso para começar.</p>
+  </section>
+  <section class="group">
+    <h2 class="group-title">Concursos disponíveis</h2>
+    <div class="concurso-grid">{cards}</div>
+  </section>
+</main>"""
+    doc += foot(0, "Guia de Estudos para Concursos — material de apoio. Confira sempre o edital oficial.")
+    open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(doc)
+
+
+# ============================= HOME DO CONCURSO =============================
+def build_concurso_home(c):
+    cid = c["id"]
     cards_by_group = {g: [] for g in GRUPOS}
-    for d in TODAS:
+    for d in c["disciplinas"]:
         n_top = len(d["topicos"])
         n_sub = sum(len(t["subtopicos"]) for t in d["topicos"])
         card = f"""
@@ -81,49 +137,50 @@ def build_index():
           <div class="card-meta"><span>{n_top} tópicos</span><span>{n_sub} subtópicos</span></div>
         </div>
       </a>"""
-        cards_by_group[d["grupo"]].append(card)
+        cards_by_group.setdefault(d["grupo"], []).append(card)
 
     sections = ""
     for g in GRUPOS:
+        if not cards_by_group.get(g):
+            continue
         sections += f"""
     <section class="group">
       <h2 class="group-title">{e(g)}</h2>
       <div class="grid">{''.join(cards_by_group[g])}</div>
     </section>"""
 
-    total_disc = len(TODAS)
-    total_top = sum(len(d["topicos"]) for d in TODAS)
-    total_sub = sum(len(t["subtopicos"]) for d in TODAS for t in d["topicos"])
-
-    doc = head(f"Guia de Estudos — {CONCURSO}", "assets/style.css", "")
-    doc += topbar("index.html")
+    disc, top, sub = counts(c)
+    doc = head(f"{c['nome']} — Guia de Estudos", 1)
+    doc += topbar(1, c["orgao"])
     doc += f"""
 <main>
+  <nav class="crumbs"><a href="../index.html">Concursos</a> › <span>{e(c['orgao'])}</span></nav>
   <section class="hero">
-    <p class="eyebrow">{e(SUBT)}</p>
-    <h1>Guia de Estudos para o Concurso</h1>
-    <p class="lead">Explicações didáticas de todas as disciplinas e subtópicos do conteúdo programático,
-    com páginas de aprofundamento para cada assunto.</p>
+    <p class="eyebrow">{e(c['orgao'])} · {e(c['banca'])} · {e(c['ano'])}</p>
+    <h1>{e(c['nome'])}</h1>
+    <p class="lead">{e(c['descricao'])}</p>
     <div class="stats">
-      <div class="stat"><strong>{total_disc}</strong><span>disciplinas</span></div>
-      <div class="stat"><strong>{total_top}</strong><span>tópicos</span></div>
-      <div class="stat"><strong>{total_sub}</strong><span>subtópicos</span></div>
+      <div class="stat"><strong>{disc}</strong><span>disciplinas</span></div>
+      <div class="stat"><strong>{top}</strong><span>tópicos</span></div>
+      <div class="stat"><strong>{sub}</strong><span>subtópicos</span></div>
     </div>
     <div class="search-wrap">
-      <input id="search" type="search" placeholder="🔎 Buscar disciplina (ex.: ICMS, auditoria, lógica)…" autocomplete="off">
+      <input id="search" type="search" placeholder="🔎 Buscar disciplina…" autocomplete="off">
     </div>
   </section>
   {sections}
   <p id="no-results" class="no-results" hidden>Nenhuma disciplina encontrada.</p>
 </main>"""
-    doc += foot("assets/script.js")
-    open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(doc)
+    doc += foot(1, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
+    open(os.path.join(SITE, cid, "index.html"), "w", encoding="utf-8").write(doc)
 
 
-# =========================== PÁGINA DISCIPLINA ===========================
-def build_disciplina(d, idx):
-    prev_d = TODAS[idx - 1] if idx > 0 else None
-    next_d = TODAS[idx + 1] if idx < len(TODAS) - 1 else None
+# ============================= PÁGINA DISCIPLINA =============================
+def build_disciplina(c, d, idx):
+    cid = c["id"]
+    discs = c["disciplinas"]
+    prev_d = discs[idx - 1] if idx > 0 else None
+    next_d = discs[idx + 1] if idx < len(discs) - 1 else None
     toc_items = "".join(
         f'<li><a href="#t{i}">{e(t["titulo"])}</a></li>' for i, t in enumerate(d["topicos"])
     )
@@ -132,10 +189,12 @@ def build_disciplina(d, idx):
     for ti, t in enumerate(d["topicos"]):
         subs = ""
         for si, s in enumerate(t["subtopicos"]):
+            item, origem = get_content(cid, d["slug"], ti, si, s)
             vermais = ""
-            if (d["slug"], ti, si) in EXP:
+            if item:
                 href = f"../ampliado/{d['slug']}/t{ti}-s{si}.html"
-                vermais = f'<a class="vermais" href="{href}">Ver mais <span>→</span></a>'
+                tag = '<span class="tag-reuse" title="Conteúdo compartilhado entre concursos">♻</span>' if origem else ""
+                vermais = f'<a class="vermais" href="{href}">Ver mais <span>→</span></a>{tag}'
             subs += f"""
         <div class="sub">
           <h4>{e(s['titulo'])}</h4>
@@ -152,11 +211,13 @@ def build_disciplina(d, idx):
     nav_prev = f'<a class="pager prev" href="{prev_d["slug"]}.html">← {e(prev_d["titulo"])}</a>' if prev_d else "<span></span>"
     nav_next = f'<a class="pager next" href="{next_d["slug"]}.html">{e(next_d["titulo"])} →</a>' if next_d else "<span></span>"
 
-    doc = head(f"{d['titulo']} — Guia de Estudos", "../assets/style.css", "")
-    doc += topbar("../index.html")
+    doc = head(f"{d['titulo']} — {c['orgao']}", 2)
+    doc += topbar(2, c["orgao"])
     doc += f"""
 <main class="disc-page">
   <aside class="toc">
+    <nav class="crumbs"><a href="../../index.html">Concursos</a> ›
+      <a href="../index.html">{e(c['orgao'])}</a></nav>
     <p class="toc-label">{e(d['grupo'])}</p>
     <h1 class="toc-title">{d['icone']} {e(d['titulo'])}</h1>
     <nav><ul>{toc_items}</ul></nav>
@@ -168,35 +229,30 @@ def build_disciplina(d, idx):
     <div class="pager-row">{nav_prev}{nav_next}</div>
   </div>
 </main>"""
-    doc += foot("../assets/script.js")
-    open(os.path.join(SITE, "disciplinas", f"{d['slug']}.html"), "w", encoding="utf-8").write(doc)
+    doc += foot(2, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
+    open(os.path.join(SITE, cid, "disciplinas", f"{d['slug']}.html"), "w", encoding="utf-8").write(doc)
 
 
-# ======================= PÁGINA DE APROFUNDAMENTO =======================
-def build_ampliado(d):
-    # ordem linear dos subtópicos da disciplina
+# ========================= PÁGINA DE APROFUNDAMENTO =========================
+def build_ampliado(c, d):
+    cid = c["id"]
     ordem = []
     for ti, t in enumerate(d["topicos"]):
         for si, s in enumerate(t["subtopicos"]):
-            if (d["slug"], ti, si) in EXP:
-                ordem.append((ti, si, t["titulo"], s["titulo"]))
+            item, origem = get_content(cid, d["slug"], ti, si, s)
+            if item:
+                ordem.append((ti, si, t["titulo"], s["titulo"], item, origem))
 
-    out_dir = os.path.join(SITE, "ampliado", d["slug"])
+    out_dir = os.path.join(SITE, cid, "ampliado", d["slug"])
     os.makedirs(out_dir, exist_ok=True)
 
-    for pos, (ti, si, top_titulo, sub_titulo) in enumerate(ordem):
-        it = EXP[(d["slug"], ti, si)]
-
+    for pos, (ti, si, top_titulo, sub_titulo, it, origem) in enumerate(ordem):
         secoes_html = "".join(
-            f"""
-        <section class="amp-sec">
-          <h2>{e(sec['h'])}</h2>
-          {paras(sec['p'])}
-        </section>""" for sec in it["secoes"]
+            f'<section class="amp-sec"><h2>{e(sec["h"])}</h2>{paras(sec["p"])}</section>'
+            for sec in it["secoes"]
         )
         chave_html = "".join(f"<li>{e(p)}</li>" for p in it["pontos_chave"])
 
-        prev_l = next_l = ""
         if pos > 0:
             p = ordem[pos - 1]
             prev_l = f'<a class="pager prev" href="t{p[0]}-s{p[1]}.html">← {e(p[3])}</a>'
@@ -208,57 +264,59 @@ def build_ampliado(d):
         else:
             next_l = "<span></span>"
 
-        doc = head(f"{sub_titulo} — {d['titulo']}", "../../assets/style.css", "")
-        doc += topbar("../../index.html")
+        banner = ""
+        if origem and origem in CONCURSO_POR_ID:
+            on = CONCURSO_POR_ID[origem]["nome"]
+            banner = (f'<div class="reuse-banner">♻ Conteúdo compartilhado com o concurso '
+                      f'<strong>{e(on)}</strong> — mesmo assunto cobrado em ambos.</div>')
+
+        doc = head(f"{sub_titulo} — {c['orgao']}", 3)
+        doc += topbar(3, c["orgao"])
         doc += f"""
 <main class="amp-page">
   <nav class="crumbs">
-    <a href="../../index.html">Início</a> ›
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">{e(c['orgao'])}</a> ›
     <a href="../../disciplinas/{d['slug']}.html">{d['icone']} {e(d['titulo'])}</a> ›
     <span>{e(sub_titulo)}</span>
   </nav>
   <header class="amp-head">
     <p class="amp-eyebrow">{e(top_titulo)}</p>
     <h1>{e(sub_titulo)}</h1>
+    {banner}
     {paras(it['intro'])}
   </header>
-
   <div class="amp-grid">
     <article class="amp-body">
       {secoes_html}
-      <section class="amp-exemplo">
-        <h2>💡 Exemplo aplicado</h2>
-        {paras(it['exemplo'])}
-      </section>
-      <section class="amp-dica">
-        <h2>🎯 Na prova</h2>
-        {paras(it['dica_prova'])}
-      </section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2>{paras(it['exemplo'])}</section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2>{paras(it['dica_prova'])}</section>
       <div class="pager-row">{prev_l}{next_l}</div>
     </article>
     <aside class="amp-aside">
-      <div class="amp-card">
-        <h3>Pontos-chave</h3>
-        <ul class="amp-chave">{chave_html}</ul>
-      </div>
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave">{chave_html}</ul></div>
       <a class="back" href="../../disciplinas/{d['slug']}.html">↩ Voltar à disciplina</a>
     </aside>
   </div>
 </main>"""
-        doc += foot("../../assets/script.js")
+        doc += foot(3, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
         open(os.path.join(out_dir, f"t{ti}-s{si}.html"), "w", encoding="utf-8").write(doc)
     return len(ordem)
 
 
 def main():
-    os.makedirs(os.path.join(SITE, "disciplinas"), exist_ok=True)
-    os.makedirs(os.path.join(SITE, "assets"), exist_ok=True)
-    build_index()
+    os.makedirs(SITE, exist_ok=True)
+    build_landing()
     n_amp = 0
-    for i, d in enumerate(TODAS):
-        build_disciplina(d, i)
-        n_amp += build_ampliado(d)
-    print(f"Gerado: index + {len(TODAS)} disciplinas + {n_amp} páginas de aprofundamento")
+    for c in CONCURSOS:
+        cid = c["id"]
+        os.makedirs(os.path.join(SITE, cid, "disciplinas"), exist_ok=True)
+        os.makedirs(os.path.join(SITE, cid, "ampliado"), exist_ok=True)
+        build_concurso_home(c)
+        for i, d in enumerate(c["disciplinas"]):
+            build_disciplina(c, d, i)
+            n_amp += build_ampliado(c, d)
+    print(f"Gerado: landing + {len(CONCURSOS)} concursos + {n_amp} páginas de aprofundamento")
 
 
 if __name__ == "__main__":

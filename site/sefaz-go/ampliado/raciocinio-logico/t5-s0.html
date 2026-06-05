@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juros simples e compostos — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/raciocinio-logico.html">📊 Raciocínio Lógico, Matemática Financeira e Estatística</a> ›
+    <span>Juros simples e compostos</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Matemática Financeira</p>
+    <h1>Juros simples e compostos</h1>
+    
+    <p>A matemática financeira estuda a variação do valor do dinheiro no tempo. Quando um capital (C ou PV) é aplicado a uma taxa de juros (i) durante um tempo (t), gera juros (J) e resulta em um montante (M ou FV = C + J). A diferença essencial entre os dois regimes está em sobre o que os juros incidem: no regime simples, sempre sobre o capital inicial; no regime composto, sobre o montante acumulado (juros sobre juros).</p><p>Esse é o tópico mais importante de matemática financeira para concursos fiscais, base para descontos, equivalência de capitais e amortização. A atenção à compatibilidade entre a unidade da taxa e a unidade do tempo é decisiva.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Juros simples (crescimento linear)</h2><p>Os juros incidem sempre sobre o capital inicial. Fórmula dos juros: J = C·i·t. Montante: M = C·(1 + i·t). O crescimento é linear, como uma PA: a cada período acrescenta-se a mesma quantia de juros (C·i).</p><p>A taxa i deve estar na forma decimal (10% = 0,10) e na mesma unidade de tempo de t. Ex.: taxa ao mês exige tempo em meses.</p></section><section class="amp-sec"><h2>Juros compostos (crescimento exponencial)</h2><p>Os juros de cada período incorporam-se ao capital e passam a render juros (capitalização). Montante: M = C·(1 + i)^t. Juros: J = M − C. O crescimento é exponencial, como uma PG de razão (1 + i).</p><p>Para achar o tempo t, isola-se (1+i)^t e aplicam-se logaritmos. Para achar a taxa, extrai-se a raiz de ordem t. O regime composto é o efetivamente usado no mercado financeiro brasileiro.</p></section><section class="amp-sec"><h2>Comparação entre os regimes</h2><p>Para t = 1 (um período), simples e composto dão o MESMO montante. Para t &lt; 1 (fração de período), o juro SIMPLES rende mais. Para t &gt; 1 (mais de um período), o juro COMPOSTO rende mais, e a diferença cresce com o tempo.</p><p>Essa relação é cobrada em questões conceituais. A representação gráfica: simples é uma reta; composto é uma curva exponencial que, após o primeiro período, fica acima da reta.</p></section><section class="amp-sec"><h2>Compatibilizando taxa e tempo</h2><p>A taxa e o prazo devem estar na mesma unidade. Se a taxa é 12% ao ano e o prazo é 6 meses, em juros simples converte-se proporcionalmente (12%/ano = 1%/mês → 6 meses = 6%). Em juros compostos, a conversão entre taxas equivalentes NÃO é proporcional: usa-se (1 + i_ano) = (1 + i_mês)^12.</p><p>Ignorar a conversão é a principal fonte de erro. Em prova, primeiro alinhe as unidades, depois aplique a fórmula.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Um capital de R$ 1.000,00 é aplicado a 10% ao mês durante 3 meses. Compare os montantes nos dois regimes.</p><p>Juros simples: M = 1000·(1 + 0,10·3) = 1000·1,30 = R$ 1.300,00 (juros de R$ 300).</p><p>Juros compostos: M = 1000·(1,10)^3 = 1000·1,331 = R$ 1.331,00 (juros de R$ 331).</p><p>A diferença de R$ 31,00 corresponde aos &#x27;juros sobre juros&#x27;: no 2º mês incidem juros sobre os R$ 100 do 1º mês, e no 3º mês sobre os juros acumulados. Como t = 3 &gt; 1, o regime composto rende mais, confirmando a regra de comparação.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Antes de calcular, verifique se a unidade da taxa bate com a do tempo — esse é o erro nº 1. Em juros compostos, não converta taxa anual para mensal dividindo por 12 (isso é taxa proporcional, válida só no regime simples); use a raiz. Lembre-se da regra de comparação (composto &gt; simples para t&gt;1), pois ela aparece em questões teóricas sem cálculo. E não confunda &#x27;taxa de juros&#x27; com &#x27;juros&#x27; (valor em reais).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Regras fundamentais</a><a class="pager next" href="t5-s1.html">Descontos →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Juros simples: J = C·i·t; M = C·(1 + i·t) — crescimento linear (PA).</li><li>Juros compostos: M = C·(1 + i)^t — crescimento exponencial (PG).</li><li>Taxa sempre em decimal e na mesma unidade do tempo.</li><li>Para t = 1, os dois regimes coincidem.</li><li>Para t &gt; 1, composto rende mais; para t &lt; 1, simples rende mais.</li><li>Taxas equivalentes em juros compostos NÃO são proporcionais.</li><li>Montante = Capital + Juros (M = C + J).</li></ul></div>
+      <a class="back" href="../../disciplinas/raciocinio-logico.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

@@ -1,0 +1,229 @@
+{
+  "slug": "inteligencia-artificial",
+  "itens": [
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Arquiteturas e frameworks",
+      "intro": "Redes neurais artificiais são modelos computacionais inspirados (de forma simplificada) no funcionamento de neurônios biológicos. A unidade básica é o neurônio (perceptron), que calcula uma soma ponderada das entradas (pesos + viés/bias) e aplica uma função de ativação não linear, como ReLU, sigmoide ou tanh. O empilhamento de várias camadas de neurônios dá origem às redes profundas (deep learning), em que cada camada aprende representações cada vez mais abstratas dos dados.\n\nA escolha da arquitetura depende do tipo de dado e da tarefa. As redes densas (totalmente conectadas, MLP) servem para dados tabulares; as CNN dominam visão computacional; as RNN/LSTM/GRU tratam sequências; e os transformers, baseados em atenção, tornaram-se o padrão para linguagem natural e, cada vez mais, para outras modalidades. Frameworks como TensorFlow e PyTorch fornecem a infraestrutura para construir, treinar e implantar essas redes com aceleração por GPU/TPU.",
+      "secoes": [
+        {
+          "h": "Redes densas (MLP) e a função de ativação",
+          "p": "A rede neural multicamadas (Multilayer Perceptron - MLP) é totalmente conectada: cada neurônio de uma camada liga-se a todos os neurônios da camada seguinte. É adequada para dados tabulares e tarefas de classificação/regressão simples.\n\nO que dá poder expressivo à rede é a função de ativação não linear. Sem ela, a composição de várias camadas lineares colapsaria em uma única transformação linear, incapaz de modelar relações complexas. A ReLU (Rectified Linear Unit, f(x)=max(0,x)) é a ativação mais usada em camadas ocultas por mitigar o problema do gradiente que desaparece (vanishing gradient). Softmax é típica da camada de saída em classificação multiclasse, pois produz uma distribuição de probabilidade."
+        },
+        {
+          "h": "CNN (Redes Convolucionais)",
+          "p": "As Convolutional Neural Networks são especializadas em dados com estrutura espacial, sobretudo imagens. Em vez de conexões totais, usam filtros (kernels) que percorrem a imagem aplicando convoluções, explorando localidade e compartilhamento de pesos. Isso reduz drasticamente o número de parâmetros e captura padrões invariantes à translação (bordas, texturas, formas).\n\nCamadas de pooling (ex.: max pooling) reduzem a dimensionalidade e dão robustez a pequenas variações. Arquiteturas clássicas incluem LeNet, AlexNet, VGG, ResNet (com conexões residuais/skip connections que permitem treinar redes muito profundas) e Inception. Aplicações: classificação de imagens, detecção de objetos e segmentação."
+        },
+        {
+          "h": "RNN, LSTM e GRU (sequências)",
+          "p": "As Recurrent Neural Networks processam dados sequenciais (texto, séries temporais, áudio) mantendo um estado interno (memória) que é atualizado a cada passo de tempo. A limitação clássica das RNN simples é a dificuldade de aprender dependências de longo prazo, devido ao desaparecimento/explosão do gradiente.\n\nPara contornar isso surgiram a LSTM (Long Short-Term Memory) e a GRU (Gated Recurrent Unit), que usam mecanismos de portões (gates) para controlar o que é lembrado, esquecido e propagado. Por muito tempo foram o estado da arte em PLN, até serem amplamente superadas pelos transformers."
+        },
+        {
+          "h": "Transformers e o mecanismo de atenção",
+          "p": "Introduzidos no artigo Attention Is All You Need (2017), os transformers abandonam a recorrência e baseiam-se no mecanismo de self-attention, que pondera a relevância de cada elemento da sequência em relação aos demais, capturando dependências de longo alcance e permitindo paralelização massiva no treinamento.\n\nA arquitetura original tem blocos encoder e decoder. Modelos como BERT usam apenas o encoder (compreensão bidirecional); GPT usa apenas o decoder (geração autorregressiva). Os transformers são a base dos grandes modelos de linguagem (LLMs) e também já se aplicam a visão (Vision Transformers - ViT) e multimodalidade."
+        },
+        {
+          "h": "TensorFlow e PyTorch",
+          "p": "TensorFlow (Google) e PyTorch (Meta) são os dois principais frameworks de deep learning. PyTorch popularizou o grafo de computação dinâmico (define-by-run), mais intuitivo para depuração e pesquisa; tornou-se dominante na academia. TensorFlow consolidou-se em produção, com o ecossistema Keras (API de alto nível), TensorFlow Serving, TensorFlow Lite (mobile/edge) e TFX para pipelines.\n\nAmbos oferecem diferenciação automática (autograd), aceleração por GPU/TPU e suporte a treinamento distribuído. A diferenciação automática é o que viabiliza o cálculo eficiente dos gradientes usados no backpropagation."
+        }
+      ],
+      "exemplo": "Em uma auditoria sobre um sistema de reconhecimento de documentos do TCU, o auditor verifica a arquitetura do modelo: tratando-se de classificação de imagens digitalizadas, esperar-se-ia uma CNN (ou um Vision Transformer), e não uma RNN. Item de prova (Cebraspe), estilo certo/errado: 'Redes neurais convolucionais (CNN) empregam compartilhamento de pesos e operações de convolução, sendo especialmente adequadas ao processamento de dados com estrutura espacial, como imagens.' Afirmativa CERTA.",
+      "pontos_chave": [
+        "A função de ativação não linear (ReLU, sigmoide, tanh) é o que confere poder expressivo às redes profundas; sem ela, várias camadas colapsam em uma transformação linear.",
+        "CNN para dados espaciais (imagens), com convolução, filtros e pooling; ResNet usa conexões residuais.",
+        "RNN/LSTM/GRU para sequências; LSTM e GRU usam portões para mitigar o desaparecimento de gradiente.",
+        "Transformers baseiam-se em self-attention, dispensam recorrência e são a base dos LLMs.",
+        "BERT usa só encoder (compreensão); GPT usa só decoder (geração autorregressiva).",
+        "PyTorch (grafo dinâmico, pesquisa) e TensorFlow/Keras (produção, edge) são os frameworks dominantes."
+      ],
+      "dica_prova": "Cebraspe costuma trocar a aplicação típica de cada arquitetura (ex.: afirmar que RNN é a melhor opção para imagens, ou que CNN é própria para séries temporais) - isso torna o item ERRADO. Memorize: CNN=imagens, RNN/LSTM=sequências, Transformer=linguagem e atenção. Outra pegadinha: associar self-attention às RNN; a atenção é justamente o que dispensa a recorrência nos transformers."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Treinamento e aplicações",
+      "intro": "Treinar uma rede neural significa ajustar seus pesos para minimizar uma função de perda (loss), que mede o erro entre as previsões e os valores esperados. O algoritmo central é o backpropagation (retropropagação do erro), que calcula os gradientes da perda em relação a cada peso usando a regra da cadeia, propagando o erro da saída para as camadas iniciais. Esses gradientes alimentam um otimizador (gradiente descendente e variantes) que atualiza os pesos iterativamente.\n\nO grande desafio do treinamento é a generalização: o modelo deve aprender padrões úteis e não decorar os dados de treino. O equilíbrio entre underfitting (modelo simples demais) e overfitting (modelo que decora ruído) é gerenciado por técnicas de regularização e por uma metodologia rigorosa de divisão de dados em treino, validação e teste."
+,
+      "secoes": [
+        {
+          "h": "Backpropagation e gradiente descendente",
+          "p": "O backpropagation aplica a regra da cadeia do cálculo para obter, de forma eficiente, o gradiente da função de perda em relação a todos os pesos da rede. O otimizador então atualiza os pesos no sentido oposto ao gradiente (gradiente descendente), reduzindo o erro.\n\nVariantes importantes: o gradiente descendente estocástico (SGD) usa um exemplo por vez; o mini-batch processa pequenos lotes (o mais comum). A taxa de aprendizado (learning rate) controla o tamanho do passo: alta demais diverge, baixa demais converge lentamente. Otimizadores adaptativos como Adam, RMSProp e Adagrad ajustam a taxa por parâmetro e aceleram a convergência. Uma época (epoch) corresponde a uma passagem completa por todo o conjunto de treino."
+        },
+        {
+          "h": "Overfitting, underfitting e o dilema viés-variância",
+          "p": "O underfitting ocorre quando o modelo é simples demais e não captura os padrões dos dados (alto viés/bias). O overfitting ocorre quando o modelo se ajusta demais ao treino, incluindo ruído, e generaliza mal para dados novos (alta variância).\n\nO sintoma clássico de overfitting é uma perda de treino baixa, mas uma perda de validação/teste alta - a divergência entre as duas curvas. O objetivo é o ponto de equilíbrio no trade-off viés-variância, em que o erro de generalização é mínimo."
+        },
+        {
+          "h": "Técnicas de regularização",
+          "p": "Regularização engloba métodos para reduzir o overfitting. A regularização L1 (Lasso) e L2 (Ridge/weight decay) penalizam pesos grandes na função de perda; a L1 também induz esparsidade (zera pesos). O dropout desativa aleatoriamente neurônios durante o treino, forçando redundância e robustez.\n\nOutras técnicas: early stopping (interromper o treino quando a validação para de melhorar), data augmentation (gerar variações dos dados de treino, ex.: rotacionar imagens), batch normalization (estabiliza e acelera o treino) e a obtenção de mais dados. A validação cruzada (k-fold) é uma metodologia robusta para estimar a capacidade de generalização."
+        },
+        {
+          "h": "Divisão de dados e transfer learning",
+          "p": "Para avaliar honestamente um modelo, divide-se os dados em treino (ajuste dos pesos), validação (ajuste de hiperparâmetros e seleção de modelo) e teste (estimativa final, intocada durante o desenvolvimento). Vazamento de dados (data leakage) entre esses conjuntos infla artificialmente as métricas.\n\nO transfer learning reaproveita um modelo pré-treinado em grande volume de dados (ex.: uma CNN treinada na ImageNet) e o ajusta (fine-tuning) para uma tarefa específica com poucos dados. É essencial quando há escassez de dados rotulados, situação comum no setor público."
+        },
+        {
+          "h": "Aplicações práticas",
+          "p": "Deep learning sustenta visão computacional (reconhecimento facial, OCR, detecção de objetos), processamento de linguagem (tradução, sumarização, chatbots), reconhecimento de voz, sistemas de recomendação, detecção de fraudes e anomalias e manutenção preditiva.\n\nNo controle externo, há aplicações em mineração de dados de contratos para detectar indícios de fraude, classificação automática de processos, análise de notas fiscais e cruzamento de bases para identificar irregularidades."
+        }
+      ],
+      "exemplo": "Durante uma auditoria de um modelo preditivo de risco de irregularidade em licitações, o auditor observa acurácia de 99% no treino, mas apenas 62% em dados reais novos. Trata-se de um caso clássico de overfitting: o modelo decorou o conjunto de treino. Recomendações: aplicar regularização (dropout, L2), early stopping, mais dados e validação cruzada. Item Cebraspe: 'O dropout é uma técnica de regularização que, durante o treinamento, desativa aleatoriamente parte dos neurônios, reduzindo o overfitting.' Afirmativa CERTA."
+,
+      "pontos_chave": [
+        "Backpropagation usa a regra da cadeia para calcular gradientes; o otimizador (SGD, Adam) atualiza os pesos.",
+        "Overfitting = boa no treino, ruim em dados novos (alta variância); underfitting = ruim em ambos (alto viés).",
+        "Regularização: L1/L2, dropout, early stopping, data augmentation, batch normalization.",
+        "Dados divididos em treino, validação e teste; o teste só é usado na avaliação final.",
+        "Taxa de aprendizado controla o tamanho do passo; alta demais diverge, baixa demais é lenta.",
+        "Transfer learning reaproveita modelos pré-treinados (fine-tuning) quando há poucos dados."
+      ],
+      "dica_prova": "Pegadinha clássica: confundir os sintomas de overfitting e underfitting. Overfitting é alto desempenho no treino com baixo desempenho na validação/teste. Outra: afirmar que dropout é usado também na inferência - ele atua apenas durante o treinamento. Cebraspe também explora a finalidade do conjunto de teste: ele NÃO deve ser usado para ajustar hiperparâmetros (isso é papel da validação)."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Processamento de linguagem natural e agentes",
+      "intro": "O Processamento de Linguagem Natural (PLN, ou NLP) é o campo da IA dedicado a fazer máquinas compreenderem, interpretarem e gerarem linguagem humana. Envolve desde tarefas básicas de pré-processamento textual até modelos de linguagem sofisticados. As aplicações incluem tradução automática, análise de sentimento, reconhecimento de entidades nomeadas, classificação de textos, resposta a perguntas e chatbots.\n\nAgentes inteligentes, por sua vez, são entidades que percebem o ambiente por meio de sensores e atuam sobre ele por meio de atuadores, buscando atingir objetivos. Quando vários agentes interagem - cooperando ou competindo - em um ambiente compartilhado, temos um sistema multiagente. Modernamente, LLMs são usados como núcleo de raciocínio de agentes capazes de planejar, usar ferramentas e executar tarefas de forma autônoma."
+,
+      "secoes": [
+        {
+          "h": "Pré-processamento e representação de texto",
+          "p": "Antes de modelar, o texto passa por etapas como tokenização (dividir em palavras/subpalavras), normalização (minúsculas), remoção de stopwords (palavras muito frequentes e pouco informativas), stemming (truncar ao radical) e lematização (reduzir à forma canônica do dicionário).\n\nPara que algoritmos processem texto, é preciso representá-lo numericamente. Abordagens tradicionais: Bag of Words e TF-IDF (que pesa termos por frequência e raridade). Abordagens modernas usam embeddings - vetores densos que capturam semântica (Word2Vec, GloVe, FastText) - em que palavras de significado próximo ficam próximas no espaço vetorial. Embeddings contextuais (BERT) atribuem vetores diferentes conforme o contexto da frase."
+        },
+        {
+          "h": "Modelos de linguagem",
+          "p": "Um modelo de linguagem estima a probabilidade de sequências de palavras, prevendo o próximo token. Modelos estatísticos clássicos usavam n-gramas. Modelos neurais (RNN/LSTM e, principalmente, transformers) capturam contexto muito mais rico.\n\nModelos pré-treinados como BERT (compreensão, bidirecional) e a família GPT (geração) revolucionaram o PLN ao serem treinados em grandes corpora e depois ajustados para tarefas específicas. São a base da IA generativa textual."
+        },
+        {
+          "h": "Agentes inteligentes",
+          "p": "Na definição clássica (Russell e Norvig), um agente racional percebe o ambiente e age para maximizar seu desempenho em direção a um objetivo. Os ambientes classificam-se em totalmente/parcialmente observáveis, determinísticos/estocásticos, estáticos/dinâmicos, discretos/contínuos e de agente único/múltiplos agentes.\n\nTipos de agentes: reativos simples (reagem à percepção atual), baseados em modelo (mantêm estado interno), baseados em objetivos, baseados em utilidade (maximizam uma função de utilidade) e agentes que aprendem. Agentes baseados em LLM acoplam raciocínio (ex.: padrões como ReAct), memória e uso de ferramentas externas (APIs, busca, código) para executar tarefas complexas de forma autônoma."
+        },
+        {
+          "h": "Sistemas multiagentes",
+          "p": "Um sistema multiagente (SMA) é composto por vários agentes autônomos que interagem em um ambiente comum. Eles podem cooperar (dividir tarefas, negociar, coordenar) ou competir. São úteis para problemas distribuídos, descentralizados ou que se beneficiam de especialização.\n\nQuestões centrais em SMA incluem comunicação (protocolos e linguagens de comunicação entre agentes), coordenação, negociação e resolução de conflitos. Aplicações modernas incluem orquestração de múltiplos agentes de LLM, cada um com um papel especializado (ex.: um planeja, outro executa, outro revisa), e simulações de mercados, logística e tráfego."
+        }
+      ],
+      "exemplo": "O TCU pode empregar PLN para classificar automaticamente milhares de processos por assunto e analisar o sentimento/teor de manifestações de ouvidoria. Pipeline típico: tokenização, remoção de stopwords, vetorização por TF-IDF ou embeddings, e classificação. Item Cebraspe: 'No pré-processamento textual, a lematização reduz uma palavra à sua forma canônica (lema), considerando o contexto morfológico, diferentemente do stemming, que apenas trunca a palavra ao seu radical.' Afirmativa CERTA."
+,
+      "pontos_chave": [
+        "Pré-processamento: tokenização, remoção de stopwords, stemming (trunca radical) e lematização (forma canônica).",
+        "Representação: Bag of Words e TF-IDF (tradicionais); embeddings/Word2Vec e BERT (semânticos/contextuais).",
+        "Modelo de linguagem prevê o próximo token; transformers superaram n-gramas e RNN.",
+        "Agente racional percebe e age para maximizar desempenho; tipos: reativo, baseado em modelo, em objetivos, em utilidade e que aprende.",
+        "Sistema multiagente: vários agentes autônomos cooperando ou competindo em ambiente comum.",
+        "Agentes de LLM combinam raciocínio, memória e uso de ferramentas (ex.: padrão ReAct)."
+      ],
+      "dica_prova": "Cebraspe explora a diferença entre stemming (corte mecânico do radical, pode gerar não-palavras) e lematização (forma de dicionário, mais sofisticada). Outra pegadinha: afirmar que TF-IDF captura semântica/significado das palavras - não captura; quem captura proximidade semântica são os embeddings. Sobre agentes, lembre da classificação de ambientes (observável, determinístico, estático, etc.) e dos tipos de agentes de Russell e Norvig."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "IA generativa",
+      "intro": "A IA generativa é a categoria de modelos capazes de criar conteúdo novo - texto, imagens, áudio, vídeo, código - a partir de padrões aprendidos em grandes volumes de dados, em vez de apenas classificar ou prever rótulos. Difere da IA discriminativa, que aprende fronteiras de decisão entre classes; a generativa aprende a distribuição dos dados para gerar amostras plausíveis.\n\nNo domínio textual, os protagonistas são os Grandes Modelos de Linguagem (LLMs), baseados em arquitetura transformer e treinados de forma autorregressiva (prevendo o próximo token). Outras famílias incluem GANs e modelos de difusão (geração de imagens). O uso eficaz desses modelos depende fortemente de engenharia de prompt e de técnicas para reduzir limitações como alucinações e desatualização do conhecimento."
+,
+      "secoes": [
+        {
+          "h": "LLMs: como funcionam",
+          "p": "Os Large Language Models são redes transformer com bilhões de parâmetros, treinadas em corpora massivos para prever o próximo token de uma sequência (treinamento autorregressivo). Esse pré-treinamento é seguido de ajustes como o fine-tuning supervisionado e o RLHF (aprendizado por reforço com feedback humano), que alinham o modelo a instruções e preferências humanas.\n\nDois conceitos centrais: a janela de contexto (quantidade de tokens que o modelo processa de uma vez) e os parâmetros de geração, como a temperatura (controla a aleatoriedade: baixa = respostas mais determinísticas; alta = mais criativas/diversas). Exemplos de LLMs: GPT, Claude, Gemini, Llama."
+        },
+        {
+          "h": "Outros modelos generativos: GANs e difusão",
+          "p": "As GANs (Generative Adversarial Networks) treinam dois modelos em competição: um gerador, que cria amostras falsas, e um discriminador, que tenta distinguir falsas de reais. O equilíbrio desse jogo produz amostras cada vez mais realistas. São usadas em geração de imagens e deepfakes.\n\nOs modelos de difusão (ex.: Stable Diffusion, DALL-E) geram imagens partindo de ruído puro e removendo-o gradualmente, condicionados por texto. Tornaram-se o estado da arte em geração de imagens de alta qualidade."
+        },
+        {
+          "h": "Engenharia de prompt e RAG",
+          "p": "A engenharia de prompt é a prática de formular instruções para obter as melhores saídas de um LLM. Técnicas: zero-shot (sem exemplos), few-shot (com exemplos no prompt) e chain-of-thought (induzir raciocínio passo a passo). A qualidade do prompt afeta diretamente a qualidade da resposta.\n\nO RAG (Retrieval-Augmented Generation) combina o LLM com uma base de conhecimento externa: a consulta recupera documentos relevantes (geralmente via busca vetorial em embeddings) e os injeta no contexto, fundamentando a resposta. Isso reduz alucinações e contorna a desatualização do conhecimento do modelo, sendo essencial para usar IA generativa com bases institucionais confiáveis."
+        },
+        {
+          "h": "Limitações e riscos",
+          "p": "LLMs alucinam: geram afirmações plausíveis, mas falsas, com tom de confiança - risco grave em contextos jurídicos e de auditoria. Têm conhecimento limitado à data de corte do treinamento (knowledge cutoff), não citam fontes nativamente e podem reproduzir vieses dos dados de treino.\n\nRiscos adicionais: vazamento de dados sensíveis inseridos nos prompts, geração de conteúdo enganoso (deepfakes, desinformação), violação de propriedade intelectual e dependência acrítica. Por isso, saídas de IA generativa em ambiente de controle exigem supervisão e verificação humana (human in the loop)."
+        }
+      ],
+      "exemplo": "Um auditor usa um assistente de IA com RAG sobre a base de acórdãos do TCU para localizar jurisprudência aplicável. Sem RAG, o LLM poderia alucinar números de acórdãos inexistentes; com RAG, ele fundamenta a resposta em documentos reais recuperados. Item Cebraspe: 'A técnica de Retrieval-Augmented Generation (RAG) reduz alucinações de modelos de linguagem ao recuperar e fornecer ao modelo, no momento da inferência, documentos relevantes de uma base de conhecimento externa.' Afirmativa CERTA."
+,
+      "pontos_chave": [
+        "IA generativa cria conteúdo novo; difere da discriminativa, que apenas separa classes.",
+        "LLMs são transformers autorregressivos; RLHF alinha o modelo a instruções humanas.",
+        "Temperatura controla a aleatoriedade da geração; janela de contexto limita os tokens processados.",
+        "GANs (gerador vs. discriminador) e difusão (remoção de ruído) geram imagens.",
+        "Engenharia de prompt: zero-shot, few-shot, chain-of-thought.",
+        "RAG fundamenta respostas em base externa, reduzindo alucinações e desatualização.",
+        "Alucinação, viés, data de corte e vazamento de dados são limitações que exigem supervisão humana."
+      ],
+      "dica_prova": "Cebraspe gosta de cobrar a distinção entre IA generativa e discriminativa, e a definição de alucinação (resposta plausível porém falsa). Pegadinha frequente: afirmar que o fine-tuning é a forma de dar ao modelo conhecimento atualizado/factual em tempo real - na prática, o RAG é a abordagem indicada para conhecimento atualizado e fundamentado em fontes. Lembre também que LLMs não possuem entendimento ou consciência: apenas modelam probabilidades de tokens."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "MLOps e deploy de modelos",
+      "intro": "MLOps (Machine Learning Operations) é a disciplina que aplica os princípios de DevOps ao ciclo de vida de modelos de machine learning, integrando desenvolvimento, operação e monitoramento de forma contínua. O objetivo é levar modelos do experimento para a produção de maneira confiável, reproduzível, escalável e auditável - e mantê-los úteis ao longo do tempo.\n\nDiferentemente do software tradicional, sistemas de ML têm três artefatos que evoluem: código, dados e modelo. Isso traz desafios próprios, como versionamento de dados e modelos, reprodutibilidade de experimentos, monitoramento de degradação por mudança nos dados (drift) e necessidade de retreinamento. MLOps organiza esse fluxo por meio de pipelines automatizados e práticas de CI/CD/CT (integração, entrega e treinamento contínuos)."
+,
+      "secoes": [
+        {
+          "h": "Ciclo de vida de um modelo",
+          "p": "O ciclo típico abrange: definição do problema e dos dados; coleta e preparação (feature engineering); experimentação e treinamento; avaliação; implantação (deploy); monitoramento; e retreinamento. É iterativo e contínuo, não linear.\n\nMLOps automatiza esse ciclo com pipelines reproduzíveis, garantindo que cada etapa - da ingestão de dados ao deploy - possa ser executada de forma consistente e rastreável. Ferramentas comuns: MLflow (rastreamento de experimentos e registro de modelos), Kubeflow, Airflow, DVC (versionamento de dados) e TFX."
+        },
+        {
+          "h": "Versionamento e reprodutibilidade",
+          "p": "Em ML, é necessário versionar não só o código, mas também os dados, os hiperparâmetros e os modelos resultantes. Sem isso, é impossível reproduzir um experimento ou auditar por que um modelo produziu certa decisão.\n\nUm model registry (registro de modelos) cataloga versões, metadados, métricas e estágio (staging, produção). O rastreamento de experimentos (experiment tracking) registra cada execução com seus parâmetros e resultados. Essa rastreabilidade é fundamental para governança, auditabilidade e accountability dos sistemas de IA - aspectos diretamente relevantes ao controle externo."
+        },
+        {
+          "h": "Deploy e integração com nuvem",
+          "p": "Há várias estratégias de implantação: como API REST/serviço online (inferência em tempo real, ex.: TensorFlow Serving, contêineres em Kubernetes), inferência em lote (batch) e em borda/edge (no dispositivo). Padrões de release como canary, blue-green e shadow deployment reduzem riscos ao colocar novos modelos em produção.\n\nProvedores de nuvem oferecem plataformas gerenciadas de ML (ex.: AWS SageMaker, Google Vertex AI, Azure Machine Learning) que cobrem treinamento, registro, deploy e monitoramento. Contêineres (Docker) e orquestração (Kubernetes) são a base para empacotar e escalar modelos de forma portável."
+        },
+        {
+          "h": "Monitoramento, drift e CI/CD/CT",
+          "p": "Após o deploy, é preciso monitorar latência, throughput, erros e, sobretudo, a qualidade das previsões. Dois fenômenos importantes: o data drift (mudança na distribuição dos dados de entrada) e o concept drift (mudança na relação entre entradas e saídas). Ambos degradam o desempenho e disparam a necessidade de retreinamento.\n\nMLOps amplia o CI/CD do DevOps com o CT (Continuous Training): além de integração e entrega contínuas, há retreinamento contínuo automatizado quando o monitoramento detecta degradação ou chegam novos dados, fechando o ciclo de melhoria."
+        }
+      ],
+      "exemplo": "Auditando um sistema de IA do governo que pontua risco de crédito ou fraude, o auditor verifica se há versionamento de dados e modelos, registro de experimentos e monitoramento de drift. A ausência de rastreabilidade (não saber qual versão do modelo gerou determinada decisão) é um achado de auditoria relevante para accountability. Item Cebraspe: 'O concept drift ocorre quando a relação estatística entre as variáveis de entrada e a variável-alvo se altera ao longo do tempo, podendo degradar o desempenho de um modelo em produção.' Afirmativa CERTA."
+,
+      "pontos_chave": [
+        "MLOps aplica princípios de DevOps ao ciclo de vida de modelos de ML (código + dados + modelo).",
+        "Ciclo: dados, treinamento, avaliação, deploy, monitoramento e retreinamento - contínuo e iterativo.",
+        "Versionamento de dados/modelos e model registry garantem reprodutibilidade e auditabilidade.",
+        "Estratégias de deploy: online (API), batch e edge; releases canary, blue-green e shadow.",
+        "Data drift (mudança nos dados de entrada) e concept drift (mudança na relação entrada-saída) degradam modelos.",
+        "MLOps adiciona o CT (Continuous Training) ao CI/CD para retreinamento automatizado."
+      ],
+      "dica_prova": "Cebraspe associa MLOps a DevOps e cobra a distinção entre data drift e concept drift - não os confunda. Pegadinha: tratar o deploy como etapa final e estática; em ML, monitoramento e retreinamento são contínuos justamente por causa do drift. Lembre que MLOps versiona dados e modelos (não só código), o que é peça-chave para a auditabilidade exigida em sistemas públicos de IA."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Ética, viés e LGPD",
+      "intro": "A adoção de IA em decisões que afetam pessoas - crédito, benefícios, triagem, vigilância - levanta questões éticas e jurídicas críticas. Os pilares de uma IA responsável incluem justiça (fairness), transparência e explicabilidade, accountability (prestação de contas), privacidade, segurança e supervisão humana. No setor público, esses princípios ganham peso adicional pela exigência de legalidade, impessoalidade e motivação dos atos.\n\nDois temas dominam a discussão técnica e jurídica: o viés algorítmico (que pode produzir discriminação ilegal contra grupos) e a explicabilidade (a capacidade de entender e justificar decisões automatizadas). No Brasil, a Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018) estabelece deveres concretos sobre o tratamento de dados pessoais, incluindo decisões automatizadas, e dialoga com normas e frameworks internacionais como o AI Act europeu e a estrutura de gestão de riscos de IA do NIST."
+,
+      "secoes": [
+        {
+          "h": "Viés algorítmico e discriminação",
+          "p": "O viés algorítmico ocorre quando um modelo produz resultados sistematicamente injustos contra determinados grupos. As fontes são diversas: dados de treino enviesados ou pouco representativos (a IA aprende e amplifica preconceitos históricos), viés de seleção da amostra, rótulos enviesados, escolha das variáveis e até o modo como o problema é formulado.\n\nO risco concreto é a discriminação automatizada - por exemplo, negar crédito ou priorizar fiscalização com base em raça, gênero ou origem. Mitigação envolve dados representativos, métricas de fairness (paridade demográfica, igualdade de oportunidade), auditoria de modelos e supervisão humana. A máxima 'garbage in, garbage out' resume o problema: dados ruins geram modelos ruins e injustos."
+        },
+        {
+          "h": "Explicabilidade e interpretabilidade (XAI)",
+          "p": "Muitos modelos de deep learning são caixas-pretas (black box): produzem decisões sem explicação compreensível. A IA Explicável (XAI) reúne técnicas para tornar as decisões inteligíveis. Métodos populares e agnósticos ao modelo: LIME (explicações locais por aproximação) e SHAP (atribuição de importância às variáveis com base em teoria dos jogos).\n\nDistinguem-se interpretabilidade (modelos intrinsecamente compreensíveis, como árvores de decisão e regressão linear) e explicabilidade (técnicas que explicam modelos complexos a posteriori). No setor público, a explicabilidade é essencial para motivar decisões, permitir contraditório e viabilizar a auditoria - uma decisão administrativa não pode ser fundamentada apenas em 'o algoritmo decidiu'."
+        },
+        {
+          "h": "LGPD e decisões automatizadas",
+          "p": "A LGPD (Lei 13.709/2018) rege o tratamento de dados pessoais com base em princípios como finalidade, adequação, necessidade (minimização), transparência, segurança e não discriminação, e exige uma base legal para o tratamento (ex.: consentimento, cumprimento de obrigação legal, execução de políticas públicas).\n\nDe especial relevância para IA, o art. 20 assegura ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses (perfis pessoais, crédito, perfil de consumo), bem como informações sobre os critérios utilizados, respeitados os segredos comercial e industrial. A LGPD também impõe medidas de segurança e, conforme o caso, o Relatório de Impacto à Proteção de Dados Pessoais (RIPD/DPIA). A fiscalização cabe à ANPD (Autoridade Nacional de Proteção de Dados)."
+        },
+        {
+          "h": "Governança, regulação e o papel do controle externo",
+          "p": "Além da LGPD, ganham relevância frameworks de governança de IA: o AI Act da União Europeia (regulação baseada em risco, com categorias de risco inaceitável, alto, limitado e mínimo), o NIST AI Risk Management Framework e princípios da OCDE e da UNESCO. No Brasil, tramita marco legal específico para IA e há orientações de transparência algorítmica no setor público.\n\nPara o controle externo, isso significa auditar sistemas de IA quanto a legalidade, ausência de discriminação, transparência, proteção de dados, segurança e accountability. O auditor avalia se há base legal, documentação, rastreabilidade (ligando-se a MLOps), avaliação de impacto e mecanismos de revisão humana - assegurando que a automação não viole direitos fundamentais nem os princípios da Administração Pública."
+        }
+      ],
+      "exemplo": "Um órgão usa IA para priorizar concessão de benefícios e o sistema passa a negar sistematicamente pedidos de determinada região - indício de viés algorítmico decorrente de dados históricos enviesados. Em auditoria, verifica-se: base legal sob a LGPD, possibilidade de revisão humana (art. 20), explicabilidade das decisões e métricas de fairness. Item Cebraspe: 'A LGPD assegura ao titular o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.' Afirmativa CERTA."
+,
+      "pontos_chave": [
+        "Viés algorítmico decorre majoritariamente de dados de treino enviesados e pode gerar discriminação automatizada.",
+        "XAI: LIME e SHAP explicam modelos caixa-preta; interpretabilidade (modelo simples) difere de explicabilidade (explicação a posteriori).",
+        "LGPD (Lei 13.709/2018): princípios de finalidade, necessidade, transparência e não discriminação; exige base legal.",
+        "Art. 20 da LGPD: direito à revisão de decisões unicamente automatizadas que afetem o titular.",
+        "ANPD fiscaliza; RIPD/DPIA avalia impacto sobre dados pessoais.",
+        "Frameworks de governança: AI Act (baseado em risco), NIST AI RMF, princípios da OCDE/UNESCO.",
+        "Pilares de IA responsável: justiça, transparência, accountability, privacidade e supervisão humana."
+      ],
+      "dica_prova": "A LGPD é a Lei 13.709/2018 - número que vale memorizar com confiança. Cebraspe cobra muito o art. 20 (revisão de decisões automatizadas): atenção, a redação fala em decisões tomadas 'unicamente' com base em tratamento automatizado. Pegadinha comum: afirmar que a LGPD garante explicação completa do algoritmo - ela assegura informações sobre os critérios, mas ressalva os segredos comercial e industrial. Não confunda interpretabilidade (modelo intrinsecamente claro) com explicabilidade (técnica que explica a caixa-preta), nem viés com overfitting."
+    }
+  ]
+}

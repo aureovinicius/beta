@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Padrões de integração (API Gateway, Service Mesh, CQRS) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-software.html">💾 Engenharia de Software</a> ›
+    <span>Padrões de integração (API Gateway, Service Mesh, CQRS)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Arquitetura de software</p>
+    <h1>Padrões de integração (API Gateway, Service Mesh, CQRS)</h1>
+    
+    <p>Sistemas distribuídos exigem padrões para resolver problemas recorrentes de comunicação, roteamento, segurança e escalabilidade entre serviços. Três padrões frequentemente cobrados são o API Gateway (porta de entrada única), o Service Mesh (camada de infraestrutura para comunicação serviço-a-serviço) e o CQRS (separação de leitura e escrita).</p><p>Esses padrões são complementares e operam em planos diferentes: o API Gateway trata o tráfego norte-sul (cliente externo para o sistema), o Service Mesh trata o tráfego leste-oeste (entre serviços internos) e o CQRS é um padrão de modelagem de dados/fluxo. Conhecê-los é essencial para auditar arquiteturas modernas de governo digital.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>API Gateway</h2><p>O API Gateway é um ponto de entrada único que fica entre os clientes externos e os microsserviços internos. Ele recebe todas as requisições e as encaminha (roteamento) aos serviços apropriados, podendo agregar respostas de vários serviços em uma só (agregação/composição), e centraliza preocupações transversais (cross-cutting concerns): autenticação/autorização, rate limiting (limitação de taxa), throttling, cache, TLS termination, logging e transformação de protocolo.</p><p>Benefícios: desacopla o cliente da topologia interna, evita que o cliente conheça muitos endpoints e centraliza políticas de segurança. Risco: pode virar um gargalo ou ponto único de falha se mal dimensionado. Exemplos: Kong, AWS API Gateway, NGINX, Spring Cloud Gateway. Variante: padrão BFF (Backend for Frontend), um gateway por tipo de cliente (web, mobile).</p></section><section class="amp-sec"><h2>Service Mesh</h2><p>O Service Mesh é uma camada de infraestrutura dedicada que gerencia a comunicação serviço-a-serviço (leste-oeste) de forma transparente para a aplicação. Em vez de cada serviço implementar lógica de rede (retries, timeouts, circuit breaker, mTLS, balanceamento), essa lógica é delegada a um proxy sidecar (geralmente Envoy) injetado ao lado de cada instância de serviço.</p><p>Arquitetura: plano de dados (os sidecars que interceptam o tráfego) e plano de controle (configura e coordena os sidecars). Recursos: criptografia mútua (mTLS) entre serviços, observabilidade (métricas, tracing distribuído), controle de tráfego (canary, blue-green), políticas de segurança e resiliência. Exemplos: Istio, Linkerd, Consul Connect. Diferença-chave: o API Gateway protege a borda; o Service Mesh governa o interior.</p></section><section class="amp-sec"><h2>CQRS (Command Query Responsibility Segregation)</h2><p>O CQRS separa as operações de escrita (commands, que alteram estado) das operações de leitura (queries, que apenas consultam) em modelos distintos. Em vez de um único modelo para ler e gravar, há um modelo de escrita otimizado para regras de negócio/consistência e um ou mais modelos de leitura otimizados para consultas (frequentemente desnormalizados).</p><p>Vantagens: cada lado escala e evolui independentemente; leituras rápidas com projeções específicas. Frequentemente combinado com Event Sourcing (o estado de escrita é o log de eventos, e os modelos de leitura são projeções atualizadas pelos eventos), o que introduz consistência eventual entre escrita e leitura. Custo: complexidade adicional — só se justifica em domínios com forte assimetria entre leitura e escrita ou alta carga. Aplicar CQRS em CRUDs simples é antipadrão (overengineering).</p></section><section class="amp-sec"><h2>Como os padrões se combinam</h2><p>Numa arquitetura típica: o cliente acessa o API Gateway (borda, tráfego norte-sul), que autentica e roteia para os microsserviços; entre os serviços, o Service Mesh cuida de mTLS, resiliência e observabilidade (tráfego leste-oeste); internamente, um serviço de alta carga pode usar CQRS para separar suas leituras e escritas. São camadas distintas e não excludentes.</p><p>Outros padrões correlatos cobrados: Circuit Breaker (interrompe chamadas a serviço falho para evitar cascata), Saga (transações distribuídas por compensação), Bulkhead (isolamento de recursos) e Sidecar (componente auxiliar acoplado).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria: ao avaliar uma plataforma de microsserviços do governo, o auditor verifica que toda a comunicação entre serviços internos usa HTTP em texto claro, sem criptografia. Recomendação: adotar um Service Mesh (ex.: Istio) para impor mTLS automático entre serviços, atendendo ao princípio de defesa em profundidade e à segurança de dados em trânsito (alinhado à ISO/IEC 27001 e à LGPD). O API Gateway, sozinho, protege apenas a borda, não o tráfego leste-oeste.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha mais comum é confundir os planos de atuação: associe API Gateway a tráfego norte-sul (cliente↔sistema) e Service Mesh a tráfego leste-oeste (serviço↔serviço). Outra: afirmar que o CQRS exige obrigatoriamente Event Sourcing (falso — são padrões frequentemente combinados, mas independentes). Cebraspe também testa se o candidato sabe que o sidecar fica ao lado do serviço, tornando a lógica de rede transparente para a aplicação.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s0.html">← Monolito, microsserviços e serverless</a><a class="pager next" href="t1-s0.html">Padrões de projeto (GoF e GRASP) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>API Gateway: ponto de entrada único (tráfego norte-sul), faz roteamento, agregação, autenticação, rate limiting e cache.</li><li>Service Mesh: camada de infraestrutura para comunicação serviço-a-serviço (leste-oeste) via proxy sidecar (Envoy); oferece mTLS, resiliência e observabilidade.</li><li>Service Mesh tem plano de dados (sidecars) e plano de controle; exemplos: Istio, Linkerd.</li><li>CQRS separa modelo de escrita (commands) do de leitura (queries); muitas vezes com Event Sourcing e consistência eventual.</li><li>API Gateway protege a borda; Service Mesh governa o interior — são complementares, não substitutos.</li><li>Aplicar CQRS em CRUD simples é overengineering; ele se justifica com forte assimetria leitura/escrita.</li><li>Padrões correlatos: Circuit Breaker, Saga, Bulkhead e Sidecar.</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-software.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

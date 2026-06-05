@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avaliação de modelos — SEFAZ-GO</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEFAZ-GO</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEFAZ-GO</a> ›
+    <a href="../../disciplinas/tecnologia-da-informacao.html">💻 Tecnologias da Informação</a> ›
+    <span>Avaliação de modelos</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">5. Mineração de dados (Data Mining)</p>
+    <h1>Avaliação de modelos</h1>
+    
+    <p>De nada adianta treinar um modelo preditivo se não soubermos quão confiável ele é. A avaliação de modelos quantifica o desempenho usando métricas adequadas ao tipo de problema (classificação, regressão) e protocolos que evitam ilusões de qualidade — como testar o modelo nos mesmos dados em que foi treinado.</p><p>O conceito central é separar dados de treino e dados de teste, garantindo que a avaliação meça a capacidade de generalização (acertar em dados nunca vistos), e não a mera memorização. Daí surgem dois vilões: o overfitting (modelo decora o treino e vai mal no teste) e o underfitting (modelo simples demais, vai mal em ambos).</p><p>Para a fiscalização, escolher a métrica correta é crucial: em bases muito desbalanceadas (poucos sonegadores entre muitos contribuintes regulares), a acurácia engana, e métricas como recall e precisão tornam-se decisivas.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Matriz de confusão</h2><p>Para classificação binária (ex.: sonegador x não sonegador), a matriz de confusão cruza o previsto com o real, gerando: VP (verdadeiro positivo — sonegador corretamente identificado), VN (verdadeiro negativo), FP (falso positivo — regular acusado indevidamente) e FN (falso negativo — sonegador que passou despercebido).</p><p>É a base de quase todas as métricas. Em contexto fiscal, FN (sonegador não detectado) significa perda de arrecadação, enquanto FP (auditar quem é regular) significa desperdício de recurso e incômodo ao contribuinte — o equilíbrio depende da política da Receita.</p></section><section class="amp-sec"><h2>Acurácia, precisão, recall e F1</h2><p>Acurácia = (VP+VN)/total: proporção de acertos. Engana em bases desbalanceadas (um modelo que diz &#x27;ninguém sonega&#x27; teria alta acurácia se sonegadores forem 1%). Precisão = VP/(VP+FP): dos apontados como positivos, quantos eram de fato (qualidade do alerta). Recall (sensibilidade/revocação) = VP/(VP+FN): dos positivos reais, quantos foram capturados (cobertura).</p><p>Há um trade-off entre precisão e recall. O F1-score é a média harmônica das duas, útil quando se busca equilíbrio. Na caça a fraudes, prioriza-se recall (não deixar sonegador escapar), aceitando alguma perda de precisão.</p></section><section class="amp-sec"><h2>Curva ROC e AUC</h2><p>A curva ROC plota a taxa de verdadeiros positivos (recall) contra a taxa de falsos positivos, à medida que se varia o limiar de decisão. A AUC (área sob a curva) resume a capacidade discriminatória do modelo: AUC = 1,0 é perfeito; AUC = 0,5 equivale a um palpite aleatório (a diagonal).</p><p>A AUC é robusta a desbalanceamento e independe da escolha de um limiar específico, sendo muito usada para comparar modelos. Quanto mais a curva se aproxima do canto superior esquerdo, melhor.</p></section><section class="amp-sec"><h2>Validação, overfitting e métricas de regressão</h2><p>Para estimar a generalização, usa-se holdout (divisão treino/teste) ou validação cruzada k-fold (rodízio de partições, mais robusto). Overfitting se combate com regularização, poda de árvores, mais dados e validação adequada.</p><p>Para modelos de regressão (alvo numérico), as métricas mudam: MAE (erro absoluto médio), MSE/RMSE (erro quadrático, penaliza grandes erros) e R² (coeficiente de determinação, fração da variância explicada). Não se aplica acurácia/recall a regressão — é uma confusão comum em provas.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Modelo de detecção de sonegadores aplicado a 10.000 contribuintes, dos quais 200 são realmente sonegadores. Um modelo preguiçoso que classifica TODOS como &#x27;regulares&#x27; acerta 9.800 e tem acurácia de 98% — mas seu recall é 0 (não pega nenhum sonegador) e sua precisão é indefinida. Isso mostra por que, em bases desbalanceadas, a acurácia ENGANA e o recall/precisão revelam a verdade.</p><p>Questão típica: &#x27;A acurácia é a métrica mais adequada para avaliar modelos em bases fortemente desbalanceadas.&#x27; — ERRADO; em bases desbalanceadas a acurácia é enganosa; recall, precisão, F1 e AUC são mais apropriados.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha favorita explora a acurácia em bases desbalanceadas: um modelo pode ter 99% de acurácia e ser inútil para detectar fraude (recall baixíssimo). Decore precisão (VP sobre todos os PREVISTOS positivos) versus recall (VP sobre todos os positivos REAIS) — trocar os denominadores é o erro mais comum. E lembre: métricas de classificação (recall, F1, AUC) não se aplicam a regressão, que usa RMSE/MAE/R².</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s0.html">← Tarefas de mineração</a><a class="pager next" href="t5-s0.html">Aprendizado de máquina →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Matriz de confusão: VP, VN, FP, FN — base das métricas de classificação.</li><li>Acurácia = (VP+VN)/total; engana em bases desbalanceadas.</li><li>Precisão = VP/(VP+FP) (qualidade do alerta); Recall = VP/(VP+FN) (cobertura).</li><li>F1 = média harmônica de precisão e recall (equilíbrio).</li><li>AUC/ROC: 1,0 perfeito, 0,5 aleatório; robusta a desbalanceamento.</li><li>Overfitting decora o treino; underfitting é simples demais; use validação cruzada.</li><li>Regressão usa MAE, RMSE, R² — não acurácia nem recall.</li></ul></div>
+      <a class="back" href="../../disciplinas/tecnologia-da-informacao.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

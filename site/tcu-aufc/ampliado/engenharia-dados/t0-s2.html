@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bancos NoSQL (MongoDB, Elasticsearch) — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>Bancos NoSQL (MongoDB, Elasticsearch)</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Bancos de dados</p>
+    <h1>Bancos NoSQL (MongoDB, Elasticsearch)</h1>
+    
+    <p>Bancos NoSQL (&quot;Not Only SQL&quot;) surgiram para atender cenários em que o modelo relacional tradicional encontra limitações: volumes massivos de dados (Big Data), necessidade de escalabilidade horizontal, esquemas flexíveis e alta disponibilidade em sistemas distribuídos. Em vez de tabelas rígidas com esquema fixo e junções (joins), os bancos NoSQL adotam estruturas otimizadas para padrões de acesso específicos, frequentemente sacrificando parte das garantias ACID em favor de desempenho e escalabilidade.</p><p>Não existe um único &quot;banco NoSQL&quot;: trata-se de uma família com quatro categorias principais — orientados a documentos (MongoDB, Couchbase), chave-valor (Redis, DynamoDB), famílias de colunas (Cassandra, HBase) e grafos (Neo4j). Sistemas de busca como o Elasticsearch, embora muitas vezes classificados como motores de busca/análise, também são tratados como bancos orientados a documentos com índice invertido. A escolha entre NoSQL e relacional depende do problema, não de &quot;modernidade&quot;: cada modelo tem seu nicho.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>As quatro categorias de NoSQL</h2><p>Documento: armazena registros semiestruturados em JSON/BSON, onde cada documento pode ter campos próprios (esquema flexível). Ideal para catálogos, perfis e dados aninhados. Ex.: MongoDB.</p><p>Chave-valor: o mais simples; associa uma chave a um valor opaco. Extremamente rápido para cache e sessões. Ex.: Redis, Amazon DynamoDB.</p><p>Família de colunas (wide-column): armazena dados por colunas agrupadas, otimizado para escrita massiva e leitura de grandes volumes. Ex.: Apache Cassandra, HBase.</p><p>Grafo: modela entidades (nós) e relacionamentos (arestas) como cidadãos de primeira classe, ideal para redes sociais, detecção de fraude e análise de vínculos. Ex.: Neo4j.</p></section><section class="amp-sec"><h2>MongoDB</h2><p>MongoDB é o NoSQL de documentos mais popular. Armazena documentos em BSON (JSON binário), agrupados em coleções (equivalentes a tabelas). Não exige esquema fixo: documentos da mesma coleção podem ter estruturas diferentes. Suporta índices, agregações (aggregation pipeline) e sharding (particionamento horizontal por chave de shard) para escalabilidade, além de replica sets para alta disponibilidade.</p><p>A partir da versão 4.x, o MongoDB passou a oferecer transações multidocumento ACID, derrubando a ideia (frequente em provas antigas) de que NoSQL &quot;nunca&quot; tem transações. Ainda assim, a modelagem recomendada favorece a desnormalização e o aninhamento (embedding) de dados relacionados em um único documento, reduzindo a necessidade de junções.</p></section><section class="amp-sec"><h2>Elasticsearch</h2><p>Elasticsearch é um motor de busca e análise distribuído construído sobre a biblioteca Apache Lucene. Indexa documentos JSON usando um índice invertido, que mapeia termos para os documentos onde aparecem, permitindo busca textual (full-text search) rápida, relevância (scoring), busca por proximidade e agregações analíticas em tempo quase real.</p><p>É a peça central do stack ELK/Elastic Stack (Elasticsearch, Logstash, Kibana, Beats), amplamente usado para análise de logs, observabilidade, SIEM e busca em e-commerce. Organiza dados em índices distribuídos em shards e réplicas. Não é um substituto de banco transacional: seu foco é leitura, busca e análise, não consistência transacional forte.</p></section><section class="amp-sec"><h2>Teorema CAP</h2><p>O teorema CAP (Brewer) afirma que um sistema de dados distribuído não pode garantir simultaneamente as três propriedades: Consistência (Consistency — toda leitura recebe a escrita mais recente), Disponibilidade (Availability — toda requisição recebe resposta) e Tolerância a Partição (Partition tolerance — o sistema continua operando mesmo com falhas de comunicação na rede). Como partições de rede são inevitáveis em sistemas distribuídos, na prática a escolha real é entre consistência (CP) e disponibilidade (AP) quando ocorre uma partição.</p><p>Sistemas CP (ex.: MongoDB em configuração padrão, HBase) priorizam consistência, podendo recusar respostas durante uma partição. Sistemas AP (ex.: Cassandra, DynamoDB) priorizam disponibilidade, aceitando consistência eventual. O conceito BASE (Basically Available, Soft state, Eventual consistency) contrasta com o ACID dos relacionais: muitos NoSQL adotam consistência eventual, em que réplicas convergem para o mesmo estado após algum tempo.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item estilo Cebraspe: &quot;Conforme o teorema CAP, um sistema de banco de dados distribuído pode garantir, ao mesmo tempo, consistência, disponibilidade e tolerância a partição.&quot; — ERRADO. O teorema estabelece que apenas duas das três propriedades podem ser garantidas simultaneamente quando há partição de rede; como a tolerância a partição é mandatória em sistemas distribuídos, a escolha prática recai entre consistência e disponibilidade. Em uma auditoria de TI, ao avaliar uma solução de catálogo de produtos com esquema variável e alto volume de leituras, o auditor pode considerar adequada a adoção de MongoDB; já para análise de logs de segurança e dashboards de observabilidade, o Elasticsearch seria a escolha técnica coerente.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha clássica é afirmar que o CAP permite as três propriedades juntas (sempre ERRADO) ou que NoSQL &quot;não tem transações&quot; (hoje desatualizado para o MongoDB). Cuidado também ao associar BASE a ACID: são opostos. Cebraspe gosta de testar o pareamento exemplo-categoria (ex.: Cassandra como AP, Neo4j como grafo, Redis como chave-valor).</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s1.html">← SQL (DDL, DML, DCL)</a><a class="pager next" href="t1-s0.html">DW, Data Mart, Data Lake e Data Mesh →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>NoSQL = família com 4 tipos: documento, chave-valor, coluna e grafo</li><li>MongoDB: documentos BSON, esquema flexível, sharding e replica sets; suporta transações ACID desde a v4.x</li><li>Elasticsearch: busca full-text via índice invertido (Lucene); base do Elastic Stack/ELK</li><li>Teorema CAP: só 2 de 3 (Consistência, Disponibilidade, Partição) sob partição de rede</li><li>Como partições são inevitáveis, a escolha real é CP vs AP</li><li>BASE (consistência eventual) contrasta com ACID dos relacionais</li><li>NoSQL não substitui relacional: cada um tem seu cenário ideal</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

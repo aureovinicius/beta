@@ -1,0 +1,494 @@
+{
+  "slug": "infraestrutura-ti",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Topologias e arquiteturas de data center",
+      "intro": "O data center é o ambiente físico e lógico que concentra os recursos computacionais (servidores, armazenamento, rede) de uma organização. Sua arquitetura define onde a infraestrutura reside e como é estruturada para atender requisitos de desempenho, disponibilidade, segurança e custo. As três grandes modalidades são on-premises (instalações próprias), cloud (nuvem de terceiros) e híbrida (combinação das duas).\n\nAlém da localização, a arquitetura abrange topologias físicas (cabeamento, racks, disposição de equipamentos) e lógicas (como o tráfego e os serviços se organizam). Em ambientes corporativos modernos predomina a arquitetura espinha-folha (spine-leaf), que substituiu o tradicional modelo hierárquico de três camadas (core, distribuição e acesso) por oferecer latência previsível e melhor escalabilidade leste-oeste (entre servidores).\n\nO padrão de referência mais citado para classificação de disponibilidade de data centers é a norma ANSI/TIA-942 e a classificação em Tiers (I a IV) do Uptime Institute, que graduam a redundância de energia, refrigeração e caminhos físicos.",
+      "secoes": [
+        {
+          "h": "On-premises, cloud e híbrida",
+          "p": "On-premises significa infraestrutura mantida nas instalações da própria organização, que detém o controle físico, faz o investimento de capital (CAPEX) e assume a responsabilidade por energia, refrigeração e manutenção. Cloud transfere a infraestrutura para um provedor (AWS, Azure, GCP), operando em modelo de despesa operacional (OPEX) e pagamento por uso, com elasticidade sob demanda.\n\nA arquitetura híbrida combina os dois mundos: cargas sensíveis ou de baixa latência ficam on-premises enquanto picos de demanda e cargas elásticas vão para a nuvem (cloud bursting). É comum confundir híbrida com multicloud: multicloud é o uso de vários provedores de nuvem simultaneamente, sem necessariamente integrar com ambiente local; híbrida exige integração entre on-premises e nuvem."
+        },
+        {
+          "h": "Modelos de serviço de nuvem",
+          "p": "Segundo a definição do NIST (SP 800-145), a nuvem tem cinco características essenciais (autosserviço sob demanda, amplo acesso à rede, pooling de recursos, elasticidade rápida e serviço medido) e três modelos de serviço: IaaS (infraestrutura como serviço, ex.: máquinas virtuais), PaaS (plataforma, ex.: bancos gerenciados) e SaaS (software, ex.: aplicativos prontos).\n\nO modelo de responsabilidade compartilhada determina o que cabe ao provedor e ao cliente: em IaaS o cliente é responsável por SO, dados e aplicação; em SaaS o provedor assume quase tudo, restando ao cliente a gestão de identidades e dos próprios dados. Os modelos de implantação são nuvem pública, privada, comunitária e híbrida."
+        },
+        {
+          "h": "Topologias físicas e lógicas",
+          "p": "A topologia física descreve a disposição real de cabos e equipamentos (estrela, barramento, anel, malha). A topologia lógica descreve o fluxo de dados independentemente do arranjo físico. Uma rede pode ter topologia física em estrela (todos os nós ligados a um switch central) mas operar logicamente como barramento ou como malha comutada.\n\nNo data center moderno, a topologia spine-leaf forma uma malha não bloqueante (Clos network): cada switch leaf (acesso aos servidores) conecta-se a todos os switches spine (núcleo), garantindo que qualquer servidor alcance outro em no máximo dois saltos, com latência uniforme. Isso favorece o tráfego leste-oeste, predominante em virtualização e microsserviços."
+        },
+        {
+          "h": "Classificação de disponibilidade (Tiers)",
+          "p": "O Uptime Institute classifica data centers em quatro Tiers: Tier I (capacidade básica, sem redundância, ~99,671% de disponibilidade); Tier II (componentes redundantes, ~99,741%); Tier III (manutenção concorrente, caminhos múltiplos mas apenas um ativo, ~99,982%); e Tier IV (tolerância a falhas, totalmente redundante e ativo-ativo, ~99,995%). A norma ANSI/TIA-942 padroniza cabeamento, energia, refrigeração e segurança física correlatos.\n\nQuanto maior o Tier, maior a redundância de caminhos (energia e refrigeração) e a tolerância a falhas, mas também o custo. Tier III permite manutenção sem parada; somente Tier IV tolera falha de qualquer componente único sem impacto."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'Em uma arquitetura de nuvem híbrida, as cargas de trabalho que rodam no data center local não podem se integrar a serviços executados na nuvem pública.' — ERRADO. A essência da arquitetura híbrida é justamente a integração entre on-premises e nuvem pública, com orquestração e conectividade (ex.: VPN site-to-site, links dedicados como AWS Direct Connect) permitindo que cargas locais consumam serviços em nuvem e vice-versa.",
+      "pontos_chave": [
+        "On-premises usa CAPEX e controle total; cloud usa OPEX e elasticidade sob demanda",
+        "Híbrida integra local + nuvem; multicloud usa vários provedores sem exigir integração com o local",
+        "NIST define IaaS, PaaS e SaaS, com responsabilidade compartilhada variando por modelo",
+        "Spine-leaf (Clos) favorece tráfego leste-oeste com latência uniforme, substituindo o modelo de 3 camadas",
+        "Topologia física é o arranjo de cabos; topologia lógica é o fluxo de dados",
+        "Uptime Institute classifica em Tiers I a IV; Tier III permite manutenção concorrente, Tier IV é tolerante a falhas"
+      ],
+      "dica_prova": "A Cebraspe explora a confusão entre nuvem híbrida e multicloud, e entre as responsabilidades em IaaS x SaaS. Memorize: em SaaS o provedor é responsável por quase tudo, mas a gestão de identidades e dos dados é sempre do cliente. Cuidado também ao afirmar que Tier IV 'nunca' tem indisponibilidade — ele tolera falhas, mas sua disponibilidade declarada é ~99,995%, não 100%."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Hiperconvergência, escalabilidade e redundância",
+      "intro": "A infraestrutura hiperconvergente (HCI) integra, em um único appliance ou nó padronizado, os recursos de computação, armazenamento e rede, gerenciados por software (SDS — software-defined storage). Ela evoluiu da infraestrutura convergente (em que os componentes eram pré-integrados mas ainda separados) ao consolidar tudo em nós que formam um cluster gerenciado por uma camada de virtualização.\n\nEscalabilidade e redundância são atributos de projeto que garantem que a infraestrutura cresça conforme a demanda e continue operando diante de falhas. A escalabilidade pode ser vertical (scale-up, adicionar recursos a um nó) ou horizontal (scale-out, adicionar nós). A redundância elimina pontos únicos de falha (SPOF) por meio de duplicação de componentes, e a tolerância a falhas garante operação contínua mesmo com componentes degradados.",
+      "secoes": [
+        {
+          "h": "Infraestrutura hiperconvergente (HCI)",
+          "p": "Na HCI, cada nó contribui com CPU, memória e discos locais; o software (ex.: VMware vSAN, Nutanix AOS, Microsoft Azure Stack HCI) agrega o armazenamento local de todos os nós em um pool distribuído e replicado. Não há SAN externa — o armazenamento é distribuído e definido por software.\n\nVantagens: simplicidade operacional, gerência única, crescimento incremental nó a nó e melhor uso de commodity hardware. A diferença essencial em relação à infraestrutura convergente é que nesta os blocos (servidor, storage, switch) permanecem distintos e apenas pré-validados; na hiperconvergente, são fundidos por software no mesmo nó."
+        },
+        {
+          "h": "Escalabilidade vertical x horizontal",
+          "p": "Escalabilidade vertical (scale-up) consiste em aumentar a capacidade de um nó existente (mais CPU, RAM ou disco). É simples, mas limitada pelo hardware máximo e cria um ponto de concentração. Escalabilidade horizontal (scale-out) adiciona mais nós ao conjunto, distribuindo a carga; é o modelo natural da HCI e da nuvem, oferecendo crescimento quase linear e maior tolerância a falhas.\n\nA Cebraspe costuma testar a definição: scale-out (horizontal) adiciona instâncias/nós; scale-up (vertical) reforça uma instância. Elasticidade é a capacidade de escalar automaticamente para cima e para baixo conforme a demanda, característica típica da nuvem."
+        },
+        {
+          "h": "Redundância e tolerância a falhas",
+          "p": "Redundância é a duplicação de componentes críticos (fontes de energia, links de rede via NIC teaming, controladoras, nós) para eliminar pontos únicos de falha (SPOF). Tolerância a falhas (fault tolerance) vai além: o sistema continua operando sem interrupção perceptível mesmo com a falha de um componente, geralmente por replicação síncrona e operação ativo-ativo.\n\nÉ importante distinguir alta disponibilidade (HA) de tolerância a falhas: em HA, uma falha provoca um breve failover (pequena interrupção até a recuperação); em tolerância a falhas, não há interrupção. Conceitos como N+1, N+2 e 2N descrevem o grau de redundância (N+1 = um componente extra além do necessário; 2N = duplicação total)."
+        },
+        {
+          "h": "Disponibilidade e os 'noves'",
+          "p": "A disponibilidade é medida pela fórmula MTBF / (MTBF + MTTR), onde MTBF é o tempo médio entre falhas e MTTR o tempo médio de reparo. Quanto maior o MTBF e menor o MTTR, maior a disponibilidade. Ela é expressa em 'noves': 99,9% (três noves) equivale a cerca de 8,76 horas de indisponibilidade por ano; 99,99% (quatro noves) a ~52 minutos; 99,999% (cinco noves) a ~5 minutos por ano.\n\nProjetos de redundância visam aumentar o MTBF (componentes redundantes raramente falham todos juntos) e reduzir o MTTR (failover automático e peças sobressalentes), elevando a disponibilidade global."
+        }
+      ],
+      "exemplo": "Item comentado: 'A infraestrutura hiperconvergente depende de uma rede de armazenamento SAN dedicada para consolidar os discos dos servidores.' — ERRADO. A HCI dispensa a SAN externa: o armazenamento é local em cada nó e agregado por software (SDS) em um pool distribuído e replicado. A dependência de SAN dedicada é característica de arquiteturas tradicionais (três camadas) ou convergentes, não da hiperconvergente.",
+      "pontos_chave": [
+        "HCI funde computação, armazenamento e rede em nós gerenciados por software, dispensando SAN externa",
+        "Convergente apenas pré-integra blocos separados; hiperconvergente os funde por software",
+        "Scale-up (vertical) reforça um nó; scale-out (horizontal) adiciona nós",
+        "Redundância elimina SPOF; tolerância a falhas mantém operação sem interrupção",
+        "HA tolera breve failover; tolerância a falhas não tem interrupção perceptível",
+        "Disponibilidade = MTBF/(MTBF+MTTR); 'cinco noves' ≈ 5 min de parada/ano",
+        "N+1, 2N descrevem o grau de redundância de componentes"
+      ],
+      "dica_prova": "A pegadinha clássica é igualar alta disponibilidade a tolerância a falhas — na HA há um failover (pequena parada), na tolerância a falhas não há interrupção. Também confunde-se scale-up com scale-out: lembre que 'up' é para cima no mesmo nó (vertical) e 'out' é para fora, espalhando em mais nós (horizontal). E HCI NÃO usa SAN dedicada."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Protocolos de comunicação",
+      "intro": "Os protocolos de comunicação são regras padronizadas que permitem a troca de dados entre dispositivos em rede. Eles se organizam em camadas, descritas pelos modelos de referência OSI (7 camadas) e TCP/IP (4 camadas). Cada protocolo opera em uma ou mais camadas, com responsabilidades específicas: endereçamento, roteamento, controle de fluxo, confiabilidade, segurança e serviços de aplicação.\n\nNo nível de transporte destacam-se TCP (orientado à conexão, confiável) e UDP (sem conexão, rápido). No nível de rede, IP, ICMP e protocolos de roteamento como OSPF e BGP. Na camada de aplicação, serviços como DNS, DHCP, HTTP/HTTPS, SMTP e SSH. O TLS atua entre transporte e aplicação, provendo segurança. O domínio desses protocolos, suas portas padrão e RFCs é essencial em provas de infraestrutura.",
+      "secoes": [
+        {
+          "h": "Camada de transporte: TCP, UDP e SCTP",
+          "p": "TCP (RFC 793) é orientado à conexão: estabelece sessão via three-way handshake (SYN, SYN-ACK, ACK), garante entrega ordenada e confiável com numeração de segmentos, confirmações (ACK), retransmissão e controle de fluxo (janela deslizante) e de congestionamento. UDP (RFC 768) é sem conexão e sem garantias: apenas envia datagramas, sendo mais rápido e leve — ideal para DNS, VoIP, streaming e jogos, onde latência importa mais que retransmissão.\n\nSCTP (RFC 4960) combina características de ambos: é orientado a conexão e confiável como TCP, mas suporta multihoming (múltiplos endereços por associação) e multistreaming (vários fluxos independentes na mesma associação, evitando head-of-line blocking). É usado em sinalização de telecomunicações (SS7 sobre IP)."
+        },
+        {
+          "h": "Camada de rede: IP, ICMP, ARP, OSPF e BGP",
+          "p": "IP (RFC 791/IPv4, RFC 8200/IPv6) faz o endereçamento e o roteamento dos pacotes. ICMP (RFC 792) trata mensagens de controle e erro (usado por ping e traceroute). ARP resolve endereços IP em endereços MAC dentro de uma rede local (camada de enlace/rede).\n\nOSPF (RFC 2328) é um protocolo de roteamento interno (IGP) de estado de enlace, que usa o algoritmo de Dijkstra (SPF) para calcular o caminho mais curto com base no custo; opera dentro de um sistema autônomo. BGP (RFC 4271) é o protocolo de roteamento externo (EGP) da Internet, de vetor de caminho (path vector), que troca rotas entre sistemas autônomos (AS) usando políticas e a porta TCP 179. OSPF converge mais rápido e é interno; BGP é o protocolo que sustenta o roteamento global da Internet."
+        },
+        {
+          "h": "Camada de aplicação e portas padrão",
+          "p": "DNS (RFC 1035, porta 53 UDP/TCP) traduz nomes em endereços IP. DHCP (portas 67/68 UDP) atribui automaticamente configurações de IP. HTTP (porta 80) e HTTPS (porta 443) servem páginas web. FTP (portas 20/21) transfere arquivos sem segurança; SFTP (sobre SSH, porta 22) e FTPS (sobre TLS) são as versões seguras. SSH (porta 22) provê acesso remoto criptografado. SMTP (porta 25/587) envia e-mails; IMAP (143/993) e POP3 (110/995) os recuperam, sendo IMAP capaz de sincronizar com o servidor e POP3 tipicamente baixar e remover.\n\nAtenção: SFTP é SSH File Transfer Protocol (sobre SSH), distinto de FTPS (FTP sobre SSL/TLS) — confusão muito explorada em prova."
+        },
+        {
+          "h": "Segurança no transporte: TLS/SSL",
+          "p": "TLS (Transport Layer Security, sucessor do SSL, atualmente TLS 1.3 — RFC 8446) provê confidencialidade, integridade e autenticação entre aplicação e transporte. Usa criptografia assimétrica no handshake (para troca de chaves e autenticação via certificados X.509) e criptografia simétrica para os dados em trânsito. O SSL é considerado obsoleto e inseguro (POODLE), tendo sido substituído pelo TLS.\n\nO TLS 1.3 reduziu o handshake (1-RTT, com 0-RTT opcional), removeu algoritmos fracos e tornou perfect forward secrecy padrão. HTTPS é HTTP sobre TLS; STARTTLS atualiza conexões em texto claro (ex.: SMTP, IMAP) para TLS na mesma porta."
+        }
+      ],
+      "exemplo": "Item comentado: 'O protocolo UDP, por ser orientado à conexão, garante a entrega ordenada e confiável dos segmentos por meio de confirmações e retransmissões.' — ERRADO. Essa é a descrição do TCP. O UDP é SEM conexão (connectionless), não garante entrega, ordenação nem retransmissão; por isso é mais rápido e adequado a aplicações sensíveis à latência, como DNS, VoIP e streaming.",
+      "pontos_chave": [
+        "TCP é orientado à conexão, confiável e ordenado (handshake SYN/SYN-ACK/ACK); UDP é sem conexão e rápido",
+        "SCTP une confiabilidade do TCP com multihoming e multistreaming",
+        "OSPF é IGP de estado de enlace (Dijkstra/SPF); BGP é EGP path-vector da Internet (TCP 179)",
+        "Portas: DNS 53, DHCP 67/68, HTTP 80, HTTPS 443, SSH/SFTP 22, FTP 20/21, SMTP 25/587",
+        "SFTP é sobre SSH; FTPS é FTP sobre TLS — não confundir",
+        "TLS (sucessor do SSL) usa assimétrica no handshake e simétrica nos dados; TLS 1.3 é o atual",
+        "IMAP sincroniza com o servidor; POP3 tipicamente baixa e remove"
+      ],
+      "dica_prova": "A Cebraspe adora trocar características de TCP e UDP, confundir SFTP com FTPS, e afirmar que SSL é o protocolo atual (é obsoleto; o atual é TLS). Outra pegadinha: dizer que OSPF roteia entre sistemas autônomos (isso é o BGP) — OSPF é interno (IGP). Memorize as portas padrão, pois caem com frequência."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "Switching, roteamento, SDN e wireless",
+      "intro": "A comutação (switching) ocorre na camada 2 (enlace), encaminhando quadros com base em endereços MAC dentro de um mesmo domínio de broadcast. O roteamento (routing) ocorre na camada 3 (rede), encaminhando pacotes entre redes distintas com base em endereços IP. Switches segmentam domínios de colisão e, com VLANs, criam múltiplos domínios de broadcast lógicos; roteadores interconectam essas redes.\n\nAs redes definidas por software (SDN) separam o plano de controle do plano de dados, centralizando a inteligência em um controlador programável. No ambiente sem fio corporativo, padrões como Wi-Fi 6 (802.11ax) e WPA3 elevaram desempenho, capacidade e segurança, enquanto arquiteturas mesh ampliam a cobertura.",
+      "secoes": [
+        {
+          "h": "VLANs, trunk e STP",
+          "p": "VLANs (IEEE 802.1Q) segmentam logicamente uma rede física em múltiplos domínios de broadcast, isolando tráfego e melhorando segurança e desempenho; o tráfego entre VLANs exige roteamento (inter-VLAN routing/router-on-a-stick ou switch de camada 3). O protocolo 802.1Q insere uma tag (VLAN ID) no quadro; links que carregam várias VLANs são trunks.\n\nO Spanning Tree Protocol (STP — IEEE 802.1D) previne loops de camada 2 em topologias com links redundantes, bloqueando portas redundantes e mantendo uma topologia em árvore livre de loops; ao falhar um link ativo, reativa um bloqueado. Variantes: RSTP (802.1w, convergência mais rápida) e MSTP (802.1s, múltiplas instâncias por VLAN). Sem STP, loops causam tempestades de broadcast."
+        },
+        {
+          "h": "Roteamento e QoS",
+          "p": "O roteamento pode ser estático (rotas configuradas manualmente) ou dinâmico (protocolos como OSPF, EIGRP, BGP que aprendem e atualizam rotas automaticamente). A tabela de roteamento é consultada para decidir o próximo salto; quando há rotas concorrentes, decide-se pela distância administrativa e pela métrica.\n\nQoS (Quality of Service) gerencia e prioriza o tráfego para garantir desempenho a aplicações sensíveis (voz, vídeo). Técnicas incluem classificação e marcação (DSCP no cabeçalho IP, CoS 802.1p na camada 2), enfileiramento com prioridade, policiamento e shaping (controle de taxa) e prevenção de congestionamento. QoS é essencial em VoIP e videoconferência, onde latência, jitter e perda de pacotes degradam a experiência."
+        },
+        {
+          "h": "SDN e redes programáveis",
+          "p": "SDN (Software-Defined Networking) separa o plano de controle (decisões de roteamento) do plano de dados (encaminhamento de pacotes), centralizando o controle em um controlador SDN com visão global da rede, programável via APIs. O protocolo OpenFlow foi o pioneiro na comunicação entre controlador e switches (southbound API); APIs northbound expõem a rede a aplicações.\n\nBenefícios: automação, programabilidade, gerência centralizada, agilidade na entrega de serviços e melhor uso de recursos. Conceitos correlatos: NFV (Network Functions Virtualization), que virtualiza funções de rede como firewalls e balanceadores em software; e SD-WAN, que aplica SDN a redes de longa distância. A centralização do controle é a marca da SDN — não confundir com a inteligência distribuída das redes tradicionais."
+        },
+        {
+          "h": "Wireless corporativo: Wi-Fi 6, WPA3 e mesh",
+          "p": "Wi-Fi 6 (IEEE 802.11ax) opera em 2,4 e 5 GHz (e 6 GHz no Wi-Fi 6E), trazendo OFDMA (subdivisão de canais para múltiplos clientes simultâneos), MU-MIMO em uplink e downlink, BSS Coloring (reduz interferência entre células) e Target Wake Time (economia de energia em IoT). O foco é a eficiência em ambientes densos, não apenas a velocidade máxima.\n\nWPA3 (sucessor do WPA2) substitui o handshake PSK pelo SAE (Simultaneous Authentication of Equals — Dragonfly), resistente a ataques de dicionário offline e oferecendo forward secrecy; inclui modo Enterprise com criptografia de 192 bits. Redes mesh usam múltiplos pontos de acesso que se interconectam dinamicamente para ampliar a cobertura com roaming transparente. Em ambiente corporativo, autenticação 802.1X/RADIUS (WPA2/3-Enterprise) é preferível à PSK."
+        }
+      ],
+      "exemplo": "Item comentado: 'O Spanning Tree Protocol (STP) tem por finalidade rotear pacotes entre VLANs distintas, atuando na camada 3 do modelo OSI.' — ERRADO. O STP atua na camada 2 (enlace) e sua finalidade é prevenir loops em topologias com links redundantes, bloqueando portas redundantes. O roteamento entre VLANs (camada 3) é feito por roteadores ou switches de camada 3, não pelo STP.",
+      "pontos_chave": [
+        "Switching é camada 2 (MAC); roteamento é camada 3 (IP); inter-VLAN exige roteamento",
+        "VLAN (802.1Q) segmenta domínios de broadcast logicamente; trunk carrega várias VLANs",
+        "STP (802.1D) previne loops de camada 2; RSTP/MSTP melhoram a convergência",
+        "QoS prioriza tráfego via DSCP/CoS, enfileiramento, policing e shaping",
+        "SDN separa plano de controle (centralizado e programável) do plano de dados; OpenFlow é southbound",
+        "NFV virtualiza funções de rede; SD-WAN aplica SDN à WAN",
+        "Wi-Fi 6 (802.11ax) traz OFDMA e MU-MIMO; WPA3 usa SAE/Dragonfly contra ataques de dicionário"
+      ],
+      "dica_prova": "Cebraspe explora a separação de planos na SDN (controle x dados): a centralização do plano de controle é o conceito-chave. Cuidado em confundir as camadas: STP e VLAN são camada 2; roteamento e QoS por DSCP envolvem camada 3. Outra pegadinha: WPA3 NÃO usa o mesmo handshake do WPA2 — substitui o PSK pelo SAE (Dragonfly)."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Linux e Windows Server",
+      "intro": "Linux e Windows Server são os dois principais sistemas operacionais de servidor corporativo. A administração avançada envolve gerência de usuários e grupos, permissões de arquivos, processos, serviços, agendamento de tarefas, configuração de rede e aplicação de políticas de segurança. Embora compartilhem conceitos, divergem na filosofia: Linux é modular, baseado em texto e fortemente orientado à linha de comando; Windows Server é integrado, orientado a GUI e a serviços de diretório (Active Directory).\n\nNo Linux, a administração gira em torno do shell, de arquivos de configuração em texto e do modelo de permissões POSIX. No Windows Server, destaca-se a gestão centralizada via Group Policy (GPO), PowerShell e papéis/funções (roles) instaláveis. Dominar ambos é requisito para auditoria de infraestrutura e para garantir hardening, conformidade e rastreabilidade.",
+      "secoes": [
+        {
+          "h": "Gerenciamento de usuários e grupos",
+          "p": "No Linux, usuários são definidos em /etc/passwd, senhas (hashes) em /etc/shadow e grupos em /etc/group; comandos como useradd, usermod, passwd e groupadd gerenciam contas. O usuário root (UID 0) é o superusuário; o sudo concede privilégios elevados controlados por /etc/sudoers, registrando o uso (rastreabilidade).\n\nNo Windows Server, contas locais são gerenciadas pelo SAM, mas em ambiente de domínio são centralizadas no Active Directory. Grupos podem ser de segurança (controle de acesso) ou de distribuição (listas de e-mail), com escopos local de domínio, global e universal. O princípio do menor privilégio e a segregação de funções aplicam-se aos dois ambientes."
+        },
+        {
+          "h": "Permissões e controle de acesso",
+          "p": "O Linux usa permissões POSIX em três classes (dono, grupo, outros) com três bits (leitura r=4, escrita w=2, execução x=1), representadas em octal (ex.: 755). Bits especiais: SUID, SGID e sticky bit. Para controle granular, há ACLs (setfacl/getfacl). O comando chmod altera permissões, chown muda o dono e umask define permissões padrão.\n\nO Windows usa NTFS com ACLs detalhadas (ACEs) por usuário/grupo, com permissões herdadas e a regra de que a negação prevalece sobre a permissão. Distinguem-se permissões de compartilhamento (share) das permissões NTFS — a efetiva é a mais restritiva entre ambas. Esse cálculo de permissão efetiva é tema recorrente."
+        },
+        {
+          "h": "Group Policy (GPO) no Windows Server",
+          "p": "As Group Policy Objects (GPOs) permitem configurar e impor centralmente políticas a usuários e computadores em um domínio Active Directory: políticas de senha, restrições de software, mapeamento de unidades, configurações de segurança e implantação de aplicativos. As GPOs são vinculadas a sites, domínios ou unidades organizacionais (OUs).\n\nA ordem de aplicação segue o acrônimo LSDOU (Local, Site, Domínio, OU), com a última a vencer em caso de conflito, salvo uso de 'Enforced' (que força a herança de cima) e 'Block Inheritance'. As políticas de computador são aplicadas no boot e as de usuário no logon, com atualização periódica (gpupdate). É um mecanismo central de hardening e conformidade no Windows."
+        },
+        {
+          "h": "Serviços, processos e administração Linux",
+          "p": "Em distribuições modernas, o systemd é o sistema de init e gerenciador de serviços (unidades .service, controle via systemctl, logs via journalctl). Processos são inspecionados com ps, top, htop; sinais (kill) os controlam. O agendamento usa cron (e systemd timers); a configuração de rede, ferramentas como ip, nmcli e arquivos em /etc.\n\nGerenciadores de pacotes (apt/dpkg no Debian/Ubuntu, dnf/rpm no RHEL/Fedora) instalam e atualizam software, importante para correções de segurança. SELinux e AppArmor reforçam o controle de acesso obrigatório (MAC), elevando o hardening além das permissões discricionárias (DAC) tradicionais."
+        }
+      ],
+      "exemplo": "Item comentado: 'No Windows Server, quando uma permissão de Negar e uma de Permitir se aplicam ao mesmo usuário sobre o mesmo recurso NTFS, prevalece a permissão de Permitir.' — ERRADO. Na resolução de permissões NTFS, a negação explícita (Deny) prevalece sobre a permissão (Allow). Além disso, ao combinar permissões de compartilhamento e NTFS, a efetiva é a mais restritiva entre as duas.",
+      "pontos_chave": [
+        "Linux: usuários em /etc/passwd, hashes em /etc/shadow; root é UID 0; sudo eleva privilégios com auditoria",
+        "Permissões POSIX (rwx, octal); chmod/chown/umask; ACLs com setfacl para granularidade",
+        "Windows NTFS: Deny prevalece sobre Allow; efetiva entre share e NTFS é a mais restritiva",
+        "GPOs aplicam políticas centralizadas; ordem LSDOU (Local, Site, Domínio, OU)",
+        "Active Directory centraliza contas e grupos (segurança x distribuição; escopos)",
+        "systemd/systemctl gerencia serviços no Linux; cron agenda tarefas",
+        "SELinux/AppArmor (MAC) reforçam o hardening sobre as permissões discricionárias (DAC)"
+      ],
+      "dica_prova": "A Cebraspe testa a regra de precedência NTFS (Deny vence Allow) e o cálculo de permissão efetiva (mais restritiva entre share e NTFS). No Linux, decore a leitura octal das permissões (755, 644) e o significado de SUID/SGID/sticky. Outra pegadinha: a ordem de aplicação de GPOs (LSDOU) e que a última a aplicar vence, exceto quando há 'Enforced'."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Virtualização e serviços de diretório",
+      "intro": "A virtualização permite que um único hardware físico hospede múltiplas máquinas virtuais (VMs) isoladas, cada uma com seu próprio sistema operacional, por meio de um hipervisor que abstrai e particiona os recursos físicos (CPU, memória, disco, rede). É a base da consolidação de servidores, da nuvem e da hiperconvergência, aumentando a utilização de hardware e a flexibilidade operacional.\n\nOs serviços de diretório, por sua vez, centralizam informações sobre usuários, computadores e recursos de rede, fornecendo autenticação e autorização unificadas. O Active Directory (AD) da Microsoft e o protocolo LDAP são os pilares dessa área, essenciais para gestão de identidades, single sign-on e aplicação de políticas em ambientes corporativos.",
+      "secoes": [
+        {
+          "h": "Hipervisores tipo 1 e tipo 2",
+          "p": "O hipervisor tipo 1 (bare-metal) roda diretamente sobre o hardware, sem SO hospedeiro, oferecendo melhor desempenho e isolamento — exemplos: VMware ESXi, Microsoft Hyper-V, KVM (integrado ao kernel Linux) e Xen. O hipervisor tipo 2 (hosted) roda sobre um sistema operacional existente — exemplos: VMware Workstation, Oracle VirtualBox — sendo adequado a desktops e laboratórios, não a produção.\n\nO KVM transforma o kernel Linux em hipervisor tipo 1, frequentemente combinado ao QEMU (emulação) e gerenciado por libvirt. O VMware vSphere é a plataforma corporativa cujo hipervisor é o ESXi e cujo gerenciamento central é o vCenter, que habilita recursos como vMotion (migração ao vivo de VMs), DRS (balanceamento de recursos) e HA (reinício automático de VMs em caso de falha de host)."
+        },
+        {
+          "h": "Virtualização x contêineres",
+          "p": "Enquanto a virtualização tradicional virtualiza o hardware (cada VM tem um SO completo), os contêineres (Docker, containerd) virtualizam o sistema operacional: compartilham o mesmo kernel do host e isolam apenas o espaço de usuário (via namespaces e cgroups). Contêineres são mais leves, iniciam em segundos e têm menor overhead, mas oferecem isolamento menos rígido que as VMs.\n\nNão se deve confundir os dois: VMs trazem isolamento forte e SO próprio (melhor para multitenancy e cargas heterogêneas); contêineres trazem densidade e portabilidade (melhor para microsserviços). Orquestradores como Kubernetes gerenciam contêineres em escala. É comum a banca testar essa distinção: contêiner não inclui um SO completo nem hipervisor."
+        },
+        {
+          "h": "Active Directory",
+          "p": "O Active Directory Domain Services (AD DS) é o serviço de diretório da Microsoft que organiza objetos (usuários, grupos, computadores) em uma estrutura hierárquica: floresta (forest) contém domínios; domínios contêm unidades organizacionais (OUs). Os controladores de domínio (DCs) autenticam usuários, tipicamente via Kerberos (autenticação por tickets), com NTLM como fallback legado.\n\nO AD integra DNS (essencial para localizar serviços via registros SRV), replicação multi-master entre DCs e o catálogo global (GC) para buscas em toda a floresta. Confiança (trust) entre domínios/florestas permite acesso entre eles. O AD é a base do single sign-on e da aplicação de GPOs no ambiente Windows corporativo."
+        },
+        {
+          "h": "LDAP e diretórios",
+          "p": "O LDAP (Lightweight Directory Access Protocol — RFC 4511) é o protocolo padrão de acesso a serviços de diretório, operando tipicamente na porta 389 (e 636 para LDAPS, sobre TLS). Organiza dados em uma árvore hierárquica (DIT) com entradas identificadas por DN (Distinguished Name), compostas de atributos (cn, ou, dc). O AD é compatível com LDAP, mas vai além ao agregar Kerberos, GPOs e replicação própria.\n\nImplementações abertas incluem OpenLDAP. O LDAP é otimizado para leituras frequentes e poucas escritas (consultas de autenticação/autorização), diferindo de um banco relacional transacional. Bind LDAP é a operação de autenticação; pesquisas usam filtros. Distinguir o protocolo LDAP (a forma de acesso) do serviço de diretório (o repositório, como AD ou OpenLDAP) é importante."
+        }
+      ],
+      "exemplo": "Item comentado: 'Os contêineres, por executarem um sistema operacional convidado completo sobre um hipervisor tipo 1, fornecem o mesmo nível de isolamento de hardware das máquinas virtuais.' — ERRADO. Contêineres NÃO executam um SO convidado completo nem dependem de hipervisor: compartilham o kernel do host e isolam apenas o espaço de usuário via namespaces e cgroups. Por isso são mais leves, porém com isolamento menos rígido que VMs.",
+      "pontos_chave": [
+        "Hipervisor tipo 1 (bare-metal: ESXi, Hyper-V, KVM, Xen) roda sobre o hardware; tipo 2 (hosted: VirtualBox) sobre um SO",
+        "KVM torna o kernel Linux um hipervisor tipo 1; vSphere usa ESXi + vCenter (vMotion, DRS, HA)",
+        "VMs virtualizam hardware (SO completo); contêineres virtualizam o SO (compartilham kernel)",
+        "AD organiza floresta > domínio > OU; autentica via Kerberos (NTLM legado) e depende de DNS",
+        "LDAP é o protocolo de acesso a diretórios (porta 389/636); AD é compatível com LDAP",
+        "DN identifica entradas no DIT; LDAP é otimizado para leitura",
+        "AD adiciona Kerberos, GPOs, replicação multi-master e catálogo global ao diretório"
+      ],
+      "dica_prova": "Cebraspe explora a diferença VM x contêiner (contêiner compartilha o kernel e não usa hipervisor) e tipo 1 x tipo 2 de hipervisor. No diretório, separe protocolo (LDAP) de produto (AD/OpenLDAP) e lembre que o AD usa Kerberos como protocolo de autenticação padrão e DEPENDE de DNS para localizar controladores."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "SAN, NAS, DAS e RAID",
+      "intro": "As arquiteturas de armazenamento corporativo definem como os dados são apresentados e acessados pelos servidores. As três principais são DAS (armazenamento de conexão direta), NAS (armazenamento conectado à rede, acesso a arquivos) e SAN (rede de armazenamento, acesso a blocos). A escolha impacta desempenho, escalabilidade, compartilhamento e custo.\n\nO RAID (Redundant Array of Independent Disks) combina múltiplos discos físicos em um arranjo lógico para ganhar desempenho, capacidade e/ou tolerância a falhas. Conhecer os níveis de RAID, o conceito de paridade, o hot-spare e a diferença entre acesso a blocos e a arquivos é fundamental para auditar a confiabilidade e o dimensionamento do armazenamento.",
+      "secoes": [
+        {
+          "h": "DAS, NAS e SAN",
+          "p": "DAS (Direct-Attached Storage) é o armazenamento conectado diretamente ao servidor (discos internos ou gabinetes via SAS/SATA), sem rede intermediária. É simples e barato, mas não compartilhável facilmente e com escalabilidade limitada.\n\nNAS (Network-Attached Storage) é um dispositivo de armazenamento que serve arquivos pela rede IP, usando protocolos de nível de arquivo como NFS (Unix/Linux) e SMB/CIFS (Windows). É ideal para compartilhamento de arquivos entre usuários. SAN (Storage Area Network) é uma rede dedicada de alto desempenho que entrega armazenamento em nível de bloco aos servidores (que enxergam os volumes como discos locais — LUNs), via Fibre Channel (FC), FCoE ou iSCSI (blocos sobre TCP/IP). A distinção central: NAS = acesso a arquivos; SAN = acesso a blocos."
+        },
+        {
+          "h": "Protocolos: iSCSI, NFS e SMB",
+          "p": "iSCSI encapsula comandos SCSI sobre TCP/IP, permitindo construir SANs em redes Ethernet convencionais (mais barato que Fibre Channel) — opera em nível de bloco, com initiators (clientes) e targets (alvos de armazenamento). É uma alternativa econômica ao FC, embora geralmente com maior latência.\n\nNFS (Network File System) é o protocolo de compartilhamento de arquivos típico do mundo Unix/Linux. SMB (Server Message Block, antes CIFS) é o do mundo Windows, usado também por NAS multiplataforma (Samba implementa SMB no Linux). NFS e SMB operam em nível de arquivo (NAS); iSCSI e FC, em nível de bloco (SAN). Trocar esses níveis é pegadinha frequente."
+        },
+        {
+          "h": "Níveis de RAID",
+          "p": "RAID 0 (striping) distribui dados entre discos para desempenho, mas SEM redundância — a falha de um disco perde tudo. RAID 1 (mirroring) espelha os dados em dois discos, com redundância total, porém usa 50% da capacidade. RAID 5 usa striping com paridade distribuída, tolerando a falha de 1 disco e exigindo no mínimo 3 discos. RAID 6 usa paridade dupla, tolerando a falha de 2 discos (mínimo 4). RAID 10 (1+0) combina espelhamento e striping, oferecendo desempenho e redundância (mínimo 4 discos).\n\nA paridade permite reconstruir os dados de um disco falho a partir dos demais. RAID 0 NÃO é tolerante a falhas (apesar de ser 'RAID'). RAID 5 sofre penalidade de escrita (cálculo de paridade) e risco durante a longa reconstrução de grandes discos, situação em que RAID 6 ou RAID 10 são preferíveis."
+        },
+        {
+          "h": "Hot-spare, e o que RAID não substitui",
+          "p": "Um hot-spare é um disco reserva que entra automaticamente em operação quando outro falha, iniciando a reconstrução sem intervenção manual e reduzindo a janela de exposição. Pode ser dedicado a um array ou global. Distingue-se do hot-swap, que é a capacidade de trocar discos com o sistema ligado.\n\nPonto crítico de prova: RAID provê redundância (disponibilidade) contra falha de hardware de disco, mas NÃO é backup. RAID não protege contra exclusão acidental, corrupção lógica, ransomware ou desastres — esses cenários exigem backup. Confundir RAID com backup é um erro conceitual frequentemente cobrado."
+        }
+      ],
+      "exemplo": "Item comentado: 'O RAID 5 garante a integridade dos dados mesmo diante da falha simultânea de dois discos do array, dispensando a realização de backups.' — ERRADO em dois pontos: RAID 5 tolera a falha de apenas UM disco (é o RAID 6 que tolera dois); e RAID, em qualquer nível, NÃO substitui backup, pois não protege contra corrupção lógica, exclusão acidental ou ransomware.",
+      "pontos_chave": [
+        "DAS = conexão direta; NAS = acesso a arquivos via IP (NFS/SMB); SAN = acesso a blocos (FC/iSCSI)",
+        "iSCSI leva blocos SCSI sobre TCP/IP (SAN barata); NFS (Unix) e SMB/CIFS (Windows) são de arquivo (NAS)",
+        "RAID 0 = striping sem redundância; RAID 1 = espelho; RAID 5 = paridade (tolera 1 falha, mín. 3)",
+        "RAID 6 tolera 2 falhas (paridade dupla); RAID 10 une espelho e striping (desempenho + redundância)",
+        "Hot-spare é disco reserva automático; hot-swap é troca a quente",
+        "RAID dá disponibilidade contra falha de disco, mas NÃO é backup",
+        "Nível de bloco (SAN) x nível de arquivo (NAS) é distinção central"
+      ],
+      "dica_prova": "As pegadinhas favoritas: (1) RAID não é backup; (2) RAID 0 não tem redundância; (3) RAID 5 tolera 1 falha e RAID 6 tolera 2; (4) NAS é acesso a arquivos e SAN é acesso a blocos. A Cebraspe frequentemente inverte SAN/NAS ou afirma que RAID dispensa backup — ambos errados."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Backup e recuperação (RPO/RTO)",
+      "intro": "Backup é a cópia de segurança de dados para permitir sua recuperação após perda, corrupção, exclusão acidental, ataque (ransomware) ou desastre. Uma estratégia de backup eficaz define o que copiar, com que frequência, por quanto tempo reter, onde armazenar e como restaurar — sempre validada por testes de restauração. As métricas RPO e RTO dimensionam, respectivamente, a perda de dados tolerável e o tempo de recuperação aceitável.\n\nTecnologias como backup completo, incremental e diferencial, snapshots, deduplicação e ferramentas específicas (como o Oracle RMAN para bancos de dados) compõem o arsenal. A regra prática 3-2-1 (três cópias, em dois tipos de mídia, com uma off-site) é referência. Diferentemente do RAID, o backup protege contra perdas lógicas e desastres.",
+      "secoes": [
+        {
+          "h": "RPO e RTO",
+          "p": "RPO (Recovery Point Objective) é a quantidade máxima de dados (medida em tempo) que a organização tolera perder em um incidente — define o ponto no tempo até o qual os dados precisam ser recuperáveis e, portanto, a frequência dos backups. Um RPO de 1 hora exige backups (ou replicação) ao menos a cada hora.\n\nRTO (Recovery Time Objective) é o tempo máximo aceitável para restaurar o serviço após uma interrupção. Um RTO baixo exige mecanismos rápidos de recuperação (snapshots, replicação, sites em standby). RPO olha para trás (dados perdidos); RTO olha para frente (tempo de retomada). Ambos derivam da análise de impacto no negócio (BIA) e orientam o investimento em redundância."
+        },
+        {
+          "h": "Tipos de backup: completo, incremental e diferencial",
+          "p": "O backup completo (full) copia todos os dados selecionados; é a base, mas consome mais tempo e espaço. O incremental copia apenas o que mudou desde o último backup (completo ou incremental), economizando espaço e tempo de cópia, porém a restauração requer o último full mais TODOS os incrementais subsequentes na ordem.\n\nO diferencial copia o que mudou desde o último backup completo; cada diferencial cresce até o próximo full, mas a restauração precisa apenas do último full mais o último diferencial. Resumo: incremental é rápido de gravar e lento/complexo de restaurar; diferencial é o oposto. Essa diferença é cobrada com frequência. Esquemas de rotação (ex.: avô-pai-filho) e GFS organizam a retenção."
+        },
+        {
+          "h": "Snapshots e deduplicação",
+          "p": "Snapshots capturam o estado de um volume ou VM em um instante, geralmente de forma instantânea via copy-on-write ou redirect-on-write, permitindo rollback rápido. São excelentes para recuperação pontual e janelas de backup curtas, mas atenção: um snapshot que reside no mesmo storage NÃO é backup — se o array falha, o snapshot se perde junto. Snapshot complementa, não substitui, o backup off-site.\n\nA deduplicação elimina blocos de dados redundantes, armazenando apenas cópias únicas e referências, o que reduz drasticamente o espaço de armazenamento e o volume transmitido em backups e replicações. Pode ser na origem (source) ou no destino (target), em linha (inline) ou pós-processo. Combinada à compressão, otimiza retenção de longo prazo."
+        },
+        {
+          "h": "Backup de bancos de dados e Oracle RMAN",
+          "p": "Bancos de dados exigem backup consistente (transacionalmente íntegro). O Oracle RMAN (Recovery Manager) é a ferramenta nativa de backup e recuperação do Oracle: faz backups completos e incrementais em nível de bloco, valida blocos corrompidos, gerencia retenção e integra-se ao catálogo de recuperação. Permite point-in-time recovery (PITR) usando os arquivos de redo/archive logs para recuperar o banco até um instante específico.\n\nBackups podem ser a quente (online, com o banco aberto, exigindo modo ARCHIVELOG) ou a frio (offline, com o banco parado). O RMAN suporta backups incrementais com block change tracking (acelera identificando blocos alterados) e deduplicação/compressão. Distinguir backup físico (RMAN, datafiles) de lógico (Data Pump/expdp, objetos) é relevante."
+        }
+      ],
+      "exemplo": "Item comentado: 'Para restaurar um sistema que utiliza estratégia de backup incremental, basta restaurar o último backup completo e o último backup incremental realizado.' — ERRADO. No incremental, a restauração exige o último backup completo MAIS todos os incrementais subsequentes, na ordem. A afirmação descreve o backup DIFERENCIAL, em que basta o último full e o último diferencial.",
+      "pontos_chave": [
+        "RPO = dados máximos perdidos (olha para trás, define frequência); RTO = tempo de retomada (olha para frente)",
+        "Incremental: rápido de gravar, restauração exige full + todos os incrementais",
+        "Diferencial: restauração exige só full + último diferencial",
+        "Snapshot é recuperação rápida, mas no mesmo storage NÃO é backup",
+        "Deduplicação remove blocos redundantes; reduz espaço e tráfego",
+        "Oracle RMAN faz backup/recuperação física, incremental por bloco e PITR (ARCHIVELOG)",
+        "Regra 3-2-1: 3 cópias, 2 mídias, 1 off-site; backup protege contra perda lógica e ransomware (RAID não)"
+      ],
+      "dica_prova": "A pegadinha mais cobrada é trocar a lógica de restauração de incremental e diferencial — memorize: incremental = full + TODOS os incrementais; diferencial = full + ÚLTIMO diferencial. Outra: afirmar que RPO é tempo de recuperação (é RTO) ou que snapshot/RAID substituem backup. Cuidado também com RMAN exigir ARCHIVELOG para backup a quente."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Hardening, firewalls e IDS/IPS",
+      "intro": "A segurança de infraestrutura combina o endurecimento (hardening) dos sistemas, a defesa de perímetro e a detecção/prevenção de intrusões. Hardening é o processo de reduzir a superfície de ataque de servidores, redes e dispositivos, desativando serviços desnecessários, aplicando correções, configurando de forma segura e seguindo benchmarks reconhecidos (CIS Benchmarks, guias DISA STIG).\n\nNa defesa de perímetro e segmentação, firewalls controlam o tráfego conforme regras; firewalls de próxima geração (NGFW) agregam inspeção profunda. IDS e IPS monitoram e, no caso do IPS, bloqueiam atividades maliciosas. Proxies intermedeiam o acesso e o NAC controla quem se conecta à rede. Esses controles, em camadas (defesa em profundidade), formam a base da proteção de redes corporativas.",
+      "secoes": [
+        {
+          "h": "Hardening",
+          "p": "Hardening consiste em configurar sistemas para o estado mais seguro possível mantendo a funcionalidade necessária: remover/desativar serviços, contas e portas desnecessários; aplicar o princípio do menor privilégio; manter patches em dia; reforçar autenticação (MFA, políticas de senha); habilitar logging e auditoria; e aplicar controles de acesso obrigatório (SELinux/AppArmor no Linux). Referências consagradas são os CIS Benchmarks e os STIGs da DISA.\n\nO hardening é uma prática contínua, alinhada à gestão de vulnerabilidades e de configuração segura (baseline). Em auditoria de TI, verificar a aderência a um baseline de configuração segura e a tempestividade dos patches é central. A redução da superfície de ataque é o objetivo essencial."
+        },
+        {
+          "h": "Firewalls e NGFW",
+          "p": "Um firewall filtra o tráfego entre redes conforme regras (permitir/bloquear) baseadas em endereços, portas e protocolos. Firewalls de filtragem de pacotes (stateless) analisam pacotes isoladamente; os stateful inspecionam o estado das conexões (tabela de estados), decisão mais inteligente e padrão atual. NGFW (Next-Generation Firewall) adiciona inspeção profunda de pacotes (DPI), reconhecimento de aplicação (camada 7), IPS integrado, filtragem por usuário/identidade e inteligência de ameaças.\n\nUma política comum é o deny-by-default (nega tudo, libera o necessário). WAF (Web Application Firewall) é específico para proteger aplicações web (camada 7) contra ataques como SQL injection e XSS — não confundir com firewall de rede tradicional. A segmentação por zonas (ex.: DMZ para serviços expostos) reforça o perímetro."
+        },
+        {
+          "h": "IDS e IPS",
+          "p": "IDS (Intrusion Detection System) monitora e detecta atividades suspeitas, gerando alertas, mas NÃO bloqueia o tráfego (atua de forma passiva, geralmente fora do caminho, recebendo cópia do tráfego por SPAN/TAP). IPS (Intrusion Prevention System) atua em linha (inline), no caminho do tráfego, podendo bloquear/descartar pacotes maliciosos em tempo real, de forma ativa.\n\nQuanto ao método de detecção: por assinatura (compara com padrões de ataques conhecidos — eficaz contra ameaças conhecidas, mas cego a ataques novos) e por anomalia/comportamento (detecta desvios de um baseline — pode pegar ataques desconhecidos, porém gera mais falsos positivos). NIDS monitora a rede; HIDS monitora um host. A distinção IDS (detecta/alerta) x IPS (previne/bloqueia) é a mais cobrada."
+        },
+        {
+          "h": "Proxies e NAC",
+          "p": "Um proxy intermedeia conexões: o proxy de encaminhamento (forward) atende clientes internos acessando a Internet, permitindo filtragem de conteúdo, cache e anonimização; o proxy reverso (reverse) fica à frente de servidores, distribuindo carga, terminando TLS e protegendo as aplicações. Proxies operam tipicamente na camada de aplicação.\n\nNAC (Network Access Control) controla a admissão de dispositivos na rede, autenticando e verificando a conformidade (postura) do endpoint (antivírus atualizado, patches) antes de conceder acesso, frequentemente via 802.1X com RADIUS. Pode colocar dispositivos não conformes em quarentena (VLAN isolada). O NAC reforça a segmentação e impede que dispositivos não autorizados ou inseguros se conectem."
+        }
+      ],
+      "exemplo": "Item comentado: 'Diferentemente do IDS, o IPS atua de forma passiva, limitando-se a registrar e alertar sobre atividades suspeitas, sem capacidade de bloquear o tráfego malicioso.' — ERRADO. A descrição (passivo, apenas alerta, sem bloqueio) é a do IDS. O IPS atua em linha (inline) e de forma ATIVA, podendo bloquear ou descartar o tráfego malicioso em tempo real.",
+      "pontos_chave": [
+        "Hardening reduz a superfície de ataque (remover serviços, patches, menor privilégio); CIS Benchmarks/STIG são referências",
+        "Firewall stateful inspeciona o estado das conexões; NGFW adiciona DPI, camada 7 e IPS integrado",
+        "WAF protege aplicações web (camada 7), distinto do firewall de rede",
+        "IDS detecta e alerta (passivo); IPS previne e bloqueia (ativo, inline)",
+        "Detecção por assinatura (ameaças conhecidas) x por anomalia (desvios, mais falsos positivos)",
+        "NIDS monitora rede; HIDS monitora host",
+        "NAC controla admissão e postura de dispositivos (802.1X/RADIUS), com quarentena de não conformes"
+      ],
+      "dica_prova": "A distinção IDS x IPS é quase certa em prova: IDS = detecta/alerta (passivo); IPS = previne/bloqueia (ativo, inline). Cuidado também ao confundir firewall stateful x stateless, e WAF (camada 7, apps web) com firewall de rede. Em detecção, por assinatura não pega ataques desconhecidos (zero-day); por anomalia pega, mas gera mais falsos positivos."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "VPNs, PKI e segmentação de rede",
+      "intro": "A proteção de dados em trânsito e o controle de quem acessa o quê dependem de VPNs, criptografia, infraestrutura de chaves públicas (PKI) e segmentação de rede. VPNs criam túneis seguros sobre redes públicas; a criptografia (simétrica e assimétrica) garante confidencialidade, integridade e autenticidade; a PKI gerencia certificados digitais que sustentam a confiança; e a segmentação isola partes da rede para conter ameaças.\n\nEsses mecanismos materializam princípios de segurança como confidencialidade, integridade, autenticidade e não repúdio, e arquiteturas modernas como zero trust e microsegmentação. Em auditoria, verifica-se o uso de protocolos seguros (TLS, IPsec), a validade e a cadeia de certificados e a adequada segregação de zonas de segurança.",
+      "secoes": [
+        {
+          "h": "VPNs: IPsec e SSL/TLS",
+          "p": "Uma VPN (Virtual Private Network) estabelece um túnel criptografado sobre uma rede pública. As VPNs site-to-site interligam redes (ex.: filiais), tipicamente via IPsec; as VPNs de acesso remoto conectam usuários individuais, frequentemente via SSL/TLS (portal/cliente web) ou IPsec.\n\nO IPsec opera na camada de rede e tem dois protocolos: AH (Authentication Header — integridade e autenticidade, sem confidencialidade) e ESP (Encapsulating Security Payload — confidencialidade, integridade e autenticidade). Possui dois modos: transporte (cifra apenas o payload, host-a-host) e túnel (cifra todo o pacote original, padrão em VPNs gateway-a-gateway). O IKE negocia as chaves/associações de segurança (SA). VPNs SSL/TLS operam na camada de aplicação/transporte e dispensam cliente dedicado (acesso por navegador). Soluções modernas como WireGuard usam criptografia atualizada e código enxuto."
+        },
+        {
+          "h": "Criptografia simétrica e assimétrica",
+          "p": "Na criptografia simétrica, a mesma chave cifra e decifra (ex.: AES); é rápida e adequada a grandes volumes, mas exige distribuição segura da chave. Na criptografia assimétrica (de chave pública, ex.: RSA, ECC), há um par de chaves: a pública cifra/verifica e a privada decifra/assina; resolve a distribuição de chaves e habilita assinatura digital, porém é mais lenta.\n\nNa prática, usam-se em conjunto (criptografia híbrida, como no TLS): a assimétrica troca/protege uma chave de sessão simétrica, que então cifra os dados. Funções de hash (SHA-256) garantem integridade. A assinatura digital combina hash + cifra com a chave privada do emissor, provendo integridade, autenticidade e não repúdio. Confidencialidade vem de cifrar com a chave PÚBLICA do destinatário; assinatura, de cifrar o hash com a chave PRIVADA do emissor."
+        },
+        {
+          "h": "PKI e certificados digitais",
+          "p": "A PKI (Public Key Infrastructure) é o conjunto de papéis, políticas e tecnologias que gerencia certificados digitais e chaves públicas. A Autoridade Certificadora (AC/CA) emite e assina certificados; a Autoridade de Registro (AR/RA) valida a identidade dos solicitantes. O certificado digital (padrão X.509) vincula uma chave pública a uma identidade, sendo assinado pela AC, formando uma cadeia de confiança até uma AC raiz.\n\nA revogação é tratada por listas de certificados revogados (CRL) ou pelo protocolo OCSP (consulta em tempo real). No Brasil, a ICP-Brasil é a infraestrutura nacional, cuja AC Raiz é gerida pelo ITI, conferindo validade jurídica a assinaturas digitais. A confiança em um certificado depende de validar a cadeia, a validade temporal e o status de revogação."
+        },
+        {
+          "h": "Segmentação, zonas e zero trust",
+          "p": "A segmentação divide a rede em zonas com diferentes níveis de confiança e controles, limitando o movimento lateral de um atacante. A DMZ (zona desmilitarizada) hospeda serviços acessíveis externamente (web, e-mail), isolando-os da rede interna. VLANs e firewalls implementam a segmentação; a microsegmentação leva o isolamento ao nível de carga de trabalho/VM individual, comum em SDN e nuvem.\n\nO modelo zero trust ('nunca confie, sempre verifique') abandona a premissa de que o interior da rede é confiável: cada acesso é autenticado, autorizado e verificado continuamente, com menor privilégio e microsegmentação. É o oposto do modelo de perímetro tradicional, em que tudo dentro era confiável. A segmentação adequada é controle-chave para conter incidentes e atende a princípios de defesa em profundidade."
+        }
+      ],
+      "exemplo": "Item comentado: 'Para garantir a confidencialidade de uma mensagem enviada a um destinatário, o emissor deve cifrá-la com a sua própria chave privada.' — ERRADO. Para confidencialidade, o emissor cifra com a chave PÚBLICA do destinatário (só a privada do destinatário decifra). Cifrar com a chave privada do emissor é o que se faz na assinatura digital (garante autenticidade/não repúdio, não confidencialidade).",
+      "pontos_chave": [
+        "VPN site-to-site (IPsec) liga redes; acesso remoto usa SSL/TLS ou IPsec",
+        "IPsec: AH (integridade/autenticidade) e ESP (também confidencialidade); modos transporte e túnel; IKE negocia SAs",
+        "Simétrica (AES) é rápida e usa mesma chave; assimétrica (RSA/ECC) usa par público/privado; TLS combina ambas (híbrida)",
+        "Confidencialidade: cifrar com a chave pública do destinatário; assinatura: cifrar o hash com a privada do emissor",
+        "PKI: CA emite e assina certificados X.509; cadeia de confiança até a raiz; revogação por CRL/OCSP",
+        "ICP-Brasil é a PKI nacional (AC Raiz no ITI), com validade jurídica",
+        "Segmentação/DMZ/microsegmentação contêm movimento lateral; zero trust nunca confia por padrão"
+      ],
+      "dica_prova": "A pegadinha clássica de criptografia: confidencialidade usa a chave PÚBLICA do destinatário; assinatura usa a chave PRIVADA do emissor. A Cebraspe inverte isso constantemente. Em IPsec, lembre que AH não cifra (sem confidencialidade) e ESP cifra. Em PKI, a revogação é por CRL/OCSP. E zero trust elimina a confiança implícita no perímetro interno."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Monitoramento e ITIL v4",
+      "intro": "O monitoramento de infraestrutura coleta, analisa e exibe métricas de desempenho, disponibilidade e saúde de servidores, redes, aplicações e serviços, gerando alertas proativos. Ferramentas como Zabbix, Grafana, Prometheus e New Relic compõem o ecossistema, frequentemente usando protocolos como SNMP e agentes. Observabilidade amplia o conceito ao combinar métricas, logs e traces para entender o estado interno dos sistemas.\n\nA gestão de serviços de TI é estruturada pelo ITIL v4, framework de boas práticas (não uma norma certificável de organização) que organiza a entrega de valor por meio de práticas como gerenciamento de incidentes, problemas, mudanças e configuração (CMDB). Monitoramento e ITIL se complementam: o primeiro alimenta os processos de detecção e resposta do segundo.",
+      "secoes": [
+        {
+          "h": "Ferramentas de monitoramento",
+          "p": "O Zabbix é uma plataforma open source de monitoramento de redes, servidores, aplicações e serviços, com coleta via agentes, SNMP, IPMI e checks ativos/passivos, com alertas e triggers configuráveis. O Prometheus é um sistema baseado em coleta por pull e séries temporais, muito usado em ambientes cloud-native e Kubernetes. O Grafana é uma ferramenta de visualização que cria dashboards a partir de várias fontes (Prometheus, Zabbix, bancos), sendo de visualização, não primariamente de coleta. O New Relic é uma solução de APM (Application Performance Monitoring) em SaaS.\n\nO SNMP (Simple Network Management Protocol) é o protocolo padrão de gerência de rede, com gerentes (NMS) e agentes que expõem variáveis na MIB; SNMPv3 adiciona autenticação e criptografia (versões anteriores são inseguras). Distinguir coleta (Zabbix/Prometheus) de visualização (Grafana) é cobrado."
+        },
+        {
+          "h": "Métricas, logs, traces e observabilidade",
+          "p": "Monitoramento tradicional foca em métricas conhecidas e thresholds (alertar quando CPU > 90%). Observabilidade vai além, baseando-se em três pilares — métricas (valores numéricos ao longo do tempo), logs (registros de eventos) e traces (rastros de uma requisição por múltiplos serviços) — para inferir o estado interno do sistema e diagnosticar problemas não previstos, comum em arquiteturas distribuídas e microsserviços.\n\nDefinem-se SLI (indicador de nível de serviço, ex.: latência), SLO (objetivo interno, ex.: 99,9% de sucesso) e SLA (acordo contratual com penalidades). A gestão de logs centralizada (ex.: pilha ELK/Elastic, Loki) e a correlação são essenciais para auditoria, detecção de incidentes e cumprimento de requisitos de rastreabilidade."
+        },
+        {
+          "h": "ITIL v4: fundamentos",
+          "p": "O ITIL v4 é um framework de gerenciamento de serviços de TI orientado à cocriação de valor. Seus elementos centrais incluem o Sistema de Valor de Serviço (SVS), a cadeia de valor de serviço (com atividades como planejar, melhorar, engajar, desenhar/transição, obter/construir, entregar/apoiar), sete princípios orientadores (ex.: focar no valor, começar onde se está, progredir iterativamente com feedback) e quatro dimensões (organizações e pessoas; informação e tecnologia; parceiros e fornecedores; fluxos de valor e processos).\n\nO ITIL v4 substitui o ciclo de vida rígido do ITIL v3 por 34 práticas (gerais de gestão, de gestão de serviço e técnicas) e integra-se a Agile, DevOps e Lean. É importante notar: ITIL é um conjunto de boas práticas (framework), não uma norma certificável de organização — a norma de SGS certificável é a ISO/IEC 20000."
+        },
+        {
+          "h": "Práticas: incidentes, problemas, mudanças e CMDB",
+          "p": "Gerenciamento de incidentes visa restaurar o serviço o mais rápido possível, minimizando o impacto (foco na recuperação, não na causa). Gerenciamento de problemas investiga a causa-raiz de incidentes (recorrentes) para eliminá-la, usando registros de erro conhecido e soluções de contorno (workarounds). Distinguir incidente (interrupção/queda de qualidade) de problema (causa subjacente) é clássico.\n\nO gerenciamento de mudanças (no ITIL v4, 'habilitação de mudança') controla alterações para minimizar risco, classificando-as em padrão (pré-aprovadas), normais (avaliadas, podendo passar por um CAB) e emergenciais. O gerenciamento de configuração mantém a CMDB (Configuration Management Database), repositório dos itens de configuração (CIs) e seus relacionamentos, base para impacto de mudanças, incidentes e auditoria de ativos."
+        }
+      ],
+      "exemplo": "Item comentado: 'No ITIL, o gerenciamento de incidentes tem por objetivo principal identificar e eliminar a causa-raiz das interrupções, evitando sua recorrência.' — ERRADO. Esse é o objetivo do gerenciamento de PROBLEMAS. O gerenciamento de incidentes visa restaurar a operação normal do serviço o mais rápido possível, minimizando o impacto ao negócio, ainda que por meio de uma solução de contorno — não necessariamente tratando a causa-raiz.",
+      "pontos_chave": [
+        "Zabbix/Prometheus coletam; Grafana visualiza (dashboards); New Relic é APM SaaS",
+        "SNMP é o protocolo de gerência (MIB, agentes); SNMPv3 adiciona segurança",
+        "Observabilidade = métricas + logs + traces; SLI (indicador), SLO (objetivo), SLA (contrato)",
+        "ITIL v4 é framework de boas práticas (não norma); a norma certificável de SGS é a ISO/IEC 20000",
+        "ITIL v4: SVS, cadeia de valor, 7 princípios, 4 dimensões e 34 práticas",
+        "Incidente restaura o serviço rápido; problema trata a causa-raiz",
+        "CMDB registra itens de configuração (CIs) e relacionamentos; mudanças: padrão, normal, emergencial"
+      ],
+      "dica_prova": "Cebraspe distingue incidente (restaurar rápido) de problema (causa-raiz) — não troque. Lembre que ITIL é boas práticas/framework, não norma certificável (essa é a ISO/IEC 20000), e que organizações certificam-se na 20000, não 'no ITIL'. Em ferramentas, Grafana é visualização, não coleta. E SNMP só é seguro a partir da v3."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Automação (PowerShell, Bash, Puppet)",
+      "intro": "A automação de infraestrutura reduz tarefas manuais, padroniza configurações, diminui erros humanos e acelera a entrega de serviços. Vai de scripts (Bash no Linux, PowerShell no Windows) a ferramentas de gerenciamento de configuração (Puppet, Ansible, Chef) e à infraestrutura como código (IaC), em que a infraestrutura é definida em arquivos versionados.\n\nAssociada à automação está a gestão de capacidade e desempenho, que assegura que os recursos de TI atendam à demanda atual e futura de forma custo-eficiente, por meio de monitoramento, análise de tendências, dimensionamento (sizing) e planejamento de capacidade. Automação e gestão de capacidade são pilares de uma operação madura, alinhadas a DevOps e à melhoria contínua.",
+      "secoes": [
+        {
+          "h": "Scripting: Bash e PowerShell",
+          "p": "O Bash é o shell padrão da maioria das distribuições Linux; scripts Bash encadeiam comandos, usam variáveis, estruturas de controle (if, for, while), pipes e redirecionamentos, sendo ideais para tarefas de administração e automação no mundo Unix/Linux. Operam essencialmente sobre texto (a filosofia 'tudo é texto').\n\nO PowerShell é o shell e linguagem de automação da Microsoft (multiplataforma desde o PowerShell Core/7), orientado a OBJETOS: seus cmdlets (verbo-substantivo, ex.: Get-Service) retornam objetos .NET, não apenas texto, permitindo encadeamento rico via pipeline. É amplamente usado para administrar Windows, Active Directory, Azure e Microsoft 365. A diferença essencial: Bash processa texto; PowerShell processa objetos."
+        },
+        {
+          "h": "Gerenciamento de configuração: Puppet, Ansible e Chef",
+          "p": "Essas ferramentas garantem que os sistemas atinjam e mantenham um estado desejado (declarativo) de forma idempotente — aplicar a configuração várias vezes leva ao mesmo resultado, sem efeitos colaterais. O Puppet usa modelo declarativo com manifests (linguagem própria), tipicamente arquitetura agente-servidor (pull): os agentes consultam o Puppet master periodicamente. O Chef usa 'recipes' em Ruby, também agente-servidor.\n\nO Ansible é agentless (sem agente nos alvos), operando via SSH (Linux) ou WinRM (Windows), com playbooks em YAML e modelo push — popular pela simplicidade. Idempotência é o conceito-chave dessas ferramentas e é frequentemente cobrado. Elas materializam a IaC ao tratar a configuração como código versionado e reproduzível."
+        },
+        {
+          "h": "Infraestrutura como código (IaC)",
+          "p": "IaC define e provisiona infraestrutura (redes, VMs, balanceadores) por meio de arquivos de configuração versionados, em vez de configuração manual. Ferramentas como Terraform (declarativo, multicloud, mantém um arquivo de estado) e AWS CloudFormation provisionam recursos de nuvem de forma reproduzível e auditável.\n\nBenefícios: consistência, repetibilidade, versionamento (Git), revisão por pares, rollback e redução de drift de configuração. Distingue-se aprovisionamento (Terraform cria a infraestrutura) de gerenciamento de configuração (Puppet/Ansible configuram o que já existe), embora haja sobreposição. IaC é pilar de DevOps e de pipelines de CI/CD, permitindo auditar a infraestrutura como se audita código-fonte."
+        },
+        {
+          "h": "Gestão de capacidade e desempenho",
+          "p": "A gestão de capacidade assegura, ao menor custo, que a TI tenha capacidade suficiente para atender aos requisitos de negócio, atuais e futuros. Envolve monitorar utilização (CPU, memória, disco, rede), analisar tendências, modelar cenários e planejar aquisições/escalonamento antes que gargalos ocorram (abordagem proativa). A gestão de desempenho foca em otimizar a resposta e a vazão dos serviços.\n\nTécnicas incluem análise de tendência, modelagem analítica e simulação, e benchmarking. Em ambientes de nuvem, a elasticidade e o autoscaling automatizam parte da gestão de capacidade, mas o planejamento (e o controle de custos — FinOps) continua necessário. Para auditoria, verificar se há planejamento de capacidade documentado e baseado em dados evita tanto a subutilização (desperdício) quanto a saturação (indisponibilidade)."
+        }
+      ],
+      "exemplo": "Item comentado: 'Ferramentas de gerenciamento de configuração como Puppet e Ansible são idempotentes, de modo que a reaplicação de uma mesma configuração a um sistema já no estado desejado não produz alterações adicionais.' — CERTO. A idempotência é uma propriedade central dessas ferramentas: a aplicação repetida converge ao mesmo estado final sem efeitos colaterais, diferentemente de scripts imperativos que poderiam reexecutar ações já realizadas.",
+      "pontos_chave": [
+        "Bash é shell Linux e processa texto; PowerShell é multiplataforma e processa objetos (.NET, cmdlets verbo-substantivo)",
+        "Puppet/Chef são agente-servidor (pull); Ansible é agentless (SSH/WinRM, push, YAML)",
+        "Idempotência: reaplicar a configuração leva ao mesmo estado sem efeitos colaterais",
+        "IaC versiona a infraestrutura como código (Terraform multicloud com arquivo de estado; CloudFormation)",
+        "Provisionamento (Terraform) x gerenciamento de configuração (Puppet/Ansible) têm focos distintos",
+        "Gestão de capacidade é proativa: monitora, analisa tendências e planeja antes de gargalos",
+        "Automação e IaC são pilares de DevOps e CI/CD"
+      ],
+      "dica_prova": "A Cebraspe cobra a idempotência (propriedade-chave do gerenciamento de configuração) e a diferença Ansible (agentless, push) x Puppet (agente, pull). Lembre que PowerShell é orientado a objetos (não texto) e multiplataforma. Em capacidade, a abordagem correta é PROATIVA (planejar antes), não apenas reagir a incidentes."
+    },
+    {
+      "ti": 6,
+      "si": 0,
+      "titulo": "Clusters e balanceamento de carga",
+      "intro": "A alta disponibilidade (HA) busca manter serviços operacionais minimizando o tempo de indisponibilidade, eliminando pontos únicos de falha por meio de redundância e mecanismos automáticos de recuperação. Clusters agrupam múltiplos servidores (nós) que cooperam para parecer um sistema único, oferecendo HA e/ou desempenho. O balanceamento de carga distribui requisições entre vários servidores, evitando sobrecarga e aumentando a capacidade.\n\nConceitos como failover, heartbeat, fencing e quórum sustentam o funcionamento dos clusters de HA. Em conjunto com balanceadores de carga (camada 4 ou 7), formam a base de aplicações resilientes e escaláveis. Dominar esses mecanismos é essencial para auditar a continuidade operacional de serviços críticos.",
+      "secoes": [
+        {
+          "h": "Tipos de cluster",
+          "p": "Clusters de alta disponibilidade (failover) mantêm um serviço disponível: se um nó falha, outro assume (ativo-passivo) ou todos atendem (ativo-ativo). Clusters de balanceamento de carga distribuem requisições para escalar capacidade. Clusters de alto desempenho/computação (HPC) dividem grandes tarefas entre nós para processamento paralelo.\n\nEm configuração ativo-passivo, o nó secundário fica em espera e só assume na falha do primário (subutilização, mas simples). Em ativo-ativo, todos os nós trabalham simultaneamente (melhor uso de recursos e capacidade somada, mas exige sincronização e tratamento de concorrência). Exemplos de tecnologias: Pacemaker/Corosync no Linux, Windows Server Failover Clustering, Kubernetes para contêineres."
+        },
+        {
+          "h": "Failover, heartbeat e fencing",
+          "p": "Failover é o processo de transferir automaticamente a operação de um nó/componente falho para outro em standby, restaurando o serviço com mínima interrupção; failback é o retorno ao nó original após a recuperação. O heartbeat é o sinal periódico trocado entre os nós para verificar se estão vivos; a ausência de heartbeats indica falha e dispara o failover.\n\nO fencing (ou STONITH — Shoot The Other Node In The Head) isola ou desliga um nó suspeito de falha para impedir que ele continue acessando recursos compartilhados e cause corrupção. É crucial para evitar o split-brain — situação em que, por falha de comunicação, dois nós julgam-se o ativo e ambos acessam os mesmos dados, corrompendo-os. O quórum (maioria de votos entre nós, às vezes com um disco/witness de desempate) é o mecanismo que decide qual partição do cluster permanece ativa, prevenindo o split-brain."
+        },
+        {
+          "h": "Balanceamento de carga",
+          "p": "O balanceador de carga (load balancer) distribui o tráfego entre múltiplos servidores back-end. Pode operar na camada 4 (transporte — distribui por IP/porta, sem entender a aplicação, mais rápido) ou na camada 7 (aplicação — decide com base em conteúdo HTTP, URLs, cookies, permitindo afinidade de sessão e roteamento avançado). Algoritmos comuns: round-robin, least connections, weighted e por hash de origem.\n\nO balanceador também faz health checks (verificações de saúde) para parar de enviar tráfego a servidores indisponíveis, contribuindo para a HA. A persistência de sessão (sticky session) mantém um cliente no mesmo servidor quando necessário. Balanceadores podem ser dedicados (appliances), software (HAProxy, NGINX) ou serviços de nuvem (ELB/ALB)."
+        },
+        {
+          "h": "HA x tolerância a falhas e o papel do quórum",
+          "p": "Vale reforçar a distinção: alta disponibilidade admite uma breve interrupção durante o failover (recuperação rápida), enquanto a tolerância a falhas (fault tolerance) mantém a operação sem interrupção perceptível, geralmente por hardware/replicação redundante e operação contínua. Clusters de HA tipicamente entregam HA com failover, não tolerância a falhas plena.\n\nO quórum é vital em clusters com número par de nós: um voto adicional (witness/quorum disk ou nó testemunha) evita empates e o split-brain quando a rede entre os nós se rompe. Sem quórum adequado, uma partição de rede pode levar duas metades a operar isoladamente, corrompendo dados — por isso, projeto de quórum e fencing andam juntos."
+        }
+      ],
+      "exemplo": "Item comentado: 'Em um cluster de alta disponibilidade, o mecanismo de fencing (STONITH) tem a finalidade de balancear a carga de requisições igualmente entre os nós ativos.' — ERRADO. O fencing isola/desliga um nó suspeito de falha para evitar que acesse recursos compartilhados e cause split-brain e corrupção de dados — não tem relação com balanceamento de carga, que é função do load balancer.",
+      "pontos_chave": [
+        "Clusters: HA/failover (disponibilidade), balanceamento (capacidade) e HPC (processamento paralelo)",
+        "Ativo-passivo: secundário em espera; ativo-ativo: todos atendem (maior uso, exige sincronização)",
+        "Failover transfere a operação ao nó standby; heartbeat detecta falhas pela ausência de sinal",
+        "Fencing/STONITH isola o nó suspeito para evitar split-brain e corrupção",
+        "Quórum (maioria/witness) decide a partição ativa e previne split-brain",
+        "Load balancer: camada 4 (IP/porta) x camada 7 (conteúdo HTTP); usa health checks e sticky sessions",
+        "HA admite breve failover; tolerância a falhas não tem interrupção perceptível"
+      ],
+      "dica_prova": "A Cebraspe cobra os termos: heartbeat (detecção de falha), fencing/STONITH (isolar nó para evitar split-brain), quórum (decidir partição ativa) e failover (assumir a operação). Não confunda fencing com balanceamento. Lembre da diferença camada 4 x camada 7 no balanceador e que HA não é igual a tolerância a falhas."
+    },
+    {
+      "ti": 6,
+      "si": 1,
+      "titulo": "Continuidade de negócios e testes de DR",
+      "intro": "A continuidade de negócios garante que a organização mantenha suas funções essenciais durante e após incidentes graves (desastres naturais, falhas massivas, ataques cibernéticos). O Plano de Continuidade de Negócios (PCN/BCP) é o documento que define estratégias, papéis e procedimentos para sustentar ou retomar rapidamente as operações críticas, abrangendo pessoas, processos, instalações e tecnologia.\n\nO Plano de Recuperação de Desastres (PRD/DRP) é o componente focado em TI: restaura sistemas, dados e infraestrutura após um desastre. Métricas como RPO e RTO orientam o dimensionamento, e a estratégia de sites de recuperação (hot, warm, cold) define a prontidão. Crucialmente, planos só têm valor se testados periodicamente — testes de DR validam a eficácia e revelam falhas antes que um desastre real ocorra.",
+      "secoes": [
+        {
+          "h": "BCP, DRP e BIA",
+          "p": "O BCP (Business Continuity Plan) é abrangente: cobre a continuidade de todos os processos críticos de negócio (não só TI), incluindo pessoas, comunicação, instalações alternativas e fornecedores. O DRP (Disaster Recovery Plan) é um subconjunto focado na recuperação dos recursos de TI (sistemas, dados, redes). Todo DRP integra um BCP, mas o BCP é mais amplo.\n\nA BIA (Business Impact Analysis — análise de impacto no negócio) é a base de ambos: identifica os processos críticos, o impacto (financeiro, legal, reputacional) de sua interrupção ao longo do tempo e define requisitos como RTO, RPO e o MTPD/MTD (período máximo tolerável de interrupção). A análise/avaliação de riscos complementa a BIA ao identificar ameaças e vulnerabilidades. A ISO 22301 é a norma de sistema de gestão de continuidade de negócios."
+        },
+        {
+          "h": "Estratégias de recuperação: sites e RPO/RTO",
+          "p": "A escolha do site de recuperação reflete o RTO desejado. O hot site é um ambiente totalmente equipado e em sincronia, capaz de assumir quase imediatamente (RTO baixíssimo, custo alto). O warm site tem infraestrutura parcial, exigindo alguma configuração e carga de dados (RTO e custo intermediários). O cold site oferece apenas espaço/infraestrutura básica, demandando provisionamento completo (RTO alto, custo baixo).\n\nA replicação de dados (síncrona para RPO próximo de zero; assíncrona para sites distantes, com algum atraso) sustenta os sites. Em nuvem, há padrões como backup-and-restore, pilot light, warm standby e multi-site ativo-ativo, que graduam custo x RTO/RPO. O RPO orienta a frequência de replicação/backup; o RTO orienta o nível de prontidão do site."
+        },
+        {
+          "h": "Testes de DR",
+          "p": "Planos não testados são presumidamente ineficazes. Os testes de DR validam procedimentos, treinam equipes e expõem lacunas. Níveis comuns, do menos ao mais disruptivo: (1) revisão de documentação/checklist; (2) walkthrough/tabletop (simulação em mesa, discussão de cenário sem execução real); (3) teste de simulação; (4) teste paralelo (recupera no site alternativo sem desligar a produção, comparando resultados); e (5) teste de interrupção total (full interruption — desativa a produção e opera pelo site de DR, o mais realista e arriscado).\n\nO tabletop é discussão teórica; o teste paralelo executa a recuperação sem afetar a produção; o full interruption efetivamente comuta para o DR. Testes devem ser periódicos e após mudanças relevantes, com lições aprendidas realimentando o plano (melhoria contínua)."
+        },
+        {
+          "h": "Governança e relação com segurança",
+          "p": "A continuidade integra-se à gestão de segurança da informação: na ISO/IEC 27001, há controles de continuidade; a ISO 22301 estabelece o sistema de gestão de continuidade de negócios (SGCN) com ciclo PDCA. Papéis e responsabilidades, cadeia de acionamento, comunicação de crise e critérios de declaração de desastre devem estar definidos.\n\nEm auditoria de TI (contexto TCU), avalia-se se há BIA atualizada, planos formalizados e aprovados, RTO/RPO compatíveis com a criticidade, sites/estratégias adequados e, sobretudo, evidência de testes periódicos e tratamento das falhas identificadas. A ausência de testes documentados é uma constatação frequente, pois compromete a confiabilidade do plano."
+        }
+      ],
+      "exemplo": "Item comentado: 'O plano de recuperação de desastres (DRP) é mais abrangente que o plano de continuidade de negócios (BCP), pois engloba, além da TI, todos os processos de negócio da organização.' — ERRADO. A relação é inversa: o BCP é o plano abrangente (todos os processos críticos, pessoas, instalações), e o DRP é um subconjunto focado na recuperação dos recursos de TI. O DRP está contido no BCP.",
+      "pontos_chave": [
+        "BCP é abrangente (todo o negócio); DRP é o subconjunto de TI; DRP está contido no BCP",
+        "BIA identifica processos críticos e define RTO, RPO e MTPD/MTD; ISO 22301 é a norma de continuidade",
+        "Hot site (RTO mínimo, custo alto); warm (intermediário); cold (RTO alto, custo baixo)",
+        "Replicação síncrona aproxima o RPO de zero; assíncrona tolera latência/distância",
+        "Testes de DR: checklist, tabletop (teórico), simulação, paralelo (sem parar produção), full interruption (comuta para DR)",
+        "Planos não testados são presumidamente ineficazes; testes devem ser periódicos",
+        "Em auditoria, verifica-se BIA atual, planos aprovados, RTO/RPO adequados e evidência de testes"
+      ],
+      "dica_prova": "A pegadinha número um é inverter a relação BCP x DRP: o BCP é o amplo, o DRP é o de TI (contido no BCP). Saiba também distinguir os tipos de teste (tabletop é teórico/discussão; paralelo não para a produção; full interruption comuta de fato) e que hot site dá menor RTO e maior custo. RPO define frequência de backup/replicação; RTO define a prontidão do site."
+    }
+  ]
+}

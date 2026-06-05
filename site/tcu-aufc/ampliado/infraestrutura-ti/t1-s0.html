@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protocolos de comunicação — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Protocolos de comunicação</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">2. Redes e comunicação de dados</p>
+    <h1>Protocolos de comunicação</h1>
+    
+    <p>Os protocolos de comunicação são regras padronizadas que permitem a troca de dados entre dispositivos em rede. Eles se organizam em camadas, descritas pelos modelos de referência OSI (7 camadas) e TCP/IP (4 camadas). Cada protocolo opera em uma ou mais camadas, com responsabilidades específicas: endereçamento, roteamento, controle de fluxo, confiabilidade, segurança e serviços de aplicação.</p><p>No nível de transporte destacam-se TCP (orientado à conexão, confiável) e UDP (sem conexão, rápido). No nível de rede, IP, ICMP e protocolos de roteamento como OSPF e BGP. Na camada de aplicação, serviços como DNS, DHCP, HTTP/HTTPS, SMTP e SSH. O TLS atua entre transporte e aplicação, provendo segurança. O domínio desses protocolos, suas portas padrão e RFCs é essencial em provas de infraestrutura.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Camada de transporte: TCP, UDP e SCTP</h2><p>TCP (RFC 793) é orientado à conexão: estabelece sessão via three-way handshake (SYN, SYN-ACK, ACK), garante entrega ordenada e confiável com numeração de segmentos, confirmações (ACK), retransmissão e controle de fluxo (janela deslizante) e de congestionamento. UDP (RFC 768) é sem conexão e sem garantias: apenas envia datagramas, sendo mais rápido e leve — ideal para DNS, VoIP, streaming e jogos, onde latência importa mais que retransmissão.</p><p>SCTP (RFC 4960) combina características de ambos: é orientado a conexão e confiável como TCP, mas suporta multihoming (múltiplos endereços por associação) e multistreaming (vários fluxos independentes na mesma associação, evitando head-of-line blocking). É usado em sinalização de telecomunicações (SS7 sobre IP).</p></section><section class="amp-sec"><h2>Camada de rede: IP, ICMP, ARP, OSPF e BGP</h2><p>IP (RFC 791/IPv4, RFC 8200/IPv6) faz o endereçamento e o roteamento dos pacotes. ICMP (RFC 792) trata mensagens de controle e erro (usado por ping e traceroute). ARP resolve endereços IP em endereços MAC dentro de uma rede local (camada de enlace/rede).</p><p>OSPF (RFC 2328) é um protocolo de roteamento interno (IGP) de estado de enlace, que usa o algoritmo de Dijkstra (SPF) para calcular o caminho mais curto com base no custo; opera dentro de um sistema autônomo. BGP (RFC 4271) é o protocolo de roteamento externo (EGP) da Internet, de vetor de caminho (path vector), que troca rotas entre sistemas autônomos (AS) usando políticas e a porta TCP 179. OSPF converge mais rápido e é interno; BGP é o protocolo que sustenta o roteamento global da Internet.</p></section><section class="amp-sec"><h2>Camada de aplicação e portas padrão</h2><p>DNS (RFC 1035, porta 53 UDP/TCP) traduz nomes em endereços IP. DHCP (portas 67/68 UDP) atribui automaticamente configurações de IP. HTTP (porta 80) e HTTPS (porta 443) servem páginas web. FTP (portas 20/21) transfere arquivos sem segurança; SFTP (sobre SSH, porta 22) e FTPS (sobre TLS) são as versões seguras. SSH (porta 22) provê acesso remoto criptografado. SMTP (porta 25/587) envia e-mails; IMAP (143/993) e POP3 (110/995) os recuperam, sendo IMAP capaz de sincronizar com o servidor e POP3 tipicamente baixar e remover.</p><p>Atenção: SFTP é SSH File Transfer Protocol (sobre SSH), distinto de FTPS (FTP sobre SSL/TLS) — confusão muito explorada em prova.</p></section><section class="amp-sec"><h2>Segurança no transporte: TLS/SSL</h2><p>TLS (Transport Layer Security, sucessor do SSL, atualmente TLS 1.3 — RFC 8446) provê confidencialidade, integridade e autenticação entre aplicação e transporte. Usa criptografia assimétrica no handshake (para troca de chaves e autenticação via certificados X.509) e criptografia simétrica para os dados em trânsito. O SSL é considerado obsoleto e inseguro (POODLE), tendo sido substituído pelo TLS.</p><p>O TLS 1.3 reduziu o handshake (1-RTT, com 0-RTT opcional), removeu algoritmos fracos e tornou perfect forward secrecy padrão. HTTPS é HTTP sobre TLS; STARTTLS atualiza conexões em texto claro (ex.: SMTP, IMAP) para TLS na mesma porta.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;O protocolo UDP, por ser orientado à conexão, garante a entrega ordenada e confiável dos segmentos por meio de confirmações e retransmissões.&#x27; — ERRADO. Essa é a descrição do TCP. O UDP é SEM conexão (connectionless), não garante entrega, ordenação nem retransmissão; por isso é mais rápido e adequado a aplicações sensíveis à latência, como DNS, VoIP e streaming.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A Cebraspe adora trocar características de TCP e UDP, confundir SFTP com FTPS, e afirmar que SSL é o protocolo atual (é obsoleto; o atual é TLS). Outra pegadinha: dizer que OSPF roteia entre sistemas autônomos (isso é o BGP) — OSPF é interno (IGP). Memorize as portas padrão, pois caem com frequência.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s1.html">← Hiperconvergência, escalabilidade e redundância</a><a class="pager next" href="t1-s1.html">Switching, roteamento, SDN e wireless →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>TCP é orientado à conexão, confiável e ordenado (handshake SYN/SYN-ACK/ACK); UDP é sem conexão e rápido</li><li>SCTP une confiabilidade do TCP com multihoming e multistreaming</li><li>OSPF é IGP de estado de enlace (Dijkstra/SPF); BGP é EGP path-vector da Internet (TCP 179)</li><li>Portas: DNS 53, DHCP 67/68, HTTP 80, HTTPS 443, SSH/SFTP 22, FTP 20/21, SMTP 25/587</li><li>SFTP é sobre SSH; FTPS é FTP sobre TLS — não confundir</li><li>TLS (sucessor do SSL) usa assimétrica no handshake e simétrica nos dados; TLS 1.3 é o atual</li><li>IMAP sincroniza com o servidor; POP3 tipicamente baixa e remove</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

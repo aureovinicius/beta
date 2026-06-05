@@ -1,0 +1,255 @@
+{
+  "slug": "engenharia-dados",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 2,
+      "titulo": "Bancos NoSQL (MongoDB, Elasticsearch)",
+      "intro": "Bancos NoSQL (\"Not Only SQL\") surgiram para atender cenários em que o modelo relacional tradicional encontra limitações: volumes massivos de dados (Big Data), necessidade de escalabilidade horizontal, esquemas flexíveis e alta disponibilidade em sistemas distribuídos. Em vez de tabelas rígidas com esquema fixo e junções (joins), os bancos NoSQL adotam estruturas otimizadas para padrões de acesso específicos, frequentemente sacrificando parte das garantias ACID em favor de desempenho e escalabilidade.\n\nNão existe um único \"banco NoSQL\": trata-se de uma família com quatro categorias principais — orientados a documentos (MongoDB, Couchbase), chave-valor (Redis, DynamoDB), famílias de colunas (Cassandra, HBase) e grafos (Neo4j). Sistemas de busca como o Elasticsearch, embora muitas vezes classificados como motores de busca/análise, também são tratados como bancos orientados a documentos com índice invertido. A escolha entre NoSQL e relacional depende do problema, não de \"modernidade\": cada modelo tem seu nicho.",
+      "secoes": [
+        {
+          "h": "As quatro categorias de NoSQL",
+          "p": "Documento: armazena registros semiestruturados em JSON/BSON, onde cada documento pode ter campos próprios (esquema flexível). Ideal para catálogos, perfis e dados aninhados. Ex.: MongoDB.\n\nChave-valor: o mais simples; associa uma chave a um valor opaco. Extremamente rápido para cache e sessões. Ex.: Redis, Amazon DynamoDB.\n\nFamília de colunas (wide-column): armazena dados por colunas agrupadas, otimizado para escrita massiva e leitura de grandes volumes. Ex.: Apache Cassandra, HBase.\n\nGrafo: modela entidades (nós) e relacionamentos (arestas) como cidadãos de primeira classe, ideal para redes sociais, detecção de fraude e análise de vínculos. Ex.: Neo4j."
+        },
+        {
+          "h": "MongoDB",
+          "p": "MongoDB é o NoSQL de documentos mais popular. Armazena documentos em BSON (JSON binário), agrupados em coleções (equivalentes a tabelas). Não exige esquema fixo: documentos da mesma coleção podem ter estruturas diferentes. Suporta índices, agregações (aggregation pipeline) e sharding (particionamento horizontal por chave de shard) para escalabilidade, além de replica sets para alta disponibilidade.\n\nA partir da versão 4.x, o MongoDB passou a oferecer transações multidocumento ACID, derrubando a ideia (frequente em provas antigas) de que NoSQL \"nunca\" tem transações. Ainda assim, a modelagem recomendada favorece a desnormalização e o aninhamento (embedding) de dados relacionados em um único documento, reduzindo a necessidade de junções."
+        },
+        {
+          "h": "Elasticsearch",
+          "p": "Elasticsearch é um motor de busca e análise distribuído construído sobre a biblioteca Apache Lucene. Indexa documentos JSON usando um índice invertido, que mapeia termos para os documentos onde aparecem, permitindo busca textual (full-text search) rápida, relevância (scoring), busca por proximidade e agregações analíticas em tempo quase real.\n\nÉ a peça central do stack ELK/Elastic Stack (Elasticsearch, Logstash, Kibana, Beats), amplamente usado para análise de logs, observabilidade, SIEM e busca em e-commerce. Organiza dados em índices distribuídos em shards e réplicas. Não é um substituto de banco transacional: seu foco é leitura, busca e análise, não consistência transacional forte."
+        },
+        {
+          "h": "Teorema CAP",
+          "p": "O teorema CAP (Brewer) afirma que um sistema de dados distribuído não pode garantir simultaneamente as três propriedades: Consistência (Consistency — toda leitura recebe a escrita mais recente), Disponibilidade (Availability — toda requisição recebe resposta) e Tolerância a Partição (Partition tolerance — o sistema continua operando mesmo com falhas de comunicação na rede). Como partições de rede são inevitáveis em sistemas distribuídos, na prática a escolha real é entre consistência (CP) e disponibilidade (AP) quando ocorre uma partição.\n\nSistemas CP (ex.: MongoDB em configuração padrão, HBase) priorizam consistência, podendo recusar respostas durante uma partição. Sistemas AP (ex.: Cassandra, DynamoDB) priorizam disponibilidade, aceitando consistência eventual. O conceito BASE (Basically Available, Soft state, Eventual consistency) contrasta com o ACID dos relacionais: muitos NoSQL adotam consistência eventual, em que réplicas convergem para o mesmo estado após algum tempo."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Conforme o teorema CAP, um sistema de banco de dados distribuído pode garantir, ao mesmo tempo, consistência, disponibilidade e tolerância a partição.\" — ERRADO. O teorema estabelece que apenas duas das três propriedades podem ser garantidas simultaneamente quando há partição de rede; como a tolerância a partição é mandatória em sistemas distribuídos, a escolha prática recai entre consistência e disponibilidade. Em uma auditoria de TI, ao avaliar uma solução de catálogo de produtos com esquema variável e alto volume de leituras, o auditor pode considerar adequada a adoção de MongoDB; já para análise de logs de segurança e dashboards de observabilidade, o Elasticsearch seria a escolha técnica coerente.",
+      "pontos_chave": [
+        "NoSQL = família com 4 tipos: documento, chave-valor, coluna e grafo",
+        "MongoDB: documentos BSON, esquema flexível, sharding e replica sets; suporta transações ACID desde a v4.x",
+        "Elasticsearch: busca full-text via índice invertido (Lucene); base do Elastic Stack/ELK",
+        "Teorema CAP: só 2 de 3 (Consistência, Disponibilidade, Partição) sob partição de rede",
+        "Como partições são inevitáveis, a escolha real é CP vs AP",
+        "BASE (consistência eventual) contrasta com ACID dos relacionais",
+        "NoSQL não substitui relacional: cada um tem seu cenário ideal"
+      ],
+      "dica_prova": "A pegadinha clássica é afirmar que o CAP permite as três propriedades juntas (sempre ERRADO) ou que NoSQL \"não tem transações\" (hoje desatualizado para o MongoDB). Cuidado também ao associar BASE a ACID: são opostos. Cebraspe gosta de testar o pareamento exemplo-categoria (ex.: Cassandra como AP, Neo4j como grafo, Redis como chave-valor)."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "APIs, arquivos e mensageria",
+      "intro": "A engenharia de dados depende de conectores que captam dados de fontes heterogêneas. Os três grandes mecanismos de integração são: APIs (interfaces de aplicação, como REST e SOAP, para consumo síncrono via requisição/resposta), arquivos (lotes de dados em formatos como CSV, JSON, XML e Parquet) e mensageria (troca assíncrona de mensagens e eventos via brokers como o Apache Kafka).\n\nCada mecanismo atende a um padrão de integração distinto. APIs são adequadas para consultas pontuais e integração em tempo real entre sistemas; arquivos são típicos de cargas em lote (batch) e intercâmbio entre organizações; mensageria habilita arquiteturas orientadas a eventos, desacopladas e escaláveis, processando fluxos contínuos (streaming) de dados.",
+      "secoes": [
+        {
+          "h": "APIs: REST e SOAP",
+          "p": "Web Services expõem funcionalidades e dados pela rede. SOAP (Simple Object Access Protocol) é um protocolo baseado em XML, com contrato formal definido em WSDL, suporte a padrões WS-* (WS-Security, transações) e independência de transporte (HTTP, SMTP). É verboso e mais rígido, comum em sistemas legados, bancos e governo.\n\nREST (Representational State Transfer) é um estilo arquitetural (não um protocolo) que usa os métodos HTTP (GET, POST, PUT, DELETE), URIs para identificar recursos e, tipicamente, JSON como formato. É stateless, mais leve e amplamente dominante em integrações web modernas. GraphQL e gRPC são alternativas relevantes: o primeiro permite ao cliente especificar exatamente os campos desejados; o segundo, baseado em HTTP/2 e Protocol Buffers, é eficiente para comunicação interna de microsserviços."
+        },
+        {
+          "h": "Formatos de arquivo",
+          "p": "CSV: texto delimitado (vírgula/ponto-e-vírgula), simples e universal, mas sem tipos nem hierarquia; problemático com acentos, separadores e dados aninhados.\n\nJSON: texto semiestruturado, hierárquico, legível, padrão de APIs REST. XML: também hierárquico, mais verboso, com suporte a esquemas (XSD) e namespaces; comum em SOAP e intercâmbios B2B.\n\nParquet: formato colunar, binário e comprimido, otimizado para análise (OLAP) e Big Data. Por armazenar dados por coluna, permite ler apenas as colunas necessárias e comprimir eficientemente, sendo padrão em Data Lakes (junto com ORC e Avro — este último orientado a linha e ideal para serialização em streaming). A regra prática: CSV/JSON para intercâmbio e legibilidade; Parquet para volume e desempenho analítico."
+        },
+        {
+          "h": "Mensageria e eventos (Kafka)",
+          "p": "A mensageria desacopla produtores e consumidores: o produtor publica mensagens em um intermediário (broker) e os consumidores as leem de forma assíncrona, sem que os sistemas precisem estar disponíveis ao mesmo tempo. Dois modelos clássicos: filas (point-to-point, uma mensagem para um consumidor) e publicação/assinatura (pub/sub, uma mensagem para múltiplos assinantes).\n\nApache Kafka é uma plataforma de streaming de eventos distribuída. Organiza mensagens em tópicos, particionados e replicados entre brokers. Diferentemente de filas tradicionais (RabbitMQ, ActiveMQ), o Kafka persiste os eventos em um log ordenado e imutável por um período configurável (retention), permitindo reprocessamento e múltiplos consumidores independentes (consumer groups). É a espinha dorsal de pipelines de dados em tempo real e arquiteturas orientadas a eventos (event-driven). RabbitMQ, por sua vez, é um broker tradicional focado em roteamento de mensagens e protocolo AMQP."
+        },
+        {
+          "h": "Escolhendo o mecanismo de captação",
+          "p": "A decisão de arquitetura considera latência, volume, acoplamento e garantias de entrega. Para sincronismo e consulta pontual, usa-se API REST. Para grandes lotes periódicos (ex.: extração noturna de um sistema legado), arquivos em Parquet ou CSV. Para fluxos contínuos, alto throughput e desacoplamento entre dezenas de sistemas, mensageria com Kafka.\n\nEm pipelines reais, esses mecanismos coexistem: eventos chegam via Kafka, são enriquecidos com chamadas a APIs e materializados como arquivos Parquet em um Data Lake. As garantias de entrega (at-most-once, at-least-once, exactly-once) e a idempotência dos consumidores são preocupações centrais para evitar perda ou duplicação de dados."
+        }
+      ],
+      "exemplo": "Cenário de auditoria: o TCU avalia um sistema de integração de dados orçamentários. O auditor verifica que a captação de um sistema legado é feita por SOAP/XML com WS-Security, os relatórios analíticos são gravados em Parquet num Data Lake, e notificações de empenho trafegam por tópicos Kafka consumidos por vários sistemas. Item de prova: \"O Apache Kafka, por persistir eventos em um log particionado e replicado, permite que múltiplos consumidores leiam o mesmo fluxo de mensagens de forma independente e que ocorra reprocessamento.\" — CERTO.",
+      "pontos_chave": [
+        "SOAP: protocolo XML com WSDL e WS-*; REST: estilo arquitetural sobre HTTP, leve, geralmente JSON",
+        "REST é stateless e usa métodos HTTP (GET/POST/PUT/DELETE)",
+        "CSV/JSON/XML para intercâmbio; Parquet (colunar, comprimido) para análise/Big Data",
+        "Parquet e ORC são colunares; Avro é orientado a linha (streaming)",
+        "Mensageria desacopla produtor e consumidor de forma assíncrona (filas e pub/sub)",
+        "Kafka: streaming de eventos, tópicos particionados, log persistente, consumer groups",
+        "Garantias de entrega e idempotência evitam perda/duplicação de dados"
+      ],
+      "dica_prova": "Cebraspe confunde REST (estilo arquitetural) com SOAP (protocolo) — atenção a essa classificação. Outra pegadinha: dizer que Parquet é orientado a linha (é colunar) ou que CSV suporta dados hierárquicos (não suporta nativamente). Sobre Kafka, lembre que ele persiste o log e permite reprocessamento, diferentemente de filas que costumam descartar a mensagem após consumo."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "Versionamento, logging e CI/CD",
+      "intro": "Pipelines de dados modernos são tratados como software (\"data as code\"): seu código, configurações e até a definição de transformações ficam sob controle de versão, são testados automaticamente e implantados por pipelines de integração e entrega contínuas (CI/CD). Isso traz rastreabilidade, reprodutibilidade e qualidade — atributos essenciais para auditoria.\n\nAlém disso, pipelines robustos exigem logging detalhado (registro de execução, erros e métricas), tolerância a falhas (retries automáticos e checkpoints para retomar de onde parou) e monitoramento. A combinação dessas práticas transforma scripts frágeis em fluxos de dados confiáveis, auditáveis e operacionalmente resilientes.",
+      "secoes": [
+        {
+          "h": "Versionamento de código e dados",
+          "p": "O versionamento de código (Git) registra cada alteração nas transformações, esquemas e configurações do pipeline, permitindo identificar quem alterou o quê, quando e por quê — base de toda auditoria de mudanças. Práticas como branches, pull requests e revisão de código (code review) garantem governança sobre o que entra em produção.\n\nNo contexto de dados, surge também o versionamento de dados e de esquemas: ferramentas como DVC (Data Version Control) versionam datasets e modelos, e formatos de tabela como Delta Lake, Apache Iceberg e Apache Hudi oferecem \"time travel\" (consultar o estado dos dados em um instante passado) e controle de versão das tabelas no Data Lake. Migrações de esquema (ex.: Flyway, Liquibase) versionam a evolução da estrutura dos bancos."
+        },
+        {
+          "h": "Logging, observabilidade e tolerância a falhas",
+          "p": "O logging registra eventos da execução do pipeline: início/fim de tarefas, contagem de registros processados, erros e tempos. Logs estruturados (JSON) alimentam ferramentas de observabilidade (ELK, Grafana, Prometheus) e são insumo direto para auditoria e troubleshooting. A observabilidade vai além: métricas, logs e traces permitem entender o comportamento do pipeline.\n\nTolerância a falhas é crítica: retries (novas tentativas automáticas com backoff) tratam falhas transitórias; checkpoints salvam o progresso para que, em caso de falha, o processamento retome do último ponto consistente em vez de recomeçar; e a idempotência garante que reexecutar uma etapa não duplique dados. Orquestradores como Apache Airflow (com DAGs), Dagster e Prefect coordenam tarefas, dependências, agendamento e tratamento de falhas."
+        },
+        {
+          "h": "CI/CD aplicado a pipelines de dados",
+          "p": "Integração Contínua (CI) automatiza, a cada commit, a verificação do código: testes unitários das transformações, testes de qualidade de dados, validação de esquemas e análise estática. Entrega/Implantação Contínua (CD) automatiza a publicação das mudanças nos ambientes (dev, homologação, produção), reduzindo erros manuais.\n\nFerramentas como GitHub Actions, GitLab CI e Jenkins executam esses pipelines de automação. No mundo de dados, frameworks como dbt (data build tool) integram transformações SQL versionadas, testes de dados e documentação ao fluxo de CI/CD, materializando o conceito de \"analytics engineering\". Boas práticas incluem ambientes separados, infraestrutura como código (Terraform) e promoção controlada entre estágios."
+        },
+        {
+          "h": "Por que isso importa para auditoria",
+          "p": "Para o controle externo, pipelines versionados e com logging completo significam trilha de auditoria: é possível reconstituir qual versão do código gerou determinado dado, quando e com quais parâmetros, garantindo reprodutibilidade e não repúdio. A separação de ambientes e a aprovação via pull request evidenciam segregação de funções e controle de mudanças (alinhados a COBIT 2019 e ITIL v4).\n\nA ausência dessas práticas — pipelines manuais, sem versionamento, sem logs — é um achado de auditoria recorrente, pois compromete a confiabilidade, a integridade e a rastreabilidade das informações que apoiam decisões de gestão e fiscalização."
+        }
+      ],
+      "exemplo": "Cenário de auditoria de TI: ao analisar um pipeline que consolida dados de despesas, o auditor solicita o histórico de versões (Git) das transformações e os logs de execução. Constata que uma carga falhou na madrugada, mas o pipeline retomou automaticamente via checkpoint e registrou o evento, sem duplicar registros (idempotência). Item de prova: \"Em pipelines de dados, checkpoints permitem retomar o processamento a partir do último ponto consistente após uma falha, e a idempotência evita a duplicação de dados em reexecuções.\" — CERTO.",
+      "pontos_chave": [
+        "Pipelines tratados como software: código sob Git, com branches, PRs e code review",
+        "Versionamento de dados/esquemas: DVC, Delta Lake/Iceberg/Hudi (time travel), Flyway/Liquibase",
+        "Logging estruturado alimenta observabilidade e serve de trilha de auditoria",
+        "Tolerância a falhas: retries, checkpoints e idempotência",
+        "Orquestração: Airflow (DAGs), Dagster, Prefect",
+        "CI = testes/validação automáticos a cada commit; CD = deploy automatizado entre ambientes",
+        "GitHub Actions/GitLab CI/Jenkins; dbt para transformações versionadas e testadas",
+        "Versionamento + logs garantem reprodutibilidade, rastreabilidade e segregação de funções"
+      ],
+      "dica_prova": "Cebraspe pode contrastar Integração Contínua (verificação a cada commit) com Entrega/Implantação Contínua (deploy automatizado) — não confunda os termos. Cuidado com afirmações que tratam logging como opcional ou que dizem que retry e checkpoint são a mesma coisa: retry repete a tentativa; checkpoint salva o progresso para retomada. Idempotência cai como garantia contra duplicação."
+    },
+    {
+      "ti": 4,
+      "si": 0,
+      "titulo": "Linhagem, catalogação e metadados",
+      "intro": "A governança de dados exige saber o que se tem, de onde vem e para onde vai cada dado. Três pilares sustentam isso: metadados (dados sobre os dados), catalogação (organização e descoberta dos ativos de dados em um catálogo) e linhagem (lineage — o rastreamento da origem, das transformações e do destino dos dados ao longo de todo o pipeline).\n\nEsses elementos respondem perguntas críticas: \"de onde veio este indicador?\", \"quem é o dono deste dado?\", \"o que acontece se esta tabela mudar?\". São fundamentais para confiança, conformidade regulatória (LGPD), análise de impacto e, no controle externo, para a auditabilidade das informações que embasam decisões.",
+      "secoes": [
+        {
+          "h": "Metadados",
+          "p": "Metadados são informações que descrevem outros dados. Classificam-se em: técnicos (esquema, tipos, formatos, tamanho, localização), de negócio (significado, regras, definições, glossário), operacionais (data de carga, frequência de atualização, volume, qualidade) e de governança (proprietário/owner, classificação de sensibilidade, políticas de acesso e retenção).\n\nA gestão de metadados é a base da governança: sem metadados confiáveis, não há catálogo, linhagem nem controle de qualidade efetivos. Um glossário de negócio padroniza a terminologia (ex.: a definição única de \"servidor ativo\"), evitando interpretações divergentes entre áreas e garantindo consistência semântica."
+        },
+        {
+          "h": "Catalogação de dados",
+          "p": "Um catálogo de dados (data catalog) é um inventário centralizado e pesquisável dos ativos de dados da organização — tabelas, datasets, relatórios, painéis — enriquecido com metadados, glossário, tags de classificação e informações de propriedade. Funciona como um \"Google interno\" dos dados, habilitando descoberta, autoatendimento e reuso, e reduzindo o retrabalho e os \"dados sombra\".\n\nFerramentas como Apache Atlas, DataHub, Amundsen, Collibra, Alation e o Microsoft Purview implementam catálogos. Eles costumam integrar classificação automática de dados sensíveis (PII), políticas de acesso e a própria linhagem, sendo peça central de iniciativas de governança e de conformidade com a LGPD."
+        },
+        {
+          "h": "Linhagem de dados (data lineage)",
+          "p": "A linhagem rastreia o ciclo de vida do dado: sua origem (fonte), todas as transformações aplicadas (ETL, agregações, junções) e seu destino (relatórios, painéis, modelos). Pode ser representada como um grafo direcionado, mostrando como uma coluna de um relatório deriva de campos específicos de tabelas de origem.\n\nSeu valor é triplo: análise de impacto (\"se eu alterar esta coluna de origem, quais relatórios quebram?\"), análise de causa-raiz (\"este número está errado — em qual etapa o erro entrou?\") e conformidade/auditoria (demonstrar a procedência e o tratamento de dados pessoais). A linhagem pode ser capturada manualmente, por parsing de código SQL, ou automaticamente por ferramentas (OpenLineage é um padrão aberto; dbt e Airflow expõem linhagem nativamente)."
+        },
+        {
+          "h": "Relação com governança e LGPD",
+          "p": "Linhagem, catálogo e metadados operacionalizam a governança de dados (frameworks como o DAMA-DMBOK). Atribuem responsabilidades (data owner e data steward), tornam os dados localizáveis e confiáveis e sustentam o cumprimento de obrigações legais.\n\nNa LGPD, por exemplo, atender ao direito do titular de eliminação ou portabilidade exige saber onde os dados pessoais estão e por onde transitam — exatamente o que catálogo e linhagem fornecem. Para auditoria, a linhagem é a evidência objetiva da procedência e integridade de um indicador, ligando o número final à sua fonte primária."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"A linhagem de dados (data lineage) registra a origem, as transformações e o destino dos dados, permitindo análise de impacto e identificação da causa-raiz de inconsistências.\" — CERTO. Em auditoria: ao questionar um indicador de execução orçamentária divergente, o auditor usa a linhagem para rastrear o número até a tabela-fonte e descobre que uma transformação aplicou filtro indevido. Sem linhagem nem catálogo, essa rastreabilidade seria inviável, configurando fragilidade de governança.",
+      "pontos_chave": [
+        "Metadados = dados sobre dados (técnicos, de negócio, operacionais, de governança)",
+        "Glossário de negócio padroniza a semântica dos termos",
+        "Catálogo de dados = inventário pesquisável de ativos com metadados e classificação",
+        "Ferramentas: Apache Atlas, DataHub, Amundsen, Collibra, Alation, Microsoft Purview",
+        "Linhagem rastreia origem → transformações → destino do dado",
+        "Linhagem habilita análise de impacto, causa-raiz e conformidade/auditoria",
+        "Papéis: data owner (responsável) e data steward (zelador)",
+        "Sustenta LGPD (localizar dados pessoais) e governança (DAMA-DMBOK)"
+      ],
+      "dica_prova": "Não confunda os três conceitos: metadados descrevem o dado; catálogo organiza e torna localizável; linhagem rastreia o fluxo de origem a destino. Cebraspe pode trocar as definições. Outra pegadinha: associar análise de impacto à qualidade de dados em vez de à linhagem. Lembre que data owner e data steward são papéis distintos de governança."
+    },
+    {
+      "ti": 4,
+      "si": 1,
+      "titulo": "Qualidade de dados",
+      "intro": "Qualidade de dados é o grau em que os dados atendem às necessidades de uso, sendo confiáveis, completos, consistentes e adequados à decisão. Dados de baixa qualidade — duplicados, incompletos, inconsistentes ou desatualizados — comprometem análises, relatórios e a própria credibilidade das decisões de gestão e fiscalização (\"garbage in, garbage out\").\n\nA gestão de qualidade envolve definir dimensões mensuráveis, validar dados contra regras, tratar inconsistências (limpeza/cleansing), eliminar duplicidades (deduplicação) e monitorar continuamente por meio de métricas e regras automatizadas dentro dos pipelines. É um pilar da governança de dados e tema recorrente em auditorias de TI.",
+      "secoes": [
+        {
+          "h": "Dimensões da qualidade de dados",
+          "p": "A qualidade é avaliada em dimensões. As mais cobradas: Completude (ausência de valores faltantes onde são esperados); Acurácia/Exatidão (o dado reflete corretamente a realidade); Consistência (ausência de contradições entre fontes/sistemas); Validade/Conformidade (o dado obedece a formato, tipo e regras — ex.: CPF válido, data dentro do intervalo); Unicidade (ausência de duplicatas); Atualidade/Tempestividade (o dado está atualizado e disponível a tempo); e Integridade (relações referenciais preservadas).\n\nEssas dimensões orientam a definição de indicadores e regras de qualidade que podem ser medidos objetivamente — por exemplo, \"percentual de registros com CPF inválido\" ou \"taxa de campos obrigatórios em branco\"."
+        },
+        {
+          "h": "Validação e conformidade",
+          "p": "A validação aplica regras (data quality rules) para verificar se os dados atendem às dimensões: restrições de tipo e formato, intervalos permitidos, listas de domínio, regras de negócio e integridade referencial. A conformidade verifica a aderência a padrões definidos (ex.: padronização de unidades, máscaras, codificações).\n\nNa prática, frameworks como Great Expectations, dbt tests, Soda e Deequ (AWS) permitem declarar expectativas sobre os dados (ex.: \"esta coluna não pode ter nulos\", \"valores devem estar entre 0 e 100\") e executá-las automaticamente no pipeline, bloqueando ou sinalizando cargas que violem as regras. Isso integra qualidade ao CI/CD de dados, deslocando a verificação para o início do fluxo (shift-left)."
+        },
+        {
+          "h": "Deduplicação",
+          "p": "A deduplicação identifica e remove (ou consolida) registros duplicados que representam a mesma entidade. A duplicidade pode ser exata (registros idênticos) ou aproximada/fuzzy (mesma pessoa grafada de formas diferentes — \"João da Silva\" e \"Joao Silva\").\n\nTécnicas incluem deduplicação por chave determinística (mesmo CPF), correspondência aproximada (fuzzy matching, com distância de edição/Levenshtein, similaridade fonética) e record linkage/entity resolution, que vinculam registros de fontes distintas referentes à mesma entidade. A deduplicação melhora as dimensões de unicidade e consistência e é etapa típica da limpeza de dados (data cleansing), frequentemente apoiada por MDM (Master Data Management), que mantém uma versão única e confiável dos dados mestres (clientes, fornecedores, produtos)."
+        },
+        {
+          "h": "Monitoramento e ciclo de melhoria",
+          "p": "Qualidade não é evento único, mas processo contínuo: perfilamento de dados (data profiling) para conhecer a distribuição e detectar anomalias; definição de regras e métricas; medição com painéis e scorecards de qualidade; correção das causas-raiz; e monitoramento contínuo com alertas. Detecção de anomalias e observabilidade de dados (data observability) acompanham frescor, volume, esquema e distribuição.\n\nGovernança atribui responsáveis (data stewards) pela qualidade de cada domínio. Para auditoria, métricas de qualidade documentadas e o tratamento de exceções são evidências de controle; a inexistência de controles de qualidade configura risco à confiabilidade das informações."
+        }
+      ],
+      "exemplo": "Cenário de auditoria: o TCU analisa uma base de beneficiários e o auditor executa um perfilamento que revela 4% de CPFs inválidos (falha de validade) e múltiplos cadastros para a mesma pessoa (falha de unicidade), corrigíveis por deduplicação com record linkage. Item de prova: \"Validade (ou conformidade) refere-se à aderência do dado a formatos e regras definidas, enquanto unicidade trata da ausência de registros duplicados; a deduplicação atua sobre esta última dimensão.\" — CERTO.",
+      "pontos_chave": [
+        "Dimensões: completude, acurácia, consistência, validade/conformidade, unicidade, atualidade, integridade",
+        "Regras de qualidade tornam as dimensões mensuráveis objetivamente",
+        "Validação verifica tipo, formato, domínio, intervalo e regras de negócio",
+        "Frameworks: Great Expectations, dbt tests, Soda, Deequ (integram ao CI/CD)",
+        "Deduplicação remove duplicatas (exatas ou fuzzy); record linkage vincula entidades",
+        "MDM mantém versão única e confiável dos dados mestres",
+        "Qualidade é processo contínuo: profiling, regras, métricas, monitoramento, correção",
+        "Ausência de controles de qualidade = risco à confiabilidade (achado de auditoria)"
+      ],
+      "dica_prova": "Cebraspe testa o pareamento dimensão-definição: não confunda completude (faltantes) com acurácia (reflete a realidade) nem unicidade (duplicatas) com consistência (contradições entre fontes). Deduplicação cai associada a unicidade e a fuzzy matching/record linkage. Cuidado: validação/conformidade verifica regras e formatos, não a veracidade factual (isso é acurácia, que depende de fonte de verdade externa)."
+    },
+    {
+      "ti": 5,
+      "si": 0,
+      "titulo": "Serviços gerenciados (Azure Data Factory, Databricks)",
+      "intro": "Serviços gerenciados (managed services) em nuvem entregam capacidades de engenharia de dados — orquestração, integração e processamento — sem que a organização precise provisionar e administrar a infraestrutura subjacente. O provedor cuida de servidores, escalabilidade, patches e alta disponibilidade; o cliente foca na lógica de dados. Isso acelera entregas e reduz o esforço operacional (modelo PaaS).\n\nDois serviços muito presentes em provas de TI são o Azure Data Factory (ADF), serviço de orquestração e integração de dados (ETL/ELT) da Microsoft Azure, e o Databricks, plataforma de análise unificada baseada em Apache Spark, disponível nas principais nuvens. Eles frequentemente atuam de forma complementar: o ADF orquestra e move dados; o Databricks processa e transforma em grande escala.",
+      "secoes": [
+        {
+          "h": "Azure Data Factory (ADF)",
+          "p": "O Azure Data Factory é um serviço gerenciado de integração de dados que permite criar, agendar e orquestrar pipelines de ETL/ELT na nuvem, sem servidores próprios. Conecta-se a dezenas de fontes (bancos on-premises e em nuvem, SaaS, arquivos) por meio de conectores (linked services) e do recurso de cópia de dados.\n\nSeus pipelines coordenam atividades (cópia, transformação, controle de fluxo) e podem ser agendados por gatilhos (tempo, evento, janela). Para movimentação de dados de redes privadas, usa o Self-hosted Integration Runtime. O ADF inclui Mapping Data Flows (transformações visuais executadas sobre Spark gerenciado) e integra-se nativamente a CI/CD via Git. É, em essência, o orquestrador de dados da Azure — análogo, em função, ao AWS Glue/Step Functions e ao Google Cloud Dataflow/Composer."
+        },
+        {
+          "h": "Databricks e o Apache Spark",
+          "p": "Databricks é uma plataforma de análise de dados unificada construída sobre o Apache Spark — motor de processamento distribuído em memória, eficiente para grandes volumes (Big Data) em batch e streaming. Fornece clusters Spark gerenciados, notebooks colaborativos (Python, SQL, Scala, R) e suporte a engenharia de dados, ciência de dados e machine learning na mesma plataforma.\n\nDatabricks popularizou o conceito de Lakehouse — a união da flexibilidade e do baixo custo do Data Lake com as garantias transacionais e o desempenho do Data Warehouse. Isso é viabilizado pelo Delta Lake, camada de armazenamento que adiciona transações ACID, versionamento (time travel) e enforcement de esquema sobre arquivos (geralmente Parquet) no data lake. A arquitetura Medallion (camadas bronze/prata/ouro) organiza o refinamento progressivo dos dados."
+        },
+        {
+          "h": "Vantagens e cuidados dos serviços gerenciados",
+          "p": "Vantagens: elasticidade (escala sob demanda), redução de overhead operacional, cobrança por uso (pay-as-you-go), alta disponibilidade e integração nativa com o ecossistema da nuvem. Permitem que equipes pequenas operem pipelines de grande escala.\n\nCuidados que importam para auditoria: dependência do fornecedor (vendor lock-in), controle de custos (clusters Spark ociosos geram gasto elevado), e responsabilidade compartilhada de segurança — o provedor protege a infraestrutura, mas a configuração de acessos, criptografia e dados continua sob responsabilidade do cliente. Governança, controle de identidade (RBAC) e rastreabilidade de processamento devem ser explicitamente configurados."
+        },
+        {
+          "h": "Como ADF e Databricks se combinam",
+          "p": "Um padrão arquitetural comum: o Azure Data Factory orquestra o fluxo de ponta a ponta — extrai dados de fontes diversas, dispara um notebook ou job no Databricks para transformação pesada em Spark, e materializa o resultado em um Lakehouse (Delta Lake) ou Data Warehouse (ex.: Azure Synapse). O ADF cuida do agendamento, das dependências e do monitoramento; o Databricks, do processamento analítico em escala.\n\nEssa separação de responsabilidades (orquestração x processamento) é típica de arquiteturas de dados modernas em nuvem e reflete a tendência de compor serviços gerenciados especializados em vez de manter infraestrutura monolítica própria."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"O Azure Data Factory é um serviço gerenciado de orquestração e integração de dados, ao passo que o Databricks é uma plataforma de processamento analítico baseada em Apache Spark; ambos dispensam o provisionamento manual de infraestrutura pelo cliente.\" — CERTO. Em auditoria, ao avaliar custos de TI, o auditor identifica clusters Databricks sem auto-terminação configurada gerando gasto contínuo mesmo ociosos — achado de eficiência diretamente ligado à governança de serviços gerenciados.",
+      "pontos_chave": [
+        "Serviços gerenciados (PaaS): provedor opera a infraestrutura; cliente foca na lógica de dados",
+        "Azure Data Factory: orquestração/integração de pipelines ETL-ELT na Azure (sem servidores)",
+        "ADF usa linked services, pipelines, triggers e Mapping Data Flows (Spark gerenciado)",
+        "Databricks: plataforma unificada sobre Apache Spark (batch e streaming)",
+        "Delta Lake adiciona ACID, time travel e enforcement de esquema ao data lake (Lakehouse)",
+        "Arquitetura Medallion: camadas bronze/prata/ouro de refinamento",
+        "Análogos: AWS Glue, Google Dataflow/Composer (orquestração); EMR (Spark gerenciado)",
+        "Cuidados: vendor lock-in, custos de clusters ociosos, responsabilidade compartilhada de segurança"
+      ],
+      "dica_prova": "Não inverta os papéis: ADF orquestra/integra, Databricks processa (Spark). Cebraspe pode dizer que o Databricks é um banco de dados (não é — é plataforma de processamento) ou que o Delta Lake é um banco relacional (é camada de armazenamento transacional sobre o data lake). Lembre do modelo de responsabilidade compartilhada: usar serviço gerenciado não transfere ao provedor a responsabilidade pela configuração de acesso e proteção dos dados."
+    },
+    {
+      "ti": 5,
+      "si": 1,
+      "titulo": "Armazenamento em nuvem e IA",
+      "intro": "O armazenamento de objetos em nuvem é a fundação dos Data Lakes e das arquiteturas de dados modernas. Serviços como Amazon S3 (AWS), Azure Blob Storage (Microsoft) e Google Cloud Storage (GCS) oferecem armazenamento praticamente ilimitado, durável, escalável e de baixo custo para dados estruturados, semiestruturados e não estruturados, com cobrança por uso.\n\nSobre essa base de armazenamento integram-se serviços de inteligência artificial e análise: os dados acumulados alimentam plataformas de machine learning e serviços de IA gerenciada (visão computacional, processamento de linguagem natural, IA generativa), formando o ciclo dado → modelo → insight que caracteriza as arquiteturas analíticas em nuvem.",
+      "secoes": [
+        {
+          "h": "Armazenamento de objetos: S3, Blob e GCS",
+          "p": "O armazenamento de objetos guarda dados como objetos em contêineres planos (buckets no S3/GCS; containers no Azure Blob), cada objeto identificado por uma chave e acompanhado de metadados. Diferentemente do armazenamento de blocos ou de arquivos, é acessado via API/HTTP, escala horizontalmente de forma quase ilimitada e é otimizado para alta durabilidade (o S3 anuncia durabilidade de 99,999999999% — \"11 noves\") e disponibilidade.\n\nRecursos comuns: classes de armazenamento por temperatura de acesso (quente, frio, arquivamento — ex.: S3 Glacier, Azure Archive) para otimizar custo; versionamento de objetos; políticas de ciclo de vida; criptografia em repouso e em trânsito; e controle de acesso por políticas e IAM. São a camada de armazenamento padrão de Data Lakes, onde convivem arquivos Parquet, JSON e logs."
+        },
+        {
+          "h": "Do armazenamento ao Data Lake e Lakehouse",
+          "p": "Sobre o armazenamento de objetos constrói-se o Data Lake: repositório centralizado que retém dados brutos em seu formato nativo, sem esquema prévio (schema-on-read), barato e flexível. Para evitar que vire um \"pântano de dados\" (data swamp) sem governança, adicionam-se catálogo, metadados e formatos transacionais (Delta Lake, Iceberg, Hudi), originando o Lakehouse, que combina a economia do lake com as garantias do data warehouse.\n\nServiços de consulta como Amazon Athena, Google BigQuery e Azure Synapse permitem executar SQL diretamente sobre os arquivos no armazenamento de objetos, sem mover os dados para um banco dedicado, reforçando o desacoplamento entre armazenamento e processamento (compute)."
+        },
+        {
+          "h": "Integração com IA e machine learning",
+          "p": "Os dados armazenados em nuvem alimentam plataformas de ML gerenciadas — Amazon SageMaker, Azure Machine Learning, Google Vertex AI — que cobrem o ciclo de vida de modelos: preparação de dados, treinamento, ajuste, implantação e monitoramento. Há também serviços de IA prontos (cognitive/AI services) acessíveis por API para visão computacional, OCR, transcrição de fala, tradução e PLN, sem necessidade de treinar modelos do zero.\n\nMais recentemente, serviços de IA generativa e LLMs gerenciados (Amazon Bedrock, Azure OpenAI Service, Google Vertex AI) permitem incorporar geração de texto, sumarização e técnicas como RAG (Retrieval-Augmented Generation), que combinam um modelo de linguagem com a base de dados/conhecimento da organização para respostas contextualizadas. A engenharia de dados garante o pipeline que prepara, limpa e organiza os dados que sustentam esses modelos."
+        },
+        {
+          "h": "Segurança, custo e governança na nuvem",
+          "p": "O modelo de responsabilidade compartilhada vale também aqui: o provedor protege a infraestrutura física; o cliente é responsável por configurar corretamente permissões (IAM/RBAC), criptografia, políticas de bucket e classificação de dados. Buckets públicos mal configurados são causa frequente de vazamento de dados — achado clássico de auditoria.\n\nGovernança de custos (lifecycle policies, classes de armazenamento adequadas), conformidade com a LGPD (localização e proteção de dados pessoais, inclusive em treinamento de IA), e rastreabilidade (logs de acesso, linhagem) são preocupações centrais. Para IA, somam-se temas de transparência, viés algorítmico e proteção de dados usados no treinamento."
+        }
+      ],
+      "exemplo": "Cenário de auditoria de TI: o TCU avalia um Data Lake institucional em Amazon S3 que alimenta um modelo de detecção de irregularidades. O auditor verifica que um bucket está com acesso público indevido (risco de vazamento) e que faltam políticas de ciclo de vida, elevando custos. Item de prova: \"No modelo de responsabilidade compartilhada, a configuração de permissões de acesso e a criptografia dos dados armazenados em serviços como o Amazon S3 são responsabilidade do cliente, não do provedor de nuvem.\" — CERTO.",
+      "pontos_chave": [
+        "S3, Azure Blob e GCS = armazenamento de objetos: buckets/containers, acesso via API, escala e durabilidade altas",
+        "Classes por temperatura (quente/frio/arquivo) otimizam custo; versionamento e lifecycle policies",
+        "Armazenamento de objetos é a base de Data Lakes (schema-on-read)",
+        "Lakehouse: lake + formatos transacionais (Delta/Iceberg/Hudi) + governança",
+        "Athena/BigQuery/Synapse: SQL direto sobre arquivos, desacoplando storage e compute",
+        "Plataformas de ML: SageMaker, Azure ML, Vertex AI; IA generativa: Bedrock, Azure OpenAI",
+        "RAG combina LLM com a base de dados da organização para respostas contextualizadas",
+        "Responsabilidade compartilhada: cliente configura IAM, criptografia e políticas (buckets públicos = risco)"
+      ],
+      "dica_prova": "Cebraspe explora o armazenamento de objetos x blocos x arquivos — objetos são acessados por API e identificados por chave, não por hierarquia de diretórios tradicional. A pegadinha mais cobrada é a responsabilidade compartilhada: usar S3/Blob não transfere ao provedor a responsabilidade por configurar acessos e criptografia. Cuidado também ao confundir Data Lake (dados brutos, schema-on-read) com Data Warehouse (estruturado, schema-on-write)."
+    }
+  ]
+}

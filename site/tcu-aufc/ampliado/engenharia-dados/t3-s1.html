@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Versionamento, logging e CI/CD — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/engenharia-dados.html">🗄️ Engenharia de Dados</a> ›
+    <span>Versionamento, logging e CI/CD</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">4. Fluxo de manipulação (ETL e pipelines)</p>
+    <h1>Versionamento, logging e CI/CD</h1>
+    
+    <p>Pipelines de dados modernos são tratados como software (&quot;data as code&quot;): seu código, configurações e até a definição de transformações ficam sob controle de versão, são testados automaticamente e implantados por pipelines de integração e entrega contínuas (CI/CD). Isso traz rastreabilidade, reprodutibilidade e qualidade — atributos essenciais para auditoria.</p><p>Além disso, pipelines robustos exigem logging detalhado (registro de execução, erros e métricas), tolerância a falhas (retries automáticos e checkpoints para retomar de onde parou) e monitoramento. A combinação dessas práticas transforma scripts frágeis em fluxos de dados confiáveis, auditáveis e operacionalmente resilientes.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Versionamento de código e dados</h2><p>O versionamento de código (Git) registra cada alteração nas transformações, esquemas e configurações do pipeline, permitindo identificar quem alterou o quê, quando e por quê — base de toda auditoria de mudanças. Práticas como branches, pull requests e revisão de código (code review) garantem governança sobre o que entra em produção.</p><p>No contexto de dados, surge também o versionamento de dados e de esquemas: ferramentas como DVC (Data Version Control) versionam datasets e modelos, e formatos de tabela como Delta Lake, Apache Iceberg e Apache Hudi oferecem &quot;time travel&quot; (consultar o estado dos dados em um instante passado) e controle de versão das tabelas no Data Lake. Migrações de esquema (ex.: Flyway, Liquibase) versionam a evolução da estrutura dos bancos.</p></section><section class="amp-sec"><h2>Logging, observabilidade e tolerância a falhas</h2><p>O logging registra eventos da execução do pipeline: início/fim de tarefas, contagem de registros processados, erros e tempos. Logs estruturados (JSON) alimentam ferramentas de observabilidade (ELK, Grafana, Prometheus) e são insumo direto para auditoria e troubleshooting. A observabilidade vai além: métricas, logs e traces permitem entender o comportamento do pipeline.</p><p>Tolerância a falhas é crítica: retries (novas tentativas automáticas com backoff) tratam falhas transitórias; checkpoints salvam o progresso para que, em caso de falha, o processamento retome do último ponto consistente em vez de recomeçar; e a idempotência garante que reexecutar uma etapa não duplique dados. Orquestradores como Apache Airflow (com DAGs), Dagster e Prefect coordenam tarefas, dependências, agendamento e tratamento de falhas.</p></section><section class="amp-sec"><h2>CI/CD aplicado a pipelines de dados</h2><p>Integração Contínua (CI) automatiza, a cada commit, a verificação do código: testes unitários das transformações, testes de qualidade de dados, validação de esquemas e análise estática. Entrega/Implantação Contínua (CD) automatiza a publicação das mudanças nos ambientes (dev, homologação, produção), reduzindo erros manuais.</p><p>Ferramentas como GitHub Actions, GitLab CI e Jenkins executam esses pipelines de automação. No mundo de dados, frameworks como dbt (data build tool) integram transformações SQL versionadas, testes de dados e documentação ao fluxo de CI/CD, materializando o conceito de &quot;analytics engineering&quot;. Boas práticas incluem ambientes separados, infraestrutura como código (Terraform) e promoção controlada entre estágios.</p></section><section class="amp-sec"><h2>Por que isso importa para auditoria</h2><p>Para o controle externo, pipelines versionados e com logging completo significam trilha de auditoria: é possível reconstituir qual versão do código gerou determinado dado, quando e com quais parâmetros, garantindo reprodutibilidade e não repúdio. A separação de ambientes e a aprovação via pull request evidenciam segregação de funções e controle de mudanças (alinhados a COBIT 2019 e ITIL v4).</p><p>A ausência dessas práticas — pipelines manuais, sem versionamento, sem logs — é um achado de auditoria recorrente, pois compromete a confiabilidade, a integridade e a rastreabilidade das informações que apoiam decisões de gestão e fiscalização.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Cenário de auditoria de TI: ao analisar um pipeline que consolida dados de despesas, o auditor solicita o histórico de versões (Git) das transformações e os logs de execução. Constata que uma carga falhou na madrugada, mas o pipeline retomou automaticamente via checkpoint e registrou o evento, sem duplicar registros (idempotência). Item de prova: &quot;Em pipelines de dados, checkpoints permitem retomar o processamento a partir do último ponto consistente após uma falha, e a idempotência evita a duplicação de dados em reexecuções.&quot; — CERTO.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe pode contrastar Integração Contínua (verificação a cada commit) com Entrega/Implantação Contínua (deploy automatizado) — não confunda os termos. Cuidado com afirmações que tratam logging como opcional ou que dizem que retry e checkpoint são a mesma coisa: retry repete a tentativa; checkpoint salva o progresso para retomada. Idempotência cai como garantia contra duplicação.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t3-s0.html">← ETL e pipeline de dados</a><a class="pager next" href="t4-s0.html">Linhagem, catalogação e metadados →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Pipelines tratados como software: código sob Git, com branches, PRs e code review</li><li>Versionamento de dados/esquemas: DVC, Delta Lake/Iceberg/Hudi (time travel), Flyway/Liquibase</li><li>Logging estruturado alimenta observabilidade e serve de trilha de auditoria</li><li>Tolerância a falhas: retries, checkpoints e idempotência</li><li>Orquestração: Airflow (DAGs), Dagster, Prefect</li><li>CI = testes/validação automáticos a cada commit; CD = deploy automatizado entre ambientes</li><li>GitHub Actions/GitLab CI/Jenkins; dbt para transformações versionadas e testadas</li><li>Versionamento + logs garantem reprodutibilidade, rastreabilidade e segregação de funções</li></ul></div>
+      <a class="back" href="../../disciplinas/engenharia-dados.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

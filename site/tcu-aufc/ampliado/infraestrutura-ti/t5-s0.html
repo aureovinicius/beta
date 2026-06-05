@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitoramento e ITIL v4 — TCU</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>TCU</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">TCU</a> ›
+    <a href="../../disciplinas/infraestrutura-ti.html">🖧 Infraestrutura de TI</a> ›
+    <span>Monitoramento e ITIL v4</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">6. Monitoramento, gestão e automação</p>
+    <h1>Monitoramento e ITIL v4</h1>
+    
+    <p>O monitoramento de infraestrutura coleta, analisa e exibe métricas de desempenho, disponibilidade e saúde de servidores, redes, aplicações e serviços, gerando alertas proativos. Ferramentas como Zabbix, Grafana, Prometheus e New Relic compõem o ecossistema, frequentemente usando protocolos como SNMP e agentes. Observabilidade amplia o conceito ao combinar métricas, logs e traces para entender o estado interno dos sistemas.</p><p>A gestão de serviços de TI é estruturada pelo ITIL v4, framework de boas práticas (não uma norma certificável de organização) que organiza a entrega de valor por meio de práticas como gerenciamento de incidentes, problemas, mudanças e configuração (CMDB). Monitoramento e ITIL se complementam: o primeiro alimenta os processos de detecção e resposta do segundo.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Ferramentas de monitoramento</h2><p>O Zabbix é uma plataforma open source de monitoramento de redes, servidores, aplicações e serviços, com coleta via agentes, SNMP, IPMI e checks ativos/passivos, com alertas e triggers configuráveis. O Prometheus é um sistema baseado em coleta por pull e séries temporais, muito usado em ambientes cloud-native e Kubernetes. O Grafana é uma ferramenta de visualização que cria dashboards a partir de várias fontes (Prometheus, Zabbix, bancos), sendo de visualização, não primariamente de coleta. O New Relic é uma solução de APM (Application Performance Monitoring) em SaaS.</p><p>O SNMP (Simple Network Management Protocol) é o protocolo padrão de gerência de rede, com gerentes (NMS) e agentes que expõem variáveis na MIB; SNMPv3 adiciona autenticação e criptografia (versões anteriores são inseguras). Distinguir coleta (Zabbix/Prometheus) de visualização (Grafana) é cobrado.</p></section><section class="amp-sec"><h2>Métricas, logs, traces e observabilidade</h2><p>Monitoramento tradicional foca em métricas conhecidas e thresholds (alertar quando CPU &gt; 90%). Observabilidade vai além, baseando-se em três pilares — métricas (valores numéricos ao longo do tempo), logs (registros de eventos) e traces (rastros de uma requisição por múltiplos serviços) — para inferir o estado interno do sistema e diagnosticar problemas não previstos, comum em arquiteturas distribuídas e microsserviços.</p><p>Definem-se SLI (indicador de nível de serviço, ex.: latência), SLO (objetivo interno, ex.: 99,9% de sucesso) e SLA (acordo contratual com penalidades). A gestão de logs centralizada (ex.: pilha ELK/Elastic, Loki) e a correlação são essenciais para auditoria, detecção de incidentes e cumprimento de requisitos de rastreabilidade.</p></section><section class="amp-sec"><h2>ITIL v4: fundamentos</h2><p>O ITIL v4 é um framework de gerenciamento de serviços de TI orientado à cocriação de valor. Seus elementos centrais incluem o Sistema de Valor de Serviço (SVS), a cadeia de valor de serviço (com atividades como planejar, melhorar, engajar, desenhar/transição, obter/construir, entregar/apoiar), sete princípios orientadores (ex.: focar no valor, começar onde se está, progredir iterativamente com feedback) e quatro dimensões (organizações e pessoas; informação e tecnologia; parceiros e fornecedores; fluxos de valor e processos).</p><p>O ITIL v4 substitui o ciclo de vida rígido do ITIL v3 por 34 práticas (gerais de gestão, de gestão de serviço e técnicas) e integra-se a Agile, DevOps e Lean. É importante notar: ITIL é um conjunto de boas práticas (framework), não uma norma certificável de organização — a norma de SGS certificável é a ISO/IEC 20000.</p></section><section class="amp-sec"><h2>Práticas: incidentes, problemas, mudanças e CMDB</h2><p>Gerenciamento de incidentes visa restaurar o serviço o mais rápido possível, minimizando o impacto (foco na recuperação, não na causa). Gerenciamento de problemas investiga a causa-raiz de incidentes (recorrentes) para eliminá-la, usando registros de erro conhecido e soluções de contorno (workarounds). Distinguir incidente (interrupção/queda de qualidade) de problema (causa subjacente) é clássico.</p><p>O gerenciamento de mudanças (no ITIL v4, &#x27;habilitação de mudança&#x27;) controla alterações para minimizar risco, classificando-as em padrão (pré-aprovadas), normais (avaliadas, podendo passar por um CAB) e emergenciais. O gerenciamento de configuração mantém a CMDB (Configuration Management Database), repositório dos itens de configuração (CIs) e seus relacionamentos, base para impacto de mudanças, incidentes e auditoria de ativos.</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item comentado: &#x27;No ITIL, o gerenciamento de incidentes tem por objetivo principal identificar e eliminar a causa-raiz das interrupções, evitando sua recorrência.&#x27; — ERRADO. Esse é o objetivo do gerenciamento de PROBLEMAS. O gerenciamento de incidentes visa restaurar a operação normal do serviço o mais rápido possível, minimizando o impacto ao negócio, ainda que por meio de uma solução de contorno — não necessariamente tratando a causa-raiz.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Cebraspe distingue incidente (restaurar rápido) de problema (causa-raiz) — não troque. Lembre que ITIL é boas práticas/framework, não norma certificável (essa é a ISO/IEC 20000), e que organizações certificam-se na 20000, não &#x27;no ITIL&#x27;. Em ferramentas, Grafana é visualização, não coleta. E SNMP só é seguro a partir da v3.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t4-s1.html">← VPNs, PKI e segmentação de rede</a><a class="pager next" href="t5-s1.html">Automação (PowerShell, Bash, Puppet) →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Zabbix/Prometheus coletam; Grafana visualiza (dashboards); New Relic é APM SaaS</li><li>SNMP é o protocolo de gerência (MIB, agentes); SNMPv3 adiciona segurança</li><li>Observabilidade = métricas + logs + traces; SLI (indicador), SLO (objetivo), SLA (contrato)</li><li>ITIL v4 é framework de boas práticas (não norma); a norma certificável de SGS é a ISO/IEC 20000</li><li>ITIL v4: SVS, cadeia de valor, 7 princípios, 4 dimensões e 34 práticas</li><li>Incidente restaura o serviço rápido; problema trata a causa-raiz</li><li>CMDB registra itens de configuração (CIs) e relacionamentos; mudanças: padrão, normal, emergencial</li></ul></div>
+      <a class="back" href="../../disciplinas/infraestrutura-ti.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Auditor Federal de Controle Externo — TI (TCU) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>
