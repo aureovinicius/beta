@@ -144,6 +144,7 @@ def build_landing():
           <div class="cc-top"><span class="cc-icon">{g['icone']}</span><span class="cc-orgao">{e(g['orgao'])}</span></div>
           <h3>{e(g['nome'])}</h3>
           <p class="cc-desc">{e(g['descricao'])}</p>
+          <div class="cc-meta">{_meta_line(g)}</div>
           <div class="cc-stats"><span><strong>{len(cargos)}</strong> cargos/especialidades</span></div>
           <span class="cc-go grupo-toggle">Ver cargos <span class="chevron">▾</span></span>
         </button>
@@ -208,7 +209,7 @@ def build_concurso_home(c):
     g = c.get("grupo")
     if g:
         crumb = f'<a href="../index.html">Concursos</a> › <span>{e(g["nome"])}</span> › <span>{e(c["nome"])}</span>'
-        eyebrow = " · ".join(x for x in [e(g["orgao"]), c.get("cargo", ""), e(c.get("ano", ""))] if x)
+        eyebrow = " · ".join(x for x in [e(g["orgao"]), e(g.get("banca", "")), c.get("cargo", ""), e(c.get("ano", ""))] if x)
         titulo = f"{c['icone']} {e(c['nome'])}"
     else:
         crumb = f'<a href="../index.html">Concursos</a> › <span>{e(c["orgao"])}</span>'
