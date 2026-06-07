@@ -1,0 +1,68 @@
+id: sedes-edas-sociologia
+ordem: 17
+nome: Sociologia
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Sociologia
+codigo: '411'
+ano: '2026'
+icone: 🌐
+cor: '#7b2d8e'
+descricao: Teoria sociológica, relações étnico-raciais, sociologia urbana e metodologia de pesquisa social.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: teoria-sociologica
+  titulo: Teoria Sociológica e Conceitos Fundamentais
+  grupo: Conhecimentos Específicos
+  icone: 📚
+  resumo: Clássicos e contemporâneos.
+  topicos:
+  - titulo: 1. Teoria
+    explicacao: Pensadores.
+    subtopicos:
+    - titulo: 'Clássicos: Marx, Durkheim e Weber'
+      texto: Fundadores da sociologia.
+    - titulo: 'Contemporâneos: Bourdieu, Bauman, Foucault e Butler'
+      texto: Habitus, modernidade líquida, poder e gênero.
+- slug: pensamento-social-etnico
+  titulo: Pensamento Social e Relações Étnico-Raciais
+  grupo: Conhecimentos Específicos
+  icone: ✊
+  resumo: Formação brasileira e decolonialidade.
+  topicos:
+  - titulo: 1. Brasil e decolonialidade
+    explicacao: Raça e sociedade.
+    subtopicos:
+    - titulo: Formação brasileira e decolonialidade
+      texto: Fanon e epistemologias do Sul.
+    - titulo: Racismo estrutural e interseccionalidade
+      texto: Mito da democracia racial; raça, classe e gênero.
+- slug: sociologia-urbana
+  titulo: Sociologia Urbana, Desigualdades e Movimentos Sociais
+  grupo: Conhecimentos Específicos
+  icone: 🏙️
+  resumo: Cidade, violência e movimentos sociais.
+  topicos:
+  - titulo: 1. Urbano e movimentos
+    explicacao: Cidade e ação coletiva.
+    subtopicos:
+    - titulo: Direito à cidade e violência urbana
+      texto: Segregação, gentrificação e criminalização da pobreza.
+    - titulo: Movimentos sociais e controle social
+      texto: Ação coletiva e participação cidadã.
+- slug: metodologia-pesquisa-social
+  titulo: Metodologia de Pesquisa Social e Avaliação
+  grupo: Conhecimentos Específicos
+  icone: 🔬
+  resumo: Métodos e indicadores sociais.
+  topicos:
+  - titulo: 1. Pesquisa social
+    explicacao: Métodos de pesquisa.
+    subtopicos:
+    - titulo: Métodos quali/quanti e indicadores sociais
+      texto: Etnografia, entrevistas e avaliação de políticas.

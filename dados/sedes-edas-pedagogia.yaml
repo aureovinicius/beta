@@ -1,0 +1,66 @@
+id: sedes-edas-pedagogia
+ordem: 14
+nome: Pedagogia
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Pedagogia
+codigo: '408'
+ano: '2026'
+icone: 📚
+cor: '#7b2d8e'
+descricao: Pedagogia social, direito educacional, pedagogo no SUAS e intervenção em vulnerabilidade.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: fund-pedagogia-social
+  titulo: Fundamentos da Educação e Pedagogia Social
+  grupo: Conhecimentos Específicos
+  icone: 📚
+  resumo: Concepções de educação e pedagogia social.
+  topicos:
+  - titulo: 1. Fundamentos
+    explicacao: Bases da educação.
+    subtopicos:
+    - titulo: Concepções de educação e educação popular
+      texto: Abordagens críticas e emancipatórias.
+    - titulo: Educação formal, não formal e pedagogo não escolar
+      texto: Atuação social do pedagogo.
+- slug: direito-educacional
+  titulo: Direito Educacional
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Educação na CF e LDB.
+  topicos:
+  - titulo: 1. Direito educacional
+    explicacao: Marco legal da educação.
+    subtopicos:
+    - titulo: Educação na CF e LDB
+      texto: Princípios e gestão democrática (Lei 9.394/1996).
+- slug: pedagogo-suas
+  titulo: O Pedagogo no SUAS
+  grupo: Conhecimentos Específicos
+  icone: 🤝
+  resumo: Atuação e planejamento socioeducativo.
+  topicos:
+  - titulo: 1. Atuação no SUAS
+    explicacao: Dimensão pedagógica.
+    subtopicos:
+    - titulo: Dimensão pedagógica no SUAS
+      texto: Atuação em CRAS/CREAS e planejamento socioeducativo.
+    - titulo: Metodologias participativas e território
+      texto: Oficinas, grupos e fortalecimento de vínculos.
+- slug: intervencao-pedagogica
+  titulo: Intervenção Pedagógica em Vulnerabilidade
+  grupo: Conhecimentos Específicos
+  icone: 🛡️
+  resumo: Violências e direitos humanos.
+  topicos:
+  - titulo: 1. Intervenção
+    explicacao: Atuação em contextos de risco.
+    subtopicos:
+    - titulo: Violências, direitos humanos e cidadania
+      texto: Prevenção de violências e educação em direitos humanos (Res. CNE/CP 1/2012).

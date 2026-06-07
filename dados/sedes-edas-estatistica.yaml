@@ -1,0 +1,100 @@
+id: sedes-edas-estatistica
+ordem: 12
+nome: Estatística
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Estatística
+codigo: '406'
+ano: '2026'
+icone: 📊
+cor: '#7b2d8e'
+descricao: Estatística descritiva, probabilidade e inferência, modelagem multivariada e bancos de dados.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: estatistica-descritiva
+  titulo: Estatística Descritiva e Análise Exploratória
+  grupo: Conhecimentos Específicos
+  icone: 📊
+  resumo: Medidas resumo e indicadores sociais.
+  topicos:
+  - titulo: 1. Descritiva
+    explicacao: Resumo de dados.
+    subtopicos:
+    - titulo: Medidas de posição
+      texto: Média, mediana e moda.
+      reuse:
+      - sefaz-go
+      - raciocinio-logico
+      - medidas-de-posicao
+    - titulo: Medidas de dispersão
+      texto: Variância, desvio-padrão e CV.
+      reuse:
+      - sefaz-go
+      - raciocinio-logico
+      - medidas-de-dispersao
+    - titulo: Indicadores, representação e associação
+      texto: Números índices, contingência, risco relativo e odds ratio.
+- slug: probabilidade-inferencia
+  titulo: Probabilidade e Inferência Estatística
+  grupo: Conhecimentos Específicos
+  icone: 🎲
+  resumo: Amostragem, testes e inferência bayesiana.
+  topicos:
+  - titulo: 1. Inferência
+    explicacao: Estimação e testes.
+    subtopicos:
+    - titulo: Amostragem e estimação
+      texto: Distribuições amostrais, TLC e intervalos de confiança.
+      reuse:
+      - sefaz-go
+      - raciocinio-logico
+      - amostragem-e-estimacao
+    - titulo: Testes de hipóteses e qui-quadrado
+      texto: Testes para médias/variâncias e qui-quadrado.
+    - titulo: Inferência bayesiana e não paramétricos
+      texto: Probabilidade subjetiva e testes não paramétricos.
+- slug: modelagem-multivariada
+  titulo: Modelagem Estatística e Análise Multivariada
+  grupo: Conhecimentos Específicos
+  icone: 📐
+  resumo: Regressão, ANOVA e multivariada.
+  topicos:
+  - titulo: 1. Modelagem
+    explicacao: Modelos estatísticos.
+    subtopicos:
+    - titulo: Regressão e correlação
+      texto: Linear simples/múltipla e logística.
+    - titulo: ANOVA e análise multivariada
+      texto: PCA, fatorial, cluster e equações estruturais.
+- slug: bancos-dados-estat
+  titulo: Gestão e Exploração de Bancos de Dados
+  grupo: Conhecimentos Específicos
+  icone: 🗄️
+  resumo: Modelagem, SQL e multidimensional.
+  topicos:
+  - titulo: 1. Bancos de dados
+    explicacao: Dados para análise.
+    subtopicos:
+    - titulo: Modelo ER e relacional
+      texto: Projeto conceitual, lógico e físico.
+      reuse:
+      - sefaz-go
+      - tecnologia-da-informacao
+      - modelo-relacional-e-chaves
+    - titulo: SQL
+      texto: Definição e manipulação de dados.
+      reuse:
+      - sefaz-go
+      - tecnologia-da-informacao
+      - linguagens-sql
+    - titulo: Bancos multidimensionais
+      texto: OLAP e apoio à análise estatística.
+      reuse:
+      - sefaz-go
+      - tecnologia-da-informacao
+      - esquema-estrela-e-olap

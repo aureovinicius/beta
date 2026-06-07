@@ -1,0 +1,115 @@
+id: sedes-edas-contabeis
+ordem: 7
+nome: Ciências Contábeis
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Ciências Contábeis
+codigo: '401'
+ano: '2026'
+icone: 🧾
+cor: '#7b2d8e'
+descricao: Contabilidade geral e societária, análise de balanços, CASP, AFO e auditoria.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: contab-geral-soc
+  titulo: Contabilidade Geral e Societária
+  grupo: Conhecimentos Específicos
+  icone: 🧾
+  resumo: Estrutura conceitual, patrimônio e evidenciação.
+  topicos:
+  - titulo: 1. Estrutura e patrimônio
+    explicacao: Fundamentos da contabilidade.
+    subtopicos:
+    - titulo: Estrutura conceitual da contabilidade
+      texto: Características qualitativas e normas.
+      reuse:
+      - sefaz-go
+      - contabilidade-geral
+      - estrutura-conceitual
+    - titulo: 'Patrimônio: ativo, passivo e PL'
+      texto: Equação patrimonial.
+      reuse:
+      - sefaz-go
+      - contabilidade-geral
+      - patrimonio
+    - titulo: Mensuração, avaliação e evidenciação
+      texto: Conceito de lucro; mensuração de ativo/passivo e evidenciação contábil.
+- slug: afo-analise-balancos
+  titulo: Administração Financeira e Análise de Balanços
+  grupo: Conhecimentos Específicos
+  icone: 📈
+  resumo: Liquidez e capital de giro.
+  topicos:
+  - titulo: 1. Análise e capital de giro
+    explicacao: Análise financeira.
+    subtopicos:
+    - titulo: Análise de balanços e liquidez
+      texto: Indicadores de liquidez e desempenho.
+      reuse:
+      - sefaz-go
+      - contabilidade-geral
+      - indices
+    - titulo: Capital de giro, caixa e risco x rentabilidade
+      texto: Equilíbrio financeiro e necessidade de capital de giro.
+- slug: casp
+  titulo: Contabilidade Aplicada ao Setor Público (CASP)
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: MCASP, PCASP, DCASP e NBC TSP.
+  topicos:
+  - titulo: 1. CASP
+    explicacao: Contabilidade pública.
+    subtopicos:
+    - titulo: MCASP e PCASP
+      texto: Manual e plano de contas aplicados ao setor público.
+    - titulo: DCASP, NBC TSP e PCO/PCP
+      texto: Demonstrações, normas e procedimentos orçamentários e patrimoniais.
+- slug: orcamento-afo-contab
+  titulo: Orçamento Público / AFO
+  grupo: Conhecimentos Específicos
+  icone: 💰
+  resumo: Lei 4.320, LRF, PPA/LDO/LOA e execução.
+  topicos:
+  - titulo: 1. Orçamento
+    explicacao: Normas e execução orçamentária.
+    subtopicos:
+    - titulo: Lei 4.320/1964 e LRF
+      texto: Normas gerais e responsabilidade fiscal.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - gestao-fiscal-responsavel
+    - titulo: PPA, LDO e LOA
+      texto: Leis orçamentárias.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - ppa-ldo-e-loa
+    - titulo: 'Execução: estágios e créditos adicionais'
+      texto: Estágios da receita/despesa e créditos.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - tipos-e-fontes
+- slug: auditoria-contab
+  titulo: Auditoria Contábil e Governamental
+  grupo: Conhecimentos Específicos
+  icone: 🔍
+  resumo: Controles internos, papéis de trabalho e auditoria por ciclos.
+  topicos:
+  - titulo: 1. Auditoria
+    explicacao: Auditoria aplicada.
+    subtopicos:
+    - titulo: Controles internos e papéis de trabalho
+      texto: Planejamento, execução e avaliação.
+      reuse:
+      - sefaz-go
+      - auditoria
+      - componentes-coso
+    - titulo: Auditoria por ciclos
+      texto: Receitas, compras, estoques, caixa, ativos e passivos.

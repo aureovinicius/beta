@@ -1,0 +1,80 @@
+id: sedes-tdas-agente-social
+ordem: 3
+nome: Agente Social
+orgao: SEDES-DF
+cargo: TDAS
+especialidade: Agente Social
+codigo: '200'
+ano: '2026'
+icone: 🧑‍🤝‍🧑
+cor: '#7b2d8e'
+descricao: 'Trabalho social no território: CRAS/CREAS, proteção social básica e especial, abordagem de rua e saúde mental.'
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-tdas
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: rede-territorio
+  titulo: Rede Socioassistencial e Trabalho no Território
+  grupo: Conhecimentos Específicos
+  icone: 🗺️
+  resumo: CRAS, CREAS, Unidades de Acolhimento, territorialização e fluxos de referência.
+  topicos:
+  - titulo: 1. Rede e território
+    explicacao: Organização da rede e atuação territorial.
+    subtopicos:
+    - titulo: CRAS, CREAS e Unidades de Acolhimento
+      texto: Funcionamento e atribuições dos equipamentos.
+    - titulo: Territorialização e fluxos de referência/contrarreferência
+      texto: Diagnóstico socioterritorial e encaminhamentos no SUAS.
+- slug: psb-familias
+  titulo: Proteção Social Básica e Trabalho com Famílias
+  grupo: Conhecimentos Específicos
+  icone: 👨‍👩‍👧
+  resumo: PAIF, SCFV e prevenção de vulnerabilidades.
+  topicos:
+  - titulo: 1. PSB e famílias
+    explicacao: Serviços e ações da proteção social básica.
+    subtopicos:
+    - titulo: Serviço de Atendimento Integral à Família (PAIF)
+      texto: Trabalho social com famílias na PSB.
+    - titulo: SCFV e prevenção de vulnerabilidades
+      texto: Convivência, fortalecimento de vínculos e mobilização comunitária.
+- slug: pse-as
+  titulo: Proteção Social Especial
+  grupo: Conhecimentos Específicos
+  icone: 🆘
+  resumo: Risco pessoal e social, CREAS e acolhimento.
+  topicos:
+  - titulo: 1. PSE — média e alta complexidade
+    explicacao: Violação de direitos e acompanhamento especializado.
+    subtopicos:
+    - titulo: Risco, violação de direitos e o CREAS
+      texto: Acompanhamento especializado em situações de violação.
+    - titulo: Acolhimento institucional e familiar
+      texto: Serviços de acolhimento e continuidade do atendimento.
+- slug: abordagem-rua
+  titulo: Abordagem Social e População em Situação de Rua
+  grupo: Conhecimentos Específicos
+  icone: 🛣️
+  resumo: Política Nacional para População em Situação de Rua, Centros POP e construção de vínculo.
+  topicos:
+  - titulo: 1. Abordagem social
+    explicacao: Atuação no território com a população de rua.
+    subtopicos:
+    - titulo: Política Nacional (Decreto 7.053/2009) e Centros POP
+      texto: Diretrizes e equipamentos de atendimento.
+    - titulo: 'Abordagem social: princípios, estratégias e vínculo'
+      texto: Postura profissional e respeito à autonomia.
+- slug: saude-mental-drogas
+  titulo: Saúde Mental e Uso de Álcool e Outras Drogas
+  grupo: Conhecimentos Específicos
+  icone: 🧠
+  resumo: Sofrimento psíquico, redução de danos e rede de atenção psicossocial.
+  topicos:
+  - titulo: 1. Saúde mental e redução de danos
+    explicacao: Abordagem humanizada e não estigmatizante.
+    subtopicos:
+    - titulo: Redução de danos e articulação psicossocial
+      texto: Sofrimento psíquico, vulnerabilidade e rede de saúde.

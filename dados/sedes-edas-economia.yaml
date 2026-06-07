@@ -1,0 +1,78 @@
+id: sedes-edas-economia
+ordem: 10
+nome: Economia
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Economia
+codigo: '404'
+ano: '2026'
+icone: 📈
+cor: '#7b2d8e'
+descricao: Teoria econômica, economia do setor público e economia social (pobreza e desigualdade).
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: teoria-economica
+  titulo: Teoria Econômica
+  grupo: Conhecimentos Específicos
+  icone: 📈
+  resumo: Micro e macroeconomia.
+  topicos:
+  - titulo: 1. Micro e equilíbrio
+    explicacao: Mercados e equilíbrio.
+    subtopicos:
+    - titulo: Oferta, demanda e equilíbrio
+      texto: Determinação de preço e quantidade.
+      reuse:
+      - sefaz-go
+      - economia
+      - deslocamentos-x-movimentos
+    - titulo: Elasticidades
+      texto: Sensibilidade a preço e renda.
+      reuse:
+      - sefaz-go
+      - economia
+      - elasticidade-e-tributacao
+    - titulo: Estruturas de mercado e falhas
+      texto: Monopólio, concorrência e falhas de mercado.
+      reuse:
+      - sefaz-go
+      - economia
+      - falhas-de-mercado
+  - titulo: 2. Microeconomia avançada
+    explicacao: Tópicos avançados.
+    subtopicos:
+    - titulo: Teoria dos jogos e mercado de fatores
+      texto: Interação estratégica e fatores de produção.
+    - titulo: Equilíbrio geral e escolha pública
+      texto: Economia do bem-estar e teoria da escolha pública.
+- slug: economia-setor-publico
+  titulo: Economia do Setor Público
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: Despesa pública, tributação e federalismo fiscal.
+  topicos:
+  - titulo: 1. Setor público
+    explicacao: Atuação do Estado.
+    subtopicos:
+    - titulo: Despesa pública, orçamento e gastos
+      texto: Teoria da despesa pública e gastos governamentais.
+    - titulo: Tributação e federalismo fiscal
+      texto: Teoria da tributação e relações federativas.
+- slug: economia-social
+  titulo: 'Economia Social: Pobreza e Desigualdade'
+  grupo: Conhecimentos Específicos
+  icone: 🤲
+  resumo: Distribuição de renda e combate à pobreza.
+  topicos:
+  - titulo: 1. Pobreza e desigualdade
+    explicacao: Desigualdade e políticas.
+    subtopicos:
+    - titulo: Distribuição de renda e desigualdade
+      texto: Concentração de renda e métricas (Gini).
+    - titulo: Pobreza e políticas no DF
+      texto: Pobreza multidimensional e políticas de combate.

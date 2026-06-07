@@ -1,0 +1,92 @@
+id: sedes-tdas-cuidador-social
+ordem: 4
+nome: Cuidador Social
+orgao: SEDES-DF
+cargo: TDAS
+especialidade: Cuidador Social
+codigo: '201'
+ano: '2026'
+icone: 🫶
+cor: '#7b2d8e'
+descricao: 'Cuidado e acolhimento: rotinas humanizadas, trabalho em equipe e proteção social especial de alta complexidade.'
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-tdas
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: rede-intersetorialidade
+  titulo: Rede Socioassistencial e Intersetorialidade
+  grupo: Conhecimentos Específicos
+  icone: 🔗
+  resumo: Articulação entre CRAS, CREAS e Unidades de Acolhimento e trabalho em rede.
+  topicos:
+  - titulo: 1. Rede e território
+    explicacao: Articulação intersetorial e fluxos no SUAS.
+    subtopicos:
+    - titulo: CRAS, CREAS e Unidades de Acolhimento
+      texto: Funcionamento e atribuições dos equipamentos.
+      reuse:
+      - sedes-tdas-agente-social
+      - rede-territorio
+      - cras-creas-e-unidades-de-acolhimento
+    - titulo: Territorialização e fluxos de referência/contrarreferência
+      texto: Diagnóstico socioterritorial e encaminhamentos.
+      reuse:
+      - sedes-tdas-agente-social
+      - rede-territorio
+      - territorializacao-e-fluxos-de-referencia-contrarreferencia
+- slug: rotinas-acolhimento
+  titulo: Rotinas de Acolhimento, Cuidado e Trabalho em Equipe
+  grupo: Conhecimentos Específicos
+  icone: 🛏️
+  resumo: Resolução CNAS/CONANDA 1/2009, rotinas humanizadas e trabalho interdisciplinar.
+  topicos:
+  - titulo: 1. Acolhimento e equipe
+    explicacao: Orientações técnicas e rotinas de cuidado.
+    subtopicos:
+    - titulo: Orientações de acolhimento (Res. CNAS/CONANDA 1/2009)
+      texto: Serviços de acolhimento para crianças e adolescentes e Plano Nacional de Convivência.
+    - titulo: Rotinas humanizadas e trabalho em equipe
+      texto: Higiene, alimentação, autonomia, mediação de conflitos e vínculos.
+- slug: pse-alta-complexidade
+  titulo: Proteção Social Especial de Alta Complexidade
+  grupo: Conhecimentos Específicos
+  icone: 🏠
+  resumo: Serviços de acolhimento e seus princípios.
+  topicos:
+  - titulo: 1. Acolhimento de alta complexidade
+    explicacao: Princípios e organização do acolhimento.
+    subtopicos:
+    - titulo: Princípios do acolhimento
+      texto: Excepcionalidade, provisoriedade e preservação de vínculos.
+- slug: pop-rua-cuidador
+  titulo: População em Situação de Rua e Acolhimento
+  grupo: Conhecimentos Específicos
+  icone: 🛣️
+  resumo: Abordagem e acolhimento da população em situação de rua.
+  topicos:
+  - titulo: 1. Abordagem e acolhimento
+    explicacao: Atuação com a população de rua.
+    subtopicos:
+    - titulo: Política Nacional (Decreto 7.053/2009) e acolhimento
+      texto: Diretrizes e equipamentos de atendimento.
+      reuse:
+      - sedes-tdas-agente-social
+      - abordagem-rua
+      - politica-nacional-decreto-7-053-2009-e-centros-pop
+- slug: saude-mental-cuidador
+  titulo: Saúde Mental e Redução de Danos
+  grupo: Conhecimentos Específicos
+  icone: 🧠
+  resumo: Abordagem humanizada em saúde mental.
+  topicos:
+  - titulo: 1. Saúde mental
+    explicacao: Sofrimento psíquico e rede psicossocial.
+    subtopicos:
+    - titulo: Redução de danos e articulação psicossocial
+      texto: Abordagem humanizada e rede de saúde.
+      reuse:
+      - sedes-tdas-agente-social
+      - saude-mental-drogas
+      - reducao-de-danos-e-articulacao-psicossocial

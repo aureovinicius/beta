@@ -1,0 +1,79 @@
+id: sedes-edas-comunicacao
+ordem: 8
+nome: Comunicação Social
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Comunicação Social
+codigo: '402'
+ano: '2026'
+icone: 📡
+cor: '#7b2d8e'
+descricao: Teorias da comunicação, comunicação organizacional, assessoria, gestão de crise, digital e ética.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: fund-comunicacao
+  titulo: Fundamentos e Teorias da Comunicação
+  grupo: Conhecimentos Específicos
+  icone: 📡
+  resumo: Processos e teorias da comunicação.
+  topicos:
+  - titulo: 1. Teorias
+    explicacao: Bases da comunicação.
+    subtopicos:
+    - titulo: Processos e teorias da comunicação
+      texto: Escolas, correntes sociológicas e pensadores.
+    - titulo: O comunicador na sociedade de massas
+      texto: Dimensão política e cultural da comunicação.
+- slug: comunicacao-organizacional
+  titulo: Comunicação Organizacional e Relações Públicas
+  grupo: Conhecimentos Específicos
+  icone: 🏢
+  resumo: Planejamento, públicos e pesquisa.
+  topicos:
+  - titulo: 1. Comunicação organizacional
+    explicacao: Públicos e RP.
+    subtopicos:
+    - titulo: Planejamento estratégico e públicos
+      texto: Públicos internos/externos e comunicação dirigida.
+    - titulo: Pesquisa de opinião e responsabilidade social
+      texto: Métodos quali/quanti, grupos focais e cidadania.
+- slug: jornalismo-crise
+  titulo: Jornalismo, Assessoria de Imprensa e Gestão de Crise
+  grupo: Conhecimentos Específicos
+  icone: 📰
+  resumo: Assessoria, release e gestão de crise.
+  topicos:
+  - titulo: 1. Assessoria e crise
+    explicacao: Relacionamento com a mídia.
+    subtopicos:
+    - titulo: Assessoria de imprensa e produção de conteúdo
+      texto: Release, press-kit, entrevistas e media training.
+    - titulo: Gestão de crise de imagem no setor público
+      texto: Comunicação de risco e clipping.
+- slug: comunicacao-digital
+  titulo: Comunicação Digital e Novas Tecnologias
+  grupo: Conhecimentos Específicos
+  icone: 📱
+  resumo: Mídias sociais, web e métricas.
+  topicos:
+  - titulo: 1. Digital
+    explicacao: Comunicação em rede.
+    subtopicos:
+    - titulo: Mídias sociais, web e métricas
+      texto: Cibercultura, redes institucionais, conteúdo e monitoramento.
+- slug: etica-comunicacao
+  titulo: Ética Profissional
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Códigos de ética em comunicação.
+  topicos:
+  - titulo: 1. Ética
+    explicacao: Deontologia da comunicação.
+    subtopicos:
+    - titulo: Códigos de ética (Jornalismo e RP)
+      texto: Moral, ética, deontologia e comunicação pública.

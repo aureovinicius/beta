@@ -1,0 +1,66 @@
+id: sedes-edas-educador-social
+ordem: 11
+nome: Educador Social
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Educador Social
+codigo: '405'
+ano: '2026'
+icone: 📚
+cor: '#7b2d8e'
+descricao: Política social e família, prática socioeducativa no SUAS, metodologia e diretrizes internacionais.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: fund-politica-social
+  titulo: Fundamentos da Política Social e Dinâmica Familiar
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: Seguridade social e família contemporânea.
+  topicos:
+  - titulo: 1. Política social e família
+    explicacao: Bases da política social.
+    subtopicos:
+    - titulo: Seguridade social no Brasil
+      texto: Conceito, organização e financiamento.
+    - titulo: Família contemporânea e políticas públicas
+      texto: Configurações familiares e ciclo de políticas.
+- slug: pratica-socioeducativa
+  titulo: A Prática Socioeducativa no SUAS
+  grupo: Conhecimentos Específicos
+  icone: 📚
+  resumo: Educador na PSB e PSE.
+  topicos:
+  - titulo: 1. Educador no SUAS
+    explicacao: Atuação socioeducativa.
+    subtopicos:
+    - titulo: Educador na Proteção Social Básica (PAIF, SCFV)
+      texto: Inserção e papel na PSB.
+    - titulo: Educador na Proteção Social Especial (PAEFI)
+      texto: Abordagem social e acolhimento.
+- slug: metodologia-trabalho-social
+  titulo: Metodologia do Trabalho Social
+  grupo: Conhecimentos Específicos
+  icone: 🛠️
+  resumo: Trabalho social e escuta qualificada.
+  topicos:
+  - titulo: 1. Metodologia
+    explicacao: Trabalho com famílias e grupos.
+    subtopicos:
+    - titulo: Trabalho social com famílias e grupos
+      texto: Escuta qualificada, vínculos e interdisciplinaridade.
+- slug: temas-diretrizes-internacionais
+  titulo: Temas Contemporâneos e Diretrizes Internacionais
+  grupo: Conhecimentos Específicos
+  icone: 🌐
+  resumo: Drogas, redução de danos e diretrizes da ONU.
+  topicos:
+  - titulo: 1. Drogas e diretrizes
+    explicacao: Temas atuais.
+    subtopicos:
+    - titulo: Drogas, redução de danos e diretrizes internacionais
+      texto: Política sobre drogas; Regras de Beijing, RIAD e DUDH.

@@ -1,0 +1,79 @@
+id: sedes-edas-nutricao
+ordem: 13
+nome: Nutrição
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Nutrição
+codigo: '407'
+ano: '2026'
+icone: 🥗
+cor: '#7b2d8e'
+descricao: Segurança alimentar, nutrição em saúde pública, gestão de UAN, EAN e dietoterapia.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: san-politicas
+  titulo: Segurança Alimentar e Nutricional e Políticas Públicas
+  grupo: Conhecimentos Específicos
+  icone: 🍲
+  resumo: DHAA, SISAN, PNAN e equipamentos públicos.
+  topicos:
+  - titulo: 1. SAN
+    explicacao: Segurança alimentar.
+    subtopicos:
+    - titulo: DHAA, soberania e SISAN
+      texto: Direito humano à alimentação e sistema de SAN.
+    - titulo: PNAN e equipamentos públicos
+      texto: Política de alimentação e restaurantes comunitários.
+- slug: nutricao-saude-publica
+  titulo: Nutrição em Saúde Pública e Epidemiologia
+  grupo: Conhecimentos Específicos
+  icone: 🩺
+  resumo: Epidemiologia nutricional e ciclos da vida.
+  topicos:
+  - titulo: 1. Saúde pública
+    explicacao: Nutrição populacional.
+    subtopicos:
+    - titulo: Epidemiologia nutricional
+      texto: Desnutrição, obesidade e anemia em vulneráveis.
+    - titulo: Nutrição nos ciclos da vida
+      texto: Gestação, infância, idoso e aleitamento materno.
+- slug: gestao-uan
+  titulo: Gestão de Unidades de Alimentação e Nutrição (UAN)
+  grupo: Conhecimentos Específicos
+  icone: 🍽️
+  resumo: Administração de UAN e controle sanitário.
+  topicos:
+  - titulo: 1. UAN
+    explicacao: Gestão de serviços de alimentação.
+    subtopicos:
+    - titulo: Administração de UAN
+      texto: Planejamento, organização e controle.
+    - titulo: Higiene e controle sanitário (BPF)
+      texto: Contaminação, toxinfecções e boas práticas.
+- slug: ean-programas
+  titulo: Educação Alimentar e Programas Institucionais
+  grupo: Conhecimentos Específicos
+  icone: 🎓
+  resumo: EAN e PNAE.
+  topicos:
+  - titulo: 1. EAN
+    explicacao: Educação alimentar.
+    subtopicos:
+    - titulo: Educação alimentar e PNAE
+      texto: Estratégias educativas e alimentação escolar.
+- slug: dietoterapia
+  titulo: Fundamentos de Nutrição e Dietoterapia Básica
+  grupo: Conhecimentos Específicos
+  icone: 🥦
+  resumo: Nutrição básica e DCNTs.
+  topicos:
+  - titulo: 1. Nutrição básica
+    explicacao: Nutrientes e dietoterapia.
+    subtopicos:
+    - titulo: Nutrição básica e DCNTs
+      texto: Macro/micronutrientes e dietoterapia (diabetes, hipertensão, obesidade).

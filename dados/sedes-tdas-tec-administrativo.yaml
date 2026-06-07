@@ -1,0 +1,115 @@
+id: sedes-tdas-tec-administrativo
+ordem: 5
+nome: Técnico Administrativo
+orgao: SEDES-DF
+cargo: TDAS
+especialidade: Técnico Administrativo
+codigo: '202'
+ano: '2026'
+icone: 🗂️
+cor: '#7b2d8e'
+descricao: Direito constitucional e administrativo (noções), regime dos servidores do DF, atendimento, arquivologia e compras.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-tdas
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: nocoes-dir-constitucional
+  titulo: Noções de Direito Constitucional
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Princípios fundamentais, direitos e garantias e Administração Pública.
+  topicos:
+  - titulo: 1. Constituição e direitos
+    explicacao: Base constitucional aplicada ao serviço público.
+    subtopicos:
+    - titulo: Princípios fundamentais
+      texto: Arts. 1º a 4º da CF/88.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - principios-fundamentais-arts-1o-a-4o
+    - titulo: Direitos e garantias fundamentais
+      texto: Direitos individuais, coletivos e sociais.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - direitos-individuais-e-coletivos
+    - titulo: Organização do Estado e Administração Pública
+      texto: Disposições gerais e servidores públicos.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - administracao-publica-arts-37-a-41
+- slug: nocoes-dir-administrativo
+  titulo: Noções de Direito Administrativo e Legislação
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: Estado e administração, atos, poderes e regime dos servidores do DF.
+  topicos:
+  - titulo: 1. Fundamentos e atos
+    explicacao: Conceitos centrais do Direito Administrativo.
+    subtopicos:
+    - titulo: Estado, governo e administração pública
+      texto: Conceitos e princípios.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - principios-administrativos
+    - titulo: Ato administrativo
+      texto: Conceito, requisitos, atributos e extinção.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - requisitos-e-atributos
+    - titulo: Poderes da Administração
+      texto: Hierárquico, disciplinar, regulamentar e de polícia.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - poder-disciplinar-e-hierarquico
+    - titulo: Regime dos servidores do DF (LC 840/2011)
+      texto: Deveres, regime disciplinar e PAD.
+      reuse:
+      - sedes-df-base
+      - conhecimentos-df
+      - deveres-e-regime-disciplinar
+- slug: atendimento-arquivologia
+  titulo: Atendimento, Rotinas Administrativas e Arquivologia
+  grupo: Conhecimentos Específicos
+  icone: 📇
+  resumo: Atendimento ao público, redação oficial, arquivologia e protocolo.
+  topicos:
+  - titulo: 1. Atendimento e documentos
+    explicacao: Qualidade no atendimento e gestão documental.
+    subtopicos:
+    - titulo: Qualidade no atendimento e redação oficial
+      texto: Atendimento ao público e comunicações administrativas.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - atributos-do-texto-oficial
+    - titulo: Arquivologia e protocolo
+      texto: Tipos de arquivo, métodos de arquivamento, protocolo e digitalização.
+- slug: recursos-materiais-compras
+  titulo: Recursos Materiais, Patrimônio e Compras
+  grupo: Conhecimentos Específicos
+  icone: 📦
+  resumo: Administração de materiais, gestão patrimonial e noções de licitação.
+  topicos:
+  - titulo: 1. Materiais e compras
+    explicacao: Gestão de materiais, patrimônio e compras públicas.
+    subtopicos:
+    - titulo: Administração de materiais e patrimônio
+      texto: Estoques, armazenagem, tombamento e inventário.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - administracao-de-recursos-materiais
+    - titulo: Noções de licitação (Lei 14.133/2021)
+      texto: Etapas do processo e modalidades.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - modalidades-e-fases

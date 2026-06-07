@@ -1,0 +1,239 @@
+id: sedes-edas-direito
+ordem: 9
+nome: Direito e Legislação
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Direito e Legislação
+codigo: '403'
+ano: '2026'
+icone: ⚖️
+cor: '#7b2d8e'
+descricao: Direito civil, processual civil, constitucional, administrativo, financeiro, LGPD e LAI.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: direito-civil
+  titulo: Direito Civil
+  grupo: Conhecimentos Específicos
+  icone: 📜
+  resumo: LINDB, pessoas, bens, obrigações, contratos e responsabilidade civil.
+  topicos:
+  - titulo: 1. LINDB, pessoas e bens
+    explicacao: Parte geral do Direito Civil.
+    subtopicos:
+    - titulo: LINDB
+      texto: Vigência, integração e interpretação das normas.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - integracao-e-interpretacao
+    - titulo: Pessoas
+      texto: Personalidade, capacidade e pessoa jurídica.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - pessoa-juridica
+    - titulo: Bens
+      texto: Classificação geral dos bens.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - domicilio-e-bens
+  - titulo: 2. Fatos, obrigações e contratos
+    explicacao: Negócios, obrigações e contratos.
+    subtopicos:
+    - titulo: Negócio jurídico e defeitos
+      texto: Planos e defeitos do negócio jurídico.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - defeitos-do-negocio-juridico
+    - titulo: Prescrição e decadência
+      texto: Distinção e prazos.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - prescricao-e-decadencia
+    - titulo: Obrigações
+      texto: Modalidades, transmissão e adimplemento.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - modalidades-e-extincao
+    - titulo: Contratos
+      texto: Princípios, formação e espécies.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - teoria-geral-e-especies
+    - titulo: Responsabilidade civil
+      texto: Subjetiva/objetiva, nexo e dano.
+      reuse:
+      - sefaz-go
+      - direito-civil-empresarial
+      - responsabilidade-civil
+- slug: direito-processual-civil
+  titulo: Direito Processual Civil
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Jurisdição, ação, tutela provisória e procedimento comum.
+  topicos:
+  - titulo: 1. Processo civil
+    explicacao: Teoria e procedimento.
+    subtopicos:
+    - titulo: Jurisdição, ação e pressupostos processuais
+      texto: Normas processuais, sujeitos do processo e litisconsórcio.
+    - titulo: Tutela provisória e procedimento comum
+      texto: Tutela de urgência/evidência; petição inicial, contestação e saneamento.
+- slug: direito-constitucional
+  titulo: Direito Constitucional
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: Constituição, direitos, Poderes e controle de constitucionalidade.
+  topicos:
+  - titulo: 1. Constituição e direitos
+    explicacao: Teoria e direitos fundamentais.
+    subtopicos:
+    - titulo: Constituição e aplicabilidade das normas
+      texto: Conceito, classificações e eficácia.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - aplicabilidade-das-normas
+    - titulo: Princípios fundamentais
+      texto: Arts. 1º a 4º.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - principios-fundamentais-arts-1o-a-4o
+    - titulo: Direitos e garantias fundamentais
+      texto: Individuais, coletivos e sociais.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - direitos-individuais-e-coletivos
+  - titulo: 2. Estado, Poderes e controle
+    explicacao: Organização e controle.
+    subtopicos:
+    - titulo: Organização do Estado
+      texto: Federação e competências.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - reparticao-de-competencias
+    - titulo: Administração Pública na Constituição
+      texto: Arts. 37 a 41.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - administracao-publica-arts-37-a-41
+    - titulo: Organização dos Poderes
+      texto: Legislativo, Executivo e Judiciário.
+      reuse:
+      - sefaz-go
+      - direito-constitucional
+      - processo-legislativo
+    - titulo: Controle de constitucionalidade
+      texto: Difuso e concentrado.
+      reuse:
+      - tcu-aufc
+      - direito-constitucional
+      - controle-concentrado-adi-adc-adpf-ado
+- slug: direito-administrativo
+  titulo: Direito Administrativo
+  grupo: Conhecimentos Específicos
+  icone: 🏢
+  resumo: Atos, poderes, controle, improbidade, processo e licitações.
+  topicos:
+  - titulo: 1. Atos, poderes e princípios
+    explicacao: Fundamentos.
+    subtopicos:
+    - titulo: Estado, governo e princípios
+      texto: Conceitos e princípios.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - principios-administrativos
+    - titulo: Atos administrativos
+      texto: Requisitos, atributos e extinção.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - requisitos-e-atributos
+    - titulo: Poderes administrativos
+      texto: Hierárquico, disciplinar e de polícia.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - poder-disciplinar-e-hierarquico
+  - titulo: 2. Controle, improbidade e contratos
+    explicacao: Controle e contratações.
+    subtopicos:
+    - titulo: Controle da Administração e Tribunais de Contas
+      texto: Controle interno, externo e jurisdicional.
+      reuse:
+      - tcu-aufc
+      - direito-administrativo
+      - controle-da-administracao-publica
+    - titulo: Processo administrativo (Lei 9.784/1999)
+      texto: Princípios, fases e prazos.
+      reuse:
+      - tcu-aufc
+      - direito-administrativo
+      - processo-administrativo-lei-9-784-1999
+    - titulo: Improbidade administrativa (Lei 8.429/1992)
+      texto: Modalidades e sanções.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - improbidade-administrativa
+    - titulo: Licitações e contratos (Lei 14.133/2021)
+      texto: Modalidades e fases.
+      reuse:
+      - sefaz-go
+      - direito-administrativo
+      - modalidades-e-fases
+    - titulo: MROSC (Lei 13.019/2014)
+      texto: Parcerias com OSCs.
+      reuse:
+      - sedes-df-base
+      - fundamentos-suas-edas
+      - mrosc-lei-13-019-2014
+- slug: direito-financeiro
+  titulo: Direito Financeiro
+  grupo: Conhecimentos Específicos
+  icone: 💰
+  resumo: Finanças públicas, orçamento, Lei 4.320 e LRF.
+  topicos:
+  - titulo: 1. Finanças e orçamento
+    explicacao: Direito financeiro.
+    subtopicos:
+    - titulo: Finanças públicas e orçamento (PPA/LDO/LOA)
+      texto: Orçamento na CF e leis orçamentárias.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - ppa-ldo-e-loa
+    - titulo: Lei 4.320/1964 e LRF
+      texto: Normas gerais e responsabilidade fiscal.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - gestao-fiscal-responsavel
+- slug: transparencia-dados
+  titulo: Transparência e Proteção de Dados
+  grupo: Conhecimentos Específicos
+  icone: 🔐
+  resumo: LGPD e LAI.
+  topicos:
+  - titulo: 1. LGPD e LAI
+    explicacao: Dados e transparência.
+    subtopicos:
+    - titulo: LGPD (Lei 13.709/2018)
+      texto: Fundamentos, princípios, direitos dos titulares e tratamento pelo Poder Público.
+    - titulo: LAI (Lei 12.527/2011) e regulamentação no DF
+      texto: Acesso à informação e Lei Distrital 4.990/2012.

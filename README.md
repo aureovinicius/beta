@@ -1,32 +1,40 @@
-# Guia de Estudos — Auditor-Fiscal da Receita Estadual de Goiás (SEFAZ-GO)
+# Guia de Estudos para Concursos
 
-Site estático com explicações didáticas de todas as disciplinas e subtópicos do
-**ANEXO II — Conteúdo Programático** do edital.
+Plataforma de estudos em **site estático** com explicações de todas as disciplinas e
+subtópicos do conteúdo programático de cada concurso, com páginas de aprofundamento e
+reaproveitamento de conteúdo entre concursos.
 
-## Conteúdo
+Concursos atuais: **SEFAZ-GO**, **TCU/AUFC-TI** e **SEDES-DF** (15 cargos/especialidades).
 
-- **15 disciplinas** divididas em Conhecimentos Básicos e Conhecimentos Específicos
-- Explicação de cada tópico e subtópico do edital
-- Página inicial com busca, índice lateral por disciplina, tema claro/escuro e navegação responsiva
+No ar: https://aureovinicius.github.io/beta/
 
-## Estrutura
+## Arquitetura
 
-| Arquivo | Descrição |
+- **Conteúdo como dado** (YAML), separado da lógica de geração.
+- **IDs estáveis (sid)** por subtópico — reuso por ID, não por posição.
+- **Geração estática** + deploy automático por GitHub Actions (nada de HTML versionado).
+
+| Caminho | Descrição |
 |---|---|
-| `site/` | Site gerado (abra `site/index.html`) |
-| `conteudo.py` | Conteúdo das disciplinas básicas |
-| `conteudo_especificos.py` | Conteúdo das disciplinas específicas |
-| `gerar_site.py` | Gera o site a partir do conteúdo |
+| `dados/*.yaml` | Conteúdo de cada concurso (estrutura: disciplinas, tópicos, subtópicos, reuso) |
+| `dados/_grupos.yaml` | Metadados de grupos (ex.: SEDES-DF, que agrupa vários cargos) |
+| `expandido/<concurso>/<disciplina>.json` | Conteúdo aprofundado (intro, seções, exemplo, pontos-chave) por subtópico (`sid`) |
+| `schema.py` | Validação dos dados (campos, sids únicos, reuso que resolve) |
+| `dados.py` | Carrega os YAML, resolve `incluir`, atribui `sid` e valida |
+| `idutil.py` | Geração dos IDs estáveis (slug do título) |
+| `gerar_site.py` | Gera o site estático em `site/` (não versionado) |
+| `assets/` | CSS/JS (fonte; copiados para `site/assets/` no build) |
+| `.github/workflows/pages.yml` | CI: build + deploy no GitHub Pages |
 
 ## Como rodar
 
 ```bash
-# Servir localmente
-python3 -m http.server 8753 --directory site
-# Acesse http://localhost:8753
-
-# Regenerar o site após editar o conteúdo
-python3 gerar_site.py
+pip install -r requirements.txt        # PyYAML
+python3 gerar_site.py                   # gera site/
+python3 -m http.server 8753 --directory site   # http://localhost:8753
 ```
 
-> Material de estudo de apoio. Sempre confira o texto oficial do edital e a legislação citada.
+Editar conteúdo = editar os `dados/*.yaml` (ou os `expandido/*.json`); o build valida e
+publica sozinho a cada push na `master`.
+
+> Material de estudo de apoio. Sempre confira o texto oficial dos editais e a legislação citada.

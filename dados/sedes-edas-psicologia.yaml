@@ -1,0 +1,66 @@
+id: sedes-edas-psicologia
+ordem: 15
+nome: Psicologia
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Psicologia
+codigo: '409'
+ano: '2026'
+icone: 🧠
+cor: '#7b2d8e'
+descricao: Psicologia social, prática psicossocial no SUAS, avaliação e ética profissional.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: fund-psicologia-social
+  titulo: Fundamentos da Psicologia e Psicologia Social
+  grupo: Conhecimentos Específicos
+  icone: 🧠
+  resumo: Abordagens teóricas e psicologia social.
+  topicos:
+  - titulo: 1. Fundamentos
+    explicacao: Bases da psicologia.
+    subtopicos:
+    - titulo: Abordagens teóricas da Psicologia
+      texto: Psicanálise, TCC, humanista e sócio-histórica.
+    - titulo: Psicologia social crítica e desenvolvimento
+      texto: Compromisso social e psicologia do desenvolvimento.
+- slug: pratica-psicossocial-suas
+  titulo: A Prática Psicossocial no SUAS
+  grupo: Conhecimentos Específicos
+  icone: 🤝
+  resumo: Atuação do psicólogo no SUAS.
+  topicos:
+  - titulo: 1. Prática no SUAS
+    explicacao: Atuação psicossocial.
+    subtopicos:
+    - titulo: Atuação nas equipes (CRAS, CREAS, Pop)
+      texto: Dimensão socioeducativa do psicólogo.
+    - titulo: Escuta qualificada em violações de direitos
+      texto: Intervenção psicossocial e matricialidade familiar.
+- slug: avaliacao-instrumentos-psi
+  titulo: Avaliação e Instrumentos Técnico-Operativos
+  grupo: Conhecimentos Específicos
+  icone: 📋
+  resumo: Avaliação psicológica e técnicas.
+  topicos:
+  - titulo: 1. Avaliação
+    explicacao: Instrumentos.
+    subtopicos:
+    - titulo: Avaliação psicológica e técnicas
+      texto: Entrevista, anamnese, observação e visita domiciliar.
+- slug: etica-documentos-psi
+  titulo: Ética Profissional e Documentos
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Código de ética e documentos psicológicos.
+  topicos:
+  - titulo: 1. Ética
+    explicacao: Ética e documentos.
+    subtopicos:
+    - titulo: Código de ética e documentos psicológicos
+      texto: Sigilo e documentos (relatórios, laudos) do CFP.

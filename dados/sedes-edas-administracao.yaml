@@ -1,0 +1,130 @@
+id: sedes-edas-administracao
+ordem: 6
+nome: Administração
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Administração
+codigo: '400'
+ano: '2026'
+icone: 📊
+cor: '#7b2d8e'
+descricao: Teoria administrativa, OS&M e qualidade, projetos, AFO, gestão de pessoas e ética no serviço público.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: teoria-adm
+  titulo: Teoria Geral e Processos Administrativos
+  grupo: Conhecimentos Específicos
+  icone: 📊
+  resumo: Evolução da administração, funções e planejamento estratégico.
+  topicos:
+  - titulo: 1. Teoria e funções
+    explicacao: Pensamento administrativo e planejamento.
+    subtopicos:
+    - titulo: Evolução do pensamento administrativo
+      texto: Da administração na sociedade contemporânea.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - abordagens-classica-burocratica-e-sistemica
+    - titulo: Funções administrativas (PODC)
+      texto: Planejar, organizar, dirigir e controlar.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - funcoes-da-administracao-podc
+    - titulo: Planejamento estratégico (SWOT, APO, BSC)
+      texto: Missão, visão, Balanced Scorecard e processo decisório.
+- slug: osm-qualidade
+  titulo: Organização, Sistemas, Métodos e Qualidade
+  grupo: Conhecimentos Específicos
+  icone: 🧭
+  resumo: Arquitetura organizacional e gestão da qualidade.
+  topicos:
+  - titulo: 1. OS&M e qualidade
+    explicacao: Processos e qualidade na gestão.
+    subtopicos:
+    - titulo: Arquitetura organizacional e mapeamento de processos
+      texto: Organogramas, fluxogramas e distribuição do trabalho.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - mapeamento-e-melhoria-de-processos
+    - titulo: Gestão da qualidade e modelos de excelência
+      texto: Ferramentas da qualidade e excelência na gestão pública.
+- slug: gestao-projetos-adm
+  titulo: Gestão de Projetos
+  grupo: Conhecimentos Específicos
+  icone: 📁
+  resumo: Elaboração, etapas e modelos de gestão de projetos.
+  topicos:
+  - titulo: 1. Projetos
+    explicacao: Ciclo e modelos de gestão.
+    subtopicos:
+    - titulo: Projetos e modelos de gestão
+      texto: Etapas, análise e avaliação de projetos.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - gestao-de-projetos-e-metodologia-agil
+- slug: afo-administracao
+  titulo: Administração Financeira e Orçamentária (AFO)
+  grupo: Conhecimentos Específicos
+  icone: 💰
+  resumo: Orçamento, receita, despesa e execução no DF.
+  topicos:
+  - titulo: 1. Orçamento e execução
+    explicacao: Processo orçamentário e execução financeira.
+    subtopicos:
+    - titulo: Orçamento público (PPA, LDO, LOA)
+      texto: Princípios e leis orçamentárias.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - ppa-ldo-e-loa
+    - titulo: Receita pública
+      texto: Categorias, fontes, estágios e dívida ativa.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - estagios-da-receita
+    - titulo: Despesa pública
+      texto: Categorias e estágios da despesa.
+      reuse:
+      - sefaz-go
+      - direito-financeiro
+      - estagios-da-despesa
+    - titulo: SIAFEM-DF e execução financeira
+      texto: Sistemas de planejamento, orçamento e execução no DF.
+- slug: gestao-pessoas-adm
+  titulo: Gestão de Pessoas
+  grupo: Conhecimentos Específicos
+  icone: 👥
+  resumo: Comportamento organizacional e subsistemas de RH.
+  topicos:
+  - titulo: 1. Gestão de pessoas
+    explicacao: Pessoas nas organizações públicas.
+    subtopicos:
+    - titulo: Comportamento organizacional
+      texto: Motivação, liderança e conflitos.
+      reuse:
+      - tcu-aufc
+      - administracao-publica
+      - comportamento-organizacional
+    - titulo: Recrutamento, desempenho e competências
+      texto: Seleção, gestão de desempenho e por competências; tendências no setor público.
+- slug: etica-servico-publico
+  titulo: Ética e Conduta Profissional
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Ética no serviço público.
+  topicos:
+  - titulo: 1. Ética
+    explicacao: Conduta no serviço público.
+    subtopicos:
+    - titulo: Ética e conduta no serviço público
+      texto: Comportamento profissional e organização do trabalho.

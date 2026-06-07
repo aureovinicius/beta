@@ -1,0 +1,279 @@
+id: sedes-df-base
+ordem: 2
+nome: SEDES-DF — Base comum
+orgao: SEDES-DF
+cargo: Base
+ano: '2026'
+icone: 🟣
+cor: '#7b2d8e'
+descricao: Conteúdo comum reaproveitado pelos cargos da SEDES-DF.
+oculto: true
+disciplinas:
+- slug: lingua-portuguesa
+  titulo: Língua Portuguesa
+  grupo: Conhecimentos Gerais
+  icone: 📝
+  resumo: Interpretação de textos, ortografia, morfossintaxe, coesão e reescrita (comum a todos os cargos).
+  topicos:
+  - titulo: 1. Compreensão e interpretação de textos
+    explicacao: 'Leitura de gêneros variados: tese, argumentos, inferências e tipologia textual.'
+    subtopicos:
+    - titulo: Compreensão x interpretação
+      texto: O que o texto diz x o que se conclui dele.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - compreensao-x-interpretacao
+    - titulo: Ideia central e secundárias
+      texto: Tópico frasal, tese e sustentação.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - ideia-central-e-secundarias
+    - titulo: Inferência e pressuposto
+      texto: Implícitos, pressupostos e subentendidos.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - inferencia-e-pressuposto
+    - titulo: Tipos e gêneros textuais
+      texto: Reconhecimento de tipologia e gêneros.
+      reuse:
+      - tcu-aufc
+      - lingua-portuguesa
+      - tipos-e-generos-textuais
+  - titulo: 2. Ortografia, classes de palavras e crase
+    explicacao: Ortografia oficial, classes de palavras e crase.
+    subtopicos:
+    - titulo: Ortografia e acentuação
+      texto: Regras do Acordo Ortográfico.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - acentuacao-grafica
+    - titulo: Emprego da crase
+      texto: Preposição 'a' + artigo 'a'.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - emprego-da-crase
+    - titulo: Classes de palavras e pronomes
+      texto: Substantivo, verbo, pronomes, advérbios.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - pronomes
+    - titulo: Conjunções e conectores
+      texto: Relações de coordenação e subordinação.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - conjuncoes
+  - titulo: 3. Sintaxe do período
+    explicacao: Concordância, regência, colocação, pontuação e relações entre orações.
+    subtopicos:
+    - titulo: Concordância verbal e nominal
+      texto: Ajuste do verbo e do nome.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - concordancia-verbal-e-nominal
+    - titulo: Regência verbal e nominal
+      texto: Complementos com/sem preposição.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - regencia-verbal-e-nominal
+    - titulo: Colocação pronominal
+      texto: Próclise, mesóclise e ênclise.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - colocacao-pronominal
+    - titulo: Pontuação e período composto
+      texto: Vírgula, coordenação e subordinação.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - periodo-composto
+    - titulo: Orações coordenadas e subordinadas
+      texto: Relações entre orações.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - oracoes-adjetivas
+  - titulo: 4. Semântica, coesão e reescrita
+    explicacao: Significação, coesão e reescrita de frases e parágrafos.
+    subtopicos:
+    - titulo: Coesão e coerência
+      texto: Referenciação, substituição e conectores.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - coesao-e-coerencia
+    - titulo: Significação e figuras de linguagem
+      texto: Sinonímia, polissemia, conotação.
+      reuse:
+      - sefaz-go
+      - lingua-portuguesa
+      - figuras-de-linguagem
+    - titulo: Reescrita de frases e parágrafos
+      texto: Reorganizar mantendo o sentido.
+      reuse:
+      - tcu-aufc
+      - lingua-portuguesa
+      - reescrita-de-frases-e-paragrafos
+- slug: conhecimentos-df
+  titulo: Conhecimentos do DF, Política para Mulheres, Legislação e Primeiros Socorros
+  grupo: Conhecimentos Gerais
+  icone: 🏙️
+  resumo: Realidade do DF e RIDE, política para mulheres, Lei Orgânica e LC 840/2011, Maria da Penha e primeiros socorros.
+  topicos:
+  - titulo: 1. Realidade do DF e a RIDE
+    explicacao: Aspectos étnicos, sociais, históricos, geográficos, culturais, políticos e econômicos do DF e a Região Integrada de Desenvolvimento (RIDE).
+    subtopicos:
+    - titulo: Realidade do Distrito Federal
+      texto: Formação, geografia, sociedade e economia do DF.
+    - titulo: RIDE (LC 94/1998 e Decreto 7.469/2011)
+      texto: Região integrada de desenvolvimento do DF e entorno.
+  - titulo: 2. Política para mulheres e Lei Maria da Penha
+    explicacao: Plano Distrital de Política para Mulheres e o enfrentamento à violência doméstica (mínimo de 3 questões na prova).
+    subtopicos:
+    - titulo: Plano Distrital de Política para Mulheres (PDPM)
+      texto: Diretrizes e eixos da política para mulheres no DF.
+    - titulo: Lei Maria da Penha (Lei 11.340/2006)
+      texto: Formas de violência, medidas protetivas de urgência e rede de atendimento.
+  - titulo: 3. Lei Orgânica do DF
+    explicacao: Título VI da LODF — Da Ordem Social e do Meio Ambiente.
+    subtopicos:
+    - titulo: LODF — Ordem Social e Meio Ambiente
+      texto: Direitos sociais, assistência, saúde, educação e meio ambiente na LODF.
+  - titulo: 4. Regime jurídico dos servidores do DF (LC 840/2011)
+    explicacao: Disposições preliminares, deveres, regime disciplinar e processos de apuração de infração disciplinar.
+    subtopicos:
+    - titulo: Deveres e regime disciplinar
+      texto: Deveres, proibições, penalidades e responsabilidades do servidor.
+    - titulo: Processo de apuração de infração disciplinar
+      texto: Sindicância e processo administrativo disciplinar (PAD) na LC 840/2011.
+  - titulo: 5. Legislação distrital específica
+    explicacao: Lei Distrital nº 7.484/2024 aplicável ao certame.
+    subtopicos:
+    - titulo: Lei Distrital nº 7.484/2024
+      texto: Disposições da norma distrital cobrada no edital.
+  - titulo: 6. Noções de primeiros socorros
+    explicacao: Cuidados iniciais, reconhecimento de urgência/emergência e condutas básicas.
+    subtopicos:
+    - titulo: Reconhecimento de urgência e acionamento do socorro
+      texto: Avaliação da vítima e acionamento do SAMU/serviço especializado.
+    - titulo: Condutas básicas de primeiros socorros
+      texto: Engasgo, sangramento, fratura, queimadura, desmaio, convulsão e intoxicação.
+- slug: fundamentos-suas-tdas
+  titulo: Fundamentos, Organização e Gestão do SUAS (TDAS)
+  grupo: Conhecimentos Específicos Comuns
+  icone: 🤝
+  resumo: PNAS/2004, organização do SUAS, seguranças socioassistenciais e NOB/SUAS — comum às especialidades do TDAS.
+  topicos:
+  - titulo: 1. PNAS/2004 e organização da assistência social
+    explicacao: Princípios, diretrizes, objetivos, proteções afiançadas e organização da assistência social.
+    subtopicos:
+    - titulo: 'PNAS/2004: princípios, proteções e territorialização'
+      texto: Proteção Social Básica e Especial, matricialidade sociofamiliar e descentralização.
+  - titulo: 2. SUAS e seguranças socioassistenciais
+    explicacao: Princípios, diretrizes e organização do SUAS, com foco nas seguranças afiançadas.
+    subtopicos:
+    - titulo: Seguranças socioassistenciais
+      texto: Acolhida, convívio, renda e autonomia.
+  - titulo: 3. NOB/SUAS (2012)
+    explicacao: 'Norma Operacional Básica do SUAS: pacto federativo e gestão.'
+    subtopicos:
+    - titulo: Responsabilidades, cofinanciamento e vigilância
+      texto: Responsabilidades dos entes, cofinanciamento, gestão do trabalho e vigilância socioassistencial.
+- slug: fundamentos-suas-edas
+  titulo: Fundamentos e Marcos Normativos da Assistência Social (EDAS)
+  grupo: Conhecimentos Específicos Comuns
+  icone: 🤝
+  resumo: LOAS, PNAS, SUAS, NOB e NOB-RH, tipificação, instâncias de controle social, CadÚnico e MROSC.
+  topicos:
+  - titulo: 1. LOAS, PNAS e SUAS
+    explicacao: Marcos estruturantes da assistência social como política pública.
+    subtopicos:
+    - titulo: Princípios, proteções e seguranças
+      texto: LOAS, PNAS/2004, PSB e PSE, seguranças socioassistenciais.
+    - titulo: Matricialidade, territorialização e intersetorialidade
+      texto: Centralidade da família e organização territorial dos serviços.
+  - titulo: 2. Normas operacionais
+    explicacao: NOB/SUAS e NOB-RH/SUAS.
+    subtopicos:
+    - titulo: NOB/SUAS
+      texto: Responsabilidades dos entes, cofinanciamento e estruturação da rede.
+    - titulo: NOB-RH/SUAS (Resolução CNAS 269/2006)
+      texto: Gestão do trabalho e equipes de referência no SUAS.
+  - titulo: 3. Tipificação e controle social
+    explicacao: Tipificação Nacional de Serviços e instâncias de pactuação/deliberação.
+    subtopicos:
+    - titulo: Tipificação Nacional de Serviços Socioassistenciais
+      texto: Serviços de PSB e de PSE de média e alta complexidade.
+    - titulo: Instâncias de pactuação e controle social
+      texto: CIT, CIB, Conselhos e Conferências de Assistência Social.
+  - titulo: 4. Gestão integrada e parcerias
+    explicacao: CadÚnico, gestão integrada de benefícios e parcerias com a sociedade civil.
+    subtopicos:
+    - titulo: CadÚnico e Protocolo de Gestão Integrada
+      texto: Cadastro Único e integração de serviços, benefícios e transferência de renda.
+    - titulo: MROSC (Lei 13.019/2014)
+      texto: 'Parcerias com OSCs: chamamento público, execução e prestação de contas.'
+- slug: direitos-vulnerabilidades
+  titulo: Direitos, Violações de Direitos e Vulnerabilidades Sociais (EDAS)
+  grupo: Conhecimentos Específicos Comuns
+  icone: 🛡️
+  resumo: ECA/SINASE, violência de gênero, pessoa idosa e PCD, população de rua e diversidade étnico-racial.
+  topicos:
+  - titulo: 1. Crianças, adolescentes e juventude
+    explicacao: ECA e proteção integral.
+    subtopicos:
+    - titulo: ECA, convivência familiar, acolhimento e adoção
+      texto: Doutrina da proteção integral; medidas de proteção.
+    - titulo: SINASE e violência contra crianças e adolescentes
+      texto: Medidas socioeducativas e enfrentamento à violência.
+  - titulo: 2. Mulheres e violência de gênero
+    explicacao: Enfrentamento à violência doméstica e familiar contra a mulher.
+    subtopicos:
+    - titulo: Violência de gênero, medidas protetivas e rede
+      texto: Lei Maria da Penha e Política Nacional de Enfrentamento à Violência contra as Mulheres.
+  - titulo: 3. Pessoa idosa e pessoa com deficiência
+    explicacao: Proteção da pessoa idosa e da pessoa com deficiência.
+    subtopicos:
+    - titulo: Estatuto da Pessoa Idosa e LBI
+      texto: Estatuto da Pessoa Idosa, Política Nacional do Idoso e Lei Brasileira de Inclusão.
+  - titulo: 4. População de rua, pobreza e diversidade
+    explicacao: Desproteção social, população em situação de rua e relações étnico-raciais.
+    subtopicos:
+    - titulo: População em situação de rua e pobreza
+      texto: Política Nacional para a População em Situação de Rua e exclusão social.
+    - titulo: Diversidade, equidade e relações étnico-raciais
+      texto: Diversidade sexual/de gênero, racismo e entendimento do STF sobre homotransfobia.
+- slug: programas-beneficios-df
+  titulo: Programas, Benefícios e Instrumentos Socioassistenciais do DF
+  grupo: Conhecimentos Específicos Comuns
+  icone: 🎫
+  resumo: Cartão Prato Cheio, Cartão Gás, Plano DF Social, Benefícios Eventuais e Restaurante Comunitário (SISAN).
+  topicos:
+  - titulo: 1. Transferência de renda e provimento alimentar
+    explicacao: Programas distritais de provimento alimentar e auxílio.
+    subtopicos:
+    - titulo: Cartão Prato Cheio (Lei 7.009/2021)
+      texto: Provimento alimentar direto em caráter emergencial.
+    - titulo: Cartão Gás (Lei 6.938/2021)
+      texto: Auxílio para aquisição de gás de cozinha.
+  - titulo: 2. Planos e benefícios eventuais
+    explicacao: Plano estruturante e benefícios eventuais da assistência social do DF.
+    subtopicos:
+    - titulo: Plano DF Social (Lei 7.008/2021)
+      texto: Plano de combate à pobreza e à desigualdade no DF.
+    - titulo: Benefícios Eventuais (Lei 5.165/2013)
+      texto: Provisões suplementares e provisórias em situações de vulnerabilidade.
+  - titulo: 3. Segurança alimentar e nutricional
+    explicacao: Equipamentos públicos de segurança alimentar.
+    subtopicos:
+    - titulo: SISAN / Restaurante Comunitário
+      texto: 'Decreto 33.329/2011: restaurantes comunitários e SISAN.'

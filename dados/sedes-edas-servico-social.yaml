@@ -1,0 +1,70 @@
+id: sedes-edas-servico-social
+ordem: 16
+nome: Serviço Social
+orgao: SEDES-DF
+cargo: EDAS
+especialidade: Serviço Social
+codigo: '410'
+ano: '2026'
+icone: 📖
+cor: '#7b2d8e'
+descricao: Fundamentos histórico-metodológicos, ética profissional, dimensão técnico-operativa e políticas sociais.
+grupo: sedes-df
+disciplinas:
+- incluir: sedes-df-base/lingua-portuguesa
+- incluir: sedes-df-base/conhecimentos-df
+- incluir: sedes-df-base/fundamentos-suas-edas
+- incluir: sedes-df-base/direitos-vulnerabilidades
+- incluir: sedes-df-base/programas-beneficios-df
+- slug: fund-servico-social
+  titulo: Fundamentos Históricos e Teórico-Metodológicos
+  grupo: Conhecimentos Específicos
+  icone: 📖
+  resumo: Constituição da profissão e questão social.
+  topicos:
+  - titulo: 1. Fundamentos
+    explicacao: História e teoria.
+    subtopicos:
+    - titulo: Constituição da profissão e questão social
+      texto: Significado social e expressões da questão social.
+    - titulo: Perspectivas teórico-metodológicas
+      texto: Conservadorismo, reconceituação e crítico-dialética.
+- slug: etica-servico-social
+  titulo: Ética e Legislação Profissional
+  grupo: Conhecimentos Específicos
+  icone: ⚖️
+  resumo: Projeto ético-político e código de ética.
+  topicos:
+  - titulo: 1. Ética
+    explicacao: Ética profissional.
+    subtopicos:
+    - titulo: Projeto ético-político e Lei 8.662/1993
+      texto: Regulamentação da profissão.
+    - titulo: Código de Ética e sigilo (CFESS)
+      texto: Princípios, direitos e deveres.
+- slug: tecnico-operativo-ss
+  titulo: Dimensão Técnico-Operativa e Pesquisa Social
+  grupo: Conhecimentos Específicos
+  icone: 🛠️
+  resumo: Instrumentos e pesquisa social.
+  topicos:
+  - titulo: 1. Instrumentos
+    explicacao: Práxis profissional.
+    subtopicos:
+    - titulo: Instrumentos (entrevista, visita, estudo social)
+      texto: Técnicas de intervenção do Serviço Social.
+    - titulo: Documentos técnicos e pesquisa social
+      texto: Relatórios, laudos e pesquisa quali/quanti.
+- slug: estado-politicas-ss
+  titulo: Estado, Políticas Sociais, Planejamento e Gestão
+  grupo: Conhecimentos Específicos
+  icone: 🏛️
+  resumo: Políticas sociais e seguridade.
+  topicos:
+  - titulo: 1. Políticas sociais
+    explicacao: Estado e políticas.
+    subtopicos:
+    - titulo: Políticas sociais e Welfare State
+      texto: Paradigmas e crise do Estado de Bem-Estar.
+    - titulo: Seguridade social, orçamento e controle social
+      texto: Seguridade na CF/88, PPA/LDO/LOA e conselhos.
