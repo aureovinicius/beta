@@ -43,7 +43,7 @@
     {
       "sid": "componentes-do-risco",
       "titulo": "Componentes do risco",
-      "intro": "Risco de auditoria é a probabilidade de o auditor expressar uma opinião inadequada — por exemplo, opinar sem ressalva sobre demonstrações que contêm distorção relevante. Esse risco nunca é eliminado por completo, pois a auditoria trabalha por amostragem e com base em evidência persuasiva, não conclusiva. O objetivo do auditor é reduzi-lo a um nível aceitavelmente baixo.\n\nO tema é disciplinado pela NBC TA 200 (Objetivos Gerais do Auditor) e pela NBC TA 315 (Identificação e Avaliação dos Riscos de Distorção Relevante). O risco de auditoria decompõe-se em três componentes que se combinam, segundo o modelo clássico RA = RI x RC x RD.\n\nDistinção essencial: o risco inerente e o risco de controle são RISCOS DA ENTIDADE (existem independentemente da auditoria e, juntos, formam o risco de distorção relevante), enquanto o risco de detecção é o ÚNICO componente que o auditor controla diretamente, ajustando a natureza, a época e a extensão de seus procedimentos.",
+      "intro": "Risco de auditoria é a probabilidade de o auditor expressar uma opinião inadequada — por exemplo, opinar sem ressalva sobre demonstrações que contêm distorção relevante. Esse risco nunca é eliminado por completo, pois a auditoria trabalha por amostragem e com base em evidência persuasiva, não conclusiva. O objetivo do auditor é reduzi-lo a um nível aceitavelmente baixo.\n\nO tema é disciplinado pela NBC TA 200 (Objetivos Gerais do Auditor) e pela NBC TA 315 (Identificação e Avaliação dos Riscos de Distorção Relevante). O risco de auditoria decompõe-se em três componentes que se combinam, segundo o modelo clássico \\( \\text{RA} = \\text{RI} \\times \\text{RC} \\times \\text{RD} \\).\n\nDistinção essencial: o risco inerente e o risco de controle são RISCOS DA ENTIDADE (existem independentemente da auditoria e, juntos, formam o risco de distorção relevante), enquanto o risco de detecção é o ÚNICO componente que o auditor controla diretamente, ajustando a natureza, a época e a extensão de seus procedimentos.",
       "secoes": [
         {
           "h": "Risco inerente (RI)",
@@ -55,11 +55,11 @@
         },
         {
           "h": "Risco de detecção (RD)",
-          "p": "É o risco de que os procedimentos aplicados pelo auditor para reduzir o risco de auditoria a um nível aceitável NÃO detectem uma distorção relevante existente. É o único componente diretamente gerenciável pelo auditor: ele o reduz tornando os procedimentos mais eficazes (natureza), aplicando-os mais perto do fim do período (época) e ampliando o tamanho das amostras (extensão).\n\nO risco de detecção tem relação INVERSA com os demais: quanto maior o risco de distorção relevante avaliado (RI x RC), MENOR deve ser o risco de detecção aceito — logo, mais e melhores procedimentos."
+          "p": "É o risco de que os procedimentos aplicados pelo auditor para reduzir o risco de auditoria a um nível aceitável NÃO detectem uma distorção relevante existente. É o único componente diretamente gerenciável pelo auditor: ele o reduz tornando os procedimentos mais eficazes (natureza), aplicando-os mais perto do fim do período (época) e ampliando o tamanho das amostras (extensão).\n\nO risco de detecção tem relação INVERSA com os demais: quanto maior o risco de distorção relevante avaliado (\\( \\text{RI} \\times \\text{RC} \\)), MENOR deve ser o risco de detecção aceito — logo, mais e melhores procedimentos."
         },
         {
-          "h": "O modelo RA = RI x RC x RD e o risco de distorção relevante",
-          "p": "No modelo clássico, o risco de auditoria é o produto dos três componentes. O risco de distorção relevante (RDR), conceito central da NBC TA 315, corresponde à combinação RI x RC, avaliado no nível das demonstrações como um todo e no nível das afirmações. Fixado um nível aceitável de risco de auditoria, e avaliado o RDR, o auditor determina o risco de detecção tolerável e, a partir dele, calibra seus procedimentos.\n\nExemplo numérico: se o auditor aceita RA de 5% e avalia RI = 80% e RC = 50% (RDR = 40%), o RD aceitável é RA/(RI x RC) = 0,05/0,40 = 12,5%. Um RD baixo significa que os procedimentos precisam ser robustos."
+          "h": "O modelo \\( \\text{RA} = \\text{RI} \\times \\text{RC} \\times \\text{RD} \\) e o risco de distorção relevante",
+          "p": "No modelo clássico, o risco de auditoria é o produto dos três componentes. O risco de distorção relevante (RDR), conceito central da NBC TA 315, corresponde à combinação \\( \\text{RI} \\times \\text{RC} \\), avaliado no nível das demonstrações como um todo e no nível das afirmações. Fixado um nível aceitável de risco de auditoria, e avaliado o RDR, o auditor determina o risco de detecção tolerável e, a partir dele, calibra seus procedimentos.\n\nExemplo numérico: se o auditor aceita \\( \\text{RA} = 5\\% \\) e avalia \\( \\text{RI} = 80\\% \\) e \\( \\text{RC} = 50\\% \\) (\\( \\text{RDR} = 40\\% \\)), o RD aceitável é \\( \\text{RD} = \\dfrac{\\text{RA}}{\\text{RI} \\times \\text{RC}} = \\dfrac{0{,}05}{0{,}40} = 12{,}5\\% \\). Um RD baixo significa que os procedimentos precisam ser robustos."
         },
         {
           "h": "Relação inversa e calibragem dos procedimentos",
@@ -68,11 +68,11 @@
       ],
       "exemplo": "Questão comentada (estilo Cebraspe — certo/errado): 'O risco de detecção é inerente à atividade da entidade auditada e independe dos procedimentos adotados pelo auditor.'\n\nComentário: ERRADO. Quem é inerente à entidade e independe do auditor é o risco INERENTE (e também o de controle). O risco de DETECÇÃO depende diretamente da natureza, época e extensão dos procedimentos do auditor — é o único componente que ele controla. A questão troca os conceitos, pegadinha clássica.\n\nAplicação: uma empresa com estoques de joias (alto valor, fácil apropriação → RI alto) e sem inventário rotativo nem segregação de funções no almoxarifado (controles frágeis → RC alto) apresenta RDR elevado. O auditor, para manter o RA baixo, deve aceitar RD baixo: ampliar a contagem física, confirmar com terceiros e fazer testes substantivos mais robustos, de preferência na data-base.",
       "pontos_chave": [
-        "Risco de auditoria = probabilidade de opinião inadequada; nunca é zero (RA = RI x RC x RD).",
+        "Risco de auditoria = probabilidade de opinião inadequada; nunca é zero (\\( \\text{RA} = \\text{RI} \\times \\text{RC} \\times \\text{RD} \\)).",
         "Risco inerente: suscetibilidade natural a distorção, antes dos controles — é da entidade.",
         "Risco de controle: controles internos não evitam/detectam/corrigem a distorção — é da entidade.",
         "Risco de detecção: procedimentos do auditor não detectam a distorção — único que o auditor controla.",
-        "RI x RC = risco de distorção relevante (RDR), conceito-chave da NBC TA 315.",
+        "\\( \\text{RI} \\times \\text{RC} = \\text{RDR} \\) (risco de distorção relevante), conceito-chave da NBC TA 315.",
         "Relação INVERSA: RDR maior → RD aceitável menor → mais procedimentos.",
         "Risco de detecção é reduzido pela natureza, época e extensão dos procedimentos.",
         "Sempre existe risco de controle: nenhum controle é perfeito (limitações inerentes)."
@@ -211,7 +211,7 @@
         },
         {
           "h": "Seleção sistemática",
-          "p": "Seleciona-se um ponto de partida aleatório e, a partir dele, escolhem-se itens em INTERVALOS FIXOS (intervalo = tamanho da população ÷ tamanho da amostra). Ex.: para 50 itens numa população de 1.000, o intervalo é 20; sorteia-se um ponto inicial entre 1 e 20 e seguem-se os itens de 20 em 20. É simples e eficiente. Cuidado: se a população tiver um padrão cíclico que coincida com o intervalo, a amostra fica enviesada — risco específico desse método."
+          "p": "Seleciona-se um ponto de partida aleatório e, a partir dele, escolhem-se itens em INTERVALOS FIXOS (\\( \\text{intervalo} = \\dfrac{\\text{tamanho da população}}{\\text{tamanho da amostra}} \\)). Ex.: para 50 itens numa população de 1.000, o intervalo é 20; sorteia-se um ponto inicial entre 1 e 20 e seguem-se os itens de 20 em 20. É simples e eficiente. Cuidado: se a população tiver um padrão cíclico que coincida com o intervalo, a amostra fica enviesada — risco específico desse método."
         },
         {
           "h": "Seleção por unidade monetária (MUM/PPS)",
@@ -226,12 +226,12 @@
           "p": "Risco de AMOSTRAGEM é a possibilidade de a conclusão do auditor a partir da amostra ser diferente da que obteria se examinasse 100% da população — ou seja, a amostra não representa a população. Ele se reduz aumentando o tamanho da amostra e usando boa seleção. Já o risco NÃO decorrente da amostragem (não amostral) é o erro do auditor por outras causas: aplicar procedimento inadequado, interpretar mal a evidência, não reconhecer uma distorção. Este NÃO se reduz aumentando a amostra — reduz-se com planejamento, supervisão e competência.\n\nNa amostragem estatística mede-se o risco de amostragem; na não estatística, ele não é quantificado."
         }
       ],
-      "exemplo": "Questão comentada: 'Na amostragem por unidades monetárias, todos os itens da população, independentemente do valor, têm a mesma probabilidade de seleção.'\n\nComentário: ERRADO. Na seleção por unidade monetária (MUM/PPS), itens de MAIOR valor têm MAIOR probabilidade de seleção, porque a unidade de amostragem é o real, e itens mais valiosos contêm mais unidades monetárias. A 'mesma probabilidade para todos os itens' descreveria a seleção aleatória simples, não a MUM.\n\nAplicação: numa população de 1.000 notas fiscais a serem testadas, com amostra de 50, o auditor que usa seleção SISTEMÁTICA calcula o intervalo 1.000 ÷ 50 = 20, sorteia o ponto de partida (digamos, o item 7) e seleciona os itens 7, 27, 47, 67... Já se quisesse focar nos saldos de maior risco de superavaliação, usaria MUM, capturando preferencialmente as notas de maior valor.",
+      "exemplo": "Questão comentada: 'Na amostragem por unidades monetárias, todos os itens da população, independentemente do valor, têm a mesma probabilidade de seleção.'\n\nComentário: ERRADO. Na seleção por unidade monetária (MUM/PPS), itens de MAIOR valor têm MAIOR probabilidade de seleção, porque a unidade de amostragem é o real, e itens mais valiosos contêm mais unidades monetárias. A 'mesma probabilidade para todos os itens' descreveria a seleção aleatória simples, não a MUM.\n\nAplicação: numa população de 1.000 notas fiscais a serem testadas, com amostra de 50, o auditor que usa seleção SISTEMÁTICA calcula o intervalo \\( 1.000 \\div 50 = 20 \\), sorteia o ponto de partida (digamos, o item 7) e seleciona os itens 7, 27, 47, 67... Já se quisesse focar nos saldos de maior risco de superavaliação, usaria MUM, capturando preferencialmente as notas de maior valor.",
       "pontos_chave": [
         "Amostragem (NBC TA 530): testar menos de 100% e concluir sobre toda a população.",
         "Pode ser estatística (probabilística, mede o risco) ou não estatística (julgamento).",
         "Aleatória: igual probabilidade para todos os itens; elimina viés.",
-        "Sistemática: ponto de partida aleatório + intervalo fixo (população ÷ amostra); cuidado com padrões cíclicos.",
+        "Sistemática: ponto de partida aleatório + intervalo fixo (\\( \\text{intervalo} = \\dfrac{\\text{população}}{\\text{amostra}} \\)); cuidado com padrões cíclicos.",
         "Unidade monetária (MUM/PPS): item de maior valor, maior chance; ótima para superavaliação.",
         "Bloco e casual (haphazard): usadas só em amostragem não estatística; menos representativas.",
         "Risco de amostragem: amostra não representa a população; reduz-se aumentando a amostra.",

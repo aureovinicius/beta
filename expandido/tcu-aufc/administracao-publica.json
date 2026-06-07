@@ -149,7 +149,7 @@
         },
         {
           "h": "Teorias de processo da motivação",
-          "p": "As teorias de processo explicam como ocorre a motivação. A Teoria da Expectativa de Vroom afirma que a motivação é o produto de expectativa (esforço gera desempenho) x instrumentalidade (desempenho gera recompensa) x valência (valor atribuído à recompensa); se qualquer fator for zero, a motivação é nula. A Teoria da Equidade de Adams sustenta que as pessoas comparam a relação entre suas contribuições e recompensas com a de outros; a percepção de iniquidade gera tensão e ajuste de comportamento. A Teoria da Fixação de Objetivos (Locke) defende que metas específicas e desafiadoras, aceitas pelo indivíduo, elevam o desempenho."
+          "p": "As teorias de processo explicam como ocorre a motivação. A Teoria da Expectativa de Vroom afirma que a motivação é o produto \\( \\text{motivação} = \\text{expectativa} \\times \\text{instrumentalidade} \\times \\text{valência} \\): expectativa (esforço gera desempenho), instrumentalidade (desempenho gera recompensa) e valência (valor atribuído à recompensa); se qualquer fator for zero, a motivação é nula. A Teoria da Equidade de Adams sustenta que as pessoas comparam a relação entre suas contribuições e recompensas com a de outros; a percepção de iniquidade gera tensão e ajuste de comportamento. A Teoria da Fixação de Objetivos (Locke) defende que metas específicas e desafiadoras, aceitas pelo indivíduo, elevam o desempenho."
         },
         {
           "h": "Liderança",
@@ -164,11 +164,11 @@
       "pontos_chave": [
         "Maslow: pirâmide de cinco necessidades, das fisiológicas à autorrealização.",
         "Herzberg: higiênicos (extrínsecos) evitam insatisfação; motivacionais (intrínsecos) geram satisfação.",
-        "Vroom (expectativa): motivação = expectativa x instrumentalidade x valência.",
+        "Vroom (expectativa): \\( \\text{motivação} = \\text{expectativa} \\times \\text{instrumentalidade} \\times \\text{valência} \\).",
         "Adams (equidade): comparação de contribuições e recompensas com referências externas.",
         "Liderança: traços, comportamental (autocrático/democrático/liberal) e situacional (Hersey-Blanchard).",
         "Transacional (troca) x transformacional (inspira e transforma valores).",
-        "Desempenho = motivação x capacidade x condições; avaliação sujeita a vieses (efeito halo)."
+        "\\( \\text{Desempenho} = \\text{motivação} \\times \\text{capacidade} \\times \\text{condições} \\); avaliação sujeita a vieses (efeito halo)."
       ],
       "dica_prova": "Os maiores erros de prova: (1) afirmar que fatores higiênicos motivam (não motivam, só evitam insatisfação); (2) tratar satisfação e insatisfação como extremos de uma única escala em Herzberg (são dimensões independentes); (3) confundir os estilos de liderança e o modelo situacional. Em Vroom, lembre que basta um fator igual a zero para zerar a motivação."
     },

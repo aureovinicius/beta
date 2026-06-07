@@ -53,7 +53,7 @@
         },
         {
           "h": "Disponibilidade e os 'noves'",
-          "p": "A disponibilidade é medida pela fórmula MTBF / (MTBF + MTTR), onde MTBF é o tempo médio entre falhas e MTTR o tempo médio de reparo. Quanto maior o MTBF e menor o MTTR, maior a disponibilidade. Ela é expressa em 'noves': 99,9% (três noves) equivale a cerca de 8,76 horas de indisponibilidade por ano; 99,99% (quatro noves) a ~52 minutos; 99,999% (cinco noves) a ~5 minutos por ano.\n\nProjetos de redundância visam aumentar o MTBF (componentes redundantes raramente falham todos juntos) e reduzir o MTTR (failover automático e peças sobressalentes), elevando a disponibilidade global."
+          "p": "A disponibilidade é medida pela fórmula \\( \\dfrac{\\text{MTBF}}{\\text{MTBF} + \\text{MTTR}} \\), onde MTBF é o tempo médio entre falhas e MTTR o tempo médio de reparo. Quanto maior o MTBF e menor o MTTR, maior a disponibilidade. Ela é expressa em 'noves': 99,9% (três noves) equivale a cerca de 8,76 horas de indisponibilidade por ano; 99,99% (quatro noves) a ~52 minutos; 99,999% (cinco noves) a ~5 minutos por ano.\n\nProjetos de redundância visam aumentar o MTBF (componentes redundantes raramente falham todos juntos) e reduzir o MTTR (failover automático e peças sobressalentes), elevando a disponibilidade global."
         }
       ],
       "exemplo": "Item comentado: 'A infraestrutura hiperconvergente depende de uma rede de armazenamento SAN dedicada para consolidar os discos dos servidores.' — ERRADO. A HCI dispensa a SAN externa: o armazenamento é local em cada nó e agregado por software (SDS) em um pool distribuído e replicado. A dependência de SAN dedicada é característica de arquiteturas tradicionais (três camadas) ou convergentes, não da hiperconvergente.",
@@ -63,7 +63,7 @@
         "Scale-up (vertical) reforça um nó; scale-out (horizontal) adiciona nós",
         "Redundância elimina SPOF; tolerância a falhas mantém operação sem interrupção",
         "HA tolera breve failover; tolerância a falhas não tem interrupção perceptível",
-        "Disponibilidade = MTBF/(MTBF+MTTR); 'cinco noves' ≈ 5 min de parada/ano",
+        "Disponibilidade \\( = \\dfrac{\\text{MTBF}}{\\text{MTBF} + \\text{MTTR}} \\); 'cinco noves' ≈ 5 min de parada/ano",
         "N+1, 2N descrevem o grau de redundância de componentes"
       ],
       "dica_prova": "A pegadinha clássica é igualar alta disponibilidade a tolerância a falhas — na HA há um failover (pequena parada), na tolerância a falhas não há interrupção. Também confunde-se scale-up com scale-out: lembre que 'up' é para cima no mesmo nó (vertical) e 'out' é para fora, espalhando em mais nós (horizontal). E HCI NÃO usa SAN dedicada."

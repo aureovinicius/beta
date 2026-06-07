@@ -16,7 +16,7 @@
         },
         {
           "h": "Sobrepeso e obesidade",
-          "p": "A obesidade é o acúmulo excessivo de gordura corporal com risco à saúde. No adulto, o diagnóstico populacional usa o Índice de Massa Corporal (IMC = peso/altura²): eutrofia 18,5 a 24,9; sobrepeso 25 a 29,9; obesidade grau I (30–34,9), II (35–39,9) e III (≥40). A circunferência da cintura avalia a gordura abdominal e o risco cardiometabólico.\n\nNa infância e adolescência usam-se as curvas de IMC por idade (escores-z da OMS). A obesidade é fator de risco para DCNTs (diabetes tipo 2, hipertensão, dislipidemias) e tem determinação social, com maior prevalência associada ao ambiente alimentar obesogênico e ao consumo de ultraprocessados."
+          "p": "A obesidade é o acúmulo excessivo de gordura corporal com risco à saúde. No adulto, o diagnóstico populacional usa o Índice de Massa Corporal \\(\\text{IMC} = \\dfrac{\\text{peso}}{\\text{altura}^{2}}\\): eutrofia 18,5 a 24,9; sobrepeso 25 a 29,9; obesidade grau I (30–34,9), II (35–39,9) e III (≥40). A circunferência da cintura avalia a gordura abdominal e o risco cardiometabólico.\n\nNa infância e adolescência usam-se as curvas de IMC por idade (escores-z da OMS). A obesidade é fator de risco para DCNTs (diabetes tipo 2, hipertensão, dislipidemias) e tem determinação social, com maior prevalência associada ao ambiente alimentar obesogênico e ao consumo de ultraprocessados."
         },
         {
           "h": "Anemia e carências de micronutrientes",

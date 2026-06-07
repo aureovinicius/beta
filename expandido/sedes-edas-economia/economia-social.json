@@ -51,7 +51,7 @@
         },
         {
           "h": "Pobreza multidimensional e o IPM",
-          "p": "A visão das capacidades de Amartya Sen sustenta que o bem-estar deve ser medido pelas liberdades reais (capacidades) que a pessoa tem, não apenas pela renda. O Índice de Pobreza Multidimensional (IPM) global, do PNUD/OPHI, agrega dez indicadores em três dimensões com pesos iguais: saúde (nutrição, mortalidade infantil), educação (anos de escolaridade, frequência escolar) e padrão de vida (combustível de cozinha, saneamento, água, eletricidade, moradia e bens).\n\nUma pessoa é multidimensionalmente pobre se sofre privações que somam pelo menos um terço dos indicadores ponderados. O IPM resulta do produto entre a incidência (H, proporção de pobres) e a intensidade média das privações (A), captando não só quantos são pobres, mas quão privados estão."
+          "p": "A visão das capacidades de Amartya Sen sustenta que o bem-estar deve ser medido pelas liberdades reais (capacidades) que a pessoa tem, não apenas pela renda. O Índice de Pobreza Multidimensional (IPM) global, do PNUD/OPHI, agrega dez indicadores em três dimensões com pesos iguais: saúde (nutrição, mortalidade infantil), educação (anos de escolaridade, frequência escolar) e padrão de vida (combustível de cozinha, saneamento, água, eletricidade, moradia e bens).\n\nUma pessoa é multidimensionalmente pobre se sofre privações que somam pelo menos um terço dos indicadores ponderados. O IPM resulta do produto entre a incidência (H, proporção de pobres) e a intensidade média das privações (A) — \\(\\text{IPM} = H \\times A\\) —, captando não só quantos são pobres, mas quão privados estão."
         },
         {
           "h": "Medindo a pobreza monetária: índices FGT",
