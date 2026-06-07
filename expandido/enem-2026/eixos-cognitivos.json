@@ -1,0 +1,183 @@
+{
+ "slug": "eixos-cognitivos",
+ "itens": [
+  {
+   "sid": "i-dominar-linguagens-dl",
+   "titulo": "I — Dominar linguagens (DL)",
+   "intro": "Os cinco eixos cognitivos do Enem são competências gerais que atravessam TODAS as áreas e TODAS as questões da prova. Eles aparecem na Matriz de Referência do Enem como uma estrutura comum: não importa se você está resolvendo uma questão de Física, de História ou de Língua Portuguesa, o que se avalia, no fundo, é a sua capacidade de mobilizar esses eixos. O primeiro deles é Dominar Linguagens (DL).\n\nDominar Linguagens significa dominar a norma culta da língua portuguesa e fazer uso das linguagens matemática, artística e científica, além das línguas espanhola e inglesa. Em termos práticos, é a competência de LER e ENTENDER os diversos códigos com que o conhecimento se expressa: o texto verbal, a tabela, o gráfico, a equação, o mapa, a charge, a fórmula química, a partitura, a obra de arte. Antes de raciocinar sobre um problema, é preciso decodificar a linguagem em que ele está escrito.\n\nNo Enem, que é uma prova fortemente baseada em texto-base e contextualização, DL é o eixo de ENTRADA: se o candidato não compreende corretamente a linguagem do enunciado e dos materiais de apoio, todos os outros eixos ficam comprometidos. Por isso, leitura proficiente é a habilidade mais transversal de toda a prova."
+   ,
+   "secoes": [
+    {
+     "h": "O que a Matriz entende por 'linguagem'",
+     "p": "A palavra 'linguagem' aqui é ampla. Inclui a linguagem verbal (textos em português, espanhol e inglês), a linguagem matemática (números, símbolos, equações, proporções), a linguagem científica (nomenclaturas, fórmulas, unidades, convenções de Química, Física e Biologia) e as linguagens não verbais e artísticas (imagens, gráficos, tabelas, mapas, charges, infográficos, fotografias, pinturas, músicas).\n\nDominar essas linguagens é saber traduzir de um código para outro: ler um gráfico e descrevê-lo em palavras, transformar um enunciado verbal em uma equação, interpretar uma charge e explicar a crítica que ela faz. Essa 'tradução intersemiótica' é constantemente exigida no Enem."
+    },
+    {
+     "h": "Conteúdos e habilidades que sustentam DL",
+     "p": "Para fortalecer este eixo, o estudante precisa dominar: leitura e interpretação de textos de vários gêneros (notícia, artigo de opinião, poema, propaganda, verbete); norma-padrão da língua portuguesa (ortografia, concordância, regência, pontuação, coesão); leitura de gráficos e tabelas (eixos, escalas, legendas, tendências); interpretação de mapas e infográficos; noções funcionais de inglês e espanhol (idéia central, palavras cognatas, contexto); e a linguagem simbólica da Matemática e das Ciências.\n\nNa redação, DL aparece de forma direta na Competência 1 (domínio da norma culta) e na Competência 4 (mecanismos linguísticos de coesão). Escrever bem é, por definição, dominar a linguagem verbal."
+    },
+    {
+     "h": "Como DL permeia as questões",
+     "p": "Em uma questão de Geografia com um mapa de fluxos migratórios, antes de qualquer análise, é preciso ler a legenda e a escala — isso é DL. Em uma questão de Química com uma equação, é preciso reconhecer os símbolos dos elementos e os coeficientes — DL. Em Linguagens, uma questão de inglês exige captar a ideia global do texto a partir de cognatos e contexto — DL.\n\nO erro mais comum não é de conteúdo, e sim de leitura: o candidato 'pula' a leitura cuidadosa do texto-base, do gráfico ou do comando, e responde com base em uma impressão. Dominar linguagens é, em grande parte, ter disciplina de leitura."
+    },
+    {
+     "h": "DL e a interdisciplinaridade",
+     "p": "Como o Enem é contextualizado, é comum que uma mesma questão misture linguagens: um texto verbal acompanhado de um gráfico e de uma tabela, pedindo que o candidato CRUZE as informações. DL é o eixo que permite navegar entre esses registros sem se perder. Quem treina apenas conteúdo, mas não treina leitura de gráficos, tabelas e textos longos, costuma ter desempenho abaixo do esperado, mesmo sabendo a matéria."
+    }
+   ],
+   "exemplo": "Questão típica: o texto-base é um trecho de artigo de opinião sobre consumo de água, acompanhado de um gráfico de barras com o consumo por região. O comando pede: 'Considerando o texto e o gráfico, a afirmação correta é...'. Resolução: primeiro o candidato lê o gráfico (identifica eixos, unidades e a região de maior consumo), depois lê o texto (capta a tese do autor) e, por fim, cruza as duas linguagens para encontrar a alternativa que é coerente com AMBOS. Errar essa questão raramente é falta de conteúdo — é falha em decodificar uma das linguagens (em geral, ler o gráfico apressadamente).",
+   "pontos_chave": [
+    "DL é o eixo de leitura/decodificação: linguagem verbal, matemática, científica, artística e estrangeira.",
+    "Sempre leia legendas, escalas, eixos e unidades antes de interpretar gráficos, tabelas e mapas.",
+    "Saiba 'traduzir' entre códigos: transformar texto em equação, ler imagem em palavras.",
+    "Norma culta e coesão (Competências 1 e 4 da redação) são aplicações diretas de DL.",
+    "Em inglês/espanhol, foque na ideia central usando cognatos e contexto, não na tradução palavra a palavra.",
+    "A maioria dos erros do Enem é de leitura, não de conteúdo: tenha disciplina para reler o comando.",
+    "Pratique cruzar informações de texto + gráfico + tabela numa mesma questão."
+   ],
+   "dica_prova": "O Enem adora oferecer mais texto/dados do que o necessário para resolver a questão; parte da habilidade DL é separar o que é relevante do que é distrator. Cuidado com alternativas que estão corretas isoladamente, mas não respondem ao que o comando pede, ou que contradizem o gráfico mesmo combinando com o texto. Leia SEMPRE o comando duas vezes e sublinhe a pergunta exata."
+  },
+  {
+   "sid": "ii-compreender-fenomenos-cf",
+   "titulo": "II — Compreender fenômenos (CF)",
+   "intro": "O segundo eixo cognitivo é Compreender Fenômenos (CF): a competência de construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas. Se DL é o eixo da leitura, CF é o eixo da EXPLICAÇÃO: entender POR QUE as coisas acontecem.\n\nCompreender um fenômeno é ir além de descrevê-lo — é dominar os conceitos que o explicam e saber aplicá-los a uma situação concreta. Por que ocorre o efeito estufa? Como se forma uma brisa marítima? Por que a Revolução Industrial transformou as relações de trabalho? O que explica a reação de combustão? Em todos esses casos, o candidato precisa mobilizar conceitos para dar sentido a um acontecimento do mundo natural, social, tecnológico ou artístico.\n\nNo Enem, CF é o eixo mais próximo do 'conteúdo' de cada disciplina, mas com uma diferença crucial: não basta memorizar — é preciso ENTENDER o mecanismo e aplicá-lo a um contexto que, muitas vezes, o estudante nunca viu antes."
+   ,
+   "secoes": [
+    {
+     "h": "Compreender é diferente de memorizar",
+     "p": "O Enem raramente pergunta 'o que é' algo de forma direta. Em vez disso, descreve uma situação e pede que o candidato a EXPLIQUE usando um conceito. Por exemplo: em vez de 'defina pressão atmosférica', a prova mostra por que uma garrafa amassa ao descer uma serra e pergunta a causa. Compreender o fenômeno significa dominar a relação de causa e efeito por trás dele.\n\nIsso exige conhecimento conceitual sólido (não decorado), porque a questão sempre vem 'vestida' de um contexto novo, e o conceito precisa ser reconhecido sob essa nova roupagem."
+    },
+    {
+     "h": "Conteúdos que sustentam CF nas quatro áreas",
+     "p": "Ciências da Natureza: leis e modelos (cinemática, dinâmica, termodinâmica, ondas, eletricidade; ligações químicas, reações, estequiometria, equilíbrio; ecologia, fisiologia, genética, evolução). Ciências Humanas: processos históricos (escravidão, industrialização, ditaduras, globalização), conceitos geográficos (clima, relevo, urbanização, redes), e categorias de Filosofia e Sociologia (poder, ideologia, cidadania). Matemática: os fenômenos quantitativos (crescimento, proporção, probabilidade) modelados por funções e estatística. Linguagens: a compreensão de manifestações artísticas (movimentos literários, vanguardas, cultura popular) como fenômenos históricos e estéticos.\n\nEm cada área, compreender o fenômeno é dominar o CONCEITO-CHAVE e a CADEIA CAUSAL que ele descreve."
+    },
+    {
+     "h": "Como CF aparece nas questões",
+     "p": "A estrutura típica é: um texto-base descreve um fenômeno (uma notícia sobre seca, um experimento, um evento histórico, um gráfico de população) e o comando pergunta a explicação, a causa ou a consequência. Resolver bem exige reconhecer qual conceito da disciplina está em jogo e aplicá-lo corretamente ao caso descrito.\n\nMuitas questões são interdisciplinares: um fenômeno ambiental, por exemplo, pode exigir Química (gases), Biologia (ecossistemas) e Geografia (impacto socioespacial) ao mesmo tempo. CF é o eixo que mobiliza o conhecimento de várias frentes para explicar um mesmo evento."
+    },
+    {
+     "h": "CF e a redação",
+     "p": "Na redação, CF aparece quando o candidato precisa COMPREENDER o tema proposto e suas causas reais. Um bom texto dissertativo demonstra que o autor entende o fenômeno social em discussão — suas raízes históricas, seus mecanismos, seus desdobramentos. Isso conecta CF à Competência 2 (compreender a proposta e aplicar conceitos das áreas para desenvolver o tema). Quem compreende o fenômeno argumenta com profundidade; quem só o descreve fica na superfície."
+    }
+   ],
+   "exemplo": "Questão típica de Ciências da Natureza: o texto descreve que, à noite, regiões litorâneas costumam ter uma brisa que sopra do continente para o mar (brisa terrestre). O comando pede a explicação física. Resolução: o candidato precisa COMPREENDER o conceito de aquecimento/resfriamento diferencial — a água tem maior capacidade térmica que a terra, então à noite o continente esfria mais rápido, o ar sobre o mar (mais quente) sobe e o ar mais frio do continente se desloca para ocupar o lugar. Não basta lembrar a definição de brisa; é preciso aplicar a relação entre calor específico, densidade do ar e convecção ao caso descrito.",
+   "pontos_chave": [
+    "CF é o eixo da EXPLICAÇÃO: entender o porquê e o mecanismo de um fenômeno, não só descrevê-lo.",
+    "Domine conceitos-chave e cadeias de causa e efeito de cada disciplina, não definições decoradas.",
+    "Toda questão traz um contexto novo: treine reconhecer o conceito 'disfarçado' em situações inéditas.",
+    "Ciências da Natureza: leis e modelos; Humanas: processos e categorias; Matemática: modelos quantitativos.",
+    "Fenômenos costumam ser interdisciplinares — pense em quais áreas se combinam para explicá-los.",
+    "Na redação, compreender o fenômeno (Competência 2) é o que dá profundidade aos argumentos.",
+    "Pergunte-se sempre: 'qual princípio explica isto?' antes de olhar as alternativas."
+   ],
+   "dica_prova": "Cuidado com alternativas que descrevem CORRETAMENTE o fenômeno, mas NÃO explicam sua causa — o comando geralmente pede a explicação, não a descrição. Distratores frequentes invertem a relação causa-efeito ou aplicam um conceito verdadeiro a um fenômeno errado. Identifique primeiro o conceito central da questão e só depois confronte com as alternativas."
+  },
+  {
+   "sid": "iii-enfrentar-situacoes-problema-sp",
+   "titulo": "III — Enfrentar situações-problema (SP)",
+   "intro": "O terceiro eixo cognitivo é Enfrentar Situações-Problema (SP): a competência de selecionar, organizar, relacionar e interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema. É o eixo da RESOLUÇÃO — usar o que se sabe para chegar a uma resposta diante de um problema concreto.\n\nEnquanto CF pergunta 'por que isso acontece?', SP pergunta 'o que fazer com isso?' ou 'qual é a resposta?'. Uma situação-problema é um cenário em que há dados, um objetivo e um caminho a ser percorrido — quase sempre não óbvio. O candidato precisa selecionar quais informações importam, organizá-las, relacioná-las e executar um raciocínio (frequentemente um cálculo, mas nem sempre) até a solução.\n\nNo Enem, SP é o coração das questões de Matemática e de boa parte das Ciências da Natureza, mas também aparece em Humanas e Linguagens sempre que é preciso aplicar conhecimento para decidir entre opções. É o eixo que mais distingue 'saber a matéria' de 'saber usar a matéria'."
+   ,
+   "secoes": [
+    {
+     "h": "Anatomia de uma situação-problema",
+     "p": "Uma situação-problema tem três partes: (1) um contexto com dados (números, gráficos, tabelas, descrições); (2) um objetivo (o que se quer descobrir ou decidir); e (3) uma lacuna entre o que se tem e o que se quer — o caminho a percorrer. Resolver é construir esse caminho.\n\nO primeiro passo, e o mais subestimado, é SELECIONAR os dados relevantes: o Enem costuma oferecer informações em excesso. O segundo é ORGANIZAR esses dados (numa equação, numa proporção, num esquema). O terceiro é EXECUTAR o raciocínio com cuidado e checar se a resposta faz sentido no contexto."
+    },
+    {
+     "h": "Conteúdos e ferramentas que sustentam SP",
+     "p": "Matemática: regra de três e proporcionalidade, porcentagem, funções (1º e 2º graus, exponencial), geometria e cálculo de áreas/volumes, estatística e probabilidade, análise combinatória, leitura de gráficos. Ciências da Natureza: estequiometria, cinemática e leis de Newton, leis dos gases, balanços de energia, genética (proporções de cruzamentos). Humanas: interpretar dados socioeconômicos, comparar indicadores, decidir entre interpretações concorrentes a partir de evidências. Linguagens: escolher a melhor reescrita de um trecho, a interpretação mais adequada de um texto.\n\nA ferramenta mais transversal de SP no Enem é a proporcionalidade (regra de três): ela resolve uma enorme fração das questões quantitativas."
+    },
+    {
+     "h": "Como SP aparece nas questões",
+     "p": "O formato clássico: um contexto realista (uma receita, uma conta de luz, um trajeto, um experimento) com dados, e o comando pede um valor, uma quantidade ou a melhor decisão. A dificuldade raramente está na conta em si — está em MODELAR o problema: traduzir a situação descrita em linguagem matemática ou em um raciocínio estruturado.\n\nMuitas questões testam atenção a unidades (km/h vs m/s, g vs kg, % vs valor absoluto). Converter unidades corretamente é, muitas vezes, a diferença entre acertar e cair em um distrator que usa exatamente o erro de unidade esperado."
+    },
+    {
+     "h": "Estratégia geral de resolução",
+     "p": "Uma rotina eficiente: 1) ler o comando primeiro para saber o que se pede; 2) voltar ao texto/dados e marcar só o que é relevante; 3) checar e padronizar unidades; 4) escolher a ferramenta (proporção, função, fórmula); 5) calcular; 6) verificar se a ordem de grandeza da resposta é plausível e se ela está entre as alternativas. Se a resposta 'não bate', frequentemente houve erro de unidade ou de interpretação do comando.\n\nGerir o tempo também é parte de SP: identificar rapidamente questões mais longas e decidir a ordem de ataque é uma forma de 'enfrentar a situação-problema' da prova como um todo."
+    }
+   ],
+   "exemplo": "Questão típica de Matemática contextualizada: uma torneira enche um reservatório de 1.200 litros em 40 minutos; o texto pergunta quanto tempo levaria para encher 1.800 litros mantendo a vazão. Resolução (SP): selecionar os dados (1.200 L em 40 min), reconhecer a proporcionalidade direta entre volume e tempo, montar a regra de três (1.200/40 = 1.800/t), resolver (t = 60 min) e conferir se o resultado é plausível. A questão não exige fórmula avançada — exige modelar a situação como uma proporção e executar com atenção. Distratores comuns seriam respostas que ignoram a proporção ou confundem as unidades.",
+   "pontos_chave": [
+    "SP é o eixo da RESOLUÇÃO: selecionar, organizar, relacionar dados e decidir.",
+    "Identifique sempre as três partes: dados disponíveis, objetivo e o caminho entre eles.",
+    "O Enem oferece dados em excesso — selecionar o que importa é metade da resolução.",
+    "Proporcionalidade (regra de três) e porcentagem resolvem grande parte das questões quantitativas.",
+    "Padronize unidades antes de calcular: erros de unidade são distratores planejados.",
+    "Modelar o problema (traduzir o enunciado em equação/esquema) é mais difícil que a conta em si.",
+    "Cheque a plausibilidade da resposta (ordem de grandeza) antes de marcar.",
+    "Gerir tempo e ordem de ataque das questões também é enfrentar uma situação-problema."
+   ],
+   "dica_prova": "Muitos distratores correspondem a erros previsíveis: esquecer de converter unidades, inverter a regra de três, somar quando deveria multiplicar, ou parar a conta um passo antes do fim. Por isso, a resposta 'que aparece naturalmente' nem sempre é a certa. Refaça mentalmente o comando ('o que exatamente foi pedido?') antes de marcar, especialmente em questões com porcentagem e proporção."
+  },
+  {
+   "sid": "iv-construir-argumentacao-ca",
+   "titulo": "IV — Construir argumentação (CA)",
+   "intro": "O quarto eixo cognitivo é Construir Argumentação (CA): a competência de relacionar informações representadas em diferentes formas e conhecimentos disponíveis em situações concretas, para construir argumentação consistente. É o eixo do RACIOCÍNIO JUSTIFICADO — não apenas chegar a uma conclusão, mas sustentá-la com base em evidências e em relações lógicas.\n\nArgumentar é encadear: a partir de dados e conhecimentos, defender uma posição mostrando POR QUE ela se sustenta. Isso vale tanto para escolher a alternativa correta de uma questão (e saber justificar a escolha) quanto, de modo mais visível, para escrever a redação dissertativo-argumentativa, em que CA é o eixo central.\n\nNo Enem, CA distingue quem 'chuta com sorte' de quem raciocina: nas questões objetivas, é o eixo que permite eliminar alternativas por incoerência e defender a correta; na redação, é o que organiza a tese, os argumentos e as evidências de modo consistente. É, junto com SP, um dos eixos mais cobrados — sobretudo porque a redação tem peso enorme na nota final."
+   ,
+   "secoes": [
+    {
+     "h": "O que é uma argumentação consistente",
+     "p": "Uma argumentação consistente tem três elementos: uma TESE (a posição que se defende), ARGUMENTOS (as razões que a sustentam) e EVIDÊNCIAS (dados, exemplos, fatos, conceitos que dão base aos argumentos). A consistência vem da relação lógica entre eles: cada argumento deve sustentar a tese, e cada evidência deve sustentar o argumento, sem contradições ou saltos.\n\nArgumentar não é opinar sem base nem acumular informações soltas — é CONECTAR informações e conhecimentos de modo que a conclusão se torne defensável. Por isso o eixo fala em 'relacionar informações... para construir argumentação consistente'."
+    },
+    {
+     "h": "CA na redação do Enem",
+     "p": "A redação dissertativo-argumentativa é a expressão máxima de CA. O candidato recebe um tema e textos motivadores e deve defender um ponto de vista. As Competências 2 e 3 da redação avaliam diretamente CA: compreender o tema e aplicar conhecimentos (C2) e selecionar, relacionar e organizar informações e argumentos em defesa de um ponto de vista (C3).\n\nUm bom texto apresenta tese clara na introdução, desenvolve argumentos com repertório legitimado (dados, fatos históricos, conceitos, leis, citações reais) e mantém progressão lógica entre os parágrafos. Repertório inventado, genérico ou desconectado da tese enfraquece a argumentação — daí a importância de usar fontes reais e pertinentes."
+    },
+    {
+     "h": "CA nas questões objetivas",
+     "p": "Mesmo em questões de múltipla escolha, CA está presente: muitas pedem que o candidato identifique qual alternativa é melhor SUSTENTADA pelo texto-base, ou qual conclusão pode ser logicamente inferida dos dados. Resolver bem exige eliminar alternativas por falhas argumentativas: generalizações indevidas, conclusões que extrapolam os dados, relações de causa-efeito não comprovadas pelo texto.\n\nEm Humanas, por exemplo, é comum a questão apresentar um documento histórico e pedir a interpretação mais bem fundamentada. CA é o eixo que permite distinguir a inferência válida da especulação."
+    },
+    {
+     "h": "Conteúdos e habilidades que sustentam CA",
+     "p": "Para argumentar bem: domínio de estrutura textual dissertativa (introdução-desenvolvimento-conclusão); conectivos e coesão (mecanismos que explicitam as relações lógicas — causa, consequência, oposição, conclusão); repertório sociocultural legitimado e atual (história, filosofia, sociologia, ciência, atualidades, dados oficiais); capacidade de inferência e de distinção entre fato e opinião; e noções de falácias e de raciocínio lógico (evitar generalização, falsa causa, apelo emocional).\n\nLer bons textos argumentativos e treinar redação regularmente é o caminho mais eficaz para desenvolver este eixo."
+    }
+   ],
+   "exemplo": "Na redação, suponha o tema 'Desafios para a valorização do trabalho doméstico no Brasil'. Construir argumentação consistente seria: TESE — o trabalho doméstico é desvalorizado por uma herança histórica e pela informalidade. ARGUMENTO 1 — raiz histórica: o regime escravista associou o trabalho doméstico à servidão (evidência: contexto da abolição e a ausência de políticas de inserção dos libertos). ARGUMENTO 2 — informalidade jurídica: parte das trabalhadoras não tem carteira assinada (evidência: a PEC das Domésticas/EC 72/2013 buscou corrigir isso). CONCLUSÃO — proposta que dialoga com os argumentos. Cada evidência sustenta um argumento, e os argumentos sustentam a tese: isso é CA. Já em uma questão objetiva de História, CA aparece quando se pede a interpretação 'mais coerente com o documento', e o candidato elimina alternativas que extrapolam o que o texto efetivamente afirma.",
+   "pontos_chave": [
+    "CA é o eixo do raciocínio justificado: defender conclusões com evidências e lógica.",
+    "Estrutura da argumentação: tese + argumentos + evidências, conectados sem saltos lógicos.",
+    "Na redação, CA é avaliado nas Competências 2 e 3 (peso decisivo na nota final).",
+    "Use repertório sociocultural REAL, atual e pertinente — nunca inventar dados, leis ou citações.",
+    "Conectivos e coesão explicitam as relações lógicas e dão consistência ao texto.",
+    "Em questões objetivas, elimine alternativas por falhas: generalização, extrapolação, falsa causa.",
+    "Distinga inferência válida (sustentada pelo texto) de especulação.",
+    "Treine redação com regularidade e leia bons textos argumentativos."
+   ],
+   "dica_prova": "Na redação, o erro fatal é tese frágil ou repertório 'enfeite' (citação famosa que não se liga ao argumento). Cada parágrafo deve responder 'por que isso prova minha tese?'. Nas objetivas, desconfie de alternativas que parecem 'profundas' mas afirmam mais do que o texto-base permite concluir — o Enem premia a inferência ancorada no texto, não a opinião pessoal. E lembre: na redação, desrespeito aos direitos humanos pode zerar a nota, então a argumentação deve ser consistente E ética."
+  },
+  {
+   "sid": "v-elaborar-propostas-ep",
+   "titulo": "V — Elaborar propostas (EP)",
+   "intro": "O quinto e último eixo cognitivo é Elaborar Propostas (EP): a competência de recorrer aos conhecimentos desenvolvidos na escola para a elaboração de propostas de intervenção solidária na realidade, respeitando os valores humanos e considerando a diversidade sociocultural. É o eixo da AÇÃO — usar o conhecimento para propor soluções concretas a problemas reais da sociedade.\n\nElaborar propostas vai além de compreender (CF) e de argumentar (CA): pede que o candidato dê um passo adiante e indique COMO intervir na realidade de forma viável, solidária e respeitosa à diversidade. É um eixo que carrega uma dimensão ética e cidadã explícita: a intervenção proposta deve respeitar os valores humanos.\n\nNo Enem, EP tem seu palco principal na redação: a Competência 5 exige uma proposta de intervenção detalhada para o problema discutido. Mas o eixo também se manifesta em questões que pedem a melhor solução, política ou medida diante de uma situação social, ambiental ou tecnológica. É o eixo que conecta o aprendizado escolar à transformação do mundo."
+   ,
+   "secoes": [
+    {
+     "h": "O que é uma proposta de intervenção",
+     "p": "Uma proposta de intervenção é uma solução prática para um problema. No padrão do Enem, ela deve ser detalhada e responder, idealmente, a cinco elementos: o que será feito (a ação), quem fará (o agente), como será feito (o meio/modo), para que (a finalidade/efeito) e, quando possível, um detalhamento adicional. Quanto mais articulada e concreta, melhor.\n\nA proposta deve dialogar com os argumentos do texto: resolver o problema que a própria redação levantou. Propostas genéricas ('é preciso conscientizar a população') valem pouco; propostas detalhadas ('o Ministério da Educação, por meio de campanhas em escolas e redes sociais, deve...') demonstram o domínio de EP."
+    },
+    {
+     "h": "EP e a Competência 5 da redação",
+     "p": "A Competência 5 da redação avalia exatamente este eixo: 'elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos'. É uma das cinco competências, com peso significativo (até 200 pontos), e é frequentemente onde os candidatos perdem nota — seja por esquecer a proposta, seja por apresentá-la de forma vaga.\n\nO segredo é a CONCRETUDE e o RESPEITO AOS DIREITOS HUMANOS: a intervenção deve ser exequível, ética e inclusiva. Propostas que violem direitos humanos (punições desumanas, soluções autoritárias) prejudicam gravemente a nota, mesmo que o resto do texto seja bom."
+    },
+    {
+     "h": "O caráter solidário e a diversidade",
+     "p": "A Matriz é explícita: a proposta deve ser 'de intervenção solidária na realidade' e 'considerar a diversidade sociocultural'. Isso significa que boas propostas no Enem têm orientação social — buscam o bem coletivo, a inclusão e a redução de desigualdades — e respeitam diferenças de cultura, religião, etnia, gênero e condição social.\n\nEsse caráter ético não é um detalhe: é parte definidora do eixo. Elaborar propostas, no Enem, é exercer cidadania — usar o conhecimento para melhorar a vida coletiva, não apenas a individual."
+    },
+    {
+     "h": "Conteúdos e habilidades que sustentam EP",
+     "p": "Para elaborar boas propostas: conhecimento de atualidades e dos problemas sociais brasileiros (educação, saúde, meio ambiente, desigualdade, violência, tecnologia); noção de agentes sociais e suas funções (poderes públicos, escola, mídia, ONGs, família, iniciativa privada, sociedade civil); familiaridade com políticas públicas e mecanismos de ação coletiva; e sólida base em direitos humanos e cidadania (vinda de Filosofia, Sociologia e da própria Constituição).\n\nQuem acompanha o noticiário e entende como a sociedade se organiza tem muito mais facilidade em propor intervenções viáveis e bem detalhadas."
+    }
+   ],
+   "exemplo": "Na redação, suponha o tema 'O combate à evasão escolar no ensino médio'. Uma proposta de intervenção forte (EP) seria: 'O Ministério da Educação, em parceria com as secretarias estaduais (AGENTE), deve criar um programa de busca ativa e apoio socioemocional (AÇÃO), por meio de visitas de assistentes sociais às famílias e bolsas-permanência para estudantes de baixa renda (MEIO), a fim de reduzir o abandono motivado por dificuldades financeiras e familiares (FINALIDADE), monitorando os resultados por indicadores de frequência (DETALHAMENTO).' Note como ela é concreta, indica agentes, meios e finalidade, dialoga com o problema discutido na redação e respeita os direitos humanos. Em questões objetivas, EP aparece quando o comando pede 'a medida mais adequada para mitigar o problema X' — e a alternativa correta costuma ser a mais viável, sustentável e inclusiva.",
+   "pontos_chave": [
+    "EP é o eixo da AÇÃO: propor soluções concretas e viáveis para problemas reais.",
+    "Uma boa proposta responde: o que, quem (agente), como (meio), para que (finalidade) e detalhamento.",
+    "Na redação, é a Competência 5 (até 200 pontos) — onde muitos perdem nota por propostas vagas.",
+    "A proposta deve RESPEITAR OS DIREITOS HUMANOS: soluções desumanas/autoritárias derrubam a nota.",
+    "Caráter solidário e respeito à diversidade sociocultural são exigências da Matriz, não opcionais.",
+    "Conheça os agentes sociais (poder público, escola, mídia, sociedade civil) e suas funções.",
+    "A proposta deve dialogar com o problema e os argumentos da própria redação.",
+    "Acompanhar atualidades e políticas públicas torna as propostas mais concretas e relevantes."
+   ],
+   "dica_prova": "Na redação, nunca termine sem uma proposta de intervenção detalhada e ligada ao tema — esquecê-la ou deixá-la genérica é o erro mais caro da Competência 5. Detalhe SEMPRE o agente e o meio (não basta dizer 'o governo deve resolver'). E garanta o respeito aos direitos humanos: propostas que sugiram violência, exclusão ou desrespeito à dignidade podem zerar essa competência por completo. Nas objetivas, prefira a alternativa que apresenta a solução mais sustentável, inclusiva e exequível diante do contexto."
+  }
+ ]
+}

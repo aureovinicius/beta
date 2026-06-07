@@ -1,0 +1,264 @@
+id: enem-2026
+ordem: 2
+nome: ENEM 2026
+orgao: INEP/MEC
+cargo: Exame Nacional do Ensino Médio
+banca: INEP
+ano: '2026'
+icone: 🎓
+cor: '#c1622d'
+descricao: 'Matriz de referência do Enem (INEP): eixos cognitivos e as competências e habilidades das quatro áreas de conhecimento.'
+disciplinas:
+- slug: eixos-cognitivos
+  titulo: Eixos Cognitivos
+  grupo: Comum a todas as áreas
+  icone: 🧭
+  resumo: As cinco competências cognitivas comuns a todas as áreas do Enem.
+  topicos:
+  - titulo: Eixos cognitivos (comuns a todas as áreas)
+    explicacao: Competências gerais avaliadas em todas as questões do Enem.
+    subtopicos:
+    - titulo: I — Dominar linguagens (DL)
+      texto: dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa.
+    - titulo: II — Compreender fenômenos (CF)
+      texto: construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico- geográficos, da produção tecnológica e das manifestações artísticas.
+    - titulo: III — Enfrentar situações-problema (SP)
+      texto: selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema.
+    - titulo: IV — Construir argumentação (CA)
+      texto: relacionar informações, representadas em diferentes formas, e conhecimentos disponíveis em situações concretas, para construir argumentação consistente.
+    - titulo: V — Elaborar propostas (EP)
+      texto: recorrer aos conhecimentos desenvolvidos na escola para elaboração de propostas de intervenção solidária na realidade, respeitando os valores humanos e considerando a diversidade sociocultural.
+- slug: linguagens
+  titulo: Linguagens, Códigos e suas Tecnologias
+  grupo: Áreas de Conhecimento
+  icone: 📖
+  resumo: Interpretação de textos, literatura, artes, educação física, língua estrangeira e tecnologias da comunicação.
+  topicos:
+  - titulo: Competência 1
+    explicacao: Aplicar as tecnologias da comunicação e da informação na escola, no trabalho e em outros contextos relevantes para sua vida.
+    subtopicos:
+    - titulo: H1 — Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação.
+    - titulo: H2 — Recorrer aos conhecimentos sobre as linguagens dos sistemas de comunicação e informação para resolver problemas sociais.
+    - titulo: H3 — Relacionar informações geradas nos sistemas de comunicação e informação, considerando a função social desses sistemas.
+    - titulo: H4 — Reconhecer posições críticas aos usos sociais que são feitos das linguagens e dos sistemas de comunicação e informação.
+  - titulo: Competência 2
+    explicacao: Conhecer e usar língua(s) estrangeira(s) moderna(s) como instrumento de acesso a informações e a outras culturas e grupos sociais*.
+    subtopicos:
+    - titulo: H5 — Associar vocábulos e expressões de um texto em LEM ao seu tema.
+    - titulo: H6 — Utilizar os conhecimentos da LEM e de seus mecanismos como meio de ampliar as possibilidades de acesso a informações, tecnologias e culturas.
+    - titulo: H7 — Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social.
+    - titulo: H8 — Reconhecer a importância da produção cultural em LEM como representação da diversidade cultural e linguística.
+  - titulo: Competência 3
+    explicacao: Compreender e usar a linguagem corporal como relevante para a própria vida, integradora social e formadora da identidade.
+    subtopicos:
+    - titulo: H9 — Reconhecer as manifestações corporais de movimento como originárias de necessidades cotidianas de um grupo social.
+    - titulo: H10 — Reconhecer a necessidade de transformação de hábitos corporais em função das necessidades cinestésicas.
+    - titulo: H11 — Reconhecer a linguagem corporal como meio de interação social, considerando os limites de desempenho e as alternativas de adaptação para diferentes indivíduos.
+  - titulo: Competência 4
+    explicacao: Compreender a arte como saber cultural e estético gerador de significação e integrador da organização do mundo e da própria identidade.
+    subtopicos:
+    - titulo: H12 — Reconhecer diferentes funções da arte, do trabalho da produção dos artistas em seus meios culturais.
+    - titulo: H13 — Analisar as diversas produções artísticas como meio de explicar diferentes culturas, padrões de beleza e preconceitos.
+    - titulo: H14 — Reconhecer o valor da diversidade artística e das inter-relações de elementos que se apresentam nas manifestações de vários grupos sociais e étnicos.
+  - titulo: Competência 5
+    explicacao: Analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos com seus contextos, mediante a natureza, função, organização, estrutura das manifestações, de acordo com as condições de produção e recepção.
+    subtopicos:
+    - titulo: H15 — Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político.
+    - titulo: H16 — Relacionar informações sobre concepções artísticas e procedimentos de construção do texto literário.
+    - titulo: H17 — Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional.
+  - titulo: Competência 6
+    explicacao: Compreender e usar os sistemas simbólicos das diferentes linguagens como meios de organização cognitiva da realidade pela constituição de significados, expressão, comunicação e informação.
+    subtopicos:
+    - titulo: H18 — Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos.
+    - titulo: H19 — Analisar a função da linguagem predominante nos textos em situações específicas de interlocução.
+    - titulo: H20 — Reconhecer a importância do patrimônio linguístico para a preservação da memória e da identidade nacional.
+  - titulo: Competência 7
+    explicacao: Confrontar opiniões e pontos de vista sobre as diferentes linguagens e suas manifestações específicas.
+    subtopicos:
+    - titulo: H21 — Reconhecer em textos de diferentes gêneros, recursos verbais e não-verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos.
+    - titulo: H22 — Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos.
+    - titulo: H23 — Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados.
+    - titulo: H24 — Reconhecer no texto estratégias argumentativas empregadas para o convencimento do público, tais como a intimidação, sedução, comoção, chantagem, entre outras.
+  - titulo: Competência 8
+    explicacao: Compreender e usar a língua portuguesa como língua materna, geradora de significação e integradora da organização do mundo e da própria identidade.
+    subtopicos:
+    - titulo: H25 — Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro.
+    - titulo: H26 — Relacionar as variedades linguísticas a situações específicas de uso social.
+    - titulo: H27 — Reconhecer os usos da norma padrão da língua portuguesa nas diferentes situações de comunicação.
+  - titulo: Competência 9
+    explicacao: Entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação na sua vida pessoal e social, no desenvolvimento do conhecimento, associando-o aos conhecimentos científicos, às linguagens que lhes dão suporte, às demais tecnologias, aos processos de produção e aos problemas que se propõem solucionar.
+    subtopicos:
+    - titulo: H28 — Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação.
+    - titulo: H29 — Identificar pela análise de suas linguagens, as tecnologias da comunicação e informação.
+    - titulo: H30 — Relacionar as tecnologias de comunicação e informação ao desenvolvimento das sociedades e ao conhecimento que elas produzem.
+- slug: matematica
+  titulo: Matemática e suas Tecnologias
+  grupo: Áreas de Conhecimento
+  icone: 📐
+  resumo: Números, geometria, grandezas e medidas, álgebra, funções, estatística e probabilidade.
+  topicos:
+  - titulo: Competência 1
+    explicacao: Construir significados para os números naturais, inteiros, racionais e reais.
+    subtopicos:
+    - titulo: H1 — Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais.
+    - titulo: H2 — Identificar padrões numéricos ou princípios de contagem.
+    - titulo: H3 — Resolver situação-problema envolvendo conhecimentos numéricos.
+    - titulo: H4 — Avaliar a razoabilidade de um resultado numérico na construção de argumentos sobre afirmações quantitativas.
+    - titulo: H5 — Avaliar propostas de intervenção na realidade utilizando conhecimentos numéricos.
+  - titulo: Competência 2
+    explicacao: Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela.
+    subtopicos:
+    - titulo: H6 — Interpretar a localização e a movimentação de pessoas/objetos no espaço tridimensional e sua representação no espaço bidimensional.
+    - titulo: H7 — Identificar características de figuras planas ou espaciais.
+    - titulo: H8 — Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma.
+    - titulo: H9 — Utilizar conhecimentos geométricos de espaço e forma na seleção de argumentos propostos como solução de problemas do cotidiano.
+  - titulo: Competência 3
+    explicacao: Construir noções de grandezas e medidas para a compreensão da realidade e a solução de problemas do cotidiano.
+    subtopicos:
+    - titulo: H10 — Identificar relações entre grandezas e unidades de medida.
+    - titulo: H11 — Utilizar a noção de escalas na leitura de representação de situação do cotidiano.
+    - titulo: H12 — Resolver situação-problema que envolva medidas de grandezas.
+    - titulo: H13 — Avaliar o resultado de uma medição na construção de um argumento consistente.
+    - titulo: H14 — Avaliar proposta de intervenção na realidade utilizando conhecimentos geométricos relacionados a grandezas e medidas.
+  - titulo: Competência 4
+    explicacao: Construir noções de variação de grandezas para a compreensão da realidade e a solução de problemas do cotidiano.
+    subtopicos:
+    - titulo: H15 — Identificar a relação de dependência entre grandezas.
+    - titulo: H16 — Resolver situação-problema envolvendo a variação de grandezas, direta ou inversamente proporcionais.
+    - titulo: H17 — Analisar informações envolvendo a variação de grandezas como recurso para a construção de argumentação.
+    - titulo: H18 — Avaliar propostas de intervenção na realidade envolvendo variação de grandezas.
+  - titulo: Competência 5
+    explicacao: Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas.
+    subtopicos:
+    - titulo: H19 — Identificar representações algébricas que expressem a relação entre grandezas.
+    - titulo: H20 — Interpretar gráfico cartesiano que represente relações entre grandezas.
+    - titulo: H21 — Resolver situação-problema cuja modelagem envolva conhecimentos algébricos.
+    - titulo: H22 — Utilizar conhecimentos algébricos/geométricos como recurso para a construção de argumentação.
+    - titulo: H23 — Avaliar propostas de intervenção na realidade utilizando conhecimentos algébricos.
+  - titulo: Competência 6
+    explicacao: Interpretar informações de natureza científica e social obtidas da leitura de gráficos e tabelas, realizando previsão de tendência, extrapolação, interpolação e interpretação.
+    subtopicos:
+    - titulo: H24 — Utilizar informações expressas em gráficos ou tabelas para fazer inferências.
+    - titulo: H25 — Resolver problema com dados apresentados em tabelas ou gráficos.
+    - titulo: H26 — Analisar informações expressas em gráficos ou tabelas como recurso para a construção de argumentos.
+  - titulo: Competência 7
+    explicacao: Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística.
+    subtopicos:
+    - titulo: H27 — Calcular medidas de tendência central ou de dispersão de um conjunto de dados expressos em uma tabela de frequências de dados agrupados (não em classes) ou em gráficos.
+    - titulo: H28 — Resolver situação-problema que envolva conhecimentos de estatística e probabilidade.
+    - titulo: H29 — Utilizar conhecimentos de estatística e probabilidade como recurso para a construção de argumentação.
+    - titulo: H30 — Avaliar propostas de intervenção na realidade utilizando conhecimentos de estatística e probabilidade.
+- slug: ciencias-natureza
+  titulo: Ciências da Natureza e suas Tecnologias
+  grupo: Áreas de Conhecimento
+  icone: 🔬
+  resumo: 'Física, Química e Biologia: fenômenos naturais, tecnologia, saúde e meio ambiente.'
+  topicos:
+  - titulo: Competência 1
+    explicacao: Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade.
+    subtopicos:
+    - titulo: H1 — Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos.
+    - titulo: H2 — Associar a solução de problemas de comunicação, transporte, saúde ou outro, com o correspondente desenvolvimento científico e tecnológico.
+    - titulo: H3 — Confrontar interpretações científicas com interpretações baseadas no senso comum, ao longo do tempo ou em diferentes culturas.
+    - titulo: H4 — Avaliar propostas de intervenção no ambiente, considerando a qualidade da vida humana ou medidas de conservação, recuperação ou utilização sustentável da biodiversidade.
+  - titulo: Competência 2
+    explicacao: Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos.
+    subtopicos:
+    - titulo: H5 — Dimensionar circuitos ou dispositivos elétricos de uso cotidiano.
+    - titulo: H6 — Relacionar informações para compreender manuais de instalação ou utilização de aparelhos, ou sistemas tecnológicos de uso comum.
+    - titulo: H7 — Selecionar testes de controle, parâmetros ou critérios para a comparação de materiais e produtos, tendo em vista a defesa do consumidor, a saúde do trabalhador ou a qualidade de vida.
+  - titulo: Competência 3
+    explicacao: Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos.
+    subtopicos:
+    - titulo: H8 — Identificar etapas em processos de obtenção, transformação, utilização ou reciclagem de recursos naturais, energéticos ou matérias-primas, considerando processos biológicos, químicos ou físicos neles envolvidos.
+    - titulo: H9 — Compreender a importância dos ciclos biogeoquímicos ou do fluxo energia para a vida, ou da ação de agentes ou fenômenos que podem causar alterações nesses processos.
+    - titulo: H10 — Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais.
+    - titulo: H11 — Reconhecer benefícios, limitações e aspectos éticos da biotecnologia, considerando estruturas e processos biológicos envolvidos em produtos biotecnológicos.
+    - titulo: H12 — Avaliar impactos em ambientes naturais decorrentes de atividades sociais ou econômicas, considerando interesses contraditórios.
+  - titulo: Competência 4
+    explicacao: Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais.
+    subtopicos:
+    - titulo: H13 — Reconhecer mecanismos de transmissão da vida, prevendo ou explicando a manifestação de características dos seres vivos.
+    - titulo: H14 — Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros.
+    - titulo: H15 — Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos.
+    - titulo: H16 — Compreender o papel da evolução na produção de padrões, processos biológicos ou na organização taxonômica dos seres vivos.
+  - titulo: Competência 5
+    explicacao: Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos.
+    subtopicos:
+    - titulo: H17 — Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica.
+    - titulo: H18 — Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam.
+    - titulo: H19 — Avaliar métodos, processos ou procedimentos das ciências naturais que contribuam para diagnosticar ou solucionar problemas de ordem social, econômica ou ambiental.
+  - titulo: Competência 6
+    explicacao: Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas.
+    subtopicos:
+    - titulo: H20 — Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes.
+    - titulo: H21 — Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo.
+    - titulo: H22 — Compreender fenômenos decorrentes da interação entre a radiação e a matéria em suas manifestações em processos naturais ou tecnológicos, ou em suas implicações biológicas, sociais, econômicas ou ambientais.
+    - titulo: H23 — Avaliar possibilidades de geração, uso ou transformação de energia em ambientes específicos, considerando implicações éticas, ambientais, sociais e/ou econômicas.
+  - titulo: Competência 7
+    explicacao: Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas.
+    subtopicos:
+    - titulo: H24 — Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas.
+    - titulo: H25 — Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção.
+    - titulo: H26 — Avaliar implicações sociais, ambientais e/ou econômicas na produção ou no consumo de recursos energéticos ou minerais, identificando transformações químicas ou de energia envolvidas nesses processos.
+    - titulo: H27 — Avaliar propostas de intervenção no meio ambiente aplicando conhecimentos químicos, observando riscos ou benefícios.
+  - titulo: Competência 8
+    explicacao: Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas.
+    subtopicos:
+    - titulo: H28 — Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros.
+    - titulo: H29 — Interpretar experimentos ou técnicas que utilizam seres vivos, analisando implicações para o ambiente, a saúde, a produção de alimentos, matérias primas ou produtos industriais.
+    - titulo: H30 — Avaliar propostas de alcance individual ou coletivo, identificando aquelas que visam à preservação e a implementação da saúde individual, coletiva ou do ambiente.
+- slug: ciencias-humanas
+  titulo: Ciências Humanas e suas Tecnologias
+  grupo: Áreas de Conhecimento
+  icone: 🌍
+  resumo: 'História, Geografia, Filosofia e Sociologia: cultura, sociedade, poder, espaço e cidadania.'
+  topicos:
+  - titulo: Competência 1
+    explicacao: Compreender os elementos culturais que constituem as identidades
+    subtopicos:
+    - titulo: H1 — Interpretar historicamente e/ou geograficamente fontes documentais acerca de aspectos da cultura.
+    - titulo: H2 — Analisar a produção da memória pelas sociedades humanas.
+    - titulo: H3 — Associar as manifestações culturais do presente aos seus processos históricos.
+    - titulo: H4 — Comparar pontos de vista expressos em diferentes fontes sobre determinado aspecto da cultura.
+    - titulo: H5 — Identificar as manifestações ou representações da diversidade do patrimônio cultural e artístico em diferentes sociedades.
+  - titulo: Competência 2
+    explicacao: Compreender as transformações dos espaços geográficos como produto das relações socioeconômicas e culturais de poder.
+    subtopicos:
+    - titulo: H6 — Interpretar diferentes representações gráficas e cartográficas dos espaços geográficos.
+    - titulo: H7 — Identificar os significados histórico-geográficos das relações de poder entre as nações
+    - titulo: H8 — Analisar a ação dos estados nacionais no que se refere à dinâmica dos fluxos populacionais e no enfrentamento de problemas de ordem econômico-social.
+    - titulo: H9 — Comparar o significado histórico-geográfico das organizações políticas e socioeconômicas em escala local, regional ou mundial.
+    - titulo: H10 — Reconhecer a dinâmica da organização dos movimentos sociais e a importância da participação da coletividade na transformação da realidade histórico-geográfica.
+  - titulo: Competência 3
+    explicacao: Compreender a produção e o papel histórico das instituições sociais, políticas e econômicas, associando-as aos diferentes grupos, conflitos e movimentos sociais.
+    subtopicos:
+    - titulo: H11 — Identificar registros de práticas de grupos sociais no tempo e no espaço.
+    - titulo: H12 — Analisar o papel da justiça como instituição na organização das sociedades.
+    - titulo: H13 — Analisar a atuação dos movimentos sociais que contribuíram para mudanças ou rupturas em processos de disputa pelo poder.
+    - titulo: H14 — Comparar diferentes pontos de vista, presentes em textos analíticos e interpretativos, sobre situação ou fatos de natureza histórico-geográfica acerca das instituições sociais, políticas e econômicas.
+    - titulo: H15 — Avaliar criticamente conflitos culturais, sociais, políticos, econômicos ou ambientais ao longo da história.
+  - titulo: Competência 4
+    explicacao: Entender as transformações técnicas e tecnológicas e seu impacto nos processos de produção, no desenvolvimento do conhecimento e na vida social.
+    subtopicos:
+    - titulo: H16 — Identificar registros sobre o papel das técnicas e tecnologias na organização do trabalho e/ou da vida social.
+    - titulo: H17 — Analisar fatores que explicam o impacto das novas tecnologias no processo de territorialização da produção.
+    - titulo: H18 — Analisar diferentes processos de produção ou circulação de riquezas e suas implicações sócio-espaciais.
+    - titulo: H19 — Reconhecer as transformações técnicas e tecnológicas que determinam as várias formas de uso e apropriação dos espaços rural e urbano.
+    - titulo: H20 — Selecionar argumentos favoráveis ou contrários às modificações impostas pelas novas tecnologias à vida social e ao mundo do trabalho.
+  - titulo: Competência 5
+    explicacao: Utilizar os conhecimentos históricos para compreender e valorizar os fundamentos da cidadania e da democracia, favorecendo uma atuação consciente do indivíduo na sociedade.
+    subtopicos:
+    - titulo: H21 — Identificar o papel dos meios de comunicação na construção da vida social.
+    - titulo: H22 — Analisar as lutas sociais e conquistas obtidas no que se refere às mudanças nas legislações ou nas políticas públicas.
+    - titulo: H23 — Analisar a importância dos valores éticos na estruturação política das sociedades.
+    - titulo: H24 — Relacionar cidadania e democracia na organização das sociedades.
+    - titulo: H25 — Identificar estratégias que promovam formas de inclusão social.
+  - titulo: Competência 6
+    explicacao: Compreender a sociedade e a natureza, reconhecendo suas interações no espaço em diferentes contextos históricos e geográficos.
+    subtopicos:
+    - titulo: H26 — Identificar em fontes diversas o processo de ocupação dos meios físicos e as relações da vida humana com a paisagem.
+    - titulo: H27 — Analisar de maneira crítica as interações da sociedade com o meio físico, levando em consideração aspectos históricos e(ou) geográficos.
+    - titulo: H28 — Relacionar o uso das tecnologias com os impactos sócio-ambientais em diferentes contextos histórico-geográficos.
+    - titulo: H29 — Reconhecer a função dos recursos naturais na produção do espaço geográfico, relacionando-os com as mudanças provocadas pelas ações humanas.
+    - titulo: H30 — Avaliar as relações entre preservação e degradação da vida no planeta nas diferentes escalas.

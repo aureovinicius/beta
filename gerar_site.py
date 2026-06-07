@@ -269,10 +269,11 @@ def build_disciplina(c, d, idx):
                 href = f"../ampliado/{d['slug']}/{s['sid']}.html"
                 tag = '<span class="tag-reuse" title="Conteúdo compartilhado entre concursos">♻</span>' if origem else ""
                 vermais = f'<a class="vermais" href="{href}">Ver mais <span>→</span></a>{tag}'
+            texto_html = f"<p>{e(s['texto'])}</p>" if s.get("texto") else ""
             subs += f"""
         <div class="sub">
           <h4>{e(s['titulo'])}</h4>
-          <p>{e(s['texto'])}</p>
+          {texto_html}
           {vermais}
         </div>"""
         topicos_html += f"""

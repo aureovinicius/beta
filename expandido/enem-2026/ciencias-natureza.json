@@ -1,0 +1,875 @@
+{
+  "slug": "ciencias-natureza",
+  "itens": [
+    {
+      "sid": "h1-reconhecer-caracteristicas-ou-propriedades-de-fenomenos-ondulatorios-ou-oscilatorios-relacionando-os-a-seus-usos-em-diferentes-contextos",
+      "titulo": "H1 — Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos.",
+      "intro": "Esta habilidade pertence à Competência 1, que enxerga a ciência e a tecnologia como construções humanas ligadas ao desenvolvimento econômico e social. Aqui o foco recai sobre ondas e oscilações: o Enem quer que você reconheça as grandezas e propriedades de uma onda (período, frequência, comprimento de onda, amplitude, velocidade) e as conecte a tecnologias e fenômenos do dia a dia, como rádio, micro-ondas, ultrassom, fibra óptica, instrumentos musicais e cores.\n\nMais do que decorar fórmulas, a prova pede leitura de uma situação real e identificação de qual propriedade ondulatória explica determinado uso. Por isso, o estudo precisa partir dos objetos de conhecimento do anexo da matriz em Física: \"Oscilações, ondas, óptica e radiação\".",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige reconhecer e diferenciar tipos de ondas (mecânicas x eletromagnéticas; transversais x longitudinais), além de relacionar suas propriedades aos usos tecnológicos. Você deve saber que ondas mecânicas (som, ondas no mar, em cordas) precisam de meio material, enquanto ondas eletromagnéticas (luz, rádio, micro-ondas, raios X) se propagam no vácuo.\n\nÉ central dominar os fenômenos ondulatórios: reflexão (eco, radar, ultrassonografia), refração (mudança de velocidade ao trocar de meio), difração (contorno de obstáculos por ondas de rádio AM), interferência e ressonância (afinação de instrumentos, sintonia de rádio)."
+        },
+        {
+          "h": "Conteúdos (objetos de conhecimento) necessários",
+          "p": "Do anexo da matriz: pulsos e ondas; período, frequência e ciclo; propagação e a relação entre velocidade, frequência e comprimento de onda; ondas em diferentes meios; feixes e frentes de onda; reflexão e refração; óptica geométrica (lentes e espelhos, formação de imagens, instrumentos ópticos).\n\nA fórmula-chave é v = lambda x f (velocidade igual a comprimento de onda vezes frequência) e T = 1/f (período é o inverso da frequência). Lembre-se: ao mudar de meio, a frequência permanece constante, mas a velocidade e o comprimento de onda mudam."
+        },
+        {
+          "h": "Ligando propriedades a usos cotidianos",
+          "p": "O timbre, a altura (grave/agudo, ligada à frequência) e a intensidade (volume, ligada à amplitude) do som conectam física e música. As cores da luz dependem da frequência; o azul tem frequência maior que o vermelho. Ultrassom (frequências acima de 20 kHz) é usado em exames e em sonar; infrassom em estudos de terremotos.\n\nNas telecomunicações, ondas de rádio de menor frequência sofrem mais difração e alcançam regiões com obstáculos, enquanto micro-ondas e fibras ópticas transmitem grandes volumes de dados. Esse vínculo entre propriedade e aplicação é exatamente o que o Enem cobra."
+        }
+      ],
+      "exemplo": "Um texto-base descreve uma ecografia (ultrassom) que emite pulsos e mede o tempo de retorno do eco para formar a imagem de um feto. A questão pede qual propriedade ondulatória torna o exame possível. O raciocínio: o ultrassom é uma onda mecânica que sofre reflexão ao encontrar interfaces de diferentes densidades dentro do corpo; medindo o tempo do eco e conhecendo a velocidade do som no tecido, calcula-se a distância (d = v x t / 2). A resposta correta aponta a reflexão como base do exame, e não a refração ou a difração.",
+      "pontos_chave": [
+        "Diferenciar ondas mecânicas (precisam de meio) de eletromagnéticas (propagam no vácuo).",
+        "Dominar v = lambda x f e T = 1/f; ao mudar de meio, f não muda.",
+        "Reconhecer reflexão, refração, difração, interferência e ressonância em situações reais.",
+        "Associar frequência à altura do som e à cor da luz; amplitude à intensidade.",
+        "Conectar propriedades a tecnologias: ultrassom, radar, rádio, fibra óptica, micro-ondas.",
+        "Saber que difração é maior para ondas de menor frequência (maior comprimento de onda)."
+      ],
+      "dica_prova": "O Enem raramente pede contas longas; costuma dar um texto sobre uma tecnologia e perguntar 'qual fenômeno explica isso'. Pegadinha frequente: confundir refração (muda de meio, muda velocidade) com reflexão (volta no mesmo meio). Outra: achar que a frequência muda ao passar de um meio a outro - quem muda é a velocidade e o comprimento de onda. Atenção a unidades (kHz, MHz, GHz)."
+    },
+    {
+      "sid": "h2-associar-a-solucao-de-problemas-de-comunicacao-transporte-saude-ou-outro-com-o-correspondente-desenvolvimento-cientifico-e-tecnologico",
+      "titulo": "H2 — Associar a solução de problemas de comunicação, transporte, saúde ou outro, com o correspondente desenvolvimento científico e tecnológico.",
+      "intro": "Ainda na Competência 1, esta habilidade enfatiza a ciência como ferramenta para resolver problemas humanos concretos. O estudante deve relacionar um avanço científico a um benefício prático: vacinas que controlam epidemias, GPS que organiza o transporte, antibióticos que tratam infecções, energia solar que leva eletricidade a áreas remotas.\n\nÉ uma habilidade interdisciplinar por natureza, combinando Física, Química e Biologia com o contexto social. O Enem valoriza a percepção de que a tecnologia nasce de necessidades e gera impactos.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige ler uma situação-problema (comunicação, transporte, saúde, alimentação, energia) e identificar qual conhecimento científico-tecnológico a resolve. Não basta saber o conceito; é preciso enxergar a aplicação. Por exemplo, associar a ressonância magnética à física do magnetismo e das ondas, ou a vacina à imunologia."
+        },
+        {
+          "h": "Conteúdos que costumam aparecer",
+          "p": "Em saúde: imunização, antibióticos, exames de imagem (raio X, ultrassom, ressonância), radioterapia. Em comunicação: ondas eletromagnéticas, satélites, fibra óptica, digitalização. Em transporte: motores, combustíveis, aerodinâmica, GPS (que depende da relatividade para precisão). Em energia: painéis fotovoltaicos, biocombustíveis, hidrelétricas.\n\nO anexo dá base em \"Fenômenos Elétricos e Magnéticos\", \"Energias Químicas no Cotidiano\", \"Aplicações de biotecnologia\" e \"Qualidade de vida das populações humanas\"."
+        },
+        {
+          "h": "A dimensão histórica e social",
+          "p": "A habilidade pede perceber que cada solução tecnológica tem contexto histórico e consequências. A descoberta da penicilina mudou a medicina; a Revolução Verde aumentou a produção de alimentos, mas trouxe agrotóxicos. O estudante deve avaliar tanto o benefício quanto os limites e efeitos colaterais do avanço."
+        }
+      ],
+      "exemplo": "Um texto descreve uma campanha de vacinação que reduziu drasticamente os casos de poliomielite no Brasil. A questão pede qual desenvolvimento científico tornou isso possível. O raciocínio liga a solução do problema de saúde pública (epidemia) ao conhecimento da imunologia: a vacina contém o agente atenuado ou inativado que estimula a produção de anticorpos e a memória imunológica, conferindo imunidade ativa sem causar a doença. A resposta correta associa a queda dos casos à imunização, distinguindo-a de tratamento com antibióticos (que não agem sobre vírus).",
+      "pontos_chave": [
+        "Relacionar problema concreto (saúde, transporte, comunicação) ao conhecimento que o resolve.",
+        "Conhecer aplicações: vacinas, exames de imagem, GPS, fibra óptica, energias renováveis.",
+        "Distinguir vacina (prevenção/imunidade) de antibiótico (tratamento de bactérias).",
+        "Perceber benefícios e custos sociais/ambientais de cada tecnologia.",
+        "Integrar Física, Química e Biologia ao contexto social.",
+        "Valorizar a dimensão histórica do desenvolvimento científico."
+      ],
+      "dica_prova": "Questões trazem manchetes, gráficos epidemiológicos ou descrições de inovações. A pegadinha mais comum é a confusão vírus x bactéria (antibiótico não trata gripe). O comando costuma usar verbos como 'associar' ou 'relacionar' - foque na conexão causa-solução, não em decorar datas."
+    },
+    {
+      "sid": "h3-confrontar-interpretacoes-cientificas-com-interpretacoes-baseadas-no-senso-comum-ao-longo-do-tempo-ou-em-diferentes-culturas",
+      "titulo": "H3 — Confrontar interpretações científicas com interpretações baseadas no senso comum, ao longo do tempo ou em diferentes culturas.",
+      "intro": "Esta habilidade da Competência 1 trabalha a natureza da ciência: distinguir o conhecimento científico (baseado em evidência, método e revisão) das explicações do senso comum, de mitos ou de crenças culturais. O Enem usa frequentemente a história da ciência para isso, mostrando como ideias mudaram.\n\nO objetivo não é desvalorizar saberes populares, mas reconhecer o que caracteriza o pensamento científico: observação, hipótese, teste, evidência e capacidade de ser revisado.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige identificar, num texto, qual explicação é científica e qual é de senso comum, e por quê. Também pede compreender a evolução das ideias: do geocentrismo ao heliocentrismo, da geração espontânea à biogênese, da teoria do flogístico à química moderna."
+        },
+        {
+          "h": "Marcos históricos cobrados",
+          "p": "O anexo cita 'concepções históricas sobre a origem do universo', 'relação histórica entre força e movimento', 'concepções pré-mendelianas sobre hereditariedade', 'explicações pré-darwinistas' e 'a biologia como ciência: história e métodos'.\n\nExemplos clássicos: os experimentos de Redi e Pasteur derrubando a geração espontânea; Galileu e a queda dos corpos contra a física de Aristóteles; Lavoisier e a conservação da massa."
+        },
+        {
+          "h": "Critérios do conhecimento científico",
+          "p": "A ciência se distingue por ser baseada em evidências, testável, passível de refutação e aberta à revisão. O senso comum se apoia em observação imediata, tradição ou intuição (\"o Sol gira em torno da Terra porque o vemos nascer e se pôr\"). A prova quer que você reconheça esses critérios em situações concretas."
+        }
+      ],
+      "exemplo": "Um texto apresenta a crença antiga de que larvas surgiam espontaneamente da carne em decomposição (geração espontânea) e descreve o experimento de Pasteur com frascos de pescoço de cisne, em que o caldo fervido só era contaminado quando exposto ao ar com micro-organismos. A questão pede o que diferencia a interpretação científica da do senso comum. O raciocínio: a explicação científica se baseou em um experimento controlado, com hipótese testável e variável isolada (acesso de micro-organismos), enquanto o senso comum partia da mera observação do aparecimento das larvas. A resposta correta destaca o papel da experimentação controlada e da evidência.",
+      "pontos_chave": [
+        "Distinguir conhecimento científico (evidência, teste, revisão) de senso comum (intuição, tradição).",
+        "Conhecer a derrubada da geração espontânea (Redi, Pasteur).",
+        "Saber a transição geocentrismo/heliocentrismo e a física de Galileu x Aristóteles.",
+        "Entender concepções pré-mendelianas e pré-darwinistas.",
+        "Reconhecer que teorias científicas mudam com novas evidências.",
+        "Respeitar saberes culturais sem confundi-los com o método científico."
+      ],
+      "dica_prova": "Cuidado com alternativas que dizem que a ciência é 'verdade absoluta e definitiva' - isso é falso; a ciência é revisável. Outra pegadinha: tratar saber popular como 'errado' por princípio; o foco é o método, não o juízo de valor. Verbos típicos: 'confrontar', 'comparar', 'diferenciar'."
+    },
+    {
+      "sid": "h4-avaliar-propostas-de-intervencao-no-ambiente-considerando-a-qualidade-da-vida-humana-ou-medidas-de-conservacao-recuperacao-ou-utilizacao-sustentavel-da-biodiversidade",
+      "titulo": "H4 — Avaliar propostas de intervenção no ambiente, considerando a qualidade da vida humana ou medidas de conservação, recuperação ou utilização sustentável da biodiversidade.",
+      "intro": "Esta habilidade fecha a Competência 1 com forte apelo ambiental. O estudante precisa julgar propostas de ação (políticas, projetos, atitudes) avaliando se conservam, recuperam ou usam de forma sustentável a biodiversidade e os recursos, sem perder a qualidade de vida humana.\n\nÉ uma habilidade de avaliação crítica: não basta saber ecologia; é preciso ponderar prós e contras de uma intervenção.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige analisar uma proposta (reflorestamento, criação de unidade de conservação, manejo florestal, coleta seletiva, dessalinização, agricultura sustentável) e avaliar sua eficácia ambiental e social. Pede pensamento sistêmico: considerar efeitos sobre ecossistemas, populações humanas e economia."
+        },
+        {
+          "h": "Conteúdos de base",
+          "p": "Do anexo (Biologia, 'Ecologia e ciências ambientais'): conservação e recuperação de ecossistemas; conservação da biodiversidade; tecnologias ambientais; saneamento básico; legislação ambiental (água, florestas, unidades de conservação). Também: exploração e uso de recursos naturais e problemas ambientais (desmatamento, erosão, poluição)."
+        },
+        {
+          "h": "Critérios para avaliar uma proposta",
+          "p": "Uma boa intervenção deve ser sustentável (atender o presente sem comprometer o futuro), respeitar a capacidade de suporte do ambiente, manter serviços ecossistêmicos e equilibrar interesses econômicos e sociais. Compare alternativas: por exemplo, manejo sustentável de uma floresta versus exploração predatória; saneamento versus simples despejo de esgoto."
+        }
+      ],
+      "exemplo": "Um texto descreve uma área degradada por mineração e apresenta quatro propostas de recuperação. A questão pede qual delas melhor concilia conservação da biodiversidade e qualidade de vida da população local. O raciocínio: deve-se escolher a proposta que restaura a vegetação nativa (favorecendo espécies locais e o solo), evita monoculturas exóticas que empobrecem a biodiversidade e prevê uso sustentável que gere renda. A resposta correta é a que combina recuperação ecológica e benefício social duradouro, rejeitando soluções de curto prazo ou que introduzem espécies invasoras.",
+      "pontos_chave": [
+        "Avaliar propostas pela sustentabilidade e pela manutenção da biodiversidade.",
+        "Conhecer unidades de conservação, reflorestamento e manejo sustentável.",
+        "Considerar serviços ecossistêmicos e capacidade de suporte do ambiente.",
+        "Equilibrar interesses ambientais, sociais e econômicos.",
+        "Reconhecer riscos de espécies exóticas/invasoras e monoculturas.",
+        "Relacionar saneamento básico à qualidade de vida e à saúde."
+      ],
+      "dica_prova": "O comando pede 'avaliar' - você terá de comparar alternativas e escolher a mais adequada, não apenas identificar um conceito. Pegadinha: propostas que parecem 'verdes' mas introduzem espécies exóticas ou ignoram a população local. Valorize sempre espécies nativas e soluções de longo prazo."
+    },
+    {
+      "sid": "h5-dimensionar-circuitos-ou-dispositivos-eletricos-de-uso-cotidiano",
+      "titulo": "H5 — Dimensionar circuitos ou dispositivos elétricos de uso cotidiano.",
+      "intro": "Na Competência 2 (aplicar tecnologias em diferentes contextos), esta habilidade é uma das mais quantitativas da prova. Dimensionar significa calcular grandezas elétricas - corrente, tensão, resistência, potência e consumo de energia - em aparelhos e instalações domésticas.\n\nÉ a física aplicada à casa: chuveiro, lâmpadas, disjuntores, conta de luz. O Enem adora trazer contas de energia e especificações de eletrodomésticos.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige aplicar a Lei de Ohm e as relações entre tensão (V), corrente (I), resistência (R) e potência (P). Pede entender circuitos em série e em paralelo (a fiação da casa é em paralelo) e calcular o consumo de energia para estimar a conta de luz."
+        },
+        {
+          "h": "Fórmulas essenciais",
+          "p": "Lei de Ohm: V = R x I. Potência elétrica: P = V x I, que também pode ser escrita como P = V^2 / R ou P = R x I^2. Energia consumida: E = P x t, geralmente medida em kWh (quilowatt-hora). Para a conta de luz: custo = E (kWh) x tarifa.\n\nLembre que 1 kWh = potência de 1 kW funcionando por 1 hora. Atenção às unidades: transforme watts em quilowatts e minutos em horas."
+        },
+        {
+          "h": "Conteúdos do anexo",
+          "p": "De 'Fenômenos Elétricos e Magnéticos': corrente elétrica; Lei de Ohm; resistência elétrica e resistividade; efeito Joule; relações entre tensão, corrente, potência e energia; circuitos elétricos simples; potência e consumo de energia em dispositivos; representação gráfica de circuitos e símbolos convencionais. O efeito Joule (transformação de energia elétrica em calor) explica chuveiros, ferros e fusíveis."
+        }
+      ],
+      "exemplo": "Um chuveiro de 5400 W ligado em 220 V é usado por 30 minutos diários durante 30 dias; a tarifa é R$ 0,60 por kWh. A questão pede o custo mensal. Raciocínio: a potência é 5400 W = 5,4 kW; o tempo total é 30 min x 30 dias = 900 min = 15 h. A energia é E = P x t = 5,4 x 15 = 81 kWh. O custo é 81 x 0,60 = R$ 48,60. A resposta correta exige cuidado na conversão de minutos para horas e de watts para quilowatts - o erro mais comum é esquecer essas conversões.",
+      "pontos_chave": [
+        "Dominar V = R x I e P = V x I (e variações P = V^2/R, P = R x I^2).",
+        "Calcular energia E = P x t e converter para kWh.",
+        "Saber que a instalação residencial é em paralelo (mesma tensão nos aparelhos).",
+        "Entender o efeito Joule (chuveiro, fusível, disjuntor).",
+        "Converter unidades: W para kW, min para h.",
+        "Relacionar potência ao consumo e ao custo na conta de luz."
+      ],
+      "dica_prova": "Esta é uma das poucas habilidades com cálculo direto - treine conversões de unidades, principal fonte de erro. Pegadinha clássica: dar potência em W e tempo em minutos e esperar a resposta em kWh. Outra: confundir potência (rapidez do consumo) com energia (consumo total). Disjuntores são dimensionados pela corrente (I = P/V)."
+    },
+    {
+      "sid": "h6-relacionar-informacoes-para-compreender-manuais-de-instalacao-ou-utilizacao-de-aparelhos-ou-sistemas-tecnologicos-de-uso-comum",
+      "titulo": "H6 — Relacionar informações para compreender manuais de instalação ou utilização de aparelhos, ou sistemas tecnológicos de uso comum.",
+      "intro": "Também na Competência 2, esta habilidade trabalha a leitura técnica: interpretar manuais, rótulos, etiquetas (como a do Inmetro/Procel), tabelas de especificação e instruções de uso. É uma habilidade de letramento científico aplicado ao cotidiano.\n\nO Enem apresenta um trecho de manual ou uma etiqueta e pede para você extrair e relacionar dados - tensão de operação, potência, consumo, eficiência energética.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige ler e cruzar informações de documentos técnicos. Você precisa entender o que significam grandezas como tensão (110/220 V), potência (W), corrente (A), frequência (Hz), capacidade (litros, BTU) e selos de eficiência. Trata-se de interpretação aplicada, não de cálculo complexo."
+        },
+        {
+          "h": "Conhecimentos de apoio",
+          "p": "Embora seja leitura, exige base conceitual de eletricidade (do anexo: relações entre tensão, corrente, potência e energia; símbolos convencionais de circuitos) e de termodinâmica (BTU em ar-condicionado, eficiência). Conhecer a etiqueta Procel (classes A a G) e o selo do Inmetro ajuda a comparar aparelhos."
+        },
+        {
+          "h": "Estratégia de leitura",
+          "p": "Primeiro identifique a pergunta; depois localize no manual ou tabela apenas os dados relevantes. Frequentemente é preciso combinar duas informações (ex.: potência do aparelho e número de horas de uso para estimar consumo, ou tensão da rede e do aparelho para decidir se precisa de transformador)."
+        }
+      ],
+      "exemplo": "Um trecho de manual informa que uma TV consome 100 W em modo ligado e 1 W em standby; a questão fornece o tempo diário em cada modo e pede a economia ao desligar da tomada. O raciocínio combina informações do manual com o cálculo de energia: calcula-se o consumo em standby ao longo do mês (1 W x horas em standby) e compara-se com o desligamento total. A resposta correta mostra que pequenos consumos contínuos (standby) somam quantia relevante - exigindo relacionar a especificação do manual ao consumo acumulado.",
+      "pontos_chave": [
+        "Interpretar manuais, rótulos e etiquetas (Procel/Inmetro).",
+        "Entender tensão, potência, corrente, frequência e capacidade.",
+        "Cruzar dados de tabelas para responder ao comando.",
+        "Conhecer classes de eficiência energética (A a G).",
+        "Decidir sobre uso de transformador conforme a tensão da rede.",
+        "Relacionar especificações ao consumo e à segurança."
+      ],
+      "dica_prova": "A maior dificuldade é o excesso de dados: leia primeiro o comando e busque só o necessário. Pegadinha: usar a unidade errada (BTU não é watt; VA não é exatamente W). Aparelhos de 220 V ligados em 110 V não funcionam direito; o inverso pode danificá-los. Selo Procel A = mais eficiente."
+    },
+    {
+      "sid": "h7-selecionar-testes-de-controle-parametros-ou-criterios-para-a-comparacao-de-materiais-e-produtos-tendo-em-vista-a-defesa-do-consumidor-a-saude-do-trabalhador-ou-a-qualidade-de-vida",
+      "titulo": "H7 — Selecionar testes de controle, parâmetros ou critérios para a comparação de materiais e produtos, tendo em vista a defesa do consumidor, a saúde do trabalhador ou a qualidade de vida.",
+      "intro": "Esta habilidade da Competência 2 envolve o controle de qualidade e a escolha de critérios para comparar materiais e produtos. O viés é social: proteger o consumidor, a saúde do trabalhador e a qualidade de vida. Aparece muito em Química (composição, pureza, toxicidade) e Biologia (segurança alimentar, contaminação).\n\nO estudante deve saber que parâmetro medir e que teste aplicar para garantir segurança e adequação de um produto.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige selecionar o critério adequado para comparar ou avaliar materiais: pH, concentração, validade, presença de contaminantes, condutividade, ponto de fusão, resistência, teor de gordura, dosagem. Pede julgar qual teste responde à pergunta de segurança ou qualidade."
+        },
+        {
+          "h": "Conteúdos de Química e Biologia",
+          "p": "Do anexo de Química: propriedades de materiais; relação entre estrutura, propriedade e aplicação; concentração das soluções; ácidos e bases (pH, indicadores); poluição e tratamento de água. De Biologia: noções de saneamento, doenças, qualidade de vida. Parâmetros físicos como densidade e ponto de fusão ajudam a identificar pureza."
+        },
+        {
+          "h": "Foco na proteção e na decisão",
+          "p": "O objetivo final é uma decisão informada: escolher o produto mais seguro, identificar adulteração, evitar exposição do trabalhador a substâncias tóxicas. Por exemplo, comparar o teor de sódio em alimentos, o pH de um cosmético, ou a presença de metais pesados na água."
+        }
+      ],
+      "exemplo": "Um texto informa que o leite pode ser adulterado com água e apresenta uma tabela com densidade de amostras. A questão pede qual parâmetro permite detectar a fraude. Raciocínio: a adição de água diminui a densidade do leite em relação ao padrão; logo, medir a densidade (massa/volume) e compará-la ao valor de referência revela a adulteração. A resposta correta seleciona a densidade como critério de controle, descartando parâmetros irrelevantes para essa fraude específica (como cor ou cheiro).",
+      "pontos_chave": [
+        "Selecionar o parâmetro certo (pH, densidade, concentração, validade) para cada teste.",
+        "Relacionar propriedade do material à sua adequação e segurança.",
+        "Usar indicadores e medidas para detectar adulteração ou contaminação.",
+        "Considerar saúde do trabalhador (exposição a tóxicos) e do consumidor.",
+        "Comparar produtos com base em dados objetivos, não em senso comum.",
+        "Conectar controle de qualidade a normas e à qualidade de vida."
+      ],
+      "dica_prova": "A questão dá vários parâmetros possíveis e só um responde ao problema - foque no que está sendo perguntado. Pegadinha: escolher um critério verdadeiro mas inútil para aquele caso (ex.: medir cor quando o problema é teor de água). Pense: 'qual teste isolaria exatamente essa variável?'."
+    },
+    {
+      "sid": "h8-identificar-etapas-em-processos-de-obtencao-transformacao-utilizacao-ou-reciclagem-de-recursos-naturais-energeticos-ou-materias-primas-considerando-processos-biologicos-quimicos-ou-fisicos-neles-envolvidos",
+      "titulo": "H8 — Identificar etapas em processos de obtenção, transformação, utilização ou reciclagem de recursos naturais, energéticos ou matérias-primas, considerando processos biológicos, químicos ou físicos neles envolvidos.",
+      "intro": "Abrindo a Competência 3 (ligar intervenções ambientais a processos produtivos e ações científico-tecnológicas), esta habilidade pede que você reconheça as etapas de processos industriais e naturais - desde a obtenção de uma matéria-prima até sua transformação, uso ou reciclagem - identificando a física, a química ou a biologia envolvida em cada fase.\n\nÉ uma habilidade de fluxograma: ler ou montar a sequência de um processo e classificar a natureza de cada etapa.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige acompanhar processos como produção de etanol, refino de petróleo, metalurgia, tratamento de água e esgoto, reciclagem de plástico/papel/metal e compostagem. Você deve distinguir se uma etapa é física (separação, destilação, filtração), química (reação, combustão, oxidação) ou biológica (fermentação, digestão por micro-organismos)."
+        },
+        {
+          "h": "Conteúdos de Química",
+          "p": "Do anexo: misturas - tipos e métodos de separação; metais e ligas (ferro, cobre, alumínio); mineração e metalurgia; petróleo, gás natural e carvão; biomassa e biocombustíveis; fermentação; tratamento de água. A destilação fracionada do petróleo e a redução do minério de ferro no alto-forno são exemplos recorrentes."
+        },
+        {
+          "h": "Conteúdos de Biologia",
+          "p": "Processos biológicos como a fermentação alcoólica (leveduras convertendo açúcar em etanol e CO2) e a ação de bactérias no tratamento de esgoto (digestão da matéria orgânica) e na compostagem. A fotossíntese é a base da formação da biomassa, fonte de biocombustíveis."
+        }
+      ],
+      "exemplo": "Um fluxograma da produção de etanol a partir da cana mostra: moagem, fermentação do caldo e destilação. A questão pede para classificar a natureza de cada etapa. Raciocínio: a moagem é um processo físico (separação mecânica do caldo); a fermentação é biológica (leveduras transformam a sacarose em etanol e gás carbônico); a destilação é um processo físico de separação baseado na diferença de pontos de ebulição. A resposta correta identifica corretamente físico - biológico - físico, sem chamar a destilação de reação química.",
+      "pontos_chave": [
+        "Distinguir etapas físicas (separação, destilação) de químicas (reações) e biológicas (fermentação, digestão microbiana).",
+        "Conhecer destilação fracionada do petróleo e metalurgia do ferro/alumínio.",
+        "Entender a fermentação alcoólica na produção de etanol.",
+        "Saber o papel das bactérias no tratamento de esgoto e na compostagem.",
+        "Relacionar fotossíntese à formação de biomassa.",
+        "Ler e interpretar fluxogramas de processos produtivos."
+      ],
+      "dica_prova": "A pegadinha mais comum é classificar separações físicas (filtração, destilação, decantação) como reações químicas - lembre que processo físico não cria substâncias novas. Fermentação é sempre biológica. O Enem gosta de fluxogramas; siga a sequência e classifique etapa por etapa."
+    },
+    {
+      "sid": "h9-compreender-a-importancia-dos-ciclos-biogeoquimicos-ou-do-fluxo-energia-para-a-vida-ou-da-acao-de-agentes-ou-fenomenos-que-podem-causar-alteracoes-nesses-processos",
+      "titulo": "H9 — Compreender a importância dos ciclos biogeoquímicos ou do fluxo energia para a vida, ou da ação de agentes ou fenômenos que podem causar alterações nesses processos.",
+      "intro": "Esta habilidade da Competência 3 é central em Ecologia. Trata dos ciclos biogeoquímicos (água, carbono, nitrogênio, oxigênio) e do fluxo de energia nos ecossistemas, além de como ações humanas e fenômenos naturais os alteram (efeito estufa, eutrofização).\n\nO Enem cobra muito o ciclo do carbono ligado às mudanças climáticas e o ciclo do nitrogênio ligado à agricultura.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige compreender como matéria circula (cíclica) e como energia flui (unidirecional) nos ecossistemas. Você deve saber as etapas dos principais ciclos e identificar onde a interferência humana os desequilibra - como a queima de combustíveis fósseis aumentando o CO2 atmosférico."
+        },
+        {
+          "h": "Ciclos biogeoquímicos",
+          "p": "Do anexo ('Ecologia e ciências ambientais'): ciclos biogeoquímicos. Ciclo do carbono: fotossíntese fixa o CO2, respiração e combustão o liberam. Ciclo do nitrogênio: fixação por bactérias, nitrificação, desnitrificação - base dos fertilizantes. Ciclo da água: evaporação, condensação, precipitação. Ciclo do oxigênio ligado à fotossíntese."
+        },
+        {
+          "h": "Fluxo de energia e desequilíbrios",
+          "p": "A energia entra pelo Sol, é fixada pelos produtores na fotossíntese e flui pela cadeia alimentar, dissipando-se como calor (cerca de 10% passa de um nível trófico ao seguinte - regra dos 10%). A matéria recicla; a energia não. Agentes de alteração: efeito estufa intensificado, eutrofização (excesso de nutrientes em água), desmatamento (reduz a fixação de carbono)."
+        }
+      ],
+      "exemplo": "Um texto mostra o aumento do CO2 atmosférico e relaciona-o ao aquecimento global. A questão pede como a queima de combustíveis fósseis e o desmatamento afetam o ciclo do carbono. Raciocínio: a combustão libera carbono que estava estocado por milhões de anos, aumentando o CO2; o desmatamento reduz a fotossíntese, diminuindo a retirada de CO2 do ar. O resultado é um desequilíbrio que intensifica o efeito estufa. A resposta correta articula emissão (combustão) e redução da fixação (menos florestas).",
+      "pontos_chave": [
+        "Diferenciar ciclagem da matéria (cíclica) do fluxo de energia (unidirecional).",
+        "Conhecer o ciclo do carbono e sua ligação com o efeito estufa.",
+        "Entender o ciclo do nitrogênio (fixação por bactérias) e os fertilizantes.",
+        "Saber a regra dos 10% na transferência de energia entre níveis tróficos.",
+        "Identificar eutrofização e seus efeitos em corpos d'água.",
+        "Relacionar fotossíntese e respiração aos ciclos do carbono e oxigênio."
+      ],
+      "dica_prova": "Erro frequente: dizer que a energia também é reciclada - ela não é, apenas flui e se dissipa. Outra pegadinha: confundir efeito estufa natural (essencial à vida) com sua intensificação (problema). No ciclo do nitrogênio, lembre que poucos seres fixam N2 diretamente - são bactérias específicas."
+    },
+    {
+      "sid": "h10-analisar-perturbacoes-ambientais-identificando-fontes-transporte-e-ou-destino-dos-poluentes-ou-prevendo-efeitos-em-sistemas-naturais-produtivos-ou-sociais",
+      "titulo": "H10 — Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais.",
+      "intro": "Ainda na Competência 3, esta habilidade trata da poluição em detalhe: de onde vem o poluente (fonte), como se desloca (transporte), onde se acumula (destino) e que efeitos provoca. Envolve poluição do ar, da água e do solo, com forte presença da Química ambiental.\n\nO Enem cobra chuva ácida, inversão térmica, bioacumulação de metais pesados e contaminação por agrotóxicos.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige rastrear o caminho de um poluente e antever consequências. Você deve identificar fontes (indústrias, veículos, agricultura), entender o transporte (atmosfera, rios, cadeia alimentar) e o destino (acúmulo em organismos, sedimentos, solo)."
+        },
+        {
+          "h": "Poluição do ar",
+          "p": "Do anexo: poluição atmosférica. Gases como SO2 e NOx reagem com a água e formam chuva ácida (H2SO4, HNO3), que corrói monumentos e acidifica lagos. Material particulado e CO afetam a saúde respiratória. A inversão térmica retém poluentes próximos ao solo nas cidades."
+        },
+        {
+          "h": "Poluição da água e do solo, bioacumulação",
+          "p": "Metais pesados (mercúrio, chumbo) e agrotóxicos sofrem bioacumulação (acúmulo no organismo) e biomagnificação (concentração crescente ao subir na cadeia alimentar). O mercúrio do garimpo, por exemplo, transforma-se em metilmercúrio e se concentra em peixes predadores, atingindo humanos. A eutrofização decorre do excesso de nutrientes (esgoto, fertilizantes)."
+        }
+      ],
+      "exemplo": "Um texto descreve a contaminação de peixes por mercúrio em uma região de garimpo e os efeitos neurológicos em comunidades ribeirinhas. A questão pede explicar o aumento da concentração de mercúrio nos peixes do topo da cadeia. Raciocínio: o mercúrio lançado na água é absorvido por organismos pequenos; como ele não é eliminado, acumula-se (bioacumulação) e, a cada nível trófico, sua concentração aumenta (biomagnificação), atingindo o máximo nos predadores e no ser humano. A resposta correta identifica fonte (garimpo), transporte (cadeia alimentar) e destino (predadores/humanos).",
+      "pontos_chave": [
+        "Rastrear fonte, transporte e destino de poluentes.",
+        "Entender a formação da chuva ácida (SO2, NOx) e seus efeitos.",
+        "Conhecer inversão térmica e material particulado nas cidades.",
+        "Dominar bioacumulação e biomagnificação (mercúrio, agrotóxicos).",
+        "Relacionar eutrofização a esgoto e fertilizantes.",
+        "Prever efeitos sobre saúde, ecossistemas e economia."
+      ],
+      "dica_prova": "Diferencie bioacumulação (acúmulo num indivíduo) de biomagnificação (aumento ao longo da cadeia) - o Enem testa essa distinção. Pegadinha: achar que diluir o poluente na água resolve - substâncias persistentes seguem se acumulando. Chuva ácida vem de óxidos de enxofre e nitrogênio, não de CO2 (este causa efeito estufa)."
+    },
+    {
+      "sid": "h11-reconhecer-beneficios-limitacoes-e-aspectos-eticos-da-biotecnologia-considerando-estruturas-e-processos-biologicos-envolvidos-em-produtos-biotecnologicos",
+      "titulo": "H11 — Reconhecer benefícios, limitações e aspectos éticos da biotecnologia, considerando estruturas e processos biológicos envolvidos em produtos biotecnológicos.",
+      "intro": "Esta habilidade da Competência 3 trata da biotecnologia: o uso de seres vivos ou seus processos para gerar produtos. Vai de técnicas tradicionais (fermentação) à engenharia genética moderna (transgênicos, terapia gênica, clonagem). O Enem pede equilíbrio: reconhecer benefícios, limitações e questões éticas.\n\nÉ uma habilidade que une biologia celular/molecular ao debate social.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige entender as estruturas e processos biológicos por trás de produtos biotecnológicos: DNA, genes, enzimas, células, micro-organismos. E avaliar criticamente prós (mais alimento, remédios), contras (riscos ambientais) e dilemas éticos (clonagem humana, patentes, transgênicos)."
+        },
+        {
+          "h": "Técnicas e produtos",
+          "p": "Do anexo ('Moléculas, células e tecidos'): tecnologia do DNA recombinante; células-tronco; clonagem; aplicações de biotecnologia na produção de alimentos, fármacos e componentes biológicos; aplicações do DNA em paternidade e investigação criminal. Exemplos: insulina humana produzida por bactérias transgênicas, vacinas, alimentos transgênicos resistentes a pragas, teste de DNA."
+        },
+        {
+          "h": "Aspectos éticos e limitações",
+          "p": "A biotecnologia levanta debates: segurança dos transgênicos para saúde e ambiente, biossegurança, propriedade intelectual de organismos, uso de células-tronco embrionárias, clonagem reprodutiva. O estudante deve reconhecer que benefícios e riscos coexistem e que há regulação (no Brasil, a Lei de Biossegurança e a CTNBio)."
+        }
+      ],
+      "exemplo": "Um texto explica que bactérias geneticamente modificadas produzem insulina humana usada por diabéticos. A questão pede o processo biológico envolvido. Raciocínio: insere-se o gene humano da insulina no DNA da bactéria (DNA recombinante); a bactéria, ao expressar esse gene, sintetiza a proteína insulina por meio de transcrição e tradução. A resposta correta identifica a tecnologia do DNA recombinante e a síntese proteica como base do produto, destacando o benefício de uma insulina idêntica à humana, mais segura que a extraída de animais.",
+      "pontos_chave": [
+        "Entender DNA recombinante, transgênicos, clonagem e células-tronco.",
+        "Relacionar produtos (insulina, vacinas, alimentos) aos processos biológicos (síntese proteica).",
+        "Reconhecer benefícios e limitações de cada técnica.",
+        "Avaliar dilemas éticos (biossegurança, patentes, clonagem).",
+        "Conhecer aplicações do DNA em paternidade e investigação criminal.",
+        "Saber que há regulação (Lei de Biossegurança, CTNBio)."
+      ],
+      "dica_prova": "O Enem busca a visão equilibrada - desconfie de alternativas extremas ('a biotecnologia só traz benefícios' ou 'é toda perigosa'). Pegadinha: confundir transgênico (gene de outra espécie) com organismo simplesmente selecionado. Clonagem produz indivíduo geneticamente idêntico, não 'cópia de personalidade'."
+    },
+    {
+      "sid": "h12-avaliar-impactos-em-ambientes-naturais-decorrentes-de-atividades-sociais-ou-economicas-considerando-interesses-contraditorios",
+      "titulo": "H12 — Avaliar impactos em ambientes naturais decorrentes de atividades sociais ou econômicas, considerando interesses contraditórios.",
+      "intro": "Fechando a Competência 3, esta habilidade pede uma análise crítica e socioambiental: avaliar os impactos de atividades humanas (agricultura, mineração, hidrelétricas, urbanização) sobre a natureza, reconhecendo que há interesses em conflito - econômicos, sociais e ambientais.\n\nÉ uma habilidade de ponderação, não de cálculo. O Enem valoriza a capacidade de enxergar diferentes lados de um problema ambiental.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige identificar os impactos de uma atividade e perceber os interesses contraditórios envolvidos. Por exemplo, uma hidrelétrica gera energia limpa, mas alaga florestas e desloca populações; o agronegócio produz alimentos, mas pode desmatar e usar agrotóxicos."
+        },
+        {
+          "h": "Conteúdos de apoio",
+          "p": "Do anexo: exploração e uso de recursos naturais; problemas ambientais (desmatamento, erosão, poluição); mudanças climáticas; conservação de ecossistemas; aspectos biológicos do desenvolvimento sustentável; indicadores sociais, ambientais e econômicos. Conhecer os biomas brasileiros ajuda a contextualizar impactos regionais."
+        },
+        {
+          "h": "Os interesses em conflito",
+          "p": "O cerne é reconhecer que decisões ambientais envolvem trade-offs. Empresários priorizam lucro e produção; ambientalistas, a conservação; comunidades locais, sua subsistência; governos, o desenvolvimento e o emprego. A habilidade pede compreender essa tensão e avaliar impactos de forma equilibrada, geralmente apontando o caminho do desenvolvimento sustentável."
+        }
+      ],
+      "exemplo": "Um texto apresenta o debate sobre a construção de uma hidrelétrica na Amazônia, com argumentos a favor (geração de energia, empregos) e contra (alagamento de floresta, impacto sobre indígenas). A questão pede avaliar os impactos considerando os interesses em jogo. Raciocínio: deve-se reconhecer que o empreendimento traz benefício energético e econômico, mas causa perda de biodiversidade, emissão de gases pela decomposição da vegetação alagada e deslocamento de comunidades. A resposta correta é a que pondera custos e benefícios, evidenciando o conflito entre desenvolvimento e conservação, sem adotar visão simplista.",
+      "pontos_chave": [
+        "Identificar impactos ambientais de atividades econômicas e sociais.",
+        "Reconhecer interesses contraditórios (econômico, social, ambiental).",
+        "Conhecer impactos de hidrelétricas, mineração, agronegócio e urbanização.",
+        "Relacionar problemas ambientais aos biomas brasileiros.",
+        "Avaliar trade-offs com a ótica do desenvolvimento sustentável.",
+        "Usar indicadores sociais, ambientais e econômicos na análise."
+      ],
+      "dica_prova": "O comando 'considerando interesses contraditórios' sinaliza que a resposta correta NÃO é a mais extrema, e sim a que reconhece o conflito e busca equilíbrio. Pegadinha: alternativas que defendem só um lado. Lembre que hidrelétrica também emite gases (decomposição da matéria alagada) - não é 100% limpa."
+    },
+    {
+      "sid": "h13-reconhecer-mecanismos-de-transmissao-da-vida-prevendo-ou-explicando-a-manifestacao-de-caracteristicas-dos-seres-vivos",
+      "titulo": "H13 — Reconhecer mecanismos de transmissão da vida, prevendo ou explicando a manifestação de características dos seres vivos.",
+      "intro": "Abrindo a Competência 4 (interações entre organismos e ambiente, com foco em saúde), esta habilidade é o coração da Genética no Enem. Trata da hereditariedade: como características passam de pais para filhos e como prever a manifestação de traços usando as leis de Mendel.\n\nÉ uma das habilidades mais quantitativas da Biologia, exigindo cálculo de probabilidades e leitura de heredogramas.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige aplicar as leis de Mendel para prever genótipos e fenótipos da prole. Você deve dominar conceitos de gene, alelo, dominância, recessividade, homozigose, heterozigose, e usar o quadro de Punnett para calcular probabilidades."
+        },
+        {
+          "h": "Conteúdos de Genética",
+          "p": "Do anexo ('Hereditariedade e diversidade da vida'): princípios básicos da transmissão de características; aspectos genéticos do funcionamento humano; grupos sanguíneos; mutações gênicas e cromossômicas; aconselhamento genético. Primeira Lei de Mendel (segregação dos fatores) e Segunda Lei (segregação independente). Também: codificação da informação genética e síntese proteica (do bloco celular)."
+        },
+        {
+          "h": "Casos especiais",
+          "p": "Além da herança mendeliana simples, o Enem cobra herança ligada ao sexo (daltonismo, hemofilia, no cromossomo X), alelos múltiplos e codominância (sistema ABO de grupos sanguíneos), e heredogramas (genealogias). Saber interpretar uma árvore genealógica e deduzir genótipos é essencial."
+        }
+      ],
+      "exemplo": "Um casal em que ambos têm visão normal tem um filho daltônico. A questão pede a probabilidade de o próximo filho homem ser daltônico. Raciocínio: o daltonismo é recessivo e ligado ao X; como o filho é daltônico (XdY), a mãe é portadora (XX' com X' = Xd), heterozigota, e o pai é normal (XY). Cruzando, metade dos filhos homens recebe o Xd da mãe, sendo daltônicos. A probabilidade de um filho homem ser daltônico é 1/2 (50%). A resposta correta exige reconhecer a herança ligada ao sexo e montar o cruzamento corretamente.",
+      "pontos_chave": [
+        "Aplicar a 1a e a 2a leis de Mendel e o quadro de Punnett.",
+        "Dominar genótipo, fenótipo, dominante, recessivo, homo e heterozigoto.",
+        "Calcular probabilidades na prole (regra do 'e' = multiplica; 'ou' = soma).",
+        "Entender herança ligada ao sexo (daltonismo, hemofilia no X).",
+        "Conhecer o sistema ABO (alelos múltiplos e codominância).",
+        "Interpretar heredogramas e deduzir genótipos."
+      ],
+      "dica_prova": "Probabilidades são pegadinha: para eventos independentes que ocorrem juntos, multiplique; para alternativos, some. Atenção à herança ligada ao X - homens (XY) manifestam o alelo recessivo com uma só cópia. Em heredogramas, comece pelos indivíduos afetados para deduzir os genótipos dos pais."
+    },
+    {
+      "sid": "h14-identificar-padroes-em-fenomenos-e-processos-vitais-dos-organismos-como-manutencao-do-equilibrio-interno-defesa-relacoes-com-o-ambiente-sexualidade-entre-outros",
+      "titulo": "H14 — Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros.",
+      "intro": "Esta habilidade da Competência 4 abrange a Fisiologia: como os organismos mantêm a vida. Inclui homeostase (equilíbrio interno), sistema imunológico (defesa), trocas com o ambiente e reprodução/sexualidade. É uma habilidade ampla, ligada à saúde humana.\n\nO Enem cobra regulação da temperatura e da glicemia, resposta imune, vacinas e os sistemas do corpo humano.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige reconhecer os padrões dos processos vitais: como o corpo regula seu meio interno, se defende de agentes externos, troca substâncias com o ambiente e se reproduz. Pede entender mecanismos de feedback (retroalimentação) que mantêm o equilíbrio."
+        },
+        {
+          "h": "Homeostase e defesa",
+          "p": "Do anexo ('Identidade dos seres vivos'): fisiologia humana; funções vitais e sua relação com a adaptação. Homeostase: controle da glicemia (insulina e glucagon), da temperatura, do pH e da pressão. Defesa: do bloco 'Hereditariedade' vêm antígenos e anticorpos, grupos sanguíneos, doenças autoimunes. A resposta imune envolve linfócitos, anticorpos e memória imunológica (base das vacinas)."
+        },
+        {
+          "h": "Relações com o ambiente e sexualidade",
+          "p": "Trocas gasosas (respiração), excreção, osmorregulação e nutrição conectam o organismo ao meio. Em sexualidade: sistemas reprodutores, ciclo menstrual, fecundação, métodos contraceptivos e prevenção de infecções sexualmente transmissíveis (do anexo 'Qualidade de vida das populações humanas')."
+        }
+      ],
+      "exemplo": "Um gráfico mostra a variação da glicemia após uma refeição e a ação dos hormônios. A questão pede explicar como o corpo retorna ao equilíbrio. Raciocínio: após comer, a glicose no sangue sobe; o pâncreas libera insulina, que promove a entrada de glicose nas células e seu armazenamento como glicogênio, baixando a glicemia. Quando ela cai demais, o glucagon estimula a liberação de glicose. Esse mecanismo de feedback negativo mantém a homeostase. A resposta correta identifica o papel antagônico de insulina e glucagon na regulação da glicemia.",
+      "pontos_chave": [
+        "Entender homeostase e mecanismos de feedback (insulina/glucagon, termorregulação).",
+        "Conhecer a resposta imune (antígenos, anticorpos, linfócitos, memória).",
+        "Relacionar vacinas (imunidade ativa) e soros (imunidade passiva) à defesa.",
+        "Compreender trocas com o ambiente: respiração, excreção, nutrição.",
+        "Dominar reprodução humana, ciclo menstrual e contracepção.",
+        "Associar prevenção de ISTs à saúde sexual."
+      ],
+      "dica_prova": "Diferencie vacina (estimula o próprio corpo a produzir anticorpos - imunidade ativa e duradoura) de soro (fornece anticorpos prontos - imunidade passiva e temporária). Pegadinha em homeostase: confundir os hormônios antagônicos. Gráficos de glicemia/temperatura são comuns - leia bem os eixos."
+    },
+    {
+      "sid": "h15-interpretar-modelos-e-experimentos-para-explicar-fenomenos-ou-processos-biologicos-em-qualquer-nivel-de-organizacao-dos-sistemas-biologicos",
+      "titulo": "H15 — Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos.",
+      "intro": "Esta habilidade da Competência 4 enfatiza o método científico aplicado à Biologia: ler e interpretar experimentos, modelos e esquemas para explicar processos em qualquer nível - da molécula ao ecossistema. É uma habilidade de leitura científica.\n\nO Enem apresenta um experimento (com controle, variáveis e resultados) ou um modelo (esquema da célula, do DNA, de uma via metabólica) e pede a conclusão.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige compreender o desenho experimental: hipótese, grupo controle, grupo experimental, variável independente e dependente, e interpretação de resultados. Também pede ler modelos representativos (esquemas e gráficos) e tirar conclusões válidas."
+        },
+        {
+          "h": "Níveis de organização e processos",
+          "p": "Do anexo: do nível molecular (DNA, síntese proteica, enzimas) ao celular (membrana, metabolismo, fotossíntese, respiração), ao do organismo (fisiologia) e ao ecológico (populações, ecossistemas). 'A biologia como ciência: história, métodos, técnicas e experimentação' é a base. Experimentos clássicos: fotossíntese (variação de luz/CO2), ação enzimática (temperatura/pH)."
+        },
+        {
+          "h": "Lendo um experimento corretamente",
+          "p": "O grupo controle serve de referência; o que difere entre grupos é a variável testada. Conclusões devem se limitar ao que os dados mostram. Cuidado: correlação não implica causalidade direta sem controle adequado. Gráficos de taxa de fotossíntese versus intensidade luminosa, ou de atividade enzimática versus temperatura, são recorrentes."
+        }
+      ],
+      "exemplo": "Um experimento mede a taxa de fotossíntese de uma planta aquática pela quantidade de bolhas de O2 liberadas sob diferentes intensidades de luz. O gráfico mostra aumento da taxa com a luz até um platô. A questão pede a conclusão. Raciocínio: a intensidade luminosa é a variável independente e a produção de O2 (taxa de fotossíntese) é a dependente; mais luz aumenta a fotossíntese até saturar, quando outro fator (CO2 ou temperatura) passa a limitar. A resposta correta interpreta o platô como ponto de saturação luminosa, em que a luz deixa de ser o fator limitante.",
+      "pontos_chave": [
+        "Identificar hipótese, grupo controle, variável independente e dependente.",
+        "Interpretar gráficos e esquemas de processos biológicos.",
+        "Conhecer experimentos de fotossíntese e de ação enzimática.",
+        "Tirar conclusões limitadas ao que os dados mostram.",
+        "Reconhecer fatores limitantes (luz, CO2, temperatura).",
+        "Distinguir correlação de causalidade."
+      ],
+      "dica_prova": "O grupo controle é a chave: identifique-o primeiro. Pegadinha: extrapolar conclusões além dos dados, ou esquecer que, num platô, outro fator passou a limitar. Em enzimas, lembre que cada uma tem temperatura e pH ótimos - acima disso ela desnatura e a atividade cai."
+    },
+    {
+      "sid": "h16-compreender-o-papel-da-evolucao-na-producao-de-padroes-processos-biologicos-ou-na-organizacao-taxonomica-dos-seres-vivos",
+      "titulo": "H16 — Compreender o papel da evolução na produção de padrões, processos biológicos ou na organização taxonômica dos seres vivos.",
+      "intro": "Fechando a Competência 4, esta habilidade aborda a Evolução, considerada o eixo unificador da Biologia. Pede entender como a seleção natural e outros mecanismos produzem a diversidade, as adaptações e a classificação dos seres vivos.\n\nO Enem cobra muito seleção natural, adaptação, resistência a antibióticos e parentesco evolutivo (cladogramas).",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige compreender os mecanismos evolutivos e usá-los para explicar padrões biológicos: por que organismos têm certas adaptações, por que bactérias ficam resistentes, por que espécies próximas compartilham características. Pede distinguir as ideias de Lamarck e de Darwin."
+        },
+        {
+          "h": "Teorias e mecanismos",
+          "p": "Do anexo ('Origem e evolução da vida'): teorias de evolução; explicações pré-darwinistas; a teoria de Darwin; teoria sintética da evolução; seleção artificial. Darwin: variabilidade + seleção natural (os mais aptos ao ambiente deixam mais descendentes). Teoria sintética: junta seleção natural com a genética (mutação e recombinação geram variabilidade; seleção e deriva a filtram)."
+        },
+        {
+          "h": "Evidências e classificação",
+          "p": "Evidências da evolução: fósseis, órgãos homólogos (mesma origem, funções diferentes) e análogos (mesma função, origens diferentes), embriologia comparada, dados moleculares. A sistemática/taxonomia organiza os seres por parentesco evolutivo; cladogramas mostram ancestralidade comum. Quanto mais próximo o ancestral comum, maior a semelhança genética."
+        }
+      ],
+      "exemplo": "Um texto descreve o aumento de bactérias resistentes a um antibiótico após seu uso prolongado. A questão pede explicar o fenômeno pela teoria evolutiva. Raciocínio darwinista: na população bacteriana já existiam, por mutação, alguns indivíduos resistentes; o antibiótico atua como pressão seletiva, matando os sensíveis e deixando os resistentes se reproduzirem; com o tempo, a população se torna majoritariamente resistente. A resposta correta atribui o fenômeno à seleção natural de variantes preexistentes - e NÃO à ideia (lamarckista e incorreta) de que a bactéria 'se adaptou' por necessidade.",
+      "pontos_chave": [
+        "Diferenciar Lamarck (uso e desuso, herança de adquiridos) de Darwin (seleção natural).",
+        "Entender a teoria sintética: mutação/recombinação geram variabilidade, seleção a filtra.",
+        "Explicar resistência a antibióticos como seleção de variantes preexistentes.",
+        "Distinguir estruturas homólogas (parentesco) de análogas (convergência).",
+        "Conhecer evidências: fósseis, anatomia comparada, embriologia, dados moleculares.",
+        "Ler cladogramas e relacionar parentesco a ancestral comum."
+      ],
+      "dica_prova": "A pegadinha mais clássica do Enem: a frase de que o organismo 'desenvolveu' uma característica 'porque precisou' (lamarckismo) está errada - a variação vem antes, por mutação, e o ambiente seleciona. Homólogo = mesma origem (evolução divergente); análogo = mesma função (convergente). Cladograma: leia os pontos de ramificação."
+    },
+    {
+      "sid": "h17-relacionar-informacoes-apresentadas-em-diferentes-formas-de-linguagem-e-representacao-usadas-nas-ciencias-fisicas-quimicas-ou-biologicas-como-texto-discursivo-graficos-tabelas-relacoes-matematicas-ou-linguagem-simbolica",
+      "titulo": "H17 — Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica.",
+      "intro": "Abrindo a Competência 5 (métodos e procedimentos das ciências), esta habilidade é transversal: trata da tradução entre diferentes linguagens científicas - texto, gráfico, tabela, equação e símbolos. É uma das mais cobradas, porque quase toda questão exige ler gráficos ou tabelas.\n\nO Enem testa se você converte uma informação de uma forma para outra: ler um gráfico e descrevê-lo, ou pegar uma equação e identificar o gráfico correspondente.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige fluência em múltiplas representações. Você deve ler gráficos (eixos, escalas, tendências), interpretar tabelas, entender equações químicas e fórmulas físicas, e relacionar tudo a um texto. É a base do letramento científico."
+        },
+        {
+          "h": "As linguagens das ciências",
+          "p": "Em Física: gráficos de cinemática (posição x tempo, velocidade x tempo), fórmulas. Em Química: equações químicas balanceadas, fórmulas estruturais, tabela periódica, símbolos. Em Biologia: gráficos populacionais, pirâmides ecológicas, esquemas. Do anexo de Física: 'ferramentas básicas: gráficos e vetores'."
+        },
+        {
+          "h": "Convertendo entre representações",
+          "p": "A habilidade pede ir e voltar entre formas: de um gráfico velocidade x tempo, deduzir se o movimento é acelerado e calcular a distância (área sob a curva); de uma tabela de solubilidade, montar um gráfico; de uma equação química, ler proporções. A coerência entre as representações é o que a questão verifica."
+        }
+      ],
+      "exemplo": "Um gráfico de velocidade versus tempo mostra uma reta crescente partindo do zero. A questão pede qual descrição em texto corresponde ao movimento e qual o deslocamento. Raciocínio: reta crescente em v x t indica aceleração constante (movimento uniformemente acelerado); o deslocamento é a área sob a reta (um triângulo), calculada por base vezes altura dividido por dois. A resposta correta relaciona corretamente a forma do gráfico ao tipo de movimento e usa a área para achar a distância - convertendo a linguagem gráfica em texto e em valor numérico.",
+      "pontos_chave": [
+        "Ler gráficos com atenção aos eixos, escalas e unidades.",
+        "Interpretar tabelas e cruzar seus dados.",
+        "Converter entre texto, gráfico, equação e tabela.",
+        "Em v x t: inclinação = aceleração; área = deslocamento.",
+        "Ler equações químicas como proporções (estequiometria).",
+        "Garantir coerência entre as diferentes representações."
+      ],
+      "dica_prova": "Quase nenhuma questão dispensa essa habilidade - treine leitura de gráficos. Pegadinha: confundir gráfico de posição x tempo com velocidade x tempo (a inclinação significa coisas diferentes). Cheque sempre as unidades dos eixos antes de calcular. Em gráficos de barras/setores, leia o título e a legenda."
+    },
+    {
+      "sid": "h18-relacionar-propriedades-fisicas-quimicas-ou-biologicas-de-produtos-sistemas-ou-procedimentos-tecnologicos-as-finalidades-a-que-se-destinam",
+      "titulo": "H18 — Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam.",
+      "intro": "Esta habilidade da Competência 5 conecta propriedade e função: por que um material é escolhido para certo uso. Envolve muito a Química dos materiais (estrutura determina propriedade, que determina aplicação) e também Física e Biologia.\n\nO Enem pergunta por que o alumínio é usado em panelas, o cobre em fios, o teflon em frigideiras - sempre ligando a propriedade ao fim.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige justificar o uso de um material ou procedimento por suas propriedades. Você deve relacionar a estrutura microscópica (tipo de ligação, polaridade, arranjo) às propriedades macroscópicas (condutividade, ponto de fusão, dureza, solubilidade) e estas à finalidade prática."
+        },
+        {
+          "h": "A tríade estrutura-propriedade-aplicação",
+          "p": "Do anexo de Química: 'relação entre estrutura, propriedade e aplicação das substâncias'; metais e ligas; ligação metálica (explica condução de calor e eletricidade); substâncias iônicas e moleculares; polaridade e forças intermoleculares. Exemplos: metais conduzem por causa do 'mar de elétrons'; o teflon (polímero) é antiaderente e resistente; o vidro é transparente e isolante."
+        },
+        {
+          "h": "Polaridade e solubilidade",
+          "p": "Um princípio muito cobrado: 'semelhante dissolve semelhante'. Substâncias polares (como a água) dissolvem polares e iônicas; apolares (como óleos) dissolvem apolares. Isso explica a ação de sabões (moléculas com parte polar e parte apolar), a escolha de solventes e a impermeabilização."
+        }
+      ],
+      "exemplo": "Um texto pergunta por que o sabão consegue remover gordura, que não se dissolve em água. A questão pede relacionar a estrutura do sabão à sua função. Raciocínio: a molécula de sabão tem uma extremidade apolar (cauda de hidrocarboneto), que interage com a gordura, e uma extremidade polar (cabeça iônica), que interage com a água; assim, ela envolve a gordura formando micelas que são arrastadas pela água. A resposta correta liga a estrutura anfifílica (parte polar + parte apolar) à finalidade de emulsionar e remover gordura.",
+      "pontos_chave": [
+        "Relacionar estrutura microscópica a propriedades macroscópicas e à aplicação.",
+        "Explicar condução elétrica/térmica dos metais pela ligação metálica.",
+        "Usar 'semelhante dissolve semelhante' (polaridade e solubilidade).",
+        "Entender a ação de sabões e detergentes (moléculas anfifílicas).",
+        "Conhecer propriedades de polímeros (teflon, PVC, polietileno).",
+        "Justificar escolha de materiais por dureza, ponto de fusão, etc."
+      ],
+      "dica_prova": "O Enem pede a justificativa, não só a propriedade - prepare-se para explicar o 'porquê'. Pegadinha clássica de polaridade: achar que tudo se dissolve em água. Lembre que ligações iônicas/polares conduzem em solução ou fundidas, mas substâncias moleculares geralmente não conduzem. Sabão = ponte entre água e gordura."
+    },
+    {
+      "sid": "h19-avaliar-metodos-processos-ou-procedimentos-das-ciencias-naturais-que-contribuam-para-diagnosticar-ou-solucionar-problemas-de-ordem-social-economica-ou-ambiental",
+      "titulo": "H19 — Avaliar métodos, processos ou procedimentos das ciências naturais que contribuam para diagnosticar ou solucionar problemas de ordem social, econômica ou ambiental.",
+      "intro": "Fechando a Competência 5, esta habilidade pede julgar a adequação de métodos científicos para resolver problemas concretos da sociedade, economia ou ambiente. É avaliativa: comparar procedimentos e escolher o mais eficaz.\n\nO Enem traz situações como tratamento de água, diagnóstico de doenças, descontaminação de solos, e pede qual método resolve melhor.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige analisar criticamente métodos e procedimentos: tratamento de água e esgoto, técnicas de diagnóstico, processos de despoluição, métodos agrícolas. Você deve avaliar eficácia, custo, viabilidade e impacto, escolhendo a melhor alternativa."
+        },
+        {
+          "h": "Conteúdos de apoio",
+          "p": "Do anexo: poluição e tratamento de água; saneamento básico; tecnologias ambientais; métodos de separação de misturas; processos de diagnóstico (exames). Conhecer as etapas do tratamento de água (coagulação, decantação, filtração, cloração) e do esgoto é muito útil."
+        },
+        {
+          "h": "Critérios de avaliação",
+          "p": "Um bom método deve atacar a causa do problema, ser eficaz, viável economicamente e seguro ao ambiente e à saúde. A habilidade pede comparar: por exemplo, biorremediação (uso de micro-organismos para degradar poluentes) versus métodos físicos; ou prevenção versus tratamento."
+        }
+      ],
+      "exemplo": "Um texto descreve um derramamento de óleo no mar e apresenta métodos de contenção e limpeza. A questão pede avaliar qual é mais adequado considerando eficácia e impacto ambiental. Raciocínio: barreiras de contenção evitam o espalhamento; o uso de micro-organismos que degradam hidrocarbonetos (biorremediação) decompõe o óleo sem adicionar substâncias tóxicas, ao contrário de dispersantes químicos que podem agravar a contaminação. A resposta correta pondera eficácia e menor dano ambiental, favorecendo o método que remove o poluente sem criar novos problemas.",
+      "pontos_chave": [
+        "Avaliar a eficácia, o custo e o impacto de métodos científicos.",
+        "Conhecer etapas do tratamento de água (coagulação, decantação, filtração, cloração).",
+        "Entender biorremediação e tratamento de esgoto.",
+        "Comparar prevenção versus tratamento.",
+        "Escolher o método que ataca a causa e minimiza danos.",
+        "Relacionar saneamento básico à saúde pública."
+      ],
+      "dica_prova": "O comando é 'avaliar' - haverá comparação entre métodos. Pegadinha: escolher um método eficaz mas que gera novo problema (ex.: dispersante químico tóxico). Lembre a ordem do tratamento de água; a cloração (desinfecção) vem ao final. Valorize soluções que removem o poluente em vez de só diluí-lo."
+    },
+    {
+      "sid": "h20-caracterizar-causas-ou-efeitos-dos-movimentos-de-particulas-substancias-objetos-ou-corpos-celestes",
+      "titulo": "H20 — Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes.",
+      "intro": "Abrindo a Competência 6 (conhecimentos de Física para interpretar e intervir), esta habilidade cobre a Mecânica: as causas (forças) e os efeitos (movimento) sobre corpos de todas as escalas - de partículas a planetas. É uma das habilidades mais quantitativas da prova.\n\nO Enem cobra cinemática, leis de Newton, energia, gravitação e leis de Kepler, sempre contextualizados (trânsito, esportes, satélites).",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige relacionar forças e movimento. Você deve aplicar as leis de Newton, descrever movimentos (uniforme e acelerado), usar conceitos de energia, quantidade de movimento e, na escala astronômica, gravitação e leis de Kepler."
+        },
+        {
+          "h": "Cinemática e dinâmica",
+          "p": "Do anexo ('O movimento, o equilíbrio e as leis físicas'): grandezas da mecânica (tempo, espaço, velocidade, aceleração); leis de Newton; inércia; quantidade de movimento e impulso; conservação do momento linear; força de atrito, peso, normal e tração; força centrípeta. Fórmulas centrais: F = m x a (2a lei de Newton), v = v0 + a x t, S = S0 + v0 x t + (a x t^2)/2."
+        },
+        {
+          "h": "Energia e gravitação",
+          "p": "Do anexo: trabalho, energia, potência; energia cinética (Ec = m x v^2 / 2) e potencial (Ep = m x g x h); conservação da energia mecânica. Na 'Mecânica e o Universo': lei da gravitação universal, leis de Kepler, movimentos de corpos celestes, marés. As leis de Kepler descrevem órbitas elípticas e a relação entre período e distância dos planetas."
+        }
+      ],
+      "exemplo": "Uma questão sobre segurança no trânsito descreve um carro freando e pergunta por que o cinto de segurança protege em uma colisão. Raciocínio: pela primeira lei de Newton (inércia), o corpo tende a manter sua velocidade; na colisão, o carro para bruscamente, mas o passageiro continuaria se movendo. O cinto aplica uma força que aumenta o tempo de parada do passageiro, reduzindo a força sobre ele (teorema do impulso: força x tempo = variação da quantidade de movimento). A resposta correta liga inércia e impulso à função protetora do cinto.",
+      "pontos_chave": [
+        "Aplicar as três leis de Newton (inércia, F = m x a, ação e reação).",
+        "Dominar cinemática (MU e MUV) e ler gráficos de movimento.",
+        "Usar energia cinética, potencial e conservação de energia mecânica.",
+        "Entender quantidade de movimento e teorema do impulso.",
+        "Conhecer gravitação universal e as três leis de Kepler.",
+        "Identificar forças: peso, normal, atrito, tração, centrípeta."
+      ],
+      "dica_prova": "Inércia (1a lei) é campeã de questões contextualizadas (cinto, encosto de cabeça, freada). Ação e reação atuam em corpos diferentes - não se anulam. Em conservação de energia, identifique os pontos inicial e final. Atenção a unidades no SI (m, kg, s, N, J). Atrito e empuxo aparecem como pegadinhas."
+    },
+    {
+      "sid": "h21-utilizar-leis-fisicas-e-ou-quimicas-para-interpretar-processos-naturais-ou-tecnologicos-inseridos-no-contexto-da-termodinamica-e-ou-do-eletromagnetismo",
+      "titulo": "H21 — Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo.",
+      "intro": "Esta habilidade da Competência 6 reúne dois grandes temas da Física: a Termodinâmica (calor, energia térmica, máquinas térmicas) e o Eletromagnetismo (eletricidade e magnetismo, indução). Aparece em motores, geladeiras, geradores, transformadores.\n\nO Enem cobra trocas de calor, máquinas térmicas, leis da termodinâmica e a indução eletromagnética que gera energia.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige aplicar leis físicas para interpretar fenômenos térmicos e eletromagnéticos. Em termodinâmica: calor, temperatura, mudanças de estado, máquinas térmicas e rendimento. Em eletromagnetismo: campos, indução, geração e transformação de energia elétrica."
+        },
+        {
+          "h": "Termodinâmica",
+          "p": "Do anexo ('O calor e os fenômenos térmicos'): calor e temperatura; escalas; transferência de calor (condução, convecção, irradiação); calor específico (Q = m x c x deltaT); calor latente; mudanças de estado; máquinas térmicas; ciclo de Carnot; leis da termodinâmica. A 1a lei é conservação de energia; a 2a indica que parte do calor sempre se perde (rendimento sempre menor que 100%)."
+        },
+        {
+          "h": "Eletromagnetismo",
+          "p": "Do anexo ('Fenômenos Elétricos e Magnéticos'): campo elétrico e magnético; ímãs; campo magnético terrestre; corrente contínua e alternada. A indução eletromagnética (variação de campo magnético gera corrente) é a base de geradores, usinas e transformadores. Geladeiras e ar-condicionado usam ciclos termodinâmicos para retirar calor."
+        }
+      ],
+      "exemplo": "Um texto descreve uma usina hidrelétrica e pergunta como a energia mecânica da água vira energia elétrica. Raciocínio: a água em queda gira a turbina (energia cinética), que faz girar um ímã dentro de bobinas no gerador; a variação do campo magnético sobre as bobinas induz uma corrente elétrica (indução eletromagnética, lei de Faraday). A resposta correta identifica a indução eletromagnética como o princípio que converte movimento em eletricidade - distinguindo-a de efeito Joule ou de reações químicas.",
+      "pontos_chave": [
+        "Aplicar Q = m x c x deltaT (calor sensível) e o calor latente nas mudanças de estado.",
+        "Conhecer condução, convecção e irradiação como formas de propagação do calor.",
+        "Entender máquinas térmicas e que o rendimento é sempre menor que 100% (2a lei).",
+        "Dominar a 1a lei da termodinâmica (conservação de energia).",
+        "Compreender a indução eletromagnética (geradores, transformadores).",
+        "Diferenciar corrente contínua de alternada e o papel dos transformadores."
+      ],
+      "dica_prova": "A 2a lei da termodinâmica é pegadinha: nenhuma máquina térmica converte todo o calor em trabalho - sempre há perda. Diferencie calor (energia em trânsito) de temperatura (agitação média). Indução exige variação do campo magnético - ímã parado não gera corrente. Transformadores só funcionam em corrente alternada."
+    },
+    {
+      "sid": "h22-compreender-fenomenos-decorrentes-da-interacao-entre-a-radiacao-e-a-materia-em-suas-manifestacoes-em-processos-naturais-ou-tecnologicos-ou-em-suas-implicacoes-biologicas-sociais-economicas-ou-ambientais",
+      "titulo": "H22 — Compreender fenômenos decorrentes da interação entre a radiação e a matéria em suas manifestações em processos naturais ou tecnológicos, ou em suas implicações biológicas, sociais, econômicas ou ambientais.",
+      "intro": "Esta habilidade da Competência 6 trata da radiação e sua interação com a matéria: do espectro eletromagnético à radioatividade. Inclui aplicações médicas (raio X, radioterapia), tecnológicas (energia nuclear) e fenômenos naturais (radiação solar, ozônio).\n\nO Enem cobra tipos de radiação, efeitos biológicos, energia nuclear e fenômenos como o efeito estufa e a camada de ozônio.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige entender os tipos de radiação e como interagem com a matéria e os seres vivos. Distinga radiação ionizante (raios X, gama, alfa, beta - capaz de danificar células e DNA) de não ionizante (rádio, micro-ondas, infravermelho, luz visível)."
+        },
+        {
+          "h": "Espectro e radioatividade",
+          "p": "Do anexo de Física ('Oscilações, ondas, óptica e radiação') e de Química ('Transformações nucleares'): conceitos da radioatividade; radiações alfa, beta e gama; fissão e fusão nuclear; desintegração radioativa e radioisótopos; meia-vida. O espectro eletromagnético vai do rádio (baixa frequência/energia) aos raios gama (alta frequência/energia)."
+        },
+        {
+          "h": "Aplicações e implicações",
+          "p": "Aplicações: raio X e tomografia (diagnóstico), radioterapia (câncer), radioisótopos (datação por carbono-14, traçadores), usinas nucleares (fissão). Implicações: a radiação ionizante pode causar mutações e câncer; o lixo atômico é um problema ambiental; a camada de ozônio filtra a radiação UV; o efeito estufa retém radiação infravermelha."
+        }
+      ],
+      "exemplo": "Um texto explica que a radioterapia usa radiação para tratar tumores. A questão pede por que ela afeta mais as células cancerosas. Raciocínio: a radiação ionizante danifica o DNA das células; células que se dividem rapidamente, como as cancerosas, são mais sensíveis a esses danos e morrem com mais facilidade. A radiação é direcionada ao tumor para poupar tecidos saudáveis. A resposta correta liga a interação da radiação ionizante com o DNA à maior vulnerabilidade das células em rápida divisão.",
+      "pontos_chave": [
+        "Distinguir radiação ionizante (raios X, gama, alfa, beta) de não ionizante.",
+        "Ordenar o espectro eletromagnético por frequência/energia.",
+        "Conhecer radiações alfa, beta e gama e o conceito de meia-vida.",
+        "Diferenciar fissão (quebra de núcleo) de fusão (união de núcleos).",
+        "Entender aplicações: raio X, radioterapia, datação por C-14, usinas nucleares.",
+        "Avaliar implicações: mutações, câncer, lixo atômico, camada de ozônio."
+      ],
+      "dica_prova": "Pegadinha: tratar toda radiação como perigosa - rádio, micro-ondas e luz visível são não ionizantes. Meia-vida é o tempo para metade da amostra decair (cálculo recorrente). Camada de ozônio (filtra UV) é tema diferente do efeito estufa (retém infravermelho) - não confunda. Fusão ocorre no Sol; fissão, nas usinas atuais."
+    },
+    {
+      "sid": "h23-avaliar-possibilidades-de-geracao-uso-ou-transformacao-de-energia-em-ambientes-especificos-considerando-implicacoes-eticas-ambientais-sociais-e-ou-economicas",
+      "titulo": "H23 — Avaliar possibilidades de geração, uso ou transformação de energia em ambientes específicos, considerando implicações éticas, ambientais, sociais e/ou econômicas.",
+      "intro": "Fechando a Competência 6, esta habilidade trata das matrizes energéticas: comparar fontes de energia (fósseis, hidrelétrica, solar, eólica, nuclear, biomassa) avaliando vantagens, desvantagens e impactos. Une Física, Química e questões socioambientais.\n\nO Enem cobra a comparação entre fontes renováveis e não renováveis e as transformações de energia envolvidas.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige avaliar fontes de energia em um contexto específico, ponderando custos e benefícios. Você deve conhecer as transformações de energia em cada fonte e seus impactos ambientais, sociais e econômicos, escolhendo a mais adequada à situação."
+        },
+        {
+          "h": "As fontes e suas transformações",
+          "p": "Do anexo (Física e Química - 'Energias Químicas no Cotidiano'): petróleo, gás natural, carvão; biomassa e biocombustíveis; energia nuclear. Renováveis: solar (fotovoltaica - luz em eletricidade), eólica (cinética do vento em elétrica), hidrelétrica, biomassa. Não renováveis: combustíveis fósseis (queima libera CO2) e nuclear (fissão). Cada uma transforma uma forma de energia em eletricidade."
+        },
+        {
+          "h": "Implicações e escolha",
+          "p": "Combustíveis fósseis são abundantes e baratos, mas emitem gases de efeito estufa. Renováveis são limpas, mas podem ter custo inicial alto ou depender do clima (sol, vento). A nuclear não emite CO2, mas gera lixo radioativo. A avaliação deve considerar o ambiente específico (uma ilha isolada, uma região ventosa) e os impactos éticos e sociais."
+        }
+      ],
+      "exemplo": "Um texto descreve uma comunidade isolada, sem acesso à rede elétrica, em região de muito sol. A questão pede a fonte de energia mais adequada considerando impacto ambiental e viabilidade. Raciocínio: a energia solar fotovoltaica converte a luz diretamente em eletricidade, é renovável, não emite poluentes e dispensa rede de distribuição, sendo ideal para locais isolados e ensolarados, apesar do custo inicial dos painéis. A resposta correta escolhe a solar, articulando a transformação de energia (luz em elétrica) e as vantagens ambientais e logísticas para aquele contexto.",
+      "pontos_chave": [
+        "Comparar fontes renováveis e não renováveis e suas transformações de energia.",
+        "Conhecer solar, eólica, hidrelétrica, biomassa, fóssil e nuclear.",
+        "Relacionar combustíveis fósseis à emissão de CO2 e ao efeito estufa.",
+        "Avaliar vantagens e desvantagens conforme o contexto específico.",
+        "Considerar a fissão nuclear (sem CO2, mas com lixo radioativo).",
+        "Ponderar implicações éticas, sociais, econômicas e ambientais."
+      ],
+      "dica_prova": "A resposta depende do contexto descrito - não há fonte 'melhor' em absoluto. Pegadinha: chamar a nuclear ou a hidrelétrica de '100% limpas' (a nuclear gera lixo radioativo; a hidrelétrica alaga áreas e emite gases). Renovável não é sinônimo de 'sem impacto'. Identifique a transformação de energia em cada fonte."
+    },
+    {
+      "sid": "h24-utilizar-codigos-e-nomenclatura-da-quimica-para-caracterizar-materiais-substancias-ou-transformacoes-quimicas",
+      "titulo": "H24 — Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas.",
+      "intro": "Abrindo a Competência 7 (conhecimentos de Química para interpretar e intervir), esta habilidade trata da linguagem da Química: símbolos, fórmulas, equações, nomenclatura e a tabela periódica. É a base para ler qualquer questão de Química.\n\nO Enem cobra identificar substâncias por suas fórmulas, classificar funções (ácidos, bases, sais, óxidos) e interpretar equações químicas.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige fluência na simbologia química: ler fórmulas, balancear e interpretar equações, nomear compostos e usar a tabela periódica. Você deve reconhecer elementos, distinguir átomos, moléculas e íons, e classificar substâncias por suas funções."
+        },
+        {
+          "h": "Códigos e tabela periódica",
+          "p": "Do anexo: elementos químicos e Tabela Periódica; número atômico, número de massa, isótopos; fórmulas químicas; balanceamento de equações; classificação de substâncias. A tabela periódica organiza os elementos por número atômico e propriedades (períodos e grupos/famílias), permitindo prever comportamento."
+        },
+        {
+          "h": "Funções inorgânicas",
+          "p": "Do anexo ('Água' e 'Materiais'): ácidos, bases, sais e óxidos - definição, classificação, propriedades e nomenclatura. Ácidos liberam H+ em água (ex.: HCl); bases liberam OH- (ex.: NaOH); sais vêm da neutralização (ex.: NaCl); óxidos são binários com oxigênio (ex.: CO2). Reconhecer a função pela fórmula é essencial."
+        }
+      ],
+      "exemplo": "Uma questão apresenta as fórmulas H2SO4, NaOH, NaCl e CO2 e pede para classificá-las. Raciocínio: H2SO4 libera H+ em água, é um ácido; NaOH libera OH-, é uma base; NaCl é o produto da neutralização entre ácido e base, é um sal; CO2 é um composto binário com oxigênio, é um óxido. A resposta correta classifica cada substância em sua função inorgânica, demonstrando o domínio dos códigos e da nomenclatura - frequentemente ligando isso a um contexto (chuva ácida, antiácidos, sal de cozinha).",
+      "pontos_chave": [
+        "Ler fórmulas e distinguir átomos, moléculas e íons.",
+        "Balancear e interpretar equações químicas.",
+        "Usar a tabela periódica (número atômico, grupos, períodos).",
+        "Classificar funções inorgânicas: ácidos, bases, sais e óxidos.",
+        "Conhecer a nomenclatura básica dos compostos.",
+        "Entender isótopos (mesmo número atômico, massas diferentes)."
+      ],
+      "dica_prova": "Reconhecer a função pela fórmula economiza tempo: H no início costuma indicar ácido; OH indica base; metal + ametal, sal. Pegadinha: confundir número atômico (prótons, define o elemento) com número de massa (prótons + nêutrons). Equações precisam estar balanceadas (conservação da massa, Lavoisier)."
+    },
+    {
+      "sid": "h25-caracterizar-materiais-ou-substancias-identificando-etapas-rendimentos-ou-implicacoes-biologicas-sociais-economicas-ou-ambientais-de-sua-obtencao-ou-producao",
+      "titulo": "H25 — Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção.",
+      "intro": "Esta habilidade da Competência 7 envolve a Química quantitativa e industrial: estequiometria (cálculos de quantidade), rendimento de reações e os processos de produção de substâncias. Une o cálculo ao contexto produtivo e ambiental.\n\nO Enem cobra cálculos estequiométricos contextualizados, conceito de mol e rendimento de processos industriais.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige realizar cálculos estequiométricos e interpretar processos de obtenção de materiais. Você deve usar o conceito de mol, massa molar e proporções das equações para calcular quantidades de reagentes e produtos, e avaliar o rendimento e os impactos da produção."
+        },
+        {
+          "h": "Estequiometria",
+          "p": "Do anexo ('Representação das transformações químicas'): aspectos quantitativos; leis ponderais; grandezas químicas - massa, volume, mol, massa molar, constante de Avogadro; cálculos estequiométricos. O mol é a unidade que conta partículas (6,02 x 10^23, número de Avogadro). A equação balanceada dá a proporção (em mols) entre reagentes e produtos."
+        },
+        {
+          "h": "Rendimento e produção",
+          "p": "Rendimento é a razão entre o produto realmente obtido e o teoricamente esperado, em porcentagem. Reações reais raramente têm 100% de rendimento. Do anexo: indústria química (obtenção de cloro, soda, ácido sulfúrico, amônia); metalurgia; aspectos socioeconômicos e ambientais da produção. Avaliar impactos faz parte da habilidade."
+        }
+      ],
+      "exemplo": "Uma questão fornece a equação de combustão e pede a massa de CO2 produzida ao queimar certa massa de combustível. Raciocínio: escreve-se e balanceia-se a equação; converte-se a massa do combustível em mols (dividindo pela massa molar); pela proporção estequiométrica da equação, encontra-se os mols de CO2; multiplica-se pela massa molar do CO2 (44 g/mol) para obter a massa. A resposta correta segue a sequência massa - mol - proporção - mol - massa, e o contexto costuma ligar isso à emissão de gases e ao impacto ambiental.",
+      "pontos_chave": [
+        "Dominar o conceito de mol, massa molar e número de Avogadro.",
+        "Balancear a equação antes de qualquer cálculo estequiométrico.",
+        "Converter massa em mols e usar a proporção da equação.",
+        "Calcular rendimento (obtido/esperado x 100).",
+        "Conhecer processos industriais (amônia, ácido sulfúrico, metalurgia).",
+        "Avaliar implicações ambientais e econômicas da produção."
+      ],
+      "dica_prova": "A sequência massa-mol-mol-massa resolve a maioria dos cálculos - sempre balanceie a equação primeiro. Pegadinha: esquecer o rendimento (quando dado, o produto real é menor que o teórico) ou ignorar o reagente limitante (aquele que acaba primeiro e determina o produto). Cuide das unidades e da massa molar."
+    },
+    {
+      "sid": "h26-avaliar-implicacoes-sociais-ambientais-e-ou-economicas-na-producao-ou-no-consumo-de-recursos-energeticos-ou-minerais-identificando-transformacoes-quimicas-ou-de-energia-envolvidas-nesses-processos",
+      "titulo": "H26 — Avaliar implicações sociais, ambientais e/ou econômicas na produção ou no consumo de recursos energéticos ou minerais, identificando transformações químicas ou de energia envolvidas nesses processos.",
+      "intro": "Esta habilidade da Competência 7 cruza a Química energética com as implicações socioambientais. Trata da produção e consumo de combustíveis e minerais, identificando as transformações químicas (combustão, oxirredução) e energéticas envolvidas e seus impactos.\n\nO Enem cobra combustão de combustíveis, pilhas e baterias, e os impactos da mineração e dos combustíveis fósseis.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige identificar as transformações químicas e de energia em processos de obtenção e uso de recursos, e avaliar suas implicações. Combustão (queima libera energia e CO2), oxirredução (em pilhas e corrosão) e termoquímica (calor de reação) são centrais."
+        },
+        {
+          "h": "Transformações químicas e energia",
+          "p": "Do anexo ('Transformações Químicas e Energia'): calor de reação; entalpia; equações termoquímicas; reações de oxirredução; pilhas; eletrólise. Reações exotérmicas liberam energia (combustão); endotérmicas absorvem. Em pilhas, a energia química vira elétrica por oxirredução (oxidação no ânodo, redução no cátodo)."
+        },
+        {
+          "h": "Recursos e implicações",
+          "p": "Do anexo: petróleo, gás natural, carvão; biomassa; biocombustíveis; impactos ambientais de combustíveis fósseis; mineração e metalurgia; energia nuclear e lixo atômico. A queima de fósseis emite gases de efeito estufa; a mineração causa degradação; baterias descartadas contaminam com metais pesados. A avaliação pondera economia, sociedade e ambiente."
+        }
+      ],
+      "exemplo": "Um texto compara a queima de gasolina com a de etanol. A questão pede avaliar as implicações ambientais identificando as transformações envolvidas. Raciocínio: ambos sofrem combustão (reação exotérmica que libera energia e produz CO2 e água); porém o etanol vem da cana, que absorve CO2 na fotossíntese durante o cultivo, tornando seu balanço de carbono mais favorável que o da gasolina, derivada do petróleo (carbono fóssil). A resposta correta identifica a combustão como transformação comum e avalia o etanol como mais sustentável quanto ao ciclo do carbono.",
+      "pontos_chave": [
+        "Identificar combustão como reação exotérmica que libera CO2.",
+        "Entender oxirredução em pilhas, baterias e corrosão.",
+        "Diferenciar reações exotérmicas de endotérmicas (entalpia).",
+        "Comparar combustíveis fósseis e biocombustíveis (balanço de carbono).",
+        "Avaliar impactos da mineração, metalurgia e descarte de baterias.",
+        "Relacionar produção/consumo de energia a implicações socioambientais."
+      ],
+      "dica_prova": "Combustão sempre produz CO2 e H2O (se completa) e libera energia. Pegadinha: tratar biocombustível como 'sem emissão' - ele emite CO2 ao queimar, mas o balanço é melhor porque a planta absorveu CO2 ao crescer. Em pilhas, oxidação = ânodo (polo negativo); redução = cátodo. Cuidado para não inverter."
+    },
+    {
+      "sid": "h27-avaliar-propostas-de-intervencao-no-meio-ambiente-aplicando-conhecimentos-quimicos-observando-riscos-ou-beneficios",
+      "titulo": "H27 — Avaliar propostas de intervenção no meio ambiente aplicando conhecimentos químicos, observando riscos ou benefícios.",
+      "intro": "Fechando a Competência 7, esta habilidade aplica a Química ambiental à avaliação de soluções: tratamento de água e efluentes, neutralização de poluentes, despoluição, reciclagem. Pede julgar riscos e benefícios das intervenções com base química.\n\nO Enem cobra tratamento de água, controle de pH, neutralização ácido-base e processos de despoluição.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige avaliar propostas de intervenção ambiental usando conceitos químicos. Você deve entender reações de neutralização, controle de pH, precipitação de poluentes, tratamento de água e esgoto, e ponderar a eficácia e os riscos de cada solução."
+        },
+        {
+          "h": "Conceitos químicos aplicados",
+          "p": "Do anexo ('Água' e 'Química, Tecnologias, Sociedade e Meio Ambiente'): ácidos e bases, pH, reação de neutralização; solubilidade; equilíbrio ácido-base; poluição e tratamento de água; contaminação e proteção do ambiente. Por exemplo, corrigir a acidez de um solo ou rio com uma base (calagem), ou neutralizar um efluente ácido."
+        },
+        {
+          "h": "Riscos e benefícios",
+          "p": "Cada intervenção tem prós e contras químicos. Adicionar cal a um lago acidificado eleva o pH, mas em excesso pode torná-lo básico demais. O cloro desinfeta a água, mas em excesso forma subprodutos indesejados. A habilidade pede equilibrar o efeito desejado com os riscos colaterais, escolhendo a dose e o método adequados."
+        }
+      ],
+      "exemplo": "Um texto descreve um rio acidificado pela drenagem de uma mina (pH muito baixo) e propõe adicionar calcário (carbonato de cálcio) à água. A questão pede avaliar a proposta. Raciocínio: o calcário é uma base que reage com o ácido, neutralizando-o e elevando o pH para valores próximos do neutro, o que beneficia a vida aquática; o risco é o excesso, que pode tornar a água alcalina ou alterar o equilíbrio. A resposta correta reconhece a neutralização ácido-base como base química da proposta e pondera o benefício (correção do pH) frente ao risco da dosagem.",
+      "pontos_chave": [
+        "Aplicar reações de neutralização ácido-base e controle de pH.",
+        "Entender a escala de pH (ácido < 7 < básico) e indicadores.",
+        "Conhecer etapas do tratamento de água e de efluentes.",
+        "Avaliar riscos de excesso ou de subprodutos (ex.: cloro).",
+        "Usar solubilidade/precipitação para remover poluentes.",
+        "Ponderar benefícios e riscos químicos de cada intervenção."
+      ],
+      "dica_prova": "Neutralização ácido-base é tema recorrente - lembre que ácido + base formam sal + água. Pegadinha: assumir que 'mais é melhor'; o excesso de um corretivo pode criar novo problema (inverter o pH). pH 7 é neutro; cada unidade muda 10 vezes a acidez. Valorize doses controladas e métodos seguros."
+    },
+    {
+      "sid": "h28-associar-caracteristicas-adaptativas-dos-organismos-com-seu-modo-de-vida-ou-com-seus-limites-de-distribuicao-em-diferentes-ambientes-em-especial-em-ambientes-brasileiros",
+      "titulo": "H28 — Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros.",
+      "intro": "Abrindo a Competência 8 (conhecimentos de Biologia para interpretar e intervir), esta habilidade liga adaptação e ambiente: por que cada organismo tem características que o ajustam ao seu habitat, com destaque para os biomas brasileiros. Une evolução, fisiologia e ecologia.\n\nO Enem cobra adaptações de plantas e animais aos biomas do Brasil (Caatinga, Cerrado, Amazônia, etc.).",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige relacionar características adaptativas ao modo de vida e ao ambiente. Você deve explicar por que certas adaptações (folhas modificadas, hibernação, comportamento) favorecem a sobrevivência em determinado meio e como limitam ou permitem a distribuição da espécie."
+        },
+        {
+          "h": "Adaptações e ambiente",
+          "p": "Do anexo ('Identidade dos seres vivos' e 'Ecologia'): funções vitais e sua relação com a adaptação a diferentes ambientes; padrões anatômicos e fisiológicos; habitat e nicho ecológico; biomas brasileiros. Fatores abióticos (água, temperatura, luz, solo) impõem pressões que moldam as adaptações ao longo da evolução."
+        },
+        {
+          "h": "Biomas brasileiros",
+          "p": "Caatinga (semiárido): plantas com espinhos, raízes profundas, caules que armazenam água; animais de hábitos noturnos. Cerrado: árvores de casca grossa e raízes profundas, resistentes ao fogo e à seca. Amazônia (úmida): grande biodiversidade, plantas com folhas largas. Mata Atlântica, Pantanal e Pampa têm suas próprias características. Associar o bioma à adaptação é o foco."
+        }
+      ],
+      "exemplo": "Um texto descreve plantas da Caatinga com folhas reduzidas a espinhos e caules suculentos. A questão pede a vantagem adaptativa dessas características. Raciocínio: o clima semiárido tem pouca água e alta evaporação; folhas reduzidas a espinhos diminuem a perda de água por transpiração e ainda protegem contra herbívoros, enquanto o caule suculento armazena água para os períodos de seca. A resposta correta associa essas características à economia de água, explicando por que permitem a sobrevivência no bioma Caatinga.",
+      "pontos_chave": [
+        "Relacionar adaptações (morfológicas, fisiológicas, comportamentais) ao ambiente.",
+        "Entender como fatores abióticos moldam as adaptações.",
+        "Conhecer os biomas brasileiros e suas características.",
+        "Associar adaptações da Caatinga, Cerrado, Amazônia, etc., ao clima local.",
+        "Compreender habitat, nicho ecológico e limites de distribuição.",
+        "Ligar adaptação à evolução por seleção natural."
+      ],
+      "dica_prova": "O Enem valoriza os biomas brasileiros - estude as adaptações típicas de cada um. Pegadinha lamarckista: dizer que a planta 'criou espinhos porque precisou'; as adaptações resultam de seleção natural ao longo das gerações, não de necessidade individual. Caatinga e Cerrado têm adaptações à seca/fogo bem cobradas."
+    },
+    {
+      "sid": "h29-interpretar-experimentos-ou-tecnicas-que-utilizam-seres-vivos-analisando-implicacoes-para-o-ambiente-a-saude-a-producao-de-alimentos-materias-primas-ou-produtos-industriais",
+      "titulo": "H29 — Interpretar experimentos ou técnicas que utilizam seres vivos, analisando implicações para o ambiente, a saúde, a produção de alimentos, matérias primas ou produtos industriais.",
+      "intro": "Esta habilidade da Competência 8 trata da aplicação da Biologia em técnicas e experimentos com seres vivos: biotecnologia, agropecuária, controle biológico, produção de alimentos e fármacos. Pede interpretar o procedimento e avaliar suas implicações.\n\nO Enem cobra transgênicos, controle biológico de pragas, fermentação na indústria e técnicas de melhoramento.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige interpretar técnicas e experimentos que usam organismos e analisar seus efeitos sobre ambiente, saúde e produção. Você deve entender o procedimento (o que se faz e por quê) e avaliar consequências - benefícios e riscos."
+        },
+        {
+          "h": "Técnicas com seres vivos",
+          "p": "Do anexo ('Moléculas, células e tecidos'): aplicações de biotecnologia na produção de alimentos, fármacos e componentes biológicos; DNA recombinante; biotecnologia e sustentabilidade. Exemplos: fermentação (pães, queijos, iogurtes, etanol); produção de antibióticos por fungos; vacinas; transgênicos resistentes a pragas."
+        },
+        {
+          "h": "Controle biológico e melhoramento",
+          "p": "O controle biológico usa inimigos naturais (predadores, parasitas) para combater pragas, reduzindo agrotóxicos. O melhoramento genético (seleção artificial) aumenta a produtividade de plantas e animais. A interpretação envolve avaliar o impacto ambiental (menos veneno, mas risco de desequilíbrio) e a segurança alimentar."
+        }
+      ],
+      "exemplo": "Um texto descreve a introdução de uma joaninha que se alimenta de pulgões para controlar uma praga em uma plantação, substituindo o uso de inseticidas. A questão pede analisar essa técnica. Raciocínio: trata-se de controle biológico, em que um predador natural reduz a população da praga; a vantagem é diminuir o uso de agrotóxicos, com menos contaminação do ambiente e dos alimentos; o risco é o desequilíbrio ecológico caso o predador introduzido se torne ele próprio uma praga. A resposta correta interpreta a técnica como controle biológico e pondera o benefício ambiental frente ao risco de desequilíbrio.",
+      "pontos_chave": [
+        "Interpretar técnicas biológicas: fermentação, transgenia, vacinas, controle biológico.",
+        "Entender o controle biológico (inimigos naturais x agrotóxicos).",
+        "Conhecer o melhoramento genético e a seleção artificial.",
+        "Avaliar implicações para ambiente, saúde e produção de alimentos.",
+        "Reconhecer benefícios e riscos de cada técnica.",
+        "Relacionar biotecnologia à sustentabilidade."
+      ],
+      "dica_prova": "O Enem pede a análise das implicações, não só a identificação da técnica. Pegadinha: ignorar os riscos do controle biológico (introduzir uma espécie pode causar desequilíbrio) ou tratar transgênicos como inofensivos/perigosos por princípio. Fermentação é processo biológico feito por micro-organismos - muito cobrada na indústria de alimentos."
+    },
+    {
+      "sid": "h30-avaliar-propostas-de-alcance-individual-ou-coletivo-identificando-aquelas-que-visam-a-preservacao-e-a-implementacao-da-saude-individual-coletiva-ou-do-ambiente",
+      "titulo": "H30 — Avaliar propostas de alcance individual ou coletivo, identificando aquelas que visam à preservação e a implementação da saúde individual, coletiva ou do ambiente.",
+      "intro": "Fechando a Competência 8 e toda a área, esta habilidade trata da saúde pública e ambiental: avaliar ações individuais e coletivas que preservam a saúde e o ambiente. Inclui prevenção de doenças, saneamento, vacinação, hábitos saudáveis e políticas públicas.\n\nO Enem cobra prevenção de doenças (endemias, ISTs), saneamento, vacinação e qualidade de vida das populações.",
+      "secoes": [
+        {
+          "h": "O que a habilidade exige",
+          "p": "Exige avaliar propostas de promoção da saúde e do ambiente, distinguindo as mais eficazes. Você deve diferenciar ações individuais (hábitos, higiene) de coletivas (saneamento, campanhas, políticas) e julgar seu impacto na saúde individual, coletiva e ambiental."
+        },
+        {
+          "h": "Saúde e doenças",
+          "p": "Do anexo ('Qualidade de vida das populações humanas'): principais doenças que afetam a população brasileira - caracterização, prevenção e profilaxia; doenças sexualmente transmissíveis; primeiros socorros; uso de drogas; obesidade; exercícios físicos e vida saudável; indicadores sociais e IDH. Conhecer ciclos de doenças (dengue, esquistossomose, verminoses) ajuda a propor prevenção."
+        },
+        {
+          "h": "Saneamento, vacinação e ambiente",
+          "p": "Saneamento básico (água tratada, esgoto, lixo) previne doenças de veiculação hídrica. A vacinação protege individual e coletivamente (imunidade de rebanho). O combate ao vetor (eliminar criadouros do mosquito) previne dengue/zika. A habilidade liga a saúde ao ambiente e à dimensão social, valorizando ações coletivas e sustentáveis."
+        }
+      ],
+      "exemplo": "Um texto apresenta o aumento de casos de dengue em uma cidade e lista propostas de combate. A questão pede a ação mais eficaz para reduzir a transmissão. Raciocínio: a dengue é transmitida pelo mosquito Aedes aegypti, que se reproduz em água parada; eliminar os criadouros (recipientes com água) ataca o ciclo do vetor, sendo a medida coletiva mais eficaz de prevenção; o tratamento dos doentes é importante, mas não interrompe a transmissão. A resposta correta identifica a eliminação de criadouros como a proposta que ataca a causa da disseminação, evidenciando a dimensão coletiva e ambiental da saúde.",
+      "pontos_chave": [
+        "Distinguir ações individuais de coletivas na promoção da saúde.",
+        "Conhecer prevenção de endemias (dengue, esquistossomose, verminoses).",
+        "Relacionar saneamento básico à prevenção de doenças.",
+        "Entender vacinação e imunidade coletiva (de rebanho).",
+        "Associar combate ao vetor ao ciclo de transmissão.",
+        "Avaliar propostas pela eficácia e pelo alcance coletivo e ambiental."
+      ],
+      "dica_prova": "O comando 'avaliar e identificar a melhor' pede escolher a ação mais eficaz, geralmente a que ataca a causa (vetor, fonte de contaminação), não só o sintoma. Pegadinha: priorizar tratamento individual quando a prevenção coletiva resolve mais. Conheça o ciclo dos principais vetores e a importância do saneamento."
+    }
+  ]
+}

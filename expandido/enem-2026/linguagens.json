@@ -1,0 +1,995 @@
+{
+ "slug": "linguagens",
+ "itens": [
+  {
+   "sid": "h1-identificar-as-diferentes-linguagens-e-seus-recursos-expressivos-como-elementos-de-caracterizacao-dos-sistemas-de-comunicacao",
+   "titulo": "H1 — Identificar as diferentes linguagens e seus recursos expressivos como elementos de caracterização dos sistemas de comunicação.",
+   "intro": "A Competência 1 do Enem trata de aplicar as tecnologias da comunicação e da informação em diversos contextos. A primeira habilidade pede que você IDENTIFIQUE as diferentes linguagens — verbal, não verbal e mista (verbo-visual) — e os recursos expressivos que as caracterizam. Em outras palavras: reconhecer com que ferramentas cada sistema de comunicação constrói sentido.\n\nLinguagem verbal é a que usa palavras (fala e escrita). Linguagem não verbal usa outros signos: imagens, cores, gestos, sons, símbolos. A linguagem mista combina as duas, como nos quadrinhos, charges, propagandas e memes. Cada sistema (jornal, rádio, TV, redes sociais, outdoor) seleciona linguagens e recursos conforme seu suporte e seu público.",
+   "secoes": [
+    {
+     "h": "Linguagem verbal, não verbal e mista",
+     "p": "Verbal: palavras, oral ou escrita. Não verbal: tudo que comunica sem palavras — fotografia, pintura, sinais de trânsito, expressões faciais, música instrumental. Mista (ou híbrida/verbo-visual): combina os dois códigos, e é a mais cobrada porque exige relacionar texto e imagem para chegar ao sentido global. Charges, tirinhas, infográficos, anúncios e capas de revista são exemplos típicos."
+    },
+    {
+     "h": "Recursos expressivos",
+     "p": "São os elementos que dão força e intenção à mensagem. Na linguagem verbal: figuras de linguagem (metáfora, ironia, hipérbole), seleção de vocabulário, jogos de palavras. Na não verbal: enquadramento, ângulo, cor, contraste, traço, tamanho, posição dos elementos. Identificar o recurso é o primeiro passo para entender por que aquele sistema de comunicação produz determinado efeito."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Segundo o ANEXO da matriz, esta habilidade se ancora no estudo do texto: as sequências discursivas e os gêneros textuais no sistema de comunicação e informação, e nos gêneros digitais (suporte textual, recursos linguísticos e função social das novas tecnologias). Domine: tipos de linguagem, funções da linguagem, gêneros e suportes textuais."
+    },
+    {
+     "h": "Caracterizar o sistema de comunicação",
+     "p": "Cada meio tem uma linguagem dominante: o rádio depende do som e da entonação; o outdoor, da imagem impactante e do texto curto; o meme, da combinação rápida de imagem e frase. Identificar a linguagem ajuda a entender as escolhas de quem produz e os limites e potenciais de cada suporte."
+    }
+   ],
+   "exemplo": "Texto-base: uma charge sobre o uso excessivo do celular, mostrando pessoas de cabeça baixa olhando telas. Comando: 'Os recursos expressivos predominantes na charge contribuem para a construção de sentido porque...'. O raciocínio: perceber que se trata de linguagem mista (desenho + balão/legenda), que o exagero das posturas corporais (recurso visual) somado à ironia do texto constrói uma crítica. A alternativa correta articula imagem E palavra, não apenas uma delas.",
+   "pontos_chave": [
+    "Distinguir linguagem verbal, não verbal e mista (verbo-visual)",
+    "Reconhecer recursos expressivos verbais (figuras de linguagem) e visuais (cor, ângulo, enquadramento)",
+    "Relacionar a linguagem escolhida ao suporte e ao sistema de comunicação",
+    "Em gêneros mistos, integrar texto e imagem para o sentido global",
+    "Conhecer gêneros e suportes: charge, tira, propaganda, infográfico, meme",
+    "Identificar a função social do meio de comunicação"
+   ],
+   "dica_prova": "O Enem adora charges, tirinhas e anúncios. A pegadinha clássica é a alternativa que descreve apenas a imagem OU apenas o texto, ignorando a integração. Em linguagem mista, a resposta certa quase sempre combina os dois códigos. Cuidado também em confundir 'recurso expressivo' com 'tema' — a pergunta é sobre o COMO se comunica, não só o QUÊ."
+  },
+  {
+   "sid": "h2-recorrer-aos-conhecimentos-sobre-as-linguagens-dos-sistemas-de-comunicacao-e-informacao-para-resolver-problemas-sociais",
+   "titulo": "H2 — Recorrer aos conhecimentos sobre as linguagens dos sistemas de comunicação e informação para resolver problemas sociais.",
+   "intro": "Ainda na Competência 1, esta habilidade dá um passo além de identificar: pede APLICAR o conhecimento sobre linguagens para resolver problemas sociais. Trata-se de usar campanhas, anúncios de utilidade pública, infográficos e textos informativos como ferramentas para enfrentar questões coletivas — saúde, meio ambiente, trânsito, cidadania, inclusão.\n\nO foco está na funcionalidade da linguagem: como uma mensagem bem construída pode conscientizar, prevenir, mobilizar e transformar a realidade de um grupo social.",
+   "secoes": [
+    {
+     "h": "Linguagem a serviço da solução de problemas",
+     "p": "Campanhas de vacinação, anúncios sobre o uso de máscaras, alertas sobre dengue, peças contra a violência no trânsito: todos usam linguagens (verbal e visual) escolhidas para informar e mudar comportamentos. A habilidade pede que você reconheça como essas escolhas atendem a um propósito social concreto."
+    },
+    {
+     "h": "Gêneros típicos",
+     "p": "Anúncio de utilidade pública, cartilha, infográfico, folder, post de campanha, slogan. Esses gêneros priorizam clareza, objetividade e apelo. O infográfico, por exemplo, transforma dados complexos em informação visual acessível — resolvendo o problema da compreensão."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Ancore-se no estudo do texto (gêneros nas diferentes esferas sociais, públicas e privadas) e nos gêneros digitais (função social das novas tecnologias). É preciso saber como cada esfera (saúde pública, educação, trânsito) molda a linguagem para atingir seu objetivo."
+    },
+    {
+     "h": "Do diagnóstico à ação",
+     "p": "Resolver problemas sociais com linguagem envolve: reconhecer o problema, identificar o público-alvo, escolher a linguagem e o suporte adequados e construir uma mensagem eficaz. A questão costuma pedir que você avalie se a estratégia comunicativa cumpre esse papel."
+    }
+   ],
+   "exemplo": "Texto-base: um infográfico de campanha sobre economia de água, com dados de consumo e dicas visuais. Comando: 'A linguagem empregada no infográfico contribui para a solução de um problema social ao...'. Raciocínio: perceber que a combinação de dados numéricos, ícones e instruções curtas torna a informação acessível e orienta a ação (reduzir o desperdício), o que caracteriza a função social da linguagem na resolução de um problema coletivo.",
+   "pontos_chave": [
+    "Compreender a linguagem como ferramenta de transformação social",
+    "Reconhecer gêneros de utilidade pública: campanha, cartilha, infográfico, folder",
+    "Identificar o problema social que a mensagem busca enfrentar",
+    "Avaliar a adequação da linguagem ao público-alvo",
+    "Relacionar clareza e objetividade à eficácia comunicativa",
+    "Perceber a função social das tecnologias de informação"
+   ],
+   "dica_prova": "O Enem é fortemente comprometido com temas sociais (cidadania, inclusão, saúde, sustentabilidade). Nessa habilidade, a resposta certa quase sempre conecta a forma da linguagem ao OBJETIVO PRÁTICO de conscientizar ou mobilizar. Desconfie de alternativas que tratam o texto como mera informação neutra, sem propósito social."
+  },
+  {
+   "sid": "h3-relacionar-informacoes-geradas-nos-sistemas-de-comunicacao-e-informacao-considerando-a-funcao-social-desses-sistemas",
+   "titulo": "H3 — Relacionar informações geradas nos sistemas de comunicação e informação, considerando a função social desses sistemas.",
+   "intro": "Esta habilidade da Competência 1 exige RELACIONAR informações de diferentes fontes ou de um mesmo texto, sempre considerando a função social do sistema que as produziu. Não basta entender o conteúdo: é preciso perceber por que aquele sistema (notícia, propaganda, rede social, enciclopédia) gera aquela informação e com que finalidade.\n\nDiferentes sistemas têm funções sociais distintas: o jornalismo informa, a publicidade vende, a rede social conecta e dissemina, a campanha conscientiza. Relacionar informações considerando essas funções é central para a leitura crítica.",
+   "secoes": [
+    {
+     "h": "Função social de cada sistema",
+     "p": "Um mesmo fato pode ser tratado por uma notícia (informar), uma charge (criticar com humor), um post (engajar) e um anúncio (persuadir). A função social explica as escolhas de linguagem e o recorte da informação. Reconhecê-la evita ler todos os textos da mesma forma."
+    },
+    {
+     "h": "Relacionar informações",
+     "p": "A habilidade pede comparar, conectar ou integrar dados: um gráfico que dialoga com um texto, duas reportagens sobre o mesmo tema, imagem e legenda que se completam. O ato de relacionar revela convergências, contradições ou complementaridades entre as informações."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto (gêneros nas esferas sociais) e estudo dos gêneros digitais (função social das novas tecnologias, caracterização dos interlocutores na comunicação tecnológica). Saiba diferenciar as finalidades dos gêneros jornalístico, publicitário, digital e científico."
+    },
+    {
+     "h": "Leitura integrada",
+     "p": "Questões frequentemente trazem mais de um texto-base (texto + gráfico, texto + imagem). Relacionar significa enxergar como uma fonte ajuda a interpretar a outra, sempre filtrando pela função social — por exemplo, lembrar que um anúncio destaca dados favoráveis ao produto."
+    }
+   ],
+   "exemplo": "Texto-base: uma notícia sobre desmatamento acompanhada de um gráfico de áreas devastadas por ano. Comando: 'Relacionando as informações do texto e do gráfico, conclui-se que...'. Raciocínio: integrar o dado numérico do gráfico (tendência de aumento) ao argumento da notícia, lembrando que a função social do jornalismo é informar com base em dados — a alternativa correta articula as duas fontes coerentemente.",
+   "pontos_chave": [
+    "Identificar a função social de cada sistema de comunicação",
+    "Relacionar informações de textos verbais e não verbais",
+    "Comparar fontes para detectar convergências e contradições",
+    "Integrar texto e gráfico/imagem na construção do sentido",
+    "Distinguir finalidades: informar, persuadir, engajar, conscientizar",
+    "Ler criticamente considerando os interesses de cada emissor"
+   ],
+   "dica_prova": "Muitas questões dessa habilidade trazem texto + gráfico ou duas fontes. A pegadinha é escolher a alternativa que se apoia em apenas uma das fontes. A resposta certa RELACIONA ambas. Sempre pergunte: 'qual é a função social de quem produziu isso?' — isso filtra alternativas tendenciosas."
+  },
+  {
+   "sid": "h4-reconhecer-posicoes-criticas-aos-usos-sociais-que-sao-feitos-das-linguagens-e-dos-sistemas-de-comunicacao-e-informacao",
+   "titulo": "H4 — Reconhecer posições críticas aos usos sociais que são feitos das linguagens e dos sistemas de comunicação e informação.",
+   "intro": "Fechando a Competência 1, esta habilidade pede que você RECONHEÇA o posicionamento crítico de um texto diante dos usos que a sociedade faz das linguagens e das tecnologias. Aqui entram textos que questionam: o consumismo estimulado pela publicidade, a superexposição nas redes, a desinformação (fake news), a dependência digital, a manipulação midiática.\n\nReconhecer a crítica significa identificar a posição do autor, geralmente expressa por ironia, humor, exagero ou argumentação direta, sobre o modo como usamos os meios de comunicação.",
+   "secoes": [
+    {
+     "h": "O que é uma posição crítica",
+     "p": "É a tomada de posição (favorável ou contrária, mas em geral de questionamento) sobre fenômenos comunicacionais: a manipulação na propaganda, a bolha das redes, a banalização da privacidade, o excesso de telas. O texto não apenas descreve o fenômeno; ele avalia e problematiza."
+    },
+    {
+     "h": "Marcas da crítica no texto",
+     "p": "Ironia, sarcasmo, hipérbole, charges, paródias e comentários avaliativos são pistas. Em textos verbais, observe adjetivos, modalizadores e o tom. Em charges e tiras, o humor costuma ser o veículo da crítica. Identificar essas marcas revela a posição assumida."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo dos gêneros digitais (impacto e função social, caracterização dos interlocutores) e estudo do texto argumentativo (formas de apresentação de pontos de vista). Conheça temas atuais: fake news, cultura digital, vigilância, consumismo, dependência tecnológica."
+    },
+    {
+     "h": "Mídia e cidadania",
+     "p": "A habilidade dialoga com a formação do leitor crítico: entender que toda mídia constrói uma versão da realidade e que o uso das tecnologias tem consequências sociais. Reconhecer a crítica é um exercício de cidadania digital."
+    }
+   ],
+   "exemplo": "Texto-base: uma crônica que ironiza pessoas que vivem 'para os likes', fingindo felicidade nas redes. Comando: 'A posição crítica do autor em relação ao uso das redes sociais manifesta-se por...'. Raciocínio: identificar a ironia e os comentários avaliativos como recursos que expõem a crítica à superficialidade e à busca por aprovação online — a alternativa correta nomeia esse posicionamento crítico, não um mero relato.",
+   "pontos_chave": [
+    "Identificar o posicionamento crítico do autor sobre o uso das mídias",
+    "Reconhecer ironia, humor e exagero como veículos de crítica",
+    "Conhecer temas atuais: fake news, dependência digital, consumismo, privacidade",
+    "Diferenciar descrição neutra de avaliação crítica",
+    "Observar adjetivos, modalizadores e tom do texto",
+    "Associar a crítica à cidadania e ao uso responsável das tecnologias"
+   ],
+   "dica_prova": "Charges e crônicas sobre tecnologia são recorrentes. A pegadinha é a alternativa que apenas resume o que o texto mostra, sem captar a CRÍTICA. Procure o juízo de valor: o texto está condenando, ironizando ou alertando sobre algo? Essa é a posição que a habilidade quer que você reconheça."
+  },
+  {
+   "sid": "h5-associar-vocabulos-e-expressoes-de-um-texto-em-lem-ao-seu-tema",
+   "titulo": "H5 — Associar vocábulos e expressões de um texto em LEM ao seu tema.",
+   "intro": "A Competência 2 trata da língua estrangeira moderna (LEM) — inglês ou espanhol, à escolha do candidato — como instrumento de acesso a informações e culturas. Esta primeira habilidade pede ASSOCIAR vocábulos e expressões do texto ao seu tema central. É a leitura de compreensão global: identificar o assunto a partir de palavras-chave.\n\nVocê não precisa traduzir cada palavra. Precisa captar o campo semântico — o conjunto de termos que aponta para o tema — e relacioná-lo ao sentido geral do texto.",
+   "secoes": [
+    {
+     "h": "Campo semântico e palavras-chave",
+     "p": "Palavras que se repetem ou que pertencem a um mesmo campo (por exemplo, em inglês: environment, pollution, recycling, sustainability) sinalizam o tema. Reconhecer esse conjunto permite inferir o assunto mesmo sem entender 100% do vocabulário."
+    },
+    {
+     "h": "Cognatos e contexto",
+     "p": "Cognatos (palavras semelhantes ao português, como 'importante/important') ajudam, mas cuidado com os falsos cognatos (em inglês, 'pretend' significa fingir, não pretender; em espanhol, 'embarazada' significa grávida). O contexto da frase é o melhor guia para o sentido real de um termo."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Leitura e compreensão de textos em inglês ou espanhol de gêneros variados (notícia, propaganda, poema, tira, infográfico). Domine estratégias de leitura: skimming (leitura geral para o tema) e scanning (busca de informação específica), além de vocabulário temático e cognatos."
+    },
+    {
+     "h": "Do vocábulo ao tema",
+     "p": "A questão geralmente pergunta qual é o tema, a ideia central ou a função de uma expressão. A estratégia é localizar as palavras-chave, agrupá-las por sentido e deduzir o assunto. Expressões idiomáticas devem ser lidas pelo conjunto, nunca palavra por palavra."
+    }
+   ],
+   "exemplo": "Texto-base (inglês): um cartum com a fala 'In the age of social media, are we really connected?'. Comando: 'As expressões 'social media' e 'connected' associam-se ao tema...'. Raciocínio: reconhecer que esses vocábulos remetem ao tema das relações humanas na era digital e que a pergunta retórica sugere um questionamento — a alternativa correta nomeia o tema (conexão x isolamento nas redes), não um detalhe isolado.",
+   "pontos_chave": [
+    "Identificar o tema pelas palavras-chave e pelo campo semântico",
+    "Usar cognatos com cuidado e evitar falsos cognatos",
+    "Aplicar skimming e scanning na leitura",
+    "Ler expressões idiomáticas pelo conjunto, não palavra a palavra",
+    "Apoiar-se no contexto para definir o sentido dos termos",
+    "Dominar vocabulário temático (meio ambiente, tecnologia, sociedade)"
+   ],
+   "dica_prova": "A LEM do Enem é de COMPREENSÃO de texto, não de gramática isolada. Você escolhe inglês ou espanhol no momento da inscrição. A pegadinha mais comum são os falsos cognatos. Não se desespere com palavras desconhecidas: foque nas palavras-chave repetidas e no contexto para chegar ao tema."
+  },
+  {
+   "sid": "h6-utilizar-os-conhecimentos-da-lem-e-de-seus-mecanismos-como-meio-de-ampliar-as-possibilidades-de-acesso-a-informacoes-tecnologias-e-culturas",
+   "titulo": "H6 — Utilizar os conhecimentos da LEM e de seus mecanismos como meio de ampliar as possibilidades de acesso a informações, tecnologias e culturas.",
+   "intro": "Esta habilidade da Competência 2 vê a língua estrangeira como PONTE de acesso a informações, tecnologias e culturas. Mais do que entender o texto, é compreender que dominar inglês ou espanhol abre portas para conhecimento que está disponível nesses idiomas — artigos científicos, manuais, conteúdos digitais, produções culturais.\n\nA questão costuma trazer textos que tematizam globalização, ciência, tecnologia ou intercâmbio cultural, pedindo que você capte a informação e perceba o valor da LEM como ferramenta de acesso.",
+   "secoes": [
+    {
+     "h": "A LEM como ferramenta de acesso",
+     "p": "Boa parte da produção de conhecimento mundial circula em inglês e espanhol. Compreender esses idiomas amplia o acesso a notícias internacionais, pesquisas, tutoriais, plataformas e manifestações culturais. A habilidade valoriza essa funcionalidade prática da língua."
+    },
+    {
+     "h": "Mecanismos da língua",
+     "p": "São os recursos que ajudam na compreensão: estrutura das frases, conectivos, tempos verbais, marcadores de sequência. Reconhecer esses mecanismos permite extrair informação de textos informativos, instrucionais e técnicos com mais precisão."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Leitura de textos de divulgação científica, tecnológica e cultural em LEM; estratégias de compreensão; relação entre língua e acesso à informação. Pratique a leitura de notícias, infográficos e textos sobre ciência e tecnologia no idioma escolhido."
+    },
+    {
+     "h": "Língua e cultura",
+     "p": "Acessar uma cultura pela língua é entender valores, modos de vida e visões de mundo. Textos sobre festividades, costumes, música e literatura estrangeira aparecem para mostrar a LEM como janela cultural, e não só como código a decifrar."
+    }
+   ],
+   "exemplo": "Texto-base (espanhol): um texto sobre o avanço da inteligência artificial e seus impactos no trabalho. Comando: 'A leitura do texto em espanhol permite ao leitor ampliar o acesso a...'. Raciocínio: perceber que o texto veicula informação tecnológica relevante e atual, e que compreendê-lo no idioma original dá acesso direto a esse conhecimento — a alternativa correta destaca a LEM como meio de acesso a informações e tecnologias.",
+   "pontos_chave": [
+    "Compreender a LEM como instrumento de acesso a conhecimento e cultura",
+    "Extrair informações de textos informativos e técnicos",
+    "Reconhecer conectivos e mecanismos que organizam o texto",
+    "Ler textos de divulgação científica e tecnológica em LEM",
+    "Associar língua estrangeira a globalização e intercâmbio cultural",
+    "Aplicar estratégias de leitura para captar a informação central"
+   ],
+   "dica_prova": "Os textos costumam ser atuais e temáticos (tecnologia, ciência, sociedade). A resposta certa valoriza a LEM como porta de entrada para informação e cultura. Mantenha o foco na compreensão global: o Enem não cobra tradução perfeita nem regras gramaticais decoradas, mas a capacidade de usar a língua para acessar conteúdo."
+  },
+  {
+   "sid": "h7-relacionar-um-texto-em-lem-as-estruturas-linguisticas-sua-funcao-e-seu-uso-social",
+   "titulo": "H7 — Relacionar um texto em LEM, as estruturas linguísticas, sua função e seu uso social.",
+   "intro": "Esta habilidade da Competência 2 conecta TRÊS dimensões do texto em língua estrangeira: as estruturas linguísticas (como o texto está construído), sua função (para que serve) e seu uso social (em que contexto circula). É a leitura que une forma, finalidade e situação comunicativa.\n\nVocê deve perceber como certas estruturas (um imperativo, uma pergunta, um tempo verbal) cumprem uma função (instruir, persuadir, narrar) dentro de um uso social específico (um anúncio, uma receita, uma carta).",
+   "secoes": [
+    {
+     "h": "Estruturas linguísticas e função",
+     "p": "Em inglês ou espanhol, certas estruturas sinalizam funções: o imperativo aparece em instruções e campanhas; perguntas retóricas em propagandas; o passado em narrativas e notícias. Relacionar estrutura e função é entender por que o autor escolheu aquela forma."
+    },
+    {
+     "h": "Uso social do texto",
+     "p": "Cada gênero tem um contexto de circulação: o anúncio quer vender, o folheto quer instruir, o post quer engajar. O uso social explica o tom, o vocabulário e a estrutura. Identificá-lo é situar o texto na vida real."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Gêneros textuais em LEM e seus contextos; estruturas linguísticas a serviço do sentido; funções da linguagem aplicadas ao idioma estrangeiro. Reconheça gêneros (anúncio, receita, e-mail, manchete) e suas marcas formais no idioma escolhido."
+    },
+    {
+     "h": "Leitura integradora",
+     "p": "A questão pede que você não isole a gramática: a estrutura só faz sentido pela função e pelo uso. Por exemplo, um verbo no imperativo num anúncio (Buy now!) cumpre função apelativa num contexto comercial — tudo conectado."
+    }
+   ],
+   "exemplo": "Texto-base (inglês): um anúncio com a frase 'Join us and make a difference!'. Comando: 'A estrutura no imperativo, nesse texto, cumpre a função de...'. Raciocínio: reconhecer que o imperativo (Join, make) tem função apelativa, típica do gênero anúncio/campanha, cujo uso social é mobilizar pessoas — a alternativa correta relaciona estrutura (imperativo), função (convocar/persuadir) e uso social (campanha).",
+   "pontos_chave": [
+    "Relacionar estrutura linguística, função e uso social do texto",
+    "Identificar funções de tempos verbais e modos (imperativo, perguntas)",
+    "Reconhecer o gênero e seu contexto de circulação em LEM",
+    "Conectar forma e finalidade comunicativa",
+    "Evitar análise gramatical isolada do sentido",
+    "Situar o texto em sua esfera social de uso"
+   ],
+   "dica_prova": "O Enem em LEM não cobra gramática por si só — ela sempre aparece ligada à função e ao uso. A pegadinha é a alternativa puramente gramatical (que classifica a estrutura sem dizer para que ela serve). A resposta certa amarra os três níveis: como é construído, para que serve e onde circula."
+  },
+  {
+   "sid": "h8-reconhecer-a-importancia-da-producao-cultural-em-lem-como-representacao-da-diversidade-cultural-e-linguistica",
+   "titulo": "H8 — Reconhecer a importância da produção cultural em LEM como representação da diversidade cultural e linguística.",
+   "intro": "Encerrando a Competência 2, esta habilidade valoriza a PRODUÇÃO CULTURAL em língua estrangeira — músicas, poemas, tiras, filmes, literatura — como expressão da diversidade cultural e linguística do mundo. A LEM aqui não é só meio de informação: é acesso à riqueza das culturas que se expressam nesses idiomas.\n\nO inglês e o espanhol são falados em muitos países, com variações e culturas próprias. Reconhecer essa pluralidade — e respeitá-la — é o objetivo da habilidade.",
+   "secoes": [
+    {
+     "h": "Produção cultural como representação",
+     "p": "Uma canção, um poema ou uma tira em LEM carrega valores, costumes e visões de mundo de um povo. Reconhecer a importância dessas produções é entender que a língua é também cultura, identidade e arte — não apenas comunicação utilitária."
+    },
+    {
+     "h": "Diversidade cultural e linguística",
+     "p": "O espanhol da Espanha difere do da Argentina ou do México; o inglês britânico difere do norte-americano, do indiano, do nigeriano. Cada variedade reflete uma cultura. A habilidade pede valorizar essa pluralidade, sem hierarquizar línguas ou culturas."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Leitura de textos literários e artísticos em LEM; produção cultural (música, poesia, narrativa) como representação cultural; diversidade linguística no mundo hispânico e anglófono. Conheça gêneros artísticos no idioma escolhido."
+    },
+    {
+     "h": "Respeito à alteridade",
+     "p": "Conhecer outra cultura pela sua produção artística amplia a empatia e o respeito ao diferente. O Enem usa essa habilidade para promover uma visão intercultural, em que a LEM aproxima povos e celebra a diversidade."
+    }
+   ],
+   "exemplo": "Texto-base (espanhol): a letra de uma canção latino-americana que celebra raízes indígenas. Comando: 'A produção cultural apresentada evidencia a diversidade cultural ao...'. Raciocínio: perceber que a canção valoriza elementos identitários de um povo e que sua expressão em espanhol representa uma cultura específica — a alternativa correta reconhece a obra como manifestação da diversidade cultural e linguística, não como mero entretenimento.",
+   "pontos_chave": [
+    "Valorizar a produção cultural em LEM (música, poesia, arte, literatura)",
+    "Reconhecer a diversidade de culturas que falam inglês e espanhol",
+    "Perceber variedades linguísticas dentro de um mesmo idioma",
+    "Associar língua a identidade e visão de mundo",
+    "Promover respeito à alteridade e interculturalidade",
+    "Ler textos artísticos captando seus valores culturais"
+   ],
+   "dica_prova": "Letras de música, poemas e tiras culturais são frequentes. A resposta certa valoriza a DIVERSIDADE e a representação cultural. Cuidado com alternativas etnocêntricas (que hierarquizam culturas ou línguas) — o Enem rejeita preconceito linguístico e cultural e premia a visão de respeito à pluralidade."
+  },
+  {
+   "sid": "h9-reconhecer-as-manifestacoes-corporais-de-movimento-como-originarias-de-necessidades-cotidianas-de-um-grupo-social",
+   "titulo": "H9 — Reconhecer as manifestações corporais de movimento como originárias de necessidades cotidianas de um grupo social.",
+   "intro": "A Competência 3 trata da linguagem corporal como relevante para a vida, integradora social e formadora de identidade — é o domínio da Educação Física dentro de Linguagens. Esta primeira habilidade pede reconhecer que as MANIFESTAÇÕES CORPORAIS (danças, lutas, jogos, esportes, brincadeiras) nascem das necessidades cotidianas de um grupo social.\n\nNenhuma prática corporal surge do nada: a capoeira, o frevo, as danças folclóricas, certas lutas — todas têm origem em contextos sociais, históricos e culturais concretos.",
+   "secoes": [
+    {
+     "h": "Corpo como linguagem e cultura",
+     "p": "O movimento corporal é uma linguagem que expressa identidade e cultura. Danças, lutas, jogos e brincadeiras são produções culturais de grupos sociais, refletindo seu modo de vida, suas crenças e suas necessidades históricas."
+    },
+    {
+     "h": "Origem nas necessidades cotidianas",
+     "p": "Muitas práticas corporais nasceram de funções práticas: a capoeira ligada à resistência de povos escravizados; danças de colheita ligadas ao trabalho rural; lutas ligadas à defesa. A habilidade pede enxergar essa raiz social do movimento."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo das práticas corporais: a linguagem corporal como integradora social e formadora de identidade; o corpo e a expressão artística e cultural; o esporte, a dança, as lutas, os jogos, as brincadeiras. Conheça a origem cultural dessas manifestações."
+    },
+    {
+     "h": "Identidade e pertencimento",
+     "p": "As práticas corporais constroem identidade e senso de pertencimento. Participar de uma dança regional ou de um jogo tradicional liga o indivíduo à sua comunidade e à sua história — dimensão que o Enem valoriza nessa habilidade."
+    }
+   ],
+   "exemplo": "Texto-base: um texto sobre a origem da capoeira entre povos escravizados no Brasil. Comando: 'A capoeira, como manifestação corporal, originou-se de uma necessidade do grupo social que a praticava ao...'. Raciocínio: reconhecer que a prática surgiu como forma de resistência e expressão cultural disfarçada de dança, atendendo a necessidades concretas (defesa, identidade, sobrevivência cultural) — a alternativa correta liga o movimento à sua origem social.",
+   "pontos_chave": [
+    "Compreender o corpo e o movimento como linguagem e cultura",
+    "Reconhecer a origem social e histórica das práticas corporais",
+    "Conhecer manifestações: capoeira, danças folclóricas, lutas, jogos",
+    "Associar movimento a necessidades cotidianas de um grupo",
+    "Perceber o papel das práticas na construção de identidade",
+    "Relacionar Educação Física a cultura e história"
+   ],
+   "dica_prova": "A Educação Física no Enem é teórica e cultural, não esportiva-técnica. As questões trazem textos sobre origem e significado das práticas corporais. A resposta certa conecta o movimento à sua RAIZ SOCIAL e cultural. Evite alternativas que tratam a prática como mero exercício ou competição sem contexto."
+  },
+  {
+   "sid": "h10-reconhecer-a-necessidade-de-transformacao-de-habitos-corporais-em-funcao-das-necessidades-cinestesicas",
+   "titulo": "H10 — Reconhecer a necessidade de transformação de hábitos corporais em função das necessidades cinestésicas.",
+   "intro": "Esta habilidade da Competência 3 trata da relação entre HÁBITOS CORPORAIS e saúde/bem-estar. 'Cinestésico' refere-se à percepção do movimento e do corpo. A habilidade pede reconhecer que precisamos transformar hábitos (sedentarismo, má postura, alimentação inadequada) em função das necessidades do corpo em movimento.\n\nÉ a dimensão da Educação Física ligada à saúde, à qualidade de vida e à consciência corporal — temas muito atuais e cobrados em textos sobre sedentarismo, exercício físico e bem-estar.",
+   "secoes": [
+    {
+     "h": "Necessidades cinestésicas",
+     "p": "O corpo precisa de movimento. A vida moderna (telas, transporte, trabalho sentado) gera sedentarismo, que prejudica a saúde. Reconhecer as necessidades cinestésicas é entender que o organismo demanda atividade física regular para funcionar bem."
+    },
+    {
+     "h": "Transformação de hábitos",
+     "p": "A habilidade valoriza a mudança consciente: substituir o sedentarismo por atividade física, corrigir a postura, equilibrar esforço e descanso. Não se trata de modismo estético, mas de saúde e qualidade de vida."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Exercício físico e saúde; condicionamentos e esforços físicos; práticas corporais e autonomia; mitos e verdades sobre os corpos. Saiba diferenciar busca por saúde de busca por padrões estéticos impostos."
+    },
+    {
+     "h": "Autonomia e saúde",
+     "p": "O objetivo é a autonomia: a pessoa que entende seu corpo escolhe hábitos saudáveis de forma crítica, sem cair em modismos ou exageros. Essa consciência corporal é parte da formação cidadã que o Enem valoriza."
+    }
+   ],
+   "exemplo": "Texto-base: um texto sobre os efeitos do sedentarismo na saúde de jovens que passam horas em frente a telas. Comando: 'A transformação de hábitos corporais defendida no texto justifica-se pela...'. Raciocínio: reconhecer que o corpo tem necessidades de movimento (cinestésicas) e que mudar o hábito sedentário previne problemas de saúde — a alternativa correta associa a mudança de hábito à necessidade fisiológica do corpo, não a um padrão estético.",
+   "pontos_chave": [
+    "Compreender as necessidades cinestésicas (de movimento) do corpo",
+    "Reconhecer a importância de transformar hábitos sedentários",
+    "Associar exercício físico à saúde e à qualidade de vida",
+    "Diferenciar saúde de padrões estéticos impostos",
+    "Valorizar a autonomia e a consciência corporal",
+    "Conhecer os efeitos do sedentarismo na vida moderna"
+   ],
+   "dica_prova": "Textos sobre sedentarismo, telas e saúde são típicos. A resposta certa foca em SAÚDE e necessidade do corpo, não em estética ou competição. Cuidado com alternativas que defendem exercício por vaidade ou que reforçam padrões de beleza — o Enem prioriza a perspectiva crítica e de bem-estar."
+  },
+  {
+   "sid": "h11-reconhecer-a-linguagem-corporal-como-meio-de-interacao-social-considerando-os-limites-de-desempenho-e-as-alternativas-de-adaptacao-para-diferentes-individuos",
+   "titulo": "H11 — Reconhecer a linguagem corporal como meio de interação social, considerando os limites de desempenho e as alternativas de adaptação para diferentes indivíduos.",
+   "intro": "Encerrando a Competência 3, esta habilidade vê a linguagem corporal como MEIO DE INTERAÇÃO SOCIAL e enfatiza a INCLUSÃO: respeitar os limites de desempenho de cada pessoa e adaptar as práticas corporais para diferentes indivíduos — idosos, pessoas com deficiência, iniciantes, corpos diversos.\n\nO foco é a inclusão e a diversidade no esporte e nas práticas corporais: todos podem participar, desde que haja adaptação. É a Educação Física como espaço de cidadania e respeito às diferenças.",
+   "secoes": [
+    {
+     "h": "Corpo como interação social",
+     "p": "As práticas corporais aproximam pessoas: jogos, danças e esportes são espaços de convívio, cooperação e construção de laços. A linguagem corporal comunica e integra, sendo uma forma de interação social."
+    },
+    {
+     "h": "Limites de desempenho e adaptação",
+     "p": "Cada indivíduo tem capacidades diferentes. A habilidade valoriza adaptar regras, equipamentos e práticas para incluir todos: esportes paralímpicos, atividades adaptadas para idosos, ajustes para diferentes níveis. Inclusão é a palavra-chave."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "A linguagem corporal como integradora social; práticas corporais e autonomia; inclusão, diversidade e multiculturalidade; valorização da pluralidade (inclusive de pessoas com necessidades especiais). Conheça o paradesporto e a inclusão na Educação Física."
+    },
+    {
+     "h": "Diversidade e cidadania",
+     "p": "Adaptar práticas é reconhecer que a diferença não impede a participação. O Enem usa essa habilidade para promover a inclusão e combater o capacitismo, valorizando a diversidade dos corpos e a igualdade de oportunidades."
+    }
+   ],
+   "exemplo": "Texto-base: um texto sobre o vôlei sentado nas Paralimpíadas. Comando: 'A modalidade descrita evidencia a linguagem corporal como meio de interação social ao...'. Raciocínio: reconhecer que a adaptação das regras permite que pessoas com deficiência pratiquem o esporte, promovendo inclusão e interação — a alternativa correta destaca a adaptação como forma de incluir diferentes indivíduos respeitando seus limites.",
+   "pontos_chave": [
+    "Reconhecer o corpo e o esporte como meio de interação social",
+    "Valorizar a adaptação de práticas para diferentes indivíduos",
+    "Conhecer o paradesporto e atividades inclusivas",
+    "Respeitar os limites de desempenho de cada pessoa",
+    "Combater o capacitismo e promover a inclusão",
+    "Associar práticas corporais à cidadania e à diversidade"
+   ],
+   "dica_prova": "Inclusão e diversidade são valores centrais do Enem. Questões sobre paradesporto, idosos e adaptação são comuns. A resposta certa enfatiza INCLUSÃO e respeito às diferenças. Rejeite alternativas que excluem ou que tratam o desempenho competitivo como único valor."
+  },
+  {
+   "sid": "h12-reconhecer-diferentes-funcoes-da-arte-do-trabalho-da-producao-dos-artistas-em-seus-meios-culturais",
+   "titulo": "H12 — Reconhecer diferentes funções da arte, do trabalho da produção dos artistas em seus meios culturais.",
+   "intro": "A Competência 4 trata da arte como saber cultural e estético, gerador de significação e integrador da identidade — é o domínio de Artes (visuais, música, teatro, dança). Esta primeira habilidade pede reconhecer as DIFERENTES FUNÇÕES da arte e o trabalho dos artistas em seus contextos culturais.\n\nA arte não tem uma única função: pode informar, criticar, emocionar, ritualizar, decorar, registrar a história, provocar reflexão. Reconhecer essas funções e o papel do artista em seu meio é o objetivo aqui.",
+   "secoes": [
+    {
+     "h": "Funções da arte",
+     "p": "A arte pode ter função utilitária (objetos decorados), ritual/religiosa (arte sacra), social/crítica (denúncia), estética (busca da beleza), comunicativa (transmitir ideias) e identitária (expressar uma cultura). Uma mesma obra pode acumular funções."
+    },
+    {
+     "h": "O artista em seu meio cultural",
+     "p": "O trabalho do artista é influenciado por seu tempo e lugar. Reconhecer isso é entender por que um muralista mexicano pinta temas sociais, ou por que uma obra barroca exalta o sagrado: o contexto cultural molda a produção artística."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Produção e recepção de textos artísticos; estrutura morfológica e sintática das linguagens artísticas (artes visuais, teatro, música, dança); o contexto da obra e o contexto da comunidade; as fontes de criação. Conheça as linguagens da arte e seus elementos."
+    },
+    {
+     "h": "Arte e significação",
+     "p": "A arte gera significados que organizam o mundo e a identidade. Reconhecer a função de uma obra é compreender o sentido que ela produz para o artista e para a comunidade — não apenas julgar se é bonita."
+    }
+   ],
+   "exemplo": "Texto-base: a imagem de um mural urbano (grafite) com temática de protesto social. Comando: 'A função predominante da obra apresentada é...'. Raciocínio: reconhecer que o grafite, em seu meio cultural urbano, cumpre função social e crítica (denúncia/reflexão), e não meramente decorativa — a alternativa correta identifica a função social/crítica da arte naquele contexto.",
+   "pontos_chave": [
+    "Reconhecer as múltiplas funções da arte (estética, social, ritual, comunicativa)",
+    "Compreender o trabalho do artista em seu contexto cultural",
+    "Conhecer as linguagens artísticas: visuais, música, teatro, dança",
+    "Relacionar a obra ao contexto da comunidade e às fontes de criação",
+    "Diferenciar julgar a beleza de compreender a função",
+    "Entender a arte como geradora de significação"
+   ],
+   "dica_prova": "Artes no Enem aparece com imagens (obras, grafites, esculturas, cenas). A resposta certa identifica a FUNÇÃO da arte no seu contexto, não um gosto pessoal. Pegadinha comum: confundir função estética com função social. Leia o enunciado e a imagem para ver o que a obra faz em seu meio cultural."
+  },
+  {
+   "sid": "h13-analisar-as-diversas-producoes-artisticas-como-meio-de-explicar-diferentes-culturas-padroes-de-beleza-e-preconceitos",
+   "titulo": "H13 — Analisar as diversas produções artísticas como meio de explicar diferentes culturas, padrões de beleza e preconceitos.",
+   "intro": "Esta habilidade da Competência 4 usa a arte como CHAVE DE LEITURA das culturas, dos padrões de beleza e dos preconceitos de uma época ou sociedade. Analisar uma obra é entender o que ela revela sobre os valores, ideais estéticos e visões (inclusive preconceituosas) do contexto que a produziu.\n\nO Enem mobiliza essa habilidade para discutir, por exemplo, como o padrão de beleza muda ao longo da história, ou como a arte pode reproduzir ou questionar preconceitos de gênero, raça e classe.",
+   "secoes": [
+    {
+     "h": "Arte como espelho cultural",
+     "p": "Cada cultura tem seus ideais estéticos. As pinturas renascentistas, a arte africana, a arte indígena: cada uma revela valores e modos de ver o corpo e o mundo. Analisar a obra é decifrar esses padrões culturais."
+    },
+    {
+     "h": "Padrões de beleza e sua historicidade",
+     "p": "O ideal de beleza não é universal nem fixo: muda no tempo e no espaço. A arte registra essas mudanças. A habilidade pede comparar e relativizar padrões, percebendo que beleza é uma construção cultural."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Produção e recepção de textos artísticos; inclusão, diversidade e multiculturalidade; valorização da pluralidade nas produções estéticas, inclusive de minorias sociais. Conheça obras que tematizam ou questionam padrões e preconceitos."
+    },
+    {
+     "h": "Arte que questiona preconceitos",
+     "p": "Muitas obras contemporâneas desafiam preconceitos e padrões impostos, valorizando corpos e culturas diversas. Reconhecer essa dimensão crítica da arte é parte do olhar inclusivo que o Enem incentiva."
+    }
+   ],
+   "exemplo": "Texto-base: duas obras de épocas diferentes retratando o corpo feminino (uma renascentista, uma contemporânea). Comando: 'A comparação entre as obras evidencia que o padrão de beleza...'. Raciocínio: perceber que cada obra reflete o ideal estético de seu tempo, mostrando que a beleza é uma construção cultural variável — a alternativa correta reconhece a historicidade e a relatividade dos padrões.",
+   "pontos_chave": [
+    "Analisar a arte como expressão de culturas e valores",
+    "Compreender que padrões de beleza são construções culturais e variáveis",
+    "Identificar como a arte revela ou questiona preconceitos",
+    "Comparar obras de épocas e culturas distintas",
+    "Valorizar a diversidade e a pluralidade estética",
+    "Relacionar produção artística e contexto social"
+   ],
+   "dica_prova": "Comparações entre obras de épocas/culturas diferentes são frequentes. A resposta certa relativiza padrões e valoriza a diversidade. Cuidado com alternativas que tratam um padrão de beleza como universal ou superior — o Enem combate preconceitos e valoriza o olhar crítico e inclusivo sobre a arte."
+  },
+  {
+   "sid": "h14-reconhecer-o-valor-da-diversidade-artistica-e-das-inter-relacoes-de-elementos-que-se-apresentam-nas-manifestacoes-de-varios-grupos-sociais-e-etnicos",
+   "titulo": "H14 — Reconhecer o valor da diversidade artística e das inter-relações de elementos que se apresentam nas manifestações de vários grupos sociais e étnicos.",
+   "intro": "Encerrando a Competência 4, esta habilidade celebra a DIVERSIDADE ARTÍSTICA e as inter-relações entre elementos de diferentes grupos sociais e étnicos. Trata-se de valorizar a arte indígena, afro-brasileira, popular, regional, e perceber como culturas se cruzam, dialogam e se influenciam (hibridismo cultural).\n\nO Brasil é um país multicultural, e sua arte reflete essa mistura. Reconhecer esse valor e essas trocas é o objetivo da habilidade.",
+   "secoes": [
+    {
+     "h": "Diversidade artística",
+     "p": "Há muitas formas de arte além da chamada 'erudita': arte popular, indígena, afro-brasileira, artesanato, manifestações regionais. Todas têm valor cultural e estético. A habilidade pede reconhecer e respeitar essa pluralidade."
+    },
+    {
+     "h": "Inter-relações e hibridismo cultural",
+     "p": "As culturas se misturam: o samba, o maracatu, o frevo, a culinária e a arte brasileira resultam de encontros entre povos indígenas, africanos e europeus. Reconhecer essas inter-relações é entender a arte como produto de trocas culturais."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Inclusão, diversidade e multiculturalidade; valorização da pluralidade nas produções estéticas das minorias sociais; conteúdos estruturantes das linguagens artísticas. Conheça manifestações populares e étnicas brasileiras."
+    },
+    {
+     "h": "Patrimônio cultural",
+     "p": "As manifestações de diversos grupos compõem o patrimônio cultural de um povo. Valorizá-las é preservar a memória e a identidade coletiva, combatendo a hierarquização que coloca uma arte acima de outra."
+    }
+   ],
+   "exemplo": "Texto-base: imagem e descrição de uma manifestação cultural afro-brasileira, como o maracatu. Comando: 'A manifestação descrita evidencia o valor da diversidade artística ao...'. Raciocínio: reconhecer que o maracatu reúne elementos de diferentes origens (africana, indígena, europeia), expressando a riqueza e o hibridismo da cultura brasileira — a alternativa correta valoriza a diversidade e as inter-relações culturais.",
+   "pontos_chave": [
+    "Valorizar a diversidade artística (popular, indígena, afro-brasileira, regional)",
+    "Reconhecer as inter-relações e o hibridismo cultural",
+    "Compreender a arte como produto de trocas entre grupos sociais e étnicos",
+    "Associar manifestações culturais ao patrimônio e à identidade",
+    "Combater a hierarquização entre arte 'erudita' e 'popular'",
+    "Promover o respeito à pluralidade cultural"
+   ],
+   "dica_prova": "Manifestações populares e étnicas brasileiras são tema certo. A resposta valoriza a DIVERSIDADE e as trocas culturais. Pegadinha: alternativas que tratam a arte popular como inferior à erudita, ou que ignoram a mistura de influências. O Enem celebra o multiculturalismo e o hibridismo cultural."
+  },
+  {
+   "sid": "h15-estabelecer-relacoes-entre-o-texto-literario-e-o-momento-de-sua-producao-situando-aspectos-do-contexto-historico-social-e-politico",
+   "titulo": "H15 — Estabelecer relações entre o texto literário e o momento de sua produção, situando aspectos do contexto histórico, social e político.",
+   "intro": "A Competência 5 trata de analisar, interpretar e aplicar recursos expressivos das linguagens, relacionando textos a seus contextos — é o coração da Literatura no Enem. Esta primeira habilidade pede RELACIONAR o texto literário ao momento de sua produção, situando o contexto histórico, social e político.\n\nA literatura dialoga com sua época. Um poema modernista, um romance romântico, uma obra do Realismo: cada um responde às questões de seu tempo. A habilidade exige ler a obra à luz do contexto que a gerou.",
+   "secoes": [
+    {
+     "h": "Literatura e contexto",
+     "p": "Toda obra é filha de seu tempo. O Romantismo idealiza e exalta o nacional num Brasil recém-independente; o Realismo critica a hipocrisia burguesa; o Modernismo rompe com o academicismo e valoriza o nacional de forma crítica. Conhecer o contexto ilumina o sentido da obra."
+    },
+    {
+     "h": "Escolas literárias e seus contextos",
+     "p": "Domine as principais escolas e seus contextos: Barroco (conflito fé/razão), Arcadismo (razão, natureza), Romantismo (nacionalismo, idealização), Realismo/Naturalismo (crítica social, ciência), Parnasianismo, Simbolismo, Pré-Modernismo, Modernismo (1922 e fases), literatura contemporânea."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto literário: relações entre produção literária e processo social; articulações entre recursos expressivos do texto literário e o momento de sua produção; elementos de continuidade e ruptura entre os momentos da literatura brasileira."
+    },
+    {
+     "h": "Leitura contextualizada",
+     "p": "A questão geralmente apresenta um trecho e pede que você o relacione ao seu período. O raciocínio é: identificar marcas de estilo e tema, associá-las à escola/época e mostrar como a obra reflete o contexto histórico, social ou político."
+    }
+   ],
+   "exemplo": "Texto-base: um poema modernista de 1922 com linguagem coloquial e crítica à tradição. Comando: 'O texto relaciona-se ao momento de sua produção porque...'. Raciocínio: reconhecer a linguagem livre e o tom de ruptura como marcas do Modernismo da Semana de 22, que rompia com o academicismo e buscava uma identidade nacional moderna — a alternativa correta situa a obra em seu contexto histórico e estético.",
+   "pontos_chave": [
+    "Relacionar a obra literária ao contexto histórico, social e político",
+    "Conhecer as escolas literárias brasileiras e seus contextos",
+    "Identificar marcas de estilo que caracterizam cada período",
+    "Perceber continuidades e rupturas na literatura brasileira",
+    "Associar tema e linguagem ao momento de produção",
+    "Ler a literatura como diálogo com sua época"
+   ],
+   "dica_prova": "O Enem não cobra decoreba de datas e autores: cobra a LEITURA do texto relacionada ao contexto. Tenha noção das escolas literárias e suas características de estilo e tema. A pegadinha é a alternativa que descreve o contexto de forma genérica sem ligá-lo às marcas presentes no trecho. Conecte sempre texto e época."
+  },
+  {
+   "sid": "h16-relacionar-informacoes-sobre-concepcoes-artisticas-e-procedimentos-de-construcao-do-texto-literario",
+   "titulo": "H16 — Relacionar informações sobre concepções artísticas e procedimentos de construção do texto literário.",
+   "intro": "Esta habilidade da Competência 5 foca no COMO a literatura é feita: as concepções artísticas (visões de arte de cada movimento) e os procedimentos de construção do texto (recursos formais, figuras de linguagem, estrutura, ritmo). É a análise da forma literária.\n\nDiferente da H15 (que olha o contexto), aqui o foco é técnico-estético: como o texto está construído e que concepção de arte ele revela.",
+   "secoes": [
+    {
+     "h": "Concepções artísticas",
+     "p": "Cada movimento tem sua visão de arte: o Parnasianismo busca a 'arte pela arte' e a perfeição formal; o Simbolismo valoriza a musicalidade e o sugestivo; o Modernismo defende a liberdade e a experimentação. Relacionar uma obra à sua concepção é entender seu projeto estético."
+    },
+    {
+     "h": "Procedimentos de construção",
+     "p": "São os recursos formais: métrica, rima, ritmo, versos livres, figuras de linguagem (metáfora, metonímia, antítese), foco narrativo, fluxo de consciência, intertextualidade. Identificar esses procedimentos revela como o efeito de sentido é construído."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Associações entre concepções artísticas e procedimentos de construção do texto literário em seus gêneros (épico/narrativo, lírico, dramático); representação literária: natureza, função, organização e estrutura do texto literário; relações entre literatura e outras artes."
+    },
+    {
+     "h": "Gêneros literários",
+     "p": "Conheça os três gêneros: lírico (poesia, expressão de sentimentos), épico/narrativo (conta uma história) e dramático (texto para teatro). Cada um tem procedimentos próprios, e a habilidade pede relacionar a forma ao gênero e à concepção artística."
+    }
+   ],
+   "exemplo": "Texto-base: um soneto parnasiano com rima rica e descrição minuciosa. Comando: 'Os procedimentos de construção do texto revelam a concepção artística de...'. Raciocínio: identificar a perfeição formal, a métrica rigorosa e o objetivismo como marcas do Parnasianismo ('arte pela arte') — a alternativa correta relaciona os procedimentos formais à concepção estética do movimento.",
+   "pontos_chave": [
+    "Relacionar procedimentos formais à concepção artística do movimento",
+    "Identificar recursos: métrica, rima, ritmo, figuras de linguagem",
+    "Conhecer os gêneros literários (lírico, épico/narrativo, dramático)",
+    "Analisar foco narrativo, intertextualidade e estrutura",
+    "Compreender a função e a organização do texto literário",
+    "Distinguir as concepções estéticas de cada movimento"
+   ],
+   "dica_prova": "Esta habilidade exige análise da FORMA. Você precisa dominar figuras de linguagem e recursos formais. A pegadinha é confundir a concepção artística de um movimento com a de outro (ex.: atribuir liberdade formal a um soneto parnasiano). Relacione sempre o procedimento concreto do texto à concepção estética correta."
+  },
+  {
+   "sid": "h17-reconhecer-a-presenca-de-valores-sociais-e-humanos-atualizaveis-e-permanentes-no-patrimonio-literario-nacional",
+   "titulo": "H17 — Reconhecer a presença de valores sociais e humanos atualizáveis e permanentes no patrimônio literário nacional.",
+   "intro": "Encerrando a Competência 5, esta habilidade mostra que a literatura nacional carrega VALORES SOCIAIS E HUMANOS que permanecem atuais. Uma obra do século XIX pode tratar de temas que ainda nos tocam: amor, injustiça, liberdade, identidade, desigualdade. A habilidade pede reconhecer essa atualidade da literatura.\n\nÉ a ideia de que o patrimônio literário é vivo: dialoga com o presente e preserva a memória e a identidade nacional, oferecendo reflexões permanentes sobre a condição humana.",
+   "secoes": [
+    {
+     "h": "Valores permanentes e atualizáveis",
+     "p": "Temas como amor, morte, liberdade, justiça e desigualdade atravessam os tempos. Quando lemos Machado de Assis criticando a hipocrisia social, ou Castro Alves denunciando a escravidão, percebemos que esses valores ainda dialogam com questões atuais."
+    },
+    {
+     "h": "Patrimônio literário nacional",
+     "p": "A literatura brasileira é parte do patrimônio cultural do país: preserva a memória, registra a história e constrói a identidade nacional. Reconhecer esse valor é entender a literatura como bem coletivo e fonte de reflexão sobre quem somos."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Produção literária e processo social; processos de formação literária e de formação nacional; constituição do patrimônio literário nacional; relações entre a dialética cosmopolitismo/localismo e a produção literária. Conheça os clássicos e seus temas perenes."
+    },
+    {
+     "h": "Literatura e atualidade",
+     "p": "A questão costuma trazer um texto antigo e pedir que você o relacione a uma questão atual. O raciocínio é: identificar o valor humano/social tratado na obra e mostrar como ele permanece relevante hoje — a ponte entre passado e presente."
+    }
+   ],
+   "exemplo": "Texto-base: um trecho de poema abolicionista de Castro Alves. Comando: 'O texto apresenta valores humanos que permanecem atuais ao...'. Raciocínio: reconhecer que a denúncia da opressão e a defesa da liberdade e da dignidade humana, embora ligadas à escravidão do século XIX, dialogam com lutas atuais contra a injustiça — a alternativa correta aponta a permanência e atualização desses valores.",
+   "pontos_chave": [
+    "Reconhecer valores humanos e sociais perenes na literatura",
+    "Relacionar temas de obras antigas a questões atuais",
+    "Compreender a literatura como patrimônio cultural nacional",
+    "Associar literatura a memória e identidade nacional",
+    "Identificar a dimensão crítica e reflexiva das obras",
+    "Conhecer clássicos da literatura brasileira e seus temas"
+   ],
+   "dica_prova": "A chave é a PONTE entre passado e presente: o texto antigo trata de algo ainda relevante. A pegadinha é a alternativa que prende a obra apenas ao seu tempo, sem reconhecer sua atualidade. Procure o valor humano universal (liberdade, justiça, amor) que conecta a obra ao mundo de hoje."
+  },
+  {
+   "sid": "h18-identificar-os-elementos-que-concorrem-para-a-progressao-tematica-e-para-a-organizacao-e-estruturacao-de-textos-de-diferentes-generos-e-tipos",
+   "titulo": "H18 — Identificar os elementos que concorrem para a progressão temática e para a organização e estruturação de textos de diferentes gêneros e tipos.",
+   "intro": "A Competência 6 trata de compreender e usar os sistemas simbólicos das linguagens como meios de organização da realidade. Esta primeira habilidade foca na COESÃO e na PROGRESSÃO textual: identificar os elementos (conectivos, pronomes, repetições, organização) que fazem o texto avançar e se estruturar de forma coerente.\n\nÉ a base da interpretação de textos: entender como as ideias se ligam e como o texto se organiza em diferentes gêneros e tipos (narrativo, descritivo, dissertativo, injuntivo).",
+   "secoes": [
+    {
+     "h": "Progressão temática",
+     "p": "Um texto progride quando acrescenta informação nova mantendo a coerência. Os elementos de progressão incluem conectivos (por isso, portanto, mas, além disso) e a articulação entre tema (o que já se sabe) e rema (a informação nova). Reconhecê-los é seguir o fio do raciocínio."
+    },
+    {
+     "h": "Coesão textual",
+     "p": "A coesão amarra o texto: pronomes (ele, isso, aquele), sinônimos, repetições, elipses e conectivos evitam que as frases fiquem soltas. Identificar a que palavra um pronome se refere, ou que relação um conectivo estabelece, é tarefa típica dessa habilidade."
+    },
+    {
+     "h": "Tipos e gêneros textuais",
+     "p": "Tipos textuais: narração, descrição, dissertação (argumentativa/expositiva), injunção. Cada tipo tem uma organização própria. Os gêneros (notícia, crônica, receita, artigo) combinam tipos. Conhecer essas estruturas ajuda a entender como o texto se organiza."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Sequências discursivas e modos de organização da composição textual; uso dos recursos linguísticos em processo de coesão textual; organização da macroestrutura semântica e articulação entre ideias e proposições (relações lógico-semânticas)."
+    }
+   ],
+   "exemplo": "Texto-base: um parágrafo argumentativo com conectivos como 'no entanto' e 'portanto'. Comando: 'O conectivo 'no entanto' estabelece entre as ideias uma relação de...'. Raciocínio: reconhecer que 'no entanto' marca oposição/contraste e que 'portanto' marca conclusão, identificando como esses elementos organizam a progressão do raciocínio — a alternativa correta nomeia corretamente a relação lógico-semântica.",
+   "pontos_chave": [
+    "Identificar elementos de coesão (conectivos, pronomes, repetições)",
+    "Compreender a progressão temática (tema e rema)",
+    "Reconhecer relações lógico-semânticas dos conectivos (oposição, causa, conclusão)",
+    "Conhecer tipos textuais: narração, descrição, dissertação, injunção",
+    "Identificar a referência de pronomes e expressões",
+    "Compreender a organização de diferentes gêneros"
+   ],
+   "dica_prova": "Esta habilidade aparece muito em questões de 'a que palavra o pronome se refere' ou 'que relação o conectivo estabelece'. Domine os conectivos e seus valores semânticos (mas = oposição, porque = causa, portanto = conclusão). A pegadinha é trocar o valor do conectivo. Sempre teste a relação no contexto da frase."
+  },
+  {
+   "sid": "h19-analisar-a-funcao-da-linguagem-predominante-nos-textos-em-situacoes-especificas-de-interlocucao",
+   "titulo": "H19 — Analisar a função da linguagem predominante nos textos em situações específicas de interlocução.",
+   "intro": "Esta habilidade da Competência 6 trata das FUNÇÕES DA LINGUAGEM, conceito clássico de Roman Jakobson. Cada texto, conforme seu objetivo e a relação entre emissor e receptor, destaca uma função: referencial, emotiva, conativa, fática, metalinguística ou poética. A habilidade pede identificar a função predominante numa situação de interlocução.\n\nReconhecer a função revela a intenção comunicativa do texto e a forma como ele se dirige ao seu interlocutor.",
+   "secoes": [
+    {
+     "h": "As seis funções da linguagem",
+     "p": "Referencial (foco na informação, no referente): notícias, textos científicos. Emotiva/expressiva (foco no emissor): textos em 1ª pessoa, com emoção. Conativa/apelativa (foco no receptor): propaganda, ordens. Fática (foco no canal/contato): 'alô?', 'entende?'. Metalinguística (foco no código): dicionário, gramática. Poética (foco na mensagem): poesia, publicidade criativa."
+    },
+    {
+     "h": "Elementos da comunicação",
+     "p": "Cada função se liga a um elemento: emissor (emotiva), receptor (conativa), referente (referencial), canal (fática), código (metalinguística), mensagem (poética). Reconhecer o elemento em destaque ajuda a identificar a função predominante."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Funções da linguagem; sequências discursivas; papéis sociais e comunicativos dos interlocutores; relação entre usos e propósitos comunicativos. Domine a teoria de Jakobson e saiba aplicá-la a gêneros variados."
+    },
+    {
+     "h": "Predominância, não exclusividade",
+     "p": "Um texto pode ter mais de uma função, mas uma costuma predominar. A habilidade pede identificar a PREDOMINANTE, observando o objetivo central e o elemento da comunicação mais enfatizado."
+    }
+   ],
+   "exemplo": "Texto-base: um anúncio publicitário com verbos no imperativo ('Compre já!', 'Aproveite!'). Comando: 'A função da linguagem predominante no texto é...'. Raciocínio: reconhecer que o foco está em convencer o receptor a agir (imperativos, apelo direto), o que caracteriza a função conativa/apelativa — a alternativa correta identifica essa função pela centralidade do receptor.",
+   "pontos_chave": [
+    "Conhecer as seis funções da linguagem (Jakobson)",
+    "Associar cada função ao elemento da comunicação em destaque",
+    "Identificar a função predominante em cada texto",
+    "Relacionar função e intenção comunicativa",
+    "Reconhecer marcas linguísticas de cada função (imperativo, 1ª pessoa, etc.)",
+    "Distinguir predominância de exclusividade de funções"
+   ],
+   "dica_prova": "Funções da linguagem caem com frequência. Memorize as marcas: imperativo/2ª pessoa = conativa; 1ª pessoa/emoção = emotiva; informação objetiva/3ª pessoa = referencial; explicar a própria língua = metalinguística; foco na forma/beleza = poética; manter contato = fática. A pegadinha é a presença de mais de uma função: escolha a que PREDOMINA."
+  },
+  {
+   "sid": "h20-reconhecer-a-importancia-do-patrimonio-linguistico-para-a-preservacao-da-memoria-e-da-identidade-nacional",
+   "titulo": "H20 — Reconhecer a importância do patrimônio linguístico para a preservação da memória e da identidade nacional.",
+   "intro": "Encerrando a Competência 6, esta habilidade valoriza o PATRIMÔNIO LINGUÍSTICO — a língua portuguesa e as demais línguas faladas no Brasil (indígenas, de comunidades) — como parte da memória e da identidade nacional. A língua é mais que comunicação: é cultura, história e identidade de um povo.\n\nReconhecer esse valor inclui respeitar a diversidade linguística do país e combater o preconceito linguístico, entendendo a língua como bem coletivo a ser preservado.",
+   "secoes": [
+    {
+     "h": "Língua como patrimônio",
+     "p": "A língua portuguesa do Brasil, com suas variedades, é patrimônio imaterial. Junto a ela coexistem línguas indígenas, de comunidades quilombolas e de imigrantes. Esse conjunto compõe a riqueza linguística nacional, que carrega memória e identidade."
+    },
+    {
+     "h": "Língua, memória e identidade",
+     "p": "A forma de falar de uma região, as expressões populares, os regionalismos: tudo isso registra a história e a cultura de um povo. Preservar o patrimônio linguístico é preservar a memória coletiva e a identidade nacional."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Usos da língua e variação linguística; a língua portuguesa como geradora de significação e integradora da identidade; valorização da diversidade linguística. Conheça a pluralidade de línguas e variedades do Brasil."
+    },
+    {
+     "h": "Diversidade e respeito",
+     "p": "Reconhecer o patrimônio linguístico implica respeitar todas as variedades e línguas, sem hierarquizá-las. O Enem combate o preconceito linguístico e valoriza a língua como expressão da diversidade e da identidade do povo brasileiro."
+    }
+   ],
+   "exemplo": "Texto-base: um texto sobre a importância de preservar línguas indígenas brasileiras ameaçadas de extinção. Comando: 'O texto destaca a importância do patrimônio linguístico ao...'. Raciocínio: reconhecer que cada língua carrega uma cultura e uma visão de mundo, e que preservá-la é preservar a memória e a identidade de um povo — a alternativa correta associa língua a patrimônio cultural e identidade nacional.",
+   "pontos_chave": [
+    "Compreender a língua como patrimônio cultural e imaterial",
+    "Reconhecer a diversidade linguística do Brasil (português, línguas indígenas, etc.)",
+    "Associar língua a memória e identidade nacional",
+    "Valorizar regionalismos e variedades como riqueza cultural",
+    "Combater o preconceito linguístico",
+    "Entender a língua como bem coletivo a ser preservado"
+   ],
+   "dica_prova": "A resposta certa valoriza a DIVERSIDADE linguística e a língua como identidade/memória. Cuidado com alternativas que defendem uma única forma 'correta' de falar ou que tratam variedades como erradas — o Enem condena o preconceito linguístico e celebra a pluralidade da língua."
+  },
+  {
+   "sid": "h21-reconhecer-em-textos-de-diferentes-generos-recursos-verbais-e-nao-verbais-utilizados-com-a-finalidade-de-criar-e-mudar-comportamentos-e-habitos",
+   "titulo": "H21 — Reconhecer em textos de diferentes gêneros, recursos verbais e não-verbais utilizados com a finalidade de criar e mudar comportamentos e hábitos.",
+   "intro": "A Competência 7 trata de confrontar opiniões e pontos de vista — é o domínio da argumentação e da persuasão. Esta primeira habilidade pede reconhecer os RECURSOS VERBAIS E NÃO VERBAIS usados para criar ou mudar comportamentos e hábitos, típicos da publicidade e das campanhas.\n\nUm anúncio que usa uma imagem impactante, um slogan marcante, cores e palavras de apelo está empregando recursos para persuadir e influenciar o comportamento do público.",
+   "secoes": [
+    {
+     "h": "Recursos verbais persuasivos",
+     "p": "Slogans, verbos no imperativo ('experimente', 'mude'), perguntas retóricas, jogos de palavras, repetições e apelos emocionais são recursos verbais que buscam convencer e mover à ação. Identificá-los revela a estratégia de persuasão."
+    },
+    {
+     "h": "Recursos não verbais persuasivos",
+     "p": "Imagens, cores, expressões faciais, tamanho e posição de elementos também persuadem. Uma foto emocionante, cores quentes, o sorriso de uma pessoa: tudo é escolhido para impactar e influenciar comportamentos."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto argumentativo, seus gêneros e recursos linguísticos; formas de apresentação de pontos de vista; recursos verbais e não verbais. Domine os gêneros publicitários e de campanha e seus recursos persuasivos."
+    },
+    {
+     "h": "Mudar comportamentos e hábitos",
+     "p": "O objetivo desses textos é claro: levar o público a consumir, a adotar um hábito (vacinar-se, reciclar) ou a abandonar outro (fumar, desperdiçar). Reconhecer essa finalidade e os recursos que a servem é o foco da habilidade."
+    }
+   ],
+   "exemplo": "Texto-base: uma campanha antitabagismo com a imagem de um pulmão danificado e o texto 'Pare antes que seja tarde'. Comando: 'Os recursos verbais e não verbais empregados visam a...'. Raciocínio: reconhecer que a imagem chocante (recurso não verbal) somada ao apelo no imperativo (recurso verbal) busca mudar o comportamento do público (parar de fumar) — a alternativa correta articula os dois recursos e a finalidade de mudança de hábito.",
+   "pontos_chave": [
+    "Identificar recursos verbais persuasivos (slogan, imperativo, apelo)",
+    "Reconhecer recursos não verbais (imagem, cor, expressão)",
+    "Associar os recursos à finalidade de mudar comportamentos",
+    "Conhecer gêneros publicitários e de campanha",
+    "Integrar texto e imagem na análise da persuasão",
+    "Perceber a intenção de criar ou alterar hábitos"
+   ],
+   "dica_prova": "Anúncios e campanhas são frequentíssimos. A resposta certa liga os recursos (verbais E não verbais) à FINALIDADE de influenciar o comportamento. A pegadinha é analisar só um dos códigos. Em peças publicitárias, integre imagem e texto e identifique sempre o objetivo persuasivo."
+  },
+  {
+   "sid": "h22-relacionar-em-diferentes-textos-opinioes-temas-assuntos-e-recursos-linguisticos",
+   "titulo": "H22 — Relacionar, em diferentes textos, opiniões, temas, assuntos e recursos linguísticos.",
+   "intro": "Esta habilidade da Competência 7 pede CONFRONTAR diferentes textos: relacionar suas opiniões, temas, assuntos e recursos linguísticos. É a leitura comparativa, em que você analisa dois ou mais textos sobre um mesmo assunto e percebe como eles convergem, divergem ou dialogam.\n\nO Enem traz frequentemente textos em par (dois poemas, texto + charge, duas opiniões) para que você compare pontos de vista e recursos.",
+   "secoes": [
+    {
+     "h": "Leitura comparativa",
+     "p": "Comparar textos é identificar o que têm em comum (tema, assunto) e em que diferem (opinião, abordagem, recursos). Dois textos sobre tecnologia podem ter o mesmo tema, mas opiniões opostas — um a favor, outro crítico."
+    },
+    {
+     "h": "Opiniões e pontos de vista",
+     "p": "A habilidade enfatiza o confronto de OPINIÕES. Identifique a posição de cada texto (favorável, contrária, neutra) e como ela é construída. Isso permite relacionar os textos quanto à concordância ou divergência."
+    },
+    {
+     "h": "Recursos linguísticos",
+     "p": "Além do conteúdo, compare a FORMA: que recursos cada texto usa (ironia, formalidade, figuras de linguagem, registro)? Textos com o mesmo tema podem usar recursos bem diferentes, revelando intenções distintas."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto argumentativo; formas de apresentação de diferentes pontos de vista; relação entre usos e propósitos comunicativos. Pratique a leitura de pares de textos e a comparação de opiniões e recursos."
+    }
+   ],
+   "exemplo": "Texto-base: dois textos sobre o uso de celulares por crianças — um defende, outro critica. Comando: 'Os textos relacionam-se entre si porque...'. Raciocínio: reconhecer que ambos tratam do mesmo tema, mas apresentam opiniões opostas, e identificar os recursos usados por cada um — a alternativa correta aponta corretamente a convergência de tema e a divergência de opinião entre os textos.",
+   "pontos_chave": [
+    "Comparar textos quanto a tema, assunto e opinião",
+    "Identificar convergências e divergências de pontos de vista",
+    "Relacionar os recursos linguísticos de cada texto",
+    "Distinguir o que é comum do que é diferente entre os textos",
+    "Reconhecer a posição (opinião) de cada autor",
+    "Ler criticamente textos em diálogo"
+   ],
+   "dica_prova": "Questões com dois textos-base são típicas dessa habilidade. A pegadinha é a alternativa que descreve apenas um dos textos, ignorando a relação. A resposta certa CONFRONTA os textos: o que compartilham e em que divergem. Identifique tema (comum) e opinião (que pode divergir) separadamente."
+  },
+  {
+   "sid": "h23-inferir-em-um-texto-quais-sao-os-objetivos-de-seu-produtor-e-quem-e-seu-publico-alvo-pela-analise-dos-procedimentos-argumentativos-utilizados",
+   "titulo": "H23 — Inferir em um texto quais são os objetivos de seu produtor e quem é seu público alvo, pela análise dos procedimentos argumentativos utilizados.",
+   "intro": "Esta habilidade da Competência 7 exige INFERIR a intenção do autor e o público-alvo a partir dos procedimentos argumentativos do texto. A palavra-chave é INFERÊNCIA: a informação não está explícita, mas pode ser deduzida pela forma como o texto argumenta, pelo vocabulário e pelo registro escolhidos.\n\nQuem produziu o texto? Para quem? Com que objetivo? As respostas estão nas pistas linguísticas e argumentativas.",
+   "secoes": [
+    {
+     "h": "Inferência: ler nas entrelinhas",
+     "p": "Inferir é deduzir o que não está dito explicitamente. O vocabulário técnico sugere um público especializado; a linguagem simples e o humor sugerem um público amplo; o tom apelativo revela intenção de vender ou convencer."
+    },
+    {
+     "h": "Objetivos do produtor",
+     "p": "Todo texto tem uma intenção: informar, persuadir, vender, criticar, entreter, conscientizar. Os procedimentos argumentativos (dados, exemplos, apelos, autoridade) revelam esse objetivo. Identificá-lo é entender o propósito comunicativo."
+    },
+    {
+     "h": "Público-alvo",
+     "p": "O texto se molda ao destinatário: um anúncio de brinquedo usa cores e linguagem infantil (público: crianças/pais); um artigo científico usa termos técnicos (público: especialistas). O registro e o vocabulário denunciam para quem o texto fala."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto argumentativo; papéis sociais e comunicativos dos interlocutores; relação entre usos e propósitos comunicativos; função sociocomunicativa do gênero; dimensão espaçotemporal do texto."
+    }
+   ],
+   "exemplo": "Texto-base: um folheto com linguagem técnica sobre um equipamento médico. Comando: 'Pela análise dos recursos argumentativos, infere-se que o público-alvo do texto é...'. Raciocínio: reconhecer que o vocabulário técnico e os dados especializados indicam um público de profissionais da saúde, não o público leigo — a alternativa correta deduz o público-alvo a partir das pistas linguísticas e argumentativas.",
+   "pontos_chave": [
+    "Inferir intenções e público a partir de pistas do texto",
+    "Analisar vocabulário e registro para identificar o destinatário",
+    "Reconhecer os objetivos do produtor (informar, vender, persuadir)",
+    "Identificar procedimentos argumentativos (dados, exemplos, autoridade)",
+    "Relacionar gênero, propósito e interlocutores",
+    "Ler nas entrelinhas, além do explícito"
+   ],
+   "dica_prova": "Questões de INFERÊNCIA exigem dedução, não cópia. A pegadinha é a alternativa literal (que repete algo do texto) quando o comando pede o que está implícito. Observe o vocabulário, o registro e os recursos argumentativos: eles revelam para quem e com que objetivo o texto foi escrito."
+  },
+  {
+   "sid": "h24-reconhecer-no-texto-estrategias-argumentativas-empregadas-para-o-convencimento-do-publico-tais-como-a-intimidacao-seducao-comocao-chantagem-entre-outras",
+   "titulo": "H24 — Reconhecer no texto estratégias argumentativas empregadas para o convencimento do público, tais como a intimidação, sedução, comoção, chantagem, entre outras.",
+   "intro": "Encerrando a Competência 7, esta habilidade foca nas ESTRATÉGIAS ARGUMENTATIVAS específicas de convencimento: intimidação, sedução, comoção, chantagem emocional, apelo à autoridade, uso de dados, entre outras. É a análise fina dos métodos de persuasão.\n\nNão basta perceber que o texto persuade; é preciso identificar COMO ele persuade — por qual estratégia ele tenta convencer o público.",
+   "secoes": [
+    {
+     "h": "Tipos de estratégias argumentativas",
+     "p": "Sedução (encantar, prometer benefícios, usar beleza); comoção (apelo à emoção, pena, solidariedade); intimidação (medo, ameaça de consequências); chantagem (culpa, pressão moral); argumento de autoridade (citar especialistas); dados e estatísticas (provas concretas); exemplificação e comparação."
+    },
+    {
+     "h": "Identificar a estratégia predominante",
+     "p": "Cada texto pode combinar estratégias, mas uma costuma se destacar. Uma campanha de doação que mostra crianças sofrendo usa comoção; uma propaganda que destaca o sucesso de quem usa o produto usa sedução; um alerta de saúde pode usar intimidação (medo)."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo do texto argumentativo, seus gêneros e recursos linguísticos; formas de apresentação de pontos de vista; estratégias de convencimento. Conheça os tipos de argumento e os apelos persuasivos."
+    },
+    {
+     "h": "Persuasão e senso crítico",
+     "p": "Reconhecer as estratégias desenvolve o senso crítico: o leitor consciente percebe quando está sendo manipulado emocionalmente e avalia a validade dos argumentos. É uma habilidade de leitura crítica e cidadania."
+    }
+   ],
+   "exemplo": "Texto-base: uma campanha de adoção de animais com fotos de cães abandonados e o texto 'Eles esperam por você'. Comando: 'A estratégia argumentativa predominante no texto é...'. Raciocínio: reconhecer que o apelo emocional (imagens de sofrimento e abandono) busca sensibilizar o público, caracterizando a comoção — a alternativa correta nomeia a estratégia de convencimento pelo apelo emocional.",
+   "pontos_chave": [
+    "Reconhecer estratégias de persuasão (sedução, comoção, intimidação, chantagem)",
+    "Identificar a estratégia predominante no texto",
+    "Distinguir apelo emocional de apelo racional (dados, autoridade)",
+    "Associar a estratégia ao gênero e ao objetivo",
+    "Desenvolver senso crítico diante da manipulação",
+    "Conhecer os tipos de argumento persuasivo"
+   ],
+   "dica_prova": "Essa habilidade pede NOMEAR a estratégia. Tenha clareza dos tipos: comoção = emoção/pena; sedução = encantamento/promessa; intimidação = medo; autoridade = especialista; dados = estatística. A pegadinha é confundir estratégias parecidas (comoção x sedução). Observe se o apelo é à pena (comoção) ou ao desejo/prazer (sedução)."
+  },
+  {
+   "sid": "h25-identificar-em-textos-de-diferentes-generos-as-marcas-linguisticas-que-singularizam-as-variedades-linguisticas-sociais-regionais-e-de-registro",
+   "titulo": "H25 — Identificar, em textos de diferentes gêneros, as marcas linguísticas que singularizam as variedades linguísticas sociais, regionais e de registro.",
+   "intro": "A Competência 8 trata de compreender e usar a língua portuguesa como língua materna, geradora de significação e identidade. Esta primeira habilidade foca na VARIAÇÃO LINGUÍSTICA: identificar as marcas que diferenciam as variedades sociais, regionais e de registro da língua.\n\nA língua não é uniforme: varia conforme a região (regionalismos), o grupo social (gírias, jargões), a situação (formal/informal) e o tempo. Reconhecer essas marcas é entender a riqueza e a diversidade do português.",
+   "secoes": [
+    {
+     "h": "Tipos de variação linguística",
+     "p": "Variação regional/diatópica (diferenças entre regiões: 'mandioca/macaxeira/aipim'); social/diastrática (entre grupos sociais, profissões, idades: gírias, jargões); de registro/diafásica (formal x informal, conforme a situação); histórica/diacrônica (mudanças no tempo: 'vossa mercê' virou 'você')."
+    },
+    {
+     "h": "Marcas linguísticas",
+     "p": "As marcas aparecem no vocabulário (regionalismos, gírias), na pronúncia (representada na escrita), na sintaxe e nas escolhas gramaticais. Identificá-las permite reconhecer de que variedade o texto se aproxima e que efeito isso produz."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Usos da língua: norma culta e variação linguística; registro linguístico e grau de formalidade; seleção lexical. Conheça os tipos de variação e suas marcas em diferentes gêneros (literatura regional, diálogos, textos populares)."
+    },
+    {
+     "h": "Variação e identidade",
+     "p": "Cada variedade expressa uma identidade — regional, social, geracional. A literatura usa o regionalismo para caracterizar personagens e ambientes. Reconhecer a variedade é também reconhecer a cultura e o grupo que a fala."
+    }
+   ],
+   "exemplo": "Texto-base: um trecho de literatura regionalista com expressões do interior nordestino. Comando: 'As marcas linguísticas presentes no texto evidenciam uma variedade...'. Raciocínio: reconhecer que o vocabulário e as expressões típicas de uma região caracterizam a variação regional (diatópica), usada para situar geograficamente os personagens — a alternativa correta identifica o tipo de variação e suas marcas.",
+   "pontos_chave": [
+    "Conhecer os tipos de variação (regional, social, de registro, histórica)",
+    "Identificar marcas linguísticas de cada variedade",
+    "Reconhecer regionalismos, gírias e jargões",
+    "Associar variação a grupo social, região e situação",
+    "Perceber o uso da variação na literatura e nos diálogos",
+    "Relacionar variedade linguística e identidade cultural"
+   ],
+   "dica_prova": "Variação linguística é tema certo no Enem. Saiba diferenciar os tipos: regional (lugar), social (grupo), registro (formalidade), histórica (tempo). A pegadinha é confundir variação regional com social, ou tratar uma variedade como 'erro'. Lembre: variação NÃO é erro — é diversidade legítima da língua."
+  },
+  {
+   "sid": "h26-relacionar-as-variedades-linguisticas-a-situacoes-especificas-de-uso-social",
+   "titulo": "H26 — Relacionar as variedades linguísticas a situações específicas de uso social.",
+   "intro": "Esta habilidade da Competência 8 vai além de identificar variedades (H25): pede RELACIONÁ-LAS às situações de uso social, ou seja, perceber a ADEQUAÇÃO linguística. Cada situação comunicativa pede uma variedade apropriada — falar com amigos é diferente de falar numa entrevista de emprego.\n\nO conceito central é adequação, não correção: não existe variedade 'certa' ou 'errada', mas sim mais ou menos adequada à situação.",
+   "secoes": [
+    {
+     "h": "Adequação linguística",
+     "p": "A escolha da variedade depende do contexto: o grau de formalidade, o interlocutor, o canal e o objetivo. Uma conversa informal admite gírias; um documento oficial exige a norma padrão. Adequar a linguagem à situação é a competência valorizada aqui."
+    },
+    {
+     "h": "Formalidade e informalidade",
+     "p": "Em situações formais (entrevistas, documentos, discursos), usa-se registro mais formal e a norma padrão. Em situações informais (bate-papo, mensagens entre amigos), a linguagem coloquial é adequada. Saber alternar é dominar a língua."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Registro linguístico e grau de formalidade; usos dos recursos linguísticos em relação ao contexto; norma culta e variação. Pratique reconhecer a variedade adequada a cada situação comunicativa."
+    },
+    {
+     "h": "Variação não é erro",
+     "p": "O ponto central, que o Enem reforça, é que a variedade coloquial não é 'errada' — ela é adequada a certos contextos. O preconceito linguístico, que discrimina quem fala de forma diferente da norma padrão, é combatido."
+    }
+   ],
+   "exemplo": "Texto-base: uma situação em que uma pessoa usa linguagem muito informal numa entrevista de emprego. Comando: 'A inadequação linguística nesse contexto ocorre porque...'. Raciocínio: reconhecer que a situação formal (entrevista) exige um registro mais formal, e que o uso de gírias é inadequado àquele contexto específico — a alternativa correta foca na ADEQUAÇÃO à situação, não na ideia de 'erro' da variedade.",
+   "pontos_chave": [
+    "Compreender o conceito de adequação linguística",
+    "Relacionar variedade e situação comunicativa",
+    "Distinguir contextos formais e informais",
+    "Reconhecer a norma padrão como adequada a situações formais",
+    "Entender que variação não é erro, mas adequação",
+    "Combater o preconceito linguístico"
+   ],
+   "dica_prova": "A palavra-chave é ADEQUAÇÃO, não correção. A resposta certa avalia se a variedade combina com a situação. A pegadinha clássica é a alternativa que chama a linguagem coloquial de 'errada' — o Enem rejeita o preconceito linguístico. Pense: a linguagem está adequada ao contexto, ou não?"
+  },
+  {
+   "sid": "h27-reconhecer-os-usos-da-norma-padrao-da-lingua-portuguesa-nas-diferentes-situacoes-de-comunicacao",
+   "titulo": "H27 — Reconhecer os usos da norma padrão da língua portuguesa nas diferentes situações de comunicação.",
+   "intro": "Encerrando a Competência 8, esta habilidade trata da NORMA PADRÃO (ou norma culta): o conjunto de regras gramaticais usado em situações formais e na escrita prestigiada. A habilidade pede reconhecer onde e como a norma padrão é empregada, e quando ela é exigida.\n\nA norma padrão é uma das variedades da língua — a de maior prestígio social, usada em documentos, textos oficiais, jornalismo formal e contextos que pedem formalidade.",
+   "secoes": [
+    {
+     "h": "O que é a norma padrão",
+     "p": "É a variedade prestigiada, baseada na gramática normativa: concordância, regência, colocação pronominal, ortografia e pontuação padronizadas. Não é 'a língua certa' em termos absolutos, mas a variedade exigida em contextos formais e na escrita oficial."
+    },
+    {
+     "h": "Situações de uso da norma padrão",
+     "p": "Documentos oficiais, contratos, redações, provas, textos jornalísticos formais, comunicações institucionais. Nessas situações, espera-se o domínio da norma padrão. Em contextos informais, outras variedades são adequadas."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Usos da língua: norma culta e variação linguística; recursos linguísticos em relação ao contexto; coesão textual; tempos e modos verbais. Conheça as principais regras gramaticais e quando aplicá-las."
+    },
+    {
+     "h": "Norma padrão entre as variedades",
+     "p": "A norma padrão convive com as demais variedades. Reconhecer seu uso não significa desvalorizar as outras: significa saber que cada contexto pede uma variedade, e que a norma padrão é a esperada em situações formais."
+    }
+   ],
+   "exemplo": "Texto-base: dois bilhetes, um informal entre amigos e outro formal (um requerimento). Comando: 'O texto que se adequa à norma padrão, exigida pela situação de comunicação, é...'. Raciocínio: reconhecer que o requerimento, por ser um documento formal, exige a norma padrão (concordância, vocabulário formal, estrutura adequada), enquanto o bilhete admite a linguagem coloquial — a alternativa correta identifica o uso da norma padrão conforme a situação.",
+   "pontos_chave": [
+    "Compreender a norma padrão como variedade de prestígio",
+    "Conhecer regras de concordância, regência, colocação e pontuação",
+    "Identificar situações que exigem a norma padrão (formais, oficiais)",
+    "Distinguir norma padrão de outras variedades",
+    "Reconhecer a norma padrão sem desvalorizar as demais variedades",
+    "Relacionar norma padrão e adequação ao contexto formal"
+   ],
+   "dica_prova": "O Enem cobra a norma padrão sempre ligada ao USO e à situação, não como decoreba de regras isoladas. A resposta certa identifica onde a norma padrão é adequada (contextos formais). Cuidado: a prova não desvaloriza as outras variedades — apenas reconhece que a norma padrão tem seu lugar específico de uso."
+  },
+  {
+   "sid": "h28-reconhecer-a-funcao-e-o-impacto-social-das-diferentes-tecnologias-da-comunicacao-e-informacao",
+   "titulo": "H28 — Reconhecer a função e o impacto social das diferentes tecnologias da comunicação e informação.",
+   "intro": "A Competência 9 trata de entender os princípios, a natureza, a função e o impacto das tecnologias da comunicação e da informação (TICs) na vida pessoal e social. Esta primeira habilidade pede reconhecer a FUNÇÃO e o IMPACTO SOCIAL dessas tecnologias — internet, redes sociais, smartphones, IA.\n\nAs TICs transformaram a forma como nos comunicamos, trabalhamos e nos relacionamos. A habilidade exige avaliar criticamente seus efeitos sobre a sociedade.",
+   "secoes": [
+    {
+     "h": "Função das tecnologias",
+     "p": "Cada tecnologia cumpre funções: a internet democratiza o acesso à informação; as redes sociais conectam pessoas; os aplicativos facilitam serviços. Reconhecer essas funções é entender para que essas ferramentas servem na vida social."
+    },
+    {
+     "h": "Impacto social das TICs",
+     "p": "O impacto pode ser positivo (acesso à informação, inclusão, comunicação global) e negativo (desinformação, isolamento, dependência, exclusão digital, vigilância). A habilidade pede avaliar criticamente esses dois lados."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo dos gêneros digitais: tecnologia da comunicação e informação, impacto e função social; a função social das novas tecnologias; a caracterização dos interlocutores na comunicação tecnológica. Conheça temas atuais de cultura digital."
+    },
+    {
+     "h": "Tecnologia e cidadania",
+     "p": "Reconhecer o impacto social das TICs é parte da formação do cidadão digital, capaz de usar a tecnologia de forma crítica e responsável, ciente de seus benefícios e de seus riscos para a sociedade."
+    }
+   ],
+   "exemplo": "Texto-base: um texto sobre como a internet democratizou o acesso à informação, mas também ampliou a disseminação de notícias falsas. Comando: 'O texto evidencia o impacto social das tecnologias ao...'. Raciocínio: reconhecer que a tecnologia tem efeitos ambivalentes (acesso amplo X desinformação) e que o texto avalia criticamente esse impacto na sociedade — a alternativa correta capta a dupla dimensão do impacto social.",
+   "pontos_chave": [
+    "Reconhecer a função das tecnologias de comunicação e informação",
+    "Avaliar criticamente os impactos sociais (positivos e negativos)",
+    "Conhecer temas: internet, redes sociais, IA, fake news, inclusão digital",
+    "Compreender a transformação social provocada pelas TICs",
+    "Associar tecnologia, cultura digital e cidadania",
+    "Identificar a função social das novas tecnologias"
+   ],
+   "dica_prova": "Tecnologia e seus impactos são temas atuais e recorrentes. A resposta certa costuma reconhecer a AMBIVALÊNCIA: a tecnologia traz benefícios e riscos. A pegadinha é a alternativa unilateral (só elogia ou só condena). O Enem valoriza o olhar crítico e equilibrado sobre o impacto social das TICs."
+  },
+  {
+   "sid": "h29-identificar-pela-analise-de-suas-linguagens-as-tecnologias-da-comunicacao-e-informacao",
+   "titulo": "H29 — Identificar pela análise de suas linguagens, as tecnologias da comunicação e informação.",
+   "intro": "Esta habilidade da Competência 9 pede IDENTIFICAR as tecnologias da comunicação e informação a partir da análise de suas LINGUAGENS. Cada tecnologia tem uma linguagem própria: o e-mail, o post, o tuíte, o meme, o emoji, a hashtag, a mensagem instantânea — cada gênero digital tem suas marcas características.\n\nReconhecer essas marcas linguísticas permite identificar de qual tecnologia ou gênero digital o texto provém e como ele funciona.",
+   "secoes": [
+    {
+     "h": "Linguagens dos gêneros digitais",
+     "p": "Cada gênero digital tem traços próprios: o tuíte é breve e usa hashtags; o e-mail tem estrutura mais formal (saudação, corpo, despedida); o WhatsApp usa abreviações, emojis e áudios; o meme combina imagem e texto curto. A linguagem revela a tecnologia."
+    },
+    {
+     "h": "Marcas linguísticas das TICs",
+     "p": "Abreviações (vc, pq, tb), emojis, hashtags (#), arrobas (@), hiperlinks, internetês: são marcas que caracterizam a comunicação digital. Identificá-las permite reconhecer o suporte tecnológico e o gênero do texto."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo dos gêneros digitais: o suporte textual em gêneros digitais; os recursos linguísticos e os gêneros digitais; a caracterização dos interlocutores na comunicação tecnológica. Conheça os gêneros digitais e suas características."
+    },
+    {
+     "h": "Suporte e gênero",
+     "p": "O suporte (a tecnologia/plataforma) influencia a linguagem. Um mesmo conteúdo se expressa diferente num tuíte e num e-mail. Identificar a tecnologia pela linguagem é entender essa relação entre suporte, gênero e recursos."
+    }
+   ],
+   "exemplo": "Texto-base: um texto curto com hashtags, arroba e emojis. Comando: 'As marcas linguísticas presentes permitem identificar o gênero como...'. Raciocínio: reconhecer que hashtags, brevidade e emojis são características de uma publicação em rede social (como um tuíte/post), e não de um e-mail formal — a alternativa correta identifica a tecnologia/gênero pela análise de suas marcas de linguagem.",
+   "pontos_chave": [
+    "Identificar tecnologias e gêneros digitais por suas linguagens",
+    "Reconhecer marcas: abreviações, emojis, hashtags, arrobas, hiperlinks",
+    "Associar suporte tecnológico a gênero e recursos linguísticos",
+    "Distinguir gêneros digitais (tuíte, e-mail, post, meme, mensagem)",
+    "Compreender a relação entre suporte e linguagem",
+    "Conhecer as características do internetês e da comunicação digital"
+   ],
+   "dica_prova": "Gêneros digitais aparecem com suas linguagens típicas. A resposta certa identifica a tecnologia/gênero pelas MARCAS linguísticas (hashtags, emojis, abreviações). Saiba diferenciar os gêneros digitais entre si e do texto formal. A pegadinha é confundir gêneros parecidos ou ignorar as marcas características do suporte."
+  },
+  {
+   "sid": "h30-relacionar-as-tecnologias-de-comunicacao-e-informacao-ao-desenvolvimento-das-sociedades-e-ao-conhecimento-que-elas-produzem",
+   "titulo": "H30 — Relacionar as tecnologias de comunicação e informação ao desenvolvimento das sociedades e ao conhecimento que elas produzem.",
+   "intro": "Encerrando a Competência 9 e a área de Linguagens, esta habilidade pede RELACIONAR as tecnologias da comunicação e informação ao DESENVOLVIMENTO das sociedades e à produção de conhecimento. É a visão ampla: como as TICs transformaram a história, a economia, a cultura e a forma de produzir e difundir saber.\n\nDa imprensa de Gutenberg à internet, cada tecnologia da comunicação marcou uma etapa do desenvolvimento humano e mudou a forma como o conhecimento circula.",
+   "secoes": [
+    {
+     "h": "Tecnologias e desenvolvimento social",
+     "p": "Cada grande tecnologia da comunicação impulsionou mudanças: a escrita permitiu registrar o conhecimento; a imprensa democratizou os livros e impulsionou a ciência; o rádio e a TV massificaram a informação; a internet conectou o mundo e acelerou a produção de saber."
+    },
+    {
+     "h": "Produção e circulação de conhecimento",
+     "p": "As TICs não só transmitem: elas produzem conhecimento. A internet permite colaboração global, acesso instantâneo a pesquisas, educação a distância. A habilidade pede relacionar a tecnologia ao avanço do conhecimento que ela viabiliza."
+    },
+    {
+     "h": "Objetos de conhecimento ligados",
+     "p": "Estudo dos gêneros digitais; impacto e função social das tecnologias; relação entre tecnologias, conhecimento científico e desenvolvimento. Tenha visão histórica das tecnologias da comunicação e de seu papel no desenvolvimento das sociedades."
+    },
+    {
+     "h": "Visão crítica e histórica",
+     "p": "Relacionar tecnologia e desenvolvimento exige perspectiva histórica e crítica: perceber tanto os avanços (acesso ao conhecimento, inclusão) quanto os desafios (desigualdade digital, qualidade da informação). É a síntese das competências da área."
+    }
+   ],
+   "exemplo": "Texto-base: um texto que compara o impacto da invenção da imprensa com o da internet na difusão do conhecimento. Comando: 'O texto relaciona as tecnologias ao desenvolvimento das sociedades ao...'. Raciocínio: reconhecer que ambas as tecnologias ampliaram o acesso e aceleraram a produção e a circulação do conhecimento, marcando saltos no desenvolvimento humano — a alternativa correta articula tecnologia, conhecimento e desenvolvimento social.",
+   "pontos_chave": [
+    "Relacionar tecnologias da comunicação ao desenvolvimento das sociedades",
+    "Compreender a produção e a circulação de conhecimento pelas TICs",
+    "Ter visão histórica (escrita, imprensa, rádio, TV, internet)",
+    "Associar tecnologia, ciência e avanço social",
+    "Avaliar criticamente avanços e desigualdades (exclusão digital)",
+    "Conectar tecnologia ao conhecimento que ela produz"
+   ],
+   "dica_prova": "Esta habilidade pede a visão ampla: tecnologia como motor de desenvolvimento e conhecimento. Questões podem ter caráter interdisciplinar (História, Sociologia). A resposta certa conecta a tecnologia ao avanço do conhecimento e da sociedade. Mantenha o olhar crítico: reconheça avanços, mas também os desafios como a exclusão digital."
+  }
+ ]
+}
