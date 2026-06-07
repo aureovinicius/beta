@@ -25,6 +25,12 @@ No ar: https://aureovinicius.github.io/beta/
 | `gerar_site.py` | Gera o site estático em `site/` (não versionado) |
 | `assets/` | CSS/JS (fonte; copiados para `site/assets/` no build) |
 | `.github/workflows/pages.yml` | CI: build + deploy no GitHub Pages |
+| `gerar_canal.py` | Gera roteiros de narração (TTS) + descrições de YouTube por tópico, em `youtube/` |
+| `gerar_audio.sh` | Sintetiza o áudio dos roteiros com a voz pt-BR do macOS (`say`) |
+
+> **Material do canal:** `gerar_canal.py` produz, para cada tópico, um `*.narracao.txt`
+> (roteiro p/ TTS) e um `*.youtube.txt` (descrição com link para o site) em `youtube/`.
+> Essa pasta **não é versionada** (conteúdo do canal). Para o áudio: `./gerar_audio.sh`.
 
 ## Como rodar
 

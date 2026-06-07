@@ -15,3 +15,6 @@ site/
 
 # macOS
 .DS_Store
+
+# Material do canal (TTS + descrições) — NÃO versionar
+youtube/
