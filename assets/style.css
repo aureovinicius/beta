@@ -44,6 +44,12 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 #search,#busca-concursos{width:100%;padding:14px 18px;border-radius:999px;border:1px solid var(--border);
   background:var(--surface);color:var(--text);font-size:1rem;box-shadow:var(--shadow);outline:none;transition:.2s}
 #search:focus,#busca-concursos:focus{border-color:var(--brand);box-shadow:0 0 0 4px color-mix(in srgb,var(--brand) 18%,transparent)}
+.filtros{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:14px}
+.filtros-label{font-size:.85rem;color:var(--muted);margin-right:2px}
+.chip{padding:7px 14px;border-radius:999px;border:1px solid var(--border);background:var(--surface);
+  color:var(--muted);font-size:.85rem;font-weight:600;cursor:pointer;transition:.15s}
+.chip:hover{border-color:var(--brand);color:var(--text)}
+.chip.ativo{background:var(--brand);border-color:var(--brand);color:#fff}
 
 /* Groups & cards */
 .group{margin-top:40px}

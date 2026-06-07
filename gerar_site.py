@@ -104,12 +104,16 @@ def build_landing():
         if g:
             grupos.setdefault(g["id"], {"meta": g, "cargos": []})["cargos"].append(c)
 
+    # bancas distintas (para os chips de filtro)
+    bancas = sorted({c.get("banca", "") for c in avulsos if c.get("banca")} |
+                    {info["meta"].get("banca", "") for info in grupos.values() if info["meta"].get("banca")})
+
     cards = ""
     for c in avulsos:
         disc, top, sub = counts(c)
         busca = e(" ".join(str(c.get(k, "")) for k in ("nome", "orgao", "banca", "cargo", "descricao")).lower())
         cards += f"""
-      <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}" data-search="{busca}">
+      <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}" data-search="{busca}" data-banca="{e(c.get('banca','').lower())}">
         <div class="cc-top"><span class="cc-icon">{c['icone']}</span><span class="cc-orgao">{e(c['orgao'])}</span></div>
         <h3>{e(c['nome'])}</h3>
         <p class="cc-cargo">{e(c['cargo'])}</p>
@@ -139,7 +143,7 @@ def build_landing():
           </a>"""
         gbusca = e((" ".join([g["nome"], g["orgao"], g.get("descricao", "")]).lower())) + " " + " ".join(cargos_busca)
         cards += f"""
-      <div class="concurso-card grupo-card" style="--accent:{g['cor']}" data-search="{gbusca}">
+      <div class="concurso-card grupo-card" style="--accent:{g['cor']}" data-search="{gbusca}" data-banca="{e(g.get('banca','').lower())}">
         <button class="grupo-head" aria-expanded="false">
           <div class="cc-top"><span class="cc-icon">{g['icone']}</span><span class="cc-orgao">{e(g['orgao'])}</span></div>
           <h3>{e(g['nome'])}</h3>
@@ -162,6 +166,11 @@ def build_landing():
     aprofundamento para cada subtópico. Selecione um concurso para começar.</p>
     <div class="search-wrap">
       <input id="busca-concursos" type="search" placeholder="🔎 Buscar concurso, órgão, banca ou cargo…" autocomplete="off">
+    </div>
+    <div class="filtros" id="filtros-banca">
+      <span class="filtros-label">Banca:</span>
+      <button class="chip ativo" data-banca="">Todas</button>
+      {''.join(f'<button class="chip" data-banca="{e(b.lower())}">{e(b)}</button>' for b in bancas)}
     </div>
   </section>
   <section class="group">

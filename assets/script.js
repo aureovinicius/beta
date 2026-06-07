@@ -33,18 +33,22 @@
   });
 })();
 
-// Busca de concursos na landing (filtra cards, boxes de grupo e cargos)
+// Busca + filtro por banca na landing (cards, boxes de grupo e cargos)
 (function () {
   var input = document.getElementById("busca-concursos");
   if (!input) return;
   var grid = document.querySelector(".concurso-grid");
   var empty = document.getElementById("sem-concursos");
+  var chips = Array.prototype.slice.call(document.querySelectorAll("#filtros-banca .chip"));
   var cards = Array.prototype.slice.call(grid.querySelectorAll(":scope > .concurso-card"));
-  input.addEventListener("input", function () {
+  var banca = "";
+
+  function aplicar() {
     var q = input.value.trim().toLowerCase();
     var shown = 0;
     cards.forEach(function (card) {
       var grupo = card.classList.contains("grupo-card");
+      var okBanca = !banca || (card.getAttribute("data-banca") || "") === banca;
       var matchSelf = (card.getAttribute("data-search") || "").indexOf(q) !== -1;
       var matchCargo = false;
       if (grupo) {
@@ -54,7 +58,7 @@
           if (hit) matchCargo = true;
         });
       }
-      var visible = !q || matchSelf || matchCargo;
+      var visible = okBanca && (!q || matchSelf || matchCargo);
       card.style.display = visible ? "" : "none";
       if (visible) shown++;
       if (grupo) {
@@ -66,6 +70,15 @@
       }
     });
     if (empty) empty.hidden = shown !== 0;
+  }
+
+  input.addEventListener("input", aplicar);
+  chips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      banca = chip.getAttribute("data-banca") || "";
+      chips.forEach(function (c) { c.classList.toggle("ativo", c === chip); });
+      aplicar();
+    });
   });
 })();
 
