@@ -4,10 +4,12 @@ import glob
 import html
 import json
 import os
+import shutil
 from concursos import CONCURSOS, CONCURSO_POR_ID
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(BASE, "site")
+ASSETS_SRC = os.path.join(BASE, "assets")  # fonte versionada do CSS/JS
 GRUPOS = ["Conhecimentos Básicos", "Conhecimentos Específicos"]
 
 # ---- carrega aprofundamentos: (concurso_id, slug, ti, si) -> item ----
@@ -355,8 +357,19 @@ def build_ampliado(c, d):
     return len(ordem)
 
 
+def copy_assets():
+    """Copia os assets de fonte (assets/) para site/assets/ e grava .nojekyll."""
+    dst = os.path.join(SITE, "assets")
+    os.makedirs(dst, exist_ok=True)
+    for f in glob.glob(os.path.join(ASSETS_SRC, "*")):
+        if os.path.isfile(f):
+            shutil.copy2(f, dst)
+    open(os.path.join(SITE, ".nojekyll"), "w").close()
+
+
 def main():
     os.makedirs(SITE, exist_ok=True)
+    copy_assets()
     build_landing()
     n_amp = 0
     publicos = [c for c in CONCURSOS if not c.get("oculto")]

@@ -5,3 +5,7 @@ __pycache__/
 
 # Arquivos temporários de renderização
 _p*.png
+_*.txt
+
+# Artefato gerado — NÃO versionar (reconstruído por gerar_site.py no CI)
+site/
