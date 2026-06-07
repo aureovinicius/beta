@@ -40,8 +40,13 @@ def get_content(cid, slug, s):
     return EXP.get((cid, slug, s["sid"])), None
 
 
-def head(title, up):
+KATEX_VER = "0.16.11"
+
+
+def head(title, up, katex=False):
     css = "../" * up + "assets/style.css"
+    katex_css = (f'<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@{KATEX_VER}/dist/katex.min.css">'
+                 if katex else "")
     return f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -51,6 +56,7 @@ def head(title, up):
 <link rel="stylesheet" href="{css}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+{katex_css}
 </head>
 <body>"""
 
@@ -68,12 +74,19 @@ def topbar(up, sub=""):
 </header>"""
 
 
-def foot(up, rodape=""):
+def foot(up, rodape="", katex=False):
     script = "../" * up + "assets/script.js"
     txt = rodape or "Material de estudo de apoio. Confira sempre o edital oficial."
+    katex_js = ""
+    if katex:
+        b = f"https://cdn.jsdelivr.net/npm/katex@{KATEX_VER}/dist"
+        katex_js = f"""
+<script defer src="{b}/katex.min.js"></script>
+<script defer src="{b}/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{{delimiters:[{{left:'\\\\[',right:'\\\\]',display:true}},{{left:'$$',right:'$$',display:true}},{{left:'\\\\(',right:'\\\\)',display:false}}],throwOnError:false}});"></script>"""
     return f"""
 <footer class="foot"><p>{e(txt)}</p></footer>
-<script src="{script}"></script>
+<script src="{script}"></script>{katex_js}
 </body></html>"""
 
 
@@ -286,7 +299,7 @@ def build_disciplina(c, d, idx):
     nav_prev = f'<a class="pager prev" href="{prev_d["slug"]}.html">← {e(prev_d["titulo"])}</a>' if prev_d else "<span></span>"
     nav_next = f'<a class="pager next" href="{next_d["slug"]}.html">{e(next_d["titulo"])} →</a>' if next_d else "<span></span>"
 
-    doc = head(f"{d['titulo']} — {c['orgao']}", 2)
+    doc = head(f"{d['titulo']} — {c['orgao']}", 2, katex=True)
     doc += topbar(2, c["orgao"])
     doc += f"""
 <main class="disc-page">
@@ -304,7 +317,7 @@ def build_disciplina(c, d, idx):
     <div class="pager-row">{nav_prev}{nav_next}</div>
   </div>
 </main>"""
-    doc += foot(2, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
+    doc += foot(2, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.", katex=True)
     open(os.path.join(SITE, cid, "disciplinas", f"{d['slug']}.html"), "w", encoding="utf-8").write(doc)
 
 
@@ -345,7 +358,7 @@ def build_ampliado(c, d):
             banner = (f'<div class="reuse-banner">♻ Conteúdo compartilhado com o concurso '
                       f'<strong>{e(on)}</strong> — mesmo assunto cobrado em ambos.</div>')
 
-        doc = head(f"{sub_titulo} — {c['orgao']}", 3)
+        doc = head(f"{sub_titulo} — {c['orgao']}", 3, katex=True)
         doc += topbar(3, c["orgao"])
         doc += f"""
 <main class="amp-page">
@@ -374,7 +387,7 @@ def build_ampliado(c, d):
     </aside>
   </div>
 </main>"""
-        doc += foot(3, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
+        doc += foot(3, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.", katex=True)
         open(os.path.join(out_dir, f"{sid}.html"), "w", encoding="utf-8").write(doc)
     return len(ordem)
 

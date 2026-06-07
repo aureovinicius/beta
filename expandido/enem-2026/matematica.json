@@ -4,37 +4,37 @@
     {
       "sid": "h1-reconhecer-no-contexto-social-diferentes-significados-e-representacoes-dos-numeros-e-operacoes-naturais-inteiros-racionais-ou-reais",
       "titulo": "H1 — Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais.",
-      "intro": "A Competência 1 da matriz de Matemática do Enem pede que o estudante construa significados para os números naturais, inteiros, racionais e reais. A habilidade H1 é a porta de entrada dessa competência: não basta calcular, é preciso reconhecer o que um número representa dentro de uma situação real e transitar entre suas várias formas de escrita (fração, decimal, porcentagem, notação científica).\n\nO Enem quase nunca pede 'converta 1/4 em decimal' de forma isolada. Em vez disso, apresenta um texto-base — uma conta de luz, uma reportagem, uma bula, um gráfico de inflação — e exige que você interprete o significado do número naquele contexto (um número negativo como saldo devedor, um decimal como medida, uma fração como parte de um todo) e o traduza para a forma mais útil ao problema.\n\nDominar H1 significa ter fluência na linguagem dos números: entender que 0,5; 50%; 1/2 e a metade são a mesma coisa, e saber qual representação facilita cada cálculo."
+      "intro": "A Competência 1 da matriz de Matemática do Enem pede que o estudante construa significados para os números naturais, inteiros, racionais e reais. A habilidade H1 é a porta de entrada dessa competência: não basta calcular, é preciso reconhecer o que um número representa dentro de uma situação real e transitar entre suas várias formas de escrita (fração, decimal, porcentagem, notação científica).\n\nO Enem quase nunca pede 'converta 1/4 em decimal' de forma isolada. Em vez disso, apresenta um texto-base — uma conta de luz, uma reportagem, uma bula, um gráfico de inflação — e exige que você interprete o significado do número naquele contexto (um número negativo como saldo devedor, um decimal como medida, uma fração como parte de um todo) e o traduza para a forma mais útil ao problema.\n\nDominar H1 significa ter fluência na linguagem dos números: entender que \\(0{,}5\\); \\(50\\%\\); \\(\\tfrac{1}{2}\\) e a metade são a mesma coisa, e saber qual representação facilita cada cálculo."
       ,
       "secoes": [
         {
           "h": "Conteúdos (objetos de conhecimento) ligados a esta habilidade",
-          "p": "Pelo ANEXO da matriz, H1 ancora-se nos 'Conhecimentos numéricos': operações em conjuntos numéricos (naturais, inteiros, racionais e reais). Para resolvê-la você precisa dominar: as relações de inclusão entre os conjuntos (N ⊂ Z ⊂ Q ⊂ R); a reta numérica e a localização de números; as diferentes representações de um racional (fração, decimal exato, dízima periódica, porcentagem); a notação científica para números muito grandes ou muito pequenos; e a leitura de números em ordens de grandeza (milhares, milhões, bilhões)."
+          "p": "Pelo ANEXO da matriz, H1 ancora-se nos 'Conhecimentos numéricos': operações em conjuntos numéricos (naturais, inteiros, racionais e reais). Para resolvê-la você precisa dominar: as relações de inclusão entre os conjuntos (\\(\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\)); a reta numérica e a localização de números; as diferentes representações de um racional (fração, decimal exato, dízima periódica, porcentagem); a notação científica para números muito grandes ou muito pequenos; e a leitura de números em ordens de grandeza (milhares, milhões, bilhões)."
         },
         {
           "h": "Os significados sociais dos números",
-          "p": "Cada conjunto numérico carrega significados típicos no cotidiano. Os naturais contam objetos (quantidade de pessoas, de produtos). Os inteiros incluem o zero e os negativos, que representam dívidas, temperaturas abaixo de zero, andares de subsolo, saldos negativos, profundidades. Os racionais aparecem em medidas fracionadas, preços, taxas e proporções. Os reais incluem os irracionais (como π e √2), presentes em medidas geométricas — o comprimento de uma circunferência ou a diagonal de um quadrado.\n\nReconhecer o significado é o primeiro passo: um saldo de -R$ 200,00 não é 'menos dinheiro', é uma dívida; uma variação de -3% indica queda, não um valor negativo absoluto."
+          "p": "Cada conjunto numérico carrega significados típicos no cotidiano. Os naturais contam objetos (quantidade de pessoas, de produtos). Os inteiros incluem o zero e os negativos, que representam dívidas, temperaturas abaixo de zero, andares de subsolo, saldos negativos, profundidades. Os racionais aparecem em medidas fracionadas, preços, taxas e proporções. Os reais incluem os irracionais (como \\(\\pi\\) e \\(\\sqrt{2}\\)), presentes em medidas geométricas — o comprimento de uma circunferência ou a diagonal de um quadrado.\n\nReconhecer o significado é o primeiro passo: um saldo de -R$ 200,00 não é 'menos dinheiro', é uma dívida; uma variação de -3% indica queda, não um valor negativo absoluto."
         },
         {
           "h": "Transitar entre representações",
-          "p": "A mesma quantidade pode ser escrita de várias formas, e a habilidade está em escolher a mais conveniente. Para somar partes, frações ou decimais funcionam; para comparar 'quanto representa do total', a porcentagem é mais clara; para registrar a massa de um átomo ou a distância entre estrelas, a notação científica (ex.: 3 × 10⁸ m/s) é indispensável.\n\nRegra prática: porcentagem ÷ 100 = decimal (25% = 0,25 = 1/4). Saber esse trânsito de cor evita erros em quase todas as questões numéricas da prova."
+          "p": "A mesma quantidade pode ser escrita de várias formas, e a habilidade está em escolher a mais conveniente. Para somar partes, frações ou decimais funcionam; para comparar 'quanto representa do total', a porcentagem é mais clara; para registrar a massa de um átomo ou a distância entre estrelas, a notação científica (ex.: \\(3 \\times 10^{8}\\ \\text{m/s}\\)) é indispensável.\n\nRegra prática: porcentagem \\(\\div\\) 100 = decimal (\\(25\\% = 0{,}25 = \\tfrac{1}{4}\\)). Saber esse trânsito de cor evita erros em quase todas as questões numéricas da prova."
         },
         {
           "h": "Ordens de grandeza e leitura crítica",
           "p": "Em contextos sociais, o Enem cobra a leitura de grandes números: orçamentos públicos em bilhões, populações em milhões, dados em terabytes. Confundir milhão com bilhão, ou ler errado uma notação científica, muda completamente a interpretação. Treine a leitura por classes (unidade, milhar, milhão, bilhão) e a conversão para notação científica."
         }
       ],
-      "exemplo": "Texto-base: uma reportagem informa que a dívida pública de um município é de R$ 4,5 × 10⁸ e que sua população é de 1,5 × 10⁵ habitantes. Comando: 'qual a dívida por habitante?'.\n\nRaciocínio: a questão exige reconhecer que dividir a dívida total pela população dá a dívida per capita. Operando com notação científica: (4,5 × 10⁸) ÷ (1,5 × 10⁵) = 3 × 10³ = R$ 3.000 por habitante. O ponto-chave de H1 aqui é interpretar corretamente as representações (notação científica), entender o significado social (dívida per capita) e traduzir o resultado para uma forma legível (R$ 3.000).",
+      "exemplo": "Texto-base: uma reportagem informa que a dívida pública de um município é de \\(R\\$\\ 4{,}5 \\times 10^{8}\\) e que sua população é de \\(1{,}5 \\times 10^{5}\\) habitantes. Comando: 'qual a dívida por habitante?'.\n\nRaciocínio: a questão exige reconhecer que dividir a dívida total pela população dá a dívida per capita. Operando com notação científica: \\((4{,}5 \\times 10^{8}) \\div (1{,}5 \\times 10^{5}) = 3 \\times 10^{3} = R\\$\\ 3.000\\) por habitante. O ponto-chave de H1 aqui é interpretar corretamente as representações (notação científica), entender o significado social (dívida per capita) e traduzir o resultado para uma forma legível (R$ 3.000).",
       "pontos_chave": [
-        "Conheça as relações entre os conjuntos: N ⊂ Z ⊂ Q ⊂ R.",
-        "Domine as conversões: fração ↔ decimal ↔ porcentagem (1/2 = 0,5 = 50%).",
+        "Conheça as relações entre os conjuntos: \\(\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\).",
+        "Domine as conversões: fração ↔ decimal ↔ porcentagem (\\(\\tfrac{1}{2} = 0{,}5 = 50\\%\\)).",
         "Negativos representam dívidas, temperaturas e profundidades; zero é referência.",
         "Use notação científica para números muito grandes ou muito pequenos.",
         "Saiba ler ordens de grandeza: milhar, milhão, bilhão.",
         "Escolha a representação mais conveniente ao problema (comparar = %, somar partes = fração).",
-        "Irracionais (π, √2) aparecem em medidas geométricas e são números reais."
+        "Irracionais (\\(\\pi\\), \\(\\sqrt{2}\\)) aparecem em medidas geométricas e são números reais."
       ],
-      "dica_prova": "O Enem sempre embute o número num contexto: conta, reportagem, rótulo. Leia o que o número significa antes de operar. Pegadinha frequente: trocar a vírgula de lugar (0,5 vs 5%), confundir milhão com bilhão, ou esquecer que 'desconto de 25%' significa pagar 75%. Estime a ordem de grandeza da resposta antes de calcular — isso elimina alternativas absurdas."
+      "dica_prova": "O Enem sempre embute o número num contexto: conta, reportagem, rótulo. Leia o que o número significa antes de operar. Pegadinha frequente: trocar a vírgula de lugar (\\(0{,}5\\) vs \\(5\\%\\)), confundir milhão com bilhão, ou esquecer que 'desconto de \\(25\\%\\)' significa pagar \\(75\\%\\). Estime a ordem de grandeza da resposta antes de calcular — isso elimina alternativas absurdas."
     },
     {
       "sid": "h2-identificar-padroes-numericos-ou-principios-de-contagem",
@@ -44,29 +44,29 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos numéricos'): sequências e progressões e princípios de contagem. Você precisa dominar: progressão aritmética (PA), em que se soma sempre a mesma razão r (aₙ = a₁ + (n−1)·r); progressão geométrica (PG), em que se multiplica sempre pela razão q (aₙ = a₁·q^(n−1)); o princípio fundamental da contagem (princípio multiplicativo); e noções de fatorial, arranjos e combinações."
+          "p": "Do ANEXO ('Conhecimentos numéricos'): sequências e progressões e princípios de contagem. Você precisa dominar: progressão aritmética (PA), em que se soma sempre a mesma razão \\(r\\) (\\(a_n = a_1 + (n-1)\\cdot r\\)); progressão geométrica (PG), em que se multiplica sempre pela razão \\(q\\) (\\(a_n = a_1\\cdot q^{\\,n-1}\\)); o princípio fundamental da contagem (princípio multiplicativo); e noções de fatorial, arranjos e combinações."
         },
         {
           "h": "Identificando padrões e progressões",
-          "p": "Diante de uma sequência, pergunte-se: o que faço com um termo para obter o próximo? Se somo um valor fixo, é PA (ex.: 3, 7, 11, 15 — razão 4). Se multiplico por um valor fixo, é PG (ex.: 2, 6, 18, 54 — razão 3). Há ainda padrões não-lineares (quadrados, sequência de Fibonacci, padrões geométricos em mosaicos).\n\nPara achar um termo distante sem listar todos, use as fórmulas: na PA, aₙ = a₁ + (n−1)·r; na PG, aₙ = a₁·q^(n−1). A soma dos n primeiros termos da PA é Sₙ = (a₁ + aₙ)·n / 2."
+          "p": "Diante de uma sequência, pergunte-se: o que faço com um termo para obter o próximo? Se somo um valor fixo, é PA (ex.: \\(3, 7, 11, 15\\) — razão \\(4\\)). Se multiplico por um valor fixo, é PG (ex.: \\(2, 6, 18, 54\\) — razão \\(3\\)). Há ainda padrões não-lineares (quadrados, sequência de Fibonacci, padrões geométricos em mosaicos).\n\nPara achar um termo distante sem listar todos, use as fórmulas: na PA, \\(a_n = a_1 + (n-1)\\cdot r\\); na PG, \\(a_n = a_1\\cdot q^{\\,n-1}\\). A soma dos \\(n\\) primeiros termos da PA é \\(S_n = \\dfrac{(a_1 + a_n)\\cdot n}{2}\\)."
         },
         {
           "h": "Princípio multiplicativo da contagem",
-          "p": "Se uma decisão pode ser tomada em etapas independentes, multiplica-se o número de possibilidades de cada etapa. Para formar uma placa com 3 letras (26 opções cada) seguidas de 4 números (10 opções cada): 26 × 26 × 26 × 10 × 10 × 10 × 10 possibilidades. Esse é o princípio que resolve a maioria das questões de contagem do Enem."
+          "p": "Se uma decisão pode ser tomada em etapas independentes, multiplica-se o número de possibilidades de cada etapa. Para formar uma placa com 3 letras (26 opções cada) seguidas de 4 números (10 opções cada): \\(26 \\times 26 \\times 26 \\times 10 \\times 10 \\times 10 \\times 10\\) possibilidades. Esse é o princípio que resolve a maioria das questões de contagem do Enem."
         },
         {
           "h": "Arranjos e combinações: importa a ordem?",
-          "p": "A grande decisão em contagem é: a ORDEM dos elementos importa? Se importa (pódio, senhas, filas), é arranjo. Se NÃO importa (comissões, escolha de um grupo, apertos de mão), é combinação, calculada por C(n,p) = n! / [p!·(n−p)!]. Exemplo: escolher 3 representantes de uma turma de 10 é combinação (a ordem não muda o grupo); montar um pódio com 3 dos 10 é arranjo."
+          "p": "A grande decisão em contagem é: a ORDEM dos elementos importa? Se importa (pódio, senhas, filas), é arranjo. Se NÃO importa (comissões, escolha de um grupo, apertos de mão), é combinação, calculada por \\(C(n,p) = \\dfrac{n!}{p!\\,(n-p)!}\\). Exemplo: escolher 3 representantes de uma turma de 10 é combinação (a ordem não muda o grupo); montar um pódio com 3 dos 10 é arranjo."
         }
       ],
-      "exemplo": "Texto-base: um auditório enche fileiras seguindo um padrão — a 1ª fileira tem 12 cadeiras, e cada fileira seguinte tem 4 cadeiras a mais que a anterior. Comando: 'quantas cadeiras há na 10ª fileira?'.\n\nRaciocínio: reconhecemos uma PA com a₁ = 12 e razão r = 4. Aplicando aₙ = a₁ + (n−1)·r: a₁₀ = 12 + (10−1)·4 = 12 + 36 = 48 cadeiras. H2 está em identificar que o padrão é aditivo constante (PA) e usar a fórmula para alcançar um termo distante sem desenhar todas as fileiras.",
+      "exemplo": "Texto-base: um auditório enche fileiras seguindo um padrão — a 1ª fileira tem 12 cadeiras, e cada fileira seguinte tem 4 cadeiras a mais que a anterior. Comando: 'quantas cadeiras há na 10ª fileira?'.\n\nRaciocínio: reconhecemos uma PA com \\(a_1 = 12\\) e razão \\(r = 4\\). Aplicando \\(a_n = a_1 + (n-1)\\cdot r\\): \\(a_{10} = 12 + (10-1)\\cdot 4 = 12 + 36 = 48\\) cadeiras. H2 está em identificar que o padrão é aditivo constante (PA) e usar a fórmula para alcançar um termo distante sem desenhar todas as fileiras.",
       "pontos_chave": [
-        "PA: soma-se razão constante; termo geral aₙ = a₁ + (n−1)·r.",
-        "PG: multiplica-se razão constante; termo geral aₙ = a₁·q^(n−1).",
-        "Soma da PA: Sₙ = (a₁ + aₙ)·n / 2.",
+        "PA: soma-se razão constante; termo geral \\(a_n = a_1 + (n-1)\\cdot r\\).",
+        "PG: multiplica-se razão constante; termo geral \\(a_n = a_1\\cdot q^{\\,n-1}\\).",
+        "Soma da PA: \\(S_n = \\dfrac{(a_1 + a_n)\\cdot n}{2}\\).",
         "Princípio multiplicativo: etapas independentes → multiplique as possibilidades.",
         "Arranjo: a ordem importa (pódio, senha, fila).",
-        "Combinação: a ordem NÃO importa; C(n,p) = n! / [p!(n−p)!].",
+        "Combinação: a ordem NÃO importa; \\(C(n,p) = \\dfrac{n!}{p!\\,(n-p)!}\\).",
         "Antes de contar, pergunte sempre: a ordem faz diferença?"
       ],
       "dica_prova": "A pegadinha número um é confundir arranjo com combinação. Teste mental: trocar dois elementos de lugar gera um caso novo? Se sim, ordem importa (arranjo); se não, combinação. Em sequências, calcule a diferença e a razão entre termos consecutivos para decidir entre PA e PG. O Enem adora padrões com figuras (palitos, azulejos): conte os primeiros casos, ache a lei e generalize."
@@ -79,33 +79,33 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos numéricos'): razões e proporções, porcentagem e juros, divisibilidade e fatoração. Você precisa dominar: porcentagem (cálculo, aumento e desconto sucessivos); juros simples (J = C·i·t) e juros compostos (M = C·(1+i)ⁿ); razão e proporção; regra de três simples e composta; divisão proporcional."
+          "p": "Do ANEXO ('Conhecimentos numéricos'): razões e proporções, porcentagem e juros, divisibilidade e fatoração. Você precisa dominar: porcentagem (cálculo, aumento e desconto sucessivos); juros simples (\\(J = C\\cdot i\\cdot t\\)) e juros compostos (\\(M = C\\cdot (1+i)^{n}\\)); razão e proporção; regra de três simples e composta; divisão proporcional."
         },
         {
           "h": "Porcentagem: a estrela do Enem",
-          "p": "Porcentagem é razão de denominador 100. Para calcular x% de um valor, multiplique pelo decimal correspondente (20% de 150 = 0,20 × 150 = 30). Para aumentos use o fator (1 + i): aumentar 30% = multiplicar por 1,30. Para descontos use (1 − i): tirar 20% = multiplicar por 0,80.\n\nAumentos e descontos sucessivos NÃO se somam: subir 10% e depois 10% dá 1,10 × 1,10 = 1,21, ou seja, 21% (não 20%). Um aumento de 50% seguido de desconto de 50% resulta em 0,75 do valor original (perda de 25%)."
+          "p": "Porcentagem é razão de denominador 100. Para calcular \\(x\\%\\) de um valor, multiplique pelo decimal correspondente (\\(20\\%\\) de \\(150 = 0{,}20 \\times 150 = 30\\)). Para aumentos use o fator \\((1 + i)\\): aumentar \\(30\\%\\) = multiplicar por \\(1{,}30\\). Para descontos use \\((1 - i)\\): tirar \\(20\\%\\) = multiplicar por \\(0{,}80\\).\n\nAumentos e descontos sucessivos NÃO se somam: subir \\(10\\%\\) e depois \\(10\\%\\) dá \\(1{,}10 \\times 1{,}10 = 1{,}21\\), ou seja, \\(21\\%\\) (não \\(20\\%\\)). Um aumento de \\(50\\%\\) seguido de desconto de \\(50\\%\\) resulta em \\(0{,}75\\) do valor original (perda de \\(25\\%\\))."
         },
         {
           "h": "Juros simples e compostos",
-          "p": "Nos juros simples, o juro incide sempre sobre o capital inicial: J = C·i·t (capital × taxa × tempo) e montante M = C·(1 + i·t). Nos juros compostos, o juro incide sobre o montante acumulado ('juro sobre juro'): M = C·(1 + i)ⁿ. No longo prazo, os compostos crescem muito mais rápido. Atenção à unidade da taxa: se a taxa é mensal, o tempo deve estar em meses."
+          "p": "Nos juros simples, o juro incide sempre sobre o capital inicial: \\(J = C\\cdot i\\cdot t\\) (capital \\(\\times\\) taxa \\(\\times\\) tempo) e montante \\(M = C\\cdot (1 + i\\cdot t)\\). Nos juros compostos, o juro incide sobre o montante acumulado ('juro sobre juro'): \\(M = C\\cdot (1 + i)^{n}\\). No longo prazo, os compostos crescem muito mais rápido. Atenção à unidade da taxa: se a taxa é mensal, o tempo deve estar em meses."
         },
         {
           "h": "Razão, proporção e regra de três",
-          "p": "Razão compara duas grandezas (velocidade = distância/tempo; densidade demográfica = população/área). Proporção é a igualdade de duas razões. A regra de três resolve proporções: monte as grandezas em colunas, verifique se são diretas ou inversas e aplique a proporcionalidade. Na divisão proporcional, reparte-se um total na razão dada (ex.: lucro dividido entre sócios conforme o investimento de cada um)."
+          "p": "Razão compara duas grandezas (\\(\\text{velocidade} = \\dfrac{\\text{distância}}{\\text{tempo}}\\); \\(\\text{densidade demográfica} = \\dfrac{\\text{população}}{\\text{área}}\\)). Proporção é a igualdade de duas razões. A regra de três resolve proporções: monte as grandezas em colunas, verifique se são diretas ou inversas e aplique a proporcionalidade. Na divisão proporcional, reparte-se um total na razão dada (ex.: lucro dividido entre sócios conforme o investimento de cada um)."
         }
       ],
-      "exemplo": "Texto-base: uma loja anuncia uma geladeira por R$ 2.000 à vista, ou com desconto de 5% no boleto. Em outra promoção, o mesmo produto sofre dois aumentos sucessivos de 10% sobre um preço antigo de R$ 1.500. Comando típico: 'qual o valor com o desconto de 5%?'.\n\nRaciocínio: aplicar o fator de desconto. R$ 2.000 × 0,95 = R$ 1.900. Já a variante com aumentos sucessivos sobre R$ 1.500 seria 1.500 × 1,10 × 1,10 = 1.500 × 1,21 = R$ 1.815 — note que o resultado não é 1.500 + 20%. H3 testa exatamente o uso correto dos fatores multiplicativos e a percepção de que sucessões percentuais não se somam.",
+      "exemplo": "Texto-base: uma loja anuncia uma geladeira por R$ 2.000 à vista, ou com desconto de 5% no boleto. Em outra promoção, o mesmo produto sofre dois aumentos sucessivos de \\(10\\%\\) sobre um preço antigo de R$ 1.500. Comando típico: 'qual o valor com o desconto de \\(5\\%\\)?'.\n\nRaciocínio: aplicar o fator de desconto. \\(R\\$\\ 2.000 \\times 0{,}95 = R\\$\\ 1.900\\). Já a variante com aumentos sucessivos sobre R$ 1.500 seria \\(1.500 \\times 1{,}10 \\times 1{,}10 = 1.500 \\times 1{,}21 = R\\$\\ 1.815\\) — note que o resultado não é \\(1.500 + 20\\%\\). H3 testa exatamente o uso correto dos fatores multiplicativos e a percepção de que sucessões percentuais não se somam.",
       "pontos_chave": [
-        "x% de um valor = valor × (x/100).",
-        "Aumento de i%: multiplique por (1 + i); desconto de i%: por (1 − i).",
+        "\\(x\\%\\) de um valor \\(= \\text{valor} \\times \\dfrac{x}{100}\\).",
+        "Aumento de \\(i\\%\\): multiplique por \\((1 + i)\\); desconto de \\(i\\%\\): por \\((1 - i)\\).",
         "Aumentos/descontos sucessivos se MULTIPLICAM, não se somam.",
-        "Juros simples: M = C·(1 + i·t); incide sobre o capital inicial.",
-        "Juros compostos: M = C·(1 + i)ⁿ; juro sobre juro.",
+        "Juros simples: \\(M = C\\cdot (1 + i\\cdot t)\\); incide sobre o capital inicial.",
+        "Juros compostos: \\(M = C\\cdot (1 + i)^{n}\\); juro sobre juro.",
         "Taxa e tempo devem estar na mesma unidade.",
         "Regra de três: identifique se é direta ou inversa antes de multiplicar.",
         "Divisão proporcional reparte o total conforme a razão dada."
       ],
-      "dica_prova": "Memorize os fatores: 'aumentar/descontar = multiplicar pelo fator', isso é mais rápido e seguro que somar partes. A pegadinha clássica é somar percentuais sucessivos (50% + 50% ≠ 100% de ganho real). Em juros, confira sempre se a taxa e o prazo têm a mesma unidade. Estime o resultado para descartar alternativas; em problemas de regra de três, decida direta × inversa pelo sentido (se uma cresce e a outra diminui, é inversa)."
+      "dica_prova": "Memorize os fatores: 'aumentar/descontar = multiplicar pelo fator', isso é mais rápido e seguro que somar partes. A pegadinha clássica é somar percentuais sucessivos (\\(50\\% + 50\\% \\ne 100\\%\\) de ganho real). Em juros, confira sempre se a taxa e o prazo têm a mesma unidade. Estime o resultado para descartar alternativas; em problemas de regra de três, decida direta × inversa pelo sentido (se uma cresce e a outra diminui, é inversa)."
     },
     {
       "sid": "h4-avaliar-a-razoabilidade-de-um-resultado-numerico-na-construcao-de-argumentos-sobre-afirmacoes-quantitativas",
@@ -115,32 +115,32 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "H4 mobiliza todos os 'Conhecimentos numéricos' (porcentagem, proporções, ordens de grandeza), mas com foco em estimativa e verificação. Você precisa dominar: estimativa e arredondamento; ordens de grandeza; limites lógicos de uma porcentagem (não se pode reduzir mais de 100% de uma quantidade física); e a noção de proporcionalidade para checar se uma extrapolação é razoável."
+          "p": "H4 mobiliza todos os 'Conhecimentos numéricos' (porcentagem, proporções, ordens de grandeza), mas com foco em estimativa e verificação. Você precisa dominar: estimativa e arredondamento; ordens de grandeza; limites lógicos de uma porcentagem (não se pode reduzir mais de \\(100\\%\\) de uma quantidade física); e a noção de proporcionalidade para checar se uma extrapolação é razoável."
         },
         {
           "h": "O que torna um número 'razoável'",
-          "p": "Um resultado é razoável quando respeita os limites do contexto: uma probabilidade está entre 0 e 1 (ou 0% e 100%); uma redução percentual de uma quantidade física não passa de 100%; uma população não é fracionária; uma média está entre o menor e o maior dado. Sempre que um número estoura esses limites, há erro de cálculo ou de interpretação."
+          "p": "Um resultado é razoável quando respeita os limites do contexto: uma probabilidade está entre \\(0\\) e \\(1\\) (ou \\(0\\%\\) e \\(100\\%\\)); uma redução percentual de uma quantidade física não passa de \\(100\\%\\); uma população não é fracionária; uma média está entre o menor e o maior dado. Sempre que um número estoura esses limites, há erro de cálculo ou de interpretação."
         },
         {
           "h": "Estimativa rápida para checar",
-          "p": "Antes de aceitar um resultado, faça uma conta de cabeça aproximada. Se um produto custa R$ 49,90 e há 30% de desconto, o desconto é cerca de R$ 15 — então o preço final fica perto de R$ 35; uma alternativa que diga R$ 5 ou R$ 45 está claramente errada. Arredondar para números fáceis (50, 100, 1000) e estimar a ordem de grandeza é a ferramenta central de H4."
+          "p": "Antes de aceitar um resultado, faça uma conta de cabeça aproximada. Se um produto custa R$ 49,90 e há \\(30\\%\\) de desconto, o desconto é cerca de R$ 15 — então o preço final fica perto de R$ 35; uma alternativa que diga R$ 5 ou R$ 45 está claramente errada. Arredondar para números fáceis (50, 100, 1000) e estimar a ordem de grandeza é a ferramenta central de H4."
         },
         {
           "h": "Detectando argumentos enganosos",
-          "p": "O Enem cobra a leitura crítica de afirmações: 'o lucro cresceu 300%' (verificável?), 'a maioria prefere X' (a base é grande o suficiente?), escalas de gráfico que distorcem a impressão visual. Avaliar a razoabilidade é confrontar o número apresentado com o cálculo correto e com o senso de proporção. Muitas vezes a resposta certa é identificar POR QUE a afirmação é inconsistente."
+          "p": "O Enem cobra a leitura crítica de afirmações: 'o lucro cresceu \\(300\\%\\)' (verificável?), 'a maioria prefere X' (a base é grande o suficiente?), escalas de gráfico que distorcem a impressão visual. Avaliar a razoabilidade é confrontar o número apresentado com o cálculo correto e com o senso de proporção. Muitas vezes a resposta certa é identificar POR QUE a afirmação é inconsistente."
         }
       ],
-      "exemplo": "Texto-base: uma propaganda afirma que um novo plano de celular 'oferece 150% mais minutos pelo mesmo preço', passando de 100 para 200 minutos. Comando: 'avalie se a afirmação está correta'.\n\nRaciocínio: o aumento real foi de 100 para 200 minutos, ou seja, +100 minutos sobre 100, o que equivale a um aumento de 100%, não de 150%. A afirmação exagera. H4 está em calcular a variação percentual correta — (200−100)/100 = 1 = 100% — e usá-la para refutar o argumento. Reconhecer que 'dobrar' equivale a +100% (e não +200% nem +150%) é a essência da habilidade.",
+      "exemplo": "Texto-base: uma propaganda afirma que um novo plano de celular 'oferece \\(150\\%\\) mais minutos pelo mesmo preço', passando de 100 para 200 minutos. Comando: 'avalie se a afirmação está correta'.\n\nRaciocínio: o aumento real foi de 100 para 200 minutos, ou seja, +100 minutos sobre 100, o que equivale a um aumento de \\(100\\%\\), não de \\(150\\%\\). A afirmação exagera. H4 está em calcular a variação percentual correta — \\(\\dfrac{200-100}{100} = 1 = 100\\%\\) — e usá-la para refutar o argumento. Reconhecer que 'dobrar' equivale a \\(+100\\%\\) (e não \\(+200\\%\\) nem \\(+150\\%\\)) é a essência da habilidade.",
       "pontos_chave": [
-        "Probabilidade fica entre 0 e 1 (0% a 100%); valores fora disso são impossíveis.",
-        "Redução de uma quantidade física não ultrapassa 100%.",
-        "Dobrar = aumento de 100%; triplicar = aumento de 200%.",
+        "Probabilidade fica entre \\(0\\) e \\(1\\) (\\(0\\%\\) a \\(100\\%\\)); valores fora disso são impossíveis.",
+        "Redução de uma quantidade física não ultrapassa \\(100\\%\\).",
+        "Dobrar = aumento de \\(100\\%\\); triplicar = aumento de \\(200\\%\\).",
         "Estime por arredondamento antes de aceitar um resultado.",
         "Cheque a ordem de grandeza: a resposta cabe no contexto?",
         "Uma média sempre fica entre o menor e o maior valor do conjunto.",
         "Desconfie de gráficos com eixo cortado ou escala distorcida."
       ],
-      "dica_prova": "Esta habilidade premia quem estima. Faça a 'conta de mercado' rápida e compare com o valor da afirmação. Pegadinha recorrente: confundir 'aumentar para o dobro' (+100%) com 'aumentar em 200%'. O Enem também usa esta habilidade interdisciplinarmente (com Ciências Humanas e Natureza) em afirmações sobre dados sociais e ambientais — o segredo é sempre refazer o cálculo e ver se o número bate."
+      "dica_prova": "Esta habilidade premia quem estima. Faça a 'conta de mercado' rápida e compare com o valor da afirmação. Pegadinha recorrente: confundir 'aumentar para o dobro' (\\(+100\\%\\)) com 'aumentar em \\(200\\%\\)'. O Enem também usa esta habilidade interdisciplinarmente (com Ciências Humanas e Natureza) em afirmações sobre dados sociais e ambientais — o segredo é sempre refazer o cálculo e ver se o número bate."
     },
     {
       "sid": "h5-avaliar-propostas-de-intervencao-na-realidade-utilizando-conhecimentos-numericos",
@@ -158,24 +158,24 @@
         },
         {
           "h": "Custo total e custo efetivo",
-          "p": "Em propostas financeiras, o que decide é o custo total (soma de todas as parcelas, incluindo juros) ou o custo efetivo (taxa real embutida). Um financiamento 'sem entrada' pode ter parcelas maiores que compensam — calcule a soma. Em investimentos, compare os montantes finais usando M = C·(1 + i)ⁿ para juros compostos."
+          "p": "Em propostas financeiras, o que decide é o custo total (soma de todas as parcelas, incluindo juros) ou o custo efetivo (taxa real embutida). Um financiamento 'sem entrada' pode ter parcelas maiores que compensam — calcule a soma. Em investimentos, compare os montantes finais usando \\(M = C\\cdot (1 + i)^{n}\\) para juros compostos."
         },
         {
           "h": "Escolher pelo critério dado",
           "p": "Leia com cuidado o critério: a questão quer o MENOR custo, o MAIOR rendimento, a MENOR diferença? A melhor proposta segundo um critério pode não ser a melhor segundo outro. H5 exige alinhar o cálculo ao objetivo declarado no comando e, às vezes, justificar a escolha (avaliar a proposta de intervenção)."
         }
       ],
-      "exemplo": "Texto-base: uma TV custa R$ 3.000 à vista. O cliente pode pagar à vista ou em 3 parcelas de R$ 1.080. Comando: 'qual a forma mais econômica e quanto se economiza pagando à vista?'.\n\nRaciocínio: o parcelado totaliza 3 × R$ 1.080 = R$ 3.240. Comparando com os R$ 3.000 à vista na mesma base (valor pago), o parcelado embute R$ 240 a mais (juros). A forma mais econômica é à vista, com economia de R$ 240, equivalente a 8% sobre o preço à vista. H5 está em colocar as duas propostas na mesma base (total pago) e decidir pelo critério de menor custo.",
+      "exemplo": "Texto-base: uma TV custa R$ 3.000 à vista. O cliente pode pagar à vista ou em 3 parcelas de R$ 1.080. Comando: 'qual a forma mais econômica e quanto se economiza pagando à vista?'.\n\nRaciocínio: o parcelado totaliza \\(3 \\times R\\$\\ 1.080 = R\\$\\ 3.240\\). Comparando com os R$ 3.000 à vista na mesma base (valor pago), o parcelado embute R$ 240 a mais (juros). A forma mais econômica é à vista, com economia de R$ 240, equivalente a \\(8\\%\\) sobre o preço à vista. H5 está em colocar as duas propostas na mesma base (total pago) e decidir pelo critério de menor custo.",
       "pontos_chave": [
         "Compare propostas sempre na MESMA base (mesmo prazo, mesma unidade).",
         "Calcule o custo total de cada opção (some todas as parcelas/juros).",
         "À vista × parcelado: confronte o total pago, não o valor da parcela.",
-        "Investimentos: compare montantes finais com M = C·(1 + i)ⁿ.",
+        "Investimentos: compare montantes finais com \\(M = C\\cdot (1 + i)^{n}\\).",
         "Identifique o critério do comando: menor custo? maior retorno?",
         "A melhor opção depende do critério escolhido.",
         "Justifique a escolha com o número calculado (não com impressão)."
       ],
-      "dica_prova": "H5 é a 'matemática financeira de consumidor'. A pegadinha é a parcela baixa que esconde um total alto — sempre multiplique parcela × número de parcelas. Cuidado com o critério pedido: às vezes a questão quer a economia em reais, às vezes em porcentagem. O Enem valoriza decisões responsáveis (consumo, sustentabilidade, orçamento familiar), então o contexto costuma envolver intervenção social ou econômica real."
+      "dica_prova": "H5 é a 'matemática financeira de consumidor'. A pegadinha é a parcela baixa que esconde um total alto — sempre multiplique \\(\\text{parcela} \\times \\text{número de parcelas}\\). Cuidado com o critério pedido: às vezes a questão quer a economia em reais, às vezes em porcentagem. O Enem valoriza decisões responsáveis (consumo, sustentabilidade, orçamento familiar), então o contexto costuma envolver intervenção social ou econômica real."
     },
     {
       "sid": "h6-interpretar-a-localizacao-e-a-movimentacao-de-pessoas-objetos-no-espaco-tridimensional-e-sua-representacao-no-espaco-bidimensional",
@@ -189,7 +189,7 @@
         },
         {
           "h": "Localização: coordenadas e referenciais",
-          "p": "Localizar é informar a posição em relação a um referencial. No plano cartesiano, um ponto é dado por (x, y); em mapas, por linhas e colunas ou por direções (norte, sul, leste, oeste) e distâncias. Em planos de cidades, ruas funcionam como eixos. A habilidade exige ler corretamente esses sistemas e converter instruções verbais ('três quadras ao norte') em deslocamentos."
+          "p": "Localizar é informar a posição em relação a um referencial. No plano cartesiano, um ponto é dado por \\((x, y)\\); em mapas, por linhas e colunas ou por direções (norte, sul, leste, oeste) e distâncias. Em planos de cidades, ruas funcionam como eixos. A habilidade exige ler corretamente esses sistemas e converter instruções verbais ('três quadras ao norte') em deslocamentos."
         },
         {
           "h": "Movimentação e trajetos",
@@ -200,9 +200,9 @@
           "p": "Um objeto tridimensional pode ser representado por suas vistas (frontal, lateral, superior/de cima) ou por sua planificação (o sólido 'aberto' no plano). Saber qual vista corresponde a qual ângulo de observação, e qual planificação monta um dado sólido, é cobrança recorrente. Treine imaginar cubos, prismas e pirâmides vistos de diferentes lados."
         }
       ],
-      "exemplo": "Texto-base: a planta de um bairro é uma malha quadriculada onde cada quadra mede 100 m. Um entregador sai do ponto A e segue 3 quadras a leste e 4 quadras ao norte até o ponto B. Comando: 'qual a menor distância em linha reta entre A e B?'.\n\nRaciocínio: o deslocamento forma os catetos de um triângulo retângulo: 300 m (leste) e 400 m (norte). A distância em linha reta é a hipotenusa: √(300² + 400²) = √(90.000 + 160.000) = √250.000 = 500 m. H6 está em interpretar a movimentação na malha (2D), converter quadras em metros e usar a geometria (Pitágoras) para achar a distância real.",
+      "exemplo": "Texto-base: a planta de um bairro é uma malha quadriculada onde cada quadra mede 100 m. Um entregador sai do ponto A e segue 3 quadras a leste e 4 quadras ao norte até o ponto B. Comando: 'qual a menor distância em linha reta entre A e B?'.\n\nRaciocínio: o deslocamento forma os catetos de um triângulo retângulo: \\(300\\ \\text{m}\\) (leste) e \\(400\\ \\text{m}\\) (norte). A distância em linha reta é a hipotenusa: \\(\\sqrt{300^{2} + 400^{2}} = \\sqrt{90.000 + 160.000} = \\sqrt{250.000} = 500\\ \\text{m}\\). H6 está em interpretar a movimentação na malha (2D), converter quadras em metros e usar a geometria (Pitágoras) para achar a distância real.",
       "pontos_chave": [
-        "Plano cartesiano: ponto (x, y); leia eixos e referenciais corretamente.",
+        "Plano cartesiano: ponto \\((x, y)\\); leia eixos e referenciais corretamente.",
         "Pontos cardeais (N, S, L, O) orientam deslocamentos em mapas.",
         "Trajetos em malha = passos horizontais + verticais.",
         "Distância em linha reta entre dois pontos: teorema de Pitágoras.",
@@ -220,27 +220,27 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos geométricos'): características das figuras planas e espaciais; ângulos; simetrias; congruência e semelhança de triângulos; teorema de Tales; circunferências. Você precisa dominar: classificação de polígonos (lados, ângulos, regulares ou não); elementos dos sólidos (faces, arestas, vértices); a relação de Euler (V − A + F = 2 para poliedros convexos); e os critérios de semelhança e congruência."
+          "p": "Do ANEXO ('Conhecimentos geométricos'): características das figuras planas e espaciais; ângulos; simetrias; congruência e semelhança de triângulos; teorema de Tales; circunferências. Você precisa dominar: classificação de polígonos (lados, ângulos, regulares ou não); elementos dos sólidos (faces, arestas, vértices); a relação de Euler (\\(V - A + F = 2\\) para poliedros convexos); e os critérios de semelhança e congruência."
         },
         {
           "h": "Figuras planas e seus elementos",
-          "p": "Polígonos classificam-se pelo número de lados (triângulo, quadrilátero, pentágono...) e por regularidade (lados e ângulos iguais = regular). A soma dos ângulos internos de um polígono de n lados é (n−2)·180°. O círculo e a circunferência têm raio, diâmetro e relações próprias. Conhecer estas propriedades permite identificar figuras a partir de descrições ou imagens."
+          "p": "Polígonos classificam-se pelo número de lados (triângulo, quadrilátero, pentágono...) e por regularidade (lados e ângulos iguais = regular). A soma dos ângulos internos de um polígono de \\(n\\) lados é \\((n-2)\\cdot 180^{\\circ}\\). O círculo e a circunferência têm raio, diâmetro e relações próprias. Conhecer estas propriedades permite identificar figuras a partir de descrições ou imagens."
         },
         {
           "h": "Sólidos geométricos: faces, arestas e vértices",
-          "p": "Os sólidos dividem-se em poliedros (faces planas: prismas, pirâmides) e corpos redondos (cilindro, cone, esfera). Para poliedros convexos vale a relação de Euler: V − A + F = 2 (vértices − arestas + faces). Identificar um sólido a partir da planificação, das vistas ou da contagem de elementos é cobrança típica de H7."
+          "p": "Os sólidos dividem-se em poliedros (faces planas: prismas, pirâmides) e corpos redondos (cilindro, cone, esfera). Para poliedros convexos vale a relação de Euler: \\(V - A + F = 2\\) (vértices − arestas + faces). Identificar um sólido a partir da planificação, das vistas ou da contagem de elementos é cobrança típica de H7."
         },
         {
           "h": "Semelhança, congruência e simetria",
           "p": "Duas figuras são congruentes quando têm forma e tamanho iguais; semelhantes quando têm a mesma forma mas tamanhos proporcionais (mesmos ângulos, lados proporcionais). O teorema de Tales relaciona segmentos cortados por retas paralelas. A simetria (axial ou central) também é uma característica cobrada, sobretudo em logotipos e mosaicos."
         }
       ],
-      "exemplo": "Texto-base: uma embalagem tem o formato de um poliedro com 6 faces quadradas. Comando: 'identifique o sólido e calcule quantas arestas e vértices ele possui'.\n\nRaciocínio: seis faces quadradas caracterizam um cubo (hexaedro regular). Um cubo tem 8 vértices e 12 arestas. Conferindo pela relação de Euler: V − A + F = 8 − 12 + 6 = 2, o que confirma tratar-se de um poliedro convexo válido. H7 está em reconhecer o sólido por suas características (faces) e identificar seus elementos, usando a relação de Euler como verificação.",
+      "exemplo": "Texto-base: uma embalagem tem o formato de um poliedro com 6 faces quadradas. Comando: 'identifique o sólido e calcule quantas arestas e vértices ele possui'.\n\nRaciocínio: seis faces quadradas caracterizam um cubo (hexaedro regular). Um cubo tem 8 vértices e 12 arestas. Conferindo pela relação de Euler: \\(V - A + F = 8 - 12 + 6 = 2\\), o que confirma tratar-se de um poliedro convexo válido. H7 está em reconhecer o sólido por suas características (faces) e identificar seus elementos, usando a relação de Euler como verificação.",
       "pontos_chave": [
         "Polígono regular: todos os lados e ângulos iguais.",
-        "Soma dos ângulos internos de um polígono: (n−2)·180°.",
+        "Soma dos ângulos internos de um polígono: \\((n-2)\\cdot 180^{\\circ}\\).",
         "Poliedros têm faces planas; corpos redondos têm superfícies curvas.",
-        "Relação de Euler (poliedros convexos): V − A + F = 2.",
+        "Relação de Euler (poliedros convexos): \\(V - A + F = 2\\).",
         "Congruência: mesma forma e tamanho; semelhança: mesma forma, tamanho proporcional.",
         "Teorema de Tales: retas paralelas cortam transversais em segmentos proporcionais.",
         "Simetria axial (eixo) e central (ponto) são características frequentes."
@@ -255,11 +255,11 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos geométricos'): congruência e semelhança de triângulos; teorema de Tales; relações métricas nos triângulos; trigonometria do ângulo agudo (seno, cosseno, tangente); circunferências; ângulos. Você precisa dominar: teorema de Pitágoras (a² = b² + c²); semelhança de triângulos; Tales; e as razões trigonométricas no triângulo retângulo."
+          "p": "Do ANEXO ('Conhecimentos geométricos'): congruência e semelhança de triângulos; teorema de Tales; relações métricas nos triângulos; trigonometria do ângulo agudo (seno, cosseno, tangente); circunferências; ângulos. Você precisa dominar: teorema de Pitágoras (\\(a^{2} = b^{2} + c^{2}\\)); semelhança de triângulos; Tales; e as razões trigonométricas no triângulo retângulo."
         },
         {
           "h": "Teorema de Pitágoras e relações métricas",
-          "p": "No triângulo retângulo, a² = b² + c² (hipotenusa² = soma dos quadrados dos catetos). É a ferramenta mais usada: calcular alturas, distâncias e diagonais. As relações métricas (envolvendo a altura relativa à hipotenusa e as projeções dos catetos) ampliam o que se pode calcular num triângulo retângulo."
+          "p": "No triângulo retângulo, \\(a^{2} = b^{2} + c^{2}\\) (hipotenusa\\(^{2}\\) = soma dos quadrados dos catetos). É a ferramenta mais usada: calcular alturas, distâncias e diagonais. As relações métricas (envolvendo a altura relativa à hipotenusa e as projeções dos catetos) ampliam o que se pode calcular num triângulo retângulo."
         },
         {
           "h": "Semelhança e teorema de Tales",
@@ -267,16 +267,16 @@
         },
         {
           "h": "Trigonometria do ângulo agudo",
-          "p": "As razões trigonométricas relacionam ângulos e lados do triângulo retângulo: seno = cateto oposto/hipotenusa; cosseno = cateto adjacente/hipotenusa; tangente = cateto oposto/cateto adjacente. Com um ângulo e um lado, calculam-se os demais. São essenciais em rampas, telhados, inclinações e visadas. Vale memorizar os valores de 30°, 45° e 60°."
+          "p": "As razões trigonométricas relacionam ângulos e lados do triângulo retângulo: \\(\\text{seno} = \\dfrac{\\text{cateto oposto}}{\\text{hipotenusa}}\\); \\(\\text{cosseno} = \\dfrac{\\text{cateto adjacente}}{\\text{hipotenusa}}\\); \\(\\text{tangente} = \\dfrac{\\text{cateto oposto}}{\\text{cateto adjacente}}\\). Com um ângulo e um lado, calculam-se os demais. São essenciais em rampas, telhados, inclinações e visadas. Vale memorizar os valores de \\(30^{\\circ}\\), \\(45^{\\circ}\\) e \\(60^{\\circ}\\)."
         }
       ],
-      "exemplo": "Texto-base: uma rampa de acesso deve vencer um desnível (altura) de 1,2 m. Por norma de acessibilidade, a inclinação da rampa forma um ângulo de 30° com a horizontal. Comando: 'qual o comprimento da rampa?'.\n\nRaciocínio: o desnível é o cateto oposto ao ângulo de 30°; o comprimento da rampa é a hipotenusa. Usamos seno: sen 30° = cateto oposto/hipotenusa → 0,5 = 1,2/L → L = 1,2/0,5 = 2,4 m. H8 está em modelar a situação como triângulo retângulo, escolher a razão trigonométrica adequada (seno, pois relaciona oposto e hipotenusa) e resolver para a medida pedida.",
+      "exemplo": "Texto-base: uma rampa de acesso deve vencer um desnível (altura) de 1,2 m. Por norma de acessibilidade, a inclinação da rampa forma um ângulo de \\(30^{\\circ}\\) com a horizontal. Comando: 'qual o comprimento da rampa?'.\n\nRaciocínio: o desnível é o cateto oposto ao ângulo de \\(30^{\\circ}\\); o comprimento da rampa é a hipotenusa. Usamos seno: \\(\\operatorname{sen} 30^{\\circ} = \\dfrac{\\text{cateto oposto}}{\\text{hipotenusa}} \\Rightarrow 0{,}5 = \\dfrac{1{,}2}{L} \\Rightarrow L = \\dfrac{1{,}2}{0{,}5} = 2{,}4\\ \\text{m}\\). H8 está em modelar a situação como triângulo retângulo, escolher a razão trigonométrica adequada (seno, pois relaciona oposto e hipotenusa) e resolver para a medida pedida.",
       "pontos_chave": [
-        "Pitágoras: a² = b² + c² (hipotenusa e catetos).",
+        "Pitágoras: \\(a^{2} = b^{2} + c^{2}\\) (hipotenusa e catetos).",
         "Triângulos semelhantes: lados proporcionais, ângulos iguais.",
         "Teorema de Tales: paralelas geram segmentos proporcionais.",
-        "Seno = oposto/hipotenusa; cosseno = adjacente/hipotenusa; tangente = oposto/adjacente.",
-        "Decore 30°, 45°, 60° (sen 30° = 0,5; sen 45° = √2/2; sen 60° = √3/2).",
+        "\\(\\text{seno} = \\dfrac{\\text{oposto}}{\\text{hipotenusa}}\\); \\(\\text{cosseno} = \\dfrac{\\text{adjacente}}{\\text{hipotenusa}}\\); \\(\\text{tangente} = \\dfrac{\\text{oposto}}{\\text{adjacente}}\\).",
+        "Decore \\(30^{\\circ}\\), \\(45^{\\circ}\\), \\(60^{\\circ}\\) (\\(\\operatorname{sen} 30^{\\circ} = 0{,}5\\); \\(\\operatorname{sen} 45^{\\circ} = \\dfrac{\\sqrt{2}}{2}\\); \\(\\operatorname{sen} 60^{\\circ} = \\dfrac{\\sqrt{3}}{2}\\)).",
         "Use sombra/escala + semelhança para medir o inacessível.",
         "Identifique sempre qual lado é oposto, adjacente ou hipotenusa."
       ],
@@ -302,17 +302,17 @@
         },
         {
           "h": "Validar e refutar com geometria",
-          "p": "A habilidade pede julgar afirmações: 'esta planificação monta o sólido pedido?', 'estas peças se encaixam sem sobra?', 'este formato é o mais econômico?'. Avaliar exige conferir propriedades (ângulos que somam 360° em torno de um ponto para ladrilhar, lados que coincidem em encaixes, proporcionalidade em ampliações)."
+          "p": "A habilidade pede julgar afirmações: 'esta planificação monta o sólido pedido?', 'estas peças se encaixam sem sobra?', 'este formato é o mais econômico?'. Avaliar exige conferir propriedades (ângulos que somam \\(360^{\\circ}\\) em torno de um ponto para ladrilhar, lados que coincidem em encaixes, proporcionalidade em ampliações)."
         }
       ],
-      "exemplo": "Texto-base: uma empresa quer cercar um canteiro retangular usando exatamente 40 m de cerca e deseja a maior área possível. Três propostas: (A) 15 m × 5 m, (B) 12 m × 8 m, (C) 10 m × 10 m. Comando: 'qual proposta maximiza a área e por quê?'.\n\nRaciocínio: todas têm perímetro 40 m. Áreas: A = 75 m²; B = 96 m²; C = 100 m². A proposta C (quadrado) tem a maior área. O argumento geométrico correto é que, para um perímetro fixo, o retângulo de maior área é o quadrado. H9 está em usar essa propriedade para selecionar e justificar a melhor solução, e não apenas calcular um número isolado.",
+      "exemplo": "Texto-base: uma empresa quer cercar um canteiro retangular usando exatamente \\(40\\ \\text{m}\\) de cerca e deseja a maior área possível. Três propostas: (A) \\(15\\ \\text{m} \\times 5\\ \\text{m}\\), (B) \\(12\\ \\text{m} \\times 8\\ \\text{m}\\), (C) \\(10\\ \\text{m} \\times 10\\ \\text{m}\\). Comando: 'qual proposta maximiza a área e por quê?'.\n\nRaciocínio: todas têm perímetro \\(40\\ \\text{m}\\). Áreas: \\(A = 75\\ \\text{m}^{2}\\); \\(B = 96\\ \\text{m}^{2}\\); \\(C = 100\\ \\text{m}^{2}\\). A proposta C (quadrado) tem a maior área. O argumento geométrico correto é que, para um perímetro fixo, o retângulo de maior área é o quadrado. H9 está em usar essa propriedade para selecionar e justificar a melhor solução, e não apenas calcular um número isolado.",
       "pontos_chave": [
         "Para perímetro fixo, o quadrado é o retângulo de maior área.",
         "Para perímetro fixo, o círculo encerra a maior área de todas as figuras.",
         "Hexágonos regulares ladrilham o plano sem vãos (eficiência de colmeia).",
         "Triângulos são rígidos; por isso aparecem em estruturas.",
         "Compare formatos pela relação área/perímetro ou superfície/volume.",
-        "Para ladrilhar em torno de um ponto, os ângulos devem somar 360°.",
+        "Para ladrilhar em torno de um ponto, os ângulos devem somar \\(360^{\\circ}\\).",
         "O melhor argumento é o que respeita o critério com base geométrica correta."
       ],
       "dica_prova": "H9 cobra menos conta e mais raciocínio sobre propriedades. Conheça os 'fatos clássicos' (quadrado maximiza área para perímetro dado, círculo é ainda melhor, hexágono ladrilha). A pegadinha é a alternativa que parece intuitiva mas viola uma propriedade. O contexto costuma ser sustentável (economia de material, aproveitamento de espaço), conectando geometria a decisões responsáveis."
@@ -325,32 +325,32 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos geométricos'): grandezas, unidades de medida e escalas; comprimentos, áreas e volumes. Você precisa dominar: o Sistema Internacional (metro, quilograma, segundo); os prefixos (quilo, centi, mili); as conversões entre múltiplos e submúltiplos; e as grandezas derivadas (área em m², volume em m³, velocidade em m/s ou km/h, densidade em kg/m³)."
+          "p": "Do ANEXO ('Conhecimentos geométricos'): grandezas, unidades de medida e escalas; comprimentos, áreas e volumes. Você precisa dominar: o Sistema Internacional (metro, quilograma, segundo); os prefixos (quilo, centi, mili); as conversões entre múltiplos e submúltiplos; e as grandezas derivadas (área em \\(\\text{m}^{2}\\), volume em \\(\\text{m}^{3}\\), velocidade em \\(\\text{m/s}\\) ou \\(\\text{km/h}\\), densidade em \\(\\text{kg/m}^{3}\\))."
         },
         {
           "h": "Conversões de comprimento, massa, tempo e capacidade",
-          "p": "As conversões de comprimento e massa andam de 10 em 10 (1 km = 1.000 m; 1 m = 100 cm; 1 kg = 1.000 g). Capacidade: 1 L = 1.000 mL, e 1 L = 1 dm³. Tempo NÃO é decimal: 1 h = 60 min, 1 min = 60 s — meia hora é 30 min, não 50. Confundir o sistema sexagesimal do tempo com o decimal é erro clássico."
+          "p": "As conversões de comprimento e massa andam de 10 em 10 (\\(1\\ \\text{km} = 1.000\\ \\text{m}\\); \\(1\\ \\text{m} = 100\\ \\text{cm}\\); \\(1\\ \\text{kg} = 1.000\\ \\text{g}\\)). Capacidade: \\(1\\ \\text{L} = 1.000\\ \\text{mL}\\), e \\(1\\ \\text{L} = 1\\ \\text{dm}^{3}\\). Tempo NÃO é decimal: \\(1\\ \\text{h} = 60\\ \\text{min}\\), \\(1\\ \\text{min} = 60\\ \\text{s}\\) — meia hora é 30 min, não 50. Confundir o sistema sexagesimal do tempo com o decimal é erro clássico."
         },
         {
           "h": "Área e volume: o fator muda",
-          "p": "Em conversões de ÁREA, o fator é elevado ao quadrado (1 m² = 100 × 100 = 10.000 cm²); em VOLUME, ao cubo (1 m³ = 100³ = 1.000.000 cm³ = 1.000 L). Não basta mover a vírgula como no comprimento. Esquecer de elevar o fator é uma das pegadinhas mais cobradas pelo Enem."
+          "p": "Em conversões de ÁREA, o fator é elevado ao quadrado (\\(1\\ \\text{m}^{2} = 100 \\times 100 = 10.000\\ \\text{cm}^{2}\\)); em VOLUME, ao cubo (\\(1\\ \\text{m}^{3} = 100^{3} = 1.000.000\\ \\text{cm}^{3} = 1.000\\ \\text{L}\\)). Não basta mover a vírgula como no comprimento. Esquecer de elevar o fator é uma das pegadinhas mais cobradas pelo Enem."
         },
         {
           "h": "Grandezas derivadas e suas relações",
-          "p": "Muitas grandezas resultam da relação entre outras: velocidade = distância/tempo (m/s, km/h); densidade = massa/volume (kg/m³, g/cm³); vazão = volume/tempo (L/s); densidade demográfica = população/área (hab/km²). Identificar essas relações e suas unidades é o que H10 cobra antes de qualquer cálculo de H12."
+          "p": "Muitas grandezas resultam da relação entre outras: \\(\\text{velocidade} = \\dfrac{\\text{distância}}{\\text{tempo}}\\) (\\(\\text{m/s}\\), \\(\\text{km/h}\\)); \\(\\text{densidade} = \\dfrac{\\text{massa}}{\\text{volume}}\\) (\\(\\text{kg/m}^{3}\\), \\(\\text{g/cm}^{3}\\)); \\(\\text{vazão} = \\dfrac{\\text{volume}}{\\text{tempo}}\\) (\\(\\text{L/s}\\)); \\(\\text{densidade demográfica} = \\dfrac{\\text{população}}{\\text{área}}\\) (\\(\\text{hab/km}^{2}\\)). Identificar essas relações e suas unidades é o que H10 cobra antes de qualquer cálculo de H12."
         }
       ],
-      "exemplo": "Texto-base: um reservatório tem capacidade de 3 m³. Uma família consome 600 litros de água por dia. Comando: 'por quantos dias o reservatório cheio atende a família?'.\n\nRaciocínio: primeiro identificar a relação entre as unidades de volume e capacidade: 1 m³ = 1.000 L, logo 3 m³ = 3.000 L. Em seguida, dividir pelo consumo diário: 3.000 L ÷ 600 L/dia = 5 dias. H10 está justamente em reconhecer e converter as unidades (m³ → L) antes de operar — sem essa conversão, o problema fica incompatível.",
+      "exemplo": "Texto-base: um reservatório tem capacidade de \\(3\\ \\text{m}^{3}\\). Uma família consome 600 litros de água por dia. Comando: 'por quantos dias o reservatório cheio atende a família?'.\n\nRaciocínio: primeiro identificar a relação entre as unidades de volume e capacidade: \\(1\\ \\text{m}^{3} = 1.000\\ \\text{L}\\), logo \\(3\\ \\text{m}^{3} = 3.000\\ \\text{L}\\). Em seguida, dividir pelo consumo diário: \\(3.000\\ \\text{L} \\div 600\\ \\text{L/dia} = 5\\ \\text{dias}\\). H10 está justamente em reconhecer e converter as unidades (\\(\\text{m}^{3} \\rightarrow \\text{L}\\)) antes de operar — sem essa conversão, o problema fica incompatível.",
       "pontos_chave": [
-        "Comprimento e massa: conversões de 10 em 10 (1 km = 1.000 m; 1 kg = 1.000 g).",
-        "Capacidade: 1 L = 1.000 mL = 1 dm³; 1 m³ = 1.000 L.",
-        "Tempo é sexagesimal: 1 h = 60 min; 1 min = 60 s (não é decimal!).",
-        "Área: fator ao quadrado (1 m² = 10.000 cm²).",
-        "Volume: fator ao cubo (1 m³ = 1.000.000 cm³).",
-        "Velocidade = distância/tempo; densidade = massa/volume.",
+        "Comprimento e massa: conversões de 10 em 10 (\\(1\\ \\text{km} = 1.000\\ \\text{m}\\); \\(1\\ \\text{kg} = 1.000\\ \\text{g}\\)).",
+        "Capacidade: \\(1\\ \\text{L} = 1.000\\ \\text{mL} = 1\\ \\text{dm}^{3}\\); \\(1\\ \\text{m}^{3} = 1.000\\ \\text{L}\\).",
+        "Tempo é sexagesimal: \\(1\\ \\text{h} = 60\\ \\text{min}\\); \\(1\\ \\text{min} = 60\\ \\text{s}\\) (não é decimal!).",
+        "Área: fator ao quadrado (\\(1\\ \\text{m}^{2} = 10.000\\ \\text{cm}^{2}\\)).",
+        "Volume: fator ao cubo (\\(1\\ \\text{m}^{3} = 1.000.000\\ \\text{cm}^{3}\\)).",
+        "\\(\\text{velocidade} = \\dfrac{\\text{distância}}{\\text{tempo}}\\); \\(\\text{densidade} = \\dfrac{\\text{massa}}{\\text{volume}}\\).",
         "Padronize TODAS as unidades antes de calcular."
       ],
-      "dica_prova": "Antes de qualquer conta, deixe tudo na mesma unidade. As pegadinhas favoritas do Enem: misturar km com m, L com mL, e tratar tempo como decimal (1,5 h = 1 h e 30 min, não 1 h e 50 min). Em área e volume, lembre de elevar o fator ao quadrado/cubo. Escreva a unidade ao lado de cada número — isso evita a maioria dos erros desta habilidade."
+      "dica_prova": "Antes de qualquer conta, deixe tudo na mesma unidade. As pegadinhas favoritas do Enem: misturar km com m, L com mL, e tratar tempo como decimal (\\(1{,}5\\ \\text{h} = 1\\ \\text{h e } 30\\ \\text{min}\\), não 1 h e 50 min). Em área e volume, lembre de elevar o fator ao quadrado/cubo. Escreva a unidade ao lado de cada número — isso evita a maioria dos erros desta habilidade."
     },
     {
       "sid": "h11-utilizar-a-nocao-de-escalas-na-leitura-de-representacao-de-situacao-do-cotidiano",
@@ -360,32 +360,32 @@
       "secoes": [
         {
           "h": "Conteúdos ligados a esta habilidade",
-          "p": "Do ANEXO ('Conhecimentos geométricos'): grandezas, unidades de medida e escalas; razões e proporções. Você precisa dominar: o conceito de escala como razão (escala = medida no desenho / medida real); a leitura de escalas numéricas (1:100) e gráficas; a conversão de unidades associada; e a proporcionalidade entre desenho e realidade."
+          "p": "Do ANEXO ('Conhecimentos geométricos'): grandezas, unidades de medida e escalas; razões e proporções. Você precisa dominar: o conceito de escala como razão (\\(\\text{escala} = \\dfrac{\\text{medida no desenho}}{\\text{medida real}}\\)); a leitura de escalas numéricas (\\(1:100\\)) e gráficas; a conversão de unidades associada; e a proporcionalidade entre desenho e realidade."
         },
         {
           "h": "O que é escala",
-          "p": "Escala é a razão entre a medida na representação e a medida real correspondente. Escala 1:100 significa que 1 unidade no desenho equivale a 100 unidades na realidade (1 cm no papel = 100 cm = 1 m no real). Quanto maior o denominador, mais 'reduzida' a representação (um mapa 1:1.000.000 mostra uma área enorme em pouco papel)."
+          "p": "Escala é a razão entre a medida na representação e a medida real correspondente. Escala \\(1:100\\) significa que 1 unidade no desenho equivale a 100 unidades na realidade (\\(1\\ \\text{cm}\\) no papel \\(= 100\\ \\text{cm} = 1\\ \\text{m}\\) no real). Quanto maior o denominador, mais 'reduzida' a representação (um mapa \\(1:1.000.000\\) mostra uma área enorme em pouco papel)."
         },
         {
           "h": "Calcular medida real e medida no desenho",
-          "p": "Da definição: medida real = medida no desenho × denominador da escala; e medida no desenho = medida real ÷ denominador. Numa planta 1:50, um cômodo desenhado com 8 cm tem, na realidade, 8 × 50 = 400 cm = 4 m. O cuidado está em converter as unidades ao final para a forma pedida."
+          "p": "Da definição: \\(\\text{medida real} = \\text{medida no desenho} \\times \\text{denominador da escala}\\); e \\(\\text{medida no desenho} = \\text{medida real} \\div \\text{denominador}\\). Numa planta \\(1:50\\), um cômodo desenhado com \\(8\\ \\text{cm}\\) tem, na realidade, \\(8 \\times 50 = 400\\ \\text{cm} = 4\\ \\text{m}\\). O cuidado está em converter as unidades ao final para a forma pedida."
         },
         {
           "h": "Escala em áreas e a armadilha do quadrado",
-          "p": "Se a escala linear é 1:k, a escala de ÁREA é 1:k² (porque área tem duas dimensões). Numa planta 1:100, uma sala com 0,5 m² no papel corresponde a 0,5 × 100² = 5.000... cuidado: aplica-se k² apenas quando se trabalha diretamente com áreas. O Enem explora bastante essa diferença entre escala linear e de área."
+          "p": "Se a escala linear é \\(1:k\\), a escala de ÁREA é \\(1:k^{2}\\) (porque área tem duas dimensões). Numa planta \\(1:100\\), uma sala com \\(0{,}5\\ \\text{m}^{2}\\) no papel corresponde a \\(0{,}5 \\times 100^{2} = 5.000\\ldots\\) cuidado: aplica-se \\(k^{2}\\) apenas quando se trabalha diretamente com áreas. O Enem explora bastante essa diferença entre escala linear e de área."
         }
       ],
-      "exemplo": "Texto-base: a planta de um terreno está na escala 1:200. No papel, o terreno é um retângulo de 6 cm por 4 cm. Comando: 'qual a área real do terreno?'.\n\nRaciocínio: convertendo as medidas lineares — comprimento real = 6 × 200 = 1.200 cm = 12 m; largura real = 4 × 200 = 800 cm = 8 m. A área real = 12 × 8 = 96 m². (Alternativamente, área no papel = 24 cm²; multiplicando por k² = 200² = 40.000 dá 960.000 cm² = 96 m².) H11 está em aplicar a escala como razão de proporção, com atenção à conversão de unidades.",
+      "exemplo": "Texto-base: a planta de um terreno está na escala \\(1:200\\). No papel, o terreno é um retângulo de \\(6\\ \\text{cm}\\) por \\(4\\ \\text{cm}\\). Comando: 'qual a área real do terreno?'.\n\nRaciocínio: convertendo as medidas lineares — \\(\\text{comprimento real} = 6 \\times 200 = 1.200\\ \\text{cm} = 12\\ \\text{m}\\); \\(\\text{largura real} = 4 \\times 200 = 800\\ \\text{cm} = 8\\ \\text{m}\\). A área real \\(= 12 \\times 8 = 96\\ \\text{m}^{2}\\). (Alternativamente, área no papel \\(= 24\\ \\text{cm}^{2}\\); multiplicando por \\(k^{2} = 200^{2} = 40.000\\) dá \\(960.000\\ \\text{cm}^{2} = 96\\ \\text{m}^{2}\\).) H11 está em aplicar a escala como razão de proporção, com atenção à conversão de unidades.",
       "pontos_chave": [
-        "Escala = medida no desenho / medida real (razão de proporção).",
-        "1:100 significa 1 cm no papel = 100 cm = 1 m no real.",
-        "Medida real = medida no desenho × denominador da escala.",
+        "\\(\\text{escala} = \\dfrac{\\text{medida no desenho}}{\\text{medida real}}\\) (razão de proporção).",
+        "\\(1:100\\) significa \\(1\\ \\text{cm}\\) no papel \\(= 100\\ \\text{cm} = 1\\ \\text{m}\\) no real.",
+        "\\(\\text{medida real} = \\text{medida no desenho} \\times \\text{denominador da escala}\\).",
         "Maior denominador → representação mais reduzida.",
-        "Escala de área = (escala linear)² → 1:k vira 1:k² para áreas.",
+        "Escala de área \\(= (\\text{escala linear})^{2}\\) → \\(1:k\\) vira \\(1:k^{2}\\) para áreas.",
         "Converta as unidades ao final (cm → m).",
         "Escala gráfica (barra) é lida diretamente com régua."
       ],
-      "dica_prova": "Trate escala como regra de três simples. A pegadinha clássica é esquecer que área usa o quadrado da escala (1:100 vira 1:10.000 em área). Atenção à conversão final de unidades, sempre cobrada. H11 é muito interdisciplinar com Geografia (mapas) — leia se a escala é numérica ou gráfica e se a pergunta quer medida linear ou área."
+      "dica_prova": "Trate escala como regra de três simples. A pegadinha clássica é esquecer que área usa o quadrado da escala (\\(1:100\\) vira \\(1:10.000\\) em área). Atenção à conversão final de unidades, sempre cobrada. H11 é muito interdisciplinar com Geografia (mapas) — leia se a escala é numérica ou gráfica e se a pergunta quer medida linear ou área."
     },
     {
       "sid": "h12-resolver-situacao-problema-que-envolva-medidas-de-grandezas",
@@ -399,28 +399,28 @@
         },
         {
           "h": "Áreas das figuras planas",
-          "p": "As principais: retângulo = base × altura; quadrado = lado²; triângulo = (base × altura)/2; círculo = π·r²; trapézio = (B + b)·h/2. Áreas servem para calcular revestimentos, pintura, terrenos e cobertura. Conheça também a circunferência (comprimento) = 2π·r."
+          "p": "As principais: \\(\\text{retângulo} = \\text{base} \\times \\text{altura}\\); \\(\\text{quadrado} = \\text{lado}^{2}\\); \\(\\text{triângulo} = \\dfrac{\\text{base} \\times \\text{altura}}{2}\\); \\(\\text{círculo} = \\pi\\cdot r^{2}\\); \\(\\text{trapézio} = \\dfrac{(B + b)\\cdot h}{2}\\). Áreas servem para calcular revestimentos, pintura, terrenos e cobertura. Conheça também a circunferência (comprimento) \\(= 2\\pi\\cdot r\\)."
         },
         {
           "h": "Volumes dos sólidos",
-          "p": "Os essenciais: bloco/prisma = área da base × altura; cilindro = π·r²·h; pirâmide = (área da base × altura)/3; cone = (π·r²·h)/3; esfera = (4/3)·π·r³. Volume responde a 'quanto cabe' (capacidade) — lembrando que 1 dm³ = 1 L e 1 m³ = 1.000 L. Note que pirâmide e cone valem 1/3 do prisma/cilindro de mesma base e altura."
+          "p": "Os essenciais: \\(\\text{bloco/prisma} = \\text{área da base} \\times \\text{altura}\\); \\(\\text{cilindro} = \\pi\\cdot r^{2}\\cdot h\\); \\(\\text{pirâmide} = \\dfrac{\\text{área da base} \\times \\text{altura}}{3}\\); \\(\\text{cone} = \\dfrac{\\pi\\cdot r^{2}\\cdot h}{3}\\); \\(\\text{esfera} = \\dfrac{4}{3}\\cdot \\pi\\cdot r^{3}\\). Volume responde a 'quanto cabe' (capacidade) — lembrando que \\(1\\ \\text{dm}^{3} = 1\\ \\text{L}\\) e \\(1\\ \\text{m}^{3} = 1.000\\ \\text{L}\\). Note que pirâmide e cone valem 1/3 do prisma/cilindro de mesma base e altura."
         },
         {
           "h": "Aplicações: material, capacidade e vazão",
-          "p": "Para revestir um piso, divida a área total pela área de cada peça (acrescentando margem). Para encher um reservatório, divida o volume pela vazão (volume ÷ vazão = tempo). Para calcular custo, multiplique a área/volume pelo preço unitário. A organização das unidades é decisiva: tudo em metros, ou tudo em centímetros."
+          "p": "Para revestir um piso, divida a área total pela área de cada peça (acrescentando margem). Para encher um reservatório, divida o volume pela vazão (\\(\\text{volume} \\div \\text{vazão} = \\text{tempo}\\)). Para calcular custo, multiplique a área/volume pelo preço unitário. A organização das unidades é decisiva: tudo em metros, ou tudo em centímetros."
         }
       ],
-      "exemplo": "Texto-base: uma caixa-d'água cilíndrica tem raio da base de 1 m e altura de 2 m. Uma bomba a enche a uma vazão de 50 litros por minuto. Comando: 'quanto tempo leva para enchê-la? (use π ≈ 3,14)'.\n\nRaciocínio: volume do cilindro = π·r²·h = 3,14 × 1² × 2 = 6,28 m³. Convertendo: 6,28 m³ = 6.280 L. Tempo = volume ÷ vazão = 6.280 ÷ 50 ≈ 125,6 min, ou seja, cerca de 2 h e 6 min. H12 reúne fórmula de volume (cilindro), conversão de unidades (m³ → L) e relação de vazão (volume/tempo) — o tripé típico desta habilidade.",
+      "exemplo": "Texto-base: uma caixa-d'água cilíndrica tem raio da base de \\(1\\ \\text{m}\\) e altura de \\(2\\ \\text{m}\\). Uma bomba a enche a uma vazão de 50 litros por minuto. Comando: 'quanto tempo leva para enchê-la? (use \\(\\pi \\approx 3{,}14\\))'.\n\nRaciocínio: volume do cilindro \\(= \\pi\\cdot r^{2}\\cdot h = 3{,}14 \\times 1^{2} \\times 2 = 6{,}28\\ \\text{m}^{3}\\). Convertendo: \\(6{,}28\\ \\text{m}^{3} = 6.280\\ \\text{L}\\). Tempo \\(= \\text{volume} \\div \\text{vazão} = 6.280 \\div 50 \\approx 125{,}6\\ \\text{min}\\), ou seja, cerca de 2 h e 6 min. H12 reúne fórmula de volume (cilindro), conversão de unidades (\\(\\text{m}^{3} \\rightarrow \\text{L}\\)) e relação de vazão (\\(\\tfrac{\\text{volume}}{\\text{tempo}}\\)) — o tripé típico desta habilidade.",
       "pontos_chave": [
-        "Áreas: retângulo = b·h; triângulo = b·h/2; círculo = π·r².",
-        "Volumes: bloco = base·altura; cilindro = π·r²·h.",
-        "Pirâmide e cone valem 1/3 do prisma/cilindro de mesma base e altura.",
-        "Esfera: V = (4/3)·π·r³.",
-        "Capacidade: 1 dm³ = 1 L; 1 m³ = 1.000 L.",
-        "Tempo de enchimento = volume ÷ vazão.",
+        "Áreas: \\(\\text{retângulo} = b\\cdot h\\); \\(\\text{triângulo} = \\dfrac{b\\cdot h}{2}\\); \\(\\text{círculo} = \\pi\\cdot r^{2}\\).",
+        "Volumes: \\(\\text{bloco} = \\text{base}\\cdot \\text{altura}\\); \\(\\text{cilindro} = \\pi\\cdot r^{2}\\cdot h\\).",
+        "Pirâmide e cone valem \\(\\tfrac{1}{3}\\) do prisma/cilindro de mesma base e altura.",
+        "Esfera: \\(V = \\dfrac{4}{3}\\cdot \\pi\\cdot r^{3}\\).",
+        "Capacidade: \\(1\\ \\text{dm}^{3} = 1\\ \\text{L}\\); \\(1\\ \\text{m}^{3} = 1.000\\ \\text{L}\\).",
+        "Tempo de enchimento \\(= \\text{volume} \\div \\text{vazão}\\).",
         "Padronize as unidades antes de aplicar a fórmula."
       ],
-      "dica_prova": "Decore as fórmulas de área e volume — o Enem nem sempre as fornece. A pegadinha mais comum é misturar unidades (m com cm) ou esquecer o 1/3 do cone e da pirâmide. Em problemas de revestimento, lembre que comprar material exige arredondar para cima. Faça a estimativa do resultado: um volume não pode dar um número minúsculo se o reservatório é grande."
+      "dica_prova": "Decore as fórmulas de área e volume — o Enem nem sempre as fornece. A pegadinha mais comum é misturar unidades (m com cm) ou esquecer o \\(\\tfrac{1}{3}\\) do cone e da pirâmide. Em problemas de revestimento, lembre que comprar material exige arredondar para cima. Faça a estimativa do resultado: um volume não pode dar um número minúsculo se o reservatório é grande."
     },
     {
       "sid": "h13-avaliar-o-resultado-de-uma-medicao-na-construcao-de-um-argumento-consistente",
@@ -438,14 +438,14 @@
         },
         {
           "h": "Margem de erro e tolerância",
-          "p": "Muitos contextos admitem uma faixa aceitável: uma peça com 10 cm ± 0,2 cm é aprovada entre 9,8 e 10,2 cm. Avaliar se uma medida está dentro da tolerância sustenta o argumento (peça aprovada/reprovada). Conclusões só são consistentes se o valor medido cabe na margem definida."
+          "p": "Muitos contextos admitem uma faixa aceitável: uma peça com \\(10\\ \\text{cm} \\pm 0{,}2\\ \\text{cm}\\) é aprovada entre \\(9{,}8\\) e \\(10{,}2\\ \\text{cm}\\). Avaliar se uma medida está dentro da tolerância sustenta o argumento (peça aprovada/reprovada). Conclusões só são consistentes se o valor medido cabe na margem definida."
         },
         {
           "h": "Argumentar com medidas",
           "p": "H13 pede julgar afirmações: 'a medição comprova que...'. Verifique se a medida é compatível com a precisão, se o arredondamento não distorceu, se a faixa de erro foi respeitada. Um argumento consistente usa a medida dentro de seus limites; um argumento frágil ignora a incerteza ou supervaloriza pequenas diferenças."
         }
       ],
-      "exemplo": "Texto-base: o IMC (índice de massa corporal) é massa (kg) dividida pela altura ao quadrado (m²). Uma pessoa tem 72 kg e 1,75 m. Um aplicativo afirma que seu IMC é 'exatamente 23,510204'. Comando: 'avalie a consistência dessa afirmação'.\n\nRaciocínio: IMC = 72 ÷ (1,75)² = 72 ÷ 3,0625 ≈ 23,5. As medidas de massa e altura têm precisão limitada (kg inteiro, dois decimais de metro), de modo que apresentar o IMC com seis casas decimais é falsa precisão — o argumento exagera a exatidão. O resultado consistente é 'aproximadamente 23,5'. H13 está em avaliar que a quantidade de casas decimais deve refletir a precisão das medições originais.",
+      "exemplo": "Texto-base: o IMC (índice de massa corporal) é \\(\\dfrac{\\text{massa (kg)}}{\\text{altura}^{2}\\,(\\text{m}^{2})}\\). Uma pessoa tem \\(72\\ \\text{kg}\\) e \\(1{,}75\\ \\text{m}\\). Um aplicativo afirma que seu IMC é 'exatamente \\(23{,}510204\\)'. Comando: 'avalie a consistência dessa afirmação'.\n\nRaciocínio: \\(\\text{IMC} = 72 \\div (1{,}75)^{2} = 72 \\div 3{,}0625 \\approx 23{,}5\\). As medidas de massa e altura têm precisão limitada (kg inteiro, dois decimais de metro), de modo que apresentar o IMC com seis casas decimais é falsa precisão — o argumento exagera a exatidão. O resultado consistente é 'aproximadamente 23,5'. H13 está em avaliar que a quantidade de casas decimais deve refletir a precisão das medições originais.",
       "pontos_chave": [
         "Toda medição tem incerteza; o instrumento limita a precisão.",
         "Arredonde mantendo apenas os algarismos confiáveis.",
@@ -480,7 +480,7 @@
           "p": "Avaliar propostas exige somar custos: material (proporcional à superfície/comprimento) e perdas (recortes, sobras). A melhor intervenção minimiza custo e desperdício atendendo ao objetivo. Aqui a geometria se junta à matemática financeira para fundamentar a decisão."
         }
       ],
-      "exemplo": "Texto-base: para embalar 1 litro de suco, uma empresa avalia duas caixas: (A) cúbica de aresta 10 cm; (B) bloco retangular de 5 cm × 5 cm × 40 cm. Ambas têm volume 1.000 cm³ (1 L). Comando: 'qual proposta gasta menos material?'.\n\nRaciocínio: o material é a área da superfície. Cubo (A): 6 × (10×10) = 600 cm². Bloco (B): 2×(5×5) + 4×(5×40) = 50 + 800 = 850 cm². Mesmo volume, mas o cubo usa bem menos material (600 vs 850 cm²). A proposta A é mais econômica. H14 está em calcular as superfícies das opções de mesma capacidade e selecionar a de menor gasto de material — justificando a escolha.",
+      "exemplo": "Texto-base: para embalar 1 litro de suco, uma empresa avalia duas caixas: (A) cúbica de aresta \\(10\\ \\text{cm}\\); (B) bloco retangular de \\(5\\ \\text{cm} \\times 5\\ \\text{cm} \\times 40\\ \\text{cm}\\). Ambas têm volume \\(1.000\\ \\text{cm}^{3}\\) (1 L). Comando: 'qual proposta gasta menos material?'.\n\nRaciocínio: o material é a área da superfície. Cubo (A): \\(6 \\times (10\\times10) = 600\\ \\text{cm}^{2}\\). Bloco (B): \\(2\\times(5\\times5) + 4\\times(5\\times40) = 50 + 800 = 850\\ \\text{cm}^{2}\\). Mesmo volume, mas o cubo usa bem menos material (\\(600\\) vs \\(850\\ \\text{cm}^{2}\\)). A proposta A é mais econômica. H14 está em calcular as superfícies das opções de mesma capacidade e selecionar a de menor gasto de material — justificando a escolha.",
       "pontos_chave": [
         "Compare propostas pela área de superfície (material) e pelo volume (capacidade).",
         "Para um mesmo volume, formatos 'compactos' (cubo) gastam menos material.",
@@ -504,28 +504,28 @@
         },
         {
           "h": "Variável dependente e independente",
-          "p": "Em y = f(x), x é a variável independente (a que escolhemos/varia livremente) e y é a dependente (que resulta de x). Identificar quem depende de quem é o primeiro passo: o custo de uma corrida depende da distância; a distância percorrida depende do tempo. Isso orienta como montar a relação."
+          "p": "Em \\(y = f(x)\\), \\(x\\) é a variável independente (a que escolhemos/varia livremente) e \\(y\\) é a dependente (que resulta de \\(x\\)). Identificar quem depende de quem é o primeiro passo: o custo de uma corrida depende da distância; a distância percorrida depende do tempo. Isso orienta como montar a relação."
         },
         {
           "h": "Proporcionalidade direta",
-          "p": "Duas grandezas são diretamente proporcionais quando, ao dobrar uma, a outra dobra — o quociente entre elas é constante (y/x = k). Exemplos: quantidade de combustível e distância (consumo constante); preço total e quantidade comprada. No gráfico, é uma reta que passa pela origem."
+          "p": "Duas grandezas são diretamente proporcionais quando, ao dobrar uma, a outra dobra — o quociente entre elas é constante (\\(\\tfrac{y}{x} = k\\)). Exemplos: quantidade de combustível e distância (consumo constante); preço total e quantidade comprada. No gráfico, é uma reta que passa pela origem."
         },
         {
           "h": "Proporcionalidade inversa e outras relações",
-          "p": "São inversamente proporcionais quando, ao dobrar uma, a outra cai à metade — o produto é constante (x·y = k). Exemplo: número de operários e tempo para concluir uma obra. Há ainda relações não-proporcionais (com parte fixa + parte variável, como a conta de luz) e relações quadráticas ou exponenciais, que H15 também pede identificar pelo padrão."
+          "p": "São inversamente proporcionais quando, ao dobrar uma, a outra cai à metade — o produto é constante (\\(x\\cdot y = k\\)). Exemplo: número de operários e tempo para concluir uma obra. Há ainda relações não-proporcionais (com parte fixa + parte variável, como a conta de luz) e relações quadráticas ou exponenciais, que H15 também pede identificar pelo padrão."
         }
       ],
-      "exemplo": "Texto-base: uma tabela mostra que 2 operários levam 30 dias para erguer um muro; 4 operários levam 15 dias; 6 operários, 10 dias. Comando: 'que tipo de relação há entre número de operários e tempo?'.\n\nRaciocínio: ao dobrar os operários (de 2 para 4), o tempo cai pela metade (30 para 15); o produto operários × tempo é sempre 60 (2×30 = 4×15 = 6×10 = 60). Logo, a relação é inversamente proporcional. H15 está em reconhecer o padrão de dependência (produto constante = inversa) a partir da tabela, antes de calcular qualquer valor específico.",
+      "exemplo": "Texto-base: uma tabela mostra que 2 operários levam 30 dias para erguer um muro; 4 operários levam 15 dias; 6 operários, 10 dias. Comando: 'que tipo de relação há entre número de operários e tempo?'.\n\nRaciocínio: ao dobrar os operários (de 2 para 4), o tempo cai pela metade (30 para 15); o produto \\(\\text{operários} \\times \\text{tempo}\\) é sempre 60 (\\(2\\times30 = 4\\times15 = 6\\times10 = 60\\)). Logo, a relação é inversamente proporcional. H15 está em reconhecer o padrão de dependência (produto constante = inversa) a partir da tabela, antes de calcular qualquer valor específico.",
       "pontos_chave": [
-        "Variável independente (x) → variável dependente (y = f(x)).",
-        "Diretamente proporcional: y/x = constante (gráfico = reta pela origem).",
-        "Inversamente proporcional: x·y = constante.",
+        "Variável independente (\\(x\\)) → variável dependente (\\(y = f(x)\\)).",
+        "Diretamente proporcional: \\(\\tfrac{y}{x} = \\text{constante}\\) (gráfico = reta pela origem).",
+        "Inversamente proporcional: \\(x\\cdot y = \\text{constante}\\).",
         "Direta: dobra uma, dobra a outra. Inversa: dobra uma, a outra cai à metade.",
         "Nem toda relação crescente é proporcional (pode ter parte fixa).",
         "Identifique o padrão na tabela: quociente ou produto constante?",
         "Reconheça também padrões quadráticos e exponenciais."
       ],
-      "dica_prova": "Teste a proporcionalidade pela tabela: se o quociente y/x é constante, é direta; se o produto x·y é constante, é inversa. Pegadinha: relações crescentes que não são proporcionais (têm taxa fixa + variável, como tarifas com valor base). Identificar bem a dependência aqui prepara o terreno para H16 (resolver) e H19 (modelar algebricamente)."
+      "dica_prova": "Teste a proporcionalidade pela tabela: se o quociente \\(\\tfrac{y}{x}\\) é constante, é direta; se o produto \\(x\\cdot y\\) é constante, é inversa. Pegadinha: relações crescentes que não são proporcionais (têm taxa fixa + variável, como tarifas com valor base). Identificar bem a dependência aqui prepara o terreno para H16 (resolver) e H19 (modelar algebricamente)."
     },
     {
       "sid": "h16-resolver-situacao-problema-envolvendo-a-variacao-de-grandezas-direta-ou-inversamente-proporcionais",
@@ -539,18 +539,18 @@
         },
         {
           "h": "Regra de três simples direta",
-          "p": "Quando as grandezas são diretamente proporcionais, monte as razões na mesma ordem e iguale. Ex.: 3 kg de farinha custam R$ 12; quanto custam 5 kg? 3/12 = 5/x → x = R$ 20. As setas apontam no mesmo sentido (mais quilos, mais reais)."
+          "p": "Quando as grandezas são diretamente proporcionais, monte as razões na mesma ordem e iguale. Ex.: \\(3\\ \\text{kg}\\) de farinha custam R$ 12; quanto custam \\(5\\ \\text{kg}\\)? \\(\\dfrac{3}{12} = \\dfrac{5}{x} \\Rightarrow x = R\\$\\ 20\\). As setas apontam no mesmo sentido (mais quilos, mais reais)."
         },
         {
           "h": "Regra de três simples inversa",
-          "p": "Quando são inversamente proporcionais, INVERTA uma das razões antes de igualar. Ex.: 4 torneiras enchem um tanque em 6 h; em quanto tempo 3 torneiras enchem? Mais torneiras = menos tempo (inversa). Logo 4×6 = 3×x → x = 8 h. O produto se mantém constante."
+          "p": "Quando são inversamente proporcionais, INVERTA uma das razões antes de igualar. Ex.: 4 torneiras enchem um tanque em \\(6\\ \\text{h}\\); em quanto tempo 3 torneiras enchem? Mais torneiras = menos tempo (inversa). Logo \\(4\\times6 = 3\\times x \\Rightarrow x = 8\\ \\text{h}\\). O produto se mantém constante."
         },
         {
           "h": "Regra de três composta",
-          "p": "Com três ou mais grandezas, analise a relação de CADA uma com a incógnita separadamente (direta ou inversa), inverta as razões inversas e multiplique. Ex.: operários × horas/dia × dias de obra. É preciso decidir, par a par, o sentido da proporcionalidade — o erro mais comum é não inverter as inversas."
+          "p": "Com três ou mais grandezas, analise a relação de CADA uma com a incógnita separadamente (direta ou inversa), inverta as razões inversas e multiplique. Ex.: \\(\\text{operários} \\times \\text{horas/dia} \\times \\text{dias de obra}\\). É preciso decidir, par a par, o sentido da proporcionalidade — o erro mais comum é não inverter as inversas."
         }
       ],
-      "exemplo": "Texto-base: uma equipe de 5 pintores pinta um prédio em 12 dias trabalhando 8 horas por dia. Comando: 'quantos dias 6 pintores levariam trabalhando 10 horas por dia?'.\n\nRaciocínio: regra de três composta. Em relação aos dias (incógnita): mais pintores → menos dias (inversa); mais horas/dia → menos dias (inversa). Montando: dias = 12 × (5/6) × (8/10) = 12 × (5×8)/(6×10) = 12 × 40/60 = 12 × 2/3 = 8 dias. H16 está em identificar cada relação como inversa e montar a proporção composta corretamente.",
+      "exemplo": "Texto-base: uma equipe de 5 pintores pinta um prédio em 12 dias trabalhando 8 horas por dia. Comando: 'quantos dias 6 pintores levariam trabalhando 10 horas por dia?'.\n\nRaciocínio: regra de três composta. Em relação aos dias (incógnita): mais pintores → menos dias (inversa); mais horas/dia → menos dias (inversa). Montando: \\(\\text{dias} = 12 \\times \\dfrac{5}{6} \\times \\dfrac{8}{10} = 12 \\times \\dfrac{5\\times8}{6\\times10} = 12 \\times \\dfrac{40}{60} = 12 \\times \\dfrac{2}{3} = 8\\ \\text{dias}\\). H16 está em identificar cada relação como inversa e montar a proporção composta corretamente.",
       "pontos_chave": [
         "Regra de três direta: razões no mesmo sentido, iguale e resolva.",
         "Regra de três inversa: inverta uma razão antes de igualar (produto constante).",
@@ -585,7 +585,7 @@
           "p": "Analisar variação inclui identificar quando uma grandeza atinge máximo/mínimo, quando duas curvas se cruzam (igualam) e quando uma ultrapassa a outra. Esses pontos sustentam argumentos do tipo 'a partir de tal mês, a opção A passa a ser mais cara'. H17 cobra essa leitura comparativa."
         }
       ],
-      "exemplo": "Texto-base: dois planos de internet têm o custo em função dos GB usados. O plano A cobra R$ 50 fixos + R$ 2 por GB; o plano B cobra R$ 5 por GB (sem taxa fixa). Comando: 'a partir de quantos GB o plano A passa a ser mais vantajoso?'.\n\nRaciocínio: igualamos os custos: 50 + 2x = 5x → 50 = 3x → x ≈ 16,7 GB. Para consumos acima de ~17 GB, o plano A (com taxa fixa, mas crescimento mais lento) fica mais barato; abaixo disso, o B compensa. H17 está em analisar as taxas de variação (R$ 2/GB vs R$ 5/GB) e o ponto de cruzamento para construir o argumento sobre qual plano vale a pena.",
+      "exemplo": "Texto-base: dois planos de internet têm o custo em função dos GB usados. O plano A cobra \\(R\\$\\ 50\\) fixos \\(+\\ R\\$\\ 2\\) por GB; o plano B cobra \\(R\\$\\ 5\\) por GB (sem taxa fixa). Comando: 'a partir de quantos GB o plano A passa a ser mais vantajoso?'.\n\nRaciocínio: igualamos os custos: \\(50 + 2x = 5x \\Rightarrow 50 = 3x \\Rightarrow x \\approx 16{,}7\\ \\text{GB}\\). Para consumos acima de ~17 GB, o plano A (com taxa fixa, mas crescimento mais lento) fica mais barato; abaixo disso, o B compensa. H17 está em analisar as taxas de variação (\\(R\\$\\ 2\\text{/GB}\\) vs \\(R\\$\\ 5\\text{/GB}\\)) e o ponto de cruzamento para construir o argumento sobre qual plano vale a pena.",
       "pontos_chave": [
         "Taxa de variação = quanto y muda por unidade de x (inclinação no gráfico).",
         "Maior inclinação = variação mais rápida.",
@@ -620,7 +620,7 @@
           "p": "A escolha depende do critério (menor custo, maior economia, atingir a meta) e, muitas vezes, da faixa de uso. H18 pede justificar: 'a proposta A é melhor para quem consome pouco; a B, para grandes consumidores'. Ler o ponto de equilíbrio entre as opções é central."
         }
       ],
-      "exemplo": "Texto-base: uma cidade quer reduzir o desperdício de água. Proposta A: campanha que reduz o consumo em valor fixo de 10 mil litros/mês por bairro. Proposta B: medida que reduz o consumo em 5% ao mês (proporcional ao consumo atual). Comando: 'para um bairro que consome 100 mil litros/mês, qual proposta reduz mais no primeiro mês?'.\n\nRaciocínio: Proposta A reduz 10 mil litros (fixo). Proposta B reduz 5% de 100 mil = 5 mil litros. No primeiro mês, A reduz mais (10 mil > 5 mil). Mas se o consumo fosse 300 mil litros, B reduziria 15 mil, superando A. H18 está em projetar a variação de cada proposta conforme o consumo e avaliar qual intervenção é mais eficaz na faixa dada — reconhecendo que a resposta depende do nível de consumo.",
+      "exemplo": "Texto-base: uma cidade quer reduzir o desperdício de água. Proposta A: campanha que reduz o consumo em valor fixo de 10 mil litros/mês por bairro. Proposta B: medida que reduz o consumo em \\(5\\%\\) ao mês (proporcional ao consumo atual). Comando: 'para um bairro que consome 100 mil litros/mês, qual proposta reduz mais no primeiro mês?'.\n\nRaciocínio: Proposta A reduz 10 mil litros (fixo). Proposta B reduz \\(5\\%\\) de 100 mil \\(= 5\\) mil litros. No primeiro mês, A reduz mais (\\(10\\text{ mil} > 5\\text{ mil}\\)). Mas se o consumo fosse 300 mil litros, B reduziria 15 mil, superando A. H18 está em projetar a variação de cada proposta conforme o consumo e avaliar qual intervenção é mais eficaz na faixa dada — reconhecendo que a resposta depende do nível de consumo.",
       "pontos_chave": [
         "Projete os valores de cada proposta em vários cenários de uso.",
         "Redução fixa × redução proporcional: o vencedor depende do nível atual.",
@@ -644,7 +644,7 @@
         },
         {
           "h": "Da linguagem natural à álgebra",
-          "p": "Traduzir é a essência: 'um valor fixo mais um valor por unidade' vira f(x) = b + a·x (função afim); 'dobra a cada período' vira exponencial f(x) = a·2^x; 'área de um quadrado de lado x' vira f(x) = x². Palavras-chave ('por', 'a cada', 'taxa fixa', 'dobra', 'ao quadrado') indicam a estrutura da fórmula."
+          "p": "Traduzir é a essência: 'um valor fixo mais um valor por unidade' vira \\(f(x) = b + a\\cdot x\\) (função afim); 'dobra a cada período' vira exponencial \\(f(x) = a\\cdot 2^{x}\\); 'área de um quadrado de lado \\(x\\)' vira \\(f(x) = x^{2}\\). Palavras-chave ('por', 'a cada', 'taxa fixa', 'dobra', 'ao quadrado') indicam a estrutura da fórmula."
         },
         {
           "h": "Reconhecer o tipo de função pelo comportamento",
@@ -652,14 +652,14 @@
         },
         {
           "h": "Conferir a fórmula com pontos conhecidos",
-          "p": "A melhor forma de validar uma representação é testar valores: substitua casos conhecidos do enunciado na fórmula candidata e veja se batem. Se a tabela diz f(0) = 10 e f(1) = 13, a fórmula deve reproduzir esses pontos. Esse teste elimina rapidamente as alternativas erradas."
+          "p": "A melhor forma de validar uma representação é testar valores: substitua casos conhecidos do enunciado na fórmula candidata e veja se batem. Se a tabela diz \\(f(0) = 10\\) e \\(f(1) = 13\\), a fórmula deve reproduzir esses pontos. Esse teste elimina rapidamente as alternativas erradas."
         }
       ],
-      "exemplo": "Texto-base: um táxi cobra uma bandeirada fixa de R$ 5,00 mais R$ 2,50 por quilômetro rodado. Comando: 'qual expressão representa o valor V em função da distância d (em km)?'.\n\nRaciocínio: há uma parte fixa (R$ 5) e uma parte que varia com a distância (R$ 2,50 por km), o que caracteriza uma função afim (1.º grau): V(d) = 5 + 2,5·d. Conferindo: para d = 0, V = 5 (só a bandeirada); para d = 2, V = 5 + 5 = R$ 10. H19 está em reconhecer a estrutura 'fixo + variável por unidade' e escrevê-la na forma algébrica correta.",
+      "exemplo": "Texto-base: um táxi cobra uma bandeirada fixa de R$ 5,00 mais R$ 2,50 por quilômetro rodado. Comando: 'qual expressão representa o valor \\(V\\) em função da distância \\(d\\) (em km)?'.\n\nRaciocínio: há uma parte fixa (R$ 5) e uma parte que varia com a distância (R$ 2,50 por km), o que caracteriza uma função afim (1.º grau): \\(V(d) = 5 + 2{,}5\\cdot d\\). Conferindo: para \\(d = 0\\), \\(V = 5\\) (só a bandeirada); para \\(d = 2\\), \\(V = 5 + 5 = R\\$\\ 10\\). H19 está em reconhecer a estrutura 'fixo + variável por unidade' e escrevê-la na forma algébrica correta.",
       "pontos_chave": [
-        "Função afim (1.º grau): f(x) = a·x + b → taxa fixa + valor por unidade.",
-        "Função do 2.º grau: f(x) = ax² + bx + c → parábola, máximo ou mínimo.",
-        "Exponencial: f(x) = a·bˣ → cresce/decresce por fator multiplicativo.",
+        "Função afim (1.º grau): \\(f(x) = a\\cdot x + b\\) → taxa fixa + valor por unidade.",
+        "Função do 2.º grau: \\(f(x) = ax^{2} + bx + c\\) → parábola, máximo ou mínimo.",
+        "Exponencial: \\(f(x) = a\\cdot b^{x}\\) → cresce/decresce por fator multiplicativo.",
         "Logarítmica: cresce cada vez mais devagar (pH, Richter, decibéis).",
         "Traduza palavras-chave: 'por', 'a cada', 'dobra', 'ao quadrado'.",
         "Teste a fórmula com pontos conhecidos do enunciado.",
@@ -679,24 +679,24 @@
         },
         {
           "h": "Ler eixos, escala e pontos",
-          "p": "Primeiro, identifique o que cada eixo representa e sua escala (cuidado com eixos que não começam em zero ou com escalas não-uniformes). Depois, localize pontos: o valor de y para um dado x, e os pontos onde a curva cruza os eixos. O ponto onde y = 0 (cruza o eixo x) é a raiz/zero da função."
+          "p": "Primeiro, identifique o que cada eixo representa e sua escala (cuidado com eixos que não começam em zero ou com escalas não-uniformes). Depois, localize pontos: o valor de y para um dado x, e os pontos onde a curva cruza os eixos. O ponto onde \\(y = 0\\) (cruza o eixo x) é a raiz/zero da função."
         },
         {
           "h": "Reconhecer o tipo de função pela forma",
-          "p": "Reta = função afim (1.º grau); inclinação positiva é crescente, negativa é decrescente; onde corta o eixo y está o coeficiente b. Parábola = função do 2.º grau; abre para cima (a > 0, ponto de mínimo) ou para baixo (a < 0, ponto de máximo). Curva que cresce cada vez mais rápido = exponencial. A forma revela o modelo."
+          "p": "Reta = função afim (1.º grau); inclinação positiva é crescente, negativa é decrescente; onde corta o eixo y está o coeficiente b. Parábola = função do 2.º grau; abre para cima (\\(a > 0\\), ponto de mínimo) ou para baixo (\\(a < 0\\), ponto de máximo). Curva que cresce cada vez mais rápido = exponencial. A forma revela o modelo."
         },
         {
           "h": "Máximos, mínimos e comparação de curvas",
           "p": "Em parábolas, o vértice dá o valor máximo ou mínimo da grandeza (lucro máximo, altura máxima de um projétil). Quando há mais de uma curva, os pontos de interseção indicam onde as grandezas se igualam. Interpretar inclui dizer em que intervalos a função cresce, decresce ou é maior que outra."
         }
       ],
-      "exemplo": "Texto-base: o gráfico mostra a altura (em metros) de uma bola lançada em função do tempo (em segundos); é uma parábola que parte da origem, atinge o ponto mais alto em t = 2 s a 20 m, e retorna ao solo. Comando: 'qual a altura máxima e em que instante ocorre?'.\n\nRaciocínio: a parábola abre para baixo (a < 0), então o vértice é o ponto de máximo. Lendo o gráfico, o vértice está em (2, 20): a altura máxima é 20 m, atingida em t = 2 s. A bola toca o solo onde a curva cruza o eixo x (y = 0). H20 está em interpretar a parábola como o movimento da bola e ler diretamente o vértice e as raízes no gráfico.",
+      "exemplo": "Texto-base: o gráfico mostra a altura (em metros) de uma bola lançada em função do tempo (em segundos); é uma parábola que parte da origem, atinge o ponto mais alto em \\(t = 2\\ \\text{s}\\) a \\(20\\ \\text{m}\\), e retorna ao solo. Comando: 'qual a altura máxima e em que instante ocorre?'.\n\nRaciocínio: a parábola abre para baixo (\\(a < 0\\)), então o vértice é o ponto de máximo. Lendo o gráfico, o vértice está em \\((2, 20)\\): a altura máxima é \\(20\\ \\text{m}\\), atingida em \\(t = 2\\ \\text{s}\\). A bola toca o solo onde a curva cruza o eixo x (\\(y = 0\\)). H20 está em interpretar a parábola como o movimento da bola e ler diretamente o vértice e as raízes no gráfico.",
       "pontos_chave": [
         "Identifique o que cada eixo representa e a escala (cuidado com eixos cortados).",
-        "Raiz/zero: ponto onde a curva cruza o eixo x (y = 0).",
+        "Raiz/zero: ponto onde a curva cruza o eixo x (\\(y = 0\\)).",
         "Reta = 1.º grau; parábola = 2.º grau; curva acelerada = exponencial.",
         "Inclinação positiva = crescente; negativa = decrescente.",
-        "Vértice da parábola = máximo (a < 0) ou mínimo (a > 0).",
+        "Vértice da parábola = máximo (\\(a < 0\\)) ou mínimo (\\(a > 0\\)).",
         "Interseção de curvas = grandezas se igualam.",
         "O ponto de corte no eixo y indica o valor inicial (coeficiente b)."
       ],
@@ -714,28 +714,28 @@
         },
         {
           "h": "Funções do 1.º grau e sistemas",
-          "p": "Para problemas com taxas constantes e equilíbrios, use f(x) = ax + b. Igualar dois modelos (custo A = custo B) leva a uma equação do 1.º grau ou a um sistema. Sistemas lineares (duas equações, duas incógnitas) resolvem situações com duas condições simultâneas (ex.: 'a soma é tanto, a diferença é tanto')."
+          "p": "Para problemas com taxas constantes e equilíbrios, use \\(f(x) = ax + b\\). Igualar dois modelos (custo A = custo B) leva a uma equação do 1.º grau ou a um sistema. Sistemas lineares (duas equações, duas incógnitas) resolvem situações com duas condições simultâneas (ex.: 'a soma é tanto, a diferença é tanto')."
         },
         {
           "h": "Função do 2.º grau e otimização",
-          "p": "Quando há máximo ou mínimo (lucro, área, altura), modele com f(x) = ax² + bx + c. O vértice dá o valor ótimo: x_v = −b/(2a), e o valor extremo é f(x_v). As raízes (Bhaskara: x = [−b ± √(b²−4ac)]/2a) resolvem 'quando vale zero' (quando o projétil toca o solo, quando o lucro zera)."
+          "p": "Quando há máximo ou mínimo (lucro, área, altura), modele com \\(f(x) = ax^{2} + bx + c\\). O vértice dá o valor ótimo: \\(x_v = \\dfrac{-b}{2a}\\), e o valor extremo é \\(f(x_v)\\). As raízes (Bhaskara: \\(x = \\dfrac{-b \\pm \\sqrt{b^{2}-4ac}}{2a}\\)) resolvem 'quando vale zero' (quando o projétil toca o solo, quando o lucro zera)."
         },
         {
           "h": "Exponenciais e logaritmos",
-          "p": "Crescimento/decaimento por fator usa f(t) = a·bᵗ (populações, juros compostos, meia-vida). Para descobrir o EXPOENTE (em quanto tempo se atinge certo valor), usa-se logaritmo. O Enem costuma fornecer valores de log quando necessário. Reconhecer que o problema é exponencial e quando precisa de log é parte de H21."
+          "p": "Crescimento/decaimento por fator usa \\(f(t) = a\\cdot b^{t}\\) (populações, juros compostos, meia-vida). Para descobrir o EXPOENTE (em quanto tempo se atinge certo valor), usa-se logaritmo. O Enem costuma fornecer valores de log quando necessário. Reconhecer que o problema é exponencial e quando precisa de log é parte de H21."
         }
       ],
-      "exemplo": "Texto-base: o lucro mensal de uma empresa, em milhares de reais, é dado por L(x) = −x² + 12x − 20, onde x é o preço de venda. Comando: 'qual preço maximiza o lucro e qual é o lucro máximo?'.\n\nRaciocínio: é uma parábola com a = −1 (abre para baixo, tem máximo). O preço ótimo é o vértice: x_v = −b/(2a) = −12/(2·(−1)) = 6. O lucro máximo é L(6) = −36 + 72 − 20 = 16 (mil reais). H21 está em reconhecer o modelo quadrático, identificar que o máximo está no vértice e calcular x_v e f(x_v) corretamente.",
+      "exemplo": "Texto-base: o lucro mensal de uma empresa, em milhares de reais, é dado por \\(L(x) = -x^{2} + 12x - 20\\), onde \\(x\\) é o preço de venda. Comando: 'qual preço maximiza o lucro e qual é o lucro máximo?'.\n\nRaciocínio: é uma parábola com \\(a = -1\\) (abre para baixo, tem máximo). O preço ótimo é o vértice: \\(x_v = \\dfrac{-b}{2a} = \\dfrac{-12}{2\\cdot(-1)} = 6\\). O lucro máximo é \\(L(6) = -36 + 72 - 20 = 16\\) (mil reais). H21 está em reconhecer o modelo quadrático, identificar que o máximo está no vértice e calcular x_v e f(x_v) corretamente.",
       "pontos_chave": [
-        "1.º grau: f(x) = ax + b; iguale modelos para achar equilíbrio.",
+        "1.º grau: \\(f(x) = ax + b\\); iguale modelos para achar equilíbrio.",
         "Sistemas lineares resolvem duas condições simultâneas.",
-        "2.º grau: vértice x_v = −b/(2a) dá o valor ótimo (máx/mín).",
-        "Bhaskara: x = [−b ± √(b²−4ac)] / 2a para as raízes.",
-        "a > 0: parábola tem mínimo; a < 0: tem máximo.",
-        "Exponencial f(t) = a·bᵗ: crescimento/decaimento por fator.",
+        "2.º grau: vértice \\(x_v = \\dfrac{-b}{2a}\\) dá o valor ótimo (máx/mín).",
+        "Bhaskara: \\(x = \\dfrac{-b \\pm \\sqrt{b^{2}-4ac}}{2a}\\) para as raízes.",
+        "\\(a > 0\\): parábola tem mínimo; \\(a < 0\\): tem máximo.",
+        "Exponencial \\(f(t) = a\\cdot b^{t}\\): crescimento/decaimento por fator.",
         "Use logaritmo para isolar o expoente (tempo)."
       ],
-      "dica_prova": "Primeiro pergunte: o problema pede um valor ótimo (2.º grau, vértice), um equilíbrio (1.º grau/sistema) ou um tempo de crescimento (exponencial/log)? Isso define a ferramenta. Pegadinha em Bhaskara: erro de sinal no discriminante. Em otimização, lembre que o valor de x que dá o máximo é o vértice, mas o lucro máximo é f(x_v), não x_v. O Enem fornece logaritmos quando precisa."
+      "dica_prova": "Primeiro pergunte: o problema pede um valor ótimo (2.º grau, vértice), um equilíbrio (1.º grau/sistema) ou um tempo de crescimento (exponencial/log)? Isso define a ferramenta. Pegadinha em Bhaskara: erro de sinal no discriminante. Em otimização, lembre que o valor de \\(x\\) que dá o máximo é o vértice, mas o lucro máximo é \\(f(x_v)\\), não \\(x_v\\). O Enem fornece logaritmos quando precisa."
     },
     {
       "sid": "h22-utilizar-conhecimentos-algebricos-geometricos-como-recurso-para-a-construcao-de-argumentacao",
@@ -749,25 +749,25 @@
         },
         {
           "h": "Pontos, distâncias e alinhamento",
-          "p": "No plano cartesiano, a distância entre dois pontos vem do teorema de Pitágoras: d = √[(x₂−x₁)² + (y₂−y₁)²]. Três pontos estão alinhados (colineares) se pertencem à mesma reta. Argumentos sobre 'qual o caminho mais curto' ou 'os pontos formam uma linha' baseiam-se nessas ferramentas."
+          "p": "No plano cartesiano, a distância entre dois pontos vem do teorema de Pitágoras: \\(d = \\sqrt{(x_2-x_1)^{2} + (y_2-y_1)^{2}}\\). Três pontos estão alinhados (colineares) se pertencem à mesma reta. Argumentos sobre 'qual o caminho mais curto' ou 'os pontos formam uma linha' baseiam-se nessas ferramentas."
         },
         {
           "h": "Retas: paralelismo, perpendicularidade e interseção",
-          "p": "A reta tem equação y = mx + n, onde m é a inclinação (coeficiente angular). Retas paralelas têm a MESMA inclinação; perpendiculares têm inclinações cujo produto é −1. A interseção de duas retas resolve-se por sistema e indica o ponto comum (cruzamento de trajetórias, equilíbrio)."
+          "p": "A reta tem equação \\(y = mx + n\\), onde \\(m\\) é a inclinação (coeficiente angular). Retas paralelas têm a MESMA inclinação; perpendiculares têm inclinações cujo produto é \\(-1\\). A interseção de duas retas resolve-se por sistema e indica o ponto comum (cruzamento de trajetórias, equilíbrio)."
         },
         {
           "h": "Circunferências e regiões",
-          "p": "A circunferência de centro (a, b) e raio r tem equação (x−a)² + (y−b)² = r². Serve para argumentar sobre alcance (área coberta por uma antena, raio de entrega): um ponto está dentro se sua distância ao centro é menor que r. Combinar isso com retas permite justificar coberturas e limites."
+          "p": "A circunferência de centro \\((a, b)\\) e raio \\(r\\) tem equação \\((x-a)^{2} + (y-b)^{2} = r^{2}\\). Serve para argumentar sobre alcance (área coberta por uma antena, raio de entrega): um ponto está dentro se sua distância ao centro é menor que \\(r\\). Combinar isso com retas permite justificar coberturas e limites."
         }
       ],
-      "exemplo": "Texto-base: uma antena de telefonia fica no ponto (0, 0) de um mapa cartesiano (em km) e cobre um raio de 5 km. Uma casa está em (3, 4). Comando: 'a casa está dentro da área de cobertura? Justifique'.\n\nRaciocínio: calcula-se a distância da casa à antena: d = √[(3−0)² + (4−0)²] = √(9 + 16) = √25 = 5 km. Como a distância (5 km) é igual ao raio (5 km), a casa está exatamente na borda da cobertura. H22 está em usar a distância entre pontos (álgebra) e a noção de circunferência (geometria) para fundamentar a conclusão sobre a cobertura.",
+      "exemplo": "Texto-base: uma antena de telefonia fica no ponto \\((0, 0)\\) de um mapa cartesiano (em km) e cobre um raio de \\(5\\ \\text{km}\\). Uma casa está em \\((3, 4)\\). Comando: 'a casa está dentro da área de cobertura? Justifique'.\n\nRaciocínio: calcula-se a distância da casa à antena: \\(d = \\sqrt{(3-0)^{2} + (4-0)^{2}} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\ \\text{km}\\). Como a distância (\\(5\\ \\text{km}\\)) é igual ao raio (\\(5\\ \\text{km}\\)), a casa está exatamente na borda da cobertura. H22 está em usar a distância entre pontos (álgebra) e a noção de circunferência (geometria) para fundamentar a conclusão sobre a cobertura.",
       "pontos_chave": [
-        "Distância entre pontos: d = √[(x₂−x₁)² + (y₂−y₁)²].",
-        "Reta: y = mx + n, com m = inclinação (coeficiente angular).",
-        "Paralelas: mesma inclinação. Perpendiculares: produto das inclinações = −1.",
+        "Distância entre pontos: \\(d = \\sqrt{(x_2-x_1)^{2} + (y_2-y_1)^{2}}\\).",
+        "Reta: \\(y = mx + n\\), com \\(m\\) = inclinação (coeficiente angular).",
+        "Paralelas: mesma inclinação. Perpendiculares: produto das inclinações \\(= -1\\).",
         "Interseção de retas = solução do sistema (ponto comum).",
-        "Circunferência: (x−a)² + (y−b)² = r², centro (a, b), raio r.",
-        "Ponto dentro do círculo se distância ao centro < r.",
+        "Circunferência: \\((x-a)^{2} + (y-b)^{2} = r^{2}\\), centro \\((a, b)\\), raio \\(r\\).",
+        "Ponto dentro do círculo se distância ao centro \\(< r\\).",
         "Use a geometria analítica para justificar, não só para calcular."
       ],
       "dica_prova": "H22 cobra geometria analítica aplicada a argumentos (cobertura, rotas, alinhamento). A fórmula da distância é a mais usada — é só Pitágoras com coordenadas. Pegadinha: confundir o raio com o diâmetro, ou esquecer de comparar a distância com o raio para decidir dentro/fora. Em retas, lembre que paralelas têm a mesma inclinação; o contexto costuma ser mapas e logística."
@@ -795,12 +795,12 @@
           "p": "H23 não para no cálculo: pede avaliar a proposta. Verifique se ela atinge a meta, se é viável (lucro positivo, custo dentro do orçamento) e em que condições é melhor. A intervenção recomendada é a que otimiza o critério, e a justificativa vem do modelo (números), não da intuição."
         }
       ],
-      "exemplo": "Texto-base: uma empresa pode produzir x unidades com custo C(x) = 200 + 8x e vendê-las a R$ 12 cada, gerando receita R(x) = 12x. Comando: 'a partir de quantas unidades a produção passa a dar lucro?'.\n\nRaciocínio: lucro positivo quando receita supera custo: 12x > 200 + 8x → 4x > 200 → x > 50. Logo, a partir de 51 unidades a empresa tem lucro (em x = 50 está no equilíbrio, sem lucro nem prejuízo). H23 está em modelar custo e receita, achar o ponto de equilíbrio por inequação e avaliar a viabilidade da proposta de produção.",
+      "exemplo": "Texto-base: uma empresa pode produzir \\(x\\) unidades com custo \\(C(x) = 200 + 8x\\) e vendê-las a R$ 12 cada, gerando receita \\(R(x) = 12x\\). Comando: 'a partir de quantas unidades a produção passa a dar lucro?'.\n\nRaciocínio: lucro positivo quando receita supera custo: \\(12x > 200 + 8x \\Rightarrow 4x > 200 \\Rightarrow x > 50\\). Logo, a partir de 51 unidades a empresa tem lucro (em \\(x = 50\\) está no equilíbrio, sem lucro nem prejuízo). H23 está em modelar custo e receita, achar o ponto de equilíbrio por inequação e avaliar a viabilidade da proposta de produção.",
       "pontos_chave": [
         "Modele cada proposta como função (custo, receita, lucro).",
         "Ponto de equilíbrio: iguale as funções (receita = custo).",
         "Use inequação para achar a faixa em que uma proposta supera a outra.",
-        "Lucro = receita − custo; é positivo acima do equilíbrio.",
+        "\\(\\text{Lucro} = \\text{receita} - \\text{custo}\\); é positivo acima do equilíbrio.",
         "Ótimo (máx/mín) está no vértice da função quadrática.",
         "Verifique viabilidade: a proposta atinge a meta e o critério?",
         "Justifique a escolha com os valores do modelo."
@@ -830,10 +830,10 @@
           "p": "A tendência é a direção geral dos dados: crescente, decrescente, estável, sazonal. Inferir tendência permite responder 'o que tende a acontecer'. Cuidado para não confundir uma flutuação pontual com a tendência de fundo: olhe o comportamento ao longo de todo o período."
         }
       ],
-      "exemplo": "Texto-base: um gráfico de linhas mostra as vendas de uma loja: jan = 100, fev = 120, mar = 140, abr = 160 unidades. Comando: 'mantida a tendência, qual a previsão de vendas para maio?'.\n\nRaciocínio: as vendas crescem em ritmo constante de +20 por mês (tendência linear). Extrapolando, maio = 160 + 20 = 180 unidades. H24 está em identificar o padrão (acréscimo constante), reconhecer que se trata de extrapolação (prever fora dos dados dados) e aplicar a tendência para estimar o valor futuro.",
+      "exemplo": "Texto-base: um gráfico de linhas mostra as vendas de uma loja: jan = 100, fev = 120, mar = 140, abr = 160 unidades. Comando: 'mantida a tendência, qual a previsão de vendas para maio?'.\n\nRaciocínio: as vendas crescem em ritmo constante de \\(+20\\) por mês (tendência linear). Extrapolando, \\(\\text{maio} = 160 + 20 = 180\\) unidades. H24 está em identificar o padrão (acréscimo constante), reconhecer que se trata de extrapolação (prever fora dos dados dados) e aplicar a tendência para estimar o valor futuro.",
       "pontos_chave": [
         "Leia eixos, unidades e escala antes de concluir.",
-        "Gráfico de setores: cada fatia é % do total (soma 100%).",
+        "Gráfico de setores: cada fatia é % do total (soma \\(100\\%\\)).",
         "Interpolação: estimar valor ENTRE pontos conhecidos.",
         "Extrapolação: projetar para FORA do intervalo (manter a tendência).",
         "Tendência = direção geral (crescente, decrescente, estável).",
@@ -858,21 +858,21 @@
         },
         {
           "h": "Operar com os dados",
-          "p": "Com os valores em mãos, aplique a operação pedida: total (soma), diferença (variação absoluta), variação percentual ((novo − antigo)/antigo × 100), participação (parte/total × 100), ou média. Em gráficos de setores, transforme porcentagens em valores usando o total, e vice-versa."
+          "p": "Com os valores em mãos, aplique a operação pedida: total (soma), diferença (variação absoluta), variação percentual (\\(\\dfrac{\\text{novo} - \\text{antigo}}{\\text{antigo}} \\times 100\\)), participação (\\(\\dfrac{\\text{parte}}{\\text{total}} \\times 100\\)), ou média. Em gráficos de setores, transforme porcentagens em valores usando o total, e vice-versa."
         },
         {
           "h": "Médias a partir de tabelas",
-          "p": "Muitos problemas pedem a média dos dados tabelados. Se cada valor tem uma frequência (quantas vezes ocorre), use a média ponderada: multiplique cada valor pela sua frequência, some tudo e divida pela soma das frequências. Ler a tabela de frequências corretamente é essencial."
+          "p": "Muitos problemas pedem a média dos dados tabelados. Se cada valor tem uma frequência (quantas vezes ocorre), use a média ponderada: \\(\\overline{x} = \\dfrac{\\sum (\\text{valor} \\times \\text{frequência})}{\\sum \\text{frequências}}\\) — multiplique cada valor pela sua frequência, some tudo e divida pela soma das frequências. Ler a tabela de frequências corretamente é essencial."
         }
       ],
-      "exemplo": "Texto-base: uma tabela mostra a produção de uma fábrica: 2021 = 8.000 unidades; 2022 = 10.000 unidades. Comando: 'qual foi a variação percentual da produção de 2021 para 2022?'.\n\nRaciocínio: variação percentual = (valor novo − valor antigo)/valor antigo × 100 = (10.000 − 8.000)/8.000 × 100 = 2.000/8.000 × 100 = 25%. H25 está em extrair os dois valores certos da tabela e aplicar corretamente a fórmula de variação percentual, dividindo pelo valor INICIAL (e não pelo final).",
+      "exemplo": "Texto-base: uma tabela mostra a produção de uma fábrica: 2021 = 8.000 unidades; 2022 = 10.000 unidades. Comando: 'qual foi a variação percentual da produção de 2021 para 2022?'.\n\nRaciocínio: \\(\\text{variação percentual} = \\dfrac{\\text{valor novo} - \\text{valor antigo}}{\\text{valor antigo}} \\times 100 = \\dfrac{10.000 - 8.000}{8.000} \\times 100 = \\dfrac{2.000}{8.000} \\times 100 = 25\\%\\). H25 está em extrair os dois valores certos da tabela e aplicar corretamente a fórmula de variação percentual, dividindo pelo valor INICIAL (e não pelo final).",
       "pontos_chave": [
         "Extraia o dado exato: célula/barra certa, eixo e escala certos.",
-        "Variação percentual = (novo − antigo)/antigo × 100.",
+        "\\(\\text{Variação percentual} = \\dfrac{\\text{novo} - \\text{antigo}}{\\text{antigo}} \\times 100\\).",
         "Divida sempre pelo valor INICIAL na variação percentual.",
-        "Participação = parte/total × 100.",
+        "\\(\\text{Participação} = \\dfrac{\\text{parte}}{\\text{total}} \\times 100\\).",
         "Em setores, converta % ↔ valor usando o total.",
-        "Média ponderada: Σ(valor × frequência) / Σfrequências.",
+        "Média ponderada: \\(\\dfrac{\\sum (\\text{valor} \\times \\text{frequência})}{\\sum \\text{frequências}}\\).",
         "Releia o comando: total, diferença, variação ou média?"
       ],
       "dica_prova": "O erro nº 1 é ler o dado errado — confira linha e coluna. Na variação percentual, divida pelo valor inicial (não pelo final): essa é a pegadinha clássica. Em gráficos de setores, lembre que tudo soma 100% e que 'a maior fatia' nem sempre é o que a questão quer. H25 cruza com todas as áreas; a leitura de dados é a competência mais transversal do Enem."
@@ -897,10 +897,10 @@
         },
         {
           "h": "Médias e proporções como argumento",
-          "p": "Médias podem mascarar desigualdades (uma média alta com grande dispersão esconde extremos). Proporções dependem da base (um aumento de '100%' pode ser de 1 para 2 casos). Avaliar argumentos exige escolher a medida adequada e questionar a que a afirmação usa."
+          "p": "Médias podem mascarar desigualdades (uma média alta com grande dispersão esconde extremos). Proporções dependem da base (um aumento de '\\(100\\%\\)' pode ser de 1 para 2 casos). Avaliar argumentos exige escolher a medida adequada e questionar a que a afirmação usa."
         }
       ],
-      "exemplo": "Texto-base: um gráfico de barras mostra o lucro de uma empresa: ano 1 = R$ 50 mil; ano 2 = R$ 52 mil. O eixo vertical começa em R$ 48 mil, fazendo a barra do ano 2 parecer mais que o dobro da do ano 1. A empresa afirma: 'nosso lucro disparou!'. Comando: 'avalie o argumento'.\n\nRaciocínio: o crescimento real foi de R$ 50 mil para R$ 52 mil, ou seja, +R$ 2 mil = +4%. A impressão de 'disparada' vem do eixo cortado (começando em 48 mil), que amplia visualmente a diferença. O argumento é enganoso: o aumento é modesto (4%). H26 está em analisar criticamente a distorção visual e confrontar a afirmação com a variação real calculada.",
+      "exemplo": "Texto-base: um gráfico de barras mostra o lucro de uma empresa: ano 1 = R$ 50 mil; ano 2 = R$ 52 mil. O eixo vertical começa em R$ 48 mil, fazendo a barra do ano 2 parecer mais que o dobro da do ano 1. A empresa afirma: 'nosso lucro disparou!'. Comando: 'avalie o argumento'.\n\nRaciocínio: o crescimento real foi de R$ 50 mil para R$ 52 mil, ou seja, \\(+R\\$\\ 2\\text{ mil} = +4\\%\\). A impressão de 'disparada' vem do eixo cortado (começando em 48 mil), que amplia visualmente a diferença. O argumento é enganoso: o aumento é modesto (4%). H26 está em analisar criticamente a distorção visual e confrontar a afirmação com a variação real calculada.",
       "pontos_chave": [
         "Confronte a afirmação com o que os dados realmente mostram.",
         "Eixo que não começa em zero amplia diferenças (distorção comum).",
@@ -924,24 +924,24 @@
         },
         {
           "h": "Medidas de tendência central",
-          "p": "MÉDIA: soma dos valores ÷ quantidade (com frequências, é ponderada). MEDIANA: o valor central quando os dados estão ORDENADOS (se a quantidade é par, é a média dos dois centrais). MODA: o valor que mais se repete (maior frequência). As três localizam o 'centro' dos dados, mas de formas diferentes."
+          "p": "MÉDIA: \\(\\dfrac{\\text{soma dos valores}}{\\text{quantidade}}\\) (com frequências, é ponderada). MEDIANA: o valor central quando os dados estão ORDENADOS (se a quantidade é par, é a média dos dois centrais). MODA: o valor que mais se repete (maior frequência). As três localizam o 'centro' dos dados, mas de formas diferentes."
         },
         {
           "h": "Calcular a partir de tabelas de frequência",
-          "p": "Numa tabela de frequências (não em classes), cada valor tem uma frequência. A média é Σ(valor × frequência) / Σfrequências. A moda é o valor de maior frequência. A mediana é encontrada acumulando as frequências até chegar à posição central. Ler corretamente a coluna de frequências é decisivo."
+          "p": "Numa tabela de frequências (não em classes), cada valor tem uma frequência. A média é \\(\\dfrac{\\sum (\\text{valor} \\times \\text{frequência})}{\\sum \\text{frequências}}\\). A moda é o valor de maior frequência. A mediana é encontrada acumulando as frequências até chegar à posição central. Ler corretamente a coluna de frequências é decisivo."
         },
         {
           "h": "Medidas de dispersão",
-          "p": "Dispersão mede o quanto os dados se espalham. AMPLITUDE = maior valor − menor valor (a mais simples). VARIÂNCIA = média dos quadrados dos desvios em relação à média; DESVIO PADRÃO = raiz da variância. Quanto maior a dispersão, mais heterogêneos os dados. O Enem cobra mais a interpretação (maior/menor dispersão) do que cálculos longos de variância."
+          "p": "Dispersão mede o quanto os dados se espalham. AMPLITUDE \\(= \\text{maior valor} - \\text{menor valor}\\) (a mais simples). VARIÂNCIA = média dos quadrados dos desvios em relação à média; DESVIO PADRÃO \\(= \\sqrt{\\text{variância}}\\). Quanto maior a dispersão, mais heterogêneos os dados. O Enem cobra mais a interpretação (maior/menor dispersão) do que cálculos longos de variância."
         }
       ],
-      "exemplo": "Texto-base: uma tabela mostra as notas de uma turma — nota 5 (3 alunos), nota 7 (4 alunos), nota 9 (3 alunos). Comando: 'calcule a média e a moda das notas'.\n\nRaciocínio: total de alunos = 3 + 4 + 3 = 10. Média ponderada = (5×3 + 7×4 + 9×3) / 10 = (15 + 28 + 27)/10 = 70/10 = 7,0. A moda é a nota de maior frequência: nota 7 (com 4 alunos). H27 está em aplicar a média ponderada usando as frequências e identificar a moda pela maior frequência — não basta somar 5+7+9 e dividir por 3.",
+      "exemplo": "Texto-base: uma tabela mostra as notas de uma turma — nota 5 (3 alunos), nota 7 (4 alunos), nota 9 (3 alunos). Comando: 'calcule a média e a moda das notas'.\n\nRaciocínio: total de alunos \\(= 3 + 4 + 3 = 10\\). Média ponderada \\(= \\dfrac{5\\times3 + 7\\times4 + 9\\times3}{10} = \\dfrac{15 + 28 + 27}{10} = \\dfrac{70}{10} = 7{,}0\\). A moda é a nota de maior frequência: nota 7 (com 4 alunos). H27 está em aplicar a média ponderada usando as frequências e identificar a moda pela maior frequência — não basta somar 5+7+9 e dividir por 3.",
       "pontos_chave": [
-        "Média (com frequências) = Σ(valor × frequência) / Σfrequências.",
+        "Média (com frequências) \\(= \\dfrac{\\sum (\\text{valor} \\times \\text{frequência})}{\\sum \\text{frequências}}\\).",
         "Mediana = valor central dos dados ORDENADOS (par → média dos dois centrais).",
         "Moda = valor de maior frequência (pode haver mais de uma ou nenhuma).",
-        "Amplitude = maior valor − menor valor.",
-        "Variância = média dos quadrados dos desvios; desvio padrão = √variância.",
+        "Amplitude \\(= \\text{maior valor} - \\text{menor valor}\\).",
+        "Variância = média dos quadrados dos desvios; desvio padrão \\(= \\sqrt{\\text{variância}}\\).",
         "Maior dispersão = dados mais espalhados/heterogêneos.",
         "Em tabela de frequências, sempre pondere pela frequência."
       ],
@@ -959,28 +959,28 @@
         },
         {
           "h": "Conceito de probabilidade",
-          "p": "A probabilidade de um evento é P = casos favoráveis / casos possíveis, sempre entre 0 e 1 (0% a 100%). Num dado, P(sair 5) = 1/6. O segredo é contar corretamente os casos possíveis (o espaço amostral) e os favoráveis. Aqui os princípios de contagem (H2) reaparecem."
+          "p": "A probabilidade de um evento é \\(P = \\dfrac{\\text{casos favoráveis}}{\\text{casos possíveis}}\\), sempre entre \\(0\\) e \\(1\\) (\\(0\\%\\) a \\(100\\%\\)). Num dado, \\(P(\\text{sair } 5) = \\dfrac{1}{6}\\). O segredo é contar corretamente os casos possíveis (o espaço amostral) e os favoráveis. Aqui os princípios de contagem (H2) reaparecem."
         },
         {
           "h": "Eventos sucessivos: 'e' e 'ou'",
-          "p": "Para eventos que ocorrem em sequência e são independentes, multiplica-se as probabilidades ('E': P(A e B) = P(A) × P(B)). Para eventos mutuamente exclusivos, soma-se ('OU': P(A ou B) = P(A) + P(B)). Ex.: tirar duas caras seguidas = 1/2 × 1/2 = 1/4. Decidir entre multiplicar e somar é o ponto-chave."
+          "p": "Para eventos que ocorrem em sequência e são independentes, multiplica-se as probabilidades ('E': \\(P(A \\text{ e } B) = P(A) \\times P(B)\\)). Para eventos mutuamente exclusivos, soma-se ('OU': \\(P(A \\text{ ou } B) = P(A) + P(B)\\)). Ex.: tirar duas caras seguidas \\(= \\dfrac{1}{2} \\times \\dfrac{1}{2} = \\dfrac{1}{4}\\). Decidir entre multiplicar e somar é o ponto-chave."
         },
         {
           "h": "Probabilidade condicional e complementar",
-          "p": "A probabilidade do evento contrário é 1 − P(evento) — útil quando é mais fácil calcular o complemento (ex.: 'pelo menos uma' = 1 − 'nenhuma'). A probabilidade condicional considera que algo já ocorreu, reduzindo o espaço amostral. O Enem usa muito a ideia de 'sabendo que...' para restringir os casos possíveis."
+          "p": "A probabilidade do evento contrário é \\(1 - P(\\text{evento})\\) — útil quando é mais fácil calcular o complemento (ex.: 'pelo menos uma' \\(= 1 - \\text{'nenhuma'}\\)). A probabilidade condicional considera que algo já ocorreu, reduzindo o espaço amostral. O Enem usa muito a ideia de 'sabendo que...' para restringir os casos possíveis."
         }
       ],
-      "exemplo": "Texto-base: uma urna tem 5 bolas vermelhas e 3 azuis. Retiram-se duas bolas, uma após a outra, sem reposição. Comando: 'qual a probabilidade de ambas serem vermelhas?'.\n\nRaciocínio: na 1ª retirada, P(vermelha) = 5/8. Sem reposição, restam 4 vermelhas em 7 bolas, então P(2ª vermelha | 1ª vermelha) = 4/7. Como queremos as duas (evento 'e'), multiplica-se: 5/8 × 4/7 = 20/56 = 5/14. H28 está em calcular probabilidades sucessivas com a redução do espaço amostral (sem reposição) e multiplicar os eventos.",
+      "exemplo": "Texto-base: uma urna tem 5 bolas vermelhas e 3 azuis. Retiram-se duas bolas, uma após a outra, sem reposição. Comando: 'qual a probabilidade de ambas serem vermelhas?'.\n\nRaciocínio: na 1ª retirada, \\(P(\\text{vermelha}) = \\dfrac{5}{8}\\). Sem reposição, restam 4 vermelhas em 7 bolas, então \\(P(\\text{2ª vermelha} \\mid \\text{1ª vermelha}) = \\dfrac{4}{7}\\). Como queremos as duas (evento 'e'), multiplica-se: \\(\\dfrac{5}{8} \\times \\dfrac{4}{7} = \\dfrac{20}{56} = \\dfrac{5}{14}\\). H28 está em calcular probabilidades sucessivas com a redução do espaço amostral (sem reposição) e multiplicar os eventos.",
       "pontos_chave": [
-        "Probabilidade = casos favoráveis / casos possíveis (entre 0 e 1).",
+        "\\(\\text{Probabilidade} = \\dfrac{\\text{casos favoráveis}}{\\text{casos possíveis}}\\) (entre \\(0\\) e \\(1\\)).",
         "Conte bem o espaço amostral (use os princípios de contagem).",
         "Eventos 'E' (sucessivos independentes): multiplique as probabilidades.",
         "Eventos 'OU' (exclusivos): some as probabilidades.",
         "Sem reposição: o espaço amostral diminui a cada retirada.",
-        "Evento contrário: P(não A) = 1 − P(A).",
-        "'Pelo menos um' = 1 − P(nenhum)."
+        "Evento contrário: \\(P(\\text{não } A) = 1 - P(A)\\).",
+        "'Pelo menos um' \\(= 1 - P(\\text{nenhum})\\)."
       ],
-      "dica_prova": "Decida entre 'e' (multiplica) e 'ou' (soma) lendo o enunciado. Atenção ao 'com/sem reposição': sem reposição muda os casos possíveis na 2ª retirada. A pegadinha de 'pelo menos um' resolve-se pelo complemento (1 − nenhum). Probabilidade nunca passa de 1 — se der mais, há erro. H28 reaproveita a contagem de H2; treine os dois juntos."
+      "dica_prova": "Decida entre 'e' (multiplica) e 'ou' (soma) lendo o enunciado. Atenção ao 'com/sem reposição': sem reposição muda os casos possíveis na 2ª retirada. A pegadinha de 'pelo menos um' resolve-se pelo complemento (\\(1 - \\text{nenhum}\\)). Probabilidade nunca passa de \\(1\\) — se der mais, há erro. H28 reaproveita a contagem de H2; treine os dois juntos."
     },
     {
       "sid": "h29-utilizar-conhecimentos-de-estatistica-e-probabilidade-como-recurso-para-a-construcao-de-argumentacao",
@@ -1002,16 +1002,16 @@
         },
         {
           "h": "Probabilidade é chance, não certeza",
-          "p": "Uma probabilidade alta não garante o evento; uma baixa não o impede. 'Há 90% de chance de chuva' não significa que choverá com certeza. Argumentos que tratam probabilidade como certeza são falhos. Avaliar inclui comparar probabilidades (qual opção é mais provável) sem confundir com garantia."
+          "p": "Uma probabilidade alta não garante o evento; uma baixa não o impede. 'Há \\(90\\%\\) de chance de chuva' não significa que choverá com certeza. Argumentos que tratam probabilidade como certeza são falhos. Avaliar inclui comparar probabilidades (qual opção é mais provável) sem confundir com garantia."
         }
       ],
-      "exemplo": "Texto-base: duas turmas têm a mesma média 7,0 em uma prova. Na turma A as notas variam de 6,5 a 7,5; na turma B, de 3,0 a 10,0. Um professor afirma: 'as duas turmas têm desempenho equivalente, pois a média é igual'. Comando: 'avalie o argumento'.\n\nRaciocínio: embora as médias sejam iguais, a DISPERSÃO é muito diferente: a turma A é homogênea (notas próximas de 7), a turma B é heterogênea (notas de 3 a 10). Dizer que o desempenho é 'equivalente' ignora a dispersão — há na turma B alunos com grande dificuldade e outros excelentes. H29 está em usar a medida de dispersão para refutar um argumento baseado apenas na média.",
+      "exemplo": "Texto-base: duas turmas têm a mesma média \\(7{,}0\\) em uma prova. Na turma A as notas variam de \\(6{,}5\\) a \\(7{,}5\\); na turma B, de \\(3{,}0\\) a \\(10{,}0\\). Um professor afirma: 'as duas turmas têm desempenho equivalente, pois a média é igual'. Comando: 'avalie o argumento'.\n\nRaciocínio: embora as médias sejam iguais, a DISPERSÃO é muito diferente: a turma A é homogênea (notas próximas de 7), a turma B é heterogênea (notas de 3 a 10). Dizer que o desempenho é 'equivalente' ignora a dispersão — há na turma B alunos com grande dificuldade e outros excelentes. H29 está em usar a medida de dispersão para refutar um argumento baseado apenas na média.",
       "pontos_chave": [
         "Média, mediana e moda dizem coisas diferentes; escolha a adequada.",
         "Valores extremos puxam a média; a mediana resiste a eles.",
         "Mesma média pode esconder dispersões muito diferentes.",
         "Maior dispersão = a média representa menos bem o conjunto.",
-        "Probabilidade é chance, não certeza (90% ≠ garantia).",
+        "Probabilidade é chance, não certeza (\\(90\\% \\ne \\text{garantia}\\)).",
         "Compare probabilidades para dizer o mais provável, sem garantir.",
         "Um argumento estatístico honesto usa a medida certa para o que afirma."
       ],
@@ -1037,20 +1037,20 @@
         },
         {
           "h": "Valor esperado e decisão",
-          "p": "Em escolhas com incerteza, compara-se o resultado médio esperado de cada opção (probabilidade × resultado). A proposta com melhor valor esperado tende a ser a recomendada — desde que o risco (dispersão) seja aceitável. H30 pede unir esse cálculo à justificativa da intervenção mais adequada."
+          "p": "Em escolhas com incerteza, compara-se o resultado médio esperado de cada opção (\\(\\text{probabilidade} \\times \\text{resultado}\\)). A proposta com melhor valor esperado tende a ser a recomendada — desde que o risco (dispersão) seja aceitável. H30 pede unir esse cálculo à justificativa da intervenção mais adequada."
         }
       ],
-      "exemplo": "Texto-base: para reduzir acidentes, uma cidade avalia duas campanhas. A campanha X tem 70% de probabilidade de reduzir os acidentes em 100 casos/mês; a campanha Y tem 40% de probabilidade de reduzi-los em 200 casos/mês. Comando: 'qual campanha tem maior redução esperada de acidentes?'.\n\nRaciocínio: compara-se o valor esperado (probabilidade × efeito). Campanha X: 0,70 × 100 = 70 acidentes/mês esperados a menos. Campanha Y: 0,40 × 200 = 80 acidentes/mês a menos. A campanha Y tem maior redução esperada (80 > 70). H30 está em calcular o valor esperado de cada proposta e escolher a intervenção com melhor resultado esperado, justificando com os números.",
+      "exemplo": "Texto-base: para reduzir acidentes, uma cidade avalia duas campanhas. A campanha X tem \\(70\\%\\) de probabilidade de reduzir os acidentes em 100 casos/mês; a campanha Y tem \\(40\\%\\) de probabilidade de reduzi-los em 200 casos/mês. Comando: 'qual campanha tem maior redução esperada de acidentes?'.\n\nRaciocínio: compara-se o valor esperado (\\(\\text{probabilidade} \\times \\text{efeito}\\)). Campanha X: \\(0{,}70 \\times 100 = 70\\) acidentes/mês esperados a menos. Campanha Y: \\(0{,}40 \\times 200 = 80\\) acidentes/mês a menos. A campanha Y tem maior redução esperada (\\(80 > 70\\)). H30 está em calcular o valor esperado de cada proposta e escolher a intervenção com melhor resultado esperado, justificando com os números.",
       "pontos_chave": [
         "Compare propostas pela probabilidade de sucesso ou redução de risco.",
-        "Valor esperado = probabilidade × resultado; compare entre as opções.",
+        "\\(\\text{Valor esperado} = \\text{probabilidade} \\times \\text{resultado}\\); compare entre as opções.",
         "A melhor intervenção maximiza o benefício esperado (ou minimiza risco).",
         "Avalie a confiabilidade da amostra (tamanho, representatividade, viés).",
         "Considere também a dispersão/risco, não só o valor médio.",
         "Probabilidade alta não garante sucesso — pondere a incerteza.",
         "Justifique a escolha com o cálculo, não com a intuição."
       ],
-      "dica_prova": "H30 é o topo da Competência 7: estatística e probabilidade aplicadas à decisão pública. A chave costuma ser o valor esperado (probabilidade × efeito). Pegadinha: escolher a proposta de maior efeito sem ponderar a probabilidade (ou vice-versa) — é o produto que decide. Cuidado com amostras pequenas ou enviesadas. O contexto é sempre social (saúde, segurança, meio ambiente), valorizando decisões responsáveis."
+      "dica_prova": "H30 é o topo da Competência 7: estatística e probabilidade aplicadas à decisão pública. A chave costuma ser o valor esperado (\\(\\text{probabilidade} \\times \\text{efeito}\\)). Pegadinha: escolher a proposta de maior efeito sem ponderar a probabilidade (ou vice-versa) — é o produto que decide. Cuidado com amostras pequenas ou enviesadas. O contexto é sempre social (saúde, segurança, meio ambiente), valorizando decisões responsáveis."
     }
   ]
 }

@@ -8,7 +8,7 @@
       "secoes": [
         {
           "h": "Redes densas (MLP) e a função de ativação",
-          "p": "A rede neural multicamadas (Multilayer Perceptron - MLP) é totalmente conectada: cada neurônio de uma camada liga-se a todos os neurônios da camada seguinte. É adequada para dados tabulares e tarefas de classificação/regressão simples.\n\nO que dá poder expressivo à rede é a função de ativação não linear. Sem ela, a composição de várias camadas lineares colapsaria em uma única transformação linear, incapaz de modelar relações complexas. A ReLU (Rectified Linear Unit, f(x)=max(0,x)) é a ativação mais usada em camadas ocultas por mitigar o problema do gradiente que desaparece (vanishing gradient). Softmax é típica da camada de saída em classificação multiclasse, pois produz uma distribuição de probabilidade."
+          "p": "A rede neural multicamadas (Multilayer Perceptron - MLP) é totalmente conectada: cada neurônio de uma camada liga-se a todos os neurônios da camada seguinte. É adequada para dados tabulares e tarefas de classificação/regressão simples.\n\nO que dá poder expressivo à rede é a função de ativação não linear. Sem ela, a composição de várias camadas lineares colapsaria em uma única transformação linear, incapaz de modelar relações complexas. A ReLU (Rectified Linear Unit, \\( f(x) = \\max(0, x) \\)) é a ativação mais usada em camadas ocultas por mitigar o problema do gradiente que desaparece (vanishing gradient). Softmax é típica da camada de saída em classificação multiclasse, pois produz uma distribuição de probabilidade."
         },
         {
           "h": "CNN (Redes Convolucionais)",

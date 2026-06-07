@@ -20,7 +20,7 @@
         },
         {
           "h": "Mercado de fatores: demanda derivada e produtividade marginal",
-          "p": "A demanda por um fator de produção é derivada da demanda pelo bem que ele ajuda a produzir. A firma maximizadora de lucro contrata cada fator até o ponto em que o Valor do Produto Marginal (VPMg = preço do bem × produto marginal físico do fator) iguala o preço (custo) do fator. Para o trabalho, isso significa contratar até VPMgL = salário; para o capital, até VPMgK = custo do capital.\n\nA produtividade marginal decrescente garante que essas curvas de demanda por fator sejam decrescentes. Em concorrência perfeita no mercado de produto, usa-se o VPMg; em mercado de produto imperfeito (monopólio), usa-se a Receita do Produto Marginal (RPMg = receita marginal × produto marginal), que é menor que o VPMg, levando a menor contratação."
+          "p": "A demanda por um fator de produção é derivada da demanda pelo bem que ele ajuda a produzir. A firma maximizadora de lucro contrata cada fator até o ponto em que o Valor do Produto Marginal (\\( \\text{VPMg} = \\text{preço do bem} \\times \\text{produto marginal físico do fator} \\)) iguala o preço (custo) do fator. Para o trabalho, isso significa contratar até \\( \\text{VPMg}_L = \\text{salário} \\); para o capital, até \\( \\text{VPMg}_K = \\text{custo do capital} \\).\n\nA produtividade marginal decrescente garante que essas curvas de demanda por fator sejam decrescentes. Em concorrência perfeita no mercado de produto, usa-se o VPMg; em mercado de produto imperfeito (monopólio), usa-se a Receita do Produto Marginal (\\( \\text{RPMg} = \\text{receita marginal} \\times \\text{produto marginal} \\)), que é menor que o VPMg, levando a menor contratação."
         },
         {
           "h": "Mercados de fatores não-competitivos: monopsônio",
@@ -34,11 +34,11 @@
         "Dilema do prisioneiro: racionalidade individual leva a resultado coletivo inferior.",
         "Jogos sequenciais resolvem-se por indução retroativa (equilíbrio perfeito em subjogos).",
         "Cournot compete em quantidade; Bertrand em preço; Stackelberg tem líder e seguidor.",
-        "Demanda por fator é derivada; firma contrata até VPMg = preço do fator.",
-        "Em monopólio do produto, vale a RPMg (< VPMg), reduzindo a contratação de fatores.",
+        "Demanda por fator é derivada; firma contrata até \\( \\text{VPMg} = \\text{preço do fator} \\).",
+        "Em monopólio do produto, vale a RPMg \\( (< \\text{VPMg}) \\), reduzindo a contratação de fatores.",
         "No monopsônio, paga-se salário abaixo do competitivo; salário mínimo pode elevar emprego e salário."
       ],
-      "dica_prova": "A pegadinha clássica é afirmar que o equilíbrio de Nash é sempre eficiente — não é. Outra é confundir estratégia dominante (existe sempre que dá o melhor payoff em qualquer cenário) com equilíbrio de Nash (conceito mais geral). No mercado de fatores, lembre que a demanda é DERIVADA e que a regra é VPMg = preço do fator (ou RPMg, sob monopólio). Guarde que no monopsônio o custo marginal do fator supera o salário médio, justificando ganhos do salário mínimo."
+      "dica_prova": "A pegadinha clássica é afirmar que o equilíbrio de Nash é sempre eficiente — não é. Outra é confundir estratégia dominante (existe sempre que dá o melhor payoff em qualquer cenário) com equilíbrio de Nash (conceito mais geral). No mercado de fatores, lembre que a demanda é DERIVADA e que a regra é \\( \\text{VPMg} = \\text{preço do fator} \\) (ou RPMg, sob monopólio). Guarde que no monopsônio o custo marginal do fator supera o salário médio, justificando ganhos do salário mínimo."
     },
     {
       "sid": "equilibrio-geral-e-escolha-publica",
@@ -47,7 +47,7 @@
       "secoes": [
         {
           "h": "Equilíbrio geral walrasiano e a caixa de Edgeworth",
-          "p": "No equilíbrio geral, os preços relativos ajustam-se até que todos os mercados se equilibrem simultaneamente. A Lei de Walras estabelece que, se n−1 mercados estão em equilíbrio, o n-ésimo também estará, pois o valor total da oferta iguala o da demanda na economia.\n\nA caixa de Edgeworth é a ferramenta gráfica para representar a troca entre dois agentes com dois bens. A curva de contrato reúne todas as alocações eficientes de Pareto (pontos de tangência entre as curvas de indiferença). O equilíbrio competitivo localiza-se sobre essa curva, ilustrando que a troca voluntária a preços de mercado conduz a uma alocação da qual não se pode melhorar a situação de um agente sem piorar a de outro."
+          "p": "No equilíbrio geral, os preços relativos ajustam-se até que todos os mercados se equilibrem simultaneamente. A Lei de Walras estabelece que, se \\( n-1 \\) mercados estão em equilíbrio, o n-ésimo também estará, pois o valor total da oferta iguala o da demanda na economia.\n\nA caixa de Edgeworth é a ferramenta gráfica para representar a troca entre dois agentes com dois bens. A curva de contrato reúne todas as alocações eficientes de Pareto (pontos de tangência entre as curvas de indiferença). O equilíbrio competitivo localiza-se sobre essa curva, ilustrando que a troca voluntária a preços de mercado conduz a uma alocação da qual não se pode melhorar a situação de um agente sem piorar a de outro."
         },
         {
           "h": "Os dois teoremas fundamentais do bem-estar",
@@ -68,7 +68,7 @@
       ],
       "exemplo": "Cenário aplicado: um programa social de transferência de renda no DF pode ser visto à luz do Segundo Teorema do bem-estar — em vez de tabelar preços (o que distorce a eficiência), o Estado redistribui poder de compra (transferência lump-sum) e deixa as famílias escolherem como consumir, preservando a eficiência alocativa. Item Cebraspe: 'Pelo Primeiro Teorema do Bem-Estar, todo equilíbrio competitivo é eficiente e socialmente justo (equitativo).' Errado. O Primeiro Teorema garante apenas eficiência de Pareto, que nada diz sobre equidade: uma alocação em que um agente tem tudo e outro nada pode ser Pareto-eficiente. A equidade depende da distribuição inicial das dotações (Segundo Teorema).",
       "pontos_chave": [
-        "Equilíbrio geral analisa todos os mercados simultaneamente; Lei de Walras: equilibrados n−1, o último também está.",
+        "Equilíbrio geral analisa todos os mercados simultaneamente; Lei de Walras: equilibrados \\( n-1 \\), o último também está.",
         "Curva de contrato (caixa de Edgeworth) reúne as alocações eficientes de Pareto.",
         "1º Teorema: equilíbrio competitivo é eficiente de Pareto (mão invisível) — mas não necessariamente justo.",
         "2º Teorema: qualquer alocação eficiente é atingível com redistribuição prévia (lump-sum) — separa eficiência de equidade.",

@@ -8,15 +8,15 @@
       "secoes": [
         {
           "h": "Correlação linear de Pearson",
-          "p": "O coeficiente de correlação linear de Pearson (r) varia de -1 a +1: +1 indica relação linear positiva perfeita, -1 negativa perfeita e 0 ausência de relação LINEAR (pode haver relação não linear forte com r próximo de 0). O sinal indica a direção; o módulo, a força.\n\nCorrelação NÃO implica causalidade: duas variáveis podem correlacionar-se por coincidência ou por causa comum (variável confundidora). Pearson exige variáveis quantitativas e mede só relação linear; para dados ordinais ou não lineares monotônicos, usa-se Spearman. O quadrado de r (r²) é o coeficiente de determinação na regressão simples."
+          "p": "O coeficiente de correlação linear de Pearson (r) varia de -1 a +1: +1 indica relação linear positiva perfeita, -1 negativa perfeita e 0 ausência de relação LINEAR (pode haver relação não linear forte com r próximo de 0). O sinal indica a direção; o módulo, a força.\n\nCorrelação NÃO implica causalidade: duas variáveis podem correlacionar-se por coincidência ou por causa comum (variável confundidora). Pearson exige variáveis quantitativas e mede só relação linear; para dados ordinais ou não lineares monotônicos, usa-se Spearman. O quadrado de r \\( (r^{2}) \\) é o coeficiente de determinação na regressão simples."
         },
         {
           "h": "Regressão linear simples",
-          "p": "Modelo: Y = beta0 + beta1 X + erro. O intercepto beta0 é o valor esperado de Y quando X=0; o coeficiente angular beta1 é a variação esperada em Y para cada unidade a mais em X. Os parâmetros são estimados por mínimos quadrados ordinários, que minimizam a soma dos quadrados dos resíduos (diferença entre Y observado e Y previsto).\n\nO coeficiente de determinação R² mede a proporção da variabilidade de Y explicada pelo modelo (0 a 1; quanto maior, melhor o ajuste). Decompõe-se a variação total: SQT = SQReg + SQRes, e R² = SQReg/SQT."
+          "p": "Modelo: \\[ Y = \\beta_0 + \\beta_1 X + \\varepsilon \\] O intercepto \\( \\beta_0 \\) é o valor esperado de Y quando X=0; o coeficiente angular \\( \\beta_1 \\) é a variação esperada em Y para cada unidade a mais em X. Os parâmetros são estimados por mínimos quadrados ordinários, que minimizam a soma dos quadrados dos resíduos (diferença entre Y observado e Y previsto).\n\nO coeficiente de determinação \\( R^{2} \\) mede a proporção da variabilidade de Y explicada pelo modelo (0 a 1; quanto maior, melhor o ajuste). Decompõe-se a variação total: \\( SQT = SQReg + SQRes \\), e \\( R^{2} = \\dfrac{SQReg}{SQT} \\)."
         },
         {
           "h": "Regressão linear múltipla e pressupostos",
-          "p": "Com vários preditores: Y = beta0 + beta1 X1 + ... + betak Xk + erro. Cada coeficiente é o efeito parcial da sua variável, mantidas as demais constantes. Usa-se o R² ajustado, que penaliza a inclusão de variáveis irrelevantes (o R² simples nunca diminui ao se acrescentar preditores).\n\nPressupostos do MQO: linearidade nos parâmetros; erros com média zero; homocedasticidade (variância constante dos resíduos); independência dos erros (ausência de autocorrelação); normalidade dos resíduos (para inferência); e ausência de multicolinearidade severa (preditores muito correlacionados entre si, diagnosticada pelo VIF). A violação da homocedasticidade (heterocedasticidade) não viesa os coeficientes, mas torna os erros-padrão e os testes inválidos."
+          "p": "Com vários preditores: \\[ Y = \\beta_0 + \\beta_1 X_1 + \\dots + \\beta_k X_k + \\varepsilon \\] Cada coeficiente é o efeito parcial da sua variável, mantidas as demais constantes. Usa-se o \\( R^{2} \\) ajustado, que penaliza a inclusão de variáveis irrelevantes (o \\( R^{2} \\) simples nunca diminui ao se acrescentar preditores).\n\nPressupostos do MQO: linearidade nos parâmetros; erros com média zero; homocedasticidade (variância constante dos resíduos); independência dos erros (ausência de autocorrelação); normalidade dos resíduos (para inferência); e ausência de multicolinearidade severa (preditores muito correlacionados entre si, diagnosticada pelo VIF). A violação da homocedasticidade (heterocedasticidade) não viesa os coeficientes, mas torna os erros-padrão e os testes inválidos."
         },
         {
           "h": "Inferência e diagnóstico na regressão",
@@ -24,21 +24,21 @@
         },
         {
           "h": "Regressão logística",
-          "p": "Quando a variável resposta é binária (0/1, ex.: recebe ou não o benefício), o MQO é inadequado. A regressão logística modela o logit (log da chance): ln[p/(1-p)] = beta0 + beta1 X1 + ... + betak Xk. A função liga a combinação linear dos preditores à probabilidade p por meio da função logística (sigmoide), garantindo p entre 0 e 1.\n\nInterpretação dos coeficientes: exp(beta) é a RAZÃO DE CHANCES (odds ratio) associada ao aumento de uma unidade no preditor. Por isso a logística é o elo direto com o OR da tabela de contingência. A estimação é por máxima verossimilhança (não MQO). A qualidade do ajuste é avaliada por testes como o de Hosmer-Lemeshow, pseudo-R², e a capacidade discriminante pela área sob a curva ROC (AUC)."
+          "p": "Quando a variável resposta é binária (0/1, ex.: recebe ou não o benefício), o MQO é inadequado. A regressão logística modela o logit (log da chance): \\[ \\ln\\left(\\dfrac{p}{1-p}\\right) = \\beta_0 + \\beta_1 X_1 + \\dots + \\beta_k X_k \\] A função liga a combinação linear dos preditores à probabilidade p por meio da função logística (sigmoide), garantindo p entre 0 e 1.\n\nInterpretação dos coeficientes: \\( \\exp(\\beta) \\) é a RAZÃO DE CHANCES (odds ratio) associada ao aumento de uma unidade no preditor. Por isso a logística é o elo direto com o OR da tabela de contingência. A estimação é por máxima verossimilhança (não MQO). A qualidade do ajuste é avaliada por testes como o de Hosmer-Lemeshow, pseudo-R², e a capacidade discriminante pela área sob a curva ROC (AUC)."
         }
       ],
-      "exemplo": "Item de prova comentado (Cebraspe). Em um modelo de regressão logística que prevê a probabilidade de uma família solicitar um benefício eventual, o coeficiente da variável 'número de filhos' foi beta = 0,40. Afirmativa: 'A cada filho a mais, a chance de solicitar o benefício é multiplicada por aproximadamente 1,49, mantidas as demais variáveis constantes.' CERTO. O odds ratio é exp(0,40) ≈ 1,49, ou seja, a chance aumenta cerca de 49% por filho adicional, ceteris paribus. Pegadinha comum: dizer que a PROBABILIDADE aumenta 49% - errado; o que se multiplica por exp(beta) é a CHANCE (odds), não a probabilidade.",
+      "exemplo": "Item de prova comentado (Cebraspe). Em um modelo de regressão logística que prevê a probabilidade de uma família solicitar um benefício eventual, o coeficiente da variável 'número de filhos' foi \\( \\beta = 0{,}40 \\). Afirmativa: 'A cada filho a mais, a chance de solicitar o benefício é multiplicada por aproximadamente 1,49, mantidas as demais variáveis constantes.' CERTO. O odds ratio é \\( \\exp(0{,}40) \\approx 1{,}49 \\), ou seja, a chance aumenta cerca de 49% por filho adicional, ceteris paribus. Pegadinha comum: dizer que a PROBABILIDADE aumenta 49% - errado; o que se multiplica por exp(beta) é a CHANCE (odds), não a probabilidade.",
       "pontos_chave": [
         "Pearson (r) de -1 a +1: sinal = direção, módulo = força; r=0 não exclui relação não linear",
         "Correlação não implica causalidade (cuidado com confundidores)",
-        "Regressão linear estimada por mínimos quadrados (MQO); beta1 = variação em Y por unidade de X",
-        "R² = proporção da variância explicada; use R² AJUSTADO na múltipla",
+        "Regressão linear estimada por mínimos quadrados (MQO); \\( \\beta_1 \\) = variação em Y por unidade de X",
+        "\\( R^{2} \\) = proporção da variância explicada; use \\( R^{2} \\) AJUSTADO na múltipla",
         "Pressupostos MQO: linearidade, homocedasticidade, independência/sem autocorrelação, normalidade dos resíduos, sem multicolinearidade (VIF)",
         "Significância: teste t (coeficiente individual) e teste F (modelo global)",
         "Logística: modela o logit; resposta binária; estimação por máxima verossimilhança",
-        "Na logística, exp(beta) = odds ratio; avaliação por ROC/AUC e Hosmer-Lemeshow"
+        "Na logística, \\( \\exp(\\beta) \\) = odds ratio; avaliação por ROC/AUC e Hosmer-Lemeshow"
       ],
-      "dica_prova": "A pegadinha número 1 da logística: confundir o efeito sobre a CHANCE (odds, exp(beta)) com efeito sobre a PROBABILIDADE - são coisas diferentes. Na linear, lembre que heterocedasticidade NÃO enviesa os coeficientes, mas invalida os erros-padrão/testes. Banca adora afirmar que correlação alta prova causalidade (errado) e que r=0 significa independência total (errado: só ausência de relação LINEAR). Use R² ajustado, não R² puro, ao comparar modelos com números diferentes de variáveis. Logística usa máxima verossimilhança, NÃO mínimos quadrados."
+      "dica_prova": "A pegadinha número 1 da logística: confundir o efeito sobre a CHANCE (odds, \\( \\exp(\\beta) \\)) com efeito sobre a PROBABILIDADE - são coisas diferentes. Na linear, lembre que heterocedasticidade NÃO enviesa os coeficientes, mas invalida os erros-padrão/testes. Banca adora afirmar que correlação alta prova causalidade (errado) e que r=0 significa independência total (errado: só ausência de relação LINEAR). Use R² ajustado, não R² puro, ao comparar modelos com números diferentes de variáveis. Logística usa máxima verossimilhança, NÃO mínimos quadrados."
     },
     {
       "sid": "anova-e-analise-multivariada",
@@ -47,7 +47,7 @@
       "secoes": [
         {
           "h": "ANOVA de um fator",
-          "p": "Hipóteses: H0 afirma que todas as médias dos grupos são iguais; H1 afirma que ao menos uma difere (não que todas diferem). A variação total dos dados é decomposta em variação entre grupos (explicada pelo fator) e variação dentro dos grupos (residual/erro).\n\nA estatística de teste é F = (variância entre grupos) / (variância dentro dos grupos) = QMEntre / QMDentro, com distribuição F. F grande indica que as diferenças entre médias superam o ruído interno, levando à rejeição de H0. A ANOVA é sempre teste unilateral à direita."
+          "p": "Hipóteses: H0 afirma que todas as médias dos grupos são iguais; H1 afirma que ao menos uma difere (não que todas diferem). A variação total dos dados é decomposta em variação entre grupos (explicada pelo fator) e variação dentro dos grupos (residual/erro).\n\nA estatística de teste é \\[ F = \\dfrac{\\text{variância entre grupos}}{\\text{variância dentro dos grupos}} = \\dfrac{QMEntre}{QMDentro} \\] com distribuição F. F grande indica que as diferenças entre médias superam o ruído interno, levando à rejeição de H0. A ANOVA é sempre teste unilateral à direita."
         },
         {
           "h": "Pressupostos, post-hoc e extensões",
@@ -68,7 +68,7 @@
       ],
       "exemplo": "Item de prova comentado (Cebraspe). Um pesquisador deseja saber se o tempo médio de espera por atendimento difere entre quatro unidades de assistência social. Afirmativa I: 'A ANOVA de um fator é adequada, e a rejeição de H0 indica que todas as quatro unidades têm tempos médios diferentes entre si.' ERRADO - a rejeição de H0 indica que AO MENOS UMA média difere, não que todas diferem; para identificar quais pares diferem é preciso um teste post-hoc (ex.: Tukey). Afirmativa II: 'Para reduzir um conjunto de 15 indicadores socioeconômicos correlacionados a poucos fatores e construir um índice sintético, a análise de componentes principais é uma técnica apropriada.' CERTO - a PCA reduz a dimensionalidade preservando a maior parte da variância, sendo comum na construção de índices.",
       "pontos_chave": [
-        "ANOVA compara 3+ médias via decomposição da variância; F = variância entre / variância dentro",
+        "ANOVA compara 3+ médias via decomposição da variância; \\( F = \\tfrac{\\text{variância entre}}{\\text{variância dentro}} \\)",
         "H0 da ANOVA: todas as médias iguais; rejeição = AO MENOS UMA difere (não todas)",
         "Pressupostos: independência, normalidade dos resíduos, homocedasticidade (Levene/Bartlett); post-hoc (Tukey) localiza diferenças",
         "PCA: reduz dimensionalidade, componentes não correlacionados, explica variância TOTAL; reter por Kaiser/scree",

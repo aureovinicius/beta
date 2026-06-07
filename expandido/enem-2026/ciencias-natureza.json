@@ -12,17 +12,17 @@
         },
         {
           "h": "Conteúdos (objetos de conhecimento) necessários",
-          "p": "Do anexo da matriz: pulsos e ondas; período, frequência e ciclo; propagação e a relação entre velocidade, frequência e comprimento de onda; ondas em diferentes meios; feixes e frentes de onda; reflexão e refração; óptica geométrica (lentes e espelhos, formação de imagens, instrumentos ópticos).\n\nA fórmula-chave é v = lambda x f (velocidade igual a comprimento de onda vezes frequência) e T = 1/f (período é o inverso da frequência). Lembre-se: ao mudar de meio, a frequência permanece constante, mas a velocidade e o comprimento de onda mudam."
+          "p": "Do anexo da matriz: pulsos e ondas; período, frequência e ciclo; propagação e a relação entre velocidade, frequência e comprimento de onda; ondas em diferentes meios; feixes e frentes de onda; reflexão e refração; óptica geométrica (lentes e espelhos, formação de imagens, instrumentos ópticos).\n\nA fórmula-chave é \\( v = \\lambda \\cdot f \\) (velocidade igual a comprimento de onda vezes frequência) e \\( T = \\dfrac{1}{f} \\) (período é o inverso da frequência). Lembre-se: ao mudar de meio, a frequência permanece constante, mas a velocidade e o comprimento de onda mudam."
         },
         {
           "h": "Ligando propriedades a usos cotidianos",
           "p": "O timbre, a altura (grave/agudo, ligada à frequência) e a intensidade (volume, ligada à amplitude) do som conectam física e música. As cores da luz dependem da frequência; o azul tem frequência maior que o vermelho. Ultrassom (frequências acima de 20 kHz) é usado em exames e em sonar; infrassom em estudos de terremotos.\n\nNas telecomunicações, ondas de rádio de menor frequência sofrem mais difração e alcançam regiões com obstáculos, enquanto micro-ondas e fibras ópticas transmitem grandes volumes de dados. Esse vínculo entre propriedade e aplicação é exatamente o que o Enem cobra."
         }
       ],
-      "exemplo": "Um texto-base descreve uma ecografia (ultrassom) que emite pulsos e mede o tempo de retorno do eco para formar a imagem de um feto. A questão pede qual propriedade ondulatória torna o exame possível. O raciocínio: o ultrassom é uma onda mecânica que sofre reflexão ao encontrar interfaces de diferentes densidades dentro do corpo; medindo o tempo do eco e conhecendo a velocidade do som no tecido, calcula-se a distância (d = v x t / 2). A resposta correta aponta a reflexão como base do exame, e não a refração ou a difração.",
+      "exemplo": "Um texto-base descreve uma ecografia (ultrassom) que emite pulsos e mede o tempo de retorno do eco para formar a imagem de um feto. A questão pede qual propriedade ondulatória torna o exame possível. O raciocínio: o ultrassom é uma onda mecânica que sofre reflexão ao encontrar interfaces de diferentes densidades dentro do corpo; medindo o tempo do eco e conhecendo a velocidade do som no tecido, calcula-se a distância \\( \\left( d = \\dfrac{v \\cdot t}{2} \\right) \\). A resposta correta aponta a reflexão como base do exame, e não a refração ou a difração.",
       "pontos_chave": [
         "Diferenciar ondas mecânicas (precisam de meio) de eletromagnéticas (propagam no vácuo).",
-        "Dominar v = lambda x f e T = 1/f; ao mudar de meio, f não muda.",
+        "Dominar \\( v = \\lambda \\cdot f \\) e \\( T = \\dfrac{1}{f} \\); ao mudar de meio, f não muda.",
         "Reconhecer reflexão, refração, difração, interferência e ressonância em situações reais.",
         "Associar frequência à altura do som e à cor da luz; amplitude à intensidade.",
         "Conectar propriedades a tecnologias: ultrassom, radar, rádio, fibra óptica, micro-ondas.",
@@ -128,23 +128,23 @@
         },
         {
           "h": "Fórmulas essenciais",
-          "p": "Lei de Ohm: V = R x I. Potência elétrica: P = V x I, que também pode ser escrita como P = V^2 / R ou P = R x I^2. Energia consumida: E = P x t, geralmente medida em kWh (quilowatt-hora). Para a conta de luz: custo = E (kWh) x tarifa.\n\nLembre que 1 kWh = potência de 1 kW funcionando por 1 hora. Atenção às unidades: transforme watts em quilowatts e minutos em horas."
+          "p": "Lei de Ohm: \\( V = R \\cdot I \\). Potência elétrica: \\( P = V \\cdot I \\), que também pode ser escrita como \\( P = \\dfrac{V^{2}}{R} \\) ou \\( P = R \\cdot I^{2} \\). Energia consumida: \\( E = P \\cdot t \\), geralmente medida em kWh (quilowatt-hora). Para a conta de luz: \\( \\text{custo} = E\\,(\\text{kWh}) \\cdot \\text{tarifa} \\).\n\nLembre que 1 kWh = potência de 1 kW funcionando por 1 hora. Atenção às unidades: transforme watts em quilowatts e minutos em horas."
         },
         {
           "h": "Conteúdos do anexo",
           "p": "De 'Fenômenos Elétricos e Magnéticos': corrente elétrica; Lei de Ohm; resistência elétrica e resistividade; efeito Joule; relações entre tensão, corrente, potência e energia; circuitos elétricos simples; potência e consumo de energia em dispositivos; representação gráfica de circuitos e símbolos convencionais. O efeito Joule (transformação de energia elétrica em calor) explica chuveiros, ferros e fusíveis."
         }
       ],
-      "exemplo": "Um chuveiro de 5400 W ligado em 220 V é usado por 30 minutos diários durante 30 dias; a tarifa é R$ 0,60 por kWh. A questão pede o custo mensal. Raciocínio: a potência é 5400 W = 5,4 kW; o tempo total é 30 min x 30 dias = 900 min = 15 h. A energia é E = P x t = 5,4 x 15 = 81 kWh. O custo é 81 x 0,60 = R$ 48,60. A resposta correta exige cuidado na conversão de minutos para horas e de watts para quilowatts - o erro mais comum é esquecer essas conversões.",
+      "exemplo": "Um chuveiro de 5400 W ligado em 220 V é usado por 30 minutos diários durante 30 dias; a tarifa é R$ 0,60 por kWh. A questão pede o custo mensal. Raciocínio: a potência é 5400 W = 5,4 kW; o tempo total é \\( 30\\ \\text{min} \\times 30\\ \\text{dias} = 900\\ \\text{min} = 15\\ \\text{h} \\). A energia é \\( E = P \\cdot t = 5{,}4 \\times 15 = 81\\ \\text{kWh} \\). O custo é \\( 81 \\times 0{,}60 = \\text{R\\$}\\ 48{,}60 \\). A resposta correta exige cuidado na conversão de minutos para horas e de watts para quilowatts - o erro mais comum é esquecer essas conversões.",
       "pontos_chave": [
-        "Dominar V = R x I e P = V x I (e variações P = V^2/R, P = R x I^2).",
-        "Calcular energia E = P x t e converter para kWh.",
+        "Dominar \\( V = R \\cdot I \\) e \\( P = V \\cdot I \\) (e variações \\( P = \\dfrac{V^{2}}{R} \\), \\( P = R \\cdot I^{2} \\)).",
+        "Calcular energia \\( E = P \\cdot t \\) e converter para kWh.",
         "Saber que a instalação residencial é em paralelo (mesma tensão nos aparelhos).",
         "Entender o efeito Joule (chuveiro, fusível, disjuntor).",
         "Converter unidades: W para kW, min para h.",
         "Relacionar potência ao consumo e ao custo na conta de luz."
       ],
-      "dica_prova": "Esta é uma das poucas habilidades com cálculo direto - treine conversões de unidades, principal fonte de erro. Pegadinha clássica: dar potência em W e tempo em minutos e esperar a resposta em kWh. Outra: confundir potência (rapidez do consumo) com energia (consumo total). Disjuntores são dimensionados pela corrente (I = P/V)."
+      "dica_prova": "Esta é uma das poucas habilidades com cálculo direto - treine conversões de unidades, principal fonte de erro. Pegadinha clássica: dar potência em W e tempo em minutos e esperar a resposta em kWh. Outra: confundir potência (rapidez do consumo) com energia (consumo total). Disjuntores são dimensionados pela corrente \\( \\left( I = \\dfrac{P}{V} \\right) \\)."
     },
     {
       "sid": "h6-relacionar-informacoes-para-compreender-manuais-de-instalacao-ou-utilizacao-de-aparelhos-ou-sistemas-tecnologicos-de-uso-comum",
@@ -219,7 +219,7 @@
         },
         {
           "h": "Conteúdos de Biologia",
-          "p": "Processos biológicos como a fermentação alcoólica (leveduras convertendo açúcar em etanol e CO2) e a ação de bactérias no tratamento de esgoto (digestão da matéria orgânica) e na compostagem. A fotossíntese é a base da formação da biomassa, fonte de biocombustíveis."
+          "p": "Processos biológicos como a fermentação alcoólica (leveduras convertendo açúcar em etanol e \\( \\mathrm{CO_2} \\)) e a ação de bactérias no tratamento de esgoto (digestão da matéria orgânica) e na compostagem. A fotossíntese é a base da formação da biomassa, fonte de biocombustíveis."
         }
       ],
       "exemplo": "Um fluxograma da produção de etanol a partir da cana mostra: moagem, fermentação do caldo e destilação. A questão pede para classificar a natureza de cada etapa. Raciocínio: a moagem é um processo físico (separação mecânica do caldo); a fermentação é biológica (leveduras transformam a sacarose em etanol e gás carbônico); a destilação é um processo físico de separação baseado na diferença de pontos de ebulição. A resposta correta identifica corretamente físico - biológico - físico, sem chamar a destilação de reação química.",
@@ -240,18 +240,18 @@
       "secoes": [
         {
           "h": "O que a habilidade exige",
-          "p": "Exige compreender como matéria circula (cíclica) e como energia flui (unidirecional) nos ecossistemas. Você deve saber as etapas dos principais ciclos e identificar onde a interferência humana os desequilibra - como a queima de combustíveis fósseis aumentando o CO2 atmosférico."
+          "p": "Exige compreender como matéria circula (cíclica) e como energia flui (unidirecional) nos ecossistemas. Você deve saber as etapas dos principais ciclos e identificar onde a interferência humana os desequilibra - como a queima de combustíveis fósseis aumentando o \\( \\mathrm{CO_2} \\) atmosférico."
         },
         {
           "h": "Ciclos biogeoquímicos",
-          "p": "Do anexo ('Ecologia e ciências ambientais'): ciclos biogeoquímicos. Ciclo do carbono: fotossíntese fixa o CO2, respiração e combustão o liberam. Ciclo do nitrogênio: fixação por bactérias, nitrificação, desnitrificação - base dos fertilizantes. Ciclo da água: evaporação, condensação, precipitação. Ciclo do oxigênio ligado à fotossíntese."
+          "p": "Do anexo ('Ecologia e ciências ambientais'): ciclos biogeoquímicos. Ciclo do carbono: fotossíntese fixa o \\( \\mathrm{CO_2} \\), respiração e combustão o liberam. Ciclo do nitrogênio: fixação por bactérias, nitrificação, desnitrificação - base dos fertilizantes. Ciclo da água: evaporação, condensação, precipitação. Ciclo do oxigênio ligado à fotossíntese."
         },
         {
           "h": "Fluxo de energia e desequilíbrios",
           "p": "A energia entra pelo Sol, é fixada pelos produtores na fotossíntese e flui pela cadeia alimentar, dissipando-se como calor (cerca de 10% passa de um nível trófico ao seguinte - regra dos 10%). A matéria recicla; a energia não. Agentes de alteração: efeito estufa intensificado, eutrofização (excesso de nutrientes em água), desmatamento (reduz a fixação de carbono)."
         }
       ],
-      "exemplo": "Um texto mostra o aumento do CO2 atmosférico e relaciona-o ao aquecimento global. A questão pede como a queima de combustíveis fósseis e o desmatamento afetam o ciclo do carbono. Raciocínio: a combustão libera carbono que estava estocado por milhões de anos, aumentando o CO2; o desmatamento reduz a fotossíntese, diminuindo a retirada de CO2 do ar. O resultado é um desequilíbrio que intensifica o efeito estufa. A resposta correta articula emissão (combustão) e redução da fixação (menos florestas).",
+      "exemplo": "Um texto mostra o aumento do \\( \\mathrm{CO_2} \\) atmosférico e relaciona-o ao aquecimento global. A questão pede como a queima de combustíveis fósseis e o desmatamento afetam o ciclo do carbono. Raciocínio: a combustão libera carbono que estava estocado por milhões de anos, aumentando o \\( \\mathrm{CO_2} \\); o desmatamento reduz a fotossíntese, diminuindo a retirada de \\( \\mathrm{CO_2} \\) do ar. O resultado é um desequilíbrio que intensifica o efeito estufa. A resposta correta articula emissão (combustão) e redução da fixação (menos florestas).",
       "pontos_chave": [
         "Diferenciar ciclagem da matéria (cíclica) do fluxo de energia (unidirecional).",
         "Conhecer o ciclo do carbono e sua ligação com o efeito estufa.",
@@ -260,7 +260,7 @@
         "Identificar eutrofização e seus efeitos em corpos d'água.",
         "Relacionar fotossíntese e respiração aos ciclos do carbono e oxigênio."
       ],
-      "dica_prova": "Erro frequente: dizer que a energia também é reciclada - ela não é, apenas flui e se dissipa. Outra pegadinha: confundir efeito estufa natural (essencial à vida) com sua intensificação (problema). No ciclo do nitrogênio, lembre que poucos seres fixam N2 diretamente - são bactérias específicas."
+      "dica_prova": "Erro frequente: dizer que a energia também é reciclada - ela não é, apenas flui e se dissipa. Outra pegadinha: confundir efeito estufa natural (essencial à vida) com sua intensificação (problema). No ciclo do nitrogênio, lembre que poucos seres fixam \\( \\mathrm{N_2} \\) diretamente - são bactérias específicas."
     },
     {
       "sid": "h10-analisar-perturbacoes-ambientais-identificando-fontes-transporte-e-ou-destino-dos-poluentes-ou-prevendo-efeitos-em-sistemas-naturais-produtivos-ou-sociais",
@@ -273,7 +273,7 @@
         },
         {
           "h": "Poluição do ar",
-          "p": "Do anexo: poluição atmosférica. Gases como SO2 e NOx reagem com a água e formam chuva ácida (H2SO4, HNO3), que corrói monumentos e acidifica lagos. Material particulado e CO afetam a saúde respiratória. A inversão térmica retém poluentes próximos ao solo nas cidades."
+          "p": "Do anexo: poluição atmosférica. Gases como \\( \\mathrm{SO_2} \\) e \\( \\mathrm{NO_x} \\) reagem com a água e formam chuva ácida (\\( \\mathrm{H_2SO_4} \\), \\( \\mathrm{HNO_3} \\)), que corrói monumentos e acidifica lagos. Material particulado e \\( \\mathrm{CO} \\) afetam a saúde respiratória. A inversão térmica retém poluentes próximos ao solo nas cidades."
         },
         {
           "h": "Poluição da água e do solo, bioacumulação",
@@ -283,13 +283,13 @@
       "exemplo": "Um texto descreve a contaminação de peixes por mercúrio em uma região de garimpo e os efeitos neurológicos em comunidades ribeirinhas. A questão pede explicar o aumento da concentração de mercúrio nos peixes do topo da cadeia. Raciocínio: o mercúrio lançado na água é absorvido por organismos pequenos; como ele não é eliminado, acumula-se (bioacumulação) e, a cada nível trófico, sua concentração aumenta (biomagnificação), atingindo o máximo nos predadores e no ser humano. A resposta correta identifica fonte (garimpo), transporte (cadeia alimentar) e destino (predadores/humanos).",
       "pontos_chave": [
         "Rastrear fonte, transporte e destino de poluentes.",
-        "Entender a formação da chuva ácida (SO2, NOx) e seus efeitos.",
+        "Entender a formação da chuva ácida (\\( \\mathrm{SO_2} \\), \\( \\mathrm{NO_x} \\)) e seus efeitos.",
         "Conhecer inversão térmica e material particulado nas cidades.",
         "Dominar bioacumulação e biomagnificação (mercúrio, agrotóxicos).",
         "Relacionar eutrofização a esgoto e fertilizantes.",
         "Prever efeitos sobre saúde, ecossistemas e economia."
       ],
-      "dica_prova": "Diferencie bioacumulação (acúmulo num indivíduo) de biomagnificação (aumento ao longo da cadeia) - o Enem testa essa distinção. Pegadinha: achar que diluir o poluente na água resolve - substâncias persistentes seguem se acumulando. Chuva ácida vem de óxidos de enxofre e nitrogênio, não de CO2 (este causa efeito estufa)."
+      "dica_prova": "Diferencie bioacumulação (acúmulo num indivíduo) de biomagnificação (aumento ao longo da cadeia) - o Enem testa essa distinção. Pegadinha: achar que diluir o poluente na água resolve - substâncias persistentes seguem se acumulando. Chuva ácida vem de óxidos de enxofre e nitrogênio, não de \\( \\mathrm{CO_2} \\) (este causa efeito estufa)."
     },
     {
       "sid": "h11-reconhecer-beneficios-limitacoes-e-aspectos-eticos-da-biotecnologia-considerando-estruturas-e-processos-biologicos-envolvidos-em-produtos-biotecnologicos",
@@ -367,7 +367,7 @@
           "p": "Além da herança mendeliana simples, o Enem cobra herança ligada ao sexo (daltonismo, hemofilia, no cromossomo X), alelos múltiplos e codominância (sistema ABO de grupos sanguíneos), e heredogramas (genealogias). Saber interpretar uma árvore genealógica e deduzir genótipos é essencial."
         }
       ],
-      "exemplo": "Um casal em que ambos têm visão normal tem um filho daltônico. A questão pede a probabilidade de o próximo filho homem ser daltônico. Raciocínio: o daltonismo é recessivo e ligado ao X; como o filho é daltônico (XdY), a mãe é portadora (XX' com X' = Xd), heterozigota, e o pai é normal (XY). Cruzando, metade dos filhos homens recebe o Xd da mãe, sendo daltônicos. A probabilidade de um filho homem ser daltônico é 1/2 (50%). A resposta correta exige reconhecer a herança ligada ao sexo e montar o cruzamento corretamente.",
+      "exemplo": "Um casal em que ambos têm visão normal tem um filho daltônico. A questão pede a probabilidade de o próximo filho homem ser daltônico. Raciocínio: o daltonismo é recessivo e ligado ao X; como o filho é daltônico (\\( \\mathrm{X^d Y} \\)), a mãe é portadora (\\( \\mathrm{X X^d} \\)), heterozigota, e o pai é normal (\\( \\mathrm{XY} \\)). Cruzando, metade dos filhos homens recebe o \\( \\mathrm{X^d} \\) da mãe, sendo daltônicos. A probabilidade de um filho homem ser daltônico é \\( \\dfrac{1}{2} \\) (50%). A resposta correta exige reconhecer a herança ligada ao sexo e montar o cruzamento corretamente.",
       "pontos_chave": [
         "Aplicar a 1a e a 2a leis de Mendel e o quadro de Punnett.",
         "Dominar genótipo, fenótipo, dominante, recessivo, homo e heterozigoto.",
@@ -418,20 +418,20 @@
         },
         {
           "h": "Níveis de organização e processos",
-          "p": "Do anexo: do nível molecular (DNA, síntese proteica, enzimas) ao celular (membrana, metabolismo, fotossíntese, respiração), ao do organismo (fisiologia) e ao ecológico (populações, ecossistemas). 'A biologia como ciência: história, métodos, técnicas e experimentação' é a base. Experimentos clássicos: fotossíntese (variação de luz/CO2), ação enzimática (temperatura/pH)."
+          "p": "Do anexo: do nível molecular (DNA, síntese proteica, enzimas) ao celular (membrana, metabolismo, fotossíntese, respiração), ao do organismo (fisiologia) e ao ecológico (populações, ecossistemas). 'A biologia como ciência: história, métodos, técnicas e experimentação' é a base. Experimentos clássicos: fotossíntese (variação de luz/\\( \\mathrm{CO_2} \\)), ação enzimática (temperatura/pH)."
         },
         {
           "h": "Lendo um experimento corretamente",
           "p": "O grupo controle serve de referência; o que difere entre grupos é a variável testada. Conclusões devem se limitar ao que os dados mostram. Cuidado: correlação não implica causalidade direta sem controle adequado. Gráficos de taxa de fotossíntese versus intensidade luminosa, ou de atividade enzimática versus temperatura, são recorrentes."
         }
       ],
-      "exemplo": "Um experimento mede a taxa de fotossíntese de uma planta aquática pela quantidade de bolhas de O2 liberadas sob diferentes intensidades de luz. O gráfico mostra aumento da taxa com a luz até um platô. A questão pede a conclusão. Raciocínio: a intensidade luminosa é a variável independente e a produção de O2 (taxa de fotossíntese) é a dependente; mais luz aumenta a fotossíntese até saturar, quando outro fator (CO2 ou temperatura) passa a limitar. A resposta correta interpreta o platô como ponto de saturação luminosa, em que a luz deixa de ser o fator limitante.",
+      "exemplo": "Um experimento mede a taxa de fotossíntese de uma planta aquática pela quantidade de bolhas de \\( \\mathrm{O_2} \\) liberadas sob diferentes intensidades de luz. O gráfico mostra aumento da taxa com a luz até um platô. A questão pede a conclusão. Raciocínio: a intensidade luminosa é a variável independente e a produção de \\( \\mathrm{O_2} \\) (taxa de fotossíntese) é a dependente; mais luz aumenta a fotossíntese até saturar, quando outro fator (\\( \\mathrm{CO_2} \\) ou temperatura) passa a limitar. A resposta correta interpreta o platô como ponto de saturação luminosa, em que a luz deixa de ser o fator limitante.",
       "pontos_chave": [
         "Identificar hipótese, grupo controle, variável independente e dependente.",
         "Interpretar gráficos e esquemas de processos biológicos.",
         "Conhecer experimentos de fotossíntese e de ação enzimática.",
         "Tirar conclusões limitadas ao que os dados mostram.",
-        "Reconhecer fatores limitantes (luz, CO2, temperatura).",
+        "Reconhecer fatores limitantes (luz, \\( \\mathrm{CO_2} \\), temperatura).",
         "Distinguir correlação de causalidade."
       ],
       "dica_prova": "O grupo controle é a chave: identifique-o primeiro. Pegadinha: extrapolar conclusões além dos dados, ou esquecer que, num platô, outro fator passou a limitar. Em enzimas, lembre que cada uma tem temperatura e pH ótimos - acima disso ela desnatura e a atividade cai."
@@ -563,16 +563,16 @@
         },
         {
           "h": "Cinemática e dinâmica",
-          "p": "Do anexo ('O movimento, o equilíbrio e as leis físicas'): grandezas da mecânica (tempo, espaço, velocidade, aceleração); leis de Newton; inércia; quantidade de movimento e impulso; conservação do momento linear; força de atrito, peso, normal e tração; força centrípeta. Fórmulas centrais: F = m x a (2a lei de Newton), v = v0 + a x t, S = S0 + v0 x t + (a x t^2)/2."
+          "p": "Do anexo ('O movimento, o equilíbrio e as leis físicas'): grandezas da mecânica (tempo, espaço, velocidade, aceleração); leis de Newton; inércia; quantidade de movimento e impulso; conservação do momento linear; força de atrito, peso, normal e tração; força centrípeta. Fórmulas centrais: \\( F = m \\cdot a \\) (2a lei de Newton), \\( v = v_0 + a \\cdot t \\), \\( S = S_0 + v_0 \\cdot t + \\dfrac{a \\cdot t^{2}}{2} \\)."
         },
         {
           "h": "Energia e gravitação",
-          "p": "Do anexo: trabalho, energia, potência; energia cinética (Ec = m x v^2 / 2) e potencial (Ep = m x g x h); conservação da energia mecânica. Na 'Mecânica e o Universo': lei da gravitação universal, leis de Kepler, movimentos de corpos celestes, marés. As leis de Kepler descrevem órbitas elípticas e a relação entre período e distância dos planetas."
+          "p": "Do anexo: trabalho, energia, potência; energia cinética \\( \\left( E_c = \\dfrac{m \\cdot v^{2}}{2} \\right) \\) e potencial \\( \\left( E_p = m \\cdot g \\cdot h \\right) \\); conservação da energia mecânica. Na 'Mecânica e o Universo': lei da gravitação universal, leis de Kepler, movimentos de corpos celestes, marés. As leis de Kepler descrevem órbitas elípticas e a relação entre período e distância dos planetas."
         }
       ],
-      "exemplo": "Uma questão sobre segurança no trânsito descreve um carro freando e pergunta por que o cinto de segurança protege em uma colisão. Raciocínio: pela primeira lei de Newton (inércia), o corpo tende a manter sua velocidade; na colisão, o carro para bruscamente, mas o passageiro continuaria se movendo. O cinto aplica uma força que aumenta o tempo de parada do passageiro, reduzindo a força sobre ele (teorema do impulso: força x tempo = variação da quantidade de movimento). A resposta correta liga inércia e impulso à função protetora do cinto.",
+      "exemplo": "Uma questão sobre segurança no trânsito descreve um carro freando e pergunta por que o cinto de segurança protege em uma colisão. Raciocínio: pela primeira lei de Newton (inércia), o corpo tende a manter sua velocidade; na colisão, o carro para bruscamente, mas o passageiro continuaria se movendo. O cinto aplica uma força que aumenta o tempo de parada do passageiro, reduzindo a força sobre ele (teorema do impulso: \\( \\text{força} \\cdot \\text{tempo} = \\text{variação da quantidade de movimento} \\)). A resposta correta liga inércia e impulso à função protetora do cinto.",
       "pontos_chave": [
-        "Aplicar as três leis de Newton (inércia, F = m x a, ação e reação).",
+        "Aplicar as três leis de Newton (inércia, \\( F = m \\cdot a \\), ação e reação).",
         "Dominar cinemática (MU e MUV) e ler gráficos de movimento.",
         "Usar energia cinética, potencial e conservação de energia mecânica.",
         "Entender quantidade de movimento e teorema do impulso.",
@@ -592,7 +592,7 @@
         },
         {
           "h": "Termodinâmica",
-          "p": "Do anexo ('O calor e os fenômenos térmicos'): calor e temperatura; escalas; transferência de calor (condução, convecção, irradiação); calor específico (Q = m x c x deltaT); calor latente; mudanças de estado; máquinas térmicas; ciclo de Carnot; leis da termodinâmica. A 1a lei é conservação de energia; a 2a indica que parte do calor sempre se perde (rendimento sempre menor que 100%)."
+          "p": "Do anexo ('O calor e os fenômenos térmicos'): calor e temperatura; escalas; transferência de calor (condução, convecção, irradiação); calor específico \\( \\left( Q = m \\cdot c \\cdot \\Delta T \\right) \\); calor latente; mudanças de estado; máquinas térmicas; ciclo de Carnot; leis da termodinâmica. A 1a lei é conservação de energia; a 2a indica que parte do calor sempre se perde (rendimento sempre menor que 100%)."
         },
         {
           "h": "Eletromagnetismo",
@@ -601,7 +601,7 @@
       ],
       "exemplo": "Um texto descreve uma usina hidrelétrica e pergunta como a energia mecânica da água vira energia elétrica. Raciocínio: a água em queda gira a turbina (energia cinética), que faz girar um ímã dentro de bobinas no gerador; a variação do campo magnético sobre as bobinas induz uma corrente elétrica (indução eletromagnética, lei de Faraday). A resposta correta identifica a indução eletromagnética como o princípio que converte movimento em eletricidade - distinguindo-a de efeito Joule ou de reações químicas.",
       "pontos_chave": [
-        "Aplicar Q = m x c x deltaT (calor sensível) e o calor latente nas mudanças de estado.",
+        "Aplicar \\( Q = m \\cdot c \\cdot \\Delta T \\) (calor sensível) e o calor latente nas mudanças de estado.",
         "Conhecer condução, convecção e irradiação como formas de propagação do calor.",
         "Entender máquinas térmicas e que o rendimento é sempre menor que 100% (2a lei).",
         "Dominar a 1a lei da termodinâmica (conservação de energia).",
@@ -650,20 +650,20 @@
         },
         {
           "h": "As fontes e suas transformações",
-          "p": "Do anexo (Física e Química - 'Energias Químicas no Cotidiano'): petróleo, gás natural, carvão; biomassa e biocombustíveis; energia nuclear. Renováveis: solar (fotovoltaica - luz em eletricidade), eólica (cinética do vento em elétrica), hidrelétrica, biomassa. Não renováveis: combustíveis fósseis (queima libera CO2) e nuclear (fissão). Cada uma transforma uma forma de energia em eletricidade."
+          "p": "Do anexo (Física e Química - 'Energias Químicas no Cotidiano'): petróleo, gás natural, carvão; biomassa e biocombustíveis; energia nuclear. Renováveis: solar (fotovoltaica - luz em eletricidade), eólica (cinética do vento em elétrica), hidrelétrica, biomassa. Não renováveis: combustíveis fósseis (queima libera \\( \\mathrm{CO_2} \\)) e nuclear (fissão). Cada uma transforma uma forma de energia em eletricidade."
         },
         {
           "h": "Implicações e escolha",
-          "p": "Combustíveis fósseis são abundantes e baratos, mas emitem gases de efeito estufa. Renováveis são limpas, mas podem ter custo inicial alto ou depender do clima (sol, vento). A nuclear não emite CO2, mas gera lixo radioativo. A avaliação deve considerar o ambiente específico (uma ilha isolada, uma região ventosa) e os impactos éticos e sociais."
+          "p": "Combustíveis fósseis são abundantes e baratos, mas emitem gases de efeito estufa. Renováveis são limpas, mas podem ter custo inicial alto ou depender do clima (sol, vento). A nuclear não emite \\( \\mathrm{CO_2} \\), mas gera lixo radioativo. A avaliação deve considerar o ambiente específico (uma ilha isolada, uma região ventosa) e os impactos éticos e sociais."
         }
       ],
       "exemplo": "Um texto descreve uma comunidade isolada, sem acesso à rede elétrica, em região de muito sol. A questão pede a fonte de energia mais adequada considerando impacto ambiental e viabilidade. Raciocínio: a energia solar fotovoltaica converte a luz diretamente em eletricidade, é renovável, não emite poluentes e dispensa rede de distribuição, sendo ideal para locais isolados e ensolarados, apesar do custo inicial dos painéis. A resposta correta escolhe a solar, articulando a transformação de energia (luz em elétrica) e as vantagens ambientais e logísticas para aquele contexto.",
       "pontos_chave": [
         "Comparar fontes renováveis e não renováveis e suas transformações de energia.",
         "Conhecer solar, eólica, hidrelétrica, biomassa, fóssil e nuclear.",
-        "Relacionar combustíveis fósseis à emissão de CO2 e ao efeito estufa.",
+        "Relacionar combustíveis fósseis à emissão de \\( \\mathrm{CO_2} \\) e ao efeito estufa.",
         "Avaliar vantagens e desvantagens conforme o contexto específico.",
-        "Considerar a fissão nuclear (sem CO2, mas com lixo radioativo).",
+        "Considerar a fissão nuclear (sem \\( \\mathrm{CO_2} \\), mas com lixo radioativo).",
         "Ponderar implicações éticas, sociais, econômicas e ambientais."
       ],
       "dica_prova": "A resposta depende do contexto descrito - não há fonte 'melhor' em absoluto. Pegadinha: chamar a nuclear ou a hidrelétrica de '100% limpas' (a nuclear gera lixo radioativo; a hidrelétrica alaga áreas e emite gases). Renovável não é sinônimo de 'sem impacto'. Identifique a transformação de energia em cada fonte."
@@ -683,10 +683,10 @@
         },
         {
           "h": "Funções inorgânicas",
-          "p": "Do anexo ('Água' e 'Materiais'): ácidos, bases, sais e óxidos - definição, classificação, propriedades e nomenclatura. Ácidos liberam H+ em água (ex.: HCl); bases liberam OH- (ex.: NaOH); sais vêm da neutralização (ex.: NaCl); óxidos são binários com oxigênio (ex.: CO2). Reconhecer a função pela fórmula é essencial."
+          "p": "Do anexo ('Água' e 'Materiais'): ácidos, bases, sais e óxidos - definição, classificação, propriedades e nomenclatura. Ácidos liberam \\( \\mathrm{H^+} \\) em água (ex.: \\( \\mathrm{HCl} \\)); bases liberam \\( \\mathrm{OH^-} \\) (ex.: \\( \\mathrm{NaOH} \\)); sais vêm da neutralização (ex.: \\( \\mathrm{NaCl} \\)); óxidos são binários com oxigênio (ex.: \\( \\mathrm{CO_2} \\)). Reconhecer a função pela fórmula é essencial."
         }
       ],
-      "exemplo": "Uma questão apresenta as fórmulas H2SO4, NaOH, NaCl e CO2 e pede para classificá-las. Raciocínio: H2SO4 libera H+ em água, é um ácido; NaOH libera OH-, é uma base; NaCl é o produto da neutralização entre ácido e base, é um sal; CO2 é um composto binário com oxigênio, é um óxido. A resposta correta classifica cada substância em sua função inorgânica, demonstrando o domínio dos códigos e da nomenclatura - frequentemente ligando isso a um contexto (chuva ácida, antiácidos, sal de cozinha).",
+      "exemplo": "Uma questão apresenta as fórmulas \\( \\mathrm{H_2SO_4} \\), \\( \\mathrm{NaOH} \\), \\( \\mathrm{NaCl} \\) e \\( \\mathrm{CO_2} \\) e pede para classificá-las. Raciocínio: \\( \\mathrm{H_2SO_4} \\) libera \\( \\mathrm{H^+} \\) em água, é um ácido; \\( \\mathrm{NaOH} \\) libera \\( \\mathrm{OH^-} \\), é uma base; \\( \\mathrm{NaCl} \\) é o produto da neutralização entre ácido e base, é um sal; \\( \\mathrm{CO_2} \\) é um composto binário com oxigênio, é um óxido. A resposta correta classifica cada substância em sua função inorgânica, demonstrando o domínio dos códigos e da nomenclatura - frequentemente ligando isso a um contexto (chuva ácida, antiácidos, sal de cozinha).",
       "pontos_chave": [
         "Ler fórmulas e distinguir átomos, moléculas e íons.",
         "Balancear e interpretar equações químicas.",
@@ -708,19 +708,19 @@
         },
         {
           "h": "Estequiometria",
-          "p": "Do anexo ('Representação das transformações químicas'): aspectos quantitativos; leis ponderais; grandezas químicas - massa, volume, mol, massa molar, constante de Avogadro; cálculos estequiométricos. O mol é a unidade que conta partículas (6,02 x 10^23, número de Avogadro). A equação balanceada dá a proporção (em mols) entre reagentes e produtos."
+          "p": "Do anexo ('Representação das transformações químicas'): aspectos quantitativos; leis ponderais; grandezas químicas - massa, volume, mol, massa molar, constante de Avogadro; cálculos estequiométricos. O mol é a unidade que conta partículas (\\( 6{,}02 \\times 10^{23} \\), número de Avogadro). A equação balanceada dá a proporção (em mols) entre reagentes e produtos."
         },
         {
           "h": "Rendimento e produção",
           "p": "Rendimento é a razão entre o produto realmente obtido e o teoricamente esperado, em porcentagem. Reações reais raramente têm 100% de rendimento. Do anexo: indústria química (obtenção de cloro, soda, ácido sulfúrico, amônia); metalurgia; aspectos socioeconômicos e ambientais da produção. Avaliar impactos faz parte da habilidade."
         }
       ],
-      "exemplo": "Uma questão fornece a equação de combustão e pede a massa de CO2 produzida ao queimar certa massa de combustível. Raciocínio: escreve-se e balanceia-se a equação; converte-se a massa do combustível em mols (dividindo pela massa molar); pela proporção estequiométrica da equação, encontra-se os mols de CO2; multiplica-se pela massa molar do CO2 (44 g/mol) para obter a massa. A resposta correta segue a sequência massa - mol - proporção - mol - massa, e o contexto costuma ligar isso à emissão de gases e ao impacto ambiental.",
+      "exemplo": "Uma questão fornece a equação de combustão e pede a massa de \\( \\mathrm{CO_2} \\) produzida ao queimar certa massa de combustível. Raciocínio: escreve-se e balanceia-se a equação; converte-se a massa do combustível em mols (dividindo pela massa molar); pela proporção estequiométrica da equação, encontra-se os mols de \\( \\mathrm{CO_2} \\); multiplica-se pela massa molar do \\( \\mathrm{CO_2} \\) (44 g/mol) para obter a massa. A resposta correta segue a sequência massa - mol - proporção - mol - massa, e o contexto costuma ligar isso à emissão de gases e ao impacto ambiental.",
       "pontos_chave": [
         "Dominar o conceito de mol, massa molar e número de Avogadro.",
         "Balancear a equação antes de qualquer cálculo estequiométrico.",
         "Converter massa em mols e usar a proporção da equação.",
-        "Calcular rendimento (obtido/esperado x 100).",
+        "Calcular rendimento \\( \\left( \\dfrac{\\text{obtido}}{\\text{esperado}} \\times 100 \\right) \\).",
         "Conhecer processos industriais (amônia, ácido sulfúrico, metalurgia).",
         "Avaliar implicações ambientais e econômicas da produção."
       ],
@@ -733,7 +733,7 @@
       "secoes": [
         {
           "h": "O que a habilidade exige",
-          "p": "Exige identificar as transformações químicas e de energia em processos de obtenção e uso de recursos, e avaliar suas implicações. Combustão (queima libera energia e CO2), oxirredução (em pilhas e corrosão) e termoquímica (calor de reação) são centrais."
+          "p": "Exige identificar as transformações químicas e de energia em processos de obtenção e uso de recursos, e avaliar suas implicações. Combustão (queima libera energia e \\( \\mathrm{CO_2} \\)), oxirredução (em pilhas e corrosão) e termoquímica (calor de reação) são centrais."
         },
         {
           "h": "Transformações químicas e energia",
@@ -744,16 +744,16 @@
           "p": "Do anexo: petróleo, gás natural, carvão; biomassa; biocombustíveis; impactos ambientais de combustíveis fósseis; mineração e metalurgia; energia nuclear e lixo atômico. A queima de fósseis emite gases de efeito estufa; a mineração causa degradação; baterias descartadas contaminam com metais pesados. A avaliação pondera economia, sociedade e ambiente."
         }
       ],
-      "exemplo": "Um texto compara a queima de gasolina com a de etanol. A questão pede avaliar as implicações ambientais identificando as transformações envolvidas. Raciocínio: ambos sofrem combustão (reação exotérmica que libera energia e produz CO2 e água); porém o etanol vem da cana, que absorve CO2 na fotossíntese durante o cultivo, tornando seu balanço de carbono mais favorável que o da gasolina, derivada do petróleo (carbono fóssil). A resposta correta identifica a combustão como transformação comum e avalia o etanol como mais sustentável quanto ao ciclo do carbono.",
+      "exemplo": "Um texto compara a queima de gasolina com a de etanol. A questão pede avaliar as implicações ambientais identificando as transformações envolvidas. Raciocínio: ambos sofrem combustão (reação exotérmica que libera energia e produz \\( \\mathrm{CO_2} \\) e água); porém o etanol vem da cana, que absorve \\( \\mathrm{CO_2} \\) na fotossíntese durante o cultivo, tornando seu balanço de carbono mais favorável que o da gasolina, derivada do petróleo (carbono fóssil). A resposta correta identifica a combustão como transformação comum e avalia o etanol como mais sustentável quanto ao ciclo do carbono.",
       "pontos_chave": [
-        "Identificar combustão como reação exotérmica que libera CO2.",
+        "Identificar combustão como reação exotérmica que libera \\( \\mathrm{CO_2} \\).",
         "Entender oxirredução em pilhas, baterias e corrosão.",
         "Diferenciar reações exotérmicas de endotérmicas (entalpia).",
         "Comparar combustíveis fósseis e biocombustíveis (balanço de carbono).",
         "Avaliar impactos da mineração, metalurgia e descarte de baterias.",
         "Relacionar produção/consumo de energia a implicações socioambientais."
       ],
-      "dica_prova": "Combustão sempre produz CO2 e H2O (se completa) e libera energia. Pegadinha: tratar biocombustível como 'sem emissão' - ele emite CO2 ao queimar, mas o balanço é melhor porque a planta absorveu CO2 ao crescer. Em pilhas, oxidação = ânodo (polo negativo); redução = cátodo. Cuidado para não inverter."
+      "dica_prova": "Combustão sempre produz \\( \\mathrm{CO_2} \\) e \\( \\mathrm{H_2O} \\) (se completa) e libera energia. Pegadinha: tratar biocombustível como 'sem emissão' - ele emite \\( \\mathrm{CO_2} \\) ao queimar, mas o balanço é melhor porque a planta absorveu \\( \\mathrm{CO_2} \\) ao crescer. Em pilhas, oxidação = ânodo (polo negativo); redução = cátodo. Cuidado para não inverter."
     },
     {
       "sid": "h27-avaliar-propostas-de-intervencao-no-meio-ambiente-aplicando-conhecimentos-quimicos-observando-riscos-ou-beneficios",
@@ -776,7 +776,7 @@
       "exemplo": "Um texto descreve um rio acidificado pela drenagem de uma mina (pH muito baixo) e propõe adicionar calcário (carbonato de cálcio) à água. A questão pede avaliar a proposta. Raciocínio: o calcário é uma base que reage com o ácido, neutralizando-o e elevando o pH para valores próximos do neutro, o que beneficia a vida aquática; o risco é o excesso, que pode tornar a água alcalina ou alterar o equilíbrio. A resposta correta reconhece a neutralização ácido-base como base química da proposta e pondera o benefício (correção do pH) frente ao risco da dosagem.",
       "pontos_chave": [
         "Aplicar reações de neutralização ácido-base e controle de pH.",
-        "Entender a escala de pH (ácido < 7 < básico) e indicadores.",
+        "Entender a escala de pH (\\( \\text{ácido} < 7 < \\text{básico} \\)) e indicadores.",
         "Conhecer etapas do tratamento de água e de efluentes.",
         "Avaliar riscos de excesso ou de subprodutos (ex.: cloro).",
         "Usar solubilidade/precipitação para remover poluentes.",
