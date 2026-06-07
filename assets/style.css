@@ -41,9 +41,9 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 .stat strong{font-size:1.8rem;color:var(--brand);font-weight:800}
 .stat span{color:var(--muted);font-size:.85rem}
 .search-wrap{margin:26px auto 0;max-width:520px}
-#search{width:100%;padding:14px 18px;border-radius:999px;border:1px solid var(--border);
+#search,#busca-concursos{width:100%;padding:14px 18px;border-radius:999px;border:1px solid var(--border);
   background:var(--surface);color:var(--text);font-size:1rem;box-shadow:var(--shadow);outline:none;transition:.2s}
-#search:focus{border-color:var(--brand);box-shadow:0 0 0 4px color-mix(in srgb,var(--brand) 18%,transparent)}
+#search:focus,#busca-concursos:focus{border-color:var(--brand);box-shadow:0 0 0 4px color-mix(in srgb,var(--brand) 18%,transparent)}
 
 /* Groups & cards */
 .group{margin-top:40px}

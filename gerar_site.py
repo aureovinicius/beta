@@ -10,6 +10,7 @@ from concursos import CONCURSOS, CONCURSO_POR_ID
 BASE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(BASE, "site")
 ASSETS_SRC = os.path.join(BASE, "assets")  # fonte versionada do CSS/JS
+SITE_URL = "https://aureovinicius.github.io/beta"  # base pública (sem barra final)
 GRUPOS = ["Conhecimentos Básicos", "Conhecimentos Específicos"]
 
 # ---- carrega aprofundamentos: (concurso_id, slug, sid) -> item ----
@@ -106,8 +107,9 @@ def build_landing():
     cards = ""
     for c in avulsos:
         disc, top, sub = counts(c)
+        busca = e(" ".join(str(c.get(k, "")) for k in ("nome", "orgao", "banca", "cargo", "descricao")).lower())
         cards += f"""
-      <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}">
+      <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}" data-search="{busca}">
         <div class="cc-top"><span class="cc-icon">{c['icone']}</span><span class="cc-orgao">{e(c['orgao'])}</span></div>
         <h3>{e(c['nome'])}</h3>
         <p class="cc-cargo">{e(c['cargo'])}</p>
@@ -123,17 +125,21 @@ def build_landing():
         g = info["meta"]
         cargos = info["cargos"]
         sub_cards = ""
+        cargos_busca = []
         for c in cargos:
             disc, top, sub = counts(c)
+            cbusca = e(" ".join(str(c.get(k, "")) for k in ("nome", "cargo", "especialidade", "codigo")).lower())
+            cargos_busca.append(cbusca)
             sub_cards += f"""
-          <a class="cargo-card" href="{c['id']}/index.html">
+          <a class="cargo-card" href="{c['id']}/index.html" data-search="{cbusca}">
             <span class="cargo-icon">{c['icone']}</span>
             <span class="cargo-body"><strong>{e(c['nome'])}</strong>
               <small>{e(c['cargo'])} · cód. {e(c.get('codigo',''))} · {sub} subtópicos</small></span>
             <span class="cargo-go">→</span>
           </a>"""
+        gbusca = e((" ".join([g["nome"], g["orgao"], g.get("descricao", "")]).lower())) + " " + " ".join(cargos_busca)
         cards += f"""
-      <div class="concurso-card grupo-card" style="--accent:{g['cor']}" data-name="{e(g['nome'].lower())}">
+      <div class="concurso-card grupo-card" style="--accent:{g['cor']}" data-search="{gbusca}">
         <button class="grupo-head" aria-expanded="false">
           <div class="cc-top"><span class="cc-icon">{g['icone']}</span><span class="cc-orgao">{e(g['orgao'])}</span></div>
           <h3>{e(g['nome'])}</h3>
@@ -153,10 +159,14 @@ def build_landing():
     <h1>Escolha o seu concurso</h1>
     <p class="lead">Conteúdo programático explicado, disciplina por disciplina, com páginas de
     aprofundamento para cada subtópico. Selecione um concurso para começar.</p>
+    <div class="search-wrap">
+      <input id="busca-concursos" type="search" placeholder="🔎 Buscar concurso, órgão, banca ou cargo…" autocomplete="off">
+    </div>
   </section>
   <section class="group">
     <h2 class="group-title">Concursos disponíveis</h2>
     <div class="concurso-grid">{cards}</div>
+    <p id="sem-concursos" class="no-results" hidden>Nenhum concurso encontrado.</p>
   </section>
 </main>"""
     doc += foot(0, "Guia de Estudos para Concursos — material de apoio. Confira sempre o edital oficial.")
@@ -385,6 +395,28 @@ def validar():
         raise SystemExit("ERRO: subtópicos sem conteúdo (reuso quebrado?):\n  " + "\n  ".join(erros))
 
 
+def build_sitemap():
+    """Gera sitemap.xml (todas as páginas) e robots.txt apontando para ele."""
+    urls = []
+    for f in sorted(glob.glob(os.path.join(SITE, "**", "*.html"), recursive=True)):
+        rel = os.path.relpath(f, SITE).replace(os.sep, "/")
+        if rel == "index.html":
+            loc = SITE_URL + "/"
+        elif rel.endswith("/index.html"):
+            loc = f"{SITE_URL}/{rel[:-len('index.html')]}"
+        else:
+            loc = f"{SITE_URL}/{rel}"
+        urls.append(loc)
+    body = "".join(f"  <url><loc>{e(u)}</loc></url>\n" for u in urls)
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           f"{body}</urlset>\n")
+    open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write(xml)
+    open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8").write(
+        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
+    return len(urls)
+
+
 def main():
     os.makedirs(SITE, exist_ok=True)
     validar()
@@ -400,7 +432,9 @@ def main():
         for i, d in enumerate(c["disciplinas"]):
             build_disciplina(c, d, i)
             n_amp += build_ampliado(c, d)
-    print(f"Gerado: landing + {len(publicos)} concursos visíveis + {n_amp} páginas de aprofundamento")
+    n_urls = build_sitemap()
+    print(f"Gerado: landing + {len(publicos)} concursos visíveis + {n_amp} páginas de aprofundamento "
+          f"+ sitemap ({n_urls} URLs)")
 
 
 if __name__ == "__main__":

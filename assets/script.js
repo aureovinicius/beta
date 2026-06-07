@@ -33,6 +33,42 @@
   });
 })();
 
+// Busca de concursos na landing (filtra cards, boxes de grupo e cargos)
+(function () {
+  var input = document.getElementById("busca-concursos");
+  if (!input) return;
+  var grid = document.querySelector(".concurso-grid");
+  var empty = document.getElementById("sem-concursos");
+  var cards = Array.prototype.slice.call(grid.querySelectorAll(":scope > .concurso-card"));
+  input.addEventListener("input", function () {
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (card) {
+      var grupo = card.classList.contains("grupo-card");
+      var matchSelf = (card.getAttribute("data-search") || "").indexOf(q) !== -1;
+      var matchCargo = false;
+      if (grupo) {
+        Array.prototype.slice.call(card.querySelectorAll(".cargo-card")).forEach(function (cc) {
+          var hit = !q || (cc.getAttribute("data-search") || "").indexOf(q) !== -1;
+          cc.style.display = hit ? "" : "none";
+          if (hit) matchCargo = true;
+        });
+      }
+      var visible = !q || matchSelf || matchCargo;
+      card.style.display = visible ? "" : "none";
+      if (visible) shown++;
+      if (grupo) {
+        var head = card.querySelector(".grupo-head");
+        var box = card.querySelector(".grupo-cargos");
+        var abrir = !!q && visible;
+        if (head) head.setAttribute("aria-expanded", abrir ? "true" : "false");
+        if (box) box.hidden = !abrir;
+      }
+    });
+    if (empty) empty.hidden = shown !== 0;
+  });
+})();
+
 // Busca de disciplinas na home
 (function () {
   var input = document.getElementById("search");
