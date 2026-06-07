@@ -89,6 +89,7 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 .chevron{transition:transform .2s}
 .grupo-head[aria-expanded="true"] .chevron{transform:rotate(180deg)}
 .grupo-cargos{display:flex;flex-direction:column;gap:8px;padding:0 16px 16px}
+.grupo-cargos[hidden]{display:none}
 .cargo-card{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:10px;
   border:1px solid var(--border);background:var(--bg);transition:.15s}
 .cargo-card:hover{border-color:var(--accent);transform:translateX(3px)}
