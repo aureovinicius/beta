@@ -2,8 +2,7 @@
   "slug": "direito-tributario-1",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "principios-constitucionais-tributarios",
       "titulo": "Princípios constitucionais tributários",
       "intro": "Os princípios constitucionais tributários são limitações constitucionais ao poder de tributar previstas, em sua maior parte, nos arts. 150 a 152 da CF/88, na seção \"Das Limitações do Poder de Tributar\". Funcionam como verdadeiros direitos fundamentais do contribuinte (cláusulas pétreas, segundo o STF na ADI 939) que protegem o cidadão contra a sanha arrecadatória do Estado e garantem segurança jurídica.\n\nPara o cargo de Auditor-Fiscal da SEFAZ-GO, esse é um dos temas mais cobrados, porque define o que o Estado de Goiás pode ou não fazer ao instituir e majorar o ICMS, o IPVA e o ITCD. Dominar as exceções de cada princípio é o que separa o candidato aprovado do reprovado, pois as bancas exploram justamente os casos em que o princípio NÃO se aplica.\n\nÉ fundamental distinguir princípios (vetores interpretativos com exceções) de imunidades (vedações específicas de competência). Aqui tratamos dos princípios da legalidade, isonomia, irretroatividade, anterioridade, não confisco, capacidade contributiva e uniformidade geográfica.",
       "secoes": [
@@ -38,8 +37,7 @@
       "dica_prova": "As bancas adoram embaralhar as listas de exceções. Memorize: II, IE, IOF aparecem em quase todas as exceções (são extrafiscais e urgentes). O IPTU e o IPVA têm a base de cálculo como exceção SÓ da noventena. Cuidado: redução ou extinção de tributo NÃO se submete à anterioridade (a anterioridade protege o contribuinte contra surpresa onerosa). Revogação de isenção que volta a cobrar tributo, segundo o STF (tema com julgados recentes), deve respeitar a anterioridade quando equivale a aumento de carga."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "imunidades",
       "titulo": "Imunidades",
       "intro": "Imunidades tributárias são limitações constitucionais ao poder de tributar que atuam no plano da própria competência: a Constituição retira do ente a aptidão para instituir tributo sobre determinadas pessoas, bens ou situações. É a chamada \"não incidência constitucionalmente qualificada\". Não se confunde com isenção (dispensa legal de tributo devido, atua no exercício da competência) nem com não incidência pura (fato fora da hipótese legal).\n\nA principal sede das imunidades genéricas é o art. 150, VI, da CF/88, que alcança apenas IMPOSTOS — esta é a pegadinha mais explorada em prova. Existem também imunidades específicas espalhadas pela Constituição, relativas a taxas (ex.: certidões, habeas corpus) e contribuições (ex.: art. 195, §7º, entidades beneficentes de assistência social).\n\nPara o Auditor-Fiscal de Goiás, a imunidade é decisiva ao analisar se um templo, uma editora ou uma autarquia federal deve ou não recolher ICMS, IPVA ou ITCD estaduais.",
       "secoes": [
@@ -74,8 +72,7 @@
       "dica_prova": "Decore o mantra: \"imunidade do art. 150, VI = só impostos\". Se a questão falar em taxa ou contribuição sob essas hipóteses, desconfie. Outra pegadinha: a imunidade das alíneas b, c e d incide sobre patrimônio, renda e serviços — então pode haver ICMS sobre a venda de mercadorias por entidade imune quando ela é mera contribuinte de fato (jurisprudência distingue contribuinte de direito x de fato). Memorize as Súmulas: SV 52 (imóvel alugado de entidade imune), Súmula 657 (filmes/papéis fotográficos), Súmula 730 (previdência privada)."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "especies-de-tributos",
       "titulo": "Espécies de tributos",
       "intro": "Tributo, conforme o art. 3º do CTN, é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada. Essa definição legal é cobrada quase literalmente em prova: cada elemento é uma possível pegadinha (\"não constitui sanção de ato ilícito\" distingue tributo de multa; \"prestação pecuniária\" afasta prestação in natura).\n\nQuanto às espécies, o art. 5º do CTN e o art. 145 da CF adotam a teoria tripartida (impostos, taxas e contribuições de melhoria). Contudo, o STF consagrou a teoria PENTAPARTIDA (ou quinquipartida): cinco espécies — impostos, taxas, contribuições de melhoria, empréstimos compulsórios (art. 148) e contribuições especiais (art. 149). Para concursos da Receita, adota-se a teoria pentapartida.\n\nA natureza jurídica do tributo é determinada pelo fato gerador (art. 4º do CTN), sendo irrelevantes a denominação e a destinação legal do produto da arrecadação — embora, para empréstimos compulsórios e contribuições, a destinação seja relevante para diferenciá-los.",
       "secoes": [
@@ -110,8 +107,7 @@
       "dica_prova": "Diferencie taxa de tarifa: taxa é compulsória, regida pelo direito tributário; tarifa/preço público é facultativa e contratual (Súmula 545 STF). Cuidado com a pegadinha do serviço potencial: a taxa pode ser cobrada pela utilização POTENCIAL do serviço (posto à disposição), mas só quando o serviço é de utilização compulsória e efetivamente existente — não se cobra taxa por serviço que sequer foi implantado. Memorize as súmulas vinculantes 19 (lixo - OK), 29 (base de cálculo parcial - OK) e 41 (iluminação - NÃO cabe taxa)."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "competencia-tributaria",
       "titulo": "Competência tributária",
       "intro": "Competência tributária é o poder, conferido pela Constituição, de instituir tributos mediante lei. É uma parcela do poder de tributar distribuída entre União, Estados, DF e Municípios. Trata-se de matéria exclusivamente constitucional: a lei infraconstitucional não cria competência, apenas a exerce.\n\nA competência tributária possui atributos clássicos cobrados em prova: é indelegável, irrenunciável, incaducável (não se perde pelo não exercício), inalterável (por norma infraconstitucional) e facultativa (em regra, o ente decide se a exerce — com temperamento da LRF quanto a impostos). O art. 7º do CTN consagra a indelegabilidade.\n\nÉ essencial distinguir competência tributária (instituir o tributo, indelegável) de capacidade tributária ativa (arrecadar, fiscalizar e executar, DELEGÁVEL a outra pessoa jurídica de direito público — art. 7º, CTN). Essa distinção é uma das pegadinhas mais frequentes em concursos da área fiscal.",
       "secoes": [
@@ -146,8 +142,7 @@
       "dica_prova": "A pegadinha mais recorrente: trocar \"competência\" por \"capacidade ativa\". Se a questão disser que a competência é delegável, está ERRADA; se disser que a capacidade ativa (arrecadação/fiscalização) é delegável, está CERTA. Outra cilada: a competência é facultativa em regra, mas a LRF (art. 11) exige a instituição e efetiva arrecadação dos impostos de competência do ente como requisito da responsabilidade fiscal (e veda transferências voluntárias a quem não institui seus impostos). Lembre que a residual e a da seguridade residual exigem LEI COMPLEMENTAR — se a banca falar em lei ordinária ou MP, errou."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "fato-gerador-e-hipotese-de-incidencia",
       "titulo": "Fato gerador e hipótese de incidência",
       "intro": "A obrigação tributária nasce da ocorrência, no mundo dos fatos, da situação descrita abstratamente na lei. A doutrina distingue dois planos: a hipótese de incidência (a previsão abstrata, hipotética, contida na norma — o \"tipo tributário\") e o fato gerador (a concretização daquela hipótese no mundo real, que faz surgir a obrigação). O CTN usa a expressão \"fato gerador\" para ambos os sentidos, mas a doutrina e as bancas prezam a distinção.\n\nO fato gerador da obrigação principal é a situação definida em lei como necessária e suficiente à sua ocorrência (art. 114, CTN). O da obrigação acessória é qualquer situação que, na forma da legislação aplicável, imponha a prática ou abstenção de ato que não configure obrigação principal (art. 115, CTN).\n\nPara o Auditor-Fiscal, compreender o exato momento da ocorrência do fato gerador é vital, pois define a legislação aplicável, o nascimento da obrigação e o termo inicial de prazos. No ICMS, por exemplo, o fato gerador ocorre na saída da mercadoria do estabelecimento.",
       "secoes": [
@@ -182,8 +177,7 @@
       "dica_prova": "Cuidado com a ordem do art. 108 (analogia primeiro, equidade por último) — bancas invertem. Memorize os dois limites: analogia NÃO exige tributo; equidade NÃO dispensa tributo. Não confunda elisão (planejamento lícito, antes do FG), evasão (sonegação ilícita, geralmente após o FG) e elusão/elisão abusiva (simulação combatida pelo art. 116, p.ú.). Sobre condicional: suspensiva → FG no implemento da condição; resolutória → FG na celebração (decore pelo nome: a condição que SUSPENDE adia o FG)."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "sujeitos-e-responsabilidade",
       "titulo": "Sujeitos e responsabilidade",
       "intro": "A relação jurídico-tributária tem dois polos: o sujeito ativo (credor) e o sujeito passivo (devedor). O sujeito ativo é a pessoa jurídica de direito público titular da competência para exigir o cumprimento da obrigação (art. 119, CTN). O sujeito passivo da obrigação principal pode ser o contribuinte (quem tem relação pessoal e direta com o fato gerador) ou o responsável (terceiro a quem a lei atribui o dever, sem ser contribuinte) — art. 121, CTN.\n\nA responsabilidade tributária é o mecanismo pelo qual a lei desloca a obrigação de pagar para pessoa diversa do contribuinte, por razões de praticidade arrecadatória ou de garantia do crédito. O art. 128 do CTN é a norma-matriz: a lei pode atribuir a responsabilidade a terceira pessoa vinculada ao fato gerador, excluindo a do contribuinte ou atribuindo-a em caráter supletivo.\n\nEsse é dos temas mais cobrados em concursos fiscais, sobretudo a responsabilidade por substituição (essencial no ICMS-ST de Goiás), por sucessão e de terceiros (arts. 129 a 135).",
       "secoes": [
@@ -218,8 +212,7 @@
       "dica_prova": "Atenção à diferença entre solidariedade (art. 124 - sem benefício de ordem, §único) e subsidiariedade (há benefício de ordem). No art. 134, embora a lei diga \"solidariamente\", a doutrina e o STJ tratam como subsidiária (só se cobra do terceiro se o contribuinte não puder pagar). Decore as Súmulas do STJ: 430 (inadimplemento não responsabiliza sócio), 435 (dissolução irregular → redireciona), 360 (denúncia espontânea x lançamento por homologação). No ICMS-ST, lembre: \"para trás = produtor anterior já passou (diferimento)\"; \"para frente = a venda futura ainda vai ocorrer (antecipa)\"."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "lancamento",
       "titulo": "Lançamento",
       "intro": "O crédito tributário é a obrigação tributária já tornada líquida, certa e exigível. O instrumento que o constitui é o lançamento, ato/procedimento administrativo definido no art. 142 do CTN: compete privativamente à autoridade administrativa constituir o crédito tributário pelo lançamento, assim entendido o procedimento que verifica a ocorrência do fato gerador, determina a matéria tributável, calcula o montante devido, identifica o sujeito passivo e, sendo o caso, propõe a penalidade.\n\nO lançamento é atividade VINCULADA e OBRIGATÓRIA, sob pena de responsabilidade funcional (art. 142, parágrafo único). Não há discricionariedade: presentes os pressupostos, o auditor deve lançar. Esse é o cerne da atuação do Auditor-Fiscal da Receita Estadual de Goiás.\n\nO lançamento reporta-se à data do fato gerador e rege-se pela lei então vigente, ainda que posteriormente modificada ou revogada (art. 144) — princípio da ultratividade da lei do fato gerador para aspectos materiais; mas aplicam-se ao lançamento as normas formais/procedimentais novas (art. 144, §1º).",
       "secoes": [
@@ -254,8 +247,7 @@
       "dica_prova": "A diferença entre as contagens de decadência é a pegadinha-rainha: com pagamento antecipado (e sem fraude) → conta do FATO GERADOR (art. 150, §4º); sem pagamento ou com dolo/fraude → conta do 1º dia do exercício seguinte (art. 173, I). Memorize a Súmula 555 do STJ. Outra cilada: o lançamento por homologação NÃO é o pagamento; o que se homologa é a atividade do contribuinte. E lembre: o que reporta à lei do FG é a parte MATERIAL; as novas regras de fiscalização e garantias do crédito aplicam-se imediatamente (art. 144, §1º)."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "suspensao-extincao-e-exclusao",
       "titulo": "Suspensão, extinção e exclusão",
       "intro": "Constituído o crédito tributário pelo lançamento, ele pode sofrer três grupos de vicissitudes, todas em rol que a doutrina considera taxativo e de interpretação literal (art. 111, CTN): a suspensão da exigibilidade, a extinção e a exclusão. Cada uma tem causas próprias listadas no CTN e produz efeitos distintos.\n\nA suspensão (art. 151) impede temporariamente a cobrança, mas o crédito subsiste. A extinção (art. 156) faz desaparecer o crédito (e, com ele, em regra, a obrigação). A exclusão (art. 175) impede a própria constituição do crédito (isenção e anistia), embora subsista a obrigação acessória.\n\nPara o Auditor-Fiscal, dominar esses róis é crucial: define se o Fisco pode ou não inscrever em dívida ativa e ajuizar a execução, e impacta diretamente a expedição de certidões. As bancas exploram a memorização das listas e as confusões entre os três institutos.",
       "secoes": [
@@ -290,8 +282,7 @@
       "dica_prova": "Use o mnemônico MODERECOPA para a suspensão e não confunda as listas: o parcelamento suspende; o pagamento extingue. Pegadinhas frequentes: (1) depósito só suspende se for INTEGRAL e em dinheiro (Súmula 112 STJ); (2) anistia ≠ remissão (anistia perdoa MULTA e exclui o crédito antes do lançamento; remissão perdoa o crédito já constituído e o extingue); (3) isenção exclui, não é causa de extinção. Lembre que prescrição e decadência EXTINGUEM o crédito (não suspendem) e exigem lei complementar (SV 8 do STF)."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "divida-ativa-e-cda",
       "titulo": "Dívida ativa e CDA",
       "intro": "Quando o crédito tributário regularmente constituído não é pago no vencimento e não há causa de suspensão, a Fazenda Pública procede à sua inscrição em dívida ativa. Essa inscrição é o ato de controle de legalidade do crédito e o pressuposto para a cobrança judicial via execução fiscal (Lei 6.830/80 - LEF). O tema está disciplinado nos arts. 201 a 204 do CTN e na LEF.\n\nDívida ativa tributária é a proveniente de crédito tributário regularmente inscrito na repartição administrativa competente, depois de esgotado o prazo para pagamento (art. 201, CTN). Da inscrição extrai-se a Certidão de Dívida Ativa (CDA), título executivo extrajudicial dotado de presunção de certeza e liquidez (art. 204).\n\nPara o Auditor-Fiscal da SEFAZ-GO, esse é o elo entre a constituição do crédito e a sua cobrança forçada: requisitos da inscrição, conteúdo obrigatório da CDA e a presunção (relativa) de liquidez e certeza são pontos altamente cobrados.",
       "secoes": [
@@ -326,8 +317,7 @@
       "dica_prova": "Memorize os requisitos do art. 202 (são cobrados quase à exaustão) e a regra de que a omissão gera nulidade SANÁVEL por substituição até a decisão de 1ª instância. A pegadinha de ouro é a Súmula 392 do STJ: substitui-se a CDA para corrigir erro formal/material, mas JAMAIS para alterar o sujeito passivo. Não confunda inscrição em dívida ativa (não interrompe prescrição) com o despacho que ordena a citação (interrompe - art. 174, p.ú., I). Lembre que a presunção de liquidez/certeza é RELATIVA e o ônus de afastá-la é do executado."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "fiscalizacao-e-sigilo",
       "titulo": "Fiscalização e sigilo",
       "intro": "A administração tributária é função essencial ao funcionamento do Estado e recebeu tratamento constitucional reforçado: o art. 37, XVIII e XXII, da CF/88 garante precedência às administrações tributárias e estabelece que atuarão de forma integrada, com recursos prioritários. No plano do CTN, a fiscalização é regida pelos arts. 194 a 200, e o sigilo fiscal pelo art. 198.\n\nA legislação tributária regula a competência e os poderes das autoridades administrativas em matéria de fiscalização (art. 194). Aplica-se às pessoas naturais ou jurídicas, contribuintes ou não, inclusive às que gozem de imunidade ou isenção (art. 194, parágrafo único) — ponto sempre cobrado: entidade imune também se submete à fiscalização.\n\nPara o Auditor-Fiscal, este é o núcleo do seu poder-dever: os limites da fiscalização, o dever de exibir documentos, o sigilo fiscal e suas exceções, e a possibilidade de requisitar informações de terceiros como bancos e cartórios.",
       "secoes": [

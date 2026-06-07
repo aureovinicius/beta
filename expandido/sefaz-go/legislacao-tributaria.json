@@ -2,8 +2,7 @@
   "slug": "legislacao-tributaria",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "estrutura-do-cte-go",
       "titulo": "Estrutura do CTE-GO",
       "intro": "O Código Tributário do Estado de Goiás (CTE-GO) foi instituído pela Lei estadual nº 11.651, de 26 de dezembro de 1991. É a lei ordinária que consolida, num único diploma, todos os tributos de competência do Estado de Goiás (ICMS, ITCD, IPVA e as taxas estaduais), além das normas sobre obrigação tributária, lançamento, crédito tributário, obrigações acessórias, infrações, penalidades e o processo administrativo tributário.\n\nÉ fundamental compreender que o CTE-GO ocupa o papel de 'lei do tributo' no plano estadual, sempre subordinada à Constituição Federal (que reparte competências e fixa as limitações ao poder de tributar) e às leis complementares nacionais — especialmente o CTN (Lei 5.172/66) e a LC 87/96 (Lei Kandir), que veiculam normas gerais que o legislador estadual não pode contrariar.\n\nPara a prova de Auditor-Fiscal da SEFAZ-GO, conhecer a arquitetura do Código é o primeiro passo: saber onde está disciplinado cada tributo e distinguir o que é matéria reservada à lei (instituição, fato gerador, base de cálculo, alíquota, contribuinte) do que pode ser tratado por decreto (RICMS-GO) e por atos infralegais (instruções normativas, portarias).",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A banca mistura os planos normativos. Memorize: tudo que toca a regra-matriz (fato gerador, base, alíquota, contribuinte, penalidade) exige LEI; operacionalização (prazos, formulários, procedimentos) vai no DECRETO/RICMS. E o CTE-GO não pode contrariar o CTN nem a LC 87/96."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "hipoteses-de-incidencia",
       "titulo": "Hipóteses de incidência",
       "intro": "O ICMS (Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de transporte interestadual e intermunicipal e de comunicação) é o tributo de maior arrecadação estadual e o coração da prova. Sua competência está no art. 155, II, da CF/88; suas normas gerais, na LC 87/96 (Lei Kandir); e sua instituição estadual, no CTE-GO (Lei 11.651/91) e no RICMS-GO.\n\nApesar de a sigla falar em 'circulação de mercadorias', o ICMS reúne várias materialidades distintas sob um mesmo nome. Identificar corretamente cada hipótese de incidência — e seus contornos jurisprudenciais — é decisivo, pois a banca explora muito as fronteiras (o que incide ICMS e o que incide ISS).\n\nO fato gerador é, em regra, a saída física ou jurídica da mercadoria do estabelecimento, mas há outras hipóteses autônomas: importação, transporte interestadual/intermunicipal, comunicação e fornecimento de energia, entre outras.",
       "secoes": [
@@ -73,8 +71,7 @@
       "dica_prova": "A pegadinha número 1 é a transferência entre estabelecimentos do mesmo titular (NÃO incide ICMS — ADC 49). A número 2 é confundir transporte intramunicipal (ISS) com inter/intermunicipal (ICMS). Decore as imunidades do art. 155, §2º, X, e as súmulas 163, 166, 334 e 350 do STJ."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "nao-cumulatividade",
       "titulo": "Não cumulatividade",
       "intro": "A não cumulatividade é o princípio constitucional que define a sistemática de apuração do ICMS. Está no art. 155, §2º, I, da CF/88: o imposto será não cumulativo, compensando-se o que for devido em cada operação relativa à circulação de mercadorias ou prestação de serviços com o montante cobrado nas operações anteriores pelo mesmo ou por outro Estado.\n\nA lógica é tributar apenas o valor agregado em cada etapa da cadeia, evitando o 'efeito cascata' (tributo sobre tributo). Operacionaliza-se por meio do sistema de débitos e créditos: a cada saída tributada gera-se um DÉBITO; a cada entrada tributada gera-se um CRÉDITO; ao fim do período, apura-se o saldo.\n\nPara o Auditor-Fiscal, dominar o regime de creditamento, suas vedações e os efeitos da isenção/não incidência é essencial, pois é onde se concentram as autuações e as questões mais técnicas da prova.",
       "secoes": [
@@ -109,8 +106,7 @@
       "dica_prova": "Decore o art. 155, §2º, II: isenção NÃO gera crédito e ANULA o crédito anterior (salvo lei em contrário) — exceto exportação, que mantém crédito. E nunca troque: no ICMS a seletividade é FACULTATIVA e a não cumulatividade é OBRIGATÓRIA (no IPI ambas são obrigatórias)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "aliquotas-internas-e-interestaduais",
       "titulo": "Alíquotas internas e interestaduais",
       "intro": "As alíquotas do ICMS variam conforme o produto (seletividade) e conforme a natureza da operação (interna ou interestadual). Esse é um dos temas mais cobrados, porque envolve a partilha do imposto entre os Estados de origem e de destino e a sistemática do DIFAL (diferencial de alíquota).\n\nAs alíquotas INTERNAS são fixadas por lei estadual (no CTE-GO/RICMS-GO), respeitando o piso da alíquota interestadual (art. 155, §2º, VI, CF). As alíquotas INTERESTADUAIS e de exportação são fixadas por RESOLUÇÃO DO SENADO FEDERAL (art. 155, §2º, IV, CF), justamente para uniformizar o tratamento entre as unidades federadas e reduzir a guerra fiscal.\n\nEm Goiás, a alíquota interna padrão (modal) é de 17% (com adicional do Fundo de Combate à Pobreza/Protege em situações específicas), com alíquotas majoradas para bens supérfluos e reduzidas para itens essenciais — reflexo da seletividade facultativa do ICMS.",
       "secoes": [
@@ -145,8 +141,7 @@
       "dica_prova": "Memorize o mapa 12% x 7% x 4%. Goiás é Centro-Oeste, então recebe a 7% de Sul/Sudeste. No DIFAL, a chave é QUEM recolhe: contribuinte (ele mesmo) vs. não contribuinte (remetente). E lembre: alíquota interestadual é do Senado (obrigatório); interna é da lei estadual."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "substituicao-tributaria-st",
       "titulo": "Substituição tributária (ST)",
       "intro": "A substituição tributária (ST) é o regime pelo qual a responsabilidade pelo recolhimento do ICMS de uma ou mais operações é atribuída a um terceiro (o substituto), em lugar do contribuinte que pratica o fato gerador (o substituído). Tem fundamento no art. 150, §7º, da CF/88 e nos arts. 6º a 10 da LC 87/96, e é amplamente disciplinada no CTE-GO e no RICMS-GO, além de convênios e protocolos do CONFAZ.\n\nO grande objetivo é simplificar e concentrar a fiscalização: em vez de fiscalizar milhares de varejistas, o Fisco cobra o imposto de toda a cadeia de poucos fabricantes/importadores. A modalidade mais cobrada é a ST 'para frente' (progressiva), em que se antecipa o imposto de fatos geradores FUTUROS, presumidos.\n\nÉ um tema denso e muito cobrado, com pegadinhas sobre as modalidades, a base de cálculo presumida (MVA), o cálculo do imposto retido e o direito à restituição quando o fato gerador presumido não ocorre.",
       "secoes": [
@@ -181,8 +176,7 @@
       "dica_prova": "Não troque as modalidades: 'para frente' = antecipa o futuro (presunção); 'para trás'/diferimento = adia o passado. Decore o Tema 201 do STF (restituição quando a base efetiva é menor que a presumida) — é o ponto mais cobrado. E lembre que ST interestadual SEM convênio é inválida."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "convenios-confaz",
       "titulo": "Convênios CONFAZ",
       "intro": "Os convênios do CONFAZ (Conselho Nacional de Política Fazendária) são o instrumento por meio do qual os Estados e o Distrito Federal deliberam, em conjunto, sobre a concessão e revogação de isenções, incentivos e benefícios fiscais de ICMS. O fundamento está no art. 155, §2º, XII, 'g', da CF/88, regulamentado pela LC 24/1975.\n\nA exigência de deliberação conjunta tem um objetivo central: evitar a GUERRA FISCAL, ou seja, a concessão unilateral de benefícios por um Estado para atrair investimentos, em prejuízo dos demais. Como o ICMS é um imposto nacionalmente harmonizado, benefícios isolados distorcem a concorrência federativa.\n\nO CONFAZ é composto pelos Secretários de Fazenda dos Estados e do DF, sob presidência do Ministro da Fazenda. Suas reuniões geram convênios que, após ratificação, integram a legislação tributária. Para o Auditor-Fiscal de Goiás, é essencial dominar o quórum, o processo de ratificação e as consequências da concessão de benefício sem convênio.",
       "secoes": [
@@ -217,8 +211,7 @@
       "dica_prova": "A pegadinha número 1 é o quórum invertido: CONCEDER = unanimidade, REVOGAR = 4/5. A número 2 é achar que basta lei estadual para dar benefício de ICMS — precisa de convênio. Lembre também da LC 160/2017 como mecanismo de convalidação da guerra fiscal."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "documentos-fiscais-eletronicos",
       "titulo": "Documentos fiscais eletrônicos",
       "intro": "Os documentos fiscais eletrônicos e a Escrituração Fiscal Digital são o núcleo da fiscalização moderna do ICMS. Eles integram o SPED (Sistema Público de Escrituração Digital), instituído pelo Decreto federal 6.022/2007, que digitalizou as obrigações acessórias e permitiu o cruzamento automático de dados entre os fiscos federal, estaduais e municipais.\n\nA obrigação de emitir documento fiscal e escriturar livros é uma OBRIGAÇÃO ACESSÓRIA (art. 113, §2º, do CTN): um dever instrumental de fazer/não fazer no interesse da arrecadação e da fiscalização. Seu descumprimento gera multa formal, mesmo que o imposto principal tenha sido pago.\n\nPara o Auditor-Fiscal, conhecer os principais documentos (NF-e, NFC-e, CT-e, MDF-e), a EFD ICMS/IPI e o conceito de idoneidade documental é essencial — tanto para autuar quanto para entender as defesas dos contribuintes no contencioso.",
       "secoes": [
@@ -253,8 +246,7 @@
       "dica_prova": "Decore o art. 113 do CTN (principal x acessória x conversão em penalidade). Lembre que obrigação acessória subsiste mesmo havendo isenção/imunidade. E não esqueça a Súmula 509 do STJ (boa-fé do adquirente) — é o ponto mais explorado sobre idoneidade documental."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "incidencia-e-base",
       "titulo": "Incidência e base",
       "intro": "O ITCD (Imposto sobre Transmissão Causa Mortis e Doação de quaisquer bens ou direitos) é o imposto estadual sobre a transmissão GRATUITA de bens e direitos, seja por herança/legado (causa mortis), seja por doação (inter vivos). Sua competência está no art. 155, I, da CF/88, e em Goiás é disciplinado pelo CTE-GO (Lei 11.651/91) e legislação específica.\n\nÉ um tributo de fácil cobrança em prova porque mistura conceitos de Direito Civil (sucessão, herança, doação) com regras constitucionais de competência (quem é o Estado competente para cobrar, conforme o bem). A não cumulatividade NÃO se aplica ao ITCD — é imposto direto, real e de incidência sobre a transferência patrimonial gratuita.\n\nPara o Auditor-Fiscal de Goiás, é essencial dominar a fixação do Estado competente (art. 155, §1º), a base de cálculo (valor venal) e o teto de alíquota fixado pelo Senado, além das novidades trazidas pela EC 132/2023 (Reforma Tributária).",
       "secoes": [
@@ -289,8 +281,7 @@
       "dica_prova": "Decore o art. 155, §1º: imóvel → Estado do bem; móvel causa mortis → Estado do inventário; doação → domicílio do DOADOR (não do donatário!). Lembre do teto de 8% (Senado) e da novidade da EC 132/2023 (progressividade obrigatória). E que ITCD no exterior exige LC ainda inexistente (Tema 825)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "fato-gerador-e-reparticao",
       "titulo": "Fato gerador e repartição",
       "intro": "O IPVA (Imposto sobre a Propriedade de Veículos Automotores) é o imposto estadual anual sobre a propriedade de veículos automotores. Tem competência no art. 155, III, da CF/88 e, em Goiás, é disciplinado pelo CTE-GO (Lei 11.651/91). É um imposto direto, real e de arrecadação expressiva, com forte componente de repartição com os Municípios.\n\nUma peculiaridade importante: o IPVA NÃO possui lei complementar nacional de normas gerais. Diante dessa lacuna, o STF reconheceu que os Estados podem exercer a competência legislativa plena (art. 24, §3º, CF e art. 34, §3º, ADCT), legislando integralmente sobre o imposto enquanto não houver LC nacional.\n\nPara o Auditor-Fiscal de Goiás, é essencial dominar o fato gerador (propriedade, e não 'uso' ou 'licenciamento'), a base de cálculo (valor venal/tabela), a repartição de 50% com o município de licenciamento e a jurisprudência do STF sobre limites do imposto (não incidência sobre embarcações e aeronaves).",
       "secoes": [
@@ -325,8 +316,7 @@
       "dica_prova": "Memorize: 50% ao município de licenciamento; base de cálculo é exceção SÓ à noventena (não à anterioridade do exercício); e a regra histórica de não incidência sobre barcos e aviões (RE 134.509), atenta às novidades da EC 132/2023. O fato gerador é a PROPRIEDADE — não o licenciamento nem o uso."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "hierarquia-normativa",
       "titulo": "Hierarquia normativa",
       "intro": "Além dos impostos (ICMS, ITCD, IPVA), o Estado de Goiás institui TAXAS, tributos vinculados a uma atuação estatal específica. E todo o sistema tributário goiano organiza-se segundo uma HIERARQUIA NORMATIVA: da Constituição Federal, no topo, até os atos infralegais da SEFAZ, na base. Compreender essa pirâmide é essencial para saber qual norma prevalece e o que cada espécie pode disciplinar.\n\nAs taxas têm fundamento no art. 145, II, da CF/88 e nos arts. 77 a 80 do CTN. São cobradas em razão do exercício do PODER DE POLÍCIA ou pela utilização, efetiva ou potencial, de SERVIÇO PÚBLICO específico e divisível, prestado ao contribuinte ou posto à sua disposição.\n\nPara o Auditor-Fiscal, este tópico cobra dois eixos: (1) o conceito e os limites das taxas (distinção de imposto e de preço público/tarifa); e (2) a estrutura hierárquica das fontes do Direito Tributário aplicáveis em Goiás (CF, LC, lei ordinária/CTE-GO, decreto/RICMS, instruções normativas, convênios CONFAZ).",
       "secoes": [

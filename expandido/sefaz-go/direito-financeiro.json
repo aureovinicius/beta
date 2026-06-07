@@ -2,8 +2,7 @@
   "slug": "direito-financeiro",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "ppa-ldo-e-loa",
       "titulo": "PPA, LDO e LOA",
       "intro": "O Direito Financeiro disciplina a atividade financeira do Estado: obtenção de receitas, gestão e aplicação de despesas, crédito público e orçamento. No núcleo dessa disciplina está o orçamento público, instrumento por meio do qual o Estado planeja e autoriza suas receitas e despesas para um período. A Constituição de 1988 (arts. 165 a 169) consagrou um sistema orçamentário integrado e hierarquizado, composto por três leis de iniciativa do Poder Executivo: o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).\n\nEssas leis não são isoladas: elas se comunicam em cascata. O PPA estabelece o planejamento de médio prazo (4 anos); a LDO seleciona, a cada ano, as prioridades do PPA e fixa metas e regras; e a LOA materializa, em um único exercício financeiro, a previsão de receitas e a fixação de despesas, em compatibilidade com o PPA e a LDO. Esse encadeamento é a espinha dorsal do que se chama 'ciclo orçamentário'.\n\nPara o concurso da SEFAZ-GO, dominar prazos, conteúdo de cada lei e princípios orçamentários é essencial, pois é tema recorrente e de alta previsibilidade nas bancas.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Decore os prazos do ADCT, art. 35, § 2º, pois caem com frequência. A pegadinha clássica troca 'receita prevista' por 'receita fixada' (e vice-versa para despesa). Outra: afirmar que a LDO cria o Anexo de Metas Fiscais pela própria CF — na verdade quem o exigiu foi a LRF. Cuidado também com a regra da exclusividade: créditos suplementares e operações de crédito (inclusive ARO) PODEM constar na LOA sem violar o princípio."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "estagios-da-receita",
       "titulo": "Estágios da receita",
       "intro": "Receita pública é o ingresso de recursos financeiros aos cofres do Estado, em caráter definitivo e sem correspondente baixa no patrimônio (no sentido estrito das receitas efetivas). É preciso distinguir receita pública dos meros 'ingressos' ou 'entradas provisórias' (como cauções, depósitos e fianças), que entram nos cofres mas serão devolvidos e, portanto, não constituem receita em sentido próprio.\n\nA doutrina classifica a receita sob diversos critérios. Quanto à origem: receita originária (decorre da exploração do patrimônio do próprio Estado — aluguéis, dividendos de estatais, preços públicos) e receita derivada (decorre do poder de império, da imposição estatal sobre o patrimônio do particular — tributos, multas). Quanto à categoria econômica (Lei 4.320/64): receitas correntes e receitas de capital.\n\nPara concursos fiscais, os estágios da receita e a classificação por categoria econômica são os pontos mais cobrados, ao lado da distinção originária x derivada.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "A pegadinha mais comum inverte arrecadação e recolhimento — memorize: ARRECADAÇÃO vem antes (contribuinte paga ao banco), RECOLHIMENTO depois (vai ao Tesouro/conta única). Outra: classificar operação de crédito como receita corrente — é DE CAPITAL. E cuidado: superávit do orçamento corrente é receita de capital apenas contábil, não ingressa de fato. Multa é receita derivada, ainda que originada de descumprimento."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "estagios-da-despesa",
       "titulo": "Estágios da despesa",
       "intro": "Despesa pública é o conjunto de dispêndios do Estado para o funcionamento dos serviços públicos e a realização de suas finalidades. Diferentemente da receita, a despesa segue rígido processo de execução previsto na Lei 4.320/64 (arts. 58 a 70), pois compromete recursos públicos e exige controle prévio.\n\nA despesa classifica-se, quanto à categoria econômica, em despesas correntes (de custeio e transferências correntes — manutenção da máquina, pessoal, juros) e despesas de capital (investimentos, inversões financeiras e amortização da dívida). Os estágios da despesa — empenho, liquidação e pagamento — são o tema mais cobrado, especialmente as definições de cada um e as exceções (restos a pagar, despesas de exercícios anteriores).\n\nPara o cargo de Auditor-Fiscal, embora a atuação seja mais ligada à receita, a despesa cai como conhecimento de Direito Financeiro/AFO em todas as bancas.",
       "secoes": [
@@ -107,8 +104,7 @@
       "dica_prova": "A banca adora trocar a ordem dos estágios ou inserir 'fixação'/'previsão' como estágio da despesa — não são. Memorize que o EMPENHO não é a obrigação de pagar definitiva, é a reserva. Cuidado com a LRF art. 42: nos dois últimos quadrimestres do mandato, é vedado contrair obrigação de despesa que não possa ser paga no exercício ou que não tenha disponibilidade de caixa para o exercício seguinte. Restos a pagar processados = já liquidados; não processados = ainda não liquidados."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "tipos-e-fontes",
       "titulo": "Tipos e fontes",
       "intro": "Créditos adicionais são autorizações de despesa não computadas ou insuficientemente dotadas na Lei Orçamentária Anual. Como a LOA é elaborada com antecedência e o futuro é incerto, é natural que surjam necessidades não previstas ou que dotações se revelem insuficientes durante o exercício. Para corrigir isso sem violar a legalidade orçamentária, a Lei 4.320/64 (arts. 40 a 46) e a CF/88 (art. 167) criaram os créditos adicionais.\n\nEles se dividem em três espécies: suplementares (reforço de dotação já existente), especiais (despesa nova, sem dotação específica) e extraordinários (despesas urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública). A diferença entre eles está no objeto, na forma de autorização e na exigência de indicação de recursos.\n\nO tema é altamente cobrado por exigir memorização de detalhes técnicos sobre vigência, autorização legislativa e fonte de recursos.",
       "secoes": [
@@ -142,8 +138,7 @@
       "dica_prova": "A confusão suplementar x especial é a campeã de erros: SUPLEMENTAR reforça o que existe; ESPECIAL cria dotação nova. Memorize que só o EXTRAORDINÁRIO dispensa autorização legislativa prévia e indicação de fonte. A prorrogação de vigência para o exercício seguinte (art. 167, §2º) vale para especiais e extraordinários abertos nos últimos 4 meses — NUNCA para suplementares. E a autorização na própria LOA só serve para suplementares, não para especiais."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "limites-e-controle",
       "titulo": "Limites e controle",
       "intro": "Dívida pública é o conjunto de compromissos financeiros assumidos pelo Estado em razão de empréstimos, financiamentos e demais operações que geram obrigação de pagamento futuro. O endividamento público é instrumento legítimo de financiamento, mas, por comprometer gerações futuras e o equilíbrio fiscal, está sujeito a rígidos limites e controles previstos na CF/88, na Lei 4.320/64, na LRF (LC 101/2000) e em resoluções do Senado Federal.\n\nA classificação fundamental distingue a dívida flutuante (de curto prazo, sem autorização orçamentária específica — restos a pagar, depósitos, serviço da dívida a pagar) da dívida fundada ou consolidada (de longo prazo, superior a 12 meses, que demanda autorização e onera exercícios futuros). As operações de crédito são o mecanismo pelo qual o Estado capta recursos por endividamento.\n\nPara o Auditor-Fiscal, o tema conecta-se à LRF e ao papel do Senado na fixação de limites de endividamento dos entes federativos.",
       "secoes": [
@@ -177,8 +172,7 @@
       "dica_prova": "A regra de ouro é campeã de pegadinhas: ela LIMITA o endividamento ao montante das despesas de CAPITAL (impede financiar custeio). Não confunda dívida flutuante (curto prazo, sem autorização específica) com consolidada (longo prazo, +12 meses). Lembre que quem fixa limites globais de dívida é o SENADO (por resolução), não a Câmara nem o Executivo. E a ARO é vedada no último ano de mandato e antes de quitada a anterior."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "gestao-fiscal-responsavel",
       "titulo": "Gestão fiscal responsável",
       "intro": "A Lei de Responsabilidade Fiscal — LC 101/2000 (LRF) — é o marco normativo do equilíbrio das contas públicas no Brasil. Editada com fundamento no art. 163 da CF/88, ela estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal, pressupondo ação planejada e transparente, em que se previnem riscos e se corrigem desvios capazes de afetar o equilíbrio das contas, mediante o cumprimento de metas de resultados entre receitas e despesas (art. 1º, § 1º).\n\nOs pilares da LRF são: PLANEJAMENTO (metas fiscais na LDO, anexos), TRANSPARÊNCIA (relatórios, audiências, participação popular, portais), CONTROLE e RESPONSABILIZAÇÃO. A lei impõe limites para despesa com pessoal e endividamento, exige compensação para renúncia de receita e criação de despesas obrigatórias de caráter continuado, e estabelece vedações em fim de mandato.\n\nPara concursos fiscais, a LRF é um dos temas mais densos e cobrados, com forte exigência de números (percentuais e limites) e regras de compensação.",
       "secoes": [

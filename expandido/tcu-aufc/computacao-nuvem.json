@@ -2,8 +2,7 @@
   "slug": "computacao-nuvem",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "modelos-de-servico-e-de-implantacao",
       "titulo": "Modelos de serviço e de implantação",
       "intro": "Computação em nuvem é, segundo a definição canônica do NIST (publicação SP 800-145), um modelo que permite acesso ubíquo, conveniente e sob demanda, por meio da rede, a um conjunto compartilhado de recursos computacionais configuráveis (redes, servidores, armazenamento, aplicações e serviços) que podem ser rapidamente provisionados e liberados com mínimo esforço de gerenciamento ou interação com o provedor. Essa definição é o ponto de partida obrigatório para qualquer prova de TI.\n\nO NIST estrutura a nuvem em três eixos: cinco características essenciais, três modelos de serviço (IaaS, PaaS, SaaS) e quatro modelos de implantação (pública, privada, comunitária e híbrida). Dominar essa taxonomia é o que separa o acerto do erro nas questões da Cebraspe, que costuma trocar conceitos entre os eixos.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "A Cebraspe troca papéis entre os modelos (atribui a SaaS uma responsabilidade típica de IaaS) e omite a nuvem comunitária para induzir o candidato a marcar 'apenas três modelos de implantação'. Memorize: 4 modelos de implantação e 3 de serviço. Também testa multi-tenancy como falsa característica essencial."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "elasticidade-escalabilidade-e-soa",
       "titulo": "Elasticidade, escalabilidade e SOA",
       "intro": "Elasticidade e escalabilidade são propriedades frequentemente confundidas, mas distintas. Escalabilidade é a capacidade de um sistema crescer (ou diminuir) para atender à demanda; elasticidade é a capacidade de fazê-lo automaticamente e em tempo real, provisionando e liberando recursos conforme a carga oscila. Toda nuvem elástica é escalável, mas nem todo sistema escalável é elástico.\n\nEssas propriedades se apoiam em arquiteturas adequadas. A SOA (arquitetura orientada a serviços) e sua evolução em microsserviços permitem decompor sistemas em componentes independentes que escalam de forma seletiva, sustentando alta disponibilidade e resiliência.",
       "secoes": [
@@ -70,8 +68,7 @@
       "dica_prova": "A inversão entre vertical/horizontal e entre escalabilidade/elasticidade é a pegadinha número um. Outra é afirmar que microsserviços e SOA são idênticos: são relacionados, mas microsserviços eliminam o ESB e priorizam deploy independente e bancos descentralizados. Cebraspe também confunde HA com DR."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "aws-azure-e-google-cloud",
       "titulo": "AWS, Azure e Google Cloud",
       "intro": "Os três principais hyperscalers — Amazon Web Services (AWS), Microsoft Azure e Google Cloud Platform (GCP) — dominam o mercado de nuvem pública. Embora ofereçam capacidades equivalentes, usam nomenclaturas diferentes para serviços análogos, e a banca costura questões pedindo a correspondência entre eles.\n\nConhecer o mapeamento dos serviços fundamentais (computação, armazenamento, banco, rede, identidade e serverless) entre os três provedores é o que mais cai. Vale também entender o conceito de regiões e zonas de disponibilidade, comum a todos.",
       "secoes": [
@@ -104,8 +101,7 @@
       "dica_prova": "A Cebraspe explora o mapeamento cruzado (ex.: associar Lambda à Azure, ou chamar S3 de banco de dados/armazenamento de blocos). Memorize as tríades. Cuidado com BigQuery (data warehouse, não banco transacional) e com a renomeação Azure AD → Microsoft Entra ID."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "sistemas-distribuidos-serverless-e-conteineres",
       "titulo": "Sistemas distribuídos, serverless e contêineres",
       "intro": "Arquiteturas modernas em nuvem são, por natureza, sistemas distribuídos: componentes executam em máquinas diferentes, comunicam-se pela rede e devem tolerar falhas parciais. Projetar para a nuvem significa abraçar a falha como inevitável e construir resiliência por design — com redundância, idempotência, retries e desacoplamento por eventos.\n\nDuas tecnologias dominam esse cenário: o serverless, que abstrai totalmente o servidor (FaaS e BaaS), e os contêineres com orquestração (Docker e Kubernetes), que padronizam o empacotamento e a operação de aplicações.",
       "secoes": [
@@ -138,8 +134,7 @@
       "dica_prova": "Duas confusões campeãs: (1) afirmar que contêiner virtualiza o hardware como uma VM — ERRADO, ele compartilha o kernel do host; (2) dizer que serverless dispensa servidores fisicamente — na verdade só abstrai a gestão. Saiba que a menor unidade implantável no K8s é o Pod (não o contêiner) e que cold start é limitação do FaaS."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "iam-rbac-e-criptografia-kms",
       "titulo": "IAM, RBAC e criptografia (KMS)",
       "intro": "Em nuvem, a identidade é o novo perímetro. Com a infraestrutura exposta por APIs e acessível de qualquer lugar, o controle de quem pode fazer o quê (IAM — Identity and Access Management) torna-se o principal mecanismo de segurança. A maioria dos incidentes em nuvem decorre de identidades superprivilegiadas, credenciais vazadas ou configurações de acesso permissivas.\n\nComplementarmente, a criptografia protege os dados em repouso e em trânsito, e o gerenciamento de chaves (KMS) garante que as chaves criptográficas sejam armazenadas, rotacionadas e auditadas com segurança. Juntos, IAM e criptografia formam a base da segurança 'na' nuvem, que é responsabilidade do cliente.",
       "secoes": [
@@ -172,8 +167,7 @@
       "dica_prova": "A Cebraspe adora afirmar que 'duas senhas constituem MFA' (falso) e inverter o princípio do menor privilégio. Também testa a regra de precedência: negação explícita vence permissão. Saiba diferenciar RBAC (papéis) de ABAC (atributos) e lembrar que no KMS a chave-mestra geralmente não sai em claro."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "zero-trust-e-conectividade",
       "titulo": "Zero Trust e conectividade",
       "intro": "O modelo tradicional de segurança baseado em perímetro ('castelo e fosso') pressupõe que tudo dentro da rede corporativa é confiável. Esse modelo falha em nuvem, onde recursos estão distribuídos e acessíveis pela internet. O Zero Trust (confiança zero) substitui essa premissa pelo princípio 'nunca confie, sempre verifique': nenhum usuário ou dispositivo é confiável por padrão, esteja dentro ou fora da rede.\n\nEm paralelo, a conectividade segura em nuvem é construída com redes virtuais isoladas, sub-redes, gateways e ligações dedicadas (VPN, Direct Connect, ExpressRoute) que controlam como o ambiente em nuvem se comunica com a internet e com o ambiente on-premises.",
       "secoes": [
@@ -206,8 +200,7 @@
       "dica_prova": "A Cebraspe testa: (1) Zero Trust como 'produto' ou como 'dispensa de autenticação' — ambos falsos; (2) a diferença stateful (Security Group) x stateless (NACL); (3) afirmar que Direct Connect/ExpressRoute passam pela internet pública e são intrinsecamente criptografados — falso, são links privados dedicados. Lembre do número da norma: NIST SP 800-207 para Zero Trust."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "infraestrutura-como-codigo-terraform",
       "titulo": "Infraestrutura como código (Terraform)",
       "intro": "Infraestrutura como Código (IaC) é a prática de provisionar e gerenciar recursos de infraestrutura (redes, VMs, bancos, políticas) por meio de arquivos de definição versionados, em vez de configuração manual via console. Isso traz reprodutibilidade, auditabilidade, controle de versão e automação — pilares da cultura DevOps e da operação confiável em nuvem.\n\nO Terraform, da HashiCorp, é a ferramenta de IaC mais difundida por ser multicloud e declarativa. Junto com IaC, pipelines de CI/CD automatizam build, teste e entrega, fechando o ciclo de entrega contínua.",
       "secoes": [
@@ -240,8 +233,7 @@
       "dica_prova": "Pegadinhas: (1) 'terraform plan' já aplica as mudanças — FALSO, ele apenas mostra o plano; (2) confundir Terraform (provisionamento, multicloud) com Ansible (configuração, agentless); (3) tratar Continuous Delivery e Continuous Deployment como sinônimos — a diferença é a aprovação manual antes da produção. Saiba que IaC declarativa é idempotente."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "observabilidade-em-nuvem",
       "titulo": "Observabilidade em nuvem",
       "intro": "Observabilidade é a capacidade de inferir o estado interno de um sistema a partir de seus dados de saída (telemetria), permitindo entender não só SE algo falhou, mas POR QUE falhou — inclusive para problemas nunca antes vistos. Diferencia-se do monitoramento tradicional, que verifica condições conhecidas e dispara alertas previsíveis. Em arquiteturas distribuídas e de microsserviços, a observabilidade é essencial porque uma requisição percorre dezenas de serviços.\n\nA observabilidade se apoia em três pilares — métricas, logs e traces — coletados por serviços como AWS CloudWatch, Azure Monitor e Google Cloud Monitoring, e por padrões abertos como o OpenTelemetry.",
       "secoes": [
@@ -274,8 +266,7 @@
       "dica_prova": "As duas trocas favoritas da banca: CloudWatch x CloudTrail (operação vs. auditoria) e SLI/SLO/SLA (medição vs. meta interna vs. contrato externo). Também testa monitoramento como sinônimo de observabilidade — não são iguais. Saiba os três pilares e que OpenTelemetry é o padrão aberto da CNCF."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "governanca-compliance-e-finops",
       "titulo": "Governança, compliance e FinOps",
       "intro": "A facilidade de provisionar recursos em nuvem ('self-service') é também um risco: sem governança, surgem custos descontrolados, recursos órfãos e configurações inseguras (shadow IT). Governança em nuvem é o conjunto de políticas, controles e processos que garantem uso seguro, conforme e econômico dos recursos — alinhado a frameworks como ISO/IEC 27001, NIST SP 800-53 e à LGPD no contexto brasileiro.\n\nFinOps é a disciplina de gestão financeira da nuvem, trazendo accountability sobre os gastos variáveis. Para um auditor do TCU, governança e compliance em nuvem conectam segurança da informação, controle de custos e legalidade no trato de dados públicos.",
       "secoes": [
@@ -308,8 +299,7 @@
       "dica_prova": "A banca confunde as ISOs: 27001 é o SGSI, 27017 é controles para nuvem, 27018 é privacidade em nuvem. Também testa papéis da LGPD (na nuvem, o provedor costuma ser operador, e o cliente, controlador) e as fases do FinOps. Lembre que custo em nuvem é variável/OpEx e que instâncias spot são interruptíveis."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "dados-migracao-e-multicloud",
       "titulo": "Dados, migração e multicloud",
       "intro": "A nuvem é a plataforma natural para grandes volumes de dados, viabilizando data lakes, data warehouses e pipelines analíticos elásticos. Ao mesmo tempo, mover sistemas legados para a nuvem (migração) e operar em mais de um provedor (multicloud) exigem estratégia, sob pena de custo, lock-in e riscos de conformidade — incluindo a soberania de dados, tema sensível para o setor público brasileiro.\n\nPara o auditor de TI do TCU, entender essas escolhas arquiteturais e seus trade-offs (custo, risco, dependência de fornecedor e localização dos dados) é essencial para avaliar a adequação das contratações e da gestão de TI dos órgãos.",
       "secoes": [

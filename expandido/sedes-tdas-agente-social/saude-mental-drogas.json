@@ -2,8 +2,7 @@
   "slug": "saude-mental-drogas",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "reducao-de-danos-e-articulacao-psicossocial",
       "titulo": "Redução de danos e articulação psicossocial",
       "intro": "A redução de danos é uma estratégia de cuidado em saúde voltada a pessoas que usam álcool e outras drogas, cujo objetivo é diminuir os prejuízos sociais e à saúde associados ao uso, sem exigir, como condição prévia, a abstinência total. Em vez de impor a interrupção do consumo, parte de onde a pessoa está, respeita sua autonomia e oferece medidas concretas de proteção, ampliando o acesso ao cuidado.\n\nEssa abordagem articula-se com o modelo psicossocial da Reforma Psiquiátrica brasileira (Lei nº 10.216/2001), que substituiu o modelo manicomial/asilar por uma rede comunitária de cuidado em liberdade. Para o Agente Social, compreender a redução de danos e a rede psicossocial é essencial, pois muitos usuários da assistência social convivem com sofrimento psíquico e uso de substâncias.",
       "secoes": [

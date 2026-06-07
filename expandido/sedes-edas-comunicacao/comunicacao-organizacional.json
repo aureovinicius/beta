@@ -1,85 +1,83 @@
 {
- "slug": "comunicacao-organizacional",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Planejamento estratégico e públicos",
-   "intro": "A comunicação organizacional é o conjunto integrado de fluxos, mensagens e relacionamentos que uma organização mantém com seus públicos. Margarida Kunsch a sistematiza como \"comunicação integrada\", composta por quatro vertentes que devem atuar em sinergia: comunicação institucional (imagem e reputação, campo das Relações Públicas), comunicação mercadológica (vendas, marketing), comunicação interna (com o público de empregados) e comunicação administrativa (fluxos formais que viabilizam a gestão).\n\nO planejamento estratégico de comunicação alinha essas vertentes aos objetivos da organização. Parte de um diagnóstico (auditoria de imagem, análise de cenário), define objetivos e metas, identifica e segmenta os públicos, escolhe estratégias e ações, define orçamento e cronograma e, por fim, estabelece a avaliação. No setor público, esse planejamento serve ao interesse coletivo, à transparência e à prestação de contas.",
-   "secoes": [
+  "slug": "comunicacao-organizacional",
+  "itens": [
     {
-     "h": "Comunicação integrada (Kunsch)",
-     "p": "O composto da comunicação organizacional integrada reúne: (1) comunicação institucional, voltada à construção de imagem e reputação, conceito-chave das Relações Públicas; (2) comunicação mercadológica, ligada a produtos, serviços e marketing; (3) comunicação interna, dirigida aos colaboradores; e (4) comunicação administrativa, que trata dos fluxos de informação operacionais e gerenciais.\n\nA premissa é a sinergia: as quatro vertentes precisam falar a mesma linguagem e transmitir uma identidade coerente. Fragmentar a comunicação gera ruído e enfraquece a reputação."
+      "sid": "planejamento-estrategico-e-publicos",
+      "titulo": "Planejamento estratégico e públicos",
+      "intro": "A comunicação organizacional é o conjunto integrado de fluxos, mensagens e relacionamentos que uma organização mantém com seus públicos. Margarida Kunsch a sistematiza como \"comunicação integrada\", composta por quatro vertentes que devem atuar em sinergia: comunicação institucional (imagem e reputação, campo das Relações Públicas), comunicação mercadológica (vendas, marketing), comunicação interna (com o público de empregados) e comunicação administrativa (fluxos formais que viabilizam a gestão).\n\nO planejamento estratégico de comunicação alinha essas vertentes aos objetivos da organização. Parte de um diagnóstico (auditoria de imagem, análise de cenário), define objetivos e metas, identifica e segmenta os públicos, escolhe estratégias e ações, define orçamento e cronograma e, por fim, estabelece a avaliação. No setor público, esse planejamento serve ao interesse coletivo, à transparência e à prestação de contas.",
+      "secoes": [
+        {
+          "h": "Comunicação integrada (Kunsch)",
+          "p": "O composto da comunicação organizacional integrada reúne: (1) comunicação institucional, voltada à construção de imagem e reputação, conceito-chave das Relações Públicas; (2) comunicação mercadológica, ligada a produtos, serviços e marketing; (3) comunicação interna, dirigida aos colaboradores; e (4) comunicação administrativa, que trata dos fluxos de informação operacionais e gerenciais.\n\nA premissa é a sinergia: as quatro vertentes precisam falar a mesma linguagem e transmitir uma identidade coerente. Fragmentar a comunicação gera ruído e enfraquece a reputação."
+        },
+        {
+          "h": "Níveis e fases do planejamento",
+          "p": "O planejamento se dá em três níveis: estratégico (longo prazo, direção, ligado à alta gestão), tático (médio prazo, programas e áreas) e operacional (curto prazo, ações e tarefas). O plano de comunicação costuma seguir as fases: diagnóstico/pesquisa, definição de objetivos e metas, mapeamento de públicos, escolha de estratégias e mensagens-chave, definição de canais e ações, orçamento e cronograma, e avaliação/mensuração de resultados.\n\nFerramentas comuns: análise SWOT (forças, fraquezas, oportunidades, ameaças), auditoria de imagem e diagnóstico de comunicação. No setor público, soma-se a observância dos princípios da legalidade, impessoalidade e publicidade."
+        },
+        {
+          "h": "Tipologia de públicos",
+          "p": "A classificação clássica de Relações Públicas (de matriz em Cândido Teobaldo de Souza Andrade) divide os públicos por sua relação com a organização: público interno (empregados e seus familiares, ligados pelo vínculo de trabalho), público externo (sociedade, governo, imprensa, comunidade, fornecedores) e público misto/mediador (acionistas, distribuidores, revendedores, que transitam entre interno e externo).\n\nA classificação moderna leva em conta o grau de dependência, participação e interferência (modelo de Fábio França): públicos essenciais, não essenciais e de redes de interferência. Para a SEDES, públicos típicos incluem usuários do SUAS, entidades socioassistenciais, servidores, conselhos de assistência social e a imprensa."
+        },
+        {
+          "h": "Comunicação dirigida e seus instrumentos",
+          "p": "Comunicação dirigida é aquela orientada a um público específico, segmentado, com objetivo definido — em oposição à comunicação de massa. Subdivide-se em: dirigida escrita (boletins, jornal mural, newsletters, relatórios, cartas, intranet), dirigida oral (reuniões, palestras, atendimento, discursos), dirigida auxiliar (recursos audiovisuais e visuais) e dirigida aproximativa (eventos, visitas, feiras, que aproximam fisicamente organização e público).\n\nA escolha do instrumento depende do público-alvo, do objetivo e do contexto. No serviço público, a comunicação dirigida aos usuários deve usar linguagem clara e acessível (linguagem cidadã)."
+        },
+        {
+          "h": "Identidade, imagem e reputação",
+          "p": "Identidade é o que a organização é (seus valores, missão, cultura); imagem é a percepção que os públicos têm dela em dado momento; reputação é o juízo consolidado ao longo do tempo, fruto de experiências e da coerência entre discurso e prática. A comunicação institucional trabalha para alinhar identidade, imagem e reputação. Incoerências entre o que a organização diz e o que faz são a principal fonte de crise de reputação."
+        }
+      ],
+      "exemplo": "Cenário SEDES: ao lançar um novo serviço de atendimento socioassistencial, a assessoria elabora um plano de comunicação que (a) diagnostica o desconhecimento do público sobre o serviço, (b) define como objetivo informar 80% dos usuários potenciais em seis meses, (c) segmenta os públicos (usuários, CRAS, entidades parceiras, imprensa), (d) escolhe comunicação dirigida (cartazes nos CRAS, mensagens via aplicativo, releases para a imprensa) e (e) avalia por indicadores de alcance e procura pelo serviço. Esse encadeamento diagnóstico-objetivo-público-ação-avaliação é a estrutura cobrada em prova.",
+      "pontos_chave": [
+        "Comunicação integrada (Kunsch): institucional, mercadológica, interna e administrativa, em sinergia.",
+        "Comunicação institucional é o campo das Relações Públicas (imagem e reputação).",
+        "Níveis: estratégico (alta gestão), tático e operacional.",
+        "Fases do plano: diagnóstico, objetivos, públicos, estratégias, ações, orçamento, avaliação.",
+        "Públicos: interno, externo e misto; modelo moderno por dependência/interferência (França).",
+        "Comunicação dirigida: escrita, oral, auxiliar e aproximativa; segmentada e com objetivo.",
+        "Identidade (o que é) x imagem (percepção atual) x reputação (juízo consolidado).",
+        "No setor público: interesse coletivo, linguagem cidadã e princípios do art. 37 CF/88."
+      ],
+      "dica_prova": "Memorize as quatro vertentes da comunicação integrada de Kunsch e que a institucional é o domínio das RP. Pegadinha frequente: trocar comunicação dirigida (segmentada) por comunicação de massa. Outra: confundir imagem (percepção momentânea) com reputação (construção de longo prazo). A banca também cobra a tipologia de públicos (interno/externo/misto)."
     },
     {
-     "h": "Níveis e fases do planejamento",
-     "p": "O planejamento se dá em três níveis: estratégico (longo prazo, direção, ligado à alta gestão), tático (médio prazo, programas e áreas) e operacional (curto prazo, ações e tarefas). O plano de comunicação costuma seguir as fases: diagnóstico/pesquisa, definição de objetivos e metas, mapeamento de públicos, escolha de estratégias e mensagens-chave, definição de canais e ações, orçamento e cronograma, e avaliação/mensuração de resultados.\n\nFerramentas comuns: análise SWOT (forças, fraquezas, oportunidades, ameaças), auditoria de imagem e diagnóstico de comunicação. No setor público, soma-se a observância dos princípios da legalidade, impessoalidade e publicidade."
-    },
-    {
-     "h": "Tipologia de públicos",
-     "p": "A classificação clássica de Relações Públicas (de matriz em Cândido Teobaldo de Souza Andrade) divide os públicos por sua relação com a organização: público interno (empregados e seus familiares, ligados pelo vínculo de trabalho), público externo (sociedade, governo, imprensa, comunidade, fornecedores) e público misto/mediador (acionistas, distribuidores, revendedores, que transitam entre interno e externo).\n\nA classificação moderna leva em conta o grau de dependência, participação e interferência (modelo de Fábio França): públicos essenciais, não essenciais e de redes de interferência. Para a SEDES, públicos típicos incluem usuários do SUAS, entidades socioassistenciais, servidores, conselhos de assistência social e a imprensa."
-    },
-    {
-     "h": "Comunicação dirigida e seus instrumentos",
-     "p": "Comunicação dirigida é aquela orientada a um público específico, segmentado, com objetivo definido — em oposição à comunicação de massa. Subdivide-se em: dirigida escrita (boletins, jornal mural, newsletters, relatórios, cartas, intranet), dirigida oral (reuniões, palestras, atendimento, discursos), dirigida auxiliar (recursos audiovisuais e visuais) e dirigida aproximativa (eventos, visitas, feiras, que aproximam fisicamente organização e público).\n\nA escolha do instrumento depende do público-alvo, do objetivo e do contexto. No serviço público, a comunicação dirigida aos usuários deve usar linguagem clara e acessível (linguagem cidadã)."
-    },
-    {
-     "h": "Identidade, imagem e reputação",
-     "p": "Identidade é o que a organização é (seus valores, missão, cultura); imagem é a percepção que os públicos têm dela em dado momento; reputação é o juízo consolidado ao longo do tempo, fruto de experiências e da coerência entre discurso e prática. A comunicação institucional trabalha para alinhar identidade, imagem e reputação. Incoerências entre o que a organização diz e o que faz são a principal fonte de crise de reputação."
+      "sid": "pesquisa-de-opiniao-e-responsabilidade-social",
+      "titulo": "Pesquisa de opinião e responsabilidade social",
+      "intro": "A pesquisa é o instrumento que dá base científica ao planejamento de comunicação: permite diagnosticar percepções, mensurar imagem, segmentar públicos e avaliar resultados. Em comunicação e Relações Públicas, distinguem-se dois grandes paradigmas: a pesquisa quantitativa (mede, generaliza, trabalha com amostras e estatística) e a pesquisa qualitativa (aprofunda, compreende motivações e significados, trabalha com pequenos grupos).\n\nA responsabilidade social, por sua vez, é a dimensão que vincula a organização ao interesse coletivo, à cidadania e à sustentabilidade. Para uma secretaria de desenvolvimento social, pesquisa de opinião e responsabilidade social se entrelaçam: ouvir o cidadão (pesquisa) é condição para promover direitos e prestar contas (responsabilidade social e accountability).",
+      "secoes": [
+        {
+          "h": "Pesquisa quantitativa",
+          "p": "Busca medir e generalizar. Trabalha com amostras representativas, questionários estruturados e tratamento estatístico, expressando resultados em números e percentuais (ex.: \"72% dos usuários aprovam o atendimento\"). Conceitos-chave: população (universo), amostra, margem de erro, nível/intervalo de confiança e tipos de amostragem (probabilística — aleatória simples, estratificada, por conglomerado — e não probabilística — por conveniência, por cotas).\n\nUsos típicos: surveys de satisfação, pesquisas de imagem e de aprovação, levantamentos de hábitos de mídia. A força é a generalização; a limitação é não explicar a fundo o \"porquê\"."
+        },
+        {
+          "h": "Pesquisa qualitativa",
+          "p": "Busca compreender em profundidade percepções, motivações, atitudes e significados, sem pretensão de generalização estatística. Métodos: entrevistas em profundidade, observação, análise de discurso e, sobretudo, o grupo focal (focus group) — discussão conduzida por um moderador com 6 a 12 participantes, que explora reações e percepções coletivas sobre um tema, marca ou serviço.\n\nA amostra é pequena e intencional. A força é a riqueza de detalhes e a descoberta de razões; a limitação é a impossibilidade de extrapolar para toda a população. Quali e quanti são frequentemente combinadas (abordagem mista)."
+        },
+        {
+          "h": "Pesquisa de opinião e auditoria de imagem",
+          "p": "A pesquisa de opinião capta o que os públicos pensam sobre temas, instituições ou políticas. A auditoria de imagem é a aplicação dessas técnicas para diagnosticar como a organização é percebida — base para o planejamento institucional e para a gestão de reputação.\n\nNo setor público, há cautelas legais: a pesquisa de opinião contratada com recursos públicos deve atender ao interesse público e à legislação de licitações e contratos (Lei 14.133/2021), sendo vedado o uso de recursos públicos para pesquisas de natureza eleitoral ou de promoção pessoal de autoridades."
+        },
+        {
+          "h": "Responsabilidade social e cidadania",
+          "p": "Responsabilidade social é o compromisso da organização com impactos sociais, ambientais e éticos de sua atuação, indo além das obrigações legais. No setor privado liga-se à sustentabilidade e ao ESG (ambiental, social e governança) e ao balanço social. No setor público, traduz-se em cidadania, garantia de direitos, accountability e participação social.\n\nPara a SEDES, a responsabilidade social é o próprio núcleo da missão (proteção social, combate à pobreza), e a comunicação tem papel de informar direitos, dar transparência e estimular o controle social, em sintonia com a Lei de Acesso à Informação (Lei 12.527/2011) e com os conselhos de assistência social."
+        },
+        {
+          "h": "Ética e qualidade na pesquisa",
+          "p": "Boas práticas: amostragem adequada, perguntas claras e não indutoras, sigilo e proteção de dados dos respondentes (em conformidade com a LGPD — Lei 13.709/2018) e divulgação transparente da metodologia (quem fez, quando, como, margem de erro). Manipular ou divulgar pesquisas sem ficha técnica é antiético e pode configurar desinformação. A pesquisa, bem conduzida, é instrumento de escuta e participação cidadã."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"O grupo focal é uma técnica de pesquisa quantitativa, indicada para mensurar, com margem de erro estatística, o percentual de aprovação de um programa social.\" O item está ERRADO. O grupo focal é técnica QUALITATIVA, com poucos participantes e amostra intencional; serve para compreender percepções e motivações em profundidade, não para gerar percentuais generalizáveis com margem de erro — isso é função da pesquisa quantitativa (survey).",
+      "pontos_chave": [
+        "Quantitativa: mede, generaliza, amostra representativa, estatística, margem de erro.",
+        "Qualitativa: compreende em profundidade, amostra pequena e intencional, sem generalizar.",
+        "Grupo focal (6 a 12 pessoas, moderador) é técnica QUALITATIVA.",
+        "Amostragem probabilística (aleatória, estratificada, conglomerado) x não probabilística (conveniência, cotas).",
+        "Auditoria de imagem aplica pesquisa para diagnosticar a percepção da organização.",
+        "Responsabilidade social no setor público = cidadania, direitos, accountability e controle social.",
+        "Pesquisa pública: vedação a fins eleitorais/promoção pessoal; rege-se pela Lei 14.133/2021.",
+        "Ética na pesquisa: ficha técnica transparente e proteção de dados (LGPD - Lei 13.709/2018)."
+      ],
+      "dica_prova": "A confusão clássica é trocar quali por quanti: grupo focal e entrevista em profundidade são QUALITATIVOS; survey com amostra e margem de erro é QUANTITATIVO. A banca também cobra que pesquisa qualitativa NÃO se presta a generalização estatística. Em responsabilidade social, associe ao setor público as ideias de cidadania, transparência (LAI) e controle social."
     }
-   ],
-   "exemplo": "Cenário SEDES: ao lançar um novo serviço de atendimento socioassistencial, a assessoria elabora um plano de comunicação que (a) diagnostica o desconhecimento do público sobre o serviço, (b) define como objetivo informar 80% dos usuários potenciais em seis meses, (c) segmenta os públicos (usuários, CRAS, entidades parceiras, imprensa), (d) escolhe comunicação dirigida (cartazes nos CRAS, mensagens via aplicativo, releases para a imprensa) e (e) avalia por indicadores de alcance e procura pelo serviço. Esse encadeamento diagnóstico-objetivo-público-ação-avaliação é a estrutura cobrada em prova.",
-   "pontos_chave": [
-    "Comunicação integrada (Kunsch): institucional, mercadológica, interna e administrativa, em sinergia.",
-    "Comunicação institucional é o campo das Relações Públicas (imagem e reputação).",
-    "Níveis: estratégico (alta gestão), tático e operacional.",
-    "Fases do plano: diagnóstico, objetivos, públicos, estratégias, ações, orçamento, avaliação.",
-    "Públicos: interno, externo e misto; modelo moderno por dependência/interferência (França).",
-    "Comunicação dirigida: escrita, oral, auxiliar e aproximativa; segmentada e com objetivo.",
-    "Identidade (o que é) x imagem (percepção atual) x reputação (juízo consolidado).",
-    "No setor público: interesse coletivo, linguagem cidadã e princípios do art. 37 CF/88."
-   ],
-   "dica_prova": "Memorize as quatro vertentes da comunicação integrada de Kunsch e que a institucional é o domínio das RP. Pegadinha frequente: trocar comunicação dirigida (segmentada) por comunicação de massa. Outra: confundir imagem (percepção momentânea) com reputação (construção de longo prazo). A banca também cobra a tipologia de públicos (interno/externo/misto)."
-  },
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Pesquisa de opinião e responsabilidade social",
-   "intro": "A pesquisa é o instrumento que dá base científica ao planejamento de comunicação: permite diagnosticar percepções, mensurar imagem, segmentar públicos e avaliar resultados. Em comunicação e Relações Públicas, distinguem-se dois grandes paradigmas: a pesquisa quantitativa (mede, generaliza, trabalha com amostras e estatística) e a pesquisa qualitativa (aprofunda, compreende motivações e significados, trabalha com pequenos grupos).\n\nA responsabilidade social, por sua vez, é a dimensão que vincula a organização ao interesse coletivo, à cidadania e à sustentabilidade. Para uma secretaria de desenvolvimento social, pesquisa de opinião e responsabilidade social se entrelaçam: ouvir o cidadão (pesquisa) é condição para promover direitos e prestar contas (responsabilidade social e accountability).",
-   "secoes": [
-    {
-     "h": "Pesquisa quantitativa",
-     "p": "Busca medir e generalizar. Trabalha com amostras representativas, questionários estruturados e tratamento estatístico, expressando resultados em números e percentuais (ex.: \"72% dos usuários aprovam o atendimento\"). Conceitos-chave: população (universo), amostra, margem de erro, nível/intervalo de confiança e tipos de amostragem (probabilística — aleatória simples, estratificada, por conglomerado — e não probabilística — por conveniência, por cotas).\n\nUsos típicos: surveys de satisfação, pesquisas de imagem e de aprovação, levantamentos de hábitos de mídia. A força é a generalização; a limitação é não explicar a fundo o \"porquê\"."
-    },
-    {
-     "h": "Pesquisa qualitativa",
-     "p": "Busca compreender em profundidade percepções, motivações, atitudes e significados, sem pretensão de generalização estatística. Métodos: entrevistas em profundidade, observação, análise de discurso e, sobretudo, o grupo focal (focus group) — discussão conduzida por um moderador com 6 a 12 participantes, que explora reações e percepções coletivas sobre um tema, marca ou serviço.\n\nA amostra é pequena e intencional. A força é a riqueza de detalhes e a descoberta de razões; a limitação é a impossibilidade de extrapolar para toda a população. Quali e quanti são frequentemente combinadas (abordagem mista)."
-    },
-    {
-     "h": "Pesquisa de opinião e auditoria de imagem",
-     "p": "A pesquisa de opinião capta o que os públicos pensam sobre temas, instituições ou políticas. A auditoria de imagem é a aplicação dessas técnicas para diagnosticar como a organização é percebida — base para o planejamento institucional e para a gestão de reputação.\n\nNo setor público, há cautelas legais: a pesquisa de opinião contratada com recursos públicos deve atender ao interesse público e à legislação de licitações e contratos (Lei 14.133/2021), sendo vedado o uso de recursos públicos para pesquisas de natureza eleitoral ou de promoção pessoal de autoridades."
-    },
-    {
-     "h": "Responsabilidade social e cidadania",
-     "p": "Responsabilidade social é o compromisso da organização com impactos sociais, ambientais e éticos de sua atuação, indo além das obrigações legais. No setor privado liga-se à sustentabilidade e ao ESG (ambiental, social e governança) e ao balanço social. No setor público, traduz-se em cidadania, garantia de direitos, accountability e participação social.\n\nPara a SEDES, a responsabilidade social é o próprio núcleo da missão (proteção social, combate à pobreza), e a comunicação tem papel de informar direitos, dar transparência e estimular o controle social, em sintonia com a Lei de Acesso à Informação (Lei 12.527/2011) e com os conselhos de assistência social."
-    },
-    {
-     "h": "Ética e qualidade na pesquisa",
-     "p": "Boas práticas: amostragem adequada, perguntas claras e não indutoras, sigilo e proteção de dados dos respondentes (em conformidade com a LGPD — Lei 13.709/2018) e divulgação transparente da metodologia (quem fez, quando, como, margem de erro). Manipular ou divulgar pesquisas sem ficha técnica é antiético e pode configurar desinformação. A pesquisa, bem conduzida, é instrumento de escuta e participação cidadã."
-    }
-   ],
-   "exemplo": "Item estilo Cebraspe: \"O grupo focal é uma técnica de pesquisa quantitativa, indicada para mensurar, com margem de erro estatística, o percentual de aprovação de um programa social.\" O item está ERRADO. O grupo focal é técnica QUALITATIVA, com poucos participantes e amostra intencional; serve para compreender percepções e motivações em profundidade, não para gerar percentuais generalizáveis com margem de erro — isso é função da pesquisa quantitativa (survey).",
-   "pontos_chave": [
-    "Quantitativa: mede, generaliza, amostra representativa, estatística, margem de erro.",
-    "Qualitativa: compreende em profundidade, amostra pequena e intencional, sem generalizar.",
-    "Grupo focal (6 a 12 pessoas, moderador) é técnica QUALITATIVA.",
-    "Amostragem probabilística (aleatória, estratificada, conglomerado) x não probabilística (conveniência, cotas).",
-    "Auditoria de imagem aplica pesquisa para diagnosticar a percepção da organização.",
-    "Responsabilidade social no setor público = cidadania, direitos, accountability e controle social.",
-    "Pesquisa pública: vedação a fins eleitorais/promoção pessoal; rege-se pela Lei 14.133/2021.",
-    "Ética na pesquisa: ficha técnica transparente e proteção de dados (LGPD - Lei 13.709/2018)."
-   ],
-   "dica_prova": "A confusão clássica é trocar quali por quanti: grupo focal e entrevista em profundidade são QUALITATIVOS; survey com amostra e margem de erro é QUANTITATIVO. A banca também cobra que pesquisa qualitativa NÃO se presta a generalização estatística. Em responsabilidade social, associe ao setor público as ideias de cidadania, transparência (LAI) e controle social."
-  }
- ]
+  ]
 }

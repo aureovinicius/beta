@@ -1,46 +1,44 @@
 {
- "slug": "etica-servico-publico",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Ética e conduta no serviço público",
-   "intro": "Ética é a reflexão sobre o comportamento humano em sociedade, sobre o que é certo e errado, justo e injusto. Distingue-se da moral (conjunto de costumes e regras de conduta de um grupo) e do direito (normas coercitivas estatais). No serviço público, a ética ganha estatura especial porque o servidor lida com o interesse público e com recursos da coletividade, sendo o agente da concretização dos princípios da Administração.\n\nA conduta do servidor é balizada pelos princípios constitucionais do art. 37 da CF — Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (LIMPE) — e por normas específicas de ética profissional. A moralidade administrativa exige não apenas o cumprimento da lei, mas a observância da honestidade, boa-fé e probidade.\n\nO subtópico cobra os conceitos de ética e moral, os princípios éticos da Administração, o Código de Ética do servidor (no plano federal, o Decreto 1.171/94), o regime disciplinar e os deveres e vedações, a improbidade administrativa (Lei 8.429/92) e a organização ética do trabalho. No DF, o regime do servidor é a LC 840/2011."
-  ,
-   "secoes": [
+  "slug": "etica-servico-publico",
+  "itens": [
     {
-     "h": "Ética, moral e a função pública",
-     "p": "Ética é a ciência/filosofia que estuda os valores e a conduta; moral é o conjunto concreto de normas e costumes vividos por um grupo. A ética profissional aplica esses valores ao exercício de uma profissão. No serviço público, a ética se vincula ao interesse público e à res publica (coisa pública), exigindo do servidor decoro, probidade e dedicação ao bem comum acima do interesse particular.\n\nNo plano federal, o Decreto 1.171/94 (Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal) afirma que a dignidade, o decoro, o zelo e a consciência dos princípios morais são primados maiores, e que o servidor deve decidir não só entre o legal e o ilegal, mas também entre o honesto e o desonesto, o conveniente e o inconveniente."
-    },
-    {
-     "h": "Princípios da Administração (LIMPE) e moralidade",
-     "p": "O art. 37 da CF estabelece os princípios expressos: Legalidade (o agente só pode fazer o que a lei autoriza), Impessoalidade (ausência de favorecimentos; finalidade pública), Moralidade (probidade, honestidade, boa-fé), Publicidade (transparência como regra) e Eficiência (bom uso dos recursos para melhores resultados).\n\nA moralidade administrativa é mais exigente que a legalidade: um ato pode ser legal e, ainda assim, imoral. A impessoalidade veda o uso da máquina pública para promoção pessoal ou para beneficiar/prejudicar pessoas. Princípios implícitos relevantes: supremacia e indisponibilidade do interesse público, razoabilidade e proporcionalidade."
-    },
-    {
-     "h": "Deveres, vedações e o Código de Ética",
-     "p": "O Decreto 1.171/94 traz deveres do servidor, como exercer a função com zelo e dedicação, ser probo e leal, tratar o público com urbanidade e cortesia, ser cortês com colegas, resguardar informações sigilosas e jamais retardar prestação de contas. Entre as vedações: usar o cargo para obter favores, retirar documentos sem autorização, pleitear como intermediário, receber propinas/presentes que possam influenciar decisões, e ser conivente com erro ou infração.\n\nAtenção a um conceito recorrente: o uso de bens e do tempo do serviço para fins privados é vedado. As Comissões de Ética, presentes nos órgãos, apuram condutas e podem aplicar a penalidade de censura, além de orientar. Na LC 840/2011 (servidores do DF) há deveres e proibições análogos e o respectivo regime disciplinar."
-    },
-    {
-     "h": "Regime disciplinar e improbidade administrativa",
-     "p": "O regime disciplinar prevê responsabilização do servidor por meio do processo administrativo disciplinar (PAD), assegurados contraditório e ampla defesa, com penalidades como advertência, suspensão, demissão, cassação de aposentadoria e destituição de cargo em comissão. A responsabilidade do servidor pode ser cumulativa nas esferas civil, penal e administrativa, independentes entre si.\n\nA improbidade administrativa (Lei 8.429/92, alterada pela Lei 14.230/2021) tipifica três grupos de atos: que importam enriquecimento ilícito, que causam prejuízo ao erário e que atentam contra os princípios da Administração. As sanções incluem perda da função, suspensão dos direitos políticos, ressarcimento e multa. Após a reforma de 2021, exige-se, em regra, o dolo (não bastando a mera culpa) para a configuração da improbidade."
-    },
-    {
-     "h": "Conduta profissional e organização do trabalho",
-     "p": "A conduta profissional ética abrange pontualidade, assiduidade, urbanidade no trato com colegas e usuários, sigilo profissional, lealdade institucional e responsabilidade no uso dos bens públicos. A organização do trabalho ética pressupõe ambiente de respeito, prevenção de assédio moral e sexual, transparência nas relações e cooperação.\n\nConceitos correlatos: conflito de interesses (Lei 12.813/2013 no âmbito federal), que ocorre quando interesses privados podem comprometer o interesse público; nepotismo (vedado pela Súmula Vinculante 13 do STF); e a integridade pública, que envolve programas de prevenção à corrupção. Num órgão socioassistencial como a SEDES-DF, a ética se traduz em atendimento impessoal e respeitoso a pessoas em vulnerabilidade, sem discriminação, e na guarda do sigilo dos dados dos usuários."
+      "sid": "etica-e-conduta-no-servico-publico",
+      "titulo": "Ética e conduta no serviço público",
+      "intro": "Ética é a reflexão sobre o comportamento humano em sociedade, sobre o que é certo e errado, justo e injusto. Distingue-se da moral (conjunto de costumes e regras de conduta de um grupo) e do direito (normas coercitivas estatais). No serviço público, a ética ganha estatura especial porque o servidor lida com o interesse público e com recursos da coletividade, sendo o agente da concretização dos princípios da Administração.\n\nA conduta do servidor é balizada pelos princípios constitucionais do art. 37 da CF — Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (LIMPE) — e por normas específicas de ética profissional. A moralidade administrativa exige não apenas o cumprimento da lei, mas a observância da honestidade, boa-fé e probidade.\n\nO subtópico cobra os conceitos de ética e moral, os princípios éticos da Administração, o Código de Ética do servidor (no plano federal, o Decreto 1.171/94), o regime disciplinar e os deveres e vedações, a improbidade administrativa (Lei 8.429/92) e a organização ética do trabalho. No DF, o regime do servidor é a LC 840/2011.",
+      "secoes": [
+        {
+          "h": "Ética, moral e a função pública",
+          "p": "Ética é a ciência/filosofia que estuda os valores e a conduta; moral é o conjunto concreto de normas e costumes vividos por um grupo. A ética profissional aplica esses valores ao exercício de uma profissão. No serviço público, a ética se vincula ao interesse público e à res publica (coisa pública), exigindo do servidor decoro, probidade e dedicação ao bem comum acima do interesse particular.\n\nNo plano federal, o Decreto 1.171/94 (Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal) afirma que a dignidade, o decoro, o zelo e a consciência dos princípios morais são primados maiores, e que o servidor deve decidir não só entre o legal e o ilegal, mas também entre o honesto e o desonesto, o conveniente e o inconveniente."
+        },
+        {
+          "h": "Princípios da Administração (LIMPE) e moralidade",
+          "p": "O art. 37 da CF estabelece os princípios expressos: Legalidade (o agente só pode fazer o que a lei autoriza), Impessoalidade (ausência de favorecimentos; finalidade pública), Moralidade (probidade, honestidade, boa-fé), Publicidade (transparência como regra) e Eficiência (bom uso dos recursos para melhores resultados).\n\nA moralidade administrativa é mais exigente que a legalidade: um ato pode ser legal e, ainda assim, imoral. A impessoalidade veda o uso da máquina pública para promoção pessoal ou para beneficiar/prejudicar pessoas. Princípios implícitos relevantes: supremacia e indisponibilidade do interesse público, razoabilidade e proporcionalidade."
+        },
+        {
+          "h": "Deveres, vedações e o Código de Ética",
+          "p": "O Decreto 1.171/94 traz deveres do servidor, como exercer a função com zelo e dedicação, ser probo e leal, tratar o público com urbanidade e cortesia, ser cortês com colegas, resguardar informações sigilosas e jamais retardar prestação de contas. Entre as vedações: usar o cargo para obter favores, retirar documentos sem autorização, pleitear como intermediário, receber propinas/presentes que possam influenciar decisões, e ser conivente com erro ou infração.\n\nAtenção a um conceito recorrente: o uso de bens e do tempo do serviço para fins privados é vedado. As Comissões de Ética, presentes nos órgãos, apuram condutas e podem aplicar a penalidade de censura, além de orientar. Na LC 840/2011 (servidores do DF) há deveres e proibições análogos e o respectivo regime disciplinar."
+        },
+        {
+          "h": "Regime disciplinar e improbidade administrativa",
+          "p": "O regime disciplinar prevê responsabilização do servidor por meio do processo administrativo disciplinar (PAD), assegurados contraditório e ampla defesa, com penalidades como advertência, suspensão, demissão, cassação de aposentadoria e destituição de cargo em comissão. A responsabilidade do servidor pode ser cumulativa nas esferas civil, penal e administrativa, independentes entre si.\n\nA improbidade administrativa (Lei 8.429/92, alterada pela Lei 14.230/2021) tipifica três grupos de atos: que importam enriquecimento ilícito, que causam prejuízo ao erário e que atentam contra os princípios da Administração. As sanções incluem perda da função, suspensão dos direitos políticos, ressarcimento e multa. Após a reforma de 2021, exige-se, em regra, o dolo (não bastando a mera culpa) para a configuração da improbidade."
+        },
+        {
+          "h": "Conduta profissional e organização do trabalho",
+          "p": "A conduta profissional ética abrange pontualidade, assiduidade, urbanidade no trato com colegas e usuários, sigilo profissional, lealdade institucional e responsabilidade no uso dos bens públicos. A organização do trabalho ética pressupõe ambiente de respeito, prevenção de assédio moral e sexual, transparência nas relações e cooperação.\n\nConceitos correlatos: conflito de interesses (Lei 12.813/2013 no âmbito federal), que ocorre quando interesses privados podem comprometer o interesse público; nepotismo (vedado pela Súmula Vinculante 13 do STF); e a integridade pública, que envolve programas de prevenção à corrupção. Num órgão socioassistencial como a SEDES-DF, a ética se traduz em atendimento impessoal e respeitoso a pessoas em vulnerabilidade, sem discriminação, e na guarda do sigilo dos dados dos usuários."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"O servidor público que pratica ato legal, mas desonesto e contrário à boa-fé, não viola nenhum princípio da Administração, pois agiu conforme a lei.\" ERRADO — ainda que legal, o ato pode violar a moralidade administrativa, que exige honestidade, probidade e boa-fé, além da mera legalidade. Aplicação na SEDES-DF: um servidor que, no atendimento de um CRAS, prioriza o cadastro de um parente em programa social à frente de outras famílias em maior vulnerabilidade fere a impessoalidade e a moralidade, sujeitando-se a responsabilização disciplinar e, conforme o caso, por improbidade.",
+      "pontos_chave": [
+        "Ética = reflexão sobre a conduta; moral = costumes/normas concretas de um grupo.",
+        "LIMPE (art. 37 CF): Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência.",
+        "Moralidade exige mais que legalidade: ato legal pode ser imoral.",
+        "Decreto 1.171/94: Código de Ética federal; penalidade da Comissão de Ética é a censura.",
+        "Responsabilidades civil, penal e administrativa são independentes e cumuláveis.",
+        "PAD assegura contraditório e ampla defesa; penas: advertência, suspensão, demissão etc.",
+        "Improbidade (Lei 8.429/92 c/ Lei 14.230/21): enriquecimento ilícito, dano ao erário, ofensa a princípios; em regra exige dolo.",
+        "Conflito de interesses, nepotismo (SV 13/STF) e integridade pública são temas recorrentes."
+      ],
+      "dica_prova": "A distinção legalidade x moralidade é a pegadinha favorita: lembre que um ato pode ser legal e imoral ao mesmo tempo. A única penalidade que a Comissão de Ética (Decreto 1.171/94) pode aplicar é a censura. As três esferas de responsabilidade (civil, penal, administrativa) são independentes — a absolvição em uma nem sempre afasta as demais. Após a Lei 14.230/2021, a improbidade administrativa, em regra, exige dolo. Para o cargo no DF, o regime estatutário de referência é a LC 840/2011."
     }
-   ],
-   "exemplo": "Item estilo Cebraspe: \"O servidor público que pratica ato legal, mas desonesto e contrário à boa-fé, não viola nenhum princípio da Administração, pois agiu conforme a lei.\" ERRADO — ainda que legal, o ato pode violar a moralidade administrativa, que exige honestidade, probidade e boa-fé, além da mera legalidade. Aplicação na SEDES-DF: um servidor que, no atendimento de um CRAS, prioriza o cadastro de um parente em programa social à frente de outras famílias em maior vulnerabilidade fere a impessoalidade e a moralidade, sujeitando-se a responsabilização disciplinar e, conforme o caso, por improbidade.",
-   "pontos_chave": [
-    "Ética = reflexão sobre a conduta; moral = costumes/normas concretas de um grupo.",
-    "LIMPE (art. 37 CF): Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência.",
-    "Moralidade exige mais que legalidade: ato legal pode ser imoral.",
-    "Decreto 1.171/94: Código de Ética federal; penalidade da Comissão de Ética é a censura.",
-    "Responsabilidades civil, penal e administrativa são independentes e cumuláveis.",
-    "PAD assegura contraditório e ampla defesa; penas: advertência, suspensão, demissão etc.",
-    "Improbidade (Lei 8.429/92 c/ Lei 14.230/21): enriquecimento ilícito, dano ao erário, ofensa a princípios; em regra exige dolo.",
-    "Conflito de interesses, nepotismo (SV 13/STF) e integridade pública são temas recorrentes."
-   ],
-   "dica_prova": "A distinção legalidade x moralidade é a pegadinha favorita: lembre que um ato pode ser legal e imoral ao mesmo tempo. A única penalidade que a Comissão de Ética (Decreto 1.171/94) pode aplicar é a censura. As três esferas de responsabilidade (civil, penal, administrativa) são independentes — a absolvição em uma nem sempre afasta as demais. Após a Lei 14.230/2021, a improbidade administrativa, em regra, exige dolo. Para o cargo no DF, o regime estatutário de referência é a LC 840/2011."
-  }
- ]
+  ]
 }

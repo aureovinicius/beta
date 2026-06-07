@@ -2,8 +2,7 @@
   "slug": "auditoria-governamental",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "conceito-abrangencia-e-papeis-interna-x-externa",
       "titulo": "Conceito, abrangência e papéis (interna x externa)",
       "intro": "Auditoria governamental é um processo sistemático, documentado e independente de obtenção e avaliação objetiva de evidências para determinar se as ações, operações, demonstrações ou sistemas de uma entidade pública estão em conformidade com critérios preestabelecidos (leis, normas, princípios, metas) e para comunicar o resultado aos destinatários apropriados. Diferencia-se de uma simples conferência por ser planejada, baseada em risco, calcada em evidências e conduzida por profissionais com independência e ceticismo profissional.\n\nNo setor público brasileiro, a auditoria é um dos principais instrumentos de accountability: serve para dar transparência ao uso de recursos públicos, subsidiar decisões, corrigir desvios e responsabilizar gestores. Ela abrange a avaliação da legalidade, legitimidade e economicidade dos atos de gestão (CF, art. 70), alcançando aspectos contábeis, financeiros, orçamentários, operacionais e patrimoniais.\n\nUm ponto central da matéria é distinguir os dois grandes domínios de atuação: a auditoria interna, que integra a própria estrutura da organização (3ª linha do modelo das três linhas do IIA), e a auditoria externa ou independente, exercida por órgão alheio à entidade auditada, como o TCU no âmbito do controle externo.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "Cebraspe gosta de embaralhar 'controle interno' com 'auditoria interna' e de afirmar que a auditoria interna não tem independência. Memorize: a interna integra a entidade mas tem independência funcional; a externa é exercida por terceiro. Cuidado também com a abrangência: a auditoria pública vai além da legalidade (inclui economicidade, legitimidade e desempenho)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "tipos-conformidade-operacional-e-financeira",
       "titulo": "Tipos: conformidade, operacional e financeira",
       "intro": "As normas internacionais de auditoria do setor público (ISSAI/INTOSAI) e as NBASP classificam a auditoria governamental em três tipos principais: auditoria financeira, auditoria de conformidade e auditoria operacional (de desempenho). Essa tripartição é fundamental e cai com frequência, pois cada tipo tem objeto, critérios e produto distintos.\n\nNa prática, uma mesma fiscalização pode combinar elementos dos três tipos, mas para fins de prova é essencial saber o foco de cada um e a quais ISSAIs específicas se vinculam: ISSAI 200 (financeira), ISSAI 300 (operacional/desempenho) e ISSAI 400 (conformidade), todas sob os princípios fundamentais da ISSAI 100.",
       "secoes": [
@@ -70,8 +68,7 @@
       "dica_prova": "Decore o número da ISSAI de cada tipo (200 financeira, 300 desempenho, 400 conformidade) — a Cebraspe troca os números. E não confunda os '3 Es': eficácia é alcance de objetivos/resultados; eficiência é relação entre recursos e produtos. Lembre que auditoria operacional NÃO emite opinião sobre demonstrações nem se limita à legalidade."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "auditoria-levantamento-monitoramento-acompanhamento-e-inspecao",
       "titulo": "Auditoria, levantamento, monitoramento, acompanhamento e inspeção",
       "intro": "O TCU exerce a fiscalização da gestão pública por meio de instrumentos próprios, definidos em sua Lei Orgânica (Lei 8.443/1992) e no Regimento Interno. Os cinco instrumentos clássicos são: levantamento, auditoria, inspeção, acompanhamento e monitoramento. Cada um tem finalidade, momento e produto diferentes, e a banca cobra exatamente essa distinção.\n\nUma forma útil de organizar: levantamento serve para conhecer; auditoria e inspeção servem para examinar; acompanhamento e monitoramento servem para verificar ao longo do tempo (um, a gestão em curso; o outro, o cumprimento de deliberações).",
       "secoes": [
@@ -104,8 +101,7 @@
       "dica_prova": "A banca mistura as definições entre os cinco instrumentos. Fixe os pares de contraste: levantamento (conhecer) x auditoria (examinar); acompanhamento (gestão concomitante) x monitoramento (cumprimento de deliberações); inspeção (fato pontual/denúncia) x auditoria (exame amplo e planejado)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "normas-do-tcu-intosai-issai-e-nbasp",
       "titulo": "Normas do TCU, INTOSAI/ISSAI e NBASP",
       "intro": "A auditoria governamental brasileira é regida por um arcabouço normativo em três níveis: as normas internacionais da INTOSAI (as ISSAI), as Normas Brasileiras de Auditoria do Setor Público (NBASP), que adaptam as ISSAI à realidade nacional, e as normas próprias de cada órgão de controle (no TCU, as Normas de Auditoria do TCU - NAT, a Lei 8.443/1992 e os manuais/portarias internas).\n\nA INTOSAI (Organização Internacional de Entidades Fiscalizadoras Superiores) edita o conjunto das ISSAI (International Standards of Supreme Audit Institutions). No Brasil, a tradução e adaptação é feita pelo Instituto Rui Barbosa (IRB), em conjunto com os Tribunais de Contas, dando origem às NBASP. É essencial dominar a estrutura e a numeração das ISSAI dos princípios fundamentais.",
       "secoes": [
@@ -138,8 +134,7 @@
       "dica_prova": "A pegadinha número um é inverter ISSAI 300 e 400. Fixe: 300 = Operacional ('300, desempenho'); 400 = Conformidade. Outra: confundir quem edita — a INTOSAI edita as ISSAI; o Instituto Rui Barbosa adapta para NBASP. Lembre que a ISSAI 100 é o guarda-chuva geral aplicável aos três tipos."
     },
     {
-      "ti": 3,
-      "si": 2,
+      "sid": "matriz-de-planejamento-e-escopo",
       "titulo": "Matriz de planejamento e escopo",
       "intro": "A matriz de planejamento é o principal instrumento de estruturação do trabalho de auditoria. Trata-se de uma tabela que organiza, de forma lógica e detalhada, o que será examinado (questões de auditoria), com base em quê (informações requeridas e critérios), onde buscar (fontes), como obter (procedimentos/técnicas), o que se espera concluir e quais limitações existem. Ela materializa o planejamento e garante que a execução seja focada, suficiente e rastreável.\n\nO escopo, por sua vez, define a extensão e a profundidade dos exames — o que está dentro e o que está fora da auditoria. O escopo é delimitado a partir do objetivo, da avaliação de materialidade, risco e relevância, e dos recursos disponíveis. A matriz de planejamento operacionaliza esse escopo em questões e procedimentos concretos.",
       "secoes": [
@@ -172,8 +167,7 @@
       "dica_prova": "Cebraspe pode descrever colunas da matriz e pedir para identificar erro/ausência. Saiba que o coração da matriz são as questões de auditoria e que cada uma deve estar amarrada a fontes, procedimentos e critérios. Não confunda matriz de PLANEJAMENTO (antes da execução, estrutura o exame) com matriz de ACHADOS (depois, consolida resultados)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "evidencia-e-caracterizacao-de-achados",
       "titulo": "Evidência e caracterização de achados",
       "intro": "Achado de auditoria é qualquer fato relevante, digno de relato, resultante da comparação entre a situação encontrada (condição) e o critério aplicável. O achado é o núcleo do produto da auditoria: dele decorrem as conclusões, propostas de encaminhamento, recomendações e determinações. Para ser válido, todo achado deve estar suportado por evidência suficiente e apropriada.\n\nA caracterização de um achado segue uma estrutura clássica de quatro atributos — situação encontrada (condição), critério, causa e efeito — frequentemente complementada por critérios de relevância e por boas práticas de redação. Dominar esses atributos e os requisitos da evidência é um dos pontos mais cobrados da disciplina.",
       "secoes": [
@@ -206,8 +200,7 @@
       "dica_prova": "A troca clássica é suficiência (quantidade) x adequação/apropriação (qualidade) — memorize. Outra pegadinha é embaralhar os atributos do achado: causa (motivo) não é efeito (consequência), e condição (o que é) não é critério (o que deveria ser). Lembre que evidência testemunhal isolada é fraca e que a quantidade não supre a falta de qualidade."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "matriz-de-achados-e-de-responsabilizacao",
       "titulo": "Matriz de achados e de responsabilização",
       "intro": "Concluída a fase de execução, os achados de auditoria são consolidados em dois instrumentos: a matriz de achados, que organiza os resultados técnicos, e a matriz de responsabilização, que vincula as irregularidades aos agentes responsáveis. Ambas estruturam a passagem da coleta de evidências para o relatório e para eventuais propostas de encaminhamento (recomendações, determinações, audiências, citações).\n\nEnquanto a matriz de planejamento é elaborada antes do trabalho de campo, a matriz de achados é produzida ao final, refletindo o que efetivamente foi encontrado. Já a matriz de responsabilização é essencial quando há irregularidades que possam ensejar imputação de débito ou aplicação de sanção — momento em que a auditoria toca nos princípios do contraditório e da ampla defesa.",
       "secoes": [

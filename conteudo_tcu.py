@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Conteúdo programático — TCU / Auditor Federal de Controle Externo (AUFC) — TI.
-Banca: Cebraspe. Cada subtópico pode ter "reuse": (concurso_id, slug, ti, si)
-apontando para um aprofundamento já existente em outro concurso (reaproveitamento).
+Banca: Cebraspe. Cada subtópico pode ter "reuse": (concurso_id, slug, sid)
+apontando, por ID estável, para um aprofundamento já existente em outro concurso.
 """
 
 R = "sefaz-go"  # concurso de origem dos reaproveitamentos
@@ -20,9 +20,9 @@ TCU = [
                 "titulo": "1. Compreensão e interpretação de textos",
                 "explicacao": "Leitura de gêneros variados: identificar tese, argumentos, intenção, relações lógicas e inferências, distinguindo o explícito do implícito.",
                 "subtopicos": [
-                    {"titulo": "Compreensão x interpretação", "texto": "O que o texto diz x o que se pode concluir dele.", "reuse": (R, "lingua-portuguesa", 0, 0)},
-                    {"titulo": "Ideia central e secundárias", "texto": "Tópico frasal, tese e ideias de sustentação.", "reuse": (R, "lingua-portuguesa", 0, 1)},
-                    {"titulo": "Inferência e pressuposto", "texto": "Implícitos, pressupostos e subentendidos.", "reuse": (R, "lingua-portuguesa", 0, 2)},
+                    {"titulo": "Compreensão x interpretação", "texto": "O que o texto diz x o que se pode concluir dele.", "reuse": (R, "lingua-portuguesa", "compreensao-x-interpretacao")},
+                    {"titulo": "Ideia central e secundárias", "texto": "Tópico frasal, tese e ideias de sustentação.", "reuse": (R, "lingua-portuguesa", "ideia-central-e-secundarias")},
+                    {"titulo": "Inferência e pressuposto", "texto": "Implícitos, pressupostos e subentendidos.", "reuse": (R, "lingua-portuguesa", "inferencia-e-pressuposto")},
                     {"titulo": "Tipos e gêneros textuais", "texto": "Reconhecimento de tipologia (narração, descrição, dissertação, injunção) e gêneros."},
                 ],
             },
@@ -30,29 +30,29 @@ TCU = [
                 "titulo": "2. Ortografia, classes de palavras e crase",
                 "explicacao": "Domínio da ortografia oficial, emprego das classes de palavras e do sinal indicativo de crase.",
                 "subtopicos": [
-                    {"titulo": "Ortografia e acentuação", "texto": "Regras do Acordo Ortográfico vigente.", "reuse": (R, "lingua-portuguesa", 1, 0)},
-                    {"titulo": "Emprego da crase", "texto": "Fusão da preposição 'a' com o artigo 'a'.", "reuse": (R, "lingua-portuguesa", 1, 1)},
-                    {"titulo": "Classes de palavras e pronomes", "texto": "Substantivo, adjetivo, verbo, pronomes, advérbios.", "reuse": (R, "lingua-portuguesa", 2, 0)},
-                    {"titulo": "Conjunções e conectores", "texto": "Relações lógicas de coordenação e subordinação.", "reuse": (R, "lingua-portuguesa", 2, 1)},
+                    {"titulo": "Ortografia e acentuação", "texto": "Regras do Acordo Ortográfico vigente.", "reuse": (R, "lingua-portuguesa", "acentuacao-grafica")},
+                    {"titulo": "Emprego da crase", "texto": "Fusão da preposição 'a' com o artigo 'a'.", "reuse": (R, "lingua-portuguesa", "emprego-da-crase")},
+                    {"titulo": "Classes de palavras e pronomes", "texto": "Substantivo, adjetivo, verbo, pronomes, advérbios.", "reuse": (R, "lingua-portuguesa", "pronomes")},
+                    {"titulo": "Conjunções e conectores", "texto": "Relações lógicas de coordenação e subordinação.", "reuse": (R, "lingua-portuguesa", "conjuncoes")},
                 ],
             },
             {
                 "titulo": "3. Sintaxe do período",
                 "explicacao": "Estrutura morfossintática: concordância, regência, colocação pronominal, pontuação e relações entre orações.",
                 "subtopicos": [
-                    {"titulo": "Concordância verbal e nominal", "texto": "Ajuste do verbo ao sujeito e do nome a seus determinantes.", "reuse": (R, "lingua-portuguesa", 3, 0)},
-                    {"titulo": "Regência verbal e nominal", "texto": "Complementos com e sem preposição.", "reuse": (R, "lingua-portuguesa", 3, 1)},
-                    {"titulo": "Colocação pronominal", "texto": "Próclise, mesóclise e ênclise.", "reuse": (R, "lingua-portuguesa", 3, 2)},
-                    {"titulo": "Pontuação e período composto", "texto": "Vírgula, ponto e vírgula; coordenação e subordinação.", "reuse": (R, "lingua-portuguesa", 4, 0)},
-                    {"titulo": "Orações coordenadas e subordinadas", "texto": "Relações entre orações e entre termos da oração.", "reuse": (R, "lingua-portuguesa", 4, 1)},
+                    {"titulo": "Concordância verbal e nominal", "texto": "Ajuste do verbo ao sujeito e do nome a seus determinantes.", "reuse": (R, "lingua-portuguesa", "concordancia-verbal-e-nominal")},
+                    {"titulo": "Regência verbal e nominal", "texto": "Complementos com e sem preposição.", "reuse": (R, "lingua-portuguesa", "regencia-verbal-e-nominal")},
+                    {"titulo": "Colocação pronominal", "texto": "Próclise, mesóclise e ênclise.", "reuse": (R, "lingua-portuguesa", "colocacao-pronominal")},
+                    {"titulo": "Pontuação e período composto", "texto": "Vírgula, ponto e vírgula; coordenação e subordinação.", "reuse": (R, "lingua-portuguesa", "periodo-composto")},
+                    {"titulo": "Orações coordenadas e subordinadas", "texto": "Relações entre orações e entre termos da oração.", "reuse": (R, "lingua-portuguesa", "oracoes-adjetivas")},
                 ],
             },
             {
                 "titulo": "4. Semântica, coesão e reescrita",
                 "explicacao": "Significação das palavras, mecanismos de coesão e reescrita de frases e parágrafos preservando o sentido.",
                 "subtopicos": [
-                    {"titulo": "Coesão e coerência", "texto": "Referenciação, substituição, repetição e conectores.", "reuse": (R, "lingua-portuguesa", 5, 0)},
-                    {"titulo": "Significação e figuras de linguagem", "texto": "Sinonímia, polissemia, conotação/denotação.", "reuse": (R, "lingua-portuguesa", 5, 1)},
+                    {"titulo": "Coesão e coerência", "texto": "Referenciação, substituição, repetição e conectores.", "reuse": (R, "lingua-portuguesa", "coesao-e-coerencia")},
+                    {"titulo": "Significação e figuras de linguagem", "texto": "Sinonímia, polissemia, conotação/denotação.", "reuse": (R, "lingua-portuguesa", "figuras-de-linguagem")},
                     {"titulo": "Reescrita de frases e parágrafos", "texto": "Reorganizar período e trocar palavras/trechos mantendo o sentido — clássico do Cebraspe."},
                 ],
             },
@@ -105,7 +105,7 @@ TCU = [
                 "explicacao": "Avaliar e construir argumentos: distinguir argumentos válidos de falaciosos e comunicar raciocínios com clareza e senso crítico.",
                 "subtopicos": [
                     {"titulo": "Senso crítico na argumentação", "texto": "Avaliar premissas, evidências e qualidade do raciocínio."},
-                    {"titulo": "Validade dos argumentos", "texto": "Quando a conclusão decorre necessariamente das premissas.", "reuse": (R, "raciocinio-logico", 2, 0)},
+                    {"titulo": "Validade dos argumentos", "texto": "Quando a conclusão decorre necessariamente das premissas.", "reuse": (R, "raciocinio-logico", "argumentos-validos")},
                     {"titulo": "Argumentos falaciosos e apelativos", "texto": "Falácias formais e informais; apelos à emoção, autoridade e ad hominem."},
                     {"titulo": "Comunicação eficiente de argumentos", "texto": "Estruturar e expor argumentos de forma clara e persuasiva."},
                 ],
@@ -141,7 +141,7 @@ TCU = [
                 "titulo": "3. Improbidade e controle da atividade financeira",
                 "explicacao": "Responsabilização por improbidade e o controle da atividade financeira do Estado em suas espécies e sistemas.",
                 "subtopicos": [
-                    {"titulo": "Lei de Improbidade (Lei 8.429/1992)", "texto": "Atos de improbidade e sanções, com as alterações da Lei 14.230/21.", "reuse": (R, "direito-administrativo", 6, 1)},
+                    {"titulo": "Lei de Improbidade (Lei 8.429/1992)", "texto": "Atos de improbidade e sanções, com as alterações da Lei 14.230/21.", "reuse": (R, "direito-administrativo", "improbidade-administrativa")},
                     {"titulo": "Controle da atividade financeira do Estado", "texto": "Espécies e sistemas de controle das finanças públicas."},
                 ],
             },
@@ -211,7 +211,7 @@ TCU = [
                 "titulo": "1. Teoria da Constituição e poder constituinte",
                 "explicacao": "Conceito, classificações e supremacia da Constituição; aplicabilidade e interpretação das normas; poder constituinte e mutação constitucional.",
                 "subtopicos": [
-                    {"titulo": "Aplicabilidade e interpretação das normas", "texto": "Eficácia plena, contida e limitada; mutação constitucional.", "reuse": (R, "direito-constitucional", 0, 0)},
+                    {"titulo": "Aplicabilidade e interpretação das normas", "texto": "Eficácia plena, contida e limitada; mutação constitucional.", "reuse": (R, "direito-constitucional", "aplicabilidade-das-normas")},
                     {"titulo": "Poder constituinte (originário e derivado)", "texto": "Características do poder constituinte originário e dos limites ao derivado (reformador/decorrente)."},
                 ],
             },
@@ -219,19 +219,19 @@ TCU = [
                 "titulo": "2. Princípios e direitos fundamentais",
                 "explicacao": "Princípios fundamentais (arts. 1º a 4º) e direitos e garantias: individuais, coletivos, sociais, de nacionalidade e políticos, com seus remédios constitucionais.",
                 "subtopicos": [
-                    {"titulo": "Princípios fundamentais", "texto": "Fundamentos, objetivos e princípios das relações internacionais.", "reuse": (R, "direito-constitucional", 0, 1)},
-                    {"titulo": "Direitos individuais e remédios constitucionais", "texto": "Art. 5º, HC, MS, MI e habeas data.", "reuse": (R, "direito-constitucional", 1, 0)},
-                    {"titulo": "Direitos sociais, nacionalidade e políticos", "texto": "Arts. 6º a 17; partidos políticos.", "reuse": (R, "direito-constitucional", 1, 1)},
+                    {"titulo": "Princípios fundamentais", "texto": "Fundamentos, objetivos e princípios das relações internacionais.", "reuse": (R, "direito-constitucional", "principios-fundamentais-arts-1o-a-4o")},
+                    {"titulo": "Direitos individuais e remédios constitucionais", "texto": "Art. 5º, HC, MS, MI e habeas data.", "reuse": (R, "direito-constitucional", "direitos-individuais-e-coletivos")},
+                    {"titulo": "Direitos sociais, nacionalidade e políticos", "texto": "Arts. 6º a 17; partidos políticos.", "reuse": (R, "direito-constitucional", "direitos-sociais-nacionalidade-e-politicos")},
                 ],
             },
             {
                 "titulo": "3. Organização do Estado e dos Poderes",
                 "explicacao": "Federação e repartição de competências, Administração Pública na CF, organização dos Poderes com freios e contrapesos e funções essenciais à justiça.",
                 "subtopicos": [
-                    {"titulo": "Federação e repartição de competências", "texto": "Competências privativas, comuns, concorrentes; intervenção.", "reuse": (R, "direito-constitucional", 2, 0)},
-                    {"titulo": "Administração pública na Constituição", "texto": "Arts. 37 a 41; princípios e servidores públicos.", "reuse": (R, "direito-constitucional", 2, 1)},
-                    {"titulo": "Poderes e processo legislativo", "texto": "Legislativo, Executivo, Judiciário; espécies normativas.", "reuse": (R, "direito-constitucional", 3, 0)},
-                    {"titulo": "Funções essenciais à justiça", "texto": "MP, Advocacia Pública e Defensoria.", "reuse": (R, "direito-constitucional", 3, 1)},
+                    {"titulo": "Federação e repartição de competências", "texto": "Competências privativas, comuns, concorrentes; intervenção.", "reuse": (R, "direito-constitucional", "reparticao-de-competencias")},
+                    {"titulo": "Administração pública na Constituição", "texto": "Arts. 37 a 41; princípios e servidores públicos.", "reuse": (R, "direito-constitucional", "administracao-publica-arts-37-a-41")},
+                    {"titulo": "Poderes e processo legislativo", "texto": "Legislativo, Executivo, Judiciário; espécies normativas.", "reuse": (R, "direito-constitucional", "processo-legislativo")},
+                    {"titulo": "Funções essenciais à justiça", "texto": "MP, Advocacia Pública e Defensoria.", "reuse": (R, "direito-constitucional", "poder-judiciario-e-funcoes-essenciais")},
                 ],
             },
             {
@@ -246,9 +246,9 @@ TCU = [
                 "titulo": "5. Tributação, finanças e ordem econômica e social",
                 "explicacao": "Sistema Tributário Nacional, finanças públicas e orçamentos, ordem econômica e ordem social, incluindo a Reforma da Previdência.",
                 "subtopicos": [
-                    {"titulo": "Sistema Tributário Nacional", "texto": "Princípios, limitações ao poder de tributar e repartição de receitas.", "reuse": (R, "direito-constitucional", 4, 0)},
-                    {"titulo": "Ordem econômica e financeira", "texto": "Princípios da atividade econômica (art. 170).", "reuse": (R, "direito-constitucional", 4, 1)},
-                    {"titulo": "Finanças públicas e orçamentos", "texto": "PPA, LDO e LOA; normas gerais de finanças (arts. 163-169).", "reuse": (R, "direito-financeiro", 0, 0)},
+                    {"titulo": "Sistema Tributário Nacional", "texto": "Princípios, limitações ao poder de tributar e repartição de receitas.", "reuse": (R, "direito-constitucional", "sistema-tributario-nacional")},
+                    {"titulo": "Ordem econômica e financeira", "texto": "Princípios da atividade econômica (art. 170).", "reuse": (R, "direito-constitucional", "ordem-economica-e-financeira")},
+                    {"titulo": "Finanças públicas e orçamentos", "texto": "PPA, LDO e LOA; normas gerais de finanças (arts. 163-169).", "reuse": (R, "direito-financeiro", "ppa-ldo-e-loa")},
                     {"titulo": "Ordem social e Reforma da Previdência (EC 103/2019)", "texto": "Seguridade social e principais mudanças da EC 103/2019."},
                 ],
             },
@@ -275,7 +275,7 @@ TCU = [
                 "titulo": "1. Estado, governo e regime jurídico-administrativo",
                 "explicacao": "Conceitos de Estado, governo e Administração; objeto e fontes do Direito Administrativo; princípios expressos e implícitos.",
                 "subtopicos": [
-                    {"titulo": "Conceitos e princípios da administração", "texto": "Sentidos de Administração e princípios (LIMPE e implícitos).", "reuse": (R, "direito-administrativo", 0, 0)},
+                    {"titulo": "Conceitos e princípios da administração", "texto": "Sentidos de Administração e princípios (LIMPE e implícitos).", "reuse": (R, "direito-administrativo", "principios-administrativos")},
                     {"titulo": "Objeto, fontes e regime jurídico-administrativo", "texto": "Conceito e objeto do Direito Administrativo, suas fontes (lei, doutrina, jurisprudência, costume) e o regime de prerrogativas e sujeições."},
                 ],
             },
@@ -283,16 +283,16 @@ TCU = [
                 "titulo": "2. Atos administrativos",
                 "explicacao": "Conceito, requisitos, atributos, classificação, espécies e formas de extinção do ato administrativo.",
                 "subtopicos": [
-                    {"titulo": "Requisitos e atributos", "texto": "Competência, finalidade, forma, motivo, objeto; presunção, imperatividade, autoexecutoriedade.", "reuse": (R, "direito-administrativo", 2, 0)},
-                    {"titulo": "Classificação e extinção", "texto": "Anulação, revogação, cassação e convalidação.", "reuse": (R, "direito-administrativo", 2, 1)},
+                    {"titulo": "Requisitos e atributos", "texto": "Competência, finalidade, forma, motivo, objeto; presunção, imperatividade, autoexecutoriedade.", "reuse": (R, "direito-administrativo", "requisitos-e-atributos")},
+                    {"titulo": "Classificação e extinção", "texto": "Anulação, revogação, cassação e convalidação.", "reuse": (R, "direito-administrativo", "classificacao-e-extincao")},
                 ],
             },
             {
                 "titulo": "3. Poderes da administração",
                 "explicacao": "Poderes hierárquico, disciplinar, regulamentar e de polícia; uso e abuso do poder.",
                 "subtopicos": [
-                    {"titulo": "Poder de polícia", "texto": "Limitação de direitos em favor da coletividade; atributos.", "reuse": (R, "direito-administrativo", 3, 0)},
-                    {"titulo": "Hierárquico, disciplinar e abuso de poder", "texto": "Poderes internos e os vícios de excesso e desvio de poder.", "reuse": (R, "direito-administrativo", 3, 1)},
+                    {"titulo": "Poder de polícia", "texto": "Limitação de direitos em favor da coletividade; atributos.", "reuse": (R, "direito-administrativo", "poder-de-policia")},
+                    {"titulo": "Hierárquico, disciplinar e abuso de poder", "texto": "Poderes internos e os vícios de excesso e desvio de poder.", "reuse": (R, "direito-administrativo", "poder-disciplinar-e-hierarquico")},
                 ],
             },
             {
@@ -300,15 +300,15 @@ TCU = [
                 "explicacao": "Espécies de agentes, regime constitucional e o estatuto dos servidores federais (Lei 8.112/1990).",
                 "subtopicos": [
                     {"titulo": "Lei 8.112/1990 (servidores federais)", "texto": "Provimento, vacância, posse, exercício, direitos, deveres e processo administrativo disciplinar (PAD) no regime federal."},
-                    {"titulo": "Regime, direitos, deveres e responsabilidade", "texto": "Responsabilidade civil, penal e administrativa do agente.", "reuse": (R, "direito-administrativo", 4, 0)},
+                    {"titulo": "Regime, direitos, deveres e responsabilidade", "texto": "Responsabilidade civil, penal e administrativa do agente.", "reuse": (R, "direito-administrativo", "regime-e-responsabilidade")},
                 ],
             },
             {
                 "titulo": "5. Organização administrativa",
                 "explicacao": "Centralização e descentralização, desconcentração, Administração direta e indireta e o terceiro setor.",
                 "subtopicos": [
-                    {"titulo": "Centralização e descentralização", "texto": "Desconcentração (hierarquia) x descentralização (tutela).", "reuse": (R, "direito-administrativo", 1, 0)},
-                    {"titulo": "Administração indireta e terceiro setor", "texto": "Autarquias, fundações, EP, SEM; OS, OSCIP, serviços sociais autônomos.", "reuse": (R, "direito-administrativo", 1, 1)},
+                    {"titulo": "Centralização e descentralização", "texto": "Desconcentração (hierarquia) x descentralização (tutela).", "reuse": (R, "direito-administrativo", "desconcentracao-x-descentralizacao")},
+                    {"titulo": "Administração indireta e terceiro setor", "texto": "Autarquias, fundações, EP, SEM; OS, OSCIP, serviços sociais autônomos.", "reuse": (R, "direito-administrativo", "entidades-da-administracao-indireta")},
                 ],
             },
             {
@@ -323,7 +323,7 @@ TCU = [
                 "titulo": "7. Responsabilidade civil do Estado",
                 "explicacao": "Evolução, teoria do risco administrativo, responsabilidade por ação e omissão, excludentes e direito de regresso.",
                 "subtopicos": [
-                    {"titulo": "Responsabilidade civil do Estado", "texto": "Regra objetiva (risco administrativo); art. 37, §6º.", "reuse": (R, "direito-administrativo", 6, 0)},
+                    {"titulo": "Responsabilidade civil do Estado", "texto": "Regra objetiva (risco administrativo); art. 37, §6º.", "reuse": (R, "direito-administrativo", "responsabilidade-civil-do-estado")},
                     {"titulo": "Excludentes, atenuantes e direito de regresso", "texto": "Caso fortuito/força maior, culpa da vítima; ação de regresso contra o agente (dolo/culpa)."},
                 ],
             },
@@ -332,9 +332,9 @@ TCU = [
                 "explicacao": "Controle da Administração, improbidade administrativa, processo administrativo federal e o regime de licitações e contratos.",
                 "subtopicos": [
                     {"titulo": "Controle da administração pública", "texto": "Controle administrativo, legislativo e judicial; tutela e autotutela (Súmulas 346 e 473 do STF)."},
-                    {"titulo": "Improbidade administrativa (Lei 8.429/1992)", "texto": "Modalidades e sanções; exigência de dolo após a Lei 14.230/21.", "reuse": (R, "direito-administrativo", 6, 1)},
+                    {"titulo": "Improbidade administrativa (Lei 8.429/1992)", "texto": "Modalidades e sanções; exigência de dolo após a Lei 14.230/21.", "reuse": (R, "direito-administrativo", "improbidade-administrativa")},
                     {"titulo": "Processo administrativo (Lei 9.784/1999)", "texto": "Princípios, fases, prazos e o dever de motivação no processo administrativo federal."},
-                    {"titulo": "Licitações e contratos (Lei 14.133/2021)", "texto": "Modalidades, fases e contratação direta.", "reuse": (R, "direito-administrativo", 5, 0)},
+                    {"titulo": "Licitações e contratos (Lei 14.133/2021)", "texto": "Modalidades, fases e contratação direta.", "reuse": (R, "direito-administrativo", "modalidades-e-fases")},
                 ],
             },
         ],
@@ -374,8 +374,8 @@ TCU = [
                 "titulo": "4. Planejamento de auditoria",
                 "explicacao": "Determinação de escopo, avaliação de materialidade, risco e relevância, amostragem e a matriz de planejamento.",
                 "subtopicos": [
-                    {"titulo": "Materialidade, risco e relevância", "texto": "Patamar de relevância que orienta a profundidade dos exames.", "reuse": (R, "auditoria", 0, 0)},
-                    {"titulo": "Amostragem estatística em auditoria", "texto": "Exame de parte da população para concluir sobre o todo.", "reuse": (R, "auditoria", 4, 0)},
+                    {"titulo": "Materialidade, risco e relevância", "texto": "Patamar de relevância que orienta a profundidade dos exames.", "reuse": (R, "auditoria", "materialidade")},
+                    {"titulo": "Amostragem estatística em auditoria", "texto": "Exame de parte da população para concluir sobre o todo.", "reuse": (R, "auditoria", "metodos-de-selecao")},
                     {"titulo": "Matriz de planejamento e escopo", "texto": "Instrumento que estrutura questões, informações, fontes e procedimentos da auditoria."},
                 ],
             },
@@ -383,9 +383,9 @@ TCU = [
                 "titulo": "5. Controles internos e execução",
                 "explicacao": "Avaliação de controles internos e a execução da auditoria: programas, papéis de trabalho, testes e técnicas.",
                 "subtopicos": [
-                    {"titulo": "Controles internos (COSO)", "texto": "Componentes do controle interno e segregação de funções.", "reuse": (R, "auditoria", 2, 0)},
-                    {"titulo": "Programas, papéis de trabalho e testes", "texto": "Testes de observância e substantivos.", "reuse": (R, "auditoria", 3, 0)},
-                    {"titulo": "Técnicas e procedimentos", "texto": "Exame documental, circularização, revisão analítica.", "reuse": (R, "auditoria", 3, 1)},
+                    {"titulo": "Controles internos (COSO)", "texto": "Componentes do controle interno e segregação de funções.", "reuse": (R, "auditoria", "componentes-coso")},
+                    {"titulo": "Programas, papéis de trabalho e testes", "texto": "Testes de observância e substantivos.", "reuse": (R, "auditoria", "tipos-de-procedimentos")},
+                    {"titulo": "Técnicas e procedimentos", "texto": "Exame documental, circularização, revisão analítica.", "reuse": (R, "auditoria", "procedimentos-analiticos")},
                 ],
             },
             {
@@ -400,7 +400,7 @@ TCU = [
                 "titulo": "7. Comunicação dos resultados",
                 "explicacao": "Elaboração e comunicação dos relatórios de auditoria e a opinião do auditor.",
                 "subtopicos": [
-                    {"titulo": "Relatórios de auditoria e opinião", "texto": "Tipos de opinião e estrutura do relatório.", "reuse": (R, "auditoria", 5, 0)},
+                    {"titulo": "Relatórios de auditoria e opinião", "texto": "Tipos de opinião e estrutura do relatório.", "reuse": (R, "auditoria", "tipos-de-opiniao")},
                 ],
             },
         ],
@@ -485,8 +485,8 @@ TCU = [
                 "titulo": "1. Bancos de dados",
                 "explicacao": "Bancos relacionais (Oracle, SQL Server) e não relacionais (MongoDB, Elasticsearch), modelagens de dados e SQL.",
                 "subtopicos": [
-                    {"titulo": "Modelo relacional e chaves", "texto": "Tabelas, chaves primária/estrangeira e integridade referencial.", "reuse": (R, "tecnologia-da-informacao", 0, 0)},
-                    {"titulo": "SQL (DDL, DML, DCL)", "texto": "Linguagem de consulta e manipulação de dados.", "reuse": (R, "tecnologia-da-informacao", 0, 1)},
+                    {"titulo": "Modelo relacional e chaves", "texto": "Tabelas, chaves primária/estrangeira e integridade referencial.", "reuse": (R, "tecnologia-da-informacao", "modelo-relacional-e-chaves")},
+                    {"titulo": "SQL (DDL, DML, DCL)", "texto": "Linguagem de consulta e manipulação de dados.", "reuse": (R, "tecnologia-da-informacao", "linguagens-sql")},
                     {"titulo": "Bancos NoSQL (MongoDB, Elasticsearch)", "texto": "Modelos de documento e de busca; quando usar NoSQL x relacional; teorema CAP."},
                 ],
             },
@@ -494,8 +494,8 @@ TCU = [
                 "titulo": "2. Arquitetura de inteligência de negócio",
                 "explicacao": "Repositórios analíticos (Data Warehouse, Data Mart, Data Lake, Data Mesh) e Business Intelligence.",
                 "subtopicos": [
-                    {"titulo": "DW, Data Mart, Data Lake e Data Mesh", "texto": "Modelagem dimensional, esquema estrela e OLAP.", "reuse": (R, "tecnologia-da-informacao", 2, 0)},
-                    {"titulo": "Business Intelligence", "texto": "Indicadores, dashboards e apoio à decisão.", "reuse": (R, "tecnologia-da-informacao", 3, 0)},
+                    {"titulo": "DW, Data Mart, Data Lake e Data Mesh", "texto": "Modelagem dimensional, esquema estrela e OLAP.", "reuse": (R, "tecnologia-da-informacao", "esquema-estrela-e-olap")},
+                    {"titulo": "Business Intelligence", "texto": "Indicadores, dashboards e apoio à decisão.", "reuse": (R, "tecnologia-da-informacao", "indicadores-e-visualizacao")},
                 ],
             },
             {
@@ -503,14 +503,14 @@ TCU = [
                 "explicacao": "Integração com fontes de dados via APIs, arquivos e mensageria, com controle de integridade e segurança na captação.",
                 "subtopicos": [
                     {"titulo": "APIs, arquivos e mensageria", "texto": "REST/SOAP, Web Services; CSV, JSON, XML, Parquet; mensageria e eventos."},
-                    {"titulo": "Integridade e segurança na captação", "texto": "Integridade dos dados, TLS, autenticação e mascaramento.", "reuse": (R, "tecnologia-da-informacao", 1, 0)},
+                    {"titulo": "Integridade e segurança na captação", "texto": "Integridade dos dados, TLS, autenticação e mascaramento.", "reuse": (R, "tecnologia-da-informacao", "integridade-e-seguranca")},
                 ],
             },
             {
                 "titulo": "4. Fluxo de manipulação (ETL e pipelines)",
                 "explicacao": "Processos de ETL e pipelines de dados com versionamento, logging, tolerância a falhas e integração com CI/CD.",
                 "subtopicos": [
-                    {"titulo": "ETL e pipeline de dados", "texto": "Extração, transformação e carga de dados.", "reuse": (R, "tecnologia-da-informacao", 2, 1)},
+                    {"titulo": "ETL e pipeline de dados", "texto": "Extração, transformação e carga de dados.", "reuse": (R, "tecnologia-da-informacao", "etl")},
                     {"titulo": "Versionamento, logging e CI/CD", "texto": "Auditoria, retries, checkpoints e integração contínua nos pipelines."},
                 ],
             },
@@ -569,7 +569,7 @@ TCU = [
                 "titulo": "4. Persistência de dados",
                 "explicacao": "Modelagem relacional e normalização, bancos NoSQL e versionamento/migração de esquemas.",
                 "subtopicos": [
-                    {"titulo": "Modelagem relacional e normalização", "texto": "Formas normais e redução de redundância.", "reuse": (R, "tecnologia-da-informacao", 0, 2)},
+                    {"titulo": "Modelagem relacional e normalização", "texto": "Formas normais e redução de redundância.", "reuse": (R, "tecnologia-da-informacao", "normalizacao")},
                     {"titulo": "NoSQL e migração de esquemas", "texto": "MongoDB, Elasticsearch; versionamento e migração de schema."},
                 ],
             },
@@ -706,8 +706,8 @@ TCU = [
                 "titulo": "1. Aprendizado de máquina",
                 "explicacao": "Paradigmas de aprendizado (supervisionado, não supervisionado, semissupervisionado e por reforço) e análise preditiva.",
                 "subtopicos": [
-                    {"titulo": "Supervisionado, não supervisionado e por reforço", "texto": "Algoritmos com dados rotulados, agrupamento e aprendizado por recompensa.", "reuse": (R, "tecnologia-da-informacao", 5, 0)},
-                    {"titulo": "Análise preditiva e avaliação de modelos", "texto": "Métricas como acurácia, precisão, recall e curva ROC.", "reuse": (R, "tecnologia-da-informacao", 4, 1)},
+                    {"titulo": "Supervisionado, não supervisionado e por reforço", "texto": "Algoritmos com dados rotulados, agrupamento e aprendizado por recompensa.", "reuse": (R, "tecnologia-da-informacao", "aprendizado-de-maquina")},
+                    {"titulo": "Análise preditiva e avaliação de modelos", "texto": "Métricas como acurácia, precisão, recall e curva ROC.", "reuse": (R, "tecnologia-da-informacao", "avaliacao-de-modelos")},
                 ],
             },
             {

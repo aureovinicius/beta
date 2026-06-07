@@ -2,15 +2,26 @@
   "slug": "conhecimentos-df",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "realidade-do-distrito-federal",
       "titulo": "Realidade do Distrito Federal",
       "intro": "O Distrito Federal foi planejado para sediar a capital federal e inaugurado em 21 de abril de 1960, fruto da interiorização da capital — ideia presente desde o Império e nas primeiras Constituições republicanas — concretizada no governo Juscelino Kubitschek. O projeto urbanístico do Plano Piloto é de Lúcio Costa e a arquitetura monumental de Oscar Niemeyer; o conjunto urbanístico de Brasília foi tombado pela UNESCO como Patrimônio Cultural da Humanidade em 1987.\n\nDiferentemente dos estados e municípios, o DF acumula competências legislativas estaduais e municipais (art. 32 da CF/88), é regido por Lei Orgânica e não pode ser dividido em municípios. Sua organização interna se dá por Regiões Administrativas (RAs), criadas por lei.\n\nEconomicamente, o DF apresenta o maior PIB per capita do país, com forte peso da administração pública, e, ao mesmo tempo, acentuada desigualdade socioespacial entre o Plano Piloto e as RAs periféricas — o que torna a assistência social tema central na agenda do GDF.",
       "secoes": [
-        { "h": "Formação histórica", "p": "A mudança da capital para o Planalto Central foi prevista em normas anteriores, mas só se efetivou com o Plano de Metas de JK (\"50 anos em 5\"). A construção concentrou-se entre 1956 e 1960, atraindo migrantes (os \"candangos\"), sobretudo do Nordeste, que deram origem às primeiras cidades-satélite. Brasília nasceu, portanto, com uma dualidade entre o núcleo planejado e os assentamentos periféricos." },
-        { "h": "Natureza jurídica e organização", "p": "O DF é uma unidade da Federação dotada de autonomia política, com Governador, Câmara Legislativa e Lei Orgânica. Não tem municípios (CF, art. 32, caput). Sua divisão administrativa é feita por Regiões Administrativas, hoje mais de três dezenas, cada uma sob um administrador regional nomeado. O Poder Judiciário e o Ministério Público do DF são organizados e mantidos pela União (TJDFT)." },
-        { "h": "Geografia e meio ambiente", "p": "Situa-se no bioma Cerrado, no Planalto Central, em altitude elevada, com clima tropical de duas estações bem marcadas (seca no inverno e chuvosa no verão). Abriga importantes recursos hídricos e unidades de conservação. As bacias e a proteção de mananciais são temas recorrentes na política ambiental local." },
-        { "h": "Sociedade e economia", "p": "A economia é fortemente baseada em serviços e no setor público, com elevada renda média, mas com grandes contrastes internos. Há concentração de renda no Plano Piloto e Lago Sul/Norte e bolsões de pobreza em RAs como Estrutural, Sol Nascente e cidades do entorno, demandando rede robusta de proteção social." }
+        {
+          "h": "Formação histórica",
+          "p": "A mudança da capital para o Planalto Central foi prevista em normas anteriores, mas só se efetivou com o Plano de Metas de JK (\"50 anos em 5\"). A construção concentrou-se entre 1956 e 1960, atraindo migrantes (os \"candangos\"), sobretudo do Nordeste, que deram origem às primeiras cidades-satélite. Brasília nasceu, portanto, com uma dualidade entre o núcleo planejado e os assentamentos periféricos."
+        },
+        {
+          "h": "Natureza jurídica e organização",
+          "p": "O DF é uma unidade da Federação dotada de autonomia política, com Governador, Câmara Legislativa e Lei Orgânica. Não tem municípios (CF, art. 32, caput). Sua divisão administrativa é feita por Regiões Administrativas, hoje mais de três dezenas, cada uma sob um administrador regional nomeado. O Poder Judiciário e o Ministério Público do DF são organizados e mantidos pela União (TJDFT)."
+        },
+        {
+          "h": "Geografia e meio ambiente",
+          "p": "Situa-se no bioma Cerrado, no Planalto Central, em altitude elevada, com clima tropical de duas estações bem marcadas (seca no inverno e chuvosa no verão). Abriga importantes recursos hídricos e unidades de conservação. As bacias e a proteção de mananciais são temas recorrentes na política ambiental local."
+        },
+        {
+          "h": "Sociedade e economia",
+          "p": "A economia é fortemente baseada em serviços e no setor público, com elevada renda média, mas com grandes contrastes internos. Há concentração de renda no Plano Piloto e Lago Sul/Norte e bolsões de pobreza em RAs como Estrutural, Sol Nascente e cidades do entorno, demandando rede robusta de proteção social."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"O Distrito Federal pode, mediante lei, dividir-se em municípios para melhor organização administrativa.\" — ERRADO. O art. 32 da CF veda expressamente a divisão do DF em municípios; sua organização interna se dá por Regiões Administrativas.",
       "pontos_chave": [
@@ -24,15 +35,26 @@
       "dica_prova": "A pegadinha clássica troca \"Regiões Administrativas\" por \"municípios\" ou afirma que o DF poderia se subdividir. Lembre também que o TJDFT e o MPDFT são mantidos pela União, e não pelo próprio DF."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "ride-lc-94-1998-e-decreto-7-469-2011",
       "titulo": "RIDE (LC 94/1998 e Decreto 7.469/2011)",
       "intro": "A RIDE do DF e Entorno (Região Integrada de Desenvolvimento do Distrito Federal e Entorno) foi criada pela Lei Complementar nº 94/1998 e regulamentada pelo Decreto nº 7.469/2011 (que substituiu o Decreto 2.710/1998). É um instrumento de planejamento e cooperação federativa para articular ações da União, do DF e dos estados de Goiás e Minas Gerais em municípios próximos a Brasília.\n\nO objetivo é a dinamização econômica e a oferta de serviços comuns (transporte, saneamento, saúde, segurança, uso do solo) em uma região que funciona como espaço metropolitano de fato, embora envolva entes de unidades federativas distintas. A RIDE não cria um novo ente federativo nem retira autonomia dos municípios.",
       "secoes": [
-        { "h": "Base normativa", "p": "A RIDE encontra fundamento no art. 43 da CF/88, que autoriza a União a articular sua ação em complexos geoeconômicos e sociais. Foi instituída pela LC 94/1998 e regulamentada pelo Decreto 7.469/2011. A composição dos municípios já foi alterada por normas posteriores; a tendência das provas é cobrar a existência da RIDE e sua natureza, não a lista exata e atualizada de cada município." },
-        { "h": "Composição", "p": "A RIDE abrange o Distrito Federal, municípios do estado de Goiás (entorno imediato, como Águas Lindas de Goiás, Luziânia, Formosa, Planaltina de Goiás, Valparaíso de Goiás, entre outros) e municípios de Minas Gerais (como Unaí e Buritis). Trata-se de arranjo intergovernamental, não de uma região metropolitana em sentido estrito (que seria criada por lei complementar estadual entre municípios de um mesmo estado)." },
-        { "h": "Finalidade e gestão", "p": "Visa a articular e harmonizar políticas públicas e serviços de interesse comum: infraestrutura, transporte, saneamento, saúde, educação e desenvolvimento econômico. A gestão envolve um colegiado/conselho administrativo com participação dos entes e da União, sob coordenação federal (historicamente vinculada a órgão responsável pelo desenvolvimento regional)." },
-        { "h": "Relevância para a assistência social", "p": "Para o servidor da SEDES, a RIDE importa porque parte da demanda por serviços públicos do DF — inclusive socioassistenciais — vem de moradores do Entorno. Isso pressiona equipamentos como CRAS, CREAS e restaurantes comunitários e exige articulação intergovernamental." }
+        {
+          "h": "Base normativa",
+          "p": "A RIDE encontra fundamento no art. 43 da CF/88, que autoriza a União a articular sua ação em complexos geoeconômicos e sociais. Foi instituída pela LC 94/1998 e regulamentada pelo Decreto 7.469/2011. A composição dos municípios já foi alterada por normas posteriores; a tendência das provas é cobrar a existência da RIDE e sua natureza, não a lista exata e atualizada de cada município."
+        },
+        {
+          "h": "Composição",
+          "p": "A RIDE abrange o Distrito Federal, municípios do estado de Goiás (entorno imediato, como Águas Lindas de Goiás, Luziânia, Formosa, Planaltina de Goiás, Valparaíso de Goiás, entre outros) e municípios de Minas Gerais (como Unaí e Buritis). Trata-se de arranjo intergovernamental, não de uma região metropolitana em sentido estrito (que seria criada por lei complementar estadual entre municípios de um mesmo estado)."
+        },
+        {
+          "h": "Finalidade e gestão",
+          "p": "Visa a articular e harmonizar políticas públicas e serviços de interesse comum: infraestrutura, transporte, saneamento, saúde, educação e desenvolvimento econômico. A gestão envolve um colegiado/conselho administrativo com participação dos entes e da União, sob coordenação federal (historicamente vinculada a órgão responsável pelo desenvolvimento regional)."
+        },
+        {
+          "h": "Relevância para a assistência social",
+          "p": "Para o servidor da SEDES, a RIDE importa porque parte da demanda por serviços públicos do DF — inclusive socioassistenciais — vem de moradores do Entorno. Isso pressiona equipamentos como CRAS, CREAS e restaurantes comunitários e exige articulação intergovernamental."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"A RIDE do DF e Entorno constitui uma nova unidade federativa, com autonomia política e legislativa própria.\" — ERRADO. A RIDE é instrumento de planejamento e cooperação (art. 43 da CF), não cria ente federativo nem suprime a autonomia dos municípios que a integram.",
       "pontos_chave": [
@@ -46,15 +68,26 @@
       "dica_prova": "Cuidado com a confusão entre RIDE e \"região metropolitana\": a RIDE envolve mais de um estado e a União, o que só é possível porque a CF autoriza a articulação federal. Não decore exaustivamente a lista de municípios — ela já mudou; foque na natureza jurídica e nas normas (LC 94/98 e Dec. 7.469/2011)."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "plano-distrital-de-politica-para-mulheres-pdpm",
       "titulo": "Plano Distrital de Política para Mulheres (PDPM)",
       "intro": "O Plano Distrital de Política para as Mulheres (PDPM) é o instrumento de planejamento que organiza, no âmbito do DF, as diretrizes, eixos e ações voltadas à promoção da igualdade de gênero e ao enfrentamento das violências e desigualdades que atingem as mulheres. Espelha, no plano local, a Política Nacional para as Mulheres e os planos nacionais correspondentes.\n\nSeu pressuposto é a transversalidade: a política para mulheres não se restringe a um único órgão, mas perpassa saúde, educação, trabalho, segurança, assistência social e demais áreas, com coordenação de um organismo específico de políticas para mulheres do GDF.",
       "secoes": [
-        { "h": "Conceitos estruturantes", "p": "O PDPM trabalha com os conceitos de igualdade de gênero, autonomia das mulheres (econômica, física e política), transversalidade de gênero nas políticas públicas e intersetorialidade. Reconhece também o recorte interseccional, considerando raça, classe, território, deficiência e orientação sexual." },
-        { "h": "Eixos típicos", "p": "Os planos para mulheres costumam organizar-se em eixos como: autonomia econômica e igualdade no trabalho; educação para a igualdade e cidadania; saúde integral e direitos sexuais e reprodutivos; enfrentamento a todas as formas de violência; e participação das mulheres nos espaços de poder e decisão. O enfrentamento à violência dialoga diretamente com a Lei Maria da Penha e a rede de atendimento." },
-        { "h": "Articulação com a rede e a SEDES", "p": "A política para mulheres se concretiza por meio de uma rede que inclui Centros Especializados de Atendimento à Mulher, Casa da Mulher Brasileira, casas-abrigo, delegacias especializadas e os equipamentos do SUAS (CRAS e CREAS). O servidor da assistência social atua na acolhida, no acompanhamento e no encaminhamento das mulheres em situação de violência." },
-        { "h": "Diretrizes e monitoramento", "p": "As diretrizes do PDPM incluem a participação social (conselhos e conferências de mulheres), o combate ao machismo estrutural e a articulação interfederativa. O plano prevê metas, indicadores e responsáveis, permitindo monitoramento e avaliação periódicos." }
+        {
+          "h": "Conceitos estruturantes",
+          "p": "O PDPM trabalha com os conceitos de igualdade de gênero, autonomia das mulheres (econômica, física e política), transversalidade de gênero nas políticas públicas e intersetorialidade. Reconhece também o recorte interseccional, considerando raça, classe, território, deficiência e orientação sexual."
+        },
+        {
+          "h": "Eixos típicos",
+          "p": "Os planos para mulheres costumam organizar-se em eixos como: autonomia econômica e igualdade no trabalho; educação para a igualdade e cidadania; saúde integral e direitos sexuais e reprodutivos; enfrentamento a todas as formas de violência; e participação das mulheres nos espaços de poder e decisão. O enfrentamento à violência dialoga diretamente com a Lei Maria da Penha e a rede de atendimento."
+        },
+        {
+          "h": "Articulação com a rede e a SEDES",
+          "p": "A política para mulheres se concretiza por meio de uma rede que inclui Centros Especializados de Atendimento à Mulher, Casa da Mulher Brasileira, casas-abrigo, delegacias especializadas e os equipamentos do SUAS (CRAS e CREAS). O servidor da assistência social atua na acolhida, no acompanhamento e no encaminhamento das mulheres em situação de violência."
+        },
+        {
+          "h": "Diretrizes e monitoramento",
+          "p": "As diretrizes do PDPM incluem a participação social (conselhos e conferências de mulheres), o combate ao machismo estrutural e a articulação interfederativa. O plano prevê metas, indicadores e responsáveis, permitindo monitoramento e avaliação periódicos."
+        }
       ],
       "exemplo": "Cenário aplicado: uma mulher procura o CRAS relatando ameaças do companheiro. O técnico deve acolher sem julgamento, avaliar o risco, orientar sobre medidas protetivas de urgência e a Lei Maria da Penha, e acionar a rede especializada (delegacia da mulher, centro de referência, e, se houver risco grave, casa-abrigo) — exemplo de transversalidade e intersetorialidade previstas no PDPM.",
       "pontos_chave": [
@@ -68,15 +101,26 @@
       "dica_prova": "A banca gosta de afirmar que a política para mulheres é responsabilidade de um único órgão — ERRADO: o conceito-chave é a transversalidade, que distribui responsabilidades por todas as áreas. Associe sempre PDPM a transversalidade, intersetorialidade e autonomia."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "lei-maria-da-penha-lei-11-340-2006",
       "titulo": "Lei Maria da Penha (Lei 11.340/2006)",
       "intro": "A Lei nº 11.340/2006 (Lei Maria da Penha) cria mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher, nos termos do art. 226, § 8º, da CF e de tratados internacionais ratificados pelo Brasil (Convenção CEDAW e Convenção de Belém do Pará). Aplica-se independentemente de orientação sexual e a relações domésticas, familiares ou de afeto.\n\nA lei define formas de violência, prevê medidas protetivas de urgência, estrutura uma rede de atendimento e cria os Juizados de Violência Doméstica e Familiar contra a Mulher. O STF e o STJ firmaram que a ação penal nos crimes de lesão corporal praticados nesse contexto é pública incondicionada (ADI 4.424 e Súmula 542 do STJ).",
       "secoes": [
-        { "h": "Formas de violência (art. 7º)", "p": "São cinco: física (ofensa à integridade ou saúde corporal); psicológica (dano emocional, controle, humilhação, ameaça — inclui violência política contra a mulher); sexual (constranger a presenciar, manter ou participar de relação sexual não desejada); patrimonial (reter, subtrair ou destruir bens, documentos e recursos); e moral (calúnia, difamação ou injúria). O rol é exemplificativo." },
-        { "h": "Medidas protetivas de urgência", "p": "Dividem-se em medidas que obrigam o agressor (afastamento do lar, proibição de aproximação e contato com a vítima, suspensão de porte de arma, restrição/suspensão de visitas, prestação de alimentos provisórios) e medidas à ofendida (encaminhamento a programa de proteção, recondução ao domicílio após afastamento do agressor, separação de corpos). Podem ser concedidas de imediato pelo juiz e, em hipóteses legais, pela autoridade policial." },
-        { "h": "Rede de atendimento", "p": "A lei estrutura atendimento integral por equipe multidisciplinar, casas-abrigo, centros de atendimento e perícia, delegacias especializadas (DEAM) e serviços de saúde e assistência social. Os equipamentos do SUAS integram essa rede, especialmente no acolhimento e no acompanhamento psicossocial." },
-        { "h": "Vedações e ação penal", "p": "É vedada a aplicação de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição por multa isolada (art. 17). Nos crimes de lesão corporal contra a mulher em contexto doméstico, a ação penal é pública incondicionada — independe de representação da vítima (STF, ADI 4.424; STJ, Súmula 542)." }
+        {
+          "h": "Formas de violência (art. 7º)",
+          "p": "São cinco: física (ofensa à integridade ou saúde corporal); psicológica (dano emocional, controle, humilhação, ameaça — inclui violência política contra a mulher); sexual (constranger a presenciar, manter ou participar de relação sexual não desejada); patrimonial (reter, subtrair ou destruir bens, documentos e recursos); e moral (calúnia, difamação ou injúria). O rol é exemplificativo."
+        },
+        {
+          "h": "Medidas protetivas de urgência",
+          "p": "Dividem-se em medidas que obrigam o agressor (afastamento do lar, proibição de aproximação e contato com a vítima, suspensão de porte de arma, restrição/suspensão de visitas, prestação de alimentos provisórios) e medidas à ofendida (encaminhamento a programa de proteção, recondução ao domicílio após afastamento do agressor, separação de corpos). Podem ser concedidas de imediato pelo juiz e, em hipóteses legais, pela autoridade policial."
+        },
+        {
+          "h": "Rede de atendimento",
+          "p": "A lei estrutura atendimento integral por equipe multidisciplinar, casas-abrigo, centros de atendimento e perícia, delegacias especializadas (DEAM) e serviços de saúde e assistência social. Os equipamentos do SUAS integram essa rede, especialmente no acolhimento e no acompanhamento psicossocial."
+        },
+        {
+          "h": "Vedações e ação penal",
+          "p": "É vedada a aplicação de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição por multa isolada (art. 17). Nos crimes de lesão corporal contra a mulher em contexto doméstico, a ação penal é pública incondicionada — independe de representação da vítima (STF, ADI 4.424; STJ, Súmula 542)."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"A retenção dolosa dos documentos pessoais e do cartão bancário da mulher pelo companheiro configura violência psicológica, conforme a Lei Maria da Penha.\" — ERRADO. Reter ou subtrair bens, documentos e recursos econômicos configura violência PATRIMONIAL (art. 7º, IV), e não psicológica.",
       "pontos_chave": [
@@ -90,15 +134,26 @@
       "dica_prova": "As pegadinhas mais comuns trocam as formas de violência (patrimonial x psicológica) e afirmam que a vítima precisa representar para a ação de lesão corporal prosseguir — está superado: é ação pública incondicionada. Lembre também que a lei NÃO exige coabitação para configurar relação de afeto."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "lodf-ordem-social-e-meio-ambiente",
       "titulo": "LODF — Ordem Social e Meio Ambiente",
       "intro": "A Lei Orgânica do Distrito Federal (LODF), promulgada em 1993, faz as vezes de \"constituição\" do DF, organizando os poderes e os direitos no âmbito local. Seu título dedicado à Ordem Social trata, entre outros temas, da seguridade social (saúde, previdência e assistência social), educação, cultura, desporto, ciência e tecnologia, e o capítulo do meio ambiente disciplina a proteção ambiental no território.\n\nNa parte da assistência social, a LODF reproduz e detalha princípios da CF/88 e da LOAS: a assistência social é prestada a quem dela necessitar, independentemente de contribuição, e organiza-se de forma descentralizada e participativa.",
       "secoes": [
-        { "h": "Seguridade e assistência social na LODF", "p": "A LODF afirma que a assistência social é direito do cidadão e dever do Estado, prestada a quem dela necessitar, sem exigência de contribuição. Prevê a articulação com a sociedade, a participação por meio de conselhos e a integração das ações de saúde, previdência e assistência. Os objetivos espelham os da LOAS: proteção à família, à maternidade, à infância, à adolescência, à velhice e às pessoas com deficiência, e amparo a crianças e adolescentes carentes." },
-        { "h": "Saúde e educação", "p": "A saúde é direito de todos e dever do Estado, organizada no SUS de forma regionalizada e hierarquizada. A educação é tratada como direito, com gestão democrática do ensino público, valorização dos profissionais e atendimento educacional especializado às pessoas com deficiência. Esses dispositivos guardam simetria com a CF/88." },
-        { "h": "Meio ambiente", "p": "O capítulo do meio ambiente impõe ao DF e à coletividade o dever de defender e preservar o meio ambiente ecologicamente equilibrado para as presentes e futuras gerações. Prevê a proteção do Cerrado, dos recursos hídricos e das unidades de conservação, além de instrumentos como o licenciamento ambiental e a exigência de estudo prévio de impacto ambiental para obras potencialmente degradadoras." },
-        { "h": "Participação e controle social", "p": "A Ordem Social na LODF valoriza a participação popular: conselhos paritários, conferências e a possibilidade de a sociedade fiscalizar e propor políticas. Para a assistência social, isso se materializa no Conselho de Assistência Social do DF e nas conferências, em sintonia com o SUAS." }
+        {
+          "h": "Seguridade e assistência social na LODF",
+          "p": "A LODF afirma que a assistência social é direito do cidadão e dever do Estado, prestada a quem dela necessitar, sem exigência de contribuição. Prevê a articulação com a sociedade, a participação por meio de conselhos e a integração das ações de saúde, previdência e assistência. Os objetivos espelham os da LOAS: proteção à família, à maternidade, à infância, à adolescência, à velhice e às pessoas com deficiência, e amparo a crianças e adolescentes carentes."
+        },
+        {
+          "h": "Saúde e educação",
+          "p": "A saúde é direito de todos e dever do Estado, organizada no SUS de forma regionalizada e hierarquizada. A educação é tratada como direito, com gestão democrática do ensino público, valorização dos profissionais e atendimento educacional especializado às pessoas com deficiência. Esses dispositivos guardam simetria com a CF/88."
+        },
+        {
+          "h": "Meio ambiente",
+          "p": "O capítulo do meio ambiente impõe ao DF e à coletividade o dever de defender e preservar o meio ambiente ecologicamente equilibrado para as presentes e futuras gerações. Prevê a proteção do Cerrado, dos recursos hídricos e das unidades de conservação, além de instrumentos como o licenciamento ambiental e a exigência de estudo prévio de impacto ambiental para obras potencialmente degradadoras."
+        },
+        {
+          "h": "Participação e controle social",
+          "p": "A Ordem Social na LODF valoriza a participação popular: conselhos paritários, conferências e a possibilidade de a sociedade fiscalizar e propor políticas. Para a assistência social, isso se materializa no Conselho de Assistência Social do DF e nas conferências, em sintonia com o SUAS."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"Segundo a LODF, a prestação da assistência social no DF depende de prévia contribuição do beneficiário ao sistema.\" — ERRADO. Assim como na CF/88 e na LOAS, a assistência social é prestada a quem dela necessitar, independentemente de contribuição à seguridade.",
       "pontos_chave": [
@@ -112,15 +167,26 @@
       "dica_prova": "A banca costuma inserir a exigência de \"contribuição\" para a assistência social — sempre ERRADO. Outra pegadinha é confundir competências: lembre que o DF acumula competências estaduais e municipais, então a LODF trata de temas que, em outros entes, estariam em constituição estadual e em lei orgânica municipal."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "deveres-e-regime-disciplinar",
       "titulo": "Deveres e regime disciplinar",
       "intro": "A Lei Complementar nº 840/2011 é o Regime Jurídico dos servidores públicos civis do Distrito Federal, das autarquias e fundações. Ela disciplina provimento, vacância, direitos, deveres, proibições e o regime disciplinar. Os deveres e proibições delimitam a conduta funcional, e seu descumprimento sujeita o servidor a responsabilização administrativa, sem prejuízo das esferas civil e penal (independência das instâncias).\n\nO regime disciplinar busca preservar a legalidade, a moralidade e a eficiência da administração, prevendo penalidades graduadas conforme a gravidade da infração, os antecedentes e o dano causado.",
       "secoes": [
-        { "h": "Deveres do servidor", "p": "Entre os deveres estão: exercer com zelo e dedicação as atribuições; ser leal às instituições; observar as normas legais e regulamentares; cumprir as ordens superiores, exceto quando manifestamente ilegais; atender o público com presteza; guardar sigilo sobre assuntos da repartição; manter conduta compatível com a moralidade administrativa; e tratar com urbanidade as pessoas. O servidor responde pelo exercício irregular de suas atribuições." },
-        { "h": "Proibições", "p": "É vedado, entre outras condutas: ausentar-se do serviço sem autorização; retirar documento ou objeto da repartição sem permissão; recusar fé a documentos públicos; opor resistência injustificada ao andamento de processo; valer-se do cargo para proveito pessoal; receber propinas ou comissões em razão do cargo; e exercer atividades incompatíveis com o cargo. Algumas proibições, quando descumpridas, geram demissão." },
-        { "h": "Penalidades disciplinares", "p": "As penalidades são, em regra: advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão e destituição de função de confiança. A advertência aplica-se a infrações leves; a suspensão (limitada em dias) a reincidência ou faltas mais graves; a demissão às infrações mais graves taxativamente previstas (como improbidade, abandono de cargo e corrupção)." },
-        { "h": "Responsabilidades e independência das instâncias", "p": "O servidor pode responder civil, penal e administrativamente pelo mesmo fato, de forma independente. A absolvição criminal só repercute na esfera administrativa quando negar a existência do fato ou a autoria. A reabilitação e a prescrição também são reguladas pela LC 840/2011." }
+        {
+          "h": "Deveres do servidor",
+          "p": "Entre os deveres estão: exercer com zelo e dedicação as atribuições; ser leal às instituições; observar as normas legais e regulamentares; cumprir as ordens superiores, exceto quando manifestamente ilegais; atender o público com presteza; guardar sigilo sobre assuntos da repartição; manter conduta compatível com a moralidade administrativa; e tratar com urbanidade as pessoas. O servidor responde pelo exercício irregular de suas atribuições."
+        },
+        {
+          "h": "Proibições",
+          "p": "É vedado, entre outras condutas: ausentar-se do serviço sem autorização; retirar documento ou objeto da repartição sem permissão; recusar fé a documentos públicos; opor resistência injustificada ao andamento de processo; valer-se do cargo para proveito pessoal; receber propinas ou comissões em razão do cargo; e exercer atividades incompatíveis com o cargo. Algumas proibições, quando descumpridas, geram demissão."
+        },
+        {
+          "h": "Penalidades disciplinares",
+          "p": "As penalidades são, em regra: advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão e destituição de função de confiança. A advertência aplica-se a infrações leves; a suspensão (limitada em dias) a reincidência ou faltas mais graves; a demissão às infrações mais graves taxativamente previstas (como improbidade, abandono de cargo e corrupção)."
+        },
+        {
+          "h": "Responsabilidades e independência das instâncias",
+          "p": "O servidor pode responder civil, penal e administrativamente pelo mesmo fato, de forma independente. A absolvição criminal só repercute na esfera administrativa quando negar a existência do fato ou a autoria. A reabilitação e a prescrição também são reguladas pela LC 840/2011."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"O servidor do DF deve cumprir todas as ordens dos superiores hierárquicos, ainda que manifestamente ilegais, sob pena de insubordinação.\" — ERRADO. O dever de cumprir ordens tem como exceção expressa as ordens manifestamente ilegais, que não devem ser cumpridas.",
       "pontos_chave": [
@@ -134,15 +200,26 @@
       "dica_prova": "Pegadinha recorrente: afirmar que toda ordem superior deve ser cumprida (esquecendo a exceção das ordens manifestamente ilegais). Outra: confundir as penalidades aplicáveis a cada tipo de infração. Memorize que demissão é reservada a infrações graves taxativas."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "processo-de-apuracao-de-infracao-disciplinar",
       "titulo": "Processo de apuração de infração disciplinar",
       "intro": "Quando há indícios de irregularidade funcional, a LC 840/2011 impõe à autoridade competente o dever de apurar (princípio da obrigatoriedade), por sindicância ou por processo administrativo disciplinar (PAD). A apuração observa os princípios do contraditório e da ampla defesa, sendo nula a punição imposta sem que se garanta ao servidor a defesa.\n\nA sindicância pode ter caráter investigativo (preparatório) ou acusatório/punitivo, conforme a gravidade; o PAD é o instrumento adequado para apurar infrações puníveis com penalidades mais graves, como suspensão por prazo maior, demissão e cassação.",
       "secoes": [
-        { "h": "Sindicância", "p": "A sindicância serve para apurar fatos de menor complexidade ou para investigar a existência de irregularidade e a autoria. Pode resultar em arquivamento, aplicação de penalidade leve (advertência ou suspensão de curta duração) ou instauração de PAD quando a infração for mais grave. É instrumento mais célere e simplificado." },
-        { "h": "Processo Administrativo Disciplinar (PAD)", "p": "O PAD é exigido para apurar infrações sujeitas a penalidades graves. Desenvolve-se em fases: instauração (portaria designando a comissão), inquérito (instrução, defesa e relatório) e julgamento pela autoridade competente. A comissão é, em regra, composta por servidores estáveis. O acusado é citado, pode acompanhar a produção de provas, arrolar testemunhas e apresentar defesa escrita." },
-        { "h": "Garantias e nulidades", "p": "São assegurados o contraditório e a ampla defesa. A falta de defesa, a parcialidade da comissão ou o cerceamento de provas podem gerar nulidade. Ao acusado revel nomeia-se defensor dativo. O excesso de prazo, em regra, não anula o processo, mas pode caracterizar irregularidade." },
-        { "h": "Prescrição e julgamento", "p": "A pretensão punitiva prescreve em prazos que variam conforme a penalidade cabível (mais longos para demissão, mais curtos para advertência). A instauração regular interrompe a prescrição. No julgamento, a autoridade pode acolher ou, motivadamente, divergir do relatório da comissão, observando proporcionalidade entre a infração e a pena." }
+        {
+          "h": "Sindicância",
+          "p": "A sindicância serve para apurar fatos de menor complexidade ou para investigar a existência de irregularidade e a autoria. Pode resultar em arquivamento, aplicação de penalidade leve (advertência ou suspensão de curta duração) ou instauração de PAD quando a infração for mais grave. É instrumento mais célere e simplificado."
+        },
+        {
+          "h": "Processo Administrativo Disciplinar (PAD)",
+          "p": "O PAD é exigido para apurar infrações sujeitas a penalidades graves. Desenvolve-se em fases: instauração (portaria designando a comissão), inquérito (instrução, defesa e relatório) e julgamento pela autoridade competente. A comissão é, em regra, composta por servidores estáveis. O acusado é citado, pode acompanhar a produção de provas, arrolar testemunhas e apresentar defesa escrita."
+        },
+        {
+          "h": "Garantias e nulidades",
+          "p": "São assegurados o contraditório e a ampla defesa. A falta de defesa, a parcialidade da comissão ou o cerceamento de provas podem gerar nulidade. Ao acusado revel nomeia-se defensor dativo. O excesso de prazo, em regra, não anula o processo, mas pode caracterizar irregularidade."
+        },
+        {
+          "h": "Prescrição e julgamento",
+          "p": "A pretensão punitiva prescreve em prazos que variam conforme a penalidade cabível (mais longos para demissão, mais curtos para advertência). A instauração regular interrompe a prescrição. No julgamento, a autoridade pode acolher ou, motivadamente, divergir do relatório da comissão, observando proporcionalidade entre a infração e a pena."
+        }
       ],
       "exemplo": "Cenário aplicado: um servidor é acusado de abandono de cargo (ausência intencional por mais de 30 dias consecutivos). Por se tratar de infração punível com demissão, a apuração exige PAD com comissão, citação, ampla defesa e contraditório — uma simples sindicância investigativa não é suficiente para aplicar a demissão.",
       "pontos_chave": [
@@ -156,15 +233,26 @@
       "dica_prova": "A banca testa se o candidato sabe que demissão NÃO pode ser aplicada por simples sindicância — exige PAD. Cuidado também com a afirmação de que o excesso de prazo anula automaticamente o processo (em regra, não anula). Ampla defesa e contraditório são cláusulas inafastáveis."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "lei-distrital-no-7-484-2024",
       "titulo": "Lei Distrital nº 7.484/2024 (Carreira Pública de Desenvolvimento e Assistência Social)",
       "intro": "A Lei Distrital nº 7.484, de 27 de março de 2024, reestrutura a carreira dos servidores da assistência social do DF — originalmente criada pela Lei nº 85/1989 como Carreira Pública de Assistência Social — que passa a se chamar Carreira Pública de Desenvolvimento e Assistência Social. É a norma que rege o próprio cargo do concurso da SEDES, razão pela qual costuma ser cobrada com afinco no edital.\n\nA lei amplia o escopo de atuação da carreira para além da assistência social em sentido estrito, abrangendo também segurança alimentar e nutricional, enfrentamento à violência contra a mulher, direitos da criança e do adolescente, da pessoa idosa, das pessoas com deficiência, direitos humanos e igualdade racial. Organiza a carreira em cargos, classes e padrões e disciplina ingresso, desenvolvimento e remuneração.",
       "secoes": [
-        { "h": "Objeto e denominação", "p": "A Lei 7.484/2024 reestrutura a carreira criada pela Lei nº 85, de 29 de dezembro de 1989, que deixa de se chamar Carreira Pública de Assistência Social e passa a denominar-se Carreira Pública de Desenvolvimento e Assistência Social. A reestruturação acompanha a transformação da pasta em Secretaria de Desenvolvimento Social (SEDES) e a ampliação das políticas executadas." },
-        { "h": "Cargos e escolaridade", "p": "A carreira é composta por três cargos: Especialista em Desenvolvimento e Assistência Social (nível superior), Técnico em Desenvolvimento e Assistência Social (nível médio, com curso profissionalizante quando exigido) e Auxiliar em Desenvolvimento e Assistência Social (nível fundamental). Cada cargo organiza-se em classes e padrões, com progressão e promoção segundo critérios da lei." },
-        { "h": "Atribuições e abrangência", "p": "Os servidores executam as políticas a cargo do órgão: assistência social (SUAS), segurança alimentar e nutricional, enfrentamento à violência contra a mulher, proteção à criança e ao adolescente, à pessoa idosa e à pessoa com deficiência, direitos humanos e promoção da igualdade racial. O ingresso dá-se por concurso público, conforme a escolaridade de cada cargo." },
-        { "h": "Inserção no arcabouço distrital", "p": "A Lei 7.484/2024 dialoga com a LODF, a LC 840/2011 (regime jurídico dos servidores, aplicável subsidiariamente), a LOAS e os programas distritais (Plano DF Social, benefícios eventuais, Cartão Prato Cheio e Cartão Gás). Não é lei de programa social ou de benefício a cidadãos: é a lei da CARREIRA dos servidores que operam essas políticas." }
+        {
+          "h": "Objeto e denominação",
+          "p": "A Lei 7.484/2024 reestrutura a carreira criada pela Lei nº 85, de 29 de dezembro de 1989, que deixa de se chamar Carreira Pública de Assistência Social e passa a denominar-se Carreira Pública de Desenvolvimento e Assistência Social. A reestruturação acompanha a transformação da pasta em Secretaria de Desenvolvimento Social (SEDES) e a ampliação das políticas executadas."
+        },
+        {
+          "h": "Cargos e escolaridade",
+          "p": "A carreira é composta por três cargos: Especialista em Desenvolvimento e Assistência Social (nível superior), Técnico em Desenvolvimento e Assistência Social (nível médio, com curso profissionalizante quando exigido) e Auxiliar em Desenvolvimento e Assistência Social (nível fundamental). Cada cargo organiza-se em classes e padrões, com progressão e promoção segundo critérios da lei."
+        },
+        {
+          "h": "Atribuições e abrangência",
+          "p": "Os servidores executam as políticas a cargo do órgão: assistência social (SUAS), segurança alimentar e nutricional, enfrentamento à violência contra a mulher, proteção à criança e ao adolescente, à pessoa idosa e à pessoa com deficiência, direitos humanos e promoção da igualdade racial. O ingresso dá-se por concurso público, conforme a escolaridade de cada cargo."
+        },
+        {
+          "h": "Inserção no arcabouço distrital",
+          "p": "A Lei 7.484/2024 dialoga com a LODF, a LC 840/2011 (regime jurídico dos servidores, aplicável subsidiariamente), a LOAS e os programas distritais (Plano DF Social, benefícios eventuais, Cartão Prato Cheio e Cartão Gás). Não é lei de programa social ou de benefício a cidadãos: é a lei da CARREIRA dos servidores que operam essas políticas."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"A Lei Distrital nº 7.484/2024 instituiu um novo programa de transferência de renda às famílias em extrema pobreza do DF.\" — ERRADO. A Lei 7.484/2024 não cria benefício a cidadãos: ela reestrutura a Carreira Pública de Assistência Social (Lei 85/1989), que passa a se chamar Carreira Pública de Desenvolvimento e Assistência Social, definindo cargos (Especialista, Técnico e Auxiliar), atribuições e regras de ingresso e desenvolvimento.",
       "pontos_chave": [
@@ -178,15 +266,26 @@
       "dica_prova": "A pegadinha central é tratar a Lei 7.484/2024 como se fosse um programa ou benefício social — ERRADO: ela é a lei da carreira dos servidores da SEDES. Guarde os três cargos (Especialista/Técnico/Auxiliar), a nova denominação da carreira e a origem na Lei nº 85/1989."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "reconhecimento-de-urgencia-e-acionamento-do-socorro",
       "titulo": "Reconhecimento de urgência e acionamento do socorro",
       "intro": "Os primeiros socorros são os cuidados imediatos prestados a uma vítima de mal súbito ou acidente, antes da chegada do atendimento especializado, com o objetivo de preservar a vida, evitar o agravamento e promover a recuperação. A primeira etapa é garantir a segurança da cena, do socorrista e da vítima, evitando expor-se a riscos (trânsito, fogo, eletricidade).\n\nNa sequência, faz-se a avaliação da vítima: nível de consciência, respiração e circulação. Reconhecer precocemente situações de urgência e acionar corretamente o socorro especializado aumenta significativamente as chances de sobrevivência.",
       "secoes": [
-        { "h": "Segurança e avaliação inicial", "p": "Antes de tocar a vítima, avalie a cena: há riscos? É seguro? Em seguida, verifique a responsividade chamando a pessoa e tocando-a pelos ombros. Cheque a respiração observando a elevação do tórax. A avaliação segue a lógica de identificar e tratar primeiro o que mata mais rápido (vias aéreas, respiração e circulação)." },
-        { "h": "Acionamento do socorro especializado", "p": "No DF e no Brasil, o SAMU é acionado pelo telefone 192 (urgências clínicas e traumáticas), e o Corpo de Bombeiros pelo 193 (resgate, acidentes, incêndios). Ao ligar, informe local exato, número de vítimas, o que aconteceu e o estado das vítimas, e não desligue antes de o atendente autorizar. Acionamento rápido e informação precisa orientam a resposta adequada." },
-        { "h": "Parada cardiorrespiratória (PCR)", "p": "Vítima irresponsiva e que não respira normalmente está em PCR. Deve-se acionar o socorro, iniciar imediatamente a RCP (compressões torácicas de alta qualidade no centro do peito, cerca de 100 a 120 por minuto, 5 a 6 cm de profundidade) e usar o DEA (desfibrilador externo automático) assim que disponível, seguindo suas orientações de voz." },
-        { "h": "Cadeia de sobrevivência", "p": "O conceito de cadeia de sobrevivência liga ações sequenciais: reconhecimento e acionamento precoces, RCP imediata, desfibrilação rápida e cuidados avançados. A demora em qualquer elo reduz a chance de sobrevida. O leigo treinado é peça central nos primeiros elos." }
+        {
+          "h": "Segurança e avaliação inicial",
+          "p": "Antes de tocar a vítima, avalie a cena: há riscos? É seguro? Em seguida, verifique a responsividade chamando a pessoa e tocando-a pelos ombros. Cheque a respiração observando a elevação do tórax. A avaliação segue a lógica de identificar e tratar primeiro o que mata mais rápido (vias aéreas, respiração e circulação)."
+        },
+        {
+          "h": "Acionamento do socorro especializado",
+          "p": "No DF e no Brasil, o SAMU é acionado pelo telefone 192 (urgências clínicas e traumáticas), e o Corpo de Bombeiros pelo 193 (resgate, acidentes, incêndios). Ao ligar, informe local exato, número de vítimas, o que aconteceu e o estado das vítimas, e não desligue antes de o atendente autorizar. Acionamento rápido e informação precisa orientam a resposta adequada."
+        },
+        {
+          "h": "Parada cardiorrespiratória (PCR)",
+          "p": "Vítima irresponsiva e que não respira normalmente está em PCR. Deve-se acionar o socorro, iniciar imediatamente a RCP (compressões torácicas de alta qualidade no centro do peito, cerca de 100 a 120 por minuto, 5 a 6 cm de profundidade) e usar o DEA (desfibrilador externo automático) assim que disponível, seguindo suas orientações de voz."
+        },
+        {
+          "h": "Cadeia de sobrevivência",
+          "p": "O conceito de cadeia de sobrevivência liga ações sequenciais: reconhecimento e acionamento precoces, RCP imediata, desfibrilação rápida e cuidados avançados. A demora em qualquer elo reduz a chance de sobrevida. O leigo treinado é peça central nos primeiros elos."
+        }
       ],
       "exemplo": "Cenário aplicado: um colega de trabalho cai e não responde aos chamados nem respira normalmente. A conduta correta é: garantir a segurança, acionar imediatamente o SAMU (192) ou pedir que alguém ligue, iniciar as compressões torácicas e buscar um DEA. Esperar a ambulância sem iniciar a RCP é conduta inadequada e diminui drasticamente as chances de sobrevivência.",
       "pontos_chave": [
@@ -200,15 +299,26 @@
       "dica_prova": "Memorize os números: SAMU é 192. Pegadinha comum inverte 192/193 ou afirma que se deve aguardar o socorro antes de iniciar a RCP — ERRADO: a RCP deve começar de imediato. Outra: começar pela vítima sem antes garantir a segurança da cena."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "condutas-basicas-de-primeiros-socorros",
       "titulo": "Condutas básicas de primeiros socorros",
       "intro": "Além de reconhecer a urgência, o socorrista leigo precisa dominar condutas básicas para situações frequentes: engasgo (obstrução de vias aéreas), sangramentos, fraturas, queimaduras, desmaio, convulsão e intoxicação. A regra geral é manter a calma, garantir a segurança, prestar o auxílio adequado e acionar o socorro especializado quando necessário.\n\nMuitas mortes evitáveis decorrem de condutas erradas (como dar água a quem está engasgado ou colher na boca de quem convulsiona). Conhecer o que fazer e, sobretudo, o que NÃO fazer é o foco das questões de prova.",
       "secoes": [
-        { "h": "Engasgo (OVACE)", "p": "Na obstrução de vias aéreas por corpo estranho em adulto consciente, aplica-se a manobra de Heimrich (compressões abdominais acima do umbigo). Se a vítima ficar inconsciente, inicia-se a RCP. Em bebês, alternam-se golpes nas costas e compressões torácicas. Nunca introduza os dedos às cegas na boca." },
-        { "h": "Sangramentos e fraturas", "p": "Em sangramento externo, faça compressão direta sobre o ferimento com pano limpo e, se possível, eleve o membro; o torniquete é medida extrema para hemorragias graves não controláveis. Em suspeita de fratura, imobilize o segmento na posição encontrada, não tente alinhar o osso e não permita que a vítima movimente o local; suspeita de lesão na coluna exige imobilização e não mobilizar a vítima sem necessidade." },
-        { "h": "Queimaduras", "p": "Resfrie a área com água corrente em temperatura ambiente por alguns minutos. Não use gelo, pasta de dente, manteiga ou outras substâncias caseiras, e não estoure bolhas. Retire adornos antes do inchaço, cubra com pano limpo e procure atendimento conforme a extensão e a profundidade." },
-        { "h": "Desmaio, convulsão e intoxicação", "p": "No desmaio, deite a pessoa e eleve as pernas, afrouxando roupas. Na convulsão, proteja a cabeça, afaste objetos, NÃO contenha os movimentos nem coloque nada na boca, e lateralize a vítima ao final; cronometre a crise. Na intoxicação, identifique o agente, não provoque vômito sem orientação e acione o socorro/Centro de Informações Toxicológicas." }
+        {
+          "h": "Engasgo (OVACE)",
+          "p": "Na obstrução de vias aéreas por corpo estranho em adulto consciente, aplica-se a manobra de Heimrich (compressões abdominais acima do umbigo). Se a vítima ficar inconsciente, inicia-se a RCP. Em bebês, alternam-se golpes nas costas e compressões torácicas. Nunca introduza os dedos às cegas na boca."
+        },
+        {
+          "h": "Sangramentos e fraturas",
+          "p": "Em sangramento externo, faça compressão direta sobre o ferimento com pano limpo e, se possível, eleve o membro; o torniquete é medida extrema para hemorragias graves não controláveis. Em suspeita de fratura, imobilize o segmento na posição encontrada, não tente alinhar o osso e não permita que a vítima movimente o local; suspeita de lesão na coluna exige imobilização e não mobilizar a vítima sem necessidade."
+        },
+        {
+          "h": "Queimaduras",
+          "p": "Resfrie a área com água corrente em temperatura ambiente por alguns minutos. Não use gelo, pasta de dente, manteiga ou outras substâncias caseiras, e não estoure bolhas. Retire adornos antes do inchaço, cubra com pano limpo e procure atendimento conforme a extensão e a profundidade."
+        },
+        {
+          "h": "Desmaio, convulsão e intoxicação",
+          "p": "No desmaio, deite a pessoa e eleve as pernas, afrouxando roupas. Na convulsão, proteja a cabeça, afaste objetos, NÃO contenha os movimentos nem coloque nada na boca, e lateralize a vítima ao final; cronometre a crise. Na intoxicação, identifique o agente, não provoque vômito sem orientação e acione o socorro/Centro de Informações Toxicológicas."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"Durante uma crise convulsiva, recomenda-se conter firmemente os movimentos da vítima e introduzir um objeto entre os dentes para evitar que ela engula a língua.\" — ERRADO. Não se deve conter os movimentos nem colocar objetos na boca; o correto é proteger a cabeça, afastar objetos perigosos e, após a crise, lateralizar a vítima.",
       "pontos_chave": [

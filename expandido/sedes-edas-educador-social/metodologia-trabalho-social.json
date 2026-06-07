@@ -2,11 +2,9 @@
   "slug": "metodologia-trabalho-social",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "trabalho-social-com-familias-e-grupos",
       "titulo": "Trabalho social com famílias e grupos",
-      "intro": "O trabalho social com famílias e grupos é o núcleo metodológico da atuação socioeducativa no SUAS. Ele se apoia na matricialidade sociofamiliar (a família como unidade de referência) e em técnicas que visam fortalecer vínculos, ampliar a autonomia e estimular o protagonismo dos usuários. Não se trata de impor soluções, mas de construir, com as famílias e grupos, caminhos para o enfrentamento das vulnerabilidades.\n\nEntre as ferramentas centrais estão a ESCUTA QUALIFICADA, o fortalecimento de VÍNCULOS e a INTERDISCIPLINARIDADE. O Educador Social conduz oficinas, grupos e ações coletivas com intencionalidade pedagógica, atuando de forma articulada com a equipe técnica e com a rede do território. A metodologia é dialógica, participativa e fundada no respeito à dignidade e aos saberes dos sujeitos."
-      ,
+      "intro": "O trabalho social com famílias e grupos é o núcleo metodológico da atuação socioeducativa no SUAS. Ele se apoia na matricialidade sociofamiliar (a família como unidade de referência) e em técnicas que visam fortalecer vínculos, ampliar a autonomia e estimular o protagonismo dos usuários. Não se trata de impor soluções, mas de construir, com as famílias e grupos, caminhos para o enfrentamento das vulnerabilidades.\n\nEntre as ferramentas centrais estão a ESCUTA QUALIFICADA, o fortalecimento de VÍNCULOS e a INTERDISCIPLINARIDADE. O Educador Social conduz oficinas, grupos e ações coletivas com intencionalidade pedagógica, atuando de forma articulada com a equipe técnica e com a rede do território. A metodologia é dialógica, participativa e fundada no respeito à dignidade e aos saberes dos sujeitos.",
       "secoes": [
         {
           "h": "Escuta qualificada",

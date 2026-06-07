@@ -2,8 +2,7 @@
   "slug": "abordagem-rua",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "politica-nacional-decreto-7-053-2009-e-centros-pop",
       "titulo": "Política Nacional (Decreto 7.053/2009) e Centros POP",
       "intro": "A Política Nacional para a População em Situação de Rua foi instituída pelo Decreto nº 7.053, de 23 de dezembro de 2009, marco que reconheceu esse segmento como sujeito de direitos e estabeleceu princípios e diretrizes para a ação do Estado. O decreto define população em situação de rua como o grupo populacional heterogêneo que tem em comum a pobreza extrema, vínculos familiares interrompidos ou fragilizados e a inexistência de moradia convencional regular, utilizando logradouros públicos e áreas degradadas como espaço de moradia e sustento.\n\nNo SUAS, o principal equipamento de atendimento a esse público é o Centro POP (Centro de Referência Especializado para População em Situação de Rua). Para o Agente Social, esse é um campo de atuação direta, exigindo conhecimento do decreto e do funcionamento do equipamento.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha número um é confundir Centro POP com unidade de acolhimento. Centro POP = média complexidade, diurno; acolhimento = alta complexidade, pernoite. Decore o número do decreto: 7.053/2009."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "abordagem-social-principios-estrategias-e-vinculo",
       "titulo": "Abordagem social: princípios, estratégias e vínculo",
       "intro": "A abordagem social é uma metodologia de trabalho realizada nos espaços públicos para identificar, acolher e construir vínculos com pessoas que vivem ou trabalham nas ruas — população em situação de rua, crianças e adolescentes em situação de trabalho, mendicância ou exploração, entre outros. No SUAS, materializa-se no Serviço Especializado em Abordagem Social, da PSE de média complexidade.\n\nMais do que 'recolher' pessoas, a abordagem busca o encontro respeitoso, a escuta e a oferta de proteção, sempre preservando a autonomia e a vontade do sujeito. O Agente Social é protagonista nessa atividade de campo, e a banca cobra fortemente a postura ética esperada.",
       "secoes": [

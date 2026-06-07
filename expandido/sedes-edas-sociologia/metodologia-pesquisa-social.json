@@ -2,8 +2,7 @@
   "slug": "metodologia-pesquisa-social",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "metodos-quali-quanti-e-indicadores-sociais",
       "titulo": "Métodos quali/quanti e indicadores sociais",
       "intro": "A metodologia de pesquisa social fornece os procedimentos para investigar a realidade de modo sistemático e controlado. Para o sociólogo que atua em políticas públicas — como na SEDES/SUAS —, dominar métodos é essencial para diagnosticar territórios, construir indicadores, monitorar serviços e avaliar resultados.\n\nA grande divisão é entre abordagem quantitativa (mensuração, números, generalização) e qualitativa (significados, profundidade, interpretação), que não se opõem necessariamente: muitas pesquisas combinam ambas (métodos mistos / triangulação). A escolha depende do problema e dos objetivos da investigação.",
       "secoes": [

@@ -2,8 +2,7 @@
   "slug": "direito-constitucional",
   "itens": [
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "poder-constituinte-originario-e-derivado",
       "titulo": "Poder constituinte (originário e derivado)",
       "intro": "O poder constituinte é o poder de criar, modificar ou complementar uma Constituição. A teoria clássica, sistematizada por Sieyès em sua obra \"O que é o Terceiro Estado?\" (1789), distingue o poder constituinte originário (que elabora uma nova Constituição) do poder constituinte derivado (que atua dentro dos limites fixados pela própria Constituição já existente).\n\nNo Brasil, a CF/88 foi fruto do poder constituinte originário, exercido pela Assembleia Nacional Constituinte instalada em 1987. Compreender a diferença de natureza e de limites entre o originário e o derivado é essencial para entender por que emendas constitucionais podem ser declaradas inconstitucionais, ao passo que o texto originário da Constituição não pode.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A Cebraspe adora cobrar o quórum e os turnos de emenda (3/5, dois turnos em CADA Casa — não é maioria absoluta nem turno único). Pegadinha clássica: afirmar que cláusulas pétreas são absolutamente imutáveis (errado — vedam-se apenas emendas TENDENTES A ABOLIR) ou que direitos sociais são cláusulas pétreas (a literalidade do art. 60, §4º, IV fala em direitos e garantias INDIVIDUAIS; o STF, porém, já protegeu garantias fora do art. 5º, como a anterioridade tributária na ADI 939). Outra pegadinha: dizer que os Municípios exercem poder constituinte decorrente."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "sistemas-e-controle-difuso-incidental",
       "titulo": "Sistemas e controle difuso (incidental)",
       "intro": "O controle de constitucionalidade é a verificação da compatibilidade das normas com a Constituição, fundada no princípio da supremacia constitucional e na rigidez da CF/88. O Brasil adota um sistema misto (ou combinado), reunindo o controle difuso (modelo norte-americano, judicial review, caso Marbury v. Madison, 1803) e o controle concentrado (modelo austríaco/europeu, kelseniano).\n\nO controle difuso (também chamado incidental, concreto ou por via de exceção/defesa) é aquele que pode ser exercido por qualquer juiz ou tribunal, no curso de um processo concreto, em que a questão constitucional surge como questão prejudicial (incidental), e não como pedido principal. O objetivo imediato é resolver o caso concreto; a declaração de inconstitucionalidade é apenas o fundamento da decisão.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "Memorize a Súmula Vinculante 10 — é campeã de provas: afastar a aplicação da lei sem declarar formalmente a inconstitucionalidade JÁ viola a reserva de plenário. Pegadinha frequente: dizer que a reserva de plenário se aplica a juiz singular (errado) ou que o difuso só pode ser feito por juiz de primeiro grau (errado — vai até o STF). Cuidado com a tese da abstrativização: hoje o STF entende que suas decisões em controle difuso têm eficácia geral e que o Senado apenas dá publicidade, mas a literalidade do art. 52, X (que fala em 'suspender a execução') ainda é cobrada — atente para o enunciado pedir a letra da lei ou a posição atual do STF."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "controle-concentrado-adi-adc-adpf-ado",
       "titulo": "Controle concentrado (ADI, ADC, ADPF, ADO)",
       "intro": "O controle concentrado de constitucionalidade concentra a competência para julgar a constitucionalidade em tese de leis e atos normativos em um único órgão de cúpula: no plano federal, o Supremo Tribunal Federal (art. 102, I, \"a\", da CF/88); no plano estadual, o Tribunal de Justiça (art. 125, §2º). É um controle abstrato, em que a constitucionalidade é o próprio objeto da ação (pedido principal), discutido em tese, sem caso concreto subjacente.\n\nAs ações do controle concentrado são processos objetivos: não há partes em sentido material, lide ou direito subjetivo em disputa, mas a defesa da ordem constitucional. São quatro as principais ações: ADI (ação direta de inconstitucionalidade), ADC (ação declaratória de constitucionalidade), ADPF (arguição de descumprimento de preceito fundamental) e ADO (ação direta de inconstitucionalidade por omissão). As ADIs e ADC são regidas pela Lei 9.868/99; a ADPF pela Lei 9.882/99.",
       "secoes": [
@@ -112,8 +109,7 @@
       "dica_prova": "Pegadinhas certeiras da Cebraspe: (1) ADC só para lei FEDERAL; ADI também para estadual; nenhuma das duas no STF para lei municipal. (2) Lei municipal vs. CF = ADPF. (3) Direito pré-constitucional = não recepção, resolvido por ADPF, nunca por ADI. (4) O efeito vinculante NÃO atinge o Poder Legislativo em sua função de legislar (pode editar nova lei de igual conteúdo) nem o próprio STF. (5) Modulação exige quórum qualificado de 2/3 (8 ministros), não maioria simples. (6) Pertinência temática só é exigida dos legitimados especiais. Decore quem defende a norma (AGU) e quem é fiscal (PGR)."
     },
     {
-      "ti": 4,
-      "si": 3,
+      "sid": "ordem-social-e-reforma-da-previdencia-ec-103-2019",
       "titulo": "Ordem social e Reforma da Previdência (EC 103/2019)",
       "intro": "A ordem social está disciplinada no Título VIII da CF/88 (arts. 193 a 232) e tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais (art. 193). Seu eixo central é a seguridade social (art. 194), definida como um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social — o tripé da seguridade.\n\nA Emenda Constitucional 103/2019 (Reforma da Previdência) promoveu a mais profunda alteração no regime previdenciário desde 1988, atingindo sobretudo o Regime Geral de Previdência Social (RGPS, art. 201) e os Regimes Próprios de Previdência Social dos servidores (RPPS, art. 40), com regras de transição para quem já estava no sistema.",
       "secoes": [
@@ -148,8 +144,7 @@
       "dica_prova": "A pegadinha número 1 é tentar igualar previdência a saúde/assistência quanto à contribuição — só a previdência é contributiva e obrigatória. A Cebraspe também explora a regra da contrapartida (art. 195, §5º) e a universalidade da saúde (independe de contribuição, art. 196). Sobre a EC 103, cuidado: a reforma não revogou direitos já adquiridos e não se aplicou automaticamente a Estados e Municípios. Memorize as idades mínimas do RGPS (65 homem / 62 mulher) — costumam inverter os números ou suprimir a idade mínima alegando que basta o tempo de contribuição (errado após a reforma)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "estado-de-defesa-de-sitio-e-seguranca-publica",
       "titulo": "Estado de defesa, de sítio e segurança pública",
       "intro": "O Título V da CF/88 trata da Defesa do Estado e das Instituições Democráticas. Nele se insere o chamado sistema constitucional de crises, composto pelo estado de defesa (art. 136) e pelo estado de sítio (arts. 137 a 139), que são mecanismos extraordinários e temporários de restrição de direitos para preservar ou restabelecer a ordem em situações de grave anormalidade. Esses institutos regem-se pelos princípios da necessidade (a medida deve ser indispensável) e da temporariedade (têm prazo certo).\n\nO mesmo Título disciplina ainda as Forças Armadas (arts. 142-143) e a segurança pública (art. 144), esta última um capítulo de altíssima incidência em provas pela enumeração taxativa dos órgãos policiais.",
       "secoes": [
@@ -184,8 +179,7 @@
       "dica_prova": "A pegadinha mestra é trocar o momento do controle: defesa = posterior (24h); sítio = prévio (autorização). Decore os prazos: estado de defesa até 30 dias prorrogável uma vez; sítio do inciso I até 30 dias prorrogável; sítio por guerra/agressão dura o tempo do conflito. No art. 144, a Cebraspe inventa órgãos fora do rol (ex.: 'guarda municipal' como órgão de segurança pública do art. 144 — as guardas municipais são mencionadas no §8º, mas não integram o rol taxativo dos incisos I a VI) ou troca atribuições entre polícias. Lembre que os Conselhos são apenas consultivos (não vinculam o Presidente) e que a CF não pode ser emendada durante a vigência desses estados."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "populacoes-indigenas-e-quilombolas",
       "titulo": "Populações indígenas e quilombolas",
       "intro": "A CF/88 representou uma ruptura paradigmática no tratamento dos povos indígenas: abandonou o paradigma integracionista/assimilacionista (que via o índio como sujeito em transição até se incorporar à 'comunhão nacional') e adotou o paradigma do reconhecimento e proteção da diversidade cultural. Os direitos indígenas estão no Capítulo VIII do Título VIII (arts. 231 e 232).\n\nOs direitos das comunidades remanescentes de quilombos, por sua vez, têm sede no Ato das Disposições Constitucionais Transitórias (ADCT), especialmente o art. 68, além do amparo cultural dos arts. 215 e 216. São direitos de comunidades tradicionais, ligados à identidade étnico-cultural e ao território.",
       "secoes": [

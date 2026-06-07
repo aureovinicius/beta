@@ -2,8 +2,7 @@
   "slug": "teoria-sociologica",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "classicos-marx-durkheim-e-weber",
       "titulo": "Clássicos: Marx, Durkheim e Weber",
       "intro": "Karl Marx (1818-1883), Émile Durkheim (1858-1917) e Max Weber (1864-1920) são considerados os \"pais fundadores\" da sociologia. Cada um respondeu, a partir de pressupostos teóricos e metodológicos distintos, à mesma pergunta de fundo: como compreender a sociedade moderna que emergia da Revolução Industrial, da urbanização e das revoluções políticas burguesas.\n\nEntender as diferenças entre os três é a chave de leitura de toda a teoria sociológica posterior. Marx parte do conflito e da economia; Durkheim, da coesão e dos fatos sociais; Weber, da ação social dotada de sentido e da compreensão (Verstehen). Não são apenas autores: são paradigmas que organizam o pensamento social até hoje.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha clássica é trocar os autores: atribuir a Durkheim a 'compreensão do sentido' (é Weber) ou a Weber o 'fato social como coisa' (é Durkheim). Memorize os tripés: fato social = exterior/coercitivo/geral (Durkheim); ação = racional-fins/racional-valores/afetiva/tradicional e dominação = tradicional/carismática/racional-legal (Weber). Cuidado também com 'falsa consciência' e 'mais-valia', que são exclusivos de Marx."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "contemporaneos-bourdieu-bauman-foucault-e-butler",
       "titulo": "Contemporâneos: Bourdieu, Bauman, Foucault e Butler",
       "intro": "A teoria sociológica contemporânea reformula as questões clássicas diante de novos fenômenos: a reprodução das desigualdades pela cultura, a fragmentação das identidades, as formas difusas de poder e a construção social do gênero. Pierre Bourdieu, Zygmunt Bauman, Michel Foucault e Judith Butler são autores frequentes em provas por oferecerem conceitos operatórios ainda muito usados em políticas públicas.\n\nEsses autores rompem com dicotomias rígidas (indivíduo x sociedade, estrutura x ação) e mostram como o poder e a desigualdade operam de modo capilar, simbólico e cotidiano — não apenas pelo Estado ou pela economia.",
       "secoes": [

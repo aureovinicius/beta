@@ -2,8 +2,7 @@
   "slug": "transparencia-dados",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "lgpd-lei-13-709-2018",
       "titulo": "LGPD (Lei 13.709/2018)",
       "intro": "A Lei Geral de Proteção de Dados Pessoais (LGPD — Lei 13.709/2018) é a norma que disciplina o tratamento de dados pessoais por pessoas naturais e por pessoas jurídicas de direito público e privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural (art. 1º). Inspirada no Regulamento Geral europeu (GDPR), entrou em vigor em 2020 e tem como fundamento, entre outros, a autodeterminação informativa.\n\nA lei aplica-se a qualquer operação de tratamento (coleta, uso, acesso, armazenamento, compartilhamento, eliminação, etc.) realizada por pessoa natural ou jurídica, em meio físico ou digital, desde que a operação ocorra no Brasil, tenha por objetivo oferecer bens/serviços no território nacional ou trate dados de pessoas localizadas no país (art. 3º). Há exclusões importantes (art. 4º): tratamento por pessoa natural para fins exclusivamente particulares, jornalístico/artístico/acadêmico, e para fins de segurança pública, defesa nacional e investigação penal (regidos por lei específica).\n\nPara o concurso de órgão público de assistência social, o tratamento de dados pelo Poder Público (arts. 23 a 32) é tema-chave: o ente público trata dados para o cumprimento de finalidade pública, no exercício de competências legais ou de atribuições do serviço público, informando as hipóteses de tratamento e mantendo a finalidade. A autoridade competente é a ANPD (Autoridade Nacional de Proteção de Dados).",
       "secoes": [
@@ -42,8 +41,7 @@
       "dica_prova": "A pegadinha clássica é tratar o consentimento como base única ou indispensável — é só uma das dez hipóteses do art. 7º, e o Poder Público dispensa consentimento para políticas públicas e obrigações legais. Cuidado também com o rol de dados sensíveis (memorize: origem racial/étnica, convicção religiosa, opinião política, filiação sindical, saúde, vida sexual, genético, biométrico) — dado financeiro NÃO é sensível. A multa simples é de até 2% do faturamento, limitada a R$ 50 milhões por infração (não por ano). Lembre que a LGPD não se aplica a tratamento para fins exclusivamente jornalísticos, artísticos, acadêmicos, de segurança pública e defesa nacional (art. 4º)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "lai-lei-12-527-2011-e-regulamentacao-no-df",
       "titulo": "LAI (Lei 12.527/2011) e regulamentação no DF",
       "intro": "A Lei de Acesso à Informação (LAI — Lei 12.527/2011) regulamenta o direito fundamental de acesso à informação previsto na Constituição (art. 5º, XXXIII; art. 37, §3º, II; art. 216, §2º). Aplica-se à União, Estados, Distrito Federal e Municípios, abrangendo os três Poderes, os Tribunais de Contas, o Ministério Público, autarquias, fundações, empresas públicas, sociedades de economia mista e, parcialmente, entidades privadas sem fins lucrativos que recebam recursos públicos.\n\nSeu princípio reitor é que a publicidade é a regra e o sigilo é a exceção (art. 3º). A lei institui dois grandes mecanismos: a transparência ativa (divulgação espontânea de informações de interesse coletivo, independentemente de requerimento, especialmente em sítios oficiais na internet) e a transparência passiva (resposta a pedidos de acesso formulados por qualquer interessado, sem necessidade de justificar o motivo do pedido).\n\nNo Distrito Federal, a LAI é regulamentada e complementada pela Lei Distrital 4.990/2012, que disciplina o acesso à informação no âmbito do DF, estabelecendo prazos, procedimentos, autoridades de monitoramento e recursos próprios. Para o concurso da SEDES-DF, é fundamental conhecer tanto a estrutura geral da LAI federal quanto as especificidades distritais.",
       "secoes": [

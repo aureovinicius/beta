@@ -1,76 +1,74 @@
 {
- "slug": "fund-pedagogia-social",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Concepções de educação e educação popular",
-   "intro": "As concepções de educação organizam, no plano teórico, o que se entende por ensinar, aprender, formar e transformar. A tradição costuma distinguir tendências pedagógicas liberais (tradicional, renovada/escolanovista, tecnicista), que tendem a reproduzir a ordem social vigente, das tendências progressistas (libertadora, libertária e crítico-social dos conteúdos), que assumem a educação como prática de leitura crítica e transformação da realidade. Para o pedagogo que atua na assistência social, interessam especialmente as abordagens críticas e emancipatórias, porque o público atendido vive situações de desigualdade e vulnerabilidade.\n\nA educação popular é a expressão mais influente dessa vertente emancipatória no Brasil, tendo em Paulo Freire seu principal formulador. Ela parte da realidade concreta dos educandos, reconhece seus saberes prévios e propõe um processo dialógico em que educador e educando aprendem juntos. Não se trata de transferir conhecimento de quem sabe para quem não sabe, mas de problematizar o mundo para nele intervir.",
-   "secoes": [
+  "slug": "fund-pedagogia-social",
+  "itens": [
     {
-     "h": "Tendências pedagógicas: liberais x progressistas",
-     "p": "As tendências liberais (na classificação de Libâneo) supõem que a escola prepara o indivíduo para papéis sociais conforme suas aptidões, sem questionar as desigualdades. A pedagogia tradicional centra-se no professor e nos conteúdos prontos; a escola nova (renovada) desloca o foco para o aluno e a aprendizagem ativa; a tecnicista enfatiza eficiência, objetivos operacionais e técnicas.\n\nAs tendências progressistas partem de uma análise crítica das realidades sociais. A pedagogia libertadora (Freire) e a libertária priorizam a autogestão e a conscientização; a crítico-social dos conteúdos (Saviani, Libâneo) defende que dominar os conteúdos historicamente acumulados é instrumento de emancipação das camadas populares. Essa distinção é recorrente em prova."
+      "sid": "concepcoes-de-educacao-e-educacao-popular",
+      "titulo": "Concepções de educação e educação popular",
+      "intro": "As concepções de educação organizam, no plano teórico, o que se entende por ensinar, aprender, formar e transformar. A tradição costuma distinguir tendências pedagógicas liberais (tradicional, renovada/escolanovista, tecnicista), que tendem a reproduzir a ordem social vigente, das tendências progressistas (libertadora, libertária e crítico-social dos conteúdos), que assumem a educação como prática de leitura crítica e transformação da realidade. Para o pedagogo que atua na assistência social, interessam especialmente as abordagens críticas e emancipatórias, porque o público atendido vive situações de desigualdade e vulnerabilidade.\n\nA educação popular é a expressão mais influente dessa vertente emancipatória no Brasil, tendo em Paulo Freire seu principal formulador. Ela parte da realidade concreta dos educandos, reconhece seus saberes prévios e propõe um processo dialógico em que educador e educando aprendem juntos. Não se trata de transferir conhecimento de quem sabe para quem não sabe, mas de problematizar o mundo para nele intervir.",
+      "secoes": [
+        {
+          "h": "Tendências pedagógicas: liberais x progressistas",
+          "p": "As tendências liberais (na classificação de Libâneo) supõem que a escola prepara o indivíduo para papéis sociais conforme suas aptidões, sem questionar as desigualdades. A pedagogia tradicional centra-se no professor e nos conteúdos prontos; a escola nova (renovada) desloca o foco para o aluno e a aprendizagem ativa; a tecnicista enfatiza eficiência, objetivos operacionais e técnicas.\n\nAs tendências progressistas partem de uma análise crítica das realidades sociais. A pedagogia libertadora (Freire) e a libertária priorizam a autogestão e a conscientização; a crítico-social dos conteúdos (Saviani, Libâneo) defende que dominar os conteúdos historicamente acumulados é instrumento de emancipação das camadas populares. Essa distinção é recorrente em prova."
+        },
+        {
+          "h": "Paulo Freire e a educação como prática da liberdade",
+          "p": "Freire critica a educação bancária, em que o educador deposita conteúdos em educandos passivos, e propõe a educação problematizadora, dialógica e conscientizadora. Conceitos-chave: dialogicidade, leitura de mundo que precede a leitura da palavra, temas geradores extraídos do universo dos educandos, e conscientização (passagem da consciência ingênua à consciência crítica).\n\nObras de referência incluem Pedagogia do Oprimido e Pedagogia da Autonomia. Nesta última, Freire enuncia saberes necessários à prática educativa, como ensinar exige respeito aos saberes do educando, criticidade, ética, bom senso e a convicção de que a mudança é possível. Em 2012, Freire foi declarado por lei Patrono da Educação Brasileira (Lei 12.612/2012)."
+        },
+        {
+          "h": "Educação popular: princípios e métodos",
+          "p": "A educação popular caracteriza-se por: partir da realidade e dos interesses das classes populares; valorizar o saber popular em diálogo com o saber sistematizado; ter caráter coletivo e participativo; e visar à transformação social e ao fortalecimento da cidadania. Metodologicamente, articula-se com a investigação temática, círculos de cultura, problematização e ação-reflexão-ação.\n\nNo campo das políticas públicas, a educação popular ganhou institucionalidade com a Política Nacional de Educação Popular em Saúde (PNEPS-SUS, 2013) e inspira práticas socioeducativas no SUAS, na economia solidária e nos movimentos sociais. Não se confunde com mero ensino para pessoas pobres: é uma concepção político-pedagógica."
+        },
+        {
+          "h": "Abordagens críticas e implicações para o pedagogo social",
+          "p": "Para além de Freire, dialogam com o campo crítico autores como Saviani (pedagogia histórico-crítica), Vigotski (mediação e desenvolvimento na interação social) e teóricos da reprodução (Bourdieu, Althusser), que ajudam a compreender como a escola pode reproduzir desigualdades.\n\nNo trabalho socioeducativo, essas abordagens orientam o pedagogo a reconhecer o território e a cultura dos usuários, a evitar posturas assistencialistas e tutelares, e a planejar ações que ampliem autonomia, protagonismo e consciência de direitos, em sintonia com os objetivos da Proteção Social Básica."
+        }
+      ],
+      "exemplo": "(estilo Cebraspe) Julgue o item: \"Segundo a concepção freireana, a educação bancária é aquela em que o educador, reconhecendo os saberes prévios do educando, conduz um processo dialógico de problematização da realidade.\" Comentário: ERRADO. A educação bancária é justamente o oposto: depósito de conteúdos em educandos passivos. O processo dialógico e problematizador caracteriza a educação libertadora. Trocar os conceitos é a pegadinha clássica.",
+      "pontos_chave": [
+        "Libâneo classifica as tendências em liberais (tradicional, renovada, tecnicista) e progressistas (libertadora, libertária, crítico-social dos conteúdos).",
+        "Educação bancária = depósito passivo; educação problematizadora/libertadora = diálogo e conscientização.",
+        "Freire: dialogicidade, temas geradores, leitura de mundo, conscientização (consciência ingênua para crítica).",
+        "Educação popular parte da realidade das classes populares e valoriza o saber popular em diálogo com o saber sistematizado.",
+        "Freire é Patrono da Educação Brasileira (Lei 12.612/2012); obras-chave: Pedagogia do Oprimido e Pedagogia da Autonomia.",
+        "A pedagogia crítico-social dos conteúdos defende o domínio dos conteúdos como instrumento de emancipação.",
+        "No SUAS, abordagens críticas combatem o assistencialismo e promovem autonomia e protagonismo."
+      ],
+      "dica_prova": "A banca costuma trocar atributos entre as tendências (ex.: atribuir centralidade no aluno à pedagogia tradicional) ou inverter os conceitos de bancária e problematizadora. Memorize que educação popular NÃO é sinônimo de educação para pobres, e sim uma concepção emancipatória e dialógica. Atenção também à autoria: Freire (libertadora), Saviani (histórico-crítica/crítico-social dos conteúdos)."
     },
     {
-     "h": "Paulo Freire e a educação como prática da liberdade",
-     "p": "Freire critica a educação bancária, em que o educador deposita conteúdos em educandos passivos, e propõe a educação problematizadora, dialógica e conscientizadora. Conceitos-chave: dialogicidade, leitura de mundo que precede a leitura da palavra, temas geradores extraídos do universo dos educandos, e conscientização (passagem da consciência ingênua à consciência crítica).\n\nObras de referência incluem Pedagogia do Oprimido e Pedagogia da Autonomia. Nesta última, Freire enuncia saberes necessários à prática educativa, como ensinar exige respeito aos saberes do educando, criticidade, ética, bom senso e a convicção de que a mudança é possível. Em 2012, Freire foi declarado por lei Patrono da Educação Brasileira (Lei 12.612/2012)."
-    },
-    {
-     "h": "Educação popular: princípios e métodos",
-     "p": "A educação popular caracteriza-se por: partir da realidade e dos interesses das classes populares; valorizar o saber popular em diálogo com o saber sistematizado; ter caráter coletivo e participativo; e visar à transformação social e ao fortalecimento da cidadania. Metodologicamente, articula-se com a investigação temática, círculos de cultura, problematização e ação-reflexão-ação.\n\nNo campo das políticas públicas, a educação popular ganhou institucionalidade com a Política Nacional de Educação Popular em Saúde (PNEPS-SUS, 2013) e inspira práticas socioeducativas no SUAS, na economia solidária e nos movimentos sociais. Não se confunde com mero ensino para pessoas pobres: é uma concepção político-pedagógica."
-    },
-    {
-     "h": "Abordagens críticas e implicações para o pedagogo social",
-     "p": "Para além de Freire, dialogam com o campo crítico autores como Saviani (pedagogia histórico-crítica), Vigotski (mediação e desenvolvimento na interação social) e teóricos da reprodução (Bourdieu, Althusser), que ajudam a compreender como a escola pode reproduzir desigualdades.\n\nNo trabalho socioeducativo, essas abordagens orientam o pedagogo a reconhecer o território e a cultura dos usuários, a evitar posturas assistencialistas e tutelares, e a planejar ações que ampliem autonomia, protagonismo e consciência de direitos, em sintonia com os objetivos da Proteção Social Básica."
+      "sid": "educacao-formal-nao-formal-e-pedagogo-nao-escolar",
+      "titulo": "Educação formal, não formal e pedagogo não escolar",
+      "intro": "Educação não se restringe à escola. A literatura distingue tres modalidades complementares: educação formal, não formal e informal. Compreender as fronteiras entre elas é essencial para o pedagogo que atua fora do ambiente escolar, como nos equipamentos da assistência social, em ONGs, hospitais, empresas, sistemas socioeducativos e movimentos sociais.\n\nMaria da Glória Gohn é referência central nesse debate no Brasil. Ela enfatiza que a educação não formal é um campo intencional e organizado de aprendizagem, voltado à formação para a cidadania, ainda que não siga a estrutura seriada e certificadora da educação formal.",
+      "secoes": [
+        {
+          "h": "Educação formal, não formal e informal",
+          "p": "Educação formal: institucionalizada, intencional, sequencial, com currículo, séries, avaliação e certificação reconhecida (educação básica e superior). Ocorre na escola e segue a LDB.\n\nEducação não formal: também é intencional e organizada, mas flexível, sem a rigidez seriada nem a obrigatoriedade de certificação. Acontece em espaços coletivos do cotidiano (associações, ONGs, projetos sociais, CRAS, museus, sindicatos). Tem como foco a aprendizagem política da cidadania, a sociabilidade e o desenvolvimento de competências para a vida em comunidade.\n\nEducação informal: não intencional e difusa, resulta da socialização espontânea na família, no grupo de amigos, na mídia e na cultura. Não há objetivos pedagógicos estruturados."
+        },
+        {
+          "h": "A contribuição de Maria da Glória Gohn",
+          "p": "Gohn distingue os campos pelos espaços e finalidades: a educação formal tem o professor como agente e o conteúdo escolar como meta; a não formal tem como agente o educador social (ou outros mediadores) e como finalidade central a formação do cidadão consciente de seus direitos. Os resultados da educação não formal nem sempre são imediatos nem mensuráveis por notas, mas produzem aprendizagens significativas para a participação social.\n\nEla destaca campos da educação não formal: aprendizagem política dos direitos; capacitação para o trabalho; aprendizagem de práticas comunitárias; e aprendizagem de conteúdos da escola formal em ambientes diferenciados (reforço, projetos)."
+        },
+        {
+          "h": "O pedagogo em espaços não escolares",
+          "p": "O pedagogo não escolar atua em contextos como: assistência social (CRAS, CREAS, acolhimentos, SCFV); pedagogia hospitalar (classe hospitalar, garantindo o direito à educação de crianças internadas); pedagogia empresarial (treinamento, desenvolvimento, educação corporativa); sistema socioeducativo e prisional; ONGs e movimentos sociais; espaços culturais e ação educativa em museus.\n\nA própria formação do pedagogo prevê isso: a Resolução CNE/CP 1/2006 (Diretrizes Curriculares Nacionais do curso de Pedagogia) habilita à docência e à atuação em espaços escolares e não escolares, incluindo a gestão de processos educativos e a produção e difusão do conhecimento em diferentes áreas."
+        },
+        {
+          "h": "Pedagogo social no campo socioassistencial",
+          "p": "No SUAS, o pedagogo desenvolve ações socioeducativas voltadas ao fortalecimento de vínculos, à convivência, ao protagonismo e ao acesso a direitos. Articula educação não formal com a lógica da proteção social, planejando oficinas, grupos e atividades de promoção da cidadania junto a famílias e indivíduos em situação de vulnerabilidade.\n\nAqui o pedagogo dialoga com o educador social, profissional que conduz a ação educativa no território. A pedagogia social, como campo teórico-prático, fundamenta essa atuação, articulando educação e cuidado fora dos muros da escola."
+        }
+      ],
+      "exemplo": "(estilo Cebraspe) Julgue o item: \"A educação não formal, por ocorrer fora da escola, caracteriza-se pela ausência de intencionalidade e de organização, assemelhando-se à educação informal.\" Comentário: ERRADO. A educação não formal É intencional e organizada; o que ela não tem é a rigidez seriada e a certificação obrigatória da educação formal. A ausência de intencionalidade caracteriza a educação informal. Confundir não formal com informal é a pegadinha mais cobrada.",
+      "pontos_chave": [
+        "Formal: institucionalizada, seriada, certificadora, regida pela LDB.",
+        "Não formal: intencional e organizada, porém flexível, sem certificação obrigatória; foco na cidadania.",
+        "Informal: espontânea, não intencional, difusa (família, mídia, convívio).",
+        "Maria da Glória Gohn é a principal referência nacional sobre educação não formal.",
+        "A Res. CNE/CP 1/2006 habilita o pedagogo para espaços escolares E não escolares.",
+        "Campos não escolares: pedagogia hospitalar, empresarial, social, socioeducativa, museus, ONGs.",
+        "No SUAS, o pedagogo realiza ações socioeducativas de fortalecimento de vínculos e protagonismo.",
+        "Educação não formal nem sempre tem resultados imediatos ou mensuráveis por nota."
+      ],
+      "dica_prova": "A troca entre não formal e informal é a pegadinha número um do tema. Fixe: NÃO formal = intencional sem certificação; INformal = espontânea/não intencional. Outra pegadinha: afirmar que o pedagogo só pode atuar na escola, ignorando que as DCN de Pedagogia (Res. CNE/CP 1/2006) preveem expressamente os espaços não escolares."
     }
-   ],
-   "exemplo": "(estilo Cebraspe) Julgue o item: \"Segundo a concepção freireana, a educação bancária é aquela em que o educador, reconhecendo os saberes prévios do educando, conduz um processo dialógico de problematização da realidade.\" Comentário: ERRADO. A educação bancária é justamente o oposto: depósito de conteúdos em educandos passivos. O processo dialógico e problematizador caracteriza a educação libertadora. Trocar os conceitos é a pegadinha clássica.",
-   "pontos_chave": [
-    "Libâneo classifica as tendências em liberais (tradicional, renovada, tecnicista) e progressistas (libertadora, libertária, crítico-social dos conteúdos).",
-    "Educação bancária = depósito passivo; educação problematizadora/libertadora = diálogo e conscientização.",
-    "Freire: dialogicidade, temas geradores, leitura de mundo, conscientização (consciência ingênua para crítica).",
-    "Educação popular parte da realidade das classes populares e valoriza o saber popular em diálogo com o saber sistematizado.",
-    "Freire é Patrono da Educação Brasileira (Lei 12.612/2012); obras-chave: Pedagogia do Oprimido e Pedagogia da Autonomia.",
-    "A pedagogia crítico-social dos conteúdos defende o domínio dos conteúdos como instrumento de emancipação.",
-    "No SUAS, abordagens críticas combatem o assistencialismo e promovem autonomia e protagonismo."
-   ],
-   "dica_prova": "A banca costuma trocar atributos entre as tendências (ex.: atribuir centralidade no aluno à pedagogia tradicional) ou inverter os conceitos de bancária e problematizadora. Memorize que educação popular NÃO é sinônimo de educação para pobres, e sim uma concepção emancipatória e dialógica. Atenção também à autoria: Freire (libertadora), Saviani (histórico-crítica/crítico-social dos conteúdos)."
-  },
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Educação formal, não formal e pedagogo não escolar",
-   "intro": "Educação não se restringe à escola. A literatura distingue tres modalidades complementares: educação formal, não formal e informal. Compreender as fronteiras entre elas é essencial para o pedagogo que atua fora do ambiente escolar, como nos equipamentos da assistência social, em ONGs, hospitais, empresas, sistemas socioeducativos e movimentos sociais.\n\nMaria da Glória Gohn é referência central nesse debate no Brasil. Ela enfatiza que a educação não formal é um campo intencional e organizado de aprendizagem, voltado à formação para a cidadania, ainda que não siga a estrutura seriada e certificadora da educação formal.",
-   "secoes": [
-    {
-     "h": "Educação formal, não formal e informal",
-     "p": "Educação formal: institucionalizada, intencional, sequencial, com currículo, séries, avaliação e certificação reconhecida (educação básica e superior). Ocorre na escola e segue a LDB.\n\nEducação não formal: também é intencional e organizada, mas flexível, sem a rigidez seriada nem a obrigatoriedade de certificação. Acontece em espaços coletivos do cotidiano (associações, ONGs, projetos sociais, CRAS, museus, sindicatos). Tem como foco a aprendizagem política da cidadania, a sociabilidade e o desenvolvimento de competências para a vida em comunidade.\n\nEducação informal: não intencional e difusa, resulta da socialização espontânea na família, no grupo de amigos, na mídia e na cultura. Não há objetivos pedagógicos estruturados."
-    },
-    {
-     "h": "A contribuição de Maria da Glória Gohn",
-     "p": "Gohn distingue os campos pelos espaços e finalidades: a educação formal tem o professor como agente e o conteúdo escolar como meta; a não formal tem como agente o educador social (ou outros mediadores) e como finalidade central a formação do cidadão consciente de seus direitos. Os resultados da educação não formal nem sempre são imediatos nem mensuráveis por notas, mas produzem aprendizagens significativas para a participação social.\n\nEla destaca campos da educação não formal: aprendizagem política dos direitos; capacitação para o trabalho; aprendizagem de práticas comunitárias; e aprendizagem de conteúdos da escola formal em ambientes diferenciados (reforço, projetos)."
-    },
-    {
-     "h": "O pedagogo em espaços não escolares",
-     "p": "O pedagogo não escolar atua em contextos como: assistência social (CRAS, CREAS, acolhimentos, SCFV); pedagogia hospitalar (classe hospitalar, garantindo o direito à educação de crianças internadas); pedagogia empresarial (treinamento, desenvolvimento, educação corporativa); sistema socioeducativo e prisional; ONGs e movimentos sociais; espaços culturais e ação educativa em museus.\n\nA própria formação do pedagogo prevê isso: a Resolução CNE/CP 1/2006 (Diretrizes Curriculares Nacionais do curso de Pedagogia) habilita à docência e à atuação em espaços escolares e não escolares, incluindo a gestão de processos educativos e a produção e difusão do conhecimento em diferentes áreas."
-    },
-    {
-     "h": "Pedagogo social no campo socioassistencial",
-     "p": "No SUAS, o pedagogo desenvolve ações socioeducativas voltadas ao fortalecimento de vínculos, à convivência, ao protagonismo e ao acesso a direitos. Articula educação não formal com a lógica da proteção social, planejando oficinas, grupos e atividades de promoção da cidadania junto a famílias e indivíduos em situação de vulnerabilidade.\n\nAqui o pedagogo dialoga com o educador social, profissional que conduz a ação educativa no território. A pedagogia social, como campo teórico-prático, fundamenta essa atuação, articulando educação e cuidado fora dos muros da escola."
-    }
-   ],
-   "exemplo": "(estilo Cebraspe) Julgue o item: \"A educação não formal, por ocorrer fora da escola, caracteriza-se pela ausência de intencionalidade e de organização, assemelhando-se à educação informal.\" Comentário: ERRADO. A educação não formal É intencional e organizada; o que ela não tem é a rigidez seriada e a certificação obrigatória da educação formal. A ausência de intencionalidade caracteriza a educação informal. Confundir não formal com informal é a pegadinha mais cobrada.",
-   "pontos_chave": [
-    "Formal: institucionalizada, seriada, certificadora, regida pela LDB.",
-    "Não formal: intencional e organizada, porém flexível, sem certificação obrigatória; foco na cidadania.",
-    "Informal: espontânea, não intencional, difusa (família, mídia, convívio).",
-    "Maria da Glória Gohn é a principal referência nacional sobre educação não formal.",
-    "A Res. CNE/CP 1/2006 habilita o pedagogo para espaços escolares E não escolares.",
-    "Campos não escolares: pedagogia hospitalar, empresarial, social, socioeducativa, museus, ONGs.",
-    "No SUAS, o pedagogo realiza ações socioeducativas de fortalecimento de vínculos e protagonismo.",
-    "Educação não formal nem sempre tem resultados imediatos ou mensuráveis por nota."
-   ],
-   "dica_prova": "A troca entre não formal e informal é a pegadinha número um do tema. Fixe: NÃO formal = intencional sem certificação; INformal = espontânea/não intencional. Outra pegadinha: afirmar que o pedagogo só pode atuar na escola, ignorando que as DCN de Pedagogia (Res. CNE/CP 1/2006) preveem expressamente os espaços não escolares."
-  }
- ]
+  ]
 }

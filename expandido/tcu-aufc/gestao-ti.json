@@ -2,8 +2,7 @@
   "slug": "gestao-ti",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "itil-v4-conceitos-estrutura-e-objetivos",
       "titulo": "ITIL v4: conceitos, estrutura e objetivos",
       "intro": "A ITIL (Information Technology Infrastructure Library) é o conjunto de boas práticas mais difundido no mundo para o Gerenciamento de Serviços de TI (GSTI/ITSM). Sua versão 4, lançada em 2019 pela AXELOS (atualmente sob a PeopleCert), representa uma reformulação profunda em relação à ITIL v3/2011: abandonou a noção de \"ciclo de vida do serviço\" em cinco fases (estratégia, desenho, transição, operação e melhoria contínua) e adotou um modelo holístico e flexível centrado na cocriação de valor. A ITIL v4 é fortemente alinhada a abordagens modernas como Agile, Lean, DevOps e governança digital.\n\nO conceito central da ITIL v4 é a definição de serviço como um meio de habilitar a cocriação de valor ao facilitar resultados (outcomes) que os clientes desejam alcançar, sem que estes assumam a gestão de custos e riscos específicos. Note a mudança de mentalidade: o valor não é entregue de forma unilateral pelo provedor, mas cocriado na relação entre provedor e consumidor. O elemento estrutural que organiza tudo isso é o Sistema de Valor de Serviço (SVS).\n\nA ITIL v4 também distingue utilidade (fitness for purpose — o que o serviço faz, sua adequação ao propósito) de garantia (fitness for use — como o serviço é entregue: disponibilidade, capacidade, segurança e continuidade). Valor só existe quando há utilidade E garantia adequadas simultaneamente.",
       "secoes": [
@@ -46,8 +45,7 @@
       "dica_prova": "Cebraspe gosta de cobrar a nomenclatura exata: 'práticas' (não 'processos'), 'cadeia de valor de serviço' e seus 6 nomes, as 4 dimensões e os 7 princípios. Memorize os 7 princípios e as 6 atividades da cadeia. Pegadinhas frequentes: afirmar que ITIL v4 mantém as 5 fases do ciclo de vida (falso, isso é v3); dizer que a cadeia de valor é linear/fixa (falso); confundir utilidade com garantia; e trocar 'change management' por seu novo nome 'change enablement'. Lembre que 'otimizar e automatizar' exige otimizar PRIMEIRO."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "cobit-2019-conceitos-estrutura-e-objetivos",
       "titulo": "COBIT 2019: conceitos, estrutura e objetivos",
       "intro": "O COBIT (Control Objectives for Information and Related Technologies) é o principal framework de governança e gestão de TI (governança da informação e tecnologia da empresa — EGIT, Enterprise Governance of IT), mantido pela ISACA. A versão COBIT 2019 evoluiu a partir do COBIT 5 (2012), tornando-se mais flexível, modular e customizável, com forte ênfase na distinção entre governança e gestão e na adequação da governança ao contexto específico de cada organização (tailoring via fatores de design).\n\nO conceito mais importante e mais cobrado é a separação entre Governança e Gestão. A Governança garante que as necessidades, condições e opções das partes interessadas sejam avaliadas para determinar objetivos corporativos equilibrados; estabelece direção por priorização e tomada de decisão; e monitora o desempenho e a conformidade — sintetizada no modelo EDM (Evaluate, Direct, Monitor / Avaliar, Dirigir, Monitorar). A Gestão planeja, constrói, executa e monitora atividades, alinhada à direção definida pela governança, para atingir os objetivos corporativos (modelo PBRM — Plan, Build, Run, Monitor). Tipicamente, a governança é responsabilidade do conselho de administração (board) sob a liderança do presidente; a gestão é responsabilidade da diretoria executiva sob a liderança do CEO.\n\nO COBIT 2019 também sustenta-se sobre a cascata de objetivos (goals cascade), que traduz necessidades das partes interessadas em metas corporativas, metas de alinhamento (antigas metas de TI) e, então, em objetivos de governança e gestão.",
       "secoes": [
@@ -86,8 +84,7 @@
       "dica_prova": "Decore o quantitativo 40 = 5+14+11+6+4 e o significado das siglas EDM/APO/BAI/DSS/MEA — caem com frequência. Pegadinhas Cebraspe: dizer que o COBIT 2019 tem 37 processos (eram 37 no COBIT 5; viraram 40 objetivos no 2019); afirmar que EDM é domínio de gestão (é de governança); inverter as letras das siglas; e confundir os 6 princípios do sistema com os 3 do framework. Lembre que o COBIT trata de governança de TODA a empresa (end-to-end), não só do departamento de TI, e que governança e gestão são responsabilidades distintas (board/CEO)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "scrum-xp-e-kanban",
       "titulo": "Scrum, XP e Kanban",
       "intro": "As metodologias ágeis surgiram como resposta às limitações dos modelos tradicionais (cascata) e foram consolidadas no Manifesto Ágil (2001), que estabelece quatro valores e doze princípios. Os quatro valores priorizam: indivíduos e interações mais que processos e ferramentas; software em funcionamento mais que documentação abrangente; colaboração com o cliente mais que negociação de contratos; e responder a mudanças mais que seguir um plano. Atenção: o Manifesto reconhece valor nos itens à direita, mas valoriza MAIS os da esquerda — pegadinha clássica é afirmar que documentação não tem valor algum.\n\nScrum, Extreme Programming (XP) e Kanban são os três frameworks/métodos ágeis mais cobrados em concursos. O Scrum é um framework leve para gerenciamento de produtos complexos, baseado em empirismo (transparência, inspeção e adaptação) e em ciclos chamados Sprints. O XP foca em práticas de engenharia de software de excelência. O Kanban é um método de gestão de fluxo visual, originado do Sistema Toyota de Produção (Lean), aplicado para otimizar a entrega contínua.",
       "secoes": [
@@ -126,8 +123,7 @@
       "dica_prova": "Cebraspe explora muito a distinção entre os eventos do Scrum (Review = produto; Retrospective = processo) e os time-boxes (Daily = 15 min). Memorize os 3 papéis, 5 eventos e 3 artefatos e seus compromissos do Scrum Guide 2020 (atenção: não fale mais em 'Development Team' como subtime, nem em '3 a 9 pessoas' — o guia atual fala em time de até 10 pessoas). No Kanban, a pegadinha sempre gira em torno de o WIP LIMITAR (não maximizar) o trabalho. Cuidado para não atribuir ao Kanban os papéis ou Sprints do Scrum. Lembre que o XP foca em engenharia e o Scrum em gestão."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "tdd-bdd-e-ddd",
       "titulo": "TDD, BDD e DDD",
       "intro": "TDD, BDD e DDD são três siglas que aparecem juntas em provas, mas tratam de coisas diferentes: TDD e BDD são técnicas/práticas de desenvolvimento orientadas por testes/comportamento, enquanto DDD é uma abordagem de modelagem e design de software centrada no domínio de negócio. As três são frequentemente associadas a contextos ágeis e a software de qualidade, mas têm focos, granularidades e objetivos distintos.\n\nUm ponto que a banca explora é o ciclo do TDD (escreve-se o teste ANTES do código), a linguagem ubíqua e os blocos estruturais do DDD, e a sintaxe Given-When-Then do BDD. Confundir as três siglas, ou inverter a ordem das etapas do TDD, são erros recorrentes.",
       "secoes": [

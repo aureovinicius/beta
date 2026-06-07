@@ -2,8 +2,7 @@
   "slug": "lingua-inglesa",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "estrategias-de-leitura-skimming-e-scanning",
       "titulo": "Estratégias de leitura (skimming e scanning)",
       "intro": "Em provas de Língua Inglesa para concursos de alto nível, como o de Auditor Federal de Controle Externo (AUFC-TI) do TCU, banca Cebraspe, o objetivo não é traduzir o texto palavra por palavra, mas compreendê-lo de forma estratégica e eficiente. O tempo é escasso e os textos costumam ser técnicos (frequentemente sobre governança de TI, segurança da informação, auditoria e tecnologia), o que torna o domínio de técnicas de leitura (reading strategies) decisivo para o desempenho.\n\nAs duas técnicas centrais são o skimming (leitura global, para captar a ideia geral, o gist) e o scanning (leitura localizada, para encontrar informação específica). Elas não são excludentes: o candidato eficiente combina ambas, geralmente fazendo um skimming inicial para entender o panorama e, depois, um scanning dirigido pelas perguntas. Saber quando aplicar cada uma evita o erro clássico de ler tudo linearmente e perder tempo.",
       "secoes": [
@@ -38,8 +37,7 @@
       "dica_prova": "A Cebraspe quase nunca cobra tradução literal; cobra compreensão global e localização de informação. A pegadinha mais comum é a paráfrase enganosa: o item reescreve o texto com um termo aparentemente equivalente, mas que muda o sentido (intensidade, polaridade ou escopo). Desconfie de itens com palavras absolutas (always, never, only, must, all) e de extrapolações que vão além do que o texto afirma. Atenção redobrada aos conectores concessivos (although, despite, even though) e adversativos (however, but), que frequentemente invertem a expectativa e são a chave do gabarito."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "ideias-explicitas-e-implicitas",
       "titulo": "Ideias explícitas e implícitas",
       "intro": "Compreender um texto em inglês exige distinguir o que está dito de forma explícita (explicit / stated information) do que está apenas sugerido e precisa ser deduzido (implicit information / inference). A banca Cebraspe explora intensamente essa diferença: parte dos itens cobra dados literais do texto, e outra parte exige que o candidato faça inferências bem fundamentadas, sem extrapolar.\n\nIdeias explícitas estão na superfície do texto e podem ser localizadas por scanning. Ideias implícitas dependem da relação entre informações, do conhecimento de mundo controlado pelo próprio texto e de pistas linguísticas (escolha de palavras, conectores, modalização). O ponto crítico é que uma inferência válida deve ser logicamente sustentada pelo texto — não é 'achismo' nem opinião do leitor.",
       "secoes": [
@@ -73,8 +71,7 @@
       "dica_prova": "A pegadinha clássica da Cebraspe é transformar uma possibilidade ('could', 'may', 'some critics argue') em certeza/generalização ('is', 'all', 'always', 'fully'). Sempre confira a força modal e a polaridade. Outra armadilha é o item que apresenta uma inferência plausível no mundo real, mas que o texto não autoriza — em compreensão de texto, só vale o que o texto sustenta. Em itens de referência, localize o antecedente exato do pronome antes de julgar; a banca troca o referente correto por outro termo próximo no parágrafo."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "gramatica-aplicada-a-compreensao",
       "titulo": "Gramática aplicada à compreensão",
       "intro": "No edital do TCU/Cebraspe, a gramática inglesa não é cobrada como fim em si, mas como meio para a compreensão do conteúdo semântico do texto. Ou seja: o candidato precisa reconhecer estruturas gramaticais para entender corretamente o que está sendo dito — quem fez o quê, quando, com que grau de certeza e em que relação lógica com o restante do texto.\n\nOs pontos gramaticais mais decisivos para a compreensão são os tempos e aspectos verbais, a voz passiva, os verbos modais, os conectivos (linking words) e os mecanismos de referência. Dominá-los permite, por exemplo, perceber se um fato é passado, presente ou hipotético, se a ação foi sofrida ou praticada pelo sujeito, e se uma afirmação é uma certeza, uma recomendação ou uma mera possibilidade — distinções que a banca explora em itens certo/errado.",
       "secoes": [
@@ -108,8 +105,7 @@
       "dica_prova": "A Cebraspe adora trocar modais e conectores: substitui 'should' por 'must', 'may' por 'will', ou 'although' por 'because', e pede para julgar se o item mantém o sentido — quase sempre não mantém. Cuidado especial com a voz passiva (não inverta agente/paciente) e com condicionais invertidos ('Had he known...', 'Were the system...', 'Should you need...'), que indicam hipótese e frequentemente significam o oposto do fato real. Sempre identifique o antecedente exato de pronomes antes de aceitar uma paráfrase como correta."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "formas-contemporaneas-do-ingles",
       "titulo": "Formas contemporâneas do inglês",
       "intro": "Os textos de provas atuais refletem o inglês contemporâneo (contemporary English): a língua como efetivamente usada hoje em contextos profissionais, acadêmicos e tecnológicos, com vocabulário atualizado, expressões idiomáticas correntes e registros variados. Para o cargo de AUFC-TI do TCU, isso significa, sobretudo, familiaridade com o léxico técnico de tecnologia da informação, governança, segurança cibernética e dados, que predomina nos textos selecionados pela Cebraspe.\n\nDominar as formas contemporâneas envolve reconhecer registro (formal x informal), terminologia técnica atual (muitas vezes em siglas e acrônimos), collocations (combinações usuais de palavras) e expressões idiomáticas (idioms / phrasal verbs) frequentes em textos jornalísticos e corporativos. Não se trata de gírias, mas do inglês real e atualizado que circula em artigos, relatórios e publicações especializadas.",
       "secoes": [

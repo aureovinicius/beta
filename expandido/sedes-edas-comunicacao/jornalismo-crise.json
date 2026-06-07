@@ -1,85 +1,83 @@
 {
- "slug": "jornalismo-crise",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Assessoria de imprensa e produção de conteúdo",
-   "intro": "A assessoria de imprensa é a atividade que intermedeia a relação entre uma organização (ou fonte) e os veículos de comunicação, com o objetivo de obter espaço espontâneo (não pago) na mídia e construir uma imagem positiva e transparente. Diferencia-se da publicidade porque trabalha com conteúdo jornalístico noticiável, e não com espaço comprado. No Brasil, a assessoria de imprensa é tradicionalmente atribuída a jornalistas e integra, ao lado das Relações Públicas e da Publicidade, o tripé da comunicação organizacional.\n\nO assessor produz e distribui conteúdo (releases, press-kits), atende a demandas da imprensa, organiza entrevistas coletivas e prepara porta-vozes (media training). No setor público, soma-se a função de garantir o direito à informação e a transparência ativa, em linguagem clara e acessível ao cidadão.",
-   "secoes": [
+  "slug": "jornalismo-crise",
+  "itens": [
     {
-     "h": "Funções e produtos da assessoria de imprensa",
-     "p": "As principais atribuições são: relacionamento com jornalistas e veículos; produção e envio de releases; organização de entrevistas e coletivas; elaboração de press-kit; acompanhamento de pautas; clipping e análise de cobertura; e preparação de porta-vozes. A assessoria atua de forma proativa (sugerindo pautas e gerando conteúdo) e reativa (respondendo a demandas e questionamentos da imprensa, inclusive em situações de crise).\n\nO trabalho exige ética e credibilidade: fornecer informações corretas, acessíveis e ágeis é o que sustenta a relação de confiança com a imprensa."
+      "sid": "assessoria-de-imprensa-e-producao-de-conteudo",
+      "titulo": "Assessoria de imprensa e produção de conteúdo",
+      "intro": "A assessoria de imprensa é a atividade que intermedeia a relação entre uma organização (ou fonte) e os veículos de comunicação, com o objetivo de obter espaço espontâneo (não pago) na mídia e construir uma imagem positiva e transparente. Diferencia-se da publicidade porque trabalha com conteúdo jornalístico noticiável, e não com espaço comprado. No Brasil, a assessoria de imprensa é tradicionalmente atribuída a jornalistas e integra, ao lado das Relações Públicas e da Publicidade, o tripé da comunicação organizacional.\n\nO assessor produz e distribui conteúdo (releases, press-kits), atende a demandas da imprensa, organiza entrevistas coletivas e prepara porta-vozes (media training). No setor público, soma-se a função de garantir o direito à informação e a transparência ativa, em linguagem clara e acessível ao cidadão.",
+      "secoes": [
+        {
+          "h": "Funções e produtos da assessoria de imprensa",
+          "p": "As principais atribuições são: relacionamento com jornalistas e veículos; produção e envio de releases; organização de entrevistas e coletivas; elaboração de press-kit; acompanhamento de pautas; clipping e análise de cobertura; e preparação de porta-vozes. A assessoria atua de forma proativa (sugerindo pautas e gerando conteúdo) e reativa (respondendo a demandas e questionamentos da imprensa, inclusive em situações de crise).\n\nO trabalho exige ética e credibilidade: fornecer informações corretas, acessíveis e ágeis é o que sustenta a relação de confiança com a imprensa."
+        },
+        {
+          "h": "Release (press release)",
+          "p": "O release é o texto informativo enviado à imprensa com uma sugestão de pauta. Segue a estrutura jornalística: título objetivo, lead (que responde às perguntas básicas — o quê, quem, quando, onde, como e por quê) e desenvolvimento em pirâmide invertida (do mais importante ao menos importante). Deve ser claro, conciso, verídico, conter dados de contato do assessor e, idealmente, oferecer fontes e materiais complementares.\n\nVariações: release-convite, nota à imprensa, comunicado, sugestão de pauta e follow-up (acompanhamento após o envio). Um bom release facilita o trabalho do jornalista e amplia a chance de aproveitamento, mas a decisão de publicar é sempre do veículo (papel do gatekeeper)."
+        },
+        {
+          "h": "Press-kit e materiais de apoio",
+          "p": "O press-kit (ou kit de imprensa) é um conjunto de materiais entregue aos jornalistas para subsidiar a cobertura: releases, fotos em alta resolução, fichas técnicas, biografias, dados, infográficos, vídeos e contatos. É comum em lançamentos, eventos e coletivas. No ambiente digital, materializa-se em salas de imprensa online (press room), com arquivos para download e contato direto com a assessoria."
+        },
+        {
+          "h": "Entrevistas e relacionamento com a imprensa",
+          "p": "A assessoria intermedeia entrevistas (exclusivas, coletivas, por escrito) e organiza coletivas de imprensa quando há fato de grande interesse. Cabe-lhe pautar previamente o porta-voz, definir mensagens-chave, antecipar perguntas difíceis e cuidar da logística. O relacionamento deve ser pautado por transparência, agilidade e respeito ao trabalho jornalístico — sem oferecer vantagens indevidas, prática vedada pela ética profissional."
+        },
+        {
+          "h": "Media training",
+          "p": "Media training é o treinamento de porta-vozes (gestores, autoridades, especialistas) para se relacionarem com a imprensa. Trabalha postura, linguagem, controle do tempo, construção e repetição de mensagens-chave, técnica de \"ponte\" (bridging — conduzir de uma pergunta difícil de volta à mensagem principal), comportamento diante de perguntas hostis e cuidados em rádio/TV e ao vivo.\n\nO objetivo não é \"esconder\" informação, mas comunicar com clareza, segurança e coerência. É instrumento essencial de prevenção de crises: um porta-voz bem treinado evita declarações precipitadas que se tornem fato negativo."
+        }
+      ],
+      "exemplo": "Cenário SEDES: para anunciar a ampliação do número de vagas em abrigos no inverno, a assessoria produz um release com lead respondendo o quê (ampliação de 200 vagas), quem (SEDES-DF), quando (a partir de junho), onde (unidades de acolhimento do DF) e por quê (proteção a pessoas em situação de rua no frio); monta um press-kit com fotos e dados; e submete o subsecretário a media training para a coletiva, definindo a mensagem-chave \"ninguém ficará desabrigado\" e treinando a técnica de ponte para perguntas sobre déficit de vagas.",
+      "pontos_chave": [
+        "Assessoria de imprensa busca espaço espontâneo (não pago), com conteúdo noticiável.",
+        "Release: título + lead (o quê, quem, quando, onde, como, por quê) + pirâmide invertida.",
+        "A decisão de publicar é sempre do veículo (gatekeeper); o release apenas sugere a pauta.",
+        "Press-kit: conjunto de materiais de apoio (releases, fotos, fichas, dados) para jornalistas.",
+        "Media training prepara porta-vozes: mensagens-chave, postura e técnica de ponte (bridging).",
+        "Atuação proativa (gera pauta) e reativa (responde demandas e crises).",
+        "Ética: informação correta, ágil e transparente; vedado oferecer vantagens à imprensa.",
+        "No setor público: garante direito à informação e usa linguagem cidadã."
+      ],
+      "dica_prova": "Não confunda assessoria de imprensa (mídia espontânea, conteúdo jornalístico) com publicidade (espaço pago). Lembre que o release apenas SUGERE a pauta; quem decide publicar é o veículo. Pegadinha comum: dizer que o media training serve para ocultar informações — na verdade, visa comunicação clara e segura. Cobra-se também a estrutura do release (lead e pirâmide invertida)."
     },
     {
-     "h": "Release (press release)",
-     "p": "O release é o texto informativo enviado à imprensa com uma sugestão de pauta. Segue a estrutura jornalística: título objetivo, lead (que responde às perguntas básicas — o quê, quem, quando, onde, como e por quê) e desenvolvimento em pirâmide invertida (do mais importante ao menos importante). Deve ser claro, conciso, verídico, conter dados de contato do assessor e, idealmente, oferecer fontes e materiais complementares.\n\nVariações: release-convite, nota à imprensa, comunicado, sugestão de pauta e follow-up (acompanhamento após o envio). Um bom release facilita o trabalho do jornalista e amplia a chance de aproveitamento, mas a decisão de publicar é sempre do veículo (papel do gatekeeper)."
-    },
-    {
-     "h": "Press-kit e materiais de apoio",
-     "p": "O press-kit (ou kit de imprensa) é um conjunto de materiais entregue aos jornalistas para subsidiar a cobertura: releases, fotos em alta resolução, fichas técnicas, biografias, dados, infográficos, vídeos e contatos. É comum em lançamentos, eventos e coletivas. No ambiente digital, materializa-se em salas de imprensa online (press room), com arquivos para download e contato direto com a assessoria."
-    },
-    {
-     "h": "Entrevistas e relacionamento com a imprensa",
-     "p": "A assessoria intermedeia entrevistas (exclusivas, coletivas, por escrito) e organiza coletivas de imprensa quando há fato de grande interesse. Cabe-lhe pautar previamente o porta-voz, definir mensagens-chave, antecipar perguntas difíceis e cuidar da logística. O relacionamento deve ser pautado por transparência, agilidade e respeito ao trabalho jornalístico — sem oferecer vantagens indevidas, prática vedada pela ética profissional."
-    },
-    {
-     "h": "Media training",
-     "p": "Media training é o treinamento de porta-vozes (gestores, autoridades, especialistas) para se relacionarem com a imprensa. Trabalha postura, linguagem, controle do tempo, construção e repetição de mensagens-chave, técnica de \"ponte\" (bridging — conduzir de uma pergunta difícil de volta à mensagem principal), comportamento diante de perguntas hostis e cuidados em rádio/TV e ao vivo.\n\nO objetivo não é \"esconder\" informação, mas comunicar com clareza, segurança e coerência. É instrumento essencial de prevenção de crises: um porta-voz bem treinado evita declarações precipitadas que se tornem fato negativo."
+      "sid": "gestao-de-crise-de-imagem-no-setor-publico",
+      "titulo": "Gestão de crise de imagem no setor público",
+      "intro": "Crise de imagem é qualquer evento ou situação que ameace a reputação de uma organização e exija resposta rápida, transparente e coordenada. No setor público, ganha contornos particulares: o escrutínio é maior, há dever de prestar contas, os danos atingem a confiança no Estado e nas políticas públicas, e o silêncio ou a má resposta podem comprometer serviços essenciais à população. Gerir crise é, antes de tudo, prevenir, e não apenas reagir.\n\nA gestão de crise envolve três tempos: pré-crise (prevenção, monitoramento, comitê e plano de crise), crise (resposta) e pós-crise (avaliação e reconstrução de imagem). A comunicação de risco e o monitoramento permanente (clipping) são instrumentos centrais. A regra de ouro é a transparência: assumir o que precisa ser assumido, com agilidade, evitando o vácuo de informação que alimenta boatos.",
+      "secoes": [
+        {
+          "h": "Conceito e tipologia de crises",
+          "p": "Crise é um acontecimento de alto impacto e alta visibilidade negativa, geralmente súbito, que ameaça a reputação e a continuidade das atividades. Pode decorrer de fatos (acidentes, falhas em serviços, denúncias de irregularidade, desastres) ou de percepções (boatos, declarações infelizes, polêmicas nas redes). Algumas são previsíveis (riscos conhecidos) e outras inesperadas.\n\nNo setor público, crises típicas incluem falhas em programas sociais, suspeitas de mau uso de recursos, atendimento deficiente e situações de calamidade. Quanto maior a responsabilidade percebida da organização, maior o dano potencial à imagem."
+        },
+        {
+          "h": "Plano de gerenciamento de crise e comitê",
+          "p": "A prevenção exige um plano de crise: mapeamento de riscos, cenários, fluxos de decisão, definição de porta-vozes, mensagens-chave por cenário, lista de contatos e protocolos de aprovação. O comitê de crise reúne alta gestão, comunicação, jurídico e áreas técnicas, e centraliza as decisões. Definir um único porta-voz (ou poucos, alinhados) evita versões contraditórias.\n\nA preparação inclui simulações e o media training dos porta-vozes. Organização que planeja responde melhor: improviso em crise costuma agravar o problema."
+        },
+        {
+          "h": "Comunicação de risco e princípios da resposta",
+          "p": "Comunicação de risco é o processo de informar, de forma transparente e preventiva, sobre ameaças e medidas de proteção (ex.: alertas sanitários, riscos em situação de calamidade), buscando orientar a população e preservar a confiança. Na crise, valem princípios: agir rápido (assumir o controle da narrativa antes que terceiros a definam), dizer a verdade, demonstrar empatia com os afetados, centralizar a informação em fonte oficial, não mentir nem omitir fatos relevantes e manter coerência entre discurso e ação.\n\nO maior erro é o vácuo de comunicação: o silêncio cria espaço para especulação, boato e desinformação. \"No comment\" passa imagem de ocultação."
+        },
+        {
+          "h": "Monitoramento e clipping",
+          "p": "Clipping é a coleta, organização e análise das menções à organização na mídia (impressa, eletrônica, online e redes sociais). Funciona como termômetro de imagem e sistema de alerta precoce: detecta sinais de crise ainda em formação. A análise de clipping mede volume, tom (positivo, neutro, negativo), veículos, alcance e temas, subsidiando decisões.\n\nNo ambiente digital, o monitoramento de redes (social listening) acompanha em tempo real comentários, hashtags e sentimento, permitindo reação ágil. Monitorar é a base da fase de pré-crise."
+        },
+        {
+          "h": "Pós-crise e reconstrução de imagem",
+          "p": "Encerrada a fase aguda, vem a avaliação: o que funcionou, o que falhou, quais lições aprender e como atualizar o plano. A reconstrução de imagem combina ações concretas (correção das falhas, reparação dos danos, prestação de contas) e comunicação consistente ao longo do tempo. Reputação se recupera por coerência entre o que se diz e o que efetivamente se faz — não por discurso isolado. No setor público, prestar contas (accountability) e demonstrar correção são decisivos para reconquistar a confiança."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Em situação de crise de imagem que envolva falha em serviço público, a melhor estratégia de comunicação é evitar manifestações oficiais e aguardar o esfriamento natural da repercussão, prevenindo declarações precipitadas.\" O item está ERRADO. A gestão de crise recomenda resposta rápida, transparente e centralizada em fonte oficial; o silêncio (vácuo de comunicação) favorece boatos e desinformação e agrava o dano à reputação. Agilidade e verdade são princípios centrais.",
+      "pontos_chave": [
+        "Crise = evento de alto impacto negativo que ameaça a reputação e exige resposta rápida.",
+        "Três fases: pré-crise (prevenção/monitoramento), crise (resposta) e pós-crise (avaliação).",
+        "Plano de crise + comitê de crise + porta-voz único e alinhado.",
+        "Princípios: agilidade, verdade, empatia, fonte oficial única, coerência discurso-ação.",
+        "Maior erro: vácuo de comunicação/silêncio, que alimenta boatos e desinformação.",
+        "Comunicação de risco: informar preventivamente sobre ameaças e medidas de proteção.",
+        "Clipping: coleta e análise de menções na mídia; termômetro e alerta precoce de crise.",
+        "Pós-crise: avaliar, corrigir falhas, prestar contas e reconstruir reputação com coerência."
+      ],
+      "dica_prova": "A banca testa o reflexo errado de \"não comentar/aguardar\": a resposta certa é agir rápido e com transparência. Não confunda clipping (monitoramento/análise de mídia) com release (produção). Lembre da fase de pré-crise (prevenção e monitoramento) como a mais importante. Comunicação de risco é preventiva, voltada a orientar a população sobre ameaças."
     }
-   ],
-   "exemplo": "Cenário SEDES: para anunciar a ampliação do número de vagas em abrigos no inverno, a assessoria produz um release com lead respondendo o quê (ampliação de 200 vagas), quem (SEDES-DF), quando (a partir de junho), onde (unidades de acolhimento do DF) e por quê (proteção a pessoas em situação de rua no frio); monta um press-kit com fotos e dados; e submete o subsecretário a media training para a coletiva, definindo a mensagem-chave \"ninguém ficará desabrigado\" e treinando a técnica de ponte para perguntas sobre déficit de vagas.",
-   "pontos_chave": [
-    "Assessoria de imprensa busca espaço espontâneo (não pago), com conteúdo noticiável.",
-    "Release: título + lead (o quê, quem, quando, onde, como, por quê) + pirâmide invertida.",
-    "A decisão de publicar é sempre do veículo (gatekeeper); o release apenas sugere a pauta.",
-    "Press-kit: conjunto de materiais de apoio (releases, fotos, fichas, dados) para jornalistas.",
-    "Media training prepara porta-vozes: mensagens-chave, postura e técnica de ponte (bridging).",
-    "Atuação proativa (gera pauta) e reativa (responde demandas e crises).",
-    "Ética: informação correta, ágil e transparente; vedado oferecer vantagens à imprensa.",
-    "No setor público: garante direito à informação e usa linguagem cidadã."
-   ],
-   "dica_prova": "Não confunda assessoria de imprensa (mídia espontânea, conteúdo jornalístico) com publicidade (espaço pago). Lembre que o release apenas SUGERE a pauta; quem decide publicar é o veículo. Pegadinha comum: dizer que o media training serve para ocultar informações — na verdade, visa comunicação clara e segura. Cobra-se também a estrutura do release (lead e pirâmide invertida)."
-  },
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Gestão de crise de imagem no setor público",
-   "intro": "Crise de imagem é qualquer evento ou situação que ameace a reputação de uma organização e exija resposta rápida, transparente e coordenada. No setor público, ganha contornos particulares: o escrutínio é maior, há dever de prestar contas, os danos atingem a confiança no Estado e nas políticas públicas, e o silêncio ou a má resposta podem comprometer serviços essenciais à população. Gerir crise é, antes de tudo, prevenir, e não apenas reagir.\n\nA gestão de crise envolve três tempos: pré-crise (prevenção, monitoramento, comitê e plano de crise), crise (resposta) e pós-crise (avaliação e reconstrução de imagem). A comunicação de risco e o monitoramento permanente (clipping) são instrumentos centrais. A regra de ouro é a transparência: assumir o que precisa ser assumido, com agilidade, evitando o vácuo de informação que alimenta boatos.",
-   "secoes": [
-    {
-     "h": "Conceito e tipologia de crises",
-     "p": "Crise é um acontecimento de alto impacto e alta visibilidade negativa, geralmente súbito, que ameaça a reputação e a continuidade das atividades. Pode decorrer de fatos (acidentes, falhas em serviços, denúncias de irregularidade, desastres) ou de percepções (boatos, declarações infelizes, polêmicas nas redes). Algumas são previsíveis (riscos conhecidos) e outras inesperadas.\n\nNo setor público, crises típicas incluem falhas em programas sociais, suspeitas de mau uso de recursos, atendimento deficiente e situações de calamidade. Quanto maior a responsabilidade percebida da organização, maior o dano potencial à imagem."
-    },
-    {
-     "h": "Plano de gerenciamento de crise e comitê",
-     "p": "A prevenção exige um plano de crise: mapeamento de riscos, cenários, fluxos de decisão, definição de porta-vozes, mensagens-chave por cenário, lista de contatos e protocolos de aprovação. O comitê de crise reúne alta gestão, comunicação, jurídico e áreas técnicas, e centraliza as decisões. Definir um único porta-voz (ou poucos, alinhados) evita versões contraditórias.\n\nA preparação inclui simulações e o media training dos porta-vozes. Organização que planeja responde melhor: improviso em crise costuma agravar o problema."
-    },
-    {
-     "h": "Comunicação de risco e princípios da resposta",
-     "p": "Comunicação de risco é o processo de informar, de forma transparente e preventiva, sobre ameaças e medidas de proteção (ex.: alertas sanitários, riscos em situação de calamidade), buscando orientar a população e preservar a confiança. Na crise, valem princípios: agir rápido (assumir o controle da narrativa antes que terceiros a definam), dizer a verdade, demonstrar empatia com os afetados, centralizar a informação em fonte oficial, não mentir nem omitir fatos relevantes e manter coerência entre discurso e ação.\n\nO maior erro é o vácuo de comunicação: o silêncio cria espaço para especulação, boato e desinformação. \"No comment\" passa imagem de ocultação."
-    },
-    {
-     "h": "Monitoramento e clipping",
-     "p": "Clipping é a coleta, organização e análise das menções à organização na mídia (impressa, eletrônica, online e redes sociais). Funciona como termômetro de imagem e sistema de alerta precoce: detecta sinais de crise ainda em formação. A análise de clipping mede volume, tom (positivo, neutro, negativo), veículos, alcance e temas, subsidiando decisões.\n\nNo ambiente digital, o monitoramento de redes (social listening) acompanha em tempo real comentários, hashtags e sentimento, permitindo reação ágil. Monitorar é a base da fase de pré-crise."
-    },
-    {
-     "h": "Pós-crise e reconstrução de imagem",
-     "p": "Encerrada a fase aguda, vem a avaliação: o que funcionou, o que falhou, quais lições aprender e como atualizar o plano. A reconstrução de imagem combina ações concretas (correção das falhas, reparação dos danos, prestação de contas) e comunicação consistente ao longo do tempo. Reputação se recupera por coerência entre o que se diz e o que efetivamente se faz — não por discurso isolado. No setor público, prestar contas (accountability) e demonstrar correção são decisivos para reconquistar a confiança."
-    }
-   ],
-   "exemplo": "Item estilo Cebraspe: \"Em situação de crise de imagem que envolva falha em serviço público, a melhor estratégia de comunicação é evitar manifestações oficiais e aguardar o esfriamento natural da repercussão, prevenindo declarações precipitadas.\" O item está ERRADO. A gestão de crise recomenda resposta rápida, transparente e centralizada em fonte oficial; o silêncio (vácuo de comunicação) favorece boatos e desinformação e agrava o dano à reputação. Agilidade e verdade são princípios centrais.",
-   "pontos_chave": [
-    "Crise = evento de alto impacto negativo que ameaça a reputação e exige resposta rápida.",
-    "Três fases: pré-crise (prevenção/monitoramento), crise (resposta) e pós-crise (avaliação).",
-    "Plano de crise + comitê de crise + porta-voz único e alinhado.",
-    "Princípios: agilidade, verdade, empatia, fonte oficial única, coerência discurso-ação.",
-    "Maior erro: vácuo de comunicação/silêncio, que alimenta boatos e desinformação.",
-    "Comunicação de risco: informar preventivamente sobre ameaças e medidas de proteção.",
-    "Clipping: coleta e análise de menções na mídia; termômetro e alerta precoce de crise.",
-    "Pós-crise: avaliar, corrigir falhas, prestar contas e reconstruir reputação com coerência."
-   ],
-   "dica_prova": "A banca testa o reflexo errado de \"não comentar/aguardar\": a resposta certa é agir rápido e com transparência. Não confunda clipping (monitoramento/análise de mídia) com release (produção). Lembre da fase de pré-crise (prevenção e monitoramento) como a mais importante. Comunicação de risco é preventiva, voltada a orientar a população sobre ameaças."
-  }
- ]
+  ]
 }

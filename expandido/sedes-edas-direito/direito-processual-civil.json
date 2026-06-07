@@ -2,8 +2,7 @@
   "slug": "direito-processual-civil",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "jurisdicao-acao-e-pressupostos-processuais",
       "titulo": "Jurisdição, ação e pressupostos processuais",
       "intro": "O Direito Processual Civil disciplina o exercício da função jurisdicional do Estado para resolver conflitos não penais. No Brasil é regido pelo Código de Processo Civil de 2015 (Lei 13.105/2015), que inaugura seus artigos com as normas fundamentais do processo (arts. 1º a 12), expressamente vinculadas à Constituição: o processo deve ser ordenado e interpretado conforme os valores e normas fundamentais da CF/88, assegurando contraditório, ampla defesa, isonomia, duração razoável, boa-fé objetiva e cooperação entre os sujeitos.\n\nTrês institutos formam a base do estudo: a jurisdição (poder-dever estatal de dizer o direito no caso concreto), a ação (direito subjetivo público de provocar essa jurisdição) e o processo (instrumento e relação jurídica pela qual a jurisdição se exerce). Sobre o processo incidem os pressupostos processuais, requisitos de existência e validade sem os quais não há julgamento legítimo de mérito. Soma-se a isso o estudo dos sujeitos do processo e do litisconsórcio (pluralidade de partes).\n\nPara a prova, o ponto central é que a jurisdição é, em regra, inerte (precisa ser provocada — princípio da demanda, art. 2º), substitutiva (o Estado substitui a vontade das partes) e definitiva (apta a produzir coisa julgada). Já o direito de ação independe da existência efetiva do direito material discutido: é direito abstrato e autônomo, exercido ainda que a pretensão seja, ao final, julgada improcedente.",
       "secoes": [
@@ -42,8 +41,7 @@
       "dica_prova": "A banca adora confundir as classificações do litisconsórcio: necessário não é sinônimo de unitário, e facultativo não é sinônimo de simples — as combinações são possíveis. Outra pegadinha recorrente é afirmar que a possibilidade jurídica do pedido continua sendo condição da ação (errado no CPC/2015). Memorize também que ilegitimidade e falta de interesse extinguem sem mérito (art. 485, VI), enquanto pedido juridicamente impossível leva à improcedência (com mérito). Atenção ao impulso oficial: o processo começa por iniciativa da parte, mas anda por iniciativa do juiz."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "tutela-provisoria-e-procedimento-comum",
       "titulo": "Tutela provisória e procedimento comum",
       "intro": "A tutela provisória é o conjunto de técnicas que permitem ao juiz conceder, antes do julgamento definitivo, uma proteção imediata ao direito, com base em cognição sumária (não exauriente). Regulada nos arts. 294 a 311 do CPC/2015, divide-se em tutela de urgência (fundada em perigo de dano ou risco ao resultado útil do processo) e tutela de evidência (fundada na alta probabilidade do direito, independentemente de urgência).\n\nDe outro lado, o procedimento comum (arts. 318 e seguintes) é o rito padrão do processo de conhecimento, aplicável subsidiariamente aos procedimentos especiais e à execução. Suas fases típicas são: postulatória (petição inicial e resposta do réu), ordinatória/saneadora (organização e saneamento), instrutória (produção de provas) e decisória (sentença).\n\nPara o concurso, é essencial dominar os requisitos de cada espécie de tutela provisória, a diferença entre tutela antecipada (satisfativa) e cautelar (assecuratória), a possibilidade de estabilização da tutela antecipada antecedente (art. 304), e o passo a passo do procedimento comum: o que deve conter a petição inicial (art. 319), as modalidades de resposta do réu (com destaque para a contestação) e a importância do saneamento e organização do processo (art. 357).",
       "secoes": [

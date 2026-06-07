@@ -12,13 +12,13 @@ SITE = os.path.join(BASE, "site")
 ASSETS_SRC = os.path.join(BASE, "assets")  # fonte versionada do CSS/JS
 GRUPOS = ["Conhecimentos Básicos", "Conhecimentos Específicos"]
 
-# ---- carrega aprofundamentos: (concurso_id, slug, ti, si) -> item ----
+# ---- carrega aprofundamentos: (concurso_id, slug, sid) -> item ----
 EXP = {}
 for c in CONCURSOS:
     for f in glob.glob(os.path.join(BASE, "expandido", c["id"], "*.json")):
         data = json.load(open(f, encoding="utf-8"))
         for it in data["itens"]:
-            EXP[(c["id"], data["slug"], it["ti"], it["si"])] = it
+            EXP[(c["id"], data["slug"], it["sid"])] = it
 
 
 def e(s):
@@ -30,12 +30,13 @@ def paras(text):
     return "".join(f"<p>{e(b)}</p>" for b in blocks)
 
 
-def get_content(cid, slug, ti, si, s):
-    """Retorna (item, origem_concurso_id|None). origem != None => reaproveitado."""
+def get_content(cid, slug, s):
+    """Retorna (item, origem_concurso_id|None). origem != None => reaproveitado.
+    Resolve por sid estável (não por posição)."""
     if "reuse" in s:
-        key = tuple(s["reuse"])
+        key = tuple(s["reuse"])  # (concurso, slug, sid)
         return EXP.get(key), key[0]
-    return EXP.get((cid, slug, ti, si)), None
+    return EXP.get((cid, slug, s["sid"])), None
 
 
 def head(title, up):
@@ -241,11 +242,11 @@ def build_disciplina(c, d, idx):
     topicos_html = ""
     for ti, t in enumerate(d["topicos"]):
         subs = ""
-        for si, s in enumerate(t["subtopicos"]):
-            item, origem = get_content(cid, d["slug"], ti, si, s)
+        for s in t["subtopicos"]:
+            item, origem = get_content(cid, d["slug"], s)
             vermais = ""
             if item:
-                href = f"../ampliado/{d['slug']}/t{ti}-s{si}.html"
+                href = f"../ampliado/{d['slug']}/{s['sid']}.html"
                 tag = '<span class="tag-reuse" title="Conteúdo compartilhado entre concursos">♻</span>' if origem else ""
                 vermais = f'<a class="vermais" href="{href}">Ver mais <span>→</span></a>{tag}'
             subs += f"""
@@ -290,16 +291,16 @@ def build_disciplina(c, d, idx):
 def build_ampliado(c, d):
     cid = c["id"]
     ordem = []
-    for ti, t in enumerate(d["topicos"]):
-        for si, s in enumerate(t["subtopicos"]):
-            item, origem = get_content(cid, d["slug"], ti, si, s)
+    for t in d["topicos"]:
+        for s in t["subtopicos"]:
+            item, origem = get_content(cid, d["slug"], s)
             if item:
-                ordem.append((ti, si, t["titulo"], s["titulo"], item, origem))
+                ordem.append((s["sid"], t["titulo"], s["titulo"], item, origem))
 
     out_dir = os.path.join(SITE, cid, "ampliado", d["slug"])
     os.makedirs(out_dir, exist_ok=True)
 
-    for pos, (ti, si, top_titulo, sub_titulo, it, origem) in enumerate(ordem):
+    for pos, (sid, top_titulo, sub_titulo, it, origem) in enumerate(ordem):
         secoes_html = "".join(
             f'<section class="amp-sec"><h2>{e(sec["h"])}</h2>{paras(sec["p"])}</section>'
             for sec in it["secoes"]
@@ -308,12 +309,12 @@ def build_ampliado(c, d):
 
         if pos > 0:
             p = ordem[pos - 1]
-            prev_l = f'<a class="pager prev" href="t{p[0]}-s{p[1]}.html">← {e(p[3])}</a>'
+            prev_l = f'<a class="pager prev" href="{p[0]}.html">← {e(p[2])}</a>'
         else:
             prev_l = "<span></span>"
         if pos < len(ordem) - 1:
             n = ordem[pos + 1]
-            next_l = f'<a class="pager next" href="t{n[0]}-s{n[1]}.html">{e(n[3])} →</a>'
+            next_l = f'<a class="pager next" href="{n[0]}.html">{e(n[2])} →</a>'
         else:
             next_l = "<span></span>"
 
@@ -353,7 +354,7 @@ def build_ampliado(c, d):
   </div>
 </main>"""
         doc += foot(3, f"{c['nome']} ({c['orgao']}) — material de estudo de apoio.")
-        open(os.path.join(out_dir, f"t{ti}-s{si}.html"), "w", encoding="utf-8").write(doc)
+        open(os.path.join(out_dir, f"{sid}.html"), "w", encoding="utf-8").write(doc)
     return len(ordem)
 
 
@@ -367,8 +368,26 @@ def copy_assets():
     open(os.path.join(SITE, ".nojekyll"), "w").close()
 
 
+def validar():
+    """Falha alto se algum subtópico visível não resolver conteúdo (ex.: reuso quebrado)."""
+    erros = []
+    for c in CONCURSOS:
+        if c.get("oculto"):
+            continue
+        for d in c["disciplinas"]:
+            for t in d["topicos"]:
+                for s in t["subtopicos"]:
+                    item, _ = get_content(c["id"], d["slug"], s)
+                    if item is None:
+                        alvo = tuple(s["reuse"]) if "reuse" in s else (c["id"], d["slug"], s.get("sid"))
+                        erros.append(f"{c['id']}/{d['slug']}/{s.get('sid')} -> {alvo}")
+    if erros:
+        raise SystemExit("ERRO: subtópicos sem conteúdo (reuso quebrado?):\n  " + "\n  ".join(erros))
+
+
 def main():
     os.makedirs(SITE, exist_ok=True)
+    validar()
     copy_assets()
     build_landing()
     n_amp = 0

@@ -2,8 +2,7 @@
   "slug": "contabilidade-geral",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "estrutura-conceitual",
       "titulo": "Estrutura conceitual",
       "intro": "A Estrutura Conceitual para Relatório Financeiro (CPC 00 - R2, correlato à Conceptual Framework do IASB) é a \"constituição\" da contabilidade. Ela não é uma norma propriamente dita (não prevalece sobre um CPC específico em caso de conflito), mas serve de base para a elaboração e revisão dos Pronunciamentos e para suprir lacunas quando não há norma aplicável a uma operação.\n\nO objetivo do relatório financeiro de propósito geral é fornecer informações úteis aos usuários externos (investidores, credores e outros fornecedores de capital) que servem de base para suas decisões de aporte de recursos. A contabilidade adota a perspectiva da entidade que reporta, não a dos sócios isoladamente.\n\nO ponto mais cobrado em prova é o sistema de características qualitativas da informação contábil-financeira útil, dividido em fundamentais e de melhoria.",
       "secoes": [
@@ -38,8 +37,7 @@
       "dica_prova": "A pegadinha clássica é trocar uma característica de melhoria por uma fundamental, ou listar a 'confiabilidade' (termo antigo, substituído por 'representação fidedigna' desde a convergência ao IFRS). Lembre também que materialidade é aspecto específico da entidade da relevância, e que 'compreensibilidade' não autoriza omitir informação complexa, apenas exige apresentá-la com clareza."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "patrimonio",
       "titulo": "Patrimônio",
       "intro": "Patrimônio, em sentido contábil, é o conjunto de bens, direitos e obrigações de uma entidade, expresso em moeda. Ele é o objeto de estudo da contabilidade. A representação gráfica do patrimônio é o Balanço Patrimonial, dividido em dois grandes blocos: o ativo (aplicações de recursos) e o passivo + patrimônio líquido (origens de recursos).\n\nA igualdade entre aplicações e origens é a equação patrimonial fundamental, que NUNCA se rompe: Ativo = Passivo + Patrimônio Líquido. Por isso o balanço sempre fecha — todo recurso aplicado teve uma origem.",
       "secoes": [
@@ -74,8 +72,7 @@
       "dica_prova": "Cuidado: 'patrimônio bruto' costuma ser usado como sinônimo de ativo total, enquanto 'patrimônio líquido' é o residual. Bancas adoram pedir a situação líquida e variar os números para que o candidato calcule PL = A − P. Outra pegadinha é classificar 'Ações em Tesouraria' como ativo — elas são conta REDUTORA do PL. E lembre: na Lei das S.A., não existe saldo permanente em 'Lucros Acumulados', apenas 'Prejuízos Acumulados'."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "debito-e-credito",
       "titulo": "Débito e crédito",
       "intro": "O método das partidas dobradas, sistematizado por Luca Pacioli em 1494, é a base universal da escrituração: para todo débito há um crédito de igual valor, de modo que a soma dos débitos sempre iguala a soma dos créditos. Daí o nome 'partidas dobradas' — cada fato é registrado em pelo menos duas contas.\n\nDébito e crédito são apenas lados/convenções de registro (esquerda e direita do razonete), sem conotação de 'bom' ou 'ruim'. O efeito de debitar ou creditar depende da NATUREZA da conta.",
       "secoes": [
@@ -110,8 +107,7 @@
       "dica_prova": "A pegadinha mais comum associa débito a 'algo negativo' e crédito a 'positivo' — falso, depende da natureza da conta. Outra: afirmar que um balancete que fecha está necessariamente correto. Decore que erro de conta trocada, valor duplicado em ambos os lados ou lançamento totalmente omitido não desbalanceia o balancete. Saiba identificar a fórmula do lançamento contando débitos e créditos."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "regime-de-competencia",
       "titulo": "Regime de competência",
       "intro": "O regime de competência (accrual basis) é o pressuposto básico para o reconhecimento de receitas e despesas: elas são registradas no período em que ocorrem (quando o fato gerador econômico se concretiza), INDEPENDENTEMENTE do recebimento ou do pagamento em dinheiro. É o regime obrigatório pela Lei 6.404/76 e pela contabilidade societária.\n\nSeu oposto é o regime de caixa, no qual receitas e despesas só são reconhecidas quando há efetiva entrada ou saída de dinheiro. O regime de caixa é usado em algumas situações específicas (entidades públicas para certos fins, microempreendedores), mas NÃO na escrituração societária plena.",
       "secoes": [
@@ -146,8 +142,7 @@
       "dica_prova": "A banca adora o cenário de seguro/aluguel pago ou recebido antecipadamente para testar o cálculo proporcional (pró-rata). Erro comum: lançar despesa antecipada como despesa imediata (deveria ir ao ativo). Outra pegadinha: confundir competência com caixa em vendas/compras a prazo. Memorize: 'antecipada que paguei = ativo; antecipada que recebi = passivo'."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "cmv-e-avaliacao-de-estoques",
       "titulo": "CMV e avaliação de estoques",
       "intro": "O Custo das Mercadorias Vendidas (CMV) é o valor de custo dos itens que saíram do estoque por venda durante o período. Numa empresa comercial, é tipicamente a maior despesa e o principal determinante do lucro bruto (Receita Líquida − CMV = Lucro Bruto). Em indústrias fala-se em Custo dos Produtos Vendidos (CPV) e em serviços, Custo dos Serviços Prestados (CSP).\n\nA fórmula básica do CMV decorre da movimentação do estoque: CMV = Estoque Inicial + Compras Líquidas − Estoque Final (CMV = EI + C − EF). Isolando, também se obtém EF = EI + C − CMV.",
       "secoes": [
@@ -182,8 +177,7 @@
       "dica_prova": "Pegadinhas frequentes: (1) incluir ICMS recuperável no custo do estoque — errado, ele é crédito a recuperar; (2) somar frete de VENDAS ao custo do estoque — frete de vendas é despesa operacional, só o frete de COMPRAS integra o custo; (3) afirmar que o UEPS é permitido. Memorize o efeito do PEPS em inflação (menor CMV → maior lucro) e saiba isolar qualquer variável na fórmula CMV = EI + C − EF."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "depreciacao",
       "titulo": "Depreciação",
       "intro": "Depreciação é a alocação sistemática do valor depreciável de um ativo imobilizado ao longo de sua vida útil, refletindo o consumo dos benefícios econômicos do bem (desgaste físico, uso, obsolescência). É a forma de cumprir o regime de competência e a confrontação: o custo de um bem que serve a vários períodos é distribuído entre eles, não jogado todo em um só.\n\nO CPC 27 (Ativo Imobilizado) e a Lei 6.404/76 (art. 183, §2º) regem o tema. Termos correlatos: amortização (intangíveis com vida útil definida) e exaustão (recursos naturais, jazidas, florestas).",
       "secoes": [
@@ -218,8 +212,7 @@
       "dica_prova": "Erros clássicos: (1) depreciar sobre o custo total esquecendo de abater o valor residual; (2) depreciar terrenos; (3) confundir depreciação com amortização/exaustão. A banca pode pedir o valor contábil líquido após X anos ou comparar métodos (o acelerado deprecia mais no início). Lembre que a despesa de depreciação reduz o lucro e o ativo, mas não o caixa — ponto-chave para a DFC e para análise de geração de caixa."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "balanco-patrimonial-e-dre",
       "titulo": "Balanço Patrimonial e DRE",
       "intro": "O Balanço Patrimonial (BP) e a Demonstração do Resultado do Exercício (DRE) são as duas demonstrações nucleares exigidas pela Lei 6.404/76 (art. 176). O BP é ESTÁTICO: retrata a posição patrimonial e financeira em uma data específica (fotografia). A DRE é DINÂMICA: evidencia a formação do resultado (lucro ou prejuízo) ao longo de um período (filme).\n\nAmbas se conectam: o lucro líquido apurado na DRE incorpora-se ao Patrimônio Líquido no BP (via lucros/prejuízos acumulados e destinações), fechando o ciclo contábil.",
       "secoes": [
@@ -254,8 +247,7 @@
       "dica_prova": "A banca testa muito a sequência da DRE e a posição dos tributos sobre vendas (dedução, não despesa). Pegadinha: somar o ICMS sobre vendas às despesas operacionais — derruba o cálculo. No BP, cuidado com a classificação de Investimentos x Imobilizado x Intangível e em lembrar que o Diferido não existe mais. Saiba diferenciar lucro bruto, operacional e líquido — são pontos de corte distintos na cascata."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "dfc-e-dva",
       "titulo": "DFC e DVA",
       "intro": "A Demonstração dos Fluxos de Caixa (DFC) e a Demonstração do Valor Adicionado (DVA) foram tornadas obrigatórias pela Lei 11.638/07, que reformou a Lei 6.404/76. A DFC substituiu a antiga DOAR (Demonstração das Origens e Aplicações de Recursos) e é regida pelo CPC 03. A DVA é regida pelo CPC 09.\n\nA DFC mostra a movimentação de CAIXA e equivalentes de caixa no período. A DVA evidencia quanta riqueza a entidade gerou e como a distribuiu entre os agentes que contribuíram para criá-la (empregados, governo, financiadores e sócios).",
       "secoes": [
@@ -290,8 +282,7 @@
       "dica_prova": "Memorize a classificação correta dos fluxos: dividendos PAGOS geralmente são financiamento; juros pagos podem ser operacionais; compra de imobilizado é investimento. Pegadinha frequente: dizer que os métodos direto e indireto geram fluxos operacionais diferentes — falso, o resultado é idêntico. Na DVA, lembre que as duas partes (geração e distribuição) SEMPRE têm o mesmo total, e que os tributos aparecem como distribuição ao governo, não como redução do valor adicionado."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "indices",
       "titulo": "Índices",
       "intro": "A análise de balanços (ou análise das demonstrações contábeis) interpreta os dados das demonstrações por meio de quocientes (índices) que medem liquidez, endividamento (estrutura de capital), rentabilidade e atividade (prazos/giros). Complementa-se com a análise horizontal (evolução no tempo) e a análise vertical (participação de cada item no total).\n\nNenhum índice isolado conclui sobre a saúde da empresa; a interpretação é comparativa (com períodos anteriores, com o setor, com concorrentes). A seguir, os grupos mais cobrados.",
       "secoes": [

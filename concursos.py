@@ -34,4 +34,11 @@ CONCURSOS = [
     *SEDES_CARGOS,     # 15 cargos da SEDES-DF (agrupados na landing)
 ]
 
+# Atribui IDs estáveis (sid) a todo subtópico — base da resolução de reuso e das URLs.
+from idutil import assign_sids
+
+for _c in CONCURSOS:
+    for _d in _c["disciplinas"]:
+        assign_sids(_d)
+
 CONCURSO_POR_ID = {c["id"]: c for c in CONCURSOS}

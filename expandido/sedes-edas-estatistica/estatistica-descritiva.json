@@ -1,45 +1,44 @@
 {
- "slug": "estatistica-descritiva",
- "itens": [
-  {
-   "ti": 0,
-   "si": 2,
-   "titulo": "Indicadores, representação e associação",
-   "intro": "Indicadores sociais resumem em poucos números fenômenos complexos (pobreza, escolaridade, acesso a serviços) para orientar políticas públicas. No contexto da assistência social, indicadores como o Índice de Desenvolvimento do CRAS (IDCRAS), taxa de cobertura do Bolsa Família ou proporção de famílias em extrema pobreza permitem monitorar a oferta e a demanda do SUAS. Compreender como esses números são construídos, comparados ao longo do tempo (números índices) e relacionados entre si (medidas de associação) é essencial para o trabalho de planejamento e avaliação.\n\nA análise exploratória de dados categóricos, por sua vez, organiza informações em tabelas de contingência (cruzamentos) e mede a força e a direção da associação entre variáveis qualitativas. Conceitos como risco relativo (RR) e razão de chances (odds ratio, OR) são amplamente usados em epidemiologia e estudos sociais para quantificar o quanto uma exposição (por exemplo, viver em área de vulnerabilidade) altera a probabilidade de um desfecho (por exemplo, evasão escolar).\n\nEsta seção integra três blocos cobrados em prova: a construção e leitura de números índices, a montagem e interpretação de tabelas de contingência, e o cálculo e a distinção entre risco relativo e odds ratio.",
-   "secoes": [
+  "slug": "estatistica-descritiva",
+  "itens": [
     {
-     "h": "Indicadores sociais: definição e propriedades",
-     "p": "Um indicador é uma medida, em geral quantitativa, dotada de significado social, usada para substituir, quantificar ou operacionalizar um conceito abstrato. Bons indicadores devem ter validade (medir o que se propõem), confiabilidade (resultados estáveis), sensibilidade (captar mudanças), especificidade (refletir só o fenômeno alvo) e cobertura.\n\nClassificam-se em indicadores-insumo (recursos investidos, ex.: gasto per capita em assistência), indicadores-processo (esforço/atividade, ex.: número de visitas domiciliares), indicadores-resultado (produtos, ex.: famílias acompanhadas pelo PAIF) e indicadores-impacto (efeitos finais, ex.: redução da pobreza). Também se distinguem indicadores simples (uma dimensão) de indicadores compostos ou sintéticos (agregam várias dimensões, como o IDH)."
-    },
-    {
-     "h": "Números índices",
-     "p": "Um número índice mede a variação relativa de uma grandeza entre uma data atual e uma data-base (cujo índice é fixado em 100). O relativo simples de preço é I = (p_t / p_0) x 100; valores acima de 100 indicam aumento, abaixo indicam queda.\n\nPara agregados (vários produtos), usam-se índices ponderados. O índice de Laspeyres pondera pelas quantidades do período-base (q_0): L = (Sigma p_t q_0 / Sigma p_0 q_0) x 100 e tende a superestimar a inflação. O de Paasche pondera pelas quantidades do período atual (q_t) e tende a subestimar. O índice de Fisher é a média geométrica dos dois (raiz de L x P) e é considerado o índice ideal. Em séries longas, é preciso atenção à mudança de base e ao encadeamento (empalme) de índices."
-    },
-    {
-     "h": "Tabelas de contingência",
-     "p": "Uma tabela de contingência (ou tabela de dupla entrada) cruza duas variáveis categóricas, exibindo as frequências conjuntas. A tabela 2x2 é o caso clássico, com as células a, b, c, d e os totais marginais.\n\nA partir dela calculam-se frequências relativas totais, por linha e por coluna (frequências condicionais). Comparar as distribuições condicionais é a forma básica de avaliar associação: se a proporção do desfecho é igual entre os grupos, não há associação. As tabelas de contingência são a base tanto das medidas de risco quanto do teste qui-quadrado de independência."
-    },
-    {
-     "h": "Risco relativo (RR) e razão de chances (OR)",
-     "p": "Considere uma tabela 2x2 com exposição (linhas) e desfecho (colunas): expostos com desfecho = a, expostos sem = b, não expostos com = c, não expostos sem = d.\n\nO risco (incidência) nos expostos é a/(a+b) e nos não expostos é c/(c+d). O risco relativo é a razão entre eles: RR = [a/(a+b)] / [c/(c+d)]. RR = 1 indica ausência de associação; RR > 1, fator de risco; RR < 1, fator de proteção.\n\nA chance (odds) nos expostos é a/b e nos não expostos é c/d. A razão de chances é OR = (a/b)/(c/d) = ad/bc (produto cruzado). A interpretação de OR=1, >1 e <1 é análoga à do RR. Diferença crucial: o RR exige conhecer a incidência, sendo apropriado a estudos de coorte e ensaios; o OR pode ser calculado em estudos caso-controle (onde o risco não é estimável) e é o parâmetro natural da regressão logística. Quando o desfecho é raro, OR aproxima-se do RR."
-    },
-    {
-     "h": "Outras medidas de efeito",
-     "p": "Além das razões, usam-se medidas de diferença. O risco atribuível (ou diferença de riscos) é RA = risco nos expostos - risco nos não expostos, expressando o excesso absoluto de casos devido à exposição. A redução absoluta de risco e o número necessário para tratar (NNT = 1/RA) são derivações comuns em avaliação de intervenções.\n\nÉ importante reportar intervalos de confiança para RR e OR: se o IC inclui o valor 1, a associação não é estatisticamente significativa ao nível adotado."
+      "sid": "indicadores-representacao-e-associacao",
+      "titulo": "Indicadores, representação e associação",
+      "intro": "Indicadores sociais resumem em poucos números fenômenos complexos (pobreza, escolaridade, acesso a serviços) para orientar políticas públicas. No contexto da assistência social, indicadores como o Índice de Desenvolvimento do CRAS (IDCRAS), taxa de cobertura do Bolsa Família ou proporção de famílias em extrema pobreza permitem monitorar a oferta e a demanda do SUAS. Compreender como esses números são construídos, comparados ao longo do tempo (números índices) e relacionados entre si (medidas de associação) é essencial para o trabalho de planejamento e avaliação.\n\nA análise exploratória de dados categóricos, por sua vez, organiza informações em tabelas de contingência (cruzamentos) e mede a força e a direção da associação entre variáveis qualitativas. Conceitos como risco relativo (RR) e razão de chances (odds ratio, OR) são amplamente usados em epidemiologia e estudos sociais para quantificar o quanto uma exposição (por exemplo, viver em área de vulnerabilidade) altera a probabilidade de um desfecho (por exemplo, evasão escolar).\n\nEsta seção integra três blocos cobrados em prova: a construção e leitura de números índices, a montagem e interpretação de tabelas de contingência, e o cálculo e a distinção entre risco relativo e odds ratio.",
+      "secoes": [
+        {
+          "h": "Indicadores sociais: definição e propriedades",
+          "p": "Um indicador é uma medida, em geral quantitativa, dotada de significado social, usada para substituir, quantificar ou operacionalizar um conceito abstrato. Bons indicadores devem ter validade (medir o que se propõem), confiabilidade (resultados estáveis), sensibilidade (captar mudanças), especificidade (refletir só o fenômeno alvo) e cobertura.\n\nClassificam-se em indicadores-insumo (recursos investidos, ex.: gasto per capita em assistência), indicadores-processo (esforço/atividade, ex.: número de visitas domiciliares), indicadores-resultado (produtos, ex.: famílias acompanhadas pelo PAIF) e indicadores-impacto (efeitos finais, ex.: redução da pobreza). Também se distinguem indicadores simples (uma dimensão) de indicadores compostos ou sintéticos (agregam várias dimensões, como o IDH)."
+        },
+        {
+          "h": "Números índices",
+          "p": "Um número índice mede a variação relativa de uma grandeza entre uma data atual e uma data-base (cujo índice é fixado em 100). O relativo simples de preço é I = (p_t / p_0) x 100; valores acima de 100 indicam aumento, abaixo indicam queda.\n\nPara agregados (vários produtos), usam-se índices ponderados. O índice de Laspeyres pondera pelas quantidades do período-base (q_0): L = (Sigma p_t q_0 / Sigma p_0 q_0) x 100 e tende a superestimar a inflação. O de Paasche pondera pelas quantidades do período atual (q_t) e tende a subestimar. O índice de Fisher é a média geométrica dos dois (raiz de L x P) e é considerado o índice ideal. Em séries longas, é preciso atenção à mudança de base e ao encadeamento (empalme) de índices."
+        },
+        {
+          "h": "Tabelas de contingência",
+          "p": "Uma tabela de contingência (ou tabela de dupla entrada) cruza duas variáveis categóricas, exibindo as frequências conjuntas. A tabela 2x2 é o caso clássico, com as células a, b, c, d e os totais marginais.\n\nA partir dela calculam-se frequências relativas totais, por linha e por coluna (frequências condicionais). Comparar as distribuições condicionais é a forma básica de avaliar associação: se a proporção do desfecho é igual entre os grupos, não há associação. As tabelas de contingência são a base tanto das medidas de risco quanto do teste qui-quadrado de independência."
+        },
+        {
+          "h": "Risco relativo (RR) e razão de chances (OR)",
+          "p": "Considere uma tabela 2x2 com exposição (linhas) e desfecho (colunas): expostos com desfecho = a, expostos sem = b, não expostos com = c, não expostos sem = d.\n\nO risco (incidência) nos expostos é a/(a+b) e nos não expostos é c/(c+d). O risco relativo é a razão entre eles: RR = [a/(a+b)] / [c/(c+d)]. RR = 1 indica ausência de associação; RR > 1, fator de risco; RR < 1, fator de proteção.\n\nA chance (odds) nos expostos é a/b e nos não expostos é c/d. A razão de chances é OR = (a/b)/(c/d) = ad/bc (produto cruzado). A interpretação de OR=1, >1 e <1 é análoga à do RR. Diferença crucial: o RR exige conhecer a incidência, sendo apropriado a estudos de coorte e ensaios; o OR pode ser calculado em estudos caso-controle (onde o risco não é estimável) e é o parâmetro natural da regressão logística. Quando o desfecho é raro, OR aproxima-se do RR."
+        },
+        {
+          "h": "Outras medidas de efeito",
+          "p": "Além das razões, usam-se medidas de diferença. O risco atribuível (ou diferença de riscos) é RA = risco nos expostos - risco nos não expostos, expressando o excesso absoluto de casos devido à exposição. A redução absoluta de risco e o número necessário para tratar (NNT = 1/RA) são derivações comuns em avaliação de intervenções.\n\nÉ importante reportar intervalos de confiança para RR e OR: se o IC inclui o valor 1, a associação não é estatisticamente significativa ao nível adotado."
+        }
+      ],
+      "exemplo": "Cenário SUAS: em um território, 200 famílias acompanhadas pelo PAIF e 300 não acompanhadas foram observadas quanto à reincidência em situação de risco. Entre as acompanhadas, 20 reincidiram (a=20, b=180); entre as não acompanhadas, 60 reincidiram (c=60, d=240). Risco nos expostos (acompanhadas) = 20/200 = 0,10; risco nos não expostos = 60/300 = 0,20. RR = 0,10/0,20 = 0,5: o acompanhamento reduz pela metade o risco de reincidência (fator de proteção). OR = (20/180)/(60/240) = (0,111)/(0,25) = 0,444. Item Cebraspe (CERTO/ERRADO): 'Como o desfecho não é raro, o odds ratio de 0,444 superestima (exagera) o efeito de proteção em relação ao risco relativo de 0,5.' CERTO - para fatores de proteção (RR<1), o OR é mais extremo (mais distante de 1, ou seja, menor) que o RR quando o desfecho é frequente; ao ficar mais distante de 1, o OR sugere uma proteção mais forte do que a real, exagerando o efeito medido pelo RR.",
+      "pontos_chave": [
+        "Indicadores: validade, confiabilidade, sensibilidade; classificam-se em insumo, processo, resultado e impacto",
+        "Número índice fixa a base em 100; relativo de preço I = (p_t/p_0) x 100",
+        "Laspeyres usa q do período-base (superestima); Paasche usa q atual (subestima); Fisher = média geométrica dos dois",
+        "Tabela de contingência cruza variáveis categóricas; distribuições condicionais revelam associação",
+        "RR = risco exposto / risco não exposto (exige incidência; coorte/ensaio)",
+        "OR = ad/bc (produto cruzado; usável em caso-controle e regressão logística)",
+        "Valor 1 = ausência de associação; >1 risco; <1 proteção; IC contendo 1 = não significativo",
+        "Desfecho raro: OR aproxima RR"
+      ],
+      "dica_prova": "Pegadinha clássica: trocar a fórmula de OR e RR. RR usa o total da linha no denominador (a+b); OR usa o produto cruzado ad/bc. Outra: afirmar que OR sempre se aproxima do RR - isso só vale quando o desfecho é RARO. A banca também cobra que estudo caso-controle NÃO permite calcular RR (só OR), pois a incidência não é estimável. Em números índices, lembre: Laspeyres = base (passado) e SUPER estima; Paasche = presente e SUB estima (mnemônico: La do Lá atrás)."
     }
-   ],
-   "exemplo": "Cenário SUAS: em um território, 200 famílias acompanhadas pelo PAIF e 300 não acompanhadas foram observadas quanto à reincidência em situação de risco. Entre as acompanhadas, 20 reincidiram (a=20, b=180); entre as não acompanhadas, 60 reincidiram (c=60, d=240). Risco nos expostos (acompanhadas) = 20/200 = 0,10; risco nos não expostos = 60/300 = 0,20. RR = 0,10/0,20 = 0,5: o acompanhamento reduz pela metade o risco de reincidência (fator de proteção). OR = (20/180)/(60/240) = (0,111)/(0,25) = 0,444. Item Cebraspe (CERTO/ERRADO): 'Como o desfecho não é raro, o odds ratio de 0,444 superestima (exagera) o efeito de proteção em relação ao risco relativo de 0,5.' CERTO - para fatores de proteção (RR<1), o OR é mais extremo (mais distante de 1, ou seja, menor) que o RR quando o desfecho é frequente; ao ficar mais distante de 1, o OR sugere uma proteção mais forte do que a real, exagerando o efeito medido pelo RR.",
-   "pontos_chave": [
-    "Indicadores: validade, confiabilidade, sensibilidade; classificam-se em insumo, processo, resultado e impacto",
-    "Número índice fixa a base em 100; relativo de preço I = (p_t/p_0) x 100",
-    "Laspeyres usa q do período-base (superestima); Paasche usa q atual (subestima); Fisher = média geométrica dos dois",
-    "Tabela de contingência cruza variáveis categóricas; distribuições condicionais revelam associação",
-    "RR = risco exposto / risco não exposto (exige incidência; coorte/ensaio)",
-    "OR = ad/bc (produto cruzado; usável em caso-controle e regressão logística)",
-    "Valor 1 = ausência de associação; >1 risco; <1 proteção; IC contendo 1 = não significativo",
-    "Desfecho raro: OR aproxima RR"
-   ],
-   "dica_prova": "Pegadinha clássica: trocar a fórmula de OR e RR. RR usa o total da linha no denominador (a+b); OR usa o produto cruzado ad/bc. Outra: afirmar que OR sempre se aproxima do RR - isso só vale quando o desfecho é RARO. A banca também cobra que estudo caso-controle NÃO permite calcular RR (só OR), pois a incidência não é estimável. Em números índices, lembre: Laspeyres = base (passado) e SUPER estima; Paasche = presente e SUB estima (mnemônico: La do Lá atrás)."
-  }
- ]
+  ]
 }

@@ -2,8 +2,7 @@
   "slug": "economia",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "escassez-e-custo-de-oportunidade",
       "titulo": "Escassez e custo de oportunidade",
       "intro": "A Economia é a ciência social que estuda como sociedades administram recursos escassos para satisfazer necessidades e desejos que são, por natureza, ilimitados. Toda a teoria econômica nasce dessa tensão fundamental: como os recursos (terra, trabalho, capital e capacidade empresarial) são limitados, é impossível produzir tudo o que se deseja, o que obriga indivíduos, empresas e governos a fazerem escolhas.\n\nEscassez é o conceito-mãe da disciplina. Não significa raridade absoluta, mas insuficiência relativa: um bem é escasso quando, ao preço zero, a quantidade demandada supera a ofertada. Bens livres (como o ar atmosférico em condições normais) não são objeto de estudo econômico justamente porque não são escassos. Da escassez deriva o conceito de custo de oportunidade, peça central tanto na microeconomia quanto na avaliação de políticas públicas e tributárias.",
       "secoes": [
@@ -38,8 +37,7 @@
       "dica_prova": "A pegadinha clássica é confundir os pontos da CPP: memorize 'dentro = desperdício, sobre = ótimo, fora = sonho'. Outra armadilha é a banca afirmar que a CPP é uma reta — só seria reta se o custo de oportunidade fosse constante (fatores perfeitamente substituíveis), o que é caso de exceção. E cuidado com 'custo de oportunidade é a soma das alternativas': é apenas a MELHOR delas."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "deslocamentos-x-movimentos",
       "titulo": "Deslocamentos x movimentos",
       "intro": "A lei da demanda estabelece uma relação INVERSA entre preço e quantidade demandada: tudo o mais constante (ceteris paribus), quando o preço sobe, a quantidade procurada cai, e vice-versa. A lei da oferta estabelece uma relação DIRETA: quando o preço sobe, os produtores ofertam mais. O cruzamento das curvas de oferta e demanda determina o preço e a quantidade de equilíbrio do mercado.\n\nUm dos pontos mais cobrados em provas — e fonte recorrente de erro — é a distinção entre MOVIMENTO ao longo da curva e DESLOCAMENTO da curva inteira. Confundir os dois leva a respostas erradas em praticamente toda questão de equilíbrio de mercado.",
       "secoes": [
@@ -74,8 +72,7 @@
       "dica_prova": "A banca adora trocar 'demanda' por 'quantidade demandada' (e vice-versa). Leia com lupa: se mudou o preço do próprio bem, fale em quantidade demandada e movimento; se mudou outra coisa, fale em demanda e deslocamento. Outra pegadinha: tributo sobre o produtor afeta a OFERTA (não a demanda). E lembre que quando as duas curvas se movem juntas, ou o preço ou a quantidade fica indeterminado."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "bens-substitutos-e-complementares",
       "titulo": "Bens substitutos e complementares",
       "intro": "Bens relacionados são aqueles cujo consumo ou preço afeta a demanda de outro bem. Eles se dividem essencialmente em substitutos e complementares, e a forma de medir essa relação é a elasticidade-preço cruzada da demanda. Esse tema conecta-se à definição de mercado relevante, usada inclusive em análises antitruste e em estudos de impacto tributário setorial.\n\nCompreender substitutos e complementares é indispensável para prever como uma alteração de preço (inclusive por motivo tributário, como uma mudança de alíquota de ICMS) em um produto repercute na demanda de outros produtos.",
       "secoes": [
@@ -109,8 +106,7 @@
       "dica_prova": "Decore o sinal: substituto = positivo (Sim, ambos sobem juntos); complementar = negativo. A pegadinha mais comum é inverter os sinais ou misturar com a elasticidade-renda. Memorize: 'cruzada classifica relação ENTRE bens; renda classifica o bem em normal/inferior'. E lembre que bens independentes têm elasticidade cruzada zero."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "elasticidade-e-tributacao",
       "titulo": "Elasticidade e tributação",
       "intro": "A elasticidade-preço da demanda mede a sensibilidade da quantidade demandada a variações no preço. É calculada como o módulo da razão entre a variação percentual da quantidade e a variação percentual do preço: Epd = |%ΔQ / %ΔP|. Esse conceito é, talvez, o mais cobrado da microeconomia em concursos fiscais, porque determina diretamente quem suporta o ônus de um imposto e quanto o Estado arrecada.\n\nA demanda é classificada como elástica (Epd > 1, muito sensível), inelástica (Epd < 1, pouco sensível) ou de elasticidade unitária (Epd = 1). Os casos extremos são a demanda perfeitamente elástica (Epd → infinito, curva horizontal) e a perfeitamente inelástica (Epd = 0, curva vertical). O Auditor-Fiscal precisa dominar a relação entre essas categorias, a receita do vendedor e a incidência tributária.",
       "secoes": [
@@ -145,8 +141,7 @@
       "dica_prova": "A maior pegadinha é o sentido da relação preço-receita: grave que com demanda INELÁSTICA, aumentar o preço AUMENTA a receita. Outra clássica: associar erradamente quem paga o tributo — o ônus recai sobre o lado MENOS elástico, não o mais. E não confunda incidência legal (quem recolhe) com incidência econômica (quem efetivamente suporta). A Curva de Laffer NÃO diz que imposto baixo sempre arrecada mais — diz que existe um ponto ótimo."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "custos-no-curto-e-longo-prazo",
       "titulo": "Custos no curto e longo prazo",
       "intro": "A teoria da produção e dos custos analisa como a empresa combina insumos para gerar produto e como seus custos evoluem conforme a escala de produção. A distinção entre curto e longo prazo é conceitual, não cronológica: no CURTO prazo existe pelo menos um fator de produção FIXO (tipicamente o capital/instalações); no LONGO prazo, TODOS os fatores são variáveis e a empresa pode até entrar ou sair do mercado.\n\nEsse tema fundamenta decisões de produção da firma, a curva de oferta e estruturas de mercado, sendo recorrente em provas que cobram cálculo e interpretação de custos médios e marginais.",
       "secoes": [
@@ -181,8 +176,7 @@
       "dica_prova": "Memorize a propriedade do marginal cortando os médios no MÍNIMO — é a pegadinha número um. Não confunda rendimentos decrescentes (curto prazo, fenômeno de produtividade) com deseconomias de escala (longo prazo, fenômeno de gestão). E saiba distinguir os pontos de decisão: no curto prazo a firma fecha quando o preço não cobre o CVMe; no longo prazo sai quando não cobre o CTMe."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "falhas-de-mercado",
       "titulo": "Falhas de mercado",
       "intro": "Em concorrência perfeita ideal, o mercado aloca recursos de forma eficiente sem necessidade de intervenção. Falhas de mercado são situações em que o livre funcionamento dos preços NÃO produz a alocação eficiente, justificando a atuação do Estado — seja regulando, provendo bens ou tributando/subsidiando para corrigir o resultado. Esse tema é central para o Auditor-Fiscal porque a tributação corretiva (tributos pigouvianos, seletividade) nasce exatamente da existência de falhas.\n\nAs quatro falhas clássicas são: externalidades, bens públicos, assimetria de informação e poder de mercado (concorrência imperfeita). A elas se somam, em sentido amplo, os mercados incompletos e os problemas de equidade na distribuição.",
       "secoes": [
@@ -217,8 +211,7 @@
       "dica_prova": "Não inverta o efeito das externalidades: NEGATIVA gera EXCESSO de produção (corrige-se reduzindo, via imposto); POSITIVA gera produção INSUFICIENTE (corrige-se incentivando, via subsídio). Outra pegadinha: confundir bem público econômico (não rival/não excludente) com bem público do Direito Administrativo. E distinga seleção adversa (antes) de risco moral (depois). O tributo seletivo/pigouviano é o gancho fiscal mais cobrado deste tema."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "pib-e-agregados",
       "titulo": "PIB e agregados",
       "intro": "A macroeconomia estuda os grandes agregados da economia, e o Produto Interno Bruto (PIB) é o indicador central. O PIB é o valor de mercado de todos os bens e serviços FINAIS produzidos dentro das fronteiras de um país (ou estado) em determinado período, geralmente um ano. Três palavras-chave merecem destaque: 'finais' (evita dupla contagem dos bens intermediários), 'produzidos no período' (fluxo, não estoque) e 'dentro das fronteiras' (critério territorial, não de nacionalidade).\n\nO PIB pode ser medido por três óticas que, por identidade contábil, dão o mesmo resultado: produção (valor adicionado), renda (remuneração dos fatores) e despesa (gasto dos agentes). Dominar essas identidades e a fórmula da despesa é essencial para a prova.",
       "secoes": [
@@ -253,8 +246,7 @@
       "dica_prova": "Decore a fórmula da despesa e o sinal das importações: subtraem-se (são produção estrangeira). A pegadinha mais comum é a dupla contagem — só entram bens FINAIS ou o valor adicionado. Outra: confundir PIB (território) com PNB (nacionalidade); lembre que PNB = PIB + RLEE. E não troque PIB nominal por real: crescimento econômico se mede pelo PIB REAL. Variação de estoques entra no INVESTIMENTO."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "politica-monetaria",
       "titulo": "Política monetária",
       "intro": "Política monetária é o conjunto de medidas pelas quais o Banco Central controla a oferta de moeda e as condições de liquidez e crédito da economia, com o objetivo principal, no Brasil, de manter a inflação na meta (regime de metas de inflação). É chamada de 'política monetária' porque atua sobre a moeda e a taxa de juros, em contraste com a política fiscal, que atua sobre receitas e despesas do governo.\n\nNo Brasil, o Banco Central (BCB) executa a política monetária, e o COPOM define a taxa básica de juros, a Selic-meta. Compreender os instrumentos e a transmissão da política monetária é essencial, inclusive pela ligação com a arrecadação real de tributos.",
       "secoes": [
@@ -289,8 +281,7 @@
       "dica_prova": "A pegadinha mais frequente é trocar o sentido dos instrumentos. Fixe a lógica do open market: BC VENDE títulos = ENXUGA moeda (contracionista); BC COMPRA títulos = INJETA moeda (expansionista). E para combater inflação, TUDO aperta: juros sobem, compulsório sobe, vende títulos. Não confunda política monetária (moeda/juros, feita pelo BC) com política fiscal (tributos/gastos, feita pelo governo)."
     },
     {
-      "ti": 6,
-      "si": 1,
+      "sid": "inflacao",
       "titulo": "Inflação",
       "intro": "Inflação é o aumento CONTÍNUO e GENERALIZADO do nível geral de preços da economia, com a consequente perda do poder de compra da moeda. Não se confunde com a alta isolada de um único produto: para haver inflação, o movimento de alta deve ser persistente e abranger o conjunto dos preços. O fenômeno oposto, a deflação, é a queda contínua e generalizada dos preços (que também traz problemas, como adiamento de consumo e recessão).\n\nPara o Auditor-Fiscal, a inflação importa por afetar a correção monetária de tributos, bases de cálculo, multas e a arrecadação real, além de ser tema clássico de macroeconomia em concursos.",
       "secoes": [
@@ -325,8 +316,7 @@
       "dica_prova": "Marque os adjetivos 'contínuo' e 'generalizado' — sem eles não há inflação (a banca testa alta isolada de um produto). Distinga as causas: demanda (excesso de demanda) x custos (choque de oferta) x inercial (indexação). Decore que o índice OFICIAL é o IPCA do IBGE. E lembre da ligação fiscal: efeito Tanzi-Olivera corrói a arrecadação real, justificando a correção monetária de tributos."
     },
     {
-      "ti": 7,
-      "si": 0,
+      "sid": "politica-fiscal",
       "titulo": "Política fiscal",
       "intro": "Política fiscal é a utilização das RECEITAS (principalmente tributos) e das DESPESAS públicas pelo governo para influenciar a atividade econômica — nível de produto, emprego, demanda agregada e preços. É distinta da política monetária (que atua sobre moeda e juros, via Banco Central): a política fiscal é conduzida pelo Poder Executivo e materializa-se no orçamento público.\n\nPara o Auditor-Fiscal, este é o tema que mais conecta economia, Direito Financeiro e Tributário, pois a tributação é instrumento central da política fiscal e está submetida à LRF (LC 101/2000), à CF/88 e ao orçamento (PPA, LDO, LOA).",
       "secoes": [

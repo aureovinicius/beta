@@ -2,11 +2,9 @@
   "slug": "seguranca-informacao",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "autenticacao-autorizacao-e-sso",
       "titulo": "Autenticação, autorização e SSO",
-      "intro": "Três conceitos costumam ser confundidos e merecem distinção precisa. Identificação é declarar quem se é (ex.: informar o login). Autenticação (authentication, AuthN) é o processo de provar que essa identidade é verdadeira, comprovando algo que o usuário sabe (senha), possui (token) ou é (biometria). Autorização (authorization, AuthZ) ocorre depois da autenticação e decide o que a identidade autenticada pode fazer — quais recursos pode acessar e com quais permissões. Uma quarta peça, a auditabilidade (accounting/accountability), registra o que foi feito.\n\nO SSO (Single Sign-On) é um mecanismo que permite ao usuário autenticar-se uma única vez e acessar diversos sistemas/aplicações sem refazer login a cada um. O SSO não é um protocolo, mas um padrão de arquitetura implementado por protocolos como SAML, OAuth 2.0 e OpenID Connect (OIDC). É essencial separar o que cada protocolo resolve: SAML e OIDC tratam de autenticação federada (provar identidade), enquanto OAuth 2.0, em sua essência, trata de autorização delegada (conceder acesso a recursos sem entregar credenciais).\n\nNo contexto federado surgem dois papéis centrais: o Identity Provider (IdP), que autentica o usuário e emite asserções/tokens, e o Service Provider (SP) ou Relying Party (RP), que confia no IdP e consome essas asserções para liberar acesso."
-      ,
+      "intro": "Três conceitos costumam ser confundidos e merecem distinção precisa. Identificação é declarar quem se é (ex.: informar o login). Autenticação (authentication, AuthN) é o processo de provar que essa identidade é verdadeira, comprovando algo que o usuário sabe (senha), possui (token) ou é (biometria). Autorização (authorization, AuthZ) ocorre depois da autenticação e decide o que a identidade autenticada pode fazer — quais recursos pode acessar e com quais permissões. Uma quarta peça, a auditabilidade (accounting/accountability), registra o que foi feito.\n\nO SSO (Single Sign-On) é um mecanismo que permite ao usuário autenticar-se uma única vez e acessar diversos sistemas/aplicações sem refazer login a cada um. O SSO não é um protocolo, mas um padrão de arquitetura implementado por protocolos como SAML, OAuth 2.0 e OpenID Connect (OIDC). É essencial separar o que cada protocolo resolve: SAML e OIDC tratam de autenticação federada (provar identidade), enquanto OAuth 2.0, em sua essência, trata de autorização delegada (conceder acesso a recursos sem entregar credenciais).\n\nNo contexto federado surgem dois papéis centrais: o Identity Provider (IdP), que autentica o usuário e emite asserções/tokens, e o Service Provider (SP) ou Relying Party (RP), que confia no IdP e consome essas asserções para liberar acesso.",
       "secoes": [
         {
           "h": "Autenticação x autorização: a fronteira que a banca explora",
@@ -38,11 +36,9 @@
       "dica_prova": "A pegadinha clássica é trocar os papéis: dizer que OAuth 2.0 'autentica' ou que SAML 'é o mesmo que OAuth'. Memorize: OAuth = autorização; OIDC e SAML = autenticação/federação; SSO = conceito de login único. Outra armadilha: afirmar que SSO elimina a necessidade de autenticação — falso; o usuário ainda se autentica uma vez (e a falha do IdP vira ponto único de falha)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "mfa-iam-e-pam",
       "titulo": "MFA, IAM e PAM",
-      "intro": "À medida que credenciais simples (usuário e senha) tornaram-se o vetor mais explorado em ataques, três disciplinas ganharam centralidade: a autenticação multifator (MFA), que reforça a comprovação de identidade; o IAM (Identity and Access Management), que governa o ciclo de vida de identidades e acessos; e o PAM (Privileged Access Management), que protege especificamente as contas privilegiadas — as mais visadas pelos atacantes.\n\nEsses controles são cobrados em auditorias de TI do TCU como parte da gestão de acesso (alinhada a ISO/IEC 27001/27002 e ao princípio do menor privilégio) e como salvaguardas contra o comprometimento de credenciais administrativas, que historicamente amplificam o impacto de incidentes."
-      ,
+      "intro": "À medida que credenciais simples (usuário e senha) tornaram-se o vetor mais explorado em ataques, três disciplinas ganharam centralidade: a autenticação multifator (MFA), que reforça a comprovação de identidade; o IAM (Identity and Access Management), que governa o ciclo de vida de identidades e acessos; e o PAM (Privileged Access Management), que protege especificamente as contas privilegiadas — as mais visadas pelos atacantes.\n\nEsses controles são cobrados em auditorias de TI do TCU como parte da gestão de acesso (alinhada a ISO/IEC 27001/27002 e ao princípio do menor privilégio) e como salvaguardas contra o comprometimento de credenciais administrativas, que historicamente amplificam o impacto de incidentes.",
       "secoes": [
         {
           "h": "MFA e a diferença para verificação em duas etapas",
@@ -74,11 +70,9 @@
       "dica_prova": "Memorize a distinção IAM (todas as identidades) x PAM (privilegiadas). A banca confunde 'duas etapas' com 'multifator': repetir o mesmo fator não é MFA. Outra pegadinha: apresentar SMS como MFA robusto — é o mais vulnerável (SIM swap). E cuidado com 'Zero Trust significa não usar autenticação' — é o oposto: verifica-se continuamente."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "tipos-de-malware",
       "titulo": "Tipos de malware",
-      "intro": "Malware (malicious software) é qualquer programa ou código desenvolvido para causar dano, obter acesso indevido, espionar ou comprometer a confidencialidade, integridade ou disponibilidade de sistemas. A banca cobra com frequência a CLASSIFICAÇÃO precisa de cada tipo, pois as definições têm fronteiras que se confundem facilmente — sobretudo entre vírus, worm e trojan.\n\nO critério mais útil para separá-los é o mecanismo de propagação e ativação: o vírus precisa de um hospedeiro e da ação do usuário; o worm é autônomo e se autopropaga; o trojan se disfarça de software legítimo; e há ainda categorias definidas pela FINALIDADE (espionar, sequestrar dados, dar acesso remoto, ocultar-se)."
-      ,
+      "intro": "Malware (malicious software) é qualquer programa ou código desenvolvido para causar dano, obter acesso indevido, espionar ou comprometer a confidencialidade, integridade ou disponibilidade de sistemas. A banca cobra com frequência a CLASSIFICAÇÃO precisa de cada tipo, pois as definições têm fronteiras que se confundem facilmente — sobretudo entre vírus, worm e trojan.\n\nO critério mais útil para separá-los é o mecanismo de propagação e ativação: o vírus precisa de um hospedeiro e da ação do usuário; o worm é autônomo e se autopropaga; o trojan se disfarça de software legítimo; e há ainda categorias definidas pela FINALIDADE (espionar, sequestrar dados, dar acesso remoto, ocultar-se).",
       "secoes": [
         {
           "h": "Vírus, worm e trojan: a tríade que mais cai",
@@ -111,11 +105,9 @@
       "dica_prova": "A pegadinha número um é dizer que vírus 'se propaga sozinho pela rede' (isso é worm) ou que worm 'precisa de hospedeiro' (não precisa). Outra: afirmar que trojan se replica (não replica). Lembre que keylogger é uma subespécie de spyware. Cuidado com 'antivírus detecta qualquer malware' — fileless e ataques zero-day frequentemente escapam de assinaturas tradicionais."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "ataques-a-redes-e-aplicacoes",
       "titulo": "Ataques a redes e aplicações",
-      "intro": "Os ataques cobrados na prova podem ser organizados por alvo: ataques à DISPONIBILIDADE (DoS/DDoS), ataques baseados em ENGENHARIA SOCIAL (phishing), ataques que exploram FALHAS DESCONHECIDAS (zero-day), ataques de FALSIFICAÇÃO/INTERCEPTAÇÃO em rede (spoofing, DNS poisoning, MITM) e ataques contra APLICAÇÕES (buffer overflow, SQL injection, XSS).\n\nO examinador costuma exigir que você identifique o mecanismo do ataque e a propriedade da segurança violada (confidencialidade, integridade, disponibilidade). Dominar essas correspondências é o que separa o acerto do erro em itens certo/errado."
-      ,
+      "intro": "Os ataques cobrados na prova podem ser organizados por alvo: ataques à DISPONIBILIDADE (DoS/DDoS), ataques baseados em ENGENHARIA SOCIAL (phishing), ataques que exploram FALHAS DESCONHECIDAS (zero-day), ataques de FALSIFICAÇÃO/INTERCEPTAÇÃO em rede (spoofing, DNS poisoning, MITM) e ataques contra APLICAÇÕES (buffer overflow, SQL injection, XSS).\n\nO examinador costuma exigir que você identifique o mecanismo do ataque e a propriedade da segurança violada (confidencialidade, integridade, disponibilidade). Dominar essas correspondências é o que separa o acerto do erro em itens certo/errado.",
       "secoes": [
         {
           "h": "Ataques à disponibilidade: DoS e DDoS",
@@ -148,11 +140,9 @@
       "dica_prova": "A confusão favorita da banca é XSS x SQLi: XSS = cliente/navegador; SQLi = servidor/banco. Outra: dizer que DDoS quebra a confidencialidade — não; ataca a DISPONIBILIDADE. Zero-day é definido pela ausência de correção conhecida, não pela técnica. ARP spoofing é local (camada de enlace, na LAN); IP spoofing falsifica o endereço de rede. Saiba mapear cada ataque à propriedade (CID) que viola."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "firewall-ids-ips-siem-e-proxy",
       "titulo": "Firewall, IDS/IPS, SIEM e proxy",
-      "intro": "A defesa em profundidade (defense in depth) pressupõe múltiplas camadas de controle, de modo que a falha de uma não comprometa todo o ambiente. As soluções clássicas de perímetro e monitoramento — firewall, IDS/IPS, SIEM e proxy — cumprem papéis complementares e são frequentemente confundidas entre si nas provas.\n\nA distinção essencial gira em torno de duas perguntas: o controle BLOQUEIA ou apenas DETECTA/REGISTRA? E em qual camada ele opera (rede/transporte x aplicação)? Responder corretamente a isso resolve a maioria dos itens."
-      ,
+      "intro": "A defesa em profundidade (defense in depth) pressupõe múltiplas camadas de controle, de modo que a falha de uma não comprometa todo o ambiente. As soluções clássicas de perímetro e monitoramento — firewall, IDS/IPS, SIEM e proxy — cumprem papéis complementares e são frequentemente confundidas entre si nas provas.\n\nA distinção essencial gira em torno de duas perguntas: o controle BLOQUEIA ou apenas DETECTA/REGISTRA? E em qual camada ele opera (rede/transporte x aplicação)? Responder corretamente a isso resolve a maioria dos itens.",
       "secoes": [
         {
           "h": "Firewall e suas gerações",
@@ -184,11 +174,9 @@
       "dica_prova": "A pegadinha campeã é atribuir bloqueio ao IDS (é detecção; bloqueio é IPS). Outra é dizer que o SIEM 'bloqueia ataques' — ele detecta/correlaciona; bloqueio é firewall/IPS, automação é SOAR. Cuidado também ao confundir firewall comum com WAF: WAF entende HTTP e protege contra SQLi/XSS. E 'detecção por assinatura detecta zero-day' é falso — assinatura só pega o já conhecido."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "controles-para-aplicacoes-web",
       "titulo": "Controles para aplicações web",
-      "intro": "Aplicações web e Web Services são hoje a principal superfície de ataque dos órgãos públicos, pois ficam expostos à internet e processam dados sensíveis. A segurança de aplicações (AppSec) consiste em controles e testes que reduzem vulnerabilidades ao longo do ciclo de desenvolvimento (DevSecOps — 'shift left', segurança desde o início).\n\nA referência mundial é a OWASP (Open Worldwide Application Security Project), entidade que mantém o OWASP Top 10 (as dez categorias de risco mais críticas em aplicações web) e diversos guias e padrões. Conhecer esses controles e os tipos de teste é essencial para a função de auditoria de TI."
-      ,
+      "intro": "Aplicações web e Web Services são hoje a principal superfície de ataque dos órgãos públicos, pois ficam expostos à internet e processam dados sensíveis. A segurança de aplicações (AppSec) consiste em controles e testes que reduzem vulnerabilidades ao longo do ciclo de desenvolvimento (DevSecOps — 'shift left', segurança desde o início).\n\nA referência mundial é a OWASP (Open Worldwide Application Security Project), entidade que mantém o OWASP Top 10 (as dez categorias de risco mais críticas em aplicações web) e diversos guias e padrões. Conhecer esses controles e os tipos de teste é essencial para a função de auditoria de TI.",
       "secoes": [
         {
           "h": "OWASP Top 10 e principais riscos",
@@ -220,11 +208,9 @@
       "dica_prova": "Cebraspe explora a diferença SAST x DAST: estático (código, sem executar) x dinâmico (app rodando). Outra pegadinha: tratar o OWASP Top 10 como 'norma de certificação' — é lista de conscientização de riscos. Cuidado com 'validar a entrada apenas no navegador é suficiente' — controles do lado cliente são burláveis; a validação e a autorização devem ocorrer no servidor. Hashing de senha exige salt; criptografia reversível para senha é erro."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "frameworks-mitre-att-ck-cis-nist-csf",
       "titulo": "Frameworks (MITRE ATT&CK, CIS, NIST CSF)",
-      "intro": "Frameworks de segurança são modelos de referência que organizam práticas, controles e conhecimento sobre ameaças, permitindo padronizar, avaliar e melhorar a postura de segurança de uma organização. Para a auditoria de TI, eles funcionam como critérios contra os quais se compara a situação encontrada.\n\nÉ fundamental entender o PROPÓSITO distinto de cada um: o NIST CSF é um framework de GOVERNANÇA/gestão de risco de alto nível; os CIS Controls são um conjunto PRIORIZADO de controles técnicos defensivos; e o MITRE ATT&CK é uma BASE DE CONHECIMENTO sobre táticas e técnicas dos atacantes. Confundir esses papéis é o erro mais comum em prova."
-      ,
+      "intro": "Frameworks de segurança são modelos de referência que organizam práticas, controles e conhecimento sobre ameaças, permitindo padronizar, avaliar e melhorar a postura de segurança de uma organização. Para a auditoria de TI, eles funcionam como critérios contra os quais se compara a situação encontrada.\n\nÉ fundamental entender o PROPÓSITO distinto de cada um: o NIST CSF é um framework de GOVERNANÇA/gestão de risco de alto nível; os CIS Controls são um conjunto PRIORIZADO de controles técnicos defensivos; e o MITRE ATT&CK é uma BASE DE CONHECIMENTO sobre táticas e técnicas dos atacantes. Confundir esses papéis é o erro mais comum em prova.",
       "secoes": [
         {
           "h": "NIST Cybersecurity Framework (CSF)",
@@ -256,11 +242,9 @@
       "dica_prova": "A banca troca os papéis: ATT&CK descrito como 'controles' (é base de ameaças), CIS como 'framework de governança' (é controle técnico priorizado) ou NIST CSF como 'norma certificável' (não é — quem certifica é a ISO 27001). Memorize as funções do CSF e que a 2.0 incluiu GOVERN. Saber que ATT&CK = táticas + técnicas do atacante resolve a maioria das questões."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "tratamento-de-incidentes-ciberneticos",
       "titulo": "Tratamento de incidentes cibernéticos",
-      "intro": "Incidente de segurança é qualquer evento que comprometa, real ou potencialmente, a confidencialidade, integridade ou disponibilidade da informação. O tratamento (ou resposta) a incidentes é o processo estruturado para detectar, conter e recuperar-se desses eventos, minimizando danos e aprendendo com eles.\n\nA referência mais cobrada é o NIST SP 800-61 (Computer Security Incident Handling Guide), que estrutura o ciclo de vida da resposta. No Brasil, há ainda a atuação das equipes de tratamento (CSIRT/ETIR) e, no setor público federal, normas do GSI/PR e a interação com o CTIR Gov."
-      ,
+      "intro": "Incidente de segurança é qualquer evento que comprometa, real ou potencialmente, a confidencialidade, integridade ou disponibilidade da informação. O tratamento (ou resposta) a incidentes é o processo estruturado para detectar, conter e recuperar-se desses eventos, minimizando danos e aprendendo com eles.\n\nA referência mais cobrada é o NIST SP 800-61 (Computer Security Incident Handling Guide), que estrutura o ciclo de vida da resposta. No Brasil, há ainda a atuação das equipes de tratamento (CSIRT/ETIR) e, no setor público federal, normas do GSI/PR e a interação com o CTIR Gov.",
       "secoes": [
         {
           "h": "Evento x incidente e a estrutura de resposta",
@@ -292,11 +276,9 @@
       "dica_prova": "A pegadinha clássica embaralha contenção/erradicação/recuperação: isolar = contenção; remover causa = erradicação; restaurar = recuperação. Outra: omitir a fase de PREPARAÇÃO (ela vem antes do incidente) ou as LIÇÕES APRENDIDAS (fechamento do ciclo). Lembre que a resposta é iterativa, não linear. Saiba associar LGPD/ANPD à notificação de incidentes com dados pessoais."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "criptografia-e-certificacao-digital",
       "titulo": "Criptografia e certificação digital",
-      "intro": "A criptografia é o conjunto de técnicas para proteger informações, transformando-as de forma que só partes autorizadas consigam acessá-las (confidencialidade) ou verificar sua autenticidade e integridade. Sobre ela se constroem a assinatura digital, os certificados e toda a infraestrutura de chaves públicas (PKI), tema recorrente e detalhado em provas de TI.\n\nO domínio exige separar com precisão: criptografia simétrica (uma chave) x assimétrica (par de chaves), o que cada uma garante, e como assinatura digital e certificado digital se combinam para prover autenticidade, integridade e não repúdio. No Brasil, a ICP-Brasil é a infraestrutura oficial."
-      ,
+      "intro": "A criptografia é o conjunto de técnicas para proteger informações, transformando-as de forma que só partes autorizadas consigam acessá-las (confidencialidade) ou verificar sua autenticidade e integridade. Sobre ela se constroem a assinatura digital, os certificados e toda a infraestrutura de chaves públicas (PKI), tema recorrente e detalhado em provas de TI.\n\nO domínio exige separar com precisão: criptografia simétrica (uma chave) x assimétrica (par de chaves), o que cada uma garante, e como assinatura digital e certificado digital se combinam para prover autenticidade, integridade e não repúdio. No Brasil, a ICP-Brasil é a infraestrutura oficial.",
       "secoes": [
         {
           "h": "Criptografia simétrica x assimétrica",
@@ -329,11 +311,9 @@
       "dica_prova": "O erro mais explorado é a inversão das chaves: confidencialidade usa a PÚBLICA do receptor; assinatura usa a PRIVADA do emissor. Outra pegadinha: afirmar que a assinatura digital garante confidencialidade (não garante — garante integridade/autenticidade/não repúdio). Distinga assinatura digital (com criptografia/PKI) de assinatura eletrônica (gênero amplo). Hash NÃO é criptografia reversível. Saiba que a AC-Raiz da ICP-Brasil é o ITI."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "seguranca-em-nuvem-e-conteineres",
       "titulo": "Segurança em nuvem e contêineres",
-      "intro": "A adoção de nuvem e de contêineres mudou o modelo de segurança: a responsabilidade passa a ser COMPARTILHADA entre provedor e cliente, e novas superfícies de ataque (configurações, identidades, orquestração) ganham protagonismo. Para a auditoria de TI, entender o que cabe a cada parte e os controles específicos desses ambientes é indispensável.\n\nDois princípios atravessam o tema: privacy by design / privacy by default (privacidade desde a concepção e por padrão, exigida pela LGPD) e o modelo de responsabilidade compartilhada, frequentemente mal compreendido — gerando os erros de configuração que são a causa mais comum de incidentes em nuvem."
-      ,
+      "intro": "A adoção de nuvem e de contêineres mudou o modelo de segurança: a responsabilidade passa a ser COMPARTILHADA entre provedor e cliente, e novas superfícies de ataque (configurações, identidades, orquestração) ganham protagonismo. Para a auditoria de TI, entender o que cabe a cada parte e os controles específicos desses ambientes é indispensável.\n\nDois princípios atravessam o tema: privacy by design / privacy by default (privacidade desde a concepção e por padrão, exigida pela LGPD) e o modelo de responsabilidade compartilhada, frequentemente mal compreendido — gerando os erros de configuração que são a causa mais comum de incidentes em nuvem.",
       "secoes": [
         {
           "h": "Modelo de responsabilidade compartilhada",

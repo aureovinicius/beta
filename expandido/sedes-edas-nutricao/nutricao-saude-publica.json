@@ -1,87 +1,83 @@
 {
- "slug": "nutricao-saude-publica",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Epidemiologia nutricional",
-   "intro": "A epidemiologia nutricional estuda a distribuição e os determinantes dos agravos relacionados à alimentação e à nutrição em populações, bem como o papel da dieta na ocorrência de doenças. Articula indicadores antropométricos, dietéticos, bioquímicos e clínicos para diagnosticar o estado nutricional coletivo e orientar políticas públicas.\n\nO Brasil vive a chamada transição nutricional: a queda histórica da desnutrição conviveu com o crescimento acelerado do excesso de peso e da obesidade, configurando a dupla carga de má nutrição. Persistem, ao mesmo tempo, carências de micronutrientes (a fome oculta), como anemia ferropriva e hipovitaminose A, sobretudo em grupos vulneráveis.\n\nO subtópico cobra os principais agravos (desnutrição, obesidade, anemia e demais carências), os indicadores e métodos de avaliação nutricional populacional, o conceito de transição nutricional e os grupos de risco, com ênfase nas populações em vulnerabilidade social atendidas pela rede socioassistencial."
-  ,
-   "secoes": [
+  "slug": "nutricao-saude-publica",
+  "itens": [
     {
-     "h": "Transição nutricional e epidemiológica",
-     "p": "A transição epidemiológica é o deslocamento do perfil de morbimortalidade das doenças infecciosas para as doenças crônicas não transmissíveis (DCNTs). A transição nutricional, a ela associada, é a mudança no padrão de consumo (do tradicional para o ultraprocessado, mais denso em energia, açúcar, gordura e sódio) e no estado nutricional (queda da desnutrição e aumento da obesidade).\n\nNo Brasil, dados de inquéritos (POF/IBGE, PNS, VIGITEL, SISVAN) mostram que mais da metade dos adultos está com excesso de peso, evidenciando que a obesidade convive com bolsões persistentes de insegurança alimentar e desnutrição."
+      "sid": "epidemiologia-nutricional",
+      "titulo": "Epidemiologia nutricional",
+      "intro": "A epidemiologia nutricional estuda a distribuição e os determinantes dos agravos relacionados à alimentação e à nutrição em populações, bem como o papel da dieta na ocorrência de doenças. Articula indicadores antropométricos, dietéticos, bioquímicos e clínicos para diagnosticar o estado nutricional coletivo e orientar políticas públicas.\n\nO Brasil vive a chamada transição nutricional: a queda histórica da desnutrição conviveu com o crescimento acelerado do excesso de peso e da obesidade, configurando a dupla carga de má nutrição. Persistem, ao mesmo tempo, carências de micronutrientes (a fome oculta), como anemia ferropriva e hipovitaminose A, sobretudo em grupos vulneráveis.\n\nO subtópico cobra os principais agravos (desnutrição, obesidade, anemia e demais carências), os indicadores e métodos de avaliação nutricional populacional, o conceito de transição nutricional e os grupos de risco, com ênfase nas populações em vulnerabilidade social atendidas pela rede socioassistencial.",
+      "secoes": [
+        {
+          "h": "Transição nutricional e epidemiológica",
+          "p": "A transição epidemiológica é o deslocamento do perfil de morbimortalidade das doenças infecciosas para as doenças crônicas não transmissíveis (DCNTs). A transição nutricional, a ela associada, é a mudança no padrão de consumo (do tradicional para o ultraprocessado, mais denso em energia, açúcar, gordura e sódio) e no estado nutricional (queda da desnutrição e aumento da obesidade).\n\nNo Brasil, dados de inquéritos (POF/IBGE, PNS, VIGITEL, SISVAN) mostram que mais da metade dos adultos está com excesso de peso, evidenciando que a obesidade convive com bolsões persistentes de insegurança alimentar e desnutrição."
+        },
+        {
+          "h": "Desnutrição",
+          "p": "A desnutrição resulta de ingestão insuficiente e/ou má utilização de nutrientes. Classifica-se em: aguda (emagrecimento — déficit de peso para a estatura/wasting), crônica (déficit de estatura para a idade/stunting, indicador de privação prolongada) e mista. As formas clínicas graves clássicas são o marasmo (deficiência energética global, com extrema magreza) e o kwashiorkor (deficiência proteica predominante, com edema e hepatomegalia).\n\nNa infância, o déficit de estatura é o indicador mais sensível de desnutrição crônica e de privação social. A desnutrição infantil tem impactos no desenvolvimento cognitivo e na imunidade, sendo monitorada nos primeiros 1.000 dias (da gestação aos 2 anos)."
+        },
+        {
+          "h": "Sobrepeso e obesidade",
+          "p": "A obesidade é o acúmulo excessivo de gordura corporal com risco à saúde. No adulto, o diagnóstico populacional usa o Índice de Massa Corporal (IMC = peso/altura²): eutrofia 18,5 a 24,9; sobrepeso 25 a 29,9; obesidade grau I (30–34,9), II (35–39,9) e III (≥40). A circunferência da cintura avalia a gordura abdominal e o risco cardiometabólico.\n\nNa infância e adolescência usam-se as curvas de IMC por idade (escores-z da OMS). A obesidade é fator de risco para DCNTs (diabetes tipo 2, hipertensão, dislipidemias) e tem determinação social, com maior prevalência associada ao ambiente alimentar obesogênico e ao consumo de ultraprocessados."
+        },
+        {
+          "h": "Anemia e carências de micronutrientes",
+          "p": "A anemia ferropriva (por deficiência de ferro) é a carência nutricional mais prevalente no mundo, atingindo sobretudo gestantes e crianças menores de 2 anos. Manifesta-se por palidez, fadiga e prejuízo cognitivo. É enfrentada por suplementação (Programa Nacional de Suplementação de Ferro), fortificação de farinhas de trigo e milho com ferro e ácido fólico (obrigatória no Brasil) e orientação alimentar.\n\nOutras carências relevantes: hipovitaminose A (cegueira noturna, imunidade, mortalidade infantil — combatida por megadoses de vitamina A), deficiência de iodo (bócio — prevenida pela iodação do sal) e de ácido fólico (defeitos do tubo neural). Essas carências compõem a 'fome oculta'."
+        },
+        {
+          "h": "Indicadores e métodos de avaliação nutricional populacional",
+          "p": "A avaliação nutricional populacional combina: indicadores antropométricos (peso, estatura, IMC, circunferências, dobras cutâneas; em crianças, peso/idade, estatura/idade e peso/estatura em escores-z), indicadores dietéticos (consumo alimentar via recordatório 24h, frequência alimentar, marcadores de consumo do SISVAN), bioquímicos (hemoglobina, ferritina, retinol) e clínicos (sinais carenciais).\n\nOs sistemas e inquéritos de monitoramento incluem o SISVAN (rotina da APS), a POF, a PNS e o VIGITEL (vigilância de fatores de risco por inquérito telefônico). As curvas de referência da OMS são o padrão para crianças e adolescentes."
+        }
+      ],
+      "exemplo": "Item Cebraspe: 'No Brasil contemporâneo, a desnutrição foi totalmente erradicada, restando apenas a obesidade como problema nutricional.' Errado: o país vive a dupla carga de má nutrição — a obesidade cresce, mas persistem desnutrição (sobretudo déficit de estatura na infância vulnerável) e carências de micronutrientes (anemia, hipovitaminose A). Cenário prático: ao avaliar crianças de um CRAS, o déficit de estatura para a idade indica desnutrição crônica/privação prolongada, enquanto o baixo peso para a estatura indica desnutrição aguda.",
+      "pontos_chave": [
+        "Transição nutricional: queda da desnutrição + aumento da obesidade = dupla carga de má nutrição.",
+        "IMC adulto: eutrofia 18,5–24,9; sobrepeso 25–29,9; obesidade ≥30 (graus I, II, III).",
+        "Déficit de estatura/idade = desnutrição crônica (stunting); déficit peso/estatura = aguda (wasting).",
+        "Marasmo (energético, magreza) x kwashiorkor (proteico, edema).",
+        "Anemia ferropriva é a carência mais prevalente; gestantes e <2 anos são os grupos de risco.",
+        "Fome oculta = carências de micronutrientes (ferro, vitamina A, iodo, folato).",
+        "Sistemas de monitoramento: SISVAN, POF, PNS, VIGITEL; curvas da OMS para crianças.",
+        "Primeiros 1.000 dias (gestação aos 2 anos): janela crítica."
+      ],
+      "dica_prova": "Decore a faixa de IMC e a distinção stunting (estatura/idade, crônica) x wasting (peso/estatura, aguda) — cai com frequência. Outra pegadinha: associar erroneamente kwashiorkor à magreza extrema (é o marasmo) ou negar a coexistência de desnutrição e obesidade. Anemia ferropriva como 'a carência mais prevalente' é afirmação correta recorrente."
     },
     {
-     "h": "Desnutrição",
-     "p": "A desnutrição resulta de ingestão insuficiente e/ou má utilização de nutrientes. Classifica-se em: aguda (emagrecimento — déficit de peso para a estatura/wasting), crônica (déficit de estatura para a idade/stunting, indicador de privação prolongada) e mista. As formas clínicas graves clássicas são o marasmo (deficiência energética global, com extrema magreza) e o kwashiorkor (deficiência proteica predominante, com edema e hepatomegalia).\n\nNa infância, o déficit de estatura é o indicador mais sensível de desnutrição crônica e de privação social. A desnutrição infantil tem impactos no desenvolvimento cognitivo e na imunidade, sendo monitorada nos primeiros 1.000 dias (da gestação aos 2 anos)."
-    },
-    {
-     "h": "Sobrepeso e obesidade",
-     "p": "A obesidade é o acúmulo excessivo de gordura corporal com risco à saúde. No adulto, o diagnóstico populacional usa o Índice de Massa Corporal (IMC = peso/altura²): eutrofia 18,5 a 24,9; sobrepeso 25 a 29,9; obesidade grau I (30–34,9), II (35–39,9) e III (≥40). A circunferência da cintura avalia a gordura abdominal e o risco cardiometabólico.\n\nNa infância e adolescência usam-se as curvas de IMC por idade (escores-z da OMS). A obesidade é fator de risco para DCNTs (diabetes tipo 2, hipertensão, dislipidemias) e tem determinação social, com maior prevalência associada ao ambiente alimentar obesogênico e ao consumo de ultraprocessados."
-    },
-    {
-     "h": "Anemia e carências de micronutrientes",
-     "p": "A anemia ferropriva (por deficiência de ferro) é a carência nutricional mais prevalente no mundo, atingindo sobretudo gestantes e crianças menores de 2 anos. Manifesta-se por palidez, fadiga e prejuízo cognitivo. É enfrentada por suplementação (Programa Nacional de Suplementação de Ferro), fortificação de farinhas de trigo e milho com ferro e ácido fólico (obrigatória no Brasil) e orientação alimentar.\n\nOutras carências relevantes: hipovitaminose A (cegueira noturna, imunidade, mortalidade infantil — combatida por megadoses de vitamina A), deficiência de iodo (bócio — prevenida pela iodação do sal) e de ácido fólico (defeitos do tubo neural). Essas carências compõem a 'fome oculta'."
-    },
-    {
-     "h": "Indicadores e métodos de avaliação nutricional populacional",
-     "p": "A avaliação nutricional populacional combina: indicadores antropométricos (peso, estatura, IMC, circunferências, dobras cutâneas; em crianças, peso/idade, estatura/idade e peso/estatura em escores-z), indicadores dietéticos (consumo alimentar via recordatório 24h, frequência alimentar, marcadores de consumo do SISVAN), bioquímicos (hemoglobina, ferritina, retinol) e clínicos (sinais carenciais).\n\nOs sistemas e inquéritos de monitoramento incluem o SISVAN (rotina da APS), a POF, a PNS e o VIGITEL (vigilância de fatores de risco por inquérito telefônico). As curvas de referência da OMS são o padrão para crianças e adolescentes."
+      "sid": "nutricao-nos-ciclos-da-vida",
+      "titulo": "Nutrição nos ciclos da vida",
+      "intro": "As necessidades nutricionais variam ao longo da vida conforme o crescimento, a maturação, a reprodução e o envelhecimento. A nutrição nos ciclos da vida estuda essas demandas específicas na gestação, lactação, infância, adolescência, vida adulta e velhice, orientando a prevenção de agravos em cada fase.\n\nEm saúde pública, ganham destaque os primeiros 1.000 dias (da concepção aos 2 anos), janela decisiva para o desenvolvimento, e o aleitamento materno, considerado a intervenção isolada de maior impacto na sobrevivência infantil. As recomendações alimentares para a população brasileira estão consolidadas no Guia Alimentar para a População Brasileira (2014) e no Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (2019).\n\nO subtópico cobra as particularidades nutricionais da gestação, da infância (incluindo aleitamento e introdução alimentar), da adolescência e do idoso, com ênfase no aleitamento materno e nas diretrizes dos guias alimentares.",
+      "secoes": [
+        {
+          "h": "Gestação e lactação",
+          "p": "Na gestação aumentam as necessidades de energia (incremento sobretudo no 2º e 3º trimestres) e de micronutrientes. A suplementação de ácido fólico no periconcepcional previne defeitos do tubo neural, e a de ferro previne anemia. O ganho de peso gestacional recomendado é orientado pelo IMC pré-gestacional (menor ganho para quem inicia com sobrepeso/obesidade, maior para baixo peso).\n\nNa lactação, as necessidades energéticas e hídricas são elevadas para sustentar a produção de leite. O estado nutricional materno influencia o peso ao nascer e o risco de prematuridade, justificando o acompanhamento no pré-natal."
+        },
+        {
+          "h": "Aleitamento materno",
+          "p": "A recomendação da OMS e do Ministério da Saúde é aleitamento materno exclusivo (só leite materno, sem água, chás ou outros alimentos) até os 6 meses e complementado até 2 anos ou mais. Classificações: exclusivo, predominante (com líquidos), complementado (com outros alimentos) e misto/parcial.\n\nO leite materno é completo, de fácil digestão, com fatores imunológicos (IgA, lactoferrina) que protegem contra infecções; reduz mortalidade infantil, diarreias e alergias, e traz benefícios à mãe (involução uterina, vínculo, proteção contra câncer de mama). É protegido por políticas como a Norma Brasileira de Comercialização de Alimentos para Lactentes (NBCAL), os Bancos de Leite Humano e a Iniciativa Hospital Amigo da Criança."
+        },
+        {
+          "h": "Infância: introdução alimentar e crescimento",
+          "p": "A partir dos 6 meses inicia-se a alimentação complementar, mantendo o leite materno. O Guia Alimentar para Crianças Menores de 2 Anos recomenda alimentos in natura e minimamente processados, variados, sem açúcar de adição até os 2 anos, sem ultraprocessados, respeitando a aceitação e a autonomia da criança (sinais de fome e saciedade).\n\nO crescimento é monitorado pela Caderneta da Criança com as curvas da OMS (peso, estatura, IMC e perímetro cefálico). A infância é fase de formação de hábitos alimentares e de prevenção tanto da desnutrição quanto da obesidade infantil."
+        },
+        {
+          "h": "Adolescência",
+          "p": "A adolescência tem o segundo maior pico de crescimento (estirão puberal), elevando as necessidades de energia, proteína, cálcio (mineralização óssea) e ferro (especialmente em meninas após a menarca). É fase de vulnerabilidade a inadequações: pular refeições, consumo de ultraprocessados, dietas restritivas e transtornos alimentares.\n\nA educação alimentar e o ambiente escolar (PNAE) são estratégicos para a formação de hábitos saudáveis nessa etapa."
+        },
+        {
+          "h": "Idoso",
+          "p": "No envelhecimento ocorrem alterações que afetam o estado nutricional: redução da massa muscular (sarcopenia), do paladar e olfato, da salivação, da mastigação e da absorção, além de polifarmácia e isolamento social. Há risco aumentado de desnutrição, desidratação e de carências (vitamina B12, vitamina D, cálcio).\n\nRecomenda-se dieta fracionada, de fácil mastigação, com aporte proteico adequado para preservar a massa muscular, atenção à hidratação e ao consumo de cálcio/vitamina D (saúde óssea). A avaliação usa instrumentos próprios (ex.: Mini Avaliação Nutricional) e considera limitações funcionais."
+        }
+      ],
+      "exemplo": "Item Cebraspe: 'Recomenda-se a oferta de água e chás ao lactente em aleitamento materno exclusivo nos dias quentes, antes dos 6 meses.' Errado: aleitamento exclusivo significa apenas leite materno, sem água, chás ou quaisquer outros líquidos/alimentos, até os 6 meses; o próprio leite supre a necessidade hídrica. Cenário SEDES: orientar uma gestante atendida no CRAS sobre ácido fólico (tubo neural), ferro (anemia) e o preparo para o aleitamento exclusivo até os 6 meses.",
+      "pontos_chave": [
+        "Aleitamento materno EXCLUSIVO até 6 meses; complementado até 2 anos ou mais.",
+        "Tipos de aleitamento: exclusivo, predominante, complementado, misto.",
+        "Ácido fólico previne defeitos do tubo neural; ferro previne anemia na gestação.",
+        "Alimentação complementar a partir dos 6 meses, sem açúcar até 2 anos, sem ultraprocessados.",
+        "Adolescência: estirão puberal eleva necessidade de energia, cálcio e ferro.",
+        "Idoso: risco de sarcopenia, desnutrição e desidratação; atenção a proteína, cálcio, B12 e D.",
+        "Guias: Guia Alimentar (2014) e Guia para Crianças <2 anos (2019); curvas da OMS.",
+        "Primeiros 1.000 dias = janela crítica de desenvolvimento."
+      ],
+      "dica_prova": "A pegadinha mais frequente é o tempo do aleitamento exclusivo (6 meses, sem água/chá) versus complementado (até 2 anos). Memorize que o açúcar de adição é desaconselhado até os 2 anos. Em idosos, ligue sarcopenia a aporte proteico. A introdução alimentar começa aos 6 meses, não antes."
     }
-   ],
-   "exemplo": "Item Cebraspe: 'No Brasil contemporâneo, a desnutrição foi totalmente erradicada, restando apenas a obesidade como problema nutricional.' Errado: o país vive a dupla carga de má nutrição — a obesidade cresce, mas persistem desnutrição (sobretudo déficit de estatura na infância vulnerável) e carências de micronutrientes (anemia, hipovitaminose A). Cenário prático: ao avaliar crianças de um CRAS, o déficit de estatura para a idade indica desnutrição crônica/privação prolongada, enquanto o baixo peso para a estatura indica desnutrição aguda.",
-   "pontos_chave": [
-    "Transição nutricional: queda da desnutrição + aumento da obesidade = dupla carga de má nutrição.",
-    "IMC adulto: eutrofia 18,5–24,9; sobrepeso 25–29,9; obesidade ≥30 (graus I, II, III).",
-    "Déficit de estatura/idade = desnutrição crônica (stunting); déficit peso/estatura = aguda (wasting).",
-    "Marasmo (energético, magreza) x kwashiorkor (proteico, edema).",
-    "Anemia ferropriva é a carência mais prevalente; gestantes e <2 anos são os grupos de risco.",
-    "Fome oculta = carências de micronutrientes (ferro, vitamina A, iodo, folato).",
-    "Sistemas de monitoramento: SISVAN, POF, PNS, VIGITEL; curvas da OMS para crianças.",
-    "Primeiros 1.000 dias (gestação aos 2 anos): janela crítica."
-   ],
-   "dica_prova": "Decore a faixa de IMC e a distinção stunting (estatura/idade, crônica) x wasting (peso/estatura, aguda) — cai com frequência. Outra pegadinha: associar erroneamente kwashiorkor à magreza extrema (é o marasmo) ou negar a coexistência de desnutrição e obesidade. Anemia ferropriva como 'a carência mais prevalente' é afirmação correta recorrente."
-  },
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Nutrição nos ciclos da vida",
-   "intro": "As necessidades nutricionais variam ao longo da vida conforme o crescimento, a maturação, a reprodução e o envelhecimento. A nutrição nos ciclos da vida estuda essas demandas específicas na gestação, lactação, infância, adolescência, vida adulta e velhice, orientando a prevenção de agravos em cada fase.\n\nEm saúde pública, ganham destaque os primeiros 1.000 dias (da concepção aos 2 anos), janela decisiva para o desenvolvimento, e o aleitamento materno, considerado a intervenção isolada de maior impacto na sobrevivência infantil. As recomendações alimentares para a população brasileira estão consolidadas no Guia Alimentar para a População Brasileira (2014) e no Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (2019).\n\nO subtópico cobra as particularidades nutricionais da gestação, da infância (incluindo aleitamento e introdução alimentar), da adolescência e do idoso, com ênfase no aleitamento materno e nas diretrizes dos guias alimentares."
-  ,
-   "secoes": [
-    {
-     "h": "Gestação e lactação",
-     "p": "Na gestação aumentam as necessidades de energia (incremento sobretudo no 2º e 3º trimestres) e de micronutrientes. A suplementação de ácido fólico no periconcepcional previne defeitos do tubo neural, e a de ferro previne anemia. O ganho de peso gestacional recomendado é orientado pelo IMC pré-gestacional (menor ganho para quem inicia com sobrepeso/obesidade, maior para baixo peso).\n\nNa lactação, as necessidades energéticas e hídricas são elevadas para sustentar a produção de leite. O estado nutricional materno influencia o peso ao nascer e o risco de prematuridade, justificando o acompanhamento no pré-natal."
-    },
-    {
-     "h": "Aleitamento materno",
-     "p": "A recomendação da OMS e do Ministério da Saúde é aleitamento materno exclusivo (só leite materno, sem água, chás ou outros alimentos) até os 6 meses e complementado até 2 anos ou mais. Classificações: exclusivo, predominante (com líquidos), complementado (com outros alimentos) e misto/parcial.\n\nO leite materno é completo, de fácil digestão, com fatores imunológicos (IgA, lactoferrina) que protegem contra infecções; reduz mortalidade infantil, diarreias e alergias, e traz benefícios à mãe (involução uterina, vínculo, proteção contra câncer de mama). É protegido por políticas como a Norma Brasileira de Comercialização de Alimentos para Lactentes (NBCAL), os Bancos de Leite Humano e a Iniciativa Hospital Amigo da Criança."
-    },
-    {
-     "h": "Infância: introdução alimentar e crescimento",
-     "p": "A partir dos 6 meses inicia-se a alimentação complementar, mantendo o leite materno. O Guia Alimentar para Crianças Menores de 2 Anos recomenda alimentos in natura e minimamente processados, variados, sem açúcar de adição até os 2 anos, sem ultraprocessados, respeitando a aceitação e a autonomia da criança (sinais de fome e saciedade).\n\nO crescimento é monitorado pela Caderneta da Criança com as curvas da OMS (peso, estatura, IMC e perímetro cefálico). A infância é fase de formação de hábitos alimentares e de prevenção tanto da desnutrição quanto da obesidade infantil."
-    },
-    {
-     "h": "Adolescência",
-     "p": "A adolescência tem o segundo maior pico de crescimento (estirão puberal), elevando as necessidades de energia, proteína, cálcio (mineralização óssea) e ferro (especialmente em meninas após a menarca). É fase de vulnerabilidade a inadequações: pular refeições, consumo de ultraprocessados, dietas restritivas e transtornos alimentares.\n\nA educação alimentar e o ambiente escolar (PNAE) são estratégicos para a formação de hábitos saudáveis nessa etapa."
-    },
-    {
-     "h": "Idoso",
-     "p": "No envelhecimento ocorrem alterações que afetam o estado nutricional: redução da massa muscular (sarcopenia), do paladar e olfato, da salivação, da mastigação e da absorção, além de polifarmácia e isolamento social. Há risco aumentado de desnutrição, desidratação e de carências (vitamina B12, vitamina D, cálcio).\n\nRecomenda-se dieta fracionada, de fácil mastigação, com aporte proteico adequado para preservar a massa muscular, atenção à hidratação e ao consumo de cálcio/vitamina D (saúde óssea). A avaliação usa instrumentos próprios (ex.: Mini Avaliação Nutricional) e considera limitações funcionais."
-    }
-   ],
-   "exemplo": "Item Cebraspe: 'Recomenda-se a oferta de água e chás ao lactente em aleitamento materno exclusivo nos dias quentes, antes dos 6 meses.' Errado: aleitamento exclusivo significa apenas leite materno, sem água, chás ou quaisquer outros líquidos/alimentos, até os 6 meses; o próprio leite supre a necessidade hídrica. Cenário SEDES: orientar uma gestante atendida no CRAS sobre ácido fólico (tubo neural), ferro (anemia) e o preparo para o aleitamento exclusivo até os 6 meses.",
-   "pontos_chave": [
-    "Aleitamento materno EXCLUSIVO até 6 meses; complementado até 2 anos ou mais.",
-    "Tipos de aleitamento: exclusivo, predominante, complementado, misto.",
-    "Ácido fólico previne defeitos do tubo neural; ferro previne anemia na gestação.",
-    "Alimentação complementar a partir dos 6 meses, sem açúcar até 2 anos, sem ultraprocessados.",
-    "Adolescência: estirão puberal eleva necessidade de energia, cálcio e ferro.",
-    "Idoso: risco de sarcopenia, desnutrição e desidratação; atenção a proteína, cálcio, B12 e D.",
-    "Guias: Guia Alimentar (2014) e Guia para Crianças <2 anos (2019); curvas da OMS.",
-    "Primeiros 1.000 dias = janela crítica de desenvolvimento."
-   ],
-   "dica_prova": "A pegadinha mais frequente é o tempo do aleitamento exclusivo (6 meses, sem água/chá) versus complementado (até 2 anos). Memorize que o açúcar de adição é desaconselhado até os 2 anos. Em idosos, ligue sarcopenia a aporte proteico. A introdução alimentar começa aos 6 meses, não antes."
-  }
- ]
+  ]
 }

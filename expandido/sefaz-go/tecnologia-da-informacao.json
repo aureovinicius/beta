@@ -2,8 +2,7 @@
   "slug": "tecnologia-da-informacao",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "modelo-relacional-e-chaves",
       "titulo": "Modelo relacional e chaves",
       "intro": "Um banco de dados é uma coleção organizada e persistente de dados inter-relacionados, gerenciada por um software chamado SGBD (Sistema Gerenciador de Banco de Dados), responsável por armazenamento, acesso concorrente, segurança e integridade. O SGBD cria uma camada de abstração entre os dados físicos (arquivos em disco) e o usuário/aplicação, evitando a redundância descontrolada e a dependência dos programas em relação à estrutura física dos dados.\n\nO modelo relacional, proposto por Edgar F. Codd (IBM, 1970), é o paradigma dominante e fundamenta-se na teoria dos conjuntos e na lógica de predicados. Nele, os dados são organizados em relações (tabelas bidimensionais), e os relacionamentos entre os dados são representados por meio de valores (chaves), e não por ponteiros físicos. Esse é o ponto que mais cai em prova: no modelo relacional, ligações entre tabelas se fazem por valores de chaves, não por endereços de memória.\n\nPara o Auditor-Fiscal, dominar tabelas e chaves é a base para consultar dados de NF-e, EFD/SPED, cadastro de contribuintes e cruzamentos fiscais, pois toda a inteligência fiscal repousa sobre bases relacionais bem modeladas.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha mais frequente troca as propriedades de PK e FK: lembre que só a FK admite NULL e repetição. Outra armadilha confunde grau (colunas) com cardinalidade (linhas). E desconfie de afirmações que dizem que o modelo relacional usa 'ponteiros' ou 'endereços' para relacionar tabelas — isso é característica de modelos de rede/hierárquico, não do relacional."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "linguagens-sql",
       "titulo": "Linguagens (SQL)",
       "intro": "SQL (Structured Query Language) é a linguagem padrão (ANSI/ISO) para definir, manipular e controlar dados em bancos relacionais. É uma linguagem declarativa: o usuário descreve O QUE quer obter, e o SGBD decide COMO obter (via otimizador de consultas). Esse caráter declarativo a diferencia de linguagens procedurais.\n\nSQL é tradicionalmente subdividida em sublinguagens conforme a finalidade dos comandos: DDL (definição), DML (manipulação), DCL (controle de acesso) e DTL/TCL (controle de transações). Algumas bancas incluem ainda a DQL para o SELECT, mas é comum tratar o SELECT dentro da DML — atenção a essa divergência de classificação.\n\nPara a fiscalização, SQL é a ferramenta central: cruzar EFD com NF-e, somar bases de cálculo de ICMS por período, localizar contribuintes omissos e gerar malhas fiscais são, no fundo, consultas SQL.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "Memorize a alocação de cada comando à sua sublinguagem — bancas adoram dizer que TRUNCATE é DML (errado, é DDL) ou que GRANT é DML (errado, é DCL). Outra cilada recorrente: afirmar que HAVING é usada para filtrar linhas (não, ela filtra grupos) ou que DELETE remove a estrutura da tabela (não, só os dados; quem remove a estrutura é DROP)."
     },
     {
-      "ti": 0,
-      "si": 2,
+      "sid": "normalizacao",
       "titulo": "Normalização",
       "intro": "Normalização é um processo formal de decomposição de tabelas, baseado em dependências funcionais, com o objetivo de reduzir a redundância de dados e eliminar anomalias de atualização, inserção e exclusão. Foi desenvolvida por E. F. Codd e refinada em formas normais sucessivas (1FN, 2FN, 3FN, BCNF, 4FN, 5FN), cada uma corrigindo um tipo específico de problema.\n\nA ideia central é a dependência funcional: dizemos que B depende funcionalmente de A (A -> B) quando cada valor de A determina um único valor de B. As formas normais são definidas a partir de como os atributos não-chave dependem (ou não) da chave. Um banco bem normalizado evita, por exemplo, armazenar o nome do município repetido em milhares de notas fiscais.\n\nNa prática fiscal, a normalização garante consistência das bases (cadastro, NF-e, EFD), mas o desempenho analítico às vezes pede o caminho inverso (desnormalização), tema que reaparece no Data Warehouse.",
       "secoes": [
@@ -111,8 +108,7 @@
       "dica_prova": "Decore a frase 'depende da chave, de toda a chave e de nada além da chave' (3FN). A pegadinha mais comum afirma que uma tabela com chave simples pode violar a 2FN — não pode, pois dependência parcial exige chave composta. Outra cilada inverte os conceitos: dependência PARCIAL é da 2FN; dependência TRANSITIVA é da 3FN. E lembre que normalizar tende a piorar o desempenho de consultas (mais JOINs), motivo da desnormalização em data warehouses."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "integridade-e-seguranca",
       "titulo": "Integridade e segurança",
       "intro": "A administração de dados trata o dado como ativo estratégico da organização, zelando por sua integridade (correção e consistência), confidencialidade (sigilo) e disponibilidade. No contexto fiscal, isso é crítico: dados do contribuinte são protegidos por sigilo fiscal (art. 198 do CTN), e qualquer falha de integridade ou vazamento tem repercussão legal e funcional.\n\nDois pilares sustentam esse zelo: o controle de transações, que garante a consistência mesmo diante de falhas e acessos concorrentes (propriedades ACID e níveis de isolamento), e o controle de acesso, que assegura que apenas usuários autorizados manipulem cada dado (autenticação e autorização).\n\nEntender ACID e isolamento é decisivo porque bancas cobram exatamente onde as garantias começam e terminam — por exemplo, por que uma transação pode 'enxergar' dados não confirmados de outra.",
       "secoes": [
@@ -146,8 +142,7 @@
       "dica_prova": "Associe cada anomalia ao nível que a impede: SERIALIZABLE bloqueia tudo; REPEATABLE READ ainda deixa passar phantom; READ COMMITTED só barra dirty read. A pegadinha mais comum troca atomicidade por durabilidade (atomicidade é 'tudo ou nada' durante a execução; durabilidade é 'persiste após o commit'). Cuidado também com 'Consistência' do ACID, que se refere a respeitar as regras de integridade do banco, e não a 'consistência eventual' de bancos distribuídos."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "backup-e-recuperacao",
       "titulo": "Backup e recuperação",
       "intro": "Backup (cópia de segurança) e recovery (recuperação) constituem a estratégia de continuidade dos dados, assegurando que informações fiscais possam ser restauradas após falhas de hardware, erros humanos, corrupção lógica, desastres ou ataques (como ransomware). Para o fisco, essa garantia também tem dimensão de auditabilidade: a integridade temporal dos dados precisa ser comprovável.\n\nA recuperação de bancos de dados apoia-se em dois recursos centrais: as cópias de backup e os logs de transações (registro sequencial de todas as alterações). Com eles, o SGBD reconstrói um estado consistente após uma falha, refazendo (REDO) transações confirmadas e desfazendo (UNDO) as não confirmadas.\n\nO planejamento define dois parâmetros-chave de negócio: RPO (quanto de dado se aceita perder) e RTO (em quanto tempo se precisa voltar a operar) — conceitos cada vez mais cobrados em provas de TI para a área fiscal.",
       "secoes": [
@@ -181,8 +176,7 @@
       "dica_prova": "A confusão incremental x diferencial é a campeã de erros: incremental = 'desde o último backup'; diferencial = 'desde o último FULL'. Decore também RPO (ponto/dado perdido) versus RTO (tempo de retorno) — bancas trocam os dois. E lembre que durabilidade do ACID e os logs de transação andam juntos: é o log/WAL que garante a recuperação e a persistência após o commit."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "esquema-estrela-e-olap",
       "titulo": "Esquema estrela e OLAP",
       "intro": "Quando o objetivo deixa de ser registrar operações (OLTP) e passa a ser analisar grandes volumes históricos, recorre-se à modelagem multidimensional e ao Data Warehouse (DW). Um DW, na definição de Bill Inmon, é uma coleção de dados orientada a assunto, integrada, não-volátil e variável no tempo, destinada a apoiar a tomada de decisão.\n\nA modelagem multidimensional, popularizada por Ralph Kimball, organiza os dados em fatos (medidas numéricas dos eventos de negócio) e dimensões (os eixos de análise: tempo, produto, contribuinte, local). Essa estrutura espelha a forma como o gestor pensa — 'qual a arrecadação (fato) por município (dimensão) e por mês (dimensão)?'.\n\nSobre esse modelo opera o OLAP (Online Analytical Processing), que permite navegar interativamente pelos dados em múltiplas perspectivas. Para a inteligência fiscal, é o que viabiliza acompanhar a arrecadação de ICMS por setor, período e região com agilidade.",
       "secoes": [
@@ -216,8 +210,7 @@
       "dica_prova": "A inversão estrela x floco de neve é a pegadinha número um: ESTRELA = desnormalizado (rápido); FLOCO DE NEVE = normalizado. Decore que drill-down DESCE ao detalhe e roll-up SOBE para o agregado — bancas costumam trocar os dois. E não confunda 'não-volátil' do DW (dados não são alterados/excluídos, só acrescentados) com algo relativo a memória; é característica conceitual de Inmon."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "etl",
       "titulo": "ETL",
       "intro": "ETL (Extract, Transform, Load — Extração, Transformação e Carga) é o processo que alimenta o Data Warehouse, integrando dados de fontes heterogêneas (bancos OLTP, planilhas, arquivos SPED/EFD, NF-e, web services) em um repositório único, limpo e padronizado. É frequentemente a etapa mais cara e demorada de um projeto de BI, consumindo grande parte do esforço.\n\nO ETL resolve um problema concreto da fiscalização: as informações estão dispersas em sistemas diferentes, com formatos, códigos e qualidades distintos. Sem integração e limpeza, os cruzamentos fiscais seriam pouco confiáveis. O ETL transforma esse caos em uma base coerente para análise.\n\nÉ comum tratar a área de staging como o 'laboratório' onde os dados são preparados antes de irem para o DW, e distinguir o ETL do ELT, variação moderna em que a transformação ocorre após a carga, dentro de plataformas de grande capacidade (data lakes, nuvem).",
       "secoes": [
@@ -251,8 +244,7 @@
       "dica_prova": "Memorize a ordem das siglas: ETL transforma antes da carga; ELT transforma depois. Sobre SCD, a pegadinha frequente: Tipo 1 PERDE o histórico (sobrescreve); Tipo 2 PRESERVA (nova linha versionada). Bancas também afirmam que a transformação ocorre nos sistemas de origem — geralmente não; ocorre na staging/destino, justamente para não sobrecarregar o OLTP."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "indicadores-e-visualizacao",
       "titulo": "Indicadores e visualização",
       "intro": "Business Intelligence (BI) é o conjunto de processos, tecnologias e ferramentas que transformam dados brutos em informação e conhecimento para apoiar a tomada de decisão. O BI engloba a cadeia que vai das fontes operacionais, passando pelo ETL e pelo Data Warehouse, até a entrega final em relatórios, dashboards e análises OLAP. Seu objetivo é entregar a informação certa, à pessoa certa, no momento certo.\n\nNa ponta do BI estão os indicadores (KPIs) e a visualização de dados, que traduzem grandes volumes em painéis intuitivos. Para a administração tributária, isso significa monitorar a arrecadação, acompanhar metas e, sobretudo, apoiar a seleção de contribuintes para fiscalização com base em evidências, e não em intuição.\n\nUm conceito moderno relacionado é o self-service BI, que dá ao próprio auditor/gestor autonomia para explorar dados sem depender constantemente da equipe de TI.",
       "secoes": [
@@ -286,8 +278,7 @@
       "dica_prova": "A distinção métrica x KPI é cobrada com frequência: KPI é estratégico (chave), nem toda métrica é KPI. Cuidado também com a fronteira BI x Data Mining: BI tende a ser descritivo (relatórios, dashboards do passado/presente), enquanto a mineração busca padrões e previsões (preditivo). Não diga que dashboard 'substitui' o DW — o dashboard é a camada de apresentação que consome o DW."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "tarefas-de-mineracao",
       "titulo": "Tarefas de mineração",
       "intro": "Mineração de dados (Data Mining) é a etapa de descoberta de padrões úteis, válidos e antes desconhecidos em grandes volumes de dados, situada dentro do processo mais amplo de KDD (Knowledge Discovery in Databases — Descoberta de Conhecimento em Bases de Dados). O KDD compreende seleção, pré-processamento, transformação, mineração propriamente dita e interpretação/avaliação dos padrões.\n\nÉ um erro comum confundir mineração com simples consulta SQL ou com OLAP: o OLAP responde perguntas que o analista já formulou (top-down), enquanto a mineração descobre padrões que ninguém perguntou (bottom-up), usando algoritmos de estatística e aprendizado de máquina. Para o fisco, é o que permite ir além do conhecido e revelar esquemas de sonegação não óbvios.\n\nAs tarefas de mineração agrupam-se em preditivas (estimar um valor/classe futura a partir de exemplos) e descritivas (encontrar estrutura e relações nos dados).",
       "secoes": [
@@ -321,8 +312,7 @@
       "dica_prova": "Memorize o par classificação x clustering: ambas separam registros, mas classificação é SUPERVISIONADA (classes conhecidas, dados rotulados) e clustering é NÃO supervisionada (grupos emergem). A outra dupla é classificação (alvo categórico) x regressão (alvo numérico contínuo) — trocar isso é erro clássico. E não confunda Data Mining (descobre padrões novos) com OLAP/consulta SQL (responde perguntas já formuladas)."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "avaliacao-de-modelos",
       "titulo": "Avaliação de modelos",
       "intro": "De nada adianta treinar um modelo preditivo se não soubermos quão confiável ele é. A avaliação de modelos quantifica o desempenho usando métricas adequadas ao tipo de problema (classificação, regressão) e protocolos que evitam ilusões de qualidade — como testar o modelo nos mesmos dados em que foi treinado.\n\nO conceito central é separar dados de treino e dados de teste, garantindo que a avaliação meça a capacidade de generalização (acertar em dados nunca vistos), e não a mera memorização. Daí surgem dois vilões: o overfitting (modelo decora o treino e vai mal no teste) e o underfitting (modelo simples demais, vai mal em ambos).\n\nPara a fiscalização, escolher a métrica correta é crucial: em bases muito desbalanceadas (poucos sonegadores entre muitos contribuintes regulares), a acurácia engana, e métricas como recall e precisão tornam-se decisivas.",
       "secoes": [
@@ -356,8 +346,7 @@
       "dica_prova": "A pegadinha favorita explora a acurácia em bases desbalanceadas: um modelo pode ter 99% de acurácia e ser inútil para detectar fraude (recall baixíssimo). Decore precisão (VP sobre todos os PREVISTOS positivos) versus recall (VP sobre todos os positivos REAIS) — trocar os denominadores é o erro mais comum. E lembre: métricas de classificação (recall, F1, AUC) não se aplicam a regressão, que usa RMSE/MAE/R²."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "aprendizado-de-maquina",
       "titulo": "Aprendizado de máquina",
       "intro": "Ciência de dados é o campo interdisciplinar que combina estatística, computação e conhecimento de negócio para extrair valor de dados. No seu núcleo técnico está o aprendizado de máquina (machine learning — ML), subárea da inteligência artificial em que algoritmos aprendem padrões a partir de dados (em vez de serem programados com regras explícitas) e melhoram seu desempenho com a experiência.\n\nO ML organiza-se classicamente em três paradigmas: supervisionado (aprende de exemplos rotulados), não supervisionado (descobre estrutura em dados sem rótulos) e por reforço (aprende por tentativa e erro, maximizando recompensas). Saber a qual paradigma cada algoritmo pertence é o ponto mais cobrado em prova.\n\nPara o Auditor-Fiscal, o ML é o motor da malha fiscal inteligente: prever risco, segmentar contribuintes e antecipar comportamentos de sonegação a partir do enorme volume de dados de NF-e, SPED e pagamentos.",
       "secoes": [
@@ -391,8 +380,7 @@
       "dica_prova": "Saiba enquadrar cada algoritmo: k-means e PCA = não supervisionado; regressão logística, SVM, árvores e Random Forest = supervisionado. A pegadinha clássica chama o k-means de supervisionado. Outra cilada confunde os paradigmas com as tarefas: supervisionado abrange classificação E regressão; não confunda 'não supervisionado' com 'por reforço' (este aprende por recompensa, interagindo com um ambiente)."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "big-data-e-fluxos",
       "titulo": "Big Data e fluxos",
       "intro": "Big Data designa o tratamento de conjuntos de dados grandes, rápidos e variados demais para as ferramentas tradicionais. É clássico caracterizá-lo pelos 'Vs': Volume (escala massiva), Velocidade (geração e processamento rápidos, às vezes em tempo real), Variedade (estruturados, semiestruturados e não estruturados) e, em versões ampliadas, Veracidade (qualidade/confiabilidade) e Valor (utilidade extraída).\n\nNo mundo fiscal, NF-e, EFD, cupons fiscais eletrônicos e demais documentos geram um fluxo contínuo e gigantesco de dados. Processá-los exige arquiteturas distribuídas e técnicas específicas de mineração de fluxos (streams) e de séries temporais, que permitem detectar irregularidades quase no instante em que ocorrem.\n\nÉ a fronteira entre o que era análise histórica (batch) e a análise em tempo real, que viabiliza a fiscalização proativa em vez de apenas retrospectiva.",
       "secoes": [

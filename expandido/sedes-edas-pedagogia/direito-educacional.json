@@ -1,41 +1,40 @@
 {
- "slug": "direito-educacional",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Educação na CF e LDB",
-   "intro": "A educação é um direito social (art. 6 da CF/88) e, ao mesmo tempo, um direito de todos e dever do Estado e da família (art. 205). Seu regime jurídico está estruturado na Constituição (arts. 205 a 214) e detalhado pela Lei de Diretrizes e Bases da Educação Nacional (LDB, Lei 9.394/1996). Para o pedagogo, dominar princípios, organização e gestão democrática é base tanto da atuação escolar quanto da defesa do direito à educação no campo socioassistencial.\n\nA CF fixa princípios, define competências federativas e estabelece garantias como gratuidade do ensino público e obrigatoriedade. A LDB regulamenta esses comandos, organizando níveis, modalidades, finalidades e a gestão dos sistemas de ensino.",
-   "secoes": [
+  "slug": "direito-educacional",
+  "itens": [
     {
-     "h": "Princípios constitucionais do ensino (art. 206)",
-     "p": "O art. 206 da CF lista os princípios do ensino, entre eles: igualdade de condições para acesso e permanência; liberdade de aprender, ensinar, pesquisar e divulgar o pensamento; pluralismo de ideias e de concepções pedagógicas; gratuidade do ensino público em estabelecimentos oficiais; valorização dos profissionais da educação (com piso salarial e plano de carreira); gestão democrática do ensino público; e garantia de padrão de qualidade.\n\nO art. 205 define os objetivos: pleno desenvolvimento da pessoa, preparo para o exercício da cidadania e qualificação para o trabalho. Esses três fins são muito cobrados em prova."
-    },
-    {
-     "h": "Dever do Estado e organização (arts. 208 e 211)",
-     "p": "O art. 208 estabelece o dever do Estado mediante garantias como: educação básica obrigatória e gratuita dos 4 aos 17 anos (com oferta gratuita também para quem não teve acesso na idade própria); atendimento educacional especializado às pessoas com deficiência, preferencialmente na rede regular; educação infantil em creche e pré-escola até 5 anos; e progressiva universalização do ensino médio gratuito.\n\nO art. 211 organiza o regime de colaboração: a União exerce função redistributiva e supletiva; os Municípios atuam prioritariamente no ensino fundamental e na educação infantil; os Estados e o DF, prioritariamente no ensino fundamental e médio. O acesso ao ensino obrigatório e gratuito é direito público subjetivo."
-    },
-    {
-     "h": "A LDB 9.394/1996: estrutura e finalidades",
-     "p": "A LDB organiza a educação escolar em dois níveis: educação básica (educação infantil, ensino fundamental e ensino médio) e educação superior. Prevê modalidades como educação de jovens e adultos (EJA), educação especial, educação profissional e tecnológica, educação a distância e educação do campo, indígena e quilombola.\n\nFixa as incumbências dos docentes (art. 13), dos estabelecimentos (art. 12) e dos sistemas. Estabelece a carga horária mínima anual e dias letivos, a elaboração da proposta pedagógica pela escola e a obrigatoriedade de a escola articular-se com as famílias e a comunidade. A LDB também acolheu a Base Nacional Comum Curricular como referência."
-    },
-    {
-     "h": "Gestão democrática do ensino",
-     "p": "A gestão democrática é princípio constitucional (art. 206, VI) e diretriz da LDB (arts. 3, VIII, e 14). O art. 14 da LDB define que os sistemas de ensino regulamentarão a gestão democrática conforme dois princípios: I - participação dos profissionais da educação na elaboração do projeto pedagógico da escola; II - participação das comunidades escolar e local em conselhos escolares ou equivalentes.\n\nO art. 15 assegura às escolas públicas de educação básica progressivos graus de autonomia pedagógica, administrativa e de gestão financeira. Instrumentos da gestão democrática: projeto político-pedagógico (PPP), conselho escolar, grêmio estudantil, conselho de classe e participação das famílias. O Plano Nacional de Educação (PNE) também trata da gestão democrática: o PNE 2014-2024 (Lei 13.005/2014, cuja vigência foi prorrogada até 31/12/2025 pela Lei 14.934/2024) trazia meta específica sobre o tema, e o novo PNE para o decênio 2026-2036 (Lei 15.388/2026) manteve a gestão democrática como diretriz."
+      "sid": "educacao-na-cf-e-ldb",
+      "titulo": "Educação na CF e LDB",
+      "intro": "A educação é um direito social (art. 6 da CF/88) e, ao mesmo tempo, um direito de todos e dever do Estado e da família (art. 205). Seu regime jurídico está estruturado na Constituição (arts. 205 a 214) e detalhado pela Lei de Diretrizes e Bases da Educação Nacional (LDB, Lei 9.394/1996). Para o pedagogo, dominar princípios, organização e gestão democrática é base tanto da atuação escolar quanto da defesa do direito à educação no campo socioassistencial.\n\nA CF fixa princípios, define competências federativas e estabelece garantias como gratuidade do ensino público e obrigatoriedade. A LDB regulamenta esses comandos, organizando níveis, modalidades, finalidades e a gestão dos sistemas de ensino.",
+      "secoes": [
+        {
+          "h": "Princípios constitucionais do ensino (art. 206)",
+          "p": "O art. 206 da CF lista os princípios do ensino, entre eles: igualdade de condições para acesso e permanência; liberdade de aprender, ensinar, pesquisar e divulgar o pensamento; pluralismo de ideias e de concepções pedagógicas; gratuidade do ensino público em estabelecimentos oficiais; valorização dos profissionais da educação (com piso salarial e plano de carreira); gestão democrática do ensino público; e garantia de padrão de qualidade.\n\nO art. 205 define os objetivos: pleno desenvolvimento da pessoa, preparo para o exercício da cidadania e qualificação para o trabalho. Esses três fins são muito cobrados em prova."
+        },
+        {
+          "h": "Dever do Estado e organização (arts. 208 e 211)",
+          "p": "O art. 208 estabelece o dever do Estado mediante garantias como: educação básica obrigatória e gratuita dos 4 aos 17 anos (com oferta gratuita também para quem não teve acesso na idade própria); atendimento educacional especializado às pessoas com deficiência, preferencialmente na rede regular; educação infantil em creche e pré-escola até 5 anos; e progressiva universalização do ensino médio gratuito.\n\nO art. 211 organiza o regime de colaboração: a União exerce função redistributiva e supletiva; os Municípios atuam prioritariamente no ensino fundamental e na educação infantil; os Estados e o DF, prioritariamente no ensino fundamental e médio. O acesso ao ensino obrigatório e gratuito é direito público subjetivo."
+        },
+        {
+          "h": "A LDB 9.394/1996: estrutura e finalidades",
+          "p": "A LDB organiza a educação escolar em dois níveis: educação básica (educação infantil, ensino fundamental e ensino médio) e educação superior. Prevê modalidades como educação de jovens e adultos (EJA), educação especial, educação profissional e tecnológica, educação a distância e educação do campo, indígena e quilombola.\n\nFixa as incumbências dos docentes (art. 13), dos estabelecimentos (art. 12) e dos sistemas. Estabelece a carga horária mínima anual e dias letivos, a elaboração da proposta pedagógica pela escola e a obrigatoriedade de a escola articular-se com as famílias e a comunidade. A LDB também acolheu a Base Nacional Comum Curricular como referência."
+        },
+        {
+          "h": "Gestão democrática do ensino",
+          "p": "A gestão democrática é princípio constitucional (art. 206, VI) e diretriz da LDB (arts. 3, VIII, e 14). O art. 14 da LDB define que os sistemas de ensino regulamentarão a gestão democrática conforme dois princípios: I - participação dos profissionais da educação na elaboração do projeto pedagógico da escola; II - participação das comunidades escolar e local em conselhos escolares ou equivalentes.\n\nO art. 15 assegura às escolas públicas de educação básica progressivos graus de autonomia pedagógica, administrativa e de gestão financeira. Instrumentos da gestão democrática: projeto político-pedagógico (PPP), conselho escolar, grêmio estudantil, conselho de classe e participação das famílias. O Plano Nacional de Educação (PNE) também trata da gestão democrática: o PNE 2014-2024 (Lei 13.005/2014, cuja vigência foi prorrogada até 31/12/2025 pela Lei 14.934/2024) trazia meta específica sobre o tema, e o novo PNE para o decênio 2026-2036 (Lei 15.388/2026) manteve a gestão democrática como diretriz."
+        }
+      ],
+      "exemplo": "(estilo Cebraspe) Julgue o item: \"De acordo com a CF/88, a educação básica obrigatória e gratuita abrange a faixa dos 6 aos 14 anos, correspondente ao ensino fundamental.\" Comentário: ERRADO. A EC 59/2009 ampliou a obrigatoriedade e gratuidade para a faixa dos 4 aos 17 anos (educação infantil pré-escolar, fundamental e médio). Restringir à faixa do antigo ensino fundamental é pegadinha frequente sobre o art. 208 da CF.",
+      "pontos_chave": [
+        "Educação: direito social (art. 6) e direito de todos/dever do Estado e da família (art. 205).",
+        "Fins da educação (art. 205): desenvolvimento da pessoa, cidadania e qualificação para o trabalho.",
+        "Princípios do ensino (art. 206): igualdade de acesso/permanência, gratuidade pública, gestão democrática, valorização dos profissionais, padrão de qualidade.",
+        "Obrigatoriedade e gratuidade: dos 4 aos 17 anos (EC 59/2009); acesso ao ensino obrigatório é direito público subjetivo.",
+        "Regime de colaboração (art. 211): Município = infantil e fundamental; Estado/DF = fundamental e médio; União = supletiva/redistributiva.",
+        "LDB 9.394/1996: educação básica (infantil, fundamental, médio) e superior; modalidades (EJA, especial, profissional, EAD).",
+        "Gestão democrática (art. 14 LDB): participação dos profissionais no PPP e da comunidade nos conselhos escolares.",
+        "Autonomia progressiva das escolas (art. 15 LDB) e PPP como instrumento central."
+      ],
+      "dica_prova": "Decore os números: faixa obrigatória 4 a 17 anos (não 6 a 14). Atenção ao art. 211: Município atua PRIORITARIAMENTE em infantil e fundamental; trocar essa atribuição é pegadinha. A gestão democrática (art. 14) é só do ensino PÚBLICO; afirmar que se aplica a escolas privadas torna o item errado. Lembre que o acesso ao ensino obrigatório gratuito é direito público subjetivo, e seu não oferecimento gera responsabilidade da autoridade competente."
     }
-   ],
-   "exemplo": "(estilo Cebraspe) Julgue o item: \"De acordo com a CF/88, a educação básica obrigatória e gratuita abrange a faixa dos 6 aos 14 anos, correspondente ao ensino fundamental.\" Comentário: ERRADO. A EC 59/2009 ampliou a obrigatoriedade e gratuidade para a faixa dos 4 aos 17 anos (educação infantil pré-escolar, fundamental e médio). Restringir à faixa do antigo ensino fundamental é pegadinha frequente sobre o art. 208 da CF.",
-   "pontos_chave": [
-    "Educação: direito social (art. 6) e direito de todos/dever do Estado e da família (art. 205).",
-    "Fins da educação (art. 205): desenvolvimento da pessoa, cidadania e qualificação para o trabalho.",
-    "Princípios do ensino (art. 206): igualdade de acesso/permanência, gratuidade pública, gestão democrática, valorização dos profissionais, padrão de qualidade.",
-    "Obrigatoriedade e gratuidade: dos 4 aos 17 anos (EC 59/2009); acesso ao ensino obrigatório é direito público subjetivo.",
-    "Regime de colaboração (art. 211): Município = infantil e fundamental; Estado/DF = fundamental e médio; União = supletiva/redistributiva.",
-    "LDB 9.394/1996: educação básica (infantil, fundamental, médio) e superior; modalidades (EJA, especial, profissional, EAD).",
-    "Gestão democrática (art. 14 LDB): participação dos profissionais no PPP e da comunidade nos conselhos escolares.",
-    "Autonomia progressiva das escolas (art. 15 LDB) e PPP como instrumento central."
-   ],
-   "dica_prova": "Decore os números: faixa obrigatória 4 a 17 anos (não 6 a 14). Atenção ao art. 211: Município atua PRIORITARIAMENTE em infantil e fundamental; trocar essa atribuição é pegadinha. A gestão democrática (art. 14) é só do ensino PÚBLICO; afirmar que se aplica a escolas privadas torna o item errado. Lembre que o acesso ao ensino obrigatório gratuito é direito público subjetivo, e seu não oferecimento gera responsabilidade da autoridade competente."
-  }
- ]
+  ]
 }

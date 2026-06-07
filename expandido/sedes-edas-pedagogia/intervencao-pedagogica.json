@@ -1,41 +1,40 @@
 {
- "slug": "intervencao-pedagogica",
- "itens": [
-  {
-   "ti": 0,
-   "si": 0,
-   "titulo": "Violências, direitos humanos e cidadania",
-   "intro": "A intervenção pedagógica em contextos de vulnerabilidade frequentemente lida com situações de violência: violência intrafamiliar, contra crianças e adolescentes, contra a mulher, contra a pessoa idosa e contra pessoas com deficiência. O pedagogo no SUAS atua tanto na prevenção quanto no acompanhamento socioeducativo das famílias, e precisa conhecer as formas de violência, os marcos legais de proteção e a perspectiva da educação em direitos humanos.\n\nA educação em direitos humanos (EDH) é o eixo que organiza essa atuação. Ela busca formar sujeitos de direitos, capazes de reconhecer e exigir seus direitos e de respeitar os direitos dos outros, promovendo cultura de paz e enfrentamento das violências e discriminações.",
-   "secoes": [
+  "slug": "intervencao-pedagogica",
+  "itens": [
     {
-     "h": "Tipos de violência e marcos legais",
-     "p": "As principais formas são: violência física, psicológica, sexual, negligência/abandono, violência patrimonial e violência institucional. Marcos legais essenciais: o ECA (Lei 8.069/1990), que assegura proteção integral e prioridade absoluta a crianças e adolescentes e veda qualquer forma de violência (a Lei 13.010/2014, Lei Menino Bernardo, proíbe castigos físicos e tratamento cruel ou degradante na educação); a Lei Maria da Penha (Lei 11.340/2006), que tipifica formas de violência doméstica e familiar contra a mulher; o Estatuto do Idoso (Lei 10.741/2003); e a Lei Brasileira de Inclusão (Lei 13.146/2015).\n\nA notificação de violência contra crianças e adolescentes ao Conselho Tutelar é obrigatória (art. 13 do ECA) e o sigilo profissional não a impede."
-    },
-    {
-     "h": "Prevenção de violências no trabalho socioeducativo",
-     "p": "A prevenção ocorre em três níveis: primária (ações universais de promoção de direitos e cultura de paz), secundária (foco em grupos de risco, com identificação precoce de sinais) e terciária (acompanhamento de casos já instalados para evitar reincidência e reparar danos).\n\nNo SUAS, a prevenção primária e secundária concentra-se na PSB (CRAS/SCFV), com oficinas sobre direitos, fortalecimento de vínculos e função protetiva das famílias; a atuação terciária ocorre na PSE (CREAS/PAEFI). O pedagogo planeja ações educativas que rompam a naturalização da violência e ampliem a rede de proteção da família e do território."
-    },
-    {
-     "h": "Educação em Direitos Humanos e a Res. CNE/CP 1/2012",
-     "p": "A Resolução CNE/CP 1/2012 estabelece as Diretrizes Nacionais para a Educação em Direitos Humanos, com base no Programa Nacional de Direitos Humanos (PNDH-3) e no Plano Nacional de Educação em Direitos Humanos (PNEDH). Ela define princípios da EDH: dignidade humana; igualdade de direitos; reconhecimento e valorização das diferenças e das diversidades; laicidade do Estado; democracia na educação; transversalidade, vivência e globalidade; e sustentabilidade socioambiental.\n\nA Resolução prevê que a EDH pode ocorrer de forma transversal (permeando todo o currículo e práticas), como conteúdo específico de disciplina, ou de maneira mista. Embora voltada à educação escolar, seus princípios orientam toda ação socioeducativa, inclusive no campo não escolar."
-    },
-    {
-     "h": "Cidadania, protagonismo e cultura de paz",
-     "p": "A finalidade última da intervenção pedagógica é a formação cidadã: sujeitos conscientes de seus direitos e deveres, capazes de participar e de transformar sua realidade. Isso dialoga com a educação popular de Freire (conscientização) e com a perspectiva de garantia de direitos do SUAS.\n\nPromover cultura de paz significa enfrentar as causas estruturais da violência (desigualdade, discriminação, exclusão), valorizar o diálogo e a mediação de conflitos, e construir relações baseadas no respeito. A atuação deve ser não discriminatória, atenta a recortes de gênero, raça, deficiência e geração, e articulada em rede de proteção (Conselho Tutelar, saúde, educação, justiça, segurança)."
+      "sid": "violencias-direitos-humanos-e-cidadania",
+      "titulo": "Violências, direitos humanos e cidadania",
+      "intro": "A intervenção pedagógica em contextos de vulnerabilidade frequentemente lida com situações de violência: violência intrafamiliar, contra crianças e adolescentes, contra a mulher, contra a pessoa idosa e contra pessoas com deficiência. O pedagogo no SUAS atua tanto na prevenção quanto no acompanhamento socioeducativo das famílias, e precisa conhecer as formas de violência, os marcos legais de proteção e a perspectiva da educação em direitos humanos.\n\nA educação em direitos humanos (EDH) é o eixo que organiza essa atuação. Ela busca formar sujeitos de direitos, capazes de reconhecer e exigir seus direitos e de respeitar os direitos dos outros, promovendo cultura de paz e enfrentamento das violências e discriminações.",
+      "secoes": [
+        {
+          "h": "Tipos de violência e marcos legais",
+          "p": "As principais formas são: violência física, psicológica, sexual, negligência/abandono, violência patrimonial e violência institucional. Marcos legais essenciais: o ECA (Lei 8.069/1990), que assegura proteção integral e prioridade absoluta a crianças e adolescentes e veda qualquer forma de violência (a Lei 13.010/2014, Lei Menino Bernardo, proíbe castigos físicos e tratamento cruel ou degradante na educação); a Lei Maria da Penha (Lei 11.340/2006), que tipifica formas de violência doméstica e familiar contra a mulher; o Estatuto do Idoso (Lei 10.741/2003); e a Lei Brasileira de Inclusão (Lei 13.146/2015).\n\nA notificação de violência contra crianças e adolescentes ao Conselho Tutelar é obrigatória (art. 13 do ECA) e o sigilo profissional não a impede."
+        },
+        {
+          "h": "Prevenção de violências no trabalho socioeducativo",
+          "p": "A prevenção ocorre em três níveis: primária (ações universais de promoção de direitos e cultura de paz), secundária (foco em grupos de risco, com identificação precoce de sinais) e terciária (acompanhamento de casos já instalados para evitar reincidência e reparar danos).\n\nNo SUAS, a prevenção primária e secundária concentra-se na PSB (CRAS/SCFV), com oficinas sobre direitos, fortalecimento de vínculos e função protetiva das famílias; a atuação terciária ocorre na PSE (CREAS/PAEFI). O pedagogo planeja ações educativas que rompam a naturalização da violência e ampliem a rede de proteção da família e do território."
+        },
+        {
+          "h": "Educação em Direitos Humanos e a Res. CNE/CP 1/2012",
+          "p": "A Resolução CNE/CP 1/2012 estabelece as Diretrizes Nacionais para a Educação em Direitos Humanos, com base no Programa Nacional de Direitos Humanos (PNDH-3) e no Plano Nacional de Educação em Direitos Humanos (PNEDH). Ela define princípios da EDH: dignidade humana; igualdade de direitos; reconhecimento e valorização das diferenças e das diversidades; laicidade do Estado; democracia na educação; transversalidade, vivência e globalidade; e sustentabilidade socioambiental.\n\nA Resolução prevê que a EDH pode ocorrer de forma transversal (permeando todo o currículo e práticas), como conteúdo específico de disciplina, ou de maneira mista. Embora voltada à educação escolar, seus princípios orientam toda ação socioeducativa, inclusive no campo não escolar."
+        },
+        {
+          "h": "Cidadania, protagonismo e cultura de paz",
+          "p": "A finalidade última da intervenção pedagógica é a formação cidadã: sujeitos conscientes de seus direitos e deveres, capazes de participar e de transformar sua realidade. Isso dialoga com a educação popular de Freire (conscientização) e com a perspectiva de garantia de direitos do SUAS.\n\nPromover cultura de paz significa enfrentar as causas estruturais da violência (desigualdade, discriminação, exclusão), valorizar o diálogo e a mediação de conflitos, e construir relações baseadas no respeito. A atuação deve ser não discriminatória, atenta a recortes de gênero, raça, deficiência e geração, e articulada em rede de proteção (Conselho Tutelar, saúde, educação, justiça, segurança)."
+        }
+      ],
+      "exemplo": "(estilo Cebraspe) Julgue o item: \"De acordo com a Resolução CNE/CP 1/2012, a Educação em Direitos Humanos deve ser ofertada exclusivamente como disciplina específica e obrigatória no currículo da educação básica.\" Comentário: ERRADO. A Resolução prevê três possibilidades de inserção: de modo transversal, como conteúdo específico de disciplina, ou de maneira mista. A palavra exclusivamente torna o item errado. Restringir a EDH a uma única forma é pegadinha típica.",
+      "pontos_chave": [
+        "Formas de violência: física, psicológica, sexual, negligência, patrimonial e institucional.",
+        "ECA (8.069/90): proteção integral e prioridade absoluta; Lei Menino Bernardo (13.010/2014) proíbe castigos físicos.",
+        "Notificação de violência contra criança/adolescente ao Conselho Tutelar é obrigatória (art. 13 ECA).",
+        "Lei Maria da Penha (11.340/2006), Estatuto do Idoso (10.741/2003) e LBI (13.146/2015) compõem o marco protetivo.",
+        "Prevenção em três níveis: primária (universal), secundária (grupos de risco) e terciária (casos instalados).",
+        "Res. CNE/CP 1/2012: Diretrizes da Educação em Direitos Humanos, baseadas no PNEDH/PNDH-3.",
+        "Princípios da EDH: dignidade, igualdade, valorização das diferenças, laicidade, democracia, transversalidade e sustentabilidade socioambiental.",
+        "EDH pode ser transversal, disciplina específica ou mista; cultura de paz enfrenta causas estruturais da violência."
+      ],
+      "dica_prova": "Memorize que a EDH (Res. CNE/CP 1/2012) admite TRÊS formas de inserção, nunca apenas uma; cuidado com exclusivamente/somente. A notificação de violência contra criança ao Conselho Tutelar é OBRIGATÓRIA e não fere o sigilo. Não confunda os marcos: Maria da Penha = mulher; ECA = criança/adolescente; Estatuto do Idoso = pessoa idosa; LBI = pessoa com deficiência. Lembre que prioridade absoluta e proteção integral são princípios do ECA."
     }
-   ],
-   "exemplo": "(estilo Cebraspe) Julgue o item: \"De acordo com a Resolução CNE/CP 1/2012, a Educação em Direitos Humanos deve ser ofertada exclusivamente como disciplina específica e obrigatória no currículo da educação básica.\" Comentário: ERRADO. A Resolução prevê três possibilidades de inserção: de modo transversal, como conteúdo específico de disciplina, ou de maneira mista. A palavra exclusivamente torna o item errado. Restringir a EDH a uma única forma é pegadinha típica.",
-   "pontos_chave": [
-    "Formas de violência: física, psicológica, sexual, negligência, patrimonial e institucional.",
-    "ECA (8.069/90): proteção integral e prioridade absoluta; Lei Menino Bernardo (13.010/2014) proíbe castigos físicos.",
-    "Notificação de violência contra criança/adolescente ao Conselho Tutelar é obrigatória (art. 13 ECA).",
-    "Lei Maria da Penha (11.340/2006), Estatuto do Idoso (10.741/2003) e LBI (13.146/2015) compõem o marco protetivo.",
-    "Prevenção em três níveis: primária (universal), secundária (grupos de risco) e terciária (casos instalados).",
-    "Res. CNE/CP 1/2012: Diretrizes da Educação em Direitos Humanos, baseadas no PNEDH/PNDH-3.",
-    "Princípios da EDH: dignidade, igualdade, valorização das diferenças, laicidade, democracia, transversalidade e sustentabilidade socioambiental.",
-    "EDH pode ser transversal, disciplina específica ou mista; cultura de paz enfrenta causas estruturais da violência."
-   ],
-   "dica_prova": "Memorize que a EDH (Res. CNE/CP 1/2012) admite TRÊS formas de inserção, nunca apenas uma; cuidado com exclusivamente/somente. A notificação de violência contra criança ao Conselho Tutelar é OBRIGATÓRIA e não fere o sigilo. Não confunda os marcos: Maria da Penha = mulher; ECA = criança/adolescente; Estatuto do Idoso = pessoa idosa; LBI = pessoa com deficiência. Lembre que prioridade absoluta e proteção integral são princípios do ECA."
-  }
- ]
+  ]
 }

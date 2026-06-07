@@ -2,8 +2,7 @@
   "slug": "estado-politicas-ss",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "politicas-sociais-e-welfare-state",
       "titulo": "Políticas sociais e Welfare State",
       "intro": "As políticas sociais são respostas do Estado (e, em disputa, da sociedade) às expressões da questão social. Não são dádivas nem mera benevolência: resultam da correlação de forças entre as classes, sendo ao mesmo tempo conquista das lutas dos trabalhadores e mecanismo de legitimação e reprodução da ordem capitalista. Essa dupla face é central na leitura crítica.\n\nO Welfare State (Estado de Bem-Estar Social) é a forma que a política social assumiu nos países capitalistas centrais no pós-Segunda Guerra, quando o Estado ampliou sua intervenção econômica e social, garantindo um conjunto de direitos sociais (saúde, educação, previdência, assistência) sob o pacto keynesiano-fordista de pleno emprego.\n\nCompreender os paradigmas (modelos) de Welfare State e sua crise a partir dos anos 1970, com a ascensão do neoliberalismo, é fundamental para situar o cenário das políticas sociais brasileiras.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Memorize os três regimes de Esping-Andersen e o conceito de desmercadorização — caem muito. Pegadinha frequente: afirmar que o Brasil teve Welfare State pleno/universalista (falso) ou trocar as características dos regimes (liberal=residual, social-democrata=universalista). Associe neoliberalismo a focalização e Estado mínimo, em OPOSIÇÃO à universalização. Behring e Boschetti são as referências bibliográficas típicas."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "seguridade-social-orcamento-e-controle-social",
       "titulo": "Seguridade social, orçamento e controle social",
       "intro": "A seguridade social é o eixo do sistema de proteção social brasileiro inaugurado pela Constituição Federal de 1988, frequentemente chamado de 'Constituição Cidadã'. O art. 194 define a seguridade social como um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social — o conhecido 'tripé' da seguridade.\n\nEsse sistema tem financiamento próprio (orçamento da seguridade social, art. 195), princípios próprios e mecanismos de participação e controle social por meio de conselhos e conferências. Integra-se ao ciclo orçamentário público (PPA, LDO e LOA), instrumentos de planejamento previstos no art. 165 da CF/88.\n\nA articulação entre o tripé da seguridade, seus princípios, o orçamento público e o controle social é um dos temas mais cobrados em provas de Serviço Social.",
       "secoes": [

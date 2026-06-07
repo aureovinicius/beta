@@ -2,8 +2,7 @@
   "slug": "pse-as",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "risco-violacao-de-direitos-e-o-creas",
       "titulo": "Risco, violação de direitos e o CREAS",
       "intro": "A Proteção Social Especial (PSE) atua quando a vulnerabilidade já se transformou em RISCO pessoal e social por violação de direitos. Diferentemente da PSB, que previne, a PSE intervém em situações de violência, abandono, negligência, abuso, exploração e demais violações já instaladas. A média complexidade tem como unidade de referência o CREAS, que oferta o acompanhamento especializado a famílias e indivíduos cujos vínculos, embora fragilizados ou ameaçados, ainda não foram rompidos.\n\nPara o Agente Social, compreender a noção de risco e o papel do CREAS é decisivo, pois a atuação nesse nível exige sigilo, postura ética e articulação cuidadosa com o Sistema de Garantia de Direitos.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A linha divisória média x alta complexidade é o estado do vínculo: ameaçado/fragilizado (média, CREAS) versus rompido/necessidade de afastamento (alta, acolhimento). Bancas exploram exatamente esse limite."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "acolhimento-institucional-e-familiar",
       "titulo": "Acolhimento institucional e familiar",
       "intro": "Os Serviços de Acolhimento integram a Proteção Social Especial de ALTA COMPLEXIDADE e se destinam a pessoas que tiveram seus vínculos familiares rompidos ou ameaçados e que necessitam ser afastadas do núcleo familiar e/ou comunitário. Oferecem proteção integral — moradia, alimentação, higienização e trabalho social — em caráter excepcional e provisório.\n\nO Agente Social pode atuar diretamente no cotidiano dessas unidades, apoiando a rotina, a convivência e o cuidado, razão pela qual deve conhecer as modalidades e os princípios que regem o acolhimento, especialmente quanto a crianças e adolescentes.",
       "secoes": [

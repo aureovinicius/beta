@@ -2,8 +2,7 @@
   "slug": "direito-tributario-2-reforma",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "principios-da-reforma",
       "titulo": "Princípios da reforma",
       "intro": "A Emenda Constitucional 132/2023 não apenas trocou tributos: ela inscreveu na Constituição um novo conjunto de princípios reitores da tributação sobre o consumo. O art. 145, §3º, da CF/88 passou a determinar que o Sistema Tributário Nacional observe os princípios da simplicidade, da transparência, da justiça tributária, da cooperação e da defesa do meio ambiente.\n\nAlém desses, o IVA dual brasileiro foi desenhado para ser neutro e cobrado no destino. Compreender esses princípios é fundamental porque eles funcionam como vetores interpretativos de todo o novo modelo (IBS, CBS e Imposto Seletivo) e costumam ser cobrados em prova tanto na literalidade quanto em questões de aplicação.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "Decore o rol exato do art. 145, §3º (cinco princípios) e saiba distinguir o que está nesse rol do que é diretriz específica do IBS (neutralidade, no art. 156-A). A pegadinha mais comum é misturar neutralidade no §3º ou afirmar tributação na origem em vez de destino."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "iva-dual",
       "titulo": "IVA dual",
       "intro": "O Brasil adotou um modelo de IVA (Imposto sobre Valor Agregado) dual, e não um IVA único. Isso significa que, em vez de um só tributo nacional sobre o consumo, teremos dois tributos coordenados: a CBS, federal, e o IBS, de competência compartilhada entre Estados, DF e Municípios. Soma-se a eles o Imposto Seletivo, de natureza extrafiscal.\n\nA opção pelo IVA dual decorreu da necessidade de preservar a autonomia federativa: como ICMS (estadual) e ISS (municipal) eram tributos subnacionais, transformá-los em um único tributo federal feriria o pacto federativo. Por isso criou-se um tributo subnacional (IBS) coordenado, em vez de centralizar tudo na União.",
       "secoes": [
@@ -71,8 +69,7 @@
       "dica_prova": "Memorize a correspondência: CBS = PIS/Cofins/IPI (União); IBS = ICMS/ISS (Estados/DF/Municípios). Pegadinhas comuns: dizer que o IBS é só dos Estados (esquece municípios/DF), trocar os tributos extintos, ou afirmar que o Brasil adotou IVA único (foi DUAL)."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "caracteristicas-do-ibs",
       "titulo": "Características do IBS",
       "intro": "O IBS (Imposto sobre Bens e Serviços) é o tributo subnacional do IVA dual, previsto no art. 156-A da CF/88, introduzido pela EC 132/2023. Substitui ICMS e ISS e é de competência compartilhada entre Estados, DF e Municípios.\n\nSuas características estruturantes — base ampla, não cumulatividade plena, cobrança no destino, alíquota única por ente e uniformidade nacional de regras — fazem dele um imposto muito diferente do ICMS. Para o Auditor-Fiscal de Goiás, dominar essas características é essencial, pois o IBS é o tributo que substituirá o ICMS, principal fonte de arrecadação estadual.",
       "secoes": [
@@ -106,8 +103,7 @@
       "dica_prova": "A pegadinha clássica é atribuir ao IBS a seletividade/alíquotas por essencialidade do ICMS — o IBS tem alíquota ÚNICA por ente. Outra: confundir alíquota de referência (do Senado, supletiva) com alíquota fixada pelo próprio ente. Lembre que a alíquota total é a SOMA da estadual com a municipal do destino."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "nao-cumulatividade-plena",
       "titulo": "Não cumulatividade plena",
       "intro": "A não cumulatividade plena é o atributo que distingue o IBS (e a CBS) do antigo ICMS e do PIS/Cofins. No modelo anterior, o crédito era limitado, com restrições a bens de uso e consumo, créditos físicos versus financeiros e infindável contencioso. No novo modelo, o crédito é amplo.\n\nA não cumulatividade plena assegura que o contribuinte se aproprie do imposto incidente em quase todas as suas aquisições, tributando-se apenas o valor agregado. Isso elimina o efeito cascata, desonera investimentos e exportações e dá neutralidade ao tributo. É tema central da reforma e muito cobrado.",
       "secoes": [
@@ -141,8 +137,7 @@
       "dica_prova": "Diferencie 'pleno' (IBS/CBS) de 'físico/restrito' (ICMS antigo). Lembre que a exceção ao crédito é o uso/consumo PESSOAL, não o uso/consumo da empresa. O split payment e o condicionamento do crédito ao recolhimento são novidades muito cobradas — não confunda com o crédito automático do ICMS (que independia do pagamento pelo fornecedor)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "harmonizacao-com-o-ibs",
       "titulo": "Harmonização com o IBS",
       "intro": "A CBS (Contribuição sobre Bens e Serviços) é a face federal do IVA dual. Sua principal virtude de desenho é a harmonização com o IBS: ambos compartilham fato gerador, base de cálculo, hipóteses de não incidência e imunidade, regimes específicos e regras gerais. Essa simetria é o que viabiliza a simplicidade prometida pela reforma.\n\nEmbora sejam tributos de competências diferentes (CBS é da União, contribuição social do art. 195, V; IBS é dos entes subnacionais, imposto do art. 156-A), eles funcionam como gêmeos legislativos: o contribuinte apura praticamente da mesma forma, com uma única lógica de crédito e de operação.",
       "secoes": [
@@ -176,8 +171,7 @@
       "dica_prova": "Cuidado com 'harmonização = unificação'. Os tributos têm a MESMA base e regras, mas competências, alíquotas, destinação e gestão DIFERENTES. Outra pegadinha: dizer que o IPI foi totalmente extinto — ele é mantido residualmente por causa da Zona Franca de Manaus."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "finalidade-extrafiscal",
       "titulo": "Finalidade extrafiscal",
       "intro": "O Imposto Seletivo (IS), apelidado de 'imposto do pecado' (sin tax), é o tributo federal extrafiscal da reforma, previsto no art. 153, VIII, da CF/88. Diferentemente do IBS e da CBS, cuja finalidade é arrecadatória e neutra, o IS tem finalidade primordialmente EXTRAFISCAL: desestimular o consumo de bens e serviços prejudiciais à saúde ou ao meio ambiente.\n\nÉ um imposto de competência da União, que incide sobre a produção, extração, comercialização ou importação de produtos nocivos. Por ser extrafiscal, sua lógica não é a neutralidade, mas justamente a indução de comportamento — onerar para reduzir o consumo do produto nocivo.",
       "secoes": [
@@ -211,8 +205,7 @@
       "dica_prova": "Decore as não incidências do IS: exportações, energia elétrica e telecomunicações. A pegadinha mais comum é dizer que ele incide nas exportações. Outra muito cobrada: o IS COMPÕE a base de cálculo de IBS e CBS (entra por dentro). Não confunda IS com IPI nem o trate como tributo de base ampla — ele é seletivo e restrito."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "cesta-basica-e-cashback",
       "titulo": "Cesta básica e cashback",
       "intro": "A tributação sobre o consumo é naturalmente regressiva: pesa proporcionalmente mais sobre os pobres, que destinam maior parcela da renda ao consumo. A reforma criou dois instrumentos centrais para mitigar essa regressividade e atender ao princípio da justiça tributária: a Cesta Básica Nacional de alíquota zero e o cashback (devolução de tributo).\n\nAmbos costumam ser cobrados em prova como mecanismos de redução da regressividade. É preciso distinguir bem: a cesta básica beneficia o produto (alíquota zero para todos); o cashback beneficia a pessoa (devolução do tributo a famílias de baixa renda).",
       "secoes": [
@@ -246,8 +239,7 @@
       "dica_prova": "Não confunda cesta básica (alíquota zero, objetiva, sobre o produto) com cashback (devolução, subjetiva, sobre a pessoa de baixa renda). Memorize que o cashback é obrigatório/reforçado em energia e gás. Cuidado com a redução de 60% — ela é regra de muitos setores, mas a cesta básica é 100% (zero)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "periodo-de-transicao",
       "titulo": "Período de transição",
       "intro": "A reforma não entra em vigor de uma vez. A EC 132/2023 desenhou um longo período de transição, durante o qual os tributos antigos (ICMS, ISS, PIS, Cofins, IPI) convivem com os novos (IBS, CBS, IS) até a extinção completa dos primeiros. Há, na verdade, duas transições: a dos tributos (até 2033) e a da repartição de receitas entre os entes (até 2078).\n\nPara o Auditor-Fiscal de Goiás, conhecer o cronograma é crucial, pois durante anos será preciso administrar simultaneamente ICMS (em extinção) e IBS (em implantação). As datas-chave (2026, 2027, 2029-2032, 2033) são campeãs de cobrança em prova.",
       "secoes": [
@@ -281,8 +273,7 @@
       "dica_prova": "As duas transições são a pegadinha-mestra: TRIBUTOS até 2033, REPARTIÇÃO até 2078. Decore o cronograma: 2026 teste (1%), 2027 CBS plena e fim do PIS/Cofins + IS, 2029-2032 redução do ICMS/ISS, 2033 extinção total de ICMS/ISS. Cuidado: PIS/Cofins acabam em 2027, mas ICMS/ISS só em 2033."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "comite-gestor-do-ibs",
       "titulo": "Comitê Gestor do IBS",
       "intro": "O Comitê Gestor do IBS (CG-IBS) é a inovação institucional mais marcante da reforma no plano federativo. Como o IBS é um imposto de competência compartilhada entre Estados, DF e Municípios, foi preciso criar uma entidade que centralizasse a arrecadação, a distribuição e a regulamentação do tributo, garantindo uniformidade nacional. Sua previsão está no art. 156-B da CF/88.\n\nO Comitê Gestor não é um órgão da União: é uma entidade pública sob regime especial, de caráter técnico, gerida pelos próprios entes subnacionais. Compreender sua natureza, composição e competências é essencial para o Auditor-Fiscal goiano, que atuará em coordenação com essa estrutura.",
       "secoes": [

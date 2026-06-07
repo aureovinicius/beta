@@ -2,8 +2,7 @@
   "slug": "pensamento-social-etnico",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "formacao-brasileira-e-decolonialidade",
       "titulo": "Formação brasileira e decolonialidade",
       "intro": "O pensamento social brasileiro buscou interpretar a formação da nação a partir da colonização, da escravidão e da mistura de povos. Autores clássicos como Gilberto Freyre, Sérgio Buarque de Holanda e Caio Prado Júnior ofereceram chaves divergentes para entender o Brasil — algumas posteriormente criticadas por mascararem o racismo.\n\nA partir do século XX e XXI, a perspectiva decolonial e as epistemologias do Sul propõem uma virada: questionam a colonialidade que persiste mesmo após o fim do colonialismo formal e reivindicam a produção de conhecimento a partir dos povos colonizados. Frantz Fanon é figura-chave dessa tradição crítica.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha mais frequente é igualar colonialismo a colonialidade. Lembre: colonialidade é o que 'sobra' depois do fim do colonialismo. Não confunda Fanon (psiquiatra anticolonial, foco em raça e subjetividade) com os teóricos da colonialidade latino-americana (Quijano e a 'colonialidade do poder'). Cuidado com a leitura ingênua de Gilberto Freyre como denúncia do racismo — sua obra é, ao contrário, criticada por sustentar o mito da democracia racial."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "racismo-estrutural-e-interseccionalidade",
       "titulo": "Racismo estrutural e interseccionalidade",
       "intro": "O racismo, na sociologia contemporânea, não é entendido apenas como ato individual de preconceito, mas como elemento estruturante das relações sociais, econômicas e institucionais. O conceito de racismo estrutural desloca o debate do plano moral (pessoas 'racistas') para o plano da organização da sociedade.\n\nJá a interseccionalidade fornece a ferramenta para analisar como raça, classe e gênero se cruzam e se reforçam, produzindo formas específicas de opressão. Ambos os conceitos são centrais para o desenho de políticas públicas de assistência social e de promoção da igualdade.",
       "secoes": [

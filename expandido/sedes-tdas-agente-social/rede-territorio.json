@@ -2,8 +2,7 @@
   "slug": "rede-territorio",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "cras-creas-e-unidades-de-acolhimento",
       "titulo": "CRAS, CREAS e Unidades de Acolhimento",
       "intro": "A rede socioassistencial do SUAS organiza-se por níveis de complexidade, e cada equipamento público tem função, público e serviços bem delimitados. O CRAS (Centro de Referência de Assistência Social) é a porta de entrada da Proteção Social Básica (PSB); o CREAS (Centro de Referência Especializado de Assistência Social) é a referência da Proteção Social Especial (PSE) de média complexidade; e as Unidades de Acolhimento integram a PSE de alta complexidade, voltada a pessoas com vínculos familiares rompidos ou ameaçados.\n\nPara o Agente Social, conhecer o que cada unidade faz é essencial, pois ele atua diretamente no atendimento ao público, na recepção, no acompanhamento de grupos e na execução de atividades sob supervisão da equipe técnica. Confundir as competências dos equipamentos é um dos erros mais cobrados em prova.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Memorize o par 'unidade + serviço + nível de complexidade'. As bancas adoram inverter PAIF/PAEFI e CRAS/CREAS, ou colocar acolhimento como média complexidade. Acolhimento é SEMPRE alta complexidade e SEMPRE provisório/excepcional."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "territorializacao-e-fluxos-de-referencia-contrarreferencia",
       "titulo": "Territorialização e fluxos de referência/contrarreferência",
       "intro": "A territorialização é um princípio organizativo central do SUAS: os serviços são planejados e ofertados a partir do conhecimento das características, demandas e potencialidades de cada território. Em vez de esperar o cidadão buscar o serviço, o SUAS leva a proteção social para perto de quem mais precisa, capilarizando os equipamentos nas áreas de maior vulnerabilidade.\n\nNesse desenho, os conceitos de referência e contrarreferência garantem que o usuário circule pela rede de forma articulada, sem se perder entre serviços. Para o Agente Social, entender esse fluxo é fundamental, porque ele frequentemente acolhe demandas, identifica situações e participa de encaminhamentos.",
       "secoes": [

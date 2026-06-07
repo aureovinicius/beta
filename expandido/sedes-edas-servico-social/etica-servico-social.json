@@ -2,8 +2,7 @@
   "slug": "etica-servico-social",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "projeto-etico-politico-e-lei-8-662-1993",
       "titulo": "Projeto ético-político e Lei 8.662/1993",
       "intro": "O projeto ético-político do Serviço Social é a expressão coletiva e hegemônica da profissão construída a partir dos anos 1980, vinculando-se à perspectiva crítico-dialética. Ele tem como valor central a liberdade e como horizonte uma nova ordem societária, sem dominação, exploração de classe, etnia e gênero. Não é um documento único, mas um projeto profissional sustentado por três pilares normativos: o Código de Ética de 1993, a Lei 8.662/1993 (que regulamenta a profissão) e as Diretrizes Curriculares da ABEPSS (1996).\n\nA Lei 8.662, de 7 de junho de 1993, é a Lei de Regulamentação da Profissão. Ela define quem pode exercer a profissão, fixa as competências e atribuições privativas do assistente social e estrutura o conjunto CFESS/CRESS (Conselho Federal e Conselhos Regionais), responsáveis pela orientação, fiscalização e disciplina do exercício profissional.\n\nDistinguir competências (compartilhadas) de atribuições privativas (exclusivas do assistente social) é uma das cobranças mais frequentes em prova.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "O ponto mais cobrado é trocar competência por atribuição privativa. Fixe: estudo socioeconômico e orientação social = competência; supervisão DIRETA de estagiário e perícia/parecer = privativas. Cuidado com a confusão entre os três pilares do PEP — Diretrizes Curriculares são da ABEPSS (1996), não do CFESS. E lembre: o PEP não é um documento, é um projeto coletivo materializado em vários instrumentos."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "codigo-de-etica-e-sigilo-cfess",
       "titulo": "Código de Ética e sigilo (CFESS)",
       "intro": "O Código de Ética Profissional do Assistente Social vigente foi aprovado pela Resolução CFESS nº 273, de 13 de março de 1993. Ele traduz, no plano da ética profissional, os valores do projeto ético-político: tem a liberdade como valor ético central e organiza-se em princípios fundamentais, direitos e deveres, relações com usuários, instituições e demais profissionais, e o regime de sigilo profissional.\n\nMais do que um conjunto de regras de conduta, o Código expressa uma concepção de ética ancorada na ontologia social de tradição marxista (a ética como capacidade humana de fazer escolhas conscientes e orientadas por valores). Por isso, seus princípios não são neutros: assumem posição em defesa dos direitos humanos, da democracia, da equidade, da justiça social e do pluralismo.\n\nO sigilo profissional é tema sensível e muito cobrado, pois envolve a tensão entre proteger a confiança do usuário e os limites desse dever diante de situações de risco.",
       "secoes": [

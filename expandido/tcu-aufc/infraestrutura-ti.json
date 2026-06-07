@@ -2,8 +2,7 @@
   "slug": "infraestrutura-ti",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "topologias-e-arquiteturas-de-data-center",
       "titulo": "Topologias e arquiteturas de data center",
       "intro": "O data center é o ambiente físico e lógico que concentra os recursos computacionais (servidores, armazenamento, rede) de uma organização. Sua arquitetura define onde a infraestrutura reside e como é estruturada para atender requisitos de desempenho, disponibilidade, segurança e custo. As três grandes modalidades são on-premises (instalações próprias), cloud (nuvem de terceiros) e híbrida (combinação das duas).\n\nAlém da localização, a arquitetura abrange topologias físicas (cabeamento, racks, disposição de equipamentos) e lógicas (como o tráfego e os serviços se organizam). Em ambientes corporativos modernos predomina a arquitetura espinha-folha (spine-leaf), que substituiu o tradicional modelo hierárquico de três camadas (core, distribuição e acesso) por oferecer latência previsível e melhor escalabilidade leste-oeste (entre servidores).\n\nO padrão de referência mais citado para classificação de disponibilidade de data centers é a norma ANSI/TIA-942 e a classificação em Tiers (I a IV) do Uptime Institute, que graduam a redundância de energia, refrigeração e caminhos físicos.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "A Cebraspe explora a confusão entre nuvem híbrida e multicloud, e entre as responsabilidades em IaaS x SaaS. Memorize: em SaaS o provedor é responsável por quase tudo, mas a gestão de identidades e dos dados é sempre do cliente. Cuidado também ao afirmar que Tier IV 'nunca' tem indisponibilidade — ele tolera falhas, mas sua disponibilidade declarada é ~99,995%, não 100%."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "hiperconvergencia-escalabilidade-e-redundancia",
       "titulo": "Hiperconvergência, escalabilidade e redundância",
       "intro": "A infraestrutura hiperconvergente (HCI) integra, em um único appliance ou nó padronizado, os recursos de computação, armazenamento e rede, gerenciados por software (SDS — software-defined storage). Ela evoluiu da infraestrutura convergente (em que os componentes eram pré-integrados mas ainda separados) ao consolidar tudo em nós que formam um cluster gerenciado por uma camada de virtualização.\n\nEscalabilidade e redundância são atributos de projeto que garantem que a infraestrutura cresça conforme a demanda e continue operando diante de falhas. A escalabilidade pode ser vertical (scale-up, adicionar recursos a um nó) ou horizontal (scale-out, adicionar nós). A redundância elimina pontos únicos de falha (SPOF) por meio de duplicação de componentes, e a tolerância a falhas garante operação contínua mesmo com componentes degradados.",
       "secoes": [
@@ -71,8 +69,7 @@
       "dica_prova": "A pegadinha clássica é igualar alta disponibilidade a tolerância a falhas — na HA há um failover (pequena parada), na tolerância a falhas não há interrupção. Também confunde-se scale-up com scale-out: lembre que 'up' é para cima no mesmo nó (vertical) e 'out' é para fora, espalhando em mais nós (horizontal). E HCI NÃO usa SAN dedicada."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "protocolos-de-comunicacao",
       "titulo": "Protocolos de comunicação",
       "intro": "Os protocolos de comunicação são regras padronizadas que permitem a troca de dados entre dispositivos em rede. Eles se organizam em camadas, descritas pelos modelos de referência OSI (7 camadas) e TCP/IP (4 camadas). Cada protocolo opera em uma ou mais camadas, com responsabilidades específicas: endereçamento, roteamento, controle de fluxo, confiabilidade, segurança e serviços de aplicação.\n\nNo nível de transporte destacam-se TCP (orientado à conexão, confiável) e UDP (sem conexão, rápido). No nível de rede, IP, ICMP e protocolos de roteamento como OSPF e BGP. Na camada de aplicação, serviços como DNS, DHCP, HTTP/HTTPS, SMTP e SSH. O TLS atua entre transporte e aplicação, provendo segurança. O domínio desses protocolos, suas portas padrão e RFCs é essencial em provas de infraestrutura.",
       "secoes": [
@@ -106,8 +103,7 @@
       "dica_prova": "A Cebraspe adora trocar características de TCP e UDP, confundir SFTP com FTPS, e afirmar que SSL é o protocolo atual (é obsoleto; o atual é TLS). Outra pegadinha: dizer que OSPF roteia entre sistemas autônomos (isso é o BGP) — OSPF é interno (IGP). Memorize as portas padrão, pois caem com frequência."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "switching-roteamento-sdn-e-wireless",
       "titulo": "Switching, roteamento, SDN e wireless",
       "intro": "A comutação (switching) ocorre na camada 2 (enlace), encaminhando quadros com base em endereços MAC dentro de um mesmo domínio de broadcast. O roteamento (routing) ocorre na camada 3 (rede), encaminhando pacotes entre redes distintas com base em endereços IP. Switches segmentam domínios de colisão e, com VLANs, criam múltiplos domínios de broadcast lógicos; roteadores interconectam essas redes.\n\nAs redes definidas por software (SDN) separam o plano de controle do plano de dados, centralizando a inteligência em um controlador programável. No ambiente sem fio corporativo, padrões como Wi-Fi 6 (802.11ax) e WPA3 elevaram desempenho, capacidade e segurança, enquanto arquiteturas mesh ampliam a cobertura.",
       "secoes": [
@@ -141,8 +137,7 @@
       "dica_prova": "Cebraspe explora a separação de planos na SDN (controle x dados): a centralização do plano de controle é o conceito-chave. Cuidado em confundir as camadas: STP e VLAN são camada 2; roteamento e QoS por DSCP envolvem camada 3. Outra pegadinha: WPA3 NÃO usa o mesmo handshake do WPA2 — substitui o PSK pelo SAE (Dragonfly)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "linux-e-windows-server",
       "titulo": "Linux e Windows Server",
       "intro": "Linux e Windows Server são os dois principais sistemas operacionais de servidor corporativo. A administração avançada envolve gerência de usuários e grupos, permissões de arquivos, processos, serviços, agendamento de tarefas, configuração de rede e aplicação de políticas de segurança. Embora compartilhem conceitos, divergem na filosofia: Linux é modular, baseado em texto e fortemente orientado à linha de comando; Windows Server é integrado, orientado a GUI e a serviços de diretório (Active Directory).\n\nNo Linux, a administração gira em torno do shell, de arquivos de configuração em texto e do modelo de permissões POSIX. No Windows Server, destaca-se a gestão centralizada via Group Policy (GPO), PowerShell e papéis/funções (roles) instaláveis. Dominar ambos é requisito para auditoria de infraestrutura e para garantir hardening, conformidade e rastreabilidade.",
       "secoes": [
@@ -176,8 +171,7 @@
       "dica_prova": "A Cebraspe testa a regra de precedência NTFS (Deny vence Allow) e o cálculo de permissão efetiva (mais restritiva entre share e NTFS). No Linux, decore a leitura octal das permissões (755, 644) e o significado de SUID/SGID/sticky. Outra pegadinha: a ordem de aplicação de GPOs (LSDOU) e que a última a aplicar vence, exceto quando há 'Enforced'."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "virtualizacao-e-servicos-de-diretorio",
       "titulo": "Virtualização e serviços de diretório",
       "intro": "A virtualização permite que um único hardware físico hospede múltiplas máquinas virtuais (VMs) isoladas, cada uma com seu próprio sistema operacional, por meio de um hipervisor que abstrai e particiona os recursos físicos (CPU, memória, disco, rede). É a base da consolidação de servidores, da nuvem e da hiperconvergência, aumentando a utilização de hardware e a flexibilidade operacional.\n\nOs serviços de diretório, por sua vez, centralizam informações sobre usuários, computadores e recursos de rede, fornecendo autenticação e autorização unificadas. O Active Directory (AD) da Microsoft e o protocolo LDAP são os pilares dessa área, essenciais para gestão de identidades, single sign-on e aplicação de políticas em ambientes corporativos.",
       "secoes": [
@@ -211,8 +205,7 @@
       "dica_prova": "Cebraspe explora a diferença VM x contêiner (contêiner compartilha o kernel e não usa hipervisor) e tipo 1 x tipo 2 de hipervisor. No diretório, separe protocolo (LDAP) de produto (AD/OpenLDAP) e lembre que o AD usa Kerberos como protocolo de autenticação padrão e DEPENDE de DNS para localizar controladores."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "san-nas-das-e-raid",
       "titulo": "SAN, NAS, DAS e RAID",
       "intro": "As arquiteturas de armazenamento corporativo definem como os dados são apresentados e acessados pelos servidores. As três principais são DAS (armazenamento de conexão direta), NAS (armazenamento conectado à rede, acesso a arquivos) e SAN (rede de armazenamento, acesso a blocos). A escolha impacta desempenho, escalabilidade, compartilhamento e custo.\n\nO RAID (Redundant Array of Independent Disks) combina múltiplos discos físicos em um arranjo lógico para ganhar desempenho, capacidade e/ou tolerância a falhas. Conhecer os níveis de RAID, o conceito de paridade, o hot-spare e a diferença entre acesso a blocos e a arquivos é fundamental para auditar a confiabilidade e o dimensionamento do armazenamento.",
       "secoes": [
@@ -246,8 +239,7 @@
       "dica_prova": "As pegadinhas favoritas: (1) RAID não é backup; (2) RAID 0 não tem redundância; (3) RAID 5 tolera 1 falha e RAID 6 tolera 2; (4) NAS é acesso a arquivos e SAN é acesso a blocos. A Cebraspe frequentemente inverte SAN/NAS ou afirma que RAID dispensa backup — ambos errados."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "backup-e-recuperacao-rpo-rto",
       "titulo": "Backup e recuperação (RPO/RTO)",
       "intro": "Backup é a cópia de segurança de dados para permitir sua recuperação após perda, corrupção, exclusão acidental, ataque (ransomware) ou desastre. Uma estratégia de backup eficaz define o que copiar, com que frequência, por quanto tempo reter, onde armazenar e como restaurar — sempre validada por testes de restauração. As métricas RPO e RTO dimensionam, respectivamente, a perda de dados tolerável e o tempo de recuperação aceitável.\n\nTecnologias como backup completo, incremental e diferencial, snapshots, deduplicação e ferramentas específicas (como o Oracle RMAN para bancos de dados) compõem o arsenal. A regra prática 3-2-1 (três cópias, em dois tipos de mídia, com uma off-site) é referência. Diferentemente do RAID, o backup protege contra perdas lógicas e desastres.",
       "secoes": [
@@ -281,8 +273,7 @@
       "dica_prova": "A pegadinha mais cobrada é trocar a lógica de restauração de incremental e diferencial — memorize: incremental = full + TODOS os incrementais; diferencial = full + ÚLTIMO diferencial. Outra: afirmar que RPO é tempo de recuperação (é RTO) ou que snapshot/RAID substituem backup. Cuidado também com RMAN exigir ARCHIVELOG para backup a quente."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "hardening-firewalls-e-ids-ips",
       "titulo": "Hardening, firewalls e IDS/IPS",
       "intro": "A segurança de infraestrutura combina o endurecimento (hardening) dos sistemas, a defesa de perímetro e a detecção/prevenção de intrusões. Hardening é o processo de reduzir a superfície de ataque de servidores, redes e dispositivos, desativando serviços desnecessários, aplicando correções, configurando de forma segura e seguindo benchmarks reconhecidos (CIS Benchmarks, guias DISA STIG).\n\nNa defesa de perímetro e segmentação, firewalls controlam o tráfego conforme regras; firewalls de próxima geração (NGFW) agregam inspeção profunda. IDS e IPS monitoram e, no caso do IPS, bloqueiam atividades maliciosas. Proxies intermedeiam o acesso e o NAC controla quem se conecta à rede. Esses controles, em camadas (defesa em profundidade), formam a base da proteção de redes corporativas.",
       "secoes": [
@@ -316,8 +307,7 @@
       "dica_prova": "A distinção IDS x IPS é quase certa em prova: IDS = detecta/alerta (passivo); IPS = previne/bloqueia (ativo, inline). Cuidado também ao confundir firewall stateful x stateless, e WAF (camada 7, apps web) com firewall de rede. Em detecção, por assinatura não pega ataques desconhecidos (zero-day); por anomalia pega, mas gera mais falsos positivos."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "vpns-pki-e-segmentacao-de-rede",
       "titulo": "VPNs, PKI e segmentação de rede",
       "intro": "A proteção de dados em trânsito e o controle de quem acessa o quê dependem de VPNs, criptografia, infraestrutura de chaves públicas (PKI) e segmentação de rede. VPNs criam túneis seguros sobre redes públicas; a criptografia (simétrica e assimétrica) garante confidencialidade, integridade e autenticidade; a PKI gerencia certificados digitais que sustentam a confiança; e a segmentação isola partes da rede para conter ameaças.\n\nEsses mecanismos materializam princípios de segurança como confidencialidade, integridade, autenticidade e não repúdio, e arquiteturas modernas como zero trust e microsegmentação. Em auditoria, verifica-se o uso de protocolos seguros (TLS, IPsec), a validade e a cadeia de certificados e a adequada segregação de zonas de segurança.",
       "secoes": [
@@ -351,8 +341,7 @@
       "dica_prova": "A pegadinha clássica de criptografia: confidencialidade usa a chave PÚBLICA do destinatário; assinatura usa a chave PRIVADA do emissor. A Cebraspe inverte isso constantemente. Em IPsec, lembre que AH não cifra (sem confidencialidade) e ESP cifra. Em PKI, a revogação é por CRL/OCSP. E zero trust elimina a confiança implícita no perímetro interno."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "monitoramento-e-itil-v4",
       "titulo": "Monitoramento e ITIL v4",
       "intro": "O monitoramento de infraestrutura coleta, analisa e exibe métricas de desempenho, disponibilidade e saúde de servidores, redes, aplicações e serviços, gerando alertas proativos. Ferramentas como Zabbix, Grafana, Prometheus e New Relic compõem o ecossistema, frequentemente usando protocolos como SNMP e agentes. Observabilidade amplia o conceito ao combinar métricas, logs e traces para entender o estado interno dos sistemas.\n\nA gestão de serviços de TI é estruturada pelo ITIL v4, framework de boas práticas (não uma norma certificável de organização) que organiza a entrega de valor por meio de práticas como gerenciamento de incidentes, problemas, mudanças e configuração (CMDB). Monitoramento e ITIL se complementam: o primeiro alimenta os processos de detecção e resposta do segundo.",
       "secoes": [
@@ -386,8 +375,7 @@
       "dica_prova": "Cebraspe distingue incidente (restaurar rápido) de problema (causa-raiz) — não troque. Lembre que ITIL é boas práticas/framework, não norma certificável (essa é a ISO/IEC 20000), e que organizações certificam-se na 20000, não 'no ITIL'. Em ferramentas, Grafana é visualização, não coleta. E SNMP só é seguro a partir da v3."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "automacao-powershell-bash-puppet",
       "titulo": "Automação (PowerShell, Bash, Puppet)",
       "intro": "A automação de infraestrutura reduz tarefas manuais, padroniza configurações, diminui erros humanos e acelera a entrega de serviços. Vai de scripts (Bash no Linux, PowerShell no Windows) a ferramentas de gerenciamento de configuração (Puppet, Ansible, Chef) e à infraestrutura como código (IaC), em que a infraestrutura é definida em arquivos versionados.\n\nAssociada à automação está a gestão de capacidade e desempenho, que assegura que os recursos de TI atendam à demanda atual e futura de forma custo-eficiente, por meio de monitoramento, análise de tendências, dimensionamento (sizing) e planejamento de capacidade. Automação e gestão de capacidade são pilares de uma operação madura, alinhadas a DevOps e à melhoria contínua.",
       "secoes": [
@@ -421,8 +409,7 @@
       "dica_prova": "A Cebraspe cobra a idempotência (propriedade-chave do gerenciamento de configuração) e a diferença Ansible (agentless, push) x Puppet (agente, pull). Lembre que PowerShell é orientado a objetos (não texto) e multiplataforma. Em capacidade, a abordagem correta é PROATIVA (planejar antes), não apenas reagir a incidentes."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "clusters-e-balanceamento-de-carga",
       "titulo": "Clusters e balanceamento de carga",
       "intro": "A alta disponibilidade (HA) busca manter serviços operacionais minimizando o tempo de indisponibilidade, eliminando pontos únicos de falha por meio de redundância e mecanismos automáticos de recuperação. Clusters agrupam múltiplos servidores (nós) que cooperam para parecer um sistema único, oferecendo HA e/ou desempenho. O balanceamento de carga distribui requisições entre vários servidores, evitando sobrecarga e aumentando a capacidade.\n\nConceitos como failover, heartbeat, fencing e quórum sustentam o funcionamento dos clusters de HA. Em conjunto com balanceadores de carga (camada 4 ou 7), formam a base de aplicações resilientes e escaláveis. Dominar esses mecanismos é essencial para auditar a continuidade operacional de serviços críticos.",
       "secoes": [
@@ -456,8 +443,7 @@
       "dica_prova": "A Cebraspe cobra os termos: heartbeat (detecção de falha), fencing/STONITH (isolar nó para evitar split-brain), quórum (decidir partição ativa) e failover (assumir a operação). Não confunda fencing com balanceamento. Lembre da diferença camada 4 x camada 7 no balanceador e que HA não é igual a tolerância a falhas."
     },
     {
-      "ti": 6,
-      "si": 1,
+      "sid": "continuidade-de-negocios-e-testes-de-dr",
       "titulo": "Continuidade de negócios e testes de DR",
       "intro": "A continuidade de negócios garante que a organização mantenha suas funções essenciais durante e após incidentes graves (desastres naturais, falhas massivas, ataques cibernéticos). O Plano de Continuidade de Negócios (PCN/BCP) é o documento que define estratégias, papéis e procedimentos para sustentar ou retomar rapidamente as operações críticas, abrangendo pessoas, processos, instalações e tecnologia.\n\nO Plano de Recuperação de Desastres (PRD/DRP) é o componente focado em TI: restaura sistemas, dados e infraestrutura após um desastre. Métricas como RPO e RTO orientam o dimensionamento, e a estratégia de sites de recuperação (hot, warm, cold) define a prontidão. Crucialmente, planos só têm valor se testados periodicamente — testes de DR validam a eficácia e revelam falhas antes que um desastre real ocorra.",
       "secoes": [

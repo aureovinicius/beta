@@ -2,8 +2,7 @@
   "slug": "direito-administrativo",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "principios-administrativos",
       "titulo": "Princípios administrativos",
       "intro": "O regime jurídico-administrativo é o conjunto de prerrogativas e sujeições que distingue a Administração Pública dos particulares. Ele se assenta sobre dois superprincípios (as \"pedras de toque\", na expressão de Celso Antônio Bandeira de Mello): a supremacia do interesse público sobre o privado e a indisponibilidade do interesse público pela Administração. Desses dois derivam, lógica e didaticamente, todos os demais princípios.\n\nOs princípios expressos no caput do art. 37 da CF/88 formam o conhecido acrônimo LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência). Além deles, a doutrina e a jurisprudência reconhecem princípios implícitos (também chamados reconhecidos ou infraconstitucionais), muitos deles positivados no art. 2º da Lei 9.784/99.\n\nPara o cargo de Auditor-Fiscal, o domínio dos princípios é decisivo: eles orientam a atuação fiscalizatória, o controle dos atos e a interpretação das normas. Uma autuação fiscal, por exemplo, deve respeitar legalidade, motivação, ampla defesa e proporcionalidade, sob pena de nulidade.",
       "secoes": [
@@ -38,8 +37,7 @@
       "dica_prova": "A pegadinha clássica é inverter os efeitos de anulação (ex tunc) e revogação (ex nunc) ou dizer que ato discricionário pode ser revogado pelo Judiciário — o Judiciário só ANULA (controle de legalidade), não revoga por conveniência. Decore o LIMPE e saiba que a impessoalidade tem dois sentidos: isonomia (igualdade) e finalidade (vedação à promoção pessoal, art. 37, §1º). Não confunda moralidade com legalidade: um ato pode ser legal, mas imoral, e ainda assim inválido."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "desconcentracao-x-descentralizacao",
       "titulo": "Desconcentração x descentralização",
       "intro": "A organização administrativa do Estado pode dar-se por dois mecanismos distintos de distribuição de atribuições: a desconcentração e a descentralização. Embora as palavras se pareçam, os institutos são opostos quanto ao critério da personalidade jurídica, e essa distinção é uma das mais cobradas em provas de Direito Administrativo.\n\nNa desconcentração, a distribuição de competências ocorre DENTRO de uma mesma pessoa jurídica, gerando órgãos hierarquicamente escalonados. Na descentralização, há transferência de atribuições de uma pessoa para OUTRA pessoa (física ou jurídica), rompendo-se a relação de hierarquia e surgindo, no máximo, vínculo de controle/tutela (supervisão).\n\nDominar essa diferença é base para entender toda a Administração indireta, os limites do controle finalístico e a responsabilidade do Estado por atividades delegadas.",
       "secoes": [
@@ -73,8 +71,7 @@
       "dica_prova": "A pegadinha número um é afirmar que existe hierarquia entre a Administração direta e a indireta — não existe, é controle finalístico. A segunda é confundir outorga (transfere titularidade + execução, por lei, à Administração indireta) com delegação (transfere só a execução, por contrato/ato, a particular). Memorize: desconCEntração = mesma pessoa (CEntro de competência); desCEntralização = outra pessoa."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "entidades-da-administracao-indireta",
       "titulo": "Entidades da Administração indireta",
       "intro": "A Administração indireta é composta pelas pessoas jurídicas criadas ou autorizadas por lei para desempenhar atividades administrativas de forma descentralizada. Nos termos do art. 4º, II, do Decreto-Lei 200/67, integram-na quatro espécies: autarquias, fundações públicas, empresas públicas e sociedades de economia mista.\n\nA grande linha divisória é o regime jurídico predominante: autarquias e fundações de direito público seguem regime de direito público; empresas públicas e sociedades de economia mista seguem regime predominantemente de direito privado, embora derrogado por normas públicas (concurso, licitação em regra, controle do TCU).\n\nPara o Auditor-Fiscal, é essencial saber quem goza de imunidade tributária recíproca, quem se submete a precatório, quem pode falir e como cada entidade é criada — temas que cruzam Direito Administrativo, Constitucional e Tributário.",
       "secoes": [
@@ -109,8 +106,7 @@
       "dica_prova": "Memorize o par criar x autorizar: entidades de DIREITO PÚBLICO são CRIADAS por lei (personalidade nasce com a lei); entidades de DIREITO PRIVADO têm a criação AUTORIZADA por lei (personalidade nasce com o registro). A pegadinha mais frequente é dizer que empresa pública é criada por lei. E lembre: só a sociedade de economia mista é, necessariamente, S.A. A imunidade recíproca alcança autarquias/fundações e estatais prestadoras de serviço público, mas não as que exploram atividade econômica em concorrência."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "requisitos-e-atributos",
       "titulo": "Requisitos e atributos",
       "intro": "O ato administrativo é a manifestação ou declaração unilateral de vontade da Administração (ou de quem lhe faça as vezes) que, sob regime de direito público, produz efeitos jurídicos imediatos com a finalidade de atender ao interesse público. Para ser válido, deve preencher cinco requisitos (ou elementos); para impor-se aos administrados, conta com atributos típicos.\n\nOs cinco requisitos são memorizados pelo acrônimo COM-FI-FOR-MO-OB: Competência, Finalidade, Forma, Motivo e Objeto. Vício em qualquer deles compromete a validade do ato. Os atributos clássicos são: presunção de legitimidade e de veracidade, imperatividade, autoexecutoriedade e tipicidade.\n\nPara o Auditor-Fiscal, o tema é nuclear: o auto de infração é ato administrativo e precisa observar competência (agente fiscal competente), forma (escrita e motivada), motivo (fato gerador/infração) e finalidade (interesse público de arrecadar), além de gozar de presunção de legitimidade.",
       "secoes": [
@@ -145,8 +141,7 @@
       "dica_prova": "Pegadinhas frequentes: (1) dizer que TODO ato é autoexecutório — falso, multa pecuniária não é; (2) confundir motivo com motivação; (3) afirmar que competência pode ser renunciada — não pode, é irrenunciável (mas pode ser delegada/avocada nos limites legais). Sobre desvio de finalidade: ele é vício no elemento FINALIDADE (não no objeto). Decore que finalidade e forma são sempre vinculadas; só motivo e objeto admitem discricionariedade."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "classificacao-e-extincao",
       "titulo": "Classificação e extinção",
       "intro": "Os atos administrativos podem ser classificados sob diversos critérios, mas o mais cobrado é a distinção entre atos vinculados e discricionários. Igualmente central é o estudo das formas de extinção do ato — sobretudo anulação, revogação e convalidação —, cada uma com pressupostos, autoridade competente e efeitos próprios.\n\nNo ato vinculado, a lei define todos os elementos, não restando margem de escolha ao administrador (ex.: concessão de aposentadoria a quem cumpre os requisitos, lançamento tributário). No ato discricionário, a lei confere ao agente margem de juízo quanto a conveniência e oportunidade (mérito), dentro dos limites legais.\n\nDistinguir anulação (por ilegalidade) de revogação (por conveniência) e saber quando cabe convalidação é decisivo para o controle dos atos da Administração e recorrente nas provas de carreiras fiscais.",
       "secoes": [
@@ -181,8 +176,7 @@
       "dica_prova": "A pegadinha mais cobrada é trocar os efeitos: anulação = ex tunc, revogação = ex nunc. A segunda é dizer que o Judiciário pode revogar — ele só anula. A terceira é sobre convalidação: lembre que SÓ vícios de competência (não exclusiva) e de forma (não essencial) são sanáveis; pense no mnemônico FOCO (FOrma e COmpetência). Vícios de finalidade, motivo e objeto NÃO se convalidam (geram nulidade). E atenção ao prazo decadencial de 5 anos do art. 54 da Lei 9.784/99."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "poder-de-policia",
       "titulo": "Poder de polícia",
       "intro": "O poder de polícia é a prerrogativa de que dispõe a Administração para condicionar, restringir ou frenar o exercício de direitos e liberdades individuais (especialmente liberdade e propriedade) em benefício do interesse público. Decorre diretamente da supremacia do interesse público.\n\nO CTN traz definição legal no art. 78: poder de polícia é a atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão de interesse público concernente à segurança, higiene, ordem, costumes, tributos, mercado, tranquilidade pública etc. Essa definição é importante porque o exercício REGULAR do poder de polícia é fato gerador das TAXAS de polícia (art. 145, II, CF).\n\nPara o Auditor-Fiscal, o poder de polícia é a base jurídica da fiscalização tributária: a atividade de fiscalizar, vistoriar, exigir documentos e autuar é manifestação típica do poder de polícia administrativa.",
       "secoes": [
@@ -217,8 +211,7 @@
       "dica_prova": "Pegadinhas: (1) dizer que a multa de polícia é autoexecutória — não é (cobrança depende de execução fiscal); (2) afirmar que o poder de polícia é sempre discricionário — a licença é ato vinculado; (3) confundir polícia administrativa com judiciária. Para o Fisco, decore a Súmula 323 do STF (não pode apreender mercadoria como coação ao pagamento) e que o exercício REGULAR (não o irregular) do poder de polícia gera taxa. O STF (RE 658.570) admite delegação das fases de consentimento e fiscalização a estatais, mas ordem e sanção ficam com o poder público."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "poder-disciplinar-e-hierarquico",
       "titulo": "Poder disciplinar e hierárquico",
       "intro": "Os poderes hierárquico e disciplinar são prerrogativas internas da Administração, voltadas à sua própria organização e ao controle da conduta funcional de seus agentes. Estão intimamente ligados, mas não se confundem.\n\nO poder hierárquico decorre da estrutura escalonada da Administração (resultado da desconcentração) e permite ordenar, coordenar, controlar e corrigir a atuação dos órgãos e agentes subordinados. O poder disciplinar é a faculdade de apurar infrações e aplicar sanções a agentes públicos e a particulares sujeitos à disciplina interna da Administração (ex.: contratados).\n\nPara o Auditor-Fiscal, esses poderes importam porque estruturam a cadeia de comando da fiscalização (delegação, avocação, revisão de autos) e porque o regime disciplinar do servidor é tema de prova frequente, sempre exigindo processo administrativo com contraditório e ampla defesa.",
       "secoes": [
@@ -253,8 +246,7 @@
       "dica_prova": "Pegadinha clássica: dizer que o poder disciplinar é totalmente discricionário — a apuração da infração é obrigatória (vinculada); só a dosimetria admite certa margem. Outra: confundir delegação com avocação (delegação é transferir; avocação é chamar para si). Lembre das três vedações à delegação: atos normativos, decisão de recursos e competência exclusiva (mnemônico CENORA: COmpetência exclusiva, NORmativos, recursos... use o que funcionar). E na independência das instâncias, só inexistência do fato e negativa de autoria penais repercutem na esfera administrativa."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "regime-e-responsabilidade",
       "titulo": "Regime e responsabilidade",
       "intro": "Agente público é toda pessoa física que, de forma definitiva ou transitória, com ou sem remuneração, exerce função pública. O conceito é amplíssimo e abrange agentes políticos (chefes do Executivo, parlamentares, magistrados, membros do MP), servidores públicos (estatutários e empregados públicos celetistas), militares e particulares em colaboração com o Poder Público (mesários, jurados, requisitados, concessionários).\n\nO regime jurídico do servidor estatutário envolve formas de provimento (ingresso) e vacância (saída) de cargos, direitos, deveres e o regime disciplinar. Em Goiás, os servidores estaduais regem-se pelo respectivo Estatuto dos Servidores Públicos Civis do Estado (Lei estadual), mas a CF/88 (arts. 37 a 41) fixa as balizas gerais (concurso público, estabilidade, teto remuneratório).\n\nUm ponto crucial e muito cobrado é a tríplice responsabilidade do agente — civil, penal e administrativa —, que são, em regra, independentes entre si.",
       "secoes": [
@@ -289,8 +281,7 @@
       "dica_prova": "A pegadinha campeã é sobre a comunicação das instâncias: decore que SÓ a absolvição penal por inexistência do fato ou negativa de autoria repercute nas esferas civil e administrativa; falta de provas e prescrição NÃO impedem a punição administrativa. Outra: a responsabilidade do SERVIDOR perante o Estado é subjetiva (depende de dolo/culpa), enquanto a do ESTADO perante a vítima é objetiva. Não confunda exoneração (sem caráter punitivo) com demissão (penalidade). E lembre: estabilidade são 3 anos; estágio probatório também tem sido tratado como 3 anos pela jurisprudência."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "modalidades-e-fases",
       "titulo": "Modalidades e fases",
       "intro": "A Lei 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) substituiu a Lei 8.666/93, a Lei do Pregão (10.520/02) e o RDC (12.462/11), unificando o regime. Licitação é o procedimento administrativo destinado a selecionar a proposta mais vantajosa e a promover o desenvolvimento nacional sustentável, assegurando isonomia entre os participantes.\n\nA Lei 14.133/21 prevê CINCO modalidades de licitação (art. 28): pregão, concorrência, concurso, leilão e diálogo competitivo — note que extinguiu a tomada de preços e o convite. Adota, ainda, uma fase procedimental ordenada e privilegia a inversão de fases (julgamento antes da habilitação) e a fase recursal única.\n\nPara o Auditor-Fiscal, o tema é cobrado tanto em Direito Administrativo quanto na execução da despesa pública: contratações da Administração devem observar licitação, salvo as hipóteses de dispensa e inexigibilidade.",
       "secoes": [
@@ -325,8 +316,7 @@
       "dica_prova": "A pegadinha mais forte é dizer que a modalidade se define pelo VALOR — na 14.133/21 é pela NATUREZA do objeto (o valor só define dispensa do art. 75). Decore as 5 modalidades e que tomada de preços e convite foram extintos. Lembre da ordem das fases (preparatória, divulgação, propostas, julgamento, habilitação, recursal, homologação) e que o julgamento vem ANTES da habilitação como regra. O diálogo competitivo é a estrela das provas recentes — saiba que é para inovação/complexidade."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "contratacao-direta",
       "titulo": "Contratação direta",
       "intro": "Contratação direta é a celebração de contrato administrativo SEM o prévio procedimento de licitação, nas hipóteses excepcionais previstas em lei. A regra constitucional é licitar (art. 37, XXI, CF); a contratação direta é exceção e exige justificativa formal. Na Lei 14.133/21, divide-se em dois grandes grupos: dispensa de licitação (arts. 74 e 75) e inexigibilidade (art. 74).\n\nA diferença essencial: na INEXIGIBILIDADE há INVIABILIDADE de competição (não há como licitar, pois não há concorrência possível). Na DISPENSA, a competição seria possível, mas a lei dispensa ou faculta a licitação por razões de conveniência, valor ou situações específicas. A dispensa, por sua vez, subdivide-se em licitação dispensável (a Administração pode ou não licitar) e dispensada (a lei já afasta a licitação).\n\nPara o Auditor-Fiscal, o tema é central no controle da despesa: contratações diretas mal justificadas são causa frequente de improbidade e de glosa pelo Tribunal de Contas.",
       "secoes": [
@@ -361,8 +351,7 @@
       "dica_prova": "Memorize: INEXIGIBILIDADE = INviável a competição (rol exemplificativo, art. 74); DISPENSA = competição viável, mas afastada (rol taxativo, art. 75). Pegadinhas frequentes: (1) dizer que a contratação direta dispensa procedimento e justificativa de preço — falso (art. 72); (2) afirmar que o rol da inexigibilidade é taxativo — é exemplificativo; (3) trocar dispensável (faculdade de licitar) por dispensada (lei já afasta). Decore que a notória especialização e a singularidade do serviço andam juntas na inexigibilidade técnica."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "responsabilidade-civil-do-estado",
       "titulo": "Responsabilidade civil do Estado",
       "intro": "A responsabilidade civil do Estado é a obrigação de reparar danos patrimoniais ou morais causados a terceiros por agentes públicos no exercício de suas funções. No Brasil, a regra geral é a responsabilidade OBJETIVA, fundada na teoria do risco administrativo: basta a comprovação da conduta do agente, do dano e do nexo causal, dispensando-se a prova de culpa ou dolo.\n\nO fundamento constitucional está no art. 37, §6º, da CF/88: as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\n\nPara o Auditor-Fiscal, o tema importa porque atos de fiscalização que causem danos indevidos (apreensões ilegais, autuações abusivas) podem gerar responsabilidade do Estado, que depois exerce regresso contra o agente que agiu com dolo ou culpa.",
       "secoes": [
@@ -397,8 +386,7 @@
       "dica_prova": "Pegadinhas: (1) confundir risco administrativo (admite excludentes) com risco integral (não admite); (2) dizer que a vítima pode acionar diretamente o agente — pela dupla garantia (Tema 940), deve acionar o Estado; (3) afirmar que o regresso contra o agente é objetivo — é SUBJETIVO (dolo/culpa). Para omissão, lembre da distinção omissão específica (objetiva) x genérica (subjetiva). E a responsabilidade do Estado por atos de notário/tabelião também é objetiva (STF), com regresso contra o titular do cartório."
     },
     {
-      "ti": 6,
-      "si": 1,
+      "sid": "improbidade-administrativa",
       "titulo": "Improbidade administrativa",
       "intro": "A improbidade administrativa é a conduta desonesta, desleal ou de má-fé do agente público (ou de quem com ele concorra) que viola os deveres de honestidade, imparcialidade e legalidade na gestão da coisa pública. É regida pela Lei 8.429/92 (LIA), profundamente alterada pela Lei 14.230/2021, e tem fundamento constitucional no art. 37, §4º, da CF/88.\n\nA reforma de 2021 foi um divisor de águas: passou a exigir DOLO em todas as modalidades (extinguindo a improbidade culposa), revogou condutas, alterou prazos prescricionais e endureceu requisitos. Hoje, a LIA tipifica três grandes grupos de atos ímprobos: enriquecimento ilícito (art. 9º), prejuízo ao erário (art. 10) e violação a princípios da Administração (art. 11).\n\nPara o Auditor-Fiscal, é tema crítico: o servidor que pratica corrupção, causa dano ao erário ou viola princípios pode sofrer sanções gravíssimas (perda da função, suspensão de direitos políticos, ressarcimento, multa), além das esferas penal e administrativa.",
       "secoes": [
@@ -433,8 +421,7 @@
       "dica_prova": "Foco total na reforma de 2021: (1) NÃO existe mais improbidade culposa — tudo exige dolo (e dolo específico); (2) o rol do art. 11 (princípios) virou TAXATIVO; (3) sanções são aplicadas pelo JUDICIÁRIO, não pela Administração; (4) prazo prescricional geral de 8 anos, mas RESSARCIMENTO por dolo é imprescritível. Pegadinhas comuns: misturar improbidade (cível) com crime (penal) ou com PAD (administrativo) — são independentes; e dizer que a suspensão de direitos políticos cabe na violação a princípios (em regra, não cabe após a reforma)."
     },
     {
-      "ti": 7,
-      "si": 0,
+      "sid": "bens-publicos-e-intervencao-na-propriedade",
       "titulo": "Bens públicos e intervenção na propriedade",
       "intro": "Bens públicos são aqueles pertencentes às pessoas jurídicas de direito público (União, Estados, DF, Municípios, autarquias e fundações públicas). O Código Civil (art. 98) adota o critério da titularidade: são públicos os bens do domínio nacional pertencentes às pessoas jurídicas de direito público interno; todos os demais são particulares. Eles se classificam, quanto à destinação, em bens de uso comum do povo, de uso especial e dominicais.\n\nA intervenção do Estado na propriedade privada é a atuação que restringe ou suprime o direito de propriedade em prol do interesse público, com fundamento na supremacia do interesse público e na função social da propriedade (arts. 5º, XXII a XXIV, e 170, III, CF). Suas modalidades vão das restritivas (limitação, servidão, requisição, ocupação, tombamento) à supressiva (desapropriação).\n\nPara o Auditor-Fiscal, o tema aparece no estudo do patrimônio público estadual, na imunidade tributária dos bens públicos e nas hipóteses de intervenção que repercutem na tributação (ex.: imunidade recíproca, ITBI em desapropriação).",
       "secoes": [

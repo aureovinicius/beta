@@ -2,8 +2,7 @@
   "slug": "direito-civil-empresarial",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "integracao-e-interpretacao",
       "titulo": "Integração e interpretação",
       "intro": "A Lei de Introdução às Normas do Direito Brasileiro (LINDB), originalmente o Decreto-Lei 4.657/1942 (renomeado pela Lei 12.376/2010), é uma \"norma sobre normas\" (sobredireito): não regula relações jurídicas específicas, mas a forma de criar, aplicar, interpretar e integrar todo o ordenamento. Por isso seu estudo é transversal e cai com frequência em provas fiscais, sobretudo nos pontos de vigência, irretroatividade e integração.\n\nDois eixos concentram a cobrança: (a) a aplicação da lei no tempo e no espaço (arts. 1º a 6º), incluindo vacatio legis, repristinação e direito intertemporal; e (b) os métodos de integração e interpretação (arts. 4º e 5º), usados quando a lei é omissa ou ambígua. A LINDB também foi modernizada pela Lei 13.655/2018, que inseriu os arts. 20 a 30 com foco em segurança jurídica e eficiência na atuação dos gestores públicos — tema de alto interesse para o Auditor-Fiscal.",
       "secoes": [
@@ -41,8 +40,7 @@
       "dica_prova": "As bancas adoram trocar 45 dias por 'data da publicação' (só vale se a lei dispuser) e afirmar que a revogação da lei revogadora restaura a anterior automaticamente (falso). Lembre que, no tributário, a analogia não cria tributo (art. 108, §1º, CTN) e a equidade não dispensa tributo devido."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "pessoa-juridica",
       "titulo": "Pessoa jurídica",
       "intro": "Pessoa jurídica é a entidade a que o ordenamento atribui personalidade própria, distinta da de seus membros, tornando-a apta a ser titular de direitos e obrigações na ordem civil. O Código Civil de 2002 (Lei 10.406/2002) trata do tema nos arts. 40 a 69, classificando-as e estabelecendo o regime de constituição, funcionamento e extinção.\n\nO tema é caro ao Auditor-Fiscal porque o sujeito passivo de muitos tributos é uma pessoa jurídica, e institutos como a desconsideração da personalidade jurídica (art. 50) e a responsabilidade dos sócios e administradores (que dialoga com os arts. 134 e 135 do CTN) são decisivos na cobrança do crédito tributário.",
       "secoes": [
@@ -81,8 +79,7 @@
       "dica_prova": "Não confunda a desconsideração do art. 50 do CC (teoria maior) com a do art. 135 do CTN. O simples não pagamento de tributo nunca basta para atingir o sócio (Súmula 430 STJ); precisa de excesso de poderes, infração de lei ou dissolução irregular (Súmula 435 STJ). Cuidado: a EIRELI foi extinta e convertida em limitada unipessoal."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "domicilio-e-bens",
       "titulo": "Domicílio e bens",
       "intro": "Domicílio e bens são categorias estruturantes do Direito Civil. Domicílio define o local onde a pessoa responde por seus atos jurídicos, com reflexos diretos em competência, citação e — no campo fiscal — na fixação do domicílio tributário (art. 127 do CTN). Bens são os objetos suscetíveis de valoração econômica e de apropriação, sobre os quais recaem os direitos reais e muitas obrigações.\n\nO Código Civil trata de bens nos arts. 79 a 103 e de domicílio nos arts. 70 a 78. Para o Auditor-Fiscal, a classificação dos bens (móveis/imóveis, públicos/particulares) é relevante para impostos como ITCD, ITBI e ITR e para o regime dos bens públicos, ao passo que o domicílio é base da relação jurídico-tributária.",
       "secoes": [
@@ -120,8 +117,7 @@
       "dica_prova": "Memorize a tríade dos bens públicos (inalienabilidade relativa, impenhorabilidade e imprescritibilidade) e que apenas os DOMINICAIS podem ser alienados. No domicílio, a pegadinha é negar o poder de recusa do Fisco (art. 127, §2º, CTN). Praças e ruas (uso comum) nunca sofrem usucapião."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "defeitos-do-negocio-juridico",
       "titulo": "Defeitos do negócio jurídico",
       "intro": "O negócio jurídico, manifestação de vontade dirigida a produzir efeitos jurídicos queridos pelas partes, percorre os planos de existência, validade e eficácia (Escada Ponteana). Os defeitos atacam o plano da validade: são vícios que, presentes, tornam o negócio anulável (vícios de consentimento) ou nulo (algumas hipóteses de vício social, como a simulação).\n\nO Código Civil disciplina os defeitos nos arts. 138 a 165. Há duas grandes categorias: os vícios de consentimento (erro, dolo, coação, estado de perigo e lesão), que maculam a vontade do próprio declarante; e os vícios sociais (fraude contra credores e simulação), que ofendem terceiros ou a ordem jurídica. Distinguir nulidade de anulabilidade e os prazos correlatos é o coração da cobrança.",
       "secoes": [
@@ -160,8 +156,7 @@
       "dica_prova": "O erro mais cobrado é tratar a simulação como anulável: no CC/2002 ela é NULA (art. 167), imprescritível e arguível por qualquer interessado. Decore os prazos do art. 178 (4 anos) e a diferença entre fraude contra credores (defeito do negócio) e fraude à execução (instituto processual)."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "prescricao-e-decadencia",
       "titulo": "Prescrição e decadência",
       "intro": "Prescrição e decadência são institutos ligados ao decurso do tempo que extinguem situações jurídicas, conferindo estabilidade e segurança às relações. A distinção é decisiva e altamente cobrada em provas de Auditor-Fiscal, porque a extinção do crédito tributário pelo tempo (decadência do direito de lançar e prescrição da pretensão de cobrar) segue lógica análoga e está nos arts. 173 e 174 do CTN.\n\nNo Código Civil, a prescrição extingue a pretensão (o poder de exigir judicialmente uma prestação), nascida da violação de um direito subjetivo (art. 189). A decadência extingue o próprio direito potestativo pelo seu não exercício no prazo legal ou convencional. A teoria de Agnelo Amorim Filho, adotada pela doutrina e jurisprudência, é a chave para separar os dois.",
       "secoes": [
@@ -200,8 +195,7 @@
       "dica_prova": "A confusão clássica é trocar o prazo para LANÇAR (decadência) pelo prazo para EXECUTAR (prescrição) no tributário. Em civil, atenção ao prazo de reparação civil (3 anos, não 10). Lembre que a prescrição se interrompe só uma vez e que a decadência, em regra, corre sem suspensão."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "modalidades-e-extincao",
       "titulo": "Modalidades e extinção",
       "intro": "A obrigação é o vínculo jurídico transitório pelo qual o devedor se compromete a cumprir uma prestação economicamente apreciável em favor do credor, que pode exigi-la. Compõe-se de elementos subjetivos (credor e devedor), objetivo (a prestação) e do vínculo (o liame jurídico, com a responsabilidade patrimonial — Schuld e Haftung).\n\nO Código Civil disciplina o Direito das Obrigações a partir do art. 233. Classificam-se as obrigações quanto ao objeto (dar, fazer, não fazer; alternativas, facultativas), quanto aos sujeitos (solidárias, conjuntas) e quanto à divisibilidade. A extinção ocorre normalmente pelo pagamento (adimplemento) e, de modo especial, por mecanismos como compensação, novação, confusão, remissão e dação em pagamento.",
       "secoes": [
@@ -240,8 +234,7 @@
       "dica_prova": "A banca tenta transpor a compensação automática do Código Civil para o tributário — errado: lá exige lei autorizadora (art. 170 CTN). Decore os requisitos da compensação civil (líquidas, vencidas, fungíveis homogêneas) e a regra da mora automática nas obrigações a termo."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "responsabilidade-civil",
       "titulo": "Responsabilidade civil",
       "intro": "Responsabilidade civil é o dever jurídico de reparar o dano causado a outrem, restabelecendo o equilíbrio patrimonial ou moral violado. Funda-se na ideia de que aquele que, por ato ilícito, causar dano a outrem é obrigado a repará-lo (art. 927 do CC, em diálogo com os arts. 186 e 187, que definem o ato ilícito).\n\nDistinguem-se duas grandes vertentes: a responsabilidade SUBJETIVA, que exige a demonstração de culpa (em sentido amplo: dolo ou culpa estrita — imprudência, negligência, imperícia); e a OBJETIVA, que prescinde da culpa, bastando a conduta, o dano e o nexo causal, fundada na teoria do risco. O tema dialoga com a responsabilidade do Estado (art. 37, §6º, da CF/88) e com a responsabilidade tributária por infrações (art. 136 do CTN, objetiva).",
       "secoes": [
@@ -280,8 +273,7 @@
       "dica_prova": "Pegadinha frequente: exigir culpa para o abuso de direito (art. 187) — ele é objetivo. Lembre que a responsabilidade do empregador por atos do empregado é objetiva (não mais culpa in eligendo/vigilando) e que, no tributário, a responsabilidade por infrações independe da intenção do agente (art. 136 CTN), salvo lei em contrário."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "teoria-geral-e-especies",
       "titulo": "Teoria geral e espécies",
       "intro": "Contrato é o negócio jurídico bilateral ou plurilateral que, pelo acordo de vontades, cria, modifica ou extingue direitos e obrigações de conteúdo patrimonial. É a principal fonte das obrigações e expressão da autonomia privada, hoje funcionalizada pelos princípios da boa-fé objetiva e da função social.\n\nO Código Civil trata da teoria geral dos contratos a partir do art. 421 e das espécies (contratos em espécie) a partir do art. 481. A liberdade contratual será exercida nos limites da função social do contrato (art. 421, com redação dada pela Lei 13.874/2019, que reforçou a intervenção mínima e a excepcionalidade da revisão). Conhecer formação, classificação, princípios e os tipos contratuais mais comuns é o foco da prova.",
       "secoes": [
@@ -320,8 +312,7 @@
       "dica_prova": "Lembre que a compra e venda, por si só, não transfere a propriedade (precisa de registro/tradição) — relevante para o ITBI. No fiador, o benefício de ordem (art. 827) é afastado por renúncia, solidariedade ou insolvência do afiançado (art. 828), comum em locação. Distinga lesão (vício na formação) de onerosidade excessiva (fato superveniente)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "empresario-e-estabelecimento",
       "titulo": "Empresário e estabelecimento",
       "intro": "O Direito de Empresa, inserido no Código Civil de 2002 (arts. 966 a 1.195), adotou a Teoria da Empresa de matriz italiana, abandonando a antiga Teoria dos Atos de Comércio. Empresário é quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços (art. 966).\n\nDois núcleos concentram a cobrança: a figura do empresário (e a delimitação de quem NÃO é empresário) e o estabelecimento empresarial como complexo de bens, com destaque para o trespasse (sua alienação). Para o Auditor-Fiscal, o registro na Junta Comercial e a sucessão tributária no trespasse (art. 133 do CTN) são pontos sensíveis e frequentemente cobrados.",
       "secoes": [
@@ -360,8 +351,7 @@
       "dica_prova": "O ponto-chave fiscal é o art. 133 do CTN: adquirente que continua a exploração responde INTEGRALMENTE se o alienante cessou a atividade, e SUBSIDIARIAMENTE se ele prosseguiu ou recomeçou em 6 meses. A banca inverte integral/subsidiário. Lembre também que profissional intelectual em regra não é empresário, salvo elemento de empresa."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "sociedades",
       "titulo": "Sociedades",
       "intro": "Sociedade é o contrato pelo qual duas ou mais pessoas (ou, em certos casos, uma só) reciprocamente se obrigam a contribuir, com bens ou serviços, para o exercício de atividade econômica e a partilha, entre si, dos resultados (art. 981 do CC). O Direito Societário do Código Civil (arts. 981 a 1.141) e a Lei 6.404/1976 (Lei das S.A.) regem os tipos societários.\n\nA classificação fundamental separa sociedades não personificadas (em comum e em conta de participação) das personificadas, e estas em sociedades simples (atividade não empresarial) e empresárias (exercem empresa, registradas na Junta Comercial). Para o Auditor-Fiscal, importa a responsabilidade dos sócios — limitada ou ilimitada — e a sociedade limitada, tipo dominante no Brasil, além da sociedade anônima.",
       "secoes": [
@@ -400,8 +390,7 @@
       "dica_prova": "Decore: cooperativa é SEMPRE simples e sociedade por ações é SEMPRE empresária. Na limitada, há solidariedade entre sócios pela parte NÃO integralizada do capital. A limitação de responsabilidade pode ser superada por desconsideração (art. 50) ou pelo art. 135 do CTN — não é absoluta."
     },
     {
-      "ti": 5,
-      "si": 2,
+      "sid": "falencia-e-recuperacao",
       "titulo": "Falência e recuperação",
       "intro": "A Lei 11.101/2005 (Lei de Recuperação de Empresas e Falência — LREF), profundamente alterada pela Lei 14.112/2020, disciplina três institutos: a recuperação judicial, a recuperação extrajudicial e a falência do empresário e da sociedade empresária. Seu eixo é o princípio da preservação da empresa viável (art. 47) e da função social, separando a sorte da empresa (atividade) da sorte do empresário insolvente.\n\nPara o Auditor-Fiscal, o tema é estratégico: a falência e a recuperação afetam a ordem dos créditos (com posição específica do crédito tributário), a habilitação da Fazenda, a sucessão tributária na alienação de ativos e a exigência de regularidade fiscal. Conhecer quem se submete à lei, a classificação dos créditos e os efeitos sobre o crédito tributário é essencial.",
       "secoes": [

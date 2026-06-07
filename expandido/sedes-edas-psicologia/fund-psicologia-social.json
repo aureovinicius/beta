@@ -2,8 +2,7 @@
   "slug": "fund-psicologia-social",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "abordagens-teoricas-da-psicologia",
       "titulo": "Abordagens teóricas da Psicologia",
       "intro": "A Psicologia não é um campo unificado por uma única teoria, mas um conjunto de abordagens (escolas ou enfoques teórico-metodológicos) que partem de pressupostos distintos sobre o que é o psiquismo, o que causa o sofrimento e como se promove a mudança. As quatro abordagens mais cobradas em concursos da assistência social são a psicanálise, a terapia cognitivo-comportamental (TCC), a abordagem humanista-existencial (com destaque para a Abordagem Centrada na Pessoa, de Carl Rogers) e a psicologia sócio-histórica (de matriz vigotskiana e marxista, base teórica de boa parte da atuação no SUAS).\n\nPara a prova, o essencial é distinguir os pressupostos de cada abordagem: a concepção de sujeito, o papel do inconsciente, a importância do ambiente/sociedade e o método de intervenção. A banca costuma trocar autores entre escolas (atribuir o inconsciente a Skinner, por exemplo) ou misturar conceitos. Dominar quem é quem e qual o conceito-chave de cada abordagem resolve a maioria das questões.\n\nNo contexto do SUAS, a psicologia sócio-histórica ganha protagonismo porque entende o sujeito como constituído nas relações sociais e na cultura, o que dialoga diretamente com a perspectiva crítica da assistência social e com o compromisso social da profissão.",
       "secoes": [
@@ -42,8 +41,7 @@
       "dica_prova": "A pegadinha mais comum é atribuir um conceito a autor/escola errados (ex.: \"reforço positivo\" para a psicanálise, \"inconsciente\" para Skinner, \"empatia incondicional\" para a TCC). Memorize o conceito-âncora de cada abordagem e seu autor. Lembre que reforço/punição = behaviorismo (Skinner); pensamentos automáticos e distorções = cognitivismo (Beck); empatia, congruência e aceitação positiva incondicional = Rogers (humanista); mediação e ZDP = Vigotski (sócio-histórica)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "psicologia-social-critica-e-desenvolvimento",
       "titulo": "Psicologia social crítica e desenvolvimento",
       "intro": "A psicologia social crítica é a vertente que rompe com a psicologia social tradicional (de matriz norte-americana, centrada em experimentos de laboratório e em fenômenos como atitudes e influência) para entender os fenômenos psicossociais a partir das condições históricas, econômicas e políticas concretas. Na América Latina, ela está ligada ao compromisso social da psicologia, ao questionamento da neutralidade científica e à crítica à psicologia que individualiza e culpabiliza os sujeitos por problemas que são, na verdade, sociais.\n\nO segundo eixo deste subtópico é a psicologia do desenvolvimento, que estuda as transformações do ser humano ao longo do ciclo de vida (infância, adolescência, vida adulta e envelhecimento). Para o trabalho na assistência social, conhecer as fases do desenvolvimento e seus principais teóricos é essencial para a avaliação, o acolhimento e a proteção de crianças, adolescentes e idosos.\n\nA banca costura os dois temas porque o psicólogo do SUAS atua a partir de uma leitura crítica da realidade (a pessoa em sua situação de vulnerabilidade não é \"culpada\"), e ao mesmo tempo precisa reconhecer marcos do desenvolvimento para identificar violações de direitos e orientar intervenções protetivas.",
       "secoes": [

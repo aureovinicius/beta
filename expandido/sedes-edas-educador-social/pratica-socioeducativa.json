@@ -2,11 +2,9 @@
   "slug": "pratica-socioeducativa",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "educador-na-protecao-social-basica-paif-scfv",
       "titulo": "Educador na Proteção Social Básica (PAIF, SCFV)",
-      "intro": "A Proteção Social Básica (PSB) é o nível do SUAS voltado à PREVENÇÃO de situações de risco, por meio do fortalecimento de vínculos familiares e comunitários e do desenvolvimento de potencialidades. Seu equipamento estatal de referência é o CRAS (Centro de Referência de Assistência Social), localizado em territórios de maior vulnerabilidade. A PSB atende famílias e indivíduos em situação de vulnerabilidade social decorrente da pobreza, da privação ou da fragilização de vínculos — mas em que os direitos AINDA NÃO foram violados.\n\nO Educador Social na PSB atua principalmente em dois serviços: o PAIF (Serviço de Proteção e Atendimento Integral à Família), ofertado exclusivamente no CRAS, e o SCFV (Serviço de Convivência e Fortalecimento de Vínculos), em grupos por faixa etária. Seu papel é educativo e preventivo: mediar grupos, conduzir oficinas, fortalecer vínculos e estimular o protagonismo e a participação social, sempre de forma articulada à equipe técnica de referência."
-      ,
+      "intro": "A Proteção Social Básica (PSB) é o nível do SUAS voltado à PREVENÇÃO de situações de risco, por meio do fortalecimento de vínculos familiares e comunitários e do desenvolvimento de potencialidades. Seu equipamento estatal de referência é o CRAS (Centro de Referência de Assistência Social), localizado em territórios de maior vulnerabilidade. A PSB atende famílias e indivíduos em situação de vulnerabilidade social decorrente da pobreza, da privação ou da fragilização de vínculos — mas em que os direitos AINDA NÃO foram violados.\n\nO Educador Social na PSB atua principalmente em dois serviços: o PAIF (Serviço de Proteção e Atendimento Integral à Família), ofertado exclusivamente no CRAS, e o SCFV (Serviço de Convivência e Fortalecimento de Vínculos), em grupos por faixa etária. Seu papel é educativo e preventivo: mediar grupos, conduzir oficinas, fortalecer vínculos e estimular o protagonismo e a participação social, sempre de forma articulada à equipe técnica de referência.",
       "secoes": [
         {
           "h": "A Proteção Social Básica e o CRAS",
@@ -38,11 +36,9 @@
       "dica_prova": "A pegadinha mais comum é alocar PAIF ou SCFV na Proteção Social Especial — ambos são da PSB. Outra: dizer que o PAIF é ofertado em qualquer serviço — é EXCLUSIVO do CRAS. Lembre o divisor PSB x PSE: vulnerabilidade (ainda sem violação) é PSB; risco/violação já ocorrida é PSE. E o SCFV é organizado em GRUPOS por faixa etária, complementando o PAIF."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "educador-na-protecao-social-especial-paefi",
       "titulo": "Educador na Proteção Social Especial (PAEFI)",
-      "intro": "A Proteção Social Especial (PSE) é o nível do SUAS destinado a famílias e indivíduos cujos DIREITOS JÁ FORAM VIOLADOS — situações de risco pessoal e social por ocorrência de violência, abuso, abandono, negligência, trabalho infantil, situação de rua, afastamento do convívio familiar, entre outras. Diferentemente da PSB (preventiva), a PSE é de caráter PROTETIVO e, muitas vezes, mais complexo e especializado, exigindo acompanhamento técnico continuado.\n\nA PSE divide-se em MÉDIA complexidade (vínculos familiares preservados, embora fragilizados) e ALTA complexidade (vínculos rompidos, com necessidade de acolhimento/abrigamento). Seu equipamento de referência na média complexidade é o CREAS, onde se oferta o PAEFI (Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos). O Educador Social também atua na PSE, notadamente no Serviço Especializado em Abordagem Social e nos serviços de acolhimento, sempre articulado à equipe técnica especializada."
-      ,
+      "intro": "A Proteção Social Especial (PSE) é o nível do SUAS destinado a famílias e indivíduos cujos DIREITOS JÁ FORAM VIOLADOS — situações de risco pessoal e social por ocorrência de violência, abuso, abandono, negligência, trabalho infantil, situação de rua, afastamento do convívio familiar, entre outras. Diferentemente da PSB (preventiva), a PSE é de caráter PROTETIVO e, muitas vezes, mais complexo e especializado, exigindo acompanhamento técnico continuado.\n\nA PSE divide-se em MÉDIA complexidade (vínculos familiares preservados, embora fragilizados) e ALTA complexidade (vínculos rompidos, com necessidade de acolhimento/abrigamento). Seu equipamento de referência na média complexidade é o CREAS, onde se oferta o PAEFI (Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos). O Educador Social também atua na PSE, notadamente no Serviço Especializado em Abordagem Social e nos serviços de acolhimento, sempre articulado à equipe técnica especializada.",
       "secoes": [
         {
           "h": "Proteção Social Especial: média e alta complexidade",

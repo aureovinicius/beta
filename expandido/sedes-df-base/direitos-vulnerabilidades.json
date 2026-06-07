@@ -2,15 +2,26 @@
   "slug": "direitos-vulnerabilidades",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "eca-convivencia-familiar-acolhimento-e-adocao",
       "titulo": "ECA, convivência familiar, acolhimento e adoção",
       "intro": "O Estatuto da Criança e do Adolescente (ECA), Lei nº 8.069/1990, adota a doutrina da proteção integral, reconhecendo crianças (até 12 anos incompletos) e adolescentes (12 a 18 anos) como sujeitos de direitos e pessoas em condição peculiar de desenvolvimento. Aplica o princípio da prioridade absoluta (art. 227 da CF) e responsabiliza família, sociedade e Estado.\n\nO direito à convivência familiar e comunitária é central: a criança deve, preferencialmente, ser criada em sua família natural; só excepcionalmente vai para família substituta ou acolhimento, sempre como medida provisória.",
       "secoes": [
-        { "h": "Doutrina da proteção integral e prioridade absoluta", "p": "Supera a antiga doutrina da situação irregular (Código de Menores). Toda criança e adolescente é sujeito de direitos, com prioridade absoluta no atendimento, na destinação de recursos e na proteção. A condição peculiar de pessoa em desenvolvimento orienta toda a interpretação do ECA." },
-        { "h": "Medidas de proteção", "p": "Aplicadas quando há ameaça ou violação de direitos (art. 98), por ação ou omissão da sociedade/Estado, dos pais/responsável ou da própria conduta. Incluem encaminhamento à família, orientação, matrícula escolar, tratamento de saúde, inclusão em programas e, excepcionalmente, acolhimento institucional ou familiar. O Conselho Tutelar tem papel central na aplicação." },
-        { "h": "Convivência familiar e acolhimento", "p": "A família natural é prioridade; a família extensa (parentes próximos) vem antes da família substituta. O acolhimento institucional/familiar é medida provisória e excepcional, com reavaliação periódica (a cada poucos meses) e prazo máximo legal, visando à reintegração familiar ou, esgotada essa via, à colocação em família substituta." },
-        { "h": "Família substituta e adoção", "p": "A colocação em família substituta dá-se por guarda, tutela ou adoção. A adoção é medida excepcional e irrevogável, atribui a condição de filho com os mesmos direitos, exige cadastro e habilitação prévios e prioriza o melhor interesse da criança. O consentimento e a oitiva da criança/adolescente são exigidos conforme a idade." }
+        {
+          "h": "Doutrina da proteção integral e prioridade absoluta",
+          "p": "Supera a antiga doutrina da situação irregular (Código de Menores). Toda criança e adolescente é sujeito de direitos, com prioridade absoluta no atendimento, na destinação de recursos e na proteção. A condição peculiar de pessoa em desenvolvimento orienta toda a interpretação do ECA."
+        },
+        {
+          "h": "Medidas de proteção",
+          "p": "Aplicadas quando há ameaça ou violação de direitos (art. 98), por ação ou omissão da sociedade/Estado, dos pais/responsável ou da própria conduta. Incluem encaminhamento à família, orientação, matrícula escolar, tratamento de saúde, inclusão em programas e, excepcionalmente, acolhimento institucional ou familiar. O Conselho Tutelar tem papel central na aplicação."
+        },
+        {
+          "h": "Convivência familiar e acolhimento",
+          "p": "A família natural é prioridade; a família extensa (parentes próximos) vem antes da família substituta. O acolhimento institucional/familiar é medida provisória e excepcional, com reavaliação periódica (a cada poucos meses) e prazo máximo legal, visando à reintegração familiar ou, esgotada essa via, à colocação em família substituta."
+        },
+        {
+          "h": "Família substituta e adoção",
+          "p": "A colocação em família substituta dá-se por guarda, tutela ou adoção. A adoção é medida excepcional e irrevogável, atribui a condição de filho com os mesmos direitos, exige cadastro e habilitação prévios e prioriza o melhor interesse da criança. O consentimento e a oitiva da criança/adolescente são exigidos conforme a idade."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"O acolhimento institucional de crianças e adolescentes constitui medida de caráter permanente, aplicável sempre que a família apresentar baixa condição econômica.\" — ERRADO. O acolhimento é PROVISÓRIO e EXCEPCIONAL; além disso, a falta ou carência de recursos materiais NÃO constitui motivo suficiente para a perda ou suspensão do poder familiar (art. 23 do ECA).",
       "pontos_chave": [
@@ -24,15 +35,26 @@
       "dica_prova": "Duas pegadinhas certeiras: (1) acolhimento como medida \"permanente\" (é provisória) e (2) usar a pobreza como causa de perda do poder familiar (vedado pelo art. 23). Lembre a ordem de preferência: família natural, depois extensa, depois substituta."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "sinase-e-violencia-contra-criancas-e-adolescentes",
       "titulo": "SINASE e violência contra crianças e adolescentes",
       "intro": "O Sistema Nacional de Atendimento Socioeducativo (SINASE), Lei nº 12.594/2012, regulamenta a execução das medidas socioeducativas aplicadas a adolescentes autores de ato infracional. Ato infracional é a conduta descrita como crime ou contravenção praticada por adolescente, que não comete \"crime\" no sentido técnico, mas se sujeita a medidas socioeducativas.\n\nO SINASE tem caráter pedagógico, busca a responsabilização aliada à reintegração social, e prioriza medidas em meio aberto. Articula-se com a Lei nº 13.431/2017 (escuta protegida) e a Lei nº 14.344/2022 (Lei Henry Borel) no enfrentamento à violência contra crianças e adolescentes.",
       "secoes": [
-        { "h": "Medidas socioeducativas", "p": "Previstas no ECA e executadas conforme o SINASE: advertência, obrigação de reparar o dano, prestação de serviços à comunidade (PSC), liberdade assistida (LA), semiliberdade e internação. As duas primeiras e a PSC/LA são medidas em meio aberto (acompanhadas pelo CREAS); semiliberdade e internação são privativas/restritivas de liberdade." },
-        { "h": "Princípios e internação", "p": "A internação sujeita-se aos princípios da brevidade, excepcionalidade e respeito à condição peculiar de desenvolvimento. Não comporta prazo determinado, com reavaliação no máximo a cada 6 meses e limite de 3 anos; aos 21 anos, é compulsória a liberação. Aplica-se apenas em hipóteses taxativas (ato com violência/grave ameaça, reiteração, ou descumprimento reiterado de medida anterior)." },
-        { "h": "Caráter pedagógico e meio aberto", "p": "O SINASE prioriza as medidas em meio aberto (LA e PSC), executadas pelos serviços do SUAS (CREAS), com plano individual de atendimento (PIA). O foco é educativo e de reinserção, com participação da família e da comunidade, evitando-se a privação de liberdade sempre que possível." },
-        { "h": "Enfrentamento à violência", "p": "A proteção contra a violência envolve a notificação compulsória de maus-tratos, a escuta especializada e o depoimento especial (Lei 13.431/2017, que evita a revitimização), e o agravamento de respostas contra violência doméstica e familiar (Lei 14.344/2022). A rede do SUAS, a saúde, a educação e o sistema de justiça atuam de forma integrada." }
+        {
+          "h": "Medidas socioeducativas",
+          "p": "Previstas no ECA e executadas conforme o SINASE: advertência, obrigação de reparar o dano, prestação de serviços à comunidade (PSC), liberdade assistida (LA), semiliberdade e internação. As duas primeiras e a PSC/LA são medidas em meio aberto (acompanhadas pelo CREAS); semiliberdade e internação são privativas/restritivas de liberdade."
+        },
+        {
+          "h": "Princípios e internação",
+          "p": "A internação sujeita-se aos princípios da brevidade, excepcionalidade e respeito à condição peculiar de desenvolvimento. Não comporta prazo determinado, com reavaliação no máximo a cada 6 meses e limite de 3 anos; aos 21 anos, é compulsória a liberação. Aplica-se apenas em hipóteses taxativas (ato com violência/grave ameaça, reiteração, ou descumprimento reiterado de medida anterior)."
+        },
+        {
+          "h": "Caráter pedagógico e meio aberto",
+          "p": "O SINASE prioriza as medidas em meio aberto (LA e PSC), executadas pelos serviços do SUAS (CREAS), com plano individual de atendimento (PIA). O foco é educativo e de reinserção, com participação da família e da comunidade, evitando-se a privação de liberdade sempre que possível."
+        },
+        {
+          "h": "Enfrentamento à violência",
+          "p": "A proteção contra a violência envolve a notificação compulsória de maus-tratos, a escuta especializada e o depoimento especial (Lei 13.431/2017, que evita a revitimização), e o agravamento de respostas contra violência doméstica e familiar (Lei 14.344/2022). A rede do SUAS, a saúde, a educação e o sistema de justiça atuam de forma integrada."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"A medida socioeducativa de internação pode ser aplicada por prazo determinado, fixado na sentença, não superior a cinco anos.\" — ERRADO. A internação NÃO comporta prazo determinado; é reavaliada no máximo a cada 6 meses, com limite de 3 anos, e liberação compulsória aos 21 anos.",
       "pontos_chave": [
@@ -46,15 +68,26 @@
       "dica_prova": "A internação não tem prazo determinado (erro comum afirmar prazo fixo). Decore os limites: reavaliação em até 6 meses, máximo 3 anos, liberação aos 21. Medidas em meio aberto (LA/PSC) são responsabilidade do CREAS. Adolescente não comete crime."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "violencia-de-genero-medidas-protetivas-e-rede",
       "titulo": "Violência de gênero, medidas protetivas e rede",
       "intro": "A violência de gênero é aquela dirigida à mulher pela sua condição de mulher, estruturada em relações desiguais de poder. Seu enfrentamento articula a Lei Maria da Penha (Lei 11.340/2006), a Lei do Feminicídio (Lei 13.104/2015, que tornou o feminicídio qualificadora do homicídio) e a Política Nacional de Enfrentamento à Violência contra as Mulheres.\n\nA política se organiza em eixos de prevenção, assistência, enfrentamento/combate e garantia de direitos, sustentada por uma rede intersetorial de atendimento que inclui os equipamentos do SUAS.",
       "secoes": [
-        { "h": "Tipos de violência e ciclo da violência", "p": "A Lei Maria da Penha define cinco formas: física, psicológica, sexual, patrimonial e moral. A violência costuma seguir um ciclo (tensão, agressão, \"lua de mel\"/reconciliação) que dificulta o rompimento. Compreender o ciclo é essencial para o acolhimento, evitando culpabilizar a vítima por permanecer na relação." },
-        { "h": "Medidas protetivas de urgência", "p": "São medidas céleres para proteger a mulher: afastamento do agressor do lar, proibição de aproximação e contato, suspensão de porte de arma, restrição de visitas e alimentos provisórios, além de medidas dirigidas à ofendida (abrigamento, recondução ao lar, separação de corpos). Podem ser concedidas de imediato, independentemente de audiência ou de processo penal." },
-        { "h": "Política Nacional e seus eixos", "p": "A Política Nacional de Enfrentamento à Violência contra as Mulheres organiza ações em prevenção (educação, desconstrução de estereótipos), assistência (rede de atendimento humanizado e integral), enfrentamento/combate (responsabilização do agressor) e garantia de direitos (acesso à justiça e a políticas). Pressupõe transversalidade e intersetorialidade." },
-        { "h": "Rede de atendimento e o SUAS", "p": "A rede inclui Centros de Referência de Atendimento à Mulher, Casa da Mulher Brasileira, casas-abrigo, DEAMs, Juizados especializados, serviços de saúde e os equipamentos do SUAS (CRAS e CREAS). O CREAS, via PAEFI, é referência no atendimento especializado a mulheres em situação de violência com direitos violados." }
+        {
+          "h": "Tipos de violência e ciclo da violência",
+          "p": "A Lei Maria da Penha define cinco formas: física, psicológica, sexual, patrimonial e moral. A violência costuma seguir um ciclo (tensão, agressão, \"lua de mel\"/reconciliação) que dificulta o rompimento. Compreender o ciclo é essencial para o acolhimento, evitando culpabilizar a vítima por permanecer na relação."
+        },
+        {
+          "h": "Medidas protetivas de urgência",
+          "p": "São medidas céleres para proteger a mulher: afastamento do agressor do lar, proibição de aproximação e contato, suspensão de porte de arma, restrição de visitas e alimentos provisórios, além de medidas dirigidas à ofendida (abrigamento, recondução ao lar, separação de corpos). Podem ser concedidas de imediato, independentemente de audiência ou de processo penal."
+        },
+        {
+          "h": "Política Nacional e seus eixos",
+          "p": "A Política Nacional de Enfrentamento à Violência contra as Mulheres organiza ações em prevenção (educação, desconstrução de estereótipos), assistência (rede de atendimento humanizado e integral), enfrentamento/combate (responsabilização do agressor) e garantia de direitos (acesso à justiça e a políticas). Pressupõe transversalidade e intersetorialidade."
+        },
+        {
+          "h": "Rede de atendimento e o SUAS",
+          "p": "A rede inclui Centros de Referência de Atendimento à Mulher, Casa da Mulher Brasileira, casas-abrigo, DEAMs, Juizados especializados, serviços de saúde e os equipamentos do SUAS (CRAS e CREAS). O CREAS, via PAEFI, é referência no atendimento especializado a mulheres em situação de violência com direitos violados."
+        }
       ],
       "exemplo": "Cenário aplicado: uma mulher chega ao CREAS após denúncia de violência física e ameaças. O técnico deve acolher com escuta qualificada, sem culpabilizá-la, compreender o ciclo da violência, orientar sobre medidas protetivas de urgência (que podem ser pedidas de imediato), articular a rede (delegacia, saúde, abrigo se houver risco) e construir um plano de acompanhamento.",
       "pontos_chave": [
@@ -68,15 +101,26 @@
       "dica_prova": "Não culpabilizar a vítima é princípio (entender o ciclo da violência). As medidas protetivas independem de processo penal em curso. Feminicídio é qualificadora do homicídio (não tipo autônomo). Conheça os quatro eixos da Política Nacional."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "estatuto-da-pessoa-idosa-e-lbi",
       "titulo": "Estatuto da Pessoa Idosa e LBI",
       "intro": "A proteção da pessoa idosa apoia-se na Política Nacional do Idoso (Lei 8.842/1994) e no Estatuto da Pessoa Idosa (Lei 10.741/2003, antigo Estatuto do Idoso), que consideram idosa a pessoa com 60 anos ou mais e asseguram-lhe prioridade absoluta e proteção integral. A proteção da pessoa com deficiência apoia-se na Lei Brasileira de Inclusão (LBI, Lei 13.146/2015), fundada na Convenção da ONU sobre os Direitos das Pessoas com Deficiência (status de emenda constitucional).\n\nAmbas adotam o paradigma de direitos: a velhice e a deficiência não são incapacidades a serem tuteladas, mas condições que exigem garantia de autonomia, acessibilidade e participação plena.",
       "secoes": [
-        { "h": "Estatuto da Pessoa Idosa", "p": "Considera idosa a pessoa com 60 anos ou mais, com prioridade na efetivação de direitos (saúde, atendimento preferencial, transporte). Prevê o BPC ao idoso de 65 anos ou mais em situação de vulnerabilidade. Tipifica como crimes a discriminação, o abandono e os maus-tratos, e impõe à família, à sociedade e ao Estado o dever de proteção. É vedado qualquer tipo de negligência ou violência." },
-        { "h": "Política Nacional do Idoso", "p": "A Lei 8.842/1994 institui princípios e diretrizes, prioriza o atendimento à pessoa idosa por sua própria família em detrimento da institucionalização (asilar), e organiza a atuação intersetorial. Reconhece o idoso como sujeito de direitos e protagonista, não como objeto de assistencialismo." },
-        { "h": "LBI e modelo social da deficiência", "p": "A LBI adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras (atitudinais, arquitetônicas, comunicacionais). A pessoa com deficiência tem capacidade civil plena; a deficiência, por si só, não afeta a capacidade. Garante acessibilidade, desenho universal, tecnologia assistiva e inclusão escolar e no trabalho." },
-        { "h": "Capacidade e tomada de decisão apoiada", "p": "A LBI alterou o Código Civil: pessoas com deficiência não são mais consideradas absolutamente incapazes apenas pela deficiência. Criou a tomada de decisão apoiada (a pessoa escolhe apoiadores) e tornou a curatela medida extraordinária, restrita a atos patrimoniais e proporcional às necessidades." }
+        {
+          "h": "Estatuto da Pessoa Idosa",
+          "p": "Considera idosa a pessoa com 60 anos ou mais, com prioridade na efetivação de direitos (saúde, atendimento preferencial, transporte). Prevê o BPC ao idoso de 65 anos ou mais em situação de vulnerabilidade. Tipifica como crimes a discriminação, o abandono e os maus-tratos, e impõe à família, à sociedade e ao Estado o dever de proteção. É vedado qualquer tipo de negligência ou violência."
+        },
+        {
+          "h": "Política Nacional do Idoso",
+          "p": "A Lei 8.842/1994 institui princípios e diretrizes, prioriza o atendimento à pessoa idosa por sua própria família em detrimento da institucionalização (asilar), e organiza a atuação intersetorial. Reconhece o idoso como sujeito de direitos e protagonista, não como objeto de assistencialismo."
+        },
+        {
+          "h": "LBI e modelo social da deficiência",
+          "p": "A LBI adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras (atitudinais, arquitetônicas, comunicacionais). A pessoa com deficiência tem capacidade civil plena; a deficiência, por si só, não afeta a capacidade. Garante acessibilidade, desenho universal, tecnologia assistiva e inclusão escolar e no trabalho."
+        },
+        {
+          "h": "Capacidade e tomada de decisão apoiada",
+          "p": "A LBI alterou o Código Civil: pessoas com deficiência não são mais consideradas absolutamente incapazes apenas pela deficiência. Criou a tomada de decisão apoiada (a pessoa escolhe apoiadores) e tornou a curatela medida extraordinária, restrita a atos patrimoniais e proporcional às necessidades."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"Conforme a Lei Brasileira de Inclusão, a pessoa com deficiência é considerada civilmente incapaz, devendo ser representada por curador em todos os atos da vida civil.\" — ERRADO. A LBI assegura a capacidade civil plena; a deficiência não acarreta incapacidade. A curatela é medida extraordinária, restrita a atos de natureza patrimonial e negocial.",
       "pontos_chave": [
@@ -90,15 +134,26 @@
       "dica_prova": "Cuidado com as idades: idoso para o Estatuto = 60+; para o BPC = 65+. A LBI consagra a capacidade civil plena (não confundir com o regime antigo). Modelo social: a deficiência está nas barreiras, não na pessoa. Curatela virou exceção."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "populacao-em-situacao-de-rua-e-pobreza",
       "titulo": "População em situação de rua e pobreza",
       "intro": "A Política Nacional para a População em Situação de Rua (PNPR) foi instituída pelo Decreto nº 7.053/2009. Define essa população como o grupo heterogêneo que possui em comum a pobreza extrema, vínculos familiares interrompidos ou fragilizados e a inexistência de moradia convencional regular, utilizando logradouros públicos e áreas degradadas como espaço de moradia e sustento.\n\nA política rompe com a lógica higienista e repressiva, reconhecendo essas pessoas como sujeitos de direitos e prevendo acesso a serviços, moradia, trabalho, saúde e assistência social, com respeito à dignidade e sem a obrigatoriedade de abrigamento.",
       "secoes": [
-        { "h": "Conceito e princípios", "p": "A PNPR adota como princípios o respeito à dignidade, o direito à convivência familiar e comunitária, a não discriminação e o atendimento humanizado. Reconhece a heterogeneidade do grupo e proíbe ações que tratem a permanência na rua como caso de polícia. É vedado o recolhimento compulsório." },
-        { "h": "Serviços do SUAS para população de rua", "p": "Os principais equipamentos são o Centro POP (Centro de Referência Especializado para População em Situação de Rua), que oferta o Serviço Especializado para Pessoas em Situação de Rua (PSE de média complexidade), o Serviço Especializado em Abordagem Social, e os serviços de acolhimento (PSE de alta complexidade). O Consultório na Rua articula a saúde." },
-        { "h": "Pobreza e exclusão social", "p": "A pobreza é multidimensional, abrangendo renda, acesso a serviços, trabalho, moradia e participação. A exclusão social envolve a ruptura de vínculos e o não acesso a direitos. A assistência social atua para reduzir vulnerabilidades, fortalecer vínculos e promover acesso a renda, mas exige intersetorialidade (saúde, trabalho, habitação)." },
-        { "h": "Diretrizes e intersetorialidade", "p": "A PNPR prevê a articulação entre os entes federativos, a participação da população de rua na formulação das políticas, e a integração com políticas de habitação, trabalho, saúde e direitos humanos. Combate o estigma e busca a reinserção social com autonomia." }
+        {
+          "h": "Conceito e princípios",
+          "p": "A PNPR adota como princípios o respeito à dignidade, o direito à convivência familiar e comunitária, a não discriminação e o atendimento humanizado. Reconhece a heterogeneidade do grupo e proíbe ações que tratem a permanência na rua como caso de polícia. É vedado o recolhimento compulsório."
+        },
+        {
+          "h": "Serviços do SUAS para população de rua",
+          "p": "Os principais equipamentos são o Centro POP (Centro de Referência Especializado para População em Situação de Rua), que oferta o Serviço Especializado para Pessoas em Situação de Rua (PSE de média complexidade), o Serviço Especializado em Abordagem Social, e os serviços de acolhimento (PSE de alta complexidade). O Consultório na Rua articula a saúde."
+        },
+        {
+          "h": "Pobreza e exclusão social",
+          "p": "A pobreza é multidimensional, abrangendo renda, acesso a serviços, trabalho, moradia e participação. A exclusão social envolve a ruptura de vínculos e o não acesso a direitos. A assistência social atua para reduzir vulnerabilidades, fortalecer vínculos e promover acesso a renda, mas exige intersetorialidade (saúde, trabalho, habitação)."
+        },
+        {
+          "h": "Diretrizes e intersetorialidade",
+          "p": "A PNPR prevê a articulação entre os entes federativos, a participação da população de rua na formulação das políticas, e a integração com políticas de habitação, trabalho, saúde e direitos humanos. Combate o estigma e busca a reinserção social com autonomia."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"A Política Nacional para a População em Situação de Rua autoriza o recolhimento compulsório dessas pessoas para abrigos como forma de proteção e higienização dos espaços públicos.\" — ERRADO. A PNPR veda o recolhimento compulsório e repudia a lógica higienista; o acolhimento é voluntário e a pessoa é sujeito de direitos.",
       "pontos_chave": [
@@ -112,15 +167,26 @@
       "dica_prova": "A pegadinha clássica defende recolhimento compulsório/abrigamento obrigatório — sempre ERRADO. Memorize o decreto (7.053/2009) e o equipamento de referência (Centro POP, PSE média). Acolhimento é voluntário."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "diversidade-equidade-e-relacoes-etnico-raciais",
       "titulo": "Diversidade, equidade e relações étnico-raciais",
       "intro": "O respeito à diversidade é diretriz da assistência social: os serviços devem ser ofertados sem discriminação por raça, etnia, gênero, orientação sexual, identidade de gênero, religião ou condição social. A equidade significa tratar desigualmente os desiguais, reconhecendo e enfrentando desigualdades históricas (étnico-raciais, de gênero e de diversidade sexual).\n\nNo plano jurídico, o STF, no julgamento da ADO 26 e do MI 4.733 (2019), enquadrou a homofobia e a transfobia como crimes equiparados ao racismo (Lei 7.716/1989), enquanto não houver lei específica do Congresso.",
       "secoes": [
-        { "h": "Diversidade e não discriminação", "p": "A assistência social acolhe a diversidade humana como valor. O atendimento deve respeitar nomes sociais de pessoas trans e travestis, reconhecer arranjos familiares diversos e combater preconceitos. A discriminação no acesso a serviços viola os princípios da igualdade e da dignidade." },
-        { "h": "Igualdade x equidade", "p": "Igualdade trata todos da mesma forma; equidade reconhece diferenças e desigualdades para promover justiça social. Ações afirmativas (como cotas) são exemplos de equidade voltada a corrigir desigualdades históricas, especialmente raciais. A equidade orienta a focalização da política nos mais vulneráveis." },
-        { "h": "Relações étnico-raciais", "p": "O racismo estrutural marca o acesso desigual a direitos. O Estatuto da Igualdade Racial (Lei 12.288/2010) e a tipificação do racismo como crime inafiançável e imprescritível (CF, art. 5º, XLII; Lei 7.716/89) embasam o enfrentamento. A população negra é maioria entre os usuários do SUAS, exigindo abordagem antirracista." },
-        { "h": "Diversidade sexual e de gênero (entendimento do STF)", "p": "O STF, em 2019 (ADO 26 e MI 4.733), reconheceu a omissão legislativa e determinou que condutas homofóbicas e transfóbicas sejam punidas pela Lei do Racismo (7.716/89), até que sobrevenha lei específica. Antes disso, o STF já havia reconhecido a união estável homoafetiva (2011)." }
+        {
+          "h": "Diversidade e não discriminação",
+          "p": "A assistência social acolhe a diversidade humana como valor. O atendimento deve respeitar nomes sociais de pessoas trans e travestis, reconhecer arranjos familiares diversos e combater preconceitos. A discriminação no acesso a serviços viola os princípios da igualdade e da dignidade."
+        },
+        {
+          "h": "Igualdade x equidade",
+          "p": "Igualdade trata todos da mesma forma; equidade reconhece diferenças e desigualdades para promover justiça social. Ações afirmativas (como cotas) são exemplos de equidade voltada a corrigir desigualdades históricas, especialmente raciais. A equidade orienta a focalização da política nos mais vulneráveis."
+        },
+        {
+          "h": "Relações étnico-raciais",
+          "p": "O racismo estrutural marca o acesso desigual a direitos. O Estatuto da Igualdade Racial (Lei 12.288/2010) e a tipificação do racismo como crime inafiançável e imprescritível (CF, art. 5º, XLII; Lei 7.716/89) embasam o enfrentamento. A população negra é maioria entre os usuários do SUAS, exigindo abordagem antirracista."
+        },
+        {
+          "h": "Diversidade sexual e de gênero (entendimento do STF)",
+          "p": "O STF, em 2019 (ADO 26 e MI 4.733), reconheceu a omissão legislativa e determinou que condutas homofóbicas e transfóbicas sejam punidas pela Lei do Racismo (7.716/89), até que sobrevenha lei específica. Antes disso, o STF já havia reconhecido a união estável homoafetiva (2011)."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"Segundo o STF, na ausência de lei específica, as condutas de homofobia e transfobia são atípicas e não podem ser punidas penalmente.\" — ERRADO. O STF (ADO 26 e MI 4.733, 2019) determinou que tais condutas sejam enquadradas na Lei do Racismo (7.716/1989) até que o Congresso edite legislação específica.",
       "pontos_chave": [

@@ -2,8 +2,7 @@
   "slug": "sociologia-urbana",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "direito-a-cidade-e-violencia-urbana",
       "titulo": "Direito à cidade e violência urbana",
       "intro": "A sociologia urbana estuda como o espaço da cidade é produzido, disputado e desigualmente apropriado. A cidade não é um cenário neutro: ela reflete e reproduz as desigualdades sociais por meio da localização da moradia, dos serviços, do transporte e da segurança.\n\nO conceito de direito à cidade, formulado por Henri Lefebvre, e os fenômenos da segregação, da gentrificação e da violência urbana são centrais para entender a questão social no espaço — tema diretamente ligado às políticas de assistência social, que atuam sobre territórios vulneráveis.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Cuidado para não ler gentrificação como algo positivo para os pobres (é o contrário — expulsão). Associe direito à cidade a Lefebvre e ao Estatuto da Cidade (Lei 10.257/2001 — fixe esse número). A banca costuma afirmar que a violência urbana se explica 'apenas por fatores individuais' (ERRADO — há fatores estruturais) e confundir segregação (separação) com integração. Lembre da seletividade penal: o sistema atinge mais pobres, negros e periféricos."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "movimentos-sociais-e-controle-social",
       "titulo": "Movimentos sociais e controle social",
       "intro": "Movimentos sociais são formas de ação coletiva organizada que buscam transformar ou conservar aspectos da realidade social, formulando demandas e disputando direitos. São protagonistas de conquistas históricas (sufrágio, direitos trabalhistas, direitos civis, ambientais) e atores centrais na democracia.\n\nLigado a eles está o conceito de controle social — que, no campo das políticas públicas brasileiras, designa a participação da sociedade na formulação, no acompanhamento e na fiscalização das ações do Estado, especialmente por meio de conselhos e conferências.",
       "secoes": [

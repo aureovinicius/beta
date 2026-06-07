@@ -2,8 +2,7 @@
   "slug": "pratica-psicossocial-suas",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "atuacao-nas-equipes-cras-creas-pop",
       "titulo": "Atuação nas equipes (CRAS, CREAS, Pop)",
       "intro": "O psicólogo é um dos profissionais que compõem as equipes de referência do Sistema Único de Assistência Social (SUAS), conforme a NOB-RH/SUAS (Norma Operacional Básica de Recursos Humanos) e a Resolução CNAS nº 17/2011. Atua tanto na proteção social básica (PSB), prestada pelo CRAS, quanto na proteção social especial (PSE), de média complexidade (CREAS e Centro POP) e de alta complexidade (acolhimento institucional).\n\nA atuação no SUAS difere radicalmente da clínica tradicional: não se trata de psicoterapia, mas de um trabalho social com famílias e indivíduos, de natureza coletiva, territorial e voltado ao fortalecimento de vínculos, à autonomia e à garantia de direitos socioassistenciais. O CFP, em referências técnicas elaboradas com o CREPOP (Centro de Referência Técnica em Psicologia e Políticas Públicas), orienta essa prática.\n\nA dimensão socioeducativa do psicólogo no SUAS significa contribuir para que indivíduos e famílias reflitam sobre sua realidade, reconheçam seus direitos e ampliem sua capacidade de protagonismo, em uma perspectiva crítica e emancipadora — nunca tutelar, moralizante ou de \"ajustamento\" do usuário.",
       "secoes": [
@@ -42,8 +41,7 @@
       "dica_prova": "A pegadinha de ouro é apresentar a atuação no SUAS como clínica/psicoterápica — sempre errado. Marque como correta a ênfase em trabalho com famílias, grupos, território, vínculos e direitos. Outra confusão recorrente: trocar os serviços (PAIF é do CRAS, PAEFI é do CREAS) ou os níveis de complexidade. E lembre: dimensão socioeducativa (atuação emancipadora no SUAS) ≠ medida socioeducativa (sanção a adolescente infrator no ECA)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "escuta-qualificada-em-violacoes-de-direitos",
       "titulo": "Escuta qualificada em violações de direitos",
       "intro": "A escuta qualificada é uma postura técnica e ética de acolhimento ativo, atento e sem julgamento, especialmente importante diante de situações de violação de direitos (violência física, psicológica, sexual, negligência, abandono, trabalho infantil). É instrumento central da proteção social especial e está prevista nas orientações do SUAS e em normativas como a Lei 13.431/2017 (Lei da Escuta Protegida), que distingue escuta especializada de depoimento especial de crianças e adolescentes vítimas ou testemunhas de violência.\n\nNo trabalho psicossocial, escutar qualificadamente significa criar um espaço seguro, acolher a narrativa no tempo do usuário, evitar a revitimização, não induzir respostas e não submeter a pessoa a repetições desnecessárias do relato. A escuta é a base sobre a qual se constrói a intervenção psicossocial e o plano de acompanhamento familiar.\n\nO conceito articula-se à matricialidade sociofamiliar — princípio do SUAS pelo qual a família, em suas diversas configurações, é o foco central da proteção. A intervenção não isola o indivíduo, mas atua sobre as relações familiares e o território, fortalecendo a função protetiva da família e a rede de apoio.",
       "secoes": [

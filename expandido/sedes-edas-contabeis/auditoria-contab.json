@@ -1,46 +1,44 @@
 {
- "slug": "auditoria-contab",
- "itens": [
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Auditoria por ciclos",
-   "intro": "A auditoria por ciclos (ou por áreas/transações) é uma técnica de organização do trabalho de auditoria que agrupa as contas e transações segundo os processos econômicos da entidade, em vez de examinar conta por conta isoladamente. Como as operações se inter-relacionam (uma venda gera receita, contas a receber e baixa de estoque), auditá-las em conjunto torna o exame mais eficiente e revela melhor os controles internos de cada processo.\n\nOs principais ciclos são: receitas (vendas e contas a receber), compras/aquisições (e contas a pagar), estoques (e custos), caixa/disponibilidades (recebimentos e pagamentos) e os ciclos de ativos permanentes e de passivos/financiamentos. Cada ciclo tem riscos típicos, asserções relevantes e procedimentos próprios.\n\nA base normativa são as Normas Brasileiras de Auditoria (NBC TA, convergentes às ISA) e, no setor público, as normas de auditoria governamental (NBC TASP / ISSAI do TCU e tribunais de contas). O auditor avalia os controles internos do ciclo (testes de controle) e a substância das transações e saldos (testes substantivos), sempre orientado pelas asserções: existência/ocorrência, integridade, exatidão, avaliação, direitos e obrigações, e apresentação/divulgação."
-   ,
-   "secoes": [
+  "slug": "auditoria-contab",
+  "itens": [
     {
-     "h": "Lógica do enfoque por ciclos e as asserções",
-     "p": "Auditar por ciclos significa seguir o fluxo das transações de ponta a ponta, identificando onde os controles atuam e onde estão os riscos de distorção relevante. Para cada ciclo, o auditor define as asserções mais sensíveis e desenha procedimentos para testá-las.\n\nAs asserções sobre transações são: ocorrência, integridade, exatidão, corte (cut-off) e classificação. Sobre saldos: existência, direitos e obrigações, integridade e avaliação/alocação. Sobre apresentação: ocorrência e direitos, integridade, classificação/compreensibilidade e exatidão/avaliação. O auditor combina testes de controle (avaliar se os controles funcionam) e testes substantivos (testes de detalhes e procedimentos analíticos) conforme o risco avaliado."
-    },
-    {
-     "h": "Ciclo de receitas (vendas e contas a receber)",
-     "p": "Risco típico: superavaliação da receita (registrar vendas inexistentes ou antecipar receita), além de inadimplência subestimada. As asserções críticas são ocorrência (a receita existe?) e corte (foi registrada no período certo?).\n\nProcedimentos: confirmação externa de saldos com clientes (circularização), exame de documentação suporte (pedidos, notas fiscais, comprovantes de entrega), teste de corte em torno da data-base, recálculo da provisão para perdas esperadas de crédito e análise de notas de crédito/devoluções pós-fechamento. No setor público, o ciclo equivale ao reconhecimento e arrecadação de receitas (tributárias, transferências, convênios), com foco na correta classificação e nos estágios da receita."
-    },
-    {
-     "h": "Ciclo de compras e ciclo de caixa",
-     "p": "No ciclo de compras/contas a pagar, o risco típico é o oposto do de receitas: subavaliação de passivos (deixar de registrar obrigações) e compras fictícias ou direcionadas. Asserções críticas: integridade (todas as obrigações foram registradas?) e ocorrência. Procedimentos: busca de passivos não registrados (exame de pagamentos pós-fechamento), conciliação com fornecedores, teste da segregação de funções entre quem compra, quem recebe e quem paga.\n\nNo ciclo de caixa/disponibilidades, o risco é o de desvio e de erro de registro. Procedimentos: conciliações bancárias, contagem física de numerário, confirmação bancária dos saldos, teste de corte de recebimentos e pagamentos e revisão da segregação entre custódia e registro. No setor público, conecta-se à execução financeira (ingressos e dispêndios do Balanço Financeiro)."
-    },
-    {
-     "h": "Ciclo de estoques, ativos e passivos",
-     "p": "Estoques: riscos de existência (estoque registrado mas inexistente), avaliação (custo x valor realizável líquido) e corte. Procedimento central é o acompanhamento da contagem física (inventário) pelo auditor, mais teste de valoração e de obsolescência.\n\nAtivos permanentes (imobilizado/intangível): asserções de existência, direitos (titularidade), avaliação (depreciação/amortização e perdas por impairment) e corte de adições e baixas; procedimentos incluem inspeção física, exame de documentos de propriedade e recálculo da depreciação. Passivos e financiamentos: foco em integridade (passivos ocultos) e em avaliação (juros, atualização, provisões e contingências), com confirmação de credores e revisão de contratos. Em todos, a segregação de funções e a tempestividade dos registros são determinantes."
-    },
-    {
-     "h": "Auditoria governamental e tipos de auditoria",
-     "p": "Na esfera pública, a auditoria por ciclos se insere nas modalidades de auditoria financeira (confiabilidade das demonstrações), de conformidade (legalidade e aderência a normas) e operacional/de desempenho (economicidade, eficiência e eficácia), conforme as ISSAI e as normas dos tribunais de contas.\n\nO controle se estrutura em interno (a própria administração, com unidades de controle interno) e externo (Tribunais de Contas e Legislativo). O auditor público examina os mesmos ciclos (receitas, despesas/compras, almoxarifado/estoques, caixa, bens patrimoniais e dívida), mas com ênfase na legalidade, na execução orçamentária e na prestação de contas (accountability)."
+      "sid": "auditoria-por-ciclos",
+      "titulo": "Auditoria por ciclos",
+      "intro": "A auditoria por ciclos (ou por áreas/transações) é uma técnica de organização do trabalho de auditoria que agrupa as contas e transações segundo os processos econômicos da entidade, em vez de examinar conta por conta isoladamente. Como as operações se inter-relacionam (uma venda gera receita, contas a receber e baixa de estoque), auditá-las em conjunto torna o exame mais eficiente e revela melhor os controles internos de cada processo.\n\nOs principais ciclos são: receitas (vendas e contas a receber), compras/aquisições (e contas a pagar), estoques (e custos), caixa/disponibilidades (recebimentos e pagamentos) e os ciclos de ativos permanentes e de passivos/financiamentos. Cada ciclo tem riscos típicos, asserções relevantes e procedimentos próprios.\n\nA base normativa são as Normas Brasileiras de Auditoria (NBC TA, convergentes às ISA) e, no setor público, as normas de auditoria governamental (NBC TASP / ISSAI do TCU e tribunais de contas). O auditor avalia os controles internos do ciclo (testes de controle) e a substância das transações e saldos (testes substantivos), sempre orientado pelas asserções: existência/ocorrência, integridade, exatidão, avaliação, direitos e obrigações, e apresentação/divulgação.",
+      "secoes": [
+        {
+          "h": "Lógica do enfoque por ciclos e as asserções",
+          "p": "Auditar por ciclos significa seguir o fluxo das transações de ponta a ponta, identificando onde os controles atuam e onde estão os riscos de distorção relevante. Para cada ciclo, o auditor define as asserções mais sensíveis e desenha procedimentos para testá-las.\n\nAs asserções sobre transações são: ocorrência, integridade, exatidão, corte (cut-off) e classificação. Sobre saldos: existência, direitos e obrigações, integridade e avaliação/alocação. Sobre apresentação: ocorrência e direitos, integridade, classificação/compreensibilidade e exatidão/avaliação. O auditor combina testes de controle (avaliar se os controles funcionam) e testes substantivos (testes de detalhes e procedimentos analíticos) conforme o risco avaliado."
+        },
+        {
+          "h": "Ciclo de receitas (vendas e contas a receber)",
+          "p": "Risco típico: superavaliação da receita (registrar vendas inexistentes ou antecipar receita), além de inadimplência subestimada. As asserções críticas são ocorrência (a receita existe?) e corte (foi registrada no período certo?).\n\nProcedimentos: confirmação externa de saldos com clientes (circularização), exame de documentação suporte (pedidos, notas fiscais, comprovantes de entrega), teste de corte em torno da data-base, recálculo da provisão para perdas esperadas de crédito e análise de notas de crédito/devoluções pós-fechamento. No setor público, o ciclo equivale ao reconhecimento e arrecadação de receitas (tributárias, transferências, convênios), com foco na correta classificação e nos estágios da receita."
+        },
+        {
+          "h": "Ciclo de compras e ciclo de caixa",
+          "p": "No ciclo de compras/contas a pagar, o risco típico é o oposto do de receitas: subavaliação de passivos (deixar de registrar obrigações) e compras fictícias ou direcionadas. Asserções críticas: integridade (todas as obrigações foram registradas?) e ocorrência. Procedimentos: busca de passivos não registrados (exame de pagamentos pós-fechamento), conciliação com fornecedores, teste da segregação de funções entre quem compra, quem recebe e quem paga.\n\nNo ciclo de caixa/disponibilidades, o risco é o de desvio e de erro de registro. Procedimentos: conciliações bancárias, contagem física de numerário, confirmação bancária dos saldos, teste de corte de recebimentos e pagamentos e revisão da segregação entre custódia e registro. No setor público, conecta-se à execução financeira (ingressos e dispêndios do Balanço Financeiro)."
+        },
+        {
+          "h": "Ciclo de estoques, ativos e passivos",
+          "p": "Estoques: riscos de existência (estoque registrado mas inexistente), avaliação (custo x valor realizável líquido) e corte. Procedimento central é o acompanhamento da contagem física (inventário) pelo auditor, mais teste de valoração e de obsolescência.\n\nAtivos permanentes (imobilizado/intangível): asserções de existência, direitos (titularidade), avaliação (depreciação/amortização e perdas por impairment) e corte de adições e baixas; procedimentos incluem inspeção física, exame de documentos de propriedade e recálculo da depreciação. Passivos e financiamentos: foco em integridade (passivos ocultos) e em avaliação (juros, atualização, provisões e contingências), com confirmação de credores e revisão de contratos. Em todos, a segregação de funções e a tempestividade dos registros são determinantes."
+        },
+        {
+          "h": "Auditoria governamental e tipos de auditoria",
+          "p": "Na esfera pública, a auditoria por ciclos se insere nas modalidades de auditoria financeira (confiabilidade das demonstrações), de conformidade (legalidade e aderência a normas) e operacional/de desempenho (economicidade, eficiência e eficácia), conforme as ISSAI e as normas dos tribunais de contas.\n\nO controle se estrutura em interno (a própria administração, com unidades de controle interno) e externo (Tribunais de Contas e Legislativo). O auditor público examina os mesmos ciclos (receitas, despesas/compras, almoxarifado/estoques, caixa, bens patrimoniais e dívida), mas com ênfase na legalidade, na execução orçamentária e na prestação de contas (accountability)."
+        }
+      ],
+      "exemplo": "Item Cebraspe: 'No ciclo de receitas, o principal risco a ser testado pelo auditor é a subavaliação da receita; no ciclo de compras, a superavaliação dos passivos.' Errado: está invertido. Em receitas o risco típico é a superavaliação (vendas/receitas inexistentes ou antecipadas) e em compras o risco típico é a subavaliação de passivos (obrigações não registradas) — por isso a busca de passivos não contabilizados é procedimento clássico do ciclo de compras. Aplicação prática: ao auditar um convênio da SEDES, o auditor circulariza o concedente, testa o corte da receita de transferência e busca obrigações com fornecedores não registradas no encerramento do exercício.",
+      "pontos_chave": [
+        "Auditoria por ciclos agrupa contas pelo fluxo das transações (mais eficiente que conta a conta).",
+        "Ciclos: receitas, compras, estoques, caixa, ativos permanentes e passivos/financiamentos.",
+        "Receitas: risco de superavaliação; asserções ocorrência e corte; circularização de clientes.",
+        "Compras/passivos: risco de subavaliação; asserção integridade; busca de passivos não registrados.",
+        "Estoques: contagem física (inventário) e teste de avaliação (custo x VRL e obsolescência).",
+        "Caixa: conciliação bancária, confirmação de saldos, segregação custódia x registro.",
+        "Ativos: existência, direitos, avaliação (depreciação/impairment) e corte de adições/baixas.",
+        "Setor público: auditoria financeira, de conformidade e operacional; controle interno e externo (TCs)."
+      ],
+      "dica_prova": "A inversão de riscos entre receitas (superavaliação) e compras (subavaliação) é a pegadinha mais cobrada. Decore as asserções e ligue cada uma ao procedimento: existência -> inspeção/contagem; integridade -> busca de itens não registrados; corte -> testes em torno da data-base; avaliação -> recálculo. Saiba distinguir teste de controle (avalia o controle) de teste substantivo (avalia o valor/saldo) e os tipos de auditoria governamental."
     }
-   ],
-   "exemplo": "Item Cebraspe: 'No ciclo de receitas, o principal risco a ser testado pelo auditor é a subavaliação da receita; no ciclo de compras, a superavaliação dos passivos.' Errado: está invertido. Em receitas o risco típico é a superavaliação (vendas/receitas inexistentes ou antecipadas) e em compras o risco típico é a subavaliação de passivos (obrigações não registradas) — por isso a busca de passivos não contabilizados é procedimento clássico do ciclo de compras. Aplicação prática: ao auditar um convênio da SEDES, o auditor circulariza o concedente, testa o corte da receita de transferência e busca obrigações com fornecedores não registradas no encerramento do exercício.",
-   "pontos_chave": [
-    "Auditoria por ciclos agrupa contas pelo fluxo das transações (mais eficiente que conta a conta).",
-    "Ciclos: receitas, compras, estoques, caixa, ativos permanentes e passivos/financiamentos.",
-    "Receitas: risco de superavaliação; asserções ocorrência e corte; circularização de clientes.",
-    "Compras/passivos: risco de subavaliação; asserção integridade; busca de passivos não registrados.",
-    "Estoques: contagem física (inventário) e teste de avaliação (custo x VRL e obsolescência).",
-    "Caixa: conciliação bancária, confirmação de saldos, segregação custódia x registro.",
-    "Ativos: existência, direitos, avaliação (depreciação/impairment) e corte de adições/baixas.",
-    "Setor público: auditoria financeira, de conformidade e operacional; controle interno e externo (TCs)."
-   ],
-   "dica_prova": "A inversão de riscos entre receitas (superavaliação) e compras (subavaliação) é a pegadinha mais cobrada. Decore as asserções e ligue cada uma ao procedimento: existência -> inspeção/contagem; integridade -> busca de itens não registrados; corte -> testes em torno da data-base; avaliação -> recálculo. Saiba distinguir teste de controle (avalia o controle) de teste substantivo (avalia o valor/saldo) e os tipos de auditoria governamental."
-  }
- ]
+  ]
 }

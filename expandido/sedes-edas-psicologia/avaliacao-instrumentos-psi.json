@@ -2,8 +2,7 @@
   "slug": "avaliacao-instrumentos-psi",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "avaliacao-psicologica-e-tecnicas",
       "titulo": "Avaliação psicológica e técnicas",
       "intro": "A avaliação psicológica é um processo estruturado de investigação de fenômenos psicológicos para prover informações à tomada de decisão, no âmbito individual, grupal ou institucional, a partir de demandas, condições e finalidades específicas, conforme a Resolução CFP nº 31/2022 (que revogou a antiga Resolução CFP nº 09/2018 e está em vigor desde fevereiro de 2023). Não se confunde com a simples aplicação de um teste: é um processo amplo, dinâmico e contextualizado, que pode usar entrevista, observação, anamnese, técnicas e instrumentos diversos, inclusive testes psicológicos aprovados pelo SATEPSI (Sistema de Avaliação de Testes Psicológicos do CFP).\n\nNo SUAS, a avaliação assume caráter psicossocial: o objetivo não é o diagnóstico psicopatológico ou a aplicação de testes para classificar o sujeito, mas a compreensão da situação de vulnerabilidade ou violação de direitos, dos vínculos e do território, para subsidiar a proteção social. As técnicas mais usadas no campo socioassistencial são a entrevista, a anamnese, a observação e a visita domiciliar.\n\nA banca cobra a definição correta de cada técnica, a distinção entre avaliação psicológica e testagem, e os cuidados éticos (uso de instrumentos válidos, finalidade definida, devolutiva ao usuário e elaboração de documentos conforme as normas do CFP).",
       "secoes": [

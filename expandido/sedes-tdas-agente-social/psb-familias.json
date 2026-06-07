@@ -2,8 +2,7 @@
   "slug": "psb-familias",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "servico-de-atendimento-integral-a-familia-paif",
       "titulo": "Serviço de Atendimento Integral à Família (PAIF)",
       "intro": "O PAIF — Serviço de Proteção e Atendimento Integral à Família — é o principal serviço da Proteção Social Básica e a espinha dorsal do trabalho social com famílias no SUAS. Sua oferta é OBRIGATÓRIA e EXCLUSIVA do CRAS, conforme a Tipificação Nacional dos Serviços Socioassistenciais (Resolução CNAS nº 109/2009). O PAIF trabalha numa perspectiva preventiva e protetiva, fortalecendo a função protetiva das famílias antes que ocorram rupturas e violações de direitos.\n\nO foco é a FAMÍLIA como um todo (matricialidade sociofamiliar), e não o indivíduo isolado. Para o Agente Social, o PAIF é o campo de atuação cotidiano: ele apoia o desenvolvimento das ações, recebe as famílias e contribui para o vínculo entre elas e o serviço.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Não confunda PAIF (CRAS/PSB) com PAEFI (CREAS/PSE média). E lembre: PAIF previne; PAEFI atua sobre violações já ocorridas. Bancas também testam a diferença entre atendimento (pontual) e acompanhamento (continuado, com plano e prontuário)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "scfv-e-prevencao-de-vulnerabilidades",
       "titulo": "SCFV e prevenção de vulnerabilidades",
       "intro": "O SCFV — Serviço de Convivência e Fortalecimento de Vínculos — é um serviço da Proteção Social Básica, organizado em grupos por faixa etária, que complementa o trabalho do PAIF. Realizado por meio de encontros e atividades planejadas, busca prevenir situações de risco social ao fortalecer os vínculos familiares e comunitários e ao ampliar a convivência e a participação dos usuários.\n\nO Agente Social tem papel central no SCFV: é frequentemente quem conduz oficinas, dinâmicas e atividades de convivência sob orientação técnica, sendo essencial conhecer os objetivos e os públicos do serviço.",
       "secoes": [

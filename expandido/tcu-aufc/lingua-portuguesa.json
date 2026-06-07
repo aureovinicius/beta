@@ -2,8 +2,7 @@
   "slug": "lingua-portuguesa",
   "itens": [
     {
-      "ti": 0,
-      "si": 3,
+      "sid": "tipos-e-generos-textuais",
       "titulo": "Tipos e gêneros textuais",
       "intro": "Um dos eixos clássicos da prova de Língua Portuguesa do Cebraspe é a distinção entre TIPOS textuais (também chamados de sequências ou tipologias) e GÊNEROS textuais. Confundir os dois é o erro mais comum, e a banca explora exatamente essa fronteira. Tipo textual é uma categoria teórica, fechada e finita, definida pela estrutura linguística interna do texto (modos de organizar o discurso): narração, descrição, dissertação/argumentação, exposição e injunção. Gênero textual é uma categoria prática, aberta e ilimitada, definida pela função social, pelo contexto de circulação e pela esfera comunicativa: edital, parecer, acórdão, relatório de auditoria, e-mail, notícia, ofício, manual, ata, lei.\n\nA relação entre os dois é de combinação, não de exclusão: um mesmo gênero quase sempre mistura vários tipos. Um relatório de auditoria do TCU, por exemplo, descreve achados, narra a execução dos trabalhos, expõe normas e argumenta para recomendar providências. Por isso a banca costuma falar em tipo PREDOMINANTE ou SEQUÊNCIA dominante: o texto é classificado pelo tipo que organiza a maior parte de sua estrutura, não por uma passagem isolada.\n\nPara o concurso, o domínio dessa matéria serve a dois fins: identificar a intenção comunicativa do autor (informar, convencer, instruir, relatar) e prever as marcas linguísticas que cada tipo carrega (tempos verbais, conectores, pessoa do discurso), que reaparecem em questões de coesão e reescrita.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha número um é chamar gênero de 'tipo' e vice-versa: 'o tipo textual carta', 'o gênero narração' são formulações ERRADAS. Memorize que tipos são só cinco e fechados. A banca também cobra a marca linguística associada a cada tipo (imperativo = injunção; muitos adjetivos = descrição; conectores argumentativos = dissertação) e exige cautela com o 'predominantemente': um trecho isolado de outro tipo não muda a classificação geral do texto."
     },
     {
-      "ti": 3,
-      "si": 2,
+      "sid": "reescrita-de-frases-e-paragrafos",
       "titulo": "Reescrita de frases e parágrafos",
       "intro": "A reescrita é talvez o item mais característico e temido da prova de Língua Portuguesa do Cebraspe. O comando típico é: 'A reescrita do trecho mantém a correção gramatical e os sentidos originais do texto.' O candidato deve julgar se a versão proposta (a) continua gramaticalmente correta E (b) preserva o sentido. Basta UMA das duas condições falhar para o item ser ERRADO. Essa lógica de dupla exigência é a chave da matéria.\n\nReescrever envolve operações como trocar uma palavra por sinônimo, substituir uma conjunção por outra, transformar voz ativa em passiva, deslocar termos, fundir ou dividir orações, nominalizar verbos. Cada operação tem armadilhas próprias: um sinônimo pode mudar a regência; uma conjunção 'equivalente' pode inverter a relação lógica; a passiva pode exigir ajuste de concordância.\n\nO examinador trabalha com pares de 'pegadinhas': a reescrita parece boa, mas (1) introduz erro gramatical sutil (concordância, regência, crase, pontuação) ou (2) altera o sentido (muda a relação de causa/consequência, restringe o que era amplo, troca certeza por hipótese). Dominar reescrita é, na prática, dominar toda a gramática aplicada simultaneamente.",
       "secoes": [

@@ -2,8 +2,7 @@
   "slug": "administracao-publica",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "abordagens-classica-burocratica-e-sistemica",
       "titulo": "Abordagens clássica, burocrática e sistêmica",
       "intro": "A Teoria Geral da Administração (TGA) evoluiu por meio de abordagens que enfatizaram, em momentos distintos, as tarefas, a estrutura, as pessoas, o ambiente e a tecnologia. As três abordagens cobradas neste subtópico — clássica, burocrática e sistêmica — representam respostas históricas a problemas organizacionais e formam a base conceitual de boa parte das questões de administração geral em provas da Cebraspe.\n\nDe forma resumida, a abordagem clássica (Taylor e Fayol) busca a eficiência por meio da racionalização do trabalho e da estrutura; a burocrática (Weber) busca a racionalidade legal por meio de normas impessoais; e a sistêmica enxerga a organização como um sistema aberto que troca matéria, energia e informação com o ambiente. Saber distinguir o foco de cada uma é o que costuma separar o acerto do erro na prova.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A Cebraspe adora inverter a ênfase das escolas (atribuir a Taylor o foco na estrutura, ou a Fayol o foco nas tarefas) e tratar a burocracia weberiana como algo necessariamente negativo. Decore: Taylor=tarefa, Fayol=estrutura, Weber=normas/legal-racional. Lembre que sistemas fechados ignoram o ambiente (clássica/burocrática) e sistemas abertos consideram-no (sistêmica)."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "evolucao-da-ap-no-brasil-e-nova-gestao-publica",
       "titulo": "Evolução da AP no Brasil e nova gestão pública",
       "intro": "A administração pública brasileira costuma ser estudada a partir de três modelos sucessivos e não excludentes: patrimonialista, burocrático e gerencial. A passagem de um para outro está ligada a reformas administrativas que marcaram o século XX e início do XXI, sendo as mais cobradas a criação do DASP (anos 1930-40), o Decreto-Lei 200/1967 e a reforma gerencial de 1995 (Plano Diretor da Reforma do Aparelho do Estado).\n\nA expressão 'nova gestão pública' (New Public Management) designa o conjunto de ideias gerenciais que importou para o setor público práticas da iniciativa privada — foco em resultados, eficiência, cidadão-cliente, descentralização e controle por desempenho —, em contraposição ao formalismo do modelo burocrático tradicional.",
       "secoes": [
@@ -73,8 +71,7 @@
       "dica_prova": "O Cebraspe adora a tese de que os modelos NÃO são excludentes — coexistem. Cuidado também para não trocar as datas/marcos: DASP (burocrático, 1938), DL 200 (1967, descentralização) e PDRAE (1995, gerencial). Associar 'eficiência' e 'contrato de gestão' à EC 19/1998."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "funcoes-da-administracao-podc",
       "titulo": "Funções da administração (PODC)",
       "intro": "As funções administrativas descrevem o que todo administrador faz, em qualquer organização e nível hierárquico. O modelo moderno mais cobrado é o PODC — Planejamento, Organização, Direção e Controle —, evolução do POCCC de Fayol. As quatro funções formam um processo cíclico e interligado (processo administrativo): o resultado do controle realimenta o planejamento.",
       "secoes": [
@@ -108,8 +105,7 @@
       "dica_prova": "A Cebraspe troca as funções entre si e inverte a ordem do ciclo. Memorize a ordem P-O-D-C e a 'pessoa' associada a cada uma: planejar (objetivos), organizar (estrutura), dirigir (pessoas), controlar (desvios). Cuidado com o controle: prévio/concomitante/posterior é classificação quanto ao momento; o controle não se limita ao 'depois'."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "estrutura-e-cultura-organizacional",
       "titulo": "Estrutura e cultura organizacional",
       "intro": "A estrutura organizacional é o arranjo formal de cargos, unidades, autoridade e fluxos de trabalho que define como a organização divide e coordena suas atividades; é o 'esqueleto' representado no organograma. A cultura organizacional é o conjunto de pressupostos, valores e normas compartilhados que orientam o comportamento das pessoas — é a 'personalidade' da organização. Estrutura e cultura, juntas, moldam o funcionamento e o desempenho organizacional.",
       "secoes": [
@@ -143,8 +139,7 @@
       "dica_prova": "Duas pegadinhas recorrentes: (1) trocar cultura por clima (a banca chama de estável e profundo o que é volátil, ou vice-versa); (2) inverter os níveis de Schein (dizer que pressupostos básicos são visíveis/superficiais — são os artefatos que são visíveis). Lembre que descentralização (administração) não é desconcentração (direito administrativo)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "comportamento-organizacional",
       "titulo": "Comportamento organizacional",
       "intro": "O comportamento organizacional (CO) é o campo de estudo que investiga o impacto que indivíduos, grupos e a estrutura têm sobre o comportamento dentro das organizações, com o objetivo de aplicar esse conhecimento para melhorar a eficácia organizacional. É o ramo mais ligado à função de direção e às pessoas, abrangendo temas como motivação, liderança, percepção, atitudes, aprendizagem, grupos e equipes.",
       "secoes": [
@@ -178,8 +173,7 @@
       "dica_prova": "Os maiores erros de prova: (1) afirmar que fatores higiênicos motivam (não motivam, só evitam insatisfação); (2) tratar satisfação e insatisfação como extremos de uma única escala em Herzberg (são dimensões independentes); (3) confundir os estilos de liderança e o modelo situacional. Em Vroom, lembre que basta um fator igual a zero para zerar a motivação."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "objetivos-e-desafios-da-gestao-de-pessoas",
       "titulo": "Objetivos e desafios da gestão de pessoas",
       "intro": "A gestão de pessoas (GP) é o conjunto de políticas e práticas que conduz os aspectos relativos às pessoas no trabalho — recrutar, selecionar, desenvolver, recompensar e reter. A GP moderna passou de uma visão operacional e burocrática (administração de pessoal) para uma visão estratégica, tratando as pessoas como parceiras e fonte de vantagem competitiva, e não como meros recursos ou custos.",
       "secoes": [
@@ -213,8 +207,7 @@
       "dica_prova": "A inversão entre incentivos e contribuições é a pegadinha clássica do equilíbrio organizacional — leia com atenção qual lado deve superar qual. A Cebraspe também cobra a associação de cada processo de GP à sua atividade (ex.: 'recompensar' inclui remuneração e benefícios; 'desenvolver' inclui treinamento). Lembre que a GP estratégica não elimina as rotinas operacionais, apenas as subordina aos objetivos da organização."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "mapeamento-e-melhoria-de-processos",
       "titulo": "Mapeamento e melhoria de processos",
       "intro": "Um processo é um conjunto de atividades inter-relacionadas que transforma entradas (insumos) em saídas (produtos ou serviços) que agregam valor para um cliente. A gestão de processos de negócio (BPM — Business Process Management) é a disciplina que identifica, modela, analisa, melhora e monitora processos de forma contínua, deslocando o foco da estrutura funcional (departamentos isolados) para o fluxo horizontal que atravessa a organização.",
       "secoes": [
@@ -248,8 +241,7 @@
       "dica_prova": "Memorize as formas do BPMN, pois a banca adora trocá-las (evento=círculo, gateway=losango, atividade=retângulo). Outra pegadinha: confundir a melhoria contínua (incremental, kaizen) com a reengenharia (radical, ruptura) — não são sinônimos. Lembre que o foco do BPM é horizontal (o fluxo que atravessa setores), em oposição à visão vertical/funcional tradicional."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "gestao-de-projetos-e-metodologia-agil",
       "titulo": "Gestão de projetos e metodologia ágil",
       "intro": "Projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado único (definição do PMI/PMBOK). As duas características essenciais são a temporariedade (tem início e fim definidos) e a singularidade/exclusividade (entrega algo novo). Isso o distingue das operações continuadas e repetitivas. A gestão de projetos aplica conhecimentos, habilidades, ferramentas e técnicas às atividades do projeto para atender a seus requisitos, equilibrando escopo, prazo, custo e qualidade.",
       "secoes": [
@@ -283,8 +275,7 @@
       "dica_prova": "A pegadinha mais comum é interpretar o Manifesto Ágil como negação total dos itens da direita ('ágil não tem documentação/planejamento') — falso, ele apenas prioriza. Outra: confundir grupos de processos (iniciação...encerramento) com fases do ciclo de vida, ou afirmar que ágil é sempre superior ao preditivo (não é; depende do contexto). Decore os papéis, eventos e artefatos do Scrum, muito cobrados."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "administracao-de-recursos-materiais",
       "titulo": "Administração de recursos materiais",
       "intro": "A administração de recursos materiais (ou de materiais) é a área responsável por planejar, dirigir e controlar o fluxo de materiais na organização, da aquisição ao consumo ou descarte, ao menor custo e sem comprometer o atendimento das necessidades. Abrange gestão de estoques, compras, armazenagem, movimentação e patrimônio, sendo parte da logística e da cadeia de suprimentos (supply chain).",
       "secoes": [
@@ -318,8 +309,7 @@
       "dica_prova": "A inversão da curva ABC (dizer que A são muitos/baratos) é a pegadinha número um. Cuidado também com PEPS (FIFO) x UEPS (LIFO): no PEPS sai primeiro o item mais antigo. A banca confunde material de consumo com material permanente — lembre que permanente é durável e tombável. Associe sempre A = poucos e valiosos = controle rigoroso."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "esg-na-gestao-publica",
       "titulo": "ESG na gestão pública",
       "intro": "ESG é a sigla em inglês para Environmental, Social and Governance (ambiental, social e governança) e designa um conjunto de critérios que avaliam o desempenho de organizações nessas três dimensões, para além do resultado puramente financeiro. Originada no mercado de capitais, a agenda ESG foi incorporada à gestão pública como referência para decisões responsáveis, sustentáveis e transparentes, dialogando com os Objetivos de Desenvolvimento Sustentável (ODS) da Agenda 2030 da ONU.",
       "secoes": [

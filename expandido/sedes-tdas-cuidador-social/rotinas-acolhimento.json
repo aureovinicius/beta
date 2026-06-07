@@ -2,8 +2,7 @@
   "slug": "rotinas-acolhimento",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "orientacoes-de-acolhimento-res-cnas-conanda-1-2009",
       "titulo": "Orientações de acolhimento (Res. CNAS/CONANDA 1/2009)",
       "intro": "As Orientações Técnicas: Serviços de Acolhimento para Crianças e Adolescentes foram aprovadas pela Resolução Conjunta CNAS/CONANDA nº 1, de 18 de junho de 2009, fruto do trabalho articulado entre o Conselho Nacional de Assistência Social (CNAS) e o Conselho Nacional dos Direitos da Criança e do Adolescente (CONANDA). O documento parametriza o funcionamento dos serviços de acolhimento (abrigo institucional, casa-lar, casa de passagem, república e família acolhedora) à luz do Estatuto da Criança e do Adolescente (Lei 8.069/1990) e do Plano Nacional de Promoção, Proteção e Defesa do Direito de Crianças e Adolescentes à Convivência Familiar e Comunitária (PNCFC, de 2006).\n\nO eixo central é a compreensão de que o acolhimento é medida de proteção excepcional e provisória, e que o lugar prioritário de desenvolvimento da criança e do adolescente é a família e a comunidade. O serviço deve organizar-se para reduzir ao mínimo o tempo de afastamento do convívio familiar e para reaproximar a criança da família de origem (natural ou extensa) ou, quando esgotadas as possibilidades, encaminhá-la para família substituta (guarda, tutela ou adoção).",
       "secoes": [
@@ -41,8 +40,7 @@
       "dica_prova": "A banca explora a confusão entre os conselhos: a resolução é CONJUNTA CNAS (assistência) + CONANDA (direitos da criança). Memorize os números: até 20 por abrigo institucional (até 10 na casa-lar); reavaliação hoje a cada 3 meses (ECA, art. 19, §1º, redação da Lei 13.509/2017, que reduziu o prazo de 6 meses fixado pela Lei 12.010/2009). Cuidado com pegadinhas que troquem 'excepcional e provisória' por 'permanente' ou 'preferencial', e que afirmem que se pode separar irmãos por conveniência."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "rotinas-humanizadas-e-trabalho-em-equipe",
       "titulo": "Rotinas humanizadas e trabalho em equipe",
       "intro": "A rotina de um serviço de acolhimento deve reproduzir, tanto quanto possível, o cotidiano de uma família, com previsibilidade, afeto e respeito à individualidade. O cuidador social é figura central nesse cotidiano: é quem acompanha as atividades diárias de higiene, alimentação, sono, estudo e lazer, mediando conflitos e estimulando a autonomia dos acolhidos. Rotina humanizada significa cuidar sem institucionalizar — evitando a despersonalização, a rigidez de horários militarizados e o tratamento massificado.\n\nO trabalho do cuidador nunca é isolado: integra-se a uma equipe (coordenação, equipe técnica de psicologia e serviço social, demais cuidadores e a rede externa). A atuação coordenada garante coerência no cuidado, registro adequado e proteção tanto dos acolhidos quanto dos próprios profissionais.",
       "secoes": [

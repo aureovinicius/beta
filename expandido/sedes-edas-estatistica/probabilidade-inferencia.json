@@ -1,85 +1,83 @@
 {
- "slug": "probabilidade-inferencia",
- "itens": [
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Testes de hipóteses e qui-quadrado",
-   "intro": "O teste de hipóteses é o procedimento da inferência estatística que decide, com base em uma amostra, entre duas afirmações contraditórias sobre a população: a hipótese nula (H0), geralmente de igualdade ou ausência de efeito, e a hipótese alternativa (H1). A lógica é probabilística: assume-se H0 verdadeira e avalia-se quão improvável seria a amostra observada sob essa suposição.\n\nA partir de uma estatística de teste e de sua distribuição amostral, calcula-se o p-valor (probabilidade de observar resultado tão ou mais extremo que o obtido, supondo H0 verdadeira). Compara-se ao nível de significância alfa (em geral 0,05): se p < alfa, rejeita-se H0. Erros são inevitáveis: o erro tipo I (alfa) é rejeitar H0 verdadeira; o erro tipo II (beta) é não rejeitar H0 falsa; o poder do teste é 1 - beta.\n\nEsta seção cobre os testes paramétricos para médias e variâncias (z, t, F) e o teste qui-quadrado de Pearson em suas três aplicações: aderência, homogeneidade e independência.",
-   "secoes": [
+  "slug": "probabilidade-inferencia",
+  "itens": [
     {
-     "h": "Estrutura do teste e tipos de erro",
-     "p": "Passos: (1) formular H0 e H1; (2) escolher alfa; (3) definir a estatística de teste e sua distribuição sob H0; (4) determinar a região crítica ou o p-valor; (5) decidir. O teste pode ser bilateral (H1: diferente) ou unilateral (H1: maior ou menor), o que afeta a região de rejeição.\n\nMatriz de decisão: rejeitar H0 verdadeira = erro tipo I (probabilidade alfa); não rejeitar H0 falsa = erro tipo II (probabilidade beta). Reduzir alfa aumenta beta, ceteris paribus; aumentar o tamanho amostral reduz ambos. O p-valor NÃO é a probabilidade de H0 ser verdadeira nem a probabilidade de erro - é a probabilidade dos dados sob H0."
+      "sid": "testes-de-hipoteses-e-qui-quadrado",
+      "titulo": "Testes de hipóteses e qui-quadrado",
+      "intro": "O teste de hipóteses é o procedimento da inferência estatística que decide, com base em uma amostra, entre duas afirmações contraditórias sobre a população: a hipótese nula (H0), geralmente de igualdade ou ausência de efeito, e a hipótese alternativa (H1). A lógica é probabilística: assume-se H0 verdadeira e avalia-se quão improvável seria a amostra observada sob essa suposição.\n\nA partir de uma estatística de teste e de sua distribuição amostral, calcula-se o p-valor (probabilidade de observar resultado tão ou mais extremo que o obtido, supondo H0 verdadeira). Compara-se ao nível de significância alfa (em geral 0,05): se p < alfa, rejeita-se H0. Erros são inevitáveis: o erro tipo I (alfa) é rejeitar H0 verdadeira; o erro tipo II (beta) é não rejeitar H0 falsa; o poder do teste é 1 - beta.\n\nEsta seção cobre os testes paramétricos para médias e variâncias (z, t, F) e o teste qui-quadrado de Pearson em suas três aplicações: aderência, homogeneidade e independência.",
+      "secoes": [
+        {
+          "h": "Estrutura do teste e tipos de erro",
+          "p": "Passos: (1) formular H0 e H1; (2) escolher alfa; (3) definir a estatística de teste e sua distribuição sob H0; (4) determinar a região crítica ou o p-valor; (5) decidir. O teste pode ser bilateral (H1: diferente) ou unilateral (H1: maior ou menor), o que afeta a região de rejeição.\n\nMatriz de decisão: rejeitar H0 verdadeira = erro tipo I (probabilidade alfa); não rejeitar H0 falsa = erro tipo II (probabilidade beta). Reduzir alfa aumenta beta, ceteris paribus; aumentar o tamanho amostral reduz ambos. O p-valor NÃO é a probabilidade de H0 ser verdadeira nem a probabilidade de erro - é a probabilidade dos dados sob H0."
+        },
+        {
+          "h": "Testes para médias: z e t de Student",
+          "p": "Para a média de uma população normal: se a variância populacional (sigma) for conhecida, usa-se a estatística z = (x-barra - mu_0) / (sigma/raiz(n)), com distribuição normal padrão. Se sigma for desconhecida (caso usual) e estimada por s, usa-se a estatística t = (x-barra - mu_0) / (s/raiz(n)), com distribuição t de Student com n-1 graus de liberdade.\n\nPara comparar duas médias, há o t para amostras independentes (com variâncias iguais - pooled - ou distintas, via Welch) e o t pareado (mesmos sujeitos em dois momentos, testando a média das diferenças). A distribuição t tem caudas mais pesadas que a normal e converge para ela quando n cresce."
+        },
+        {
+          "h": "Testes para variâncias: qui-quadrado e F",
+          "p": "Para testar a variância de uma população normal contra um valor de referência, usa-se a estatística (n-1)s²/sigma_0², que segue uma distribuição qui-quadrado com n-1 graus de liberdade.\n\nPara comparar duas variâncias (teste de homocedasticidade), usa-se a razão F = s1²/s2², que segue a distribuição F de Snedecor com (n1-1, n2-1) graus de liberdade. O teste F também é a base da ANOVA. A distribuição F é assimétrica à direita e definida apenas para valores positivos."
+        },
+        {
+          "h": "Qui-quadrado de Pearson: a estatística",
+          "p": "Os testes qui-quadrado de aderência, homogeneidade e independência compartilham a mesma estatística: X² = Sigma [(O - E)²/E], onde O são as frequências observadas e E as esperadas sob H0. Quanto maior a discrepância entre observado e esperado, maior X² e maior a evidência contra H0.\n\nA distribuição é qui-quadrado, sempre não negativa e assimétrica. O teste é unilateral à direita (rejeita-se H0 para X² grande). Pressupostos: dados de contagem (frequências, não percentuais ou médias), categorias mutuamente exclusivas e frequências esperadas suficientes (regra prática: E >= 5 na maioria das células)."
+        },
+        {
+          "h": "Aderência, homogeneidade e independência",
+          "p": "Aderência (bondade de ajuste): testa se uma única variável categórica segue uma distribuição teórica especificada (ex.: uma distribuição uniforme, ou as proporções de um censo). Graus de liberdade = k - 1 - (parâmetros estimados), onde k é o número de categorias.\n\nHomogeneidade: testa se a distribuição de uma variável categórica é a mesma em duas ou mais POPULAÇÕES (amostras separadas, totais marginais fixados pelo desenho). Ex.: a distribuição de tipos de benefício é igual entre dois CRAS?\n\nIndependência: testa, em uma ÚNICA amostra classificada por duas variáveis, se elas são independentes. Ex.: a faixa de renda está associada ao acesso a determinado serviço? Tanto homogeneidade quanto independência usam tabela de contingência e gl = (linhas-1) x (colunas-1); a frequência esperada de cada célula é E = (total da linha x total da coluna) / total geral. A diferença é conceitual e está no desenho amostral, não no cálculo."
+        }
+      ],
+      "exemplo": "Item de prova comentado (Cebraspe). Uma equipe quer verificar se a procura por serviços socioassistenciais difere entre os turnos manhã e tarde em três CRAS. Coletou-se uma amostra em cada CRAS (totais por CRAS fixados) e classificou-se por turno. Afirmativa: 'O teste estatístico adequado é o qui-quadrado de homogeneidade, com (3-1)x(2-1) = 2 graus de liberdade.' CERTO. Como há três populações distintas (CRAS) com amostras separadas e se compara a distribuição da variável turno entre elas, trata-se de homogeneidade; gl = (3-1)x(2-1) = 2. Se, ao contrário, fosse uma única amostra cruzando CRAS x turno para ver associação, seria teste de independência - com a mesma estatística e os mesmos gl, mas interpretação diferente.",
+      "pontos_chave": [
+        "H0 = igualdade/sem efeito; rejeita-se quando p < alfa",
+        "Erro tipo I = rejeitar H0 verdadeira (alfa); tipo II = não rejeitar H0 falsa (beta); poder = 1 - beta",
+        "p-valor NÃO é a probabilidade de H0 ser verdadeira",
+        "Média: z (sigma conhecido) ou t de Student com n-1 gl (sigma estimado por s)",
+        "Variância: qui-quadrado (uma) e F de Snedecor (duas variâncias)",
+        "Qui-quadrado: X² = Sigma (O-E)²/E; teste unilateral à direita; exige E >= 5",
+        "Aderência: 1 variável vs distribuição teórica, gl = k-1-(param.)",
+        "Homogeneidade (várias populações) e Independência (uma amostra, 2 variáveis): gl = (l-1)(c-1), E = (linha x coluna)/total"
+      ],
+      "dica_prova": "Erro frequente de candidato: confundir homogeneidade e independência. Mesma fórmula, mesmos gl; muda o DESENHO (várias amostras/populações = homogeneidade; uma amostra cruzada = independência). Outra pegadinha: usar qui-quadrado com percentuais - ele exige frequências absolutas (contagens). E lembre que o qui-quadrado é sempre teste UNILATERAL à direita. Sobre o t: caudas mais pesadas que a normal, vira normal quando n cresce. Não confunda t pareado (mesmos sujeitos) com t independente."
     },
     {
-     "h": "Testes para médias: z e t de Student",
-     "p": "Para a média de uma população normal: se a variância populacional (sigma) for conhecida, usa-se a estatística z = (x-barra - mu_0) / (sigma/raiz(n)), com distribuição normal padrão. Se sigma for desconhecida (caso usual) e estimada por s, usa-se a estatística t = (x-barra - mu_0) / (s/raiz(n)), com distribuição t de Student com n-1 graus de liberdade.\n\nPara comparar duas médias, há o t para amostras independentes (com variâncias iguais - pooled - ou distintas, via Welch) e o t pareado (mesmos sujeitos em dois momentos, testando a média das diferenças). A distribuição t tem caudas mais pesadas que a normal e converge para ela quando n cresce."
-    },
-    {
-     "h": "Testes para variâncias: qui-quadrado e F",
-     "p": "Para testar a variância de uma população normal contra um valor de referência, usa-se a estatística (n-1)s²/sigma_0², que segue uma distribuição qui-quadrado com n-1 graus de liberdade.\n\nPara comparar duas variâncias (teste de homocedasticidade), usa-se a razão F = s1²/s2², que segue a distribuição F de Snedecor com (n1-1, n2-1) graus de liberdade. O teste F também é a base da ANOVA. A distribuição F é assimétrica à direita e definida apenas para valores positivos."
-    },
-    {
-     "h": "Qui-quadrado de Pearson: a estatística",
-     "p": "Os testes qui-quadrado de aderência, homogeneidade e independência compartilham a mesma estatística: X² = Sigma [(O - E)²/E], onde O são as frequências observadas e E as esperadas sob H0. Quanto maior a discrepância entre observado e esperado, maior X² e maior a evidência contra H0.\n\nA distribuição é qui-quadrado, sempre não negativa e assimétrica. O teste é unilateral à direita (rejeita-se H0 para X² grande). Pressupostos: dados de contagem (frequências, não percentuais ou médias), categorias mutuamente exclusivas e frequências esperadas suficientes (regra prática: E >= 5 na maioria das células)."
-    },
-    {
-     "h": "Aderência, homogeneidade e independência",
-     "p": "Aderência (bondade de ajuste): testa se uma única variável categórica segue uma distribuição teórica especificada (ex.: uma distribuição uniforme, ou as proporções de um censo). Graus de liberdade = k - 1 - (parâmetros estimados), onde k é o número de categorias.\n\nHomogeneidade: testa se a distribuição de uma variável categórica é a mesma em duas ou mais POPULAÇÕES (amostras separadas, totais marginais fixados pelo desenho). Ex.: a distribuição de tipos de benefício é igual entre dois CRAS?\n\nIndependência: testa, em uma ÚNICA amostra classificada por duas variáveis, se elas são independentes. Ex.: a faixa de renda está associada ao acesso a determinado serviço? Tanto homogeneidade quanto independência usam tabela de contingência e gl = (linhas-1) x (colunas-1); a frequência esperada de cada célula é E = (total da linha x total da coluna) / total geral. A diferença é conceitual e está no desenho amostral, não no cálculo."
+      "sid": "inferencia-bayesiana-e-nao-parametricos",
+      "titulo": "Inferência bayesiana e não paramétricos",
+      "intro": "A inferência bayesiana oferece uma alternativa à abordagem frequentista clássica. Em vez de tratar os parâmetros como constantes fixas e desconhecidas, o paradigma bayesiano os trata como variáveis aleatórias dotadas de uma distribuição de probabilidade que reflete o grau de crença (probabilidade subjetiva). Essa crença inicial (priori) é atualizada pelos dados observados (verossimilhança) para produzir a crença final (posteriori), via teorema de Bayes.\n\nJá os testes não paramétricos (ou de distribuição livre) dispensam a suposição de que os dados seguem uma distribuição específica (em geral a normal). São indicados para amostras pequenas, dados ordinais ou categóricos, e quando os pressupostos dos testes paramétricos são violados. Em troca da robustez, costumam ter menor poder estatístico quando os pressupostos paramétricos de fato valem.\n\nEsta seção apresenta os fundamentos da inferência bayesiana e os principais testes não paramétricos cobrados em concurso.",
+      "secoes": [
+        {
+          "h": "Teorema de Bayes e probabilidade subjetiva",
+          "p": "O teorema de Bayes é P(A|B) = [P(B|A) x P(A)] / P(B). Na inferência, escreve-se para o parâmetro theta dados os dados D: P(theta|D) proporcional a P(D|theta) x P(theta). Em palavras: posteriori proporcional à verossimilhança vezes priori.\n\nA probabilidade subjetiva (interpretação bayesiana) entende a probabilidade como grau de crença racional de um observador, distinta da interpretação frequentista (limite da frequência relativa em repetições). A priori codifica o conhecimento anterior aos dados; pode ser informativa (baseada em estudos prévios/especialistas) ou não informativa/vaga (quando se quer deixar os dados 'falarem')."
+        },
+        {
+          "h": "Priori, verossimilhança e posteriori",
+          "p": "A verossimilhança P(D|theta) mede o quão plausíveis são os dados para cada valor do parâmetro. A posteriori combina priori e verossimilhança: com poucos dados, a priori pesa mais; com muitos dados, a verossimilhança domina e a influência da priori se dilui.\n\nQuando a priori e a posteriori pertencem à mesma família de distribuições, diz-se que a priori é conjugada (ex.: Beta para a proporção de uma binomial; Normal para a média normal), o que facilita o cálculo. A inferência bayesiana produz intervalos de credibilidade (ex.: 'há 95% de probabilidade de theta estar neste intervalo'), interpretação direta que difere do intervalo de confiança frequentista."
+        },
+        {
+          "h": "Bayesiano versus frequentista",
+          "p": "Frequentista: parâmetro é fixo; probabilidade refere-se aos dados/estimadores; usa p-valor e intervalo de confiança (cuja interpretação correta é sobre o procedimento, não sobre o parâmetro específico). Bayesiano: parâmetro é aleatório; incorpora informação prévia; produz distribuição posteriori e intervalos de credibilidade com interpretação probabilística direta.\n\nVantagem bayesiana: lida bem com amostras pequenas e atualização sequencial. Crítica frequentista: a escolha da priori introduz subjetividade. Modernamente, métodos computacionais (MCMC) viabilizaram a aplicação bayesiana em modelos complexos."
+        },
+        {
+          "h": "Testes não paramétricos para localização",
+          "p": "Teste dos sinais e Wilcoxon (postos sinalizados): alternativas não paramétricas ao t pareado, comparam dois momentos nos mesmos sujeitos usando o sinal/postos das diferenças (testam a mediana).\n\nMann-Whitney (U) / Wilcoxon da soma de postos: alternativa não paramétrica ao t de amostras independentes; compara duas amostras independentes pela ordenação conjunta dos valores.\n\nKruskal-Wallis: extensão de Mann-Whitney para três ou mais grupos independentes; é a contraparte não paramétrica da ANOVA de um fator. Friedman: contraparte não paramétrica da ANOVA com medidas repetidas (blocos)."
+        },
+        {
+          "h": "Testes não paramétricos de distribuição e associação",
+          "p": "Aderência/ajuste de distribuição: o qui-quadrado de aderência e o teste de Kolmogorov-Smirnov (K-S) avaliam se os dados seguem uma distribuição especificada; o K-S compara a função de distribuição acumulada empírica com a teórica e serve também para comparar duas amostras. O Shapiro-Wilk é específico para testar normalidade.\n\nAssociação ordinal: o coeficiente de correlação de Spearman (rô) e o tau de Kendall medem associação monotônica entre variáveis ordinais ou não normais, baseando-se em postos, sendo robustos a outliers. Teste de aleatoriedade: o teste das corridas (runs)."
+        }
+      ],
+      "exemplo": "Item de prova comentado (Cebraspe). Em um estudo com 12 idosos de um CRAS, mediu-se o escore de bem-estar antes e depois de um grupo de convivência. Os dados são ordinais e a amostra é pequena, não atendendo à normalidade. Afirmativa: 'Para comparar os escores antes e depois nos mesmos participantes, o teste de Wilcoxon dos postos sinalizados é mais adequado que o teste t pareado.' CERTO. Com amostra pequena, dados ordinais e violação da normalidade, o teste não paramétrico (Wilcoxon pareado) é preferível; ele testa a mediana das diferenças, sem exigir distribuição normal. Se a banca trocasse 'mesmos participantes' por 'dois grupos distintos', o correto seria Mann-Whitney.",
+      "pontos_chave": [
+        "Bayes: posteriori proporcional à verossimilhança x priori",
+        "Probabilidade subjetiva = grau de crença; frequentista = limite da frequência relativa",
+        "Priori informativa vs não informativa; priori conjugada mantém a família (ex.: Beta-binomial)",
+        "Bayesiano: parâmetro aleatório, intervalo de credibilidade; frequentista: parâmetro fixo, IC e p-valor",
+        "Não paramétricos: distribuição livre, bons para amostras pequenas/ordinais; menor poder se a normalidade vale",
+        "t pareado -> Wilcoxon; t independente -> Mann-Whitney; ANOVA 1 fator -> Kruskal-Wallis; ANOVA repetida -> Friedman",
+        "Normalidade: Shapiro-Wilk e Kolmogorov-Smirnov",
+        "Correlação não paramétrica: Spearman e Kendall (baseadas em postos)"
+      ],
+      "dica_prova": "A pegadinha number 1 do bayesiano: dizer que o intervalo de confiança frequentista tem 95% de probabilidade de conter o parâmetro - ERRADO; essa interpretação probabilística direta é do intervalo de CREDIBILIDADE bayesiano. Outra: confundir verossimilhança com posteriori. Nos não paramétricos, memorize os PARES paramétrico/não paramétrico (t pareado-Wilcoxon, t independente-Mann-Whitney, ANOVA-Kruskal-Wallis). Banca adora afirmar que não paramétricos têm MAIS poder - falso: têm menos poder quando os pressupostos paramétricos são satisfeitos. Spearman/Kendall usam postos e são robustos a outliers."
     }
-   ],
-   "exemplo": "Item de prova comentado (Cebraspe). Uma equipe quer verificar se a procura por serviços socioassistenciais difere entre os turnos manhã e tarde em três CRAS. Coletou-se uma amostra em cada CRAS (totais por CRAS fixados) e classificou-se por turno. Afirmativa: 'O teste estatístico adequado é o qui-quadrado de homogeneidade, com (3-1)x(2-1) = 2 graus de liberdade.' CERTO. Como há três populações distintas (CRAS) com amostras separadas e se compara a distribuição da variável turno entre elas, trata-se de homogeneidade; gl = (3-1)x(2-1) = 2. Se, ao contrário, fosse uma única amostra cruzando CRAS x turno para ver associação, seria teste de independência - com a mesma estatística e os mesmos gl, mas interpretação diferente.",
-   "pontos_chave": [
-    "H0 = igualdade/sem efeito; rejeita-se quando p < alfa",
-    "Erro tipo I = rejeitar H0 verdadeira (alfa); tipo II = não rejeitar H0 falsa (beta); poder = 1 - beta",
-    "p-valor NÃO é a probabilidade de H0 ser verdadeira",
-    "Média: z (sigma conhecido) ou t de Student com n-1 gl (sigma estimado por s)",
-    "Variância: qui-quadrado (uma) e F de Snedecor (duas variâncias)",
-    "Qui-quadrado: X² = Sigma (O-E)²/E; teste unilateral à direita; exige E >= 5",
-    "Aderência: 1 variável vs distribuição teórica, gl = k-1-(param.)",
-    "Homogeneidade (várias populações) e Independência (uma amostra, 2 variáveis): gl = (l-1)(c-1), E = (linha x coluna)/total"
-   ],
-   "dica_prova": "Erro frequente de candidato: confundir homogeneidade e independência. Mesma fórmula, mesmos gl; muda o DESENHO (várias amostras/populações = homogeneidade; uma amostra cruzada = independência). Outra pegadinha: usar qui-quadrado com percentuais - ele exige frequências absolutas (contagens). E lembre que o qui-quadrado é sempre teste UNILATERAL à direita. Sobre o t: caudas mais pesadas que a normal, vira normal quando n cresce. Não confunda t pareado (mesmos sujeitos) com t independente."
-  },
-  {
-   "ti": 0,
-   "si": 2,
-   "titulo": "Inferência bayesiana e não paramétricos",
-   "intro": "A inferência bayesiana oferece uma alternativa à abordagem frequentista clássica. Em vez de tratar os parâmetros como constantes fixas e desconhecidas, o paradigma bayesiano os trata como variáveis aleatórias dotadas de uma distribuição de probabilidade que reflete o grau de crença (probabilidade subjetiva). Essa crença inicial (priori) é atualizada pelos dados observados (verossimilhança) para produzir a crença final (posteriori), via teorema de Bayes.\n\nJá os testes não paramétricos (ou de distribuição livre) dispensam a suposição de que os dados seguem uma distribuição específica (em geral a normal). São indicados para amostras pequenas, dados ordinais ou categóricos, e quando os pressupostos dos testes paramétricos são violados. Em troca da robustez, costumam ter menor poder estatístico quando os pressupostos paramétricos de fato valem.\n\nEsta seção apresenta os fundamentos da inferência bayesiana e os principais testes não paramétricos cobrados em concurso.",
-   "secoes": [
-    {
-     "h": "Teorema de Bayes e probabilidade subjetiva",
-     "p": "O teorema de Bayes é P(A|B) = [P(B|A) x P(A)] / P(B). Na inferência, escreve-se para o parâmetro theta dados os dados D: P(theta|D) proporcional a P(D|theta) x P(theta). Em palavras: posteriori proporcional à verossimilhança vezes priori.\n\nA probabilidade subjetiva (interpretação bayesiana) entende a probabilidade como grau de crença racional de um observador, distinta da interpretação frequentista (limite da frequência relativa em repetições). A priori codifica o conhecimento anterior aos dados; pode ser informativa (baseada em estudos prévios/especialistas) ou não informativa/vaga (quando se quer deixar os dados 'falarem')."
-    },
-    {
-     "h": "Priori, verossimilhança e posteriori",
-     "p": "A verossimilhança P(D|theta) mede o quão plausíveis são os dados para cada valor do parâmetro. A posteriori combina priori e verossimilhança: com poucos dados, a priori pesa mais; com muitos dados, a verossimilhança domina e a influência da priori se dilui.\n\nQuando a priori e a posteriori pertencem à mesma família de distribuições, diz-se que a priori é conjugada (ex.: Beta para a proporção de uma binomial; Normal para a média normal), o que facilita o cálculo. A inferência bayesiana produz intervalos de credibilidade (ex.: 'há 95% de probabilidade de theta estar neste intervalo'), interpretação direta que difere do intervalo de confiança frequentista."
-    },
-    {
-     "h": "Bayesiano versus frequentista",
-     "p": "Frequentista: parâmetro é fixo; probabilidade refere-se aos dados/estimadores; usa p-valor e intervalo de confiança (cuja interpretação correta é sobre o procedimento, não sobre o parâmetro específico). Bayesiano: parâmetro é aleatório; incorpora informação prévia; produz distribuição posteriori e intervalos de credibilidade com interpretação probabilística direta.\n\nVantagem bayesiana: lida bem com amostras pequenas e atualização sequencial. Crítica frequentista: a escolha da priori introduz subjetividade. Modernamente, métodos computacionais (MCMC) viabilizaram a aplicação bayesiana em modelos complexos."
-    },
-    {
-     "h": "Testes não paramétricos para localização",
-     "p": "Teste dos sinais e Wilcoxon (postos sinalizados): alternativas não paramétricas ao t pareado, comparam dois momentos nos mesmos sujeitos usando o sinal/postos das diferenças (testam a mediana).\n\nMann-Whitney (U) / Wilcoxon da soma de postos: alternativa não paramétrica ao t de amostras independentes; compara duas amostras independentes pela ordenação conjunta dos valores.\n\nKruskal-Wallis: extensão de Mann-Whitney para três ou mais grupos independentes; é a contraparte não paramétrica da ANOVA de um fator. Friedman: contraparte não paramétrica da ANOVA com medidas repetidas (blocos)."
-    },
-    {
-     "h": "Testes não paramétricos de distribuição e associação",
-     "p": "Aderência/ajuste de distribuição: o qui-quadrado de aderência e o teste de Kolmogorov-Smirnov (K-S) avaliam se os dados seguem uma distribuição especificada; o K-S compara a função de distribuição acumulada empírica com a teórica e serve também para comparar duas amostras. O Shapiro-Wilk é específico para testar normalidade.\n\nAssociação ordinal: o coeficiente de correlação de Spearman (rô) e o tau de Kendall medem associação monotônica entre variáveis ordinais ou não normais, baseando-se em postos, sendo robustos a outliers. Teste de aleatoriedade: o teste das corridas (runs)."
-    }
-   ],
-   "exemplo": "Item de prova comentado (Cebraspe). Em um estudo com 12 idosos de um CRAS, mediu-se o escore de bem-estar antes e depois de um grupo de convivência. Os dados são ordinais e a amostra é pequena, não atendendo à normalidade. Afirmativa: 'Para comparar os escores antes e depois nos mesmos participantes, o teste de Wilcoxon dos postos sinalizados é mais adequado que o teste t pareado.' CERTO. Com amostra pequena, dados ordinais e violação da normalidade, o teste não paramétrico (Wilcoxon pareado) é preferível; ele testa a mediana das diferenças, sem exigir distribuição normal. Se a banca trocasse 'mesmos participantes' por 'dois grupos distintos', o correto seria Mann-Whitney.",
-   "pontos_chave": [
-    "Bayes: posteriori proporcional à verossimilhança x priori",
-    "Probabilidade subjetiva = grau de crença; frequentista = limite da frequência relativa",
-    "Priori informativa vs não informativa; priori conjugada mantém a família (ex.: Beta-binomial)",
-    "Bayesiano: parâmetro aleatório, intervalo de credibilidade; frequentista: parâmetro fixo, IC e p-valor",
-    "Não paramétricos: distribuição livre, bons para amostras pequenas/ordinais; menor poder se a normalidade vale",
-    "t pareado -> Wilcoxon; t independente -> Mann-Whitney; ANOVA 1 fator -> Kruskal-Wallis; ANOVA repetida -> Friedman",
-    "Normalidade: Shapiro-Wilk e Kolmogorov-Smirnov",
-    "Correlação não paramétrica: Spearman e Kendall (baseadas em postos)"
-   ],
-   "dica_prova": "A pegadinha number 1 do bayesiano: dizer que o intervalo de confiança frequentista tem 95% de probabilidade de conter o parâmetro - ERRADO; essa interpretação probabilística direta é do intervalo de CREDIBILIDADE bayesiano. Outra: confundir verossimilhança com posteriori. Nos não paramétricos, memorize os PARES paramétrico/não paramétrico (t pareado-Wilcoxon, t independente-Mann-Whitney, ANOVA-Kruskal-Wallis). Banca adora afirmar que não paramétricos têm MAIS poder - falso: têm menos poder quando os pressupostos paramétricos são satisfeitos. Spearman/Kendall usam postos e são robustos a outliers."
-  }
- ]
+  ]
 }

@@ -2,8 +2,7 @@
   "slug": "tecnico-operativo-ss",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "instrumentos-entrevista-visita-estudo-social",
       "titulo": "Instrumentos (entrevista, visita, estudo social)",
       "intro": "A dimensão técnico-operativa é uma das três dimensões indissociáveis do trabalho profissional (ao lado da teórico-metodológica e da ético-política). É o 'como fazer', mas nunca um mero saber-fazer instrumental: os instrumentos só fazem sentido quando articulados a uma leitura teórica da realidade e a um posicionamento ético-político. Um instrumento usado sem essa articulação cai no que se chama de tecnicismo ou pragmatismo.\n\nOs instrumentos e técnicas mais clássicos do Serviço Social são a entrevista, a observação, a visita domiciliar e institucional, a reunião, a abordagem (individual, grupal, coletiva) e o estudo social. Eles servem à apreensão da realidade do usuário e à intervenção sobre as expressões da questão social.\n\nA distinção entre instrumento (o meio, a ferramenta) e técnica (o modo de operar o instrumento) é uma sutileza que aparece em prova: a entrevista é instrumento; o modo de conduzi-la é a técnica.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha mais comum é descrever a visita domiciliar como fiscalização/controle/vigilância — isso fere o projeto ético-político e está ERRADO. Outra: reduzir o estudo social a preenchimento de cadastro/formulário. Lembre que a dimensão técnico-operativa não pode ser dissociada das outras duas (cuidado com itens que a apresentam como puro 'saber-fazer' neutro). Entrevista é o instrumento mais utilizado."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "documentos-tecnicos-e-pesquisa-social",
       "titulo": "Documentos técnicos e pesquisa social",
       "intro": "Os documentos técnicos são a materialização escrita do trabalho do assistente social: relatório social, parecer social, laudo social e estudo social registrado. Eles têm valor técnico e, muitas vezes, repercussão jurídica e institucional — fundamentam decisões sobre benefícios, guarda, medidas de proteção, etc. Por isso o CFESS regulamenta sua elaboração e guarda, e exige rigor, clareza e fundamentação.\n\nA pesquisa social, por sua vez, é constitutiva do exercício profissional: conhecer a realidade para intervir. O assistente social produz e utiliza pesquisas de abordagem qualitativa, quantitativa ou mista, mobilizando técnicas como entrevistas, questionários, observação e análise documental.\n\nDistinguir os três documentos (relatório, parecer e laudo) e dominar conceitos básicos de método e abordagem de pesquisa são cobranças recorrentes em prova.",
       "secoes": [

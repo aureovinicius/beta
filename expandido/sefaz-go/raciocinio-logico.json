@@ -2,8 +2,7 @@
   "slug": "raciocinio-logico",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "problemas-de-associacao",
       "titulo": "Problemas de associação",
       "intro": "Os problemas de associação lógica são clássicos em provas de Auditor-Fiscal porque medem a capacidade de organizar informações e deduzir conclusões a partir de pistas, sem necessidade de fórmulas matemáticas. O candidato recebe um conjunto de elementos distribuídos em categorias (por exemplo: pessoas, profissões, cidades e cores) e várias afirmações verdadeiras, devendo descobrir como esses elementos se combinam.\n\nA ferramenta mais eficiente é a tabela de dupla entrada (grade lógica), na qual se cruzam as categorias e se marca cada célula como verdadeira (V, normalmente representada por um símbolo de confirmação) ou falsa (F, eliminada). A regra de ouro é: em cada linha e em cada coluna que relacionem categorias com o mesmo número de elementos, há exatamente uma confirmação; tudo o mais é eliminado.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A banca costuma incluir pistas irrelevantes (distratores) e pistas relacionais que não citam o sujeito principal. Não tente resolver de cabeça: desenhe a grade. O erro mais comum é esquecer de propagar os F após cada V, gerando duas confirmações na mesma coluna. Marque sempre a eliminação completa de linha e coluna antes de seguir."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "conectivos-e-tabela-verdade",
       "titulo": "Conectivos e tabela-verdade",
       "intro": "A lógica proposicional estuda proposições — sentenças declarativas às quais se pode atribuir um único valor lógico: verdadeiro (V) ou falso (F). Sentenças interrogativas, exclamativas, imperativas e abertas (com variável) não são proposições. A partir de proposições simples, os conectivos formam proposições compostas, cujo valor depende dos valores das partes e do conectivo usado.\n\nA tabela-verdade é o instrumento que define, exaustivamente, o valor de uma proposição composta para cada combinação possível dos valores das simples. Para n proposições simples há 2 elevado a n linhas: 2 proposições geram 4 linhas, 3 geram 8 linhas. Dominar os cinco conectivos é a base de toda a disciplina.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "A pegadinha mais explorada é a condicional: muitos candidatos acham que F→V ou F→F seriam falsos, mas a condicional só é falsa em V→F. Decore: 'só dá errado quando a promessa (antecedente V) é cumprida mas o resultado (consequente) não vem'. Cuidado também para não confundir 'ou' inclusivo (∨) com 'ou...ou' exclusivo (⊻)."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "tautologia-contradicao-e-contingencia",
       "titulo": "Tautologia, contradição e contingência",
       "intro": "Toda proposição composta, ao ser avaliada por sua tabela-verdade, recai em uma de três categorias conforme a coluna final. Se for sempre verdadeira, é uma tautologia; se for sempre falsa, é uma contradição; se variar (ter pelo menos um V e pelo menos um F), é uma contingência.\n\nEssa classificação é central porque tautologias representam verdades lógicas independentes do conteúdo, e são exatamente o que sustenta as equivalências lógicas e os argumentos válidos. Reconhecer uma tautologia é, na prática, reconhecer um raciocínio sempre correto.",
       "secoes": [
@@ -107,8 +104,7 @@
       "dica_prova": "A banca adora apresentar uma proposição que 'parece' contingente mas é tautologia (como o exemplo acima). Não confie na intuição: monte a tabela ou tente forçar o F. Outra pegadinha: chamar de 'tautologia' qualquer proposição verdadeira — verdadeiro em um caso específico não basta; precisa ser V em TODAS as linhas."
     },
     {
-      "ti": 1,
-      "si": 2,
+      "sid": "equivalencias-e-negacoes",
       "titulo": "Equivalências e negações",
       "intro": "Duas proposições são logicamente equivalentes quando têm exatamente a mesma tabela-verdade, ou seja, são verdadeiras e falsas nos mesmos casos. A equivalência permite substituir uma expressão por outra mais simples sem alterar o significado lógico, e é a base para negar corretamente proposições compostas — habilidade campeã de incidência em provas fiscais.\n\nAs negações são especialmente cobradas porque a linguagem natural induz a erros: muita gente nega 'p e q' dizendo 'não p e não q', quando o correto, pelas leis de De Morgan, é 'não p ou não q'. Dominar essas transformações vale muitos pontos.",
       "secoes": [
@@ -142,8 +138,7 @@
       "dica_prova": "A negação do condicional é a pegadinha número 1: a resposta é uma CONJUNÇÃO (p e não q), nunca outro 'se...então'. Não caia nos distratores 'recíproca' (q→p) e 'inversa' (~p→~q), que parecem negações mas não são. Em De Morgan, lembre que ao negar você troca o conectivo e nega cada parte — esquecer de trocar ∧ por ∨ é erro frequente."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "argumentos-validos",
       "titulo": "Argumentos válidos",
       "intro": "Um argumento é um conjunto de proposições chamadas premissas, das quais se pretende derivar uma conclusão. O argumento é válido quando, sempre que todas as premissas forem verdadeiras, a conclusão também será necessariamente verdadeira — ou seja, é impossível ter premissas verdadeiras e conclusão falsa. A validade diz respeito à forma do raciocínio, não ao conteúdo.\n\nÉ crucial distinguir validade de verdade: um argumento pode ter premissas falsas e ainda ser válido (forma correta), e pode ter premissas e conclusão verdadeiras sem ser válido (forma incorreta). A prova fiscal cobra o reconhecimento de formas válidas clássicas e a verificação de validade por tabela ou por construção de contraexemplo.",
       "secoes": [
@@ -177,8 +172,7 @@
       "dica_prova": "Quando a questão tiver uma premissa simples (ex.: 'Maria não foi à festa'), comece SEMPRE por ela e propague os valores — é o caminho mais rápido. A pegadinha clássica é a afirmação do consequente disfarçada de Modus Ponens. Lembre: de 'a rua está molhada' não se conclui 'choveu'. E nunca confunda validade com a veracidade factual das premissas."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "quantificadores",
       "titulo": "Quantificadores",
       "intro": "Os quantificadores expressam a quantidade de elementos de um conjunto que satisfazem uma propriedade. Os principais são o universal — 'todo', 'qualquer', 'nenhum' — e o existencial — 'algum', 'existe', 'pelo menos um'. Frases como 'todo auditor é servidor' ou 'algum contribuinte sonega' são proposições categóricas, e a lógica de quantificadores estuda suas negações, equivalências e a validade de argumentos com elas.\n\nO diagrama de Venn é a ferramenta gráfica que torna essas relações visíveis: conjuntos representados por círculos, com inclusões, interseções e exclusões. A prova fiscal cobra principalmente a negação correta dos quantificadores e a análise de conclusões a partir de premissas com 'todo', 'algum' e 'nenhum'.",
       "secoes": [
@@ -212,8 +206,7 @@
       "dica_prova": "A negação de 'todo' NÃO é 'nenhum' — é 'algum não' (basta um contraexemplo). Esse é o erro mais comum. Em argumentos com 'algum', desconfie de conclusões: na maioria das vezes não há validade. Sempre teste desenhando o diagrama mais 'desfavorável' à conclusão: se ela ainda assim for forçada, o argumento é válido; caso contrário, é inválido."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "pa-e-pg",
       "titulo": "PA e PG",
       "intro": "As progressões são sequências numéricas que seguem uma regra de formação constante. Na Progressão Aritmética (PA), cada termo resulta da soma do anterior com uma constante chamada razão (r). Na Progressão Geométrica (PG), cada termo resulta da multiplicação do anterior por uma constante chamada razão (q). Reconhecer o padrão e aplicar as fórmulas de termo geral e de soma resolve a maioria das questões de sequências.\n\nEsses conteúdos conectam-se à matemática financeira (juros simples têm crescimento de PA; juros compostos, de PG) e à estatística, sendo por isso muito valorizados em provas de Auditor-Fiscal.",
       "secoes": [
@@ -247,8 +240,7 @@
       "dica_prova": "Atenção ao expoente (n−1) no termo geral — esquecê-lo e usar n é o erro mais frequente. Na soma da PG, confira o sinal de (q−1): se q<1 use a forma a1·(1−q^n)/(1−q) para evitar números negativos. A banca costuma misturar a contagem da posição (a 'primeira' parcela é n=1, não n=0). Em sequências figurais, calcule as diferenças de segunda ordem quando a de primeira ordem não for constante."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "analise-combinatoria",
       "titulo": "Análise combinatória",
       "intro": "A análise combinatória estuda técnicas de contagem do número de maneiras de organizar ou escolher elementos de um conjunto. O alicerce é o Princípio Fundamental da Contagem (princípio multiplicativo): se uma decisão pode ser tomada de m modos e outra de n modos, então as duas em sequência podem ser tomadas de m·n modos.\n\nA partir desse princípio derivam-se as fórmulas de permutação, arranjo e combinação. A distinção essencial — e a mais cobrada — é se a ORDEM dos elementos importa (arranjo/permutação) ou não importa (combinação). Esse conteúdo é base para probabilidade e aparece em questões de senhas, comissões, filas e sorteios.",
       "secoes": [
@@ -282,8 +274,7 @@
       "dica_prova": "A pergunta-chave é sempre 'a ordem dos elementos altera o resultado?'. Cargos distintos, pódios, senhas e filas → ARRANJO. Comissões, grupos, escolhas de itens 'iguais em status' → COMBINAÇÃO. A pegadinha favorita é descrever uma comissão com cargos (arranjo) usando linguagem de 'escolher pessoas' para induzir você a usar combinação. Cuidado também com restrições (elementos que devem ficar juntos ou separados): resolva por etapas com o princípio multiplicativo."
     },
     {
-      "ti": 3,
-      "si": 2,
+      "sid": "conjuntos",
       "titulo": "Conjuntos",
       "intro": "A teoria dos conjuntos trata de coleções de elementos e das operações entre elas. Em provas fiscais, o foco é a contagem de elementos em uniões e interseções, frequentemente apresentada em problemas com diagramas de Venn — por exemplo, contribuintes que pagam ICMS, IPVA ou ambos. O domínio das operações e do princípio da inclusão-exclusão resolve essas questões com segurança.\n\nAs operações fundamentais são união (todos os elementos), interseção (elementos comuns), diferença (o que está em um e não no outro) e complementar (o que está fora do conjunto, dentro do universo).",
       "secoes": [
@@ -317,8 +308,7 @@
       "dica_prova": "A pegadinha mais comum é confundir 'apenas A' com 'A' (o total de A já inclui a interseção). Quando o enunciado diz 'somente ICMS', subtraia a interseção. Outra armadilha: 'pelo menos um' é a união; 'exatamente um' é a soma das regiões exclusivas (sem a interseção). Sempre confira somando todas as regiões e o 'nenhum' — o total deve bater com o universo dado."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "regras-fundamentais",
       "titulo": "Regras fundamentais",
       "intro": "A probabilidade mede a chance de ocorrência de um evento, expressa por um número entre 0 (impossível) e 1 (certo), podendo ser apresentada como fração, decimal ou porcentagem. No modelo clássico (espaço amostral equiprovável), a probabilidade de um evento A é a razão entre o número de casos favoráveis e o número de casos possíveis: P(A) = n(A) / n(S).\n\nA partir dessa definição, desenvolvem-se as regras da união, da probabilidade condicional, da multiplicação e da independência de eventos — todas frequentes em provas de Auditor-Fiscal, muitas vezes combinadas com análise combinatória.",
       "secoes": [
@@ -352,8 +342,7 @@
       "dica_prova": "Sempre verifique se há reposição: sem reposição, a segunda probabilidade muda o denominador e o numerador (eventos dependentes). A maior pegadinha é confundir 'independentes' com 'mutuamente exclusivos' — são conceitos opostos para eventos de probabilidade positiva. Para 'pelo menos um', calcule 1 menos a probabilidade de 'nenhum'; tentar somar casos diretamente costuma levar a erro."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "juros-simples-e-compostos",
       "titulo": "Juros simples e compostos",
       "intro": "A matemática financeira estuda a variação do valor do dinheiro no tempo. Quando um capital (C ou PV) é aplicado a uma taxa de juros (i) durante um tempo (t), gera juros (J) e resulta em um montante (M ou FV = C + J). A diferença essencial entre os dois regimes está em sobre o que os juros incidem: no regime simples, sempre sobre o capital inicial; no regime composto, sobre o montante acumulado (juros sobre juros).\n\nEsse é o tópico mais importante de matemática financeira para concursos fiscais, base para descontos, equivalência de capitais e amortização. A atenção à compatibilidade entre a unidade da taxa e a unidade do tempo é decisiva.",
       "secoes": [
@@ -387,8 +376,7 @@
       "dica_prova": "Antes de calcular, verifique se a unidade da taxa bate com a do tempo — esse é o erro nº 1. Em juros compostos, não converta taxa anual para mensal dividindo por 12 (isso é taxa proporcional, válida só no regime simples); use a raiz. Lembre-se da regra de comparação (composto > simples para t>1), pois ela aparece em questões teóricas sem cálculo. E não confunda 'taxa de juros' com 'juros' (valor em reais)."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "descontos",
       "titulo": "Descontos",
       "intro": "Desconto é o abatimento concedido sobre o valor de um título (como uma duplicata ou nota promissória) quando este é pago ou negociado antes do vencimento. O valor escrito no título, devido na data de vencimento, é o valor nominal (N) ou valor de face; o valor pago antecipadamente é o valor atual (A) ou valor líquido. O desconto (D) é a diferença: D = N − A.\n\nHá dois regimes de cálculo do desconto simples — comercial (ou bancário) e racional (ou 'por dentro') — que diferem quanto à base de incidência da taxa. Distingui-los é o ponto central das questões de prova.",
       "secoes": [
@@ -422,8 +410,7 @@
       "dica_prova": "A pegadinha clássica é trocar a base: comercial incide sobre o NOMINAL, racional sobre o ATUAL. Memorize 'comercial = por fora = maior desconto'. Cuide das unidades de taxa e tempo, como em juros. Quando a questão pedir 'a diferença entre os descontos', lembre que Dc − Dr é positiva e igual a Dr·i·t. Se o enunciado não especificar, em geral assume-se desconto comercial simples (o mais cobrado)."
     },
     {
-      "ti": 5,
-      "si": 2,
+      "sid": "taxas-e-equivalencia",
       "titulo": "Taxas e equivalência",
       "intro": "Em finanças, uma mesma taxa pode ser expressa de várias formas, e capitais em datas diferentes só podem ser comparados depois de levados a uma data comum por uma taxa. Os conceitos de taxa nominal, efetiva, proporcional e equivalente, bem como o de equivalência de capitais, são fundamentais para resolver questões de fluxo de caixa, substituição de dívidas e comparação de investimentos.\n\nA confusão entre taxa nominal e efetiva, e entre taxa proporcional (regime simples) e equivalente (regime composto), é uma das mais exploradas em provas de Auditor-Fiscal.",
       "secoes": [
@@ -457,8 +444,7 @@
       "dica_prova": "Para converter taxa nominal em efetiva do período de capitalização, divida (24% a.a. cap. mensal → 2% a.m.); para converter entre períodos no regime composto, use potências/raízes, nunca regra de três. A pegadinha mais comum é tratar taxa anual nominal como efetiva. Em equivalência de capitais com juros simples, atenção à data focal indicada — mudá-la muda a resposta."
     },
     {
-      "ti": 5,
-      "si": 3,
+      "sid": "amortizacao",
       "titulo": "Amortização",
       "intro": "Amortização é o processo de quitação de uma dívida por meio de pagamentos periódicos (prestações), cada um composto por duas parcelas: a amortização (devolução de parte do capital emprestado) e os juros (remuneração sobre o saldo devedor ainda não pago). À medida que o saldo devedor diminui, os juros de cada período também diminuem.\n\nOs dois sistemas mais cobrados são o SAC (Sistema de Amortização Constante) e o Price (Sistema Francês, de prestação constante). Compreender a composição de cada parcela e a evolução do saldo devedor é o que a prova exige.",
       "secoes": [
@@ -492,8 +478,7 @@
       "dica_prova": "Memorize: SAC tem amortização constante (prestação cai); Price tem prestação constante (amortização sobe). A pegadinha frequente é inverter o que é constante em cada sistema. Outro ponto: no Price, no início paga-se mais juros que amortização. Saber montar a primeira linha da tabela (juros sobre o saldo inicial) resolve a maioria das questões sem precisar da fórmula completa."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "medidas-de-posicao",
       "titulo": "Medidas de posição",
       "intro": "As medidas de posição (ou de tendência central) resumem um conjunto de dados em um único valor representativo em torno do qual os dados se distribuem. As três principais são a média aritmética, a mediana e a moda. As medidas separatrizes (quartis, decis e percentis) localizam pontos específicos da distribuição ordenada.\n\nEscolher a medida adequada depende da natureza dos dados e da presença de valores extremos (outliers). A prova fiscal cobra o cálculo correto de cada medida e a compreensão de suas propriedades, especialmente a robustez da mediana frente à sensibilidade da média.",
       "secoes": [
@@ -527,8 +512,7 @@
       "dica_prova": "Sempre ORDENE os dados antes de achar a mediana — esquecer isso é erro garantido. Lembre que a média é 'puxada' pelos outliers e a mediana não. A relação de ordem entre média, mediana e moda revela o tipo de assimetria (decore: na assimetria positiva, a média é a maior das três). Cuidado com dados agrupados: a média usa o ponto médio da classe, não os limites."
     },
     {
-      "ti": 6,
-      "si": 1,
+      "sid": "medidas-de-dispersao",
       "titulo": "Medidas de dispersão",
       "intro": "As medidas de dispersão (ou de variabilidade) quantificam o quanto os dados se afastam de um valor central, geralmente a média. Duas distribuições podem ter a mesma média e comportamentos muito diferentes: uma com valores concentrados, outra com valores espalhados. As medidas de dispersão revelam essa diferença.\n\nAs principais são amplitude, variância, desvio-padrão e coeficiente de variação. O desvio-padrão é a medida mais usada por estar na mesma unidade dos dados, e o coeficiente de variação permite comparar a dispersão relativa entre conjuntos de unidades ou escalas diferentes — tema recorrente em provas fiscais.",
       "secoes": [
@@ -562,8 +546,7 @@
       "dica_prova": "A pegadinha mais comum é confundir variância populacional (divide por N) com amostral (divide por n−1) — leia se o enunciado fala em 'população' ou 'amostra'. Lembre que a variância está em unidade ao quadrado e o desvio-padrão na unidade original. Para comparar dispersão entre conjuntos com médias/unidades diferentes, use SEMPRE o coeficiente de variação, nunca o desvio-padrão bruto. Some os quadrados dos desvios com atenção aos sinais (eles se anulam antes de elevar ao quadrado)."
     },
     {
-      "ti": 6,
-      "si": 2,
+      "sid": "distribuicoes-de-probabilidade",
       "titulo": "Distribuições de probabilidade",
       "intro": "Uma distribuição de probabilidade descreve como as probabilidades se distribuem entre os possíveis valores de uma variável aleatória. Variáveis discretas (que assumem valores contáveis, como número de autuações) seguem distribuições como a Binomial e a de Poisson; variáveis contínuas (que assumem qualquer valor num intervalo, como peso ou tempo) seguem distribuições como a Normal e a t de Student.\n\nReconhecer qual modelo se aplica a cada situação, conhecer seus parâmetros (média e variância) e calcular probabilidades são as habilidades cobradas. A distribuição Normal é a mais importante por sua presença em toda a inferência estatística.",
       "secoes": [
@@ -597,8 +580,7 @@
       "dica_prova": "Identifique primeiro se a variável é discreta (conta-se: Binomial/Poisson) ou contínua (mede-se: Normal). Na Binomial, não esqueça o coeficiente C(n,k). Na Poisson, lembre da propriedade média = variância = λ (pegadinha frequente). Na Normal, padronize com Z e use a regra 68-95-99,7 para intervalos 'redondos'. A t de Student só entra quando a amostra é pequena e a variância populacional é desconhecida."
     },
     {
-      "ti": 6,
-      "si": 3,
+      "sid": "amostragem-e-estimacao",
       "titulo": "Amostragem e estimação",
       "intro": "A inferência estatística parte de uma amostra (subconjunto) para tirar conclusões sobre a população (o todo), pois examinar a população inteira costuma ser inviável. A amostragem trata de como selecionar a amostra; a estimação trata de como usar os dados amostrais para estimar parâmetros populacionais (como média e proporção) e de quão confiável é essa estimativa.\n\nOs conceitos de amostra probabilística, estimativa pontual, intervalo de confiança, nível de confiança e teste de hipótese são cobrados em provas fiscais, geralmente em nível conceitual e com cálculos diretos de margem de erro.",
       "secoes": [

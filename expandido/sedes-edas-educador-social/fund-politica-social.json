@@ -2,8 +2,7 @@
   "slug": "fund-politica-social",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "seguridade-social-no-brasil",
       "titulo": "Seguridade social no Brasil",
       "intro": "A seguridade social, instituída pela Constituição Federal de 1988 (arts. 194 a 204), é o conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência social e à assistência social. É o chamado 'tripé' da seguridade. Esse modelo representa uma das maiores conquistas sociais da redemocratização, ao consolidar a noção de proteção social como direito de cidadania e não como favor ou caridade.\n\nCada um dos três pilares tem lógica própria: a saúde é universal e gratuita (direito de todos, dever do Estado); a previdência é contributiva (exige filiação e contribuição); e a assistência social é não contributiva (prestada a quem dela necessitar, independentemente de contribuição). Para o Educador Social, compreender esse desenho é essencial, pois sua atuação se dá no campo da assistência social, distinguindo-a dos demais ramos.",
       "secoes": [
@@ -37,11 +36,9 @@
       "dica_prova": "A pegadinha clássica é trocar a natureza dos ramos: dizer que a assistência ou a saúde são contributivas, ou que a previdência é universal sem contribuição. Decore: SAÚDE = universal; PREVIDÊNCIA = contributiva; ASSISTÊNCIA = a quem necessitar, sem contribuir. Outra pegadinha: afirmar que a seguridade é financiada só pela União — na verdade é por TODA a sociedade e por todos os entes federados."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "familia-contemporanea-e-politicas-publicas",
       "titulo": "Família contemporânea e políticas públicas",
-      "intro": "A família contemporânea não corresponde mais ao modelo único nuclear (pai, mãe e filhos biológicos) que predominou no imaginário tradicional. As transformações sociais, econômicas e culturais produziram uma pluralidade de arranjos familiares, todos legítimos e merecedores de proteção do Estado. A própria CF/88 (art. 226) reconhece a família como base da sociedade e amplia seu conceito, e a jurisprudência e as políticas públicas acompanham essa diversidade.\n\nPara as políticas públicas — e especialmente para a assistência social, que tem na matricialidade sociofamiliar um de seus eixos —, compreender as configurações familiares é decisivo. O trabalho do Educador Social parte da família real, em seu território e em sua dinâmica concreta, e não de um modelo idealizado. Conhecer também o CICLO DE POLÍTICAS PÚBLICAS permite entender como demandas sociais se transformam em ações estatais."
-      ,
+      "intro": "A família contemporânea não corresponde mais ao modelo único nuclear (pai, mãe e filhos biológicos) que predominou no imaginário tradicional. As transformações sociais, econômicas e culturais produziram uma pluralidade de arranjos familiares, todos legítimos e merecedores de proteção do Estado. A própria CF/88 (art. 226) reconhece a família como base da sociedade e amplia seu conceito, e a jurisprudência e as políticas públicas acompanham essa diversidade.\n\nPara as políticas públicas — e especialmente para a assistência social, que tem na matricialidade sociofamiliar um de seus eixos —, compreender as configurações familiares é decisivo. O trabalho do Educador Social parte da família real, em seu território e em sua dinâmica concreta, e não de um modelo idealizado. Conhecer também o CICLO DE POLÍTICAS PÚBLICAS permite entender como demandas sociais se transformam em ações estatais.",
       "secoes": [
         {
           "h": "Configurações familiares contemporâneas",

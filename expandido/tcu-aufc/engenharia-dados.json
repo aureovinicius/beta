@@ -2,8 +2,7 @@
   "slug": "engenharia-dados",
   "itens": [
     {
-      "ti": 0,
-      "si": 2,
+      "sid": "bancos-nosql-mongodb-elasticsearch",
       "titulo": "Bancos NoSQL (MongoDB, Elasticsearch)",
       "intro": "Bancos NoSQL (\"Not Only SQL\") surgiram para atender cenários em que o modelo relacional tradicional encontra limitações: volumes massivos de dados (Big Data), necessidade de escalabilidade horizontal, esquemas flexíveis e alta disponibilidade em sistemas distribuídos. Em vez de tabelas rígidas com esquema fixo e junções (joins), os bancos NoSQL adotam estruturas otimizadas para padrões de acesso específicos, frequentemente sacrificando parte das garantias ACID em favor de desempenho e escalabilidade.\n\nNão existe um único \"banco NoSQL\": trata-se de uma família com quatro categorias principais — orientados a documentos (MongoDB, Couchbase), chave-valor (Redis, DynamoDB), famílias de colunas (Cassandra, HBase) e grafos (Neo4j). Sistemas de busca como o Elasticsearch, embora muitas vezes classificados como motores de busca/análise, também são tratados como bancos orientados a documentos com índice invertido. A escolha entre NoSQL e relacional depende do problema, não de \"modernidade\": cada modelo tem seu nicho.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A pegadinha clássica é afirmar que o CAP permite as três propriedades juntas (sempre ERRADO) ou que NoSQL \"não tem transações\" (hoje desatualizado para o MongoDB). Cuidado também ao associar BASE a ACID: são opostos. Cebraspe gosta de testar o pareamento exemplo-categoria (ex.: Cassandra como AP, Neo4j como grafo, Redis como chave-valor)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "apis-arquivos-e-mensageria",
       "titulo": "APIs, arquivos e mensageria",
       "intro": "A engenharia de dados depende de conectores que captam dados de fontes heterogêneas. Os três grandes mecanismos de integração são: APIs (interfaces de aplicação, como REST e SOAP, para consumo síncrono via requisição/resposta), arquivos (lotes de dados em formatos como CSV, JSON, XML e Parquet) e mensageria (troca assíncrona de mensagens e eventos via brokers como o Apache Kafka).\n\nCada mecanismo atende a um padrão de integração distinto. APIs são adequadas para consultas pontuais e integração em tempo real entre sistemas; arquivos são típicos de cargas em lote (batch) e intercâmbio entre organizações; mensageria habilita arquiteturas orientadas a eventos, desacopladas e escaláveis, processando fluxos contínuos (streaming) de dados.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "Cebraspe confunde REST (estilo arquitetural) com SOAP (protocolo) — atenção a essa classificação. Outra pegadinha: dizer que Parquet é orientado a linha (é colunar) ou que CSV suporta dados hierárquicos (não suporta nativamente). Sobre Kafka, lembre que ele persiste o log e permite reprocessamento, diferentemente de filas que costumam descartar a mensagem após consumo."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "versionamento-logging-e-ci-cd",
       "titulo": "Versionamento, logging e CI/CD",
       "intro": "Pipelines de dados modernos são tratados como software (\"data as code\"): seu código, configurações e até a definição de transformações ficam sob controle de versão, são testados automaticamente e implantados por pipelines de integração e entrega contínuas (CI/CD). Isso traz rastreabilidade, reprodutibilidade e qualidade — atributos essenciais para auditoria.\n\nAlém disso, pipelines robustos exigem logging detalhado (registro de execução, erros e métricas), tolerância a falhas (retries automáticos e checkpoints para retomar de onde parou) e monitoramento. A combinação dessas práticas transforma scripts frágeis em fluxos de dados confiáveis, auditáveis e operacionalmente resilientes.",
       "secoes": [
@@ -108,8 +105,7 @@
       "dica_prova": "Cebraspe pode contrastar Integração Contínua (verificação a cada commit) com Entrega/Implantação Contínua (deploy automatizado) — não confunda os termos. Cuidado com afirmações que tratam logging como opcional ou que dizem que retry e checkpoint são a mesma coisa: retry repete a tentativa; checkpoint salva o progresso para retomada. Idempotência cai como garantia contra duplicação."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "linhagem-catalogacao-e-metadados",
       "titulo": "Linhagem, catalogação e metadados",
       "intro": "A governança de dados exige saber o que se tem, de onde vem e para onde vai cada dado. Três pilares sustentam isso: metadados (dados sobre os dados), catalogação (organização e descoberta dos ativos de dados em um catálogo) e linhagem (lineage — o rastreamento da origem, das transformações e do destino dos dados ao longo de todo o pipeline).\n\nEsses elementos respondem perguntas críticas: \"de onde veio este indicador?\", \"quem é o dono deste dado?\", \"o que acontece se esta tabela mudar?\". São fundamentais para confiança, conformidade regulatória (LGPD), análise de impacto e, no controle externo, para a auditabilidade das informações que embasam decisões.",
       "secoes": [
@@ -144,8 +140,7 @@
       "dica_prova": "Não confunda os três conceitos: metadados descrevem o dado; catálogo organiza e torna localizável; linhagem rastreia o fluxo de origem a destino. Cebraspe pode trocar as definições. Outra pegadinha: associar análise de impacto à qualidade de dados em vez de à linhagem. Lembre que data owner e data steward são papéis distintos de governança."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "qualidade-de-dados",
       "titulo": "Qualidade de dados",
       "intro": "Qualidade de dados é o grau em que os dados atendem às necessidades de uso, sendo confiáveis, completos, consistentes e adequados à decisão. Dados de baixa qualidade — duplicados, incompletos, inconsistentes ou desatualizados — comprometem análises, relatórios e a própria credibilidade das decisões de gestão e fiscalização (\"garbage in, garbage out\").\n\nA gestão de qualidade envolve definir dimensões mensuráveis, validar dados contra regras, tratar inconsistências (limpeza/cleansing), eliminar duplicidades (deduplicação) e monitorar continuamente por meio de métricas e regras automatizadas dentro dos pipelines. É um pilar da governança de dados e tema recorrente em auditorias de TI.",
       "secoes": [
@@ -180,8 +175,7 @@
       "dica_prova": "Cebraspe testa o pareamento dimensão-definição: não confunda completude (faltantes) com acurácia (reflete a realidade) nem unicidade (duplicatas) com consistência (contradições entre fontes). Deduplicação cai associada a unicidade e a fuzzy matching/record linkage. Cuidado: validação/conformidade verifica regras e formatos, não a veracidade factual (isso é acurácia, que depende de fonte de verdade externa)."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "servicos-gerenciados-azure-data-factory-databricks",
       "titulo": "Serviços gerenciados (Azure Data Factory, Databricks)",
       "intro": "Serviços gerenciados (managed services) em nuvem entregam capacidades de engenharia de dados — orquestração, integração e processamento — sem que a organização precise provisionar e administrar a infraestrutura subjacente. O provedor cuida de servidores, escalabilidade, patches e alta disponibilidade; o cliente foca na lógica de dados. Isso acelera entregas e reduz o esforço operacional (modelo PaaS).\n\nDois serviços muito presentes em provas de TI são o Azure Data Factory (ADF), serviço de orquestração e integração de dados (ETL/ELT) da Microsoft Azure, e o Databricks, plataforma de análise unificada baseada em Apache Spark, disponível nas principais nuvens. Eles frequentemente atuam de forma complementar: o ADF orquestra e move dados; o Databricks processa e transforma em grande escala.",
       "secoes": [
@@ -216,8 +210,7 @@
       "dica_prova": "Não inverta os papéis: ADF orquestra/integra, Databricks processa (Spark). Cebraspe pode dizer que o Databricks é um banco de dados (não é — é plataforma de processamento) ou que o Delta Lake é um banco relacional (é camada de armazenamento transacional sobre o data lake). Lembre do modelo de responsabilidade compartilhada: usar serviço gerenciado não transfere ao provedor a responsabilidade pela configuração de acesso e proteção dos dados."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "armazenamento-em-nuvem-e-ia",
       "titulo": "Armazenamento em nuvem e IA",
       "intro": "O armazenamento de objetos em nuvem é a fundação dos Data Lakes e das arquiteturas de dados modernas. Serviços como Amazon S3 (AWS), Azure Blob Storage (Microsoft) e Google Cloud Storage (GCS) oferecem armazenamento praticamente ilimitado, durável, escalável e de baixo custo para dados estruturados, semiestruturados e não estruturados, com cobrança por uso.\n\nSobre essa base de armazenamento integram-se serviços de inteligência artificial e análise: os dados acumulados alimentam plataformas de machine learning e serviços de IA gerenciada (visão computacional, processamento de linguagem natural, IA generativa), formando o ciclo dado → modelo → insight que caracteriza as arquiteturas analíticas em nuvem.",
       "secoes": [

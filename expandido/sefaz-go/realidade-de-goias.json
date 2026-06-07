@@ -2,8 +2,7 @@
   "slug": "realidade-de-goias",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "ciclo-do-ouro-e-decadencia",
       "titulo": "Ciclo do ouro e decadência",
       "intro": "A ocupação efetiva do território que hoje corresponde a Goiás está umbilicalmente ligada à descoberta de ouro no início do século XVIII. Antes disso, o sertão central era percorrido apenas esporadicamente por bandeiras de apresamento indígena (caça a escravos) e por entradas oficiais que buscavam metais preciosos. Foi a bandeira de Bartolomeu Bueno da Silva, o Anhanguera Filho, que em 1722-1725 reencontrou os veios auríferos da região, dando início ao chamado ciclo do ouro goiano.\n\nO ouro de aluvião encontrado nos rios e córregos atraiu rápida corrente migratória vinda de São Paulo, Minas Gerais e do Nordeste, fazendo surgir dezenas de arraiais mineradores. Esse povoamento foi, contudo, efêmero e desigual: dependia exclusivamente da abundância do metal. Quando as jazidas mais acessíveis se esgotaram, por volta da segunda metade do século XVIII, instalou-se uma longa fase de decadência e isolamento econômico que marcou Goiás por mais de um século, redirecionando a economia para a pecuária extensiva e a agricultura de subsistência.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "Cuidado com a pegadinha que troca 'bandeiras' por 'entradas' ou que atribui a ocupação à cana/café. Memorize a data-âncora 1722-1725 e o nome Anhanguera Filho. Outra pegadinha comum: afirmar que Goiás sempre foi capitania autônoma desde o início da mineração; na verdade só se emancipou de São Paulo em 1748. Associe sempre a decadência aurífera ao isolamento que preservou a cultura interiorana e originou comunidades quilombolas."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "cerrado-e-recursos-naturais",
       "titulo": "Cerrado e recursos naturais",
       "intro": "Goiás situa-se na região Centro-Oeste do Brasil e tem como bioma predominante o Cerrado, considerado a savana mais biodiversa do mundo e o segundo maior bioma brasileiro, atrás apenas da Amazônia. O Cerrado é frequentemente chamado de 'berço das águas' ou 'caixa d'água do Brasil', pois nele nascem rios que abastecem grandes bacias hidrográficas nacionais.\n\nO relevo goiano é dominado por planaltos e chapadas, com altitudes que favorecem a recarga de aquíferos e o surgimento de nascentes. O clima é o tropical de savana (Aw na classificação de Köppen), marcado por duas estações bem definidas: uma seca (inverno, com baixa umidade) e outra chuvosa (verão). Essa combinação de relevo aplainado, clima sazonal e solos passíveis de correção tornou o Cerrado goiano uma das principais fronteiras agrícolas do país, o que gera tensão permanente entre expansão produtiva e conservação ambiental.",
       "secoes": [
@@ -73,8 +71,7 @@
       "dica_prova": "As pegadinhas mais comuns: dizer que os solos do Cerrado são naturalmente férteis (são pobres, exigem correção) e dizer que Goiás pertence a uma só bacia (é dispersor de águas de três). Memorize Köppen Aw e a função da Embrapa na viabilização agrícola. Não confunda Cerrado (savana) com Pantanal ou Caatinga. Lembre que a Chapada dos Veadeiros é Patrimônio Natural da Humanidade (UNESCO) — diferente da Cidade de Goiás, que é Patrimônio Cultural."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "patrimonio-e-identidade",
       "titulo": "Patrimônio e identidade",
       "intro": "A sociedade goiana é fruto de intensa miscigenação e diversidade étnica, resultado do encontro entre povos indígenas originários, africanos escravizados trazidos para a mineração, colonizadores portugueses e, no século XX, levas de migrantes de várias regiões do Brasil atraídos pela fronteira agrícola e pela construção de Goiânia e Brasília. Dessa mescla nasceu uma identidade cultural rica, expressa em festas religiosas, culinária, música sertaneja e em um valioso patrimônio histórico colonial.\n\nDois marcos sintetizam essa identidade: a Cidade de Goiás (antiga Vila Boa), inscrita em 2001 na lista de Patrimônio Cultural da Humanidade pela UNESCO em razão de seu conjunto arquitetônico colonial preservado, e Pirenópolis, com suas festas tradicionais centenárias. Convivem ainda comunidades quilombolas, como os Kalunga, e diversos povos indígenas, que mantêm vivas formas próprias de organização social e cultural.",
       "secoes": [
@@ -109,8 +106,7 @@
       "dica_prova": "A pegadinha clássica troca 'Patrimônio Cultural' por 'Patrimônio Natural' ao falar da Cidade de Goiás, ou inverte com a Chapada dos Veadeiros. Memorize: Cidade de Goiás (cultural, 2001) x Chapada dos Veadeiros (natural). Não confunda Kalunga (quilombola/afrodescendente) com povo indígena. Lembre que a antiga capital era a Cidade de Goiás até 1937. Cavalhadas pertencem a Pirenópolis; Fogaréu, à Cidade de Goiás."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "goiania-e-brasilia",
       "titulo": "Goiânia e Brasília",
       "intro": "O século XX rompeu o longo isolamento de Goiás por meio de dois projetos urbanísticos de grande envergadura: a construção de Goiânia, nova capital planejada do estado, na década de 1930, e a edificação de Brasília, nova capital federal, no final da década de 1950. Ambas representaram a materialização da ideia de modernização e de interiorização do desenvolvimento nacional, a chamada Marcha para o Oeste.\n\nA transferência da capital estadual da histórica Cidade de Goiás para a recém-criada Goiânia simbolizou a ruptura com o passado colonial estagnado e a aposta no progresso, na racionalidade urbana e na integração econômica. Pouco depois, a construção de Brasília no território goiano (área desmembrada para formar o Distrito Federal) colocou o estado no centro geográfico das decisões nacionais, acelerando a urbanização, a chegada de infraestrutura e o adensamento populacional do Planalto Central.",
       "secoes": [
@@ -144,8 +140,7 @@
       "dica_prova": "As pegadinhas mais cobradas: (1) inverter Lúcio Costa (urbanismo/Plano Piloto) com Oscar Niemeyer (arquitetura); (2) dizer que Goiânia sempre foi a capital, ignorando a Cidade de Goiás; (3) confundir as datas — Goiânia (fundação 1933, capital 1937) e Brasília (1960). Lembre o nome Pedro Ludovico Teixeira para Goiânia e JK para Brasília. Note que o DF não integra o estado de Goiás juridicamente, mas o Entorno goiano depende funcionalmente de Brasília (RIDE)."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "agronegocio-e-industria",
       "titulo": "Agronegócio e indústria",
       "intro": "A economia contemporânea de Goiás é uma das mais dinâmicas do Centro-Oeste, ancorada num agronegócio pujante, em agroindústrias modernas, na mineração, na geração de energia e em um setor de serviços em expansão. O estado figura entre os maiores produtores nacionais de grãos (soja e milho), cana-de-açúcar e proteína animal (bovinos, aves e suínos), além de liderar em derivados como etanol e carnes.\n\nEssa estrutura produtiva tem implicações fiscais diretas, tema central para o Auditor-Fiscal: o ICMS sobre a circulação de mercadorias (grãos, combustíveis, energia, agroindustriais) é a principal fonte de receita própria do estado. Goiás também se notabilizou por políticas de incentivos fiscais (como o FOMENTAR e o PRODUZIR) para atrair indústrias, política que entrou em debate nacional no contexto da guerra fiscal e, mais recentemente, da reforma tributária do consumo (EC 132/2023).",
       "secoes": [

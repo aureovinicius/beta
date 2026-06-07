@@ -2,11 +2,9 @@
   "slug": "contabilidade-avancada-custos",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "metodo-de-equivalencia-patrimonial",
       "titulo": "Método de equivalência patrimonial",
-      "intro": "O método de equivalência patrimonial (MEP) é a técnica contábil pela qual uma sociedade investidora reconhece, em suas próprias demonstrações, a parcela que lhe cabe nas variações do patrimônio líquido (PL) das sociedades em que investe. Em vez de manter o investimento registrado pelo custo histórico, a investidora o atualiza periodicamente: se a investida lucra, o investimento aumenta; se tem prejuízo, diminui.\n\nO MEP traduz o princípio do regime de competência aplicado a participações societárias relevantes: presume-se que a investidora exerce influência sobre as decisões da investida e, portanto, deve refletir o desempenho econômico desta no momento em que ocorre, e não apenas quando recebe dividendos. No Brasil, o MEP está disciplinado na Lei 6.404/76 (arts. 248), na Lei 12.973/14 (efeitos fiscais) e no Pronunciamento CPC 18 (R2) — Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto.\n\nÉ tema de altíssima incidência em provas de Auditor-Fiscal, tanto na parte conceitual (quando aplicar o MEP) quanto na parte de cálculo (efeito do lucro, do prejuízo e dos dividendos sobre o saldo do investimento)."
-      ,
+      "intro": "O método de equivalência patrimonial (MEP) é a técnica contábil pela qual uma sociedade investidora reconhece, em suas próprias demonstrações, a parcela que lhe cabe nas variações do patrimônio líquido (PL) das sociedades em que investe. Em vez de manter o investimento registrado pelo custo histórico, a investidora o atualiza periodicamente: se a investida lucra, o investimento aumenta; se tem prejuízo, diminui.\n\nO MEP traduz o princípio do regime de competência aplicado a participações societárias relevantes: presume-se que a investidora exerce influência sobre as decisões da investida e, portanto, deve refletir o desempenho econômico desta no momento em que ocorre, e não apenas quando recebe dividendos. No Brasil, o MEP está disciplinado na Lei 6.404/76 (arts. 248), na Lei 12.973/14 (efeitos fiscais) e no Pronunciamento CPC 18 (R2) — Investimento em Coligada, em Controlada e em Empreendimento Controlado em Conjunto.\n\nÉ tema de altíssima incidência em provas de Auditor-Fiscal, tanto na parte conceitual (quando aplicar o MEP) quanto na parte de cálculo (efeito do lucro, do prejuízo e dos dividendos sobre o saldo do investimento).",
       "secoes": [
         {
           "h": "Quando o MEP é obrigatório",
@@ -38,11 +36,9 @@
       "dica_prova": "A pegadinha número 1 é tratar dividendo recebido como receita — ele apenas reduz o investimento. A número 2 é confundir os percentuais: o MEP usa o capital VOTANTE para presumir influência, mas a participação no lucro segue o percentual de capital total detido. Também é comum a banca cobrar que o resultado positivo de equivalência seja EXCLUÍDO da base do IRPJ. Memorize: lucro sobe o investimento, prejuízo desce, dividendo desce."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "goodwill-e-mais-menos-valia",
       "titulo": "Goodwill e mais/menos-valia",
-      "intro": "Quando uma entidade adquire o controle de um negócio, raramente o preço pago coincide com o valor patrimonial contábil dos ativos líquidos adquiridos. A diferença precisa ser decomposta e contabilizada corretamente. O método de aquisição (CPC 15 — Combinação de Negócios / IFRS 3) exige que o adquirente mensure os ativos identificáveis adquiridos e os passivos assumidos pelo seu VALOR JUSTO na data da aquisição.\n\nDessa mensuração surgem três conceitos centrais: a mais-valia (ou menos-valia) de ativos líquidos — diferença entre o valor justo e o valor contábil dos ativos/passivos identificáveis — e o goodwill (ágio por expectativa de rentabilidade futura) — o resíduo do preço que não se atribui a ativos identificáveis. Se o resíduo for negativo, há compra vantajosa (ganho no resultado).\n\nÉ um dos temas mais cobrados em contabilidade avançada para concursos fiscais, porque combina mensuração a valor justo, alocação do preço de compra (PPA — purchase price allocation) e o tratamento subsequente de impairment do goodwill."
-      ,
+      "intro": "Quando uma entidade adquire o controle de um negócio, raramente o preço pago coincide com o valor patrimonial contábil dos ativos líquidos adquiridos. A diferença precisa ser decomposta e contabilizada corretamente. O método de aquisição (CPC 15 — Combinação de Negócios / IFRS 3) exige que o adquirente mensure os ativos identificáveis adquiridos e os passivos assumidos pelo seu VALOR JUSTO na data da aquisição.\n\nDessa mensuração surgem três conceitos centrais: a mais-valia (ou menos-valia) de ativos líquidos — diferença entre o valor justo e o valor contábil dos ativos/passivos identificáveis — e o goodwill (ágio por expectativa de rentabilidade futura) — o resíduo do preço que não se atribui a ativos identificáveis. Se o resíduo for negativo, há compra vantajosa (ganho no resultado).\n\nÉ um dos temas mais cobrados em contabilidade avançada para concursos fiscais, porque combina mensuração a valor justo, alocação do preço de compra (PPA — purchase price allocation) e o tratamento subsequente de impairment do goodwill.",
       "secoes": [
         {
           "h": "Decomposição do preço pago",
@@ -74,11 +70,9 @@
       "dica_prova": "A pegadinha clássica é afirmar que o goodwill é amortizado contabilmente — ERRADO na contabilidade societária (só por impairment); a amortização em 1/60 é regra FISCAL. Outra: confundir o sentido da compra vantajosa — quando o preço é menor que o valor justo dos ativos líquidos, há GANHO no resultado, não goodwill. Lembre que a mensuração é sempre a valor JUSTO dos identificáveis, nunca pelo valor contábil."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "consolidacao",
       "titulo": "Consolidação",
-      "intro": "A consolidação das demonstrações contábeis é o processo pelo qual as demonstrações da controladora e de suas controladas são combinadas e apresentadas como se fossem de uma única entidade econômica. A lógica subjacente é a teoria da entidade: para o usuário externo, o grupo econômico (controladora + controladas) funciona como um só negócio, independentemente das fronteiras jurídicas entre as sociedades.\n\nConsolidar não é somar cegamente. É somar linha a linha ativos, passivos, receitas e despesas e, em seguida, ELIMINAR os efeitos das operações internas (intragrupo): participações societárias, saldos a pagar/receber recíprocos, vendas e compras entre as empresas e lucros não realizados embutidos em estoques e imobilizados. Sem essas eliminações, o grupo apareceria 'inflado' por negócios que, sob a ótica da entidade única, não passam de transferências internas.\n\nA matéria é regida pela Lei 6.404/76 (arts. 249 e 250), pelo CPC 36 (R3) — Demonstrações Consolidadas (IFRS 10) e tem peso relevante em provas de contabilidade avançada para auditoria fiscal."
-      ,
+      "intro": "A consolidação das demonstrações contábeis é o processo pelo qual as demonstrações da controladora e de suas controladas são combinadas e apresentadas como se fossem de uma única entidade econômica. A lógica subjacente é a teoria da entidade: para o usuário externo, o grupo econômico (controladora + controladas) funciona como um só negócio, independentemente das fronteiras jurídicas entre as sociedades.\n\nConsolidar não é somar cegamente. É somar linha a linha ativos, passivos, receitas e despesas e, em seguida, ELIMINAR os efeitos das operações internas (intragrupo): participações societárias, saldos a pagar/receber recíprocos, vendas e compras entre as empresas e lucros não realizados embutidos em estoques e imobilizados. Sem essas eliminações, o grupo apareceria 'inflado' por negócios que, sob a ótica da entidade única, não passam de transferências internas.\n\nA matéria é regida pela Lei 6.404/76 (arts. 249 e 250), pelo CPC 36 (R3) — Demonstrações Consolidadas (IFRS 10) e tem peso relevante em provas de contabilidade avançada para auditoria fiscal.",
       "secoes": [
         {
           "h": "Quem consolida e o conceito de controle",
@@ -110,11 +104,9 @@
       "dica_prova": "Pegadinhas frequentes: (1) afirmar que coligadas são consolidadas — não são, vão por MEP; (2) colocar a participação de não controladores no PASSIVO — ela fica no PL consolidado; (3) consolidar apenas a parcela proporcional da controlada (ex.: só 80%) — na consolidação integral somam-se 100% das contas, destacando depois a parte dos minoritários. Memorize que o lucro não realizado a eliminar é o que está RETIDO no estoque do grupo, não o total vendido."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "tributos-diferidos",
       "titulo": "Tributos diferidos",
-      "intro": "Os tributos diferidos surgem do descompasso entre o lucro contábil (apurado segundo as normas contábeis) e o lucro fiscal (base de cálculo do IRPJ e da CSLL). Esse descompasso decorre de diferenças no momento em que receitas e despesas são reconhecidas para fins contábeis e para fins fiscais. Quando essas diferenças são TEMPORÁRIAS — ou seja, vão se reverter no futuro — geram ativos e passivos fiscais diferidos.\n\nA ideia central é o regime de competência aplicado aos tributos sobre o lucro: se um custo será dedutível no futuro, mas já reduziu o lucro contábil agora, há um benefício fiscal futuro a reconhecer (ativo fiscal diferido); se uma receita já aumentou o lucro contábil mas só será tributada depois, há uma obrigação fiscal futura (passivo fiscal diferido). O objetivo é casar, no resultado, a despesa de tributos com o lucro contábil que a originou.\n\nA matéria é regida pelo CPC 32 — Tributos sobre o Lucro (IAS 12) e tem grande relevância para o Auditor-Fiscal, que precisa entender o cruzamento entre escrituração contábil e apuração fiscal (LALUR/e-Lalur, Lei 12.973/14)."
-      ,
+      "intro": "Os tributos diferidos surgem do descompasso entre o lucro contábil (apurado segundo as normas contábeis) e o lucro fiscal (base de cálculo do IRPJ e da CSLL). Esse descompasso decorre de diferenças no momento em que receitas e despesas são reconhecidas para fins contábeis e para fins fiscais. Quando essas diferenças são TEMPORÁRIAS — ou seja, vão se reverter no futuro — geram ativos e passivos fiscais diferidos.\n\nA ideia central é o regime de competência aplicado aos tributos sobre o lucro: se um custo será dedutível no futuro, mas já reduziu o lucro contábil agora, há um benefício fiscal futuro a reconhecer (ativo fiscal diferido); se uma receita já aumentou o lucro contábil mas só será tributada depois, há uma obrigação fiscal futura (passivo fiscal diferido). O objetivo é casar, no resultado, a despesa de tributos com o lucro contábil que a originou.\n\nA matéria é regida pelo CPC 32 — Tributos sobre o Lucro (IAS 12) e tem grande relevância para o Auditor-Fiscal, que precisa entender o cruzamento entre escrituração contábil e apuração fiscal (LALUR/e-Lalur, Lei 12.973/14).",
       "secoes": [
         {
           "h": "Diferenças temporárias x permanentes",
@@ -146,11 +138,9 @@
       "dica_prova": "As bancas adoram trocar os sentidos: diferença DEDUTÍVEL gera ATIVO; diferença TRIBUTÁVEL gera PASSIVO. Memorize 'dedutível = direito (ativo)' e 'tributável = obrigação (passivo)'. Outra pegadinha: afirmar que diferença permanente gera diferido — não gera. E cuidado com o reconhecimento assimétrico: o passivo diferido é sempre reconhecido, mas o ativo depende da probabilidade de lucros futuros."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "terminologia",
       "titulo": "Terminologia",
-      "intro": "A contabilidade de custos começa pela precisão vocabular. Termos que no uso cotidiano são sinônimos — gasto, custo, despesa, investimento, perda, desembolso — têm significados técnicos distintos e mutuamente excludentes na contabilidade. Errar a terminologia leva a classificar incorretamente os elementos e, em prova, é fonte garantida de pegadinhas.\n\nO conceito-guarda-chuva é o GASTO: todo sacrifício financeiro que a entidade arca para obter um bem ou serviço, representado por entrega ou promessa de entrega de ativos. A partir do gasto, conforme a destinação do bem/serviço adquirido, o valor se desdobra em investimento, custo, despesa ou perda. O desembolso, por sua vez, é apenas o pagamento (saída de caixa), que pode ocorrer antes, durante ou depois do gasto.\n\nEsta seção também introduz a classificação dos custos quanto à forma de apropriação: diretos (apropriáveis diretamente ao produto) e indiretos (que exigem rateio — os CIF). Tema básico, porém de alta frequência e excelente custo-benefício para o concurseiro."
-      ,
+      "intro": "A contabilidade de custos começa pela precisão vocabular. Termos que no uso cotidiano são sinônimos — gasto, custo, despesa, investimento, perda, desembolso — têm significados técnicos distintos e mutuamente excludentes na contabilidade. Errar a terminologia leva a classificar incorretamente os elementos e, em prova, é fonte garantida de pegadinhas.\n\nO conceito-guarda-chuva é o GASTO: todo sacrifício financeiro que a entidade arca para obter um bem ou serviço, representado por entrega ou promessa de entrega de ativos. A partir do gasto, conforme a destinação do bem/serviço adquirido, o valor se desdobra em investimento, custo, despesa ou perda. O desembolso, por sua vez, é apenas o pagamento (saída de caixa), que pode ocorrer antes, durante ou depois do gasto.\n\nEsta seção também introduz a classificação dos custos quanto à forma de apropriação: diretos (apropriáveis diretamente ao produto) e indiretos (que exigem rateio — os CIF). Tema básico, porém de alta frequência e excelente custo-benefício para o concurseiro.",
       "secoes": [
         {
           "h": "Os termos fundamentais",
@@ -182,11 +172,9 @@
       "dica_prova": "A pegadinha-mãe é misturar custo e despesa: tudo que é da FÁBRICA é custo; o que é de administração/vendas é despesa. Cuidado com 'desembolso' apresentado como sinônimo de gasto — desembolso é só o pagamento. Outra clássica: classificar perda anormal (incêndio) como custo do produto — ela é perda/despesa do período. E lembre: comprar máquina é INVESTIMENTO, não custo; o custo vem depois, pela depreciação."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "fixos-e-variaveis",
       "titulo": "Fixos e variáveis",
-      "intro": "A classificação dos custos em fixos e variáveis adota como critério a relação entre o custo e o VOLUME de produção (ou de atividade). É a base de toda a análise gerencial de custos, especialmente da análise custo-volume-lucro, da margem de contribuição e do ponto de equilíbrio.\n\nCustos VARIÁVEIS são aqueles cujo total oscila proporcionalmente ao volume produzido: quanto mais se produz, maior o custo total; se a produção é zero, o custo variável total é zero. Custos FIXOS, ao contrário, mantêm-se constantes em seu total dentro de certo intervalo de produção (capacidade instalada), independentemente de quanto se produz — existem mesmo que a produção seja nula.\n\nUma sutileza crucial e muito cobrada: a classificação fixo/variável refere-se ao comportamento do custo TOTAL. Quando se olha o custo UNITÁRIO, o comportamento se inverte — o custo variável unitário tende a ser constante, e o custo fixo unitário diminui à medida que a produção aumenta (diluição do fixo)."
-      ,
+      "intro": "A classificação dos custos em fixos e variáveis adota como critério a relação entre o custo e o VOLUME de produção (ou de atividade). É a base de toda a análise gerencial de custos, especialmente da análise custo-volume-lucro, da margem de contribuição e do ponto de equilíbrio.\n\nCustos VARIÁVEIS são aqueles cujo total oscila proporcionalmente ao volume produzido: quanto mais se produz, maior o custo total; se a produção é zero, o custo variável total é zero. Custos FIXOS, ao contrário, mantêm-se constantes em seu total dentro de certo intervalo de produção (capacidade instalada), independentemente de quanto se produz — existem mesmo que a produção seja nula.\n\nUma sutileza crucial e muito cobrada: a classificação fixo/variável refere-se ao comportamento do custo TOTAL. Quando se olha o custo UNITÁRIO, o comportamento se inverte — o custo variável unitário tende a ser constante, e o custo fixo unitário diminui à medida que a produção aumenta (diluição do fixo).",
       "secoes": [
         {
           "h": "Custos variáveis",
@@ -218,11 +206,9 @@
       "dica_prova": "A pegadinha clássica é a inversão unitário x total: o custo FIXO UNITÁRIO diminui com o aumento da produção (não o total), e o VARIÁVEL UNITÁRIO é constante (o que varia é o total). Memorize a tabela mental: fixo -> total constante, unitário cai; variável -> total varia, unitário constante. Não confunda fixo/variável (volume) com direto/indireto (apropriação): aluguel da fábrica é fixo e indireto; matéria-prima é variável e direta."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "absorcao-x-variavel",
       "titulo": "Absorção x variável",
-      "intro": "Custeio é a forma de apropriar custos aos produtos. Os dois métodos mais cobrados são o custeio por ABSORÇÃO e o custeio VARIÁVEL (também chamado direto), que diferem fundamentalmente no tratamento dado aos CUSTOS FIXOS de produção.\n\nNo custeio por ABSORÇÃO, todos os custos de produção — fixos e variáveis, diretos e indiretos — são apropriados aos produtos. Os produtos 'absorvem' os custos fixos, que só viram resultado quando os produtos são vendidos (até lá ficam no estoque). É o método exigido pela legislação societária (Lei 6.404/76) e fiscal (RIR) para fins de balanço e apuração de tributos.\n\nNo custeio VARIÁVEL, apenas os custos VARIÁVEIS de produção integram os produtos; os custos FIXOS são tratados como despesa do período, indo integralmente para o resultado, independentemente de venda. É um método GERENCIAL (não aceito para balanço/fisco) que tem a vantagem de isolar a margem de contribuição e evitar distorções do rateio dos custos fixos."
-      ,
+      "intro": "Custeio é a forma de apropriar custos aos produtos. Os dois métodos mais cobrados são o custeio por ABSORÇÃO e o custeio VARIÁVEL (também chamado direto), que diferem fundamentalmente no tratamento dado aos CUSTOS FIXOS de produção.\n\nNo custeio por ABSORÇÃO, todos os custos de produção — fixos e variáveis, diretos e indiretos — são apropriados aos produtos. Os produtos 'absorvem' os custos fixos, que só viram resultado quando os produtos são vendidos (até lá ficam no estoque). É o método exigido pela legislação societária (Lei 6.404/76) e fiscal (RIR) para fins de balanço e apuração de tributos.\n\nNo custeio VARIÁVEL, apenas os custos VARIÁVEIS de produção integram os produtos; os custos FIXOS são tratados como despesa do período, indo integralmente para o resultado, independentemente de venda. É um método GERENCIAL (não aceito para balanço/fisco) que tem a vantagem de isolar a margem de contribuição e evitar distorções do rateio dos custos fixos.",
       "secoes": [
         {
           "h": "Custeio por absorção",
@@ -254,11 +240,9 @@
       "dica_prova": "Decore a regra dos estoques: quando a produção SUPERA as vendas, o ABSORÇÃO mostra lucro MAIOR (estoca custo fixo); quando as vendas superam a produção, o variável é maior. A pegadinha mais comum é afirmar que o custeio variável é aceito pela legislação fiscal — NÃO é, é apenas gerencial. Outra: dizer que no absorção as despesas administrativas entram no custo do produto — não entram, só os custos de PRODUÇÃO entram."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "custeio-abc",
       "titulo": "Custeio ABC",
-      "intro": "O custeio baseado em atividades (Activity-Based Costing — ABC) é um método de apropriação de custos indiretos que busca reduzir as distorções provocadas pelo rateio arbitrário típico do custeio por absorção tradicional. Em vez de ratear os custos indiretos diretamente aos produtos por uma base única e simplista (como horas de mão de obra ou volume), o ABC reconhece que são as ATIVIDADES que consomem recursos, e os produtos que consomem atividades.\n\nO ABC parte de uma premissa: em ambientes produtivos modernos, os custos indiretos cresceram muito (automação, qualidade, logística, engenharia, set-ups) e nem sempre se relacionam ao volume produzido. Ratear esses custos por bases ligadas a volume penaliza produtos de grande escala e subcusteia produtos de pequena escala mas alta complexidade — gerando decisões erradas de preço e mix.\n\nO método se desenvolve em dois estágios: primeiro, os recursos (custos indiretos) são alocados às atividades; depois, as atividades são alocadas aos produtos por meio de DIRECIONADORES DE CUSTO (cost drivers). É tema cada vez mais presente em provas de contabilidade gerencial para concursos fiscais."
-      ,
+      "intro": "O custeio baseado em atividades (Activity-Based Costing — ABC) é um método de apropriação de custos indiretos que busca reduzir as distorções provocadas pelo rateio arbitrário típico do custeio por absorção tradicional. Em vez de ratear os custos indiretos diretamente aos produtos por uma base única e simplista (como horas de mão de obra ou volume), o ABC reconhece que são as ATIVIDADES que consomem recursos, e os produtos que consomem atividades.\n\nO ABC parte de uma premissa: em ambientes produtivos modernos, os custos indiretos cresceram muito (automação, qualidade, logística, engenharia, set-ups) e nem sempre se relacionam ao volume produzido. Ratear esses custos por bases ligadas a volume penaliza produtos de grande escala e subcusteia produtos de pequena escala mas alta complexidade — gerando decisões erradas de preço e mix.\n\nO método se desenvolve em dois estágios: primeiro, os recursos (custos indiretos) são alocados às atividades; depois, as atividades são alocadas aos produtos por meio de DIRECIONADORES DE CUSTO (cost drivers). É tema cada vez mais presente em provas de contabilidade gerencial para concursos fiscais.",
       "secoes": [
         {
           "h": "Lógica e etapas do ABC",
@@ -290,11 +274,9 @@
       "dica_prova": "Memorize a frase-chave: 'produtos consomem atividades, atividades consomem recursos'. A pegadinha mais comum é trocar os direcionadores: direcionador de RECURSOS é da 1ª fase (recursos -> atividades); direcionador de ATIVIDADE é da 2ª fase (atividades -> produtos). Cuidado também em afirmar que o ABC serve para fins fiscais — não serve, é gerencial. E lembre: o ABC se justifica quando os custos INDIRETOS são relevantes e os produtos, diversos."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "ponto-de-equilibrio",
       "titulo": "Ponto de equilíbrio",
-      "intro": "O ponto de equilíbrio (break-even point) é o nível de atividade (volume de vendas em unidades ou em valor) no qual a empresa não tem lucro nem prejuízo: a receita total iguala-se à soma de todos os custos e despesas. Abaixo desse ponto, há prejuízo; acima dele, lucro. É o cálculo central da análise custo-volume-lucro (CVL) e instrumento essencial para decisões de preço, metas de venda e viabilidade.\n\nA ferramenta que viabiliza o cálculo é a MARGEM DE CONTRIBUIÇÃO (MC): a diferença entre o preço de venda e os custos e despesas variáveis. Cada unidade vendida 'contribui' com sua margem para, primeiro, cobrir os custos fixos e, depois de cobertos, formar o lucro. O ponto de equilíbrio é exatamente o volume em que a soma das margens de contribuição cobre integralmente os custos fixos.\n\nExistem três variantes muito cobradas: ponto de equilíbrio CONTÁBIL, ECONÔMICO e FINANCEIRO. A distinção entre elas — especialmente o ajuste pela depreciação no financeiro e pela remuneração do capital no econômico — é uma fonte recorrente de questões em provas fiscais."
-      ,
+      "intro": "O ponto de equilíbrio (break-even point) é o nível de atividade (volume de vendas em unidades ou em valor) no qual a empresa não tem lucro nem prejuízo: a receita total iguala-se à soma de todos os custos e despesas. Abaixo desse ponto, há prejuízo; acima dele, lucro. É o cálculo central da análise custo-volume-lucro (CVL) e instrumento essencial para decisões de preço, metas de venda e viabilidade.\n\nA ferramenta que viabiliza o cálculo é a MARGEM DE CONTRIBUIÇÃO (MC): a diferença entre o preço de venda e os custos e despesas variáveis. Cada unidade vendida 'contribui' com sua margem para, primeiro, cobrir os custos fixos e, depois de cobertos, formar o lucro. O ponto de equilíbrio é exatamente o volume em que a soma das margens de contribuição cobre integralmente os custos fixos.\n\nExistem três variantes muito cobradas: ponto de equilíbrio CONTÁBIL, ECONÔMICO e FINANCEIRO. A distinção entre elas — especialmente o ajuste pela depreciação no financeiro e pela remuneração do capital no econômico — é uma fonte recorrente de questões em provas fiscais.",
       "secoes": [
         {
           "h": "Margem de contribuição: a base do cálculo",

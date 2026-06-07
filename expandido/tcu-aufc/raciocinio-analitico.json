@@ -2,8 +2,7 @@
   "slug": "raciocinio-analitico",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "senso-critico-na-argumentacao",
       "titulo": "Senso crítico na argumentação",
       "intro": "Senso crítico é a disposição e a habilidade de avaliar afirmações, argumentos e evidências de forma reflexiva, em vez de aceitá-los passivamente. Em raciocínio analítico, ele se traduz em perguntar sistematicamente: o que está sendo afirmado? Quais são as premissas (ditas e não ditas)? Que evidências sustentam a conclusão? O raciocínio é válido e as premissas são verdadeiras? Há fontes confiáveis e interesses em jogo?\n\nPara o cargo de AUFC do TCU, o senso crítico não é um exercício abstrato: é a competência central de quem audita. Avaliar a razoabilidade de uma justificativa de gestor, a consistência de uma prova de auditoria, a força de um indício ou a aderência de um achado às evidências coletadas são, em essência, atos de pensamento crítico aplicado. A banca Cebraspe costura esse tema com lógica, interpretação de texto e ética, cobrando a capacidade de separar fato de opinião, evidência de mera alegação e raciocínio sólido de retórica vazia.\n\nO senso crítico bem exercido distingue três planos que frequentemente se misturam: a veracidade das premissas (são fatos confirmados?), a validade da inferência (a conclusão decorre logicamente das premissas?) e a relevância das evidências (elas de fato sustentam o ponto?). Um argumento pode falhar em qualquer um deles, e cabe ao analista identificar exatamente onde.",
       "secoes": [
@@ -37,8 +36,7 @@
       "dica_prova": "A Cebraspe adora itens que embutem o advérbio 'necessariamente', 'sempre', 'com certeza' em conclusões indutivas — quase sempre ERRADO. Outra pegadinha frequente: confundir verdade das premissas com validade do argumento (um argumento pode ser válido com premissas falsas, e inválido com premissas verdadeiras). Atenção também à confusão entre correlação e causalidade e à inversão do ônus da prova. Itens que pedem para classificar uma frase como fato x opinião x inferência são recorrentes."
     },
     {
-      "ti": 0,
-      "si": 2,
+      "sid": "argumentos-falaciosos-e-apelativos",
       "titulo": "Argumentos falaciosos e apelativos",
       "intro": "Falácia é um argumento que parece convincente, mas contém um erro de raciocínio que invalida ou enfraquece a passagem das premissas à conclusão. Distinguem-se duas grandes famílias: as falácias formais, em que o defeito está na estrutura lógica (a forma do argumento é inválida), e as falácias informais, em que a forma pode parecer aceitável, mas há um problema de conteúdo, relevância, ambiguidade ou pressuposição.\n\nPara o concurso do TCU/AUFC, o domínio de falácias é decisivo: o auditor precisa identificar quando uma justificativa de gestor, uma defesa em processo de contas ou um argumento técnico é apenas retórica falaciosa. Reconhecer apelos à emoção, à autoridade, ataques pessoais e generalizações apressadas permite separar o argumento legítimo da manipulação. A Cebraspe cobra tanto a nomeação correta da falácia quanto a capacidade de reconhecê-la em um texto.\n\nUm ponto essencial: que um argumento seja falacioso não significa que sua conclusão seja falsa. A falácia compromete o raciocínio, não necessariamente o fato. Um ataque ad hominem contra um cientista não torna sua tese falsa — apenas mostra que aquele argumento específico não serve para refutá-la. Confundir 'argumento ruim' com 'conclusão falsa' é, em si, um erro de raciocínio.",
       "secoes": [
@@ -72,8 +70,7 @@
       "dica_prova": "A Cebraspe cobra principalmente reconhecer e nomear a falácia em um trecho de texto. Decore que afirmar o consequente e negar o antecedente são INVÁLIDAS, enquanto modus ponens/tollens são VÁLIDOS — é pegadinha clássica. Cuidado com a armadilha de marcar 'conclusão falsa' só porque o argumento é falacioso: a falácia invalida o raciocínio, não prova que a conclusão é falsa. Saiba diferenciar ad populum (todos fazem) de apelo à autoridade (especialista disse) e de ad hominem (ataca a pessoa). Petição de princípio é sinônimo de raciocínio circular/begging the question."
     },
     {
-      "ti": 0,
-      "si": 3,
+      "sid": "comunicacao-eficiente-de-argumentos",
       "titulo": "Comunicação eficiente de argumentos",
       "intro": "Comunicar argumentos com eficiência é organizar e expor um raciocínio de modo que o interlocutor compreenda a tese, reconheça as razões que a sustentam e julgue a conclusão sólida. Não basta ter razão: é preciso transmiti-la com clareza, ordem lógica, evidência adequada e linguagem apropriada ao público. Em raciocínio analítico, essa é a contraparte construtiva da avaliação crítica — depois de avaliar argumentos, é preciso construir e apresentar os próprios.\n\nPara o AUFC do TCU, essa competência é prática e cotidiana: relatórios de auditoria, achados, propostas de encaminhamento, votos e instruções precisam ser claros, objetivos e persuasivos perante colegiados, gestores auditados e a sociedade. Um achado de auditoria mal comunicado — sem evidência clara do critério, da condição, da causa e do efeito — perde força mesmo sendo tecnicamente correto. As normas de auditoria (ISSAI/NBASP) e os manuais do TCU exigem comunicação clara, concisa, objetiva, construtiva, completa e tempestiva.\n\nA comunicação eficiente combina estrutura argumentativa (tese, fundamentação, conclusão), qualidades textuais (clareza, concisão, coesão, coerência e correção) e adequação ao destinatário e ao gênero (relatório técnico, parecer, voto, comunicação ao gestor).",
       "secoes": [

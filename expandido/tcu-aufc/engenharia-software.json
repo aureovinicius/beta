@@ -2,8 +2,7 @@
   "slug": "engenharia-software",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "monolito-microsservicos-e-serverless",
       "titulo": "Monolito, microsserviços e serverless",
       "intro": "Os estilos arquiteturais definem como o software é estruturado, dividido e implantado. As três grandes escolhas contemporâneas — monolito, microsserviços e serverless (FaaS) — não formam uma escala de \"pior para melhor\", mas sim um conjunto de trade-offs entre simplicidade operacional, acoplamento, escalabilidade e custo. A arquitetura orientada a eventos (Event-Driven Architecture, EDA) atravessa esses estilos, propondo a comunicação assíncrona por meio de eventos e mensageria.\n\nPara o auditor de TI (AUFC), entender esses estilos importa porque a escolha arquitetural afeta diretamente governança, continuidade, custo e segurança dos sistemas auditados. Adotar microsserviços sem maturidade de DevOps, por exemplo, costuma ser apontado como achado por aumentar a complexidade operacional sem benefício correspondente.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "Cebraspe cobra trade-offs e os erra de propósito: cuidado com afirmações de que microsserviços são \"sempre melhores\" ou \"reduzem a complexidade\" — eles reduzem acoplamento, mas aumentam complexidade operacional. Outra pegadinha clássica: dizer que serverless \"não usa servidores\" (falso) ou que monolitos \"não podem escalar\" (podem, mas de forma grosseira/horizontal por réplica). Associe database per service a microsserviços e consistência eventual/Saga a sistemas distribuídos."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "padroes-de-integracao-api-gateway-service-mesh-cqrs",
       "titulo": "Padrões de integração (API Gateway, Service Mesh, CQRS)",
       "intro": "Sistemas distribuídos exigem padrões para resolver problemas recorrentes de comunicação, roteamento, segurança e escalabilidade entre serviços. Três padrões frequentemente cobrados são o API Gateway (porta de entrada única), o Service Mesh (camada de infraestrutura para comunicação serviço-a-serviço) e o CQRS (separação de leitura e escrita).\n\nEsses padrões são complementares e operam em planos diferentes: o API Gateway trata o tráfego norte-sul (cliente externo para o sistema), o Service Mesh trata o tráfego leste-oeste (entre serviços internos) e o CQRS é um padrão de modelagem de dados/fluxo. Conhecê-los é essencial para auditar arquiteturas modernas de governo digital.",
       "secoes": [
@@ -71,8 +69,7 @@
       "dica_prova": "A pegadinha mais comum é confundir os planos de atuação: associe API Gateway a tráfego norte-sul (cliente↔sistema) e Service Mesh a tráfego leste-oeste (serviço↔serviço). Outra: afirmar que o CQRS exige obrigatoriamente Event Sourcing (falso — são padrões frequentemente combinados, mas independentes). Cebraspe também testa se o candidato sabe que o sidecar fica ao lado do serviço, tornando a lógica de rede transparente para a aplicação."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "padroes-de-projeto-gof-e-grasp",
       "titulo": "Padrões de projeto (GoF e GRASP)",
       "intro": "Padrões de projeto (design patterns) são soluções reutilizáveis e testadas para problemas recorrentes de projeto de software orientado a objetos. Não são código pronto, mas descrições estruturadas (nome, problema, solução, consequências) que formam um vocabulário comum entre desenvolvedores.\n\nOs dois conjuntos mais cobrados são os 23 padrões GoF (Gang of Four — Gamma, Helm, Johnson e Vlissides, 1994), de natureza concreta e implementável, e os padrões GRASP (General Responsibility Assignment Software Patterns, de Craig Larman), de natureza mais conceitual, voltados à atribuição de responsabilidades e ao controle de coesão e acoplamento.",
       "secoes": [
@@ -106,8 +103,7 @@
       "dica_prova": "Cebraspe testa a classificação (criacional/estrutural/comportamental) e troca padrões parecidos: Adapter×Facade×Proxy×Decorator. Memorize que Singleton e Factory são criacionais e que Observer e Strategy são comportamentais. Nos GRASP, a pegadinha é confundir Information Expert (quem tem o dado tem a responsabilidade) com Creator. Lembre que GRASP é mais conceitual (responsabilidades/coesão/acoplamento) e GoF é mais concreto (estruturas de classes/objetos)."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "concorrencia-e-programacao-assincrona",
       "titulo": "Concorrência e programação assíncrona",
       "intro": "Concorrência é a capacidade de um sistema lidar com múltiplas tarefas que progridem em sobreposição no tempo. Paralelismo é a execução literalmente simultânea de tarefas em múltiplos núcleos/processadores. Concorrência não exige paralelismo (pode haver alternância em um único núcleo), e programação assíncrona é um modelo que permite concorrência sem necessariamente criar muitas threads.\n\nEsses conceitos são críticos para desempenho e escalabilidade, mas introduzem problemas sutis: condições de corrida, deadlocks e inconsistências de estado. Em provas de TI, a distinção entre concorrência×paralelismo e o entendimento de sincronização são recorrentes.",
       "secoes": [
@@ -142,8 +138,7 @@
       "dica_prova": "A distinção concorrência×paralelismo é quase certa de aparecer; fixe que concorrência pode ocorrer em um único núcleo. Cuidado com deadlock×livelock×starvation (no deadlock as threads ficam bloqueadas; no livelock estão ativas mas sem progresso; na starvation uma é preterida). Cebraspe pode afirmar que threads têm memória isolada (falso — quem tem memória isolada são processos) ou que async exige multithreading (falso — o modelo de event loop usa poucas threads)."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "design-e-versionamento-de-apis-rest",
       "titulo": "Design e versionamento de APIs REST",
       "intro": "REST (Representational State Transfer) é um estilo arquitetural definido por Roy Fielding (2000) para sistemas distribuídos sobre HTTP. Uma API RESTful expõe recursos (substantivos, identificados por URIs) manipulados por verbos HTTP padronizados, com mensagens autodescritivas. O bom design de APIs afeta usabilidade, manutenibilidade e interoperabilidade — pilares da interoperabilidade de governo (Padrão ePING).\n\nO versionamento é necessário porque APIs evoluem, mas clientes existentes não podem quebrar; gerenciá-lo bem é parte da governança de integrações que o auditor avalia.",
       "secoes": [
@@ -178,8 +173,7 @@
       "dica_prova": "Idempotência e segurança de métodos HTTP são campeões de incidência — memorize: POST não é idempotente nem seguro; GET é seguro e idempotente; PUT/DELETE são idempotentes mas não seguros. Cebraspe afirma que REST é stateful (falso, é stateless) ou que HATEOAS é obrigatório em toda API REST (na prática é o nível mais alto de maturidade, raramente implementado). Cuidado também com PUT×PATCH e com a ideia errada de que versionar por URI é a única forma válida."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "autenticacao-e-autorizacao-oauth2-jwt-openid",
       "titulo": "Autenticação e autorização (OAuth2, JWT, OpenID)",
       "intro": "Autenticação (AuthN) é provar quem você é; autorização (AuthZ) é determinar o que você pode fazer. Em arquiteturas de APIs e microsserviços, esses controles são padronizados por OAuth 2.0 (autorização delegada), OpenID Connect (autenticação sobre OAuth2) e JWT (formato de token). Confundi-los é o erro mais comum — e o mais cobrado.\n\nEsses protocolos sustentam o login único (SSO), o acesso a APIs de terceiros e a federação de identidades em governo (ex.: gov.br usa OpenID Connect/OAuth2). Para o auditor, são essenciais ao avaliar controles de acesso conforme ISO/IEC 27001 e boas práticas de segurança.",
       "secoes": [
@@ -214,8 +208,7 @@
       "dica_prova": "A pegadinha-mãe é trocar autenticação por autorização: grave OAuth2 = autorização e OpenID Connect = autenticação. Outra muito explorada: afirmar que JWT é criptografado (falso — é apenas assinado e codificado em Base64URL; o conteúdo é legível). Cebraspe também testa a natureza stateless do JWT (favorece escala, dificulta revogação) e pode confundir SAML (XML, legado) com OIDC (JSON/REST). Lembre que Base64 não é criptografia."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "nosql-e-migracao-de-esquemas",
       "titulo": "NoSQL e migração de esquemas",
       "intro": "Bancos NoSQL (\"Not Only SQL\") surgiram para atender requisitos que o modelo relacional tradicional atende com dificuldade: enorme volume (big data), alta velocidade de escrita/leitura, variedade/flexibilidade de dados e escalabilidade horizontal. Não substituem os relacionais, mas os complementam — a escolha depende do caso de uso (persistência poliglota).\n\nUm tema correlato e prático é a evolução do esquema de dados: como migrar e versionar estruturas de banco (relacional ou NoSQL) à medida que a aplicação muda, sem perder dados nem causar indisponibilidade. Isso é parte essencial de pipelines CI/CD e da governança de dados.",
       "secoes": [
@@ -250,8 +243,7 @@
       "dica_prova": "Cebraspe explora que NoSQL não significa \"sem esquema absoluto\" nem \"abandono total de ACID\". Cuidado com generalizações como \"NoSQL não suporta transações\" (alguns suportam) ou \"NoSQL sempre escala melhor que relacional\" (depende do caso). No CAP, a pegadinha é dizer que se pode ter C, A e P simultaneamente (impossível sob partição). Associe BASE/consistência eventual a NoSQL e ACID a relacional, e lembre que a modelagem NoSQL é desnormalizada (contrária à normalização)."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "pipelines-de-ci-cd",
       "titulo": "Pipelines de CI/CD",
       "intro": "CI/CD é a espinha dorsal das práticas DevOps. Integração Contínua (Continuous Integration — CI) é a prática de integrar e validar mudanças de código frequentemente, com build e testes automatizados a cada commit. Entrega Contínua (Continuous Delivery — CD) garante que o código validado esteja sempre pronto para implantação, com deploy acionado manualmente; já a Implantação Contínua (Continuous Deployment) automatiza também o deploy em produção.\n\nO pipeline é a automação ponta a ponta desse fluxo (build, teste, análise, empacotamento, deploy). Para o auditor de TI, pipelines bem desenhados são controles de qualidade e segurança: garantem rastreabilidade, segregação de funções e ausência de alterações manuais não auditáveis em produção.",
       "secoes": [
@@ -286,8 +278,7 @@
       "dica_prova": "A distinção Delivery×Deployment é a pegadinha número um: delivery para na aprovação manual; deployment automatiza até produção. Cebraspe também confunde Blue-Green (dois ambientes, troca total de tráfego) com Canary (liberação gradual a uma fração de usuários). Lembre que CI exige controle de versão e branch principal sempre íntegra, e que segredos jamais devem ir no código (vão em cofres/secrets). Associe build once, deploy many à imutabilidade do artefato."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "docker-e-kubernetes",
       "titulo": "Docker e Kubernetes",
       "intro": "Contêineres empacotam uma aplicação com todas as suas dependências em uma unidade leve, portável e isolada, garantindo que ela execute igualmente em qualquer ambiente. Docker é a tecnologia de contêineres mais difundida; Kubernetes (K8s) é o orquestrador padrão de mercado para gerenciar contêineres em escala. Juntos, são a base operacional de microsserviços e nuvem.\n\nDiferentemente das máquinas virtuais, contêineres compartilham o kernel do sistema operacional hospedeiro, sendo muito mais leves e rápidos de iniciar. Para o auditor, o domínio desses conceitos é indispensável ao avaliar segurança, disponibilidade e governança de ambientes modernos.",
       "secoes": [
@@ -322,8 +313,7 @@
       "dica_prova": "A pegadinha clássica é dizer que contêiner tem SO convidado completo ou usa hipervisor (isso é VM). Memorize que contêineres compartilham o kernel. Cebraspe também troca objetos do K8s: Pod é a menor unidade (não o contêiner isolado); Deployment gerencia réplicas e atualizações; Service dá rede estável; Ingress faz roteamento HTTP externo. Cuidado: o etcd guarda o estado do cluster, e o Kubernetes é declarativo (estado desejado), não imperativo."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "testes-automatizados-e-qualidade",
       "titulo": "Testes automatizados e qualidade",
       "intro": "Testes automatizados são programas que verificam, de forma repetível e rápida, se o software se comporta conforme o esperado. São pilar da CI/CD: a cada mudança, a esteira executa os testes e barra regressões. A qualidade de código, por sua vez, é avaliada por métricas e análise estática, que detectam defeitos, vulnerabilidades e dívida técnica sem executar o programa.\n\nPara o auditor de TI, a existência, cobertura e automação de testes, bem como a análise estática (ex.: SonarQube) nas esteiras, são evidências objetivas de maturidade e controle de qualidade do desenvolvimento de software.",
       "secoes": [
@@ -358,8 +348,7 @@
       "dica_prova": "Cebraspe adora afirmar que \"100% de cobertura garante ausência de defeitos\" (ERRADO — cobertura não mede a qualidade das asserções nem cobre todos os caminhos lógicos). Memorize a pirâmide (base = unitários) e não inverta. Cuidado com TDD: escreve-se o teste ANTES do código de produção. Distinga caixa-preta (sem ver código) de caixa-branca (com estrutura interna). E lembre que análise estática NÃO executa o programa (diferente de testes dinâmicos)."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "desenvolvimento-seguro-devsecops",
       "titulo": "Desenvolvimento seguro (DevSecOps)",
       "intro": "Desenvolvimento seguro é a prática de integrar a segurança em todas as fases do ciclo de vida do software (SDLC), em vez de tratá-la como verificação final. DevSecOps estende o DevOps incorporando a segurança como responsabilidade compartilhada e automatizada na esteira — o lema é \"shift left\": antecipar os controles de segurança para o início do desenvolvimento, quando corrigir é mais barato.\n\nPara o auditor de TI do TCU, avaliar se a organização adota práticas de desenvolvimento seguro (modelagem de ameaças, análise de vulnerabilidades automatizada, gestão de dependências) é parte de verificar a segurança e a conformidade dos sistemas, em linha com a LGPD, a ISO/IEC 27001 e diretrizes de segurança cibernética do governo.",
       "secoes": [

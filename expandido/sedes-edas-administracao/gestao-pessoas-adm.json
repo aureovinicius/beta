@@ -1,46 +1,44 @@
 {
- "slug": "gestao-pessoas-adm",
- "itens": [
-  {
-   "ti": 0,
-   "si": 1,
-   "titulo": "Recrutamento, desempenho e competências",
-   "intro": "A gestão de pessoas evoluiu da administração de pessoal (burocrática, focada em folha e controle) para a gestão estratégica de pessoas, na qual as pessoas são vistas como parceiras e ativos capazes de gerar vantagem competitiva e valor público. Seus subsistemas clássicos incluem agregar (recrutamento e seleção), aplicar (desenho de cargos e avaliação), recompensar, desenvolver, manter e monitorar pessoas.\n\nNo setor público, esses processos têm peculiaridades constitucionais: a regra de ingresso é o concurso público (art. 37, II, da CF), regem-se pelos princípios da legalidade e impessoalidade, e a estabilidade do servidor altera a lógica de desligamento e a gestão do desempenho. No DF, a relação estatutária é disciplinada pela Lei Complementar 840/2011.\n\nO subtópico cobra recrutamento e seleção, gestão (avaliação) de desempenho, gestão por competências e as tendências contemporâneas da gestão de pessoas no setor público, como a profissionalização, a gestão por competências e a valorização de resultados."
-  ,
-   "secoes": [
+  "slug": "gestao-pessoas-adm",
+  "itens": [
     {
-     "h": "Recrutamento e seleção",
-     "p": "Recrutamento é o conjunto de técnicas para atrair candidatos potencialmente qualificados a ocupar uma vaga. Pode ser interno (preenchimento por quem já está na organização — transferências, promoções; mais rápido e motivador, mas pode gerar acomodação), externo (busca no mercado; traz sangue novo, mas é mais demorado e caro) ou misto.\n\nSeleção é a escolha, entre os recrutados, dos mais adequados ao cargo e à organização, funcionando como um filtro. Técnicas: provas de conhecimento, testes psicométricos e de personalidade, entrevistas, dinâmicas e provas situacionais. No serviço público, recrutamento e seleção se materializam no concurso público (provas e títulos), impessoal e isonômico, sendo o recrutamento, em regra, externo e amplo."
-    },
-    {
-     "h": "Gestão e avaliação de desempenho",
-     "p": "A avaliação de desempenho é o processo sistemático de apreciação do desempenho do indivíduo no cargo e de seu potencial, servindo a decisões de desenvolvimento, recompensa, promoção e correção. Métodos tradicionais: escalas gráficas, escolha forçada, incidentes críticos, pesquisa de campo. Método moderno: avaliação 360 graus (múltiplas fontes — superior, pares, subordinados, clientes e autoavaliação).\n\nA gestão de desempenho é mais ampla que a avaliação pontual: envolve planejamento (definição de metas e competências esperadas), acompanhamento, avaliação e feedback contínuo, num ciclo. Erros de avaliação a conhecer: efeito halo/horn (uma característica contamina o todo), tendência central, leniência/rigor, recência e preconceito pessoal. No setor público, a avaliação de desempenho é também condição da estabilidade e pode embasar avaliação especial de desempenho do estágio probatório."
-    },
-    {
-     "h": "Gestão por competências",
-     "p": "Competência é comumente definida pelo conjunto CHA: Conhecimentos (saber), Habilidades (saber fazer) e Atitudes (querer fazer / saber ser). A gestão por competências é o modelo que identifica as competências necessárias à estratégia, mapeia as competências existentes (inventário) e atua sobre o gap (lacuna) entre o necessário e o disponível, por meio de capacitação, recrutamento e movimentação.\n\nClassificam-se em competências organizacionais (da instituição) e individuais; e em técnicas e comportamentais. No setor público federal, a Política Nacional de Desenvolvimento de Pessoas (PNDP, Decreto 9.991/2019) adota o desenvolvimento de competências como base da capacitação, com o Plano de Desenvolvimento de Pessoas (PDP). O conceito de \"entrega\" (Dutra) amplia a noção de competência para a agregação de valor efetiva, não apenas a posse de qualificações."
-    },
-    {
-     "h": "Tendências na gestão de pessoas do setor público",
-     "p": "As tendências contemporâneas incluem: profissionalização e meritocracia; gestão por competências e desenvolvimento contínuo; gestão por resultados e contratualização de metas; valorização do capital intelectual e da gestão do conhecimento; liderança e engajamento; qualidade de vida no trabalho (QVT); e uso de tecnologia (RH digital, people analytics).\n\nOutras tendências: foco na experiência do servidor, trabalho remoto/teletrabalho, diversidade e inclusão, e a transição do RH operacional para o RH estratégico e consultivo (business partner). No setor público, há tensão entre a rigidez do regime estatutário e a busca por flexibilidade e desempenho — daí instrumentos como avaliação de desempenho vinculada a resultados e capacitação por competências."
-    },
-    {
-     "h": "Desenho de cargos, treinamento e desenvolvimento",
-     "p": "O desenho de cargos define tarefas, responsabilidades, métodos e relações. Modelos evoluíram do desenho clássico (taylorista, rígido) ao contemporâneo (enriquecimento de cargos, autonomia). Treinamento é o processo de curto prazo voltado ao cargo atual; desenvolvimento é orientado ao crescimento e a posições futuras; educação corporativa é a institucionalização contínua da aprendizagem.\n\nO ciclo de T&D tem quatro etapas: levantamento de necessidades (LNT, diagnóstico), planejamento/programação, execução e avaliação (modelo de Kirkpatrick: reação, aprendizagem, comportamento e resultados). A gestão por competências costuma orientar o LNT, identificando os gaps a serem fechados pela capacitação."
+      "sid": "recrutamento-desempenho-e-competencias",
+      "titulo": "Recrutamento, desempenho e competências",
+      "intro": "A gestão de pessoas evoluiu da administração de pessoal (burocrática, focada em folha e controle) para a gestão estratégica de pessoas, na qual as pessoas são vistas como parceiras e ativos capazes de gerar vantagem competitiva e valor público. Seus subsistemas clássicos incluem agregar (recrutamento e seleção), aplicar (desenho de cargos e avaliação), recompensar, desenvolver, manter e monitorar pessoas.\n\nNo setor público, esses processos têm peculiaridades constitucionais: a regra de ingresso é o concurso público (art. 37, II, da CF), regem-se pelos princípios da legalidade e impessoalidade, e a estabilidade do servidor altera a lógica de desligamento e a gestão do desempenho. No DF, a relação estatutária é disciplinada pela Lei Complementar 840/2011.\n\nO subtópico cobra recrutamento e seleção, gestão (avaliação) de desempenho, gestão por competências e as tendências contemporâneas da gestão de pessoas no setor público, como a profissionalização, a gestão por competências e a valorização de resultados.",
+      "secoes": [
+        {
+          "h": "Recrutamento e seleção",
+          "p": "Recrutamento é o conjunto de técnicas para atrair candidatos potencialmente qualificados a ocupar uma vaga. Pode ser interno (preenchimento por quem já está na organização — transferências, promoções; mais rápido e motivador, mas pode gerar acomodação), externo (busca no mercado; traz sangue novo, mas é mais demorado e caro) ou misto.\n\nSeleção é a escolha, entre os recrutados, dos mais adequados ao cargo e à organização, funcionando como um filtro. Técnicas: provas de conhecimento, testes psicométricos e de personalidade, entrevistas, dinâmicas e provas situacionais. No serviço público, recrutamento e seleção se materializam no concurso público (provas e títulos), impessoal e isonômico, sendo o recrutamento, em regra, externo e amplo."
+        },
+        {
+          "h": "Gestão e avaliação de desempenho",
+          "p": "A avaliação de desempenho é o processo sistemático de apreciação do desempenho do indivíduo no cargo e de seu potencial, servindo a decisões de desenvolvimento, recompensa, promoção e correção. Métodos tradicionais: escalas gráficas, escolha forçada, incidentes críticos, pesquisa de campo. Método moderno: avaliação 360 graus (múltiplas fontes — superior, pares, subordinados, clientes e autoavaliação).\n\nA gestão de desempenho é mais ampla que a avaliação pontual: envolve planejamento (definição de metas e competências esperadas), acompanhamento, avaliação e feedback contínuo, num ciclo. Erros de avaliação a conhecer: efeito halo/horn (uma característica contamina o todo), tendência central, leniência/rigor, recência e preconceito pessoal. No setor público, a avaliação de desempenho é também condição da estabilidade e pode embasar avaliação especial de desempenho do estágio probatório."
+        },
+        {
+          "h": "Gestão por competências",
+          "p": "Competência é comumente definida pelo conjunto CHA: Conhecimentos (saber), Habilidades (saber fazer) e Atitudes (querer fazer / saber ser). A gestão por competências é o modelo que identifica as competências necessárias à estratégia, mapeia as competências existentes (inventário) e atua sobre o gap (lacuna) entre o necessário e o disponível, por meio de capacitação, recrutamento e movimentação.\n\nClassificam-se em competências organizacionais (da instituição) e individuais; e em técnicas e comportamentais. No setor público federal, a Política Nacional de Desenvolvimento de Pessoas (PNDP, Decreto 9.991/2019) adota o desenvolvimento de competências como base da capacitação, com o Plano de Desenvolvimento de Pessoas (PDP). O conceito de \"entrega\" (Dutra) amplia a noção de competência para a agregação de valor efetiva, não apenas a posse de qualificações."
+        },
+        {
+          "h": "Tendências na gestão de pessoas do setor público",
+          "p": "As tendências contemporâneas incluem: profissionalização e meritocracia; gestão por competências e desenvolvimento contínuo; gestão por resultados e contratualização de metas; valorização do capital intelectual e da gestão do conhecimento; liderança e engajamento; qualidade de vida no trabalho (QVT); e uso de tecnologia (RH digital, people analytics).\n\nOutras tendências: foco na experiência do servidor, trabalho remoto/teletrabalho, diversidade e inclusão, e a transição do RH operacional para o RH estratégico e consultivo (business partner). No setor público, há tensão entre a rigidez do regime estatutário e a busca por flexibilidade e desempenho — daí instrumentos como avaliação de desempenho vinculada a resultados e capacitação por competências."
+        },
+        {
+          "h": "Desenho de cargos, treinamento e desenvolvimento",
+          "p": "O desenho de cargos define tarefas, responsabilidades, métodos e relações. Modelos evoluíram do desenho clássico (taylorista, rígido) ao contemporâneo (enriquecimento de cargos, autonomia). Treinamento é o processo de curto prazo voltado ao cargo atual; desenvolvimento é orientado ao crescimento e a posições futuras; educação corporativa é a institucionalização contínua da aprendizagem.\n\nO ciclo de T&D tem quatro etapas: levantamento de necessidades (LNT, diagnóstico), planejamento/programação, execução e avaliação (modelo de Kirkpatrick: reação, aprendizagem, comportamento e resultados). A gestão por competências costuma orientar o LNT, identificando os gaps a serem fechados pela capacitação."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Na gestão por competências, o conceito CHA refere-se a conhecimentos, hierarquia e autoridade.\" ERRADO — CHA significa Conhecimentos, Habilidades e Atitudes (saber, saber fazer e querer/saber ser). Aplicação na SEDES-DF: ao implantar a gestão por competências para as equipes dos CRAS, a área de gestão de pessoas mapeia as competências necessárias ao atendimento socioassistencial (ex.: escuta qualificada, conhecimento do SUAS, postura ética), avalia o quadro atual, identifica as lacunas e estrutura um Plano de Desenvolvimento de Pessoas com capacitações específicas, avaliando depois os resultados pelo modelo de Kirkpatrick.",
+      "pontos_chave": [
+        "Recrutamento interno (rápido, motiva) x externo (sangue novo, mais caro/demorado).",
+        "No serviço público, ingresso por concurso (CF art. 37, II); recrutamento amplo e impessoal.",
+        "Avaliação 360º usa múltiplas fontes; tradicionais: escalas gráficas, escolha forçada.",
+        "Erros de avaliação: halo/horn, tendência central, leniência, recência.",
+        "CHA = Conhecimentos, Habilidades e Atitudes (base da competência).",
+        "Gestão por competências atua sobre o gap entre competências necessárias e existentes.",
+        "PNDP (Decreto 9.991/2019) e PDP estruturam a capacitação por competências.",
+        "Tendências: RH estratégico, gestão por resultados, QVT, people analytics, teletrabalho."
+      ],
+      "dica_prova": "O CHA (Conhecimentos, Habilidades, Atitudes) é cobrado quase sempre — não confunda com outros significados. Diferencie treinamento (cargo atual, curto prazo) de desenvolvimento (futuro, carreira). Na avaliação 360º, lembre que ela envolve várias fontes, incluindo autoavaliação. Cuidado com a estabilidade no setor público: ela não impede a avaliação de desempenho — esta é, inclusive, requisito constitucional para aquisição e manutenção da estabilidade. Associe gestão por competências a mapear e fechar lacunas (gaps)."
     }
-   ],
-   "exemplo": "Item estilo Cebraspe: \"Na gestão por competências, o conceito CHA refere-se a conhecimentos, hierarquia e autoridade.\" ERRADO — CHA significa Conhecimentos, Habilidades e Atitudes (saber, saber fazer e querer/saber ser). Aplicação na SEDES-DF: ao implantar a gestão por competências para as equipes dos CRAS, a área de gestão de pessoas mapeia as competências necessárias ao atendimento socioassistencial (ex.: escuta qualificada, conhecimento do SUAS, postura ética), avalia o quadro atual, identifica as lacunas e estrutura um Plano de Desenvolvimento de Pessoas com capacitações específicas, avaliando depois os resultados pelo modelo de Kirkpatrick.",
-   "pontos_chave": [
-    "Recrutamento interno (rápido, motiva) x externo (sangue novo, mais caro/demorado).",
-    "No serviço público, ingresso por concurso (CF art. 37, II); recrutamento amplo e impessoal.",
-    "Avaliação 360º usa múltiplas fontes; tradicionais: escalas gráficas, escolha forçada.",
-    "Erros de avaliação: halo/horn, tendência central, leniência, recência.",
-    "CHA = Conhecimentos, Habilidades e Atitudes (base da competência).",
-    "Gestão por competências atua sobre o gap entre competências necessárias e existentes.",
-    "PNDP (Decreto 9.991/2019) e PDP estruturam a capacitação por competências.",
-    "Tendências: RH estratégico, gestão por resultados, QVT, people analytics, teletrabalho."
-   ],
-   "dica_prova": "O CHA (Conhecimentos, Habilidades, Atitudes) é cobrado quase sempre — não confunda com outros significados. Diferencie treinamento (cargo atual, curto prazo) de desenvolvimento (futuro, carreira). Na avaliação 360º, lembre que ela envolve várias fontes, incluindo autoavaliação. Cuidado com a estabilidade no setor público: ela não impede a avaliação de desempenho — esta é, inclusive, requisito constitucional para aquisição e manutenção da estabilidade. Associe gestão por competências a mapear e fechar lacunas (gaps)."
-  }
- ]
+  ]
 }

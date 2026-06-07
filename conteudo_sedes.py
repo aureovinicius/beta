@@ -8,6 +8,7 @@ Modelagem:
   - LP_SEDES: Língua Portuguesa, totalmente reaproveitada de SEFAZ/TCU.
   - CARGOS: 15 cargos (3 TDAS + 12 EDAS), cada um = disciplinas comuns (por reuse) + específicas.
 """
+from idutil import assign_sids
 
 SEFAZ = "sefaz-go"
 TCU = "tcu-aufc"
@@ -38,28 +39,28 @@ def lp_sedes():
         "resumo": "Interpretação de textos, ortografia, morfossintaxe, coesão e reescrita (comum a todos os cargos).",
         "topicos": [
             {"titulo": "1. Compreensão e interpretação de textos", "explicacao": "Leitura de gêneros variados: tese, argumentos, inferências e tipologia textual.", "subtopicos": [
-                {"titulo": "Compreensão x interpretação", "texto": "O que o texto diz x o que se conclui dele.", "reuse": (SEFAZ, "lingua-portuguesa", 0, 0)},
-                {"titulo": "Ideia central e secundárias", "texto": "Tópico frasal, tese e sustentação.", "reuse": (SEFAZ, "lingua-portuguesa", 0, 1)},
-                {"titulo": "Inferência e pressuposto", "texto": "Implícitos, pressupostos e subentendidos.", "reuse": (SEFAZ, "lingua-portuguesa", 0, 2)},
-                {"titulo": "Tipos e gêneros textuais", "texto": "Reconhecimento de tipologia e gêneros.", "reuse": (TCU, "lingua-portuguesa", 0, 3)},
+                {"titulo": "Compreensão x interpretação", "texto": "O que o texto diz x o que se conclui dele.", "reuse": (SEFAZ, "lingua-portuguesa", "compreensao-x-interpretacao")},
+                {"titulo": "Ideia central e secundárias", "texto": "Tópico frasal, tese e sustentação.", "reuse": (SEFAZ, "lingua-portuguesa", "ideia-central-e-secundarias")},
+                {"titulo": "Inferência e pressuposto", "texto": "Implícitos, pressupostos e subentendidos.", "reuse": (SEFAZ, "lingua-portuguesa", "inferencia-e-pressuposto")},
+                {"titulo": "Tipos e gêneros textuais", "texto": "Reconhecimento de tipologia e gêneros.", "reuse": (TCU, "lingua-portuguesa", "tipos-e-generos-textuais")},
             ]},
             {"titulo": "2. Ortografia, classes de palavras e crase", "explicacao": "Ortografia oficial, classes de palavras e crase.", "subtopicos": [
-                {"titulo": "Ortografia e acentuação", "texto": "Regras do Acordo Ortográfico.", "reuse": (SEFAZ, "lingua-portuguesa", 1, 0)},
-                {"titulo": "Emprego da crase", "texto": "Preposição 'a' + artigo 'a'.", "reuse": (SEFAZ, "lingua-portuguesa", 1, 1)},
-                {"titulo": "Classes de palavras e pronomes", "texto": "Substantivo, verbo, pronomes, advérbios.", "reuse": (SEFAZ, "lingua-portuguesa", 2, 0)},
-                {"titulo": "Conjunções e conectores", "texto": "Relações de coordenação e subordinação.", "reuse": (SEFAZ, "lingua-portuguesa", 2, 1)},
+                {"titulo": "Ortografia e acentuação", "texto": "Regras do Acordo Ortográfico.", "reuse": (SEFAZ, "lingua-portuguesa", "acentuacao-grafica")},
+                {"titulo": "Emprego da crase", "texto": "Preposição 'a' + artigo 'a'.", "reuse": (SEFAZ, "lingua-portuguesa", "emprego-da-crase")},
+                {"titulo": "Classes de palavras e pronomes", "texto": "Substantivo, verbo, pronomes, advérbios.", "reuse": (SEFAZ, "lingua-portuguesa", "pronomes")},
+                {"titulo": "Conjunções e conectores", "texto": "Relações de coordenação e subordinação.", "reuse": (SEFAZ, "lingua-portuguesa", "conjuncoes")},
             ]},
             {"titulo": "3. Sintaxe do período", "explicacao": "Concordância, regência, colocação, pontuação e relações entre orações.", "subtopicos": [
-                {"titulo": "Concordância verbal e nominal", "texto": "Ajuste do verbo e do nome.", "reuse": (SEFAZ, "lingua-portuguesa", 3, 0)},
-                {"titulo": "Regência verbal e nominal", "texto": "Complementos com/sem preposição.", "reuse": (SEFAZ, "lingua-portuguesa", 3, 1)},
-                {"titulo": "Colocação pronominal", "texto": "Próclise, mesóclise e ênclise.", "reuse": (SEFAZ, "lingua-portuguesa", 3, 2)},
-                {"titulo": "Pontuação e período composto", "texto": "Vírgula, coordenação e subordinação.", "reuse": (SEFAZ, "lingua-portuguesa", 4, 0)},
-                {"titulo": "Orações coordenadas e subordinadas", "texto": "Relações entre orações.", "reuse": (SEFAZ, "lingua-portuguesa", 4, 1)},
+                {"titulo": "Concordância verbal e nominal", "texto": "Ajuste do verbo e do nome.", "reuse": (SEFAZ, "lingua-portuguesa", "concordancia-verbal-e-nominal")},
+                {"titulo": "Regência verbal e nominal", "texto": "Complementos com/sem preposição.", "reuse": (SEFAZ, "lingua-portuguesa", "regencia-verbal-e-nominal")},
+                {"titulo": "Colocação pronominal", "texto": "Próclise, mesóclise e ênclise.", "reuse": (SEFAZ, "lingua-portuguesa", "colocacao-pronominal")},
+                {"titulo": "Pontuação e período composto", "texto": "Vírgula, coordenação e subordinação.", "reuse": (SEFAZ, "lingua-portuguesa", "periodo-composto")},
+                {"titulo": "Orações coordenadas e subordinadas", "texto": "Relações entre orações.", "reuse": (SEFAZ, "lingua-portuguesa", "oracoes-adjetivas")},
             ]},
             {"titulo": "4. Semântica, coesão e reescrita", "explicacao": "Significação, coesão e reescrita de frases e parágrafos.", "subtopicos": [
-                {"titulo": "Coesão e coerência", "texto": "Referenciação, substituição e conectores.", "reuse": (SEFAZ, "lingua-portuguesa", 5, 0)},
-                {"titulo": "Significação e figuras de linguagem", "texto": "Sinonímia, polissemia, conotação.", "reuse": (SEFAZ, "lingua-portuguesa", 5, 1)},
-                {"titulo": "Reescrita de frases e parágrafos", "texto": "Reorganizar mantendo o sentido.", "reuse": (TCU, "lingua-portuguesa", 3, 2)},
+                {"titulo": "Coesão e coerência", "texto": "Referenciação, substituição e conectores.", "reuse": (SEFAZ, "lingua-portuguesa", "coesao-e-coerencia")},
+                {"titulo": "Significação e figuras de linguagem", "texto": "Sinonímia, polissemia, conotação.", "reuse": (SEFAZ, "lingua-portuguesa", "figuras-de-linguagem")},
+                {"titulo": "Reescrita de frases e parágrafos", "texto": "Reorganizar mantendo o sentido.", "reuse": (TCU, "lingua-portuguesa", "reescrita-de-frases-e-paragrafos")},
             ]},
         ],
     }
@@ -190,17 +191,21 @@ BASE_DISCIPLINAS = [
 
 BASE_MAP = {d["slug"]: d for d in BASE_DISCIPLINAS}
 
+# atribui sids estáveis à base, para que comp() referencie por sid (não por posição)
+for _d in BASE_DISCIPLINAS:
+    assign_sids(_d)
+
 
 def comp(slug):
-    """Inclui uma disciplina-base num cargo, marcando cada subtópico como reaproveitado da base."""
+    """Inclui uma disciplina-base num cargo, marcando cada subtópico como reaproveitado da base (por sid)."""
     d = BASE_MAP[slug]
     nd = {k: v for k, v in d.items() if k != "topicos"}
     nd["topicos"] = []
-    for ti, t in enumerate(d["topicos"]):
+    for t in d["topicos"]:
         nt = {k: v for k, v in t.items() if k != "subtopicos"}
         nt["subtopicos"] = [
-            {"titulo": s["titulo"], "texto": s["texto"], "reuse": (BASE, slug, ti, si)}
-            for si, s in enumerate(t["subtopicos"])
+            {"titulo": s["titulo"], "texto": s["texto"], "reuse": (BASE, slug, s["sid"])}
+            for s in t["subtopicos"]
         ]
         nd["topicos"].append(nt)
     return nd
@@ -298,8 +303,8 @@ CARGOS = [
         D("rede-intersetorialidade", "Rede Socioassistencial e Intersetorialidade", "🔗",
           "Articulação entre CRAS, CREAS e Unidades de Acolhimento e trabalho em rede.", [
             T("1. Rede e território", "Articulação intersetorial e fluxos no SUAS.", [
-                S("CRAS, CREAS e Unidades de Acolhimento", "Funcionamento e atribuições dos equipamentos.", (AG, "rede-territorio", 0, 0)),
-                S("Territorialização e fluxos de referência/contrarreferência", "Diagnóstico socioterritorial e encaminhamentos.", (AG, "rede-territorio", 0, 1)),
+                S("CRAS, CREAS e Unidades de Acolhimento", "Funcionamento e atribuições dos equipamentos.", (AG, "rede-territorio", "cras-creas-e-unidades-de-acolhimento")),
+                S("Territorialização e fluxos de referência/contrarreferência", "Diagnóstico socioterritorial e encaminhamentos.", (AG, "rede-territorio", "territorializacao-e-fluxos-de-referencia-contrarreferencia")),
             ]),
         ]),
         D("rotinas-acolhimento", "Rotinas de Acolhimento, Cuidado e Trabalho em Equipe", "🛏️",
@@ -318,13 +323,13 @@ CARGOS = [
         D("pop-rua-cuidador", "População em Situação de Rua e Acolhimento", "🛣️",
           "Abordagem e acolhimento da população em situação de rua.", [
             T("1. Abordagem e acolhimento", "Atuação com a população de rua.", [
-                S("Política Nacional (Decreto 7.053/2009) e acolhimento", "Diretrizes e equipamentos de atendimento.", (AG, "abordagem-rua", 0, 0)),
+                S("Política Nacional (Decreto 7.053/2009) e acolhimento", "Diretrizes e equipamentos de atendimento.", (AG, "abordagem-rua", "politica-nacional-decreto-7-053-2009-e-centros-pop")),
             ]),
         ]),
         D("saude-mental-cuidador", "Saúde Mental e Redução de Danos", "🧠",
           "Abordagem humanizada em saúde mental.", [
             T("1. Saúde mental", "Sofrimento psíquico e rede psicossocial.", [
-                S("Redução de danos e articulação psicossocial", "Abordagem humanizada e rede de saúde.", (AG, "saude-mental-drogas", 0, 0)),
+                S("Redução de danos e articulação psicossocial", "Abordagem humanizada e rede de saúde.", (AG, "saude-mental-drogas", "reducao-de-danos-e-articulacao-psicossocial")),
             ]),
         ]),
     ]),
@@ -335,32 +340,32 @@ CARGOS = [
         D("nocoes-dir-constitucional", "Noções de Direito Constitucional", "⚖️",
           "Princípios fundamentais, direitos e garantias e Administração Pública.", [
             T("1. Constituição e direitos", "Base constitucional aplicada ao serviço público.", [
-                S("Princípios fundamentais", "Arts. 1º a 4º da CF/88.", (SEFAZ, "direito-constitucional", 0, 1)),
-                S("Direitos e garantias fundamentais", "Direitos individuais, coletivos e sociais.", (SEFAZ, "direito-constitucional", 1, 0)),
-                S("Organização do Estado e Administração Pública", "Disposições gerais e servidores públicos.", (SEFAZ, "direito-constitucional", 2, 1)),
+                S("Princípios fundamentais", "Arts. 1º a 4º da CF/88.", (SEFAZ, "direito-constitucional", "principios-fundamentais-arts-1o-a-4o")),
+                S("Direitos e garantias fundamentais", "Direitos individuais, coletivos e sociais.", (SEFAZ, "direito-constitucional", "direitos-individuais-e-coletivos")),
+                S("Organização do Estado e Administração Pública", "Disposições gerais e servidores públicos.", (SEFAZ, "direito-constitucional", "administracao-publica-arts-37-a-41")),
             ]),
         ]),
         D("nocoes-dir-administrativo", "Noções de Direito Administrativo e Legislação", "🏛️",
           "Estado e administração, atos, poderes e regime dos servidores do DF.", [
             T("1. Fundamentos e atos", "Conceitos centrais do Direito Administrativo.", [
-                S("Estado, governo e administração pública", "Conceitos e princípios.", (SEFAZ, "direito-administrativo", 0, 0)),
-                S("Ato administrativo", "Conceito, requisitos, atributos e extinção.", (SEFAZ, "direito-administrativo", 2, 0)),
-                S("Poderes da Administração", "Hierárquico, disciplinar, regulamentar e de polícia.", (SEFAZ, "direito-administrativo", 3, 1)),
-                S("Regime dos servidores do DF (LC 840/2011)", "Deveres, regime disciplinar e PAD.", (BASE, "conhecimentos-df", 3, 0)),
+                S("Estado, governo e administração pública", "Conceitos e princípios.", (SEFAZ, "direito-administrativo", "principios-administrativos")),
+                S("Ato administrativo", "Conceito, requisitos, atributos e extinção.", (SEFAZ, "direito-administrativo", "requisitos-e-atributos")),
+                S("Poderes da Administração", "Hierárquico, disciplinar, regulamentar e de polícia.", (SEFAZ, "direito-administrativo", "poder-disciplinar-e-hierarquico")),
+                S("Regime dos servidores do DF (LC 840/2011)", "Deveres, regime disciplinar e PAD.", (BASE, "conhecimentos-df", "deveres-e-regime-disciplinar")),
             ]),
         ]),
         D("atendimento-arquivologia", "Atendimento, Rotinas Administrativas e Arquivologia", "📇",
           "Atendimento ao público, redação oficial, arquivologia e protocolo.", [
             T("1. Atendimento e documentos", "Qualidade no atendimento e gestão documental.", [
-                S("Qualidade no atendimento e redação oficial", "Atendimento ao público e comunicações administrativas.", (SEFAZ, "lingua-portuguesa", 6, 0)),
+                S("Qualidade no atendimento e redação oficial", "Atendimento ao público e comunicações administrativas.", (SEFAZ, "lingua-portuguesa", "atributos-do-texto-oficial")),
                 S("Arquivologia e protocolo", "Tipos de arquivo, métodos de arquivamento, protocolo e digitalização."),
             ]),
         ]),
         D("recursos-materiais-compras", "Recursos Materiais, Patrimônio e Compras", "📦",
           "Administração de materiais, gestão patrimonial e noções de licitação.", [
             T("1. Materiais e compras", "Gestão de materiais, patrimônio e compras públicas.", [
-                S("Administração de materiais e patrimônio", "Estoques, armazenagem, tombamento e inventário.", (TCU, "administracao-publica", 4, 0)),
-                S("Noções de licitação (Lei 14.133/2021)", "Etapas do processo e modalidades.", (SEFAZ, "direito-administrativo", 5, 0)),
+                S("Administração de materiais e patrimônio", "Estoques, armazenagem, tombamento e inventário.", (TCU, "administracao-publica", "administracao-de-recursos-materiais")),
+                S("Noções de licitação (Lei 14.133/2021)", "Etapas do processo e modalidades.", (SEFAZ, "direito-administrativo", "modalidades-e-fases")),
             ]),
         ]),
     ]),
@@ -375,33 +380,33 @@ CARGOS += [
           "Teoria administrativa, OS&M e qualidade, projetos, AFO, gestão de pessoas e ética no serviço público.", [
         D("teoria-adm", "Teoria Geral e Processos Administrativos", "📊", "Evolução da administração, funções e planejamento estratégico.", [
             T("1. Teoria e funções", "Pensamento administrativo e planejamento.", [
-                S("Evolução do pensamento administrativo", "Da administração na sociedade contemporânea.", (TCU, "administracao-publica", 0, 0)),
-                S("Funções administrativas (PODC)", "Planejar, organizar, dirigir e controlar.", (TCU, "administracao-publica", 1, 0)),
+                S("Evolução do pensamento administrativo", "Da administração na sociedade contemporânea.", (TCU, "administracao-publica", "abordagens-classica-burocratica-e-sistemica")),
+                S("Funções administrativas (PODC)", "Planejar, organizar, dirigir e controlar.", (TCU, "administracao-publica", "funcoes-da-administracao-podc")),
                 S("Planejamento estratégico (SWOT, APO, BSC)", "Missão, visão, Balanced Scorecard e processo decisório."),
             ]),
         ]),
         D("osm-qualidade", "Organização, Sistemas, Métodos e Qualidade", "🧭", "Arquitetura organizacional e gestão da qualidade.", [
             T("1. OS&M e qualidade", "Processos e qualidade na gestão.", [
-                S("Arquitetura organizacional e mapeamento de processos", "Organogramas, fluxogramas e distribuição do trabalho.", (TCU, "administracao-publica", 3, 0)),
+                S("Arquitetura organizacional e mapeamento de processos", "Organogramas, fluxogramas e distribuição do trabalho.", (TCU, "administracao-publica", "mapeamento-e-melhoria-de-processos")),
                 S("Gestão da qualidade e modelos de excelência", "Ferramentas da qualidade e excelência na gestão pública."),
             ]),
         ]),
         D("gestao-projetos-adm", "Gestão de Projetos", "📁", "Elaboração, etapas e modelos de gestão de projetos.", [
             T("1. Projetos", "Ciclo e modelos de gestão.", [
-                S("Projetos e modelos de gestão", "Etapas, análise e avaliação de projetos.", (TCU, "administracao-publica", 3, 1)),
+                S("Projetos e modelos de gestão", "Etapas, análise e avaliação de projetos.", (TCU, "administracao-publica", "gestao-de-projetos-e-metodologia-agil")),
             ]),
         ]),
         D("afo-administracao", "Administração Financeira e Orçamentária (AFO)", "💰", "Orçamento, receita, despesa e execução no DF.", [
             T("1. Orçamento e execução", "Processo orçamentário e execução financeira.", [
-                S("Orçamento público (PPA, LDO, LOA)", "Princípios e leis orçamentárias.", (SEFAZ, "direito-financeiro", 0, 0)),
-                S("Receita pública", "Categorias, fontes, estágios e dívida ativa.", (SEFAZ, "direito-financeiro", 1, 0)),
-                S("Despesa pública", "Categorias e estágios da despesa.", (SEFAZ, "direito-financeiro", 2, 0)),
+                S("Orçamento público (PPA, LDO, LOA)", "Princípios e leis orçamentárias.", (SEFAZ, "direito-financeiro", "ppa-ldo-e-loa")),
+                S("Receita pública", "Categorias, fontes, estágios e dívida ativa.", (SEFAZ, "direito-financeiro", "estagios-da-receita")),
+                S("Despesa pública", "Categorias e estágios da despesa.", (SEFAZ, "direito-financeiro", "estagios-da-despesa")),
                 S("SIAFEM-DF e execução financeira", "Sistemas de planejamento, orçamento e execução no DF."),
             ]),
         ]),
         D("gestao-pessoas-adm", "Gestão de Pessoas", "👥", "Comportamento organizacional e subsistemas de RH.", [
             T("1. Gestão de pessoas", "Pessoas nas organizações públicas.", [
-                S("Comportamento organizacional", "Motivação, liderança e conflitos.", (TCU, "administracao-publica", 2, 0)),
+                S("Comportamento organizacional", "Motivação, liderança e conflitos.", (TCU, "administracao-publica", "comportamento-organizacional")),
                 S("Recrutamento, desempenho e competências", "Seleção, gestão de desempenho e por competências; tendências no setor público."),
             ]),
         ]),
@@ -416,14 +421,14 @@ CARGOS += [
           "Contabilidade geral e societária, análise de balanços, CASP, AFO e auditoria.", [
         D("contab-geral-soc", "Contabilidade Geral e Societária", "🧾", "Estrutura conceitual, patrimônio e evidenciação.", [
             T("1. Estrutura e patrimônio", "Fundamentos da contabilidade.", [
-                S("Estrutura conceitual da contabilidade", "Características qualitativas e normas.", (SEFAZ, "contabilidade-geral", 0, 0)),
-                S("Patrimônio: ativo, passivo e PL", "Equação patrimonial.", (SEFAZ, "contabilidade-geral", 0, 1)),
+                S("Estrutura conceitual da contabilidade", "Características qualitativas e normas.", (SEFAZ, "contabilidade-geral", "estrutura-conceitual")),
+                S("Patrimônio: ativo, passivo e PL", "Equação patrimonial.", (SEFAZ, "contabilidade-geral", "patrimonio")),
                 S("Mensuração, avaliação e evidenciação", "Conceito de lucro; mensuração de ativo/passivo e evidenciação contábil."),
             ]),
         ]),
         D("afo-analise-balancos", "Administração Financeira e Análise de Balanços", "📈", "Liquidez e capital de giro.", [
             T("1. Análise e capital de giro", "Análise financeira.", [
-                S("Análise de balanços e liquidez", "Indicadores de liquidez e desempenho.", (SEFAZ, "contabilidade-geral", 5, 0)),
+                S("Análise de balanços e liquidez", "Indicadores de liquidez e desempenho.", (SEFAZ, "contabilidade-geral", "indices")),
                 S("Capital de giro, caixa e risco x rentabilidade", "Equilíbrio financeiro e necessidade de capital de giro."),
             ]),
         ]),
@@ -435,14 +440,14 @@ CARGOS += [
         ]),
         D("orcamento-afo-contab", "Orçamento Público / AFO", "💰", "Lei 4.320, LRF, PPA/LDO/LOA e execução.", [
             T("1. Orçamento", "Normas e execução orçamentária.", [
-                S("Lei 4.320/1964 e LRF", "Normas gerais e responsabilidade fiscal.", (SEFAZ, "direito-financeiro", 5, 0)),
-                S("PPA, LDO e LOA", "Leis orçamentárias.", (SEFAZ, "direito-financeiro", 0, 0)),
-                S("Execução: estágios e créditos adicionais", "Estágios da receita/despesa e créditos.", (SEFAZ, "direito-financeiro", 3, 0)),
+                S("Lei 4.320/1964 e LRF", "Normas gerais e responsabilidade fiscal.", (SEFAZ, "direito-financeiro", "gestao-fiscal-responsavel")),
+                S("PPA, LDO e LOA", "Leis orçamentárias.", (SEFAZ, "direito-financeiro", "ppa-ldo-e-loa")),
+                S("Execução: estágios e créditos adicionais", "Estágios da receita/despesa e créditos.", (SEFAZ, "direito-financeiro", "tipos-e-fontes")),
             ]),
         ]),
         D("auditoria-contab", "Auditoria Contábil e Governamental", "🔍", "Controles internos, papéis de trabalho e auditoria por ciclos.", [
             T("1. Auditoria", "Auditoria aplicada.", [
-                S("Controles internos e papéis de trabalho", "Planejamento, execução e avaliação.", (SEFAZ, "auditoria", 2, 0)),
+                S("Controles internos e papéis de trabalho", "Planejamento, execução e avaliação.", (SEFAZ, "auditoria", "componentes-coso")),
                 S("Auditoria por ciclos", "Receitas, compras, estoques, caixa, ativos e passivos."),
             ]),
         ]),
@@ -484,16 +489,16 @@ CARGOS += [
           "Direito civil, processual civil, constitucional, administrativo, financeiro, LGPD e LAI.", [
         D("direito-civil", "Direito Civil", "📜", "LINDB, pessoas, bens, obrigações, contratos e responsabilidade civil.", [
             T("1. LINDB, pessoas e bens", "Parte geral do Direito Civil.", [
-                S("LINDB", "Vigência, integração e interpretação das normas.", (SEFAZ, "direito-civil-empresarial", 0, 0)),
-                S("Pessoas", "Personalidade, capacidade e pessoa jurídica.", (SEFAZ, "direito-civil-empresarial", 1, 0)),
-                S("Bens", "Classificação geral dos bens.", (SEFAZ, "direito-civil-empresarial", 1, 1)),
+                S("LINDB", "Vigência, integração e interpretação das normas.", (SEFAZ, "direito-civil-empresarial", "integracao-e-interpretacao")),
+                S("Pessoas", "Personalidade, capacidade e pessoa jurídica.", (SEFAZ, "direito-civil-empresarial", "pessoa-juridica")),
+                S("Bens", "Classificação geral dos bens.", (SEFAZ, "direito-civil-empresarial", "domicilio-e-bens")),
             ]),
             T("2. Fatos, obrigações e contratos", "Negócios, obrigações e contratos.", [
-                S("Negócio jurídico e defeitos", "Planos e defeitos do negócio jurídico.", (SEFAZ, "direito-civil-empresarial", 2, 0)),
-                S("Prescrição e decadência", "Distinção e prazos.", (SEFAZ, "direito-civil-empresarial", 2, 1)),
-                S("Obrigações", "Modalidades, transmissão e adimplemento.", (SEFAZ, "direito-civil-empresarial", 3, 0)),
-                S("Contratos", "Princípios, formação e espécies.", (SEFAZ, "direito-civil-empresarial", 4, 0)),
-                S("Responsabilidade civil", "Subjetiva/objetiva, nexo e dano.", (SEFAZ, "direito-civil-empresarial", 3, 1)),
+                S("Negócio jurídico e defeitos", "Planos e defeitos do negócio jurídico.", (SEFAZ, "direito-civil-empresarial", "defeitos-do-negocio-juridico")),
+                S("Prescrição e decadência", "Distinção e prazos.", (SEFAZ, "direito-civil-empresarial", "prescricao-e-decadencia")),
+                S("Obrigações", "Modalidades, transmissão e adimplemento.", (SEFAZ, "direito-civil-empresarial", "modalidades-e-extincao")),
+                S("Contratos", "Princípios, formação e espécies.", (SEFAZ, "direito-civil-empresarial", "teoria-geral-e-especies")),
+                S("Responsabilidade civil", "Subjetiva/objetiva, nexo e dano.", (SEFAZ, "direito-civil-empresarial", "responsabilidade-civil")),
             ]),
         ]),
         D("direito-processual-civil", "Direito Processual Civil", "⚖️", "Jurisdição, ação, tutela provisória e procedimento comum.", [
@@ -504,35 +509,35 @@ CARGOS += [
         ]),
         D("direito-constitucional", "Direito Constitucional", "🏛️", "Constituição, direitos, Poderes e controle de constitucionalidade.", [
             T("1. Constituição e direitos", "Teoria e direitos fundamentais.", [
-                S("Constituição e aplicabilidade das normas", "Conceito, classificações e eficácia.", (SEFAZ, "direito-constitucional", 0, 0)),
-                S("Princípios fundamentais", "Arts. 1º a 4º.", (SEFAZ, "direito-constitucional", 0, 1)),
-                S("Direitos e garantias fundamentais", "Individuais, coletivos e sociais.", (SEFAZ, "direito-constitucional", 1, 0)),
+                S("Constituição e aplicabilidade das normas", "Conceito, classificações e eficácia.", (SEFAZ, "direito-constitucional", "aplicabilidade-das-normas")),
+                S("Princípios fundamentais", "Arts. 1º a 4º.", (SEFAZ, "direito-constitucional", "principios-fundamentais-arts-1o-a-4o")),
+                S("Direitos e garantias fundamentais", "Individuais, coletivos e sociais.", (SEFAZ, "direito-constitucional", "direitos-individuais-e-coletivos")),
             ]),
             T("2. Estado, Poderes e controle", "Organização e controle.", [
-                S("Organização do Estado", "Federação e competências.", (SEFAZ, "direito-constitucional", 2, 0)),
-                S("Administração Pública na Constituição", "Arts. 37 a 41.", (SEFAZ, "direito-constitucional", 2, 1)),
-                S("Organização dos Poderes", "Legislativo, Executivo e Judiciário.", (SEFAZ, "direito-constitucional", 3, 0)),
-                S("Controle de constitucionalidade", "Difuso e concentrado.", (TCU, "direito-constitucional", 3, 1)),
+                S("Organização do Estado", "Federação e competências.", (SEFAZ, "direito-constitucional", "reparticao-de-competencias")),
+                S("Administração Pública na Constituição", "Arts. 37 a 41.", (SEFAZ, "direito-constitucional", "administracao-publica-arts-37-a-41")),
+                S("Organização dos Poderes", "Legislativo, Executivo e Judiciário.", (SEFAZ, "direito-constitucional", "processo-legislativo")),
+                S("Controle de constitucionalidade", "Difuso e concentrado.", (TCU, "direito-constitucional", "controle-concentrado-adi-adc-adpf-ado")),
             ]),
         ]),
         D("direito-administrativo", "Direito Administrativo", "🏢", "Atos, poderes, controle, improbidade, processo e licitações.", [
             T("1. Atos, poderes e princípios", "Fundamentos.", [
-                S("Estado, governo e princípios", "Conceitos e princípios.", (SEFAZ, "direito-administrativo", 0, 0)),
-                S("Atos administrativos", "Requisitos, atributos e extinção.", (SEFAZ, "direito-administrativo", 2, 0)),
-                S("Poderes administrativos", "Hierárquico, disciplinar e de polícia.", (SEFAZ, "direito-administrativo", 3, 1)),
+                S("Estado, governo e princípios", "Conceitos e princípios.", (SEFAZ, "direito-administrativo", "principios-administrativos")),
+                S("Atos administrativos", "Requisitos, atributos e extinção.", (SEFAZ, "direito-administrativo", "requisitos-e-atributos")),
+                S("Poderes administrativos", "Hierárquico, disciplinar e de polícia.", (SEFAZ, "direito-administrativo", "poder-disciplinar-e-hierarquico")),
             ]),
             T("2. Controle, improbidade e contratos", "Controle e contratações.", [
-                S("Controle da Administração e Tribunais de Contas", "Controle interno, externo e jurisdicional.", (TCU, "direito-administrativo", 7, 0)),
-                S("Processo administrativo (Lei 9.784/1999)", "Princípios, fases e prazos.", (TCU, "direito-administrativo", 7, 2)),
-                S("Improbidade administrativa (Lei 8.429/1992)", "Modalidades e sanções.", (SEFAZ, "direito-administrativo", 6, 1)),
-                S("Licitações e contratos (Lei 14.133/2021)", "Modalidades e fases.", (SEFAZ, "direito-administrativo", 5, 0)),
-                S("MROSC (Lei 13.019/2014)", "Parcerias com OSCs.", (BASE, "fundamentos-suas-edas", 3, 1)),
+                S("Controle da Administração e Tribunais de Contas", "Controle interno, externo e jurisdicional.", (TCU, "direito-administrativo", "controle-da-administracao-publica")),
+                S("Processo administrativo (Lei 9.784/1999)", "Princípios, fases e prazos.", (TCU, "direito-administrativo", "processo-administrativo-lei-9-784-1999")),
+                S("Improbidade administrativa (Lei 8.429/1992)", "Modalidades e sanções.", (SEFAZ, "direito-administrativo", "improbidade-administrativa")),
+                S("Licitações e contratos (Lei 14.133/2021)", "Modalidades e fases.", (SEFAZ, "direito-administrativo", "modalidades-e-fases")),
+                S("MROSC (Lei 13.019/2014)", "Parcerias com OSCs.", (BASE, "fundamentos-suas-edas", "mrosc-lei-13-019-2014")),
             ]),
         ]),
         D("direito-financeiro", "Direito Financeiro", "💰", "Finanças públicas, orçamento, Lei 4.320 e LRF.", [
             T("1. Finanças e orçamento", "Direito financeiro.", [
-                S("Finanças públicas e orçamento (PPA/LDO/LOA)", "Orçamento na CF e leis orçamentárias.", (SEFAZ, "direito-financeiro", 0, 0)),
-                S("Lei 4.320/1964 e LRF", "Normas gerais e responsabilidade fiscal.", (SEFAZ, "direito-financeiro", 5, 0)),
+                S("Finanças públicas e orçamento (PPA/LDO/LOA)", "Orçamento na CF e leis orçamentárias.", (SEFAZ, "direito-financeiro", "ppa-ldo-e-loa")),
+                S("Lei 4.320/1964 e LRF", "Normas gerais e responsabilidade fiscal.", (SEFAZ, "direito-financeiro", "gestao-fiscal-responsavel")),
             ]),
         ]),
         D("transparencia-dados", "Transparência e Proteção de Dados", "🔐", "LGPD e LAI.", [
@@ -547,9 +552,9 @@ CARGOS += [
           "Teoria econômica, economia do setor público e economia social (pobreza e desigualdade).", [
         D("teoria-economica", "Teoria Econômica", "📈", "Micro e macroeconomia.", [
             T("1. Micro e equilíbrio", "Mercados e equilíbrio.", [
-                S("Oferta, demanda e equilíbrio", "Determinação de preço e quantidade.", (SEFAZ, "economia", 1, 0)),
-                S("Elasticidades", "Sensibilidade a preço e renda.", (SEFAZ, "economia", 2, 0)),
-                S("Estruturas de mercado e falhas", "Monopólio, concorrência e falhas de mercado.", (SEFAZ, "economia", 4, 0)),
+                S("Oferta, demanda e equilíbrio", "Determinação de preço e quantidade.", (SEFAZ, "economia", "deslocamentos-x-movimentos")),
+                S("Elasticidades", "Sensibilidade a preço e renda.", (SEFAZ, "economia", "elasticidade-e-tributacao")),
+                S("Estruturas de mercado e falhas", "Monopólio, concorrência e falhas de mercado.", (SEFAZ, "economia", "falhas-de-mercado")),
             ]),
             T("2. Microeconomia avançada", "Tópicos avançados.", [
                 S("Teoria dos jogos e mercado de fatores", "Interação estratégica e fatores de produção."),
@@ -600,14 +605,14 @@ CARGOS += [
           "Estatística descritiva, probabilidade e inferência, modelagem multivariada e bancos de dados.", [
         D("estatistica-descritiva", "Estatística Descritiva e Análise Exploratória", "📊", "Medidas resumo e indicadores sociais.", [
             T("1. Descritiva", "Resumo de dados.", [
-                S("Medidas de posição", "Média, mediana e moda.", (SEFAZ, "raciocinio-logico", 6, 0)),
-                S("Medidas de dispersão", "Variância, desvio-padrão e CV.", (SEFAZ, "raciocinio-logico", 6, 1)),
+                S("Medidas de posição", "Média, mediana e moda.", (SEFAZ, "raciocinio-logico", "medidas-de-posicao")),
+                S("Medidas de dispersão", "Variância, desvio-padrão e CV.", (SEFAZ, "raciocinio-logico", "medidas-de-dispersao")),
                 S("Indicadores, representação e associação", "Números índices, contingência, risco relativo e odds ratio."),
             ]),
         ]),
         D("probabilidade-inferencia", "Probabilidade e Inferência Estatística", "🎲", "Amostragem, testes e inferência bayesiana.", [
             T("1. Inferência", "Estimação e testes.", [
-                S("Amostragem e estimação", "Distribuições amostrais, TLC e intervalos de confiança.", (SEFAZ, "raciocinio-logico", 6, 3)),
+                S("Amostragem e estimação", "Distribuições amostrais, TLC e intervalos de confiança.", (SEFAZ, "raciocinio-logico", "amostragem-e-estimacao")),
                 S("Testes de hipóteses e qui-quadrado", "Testes para médias/variâncias e qui-quadrado."),
                 S("Inferência bayesiana e não paramétricos", "Probabilidade subjetiva e testes não paramétricos."),
             ]),
@@ -620,9 +625,9 @@ CARGOS += [
         ]),
         D("bancos-dados-estat", "Gestão e Exploração de Bancos de Dados", "🗄️", "Modelagem, SQL e multidimensional.", [
             T("1. Bancos de dados", "Dados para análise.", [
-                S("Modelo ER e relacional", "Projeto conceitual, lógico e físico.", (SEFAZ, "tecnologia-da-informacao", 0, 0)),
-                S("SQL", "Definição e manipulação de dados.", (SEFAZ, "tecnologia-da-informacao", 0, 1)),
-                S("Bancos multidimensionais", "OLAP e apoio à análise estatística.", (SEFAZ, "tecnologia-da-informacao", 2, 0)),
+                S("Modelo ER e relacional", "Projeto conceitual, lógico e físico.", (SEFAZ, "tecnologia-da-informacao", "modelo-relacional-e-chaves")),
+                S("SQL", "Definição e manipulação de dados.", (SEFAZ, "tecnologia-da-informacao", "linguagens-sql")),
+                S("Bancos multidimensionais", "OLAP e apoio à análise estatística.", (SEFAZ, "tecnologia-da-informacao", "esquema-estrela-e-olap")),
             ]),
         ]),
     ]),

@@ -2,8 +2,7 @@
   "slug": "lingua-portuguesa",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "compreensao-x-interpretacao",
       "titulo": "Compreensão x interpretação",
       "intro": "Compreender e interpretar são operações de leitura distintas e complementares. A compreensão fica no nível do que o texto literalmente afirma: extrair informações explícitas, parafrasear o que foi dito, identificar dados, definições e afirmações postas de forma direta. Interpretar é dar um passo adiante: concluir logicamente algo que o texto autoriza, ainda que não esteja escrito com todas as letras.\n\nEm prova de Auditor-Fiscal, a banca explora justamente a fronteira entre as duas. A maioria dos erros do candidato nasce de extrapolar (afirmar o que o texto não diz, trazendo conhecimento de mundo não autorizado) ou de reduzir (ignorar ressalvas, modalizadores e condições). Dominar essa distinção é o alicerce de toda a interpretação textual.",
       "secoes": [
@@ -36,8 +35,7 @@
       "dica_prova": "Sublinhe modalizadores (pode/deve, em geral/sempre, todo/alguns) e ressalvas (embora, salvo, exceto) antes de ler as alternativas — é nelas que a banca constrói as pegadinhas. Desconfie de itens que pareçam 'verdade do mundo real' mas que o texto não sustenta: a prova mede leitura, não opinião."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "ideia-central-e-secundarias",
       "titulo": "Ideia central e secundárias",
       "intro": "Todo texto bem construído gira em torno de uma ideia central (tese ou tema dominante) sustentada por ideias secundárias (argumentos, exemplos, dados, contra-argumentos). Saber separar o núcleo do que é apenas apoio é essencial para responder questões de \"título adequado\", \"síntese do texto\" e \"finalidade do parágrafo\".\n\nA ideia central responde à pergunta \"sobre o que o texto trata, no fundo, e o que ele defende?\". As secundárias respondem \"como o autor sustenta isso?\". Confundir uma ideia secundária (um exemplo chamativo, um dado curioso) com a tese é um erro frequente que a banca induz.",
       "secoes": [
@@ -70,8 +68,7 @@
       "dica_prova": "Cuidado com a 'armadilha do exemplo marcante': a banca oferece como título ou como ideia principal justamente o exemplo mais chamativo do texto, que é apenas apoio. E desconfie de tomar um contra-argumento como posição do autor — verifique se logo depois há uma refutação introduzida por 'mas', 'porém', 'contudo'."
     },
     {
-      "ti": 0,
-      "si": 2,
+      "sid": "inferencia-e-pressuposto",
       "titulo": "Inferência e pressuposto",
       "intro": "Nem tudo num texto é dito de forma explícita. Parte do sentido fica implícita e precisa ser recuperada pelo leitor. Os dois principais mecanismos de implícito são o pressuposto e o subentendido (ou inferência contextual), conceitos que as bancas adoram cobrar porque exigem leitura fina.\n\nPressuposto é a informação implícita ancorada na própria estrutura linguística da frase — está embutido em certas palavras e não pode ser negado sem contradição. Subentendido depende do contexto e da intenção, sendo mais frágil e dedutível por inferência.",
       "secoes": [
@@ -104,8 +101,7 @@
       "dica_prova": "A pegadinha clássica é chamar de 'pressuposto' algo que é apenas subentendido (ou vice-versa). Aplique o teste da negação: pressuposto sobrevive à negação da frase; subentendido, não. E lembre que 'inferir' em prova só vale quando o texto dá base — não confunda inferência com adivinhação ou opinião pessoal."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "acentuacao-grafica",
       "titulo": "Acentuação gráfica",
       "intro": "A acentuação gráfica marca, na escrita, a sílaba tônica e a qualidade de certas vogais, seguindo regras fixas do Acordo Ortográfico vigente. Saber acentuar corretamente depende de dominar dois pré-requisitos: identificar a sílaba tônica (oxítona, paroxítona ou proparoxítona) e reconhecer estruturas como ditongos e hiatos.\n\nApós o Acordo Ortográfico (em vigor obrigatoriamente desde 2016 no Brasil), algumas regras mudaram — caíram o trema e certos acentos diferenciais, e palavras como 'ideia' e 'heroico' perderam o acento. Esse é justamente um ponto que as bancas exploram.",
       "secoes": [
@@ -143,8 +139,7 @@
       "dica_prova": "As bancas adoram cobrar as mudanças do Acordo: ideia, heroico, voo, leem, linguiça (sem trema) e os diferenciais que sobreviveram (pôde/pode, pôr/por). Memorize também a justificativa de cada acento — muitas questões pedem 'palavra acentuada pela mesma regra que X', então saber o porquê (oxítona? hiato? proparoxítona?) vale mais que decorar a palavra."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "emprego-da-crase",
       "titulo": "Emprego da crase",
       "intro": "A crase é a fusão de duas vogais idênticas 'a + a', indicada pelo acento grave (à). Na maioria dos casos, resulta do encontro da preposição 'a' (exigida por um verbo ou nome) com o artigo definido feminino 'a' (que acompanha o substantivo). Por isso, a regra mestra é: há crase quando houver, ao mesmo tempo, preposição 'a' E artigo 'a'.\n\nA crase é um dos temas mais cobrados em provas de Auditor-Fiscal porque combina regência (de onde vem a preposição) e concordância/gênero (de onde vem o artigo). Dominá-la depende de identificar esses dois elementos.",
       "secoes": [
@@ -182,8 +177,7 @@
       "dica_prova": "Memorize os 'nuncas' (masculino, verbo, pronome de tratamento, palavras repetidas) porque a banca costura frases longas para esconder a ausência de artigo. Atenção especial a 'a distância' x 'à distância especificada', 'à vista' (com crase) e 'a partir de' (sem crase) — campeões de pegadinha. E sempre faça o teste do masculino: é o atalho mais seguro."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "pronomes",
       "titulo": "Pronomes",
       "intro": "Pronomes são palavras que substituem ou acompanham o substantivo, indicando as pessoas do discurso, situando elementos no espaço/tempo, atribuindo posse ou retomando termos já citados. São essenciais para a coesão textual e aparecem em questões de regência, colocação pronominal, concordância e interpretação (referenciação).\n\nClassificam-se em pessoais, possessivos, demonstrativos, relativos, indefinidos, interrogativos e de tratamento. Para a prova merecem destaque especial os relativos (que regem a sintaxe da oração adjetiva) e os demonstrativos (referência textual e temporal).",
       "secoes": [
@@ -217,8 +211,7 @@
       "dica_prova": "Os relativos são minas de pegadinha: 'cujo o' (sempre errado), 'onde' fora de lugar físico, e a falta da preposição exigida pela regência ('o assunto que me referi' está errado — o certo é 'a que me referi'). Em demonstrativos, lembre da regra textual: 'este' aponta para frente (o que será dito), 'esse' retoma o que já foi dito."
     },
     {
-      "ti": 2,
-      "si": 1,
+      "sid": "conjuncoes",
       "titulo": "Conjunções",
       "intro": "Conjunções são palavras invariáveis que conectam orações ou termos de mesma função, estabelecendo entre eles uma relação lógica (adição, oposição, causa, condição etc.). São decisivas para a coesão e a coerência: trocar uma conjunção altera o sentido da frase, e por isso o tema cai muito em questões de reescrita e de relações semânticas.\n\nDividem-se em coordenativas (ligam elementos sintaticamente independentes) e subordinativas (ligam uma oração dependente a uma principal). Mais importante que decorar listas é reconhecer a relação lógica que cada conjunção expressa.",
       "secoes": [
@@ -252,8 +245,7 @@
       "dica_prova": "A pegadinha número um é confundir adversidade/concessão com causa, invertendo a lógica na reescrita. Memorize os grupos de equivalência (causais: porque/já que/visto que/uma vez que; concessivas: embora/ainda que/mesmo que/conquanto). E cuidado com 'pois': sua classificação muda conforme a posição em relação ao verbo."
     },
     {
-      "ti": 3,
-      "si": 0,
+      "sid": "concordancia-verbal-e-nominal",
       "titulo": "Concordância verbal e nominal",
       "intro": "Concordância é o ajuste das palavras entre si. Na concordância verbal, o verbo se flexiona em número e pessoa para harmonizar-se com o sujeito; na nominal, artigos, adjetivos, pronomes e numerais ajustam-se em gênero e número ao substantivo a que se referem. É um dos temas mais densos da sintaxe e cobradíssimo em provas fiscais, pois envolve dezenas de casos especiais.\n\nA regra geral é simples (verbo concorda com o sujeito; nome concorda com o substantivo), mas as exceções — sujeito composto, partitivos, verbos impessoais, expressões fracionárias — é que decidem as questões.",
       "secoes": [
@@ -287,8 +279,7 @@
       "dica_prova": "O 'haver' impessoal flexionado no plural é a pegadinha mais cobrada do Brasil — 'haviam pessoas', 'devem haver motivos' estão sempre ERRADOS. Memorize o contraste com 'existir' (concorda) e fique atento aos partitivos, em que ambas as concordâncias costumam ser aceitas. Em concordância nominal, revise 'anexo/incluso' (variam), 'menos' (invariável) e 'meio' advérbio (invariável)."
     },
     {
-      "ti": 3,
-      "si": 1,
+      "sid": "regencia-verbal-e-nominal",
       "titulo": "Regência verbal e nominal",
       "intro": "Regência estuda a relação de dependência entre um termo regente (verbo ou nome) e seu complemento, indicando se essa ligação exige ou não preposição, e qual. É a base para decidir o uso da crase, a escolha do pronome relativo (a que, em que, de que) e a correção de complementos.\n\nNa regência verbal, o verbo é o termo regente; na nominal, são nomes (substantivos, adjetivos, advérbios). Muitos verbos mudam de sentido conforme a regência (assistir, aspirar, visar, proceder), e é exatamente essa variação que as bancas exploram.",
       "secoes": [
@@ -326,8 +317,7 @@
       "dica_prova": "Decore o quarteto 'assistir/aspirar/visar/proceder' com seus dois sentidos — é presença garantida. Lembre que 'preferir' nunca aceita 'do que' e que verbos de movimento pedem 'a' (não 'em'). E sempre que vir um pronome relativo, verifique a regência do verbo da oração adjetiva: a ausência da preposição obrigatória ('o que me refiro' em vez de 'a que me refiro') é erro recorrente."
     },
     {
-      "ti": 3,
-      "si": 2,
+      "sid": "colocacao-pronominal",
       "titulo": "Colocação pronominal",
       "intro": "Colocação pronominal é o estudo da posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, lhes) em relação ao verbo. Há três posições possíveis: próclise (antes do verbo: 'me diga'), mesóclise (no meio do verbo: 'dir-me-á') e ênclise (depois do verbo: 'diga-me').\n\nA regra padrão da norma culta brasileira favorece a ênclise, mas há fatores de atração que obrigam a próclise e situações específicas que pedem mesóclise. Saber identificar as palavras atrativas é o segredo para acertar as questões.",
       "secoes": [
@@ -361,8 +351,7 @@
       "dica_prova": "O coração das questões é detectar a palavra atrativa: presença de 'não', advérbio ou conjunção subordinante antes do verbo (sem vírgula) torna a próclise obrigatória e proíbe ênclise/mesóclise. As duas pegadinhas mais cobradas: (1) mesóclise indevida com 'não' antes ('não far-se-á' é erro); (2) iniciar oração com pronome átono na escrita formal."
     },
     {
-      "ti": 4,
-      "si": 0,
+      "sid": "periodo-composto",
       "titulo": "Período composto",
       "intro": "Período é a frase organizada em torno de um ou mais verbos. Período simples tem uma só oração (um verbo); período composto tem duas ou mais orações. As orações de um período composto relacionam-se por coordenação (são independentes entre si) ou por subordinação (uma depende sintaticamente da outra).\n\nReconhecer o tipo de relação entre as orações é o que orienta a pontuação e a interpretação. Por isso, esse tópico costura sintaxe e pontuação: saber se uma oração é coordenada ou subordinada, e de que tipo, define onde a vírgula pode ou não entrar.",
       "secoes": [
@@ -396,8 +385,7 @@
       "dica_prova": "A grande pegadinha é colocar vírgula entre o verbo e a oração substantiva objetiva direta ('Acredito, que...' é ERRO). Diferencie sempre coordenação (orações completas que se somam) de subordinação (oração que preenche função). E lembre: oração adverbial deslocada para o início pede vírgula — é a justificativa mais cobrada para o uso da vírgula no período composto."
     },
     {
-      "ti": 4,
-      "si": 1,
+      "sid": "oracoes-adjetivas",
       "titulo": "Orações adjetivas",
       "intro": "As orações subordinadas adjetivas funcionam como um adjetivo: modificam um substantivo antecedente e são introduzidas por pronomes relativos (que, qual, quem, cujo, onde). Dividem-se em dois tipos com consequências decisivas para a pontuação e o sentido: explicativas e restritivas.\n\nA diferença entre elas não é só gramatical — é semântica. Trocar uma pela outra (colocando ou retirando vírgulas) muda o significado da frase. Por isso, esse é um dos pontos mais cobrados em provas, sobretudo em itens de reescrita e de alteração de sentido.",
       "secoes": [
@@ -431,8 +419,7 @@
       "dica_prova": "A pegadinha-mãe é a alteração de sentido pela vírgula: a banca acrescenta ou retira as vírgulas e pergunta se o significado muda — e quase sempre muda (de 'todos' para 'apenas alguns', ou vice-versa). Treine reconhecer se o antecedente já está definido (pede explicativa) ou se precisa ser delimitado (pede restritiva). E combine com regência: verifique a preposição antes do relativo."
     },
     {
-      "ti": 5,
-      "si": 0,
+      "sid": "coesao-e-coerencia",
       "titulo": "Coesão e coerência",
       "intro": "Coesão e coerência são as duas propriedades que transformam um amontoado de frases em um texto. A coesão é a amarração formal e visível entre as partes (conectivos, pronomes, elipses, repetições controladas); a coerência é a unidade de sentido, a lógica global que faz o texto 'fechar'.\n\nUm texto pode ser coeso e incoerente (bem conectado, mas sem sentido lógico) ou coerente com falhas de coesão. Em prova, o tema aparece em questões de substituição de conectivos, identificação de referentes e avaliação se uma reescrita preserva a articulação textual.",
       "secoes": [
@@ -466,8 +453,7 @@
       "dica_prova": "Nas questões de substituição de conectivos, classifique primeiro a relação lógica do original (causa? oposição? conclusão?) e só aceite a troca por um conectivo da mesma classe. A pegadinha é oferecer um conectivo gramaticalmente encaixável, mas de relação diferente (trocar conclusão por causa). Em referenciação, sempre confirme qual termo o pronome retoma — o mais próximo nem sempre é o correto."
     },
     {
-      "ti": 5,
-      "si": 1,
+      "sid": "figuras-de-linguagem",
       "titulo": "Figuras de linguagem",
       "intro": "Figuras de linguagem são recursos expressivos que afastam a linguagem de seu sentido literal (denotativo) para criar efeitos de estilo, ênfase ou conotação. Aparecem sobretudo em textos literários, publicitários e jornalísticos, e são cobradas em questões de interpretação que perguntam o efeito de sentido de uma passagem.\n\nClassificam-se, didaticamente, em figuras de palavras (semânticas), figuras de pensamento, figuras de sintaxe (construção) e figuras de som. Em textos oficiais predomina a denotação; por isso o conhecimento das figuras é mobilizado mais na leitura de outros gêneros do que na redação oficial.",
       "secoes": [
@@ -501,8 +487,7 @@
       "dica_prova": "As confusões mais cobradas: metáfora x comparação (a comparação tem 'como'; a metáfora, não) e metáfora x metonímia (semelhança x contiguidade). Lembre que metonímia abrange casos como 'autor pela obra' e 'lugar pela instituição'. Em interpretação, a banca costuma perguntar se uma palavra está em sentido denotativo ou conotativo — leia sempre no contexto, pois a mesma palavra pode ter os dois usos."
     },
     {
-      "ti": 6,
-      "si": 0,
+      "sid": "atributos-do-texto-oficial",
       "titulo": "Atributos do texto oficial",
       "intro": "A redação oficial é a maneira pela qual a Administração Pública redige atos normativos e comunicações. Não é um estilo pessoal, mas um conjunto de atributos padronizados que decorrem do princípio constitucional da impessoalidade (art. 37 da CF/88) e visam a uma comunicação clara, uniforme e eficiente entre os órgãos e com o cidadão.\n\nO Manual de Redação da Presidência da República é a referência nacional e consolida esses atributos. Para o Auditor-Fiscal, que redige pareceres, despachos e autos, dominar esses princípios é tanto matéria de prova quanto requisito da atividade profissional.",
       "secoes": [
@@ -536,8 +521,7 @@
       "dica_prova": "A pegadinha número um é a concordância dos pronomes de tratamento: eles pedem verbo e possessivo na 3ª pessoa ('Vossa Senhoria apresentará seu parecer', nunca 'apresentareis vosso'). Memorize também o par Vossa/Sua e o fato de que marcas de subjetividade/emoção e o rebuscamento ferem a impessoalidade e a concisão. A banca adora trechos pomposos para você apontar o erro."
     },
     {
-      "ti": 6,
-      "si": 1,
+      "sid": "tipos-de-documentos",
       "titulo": "Tipos de documentos",
       "intro": "A redação oficial materializa-se em diferentes espécies de documentos, cada um com função, estrutura e formalidades próprias. O candidato deve reconhecer cada tipo, suas partes constitutivas (vocativo, corpo, fecho), o pronome de tratamento adequado e o fecho correto.\n\nUma novidade importante do Manual de Redação da Presidência (3ª edição) foi a unificação das comunicações oficiais sob o nome de 'ofício', extinguindo a antiga distinção entre ofício, memorando e aviso. Esse ponto é muito cobrado e atualiza conceitos que ainda circulam em materiais antigos.",
       "secoes": [

@@ -2,15 +2,26 @@
   "slug": "programas-beneficios-df",
   "itens": [
     {
-      "ti": 0,
-      "si": 0,
+      "sid": "cartao-prato-cheio-lei-7-009-2021",
       "titulo": "Cartão Prato Cheio (Lei 7.009/2021)",
       "intro": "O Cartão Prato Cheio é um programa de provimento alimentar do Distrito Federal, instituído pela Lei nº 7.009/2021, voltado ao enfrentamento da insegurança alimentar de famílias em situação de vulnerabilidade social. Trata-se de um benefício pago em cartão magnético de uso restrito à aquisição de gêneros alimentícios, em caráter emergencial e temporário.\n\nO programa integra a estratégia distrital de segurança alimentar e nutricional e de combate à pobreza (em articulação com o Plano DF Social), tendo como porta de acesso, em regra, a inscrição e a atualização no Cadastro Único (CadÚnico).",
       "secoes": [
-        { "h": "Objetivo e natureza", "p": "O objetivo é garantir o acesso à alimentação a famílias em insegurança alimentar, com transferência de valor mensal em cartão de uso exclusivo para compra de alimentos. É benefício emergencial e temporário, com prazo de concessão definido em norma e possibilidade de prorrogação, conforme a manutenção dos critérios." },
-        { "h": "Público-alvo e critérios", "p": "Destina-se a famílias em situação de vulnerabilidade e insegurança alimentar, identificadas por critérios de renda e inscrição no CadÚnico. A focalização privilegia famílias de baixa renda, frequentemente com prioridade para grupos como famílias com crianças, mulheres responsáveis pela família e pessoas em situação de extrema pobreza." },
-        { "h": "Operacionalização e uso do cartão", "p": "O benefício é disponibilizado em cartão magnético cujo uso é restrito a estabelecimentos credenciados e à compra de alimentos, vedada a aquisição de bebidas alcoólicas, cigarros e produtos não alimentícios. A gestão é da SEDES, que define concessão, suspensão e cancelamento conforme o cumprimento dos requisitos." },
-        { "h": "Articulação com a rede socioassistencial", "p": "O acesso e o acompanhamento das famílias se dão por meio dos equipamentos do SUAS (CRAS), integrando o benefício ao trabalho social com famílias e a outras ações (benefícios eventuais, programas de transferência de renda), em coerência com o Protocolo de Gestão Integrada." }
+        {
+          "h": "Objetivo e natureza",
+          "p": "O objetivo é garantir o acesso à alimentação a famílias em insegurança alimentar, com transferência de valor mensal em cartão de uso exclusivo para compra de alimentos. É benefício emergencial e temporário, com prazo de concessão definido em norma e possibilidade de prorrogação, conforme a manutenção dos critérios."
+        },
+        {
+          "h": "Público-alvo e critérios",
+          "p": "Destina-se a famílias em situação de vulnerabilidade e insegurança alimentar, identificadas por critérios de renda e inscrição no CadÚnico. A focalização privilegia famílias de baixa renda, frequentemente com prioridade para grupos como famílias com crianças, mulheres responsáveis pela família e pessoas em situação de extrema pobreza."
+        },
+        {
+          "h": "Operacionalização e uso do cartão",
+          "p": "O benefício é disponibilizado em cartão magnético cujo uso é restrito a estabelecimentos credenciados e à compra de alimentos, vedada a aquisição de bebidas alcoólicas, cigarros e produtos não alimentícios. A gestão é da SEDES, que define concessão, suspensão e cancelamento conforme o cumprimento dos requisitos."
+        },
+        {
+          "h": "Articulação com a rede socioassistencial",
+          "p": "O acesso e o acompanhamento das famílias se dão por meio dos equipamentos do SUAS (CRAS), integrando o benefício ao trabalho social com famílias e a outras ações (benefícios eventuais, programas de transferência de renda), em coerência com o Protocolo de Gestão Integrada."
+        }
       ],
       "exemplo": "Cenário aplicado: uma família monoparental chefiada por mulher, com três filhos e renda quase nula, inscrita e com cadastro atualizado no CadÚnico, é incluída no Cartão Prato Cheio para garantir alimentação enquanto é acompanhada pelo CRAS, que também a encaminha a outros benefícios e à qualificação profissional.",
       "pontos_chave": [
@@ -24,15 +35,26 @@
       "dica_prova": "Associe o número (Lei 7.009/2021) e a finalidade (alimentação, não dinheiro livre). Pegadinha: afirmar que o cartão pode ser usado para qualquer compra — é restrito a alimentos. O acesso passa pelo CadÚnico."
     },
     {
-      "ti": 0,
-      "si": 1,
+      "sid": "cartao-gas-lei-6-938-2021",
       "titulo": "Cartão Gás (Lei 6.938/2021)",
       "intro": "O Programa Cartão Gás é um benefício do Distrito Federal instituído pela Lei nº 6.938, de 10 de agosto de 2021, destinado a assegurar às famílias de baixa renda o acesso ao gás liquefeito de petróleo (GLP de 13 kg) para uso doméstico. Surgiu como medida de enfrentamento dos efeitos sociais e econômicos da pandemia de Covid-19 e, posteriormente, foi consolidado como política permanente (Lei 7.475/2024).\n\nConsiste em auxílio financeiro concedido em parcelas sucessivas (bimestrais), operacionalizado pela SEDES com o Banco de Brasília (BRB) como agente financeiro, articulado com os demais programas distritais e tendo o CadÚnico como base de seleção.",
       "secoes": [
-        { "h": "Objetivo e natureza", "p": "Visa a custear, total ou parcialmente, a aquisição periódica do gás de cozinha (GLP de 13 kg) por famílias de baixa renda, assegurando condições mínimas para o preparo de alimentos. É auxílio financeiro de transferência com finalidade específica, concedido em parcelas sucessivas bimestrais, conforme valor definido em norma." },
-        { "h": "Público-alvo e critérios", "p": "Destina-se a famílias com renda per capita de até meio salário mínimo, em situação de vulnerabilidade social, identificadas pelo CadÚnico, observadas as prioridades definidas em norma. A focalização busca alcançar as famílias mais pobres, muitas vezes as mesmas beneficiárias de outros programas distritais." },
-        { "h": "Operacionalização", "p": "O auxílio é repassado por meio de crédito financeiro, tendo o Banco de Brasília (BRB) como agente financeiro. A SEDES é responsável pela coordenação, gestão, concessão, manutenção e cancelamento, conforme a permanência dos requisitos e a atualização cadastral." },
-        { "h": "Integração com a política social", "p": "O Cartão Gás integra o conjunto de benefícios distritais de combate à pobreza (junto ao Cartão Prato Cheio e ao Plano DF Social) e à segurança alimentar, sendo o CadÚnico a base de seleção e o CRAS o ponto de acompanhamento das famílias." }
+        {
+          "h": "Objetivo e natureza",
+          "p": "Visa a custear, total ou parcialmente, a aquisição periódica do gás de cozinha (GLP de 13 kg) por famílias de baixa renda, assegurando condições mínimas para o preparo de alimentos. É auxílio financeiro de transferência com finalidade específica, concedido em parcelas sucessivas bimestrais, conforme valor definido em norma."
+        },
+        {
+          "h": "Público-alvo e critérios",
+          "p": "Destina-se a famílias com renda per capita de até meio salário mínimo, em situação de vulnerabilidade social, identificadas pelo CadÚnico, observadas as prioridades definidas em norma. A focalização busca alcançar as famílias mais pobres, muitas vezes as mesmas beneficiárias de outros programas distritais."
+        },
+        {
+          "h": "Operacionalização",
+          "p": "O auxílio é repassado por meio de crédito financeiro, tendo o Banco de Brasília (BRB) como agente financeiro. A SEDES é responsável pela coordenação, gestão, concessão, manutenção e cancelamento, conforme a permanência dos requisitos e a atualização cadastral."
+        },
+        {
+          "h": "Integração com a política social",
+          "p": "O Cartão Gás integra o conjunto de benefícios distritais de combate à pobreza (junto ao Cartão Prato Cheio e ao Plano DF Social) e à segurança alimentar, sendo o CadÚnico a base de seleção e o CRAS o ponto de acompanhamento das famílias."
+        }
       ],
       "exemplo": "Cenário aplicado: uma família já beneficiária do Cartão Prato Cheio relata não conseguir cozinhar os alimentos por falta de gás. O CRAS verifica que ela atende aos critérios e a inclui no Cartão Gás, demonstrando a complementaridade dos benefícios distritais na garantia da segurança alimentar.",
       "pontos_chave": [
@@ -46,15 +68,26 @@
       "dica_prova": "Não confunda os números: Cartão Gás = Lei 6.938/2021; Cartão Prato Cheio = Lei 7.009/2021. O Cartão Gás é auxílio financeiro com finalidade específica (GLP), pago em parcelas bimestrais. A base de seleção é o CadÚnico, e a gestão é da SEDES."
     },
     {
-      "ti": 1,
-      "si": 0,
+      "sid": "plano-df-social-lei-7-008-2021",
       "titulo": "Plano DF Social (Lei 7.008/2021)",
       "intro": "O Plano DF Social, instituído pela Lei nº 7.008/2021, é a política distrital de combate à pobreza e à desigualdade social no DF. Funciona como um plano guarda-chuva que articula programas, benefícios e ações intersetoriais (assistência social, segurança alimentar, trabalho, renda, habitação) voltados à superação da pobreza e da extrema pobreza.\n\nMais do que um benefício isolado, o Plano DF Social estabelece diretrizes, metas e a coordenação das diversas iniciativas, tendo a SEDES como articuladora e o CadÚnico como instrumento de identificação do público.",
       "secoes": [
-        { "h": "Objetivos do plano", "p": "Reduzir a pobreza e a extrema pobreza, diminuir a desigualdade, garantir segurança alimentar e nutricional e promover a inclusão social e produtiva das famílias vulneráveis. Busca articular transferência de renda com acesso a serviços e oportunidades de geração de renda, na lógica da \"porta de saída\" da pobreza." },
-        { "h": "Eixos e ações articuladas", "p": "O plano organiza ações em eixos como garantia de renda e provimento alimentar (incluindo o Cartão Prato Cheio e o Cartão Gás), inclusão produtiva e qualificação, acesso a serviços públicos e fortalecimento da rede socioassistencial. Reúne sob uma coordenação comum programas que, isoladamente, atenderiam apenas a parte das necessidades." },
-        { "h": "Público e identificação", "p": "Destina-se às famílias em situação de pobreza e extrema pobreza no DF, identificadas pelo CadÚnico, com critérios de renda per capita. A priorização recai sobre os mais vulneráveis, em consonância com o princípio da equidade e da focalização." },
-        { "h": "Gestão e intersetorialidade", "p": "A coordenação é da SEDES, mas a execução é intersetorial, envolvendo várias secretarias e a rede do SUAS. O plano prevê monitoramento de metas e indicadores e o uso da vigilância socioassistencial para orientar a oferta nos territórios mais vulneráveis." }
+        {
+          "h": "Objetivos do plano",
+          "p": "Reduzir a pobreza e a extrema pobreza, diminuir a desigualdade, garantir segurança alimentar e nutricional e promover a inclusão social e produtiva das famílias vulneráveis. Busca articular transferência de renda com acesso a serviços e oportunidades de geração de renda, na lógica da \"porta de saída\" da pobreza."
+        },
+        {
+          "h": "Eixos e ações articuladas",
+          "p": "O plano organiza ações em eixos como garantia de renda e provimento alimentar (incluindo o Cartão Prato Cheio e o Cartão Gás), inclusão produtiva e qualificação, acesso a serviços públicos e fortalecimento da rede socioassistencial. Reúne sob uma coordenação comum programas que, isoladamente, atenderiam apenas a parte das necessidades."
+        },
+        {
+          "h": "Público e identificação",
+          "p": "Destina-se às famílias em situação de pobreza e extrema pobreza no DF, identificadas pelo CadÚnico, com critérios de renda per capita. A priorização recai sobre os mais vulneráveis, em consonância com o princípio da equidade e da focalização."
+        },
+        {
+          "h": "Gestão e intersetorialidade",
+          "p": "A coordenação é da SEDES, mas a execução é intersetorial, envolvendo várias secretarias e a rede do SUAS. O plano prevê monitoramento de metas e indicadores e o uso da vigilância socioassistencial para orientar a oferta nos territórios mais vulneráveis."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"O Plano DF Social é um benefício pecuniário pago diretamente às famílias, sem articulação com outros programas ou políticas.\" — ERRADO. O Plano DF Social não é um benefício isolado, mas uma política guarda-chuva, intersetorial, que articula diversos programas e benefícios (como o Cartão Prato Cheio e o Cartão Gás) de combate à pobreza.",
       "pontos_chave": [
@@ -68,15 +101,26 @@
       "dica_prova": "Memorize a sequência de leis de 2021: 7.008 (Plano DF Social), 7.009 (Prato Cheio), 6.938 (Cartão Gás). Pegadinha: tratar o Plano DF Social como simples benefício em dinheiro — ele é uma política articuladora, intersetorial."
     },
     {
-      "ti": 1,
-      "si": 1,
+      "sid": "beneficios-eventuais-lei-5-165-2013",
       "titulo": "Benefícios Eventuais (Lei 5.165/2013)",
       "intro": "Os benefícios eventuais são provisões suplementares e provisórias, prestadas no âmbito da assistência social aos cidadãos e famílias em situações de vulnerabilidade temporária, conforme previsto na LOAS (art. 22) e regulamentado, no DF, pela Lei nº 5.165/2013. Caracterizam-se pela transitoriedade e pelo caráter complementar, não se confundindo com benefícios continuados (como o BPC).\n\nDestinam-se a enfrentar contingências como nascimento, morte, situações de vulnerabilidade temporária e calamidade pública, garantindo dignidade em momentos de ruptura ou risco.",
       "secoes": [
-        { "h": "Conceito e fundamento legal", "p": "Previstos no art. 22 da LOAS, são benefícios da assistência social, não contributivos, custeados pelo poder público. São provisórios e suplementares, integrando a segurança de sobrevivência. No DF, a Lei 5.165/2013 disciplina sua concessão, valores e critérios." },
-        { "h": "Modalidades", "p": "As modalidades clássicas são: o auxílio-natalidade (em razão de nascimento) e o auxílio por morte/funeral (despesas de funeral). Há ainda os benefícios para situações de vulnerabilidade temporária (perda de documentos, falta de alimentos, desabrigo) e os destinados a situações de calamidade pública (eventos que comprometem a sobrevivência e a moradia)." },
-        { "h": "Critérios e concessão", "p": "São concedidos a famílias e indivíduos em situação de vulnerabilidade temporária, observados critérios de renda e a avaliação técnica (não exigem necessariamente prazo de carência). A concessão pode ser em pecúnia ou em bens/serviços, conforme a regulamentação, e é operacionalizada pelos equipamentos do SUAS (CRAS/CREAS)." },
-        { "h": "Distinção em relação a outros benefícios", "p": "Diferem do BPC (benefício continuado, valor de um salário mínimo, exige idade ou deficiência e baixa renda) e da transferência de renda condicionada. Os eventuais são pontuais, ligados a uma contingência específica, e não geram direito permanente." }
+        {
+          "h": "Conceito e fundamento legal",
+          "p": "Previstos no art. 22 da LOAS, são benefícios da assistência social, não contributivos, custeados pelo poder público. São provisórios e suplementares, integrando a segurança de sobrevivência. No DF, a Lei 5.165/2013 disciplina sua concessão, valores e critérios."
+        },
+        {
+          "h": "Modalidades",
+          "p": "As modalidades clássicas são: o auxílio-natalidade (em razão de nascimento) e o auxílio por morte/funeral (despesas de funeral). Há ainda os benefícios para situações de vulnerabilidade temporária (perda de documentos, falta de alimentos, desabrigo) e os destinados a situações de calamidade pública (eventos que comprometem a sobrevivência e a moradia)."
+        },
+        {
+          "h": "Critérios e concessão",
+          "p": "São concedidos a famílias e indivíduos em situação de vulnerabilidade temporária, observados critérios de renda e a avaliação técnica (não exigem necessariamente prazo de carência). A concessão pode ser em pecúnia ou em bens/serviços, conforme a regulamentação, e é operacionalizada pelos equipamentos do SUAS (CRAS/CREAS)."
+        },
+        {
+          "h": "Distinção em relação a outros benefícios",
+          "p": "Diferem do BPC (benefício continuado, valor de um salário mínimo, exige idade ou deficiência e baixa renda) e da transferência de renda condicionada. Os eventuais são pontuais, ligados a uma contingência específica, e não geram direito permanente."
+        }
       ],
       "exemplo": "Item Cebraspe (adaptado): \"O benefício eventual, por ser provisão da assistência social, é concedido em caráter permanente e mensal às famílias de baixa renda do DF.\" — ERRADO. Benefícios eventuais são PROVISÓRIOS e SUPLEMENTARES, vinculados a contingências específicas (nascimento, morte, vulnerabilidade temporária, calamidade); não são permanentes nem mensais por natureza.",
       "pontos_chave": [
@@ -90,15 +134,26 @@
       "dica_prova": "Palavra-chave: \"eventual\" = provisório e suplementar. A banca tenta caracterizá-lo como permanente/mensal (ERRADO). Não confunda com o BPC (continuado). No DF, a regulamentação é a Lei 5.165/2013, ancorada no art. 22 da LOAS."
     },
     {
-      "ti": 2,
-      "si": 0,
+      "sid": "sisan-restaurante-comunitario",
       "titulo": "SISAN / Restaurante Comunitário",
       "intro": "A segurança alimentar e nutricional (SAN) é o direito de todos ao acesso regular e permanente a alimentos de qualidade, em quantidade suficiente, sem comprometer o acesso a outras necessidades essenciais, com base em práticas alimentares saudáveis. O Sistema Nacional de Segurança Alimentar e Nutricional (SISAN) foi criado pela Lei nº 11.346/2006 (LOSAN) e, no DF, ações e equipamentos como os Restaurantes Comunitários foram regulamentados pelo Decreto nº 33.329/2011.\n\nOs Restaurantes Comunitários ofertam refeições saudáveis a preços simbólicos (subsidiados), priorizando populações vulneráveis e integrando a política distrital de SAN.",
       "secoes": [
-        { "h": "Conceito de SAN e o DHAA", "p": "A SAN compreende o Direito Humano à Alimentação Adequada (DHAA): acesso físico e econômico a alimentos, em quantidade e qualidade, de forma permanente e sustentável. Vai além de combater a fome: abrange qualidade nutricional, hábitos saudáveis e respeito à diversidade cultural alimentar. É dever do Estado garanti-lo." },
-        { "h": "SISAN (LOSAN, Lei 11.346/2006)", "p": "O SISAN é o sistema que articula órgãos e entidades dos três níveis de governo e a sociedade civil para formular e implementar políticas de SAN. Seus componentes incluem a Conferência e o Conselho de Segurança Alimentar e Nutricional (CONSEA) e a Câmara Interministerial (CAISAN). Baseia-se em participação social, intersetorialidade e equidade." },
-        { "h": "Restaurantes Comunitários no DF", "p": "Regulamentados pelo Decreto distrital 33.329/2011, ofertam refeições nutricionalmente balanceadas a preço subsidiado/simbólico, em locais de grande circulação e em regiões de maior vulnerabilidade. Atendem trabalhadores de baixa renda, pessoas em situação de rua e populações vulneráveis, sendo equipamento estratégico de SAN do DF." },
-        { "h": "Articulação com a assistência social", "p": "Os equipamentos de SAN (restaurantes comunitários, bancos de alimentos, cozinhas comunitárias) dialogam com o SUAS e com os programas de provimento alimentar (Cartão Prato Cheio). Compõem a rede de proteção, contribuindo para a segurança de sobrevivência e a redução da insegurança alimentar." }
+        {
+          "h": "Conceito de SAN e o DHAA",
+          "p": "A SAN compreende o Direito Humano à Alimentação Adequada (DHAA): acesso físico e econômico a alimentos, em quantidade e qualidade, de forma permanente e sustentável. Vai além de combater a fome: abrange qualidade nutricional, hábitos saudáveis e respeito à diversidade cultural alimentar. É dever do Estado garanti-lo."
+        },
+        {
+          "h": "SISAN (LOSAN, Lei 11.346/2006)",
+          "p": "O SISAN é o sistema que articula órgãos e entidades dos três níveis de governo e a sociedade civil para formular e implementar políticas de SAN. Seus componentes incluem a Conferência e o Conselho de Segurança Alimentar e Nutricional (CONSEA) e a Câmara Interministerial (CAISAN). Baseia-se em participação social, intersetorialidade e equidade."
+        },
+        {
+          "h": "Restaurantes Comunitários no DF",
+          "p": "Regulamentados pelo Decreto distrital 33.329/2011, ofertam refeições nutricionalmente balanceadas a preço subsidiado/simbólico, em locais de grande circulação e em regiões de maior vulnerabilidade. Atendem trabalhadores de baixa renda, pessoas em situação de rua e populações vulneráveis, sendo equipamento estratégico de SAN do DF."
+        },
+        {
+          "h": "Articulação com a assistência social",
+          "p": "Os equipamentos de SAN (restaurantes comunitários, bancos de alimentos, cozinhas comunitárias) dialogam com o SUAS e com os programas de provimento alimentar (Cartão Prato Cheio). Compõem a rede de proteção, contribuindo para a segurança de sobrevivência e a redução da insegurança alimentar."
+        }
       ],
       "exemplo": "Cenário aplicado: uma pessoa em situação de rua, atendida pelo Centro POP, é orientada a fazer suas refeições no Restaurante Comunitário próximo, onde almoça por valor simbólico. O equipamento de SAN complementa a ação socioassistencial, garantindo o Direito Humano à Alimentação Adequada.",
       "pontos_chave": [
