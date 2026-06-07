@@ -1,0 +1,75 @@
+{
+  "slug": "sociologia-urbana",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Direito à cidade e violência urbana",
+      "intro": "A sociologia urbana estuda como o espaço da cidade é produzido, disputado e desigualmente apropriado. A cidade não é um cenário neutro: ela reflete e reproduz as desigualdades sociais por meio da localização da moradia, dos serviços, do transporte e da segurança.\n\nO conceito de direito à cidade, formulado por Henri Lefebvre, e os fenômenos da segregação, da gentrificação e da violência urbana são centrais para entender a questão social no espaço — tema diretamente ligado às políticas de assistência social, que atuam sobre territórios vulneráveis.",
+      "secoes": [
+        {
+          "h": "Direito à cidade",
+          "p": "O direito à cidade, cunhado por Henri Lefebvre (1968), é o direito coletivo de todos os habitantes de participar da produção do espaço urbano e de usufruir dos seus benefícios — moradia, mobilidade, cultura, lazer, serviços —, em oposição à cidade como mera mercadoria voltada ao lucro imobiliário.\n\nDavid Harvey atualiza o conceito: o direito à cidade é também o direito de transformar a cidade e a nós mesmos, contra a apropriação do espaço pelo capital. No Brasil, esse ideário inspirou o Estatuto da Cidade (Lei 10.257/2001), que prevê a função social da propriedade e da cidade, o plano diretor e instrumentos de gestão democrática do solo urbano."
+        },
+        {
+          "h": "Segregação socioespacial",
+          "p": "A segregação socioespacial é a separação dos grupos sociais no território urbano: as classes altas concentram-se em áreas bem equipadas, enquanto a população pobre é empurrada para periferias, favelas e áreas de risco, com déficit de infraestrutura e serviços. A escola sociológica de Chicago (Park, Burgess) foi pioneira em estudar a 'ecologia urbana' e a distribuição dos grupos na cidade.\n\nA segregação não é apenas física: implica desigualdade de acesso a oportunidades, isolamento e estigmatização territorial — o 'efeito território', em que morar em certo lugar já é, por si, fator de desvantagem (Loïc Wacquant fala em marginalidade avançada e estigma territorial)."
+        },
+        {
+          "h": "Gentrificação",
+          "p": "A gentrificação (do inglês gentrification) é o processo pelo qual áreas urbanas populares ou degradadas são 'revitalizadas' e valorizadas, atraindo moradores e comércios de maior renda e expulsando, direta ou indiretamente, os antigos moradores pobres pela elevação dos custos (aluguéis, impostos, serviços).\n\nÉ um exemplo de como o espaço urbano é mercadoria: a renovação pode melhorar a aparência da área, mas aprofunda a exclusão ao deslocar a população original. Casos típicos ocorrem em centros históricos, zonas portuárias e bairros próximos a grandes intervenções urbanísticas."
+        },
+        {
+          "h": "Violência urbana e criminalização da pobreza",
+          "p": "A violência urbana não se explica apenas por escolhas individuais, mas por desigualdade, ausência do Estado em direitos (educação, trabalho, saúde) e presença do Estado sobretudo em sua face punitiva. A criminalização da pobreza é a tendência de tratar a questão social como caso de polícia: os pobres, jovens, negros e periféricos tornam-se os principais alvos do sistema penal.\n\nFenômenos correlatos: encarceramento em massa, seletividade penal (o sistema atinge desproporcionalmente certos grupos), 'guerra às drogas' e estigmatização. Loïc Wacquant analisa a passagem do Estado social ao Estado penal — quando o encolhimento das políticas sociais é acompanhado da expansão do controle punitivo sobre os mais pobres."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"A gentrificação consiste em um processo de melhoria urbana que beneficia diretamente a população pobre originalmente residente na área revitalizada.\" Gabarito: ERRADO. A gentrificação tende a expulsar os antigos moradores pobres, pois a valorização da área eleva aluguéis e custos de vida, deslocando-os para outras regiões — aprofundando, e não corrigindo, a exclusão socioespacial.",
+      "pontos_chave": [
+        "Direito à cidade (Lefebvre/Harvey): participar da produção do espaço e usufruir da cidade; cidade ≠ mercadoria",
+        "Estatuto da Cidade (Lei 10.257/2001): função social da propriedade, plano diretor, gestão democrática",
+        "Segregação socioespacial: separação física e desigualdade de acesso; Escola de Chicago",
+        "Gentrificação: 'revitalização' que valoriza e expulsa os moradores pobres",
+        "Estigma territorial / efeito território (Wacquant)",
+        "Criminalização da pobreza: questão social tratada como caso de polícia; seletividade penal",
+        "Wacquant: do Estado social ao Estado penal"
+      ],
+      "dica_prova": "Cuidado para não ler gentrificação como algo positivo para os pobres (é o contrário — expulsão). Associe direito à cidade a Lefebvre e ao Estatuto da Cidade (Lei 10.257/2001 — fixe esse número). A banca costuma afirmar que a violência urbana se explica 'apenas por fatores individuais' (ERRADO — há fatores estruturais) e confundir segregação (separação) com integração. Lembre da seletividade penal: o sistema atinge mais pobres, negros e periféricos."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Movimentos sociais e controle social",
+      "intro": "Movimentos sociais são formas de ação coletiva organizada que buscam transformar ou conservar aspectos da realidade social, formulando demandas e disputando direitos. São protagonistas de conquistas históricas (sufrágio, direitos trabalhistas, direitos civis, ambientais) e atores centrais na democracia.\n\nLigado a eles está o conceito de controle social — que, no campo das políticas públicas brasileiras, designa a participação da sociedade na formulação, no acompanhamento e na fiscalização das ações do Estado, especialmente por meio de conselhos e conferências.",
+      "secoes": [
+        {
+          "h": "Teorias dos movimentos sociais",
+          "p": "Há diferentes abordagens. A teoria da mobilização de recursos (McCarthy, Zald) entende os movimentos como organizações racionais que mobilizam recursos (dinheiro, redes, lideranças) para atingir objetivos. A teoria dos novos movimentos sociais (Alain Touraine, Alberto Melucci) destaca, a partir dos anos 1960-70, lutas por identidade, reconhecimento e qualidade de vida (feminismo, ambientalismo, movimentos LGBTQIA+, negro), e não apenas por classe.\n\nA teoria do processo político (Charles Tilly, Sidney Tarrow) enfatiza as 'estruturas de oportunidade política' e os repertórios de ação coletiva. No Brasil, os movimentos sociais foram decisivos na redemocratização e na conquista de direitos inscritos na Constituição de 1988."
+        },
+        {
+          "h": "Ação coletiva e seus dilemas",
+          "p": "Ação coletiva é a atuação conjunta de indivíduos em busca de objetivos comuns. Mancur Olson apontou o 'dilema da ação coletiva' (problema do carona/free rider): por que um indivíduo se mobilizaria se pode usufruir do benefício coletivo sem contribuir? A resposta dos movimentos passa por identidade, solidariedade, incentivos seletivos e construção de pertencimento.\n\nTipos de ação coletiva incluem protestos, greves, ocupações, campanhas e formas institucionais de participação. Importante distinguir movimentos sociais (mais amplos e duradouros) de manifestações pontuais e de organizações formais como ONGs."
+        },
+        {
+          "h": "Controle social na gestão pública",
+          "p": "No Brasil, controle social tem sentido específico: é a participação da sociedade civil no controle e direcionamento das políticas públicas — não 'controle da sociedade pelo Estado', mas o inverso. A Constituição de 1988 institucionaliza a participação por meio de conselhos de políticas (saúde, assistência social, criança e adolescente) e conferências.\n\nNo SUAS, o controle social é exercido pelos Conselhos de Assistência Social (nacional, estaduais, distrital e municipais), de composição paritária entre governo e sociedade civil, que deliberam, fiscalizam e acompanham a execução da política e a aplicação dos recursos (FNAS, fundos estaduais e municipais)."
+        },
+        {
+          "h": "Participação cidadã e democracia participativa",
+          "p": "A participação cidadã amplia a democracia representativa com mecanismos de democracia participativa e deliberativa: conselhos paritários, conferências, audiências públicas, orçamento participativo (experiência pioneira de Porto Alegre) e ouvidorias.\n\nEsses canais aproximam o Estado da população, conferem legitimidade às políticas e permitem accountability (responsabilização). Há, contudo, desafios: cooptação, baixa representatividade, formalismo e desigualdade de recursos entre os participantes. A efetividade do controle social depende de transparência e de informação acessível."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"No âmbito das políticas públicas brasileiras, o controle social designa o controle exercido pelo Estado sobre a conduta dos cidadãos beneficiários de programas sociais.\" Gabarito: ERRADO. No Brasil, controle social tem sentido inverso: é a participação da sociedade civil no acompanhamento, na fiscalização e na deliberação das políticas públicas, exercido sobretudo por meio dos conselhos paritários e conferências.",
+      "pontos_chave": [
+        "Mobilização de recursos (McCarthy/Zald); novos movimentos sociais (Touraine/Melucci — identidade); processo político (Tilly/Tarrow)",
+        "Novos movimentos sociais: lutam por reconhecimento/identidade, não só por classe",
+        "Dilema da ação coletiva / free rider (Mancur Olson)",
+        "Controle social no Brasil = sociedade controla o Estado (não o contrário)",
+        "Conselhos de Assistência Social: composição paritária (governo + sociedade civil)",
+        "Participação cidadã: conferências, audiências, orçamento participativo (Porto Alegre)",
+        "CF/1988 institucionalizou a participação social nas políticas públicas"
+      ],
+      "dica_prova": "A pegadinha número um é inverter o controle social (dizer que é o Estado controlando o cidadão — ERRADO). Memorize: conselhos do SUAS são PARITÁRIOS (metade governo, metade sociedade civil) e têm caráter deliberativo. Não confunda os 'novos movimentos sociais' (pauta de identidade/reconhecimento) com o movimento operário clássico (pauta de classe). Associe orçamento participativo a Porto Alegre e o dilema do carona a Mancur Olson."
+    }
+  ]
+}

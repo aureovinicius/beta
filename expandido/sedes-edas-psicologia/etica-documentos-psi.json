@@ -1,0 +1,45 @@
+{
+  "slug": "etica-documentos-psi",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Código de ética e documentos psicológicos",
+      "intro": "A atuação do psicólogo é regida pelo Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005) e por resoluções específicas do Conselho Federal de Psicologia (CFP). O Código estabelece os princípios fundamentais — baseados na Declaração Universal dos Direitos Humanos, na promoção da liberdade, da dignidade, da igualdade e da integridade do ser humano — e os deveres e vedações da profissão. O sigilo profissional é um de seus pilares.\n\nA elaboração de documentos psicológicos (declaração, atestado, relatório/laudo, parecer) é disciplinada pela Resolução CFP nº 06/2019, que substituiu a antiga Resolução 07/2003 e padronizou estrutura, finalidade e linguagem desses documentos. Saber distinguir cada tipo de documento, seus elementos e o tratamento do sigilo é o núcleo cobrado em prova.\n\nNo SUAS, esses cuidados são críticos: o psicólogo produz registros e documentos que circulam em rede e que podem chegar ao sistema de justiça, exigindo rigor técnico, linguagem acessível, restrição ao estritamente necessário e proteção dos dados do usuário (em diálogo com a LGPD — Lei 13.709/2018).",
+      "secoes": [
+        {
+          "h": "Princípios fundamentais do Código de Ética",
+          "p": "O Código de Ética (Resolução CFP nº 010/2005) abre com sete princípios fundamentais, entre eles: o psicólogo baseará seu trabalho no respeito e na promoção da liberdade, da dignidade, da igualdade e da integridade do ser humano, apoiado nos valores dos direitos humanos; trabalhará visando promover a saúde e a qualidade de vida; e atuará com responsabilidade social, analisando crítica e historicamente a realidade.\n\nO Código veda a discriminação e a conivência com práticas de tortura, crueldade ou opressão. Esses princípios sustentam o compromisso social e orientam a leitura ética da prática no SUAS, contra qualquer prática que reforce violações de direitos ou estigmatize o usuário."
+        },
+        {
+          "h": "Sigilo profissional",
+          "p": "O sigilo é direito do usuário e dever do psicólogo. A regra é a proteção das informações obtidas no exercício profissional. O Código admite a quebra/relativização do sigilo apenas em situações excepcionais, restringindo-se ao estritamente necessário, sempre buscando o menor prejuízo à pessoa. O psicólogo deve avaliar a gravidade e comunicar somente o indispensável.\n\nEm atendimentos a crianças, adolescentes e pessoas sem autonomia, o sigilo é mantido, mas as decisões consideram o melhor interesse e a proteção do sujeito; revela-se aos responsáveis o estritamente necessário. Em trabalho em equipe, o compartilhamento é restrito ao que é imprescindível à finalidade do trabalho. Diante de risco de vida ou violação de direitos (sobretudo de crianças e adolescentes), o dever de proteção pode justificar a comunicação aos órgãos competentes."
+        },
+        {
+          "h": "Documentos psicológicos: tipos (Res. CFP 06/2019)",
+          "p": "A Resolução CFP nº 06/2019 define os documentos: (1) Declaração — informa apenas comparecimento, acompanhamento ou agendamento, sem registrar diagnóstico ou conteúdo do atendimento; (2) Atestado psicológico — afirma uma condição psicológica para fins de justificação (afastamento, aptidão, etc.), de forma sucinta; (3) Relatório ou laudo psicológico — documento que apresenta o processo e os resultados de avaliação psicológica, com fundamentação e análise; (4) Parecer psicológico — resposta fundamentada a uma questão-problema específica (\"quesito\"), podendo ser escolástico ou técnico.\n\nA distinção mais cobrada: declaração não traz diagnóstico nem conteúdo; atestado é sucinto e afirma uma condição; relatório/laudo é o documento completo da avaliação; parecer responde a uma pergunta específica."
+        },
+        {
+          "h": "Estrutura e linguagem do relatório/laudo",
+          "p": "Segundo a Resolução 06/2019, o relatório/laudo tem estrutura padronizada: identificação, descrição da demanda, procedimento (métodos e técnicas), análise (interpretação fundamentada dos dados) e conclusão. A linguagem deve ser clara, objetiva e acessível ao destinatário, evitando termos que estigmatizem ou exponham o usuário.\n\nO documento deve registrar apenas o necessário à sua finalidade, não pode conter informações além das requeridas e deve ser fundamentado em referencial técnico-científico. Material bruto (respostas a testes, anotações) não compõe o documento e tem guarda mínima de 5 anos. O psicólogo é responsável pelo que afirma e deve evitar conclusões definitivas sobre aspectos não avaliados."
+        },
+        {
+          "h": "Ética dos documentos no SUAS e relação com a justiça",
+          "p": "No SUAS, o psicólogo deve ter especial cuidado ao produzir documentos que possam ser usados em processos judiciais (família, infância). Não cabe ao psicólogo do SUAS atuar como perito (função da assistência judiciária/perícia), e a produção de relatórios deve respeitar a finalidade socioassistencial, sem rótulos ou juízos morais sobre a família.\n\nO registro deve proteger o usuário, observar o sigilo, e os dados pessoais devem ser tratados conforme a finalidade e a LGPD. Em situações de violação de direitos de crianças/adolescentes, prevalece o dever de proteção e a comunicação aos órgãos competentes (Conselho Tutelar, autoridades), nos limites do necessário."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"A declaração psicológica é o documento adequado para registrar o diagnóstico do usuário e a descrição detalhada do conteúdo abordado nas sessões, com vistas a fundamentar decisão judicial.\" — ERRADO. Pela Resolução CFP nº 06/2019, a declaração informa apenas comparecimento, acompanhamento ou agendamento, sem registrar diagnóstico nem o conteúdo do atendimento. O documento que apresenta resultados fundamentados de avaliação é o relatório/laudo psicológico; e a resposta a um quesito específico é o parecer. A declaração jamais contém diagnóstico.",
+      "pontos_chave": [
+        "Código de Ética = Resolução CFP nº 010/2005; documentos = Resolução CFP nº 06/2019.",
+        "Princípios apoiados nos direitos humanos: dignidade, liberdade, igualdade, responsabilidade social.",
+        "Sigilo é a regra; relativização só no estritamente necessário e com menor prejuízo.",
+        "Declaração: só comparecimento/acompanhamento, sem diagnóstico nem conteúdo.",
+        "Atestado: sucinto, afirma uma condição; Relatório/laudo: avaliação completa e fundamentada.",
+        "Parecer: resposta fundamentada a uma questão-problema (quesito) específica.",
+        "Relatório: identificação, demanda, procedimento, análise e conclusão; linguagem acessível, sem estigmatizar.",
+        "Material bruto não integra o documento; guarda mínima de 5 anos; dados conforme LGPD."
+      ],
+      "dica_prova": "A pegadinha favorita é trocar a finalidade dos documentos: colocar diagnóstico na declaração (errado), ou dizer que o parecer apresenta toda a avaliação (errado — isso é o relatório/laudo). Memorize: declaração = comparecimento; atestado = condição (sucinto); relatório/laudo = avaliação completa; parecer = responde a um quesito. Sobre sigilo, lembre que ele não é absoluto: pode ser relativizado no estritamente necessário, e o dever de proteção de crianças/adolescentes prevalece. Norma vigente dos documentos: Resolução CFP 06/2019 (não a antiga 07/2003)."
+    }
+  ]
+}

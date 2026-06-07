@@ -1,0 +1,71 @@
+{
+  "slug": "fundamentos-suas-tdas",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "PNAS/2004: princípios, proteções e territorialização",
+      "intro": "A Política Nacional de Assistência Social (PNAS/2004), aprovada pela Resolução CNAS nº 145/2004, materializou os comandos da Constituição de 1988 e da LOAS (Lei 8.742/1993), estabelecendo as bases para a implantação do Sistema Único de Assistência Social (SUAS). Ela define a assistência social como política pública de seguridade social, não contributiva, de proteção social a quem dela necessitar.\n\nA PNAS organiza a proteção social em dois níveis — Proteção Social Básica (PSB) e Proteção Social Especial (PSE) — e tem como eixos estruturantes a matricialidade sociofamiliar, a territorialização e a descentralização político-administrativa.",
+      "secoes": [
+        { "h": "Princípios e diretrizes", "p": "Os princípios derivam da LOAS: supremacia do atendimento às necessidades sociais sobre a rentabilidade econômica; universalização dos direitos sociais; respeito à dignidade e à autonomia do cidadão; igualdade de direitos no acesso, sem discriminação; e divulgação dos benefícios e serviços. As diretrizes são a descentralização político-administrativa, a participação da população e a primazia da responsabilidade do Estado na condução da política." },
+        { "h": "Proteção Social Básica (PSB)", "p": "Tem caráter preventivo e visa a fortalecer vínculos familiares e comunitários, prevenindo situações de risco. É ofertada principalmente no CRAS (Centro de Referência de Assistência Social), porta de entrada do SUAS, com serviços como o PAIF (Serviço de Proteção e Atendimento Integral à Família). Destina-se a famílias e indivíduos em situação de vulnerabilidade social." },
+        { "h": "Proteção Social Especial (PSE)", "p": "Destina-se a famílias e indivíduos cujos direitos já foram violados. Divide-se em média complexidade (vínculos familiares preservados, ofertada no CREAS, com serviços como o PAEFI) e alta complexidade (vínculos rompidos, exige acolhimento institucional ou familiar, como abrigos e casas-lares). Quanto maior a complexidade, maior a especialização exigida." },
+        { "h": "Matricialidade e territorialização", "p": "A matricialidade sociofamiliar coloca a família — em suas múltiplas configurações — no centro das ações, como referência para o atendimento. A territorialização significa organizar e ofertar serviços conforme a realidade dos territórios, aproximando os equipamentos das populações vulneráveis e respeitando suas particularidades." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"O serviço de acolhimento institucional para crianças e adolescentes com vínculos familiares rompidos integra a Proteção Social Básica.\" — ERRADO. Acolhimento institucional é serviço de Proteção Social Especial de ALTA complexidade, pois os vínculos familiares estão rompidos ou ameaçados.",
+      "pontos_chave": [
+        "PNAS/2004 (Resolução CNAS 145/2004) operacionaliza a LOAS e cria as bases do SUAS.",
+        "Assistência social: política não contributiva de seguridade social.",
+        "PSB (preventiva, no CRAS, com PAIF) e PSE (proteção a direitos violados).",
+        "PSE: média complexidade (CREAS, PAEFI) e alta complexidade (acolhimento).",
+        "Matricialidade sociofamiliar: a família no centro do atendimento.",
+        "Territorialização e descentralização político-administrativa como eixos."
+      ],
+      "dica_prova": "A pegadinha mais comum troca os níveis de proteção (colocar acolhimento na PSB, ou o PAIF no CREAS). Fixe: CRAS = PSB = PAIF; CREAS = PSE média = PAEFI; alta complexidade = acolhimento. Vínculos preservados = média; rompidos = alta."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "Seguranças socioassistenciais",
+      "intro": "As seguranças socioassistenciais são os resultados/garantias que a política de assistência social deve afiançar aos seus usuários. Foram sistematizadas a partir da PNAS/2004 e da NOB/SUAS, traduzindo o que a assistência social deve efetivamente garantir, de modo a sair de uma lógica assistencialista para uma lógica de direitos.\n\nMais do que listar serviços, as seguranças definem aquilo que o cidadão tem direito a receber: acolhida, convívio (vivência familiar e comunitária) e desenvolvimento de autonomia, além das seguranças de renda e de apoio em situações de calamidade e emergência.",
+      "secoes": [
+        { "h": "Segurança de acolhida", "p": "Garante a provisão de necessidades humanas básicas e a recepção digna, com escuta qualificada, informação, referência e oferta de proteção. Inclui o acesso a condições de abrigo, alimentação e a um local de referência (como o CRAS) onde a pessoa é acolhida sem discriminação. Abrange também o acolhimento em situações de abandono ou rompimento de vínculos." },
+        { "h": "Segurança de convívio (ou convivência)", "p": "Refere-se ao direito à convivência familiar, comunitária e social, ao fortalecimento de vínculos e à prevenção do isolamento. Materializa-se em serviços de convivência e fortalecimento de vínculos (SCFV) por faixa etária, ações com famílias e atividades que ampliam a participação social e o pertencimento." },
+        { "h": "Segurança de renda e de autonomia", "p": "A segurança de renda complementa a falta ou insuficiência de renda por meio de benefícios (como o BPC e benefícios eventuais), não se confundindo com a política de trabalho e emprego. A segurança de desenvolvimento da autonomia visa a capacitar o usuário a maior independência, protagonismo e exercício de direitos, fortalecendo sua capacidade de superar a vulnerabilidade." },
+        { "h": "Segurança de sobrevivência a riscos e calamidades", "p": "A PNAS e a NOB também preveem a garantia de apoio e auxílio em situações de calamidade pública, emergências e contingências, por meio de provisões e benefícios eventuais que assegurem condições mínimas de dignidade em momentos de ruptura." }
+      ],
+      "exemplo": "Cenário aplicado: um idoso que vive sozinho, isolado e sem rede de apoio é incluído em um Serviço de Convivência e Fortalecimento de Vínculos no CRAS. Aqui se concretiza, sobretudo, a segurança de convívio (combate ao isolamento e fortalecimento de vínculos comunitários), associada à acolhida.",
+      "pontos_chave": [
+        "Seguranças traduzem o que a assistência social deve garantir (lógica de direitos).",
+        "Acolhida: recepção digna, escuta, proteção e provisões básicas.",
+        "Convívio: convivência familiar/comunitária e fortalecimento de vínculos (SCFV).",
+        "Renda: complemento por benefícios (BPC, eventuais), não é política de emprego.",
+        "Autonomia: protagonismo e capacidade de superar a vulnerabilidade.",
+        "Há também segurança de sobrevivência a riscos e calamidades."
+      ],
+      "dica_prova": "A banca confunde segurança de renda com geração de emprego/trabalho — são coisas distintas: a assistência social afiança RENDA por benefícios, não cria postos de trabalho. Saiba diferenciar acolhida, convívio, renda e autonomia pelo que cada uma garante."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Responsabilidades, cofinanciamento e vigilância",
+      "intro": "A Norma Operacional Básica do SUAS (NOB/SUAS 2012), aprovada pela Resolução CNAS nº 33/2012, disciplina a gestão do SUAS de forma descentralizada e participativa. Define responsabilidades de União, estados, DF e municípios, organiza o cofinanciamento por meio de pisos de proteção e blocos de financiamento, e estrutura a gestão do trabalho e a vigilância socioassistencial.\n\nA NOB/SUAS 2012 substituiu a NOB de 2005, reforçando a lógica de gestão por resultados, a regulação dos serviços e a importância da informação e do monitoramento para o aperfeiçoamento da política.",
+      "secoes": [
+        { "h": "Responsabilidades dos entes federativos", "p": "Cabe à União a coordenação nacional, normatização geral e cofinanciamento; aos estados, o apoio técnico e financeiro aos municípios, a gestão regional e o cofinanciamento; ao DF e aos municípios, a execução direta dos serviços, a gestão dos equipamentos (CRAS/CREAS) e o cofinanciamento local. Vigora o pacto federativo cooperativo, com responsabilidades compartilhadas e complementares." },
+        { "h": "Cofinanciamento", "p": "O financiamento do SUAS é partilhado entre os três níveis de governo. O repasse federal e estadual aos fundos de assistência social é feito de forma regular e automática, fundo a fundo, organizado por pisos de proteção social (básica e especial) e blocos de financiamento. Os recursos são geridos pelos Fundos de Assistência Social, sob controle dos respectivos conselhos." },
+        { "h": "Gestão do trabalho", "p": "A NOB/SUAS reafirma diretrizes de gestão do trabalho: equipes de referência compostas por servidores, educação permanente, valorização dos trabalhadores e instituição de Mesa de Negociação e de NOB-RH como referência. O objetivo é garantir qualidade e continuidade dos serviços por trabalhadores qualificados e em vínculos adequados." },
+        { "h": "Vigilância socioassistencial", "p": "A vigilância socioassistencial é uma das funções da assistência social (ao lado da proteção social e da defesa de direitos). Consiste em produzir, sistematizar e analisar informações territorializadas sobre as situações de vulnerabilidade e risco e sobre a oferta de serviços, subsidiando o planejamento e a gestão. Não é função policial nem de fiscalização repressiva." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"A vigilância socioassistencial tem por finalidade fiscalizar e punir as famílias beneficiárias que descumprem condicionalidades dos programas de transferência de renda.\" — ERRADO. A vigilância socioassistencial é função de produção e análise de informações sobre vulnerabilidades, riscos e ofertas no território; não tem caráter fiscalizatório-punitivo.",
+      "pontos_chave": [
+        "NOB/SUAS 2012 (Resolução CNAS 33/2012) regula a gestão do SUAS.",
+        "Responsabilidades compartilhadas entre União, estados, DF e municípios.",
+        "Cofinanciamento fundo a fundo, por pisos e blocos de proteção.",
+        "Recursos geridos pelos Fundos de Assistência Social, sob controle dos conselhos.",
+        "Gestão do trabalho: equipes de referência, educação permanente e NOB-RH.",
+        "Vigilância socioassistencial: informação e análise de riscos, não fiscalização punitiva."
+      ],
+      "dica_prova": "Funções da assistência social: proteção social, defesa de direitos e vigilância socioassistencial. A banca costuma atribuir caráter punitivo/fiscalizador à vigilância (ERRADO) e confundir os pisos/blocos de cofinanciamento. Repasses são fundo a fundo, regulares e automáticos."
+    }
+  ]
+}

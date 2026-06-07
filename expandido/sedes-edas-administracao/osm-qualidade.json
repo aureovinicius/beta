@@ -1,0 +1,46 @@
+{
+ "slug": "osm-qualidade",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "Gestão da qualidade e modelos de excelência",
+   "intro": "A gestão da qualidade evoluiu da simples inspeção de produtos para uma filosofia de gestão centrada no cliente e na melhoria contínua. Seu objetivo é entregar produtos e serviços que atendam ou superem as expectativas dos usuários, reduzindo desperdícios, retrabalho e variabilidade dos processos.\n\nNo setor público, a qualidade se traduz em foco no cidadão-usuário, eficiência no uso de recursos e melhoria contínua dos serviços. Para um órgão socioassistencial como a SEDES-DF, qualidade significa atendimento humanizado, padronização de procedimentos nos equipamentos do SUAS e mensuração da satisfação dos usuários.\n\nO subtópico cobra as ferramentas clássicas da qualidade, os gurus e seus conceitos (Deming, Juran, Ishikawa, Crosby), os princípios da Gestão da Qualidade Total (TQM) e os modelos de excelência em gestão, com destaque para o Modelo de Excelência em Gestão Pública (GesPública/GespúblicA) no contexto brasileiro."
+  ,
+   "secoes": [
+    {
+     "h": "Conceitos e gurus da qualidade",
+     "p": "Deming é associado ao ciclo PDCA (Plan-Do-Check-Act), aos 14 princípios e ao foco na redução da variabilidade e melhoria contínua. Juran trouxe a trilogia da qualidade (planejamento, controle e melhoria) e a ideia de adequação ao uso. Crosby defendeu o \"zero defeito\" e o conceito de que qualidade é conformidade com requisitos, popularizando a ideia de que a qualidade é gratuita (o caro é a não qualidade). Feigenbaum cunhou o Controle da Qualidade Total. Ishikawa criou o diagrama de causa e efeito e disseminou os Círculos de Controle de Qualidade (CCQ).\n\nQualidade pode ser vista como adequação ao uso (Juran), conformidade a requisitos (Crosby) ou satisfação do cliente. Cuidado para não trocar autores e conceitos."
+    },
+    {
+     "h": "Ciclo PDCA e melhoria contínua",
+     "p": "O PDCA é o método cíclico de gestão e melhoria contínua: Plan (planejar metas e métodos), Do (executar e coletar dados), Check (verificar resultados frente às metas) e Act (agir corretivamente, padronizando o que deu certo ou corrigindo). Quando o foco é manter padrões já estabelecidos, fala-se em SDCA (Standardize-Do-Check-Act).\n\nO conceito de melhoria contínua (kaizen) pressupõe aperfeiçoamento incremental e constante, com participação de todos. Pegadinha: o Check ocorre APÓS o Do (executar antes de verificar); e o ciclo é contínuo, não termina no Act."
+    },
+    {
+     "h": "Sete ferramentas da qualidade",
+     "p": "As ferramentas básicas para controle e análise são: diagrama de causa e efeito (Ishikawa/espinha de peixe), que organiza causas em categorias como os 6M (método, máquina, mão de obra, material, medida, meio ambiente); histograma; folha de verificação; diagrama de Pareto (regra 80/20, prioriza as poucas causas vitais); gráfico de dispersão; carta/gráfico de controle; e fluxograma/estratificação.\n\nOutras ferramentas gerenciais úteis: 5W2H (plano de ação), brainstorming, matriz GUT (Gravidade, Urgência, Tendência) e o programa 5S (Seiri, Seiton, Seiso, Seiketsu, Shitsuke — senso de utilização, organização, limpeza, padronização e disciplina). Pareto é a mais cobrada: foca o esforço nos poucos problemas que causam a maioria dos efeitos."
+    },
+    {
+     "h": "TQM e gestão por processos",
+     "p": "A Gestão da Qualidade Total (TQM) é uma abordagem que envolve toda a organização na busca da qualidade, com princípios como foco no cliente, melhoria contínua, decisões baseadas em fatos e dados, gestão por processos, envolvimento das pessoas e liderança comprometida.\n\nA gestão por processos enxerga a organização horizontalmente, como cadeias de atividades que agregam valor e entregam resultados ao cliente, em vez da visão puramente vertical/funcional. Mapear, padronizar e melhorar processos é base da qualidade. A norma ISO 9001 estrutura sistemas de gestão da qualidade com abordagem de processos e ênfase no PDCA e na melhoria contínua."
+    },
+    {
+     "h": "Modelos de excelência e excelência na gestão pública",
+     "p": "Modelos de excelência são referenciais que avaliam a maturidade da gestão por critérios. No Brasil, o MEG (Modelo de Excelência da Gestão, da FNQ) inspira o setor privado. No setor público, o GesPública (Programa Nacional de Gestão Pública e Desburocratização) consolidou o Modelo de Excelência em Gestão Pública, adaptando os fundamentos da excelência à lógica pública: foco no cidadão e na sociedade, geração de valor público, gestão participativa, controle social, transparência, legalidade e impessoalidade.\n\nO GesPública trouxe instrumentos como a Carta de Serviços ao Cidadão e a autoavaliação da gestão. Internacionalmente, há prêmios e modelos como o Malcolm Baldrige (EUA) e o EFQM (Europa). A ideia central: gestão pública de excelência combina os princípios da administração gerencial (eficiência, resultados) com os valores republicanos."
+    }
+   ],
+   "exemplo": "Item estilo Cebraspe: \"De acordo com o diagrama de Pareto, deve-se distribuir igualmente o esforço de melhoria entre todas as causas dos problemas identificados.\" ERRADO — o princípio de Pareto (80/20) determina concentrar o esforço nas poucas causas vitais responsáveis pela maioria dos efeitos, não distribuir igualmente. Aplicação na SEDES-DF: ao analisar reclamações em um CRAS, a equipe usa a folha de verificação para registrar ocorrências, monta um diagrama de Pareto e descobre que 80% das queixas vêm da demora no agendamento; aplica então o PDCA para redesenhar esse processo e o 5S para organizar o atendimento.",
+   "pontos_chave": [
+    "PDCA (Deming): Plan, Do, Check, Act — método de melhoria contínua, cíclico.",
+    "Pareto (80/20): poucas causas vitais geram a maioria dos efeitos.",
+    "Ishikawa: diagrama de causa e efeito (espinha de peixe) e os 6M.",
+    "Crosby: zero defeito e conformidade a requisitos; Juran: adequação ao uso.",
+    "5S: utilização, organização, limpeza, padronização, disciplina (sensos).",
+    "TQM: qualidade total com foco no cliente e decisões por fatos e dados.",
+    "GesPública: Modelo de Excelência em Gestão Pública, foco no cidadão e valor público.",
+    "ISO 9001: sistema de gestão da qualidade com abordagem de processos."
+   ],
+   "dica_prova": "Bancas adoram associar guru a conceito: ligue Deming ao PDCA, Crosby ao zero defeito, Juran à trilogia/adequação ao uso e Ishikawa ao diagrama de causa e efeito. No PDCA, atenção à ordem (verificar vem depois de executar). Lembre que oportunidades de melhoria do GesPública partem do foco no cidadão e na geração de valor público — não no lucro. E não confunda 5S (sensos) com 5W2H (plano de ação)."
+  }
+ ]
+}

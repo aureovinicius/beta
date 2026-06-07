@@ -1,0 +1,75 @@
+{
+  "slug": "abordagem-rua",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Política Nacional (Decreto 7.053/2009) e Centros POP",
+      "intro": "A Política Nacional para a População em Situação de Rua foi instituída pelo Decreto nº 7.053, de 23 de dezembro de 2009, marco que reconheceu esse segmento como sujeito de direitos e estabeleceu princípios e diretrizes para a ação do Estado. O decreto define população em situação de rua como o grupo populacional heterogêneo que tem em comum a pobreza extrema, vínculos familiares interrompidos ou fragilizados e a inexistência de moradia convencional regular, utilizando logradouros públicos e áreas degradadas como espaço de moradia e sustento.\n\nNo SUAS, o principal equipamento de atendimento a esse público é o Centro POP (Centro de Referência Especializado para População em Situação de Rua). Para o Agente Social, esse é um campo de atuação direta, exigindo conhecimento do decreto e do funcionamento do equipamento.",
+      "secoes": [
+        {
+          "h": "Princípios e diretrizes do Decreto 7.053/2009",
+          "p": "São princípios da política o respeito à dignidade da pessoa humana, o direito à convivência familiar e comunitária, a valorização e o respeito à vida e à cidadania, o atendimento humanizado e universalizado e o respeito às condições sociais e diferenças de origem, raça, idade, nacionalidade, gênero, orientação sexual e religiosa.\n\nEntre as diretrizes estão a intersetorialidade das políticas públicas, a articulação em rede, a integração das ações, a participação da sociedade civil e o incentivo ao protagonismo da própria população em situação de rua. O decreto também instituiu o Comitê Intersetorial de Acompanhamento e Monitoramento da política."
+        },
+        {
+          "h": "O Centro POP",
+          "p": "O Centro POP é unidade pública estatal de referência da PSE de média complexidade, voltada EXCLUSIVAMENTE ao atendimento especializado da população em situação de rua. Oferta o Serviço Especializado para Pessoas em Situação de Rua, com acolhida diurna, escuta, desenvolvimento de sociabilidade, resgate de vínculos e acesso a documentação, banho, guarda de pertences e alimentação.\n\nÉ importante distinguir: o Centro POP NÃO é unidade de acolhimento (não oferta pernoite/moradia). Para a estadia noturna existem os Serviços de Acolhimento (alta complexidade), como abrigos e casas de passagem."
+        },
+        {
+          "h": "Acesso a documentação e direitos",
+          "p": "A população em situação de rua enfrenta a invisibilidade civil. Por isso, o trabalho prioriza o resgate de documentos (RG, CPF, certidões), a inclusão no Cadastro Único — que admite o uso do endereço do equipamento ou de pessoa de referência —, o acesso a benefícios e a programas de transferência de renda, e o encaminhamento à saúde, ao trabalho e à moradia."
+        },
+        {
+          "h": "Articulação com a rede e abordagem",
+          "p": "O Centro POP articula-se com o Serviço Especializado em Abordagem Social, com o Consultório na Rua (saúde), com a rede de acolhimento e com o Sistema de Garantia de Direitos. O Agente Social participa da acolhida, das oficinas e do contato em via pública, sempre respeitando a autonomia da pessoa e construindo vínculo de confiança."
+        }
+      ],
+      "exemplo": "Item comentado: 'O Centro POP é uma unidade de acolhimento que oferece pernoite e moradia provisória à população em situação de rua.' — ERRADO. O Centro POP oferta atendimento ESPECIALIZADO (média complexidade), com acolhida diurna, mas NÃO oferece pernoite. A pernoite é função dos Serviços de Acolhimento (alta complexidade).",
+      "pontos_chave": [
+        "Decreto 7.053/2009 institui a Política Nacional para a População em Situação de Rua.",
+        "Define o público como grupo heterogêneo, sem moradia regular e com vínculos fragilizados.",
+        "Princípios: dignidade, convivência familiar/comunitária, atendimento humanizado.",
+        "Centro POP: PSE de média complexidade, exclusivo para população em situação de rua.",
+        "Centro POP oferta acolhida DIURNA, não pernoite/moradia.",
+        "Cadastro Único admite endereço do equipamento/pessoa de referência.",
+        "Articula-se com abordagem social, Consultório na Rua e acolhimento."
+      ],
+      "dica_prova": "A pegadinha número um é confundir Centro POP com unidade de acolhimento. Centro POP = média complexidade, diurno; acolhimento = alta complexidade, pernoite. Decore o número do decreto: 7.053/2009."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Abordagem social: princípios, estratégias e vínculo",
+      "intro": "A abordagem social é uma metodologia de trabalho realizada nos espaços públicos para identificar, acolher e construir vínculos com pessoas que vivem ou trabalham nas ruas — população em situação de rua, crianças e adolescentes em situação de trabalho, mendicância ou exploração, entre outros. No SUAS, materializa-se no Serviço Especializado em Abordagem Social, da PSE de média complexidade.\n\nMais do que 'recolher' pessoas, a abordagem busca o encontro respeitoso, a escuta e a oferta de proteção, sempre preservando a autonomia e a vontade do sujeito. O Agente Social é protagonista nessa atividade de campo, e a banca cobra fortemente a postura ética esperada.",
+      "secoes": [
+        {
+          "h": "O que é a abordagem social",
+          "p": "O Serviço Especializado em Abordagem Social é ofertado de forma continuada e programada, com a finalidade de assegurar trabalho social de abordagem e busca ativa nos territórios. Identifica a incidência de situações como trabalho infantil, exploração sexual, situação de rua e mendicância, e atua para construir o processo de saída dessas condições e o acesso à rede de serviços.\n\nÉ um serviço PROATIVO: não espera a pessoa procurar o equipamento — vai até onde ela está. Pode ser ofertado pelo CREAS, pelo Centro POP ou por unidade específica referenciada."
+        },
+        {
+          "h": "Princípios: autonomia e não obrigatoriedade",
+          "p": "O princípio mais importante é o respeito à AUTONOMIA e à vontade da pessoa. A adesão ao serviço é VOLUNTÁRIA: ninguém pode ser obrigado a aceitar acolhimento, atendimento ou a sair da rua contra sua vontade. A abordagem não é ação de 'limpeza social' nem deve ter caráter higienista, repressivo ou de remoção forçada.\n\nOutros princípios: respeito à dignidade, ausência de julgamento moral, sigilo, escuta qualificada e reconhecimento da pessoa como sujeito de direitos."
+        },
+        {
+          "h": "Estratégias de aproximação",
+          "p": "A aproximação é gradual e paciente. Estratégias incluem a busca ativa, o mapeamento dos pontos de concentração, a observação atenta dos horários e dinâmicas, a apresentação clara do profissional e do serviço, a abordagem em duplas (segurança e referência) e a regularidade da presença, que gera reconhecimento e confiança.\n\nA escuta vem antes da oferta: primeiro compreender a história e as necessidades da pessoa, depois apresentar possibilidades — sem imposição."
+        },
+        {
+          "h": "A construção do vínculo",
+          "p": "O vínculo é o instrumento central da abordagem. Ele se constrói com tempo, coerência, respeito aos limites e à temporalidade do outro, e cumprimento do que é prometido. Pequenos gestos (chamar pelo nome, lembrar de detalhes, manter a palavra) consolidam a confiança. Só a partir do vínculo a pessoa tende a aderir aos encaminhamentos, à documentação, à saúde e a um eventual processo de saída das ruas. Retrocessos e recusas são esperados e fazem parte do processo."
+        }
+      ],
+      "exemplo": "Cenário aplicado: durante a abordagem, um homem em situação de rua recusa ir ao abrigo. A conduta correta do Agente Social é respeitar a recusa, manter o vínculo, ofertar o que for aceito (água, informação, encaminhamento à saúde) e retornar ao ponto em outra oportunidade. Se a banca disser que ele deve ser conduzido compulsoriamente ao acolhimento, está ERRADO — a adesão é voluntária.",
+      "pontos_chave": [
+        "Serviço Especializado em Abordagem Social: PSE média complexidade, proativo.",
+        "Realizado em espaços públicos por busca ativa.",
+        "Adesão VOLUNTÁRIA; respeito à autonomia e à vontade da pessoa.",
+        "Não é ação higienista, repressiva ou de remoção forçada.",
+        "Escuta sem julgamento moral, sigilo e dignidade.",
+        "Aproximação gradual, regular e geralmente em duplas.",
+        "Vínculo é o instrumento central; recusas fazem parte do processo."
+      ],
+      "dica_prova": "A pegadinha clássica é associar abordagem a remoção compulsória / 'higienização' das ruas — isso é vedado. A palavra-chave é AUTONOMIA: nada é imposto. Lembre que o serviço é proativo (busca ativa) e que o vínculo se constrói com tempo, admitindo recusas."
+    }
+  ]
+}

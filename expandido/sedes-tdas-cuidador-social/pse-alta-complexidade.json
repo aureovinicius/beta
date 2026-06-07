@@ -1,0 +1,44 @@
+{
+  "slug": "pse-alta-complexidade",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Princípios do acolhimento",
+      "intro": "A Proteção Social Especial (PSE) de Alta Complexidade é o nível do SUAS destinado a famílias e indivíduos que se encontram sem referência ou em situação de ameaça, necessitando de afastamento do núcleo familiar ou comunitário e de proteção integral — moradia, alimentação, higiene e trabalho protegido. Os serviços de acolhimento (para crianças e adolescentes, idosos, pessoas com deficiência, mulheres em situação de violência, pessoas em situação de rua, entre outros) são o seu carro-chefe, conforme a Tipificação Nacional de Serviços Socioassistenciais (Resolução CNAS nº 109/2009).\n\nO acolhimento, sobretudo o de crianças e adolescentes, rege-se por três princípios estruturantes consagrados no Estatuto da Criança e do Adolescente (art. 101, §1º) e nas Orientações Técnicas (Res. Conjunta CNAS/CONANDA 1/2009): excepcionalidade, provisoriedade e preservação dos vínculos familiares e comunitários.",
+      "secoes": [
+        {
+          "h": "Excepcionalidade",
+          "p": "A excepcionalidade significa que o acolhimento é a última medida, adotada somente quando esgotadas as possibilidades de manutenção da criança, do adolescente ou da pessoa em seu núcleo familiar e comunitário. O afastamento do convívio familiar não pode decorrer de pobreza ou de falta de recursos materiais — a carência de recursos não é, por si só, motivo para a perda ou suspensão do poder familiar (ECA, art. 23).\n\nAntes de afastar, devem-se esgotar os serviços de apoio à família (Proteção Social Básica, PAIF/CRAS, programas de transferência de renda) e os serviços da própria PSE de média complexidade (PAEFI/CREAS). O acolhimento é resposta a situações de risco pessoal e social por violação de direitos, não a um problema econômico."
+        },
+        {
+          "h": "Provisoriedade",
+          "p": "A provisoriedade impõe que o acolhimento seja o mais breve possível. A institucionalização não pode tornar-se solução permanente. A legislação (ECA, após a Lei 13.509/2017) estabelece prazo máximo de permanência em acolhimento de, em regra, 18 meses, salvo comprovada necessidade que atenda ao superior interesse da criança, reconhecida pela autoridade judiciária.\n\nA situação de cada acolhido deve ser reavaliada no máximo a cada 6 meses, com relatório circunstanciado à Justiça da Infância e da Juventude, decidindo-se pela reintegração familiar ou pela colocação em família substituta. A provisoriedade combate a 'cultura do abrigamento' de longa duração."
+        },
+        {
+          "h": "Preservação dos vínculos",
+          "p": "A preservação e o fortalecimento dos vínculos familiares e comunitários é finalidade central do acolhimento. Mesmo afastada do lar, a criança ou o adolescente tem direito de manter contato com a família de origem (natural e extensa), salvo decisão judicial em contrário. O serviço deve trabalhar ativamente a reintegração familiar.\n\nDecorrem desse princípio: a não separação de grupos de irmãos; a permanência da criança próxima ao seu território de origem (para preservar escola, comunidade e referências); e o investimento no fortalecimento da família para viabilizar o retorno. Só quando esgotadas as tentativas de reintegração é que se busca a família substituta."
+        },
+        {
+          "h": "Outros princípios e diretrizes do acolhimento",
+          "p": "Somam-se aos três pilares: a personalização e o atendimento individualizado (cada acolhido tem PIA e história própria); o atendimento em pequenos grupos, em ambiente que se assemelhe a uma residência; a garantia de privacidade e respeito à autonomia; a oferta de condições de reinserção comunitária e preparação para o desligamento (especialmente jovens próximos da maioridade); e a participação do acolhido nas decisões, conforme seu desenvolvimento."
+        },
+        {
+          "h": "Inserção no SUAS e na Tipificação",
+          "p": "Na Tipificação Nacional (Res. CNAS 109/2009), a Alta Complexidade reúne: Serviço de Acolhimento Institucional (abrigo, casa-lar, casa de passagem, residência inclusiva, ILPI); Serviço de Acolhimento em República; Serviço de Acolhimento em Família Acolhedora; e Serviço de Proteção em Situações de Calamidades Públicas e Emergências. São serviços que ofertam proteção integral a quem está fora do convívio familiar, articulados ao Sistema de Garantia de Direitos e cofinanciados pelo SUAS."
+        }
+      ],
+      "exemplo": "Item de prova (estilo Cebraspe): 'A situação de pobreza extrema de uma família autoriza, por si só, o acolhimento institucional dos seus filhos, como forma de garantir-lhes proteção integral.' — ERRADO. Pela excepcionalidade e pelo art. 23 do ECA, a falta de recursos materiais não é motivo para o afastamento do convívio familiar; a resposta correta é incluir a família em programas de apoio (PAIF, transferência de renda), não acolher as crianças. O acolhimento responde a risco por violação de direitos, não à pobreza.",
+      "pontos_chave": [
+        "Acolhimento integra a Proteção Social Especial de Alta Complexidade do SUAS (Tipificação - Res. CNAS 109/2009).",
+        "Três pilares: excepcionalidade, provisoriedade e preservação dos vínculos.",
+        "Excepcionalidade: última medida; pobreza não justifica afastamento (ECA, art. 23).",
+        "Provisoriedade: prazo máximo de 18 meses, em regra (ECA, Lei 13.509/2017); reavaliação a cada 6 meses.",
+        "Preservação de vínculos: não separar irmãos, manter contato com a família, trabalhar a reintegração.",
+        "Sequência protetiva: PSB/CRAS -> PSE média/CREAS -> só então acolhimento (alta complexidade).",
+        "Serviços de alta complexidade: acolhimento institucional, república, família acolhedora e calamidades."
+      ],
+      "dica_prova": "Decore os prazos: 18 meses de permanência máxima (Lei 13.509/2017) e reavaliação a cada 6 meses. A pegadinha clássica é vincular acolhimento à pobreza — sempre ERRADO (art. 23 do ECA). Outra: trocar 'excepcional e provisório' por 'preferencial' ou 'definitivo'. Cuidado também em classificar serviços: acolhimento e família acolhedora são ALTA complexidade; PAEFI/abordagem social são MÉDIA; PAIF/CRAS são proteção BÁSICA. A banca adora pedir o nível correto de um serviço."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "rede-territorio",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "CRAS, CREAS e Unidades de Acolhimento",
+      "intro": "A rede socioassistencial do SUAS organiza-se por níveis de complexidade, e cada equipamento público tem função, público e serviços bem delimitados. O CRAS (Centro de Referência de Assistência Social) é a porta de entrada da Proteção Social Básica (PSB); o CREAS (Centro de Referência Especializado de Assistência Social) é a referência da Proteção Social Especial (PSE) de média complexidade; e as Unidades de Acolhimento integram a PSE de alta complexidade, voltada a pessoas com vínculos familiares rompidos ou ameaçados.\n\nPara o Agente Social, conhecer o que cada unidade faz é essencial, pois ele atua diretamente no atendimento ao público, na recepção, no acompanhamento de grupos e na execução de atividades sob supervisão da equipe técnica. Confundir as competências dos equipamentos é um dos erros mais cobrados em prova.",
+      "secoes": [
+        {
+          "h": "CRAS — a unidade da Proteção Social Básica",
+          "p": "O CRAS é uma unidade pública estatal descentralizada, localizada em territórios de maior vulnerabilidade social. É o equipamento exclusivamente responsável pela oferta do PAIF (Serviço de Proteção e Atendimento Integral à Família) e pela gestão da rede de PSB do território. Atua na prevenção de situações de risco, fortalecendo vínculos familiares e comunitários antes que ocorram violações de direitos.\n\nNo CRAS também são ofertados o SCFV (Serviço de Convivência e Fortalecimento de Vínculos) e o Serviço de Proteção Social Básica no Domicílio para pessoas com deficiência e idosas. É no CRAS que se realiza a inserção no Cadastro Único e o acompanhamento de famílias do Bolsa Família/condicionalidades."
+        },
+        {
+          "h": "CREAS — média complexidade",
+          "p": "O CREAS atende famílias e indivíduos em situação de risco pessoal e social por violação de direitos cujos vínculos familiares ainda NÃO foram rompidos. É a unidade que oferta o PAEFI (Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos). Os casos típicos incluem violência física, psicológica, sexual, negligência, trabalho infantil, abuso e exploração.\n\nO CREAS pode ter abrangência municipal ou regional. Também é referência para o Serviço de Proteção Social a Adolescentes em cumprimento de medida socioeducativa (LA e PSC) e para o Serviço Especializado em Abordagem Social."
+        },
+        {
+          "h": "Unidades de Acolhimento — alta complexidade",
+          "p": "Quando o vínculo familiar está rompido ou ameaçado e a pessoa precisa ser afastada do convívio, entra a alta complexidade, que oferece proteção integral (moradia, alimentação, higiene). São exemplos: abrigo institucional, casa-lar, casa de passagem, residência inclusiva, Repúblicas e o acolhimento em família acolhedora.\n\nO acolhimento é medida excepcional e provisória; deve preservar e restaurar vínculos sempre que possível, evitando a institucionalização prolongada, especialmente de crianças e adolescentes (princípios do ECA)."
+        },
+        {
+          "h": "Vinculação ao território e à equipe",
+          "p": "O CRAS é referência para um território determinado, com capacidade de atendimento dimensionada pelo porte do município/região (NOB-SUAS). Já o CREAS, por exigir maior especialização, costuma cobrir territórios mais amplos. O Agente Social compõe a equipe de referência junto a assistentes sociais, psicólogos e coordenação, executando atividades de convivência e apoio ao trabalho social, nunca substituindo a função técnica privativa."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'O CREAS é a unidade responsável por ofertar o PAIF no território.' — ERRADO. O PAIF é ofertado exclusivamente pelo CRAS (PSB). O CREAS oferta o PAEFI (PSE de média complexidade). Trocar PAIF por PAEFI e CRAS por CREAS é a pegadinha clássica.",
+      "pontos_chave": [
+        "CRAS = PSB; oferta exclusiva do PAIF.",
+        "CREAS = PSE média complexidade; oferta o PAEFI (vínculos não rompidos).",
+        "Unidades de Acolhimento = PSE alta complexidade (vínculos rompidos/ameaçados).",
+        "Acolhimento é medida excepcional e provisória.",
+        "CRAS é porta de entrada e gestor da rede de PSB do território.",
+        "CREAS pode ser municipal ou regional, por exigir maior especialização.",
+        "Cadastro Único e SCFV são ofertados no CRAS."
+      ],
+      "dica_prova": "Memorize o par 'unidade + serviço + nível de complexidade'. As bancas adoram inverter PAIF/PAEFI e CRAS/CREAS, ou colocar acolhimento como média complexidade. Acolhimento é SEMPRE alta complexidade e SEMPRE provisório/excepcional."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Territorialização e fluxos de referência/contrarreferência",
+      "intro": "A territorialização é um princípio organizativo central do SUAS: os serviços são planejados e ofertados a partir do conhecimento das características, demandas e potencialidades de cada território. Em vez de esperar o cidadão buscar o serviço, o SUAS leva a proteção social para perto de quem mais precisa, capilarizando os equipamentos nas áreas de maior vulnerabilidade.\n\nNesse desenho, os conceitos de referência e contrarreferência garantem que o usuário circule pela rede de forma articulada, sem se perder entre serviços. Para o Agente Social, entender esse fluxo é fundamental, porque ele frequentemente acolhe demandas, identifica situações e participa de encaminhamentos.",
+      "secoes": [
+        {
+          "h": "Diagnóstico socioterritorial",
+          "p": "O diagnóstico socioterritorial é o estudo das condições de vida de um território: indicadores sociais, econômicos, demográficos, presença de violações de direitos, oferta de serviços públicos e recursos comunitários. Ele orienta o planejamento, a definição de prioridades e a localização dos equipamentos.\n\nO diagnóstico não olha só para as carências (vulnerabilidades e riscos), mas também para as potencialidades do território: lideranças, associações, escolas, unidades de saúde e redes de solidariedade que podem ser mobilizadas no trabalho social."
+        },
+        {
+          "h": "Referência: encaminhar para a especialização",
+          "p": "Referência é o movimento de encaminhar o usuário de um serviço de menor complexidade para um de maior complexidade ou especialização. Exemplo típico: o CRAS identifica, no acompanhamento de uma família, uma situação de violência intrafamiliar e a referencia ao CREAS, que tem equipe e metodologia especializadas para a violação de direitos.\n\nA referência também ocorre para fora da assistência social, como o encaminhamento para a saúde, a educação, a Defensoria ou o Conselho Tutelar — sempre por meio de articulação intersetorial."
+        },
+        {
+          "h": "Contrarreferência: o retorno articulado",
+          "p": "Contrarreferência é o movimento inverso: o serviço de maior complexidade comunica e devolve o caso ao serviço de origem para continuidade do acompanhamento. Após o CREAS atuar na situação de violência, por exemplo, a família pode retornar ao acompanhamento da PSB no CRAS para fortalecimento de vínculos.\n\nA contrarreferência evita a duplicidade de atendimentos e a perda de informação, mantendo a lógica de proteção continuada e integral. É a garantia de que o usuário não fica 'solto' na rede."
+        },
+        {
+          "h": "A rede e a intersetorialidade",
+          "p": "Os fluxos só funcionam quando a rede socioassistencial (estatal e privada conveniada) atua de forma integrada e quando há articulação com outras políticas públicas (saúde, educação, trabalho, habitação, sistema de justiça). O Agente Social contribui registrando informações, acolhendo o usuário no retorno e mantendo a comunicação entre os pontos da rede sob orientação técnica."
+        }
+      ],
+      "exemplo": "Cenário aplicado: um adolescente atendido em medida socioeducativa no CREAS conclui o acompanhamento. O CREAS comunica o CRAS do território para que a família seja incluída no PAIF e o adolescente no SCFV. Esse retorno do CREAS (mais especializado) ao CRAS (PSB) é exemplo de CONTRARREFERÊNCIA. Se a banca disser que é 'referência', está errado.",
+      "pontos_chave": [
+        "Territorialização: ofertar serviços a partir do conhecimento do território.",
+        "Diagnóstico socioterritorial olha vulnerabilidades E potencialidades.",
+        "Referência = encaminhar do menos para o mais complexo/especializado.",
+        "Contrarreferência = retorno do especializado ao serviço de origem.",
+        "Os fluxos evitam fragmentação e duplicidade de atendimento.",
+        "Intersetorialidade integra a assistência a saúde, educação, justiça etc.",
+        "O objetivo é proteção social continuada e integral."
+      ],
+      "dica_prova": "A pegadinha mais comum é inverter referência e contrarreferência. Lembre: referência aponta PARA FRENTE (especialização); contrarreferência VOLTA para a origem. Outra: dizer que o diagnóstico só mapeia carências — ele também identifica potencialidades."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "pensamento-social-etnico",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Formação brasileira e decolonialidade",
+      "intro": "O pensamento social brasileiro buscou interpretar a formação da nação a partir da colonização, da escravidão e da mistura de povos. Autores clássicos como Gilberto Freyre, Sérgio Buarque de Holanda e Caio Prado Júnior ofereceram chaves divergentes para entender o Brasil — algumas posteriormente criticadas por mascararem o racismo.\n\nA partir do século XX e XXI, a perspectiva decolonial e as epistemologias do Sul propõem uma virada: questionam a colonialidade que persiste mesmo após o fim do colonialismo formal e reivindicam a produção de conhecimento a partir dos povos colonizados. Frantz Fanon é figura-chave dessa tradição crítica.",
+      "secoes": [
+        {
+          "h": "Intérpretes clássicos do Brasil",
+          "p": "Gilberto Freyre (Casa-Grande & Senzala, 1933) destacou a miscigenação e a 'plasticidade' do colonizador português, mas sua obra é base do mito da democracia racial, ao suavizar a violência escravista. Sérgio Buarque de Holanda (Raízes do Brasil, 1936) cunhou o conceito de 'homem cordial' — a dificuldade de separar o público do privado, marcada por relações pessoais e afetivas.\n\nCaio Prado Júnior (Formação do Brasil Contemporâneo, 1942) trouxe leitura marxista: o 'sentido da colonização' foi produzir para o mercado externo, organizando a sociedade em torno da grande lavoura escravista exportadora. Florestan Fernandes, mais tarde, mostrou que a abolição não integrou o negro, lançando-o à margem da ordem competitiva."
+        },
+        {
+          "h": "Colonialidade e decolonialidade",
+          "p": "A teoria decolonial (Aníbal Quijano, Walter Mignolo, Enrique Dussel, María Lugones) distingue colonialismo de colonialidade. O colonialismo é o domínio político-administrativo direto, que terminou com as independências. A colonialidade é a estrutura de poder, saber e ser que permaneceu: a hierarquia racial mundial, a imposição da cultura europeia como universal e a subalternização dos povos do Sul.\n\nQuijano cunha a 'colonialidade do poder' — a classificação social mundial fundada na ideia de raça, criada pela própria colonização. Decolonizar é desobedecer epistemicamente, recuperar saberes e cosmovisões silenciados, e recusar o eurocentrismo como medida única do conhecimento."
+        },
+        {
+          "h": "Fanon: colonização, raça e violência",
+          "p": "Frantz Fanon (1925-1961), martinicano, psiquiatra e militante anticolonial, é referência central. Em Pele Negra, Máscaras Brancas analisa a alienação do colonizado, que internaliza o olhar do colonizador e passa a desejar a brancura — o impacto psíquico do racismo. Em Os Condenados da Terra estuda a violência colonial e a luta de libertação.\n\nFanon mostra que a raça estrutura a relação colonial e que a descolonização exige a recuperação da subjetividade e da agência dos colonizados. Sua obra influencia tanto a decolonialidade quanto os estudos sobre racismo e saúde mental da população negra."
+        },
+        {
+          "h": "Epistemologias do Sul",
+          "p": "O conceito de 'epistemologias do Sul' (Boaventura de Sousa Santos) denuncia o epistemicídio — a destruição de saberes não europeus — e propõe a 'ecologia de saberes': o reconhecimento da pluralidade de formas de conhecer (indígenas, afrodiaspóricos, populares) em diálogo, sem a hegemonia da ciência ocidental.\n\nNo Brasil, autoras como Lélia Gonzalez, Sueli Carneiro e Beatriz Nascimento articulam raça, gênero e classe a partir da experiência negra brasileira, fundamentando políticas de promoção da igualdade racial e de enfrentamento ao racismo institucional."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Os conceitos de colonialismo e colonialidade são sinônimos, pois ambos terminaram com a independência política das antigas colônias.\" Gabarito: ERRADO. O colonialismo (domínio político direto) terminou com as independências, mas a colonialidade (a estrutura racial de poder, saber e ser) persiste, sendo justamente o que a perspectiva decolonial busca enfrentar.",
+      "pontos_chave": [
+        "Freyre = miscigenação/mito da democracia racial; S. B. de Holanda = homem cordial; Caio Prado = sentido (mercantil/exportador) da colonização",
+        "Florestan Fernandes: abolição não integrou o negro à ordem competitiva",
+        "Colonialismo (domínio direto, acabou) ≠ colonialidade (estrutura que permanece)",
+        "Quijano: colonialidade do poder fundada na ideia de raça",
+        "Fanon: racismo internalizado, alienação do colonizado, violência colonial",
+        "Boaventura: epistemologias do Sul, epistemicídio, ecologia de saberes",
+        "Decolonizar = recusar o eurocentrismo e recuperar saberes silenciados"
+      ],
+      "dica_prova": "A pegadinha mais frequente é igualar colonialismo a colonialidade. Lembre: colonialidade é o que 'sobra' depois do fim do colonialismo. Não confunda Fanon (psiquiatra anticolonial, foco em raça e subjetividade) com os teóricos da colonialidade latino-americana (Quijano e a 'colonialidade do poder'). Cuidado com a leitura ingênua de Gilberto Freyre como denúncia do racismo — sua obra é, ao contrário, criticada por sustentar o mito da democracia racial."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Racismo estrutural e interseccionalidade",
+      "intro": "O racismo, na sociologia contemporânea, não é entendido apenas como ato individual de preconceito, mas como elemento estruturante das relações sociais, econômicas e institucionais. O conceito de racismo estrutural desloca o debate do plano moral (pessoas 'racistas') para o plano da organização da sociedade.\n\nJá a interseccionalidade fornece a ferramenta para analisar como raça, classe e gênero se cruzam e se reforçam, produzindo formas específicas de opressão. Ambos os conceitos são centrais para o desenho de políticas públicas de assistência social e de promoção da igualdade.",
+      "secoes": [
+        {
+          "h": "Do racismo individual ao estrutural",
+          "p": "Distinguem-se três níveis: o racismo individual (preconceito de uma pessoa), o racismo institucional (práticas e rotinas de organizações que produzem desvantagens para grupos racializados, mesmo sem intenção explícita) e o racismo estrutural. Silvio Almeida sintetiza: o racismo é estrutural porque é a forma 'normal' pela qual se constituem as relações políticas, econômicas, jurídicas e familiares de uma sociedade — ele é regra, não exceção ou patologia.\n\nIsso significa que mesmo instituições e indivíduos não intencionalmente racistas reproduzem o racismo ao seguir padrões estruturais (acesso desigual a educação, renda, moradia, justiça e saúde)."
+        },
+        {
+          "h": "O mito da democracia racial",
+          "p": "O mito da democracia racial é a crença de que no Brasil não há racismo porque houve intensa miscigenação e convivência entre os grupos. Difundido a partir da leitura de Gilberto Freyre, foi criticado por Florestan Fernandes, Lélia Gonzalez e outros: a 'cordialidade' racial encobre desigualdades profundas e desmobiliza o enfrentamento ao racismo.\n\nO mito opera ideologicamente: ao negar a existência do racismo, dificulta políticas de reparação (como cotas) e responsabiliza individualmente os negros por sua posição social, naturalizando a desigualdade racial."
+        },
+        {
+          "h": "Interseccionalidade: raça, classe e gênero",
+          "p": "O termo interseccionalidade foi cunhado pela jurista Kimberlé Crenshaw (1989) para mostrar que as opressões não se somam de forma simples, mas se entrecruzam, produzindo experiências específicas. A mulher negra, por exemplo, não sofre 'racismo + machismo' como camadas separadas, mas uma opressão própria que escapa tanto ao feminismo branco quanto ao movimento negro masculino.\n\nNo Brasil, Lélia Gonzalez já articulava raça, classe e gênero nos anos 1980, e Sueli Carneiro fala em 'enegrecer o feminismo'. A interseccionalidade orienta políticas públicas a reconhecerem que os mais vulneráveis acumulam marcadores (ser mulher, negra, pobre, periférica), exigindo respostas que não tratem cada eixo isoladamente."
+        },
+        {
+          "h": "Implicações para políticas públicas",
+          "p": "Compreender o racismo como estrutural justifica ações afirmativas (cotas raciais em universidades e concursos, como prevê a Lei 12.711/2012 e a Lei de Cotas no serviço público), pois a igualdade formal não corrige desigualdades historicamente produzidas.\n\nNo SUAS e na assistência social, a perspectiva interseccional ajuda a identificar quem são, de fato, os mais vulneráveis e a desenhar a busca ativa, o acolhimento e a oferta de serviços de forma sensível a raça, gênero e território. O Estatuto da Igualdade Racial (Lei 12.288/2010) é marco legal pertinente."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"O conceito de racismo estrutural restringe-se aos atos individuais de preconceito praticados por pessoas com intenção discriminatória.\" Gabarito: ERRADO. O racismo estrutural é justamente o oposto: refere-se à forma como o racismo está embutido na organização da sociedade e das instituições, reproduzindo-se inclusive por meio de indivíduos e órgãos sem intenção explícita de discriminar.",
+      "pontos_chave": [
+        "Três níveis: racismo individual, institucional e estrutural",
+        "Estrutural (Silvio Almeida): racismo é regra/normalidade das relações sociais, não exceção",
+        "Mito da democracia racial encobre e desmobiliza o enfrentamento ao racismo",
+        "Interseccionalidade (Crenshaw): opressões se cruzam, não se somam linearmente",
+        "Mulher negra como experiência específica (Lélia Gonzalez, Sueli Carneiro)",
+        "Racismo estrutural fundamenta ações afirmativas (Lei 12.711/2012, Lei 12.288/2010)",
+        "Perspectiva interseccional orienta a busca ativa e o acolhimento no SUAS"
+      ],
+      "dica_prova": "A banca adora dizer que racismo estrutural 'depende de intenção' (ERRADO) ou que interseccionalidade é 'a soma de opressões' (ERRADO — é o cruzamento/entrelaçamento). Lembre que o mito da democracia racial NÃO comprova ausência de racismo: ele a encobre. Associe Crenshaw=interseccionalidade e Silvio Almeida=racismo estrutural. Não confunda racismo institucional (em organizações) com racismo estrutural (na sociedade inteira), embora estejam ligados."
+    }
+  ]
+}

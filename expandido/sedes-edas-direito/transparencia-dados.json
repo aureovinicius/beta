@@ -1,0 +1,85 @@
+{
+  "slug": "transparencia-dados",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "LGPD (Lei 13.709/2018)",
+      "intro": "A Lei Geral de Proteção de Dados Pessoais (LGPD — Lei 13.709/2018) é a norma que disciplina o tratamento de dados pessoais por pessoas naturais e por pessoas jurídicas de direito público e privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural (art. 1º). Inspirada no Regulamento Geral europeu (GDPR), entrou em vigor em 2020 e tem como fundamento, entre outros, a autodeterminação informativa.\n\nA lei aplica-se a qualquer operação de tratamento (coleta, uso, acesso, armazenamento, compartilhamento, eliminação, etc.) realizada por pessoa natural ou jurídica, em meio físico ou digital, desde que a operação ocorra no Brasil, tenha por objetivo oferecer bens/serviços no território nacional ou trate dados de pessoas localizadas no país (art. 3º). Há exclusões importantes (art. 4º): tratamento por pessoa natural para fins exclusivamente particulares, jornalístico/artístico/acadêmico, e para fins de segurança pública, defesa nacional e investigação penal (regidos por lei específica).\n\nPara o concurso de órgão público de assistência social, o tratamento de dados pelo Poder Público (arts. 23 a 32) é tema-chave: o ente público trata dados para o cumprimento de finalidade pública, no exercício de competências legais ou de atribuições do serviço público, informando as hipóteses de tratamento e mantendo a finalidade. A autoridade competente é a ANPD (Autoridade Nacional de Proteção de Dados).",
+      "secoes": [
+        {
+          "h": "Conceitos fundamentais",
+          "p": "A LGPD define (art. 5º): dado pessoal (informação relacionada a pessoa natural identificada ou identificável); dado pessoal sensível (sobre origem racial/étnica, convicção religiosa, opinião política, filiação sindical, dado referente à saúde, à vida sexual, genético ou biométrico) — com proteção reforçada; dado anonimizado (que não permite identificar o titular). Os agentes de tratamento são o controlador (a quem cabem as decisões sobre o tratamento) e o operador (que trata em nome do controlador); há ainda o encarregado (DPO), canal de comunicação entre controlador, titulares e ANPD.\n\nA lei protege apenas dados de pessoa natural; dados de pessoa jurídica não estão sob a LGPD. Dado anonimizado, em regra, não é considerado dado pessoal — salvo se o processo de anonimização for reversível ou com esforços razoáveis."
+        },
+        {
+          "h": "Princípios do tratamento",
+          "p": "O art. 6º elenca dez princípios que regem todo tratamento: finalidade (propósitos legítimos, específicos e informados); adequação (compatibilidade com as finalidades); necessidade (mínimo de dados — minimização); livre acesso (consulta facilitada pelo titular); qualidade dos dados (exatidão e atualização); transparência; segurança (medidas técnicas e administrativas); prevenção; não discriminação (vedado tratamento para fins discriminatórios ilícitos ou abusivos); e responsabilização e prestação de contas (accountability). Todos são regidos pela boa-fé.\n\nO princípio da necessidade (minimização) e o da finalidade são os mais cobrados: só se pode coletar o estritamente necessário para uma finalidade previamente informada e legítima."
+        },
+        {
+          "h": "Bases legais do tratamento",
+          "p": "O tratamento de dados pessoais só é lícito se enquadrado em uma das hipóteses (bases legais) do art. 7º, entre elas: consentimento do titular; cumprimento de obrigação legal/regulatória; execução de políticas públicas; realização de estudos por órgão de pesquisa; execução de contrato; exercício regular de direitos em processo; proteção da vida; tutela da saúde; legítimo interesse do controlador; e proteção do crédito. O consentimento NÃO é a única nem a principal base — é apenas uma das hipóteses.\n\nPara dados sensíveis (art. 11), as hipóteses são mais restritas. O Poder Público, em regra, trata dados com base no cumprimento de obrigação legal e na execução de políticas públicas, não dependendo de consentimento para tais finalidades."
+        },
+        {
+          "h": "Direitos dos titulares",
+          "p": "O titular tem direitos assegurados (art. 18), exercíveis perante o controlador: confirmação da existência de tratamento; acesso aos dados; correção de dados incompletos, inexatos ou desatualizados; anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade; portabilidade a outro fornecedor; eliminação dos dados tratados com consentimento; informação sobre o compartilhamento; informação sobre a possibilidade de não consentir e suas consequências; e revogação do consentimento. Há ainda o direito à revisão de decisões automatizadas (art. 20) que afetem interesses do titular.\n\nO atendimento aos direitos é, em regra, gratuito e deve ser facilitado."
+        },
+        {
+          "h": "Tratamento pelo Poder Público e a ANPD",
+          "p": "O tratamento de dados pelo Poder Público (arts. 23 a 30) deve atender à finalidade pública, à persecução do interesse público e ao cumprimento de competências legais ou atribuições do serviço público, com publicidade das hipóteses de tratamento (em veículo de fácil acesso). É vedado ao Poder Público transferir a entidades privadas dados pessoais constantes de bases que administra, salvo exceções legais (art. 26). O uso compartilhado de dados pelo Poder Público deve atender finalidades específicas de execução de políticas públicas.\n\nA fiscalização cabe à ANPD (Autoridade Nacional de Proteção de Dados), órgão da administração pública federal, responsável por zelar, implementar e fiscalizar a lei e aplicar sanções administrativas (art. 52): advertência, multa simples (até 2% do faturamento, limitada a R$ 50 milhões por infração), multa diária, publicização da infração, bloqueio e eliminação dos dados, entre outras. Em caso de incidente de segurança que possa gerar risco relevante aos titulares, o controlador deve comunicar a ANPD e os titulares (art. 48)."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Conforme a LGPD, o consentimento do titular é requisito indispensável para que o Poder Público realize qualquer tratamento de dados pessoais.\" — ERRADO. O consentimento é apenas uma das bases legais (art. 7º); o Poder Público trata dados, em regra, com fundamento no cumprimento de obrigação legal e na execução de políticas públicas, sem depender de consentimento. Cenário aplicado: a SEDES coleta dados de famílias para cadastro em programa de transferência de renda; o tratamento é lícito por execução de política pública (art. 7º, III, e arts. 23-26), devendo observar a finalidade, a minimização e a publicidade das hipóteses de tratamento; dados sensíveis (ex.: saúde) demandam base do art. 11.",
+      "pontos_chave": [
+        "A LGPD (Lei 13.709/2018) protege dados de pessoa natural; não se aplica a dados de pessoa jurídica.",
+        "Dado sensível (saúde, biometria, religião, etc.) tem proteção reforçada (art. 11).",
+        "Agentes: controlador (decide), operador (trata em nome do controlador) e encarregado/DPO (canal de comunicação).",
+        "Dez princípios do art. 6º, com destaque para finalidade, necessidade (minimização) e responsabilização (accountability).",
+        "Consentimento é apenas UMA das bases legais (art. 7º), não a única nem a principal.",
+        "Direitos do titular (art. 18): confirmação, acesso, correção, eliminação, portabilidade, revogação do consentimento, etc.",
+        "Poder Público trata dados para finalidade pública / política pública, sem depender de consentimento (arts. 23-30).",
+        "ANPD fiscaliza e aplica sanções (art. 52): multa de até 2% do faturamento, limitada a R$ 50 milhões por infração."
+      ],
+      "dica_prova": "A pegadinha clássica é tratar o consentimento como base única ou indispensável — é só uma das dez hipóteses do art. 7º, e o Poder Público dispensa consentimento para políticas públicas e obrigações legais. Cuidado também com o rol de dados sensíveis (memorize: origem racial/étnica, convicção religiosa, opinião política, filiação sindical, saúde, vida sexual, genético, biométrico) — dado financeiro NÃO é sensível. A multa simples é de até 2% do faturamento, limitada a R$ 50 milhões por infração (não por ano). Lembre que a LGPD não se aplica a tratamento para fins exclusivamente jornalísticos, artísticos, acadêmicos, de segurança pública e defesa nacional (art. 4º)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "LAI (Lei 12.527/2011) e regulamentação no DF",
+      "intro": "A Lei de Acesso à Informação (LAI — Lei 12.527/2011) regulamenta o direito fundamental de acesso à informação previsto na Constituição (art. 5º, XXXIII; art. 37, §3º, II; art. 216, §2º). Aplica-se à União, Estados, Distrito Federal e Municípios, abrangendo os três Poderes, os Tribunais de Contas, o Ministério Público, autarquias, fundações, empresas públicas, sociedades de economia mista e, parcialmente, entidades privadas sem fins lucrativos que recebam recursos públicos.\n\nSeu princípio reitor é que a publicidade é a regra e o sigilo é a exceção (art. 3º). A lei institui dois grandes mecanismos: a transparência ativa (divulgação espontânea de informações de interesse coletivo, independentemente de requerimento, especialmente em sítios oficiais na internet) e a transparência passiva (resposta a pedidos de acesso formulados por qualquer interessado, sem necessidade de justificar o motivo do pedido).\n\nNo Distrito Federal, a LAI é regulamentada e complementada pela Lei Distrital 4.990/2012, que disciplina o acesso à informação no âmbito do DF, estabelecendo prazos, procedimentos, autoridades de monitoramento e recursos próprios. Para o concurso da SEDES-DF, é fundamental conhecer tanto a estrutura geral da LAI federal quanto as especificidades distritais.",
+      "secoes": [
+        {
+          "h": "Princípios e diretrizes da LAI",
+          "p": "A LAI fixa diretrizes (art. 3º): observância da publicidade como preceito geral e do sigilo como exceção; divulgação de informações de interesse público independentemente de solicitação; utilização de meios de comunicação viabilizados pela tecnologia da informação; fomento à cultura de transparência; e desenvolvimento do controle social. O acesso é gratuito, salvo o custo de reprodução de documentos, e o requerente não precisa motivar o pedido.\n\nA informação deve ser fornecida de forma íntegra, autêntica e atualizada, e o órgão deve dar acesso imediato quando possível."
+        },
+        {
+          "h": "Transparência ativa e passiva",
+          "p": "Na transparência ativa (art. 8º), os órgãos devem divulgar, independentemente de pedido, informações de interesse coletivo, em sítios oficiais, incluindo: competências e estrutura, repasses e transferências, despesas, licitações e contratos, programas e resultados, e respostas a perguntas frequentes. Os sítios devem permitir busca, gravação de relatórios, formato aberto e acessibilidade.\n\nNa transparência passiva, qualquer interessado pode apresentar pedido a órgão por meio do Serviço de Informações ao Cidadão (SIC). O órgão deve responder imediatamente se possível; não sendo, o prazo é de até 20 dias, prorrogável por mais 10 dias mediante justificativa (art. 11). Negado o acesso, cabe recurso à autoridade hierarquicamente superior em 10 dias."
+        },
+        {
+          "h": "Restrições de acesso: sigilo e informações pessoais",
+          "p": "Embora a regra seja a publicidade, há informações sob restrição. As informações classificadas quanto à imprescindibilidade à segurança da sociedade ou do Estado têm graus e prazos máximos de sigilo (art. 24): reservada (até 5 anos), secreta (até 15 anos) e ultrassecreta (até 25 anos, prorrogável uma vez). A competência para classificar varia conforme o grau e a autoridade.\n\nAs informações pessoais (relativas à intimidade, vida privada, honra e imagem) têm acesso restrito por até 100 anos, independentemente de classificação, e seu tratamento deve ser feito de forma transparente e com respeito à privacidade — ponto de conexão com a LGPD. Não pode haver sigilo, contudo, para informações sobre condutas que impliquem violação de direitos humanos por agentes públicos."
+        },
+        {
+          "h": "Regulamentação no DF: Lei Distrital 4.990/2012",
+          "p": "A Lei Distrital 4.990/2012 regula o acesso à informação no âmbito do Distrito Federal, em consonância com a LAI federal. Aplica-se aos órgãos e entidades dos Poderes do DF, ao Tribunal de Contas do DF, ao Ministério Público do DF (na parte cabível) e às entidades que recebam recursos públicos distritais. Mantém a lógica da publicidade como regra, prevê transparência ativa, institui o Serviço de Informação ao Cidadão (SIC) do DF e fixa procedimento de pedido e recurso.\n\nA lei distrital atribui à Controladoria-Geral do DF (CGDF) papel central no monitoramento da aplicação da norma e no julgamento de recursos em última instância administrativa, além de prever sanções a agentes que se recusem indevidamente a fornecer informação ou destruam/inutilizem documentos. Os prazos seguem a sistemática da LAI (resposta em até 20 dias, prorrogável por 10)."
+        },
+        {
+          "h": "Responsabilidades e controle",
+          "p": "Constituem condutas ilícitas (art. 32 da LAI) que ensejam responsabilização do agente público: recusar-se a fornecer informação, retardar deliberadamente, fornecer informação incorreta de forma intencional, destruir ou ocultar documentos, impor sigilo para benefício próprio ou ocultar ilícito, entre outras. As condutas podem configurar improbidade administrativa e infração funcional, no mínimo punível com suspensão.\n\nO controle do cumprimento envolve órgãos de monitoramento (no DF, a CGDF), o controle social pelo cidadão e os órgãos de controle externo (Tribunais de Contas). A transparência é instrumento de combate à corrupção e de fortalecimento da accountability pública."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Nos termos da LAI, o cidadão que requerer acesso a informação pública deve apresentar os motivos determinantes do seu pedido.\" — ERRADO. A LAI veda a exigência de motivação do pedido (art. 10, §3º): o acesso independe de justificativa. Cenário aplicado: um cidadão solicita à SEDES-DF, pelo SIC, os dados de execução de um programa de transferência de renda. O órgão deve responder imediatamente, se possível, ou em até 20 dias (prorrogáveis por 10); dados agregados e de execução orçamentária são públicos (e devem estar em transparência ativa no portal), mas dados pessoais dos beneficiários têm acesso restrito (intimidade — art. 31 da LAI e LGPD).",
+      "pontos_chave": [
+        "LAI (Lei 12.527/2011) regulamenta o direito fundamental de acesso (art. 5º, XXXIII, CF): publicidade é a regra, sigilo é a exceção.",
+        "Transparência ativa (divulgação espontânea, art. 8º) x passiva (resposta a pedidos via SIC).",
+        "O pedido independe de motivação; acesso gratuito (salvo custo de reprodução).",
+        "Prazo de resposta: imediato se possível, ou até 20 dias, prorrogável por mais 10 (art. 11).",
+        "Graus de sigilo: reservada (5 anos), secreta (15 anos), ultrassecreta (25 anos, prorrogável uma vez).",
+        "Informações pessoais: acesso restrito por até 100 anos (conexão com a LGPD).",
+        "No DF, a Lei Distrital 4.990/2012 regulamenta a LAI, com a CGDF como órgão de monitoramento e instância recursal.",
+        "Condutas ilícitas (art. 32) responsabilizam o agente público, podendo configurar improbidade."
+      ],
+      "dica_prova": "Memorize os prazos de sigilo (5/15/25 anos para reservada/secreta/ultrassecreta — só a ultrassecreta é prorrogável, uma única vez) e os prazos de resposta (20 + 10 dias). A banca confunde transparência ativa com passiva: ativa é espontânea (no portal), passiva é sob demanda (SIC). Pegadinha frequente: exigir motivação do pedido é ilegal. Para o DF, lembre que a Lei 4.990/2012 é a norma local e que a CGDF (Controladoria-Geral do DF) é a autoridade de monitoramento e julgamento de recursos. Por fim, não há sigilo para informações sobre violação de direitos humanos por agentes públicos, e dados pessoais têm restrição de até 100 anos, articulando-se com a LGPD."
+    }
+  ]
+}

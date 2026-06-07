@@ -3,6 +3,7 @@
 from conteudo import DISCIPLINAS
 from conteudo_especificos import ESPECIFICOS
 from conteudo_tcu import TCU
+from conteudo_sedes import CARGOS as SEDES_CARGOS, BASE_CONCURSO as SEDES_BASE
 
 CONCURSOS = [
     {
@@ -29,6 +30,8 @@ CONCURSOS = [
         "descricao": "Controle externo, auditoria governamental, direito e especialidade em Tecnologia da Informação.",
         "disciplinas": TCU,
     },
+    SEDES_BASE,        # concurso oculto (base de reaproveitamento da SEDES)
+    *SEDES_CARGOS,     # 15 cargos da SEDES-DF (agrupados na landing)
 ]
 
 CONCURSO_POR_ID = {c["id"]: c for c in CONCURSOS}

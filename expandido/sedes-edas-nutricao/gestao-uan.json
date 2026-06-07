@@ -1,0 +1,87 @@
+{
+ "slug": "gestao-uan",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Administração de UAN",
+   "intro": "Uma Unidade de Alimentação e Nutrição (UAN) é o serviço que desempenha atividades relacionadas à alimentação e à nutrição, produzindo e distribuindo refeições para coletividades sadias ou enfermas (restaurantes, refeitórios industriais, hospitais, escolas, restaurantes comunitários). Seu objetivo é fornecer refeições equilibradas, seguras do ponto de vista higiênico-sanitário e adequadas ao comensal, dentro de parâmetros de custo definidos.\n\nA administração de UAN aplica as funções clássicas da administração — planejamento, organização, direção e controle — ao ciclo do serviço de alimentação, que vai do planejamento do cardápio à compra, recebimento, armazenamento, pré-preparo, preparo, distribuição e higienização. O nutricionista é o responsável técnico (RT), conforme a regulamentação da profissão.\n\nO subtópico cobra as funções administrativas aplicadas à UAN, o planejamento físico-funcional (fluxo, layout), a gestão de recursos (humanos, materiais, financeiros), o planejamento de cardápios e o controle de qualidade e de custos."
+  ,
+   "secoes": [
+    {
+     "h": "Funções administrativas na UAN",
+     "p": "Planejar é definir objetivos, cardápios, fichas técnicas, previsão de compras e dimensionamento de pessoal e equipamentos. Organizar é estruturar fluxos, layout, divisão de tarefas e padronização de processos (POPs e Manual de Boas Práticas). Dirigir/coordenar é liderar e treinar a equipe e supervisionar a execução. Controlar é avaliar resultados (qualidade da refeição, custos, sobras, restos, satisfação) e corrigir desvios.\n\nO controle se apoia em indicadores como índice de resto-ingesta (alimento devolvido no prato pelo comensal — mede aceitação e desperdício), sobra limpa, per capita e custo por refeição."
+    },
+    {
+     "h": "Planejamento físico-funcional e fluxo",
+     "p": "O layout da UAN deve garantir o fluxo unidirecional, do recebimento de gêneros até a distribuição, evitando o cruzamento entre o fluxo de alimentos crus e prontos e entre o limpo e o sujo (evitar a contaminação cruzada). As áreas básicas são: recebimento, estocagem (seca e refrigerada/congelada), pré-preparo, cozimento (área quente), distribuição, higienização de utensílios e refeitório, além de vestiários e sanitários.\n\nO planejamento físico considera o número de refeições, o tipo de serviço, a ventilação, a iluminação, os materiais de revestimento laváveis e a separação de ambientes para reduzir riscos."
+    },
+    {
+     "h": "Gestão de recursos humanos e dimensionamento",
+     "p": "O dimensionamento de pessoal considera o número e o tipo de refeições, o grau de mecanização, a jornada e os índices de produtividade (refeições por funcionário). Inclui recrutamento, treinamento contínuo (sobretudo em boas práticas e higiene), escala de trabalho e supervisão.\n\nO nutricionista, como responsável técnico, coordena a equipe (cozinheiros, auxiliares, copeiros, estoquistas) e responde pela qualidade nutricional e sanitária do serviço."
+    },
+    {
+     "h": "Gestão de compras, estoque e custos",
+     "p": "A gestão de materiais abrange a previsão de compras (a partir do cardápio e do per capita), a seleção de fornecedores, o recebimento (conferência de quantidade, qualidade, temperatura e prazo de validade), o armazenamento adequado (PVPS/PEPS — primeiro que vence/entra, primeiro que sai) e o controle de estoque.\n\nO controle de custos envolve o custo das matérias-primas, mão de obra, energia e materiais; ferramentas como a ficha técnica de preparação (padroniza ingredientes, per capita, rendimento e custo) são essenciais para precificar, padronizar e reduzir desperdícios. Em UAN públicas, as compras seguem a Lei de Licitações (Lei 14.133/2021)."
+    },
+    {
+     "h": "Planejamento de cardápios",
+     "p": "O cardápio é o instrumento de trabalho central da UAN. Seu planejamento considera: características da clientela (faixa etária, hábitos, estado de saúde), necessidades nutricionais, recursos financeiros e materiais disponíveis, safra/sazonalidade, mão de obra e equipamentos, além de aspectos sensoriais (cor, textura, combinação, variedade) para garantir aceitação.\n\nDeve ser equilibrado, variado e harmônico, evitando repetição de cores, técnicas de preparo e consistências na mesma refeição. Em equipamentos públicos de SAN, deve seguir as diretrizes de alimentação adequada e saudável."
+    }
+   ],
+   "exemplo": "Cenário SEDES-DF: o nutricionista responsável por um restaurante comunitário deve dimensionar a equipe e o cardápio para 1.200 refeições/dia. Ele elabora fichas técnicas (per capita e custo), organiza o fluxo unidirecional na cozinha, define o PVPS no estoque e monitora o resto-ingesta para avaliar aceitação e desperdício. As compras de gêneros seguem a Lei 14.133/2021.",
+   "pontos_chave": [
+    "UAN produz refeições para coletividades; nutricionista é o responsável técnico.",
+    "Funções administrativas: planejar, organizar, dirigir e controlar o ciclo do serviço.",
+    "Fluxo unidirecional (recebimento → distribuição) evita contaminação cruzada.",
+    "Indicadores: resto-ingesta, sobra limpa, per capita, custo por refeição.",
+    "Ficha técnica de preparação padroniza ingredientes, rendimento e custo.",
+    "Estoque: PVPS/PEPS (primeiro que vence/entra, primeiro que sai).",
+    "Cardápio considera clientela, nutrição, custo, sazonalidade e aspectos sensoriais.",
+    "Compras em UAN pública seguem a Lei 14.133/2021."
+   ],
+   "dica_prova": "Resto-ingesta (sobra no prato do comensal, mede aceitação) é diferente de sobra limpa (alimento produzido e não distribuído) — não confunda. O fluxo unidirecional e a não-contaminação cruzada são clássicos. Lembre que a ficha técnica de preparação é a ferramenta de padronização e custo, e que em órgão público a compra é por licitação (14.133/2021)."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "Higiene e controle sanitário (BPF)",
+   "intro": "O controle higiênico-sanitário em serviços de alimentação visa garantir alimentos seguros, livres de contaminação que cause doença. As Boas Práticas de Fabricação (BPF) são o conjunto de procedimentos que devem ser adotados para garantir a qualidade higiênico-sanitária e a conformidade dos alimentos com a legislação.\n\nA principal norma é a RDC ANVISA nº 216/2004, que estabelece o regulamento técnico de boas práticas para serviços de alimentação, exigindo Manual de Boas Práticas e Procedimentos Operacionais Padronizados (POPs). As Doenças Transmitidas por Alimentos (DTAs) — toxinfecções — resultam da ingestão de alimentos contaminados por agentes biológicos, químicos ou físicos.\n\nO subtópico cobra os tipos de contaminação, os principais agentes de DTAs, as boas práticas (higiene pessoal, dos alimentos, do ambiente e dos utensílios), o controle de tempo e temperatura, e os instrumentos de gestão da segurança dos alimentos (Manual de BPF, POPs e APPCC)."
+  ,
+   "secoes": [
+    {
+     "h": "Tipos de contaminação",
+     "p": "A contaminação dos alimentos pode ser: biológica (bactérias, vírus, fungos, parasitas — a mais relevante em DTAs), química (resíduos de agrotóxicos, produtos de limpeza, metais, micotoxinas) e física (corpos estranhos como cabelos, fragmentos, vidro).\n\nA contaminação cruzada ocorre quando microrganismos passam de um alimento contaminado (geralmente cru) para outro pronto, diretamente ou por meio de mãos, utensílios e superfícies. Evitá-la é princípio central das boas práticas (separação de fluxos, higienização, não usar a mesma tábua/faca para cru e pronto)."
+    },
+    {
+     "h": "Doenças Transmitidas por Alimentos (DTAs) e principais agentes",
+     "p": "As DTAs decorrem de infecção (ingestão de microrganismos vivos, ex.: Salmonella), intoxicação (ingestão de toxinas pré-formadas, ex.: Staphylococcus aureus, Clostridium botulinum) ou toxinfecção (Clostridium perfringens, Bacillus cereus). Agentes frequentes: Salmonella (ovos, carnes), Staphylococcus aureus (manipulador com lesões/nariz, toxina termoestável), E. coli, Clostridium botulinum (conservas/embutidos mal processados, toxina perigosa) e Bacillus cereus (arroz/amidos).\n\nA maioria das bactérias multiplica-se na zona de perigo de temperatura (entre 5 °C e 60 °C), com ótimo em torno de 35–37 °C, e fatores como umidade e tempo favorecem o crescimento."
+    },
+    {
+     "h": "Boas práticas: higiene pessoal, do ambiente e dos alimentos",
+     "p": "Higiene pessoal: lavagem correta e frequente das mãos, uniforme limpo, cabelos protegidos (touca), unhas curtas sem esmalte, ausência de adornos, afastamento de manipuladores doentes/com lesões. Higiene ambiental: limpeza e sanitização de pisos, paredes, equipamentos e utensílios; controle integrado de pragas; lixo com tampa e descarte adequado; água potável.\n\nHigiene dos alimentos: higienização de hortifrúti (lavagem e desinfecção com solução clorada), separação entre cru e pronto, higienização de embalagens. Tudo deve estar registrado no Manual de Boas Práticas e nos POPs."
+    },
+    {
+     "h": "Controle de tempo e temperatura",
+     "p": "O binômio tempo-temperatura é decisivo na segurança dos alimentos. Recomendações usuais (RDC 216/2004): alimentos quentes mantidos a 60 °C ou mais; alimentos frios a 5 °C ou menos; cozimento atingindo ao menos 70 °C no centro geométrico; resfriamento rápido de 60 °C para 10 °C em até 2 horas; e limite de tempo para manipulação à temperatura ambiente.\n\nO objetivo é manter os alimentos fora da zona de perigo (5–60 °C) o menor tempo possível, impedindo a multiplicação microbiana. O descongelamento deve ocorrer sob refrigeração ou em micro-ondas/cozimento, nunca à temperatura ambiente."
+    },
+    {
+     "h": "Instrumentos de gestão: Manual de BPF, POPs e APPCC",
+     "p": "O Manual de Boas Práticas é o documento que descreve as operações da UAN e os requisitos higiênico-sanitários. Os POPs (Procedimentos Operacionais Padronizados) detalham tarefas críticas, sendo exigidos pela RDC 216/2004 ao menos para: higienização de instalações/equipamentos; controle integrado de pragas; higienização do reservatório de água; e higiene e saúde dos manipuladores.\n\nO APPCC (Análise de Perigos e Pontos Críticos de Controle) é um sistema preventivo que identifica perigos e define pontos críticos de controle (PCCs) e seus limites, monitoramento e ações corretivas. A fiscalização sanitária (vigilância sanitária) verifica o cumprimento dessas normas."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'Para garantir a segurança, os alimentos prontos para consumo devem ser mantidos em temperatura ambiente até a distribuição.' Errado: alimentos quentes devem ser mantidos a 60 °C ou mais e os frios a 5 °C ou menos; a faixa de 5 °C a 60 °C é a zona de perigo, em que as bactérias se multiplicam. Cenário: um surto após um almoço de restaurante comunitário com arroz mantido morno por horas sugere Bacillus cereus, evidenciando falha no controle de tempo-temperatura.",
+   "pontos_chave": [
+    "Norma central: RDC ANVISA 216/2004 (boas práticas em serviços de alimentação).",
+    "Contaminação: biológica, química e física; a cruzada passa de cru para pronto.",
+    "Zona de perigo de temperatura: entre 5 °C e 60 °C.",
+    "DTAs: infecção, intoxicação e toxinfecção; agentes como Salmonella, S. aureus, C. botulinum, B. cereus.",
+    "Quentes a ≥60 °C, frios a ≤5 °C, cocção ≥70 °C no centro.",
+    "Manual de BPF + POPs (mínimo 4 obrigatórios pela RDC 216) documentam as práticas.",
+    "APPCC = sistema preventivo com pontos críticos de controle (PCCs).",
+    "Descongelamento sob refrigeração; nunca à temperatura ambiente."
+   ],
+   "dica_prova": "Memorize os números da RDC 216/2004: quente ≥60 °C, frio ≤5 °C, zona de perigo 5–60 °C, cocção 70 °C no centro. Distinga infecção (microrganismo vivo) de intoxicação (toxina pré-formada). Os quatro POPs obrigatórios são pegadinha frequente. Não confunda BPF (pré-requisito amplo) com APPCC (sistema de pontos críticos)."
+  }
+ ]
+}

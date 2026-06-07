@@ -21,6 +21,18 @@
   syncIcon();
 })();
 
+// Expandir/recolher box de grupo (cargos) na landing
+(function () {
+  document.addEventListener("click", function (ev) {
+    var head = ev.target.closest ? ev.target.closest(".grupo-head") : null;
+    if (!head) return;
+    var box = head.parentElement.querySelector(".grupo-cargos");
+    var aberto = head.getAttribute("aria-expanded") === "true";
+    head.setAttribute("aria-expanded", aberto ? "false" : "true");
+    if (box) box.hidden = aberto;
+  });
+})();
+
 // Busca de disciplinas na home
 (function () {
   var input = document.getElementById("search");

@@ -1,0 +1,85 @@
+{
+ "slug": "san-politicas",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "DHAA, soberania e SISAN",
+   "intro": "A Segurança Alimentar e Nutricional (SAN) consiste na realização do direito de todos ao acesso regular e permanente a alimentos de qualidade, em quantidade suficiente, sem comprometer o acesso a outras necessidades essenciais, tendo como base práticas alimentares promotoras da saúde, que respeitem a diversidade cultural e que sejam ambiental, cultural, econômica e socialmente sustentáveis. Esse conceito está positivado na Lei Orgânica de Segurança Alimentar e Nutricional (LOSAN, Lei 11.346/2006).\n\nA SAN se ancora no Direito Humano à Alimentação Adequada (DHAA), reconhecido internacionalmente pelo art. 25 da Declaração Universal dos Direitos Humanos e pelo art. 11 do Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (PIDESC). No Brasil, a alimentação foi incluída como direito social no art. 6º da Constituição pela Emenda Constitucional 64/2010.\n\nO subtópico cobra os conceitos de DHAA, soberania alimentar, as duas dimensões da SAN (alimentar e nutricional), os princípios e a estrutura do Sistema Nacional de Segurança Alimentar e Nutricional (SISAN), instituído pela LOSAN, e a articulação intersetorial das políticas de alimentação."
+  ,
+   "secoes": [
+    {
+     "h": "Direito Humano à Alimentação Adequada (DHAA)",
+     "p": "O DHAA é um direito humano fundamental que se realiza quando toda pessoa tem acesso físico e econômico, ininterrupto, a alimentos adequados ou a meios para obtê-los, sem comprometer outros direitos. Ele possui duas dimensões inseparáveis: estar livre da fome e da má nutrição (núcleo mínimo) e ter acesso a uma alimentação adequada em quantidade, qualidade, regularidade e dignidade.\n\nComo todo direito humano, o DHAA gera ao Estado três tipos de obrigação: respeitar (não adotar medidas que impeçam o acesso), proteger (impedir que terceiros violem o direito) e prover/promover (realizar ações que garantam o acesso, sobretudo aos vulneráveis). É um direito exigível e não mera diretriz programática."
+    },
+    {
+     "h": "Soberania alimentar",
+     "p": "Soberania alimentar é o direito dos povos de definir suas próprias políticas e estratégias de produção, distribuição e consumo de alimentos, garantindo o direito à alimentação para toda a população, com respeito às múltiplas características culturais. É um conceito mais amplo e político que a SAN: enquanto a SAN foca o acesso ao alimento adequado, a soberania foca o poder de decisão de um país/povo sobre o seu sistema alimentar, valorizando a agricultura familiar, a produção local e a independência em relação aos mercados internacionais.\n\nNa prática, a soberania alimentar fundamenta o apoio à agricultura familiar (ex.: PAA e PNAE com aquisição da agricultura familiar) como caminho para a SAN."
+    },
+    {
+     "h": "As duas dimensões: alimentar e nutricional",
+     "p": "A dimensão alimentar diz respeito à produção e à disponibilidade do alimento: disponibilidade, acesso (físico e econômico), abastecimento, comercialização e ausência de contaminantes. A dimensão nutricional refere-se à relação entre o ser humano e o alimento: escolhas alimentares, preparo, biodisponibilidade, estado de saúde e cuidado que permitem o aproveitamento biológico do alimento.\n\nPor isso a SAN é intrinsecamente intersetorial: depende de agricultura, abastecimento, saúde, educação, saneamento e assistência social atuando de forma articulada."
+    },
+    {
+     "h": "SISAN: estrutura e instâncias",
+     "p": "O SISAN, criado pela LOSAN (Lei 11.346/2006), é um sistema público que articula União, estados, DF e municípios para a formulação e implementação das políticas de SAN, com participação da sociedade civil. Tem por objetivos formular e implementar políticas e planos, estimular a integração dos entes e promover o acompanhamento e o monitoramento da SAN.\n\nSeus componentes principais são: a Conferência Nacional de SAN (instância de participação social que orienta o sistema); o CONSEA (Conselho Nacional de SAN, órgão consultivo de assessoramento à Presidência, com composição de 2/3 sociedade civil e 1/3 governo); a CAISAN (Câmara Interministerial de SAN, que articula os órgãos governamentais e elabora o Plano Nacional de SAN — PLANSAN); e os órgãos e entidades de SAN dos entes federados. A adesão de estados e municípios ao SISAN exige conselho e câmara intersetorial próprios e plano de SAN."
+    },
+    {
+     "h": "Princípios e diretrizes da LOSAN",
+     "p": "A LOSAN estabelece, entre os princípios da SAN: a universalidade e equidade no acesso, a preservação da autonomia e o respeito à dignidade das pessoas, a participação social e a transparência. Entre as diretrizes destacam-se a promoção da intersetorialidade, a articulação entre orçamento e gestão, o estímulo à produção sustentável, à agricultura familiar e a sistemas de produção tradicionais, o monitoramento da realização do DHAA e o apoio às ações de SAN de caráter universal e específico."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'A segurança alimentar e nutricional restringe-se a garantir que a população esteja livre da fome, não abrangendo aspectos como sustentabilidade ambiental e respeito à diversidade cultural.' Errado: o conceito legal (LOSAN) é amplo e inclui qualidade, práticas promotoras da saúde, sustentabilidade ambiental, cultural, econômica e social, além do combate à fome.",
+   "pontos_chave": [
+    "DHAA: art. 6º da CF (incluído pela EC 64/2010) e art. 11 do PIDESC.",
+    "LOSAN = Lei 11.346/2006, que define SAN e cria o SISAN.",
+    "SAN tem duas dimensões: alimentar (disponibilidade/acesso) e nutricional (aproveitamento biológico).",
+    "Soberania alimentar = direito do povo de decidir seu sistema alimentar; mais amplo e político que SAN.",
+    "Componentes do SISAN: Conferência, CONSEA (consultivo, 2/3 sociedade civil), CAISAN (interministerial) e PLANSAN.",
+    "Obrigações do Estado quanto ao DHAA: respeitar, proteger e prover/promover.",
+    "SAN é intersetorial: saúde, agricultura, educação, assistência, saneamento."
+   ],
+   "dica_prova": "Pegadinha clássica: confundir CONSEA (consultivo, predomínio da sociedade civil) com CAISAN (governamental/interministerial, elabora o PLANSAN). Outra: reduzir SAN ao combate à fome. Guarde que a alimentação entrou na CF pela EC 64/2010 e que a LOSAN é a Lei 11.346/2006."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "PNAN e equipamentos públicos",
+   "intro": "A Política Nacional de Alimentação e Nutrição (PNAN) é a política de saúde que organiza, no âmbito do SUS, as ações de alimentação e nutrição. Aprovada em 1999 e atualizada em 2011 (Portaria MS 2.715/2011), tem como propósito a melhoria das condições de alimentação, nutrição e saúde da população, mediante a promoção de práticas alimentares adequadas e saudáveis, a vigilância alimentar e nutricional, a prevenção e o cuidado integral dos agravos relacionados à alimentação e nutrição.\n\nParalelamente, a política de SAN se materializa em equipamentos públicos de alimentação e nutrição (EPAN), que são estruturas físicas que ofertam refeições e alimentos a preços acessíveis ou gratuitamente, em especial para populações em vulnerabilidade: restaurantes populares/comunitários, cozinhas comunitárias e bancos de alimentos.\n\nO subtópico exige conhecer o propósito, os princípios e as nove diretrizes da PNAN, sua articulação com a Atenção Primária e o NASF/eMulti, e o papel, o público e o funcionamento dos equipamentos públicos de SAN, muito relevantes no contexto da SEDES-DF."
+  ,
+   "secoes": [
+    {
+     "h": "Propósito e princípios da PNAN",
+     "p": "A PNAN integra os esforços do Estado por meio do SUS para garantir o DHAA e a SAN da população. Seu propósito é a melhoria das condições de alimentação, nutrição e saúde, na perspectiva da segurança alimentar e nutricional.\n\nSeus princípios incluem: a alimentação como elemento de humanização das práticas de saúde; o respeito à diversidade e à cultura alimentar; o fortalecimento da autonomia dos indivíduos; a determinação social e a natureza interdisciplinar e intersetorial da alimentação e nutrição; e a segurança alimentar e nutricional com soberania."
+    },
+    {
+     "h": "As nove diretrizes da PNAN",
+     "p": "A PNAN (2011) organiza-se em nove diretrizes: 1) Organização da Atenção Nutricional; 2) Promoção da Alimentação Adequada e Saudável; 3) Vigilância Alimentar e Nutricional (SISVAN); 4) Gestão das ações de alimentação e nutrição; 5) Participação e controle social; 6) Qualificação da força de trabalho; 7) Controle e regulação dos alimentos; 8) Pesquisa, inovação e conhecimento; e 9) Cooperação e articulação para a SAN.\n\nA primeira diretriz (atenção nutricional) abrange cuidado, prevenção, diagnóstico e tratamento dos distúrbios nutricionais — da desnutrição às carências específicas e ao excesso de peso — de forma integrada na Rede de Atenção à Saúde, sobretudo na Atenção Primária."
+    },
+    {
+     "h": "Vigilância Alimentar e Nutricional (SISVAN)",
+     "p": "A Vigilância Alimentar e Nutricional consiste no monitoramento contínuo do estado nutricional e do consumo alimentar da população, sendo operacionalizada pelo SISVAN. Os dados antropométricos (peso, altura, IMC) e de consumo alimentar coletados na Atenção Primária subsidiam o diagnóstico do território, o planejamento de ações e a avaliação de programas (como o acompanhamento das condicionalidades de saúde de programas de transferência de renda).\n\nÉ instrumento essencial para identificar a dupla carga de má nutrição (coexistência de déficits e excesso de peso/obesidade) e orientar a PNAN."
+    },
+    {
+     "h": "Restaurantes populares/comunitários e cozinhas comunitárias",
+     "p": "Restaurantes populares (no DF, restaurantes comunitários) são equipamentos públicos que produzem e comercializam refeições saudáveis a preços acessíveis, em geral em grandes centros urbanos, voltados a trabalhadores de baixa renda e pessoas em vulnerabilidade. As cozinhas comunitárias são unidades de menor porte, de base comunitária, que produzem refeições e podem articular geração de renda e educação alimentar.\n\nNo DF, os restaurantes comunitários são geridos no âmbito da política de SAN da SEDES-DF, ofertando refeições subsidiadas (café da manhã, almoço e, em alguns casos, jantar), com cardápios planejados por nutricionistas, observando higiene e boas práticas. São instrumentos concretos de realização do DHAA para a população vulnerável."
+    },
+    {
+     "h": "Bancos de alimentos e combate ao desperdício",
+     "p": "Bancos de alimentos são estruturas que captam doações de alimentos (excedentes da produção, comércio e indústria, ou alimentos fora do padrão comercial mas próprios para consumo) e os distribuem a entidades socioassistenciais e a famílias em vulnerabilidade, combatendo simultaneamente a fome e o desperdício.\n\nIntegram a rede de equipamentos públicos de SAN e dialogam com a logística de doação prevista em normas de combate ao desperdício de alimentos. Funcionam segundo critérios de seleção, triagem, armazenamento e distribuição com controle higiênico-sanitário, atribuição em que o nutricionista é central."
+    }
+   ],
+   "exemplo": "Cenário SEDES-DF: um nutricionista lotado na coordenação de SAN deve planejar o cardápio de um restaurante comunitário e estruturar um banco de alimentos. Ele aplica a PNAN (alimentação adequada e saudável, respeito à cultura), garante boas práticas de fabricação e usa dados do SISVAN do território para dimensionar o público. Esse arranjo concretiza o DHAA por meio de equipamentos públicos de SAN.",
+   "pontos_chave": [
+    "PNAN atualizada em 2011 pela Portaria MS 2.715/2011; é política do SUS.",
+    "São NOVE diretrizes da PNAN (organização da atenção nutricional, promoção da alimentação saudável, VAN/SISVAN, gestão, controle social, força de trabalho, regulação de alimentos, pesquisa, cooperação/SAN).",
+    "SISVAN = monitoramento do estado nutricional e do consumo alimentar na Atenção Primária.",
+    "Restaurantes comunitários: refeições subsidiadas para vulneráveis; no DF geridos pela SEDES.",
+    "Bancos de alimentos combatem fome E desperdício, via doação a entidades.",
+    "Equipamentos públicos de SAN (EPAN) concretizam o DHAA.",
+    "Dupla carga de má nutrição: déficit e excesso coexistindo."
+   ],
+   "dica_prova": "Não confunda PNAN (política de saúde/SUS, com nove diretrizes) com PNAE (alimentação escolar) nem com a PNSAN. Memorize a tríade de equipamentos: restaurantes/cozinhas comunitárias (produção de refeições) e bancos de alimentos (captação e distribuição de doações). O SISVAN é frequentemente cobrado como o sistema da vigilância alimentar e nutricional."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "teoria-sociologica",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Clássicos: Marx, Durkheim e Weber",
+      "intro": "Karl Marx (1818-1883), Émile Durkheim (1858-1917) e Max Weber (1864-1920) são considerados os \"pais fundadores\" da sociologia. Cada um respondeu, a partir de pressupostos teóricos e metodológicos distintos, à mesma pergunta de fundo: como compreender a sociedade moderna que emergia da Revolução Industrial, da urbanização e das revoluções políticas burguesas.\n\nEntender as diferenças entre os três é a chave de leitura de toda a teoria sociológica posterior. Marx parte do conflito e da economia; Durkheim, da coesão e dos fatos sociais; Weber, da ação social dotada de sentido e da compreensão (Verstehen). Não são apenas autores: são paradigmas que organizam o pensamento social até hoje.",
+      "secoes": [
+        {
+          "h": "Marx: materialismo histórico e luta de classes",
+          "p": "Para Marx, a chave da história é o modo de produção. A infraestrutura econômica (forças produtivas + relações de produção) condiciona a superestrutura (Estado, direito, ideologia, religião). O motor da história é a luta de classes: \"a história de todas as sociedades até hoje existentes é a história da luta de classes\" (Manifesto Comunista, 1848).\n\nConceitos centrais: mais-valia (valor produzido pelo trabalhador além do que recebe, apropriado pelo capitalista), alienação (o trabalhador se torna estranho ao produto, ao processo, aos outros e a si mesmo) e ideologia (representações que naturalizam a dominação, a \"falsa consciência\"). A categoria de classe é definida pela posição na relação de produção, não pela renda."
+        },
+        {
+          "h": "Durkheim: fato social e solidariedade",
+          "p": "Durkheim funda a sociologia como ciência com objeto próprio: o fato social, definido por três características — exterioridade (existe fora dos indivíduos), coercitividade (impõe-se a eles) e generalidade (é coletivo). A regra de ouro de seu método (As Regras do Método Sociológico, 1895) é \"tratar os fatos sociais como coisas\".\n\nEm Da Divisão do Trabalho Social distingue a solidariedade mecânica (sociedades simples, baseadas na semelhança e na consciência coletiva forte) da solidariedade orgânica (sociedades complexas, baseadas na interdependência funcional). Outros conceitos: anomia (ausência ou enfraquecimento de normas reguladoras, ligada por ele inclusive ao suicídio) e o estudo do suicídio como fato social explicável por taxas e por graus de integração/regulação social."
+        },
+        {
+          "h": "Weber: ação social, tipos ideais e dominação",
+          "p": "Weber define a sociologia como a ciência que busca compreender (Verstehen) a ação social — toda conduta humana à qual o agente atribui um sentido e que se orienta pela conduta de outros. Classifica a ação em quatro tipos: racional com relação a fins, racional com relação a valores, afetiva e tradicional.\n\nUtiliza o tipo ideal como instrumento metodológico: uma construção conceitual acentuada que não existe na realidade pura, mas serve para compará-la. Analisa três tipos puros de dominação legítima: tradicional, carismática e racional-legal (esta última base da burocracia moderna). Em A Ética Protestante e o Espírito do Capitalismo, mostra a afinidade eletiva entre a ética calvinista e a racionalidade capitalista, contrapondo-se à leitura puramente econômica de Marx."
+        },
+        {
+          "h": "Comparando os três paradigmas",
+          "p": "Quanto ao foco: Marx enfatiza o conflito e a transformação; Durkheim, a ordem, a coesão e a integração; Weber, o sentido subjetivo e a racionalização. Quanto ao método: Marx é dialético e histórico; Durkheim é positivista e objetivista (o fato como coisa); Weber é compreensivo e individualista metodológico.\n\nQuanto à mudança social: para Marx vem da contradição entre forças e relações de produção (revolução); para Durkheim, da evolução da divisão do trabalho; para Weber, do processo de racionalização e desencantamento do mundo. Atenção: nenhum dos três é simplista — Weber não nega a economia, e Marx não ignora a política."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Segundo Durkheim, os fatos sociais devem ser explicados a partir das intenções e motivações subjetivas dos indivíduos.\" Gabarito: ERRADO. Essa é a perspectiva compreensiva de Weber (sentido subjetivo da ação). Durkheim defende exatamente o oposto: o fato social é exterior e coercitivo, devendo ser tratado \"como coisa\" e explicado por outros fatos sociais, não por estados de consciência individuais.",
+      "pontos_chave": [
+        "Marx: infraestrutura/superestrutura, mais-valia, alienação, ideologia, luta de classes",
+        "Durkheim: fato social (exterior, coercitivo, geral), tratado 'como coisa'; anomia; solidariedade mecânica/orgânica",
+        "Weber: ação social com sentido, Verstehen, tipo ideal, tipos de dominação (tradicional, carismática, racional-legal)",
+        "Marx = conflito; Durkheim = coesão/ordem; Weber = sentido/racionalização",
+        "Classe em Marx = posição na produção (não é faixa de renda)",
+        "Burocracia weberiana decorre da dominação racional-legal",
+        "Weber: A Ética Protestante mostra afinidade eletiva entre calvinismo e capitalismo"
+      ],
+      "dica_prova": "A pegadinha clássica é trocar os autores: atribuir a Durkheim a 'compreensão do sentido' (é Weber) ou a Weber o 'fato social como coisa' (é Durkheim). Memorize os tripés: fato social = exterior/coercitivo/geral (Durkheim); ação = racional-fins/racional-valores/afetiva/tradicional e dominação = tradicional/carismática/racional-legal (Weber). Cuidado também com 'falsa consciência' e 'mais-valia', que são exclusivos de Marx."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Contemporâneos: Bourdieu, Bauman, Foucault e Butler",
+      "intro": "A teoria sociológica contemporânea reformula as questões clássicas diante de novos fenômenos: a reprodução das desigualdades pela cultura, a fragmentação das identidades, as formas difusas de poder e a construção social do gênero. Pierre Bourdieu, Zygmunt Bauman, Michel Foucault e Judith Butler são autores frequentes em provas por oferecerem conceitos operatórios ainda muito usados em políticas públicas.\n\nEsses autores rompem com dicotomias rígidas (indivíduo x sociedade, estrutura x ação) e mostram como o poder e a desigualdade operam de modo capilar, simbólico e cotidiano — não apenas pelo Estado ou pela economia.",
+      "secoes": [
+        {
+          "h": "Bourdieu: habitus, campo e capitais",
+          "p": "Pierre Bourdieu (1930-2002) busca superar a oposição entre objetivismo e subjetivismo com três conceitos articulados. O habitus é o sistema de disposições duráveis, incorporadas desde a socialização, que orienta práticas e percepções (uma \"estrutura estruturada e estruturante\"). O campo é o espaço social relativamente autônomo (campo artístico, jurídico, político) onde agentes disputam posições segundo regras próprias.\n\nOs capitais explicam a posição social: capital econômico, capital cultural (saberes, diplomas, gostos), capital social (rede de relações) e capital simbólico (prestígio, reconhecimento). A escola, longe de ser neutra, reproduz desigualdades ao premiar o capital cultural das classes dominantes — é a violência simbólica, a imposição naturalizada de uma cultura como legítima."
+        },
+        {
+          "h": "Bauman: modernidade líquida",
+          "p": "Zygmunt Bauman (1925-2017) caracteriza nosso tempo como modernidade líquida: as estruturas sociais (emprego, vínculos, identidades, instituições) perderam a solidez de antes e tornaram-se fluidas, provisórias e em constante mutação. As relações são frágeis, o consumo é o eixo da vida social e a incerteza é permanente.\n\nDaí decorrem o medo líquido, o amor líquido (relações sem compromisso duradouro) e a figura dos \"refugos humanos\" — pessoas descartadas pela lógica do consumo e da flexibilização (desempregados, migrantes, pobres). Bauman é útil para discutir precarização, individualização e exclusão social."
+        },
+        {
+          "h": "Foucault: poder, disciplina e biopoder",
+          "p": "Michel Foucault (1926-1984) descentra a análise do poder: ele não é apenas repressivo nem está concentrado no Estado, mas é relacional, produtivo e circula em redes (\"micropoderes\"). Em Vigiar e Punir, descreve a sociedade disciplinar, que adestra os corpos por meio de instituições (prisão, escola, hospital, fábrica), tendo o panóptico como modelo de vigilância que se interioriza.\n\nIntroduz o biopoder/biopolítica: a gestão da vida das populações (saúde, natalidade, higiene). Mostra também a relação indissociável entre poder e saber (poder-saber): os discursos científicos produzem verdades que classificam, normalizam e governam os indivíduos. Conceitos úteis para analisar políticas públicas, controle e governamentalidade."
+        },
+        {
+          "h": "Butler: performatividade de gênero",
+          "p": "Judith Butler (1956-) é referência dos estudos de gênero. Sua tese central, em Problemas de Gênero, é a performatividade: o gênero não é uma essência nem decorre naturalmente do sexo biológico, mas é produzido pela repetição reiterada de atos, gestos e normas — é algo que \"se faz\", não que \"se é\".\n\nButler critica a chamada matriz heterossexual, que naturaliza a sequência sexo-gênero-desejo, e questiona a estabilidade das categorias 'mulher' e 'homem'. Importante: performatividade não significa 'escolha livre' nem 'fingimento'; é a produção do gênero por normas sociais que antecedem o sujeito. Diálogo direto com Foucault (poder produtivo e normalização)."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Para Bourdieu, a escola é uma instituição neutra que oferece a todos as mesmas oportunidades, corrigindo desigualdades de origem.\" Gabarito: ERRADO. Bourdieu sustenta o contrário: a escola reproduz as desigualdades sociais ao valorizar o capital cultural das classes dominantes, exercendo violência simbólica e legitimando a hierarquia social como se fosse mérito individual.",
+      "pontos_chave": [
+        "Bourdieu: habitus (disposições incorporadas), campo, capitais (econômico, cultural, social, simbólico), violência simbólica",
+        "Bauman: modernidade líquida — vínculos fluidos, consumo, incerteza, 'refugos humanos'",
+        "Foucault: poder relacional/produtivo, disciplina, panóptico, biopoder, poder-saber",
+        "Butler: gênero é performativo (repetição de atos/normas), não essência nem efeito do sexo",
+        "Foucault: poder não é só repressivo nem só estatal — circula em microrredes",
+        "Performatividade ≠ escolha livre ou fingimento",
+        "Bourdieu supera a dicotomia objetivismo x subjetivismo"
+      ],
+      "dica_prova": "Pegadinhas comuns: dizer que para Foucault o poder está 'concentrado no Estado' e é 'apenas repressivo' (ERRADO — é capilar e produtivo); confundir capital cultural com capital econômico em Bourdieu; afirmar que Butler defende o gênero como 'livre escolha do indivíduo' (ERRADO — é produzido por normas). Associe rapidamente: habitus=Bourdieu, líquido=Bauman, panóptico/biopoder=Foucault, performatividade=Butler."
+    }
+  ]
+}

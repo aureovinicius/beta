@@ -1,0 +1,87 @@
+{
+  "slug": "rotinas-acolhimento",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Orientações de acolhimento (Res. CNAS/CONANDA 1/2009)",
+      "intro": "As Orientações Técnicas: Serviços de Acolhimento para Crianças e Adolescentes foram aprovadas pela Resolução Conjunta CNAS/CONANDA nº 1, de 18 de junho de 2009, fruto do trabalho articulado entre o Conselho Nacional de Assistência Social (CNAS) e o Conselho Nacional dos Direitos da Criança e do Adolescente (CONANDA). O documento parametriza o funcionamento dos serviços de acolhimento (abrigo institucional, casa-lar, casa de passagem, república e família acolhedora) à luz do Estatuto da Criança e do Adolescente (Lei 8.069/1990) e do Plano Nacional de Promoção, Proteção e Defesa do Direito de Crianças e Adolescentes à Convivência Familiar e Comunitária (PNCFC, de 2006).\n\nO eixo central é a compreensão de que o acolhimento é medida de proteção excepcional e provisória, e que o lugar prioritário de desenvolvimento da criança e do adolescente é a família e a comunidade. O serviço deve organizar-se para reduzir ao mínimo o tempo de afastamento do convívio familiar e para reaproximar a criança da família de origem (natural ou extensa) ou, quando esgotadas as possibilidades, encaminhá-la para família substituta (guarda, tutela ou adoção).",
+      "secoes": [
+        {
+          "h": "Fundamento legal e articulação CNAS/CONANDA",
+          "p": "A Resolução Conjunta nº 1/2009 é produto de dois conselhos: o CNAS, que rege a política de assistência social (LOAS 8.742/1993, PNAS/2004), e o CONANDA, que rege a política dos direitos da criança e do adolescente (ECA). Essa origem conjunta reforça que o serviço de acolhimento está na interface entre o SUAS (Proteção Social Especial de Alta Complexidade) e o Sistema de Garantia de Direitos. O documento operacionaliza, no campo da assistência, os princípios do ECA e do Plano Nacional de Convivência Familiar e Comunitária."
+        },
+        {
+          "h": "Modalidades de acolhimento",
+          "p": "As Orientações Técnicas descrevem os serviços de acolhimento institucional (abrigo institucional, com até 20 crianças/adolescentes por unidade; casa-lar, em residências com presença de educador/cuidador residente; e casa de passagem para situações emergenciais) e o serviço de acolhimento em família acolhedora, em que crianças são acolhidas no domicílio de famílias cadastradas e capacitadas.\n\nPara jovens, há também a república, voltada a maiores de 18 anos egressos de acolhimento que não dispõem de retorno familiar. Todas as modalidades devem ter aspecto semelhante a uma residência e estar inseridas na comunidade, sem placas identificadoras que exponham as crianças."
+        },
+        {
+          "h": "Princípios orientadores do serviço",
+          "p": "São princípios estruturantes: excepcionalidade e provisoriedade do afastamento do convívio familiar; preservação e fortalecimento de vínculos familiares e comunitários; garantia de acesso e respeito à diversidade e à não-discriminação; oferta de atendimento personalizado e individualizado; preservação da convivência entre grupos de irmãos; e não desmembramento de grupos de irmãos.\n\nO serviço deve ainda evitar a institucionalização prolongada, garantir o direito à informação à criança sobre sua situação, e respeitar a autonomia e a participação do acolhido nas decisões que lhe dizem respeito, conforme seu grau de desenvolvimento."
+        },
+        {
+          "h": "PIA e reavaliação periódica",
+          "p": "Cada criança ou adolescente acolhido deve ter um Plano Individual de Atendimento (PIA), elaborado pela equipe técnica em articulação com o Conselho Tutelar e a Justiça da Infância. O PIA registra a história de vida, os objetivos do acolhimento, as ações de reintegração familiar e os encaminhamentos. A situação de cada acolhido deve ser reavaliada, no máximo, a cada período definido em lei (após a Lei 12.010/2009, no máximo a cada 6 meses), com relatório à autoridade judiciária para decisão sobre reintegração ou colocação em família substituta."
+        },
+        {
+          "h": "Plano Nacional de Convivência Familiar e Comunitária",
+          "p": "O PNCFC (2006) é a referência política que inspira as Orientações Técnicas. Ele rompe com a antiga cultura da institucionalização (a 'cultura do abrigamento') e estabelece o direito à convivência familiar e comunitária como prioridade. Suas diretrizes incluem o fortalecimento das famílias para evitar afastamentos desnecessários (prevenção), o investimento em programas de apoio sociofamiliar, e a reordenamento dos serviços de acolhimento para o formato de pequenos grupos e ambiente acolhedor."
+        }
+      ],
+      "exemplo": "Item de prova (estilo Cebraspe): 'As Orientações Técnicas aprovadas pela Resolução Conjunta CNAS/CONANDA nº 1/2009 admitem, como regra, o acolhimento institucional de longa permanência, por ser a medida que melhor garante a estabilidade da criança.' — ERRADO. O acolhimento é medida excepcional e provisória; a institucionalização prolongada deve ser evitada, e o objetivo é a reintegração familiar ou a colocação em família substituta no menor tempo possível.",
+      "pontos_chave": [
+        "Resolução Conjunta CNAS/CONANDA nº 1/2009: Orientações Técnicas de acolhimento de crianças e adolescentes.",
+        "Acolhimento é medida excepcional e provisória (art. 101 do ECA).",
+        "Modalidades: abrigo institucional, casa-lar, casa de passagem, família acolhedora e república.",
+        "Abrigo institucional: até 20 acolhidos por unidade, com aspecto de residência.",
+        "Não desmembrar grupos de irmãos; atendimento individualizado e personalizado.",
+        "Plano Individual de Atendimento (PIA) para cada acolhido, com reavaliação periódica (até 6 meses).",
+        "Base no ECA (8.069/1990) e no Plano Nacional de Convivência Familiar e Comunitária (2006)."
+      ],
+      "dica_prova": "A banca explora a confusão entre os conselhos: a resolução é CONJUNTA CNAS (assistência) + CONANDA (direitos da criança). Memorize os números: até 20 por abrigo; reavaliação a cada 6 meses (prazo trazido pela Lei 12.010/2009). Cuidado com pegadinhas que troquem 'excepcional e provisória' por 'permanente' ou 'preferencial', e que afirmem que se pode separar irmãos por conveniência."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Rotinas humanizadas e trabalho em equipe",
+      "intro": "A rotina de um serviço de acolhimento deve reproduzir, tanto quanto possível, o cotidiano de uma família, com previsibilidade, afeto e respeito à individualidade. O cuidador social é figura central nesse cotidiano: é quem acompanha as atividades diárias de higiene, alimentação, sono, estudo e lazer, mediando conflitos e estimulando a autonomia dos acolhidos. Rotina humanizada significa cuidar sem institucionalizar — evitando a despersonalização, a rigidez de horários militarizados e o tratamento massificado.\n\nO trabalho do cuidador nunca é isolado: integra-se a uma equipe (coordenação, equipe técnica de psicologia e serviço social, demais cuidadores e a rede externa). A atuação coordenada garante coerência no cuidado, registro adequado e proteção tanto dos acolhidos quanto dos próprios profissionais.",
+      "secoes": [
+        {
+          "h": "Higiene e cuidados corporais",
+          "p": "O cuidado com a higiene deve respeitar a faixa etária, a autonomia e a privacidade do acolhido. Crianças pequenas exigem auxílio direto (banho, troca, escovação), sempre com cuidado para preservar a intimidade e nunca expor o corpo da criança. Adolescentes devem ter sua privacidade garantida e ser orientados, não substituídos, na própria higiene.\n\nA atuação deve ser pedagógica: ensinar hábitos de autocuidado é parte da promoção da autonomia. O cuidador observa também sinais de saúde (lesões, alterações, sinais de violência) e os comunica à equipe técnica, sem expor ou constranger o acolhido."
+        },
+        {
+          "h": "Alimentação como momento de cuidado",
+          "p": "A alimentação não é apenas nutrição: é um momento de convivência, vínculo e construção de hábitos. As refeições devem ser balanceadas, adequadas a restrições e à cultura, e servidas em ambiente acolhedor (mesa coletiva, conversa, participação das crianças no preparo quando possível). Devem-se respeitar particularidades religiosas e alimentares e nunca usar a comida como punição ou recompensa coercitiva."
+        },
+        {
+          "h": "Promoção da autonomia",
+          "p": "Promover autonomia é deixar o acolhido fazer por si o que é capaz de fazer, conforme a idade e o desenvolvimento, oferecendo apoio gradual. Isso inclui escolher roupas, organizar pertences, participar de tarefas domésticas adequadas à idade e tomar pequenas decisões cotidianas.\n\nO objetivo é preparar para a vida fora do serviço (especialmente o adolescente que se aproxima da maioridade) e combater a dependência institucional. Autonomia não é abandono: é apoio à independência progressiva, com supervisão protetiva."
+        },
+        {
+          "h": "Mediação de conflitos",
+          "p": "Conflitos são esperados na convivência coletiva. A mediação humanizada substitui a punição pela escuta, pelo diálogo e pela construção conjunta de soluções. O cuidador deve manter postura firme e acolhedora, estabelecer combinados claros, evitar qualquer forma de castigo físico ou humilhante (vedados pela Lei Menino Bernardo, Lei 13.010/2014) e nunca rotular ou estigmatizar.\n\nSituações graves ou recorrentes devem ser levadas à equipe técnica. O registro dos episódios é importante para o acompanhamento e para o PIA."
+        },
+        {
+          "h": "Vínculos e referência afetiva",
+          "p": "O cuidador é, muitas vezes, a principal referência afetiva do acolhido. Construir vínculo seguro — com afeto, previsibilidade e respeito — é terapêutico, mas exige cuidado profissional: o vínculo não deve substituir a família de origem nem gerar dependência exclusiva. A continuidade dos profissionais (baixa rotatividade) favorece a estabilidade emocional. Ao mesmo tempo, deve-se preservar e estimular o contato com a família de origem e a comunidade, pois a finalidade do acolhimento é a reintegração."
+        },
+        {
+          "h": "Trabalho em equipe e registros",
+          "p": "O cuidado é responsabilidade coletiva. A equipe deve compartilhar informações em reuniões e passagens de plantão, manter unidade nas regras e combinados, e registrar ocorrências de forma objetiva. A equipe técnica (psicólogo e assistente social) elabora e acompanha o PIA; os cuidadores fornecem observações do cotidiano que alimentam esse plano. A articulação com a rede (saúde, educação, Conselho Tutelar, Justiça) é parte do trabalho. Sigilo e proteção de dados dos acolhidos são obrigatórios (ECA e LGPD)."
+        }
+      ],
+      "exemplo": "Cenário aplicado: dois adolescentes acolhidos entram em conflito durante o jantar. Postura humanizada esperada do cuidador: interromper a escalada com firmeza e sem agressividade, separar os envolvidos, ouvir cada lado em separado, relembrar os combinados da casa, mediar uma solução e registrar o episódio para a equipe técnica. Posturas vedadas: deixar sem jantar (alimentação como punição), aplicar castigo físico ou humilhante (proibido pela Lei 13.010/2014) ou expor publicamente o conflito.",
+      "pontos_chave": [
+        "Rotina humanizada reproduz o cotidiano familiar, com afeto, previsibilidade e respeito à individualidade.",
+        "Higiene e alimentação são momentos de cuidado, vínculo e promoção de hábitos — nunca de punição.",
+        "Promover autonomia: apoiar a independência progressiva conforme idade e desenvolvimento.",
+        "Mediação de conflitos por diálogo e combinados; castigo físico/humilhante é proibido (Lei 13.010/2014 - Menino Bernardo).",
+        "O cuidador é referência afetiva, mas não substitui a família de origem.",
+        "Cuidado é trabalho de equipe: passagem de plantão, reuniões, registros e PIA.",
+        "Sigilo e proteção de dados dos acolhidos (ECA + LGPD)."
+      ],
+      "dica_prova": "Pegadinhas comuns: afirmar que o cuidador deve agir sozinho ('autonomia profissional total') — errado, o cuidado é em equipe; ou que autonomia do acolhido significa ausência de supervisão — errado, é apoio protetivo. A banca também testa a vedação ao castigo físico/humilhante (Lei do Menino Bernardo, 13.010/2014, que alterou o ECA). Marque como errado qualquer item que use privação de comida, exposição pública ou rotulação como método disciplinar."
+    }
+  ]
+}

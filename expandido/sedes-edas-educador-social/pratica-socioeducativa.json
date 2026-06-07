@@ -1,0 +1,77 @@
+{
+  "slug": "pratica-socioeducativa",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Educador na Proteção Social Básica (PAIF, SCFV)",
+      "intro": "A Proteção Social Básica (PSB) é o nível do SUAS voltado à PREVENÇÃO de situações de risco, por meio do fortalecimento de vínculos familiares e comunitários e do desenvolvimento de potencialidades. Seu equipamento estatal de referência é o CRAS (Centro de Referência de Assistência Social), localizado em territórios de maior vulnerabilidade. A PSB atende famílias e indivíduos em situação de vulnerabilidade social decorrente da pobreza, da privação ou da fragilização de vínculos — mas em que os direitos AINDA NÃO foram violados.\n\nO Educador Social na PSB atua principalmente em dois serviços: o PAIF (Serviço de Proteção e Atendimento Integral à Família), ofertado exclusivamente no CRAS, e o SCFV (Serviço de Convivência e Fortalecimento de Vínculos), em grupos por faixa etária. Seu papel é educativo e preventivo: mediar grupos, conduzir oficinas, fortalecer vínculos e estimular o protagonismo e a participação social, sempre de forma articulada à equipe técnica de referência."
+      ,
+      "secoes": [
+        {
+          "h": "A Proteção Social Básica e o CRAS",
+          "p": "A PSB tem caráter PREVENTIVO e protetivo. Seu objetivo é prevenir situações de risco, fortalecer vínculos e desenvolver capacidades. O CRAS é a porta de entrada do SUAS no território, responsável pela organização e oferta dos serviços de PSB, pela busca ativa e pela referência e contrarreferência com a rede.\n\nA PSB atende quem vive vulnerabilidade SEM violação de direitos consumada — diferentemente da Proteção Social Especial, que atua quando o risco já se concretizou (violência, abandono, trabalho infantil etc.). Essa distinção (vulnerabilidade x violação) é o divisor de águas entre PSB e PSE."
+        },
+        {
+          "h": "O PAIF e o papel do educador",
+          "p": "O PAIF é o principal serviço da PSB, de oferta OBRIGATÓRIA e EXCLUSIVA do CRAS. Trabalha com famílias de forma continuada, com foco na matricialidade sociofamiliar, no fortalecimento da função protetiva e na prevenção da ruptura de vínculos. Inclui acolhida, oficinas com famílias, ações comunitárias, ações particularizadas e encaminhamentos.\n\nO Educador Social apoia o PAIF conduzindo oficinas e ações coletivas, facilitando grupos, estimulando a reflexão e a participação, e observando situações que devam ser comunicadas à equipe técnica (assistente social e psicólogo). Ele não realiza o acompanhamento técnico especializado, mas é fundamental nas atividades socioeducativas e de convivência."
+        },
+        {
+          "h": "O SCFV e o trabalho em grupos",
+          "p": "O SCFV é um serviço realizado em GRUPOS, organizado por ciclos de vida (crianças, adolescentes, jovens, adultos e idosos), de forma complementar ao PAIF. Tem caráter preventivo e proativo, baseado na convivência, na troca de experiências e no fortalecimento de vínculos, buscando prevenir o isolamento e situações de risco.\n\nO Educador Social (também chamado de orientador social/facilitador) é peça central do SCFV: planeja e conduz os encontros, oficinas, atividades culturais, esportivas e lúdicas, sempre com intencionalidade socioeducativa — ou seja, não é mero entretenimento, mas atividade orientada ao desenvolvimento de autonomia, sociabilidade e participação cidadã."
+        },
+        {
+          "h": "Postura e ética do educador na PSB",
+          "p": "A atuação do Educador Social pauta-se pelo respeito à autonomia, pela escuta, pela valorização dos saberes do território e pelo estímulo ao protagonismo dos usuários. Deve evitar posturas assistencialistas (que geram dependência) e moralizantes (que julgam modos de vida), reconhecendo o usuário como sujeito de direitos.\n\nO trabalho é interdisciplinar e articulado: o educador integra a equipe do CRAS, dialoga com a equipe técnica de referência, registra e comunica situações, e participa do planejamento coletivo. A intencionalidade educativa e o trabalho em rede no território são marcas dessa atuação."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): 'O Serviço de Convivência e Fortalecimento de Vínculos (SCFV) destina-se exclusivamente ao atendimento de famílias cujos direitos já foram violados, sendo ofertado pela Proteção Social Especial.' — ERRADO. O SCFV é serviço da Proteção Social BÁSICA, de caráter PREVENTIVO, voltado ao fortalecimento de vínculos e à prevenção de riscos, organizado em grupos por ciclo de vida — e não ao atendimento de direitos já violados (isso é PSE). Além disso, atende indivíduos por faixa etária, complementando o PAIF.",
+      "pontos_chave": [
+        "PSB = prevenção; foco em vulnerabilidade SEM violação de direitos.",
+        "CRAS é a porta de entrada e referência da PSB no território.",
+        "PAIF: serviço com famílias, exclusivo e obrigatório do CRAS.",
+        "SCFV: serviço em grupos, por ciclo de vida, complementar ao PAIF.",
+        "Educador conduz oficinas e grupos com intencionalidade socioeducativa.",
+        "Atua articulado à equipe técnica; não faz acompanhamento técnico especializado.",
+        "Postura: protagonismo, autonomia, anti-assistencialismo, sujeito de direitos."
+      ],
+      "dica_prova": "A pegadinha mais comum é alocar PAIF ou SCFV na Proteção Social Especial — ambos são da PSB. Outra: dizer que o PAIF é ofertado em qualquer serviço — é EXCLUSIVO do CRAS. Lembre o divisor PSB x PSE: vulnerabilidade (ainda sem violação) é PSB; risco/violação já ocorrida é PSE. E o SCFV é organizado em GRUPOS por faixa etária, complementando o PAIF."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Educador na Proteção Social Especial (PAEFI)",
+      "intro": "A Proteção Social Especial (PSE) é o nível do SUAS destinado a famílias e indivíduos cujos DIREITOS JÁ FORAM VIOLADOS — situações de risco pessoal e social por ocorrência de violência, abuso, abandono, negligência, trabalho infantil, situação de rua, afastamento do convívio familiar, entre outras. Diferentemente da PSB (preventiva), a PSE é de caráter PROTETIVO e, muitas vezes, mais complexo e especializado, exigindo acompanhamento técnico continuado.\n\nA PSE divide-se em MÉDIA complexidade (vínculos familiares preservados, embora fragilizados) e ALTA complexidade (vínculos rompidos, com necessidade de acolhimento/abrigamento). Seu equipamento de referência na média complexidade é o CREAS, onde se oferta o PAEFI (Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos). O Educador Social também atua na PSE, notadamente no Serviço Especializado em Abordagem Social e nos serviços de acolhimento, sempre articulado à equipe técnica especializada."
+      ,
+      "secoes": [
+        {
+          "h": "Proteção Social Especial: média e alta complexidade",
+          "p": "A PSE atua quando o risco já se concretizou. A MÉDIA COMPLEXIDADE atende situações em que os vínculos familiares e comunitários NÃO foram rompidos, embora estejam fragilizados ou ameaçados (PAEFI, Serviço Especializado em Abordagem Social, serviço de proteção a adolescentes em cumprimento de medidas socioeducativas de LA e PSC, serviço para pessoas com deficiência/idosas e suas famílias).\n\nA ALTA COMPLEXIDADE atende quem teve os vínculos ROMPIDOS e precisa de proteção integral fora do núcleo de origem: serviços de acolhimento (institucional e familiar), República, e proteção em situações de calamidade/emergência. O CREAS é a referência da média complexidade."
+        },
+        {
+          "h": "O PAEFI",
+          "p": "O PAEFI é o serviço de oferta obrigatória do CREAS, voltado a famílias e indivíduos em situação de risco pessoal e social por VIOLAÇÃO DE DIREITOS. Oferece apoio, orientação e acompanhamento especializado e continuado, com vistas a interromper a violação, fortalecer a função protetiva da família, reparar danos e contribuir para a restauração de vínculos.\n\nÉ um trabalho interdisciplinar (assistente social, psicólogo, advogado, equipe de apoio), articulado ao Sistema de Garantia de Direitos (Conselho Tutelar, Ministério Público, Defensoria, Judiciário, saúde, educação). O acompanhamento é técnico e especializado, com plano de atendimento individual/familiar."
+        },
+        {
+          "h": "Abordagem social e o papel do educador",
+          "p": "O Serviço Especializado em Abordagem Social é ofertado de forma continuada e programada, com o objetivo de assegurar trabalho social de abordagem e busca ativa nos territórios (praças, ruas, locais públicos), identificando situações como trabalho infantil, exploração sexual, mendicância, situação de rua e uso abusivo de substâncias.\n\nO Educador Social é protagonista nessa abordagem: ele vai ao território, estabelece o primeiro contato, constrói VÍNCULO de confiança com respeito e sem coerção, oferece informações e encaminhamentos, e faz a ponte com a rede (CREAS, Centro POP, saúde, acolhimento). A abordagem deve respeitar a autonomia e o tempo da pessoa, jamais sendo confundida com 'recolhimento' compulsório ou higienista."
+        },
+        {
+          "h": "Acolhimento e ética na PSE",
+          "p": "Nos serviços de acolhimento (alta complexidade), o Educador Social — em equipamentos como abrigos, casas-lares e o Centro POP — apoia o cotidiano, a convivência e o cuidado de pessoas afastadas do núcleo familiar (crianças/adolescentes, idosos, pessoas em situação de rua), sempre buscando, quando possível, a reintegração familiar e comunitária.\n\nA ética na PSE exige sigilo, proteção, escuta qualificada, não revitimização e respeito à dignidade. O educador articula-se permanentemente com a equipe técnica e com o Sistema de Garantia de Direitos, comunicando violações (notificação obrigatória de violência contra crianças, adolescentes e idosos) e contribuindo para a interrupção do ciclo de violência."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): 'O Serviço Especializado em Abordagem Social autoriza o educador a conduzir compulsoriamente pessoas em situação de rua a abrigos, independentemente de sua vontade.' — ERRADO. A abordagem social baseia-se na construção VOLUNTÁRIA de vínculo, no respeito à autonomia e no tempo da pessoa; jamais se confunde com recolhimento compulsório ou prática higienista. O educador oferece informação, vínculo e encaminhamento, mas não força a adesão.",
+      "pontos_chave": [
+        "PSE = direitos JÁ violados; caráter protetivo e especializado.",
+        "Média complexidade: vínculos fragilizados, mas não rompidos (CREAS, PAEFI).",
+        "Alta complexidade: vínculos rompidos, necessidade de acolhimento.",
+        "PAEFI: serviço obrigatório do CREAS, acompanhamento especializado continuado.",
+        "Abordagem social: busca ativa no território, vínculo voluntário, sem coerção.",
+        "Articulação com o Sistema de Garantia de Direitos (Conselho Tutelar, MP, Judiciário).",
+        "Ética: sigilo, não revitimização, notificação de violência, dignidade."
+      ],
+      "dica_prova": "Não confunda os níveis: PAEFI/CREAS = média complexidade; acolhimento = alta complexidade. A pegadinha recorrente apresenta a abordagem social como 'recolhimento compulsório' ou ação de limpeza urbana — sempre ERRADO: é busca ativa com vínculo voluntário. Lembre o divisor: PSB previne (vulnerabilidade), PSE protege (violação já ocorrida). E o PAEFI é o serviço-espelho do PAIF, mas no CREAS e para direitos violados."
+    }
+  ]
+}

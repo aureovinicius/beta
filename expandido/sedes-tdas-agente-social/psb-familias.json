@@ -1,0 +1,75 @@
+{
+  "slug": "psb-familias",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Serviço de Atendimento Integral à Família (PAIF)",
+      "intro": "O PAIF — Serviço de Proteção e Atendimento Integral à Família — é o principal serviço da Proteção Social Básica e a espinha dorsal do trabalho social com famílias no SUAS. Sua oferta é OBRIGATÓRIA e EXCLUSIVA do CRAS, conforme a Tipificação Nacional dos Serviços Socioassistenciais (Resolução CNAS nº 109/2009). O PAIF trabalha numa perspectiva preventiva e protetiva, fortalecendo a função protetiva das famílias antes que ocorram rupturas e violações de direitos.\n\nO foco é a FAMÍLIA como um todo (matricialidade sociofamiliar), e não o indivíduo isolado. Para o Agente Social, o PAIF é o campo de atuação cotidiano: ele apoia o desenvolvimento das ações, recebe as famílias e contribui para o vínculo entre elas e o serviço.",
+      "secoes": [
+        {
+          "h": "O que é e a quem se destina",
+          "p": "O PAIF consiste no trabalho social com famílias de caráter continuado, com a finalidade de fortalecer a função protetiva da família, prevenir a ruptura de vínculos, promover o acesso a direitos e melhorar a qualidade de vida. Destina-se a famílias em situação de vulnerabilidade social, especialmente as beneficiárias de programas de transferência de renda e do BPC, e as residentes em territórios de maior risco.\n\nDiferentemente da PSE, o PAIF não atua sobre violações já instaladas — ele previne. Por isso é classificado na Proteção Social Básica."
+        },
+        {
+          "h": "Atendimento e acompanhamento familiar",
+          "p": "O PAIF distingue duas modalidades. O ATENDIMENTO é a ação imediata de recepção, escuta, informação e encaminhamento, sem necessariamente continuidade. O ACOMPANHAMENTO FAMILIAR é o conjunto de intervenções continuadas, planejadas a partir de objetivos estabelecidos com a família, registradas em prontuário e com metas a serem alcançadas ao longo do tempo.\n\nO acompanhamento pode ser individualizado (uma família) ou em grupo, e estrutura-se a partir de um Plano de Acompanhamento Familiar pactuado com os usuários."
+        },
+        {
+          "h": "Ações do PAIF",
+          "p": "São ações típicas do PAIF: acolhida, oficinas com famílias, ações comunitárias, ações particularizadas e encaminhamentos. As oficinas e ações comunitárias têm caráter coletivo e reflexivo, mobilizando temas relevantes do território. As ações particularizadas atendem situações específicas que demandam atenção individual.\n\nTodas as ações buscam ampliar o protagonismo das famílias, o acesso a serviços e a participação social, evitando o assistencialismo e a tutela."
+        },
+        {
+          "h": "Matricialidade sociofamiliar e território",
+          "p": "O PAIF concretiza dois pilares do SUAS: a matricialidade sociofamiliar (a família é o eixo central da proteção) e a territorialização (o serviço conhece e atua no território). A família é compreendida em sua diversidade de arranjos, sem modelo único, e o trabalho respeita seus valores, sua cultura e sua autonomia."
+        }
+      ],
+      "exemplo": "Item comentado: 'O PAIF pode ser ofertado tanto pelo CRAS quanto pelo CREAS, conforme a complexidade do caso.' — ERRADO. O PAIF é oferta EXCLUSIVA do CRAS. O serviço equivalente da média complexidade, ofertado pelo CREAS, é o PAEFI. Essa troca é uma das pegadinhas mais recorrentes.",
+      "pontos_chave": [
+        "PAIF: oferta obrigatória e exclusiva do CRAS (PSB).",
+        "Foco na família (matricialidade sociofamiliar), não no indivíduo.",
+        "Caráter preventivo e protetivo, não atua sobre violações instaladas.",
+        "Atendimento (imediato) x Acompanhamento (continuado e planejado).",
+        "Ações: acolhida, oficinas, ações comunitárias e particularizadas, encaminhamentos.",
+        "Base legal: Tipificação Nacional (Resolução CNAS 109/2009).",
+        "Reconhece a diversidade de arranjos familiares, sem modelo único."
+      ],
+      "dica_prova": "Não confunda PAIF (CRAS/PSB) com PAEFI (CREAS/PSE média). E lembre: PAIF previne; PAEFI atua sobre violações já ocorridas. Bancas também testam a diferença entre atendimento (pontual) e acompanhamento (continuado, com plano e prontuário)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "SCFV e prevenção de vulnerabilidades",
+      "intro": "O SCFV — Serviço de Convivência e Fortalecimento de Vínculos — é um serviço da Proteção Social Básica, organizado em grupos por faixa etária, que complementa o trabalho do PAIF. Realizado por meio de encontros e atividades planejadas, busca prevenir situações de risco social ao fortalecer os vínculos familiares e comunitários e ao ampliar a convivência e a participação dos usuários.\n\nO Agente Social tem papel central no SCFV: é frequentemente quem conduz oficinas, dinâmicas e atividades de convivência sob orientação técnica, sendo essencial conhecer os objetivos e os públicos do serviço.",
+      "secoes": [
+        {
+          "h": "O que é o SCFV",
+          "p": "O SCFV é um serviço realizado em grupos, de forma complementar ao trabalho com famílias do PAIF. Tem caráter preventivo e proativo, pautado na defesa e afirmação de direitos e no desenvolvimento de capacidades dos usuários. Suas atividades são planejadas em percursos, conforme os interesses, demandas e potencialidades das pessoas, estimulando a convivência, a socialização e o fortalecimento de vínculos.\n\nÉ ofertado no CRAS ou em unidades referenciadas a ele, e tem articulação obrigatória com o PAIF: o usuário do SCFV cuja família esteja em acompanhamento deve ter o trabalho integrado."
+        },
+        {
+          "h": "Públicos e ciclos de vida",
+          "p": "O SCFV organiza-se por faixas etárias: crianças de até 6 anos (primeira infância), crianças e adolescentes de 6 a 15 anos, adolescentes e jovens de 15 a 17 anos, jovens de 18 a 29 anos, adultos de 30 a 59 anos e pessoas idosas. Cada grupo tem objetivos adequados ao seu ciclo de vida.\n\nO serviço também tem papel relevante no enfrentamento ao trabalho infantil, sendo um dos espaços de acompanhamento de crianças e adolescentes retiradas dessa situação."
+        },
+        {
+          "h": "Prevenção de vulnerabilidades",
+          "p": "O SCFV previne a ocorrência de situações de risco ao criar oportunidades de convívio, troca de experiências e construção de projetos de vida. Ao fortalecer vínculos e ampliar o repertório dos usuários, reduz o isolamento, o abandono, a discriminação e a exposição a violências.\n\nA prevenção aqui é entendida em sentido amplo: não apenas evitar problemas, mas promover desenvolvimento, autonomia e cidadania."
+        },
+        {
+          "h": "Mobilização comunitária e participação",
+          "p": "Além do trabalho em grupo, o SCFV estimula a participação social e a mobilização comunitária: ações coletivas no território, valorização das culturas locais, protagonismo dos usuários e fortalecimento das redes de solidariedade. O serviço não é mera 'atividade recreativa' — toda ação tem intencionalidade socioeducativa e está articulada ao projeto de fortalecimento de vínculos."
+        }
+      ],
+      "exemplo": "Cenário aplicado: um Agente Social conduz um grupo de pessoas idosas no SCFV com rodas de conversa, atividades culturais e passeios. Uma idosa relata sinais de isolamento e conflito familiar. O Agente registra e comunica a equipe técnica, que pode incluir a família no acompanhamento do PAIF. Isso ilustra a articulação obrigatória SCFV-PAIF e o caráter preventivo do serviço.",
+      "pontos_chave": [
+        "SCFV: serviço da PSB, em grupos, complementar ao PAIF.",
+        "Caráter preventivo, proativo e socioeducativo (não é só recreação).",
+        "Organizado por faixas etárias / ciclos de vida.",
+        "Fortalece vínculos familiares e comunitários e amplia a convivência.",
+        "Atua no enfrentamento ao trabalho infantil.",
+        "Articulação obrigatória com o PAIF.",
+        "Estimula participação social e mobilização comunitária."
+      ],
+      "dica_prova": "Cuidado com a banca reduzindo o SCFV a 'atividades de lazer/recreação' — ele tem intencionalidade socioeducativa e função preventiva. Lembre também que ele é complementar e articulado ao PAIF, não substituto do trabalho com famílias."
+    }
+  ]
+}

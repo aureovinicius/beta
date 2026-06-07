@@ -1,0 +1,46 @@
+{
+ "slug": "contab-geral-soc",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 2,
+   "titulo": "Mensuração, avaliação e evidenciação",
+   "intro": "Mensuração, avaliação e evidenciação formam a espinha dorsal da Contabilidade como sistema de informação. Mensurar (ou avaliar) é atribuir valor monetário aos elementos das demonstrações contábeis: ativos, passivos, receitas e despesas. Evidenciar (disclosure) é divulgar, de forma completa e compreensível, todas as informações relevantes para que o usuário tome decisões. Os dois conceitos andam juntos: não basta apurar o valor certo (mensuração), é preciso comunicá-lo de modo transparente (evidenciação).\n\nO referencial é a Estrutura Conceitual para Relatório Financeiro (CPC 00 R2, alinhada ao IASB), que define os objetivos e as características qualitativas da informação contábil-financeira. Para o setor público há a NBC TSP Estrutura Conceitual, com lógica análoga, mas voltada à prestação de contas e responsabilização (accountability). O concurso da SEDES cobra os conceitos gerais e a capacidade de distinguir as bases de mensuração e o conteúdo das notas explicativas.\n\nO conceito de lucro está no centro da mensuração: o resultado depende de como se reconhecem receitas e despesas e de quais bases de valor se adotam para os ativos e passivos. Por isso, antes de calcular o lucro, é indispensável compreender as alternativas de mensuração e o regime de competência."
+   ,
+   "secoes": [
+    {
+     "h": "Características qualitativas da informação",
+     "p": "A Estrutura Conceitual define características qualitativas fundamentais e de melhoria. Fundamentais: relevância (capaz de fazer diferença na decisão, incluindo valor preditivo e confirmatório, e a noção de materialidade) e representação fidedigna (informação completa, neutra e livre de erro).\n\nDe melhoria: comparabilidade, verificabilidade, tempestividade e compreensibilidade. Elas aumentam a utilidade de uma informação que já seja relevante e fidedigna, mas não suprem a falta das fundamentais. A restrição abrangente é o custo: o benefício da informação deve superar o custo de produzi-la."
+    },
+    {
+     "h": "Bases de mensuração",
+     "p": "A mensuração pode usar o custo histórico (valor original da transação, ajustado por depreciação, amortização e perdas) ou bases de valor corrente: valor justo (preço de venda em transação ordenada entre participantes do mercado), valor em uso (valor presente dos fluxos de caixa futuros do ativo), valor de cumprimento (para passivos) e custo corrente (valor para repor o ativo hoje).\n\nA escolha da base depende da característica do elemento e da norma específica. Estoques, por exemplo, são avaliados ao menor entre o custo e o valor realizável líquido; instrumentos financeiros costumam ir a valor justo; o imobilizado, em regra, ao custo, com opção de reavaliação no padrão internacional (vedada no Brasil para sociedades reguladas pela Lei 6.404/76 após a Lei 11.638/07)."
+    },
+    {
+     "h": "Conceito de lucro e regime de competência",
+     "p": "O lucro contábil é a diferença entre receitas e despesas reconhecidas no período pelo regime de competência: as receitas são reconhecidas quando ganhas (transferência do controle de bens ou serviços, conforme o CPC 47) e as despesas quando incorridas, independentemente do recebimento ou pagamento (caixa).\n\nHá também a noção econômica de lucro como manutenção do capital: só há lucro depois de preservado o capital da entidade. A Estrutura Conceitual discute a manutenção do capital financeiro (em unidades monetárias) e do capital físico (capacidade operacional). Essa distinção explica por que reavaliações e ajustes a valor justo podem transitar pelo resultado ou por outros resultados abrangentes."
+    },
+    {
+     "h": "Evidenciação e notas explicativas",
+     "p": "Evidenciar é divulgar de forma adequada. Os instrumentos de disclosure incluem o conjunto completo de demonstrações (balanço patrimonial, DRE, DRA, DMPL, DFC e, quando exigido, DVA), as notas explicativas, os relatórios da administração e os pareceres de auditoria.\n\nAs notas explicativas detalham as práticas contábeis adotadas, as bases de mensuração, as contingências, partes relacionadas, eventos subsequentes e demais informações que não cabem no corpo dos quadros. Vigora o princípio do full disclosure (divulgação plena): omitir informação material distorce a representação fidedigna tanto quanto registrá-la errado."
+    },
+    {
+     "h": "Reconhecimento, desreconhecimento e mensuração de passivos",
+     "p": "Um elemento só é reconhecido quando atende à definição de ativo ou passivo e fornece informação relevante e fidedigna. Ativo é um recurso econômico presente controlado pela entidade como resultado de eventos passados; passivo é uma obrigação presente de transferir recurso econômico.\n\nO desreconhecimento ocorre quando a entidade perde o controle do ativo ou se extingue a obrigação. Passivos podem ser mensurados pelo valor de liquidação ou a valor presente quando o efeito do tempo for relevante. Provisões (CPC 25) exigem obrigação presente, saída provável e estimativa confiável; quando faltam esses requisitos, há apenas passivo contingente, objeto de divulgação, não de registro."
+    }
+   ],
+   "exemplo": "Item estilo Cebraspe: 'A evidenciação adequada permite que a entidade deixe de reconhecer no balanço um passivo de valor relevante e certo, bastando descrevê-lo em nota explicativa.' Errado. A nota explicativa complementa, mas não substitui o reconhecimento. Uma obrigação presente, provável e mensurável com confiabilidade deve ser registrada (provisão); só passivos contingentes (não prováveis ou sem estimativa confiável) é que ficam restritos à divulgação. Confundir reconhecer com evidenciar é a pegadinha clássica.",
+   "pontos_chave": [
+    "Mensuração/avaliação = atribuir valor; evidenciação = divulgar de forma plena e clara.",
+    "Características fundamentais: relevância e representação fidedigna; de melhoria: comparabilidade, verificabilidade, tempestividade, compreensibilidade.",
+    "Bases de mensuração: custo histórico, valor justo, valor em uso, valor de cumprimento e custo corrente.",
+    "Lucro pelo regime de competência: receitas ganhas e despesas incorridas, não pelo caixa.",
+    "Manutenção do capital (financeiro x físico) condiciona a existência de lucro.",
+    "Full disclosure: omitir informação material distorce a representação fidedigna.",
+    "Provisão exige obrigação presente, saída provável e estimativa confiável; senão é passivo contingente (só divulgação).",
+    "CPC 00 R2 para o setor privado e NBC TSP Estrutura Conceitual para o setor público."
+   ],
+   "dica_prova": "A banca adora trocar conceitos: chamar evidenciação de mensuração e vice-versa, ou dizer que a nota explicativa substitui o registro. Memorize que materialidade é aspecto da relevância (não característica autônoma) e que custo é a restrição abrangente. Atenção também à diferença provisão x passivo contingente e à vedação à reavaliação espontânea de ativos no Brasil."
+  }
+ ]
+}

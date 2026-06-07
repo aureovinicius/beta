@@ -1,0 +1,181 @@
+{
+  "slug": "fundamentos-suas-edas",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Princípios, proteções e seguranças",
+      "intro": "A assistência social é direito do cidadão e dever do Estado, política de seguridade social não contributiva, prestada a quem dela necessitar (CF/88, arts. 203-204; LOAS, Lei 8.742/1993). A LOAS define seus objetivos, princípios e diretrizes; a PNAS/2004 a operacionaliza; e o SUAS é o sistema que organiza a oferta dos serviços e benefícios.\n\nO arcabouço estrutura-se em dois níveis de proteção (básica e especial) e em seguranças socioassistenciais que traduzem aquilo que a política deve afiançar ao usuário: acolhida, convívio, renda e desenvolvimento de autonomia.",
+      "secoes": [
+        { "h": "LOAS: objetivos e princípios", "p": "A LOAS estabelece como objetivos a proteção à família, maternidade, infância, adolescência e velhice; o amparo a crianças e adolescentes carentes; a promoção da integração ao mercado de trabalho; a habilitação e reabilitação de pessoas com deficiência; e a garantia do BPC. Princípios: supremacia das necessidades sociais sobre a rentabilidade; universalização; respeito à dignidade e autonomia; igualdade no acesso; e ampla divulgação." },
+        { "h": "Proteção Social Básica (PSB)", "p": "Caráter preventivo, voltado a prevenir riscos e fortalecer vínculos. Ofertada no CRAS (porta de entrada do SUAS), com destaque para o PAIF e os Serviços de Convivência e Fortalecimento de Vínculos. Atende famílias e indivíduos em situação de vulnerabilidade." },
+        { "h": "Proteção Social Especial (PSE)", "p": "Atua quando direitos já foram violados. Média complexidade (vínculos preservados) é ofertada no CREAS, com o PAEFI, atendimento a vítimas de violência, abordagem social e medidas socioeducativas em meio aberto. Alta complexidade (vínculos rompidos) abrange acolhimento institucional e familiar." },
+        { "h": "Seguranças socioassistenciais", "p": "São as garantias afiançadas: acolhida (recepção digna e provisões básicas); convívio (vínculos familiares e comunitários); renda (complemento por benefícios como BPC e eventuais); e desenvolvimento de autonomia (protagonismo e superação da vulnerabilidade), além do apoio em calamidades." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"A concessão do Benefício de Prestação Continuada (BPC) exige contribuição prévia do beneficiário à seguridade social.\" — ERRADO. O BPC é benefício assistencial, não contributivo, garantido pela LOAS à pessoa idosa (65+) e à pessoa com deficiência que comprovem não possuir meios de prover a própria manutenção.",
+      "pontos_chave": [
+        "Assistência social: direito do cidadão, dever do Estado, não contributiva.",
+        "LOAS (8.742/93) define objetivos, princípios e o BPC.",
+        "PSB: preventiva, no CRAS, com PAIF e SCFV.",
+        "PSE: média (CREAS/PAEFI) e alta (acolhimento) complexidade.",
+        "Seguranças: acolhida, convívio, renda e autonomia.",
+        "Princípio da primazia das necessidades sociais sobre a rentabilidade."
+      ],
+      "dica_prova": "Lembre que BPC é não contributivo e não gera 13º (diferente da aposentadoria). A banca troca os níveis de proteção e a natureza do benefício. Não confunda objetivos da LOAS (proteção a grupos) com princípios (diretrizes de funcionamento)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Matricialidade, territorialização e intersetorialidade",
+      "intro": "Três conceitos estruturam a organização do SUAS: a matricialidade sociofamiliar, que coloca a família no centro da intervenção; a territorialização, que organiza a oferta segundo a lógica dos territórios; e a intersetorialidade, que articula a assistência social com outras políticas (saúde, educação, trabalho, habitação).\n\nJuntos, esses princípios afastam o atendimento fragmentado e individualizante, deslocando o foco para a família em seu contexto territorial e em rede com as demais políticas públicas.",
+      "secoes": [
+        { "h": "Matricialidade sociofamiliar", "p": "A família — em suas diversas configurações (nucleares, monoparentais, extensas, recompostas) — é a unidade de referência das ações. O atendimento considera o grupo familiar e seus vínculos, e não apenas o indivíduo isolado, reconhecendo a família como espaço de proteção, mas também, por vezes, de violação de direitos." },
+        { "h": "Territorialização", "p": "Organiza serviços conforme a incidência de vulnerabilidades nos territórios. Os equipamentos (CRAS/CREAS) são implantados em áreas de maior necessidade, próximos da população, com área de abrangência definida. A vigilância socioassistencial fornece os dados territoriais que orientam essa distribuição." },
+        { "h": "Intersetorialidade", "p": "A assistência social, sozinha, não supera todas as dimensões da pobreza e do risco. A intersetorialidade articula ações com saúde, educação, trabalho, habitação, segurança alimentar e justiça, em rede, evitando sobreposição e ampliando a efetividade da proteção social." },
+        { "h": "Aplicação prática integrada", "p": "Na prática, o CRAS acompanha a família (matricialidade), atua no território de referência (territorialização) e a encaminha a serviços de saúde, escola e qualificação profissional (intersetorialidade), compondo um plano de acompanhamento familiar." }
+      ],
+      "exemplo": "Cenário aplicado: uma família com crianças fora da escola, problemas de saúde e insegurança alimentar é acompanhada pelo PAIF no CRAS do seu território. O técnico articula vaga escolar (educação), atendimento na UBS (saúde) e inclusão em programa de alimentação — exemplo conjunto de matricialidade, territorialização e intersetorialidade.",
+      "pontos_chave": [
+        "Matricialidade sociofamiliar: a família (em todas as configurações) no centro.",
+        "Família é espaço de proteção, mas pode ser também de violação de direitos.",
+        "Territorialização: serviços organizados pela incidência de vulnerabilidades.",
+        "CRAS/CREAS têm área de abrangência territorial definida.",
+        "Intersetorialidade: articulação com saúde, educação, trabalho, habitação etc.",
+        "Os três princípios combatem a fragmentação do atendimento."
+      ],
+      "dica_prova": "Não confunda matricialidade (foco na família) com atendimento individual. E lembre: território não é só localização geográfica, mas a lógica de planejar a oferta conforme as vulnerabilidades locais. Intersetorialidade ≠ atuação isolada da assistência."
+    },
+    {
+      "ti": 1,
+      "si": 0,
+      "titulo": "NOB/SUAS",
+      "intro": "A Norma Operacional Básica do SUAS (NOB/SUAS 2012, Resolução CNAS nº 33/2012) é o principal instrumento de gestão do SUAS. Ela detalha responsabilidades dos entes federativos, o cofinanciamento, os níveis de gestão, a gestão do trabalho, a vigilância socioassistencial e os instrumentos de planejamento e pactuação.\n\nA NOB consolida o caráter descentralizado e participativo da política, organiza a estruturação da rede socioassistencial (própria e conveniada) e estabelece pactos de aprimoramento da gestão entre os entes.",
+      "secoes": [
+        { "h": "Responsabilidades e níveis de gestão", "p": "Cada ente possui responsabilidades específicas. A NOB define padrões de gestão e exige a estruturação de áreas como vigilância socioassistencial e gestão do trabalho. Estabelece pactos de aprimoramento da gestão, com metas e prioridades pactuadas nacionalmente para estados, DF e municípios." },
+        { "h": "Cofinanciamento e fundos", "p": "O financiamento é partilhado e operado fundo a fundo, de forma regular e automática, por pisos de proteção social (básica e especial) e blocos de financiamento. Os recursos transitam pelos Fundos de Assistência Social, cuja execução é fiscalizada pelos conselhos de assistência social." },
+        { "h": "Rede socioassistencial", "p": "A rede compõe-se de serviços estatais e de entidades e organizações de assistência social (rede privada sem fins lucrativos), que devem ser inscritas nos conselhos e atuar conforme a Tipificação. A NOB regula vínculos, padrões e a relação entre Estado e entidades." },
+        { "h": "Instrumentos de gestão e planejamento", "p": "São instrumentos: o Plano de Assistência Social, o orçamento, o monitoramento e a avaliação, e os pactos de aprimoramento. A gestão é orientada por resultados, com forte papel da informação (Censo SUAS, prontuário SUAS) e do controle social." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"Os repasses federais para o cofinanciamento do SUAS dependem da celebração de convênios específicos a cada exercício para cada serviço prestado.\" — ERRADO. O cofinanciamento é realizado fundo a fundo, de forma regular e automática, por pisos e blocos, e não por convênios pontuais por serviço.",
+      "pontos_chave": [
+        "NOB/SUAS 2012 (Resolução CNAS 33/2012) é o instrumento central de gestão.",
+        "Define responsabilidades, níveis de gestão e pactos de aprimoramento.",
+        "Cofinanciamento fundo a fundo, regular e automático, por pisos e blocos.",
+        "Recursos nos Fundos de Assistência Social, fiscalizados pelos conselhos.",
+        "Rede socioassistencial: estatal e privada sem fins lucrativos inscrita.",
+        "Gestão por resultados, apoiada em informação e controle social."
+      ],
+      "dica_prova": "A pegadinha frequente é dizer que o repasse ocorre por convênio a cada serviço — está errado: é fundo a fundo, regular e automático. Conheça os pactos de aprimoramento e que entidades privadas precisam estar inscritas nos conselhos para integrar a rede."
+    },
+    {
+      "ti": 1,
+      "si": 1,
+      "titulo": "NOB-RH/SUAS (Resolução CNAS 269/2006)",
+      "intro": "A Norma Operacional Básica de Recursos Humanos do SUAS (NOB-RH/SUAS), aprovada pela Resolução CNAS nº 269/2006, é o marco da gestão do trabalho no SUAS. Reconhece os trabalhadores como elemento essencial para a qualidade dos serviços e estabelece diretrizes sobre equipes de referência, capacitação, planos de carreira e gestão participativa do trabalho.\n\nSeu pressuposto é que serviços socioassistenciais de qualidade exigem trabalhadores qualificados, em vínculos estáveis (preferencialmente concursados), com educação permanente e condições adequadas de trabalho.",
+      "secoes": [
+        { "h": "Equipes de referência", "p": "A NOB-RH define a composição mínima das equipes de referência do CRAS e do CREAS conforme o porte/número de famílias referenciadas. As equipes são interdisciplinares e incluem profissionais de nível superior (como assistentes sociais e psicólogos) e de nível médio. O objetivo é garantir o atendimento adequado à demanda do território." },
+        { "h": "Categorias profissionais", "p": "A NOB-RH e resoluções posteriores reconhecem profissões que compõem o SUAS. Assistente social e psicólogo são profissionais de referência da política; há também o reconhecimento de outras categorias de nível superior e dos trabalhadores de nível médio (entrevistadores, cuidadores, orientadores sociais, agentes administrativos)." },
+        { "h": "Educação permanente e valorização", "p": "Prevê a Política Nacional de Educação Permanente do SUAS, a capacitação continuada, planos de carreira, cargos e salários, e a desprecarização dos vínculos. Defende o concurso público como forma de provimento e combate a rotatividade que prejudica a continuidade dos serviços." },
+        { "h": "Gestão participativa do trabalho", "p": "Institui mecanismos como mesas de negociação e a participação dos trabalhadores nos conselhos. Reconhece os trabalhadores como sujeitos do controle social, com assento garantido nos conselhos de assistência social." }
+      ],
+      "exemplo": "Cenário aplicado: um município contrata todos os técnicos do CRAS por contratos temporários renováveis, com alta rotatividade. Essa prática contraria a NOB-RH/SUAS, que defende a desprecarização dos vínculos, o provimento por concurso e a estabilidade das equipes de referência para assegurar a continuidade do acompanhamento das famílias.",
+      "pontos_chave": [
+        "NOB-RH/SUAS: Resolução CNAS 269/2006, marco da gestão do trabalho.",
+        "Define equipes de referência mínimas para CRAS e CREAS por porte.",
+        "Assistente social e psicólogo são profissionais de referência do SUAS.",
+        "Reconhece também trabalhadores de nível médio.",
+        "Defende concurso público, planos de carreira e desprecarização.",
+        "Educação permanente e participação dos trabalhadores no controle social."
+      ],
+      "dica_prova": "Memorize o número: NOB-RH é a Resolução CNAS 269/2006. A banca cobra a composição das equipes de referência e a valorização do vínculo estável/concurso. Trabalhadores têm assento nos conselhos — eles também fazem controle social."
+    },
+    {
+      "ti": 2,
+      "si": 0,
+      "titulo": "Tipificação Nacional de Serviços Socioassistenciais",
+      "intro": "A Tipificação Nacional de Serviços Socioassistenciais (Resolução CNAS nº 109/2009) padroniza nacionalmente os serviços do SUAS, definindo nomenclatura, descrição, objetivos, usuários, provisões e aquisições de cada serviço. Organiza-os conforme o nível de proteção: Proteção Social Básica e Proteção Social Especial de média e de alta complexidade.\n\nA padronização garante que um mesmo serviço tenha conteúdo equivalente em qualquer território do país, facilitando a gestão, o cofinanciamento e o controle social.",
+      "secoes": [
+        { "h": "Serviços de Proteção Social Básica", "p": "São três: o PAIF (Serviço de Proteção e Atendimento Integral à Família), ofertado obrigatoriamente no CRAS; o Serviço de Convivência e Fortalecimento de Vínculos (SCFV), por faixas etárias; e o Serviço de Proteção Social Básica no domicílio para pessoas com deficiência e idosas." },
+        { "h": "PSE de média complexidade", "p": "Atende quem teve direitos violados, mas com vínculos preservados, ofertado no CREAS: PAEFI (Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos); Serviço Especializado em Abordagem Social; Serviço de Proteção a Adolescentes em cumprimento de medida socioeducativa (LA e PSC); Serviço de Proteção Social Especial para pessoas com deficiência, idosas e suas famílias; e Serviço Especializado para pessoas em situação de rua (Centro POP)." },
+        { "h": "PSE de alta complexidade", "p": "Para quem teve vínculos rompidos e precisa de proteção integral fora do núcleo familiar: Serviço de Acolhimento Institucional (abrigo, casa-lar, casa de passagem, residência inclusiva); Serviço de Acolhimento em República; Serviço de Acolhimento em Família Acolhedora; e Serviço de Proteção em Situações de Calamidades Públicas e Emergências." },
+        { "h": "Estrutura padronizada de cada serviço", "p": "Para cada serviço, a Tipificação descreve: nome, descrição, usuários, objetivos, provisões, aquisições dos usuários, condições e formas de acesso, unidade, período de funcionamento, abrangência e articulação em rede. Essa estrutura uniformiza a oferta nacional." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"O Serviço Especializado para Pessoas em Situação de Rua, ofertado no Centro POP, integra a Proteção Social Básica.\" — ERRADO. Esse serviço integra a Proteção Social Especial de MÉDIA complexidade, sendo ofertado no Centro POP (e não no CRAS).",
+      "pontos_chave": [
+        "Tipificação: Resolução CNAS 109/2009, padroniza os serviços do SUAS.",
+        "PSB: PAIF (CRAS), SCFV e PSB no domicílio (PcD e idosos).",
+        "PSE média (CREAS): PAEFI, abordagem social, medidas socioeducativas, Centro POP.",
+        "PSE alta: acolhimento institucional, república, família acolhedora, calamidades.",
+        "Cada serviço tem estrutura padronizada (usuários, objetivos, provisões etc.).",
+        "PAIF é ofertado exclusivamente no CRAS; PAEFI, no CREAS."
+      ],
+      "dica_prova": "Saber em qual nível e em qual equipamento cada serviço está é o que mais cai. Centro POP = PSE média; acolhimento = PSE alta; PAIF/SCFV = PSB. Cuidado: o Serviço de Calamidades é de ALTA complexidade na Tipificação."
+    },
+    {
+      "ti": 2,
+      "si": 1,
+      "titulo": "Instâncias de pactuação e controle social",
+      "intro": "O SUAS distingue instâncias de pactuação (negociação entre gestores dos entes federativos) e instâncias de deliberação e controle social (participação da sociedade). A pactuação é feita pelas Comissões Intergestores; o controle social, pelos Conselhos e pelas Conferências de Assistência Social.\n\nEssa arquitetura concretiza as diretrizes constitucionais de descentralização e participação popular na assistência social, equilibrando a gestão técnica entre entes com o controle democrático da política.",
+      "secoes": [
+        { "h": "Comissões Intergestores (pactuação)", "p": "A CIT (Comissão Intergestores Tripartite) reúne gestores da União, dos estados (via Fonseas) e dos municípios (via Congemas), no âmbito nacional. A CIB (Comissão Intergestores Bipartite) reúne gestores estaduais e municipais, no âmbito de cada estado. Elas PACTUAM aspectos operacionais da gestão do SUAS — não deliberam sobre a política nem exercem controle social." },
+        { "h": "Conselhos de Assistência Social (deliberação e controle)", "p": "Os conselhos (CNAS, conselhos estaduais, do DF e municipais) são órgãos permanentes, paritários (governo e sociedade civil) e de caráter deliberativo. Aprovam a política e os planos, fiscalizam a aplicação dos recursos dos fundos, e exercem o controle social. A paridade é elemento central." },
+        { "h": "Conferências de Assistência Social", "p": "As conferências são espaços periódicos de avaliação da política e definição de diretrizes, com ampla participação. Mobilizam usuários, trabalhadores, entidades e governo, e suas deliberações orientam os conselhos e a gestão. Ocorrem nos âmbitos municipal/DF, estadual e nacional." },
+        { "h": "Diferença essencial: pactuar x deliberar", "p": "Pactuar (CIT/CIB) é negociar entre gestores; deliberar/controlar (conselhos/conferências) é a participação da sociedade decidindo e fiscalizando. Confundir essas funções é o erro mais cobrado: comissões não fazem controle social, e conselhos não são meros órgãos consultivos — são deliberativos." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"A Comissão Intergestores Tripartite (CIT) é a instância máxima de controle social da assistência social no âmbito federal.\" — ERRADO. A CIT é instância de PACTUAÇÃO entre gestores (União, estados e municípios). O controle social cabe aos conselhos (no âmbito federal, o CNAS) e às conferências.",
+      "pontos_chave": [
+        "Pactuação: CIT (nacional, tripartite) e CIB (estadual, bipartite).",
+        "CIT representa União, estados (Fonseas) e municípios (Congemas).",
+        "Controle social: conselhos (CNAS, estaduais, DF, municipais).",
+        "Conselhos são paritários, permanentes e deliberativos.",
+        "Conferências definem diretrizes e avaliam a política periodicamente.",
+        "Não confundir pactuar (gestores) com deliberar/controlar (sociedade)."
+      ],
+      "dica_prova": "A troca clássica: dizer que CIT/CIB fazem controle social (ERRADO — só pactuam) ou que conselhos são consultivos (ERRADO — são deliberativos e paritários). Memorize: CIT = tripartite/nacional; CIB = bipartite/estadual."
+    },
+    {
+      "ti": 3,
+      "si": 0,
+      "titulo": "CadÚnico e Protocolo de Gestão Integrada",
+      "intro": "O Cadastro Único para Programas Sociais do Governo Federal (CadÚnico), regulamentado pelo Decreto nº 6.135/2007, é o instrumento de identificação e caracterização socioeconômica das famílias de baixa renda. É a principal base de dados para seleção e inclusão em diversos programas sociais (como o Bolsa Família/Programa de transferência de renda, BPC e tarifa social).\n\nO Protocolo de Gestão Integrada de Serviços, Benefícios e Transferências de Renda (Resolução CNAS nº 7/2009) articula a oferta de serviços socioassistenciais com os benefícios e a transferência de renda, garantindo acompanhamento das famílias e não apenas o repasse de recursos.",
+      "secoes": [
+        { "h": "O que é o CadÚnico", "p": "É um cadastro que reúne dados de famílias com renda mensal de até meio salário mínimo per capita, ou de até três salários mínimos no total (admitida inclusão de outras famílias para programas específicos). Coleta informações sobre composição familiar, renda, moradia, escolaridade e trabalho. A entrevista deve preferencialmente ser feita com um responsável familiar, em regra uma mulher." },
+        { "h": "Usos e gestão", "p": "O CadÚnico é gerido em parceria entre o governo federal (que mantém a base) e os municípios/DF (que realizam o cadastramento e a atualização). É a porta de acesso a programas como o de transferência de renda, BPC (cuja inscrição no CadÚnico passou a ser exigida), tarifa social de energia, entre outros. A atualização cadastral periódica é obrigatória." },
+        { "h": "Protocolo de Gestão Integrada", "p": "A Resolução CNAS 7/2009 estabelece o Protocolo de Gestão Integrada, que articula serviços (PAIF/PAEFI), benefícios (eventuais, BPC) e transferência de renda. Famílias do programa de transferência de renda em descumprimento de condicionalidades, em situação de vulnerabilidade, devem ser acompanhadas pelos serviços do SUAS." },
+        { "h": "Condicionalidades e acompanhamento", "p": "As condicionalidades (frequência escolar, acompanhamento de saúde) não têm caráter punitivo: o descumprimento aciona a busca ativa e o acompanhamento familiar, e não a simples exclusão. O protocolo prioriza a inclusão e o fortalecimento de vínculos, integrando o CadÚnico ao trabalho social com famílias." }
+      ],
+      "exemplo": "Cenário aplicado: uma família beneficiária do programa de transferência de renda descumpre a condicionalidade de frequência escolar das crianças. Pelo Protocolo de Gestão Integrada, o CRAS deve realizar busca ativa e acompanhamento familiar para identificar as causas (trabalho infantil, evasão, problemas de saúde), e não apenas cortar o benefício de imediato.",
+      "pontos_chave": [
+        "CadÚnico: Decreto 6.135/2007, base de identificação de famílias de baixa renda.",
+        "Critério geral: renda de até meio salário mínimo per capita.",
+        "Gestão compartilhada: governo federal mantém a base; municípios/DF cadastram.",
+        "Porta de acesso a transferência de renda, BPC e tarifa social.",
+        "Protocolo de Gestão Integrada (Resolução CNAS 7/2009) articula serviços e benefícios.",
+        "Condicionalidades não são punitivas: descumprimento aciona acompanhamento."
+      ],
+      "dica_prova": "Decore o critério de renda do CadÚnico (até 1/2 SM per capita) e o decreto (6.135/2007). A pegadinha mais cobrada é tratar as condicionalidades como punição — o foco é acompanhamento e busca ativa. Cadastramento é dos municípios/DF; a base é federal."
+    },
+    {
+      "ti": 3,
+      "si": 1,
+      "titulo": "MROSC (Lei 13.019/2014)",
+      "intro": "O Marco Regulatório das Organizações da Sociedade Civil (MROSC), Lei nº 13.019/2014, estabelece o regime jurídico das parcerias entre a administração pública e as organizações da sociedade civil (OSCs) para a consecução de finalidades de interesse público e recíproco. Substitui, em grande parte, o antigo regime de convênios com entidades.\n\nNo SUAS, o MROSC rege a relação do poder público com a rede socioassistencial privada sem fins lucrativos, exigindo planejamento, chamamento público, plano de trabalho, transparência e prestação de contas focada em resultados.",
+      "secoes": [
+        { "h": "Instrumentos de parceria", "p": "O MROSC prevê três instrumentos: o termo de colaboração (proposto pela administração, com transferência de recursos); o termo de fomento (proposto pela OSC, com transferência de recursos); e o acordo de cooperação (sem transferência de recursos). A escolha depende de quem propõe e se há repasse financeiro." },
+        { "h": "Chamamento público", "p": "Regra geral, a celebração de parcerias com repasse de recursos deve ser precedida de chamamento público — procedimento que seleciona a OSC de forma isonômica, impessoal e transparente. A lei prevê hipóteses de dispensa e de inexigibilidade do chamamento, devidamente justificadas." },
+        { "h": "Execução e prestação de contas", "p": "A parceria é regida por um plano de trabalho com metas e indicadores. A prestação de contas é orientada por resultados (cumprimento do objeto e metas), com análise da execução e dos aspectos financeiros. A administração deve monitorar e avaliar, designando gestor da parceria e comissão de monitoramento e avaliação." },
+        { "h": "Requisitos das OSCs e transparência", "p": "As OSCs devem comprovar tempo de existência, capacidade técnica e operacional e regularidade. Exige-se ampla transparência (divulgação em sítios eletrônicos). Há responsabilização em caso de irregularidades, com sanções como advertência, suspensão e declaração de inidoneidade." }
+      ],
+      "exemplo": "Item Cebraspe (adaptado): \"No termo de fomento, a proposta de parceria parte da administração pública, ao passo que, no termo de colaboração, parte da organização da sociedade civil.\" — ERRADO. É o inverso: no termo de COLABORAÇÃO a proposta parte da administração; no termo de FOMENTO, parte da OSC. Ambos envolvem transferência de recursos.",
+      "pontos_chave": [
+        "MROSC: Lei 13.019/2014, regime das parcerias com OSCs.",
+        "Termo de colaboração: proposto pela administração (com recursos).",
+        "Termo de fomento: proposto pela OSC (com recursos).",
+        "Acordo de cooperação: sem transferência de recursos.",
+        "Chamamento público é a regra (há dispensa e inexigibilidade justificadas).",
+        "Prestação de contas orientada por resultados; ampla transparência."
+      ],
+      "dica_prova": "A confusão clássica é inverter colaboração (administração propõe) e fomento (OSC propõe). Memorize: \"coLaboração\" lembra o poder púbLico; \"Fomento\" lembra a entidade que Fomenta a ideia. Acordo de cooperação = sem dinheiro."
+    }
+  ]
+}

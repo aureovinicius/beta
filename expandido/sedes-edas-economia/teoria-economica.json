@@ -1,0 +1,87 @@
+{
+ "slug": "teoria-economica",
+ "itens": [
+  {
+   "ti": 1,
+   "si": 0,
+   "titulo": "Teoria dos jogos e mercado de fatores",
+   "intro": "A teoria dos jogos estuda situações de interação estratégica, em que o resultado obtido por cada agente depende não só de sua própria decisão, mas também das decisões dos demais. Diferentemente da concorrência perfeita (em que cada firma é tomadora de preços e ignora as reações dos rivais), a teoria dos jogos é o instrumento central da microeconomia avançada para analisar oligopólios, leilões, negociações sindicais, barganha fiscal entre entes federativos e políticas públicas em que governos e cidadãos reagem uns aos outros.\n\nUm jogo é descrito por três elementos: os jogadores, as estratégias disponíveis a cada um e os payoffs (ganhos) associados a cada combinação de estratégias. A solução mais conhecida é o equilíbrio de Nash, em que nenhum jogador tem incentivo a mudar unilateralmente sua estratégia, dadas as estratégias dos demais.\n\nJá o mercado de fatores é o ambiente em que se transacionam os insumos da produção — trabalho, capital, terra e recursos naturais. Aqui o raciocínio se inverte em relação ao mercado de bens: a demanda por fatores é uma demanda derivada, pois deriva da demanda pelo produto final. A firma contrata um fator até o ponto em que o valor que ele agrega à produção iguala seu custo, princípio que fundamenta a teoria da distribuição funcional da renda."
+   ,
+   "secoes": [
+    {
+     "h": "Equilíbrio de Nash e dilema do prisioneiro",
+     "p": "O equilíbrio de Nash é uma combinação de estratégias em que cada jogador escolhe a melhor resposta às estratégias dos outros, de modo que ninguém se beneficia desviando sozinho. Um jogo pode ter nenhum, um ou vários equilíbrios de Nash, e estes podem ser em estratégias puras ou mistas (probabilísticas).\n\nO exemplo clássico é o dilema do prisioneiro: dois agentes têm, individualmente, incentivo a 'trair' (não cooperar), e o único equilíbrio de Nash é o de dupla traição — um resultado pior para ambos do que a cooperação. O dilema ilustra que o equilíbrio de Nash não é necessariamente eficiente no sentido de Pareto: a busca racional do interesse individual pode levar a um resultado coletivamente inferior. Esse insight justifica a regulação, a tributação de externalidades e a ação coletiva."
+    },
+    {
+     "h": "Estratégias dominantes, jogos sequenciais e indução retroativa",
+     "p": "Uma estratégia dominante é aquela que rende o melhor payoff independentemente do que os outros façam; quando existe para todos, o equilíbrio é imediato. Nem todo jogo, porém, tem estratégia dominante, e por isso o conceito de Nash é mais geral.\n\nNos jogos sequenciais (em que os jogadores decidem em etapas, observando movimentos anteriores), usa-se a indução retroativa (backward induction): resolve-se primeiro a última decisão e retrocede-se até a primeira. Isso conduz ao equilíbrio perfeito em subjogos, que elimina ameaças não-críveis. A vantagem do primeiro a jogar (first-mover advantage) e a credibilidade de compromissos são temas típicos desse cenário, aplicáveis, por exemplo, à condução de política econômica e à teoria das expectativas."
+    },
+    {
+     "h": "Aplicação a oligopólios: Cournot, Bertrand e Stackelberg",
+     "p": "No modelo de Cournot, as firmas competem escolhendo quantidades simultaneamente; o equilíbrio de Nash-Cournot resulta em preço e produção intermediários entre o monopólio e a concorrência perfeita. No modelo de Bertrand, competem em preços, e mesmo com apenas duas firmas o preço pode cair ao custo marginal (paradoxo de Bertrand). No modelo de Stackelberg, há um líder que decide primeiro a quantidade e um seguidor que reage, ilustrando a vantagem do primeiro a mover.\n\nEsses modelos mostram por que mercados concentrados geram preços acima do competitivo e por que cartéis são instáveis: cada membro tem incentivo individual a 'furar' o acordo, exatamente como no dilema do prisioneiro."
+    },
+    {
+     "h": "Mercado de fatores: demanda derivada e produtividade marginal",
+     "p": "A demanda por um fator de produção é derivada da demanda pelo bem que ele ajuda a produzir. A firma maximizadora de lucro contrata cada fator até o ponto em que o Valor do Produto Marginal (VPMg = preço do bem × produto marginal físico do fator) iguala o preço (custo) do fator. Para o trabalho, isso significa contratar até VPMgL = salário; para o capital, até VPMgK = custo do capital.\n\nA produtividade marginal decrescente garante que essas curvas de demanda por fator sejam decrescentes. Em concorrência perfeita no mercado de produto, usa-se o VPMg; em mercado de produto imperfeito (monopólio), usa-se a Receita do Produto Marginal (RPMg = receita marginal × produto marginal), que é menor que o VPMg, levando a menor contratação."
+    },
+    {
+     "h": "Mercados de fatores não-competitivos: monopsônio",
+     "p": "Quando há um único comprador do fator — por exemplo, uma única grande empregadora em uma cidade —, configura-se o monopsônio. O monopsonista enfrenta uma curva de oferta de trabalho ascendente, de modo que o custo marginal do fator é maior que o salário médio pago. Em equilíbrio, ele contrata menos trabalhadores e paga salário inferior ao que prevaleceria em mercado competitivo.\n\nIsso fundamenta argumentos a favor de salário mínimo e de sindicatos: em um monopsônio, um piso salarial adequadamente fixado pode aumentar simultaneamente o emprego e o salário, resultado impossível em mercado de trabalho competitivo. O tema conecta a microeconomia avançada às políticas de renda e trabalho relevantes à área social."
+    }
+   ],
+   "exemplo": "Cenário aplicado: dois municípios vizinhos decidem se concedem (ou não) benefícios fiscais para atrair uma empresa. Se ambos concedem, anulam a vantagem e perdem arrecadação (guerra fiscal); se nenhum concede, mantêm a receita. Cada um, isoladamente, tem incentivo a conceder — é um dilema do prisioneiro cujo equilíbrio de Nash (ambos concedem) é pior para os dois. Item Cebraspe: 'No equilíbrio de Nash, a alocação resultante é sempre eficiente no sentido de Pareto.' Errado. O equilíbrio de Nash garante apenas que ninguém ganha desviando unilateralmente; ele pode ser ineficiente, como mostra o dilema do prisioneiro.",
+   "pontos_chave": [
+    "Equilíbrio de Nash: nenhum jogador melhora desviando sozinho — não é, necessariamente, eficiente de Pareto.",
+    "Estratégia dominante é a melhor resposta seja qual for a jogada do oponente; nem todo jogo tem uma.",
+    "Dilema do prisioneiro: racionalidade individual leva a resultado coletivo inferior.",
+    "Jogos sequenciais resolvem-se por indução retroativa (equilíbrio perfeito em subjogos).",
+    "Cournot compete em quantidade; Bertrand em preço; Stackelberg tem líder e seguidor.",
+    "Demanda por fator é derivada; firma contrata até VPMg = preço do fator.",
+    "Em monopólio do produto, vale a RPMg (< VPMg), reduzindo a contratação de fatores.",
+    "No monopsônio, paga-se salário abaixo do competitivo; salário mínimo pode elevar emprego e salário."
+   ],
+   "dica_prova": "A pegadinha clássica é afirmar que o equilíbrio de Nash é sempre eficiente — não é. Outra é confundir estratégia dominante (existe sempre que dá o melhor payoff em qualquer cenário) com equilíbrio de Nash (conceito mais geral). No mercado de fatores, lembre que a demanda é DERIVADA e que a regra é VPMg = preço do fator (ou RPMg, sob monopólio). Guarde que no monopsônio o custo marginal do fator supera o salário médio, justificando ganhos do salário mínimo."
+  },
+  {
+   "ti": 1,
+   "si": 1,
+   "titulo": "Equilíbrio geral e escolha pública",
+   "intro": "A teoria do equilíbrio geral, desenvolvida por Léon Walras e formalizada por Arrow e Debreu, estuda o funcionamento simultâneo de todos os mercados de uma economia, considerando suas interdependências. Diferentemente do equilíbrio parcial (que analisa um mercado isolado, mantendo o resto constante), o equilíbrio geral busca um conjunto de preços que iguale oferta e demanda em todos os mercados ao mesmo tempo.\n\nDessa análise derivam os dois teoremas fundamentais do bem-estar, que ligam mercados competitivos à eficiência de Pareto e formam a base normativa da economia do bem-estar. Quando os mercados falham (externalidades, bens públicos, informação assimétrica, poder de mercado), abre-se espaço para a intervenção do Estado.\n\nA teoria da escolha pública (public choice), associada a James Buchanan e Gordon Tullock, aplica o instrumental econômico à análise das decisões coletivas e do comportamento de políticos, burocratas e eleitores. Seu lema é que agentes públicos também perseguem interesses próprios, o que ajuda a explicar falhas de governo, paralelas às falhas de mercado."
+   ,
+   "secoes": [
+    {
+     "h": "Equilíbrio geral walrasiano e a caixa de Edgeworth",
+     "p": "No equilíbrio geral, os preços relativos ajustam-se até que todos os mercados se equilibrem simultaneamente. A Lei de Walras estabelece que, se n−1 mercados estão em equilíbrio, o n-ésimo também estará, pois o valor total da oferta iguala o da demanda na economia.\n\nA caixa de Edgeworth é a ferramenta gráfica para representar a troca entre dois agentes com dois bens. A curva de contrato reúne todas as alocações eficientes de Pareto (pontos de tangência entre as curvas de indiferença). O equilíbrio competitivo localiza-se sobre essa curva, ilustrando que a troca voluntária a preços de mercado conduz a uma alocação da qual não se pode melhorar a situação de um agente sem piorar a de outro."
+    },
+    {
+     "h": "Os dois teoremas fundamentais do bem-estar",
+     "p": "O Primeiro Teorema afirma que todo equilíbrio competitivo (mercados completos, concorrência perfeita, ausência de externalidades) é eficiente no sentido de Pareto. É a formalização da 'mão invisível': o livre mercado, sob condições ideais, aloca recursos de forma eficiente.\n\nO Segundo Teorema afirma que qualquer alocação eficiente de Pareto desejada pode ser alcançada como equilíbrio competitivo, desde que se faça uma redistribuição prévia (lump-sum) das dotações iniciais. Sua importância normativa é enorme: ele separa, em tese, a questão da eficiência (deixada ao mercado) da questão da equidade (resolvida por transferências), legitimando políticas redistributivas sem sacrificar a eficiência alocativa."
+    },
+    {
+     "h": "Falhas de mercado e a justificativa para a intervenção",
+     "p": "Os teoremas valem apenas sob hipóteses ideais. Quando há externalidades (custos ou benefícios não precificados, como poluição), bens públicos (não-rivais e não-excludentes, como iluminação pública e defesa), poder de mercado (monopólios) ou informação assimétrica (seleção adversa, risco moral), o equilíbrio de mercado deixa de ser eficiente.\n\nEssas falhas de mercado fundamentam a atuação do Estado: tributos pigouvianos sobre externalidades negativas, provisão pública de bens públicos, regulação de monopólios naturais e correção de assimetrias informacionais. É o elo entre o equilíbrio geral e a economia do setor público."
+    },
+    {
+     "h": "Teoria da escolha pública e o teorema do eleitor mediano",
+     "p": "A escolha pública trata a política com as mesmas ferramentas da economia: indivíduos racionais maximizando utilidade. Eleitores podem ter ignorância racional (não vale a pena se informar, pois um voto raramente decide); políticos buscam votos; burocratas, orçamento e poder; grupos de interesse fazem rent-seeking (busca de privilégios via lobby, que desperdiça recursos).\n\nO teorema do eleitor mediano mostra que, em decisões majoritárias unidimensionais com preferências de pico único, o resultado tende à preferência do eleitor mediano, levando candidatos a convergir ao centro. Já o teorema da impossibilidade de Arrow demonstra que não existe regra de decisão coletiva que satisfaça simultaneamente um conjunto de critérios razoáveis de racionalidade e justiça — não há método de agregação de preferências perfeito."
+    },
+    {
+     "h": "Falhas de governo e o paradoxo da votação",
+     "p": "Assim como o mercado falha, o governo também pode falhar. As falhas de governo incluem rent-seeking, captura do regulador por grupos de interesse, miopia eleitoral (preferência por políticas de efeito imediato), ciclos político-econômicos e o crescimento do orçamento por interesse da burocracia (modelo de Niskanen).\n\nO paradoxo da votação (paradoxo de Condorcet) mostra que decisões por maioria podem ser intransitivas (A vence B, B vence C, mas C vence A), abrindo espaço para a manipulação da agenda por quem controla a ordem das votações. A escolha pública, portanto, recomenda cautela: a existência de uma falha de mercado não garante que a intervenção estatal a corrija sem criar custos maiores."
+    }
+   ],
+   "exemplo": "Cenário aplicado: um programa social de transferência de renda no DF pode ser visto à luz do Segundo Teorema do bem-estar — em vez de tabelar preços (o que distorce a eficiência), o Estado redistribui poder de compra (transferência lump-sum) e deixa as famílias escolherem como consumir, preservando a eficiência alocativa. Item Cebraspe: 'Pelo Primeiro Teorema do Bem-Estar, todo equilíbrio competitivo é eficiente e socialmente justo (equitativo).' Errado. O Primeiro Teorema garante apenas eficiência de Pareto, que nada diz sobre equidade: uma alocação em que um agente tem tudo e outro nada pode ser Pareto-eficiente. A equidade depende da distribuição inicial das dotações (Segundo Teorema).",
+   "pontos_chave": [
+    "Equilíbrio geral analisa todos os mercados simultaneamente; Lei de Walras: equilibrados n−1, o último também está.",
+    "Curva de contrato (caixa de Edgeworth) reúne as alocações eficientes de Pareto.",
+    "1º Teorema: equilíbrio competitivo é eficiente de Pareto (mão invisível) — mas não necessariamente justo.",
+    "2º Teorema: qualquer alocação eficiente é atingível com redistribuição prévia (lump-sum) — separa eficiência de equidade.",
+    "Falhas de mercado (externalidades, bens públicos, poder de mercado, assimetria) justificam a intervenção.",
+    "Escolha pública aplica a lógica econômica à política: ignorância racional, rent-seeking, burocracia.",
+    "Teorema do eleitor mediano: decisões majoritárias convergem à preferência do eleitor central.",
+    "Teorema de Arrow e paradoxo de Condorcet: não há regra coletiva perfeita; votações podem ser intransitivas."
+   ],
+   "dica_prova": "A pegadinha mais comum é confundir eficiência de Pareto com justiça/equidade — o 1º Teorema só fala de eficiência. Memorize a divisão de trabalho dos dois teoremas: o 1º liga mercado competitivo à eficiência; o 2º permite atingir a equidade via redistribuição lump-sum. Em escolha pública, associe Buchanan/Tullock, rent-seeking e 'falhas de governo'; lembre que a existência de falha de mercado NÃO implica que a intervenção seja sempre superior. Não confunda eleitor mediano (convergência ao centro) com o teorema de Arrow (impossibilidade de agregação perfeita)."
+  }
+ ]
+}

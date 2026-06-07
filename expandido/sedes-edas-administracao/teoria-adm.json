@@ -1,0 +1,46 @@
+{
+ "slug": "teoria-adm",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 2,
+   "titulo": "Planejamento estratégico (SWOT, APO, BSC)",
+   "intro": "O planejamento estratégico é a função administrativa que define os rumos de longo prazo da organização, traduzindo seu propósito em objetivos, metas e ações. Ele responde a três perguntas centrais: onde estamos (diagnóstico), onde queremos chegar (visão e objetivos) e como faremos para chegar lá (estratégias e planos). Distingue-se do planejamento tático (médio prazo, por área) e do operacional (curto prazo, rotinas), formando a clássica pirâmide dos níveis de planejamento.\n\nNa administração pública, esse processo ganha contornos próprios: a missão decorre de competências legais, a visão deve dialogar com políticas de Estado e a execução é amarrada ao ciclo orçamentário (PPA, LDO, LOA). Para um órgão como a SEDES-DF, planejar estrategicamente é alinhar a entrega de serviços socioassistenciais às diretrizes do SUAS e às metas de governo.\n\nO subtópico cobra o domínio das ferramentas mais clássicas e mais cobradas em prova: a análise SWOT (diagnóstico), a Administração por Objetivos (APO), o Balanced Scorecard (BSC) e a compreensão do processo decisório que permeia todas elas."
+  ,
+   "secoes": [
+    {
+     "h": "Missão, visão e valores",
+     "p": "A missão é a razão de ser da organização, seu propósito presente e perene (o que fazemos, para quem, como). A visão é a imagem de futuro desejada, um estado a ser alcançado em determinado horizonte, devendo ser desafiadora, mas factível. Os valores são os princípios e crenças que orientam o comportamento e as decisões.\n\nPegadinha frequente: bancas trocam as definições. Missão é presente e permanente; visão é futuro e temporária (pode ser revista quando atingida). Os negócios/valores não se confundem com objetivos quantificáveis."
+    },
+    {
+     "h": "Análise SWOT (FOFA)",
+     "p": "A SWOT cruza o ambiente interno com o externo. No ambiente interno, controlável pela organização, identificam-se Forças (Strengths) e Fraquezas (Weaknesses). No ambiente externo, não controlável, identificam-se Oportunidades (Opportunities) e Ameaças (Threats).\n\nEm português usa-se a sigla FOFA: Forças, Oportunidades, Fraquezas, Ameaças. A combinação gera estratégias: ofensiva (força + oportunidade), defensiva (força + ameaça), de reforço/manutenção, e de sobrevivência (fraqueza + ameaça). Erro clássico de prova é classificar oportunidades e ameaças como internas — elas são SEMPRE externas; forças e fraquezas são SEMPRE internas."
+    },
+    {
+     "h": "Administração por Objetivos (APO)",
+     "p": "A APO, sistematizada por Peter Drucker, é um modelo de gestão participativa em que superior e subordinado definem em conjunto objetivos claros, mensuráveis e com prazos, depois avaliando o desempenho pelos resultados alcançados. Caracteriza-se pela ênfase nos fins (não nos meios), pelo desdobramento em cascata dos objetivos da cúpula para a base, e pela revisão periódica.\n\nÉ ligada à Teoria Neoclássica e ao enfoque nos resultados. Críticas comuns: pode gerar foco excessivo no curto prazo e pressão por metas. Os objetivos APO costumam seguir o padrão SMART (específicos, mensuráveis, atingíveis, relevantes, temporais)."
+    },
+    {
+     "h": "Balanced Scorecard (BSC)",
+     "p": "Criado por Kaplan e Norton, o BSC é uma ferramenta de gestão e tradução da estratégia em medidas de desempenho equilibradas em quatro perspectivas: Financeira, Clientes, Processos Internos, e Aprendizado e Crescimento. As perspectivas se conectam por relações de causa e efeito (o aprendizado melhora processos, que melhoram o atendimento ao cliente, que gera resultado financeiro).\n\nNo setor público, frequentemente a perspectiva do cidadão/sociedade é colocada no topo, acima da financeira, pois o fim não é o lucro, mas a entrega de valor público. O BSC se materializa no Mapa Estratégico (representação visual das relações causais) e em indicadores, metas e iniciativas. Pegadinha: o BSC não mede apenas finanças — justamente seu mérito é equilibrar indicadores financeiros e não financeiros."
+    },
+    {
+     "h": "Processo decisório",
+     "p": "Decidir é escolher entre alternativas. O processo racional clássico percorre etapas: identificação do problema, geração de alternativas, avaliação, escolha, implementação e avaliação dos resultados. Herbert Simon introduziu a racionalidade limitada: o decisor não tem informação nem capacidade cognitiva plenas, então busca uma solução satisfatória (satisficing), não a ótima.\n\nTipos de decisão: programadas (rotineiras, problemas estruturados) e não programadas (inéditas, problemas mal estruturados). Os ambientes podem ser de certeza, risco (probabilidades conhecidas) ou incerteza (probabilidades desconhecidas). O modelo de Simon tem três fases: inteligência (coleta), desenho (alternativas) e escolha."
+    }
+   ],
+   "exemplo": "Item estilo Cebraspe: \"Na análise SWOT, a baixa qualificação da equipe e a escassez de orçamento de um órgão público são classificadas como ameaças do ambiente externo.\" ERRADO — baixa qualificação e escassez de orçamento são características internas e controláveis, portanto FRAQUEZAS (não ameaças, que são externas). Outro exemplo aplicado: a SEDES-DF, ao planejar a expansão dos CRAS, pode usar a SWOT (força: rede consolidada; fraqueza: déficit de pessoal; oportunidade: novo aporte federal do SUAS; ameaça: aumento da demanda por vulnerabilidade social) e traduzir as metas resultantes num BSC com a perspectiva do cidadão no topo.",
+   "pontos_chave": [
+    "Missão = presente/permanente; Visão = futuro/temporária.",
+    "SWOT: Forças e Fraquezas são internas; Oportunidades e Ameaças são externas.",
+    "FOFA = tradução da SWOT (Forças, Oportunidades, Fraquezas, Ameaças).",
+    "APO (Drucker): gestão participativa por objetivos, foco em resultados, padrão SMART.",
+    "BSC (Kaplan e Norton): 4 perspectivas equilibradas ligadas por causa e efeito.",
+    "No setor público o BSC costuma pôr cidadão/sociedade acima da perspectiva financeira.",
+    "Simon: racionalidade limitada e solução satisfatória (satisficing).",
+    "Decisões programadas x não programadas; ambientes de certeza, risco e incerteza."
+   ],
+   "dica_prova": "A pegadinha campeã é inverter os quadrantes da SWOT (colocar oportunidade/ameaça como interna ou força/fraqueza como externa). Memorize: interno = controlável; externo = não controlável. No BSC, cuidado com a afirmação de que ele mede só finanças — é falso. Associe sempre BSC a Kaplan e Norton, APO a Drucker e racionalidade limitada a Herbert Simon."
+  }
+ ]
+}

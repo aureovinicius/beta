@@ -1,0 +1,75 @@
+{
+  "slug": "estado-politicas-ss",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Políticas sociais e Welfare State",
+      "intro": "As políticas sociais são respostas do Estado (e, em disputa, da sociedade) às expressões da questão social. Não são dádivas nem mera benevolência: resultam da correlação de forças entre as classes, sendo ao mesmo tempo conquista das lutas dos trabalhadores e mecanismo de legitimação e reprodução da ordem capitalista. Essa dupla face é central na leitura crítica.\n\nO Welfare State (Estado de Bem-Estar Social) é a forma que a política social assumiu nos países capitalistas centrais no pós-Segunda Guerra, quando o Estado ampliou sua intervenção econômica e social, garantindo um conjunto de direitos sociais (saúde, educação, previdência, assistência) sob o pacto keynesiano-fordista de pleno emprego.\n\nCompreender os paradigmas (modelos) de Welfare State e sua crise a partir dos anos 1970, com a ascensão do neoliberalismo, é fundamental para situar o cenário das políticas sociais brasileiras.",
+      "secoes": [
+        {
+          "h": "Conceito e funções da política social",
+          "p": "Política social é o conjunto de ações e programas estatais voltados à proteção social e à redistribuição (ainda que limitada) de bens e serviços. Na perspectiva crítica (Behring e Boschetti são referências), ela é contraditória: atende necessidades da classe trabalhadora e, simultaneamente, contribui para a reprodução da força de trabalho e o controle social, amortecendo conflitos.\n\nNão deve ser confundida com política assistencialista ou pontual; a política social madura organiza-se como sistema de direitos, com financiamento, gestão e participação."
+        },
+        {
+          "h": "O Welfare State e o pacto keynesiano-fordista",
+          "p": "O Estado de Bem-Estar Social consolida-se no pós-1945 nos países centrais. Sustenta-se no keynesianismo (intervenção estatal na economia para garantir demanda e pleno emprego) e no fordismo (produção em massa e consumo de massa). Nesse arranjo, os direitos sociais se universalizam e o gasto social cresce.\n\nÉ importante notar que o Brasil nunca teve um Welfare State pleno: nosso sistema de proteção foi tardio, fragmentado e, até 1988, marcado pela cidadania regulada (proteção vinculada à inserção formal no trabalho)."
+        },
+        {
+          "h": "Os três regimes de Esping-Andersen",
+          "p": "Esping-Andersen classifica os regimes de bem-estar em três tipos, conforme o grau de 'desmercadorização' (desmercantilização) dos direitos: o liberal (residual, focalizado nos comprovadamente pobres, baixa desmercadorização — ex.: EUA), o conservador-corporativo (bismarckiano, vinculado ao trabalho e às categorias profissionais, mantém estratificação — ex.: Alemanha) e o social-democrata (universalista, alta desmercadorização e igualdade — ex.: países nórdicos).\n\nDesmercadorização é o grau em que a pessoa pode manter seu padrão de vida independentemente do mercado, graças aos direitos sociais."
+        },
+        {
+          "h": "Crise do Welfare State e neoliberalismo",
+          "p": "A crise dos anos 1970 (esgotamento do padrão fordista, choques do petróleo, queda das taxas de lucro) abre caminho à ofensiva neoliberal (Hayek, Friedman; politicamente, Thatcher e Reagan). O neoliberalismo propõe Estado mínimo no social, privatização, desregulamentação, focalização (em vez de universalização) e responsabilização individual.\n\nNo Brasil, esse ideário chega nos anos 1990, em tensão com a Constituição de 1988, que havia acabado de instituir um amplo sistema de seguridade social. Daí o paradoxo brasileiro: ampliação de direitos na lei e contrarreforma do Estado na prática (Behring)."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'O Brasil consolidou, ao longo do século XX, um Estado de Bem-Estar Social pleno e universalista nos moldes social-democratas.' — ERRADO. O sistema brasileiro foi tardio, fragmentado e até 1988 baseado na cidadania regulada; não houve Welfare State pleno. Outro item: 'Segundo Esping-Andersen, o regime liberal de bem-estar caracteriza-se por alta desmercadorização e proteção universal.' — ERRADO; o liberal é residual e focalizado, com baixa desmercadorização; a alta desmercadorização caracteriza o regime social-democrata.",
+      "pontos_chave": [
+        "Política social = resposta do Estado à questão social; tem caráter contraditório (conquista + reprodução do capital).",
+        "Welfare State: pós-1945, base keynesiana-fordista, universalização de direitos sociais.",
+        "Brasil nunca teve Welfare State pleno; até 1988, cidadania regulada (proteção atrelada ao trabalho formal).",
+        "Esping-Andersen: três regimes — liberal (residual), conservador-corporativo (bismarckiano) e social-democrata (universalista).",
+        "Desmercadorização = independência do indivíduo em relação ao mercado garantida por direitos.",
+        "Crise dos anos 1970 → ofensiva neoliberal (Estado mínimo, focalização, privatização).",
+        "No Brasil: tensão entre a CF/88 (ampliação) e a contrarreforma neoliberal dos anos 1990 (Behring/Boschetti)."
+      ],
+      "dica_prova": "Memorize os três regimes de Esping-Andersen e o conceito de desmercadorização — caem muito. Pegadinha frequente: afirmar que o Brasil teve Welfare State pleno/universalista (falso) ou trocar as características dos regimes (liberal=residual, social-democrata=universalista). Associe neoliberalismo a focalização e Estado mínimo, em OPOSIÇÃO à universalização. Behring e Boschetti são as referências bibliográficas típicas."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Seguridade social, orçamento e controle social",
+      "intro": "A seguridade social é o eixo do sistema de proteção social brasileiro inaugurado pela Constituição Federal de 1988, frequentemente chamado de 'Constituição Cidadã'. O art. 194 define a seguridade social como um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social — o conhecido 'tripé' da seguridade.\n\nEsse sistema tem financiamento próprio (orçamento da seguridade social, art. 195), princípios próprios e mecanismos de participação e controle social por meio de conselhos e conferências. Integra-se ao ciclo orçamentário público (PPA, LDO e LOA), instrumentos de planejamento previstos no art. 165 da CF/88.\n\nA articulação entre o tripé da seguridade, seus princípios, o orçamento público e o controle social é um dos temas mais cobrados em provas de Serviço Social.",
+      "secoes": [
+        {
+          "h": "O tripé da seguridade social na CF/88",
+          "p": "A seguridade social (art. 194) compreende saúde, previdência e assistência social. A saúde é direito de todos e dever do Estado, universal e gratuita (SUS, art. 196). A previdência social é contributiva: protege quem contribui (art. 201). A assistência social é prestada a quem dela necessitar, independentemente de contribuição (art. 203), de caráter não contributivo.\n\nA distinção entre o contributivo (previdência) e o não contributivo (saúde e assistência) é a pegadinha mais frequente. Os objetivos/princípios da seguridade (parágrafo único do art. 194) incluem universalidade da cobertura e do atendimento, uniformidade e equivalência urbano-rural, seletividade e distributividade, irredutibilidade do valor dos benefícios, equidade na forma de participação no custeio, diversidade da base de financiamento e caráter democrático e descentralizado da gestão (gestão quadripartite)."
+        },
+        {
+          "h": "Financiamento e orçamento da seguridade",
+          "p": "Pelo art. 195, a seguridade social é financiada por toda a sociedade, de forma direta e indireta, com recursos dos orçamentos da União, estados, DF e municípios e de contribuições sociais (sobre folha de pagamento, faturamento/receita, lucro, importação, concursos de prognósticos e do trabalhador). É a chamada diversidade da base de financiamento.\n\nA Constituição prevê um orçamento da seguridade social próprio. Um princípio importante é o da regra da contrapartida (não criação ou majoração de benefício sem fonte de custeio total) e o respeito à anterioridade nonagesimal das contribuições sociais (podem ser cobradas 90 dias após a publicação da lei)."
+        },
+        {
+          "h": "PPA, LDO e LOA: o ciclo orçamentário",
+          "p": "O art. 165 da CF/88 estabelece três leis orçamentárias: o Plano Plurianual (PPA), que fixa diretrizes, objetivos e metas para 4 anos (despesas de capital e programas de duração continuada); a Lei de Diretrizes Orçamentárias (LDO), anual, que orienta a elaboração da LOA, dispõe sobre alterações na legislação tributária e metas fiscais; e a Lei Orçamentária Anual (LOA), que estima receitas e fixa despesas para o exercício, contendo os orçamentos fiscal, de investimento das estatais e da seguridade social.\n\nA Lei de Responsabilidade Fiscal (LC 101/2000) e a Lei 4.320/64 complementam o regime de planejamento e execução orçamentária. Para o Serviço Social, conhecer esse ciclo é essencial porque é nele que se garantem (ou se cortam) os recursos das políticas sociais."
+        },
+        {
+          "h": "Controle social: conselhos e conferências",
+          "p": "O controle social é a participação da sociedade na formulação, fiscalização e avaliação das políticas públicas, expressão do caráter democrático da gestão (CF/88). Realiza-se sobretudo por conselhos de políticas (de saúde, de assistência social, da criança e do adolescente etc.) e por conferências.\n\nOs conselhos de assistência social (CNAS, conselhos estaduais, distrital e municipais) são, em regra, paritários (igual número de representantes do governo e da sociedade civil), deliberativos e permanentes. A existência e o funcionamento do conselho e do fundo de assistência social são condições para o repasse de recursos no SUAS. Não confundir: controle social NÃO é o Estado controlando a sociedade, mas a sociedade controlando o Estado."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'A assistência social, integrante da seguridade social, é prestada apenas aos trabalhadores que contribuem para o sistema.' — ERRADO. A assistência social (art. 203) é não contributiva, prestada a quem dela necessitar; o caráter contributivo é da previdência (art. 201). Outro item: 'O PPA é a lei orçamentária de vigência anual que estima receitas e fixa despesas do exercício.' — ERRADO; isso descreve a LOA. O PPA tem vigência quadrienal e fixa diretrizes, objetivos e metas. Cenário aplicado: para receber cofinanciamento federal de serviços socioassistenciais, o município precisa ter conselho de assistência social paritário e deliberativo, fundo e plano de assistência social em funcionamento.",
+      "pontos_chave": [
+        "Seguridade social (art. 194 da CF/88) = tripé saúde + previdência + assistência social.",
+        "Saúde: universal/gratuita; previdência: contributiva; assistência: não contributiva (a quem dela necessitar).",
+        "Princípios (art. 194, p.ú.): universalidade, uniformidade urbano-rural, seletividade/distributividade, irredutibilidade, equidade no custeio, diversidade da base de financiamento, gestão democrática e descentralizada (quadripartite).",
+        "Financiamento (art. 195): toda a sociedade; contribuições sociais com anterioridade nonagesimal e regra da contrapartida.",
+        "Ciclo orçamentário (art. 165): PPA (4 anos), LDO (anual, orienta a LOA) e LOA (anual, fixa despesas).",
+        "LRF (LC 101/2000) e Lei 4.320/64 regem planejamento e execução orçamentária.",
+        "Controle social = sociedade controla o Estado; conselhos paritários e deliberativos; conselho + fundo + plano são condição para repasses no SUAS."
+      ],
+      "dica_prova": "As duas pegadinhas mais frequentes: (1) atribuir caráter contributivo à assistência social (ERRADO; ela é não contributiva) e (2) trocar PPA, LDO e LOA — fixe PPA=4 anos/diretrizes, LDO=orienta e metas fiscais, LOA=receitas e despesas do exercício. Lembre que controle social é a sociedade controlando o Estado (não o contrário) e que conselhos de assistência são paritários e deliberativos. Conselho + fundo + plano = exigência para cofinanciamento do SUAS."
+    }
+  ]
+}

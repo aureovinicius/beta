@@ -1,0 +1,46 @@
+{
+ "slug": "dietoterapia",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Nutrição básica e DCNTs",
+   "intro": "A nutrição básica estuda os nutrientes — substâncias dos alimentos necessárias ao organismo — sua classificação, funções, fontes, digestão, absorção e metabolismo. Dividem-se em macronutrientes (carboidratos, proteínas e lipídios, fontes de energia e estrutura) e micronutrientes (vitaminas e minerais, reguladores e cofatores), além da água e das fibras.\n\nA dietoterapia é a aplicação terapêutica da alimentação no tratamento de doenças, adaptando a dieta às necessidades clínicas do indivíduo. Ganha enorme relevância nas Doenças Crônicas Não Transmissíveis (DCNTs) — diabetes, hipertensão, obesidade, dislipidemias — que são as principais causas de morbimortalidade no Brasil e têm forte componente alimentar e de estilo de vida.\n\nO subtópico cobra macro e micronutrientes (funções e fontes) e a conduta dietoterápica nas principais DCNTs (diabetes mellitus, hipertensão arterial e obesidade), incluindo metas, restrições e padrões alimentares recomendados."
+  ,
+   "secoes": [
+    {
+     "h": "Macronutrientes",
+     "p": "Carboidratos: principal fonte de energia (4 kcal/g); classificam-se em simples (mono e dissacarídeos, ex.: glicose, sacarose) e complexos (amido, fibras). As fibras (solúveis e insolúveis) regulam o trânsito intestinal, a glicemia e o colesterol. Proteínas: função plástica/estrutural, enzimas, hormônios, imunidade (4 kcal/g); formadas por aminoácidos, sendo nove essenciais; fontes animais (alto valor biológico) e vegetais (complementares). Lipídios: maior densidade energética (9 kcal/g), reserva, transporte de vitaminas lipossolúveis e estrutura de membranas; distinguem-se saturados, mono e poli-insaturados (ômega-3 e 6) e os trans (a evitar).\n\nO equilíbrio entre os macronutrientes (distribuição percentual do valor energético total) é base da prescrição dietética."
+    },
+    {
+     "h": "Micronutrientes, água e fibras",
+     "p": "Vitaminas: lipossolúveis (A, D, E, K — armazenadas, risco de toxicidade em excesso) e hidrossolúveis (complexo B e C — não armazenadas, eliminadas na urina). Minerais: macrominerais (cálcio, fósforo, magnésio, sódio, potássio) e oligoelementos (ferro, zinco, iodo, selênio). Atuam como cofatores, na estrutura óssea, no equilíbrio hidroeletrolítico e na função neuromuscular.\n\nA água é o nutriente mais abundante, essencial à termorregulação, transporte e reações metabólicas. As fibras contribuem para a saúde intestinal, a saciedade e o controle glicêmico e lipídico."
+    },
+    {
+     "h": "Dietoterapia no diabetes mellitus",
+     "p": "No diabetes, o objetivo é o controle glicêmico, evitando hiper e hipoglicemias e prevenindo complicações. A conduta prioriza: controle da quantidade e qualidade dos carboidratos (preferência a complexos e de baixo índice glicêmico, e às fibras), fracionamento das refeições, restrição de açúcares simples e adequação calórica (importante quando há excesso de peso).\n\nNa diabetes tipo 1 destaca-se a contagem de carboidratos para ajuste da insulina; na tipo 2, além da dieta, atuam atividade física e perda de peso. A dieta integra o tratamento junto à medicação."
+    },
+    {
+     "h": "Dietoterapia na hipertensão arterial",
+     "p": "Na hipertensão (HAS), a principal medida dietética é a restrição de sódio (recomendação geral de até cerca de 2 g de sódio/dia, equivalente a cerca de 5 g de sal). Reduz-se sal de adição, temperos industrializados, embutidos, enlatados e ultraprocessados (ricos em sódio).\n\nRecomenda-se aumento de potássio (frutas, hortaliças, leguminosas), controle do peso, moderação no álcool e o padrão alimentar DASH (Dietary Approaches to Stop Hypertension), rico em frutas, vegetais, laticínios magros, grãos integrais e pobre em gorduras saturadas e sódio, comprovadamente eficaz na redução da pressão."
+    },
+    {
+     "h": "Dietoterapia na obesidade e dislipidemias",
+     "p": "Na obesidade, a base é o balanço energético negativo (consumo menor que o gasto), com déficit calórico moderado e sustentável, priorizando alimentos in natura, fibras e proteínas (saciedade) e reduzindo ultraprocessados, açúcares e gorduras. Associa-se mudança de estilo de vida, atividade física e abordagem comportamental, evitando dietas radicais (efeito sanfona).\n\nNas dislipidemias, reduzem-se gorduras saturadas e trans e o colesterol dietético, aumentando fibras solúveis, fitosteróis e gorduras insaturadas (ômega-3). As DCNTs compartilham fatores de risco (sedentarismo, má alimentação, excesso de peso), o que reforça a prevenção comum e a importância da alimentação saudável e da EAN."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'Para o paciente hipertenso, recomenda-se aumentar a ingestão de sódio para repor as perdas urinárias.' Errado: na HAS a recomendação é restringir o sódio (até cerca de 2 g/dia) e adotar o padrão DASH, rico em potássio. Cenário clínico: paciente com diabetes tipo 2 e obesidade — a conduta combina déficit calórico, carboidratos complexos de baixo índice glicêmico, fibras, fracionamento das refeições, restrição de sódio (se também hipertenso) e atividade física.",
+   "pontos_chave": [
+    "Macronutrientes: carboidrato 4 kcal/g, proteína 4 kcal/g, lipídio 9 kcal/g.",
+    "Vitaminas lipossolúveis (A, D, E, K — armazenam, risco de toxicidade) x hidrossolúveis (B, C).",
+    "Diabetes: controle de carboidratos (baixo índice glicêmico), fibras, fracionamento; contagem de CHO no tipo 1.",
+    "Hipertensão: restrição de sódio (~2 g/dia), padrão DASH, mais potássio.",
+    "Obesidade: balanço energético negativo, in natura, fibras e proteína; mudança de estilo de vida.",
+    "Dislipidemia: reduzir saturadas/trans e colesterol; aumentar fibras solúveis e ômega-3.",
+    "Fibras solúveis ajudam glicemia e colesterol; insolúveis, o trânsito intestinal.",
+    "DCNTs partilham fatores de risco (alimentação, sedentarismo, excesso de peso)."
+   ],
+   "dica_prova": "Decore o valor energético: lipídio 9 kcal/g (o dobro de carboidrato e proteína, ambos 4). DASH e restrição de sódio são marca da hipertensão; índice glicêmico e contagem de carboidratos, do diabetes. Pegadinha comum: dizer que vitaminas hidrossolúveis se acumulam e causam toxicidade (são as lipossolúveis que armazenam). Para obesidade, a chave é o déficit calórico sustentável, não dietas radicais."
+  }
+ ]
+}

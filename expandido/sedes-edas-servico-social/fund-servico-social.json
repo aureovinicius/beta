@@ -1,0 +1,75 @@
+{
+  "slug": "fund-servico-social",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Constituição da profissão e questão social",
+      "intro": "O Serviço Social se constitui como profissão a partir do amadurecimento do capitalismo monopolista, quando o Estado passa a intervir de forma sistemática sobre as sequelas da relação entre capital e trabalho. A profissão surge inscrita na divisão social e técnica do trabalho como um agente que executa políticas sociais e atua diretamente sobre as manifestações da chamada questão social.\n\nA questão social é o objeto central do trabalho profissional. Ela é entendida, na tradição crítica, como o conjunto das desigualdades e antagonismos econômicos, políticos e sociais produzidos pela contradição fundamental do capitalismo: a produção da riqueza é coletiva (socializada), mas a apropriação dela permanece privada. Desse desequilíbrio nascem suas expressões concretas — pobreza, desemprego, fome, falta de moradia, violência.\n\nCompreender essa gênese é decisivo porque diferencia a leitura crítica (questão social como produto estrutural do capital) das leituras conservadoras, que a tratam como problema moral, individual ou de mero ajustamento do sujeito.",
+      "secoes": [
+        {
+          "h": "Gênese da profissão: do confessional ao assalariamento",
+          "p": "O Serviço Social não nasce de uma evolução natural da caridade ou da filantropia, embora se vincule a elas em sua origem. Iamamoto e Carvalho rompem com a tese 'evolucionista' e demonstram que a profissão emerge como necessidade do capitalismo monopolista: o Estado e o empresariado precisam de agentes técnicos para administrar a força de trabalho e conter os conflitos sociais.\n\nNo Brasil, as primeiras escolas surgem na década de 1930 (a primeira em São Paulo, 1936), sob forte influência da Igreja Católica e da doutrina social das encíclicas. O assistente social torna-se um trabalhador assalariado, inserido em instituições públicas e privadas, o que define seu caráter contraditório: vende sua força de trabalho mas dispõe de relativa autonomia técnica."
+        },
+        {
+          "h": "O conceito de questão social",
+          "p": "A questão social não é sinônimo de pobreza, de problema social isolado ou de carência individual. É a expressão das desigualdades estruturais inerentes à sociedade capitalista madura, indissociável da contradição capital-trabalho.\n\nSua origem é situada historicamente no século XIX europeu, quando a classe trabalhadora se constitui como sujeito político e o pauperismo deixa de ser visto como fatalidade natural para tornar-se questão pública, alvo de luta e de intervenção do Estado. Em Marx, o fundamento da questão social está na lei geral da acumulação capitalista, que produz simultaneamente riqueza e miséria (a superpopulação relativa, o exército industrial de reserva)."
+        },
+        {
+          "h": "Expressões e 'novas' expressões da questão social",
+          "p": "As expressões da questão social são as formas concretas, visíveis e particulares como ela se manifesta no cotidiano e chega ao assistente social: desemprego, subemprego, violência doméstica e urbana, trabalho infantil, situação de rua, fome, evasão escolar, segregação territorial.\n\nFala-se em 'novas' expressões para designar configurações contemporâneas ligadas à reestruturação produtiva, à precarização do trabalho e ao desmonte de direitos: trabalho informal e por aplicativos, questões étnico-raciais e de gênero, racismo ambiental, refúgio e migração. A crítica adverte, porém, que o fundamento é o mesmo — não há uma 'nova' questão social, mas novas formas de aparecer de uma única questão social estrutural."
+        },
+        {
+          "h": "Significado social da profissão",
+          "p": "O significado social do Serviço Social está em ser um trabalho inscrito nas relações sociais que ao mesmo tempo responde a interesses do capital (reprodução e controle da força de trabalho) e a interesses do trabalho (acesso a direitos e serviços). Essa dupla determinação é o que Iamamoto chama de caráter contraditório da prática profissional.\n\nÉ justamente essa contradição que abre espaço para um projeto profissional crítico: o assistente social pode, dentro de limites institucionais, reforçar a lógica dominante ou fortalecer a classe trabalhadora no acesso a direitos."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'A questão social pode ser definida como o conjunto de problemas individuais decorrentes da incapacidade de adaptação dos sujeitos à vida em sociedade.' — ERRADO. A questão social não é problema individual nem de adaptação (essa é a leitura conservadora/funcionalista); ela é a expressão das desigualdades estruturais da relação capital-trabalho no capitalismo. Outro item: 'O Serviço Social brasileiro surgiu como simples evolução das práticas de caridade e filantropia da Igreja.' — ERRADO segundo a tese de Iamamoto e Carvalho, que rejeita a perspectiva evolucionista e vincula a gênese profissional às exigências do capitalismo monopolista.",
+      "pontos_chave": [
+        "A profissão emerge no capitalismo monopolista, como agente executor de políticas sociais (tese de Iamamoto e Carvalho, contra a leitura evolucionista).",
+        "Primeira escola de Serviço Social no Brasil: São Paulo, 1936.",
+        "Questão social = expressão das desigualdades estruturais da contradição capital-trabalho; não é pobreza nem problema individual.",
+        "Seu fundamento está na lei geral da acumulação capitalista (Marx): riqueza e miséria produzidas juntas.",
+        "Expressões: desemprego, fome, violência, situação de rua, trabalho infantil etc.",
+        "As 'novas' expressões mudam de forma, mas o fundamento estrutural é o mesmo.",
+        "O assistente social é trabalhador assalariado, com prática de caráter contraditório (atende capital e trabalho)."
+      ],
+      "dica_prova": "A pegadinha clássica é apresentar a questão social como problema moral, individual ou de inadaptação — isso é leitura conservadora, sempre ERRADO na chave crítica hegemônica. Cuidado também com a tese evolucionista (caridade evoluindo até virar profissão): a banca cobra a ruptura proposta por Iamamoto. Memorize: significado social = caráter contraditório; gênese = capitalismo monopolista."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Perspectivas teórico-metodológicas",
+      "intro": "A trajetória teórico-metodológica do Serviço Social brasileiro costuma ser sistematizada em momentos que coexistem e disputam hegemonia: o conservadorismo (de matriz positivista/funcionalista e influência neotomista), o Movimento de Reconceituação e a perspectiva crítico-dialética (de inspiração marxista), hoje hegemônica no projeto profissional.\n\nEssas perspectivas não são apenas correntes abstratas: elas determinam o modo como o assistente social lê a realidade, define seu objeto de intervenção e escolhe seus instrumentos. Por isso são tema recorrente em provas, que cobram a associação entre cada perspectiva, sua base filosófica, seus marcos e seus efeitos sobre a prática.",
+      "secoes": [
+        {
+          "h": "O conservadorismo e o Serviço Social tradicional",
+          "p": "A fase tradicional (das décadas de 1930 a 1950) é marcada pelo conservadorismo, ancorado em duas bases: o neotomismo (doutrina social da Igreja, com ênfase em ajustamento, harmonia e bem comum) e, depois, o positivismo/funcionalismo norte-americano, que importa os métodos de Caso, Grupo e Comunidade (Mary Richmond é referência do Serviço Social de Caso).\n\nNessa perspectiva, a questão social é lida como disfunção, desajuste ou patologia social a ser corrigida pela adaptação do indivíduo. A intervenção é tecnicista, despolitizada e voltada ao ajustamento — o que será o alvo central da crítica posterior."
+        },
+        {
+          "h": "Movimento de Reconceituação (1965-1975)",
+          "p": "O Movimento de Reconceituação é um movimento latino-americano de contestação ao Serviço Social tradicional, que questiona seu caráter importado, acrítico e ajustador. Busca uma profissão comprometida com a realidade latino-americana e com as classes subalternas.\n\nO documento de Araxá (1967) e o de Teresópolis (1970) marcam o debate brasileiro. Netto sintetiza o período em três vertentes: a perspectiva modernizadora (atualiza o conservadorismo com aportes funcionalistas, sem rompê-lo), a reatualização do conservadorismo (fenomenologia, ênfase no sujeito e no diálogo) e a intenção de ruptura, que busca efetivamente romper com o conservadorismo a partir do marxismo. É importante notar que o primeiro contato com Marx foi muitas vezes enviesado (marxismo 'sem Marx', via manuais), o que José Paulo Netto critica."
+        },
+        {
+          "h": "A perspectiva crítico-dialética e a intenção de ruptura",
+          "p": "A perspectiva crítico-dialética se consolida a partir do fim dos anos 1970 e nos anos 1980, com a aproximação madura da tradição marxista (leitura direta de Marx, Lukács, Gramsci). 'O Serviço Social na contemporaneidade', de Iamamoto, e 'Ditadura e Serviço Social', de Netto, são marcos.\n\nO método dialético adota categorias como totalidade, contradição, mediação e historicidade: a realidade é apreendida como totalidade dinâmica e contraditória, e o particular (a demanda imediata) só se compreende em sua relação com o todo (a estrutura social). Essa perspectiva fundamenta o projeto ético-político e o Código de Ética de 1993."
+        },
+        {
+          "h": "Marcos institucionais do amadurecimento crítico",
+          "p": "O Congresso da Virada (III CBAS, 1979) é símbolo da ruptura política: a recusa da mesa oficial e a eleição de representantes das classes trabalhadoras marcam o redirecionamento da categoria. Nos anos seguintes, a perspectiva crítica se materializa em normas — Código de Ética de 1986 (primeira inflexão crítica explícita), Lei 8.662/1993, Código de Ética de 1993 e Diretrizes Curriculares da ABEPSS (1996).\n\nEssa sequência mostra que a hegemonia crítico-dialética não é só teórica: traduz-se em legislação, formação e organização política da categoria."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'O Movimento de Reconceituação rompeu de imediato e por completo com o conservadorismo, adotando desde o início a tradição marxista de forma rigorosa.' — ERRADO. A reconceituação foi heterogênea: na sistematização de Netto, contemplou a perspectiva modernizadora e a reatualização do conservadorismo, além da intenção de ruptura; e a aproximação inicial com Marx foi frequentemente enviesada (via manuais). O rigor teórico marxista só amadurece na perspectiva crítico-dialética dos anos 1980. Outro item: 'O Serviço Social de Caso, sistematizado por Mary Richmond, vincula-se à matriz crítico-dialética.' — ERRADO; vincula-se ao Serviço Social tradicional de base positivista/funcionalista.",
+      "pontos_chave": [
+        "Tradicional/conservador: bases neotomista e positivista-funcionalista; métodos de Caso, Grupo e Comunidade; questão social vista como desajuste.",
+        "Mary Richmond = Serviço Social de Caso (matriz conservadora, não crítica).",
+        "Reconceituação (1965-1975): movimento latino-americano de contestação; documentos de Araxá (1967) e Teresópolis (1970).",
+        "Três vertentes (Netto): modernizadora, reatualização do conservadorismo (fenomenologia) e intenção de ruptura (marxismo).",
+        "Crítico-dialética: categorias totalidade, contradição, mediação, historicidade; aproximação madura de Marx, Lukács e Gramsci.",
+        "Congresso da Virada (III CBAS, 1979) = marco político da ruptura.",
+        "A hegemonia crítica se materializa nos Códigos de Ética de 1986 e 1993, na Lei 8.662/93 e nas Diretrizes da ABEPSS (1996)."
+      ],
+      "dica_prova": "A banca adora misturar autores e matrizes: associe sempre Mary Richmond ao Caso/conservador e a fenomenologia à reatualização do conservadorismo (não confundir com a intenção de ruptura). Outra pegadinha: afirmar que a reconceituação foi homogênea e marxista desde o início — falso. Decore os marcos: Araxá 1967, Teresópolis 1970, Congresso da Virada 1979, Códigos 1986/1993."
+    }
+  ]
+}

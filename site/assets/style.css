@@ -81,6 +81,23 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 .cc-stats strong{color:var(--text);font-size:1rem}
 .cc-go{margin-top:12px;font-weight:700;color:var(--accent)}
 
+/* box de grupo (multi-cargo) expansível */
+.grupo-card{padding:0;overflow:hidden}
+.grupo-head{display:flex;flex-direction:column;gap:8px;width:100%;text-align:left;cursor:pointer;
+  background:none;border:none;color:inherit;font:inherit;padding:24px}
+.grupo-toggle{display:inline-flex;align-items:center;gap:6px}
+.chevron{transition:transform .2s}
+.grupo-head[aria-expanded="true"] .chevron{transform:rotate(180deg)}
+.grupo-cargos{display:flex;flex-direction:column;gap:8px;padding:0 16px 16px}
+.cargo-card{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:10px;
+  border:1px solid var(--border);background:var(--bg);transition:.15s}
+.cargo-card:hover{border-color:var(--accent);transform:translateX(3px)}
+.cargo-icon{font-size:1.3rem;flex:none}
+.cargo-body{display:flex;flex-direction:column;flex:1;min-width:0}
+.cargo-body strong{font-size:.95rem}
+.cargo-body small{color:var(--muted);font-size:.78rem}
+.cargo-go{color:var(--accent);font-weight:700}
+
 /* badge de reaproveitamento */
 .tag-reuse{margin-left:8px;cursor:help;color:var(--brand);font-weight:700}
 .reuse-banner{margin:14px 0;padding:10px 14px;border-radius:10px;font-size:.9rem;

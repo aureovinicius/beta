@@ -80,27 +80,66 @@ def counts(c):
     return disc, top, sub
 
 
+def _meta_line(c):
+    partes = []
+    if c.get("banca"):
+        partes.append(f"🏛️ {e(c['banca'])}")
+    if c.get("ano"):
+        partes.append(f"📅 {e(c['ano'])}")
+    return "".join(f"<span>{p}</span>" for p in partes)
+
+
 # ================================ LANDING ================================
 def build_landing():
+    visiveis = [c for c in CONCURSOS if not c.get("oculto")]
+    avulsos = [c for c in visiveis if not c.get("grupo")]
+    # agrupa cargos por grupo, preservando ordem de aparição
+    grupos = {}
+    for c in visiveis:
+        g = c.get("grupo")
+        if g:
+            grupos.setdefault(g["id"], {"meta": g, "cargos": []})["cargos"].append(c)
+
     cards = ""
-    for c in CONCURSOS:
+    for c in avulsos:
         disc, top, sub = counts(c)
         cards += f"""
       <a class="concurso-card" href="{c['id']}/index.html" style="--accent:{c['cor']}">
-        <div class="cc-top">
-          <span class="cc-icon">{c['icone']}</span>
-          <span class="cc-orgao">{e(c['orgao'])}</span>
-        </div>
+        <div class="cc-top"><span class="cc-icon">{c['icone']}</span><span class="cc-orgao">{e(c['orgao'])}</span></div>
         <h3>{e(c['nome'])}</h3>
         <p class="cc-cargo">{e(c['cargo'])}</p>
         <p class="cc-desc">{e(c['descricao'])}</p>
-        <div class="cc-meta">
-          <span>🏛️ {e(c['banca'])}</span><span>📅 {e(c['ano'])}</span>
-        </div>
+        <div class="cc-meta">{_meta_line(c)}</div>
         <div class="cc-stats"><span><strong>{disc}</strong> disciplinas</span>
           <span><strong>{sub}</strong> subtópicos</span></div>
         <span class="cc-go">Estudar →</span>
       </a>"""
+
+    # boxes de grupo (expansíveis)
+    for gid, info in grupos.items():
+        g = info["meta"]
+        cargos = info["cargos"]
+        sub_cards = ""
+        for c in cargos:
+            disc, top, sub = counts(c)
+            sub_cards += f"""
+          <a class="cargo-card" href="{c['id']}/index.html">
+            <span class="cargo-icon">{c['icone']}</span>
+            <span class="cargo-body"><strong>{e(c['nome'])}</strong>
+              <small>{e(c['cargo'])} · cód. {e(c.get('codigo',''))} · {sub} subtópicos</small></span>
+            <span class="cargo-go">→</span>
+          </a>"""
+        cards += f"""
+      <div class="concurso-card grupo-card" style="--accent:{g['cor']}" data-name="{e(g['nome'].lower())}">
+        <button class="grupo-head" aria-expanded="false">
+          <div class="cc-top"><span class="cc-icon">{g['icone']}</span><span class="cc-orgao">{e(g['orgao'])}</span></div>
+          <h3>{e(g['nome'])}</h3>
+          <p class="cc-desc">{e(g['descricao'])}</p>
+          <div class="cc-stats"><span><strong>{len(cargos)}</strong> cargos/especialidades</span></div>
+          <span class="cc-go grupo-toggle">Ver cargos <span class="chevron">▾</span></span>
+        </button>
+        <div class="grupo-cargos" hidden>{sub_cards}</div>
+      </div>"""
 
     doc = head("Guia de Estudos para Concursos", 0)
     doc += topbar(0)
@@ -139,8 +178,11 @@ def build_concurso_home(c):
       </a>"""
         cards_by_group.setdefault(d["grupo"], []).append(card)
 
+    ordem = ["Conhecimentos Gerais", "Conhecimentos Básicos",
+             "Conhecimentos Específicos Comuns", "Conhecimentos Específicos"]
+    ordem += [g for g in cards_by_group if g not in ordem]
     sections = ""
-    for g in GRUPOS:
+    for g in ordem:
         if not cards_by_group.get(g):
             continue
         sections += f"""
@@ -150,14 +192,23 @@ def build_concurso_home(c):
     </section>"""
 
     disc, top, sub = counts(c)
+    g = c.get("grupo")
+    if g:
+        crumb = f'<a href="../index.html">Concursos</a> › <span>{e(g["nome"])}</span> › <span>{e(c["nome"])}</span>'
+        eyebrow = " · ".join(x for x in [e(g["orgao"]), c.get("cargo", ""), e(c.get("ano", ""))] if x)
+        titulo = f"{c['icone']} {e(c['nome'])}"
+    else:
+        crumb = f'<a href="../index.html">Concursos</a> › <span>{e(c["orgao"])}</span>'
+        eyebrow = " · ".join(x for x in [e(c["orgao"]), e(c.get("banca", "")), e(c.get("ano", ""))] if x)
+        titulo = e(c["nome"])
     doc = head(f"{c['nome']} — Guia de Estudos", 1)
-    doc += topbar(1, c["orgao"])
+    doc += topbar(1, g["orgao"] if g else c["orgao"])
     doc += f"""
 <main>
-  <nav class="crumbs"><a href="../index.html">Concursos</a> › <span>{e(c['orgao'])}</span></nav>
+  <nav class="crumbs">{crumb}</nav>
   <section class="hero">
-    <p class="eyebrow">{e(c['orgao'])} · {e(c['banca'])} · {e(c['ano'])}</p>
-    <h1>{e(c['nome'])}</h1>
+    <p class="eyebrow">{eyebrow}</p>
+    <h1>{titulo}</h1>
     <p class="lead">{e(c['descricao'])}</p>
     <div class="stats">
       <div class="stat"><strong>{disc}</strong><span>disciplinas</span></div>
@@ -308,7 +359,8 @@ def main():
     os.makedirs(SITE, exist_ok=True)
     build_landing()
     n_amp = 0
-    for c in CONCURSOS:
+    publicos = [c for c in CONCURSOS if not c.get("oculto")]
+    for c in publicos:
         cid = c["id"]
         os.makedirs(os.path.join(SITE, cid, "disciplinas"), exist_ok=True)
         os.makedirs(os.path.join(SITE, cid, "ampliado"), exist_ok=True)
@@ -316,7 +368,7 @@ def main():
         for i, d in enumerate(c["disciplinas"]):
             build_disciplina(c, d, i)
             n_amp += build_ampliado(c, d)
-    print(f"Gerado: landing + {len(CONCURSOS)} concursos + {n_amp} páginas de aprofundamento")
+    print(f"Gerado: landing + {len(publicos)} concursos visíveis + {n_amp} páginas de aprofundamento")
 
 
 if __name__ == "__main__":

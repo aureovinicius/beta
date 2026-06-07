@@ -1,0 +1,45 @@
+{
+  "slug": "temas-diretrizes-internacionais",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Drogas, redução de danos e diretrizes internacionais",
+      "intro": "O campo das drogas e dos direitos humanos exige do Educador Social uma compreensão que articule a política nacional sobre drogas, a estratégia de REDUÇÃO DE DANOS e o conjunto de diretrizes internacionais que orientam a proteção de pessoas — especialmente crianças e adolescentes. No Brasil, a Lei 11.343/2006 (Lei de Drogas) instituiu o SISNAD (Sistema Nacional de Políticas Públicas sobre Drogas), distinguindo a repressão ao tráfico das ações de prevenção, tratamento, reinserção social e redução de danos para o usuário.\n\nA redução de danos é uma estratégia de cuidado que não condiciona a atenção à abstinência, partindo de onde a pessoa está. Já as diretrizes internacionais — DUDH, Convenção sobre os Direitos da Criança, Regras de Beijing e Diretrizes de Riad (RIAD) — fornecem o arcabouço de direitos humanos que sustenta a proteção integral, a doutrina da prioridade absoluta e a prevenção da delinquência juvenil, fortemente incorporadas pelo ECA brasileiro."
+      ,
+      "secoes": [
+        {
+          "h": "Política sobre drogas e o SISNAD",
+          "p": "A Lei 11.343/2006 organiza a política brasileira sobre drogas em dois grandes eixos: a REPRESSÃO ao tráfico e a PREVENÇÃO/atenção ao usuário. O usuário e o dependente não recebem pena privativa de liberdade pelo porte para consumo pessoal, mas medidas como advertência, prestação de serviços à comunidade e medida educativa — sinalizando uma abordagem mais voltada à saúde e à reinserção do que à criminalização do usuário.\n\nA prevenção, o tratamento, a reinserção social e a redução de danos integram a política de atenção. O cuidado deve ser intersetorial, articulando assistência social (SUAS), saúde (RAPS/CAPS AD), educação e justiça, com respeito aos direitos humanos e à autonomia da pessoa."
+        },
+        {
+          "h": "Redução de danos",
+          "p": "A redução de danos é uma estratégia de saúde pública e de cuidado que busca diminuir os prejuízos à saúde e sociais decorrentes do uso de álcool e outras drogas, SEM exigir a abstinência como condição prévia para o atendimento. Reconhece que nem toda pessoa quer ou consegue parar de usar imediatamente e que o cuidado não pode ser negado a quem continua usando.\n\nPauta-se pela autonomia, pelo respeito e pela ausência de julgamento moral, opondo-se à lógica exclusivamente proibicionista e à internação compulsória como regra. Articula-se com a Reforma Psiquiátrica (Lei 10.216/2001) e com a rede psicossocial (CAPS AD, Consultório na Rua). Para o Educador Social, significa acolher sem preconceito, construir vínculo e articular encaminhamentos à rede de saúde."
+        },
+        {
+          "h": "DUDH e Convenção sobre os Direitos da Criança",
+          "p": "A DUDH (Declaração Universal dos Direitos Humanos, ONU, 1948) é o marco fundante dos direitos humanos: proclama a dignidade, a igualdade e a liberdade de todos os seres humanos, fundamentando todas as demais normas de proteção.\n\nA Convenção sobre os Direitos da Criança (ONU, 1989; promulgada no Brasil pelo Decreto 99.710/1990) é o tratado que consagra a criança como SUJEITO DE DIREITOS e a doutrina da PROTEÇÃO INTEGRAL, com prioridade do interesse superior da criança. Foi a principal inspiração do ECA (Lei 8.069/1990), que adota a proteção integral e a prioridade absoluta (art. 227, CF)."
+        },
+        {
+          "h": "Regras de Beijing e Diretrizes de Riad (RIAD)",
+          "p": "As REGRAS DE BEIJING (Regras Mínimas das Nações Unidas para a Administração da Justiça da Infância e da Juventude, 1985) estabelecem padrões mínimos para o tratamento de adolescentes em conflito com a lei: a privação de liberdade como ÚLTIMO recurso e pelo menor tempo possível, a preferência por medidas em meio aberto, o devido processo legal e a finalidade socioeducativa (não meramente punitiva). Inspiram diretamente as medidas socioeducativas do ECA e o SINASE.\n\nAs DIRETRIZES DE RIAD (Diretrizes das Nações Unidas para a Prevenção da Delinquência Juvenil, 1990) focam a PREVENÇÃO: a delinquência juvenil deve ser prevenida por meio de políticas sociais amplas (família, escola, comunidade, oportunidades), evitando a rotulação/estigmatização do adolescente. Reforçam que prevenir é melhor — e mais eficaz — do que reprimir."
+        },
+        {
+          "h": "Síntese e articulação com o ECA",
+          "p": "Esse conjunto normativo internacional é a base da doutrina da proteção integral acolhida pela Constituição (art. 227) e pelo ECA. Da Convenção vem o reconhecimento da criança como sujeito de direitos; de Beijing, os parâmetros do sistema socioeducativo (privação de liberdade como excepcionalidade); de Riad, a ênfase na prevenção e na não estigmatização; da DUDH, o fundamento universal de dignidade.\n\nPara o Educador Social, dominar essas diretrizes significa atuar na lógica de direitos humanos: prevenir, proteger, não criminalizar a pobreza nem o uso de drogas, e tratar o adolescente em conflito com a lei como sujeito em desenvolvimento, com medidas de caráter socioeducativo."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): 'Segundo as Regras de Beijing, a privação de liberdade do adolescente em conflito com a lei deve ser a regra geral, aplicada sempre que houver prática de ato infracional.' — ERRADO. As Regras de Beijing estabelecem exatamente o oposto: a privação de liberdade é o ÚLTIMO recurso, pelo menor tempo possível, com preferência por medidas em meio aberto e finalidade socioeducativa. A regra é a excepcionalidade da internação, princípio também adotado pelo ECA e pelo SINASE.",
+      "pontos_chave": [
+        "Lei 11.343/2006 (SISNAD): separa repressão ao tráfico de atenção ao usuário.",
+        "Redução de danos: cuidar sem exigir abstinência prévia; respeito e autonomia.",
+        "DUDH (1948): marco universal de dignidade e direitos humanos.",
+        "Convenção sobre os Direitos da Criança (1989): proteção integral, criança sujeito de direitos.",
+        "Regras de Beijing (1985): justiça juvenil; privação de liberdade como último recurso.",
+        "Diretrizes de Riad/RIAD (1990): prevenção da delinquência juvenil, sem estigmatização.",
+        "Base internacional da proteção integral do ECA (art. 227, CF)."
+      ],
+      "dica_prova": "Decore o 'mapa' das diretrizes: Beijing = JUSTIÇA juvenil (último recurso/internação excepcional); Riad/RIAD = PREVENÇÃO da delinquência. A banca troca uma pela outra. Sobre drogas, a pegadinha clássica é associar redução de danos à exigência de abstinência ou à internação compulsória — é o contrário. E cuidado: a Convenção (1989) inspirou o ECA (1990), não o inverso; ela consagra a criança como sujeito de direitos e a proteção integral."
+    }
+  ]
+}

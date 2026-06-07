@@ -1,0 +1,87 @@
+{
+ "slug": "economia-social",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Distribuição de renda e desigualdade",
+   "intro": "A distribuição de renda descreve como a renda gerada em uma economia se reparte entre indivíduos, famílias ou grupos. Distingue-se a distribuição funcional (entre os fatores de produção — quanto vai para salários, lucros, juros e aluguéis) da distribuição pessoal (entre as pessoas e famílias, foco dos estudos de desigualdade e pobreza). O Brasil é historicamente um dos países mais desiguais do mundo, o que torna o tema central para políticas sociais e para concursos da área.\n\nMedir a desigualdade exige indicadores que sintetizem a dispersão da renda. O instrumento gráfico básico é a curva de Lorenz, e o indicador-síntese mais usado é o índice (ou coeficiente) de Gini. Há ainda razões entre extremos (como a razão 10/40 ou a participação do 1% mais rico) e índices sensíveis a diferentes partes da distribuição, como os de Theil e de Atkinson.\n\nEsses indicadores também servem para avaliar o impacto redistributivo de políticas: comparando a desigualdade antes e depois de impostos e transferências, mede-se quanto o Estado efetivamente reduz a concentração de renda."
+   ,
+   "secoes": [
+    {
+     "h": "Curva de Lorenz",
+     "p": "A curva de Lorenz relaciona a proporção acumulada da população (eixo horizontal, ordenada do mais pobre ao mais rico) com a proporção acumulada da renda (eixo vertical). A diagonal de 45° representa a igualdade perfeita (cada x% da população detém x% da renda). Quanto mais a curva se afasta (abaula) para baixo da diagonal, maior a desigualdade.\n\nA leitura é intuitiva: se os 50% mais pobres detêm apenas 15% da renda, a curva passa pelo ponto (50%, 15%). A curva nunca cruza a diagonal e é a base geométrica do índice de Gini. Quando a curva de Lorenz de uma distribuição está sempre acima da de outra (dominância de Lorenz), ela é inequivocamente menos desigual."
+    },
+    {
+     "h": "Índice de Gini",
+     "p": "O índice de Gini mede a área entre a curva de Lorenz e a diagonal de igualdade perfeita, dividida pela área total abaixo da diagonal. Varia de 0 a 1 (ou de 0 a 100): 0 indica igualdade perfeita (todos têm a mesma renda) e 1 indica desigualdade máxima (uma só pessoa detém toda a renda). Quanto maior o Gini, mais concentrada a renda.\n\nO Gini brasileiro de renda situa-se historicamente em torno de 0,5, alto no comparativo internacional, embora tenha caído ao longo dos anos 2000. Suas limitações: é mais sensível a mudanças no meio da distribuição do que nos extremos, e duas distribuições diferentes podem ter o mesmo Gini (curvas de Lorenz que se cruzam). Por isso, complementa-se com outros índices."
+    },
+    {
+     "h": "Outros indicadores: Theil, Atkinson e razões",
+     "p": "O índice de Theil, derivado da teoria da informação, é decomponível: permite separar a desigualdade total em parcela 'entre grupos' (ex.: entre regiões ou raças) e 'dentro dos grupos', o que o Gini não faz facilmente. O índice de Atkinson incorpora explicitamente um parâmetro de aversão à desigualdade, ligando a medida a um juízo normativo sobre o quanto a sociedade rejeita a concentração.\n\nUsam-se também medidas simples: a razão entre a renda dos 10% mais ricos e dos 40% mais pobres (índice 10/40), a participação dos 10% ou do 1% mais ricos na renda total e a razão interdecil (P90/P10). Cada uma destaca uma parte diferente da distribuição."
+    },
+    {
+     "h": "Distribuição funcional x pessoal e os determinantes da desigualdade",
+     "p": "A distribuição funcional mostra a divisão da renda entre trabalho e capital (participação dos salários no PIB, por exemplo). A distribuição pessoal foca como a renda se reparte entre pessoas, sendo a base dos índices de desigualdade.\n\nEntre os determinantes da desigualdade brasileira destacam-se: a heterogeneidade educacional (retornos elevados à escolaridade), as diferenças regionais, a discriminação por raça e gênero no mercado de trabalho, a estrutura regressiva da tributação e a concentração da propriedade. Políticas que reduzem a desigualdade atuam sobre esses fatores: educação, valorização do salário mínimo, transferências de renda e tributação mais progressiva."
+    },
+    {
+     "h": "Crescimento, desigualdade e impacto redistributivo das políticas",
+     "p": "A relação entre crescimento e desigualdade é discutida na curva de Kuznets (hipótese do 'U invertido': a desigualdade primeiro cresce e depois cai com o desenvolvimento), hoje vista com ressalvas empíricas. O crescimento pode ser pró-pobre quando eleva proporcionalmente mais a renda dos mais pobres.\n\nPara avaliar o efeito de políticas, compara-se a distribuição da renda antes e depois da intervenção do Estado: o Gini da renda de mercado (antes de impostos e transferências) costuma ser bem maior que o Gini da renda disponível (depois). A diferença mede o poder redistributivo do sistema fiscal — no Brasil, transferências focalizadas (como o Bolsa Família/Auxílio) têm forte impacto sobre a pobreza, enquanto a tributação indireta limita o ganho redistributivo."
+    }
+   ],
+   "exemplo": "Cenário aplicado: a Codeplan/DF divulga que o Gini do Distrito Federal recuou de 0,60 para 0,55, mas que ele permanece entre os mais altos do país, refletindo o contraste entre o Plano Piloto e as regiões administrativas periféricas. A queda indica menor concentração, ainda que persista forte desigualdade intrarregional. Item Cebraspe: 'Um índice de Gini igual a zero indica desigualdade máxima na distribuição de renda.' Errado. Gini = 0 é igualdade PERFEITA; o valor 1 (ou 100) é que indica desigualdade máxima.",
+   "pontos_chave": [
+    "Distribuição funcional (entre fatores: salários, lucros) x pessoal (entre indivíduos/famílias).",
+    "Curva de Lorenz: % acumulada da renda x % acumulada da população; diagonal = igualdade perfeita.",
+    "Gini = 0 (igualdade perfeita) a 1 (desigualdade máxima); mede a área entre a Lorenz e a diagonal.",
+    "Gini é menos sensível aos extremos; distribuições distintas podem ter o mesmo Gini (Lorenz que se cruzam).",
+    "Theil é decomponível (entre e dentro de grupos); Atkinson embute aversão à desigualdade.",
+    "Razões 10/40, P90/P10 e share do 1% mais rico complementam o Gini.",
+    "Curva de Kuznets (U invertido) é hipótese contestada empiricamente.",
+    "Compara-se o Gini antes e depois de impostos/transferências para medir o impacto redistributivo do Estado."
+   ],
+   "dica_prova": "A pegadinha número um é inverter os extremos do Gini: zero é igualdade perfeita, um (ou 100) é desigualdade máxima. Lembre que a curva de Lorenz quanto mais abaulada (longe da diagonal), maior a desigualdade. Saiba que o Gini é mais sensível ao MEIO da distribuição e que o Theil tem a vantagem de ser DECOMPONÍVEL. Não confunda distribuição funcional (fatores) com pessoal (pessoas). A curva de Kuznets costuma aparecer como afirmação dada por certa — trate-a como hipótese debatida."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "Pobreza e políticas no DF",
+   "intro": "Pobreza é a privação de recursos e capacidades necessários a um padrão de vida digno. A abordagem monetária define o pobre por uma linha de pobreza (renda mínima para suprir necessidades básicas), distinguindo pobreza absoluta (renda abaixo de um patamar fixo de subsistência) de pobreza relativa (renda muito inferior à mediana da sociedade). Já a abordagem multidimensional, inspirada em Amartya Sen, entende a pobreza como privação de capacidades, indo além da renda para incluir educação, saúde, moradia, saneamento e acesso a serviços.\n\nO Índice de Pobreza Multidimensional (IPM/MPI), do PNUD e da Universidade de Oxford (OPHI), operacionaliza essa visão combinando privações em saúde, educação e padrão de vida. A medição da pobreza usa, entre outros, os índices FGT (Foster-Greer-Thorbecke): proporção de pobres (P0), hiato de pobreza (P1) e severidade (P2).\n\nNo Distrito Federal, a forte desigualdade entre o centro e as regiões administrativas periféricas torna o combate à pobreza uma prioridade, executado por programas federais (Bolsa Família, BPC) e por políticas distritais geridas pela SEDES-DF (como o DF Social/Cartão Prato Cheio)."
+   ,
+   "secoes": [
+    {
+     "h": "Pobreza absoluta, relativa e linhas de pobreza",
+     "p": "A pobreza absoluta usa uma linha fixa, ancorada no custo de uma cesta de necessidades básicas (ex.: linhas de US$ 2,15/dia em paridade de poder de compra, do Banco Mundial). A pobreza relativa define o pobre em relação ao padrão da sociedade (ex.: quem recebe menos de 50% ou 60% da renda mediana), sendo mais usada em países desenvolvidos.\n\nNo Brasil, o Cadastro Único e os programas adotam linhas administrativas de pobreza e extrema pobreza, periodicamente atualizadas, para definir a elegibilidade aos benefícios. A escolha da linha afeta diretamente quantas pessoas são contadas como pobres — fonte frequente de controvérsia e de questões de prova."
+    },
+    {
+     "h": "Pobreza multidimensional e o IPM",
+     "p": "A visão das capacidades de Amartya Sen sustenta que o bem-estar deve ser medido pelas liberdades reais (capacidades) que a pessoa tem, não apenas pela renda. O Índice de Pobreza Multidimensional (IPM) global, do PNUD/OPHI, agrega dez indicadores em três dimensões com pesos iguais: saúde (nutrição, mortalidade infantil), educação (anos de escolaridade, frequência escolar) e padrão de vida (combustível de cozinha, saneamento, água, eletricidade, moradia e bens).\n\nUma pessoa é multidimensionalmente pobre se sofre privações que somam pelo menos um terço dos indicadores ponderados. O IPM resulta do produto entre a incidência (H, proporção de pobres) e a intensidade média das privações (A), captando não só quantos são pobres, mas quão privados estão."
+    },
+    {
+     "h": "Medindo a pobreza monetária: índices FGT",
+     "p": "A família FGT (Foster-Greer-Thorbecke) oferece três medidas. O P0 (headcount ratio) é a proporção de pessoas abaixo da linha de pobreza — diz quantos são pobres, mas ignora o quão pobres. O P1 (hiato de pobreza) mede a distância média da renda dos pobres até a linha, indicando o esforço de recursos necessário para erradicar a pobreza. O P2 (severidade) eleva o hiato ao quadrado, dando mais peso aos mais pobres entre os pobres, sendo sensível à desigualdade dentro do grupo pobre.\n\nA distinção é cobrada: uma política pode reduzir P0 (tira alguns da pobreza) sem reduzir muito P2, ou reduzir P1/P2 (melhora os mais miseráveis) sem mudar P0. Programas bem focalizados nos extremamente pobres tendem a melhorar P1 e P2."
+    },
+    {
+     "h": "Políticas de combate à pobreza: focalização x universalização",
+     "p": "As políticas dividem-se entre transferências de renda condicionadas (exigem contrapartidas, como frequência escolar e vacinação — caso do Bolsa Família/Auxílio Brasil) e benefícios assistenciais previstos na LOAS (Lei 8.742/93), como o Benefício de Prestação Continuada (BPC), de um salário mínimo a idosos e pessoas com deficiência de baixa renda. Debate-se a focalização (concentrar recursos nos mais pobres, maior impacto por real gasto) versus a universalização (cobertura ampla, menor estigma e menos erros de exclusão).\n\nO Cadastro Único é a porta de entrada que identifica e qualifica as famílias de baixa renda, integrando programas federais e locais. As condicionalidades buscam romper a transmissão intergeracional da pobreza ao vincular a transferência ao investimento em capital humano (saúde e educação das crianças)."
+    },
+    {
+     "h": "O combate à pobreza no Distrito Federal",
+     "p": "No DF, a desigualdade territorial é marcante: regiões como Lago Sul têm renda muito superior à de regiões como Estrutural e Sol Nascente. A SEDES-DF coordena a política de assistência social no âmbito do SUAS, operando os CRAS e CREAS e executando programas distritais de transferência de renda e segurança alimentar (como o DF Social e o Cartão Prato Cheio), além de articular-se aos programas federais (Bolsa Família e BPC).\n\nA atuação combina transferência monetária, serviços socioassistenciais (proteção social básica e especial) e ações de segurança alimentar e nutricional. A integração ao Cadastro Único e o acompanhamento das condicionalidades são instrumentos centrais para focalizar os benefícios nas famílias em pobreza e extrema pobreza."
+    }
+   ],
+   "exemplo": "Cenário aplicado: um programa distrital de transferência de renda no DF aumenta o valor pago apenas às famílias em extrema pobreza. Resultado provável: P1 e P2 caem (melhora-se a situação dos mais miseráveis e reduz-se o hiato), mas P0 quase não muda, pois muitas famílias permanecem abaixo da linha. Item Cebraspe: 'A pobreza multidimensional, conforme o IPM, é definida exclusivamente pela insuficiência de renda da família.' Errado. O IPM é justamente uma medida NÃO monetária: combina privações em saúde, educação e padrão de vida; quem mede a pobreza só pela renda é a abordagem monetária (linha de pobreza).",
+   "pontos_chave": [
+    "Pobreza absoluta (linha fixa de subsistência) x relativa (em relação à mediana da sociedade).",
+    "Abordagem das capacidades (Amartya Sen): pobreza é privação de liberdades, não só de renda.",
+    "IPM (PNUD/OPHI): saúde, educação e padrão de vida; pobre se as privações somam ≥ 1/3.",
+    "FGT: P0 (incidência), P1 (hiato), P2 (severidade, dá mais peso aos mais pobres).",
+    "Reduzir P0 não é o mesmo que reduzir P1/P2; políticas focalizadas melhoram P1 e P2.",
+    "Transferências condicionadas (Bolsa Família) x benefícios da LOAS (BPC, 1 salário mínimo).",
+    "Debate focalização (mais impacto por real) x universalização (menos estigma e erro de exclusão).",
+    "No DF, SEDES coordena o SUAS (CRAS/CREAS) e programas como DF Social e Cartão Prato Cheio; Cadastro Único é a porta de entrada."
+   ],
+   "dica_prova": "A pegadinha clássica é reduzir o IPM/pobreza multidimensional à renda — ele é multidimensional (saúde, educação, padrão de vida) e ligado a Amartya Sen. Guarde os FGT: P0 conta quantos são pobres, P1 mede o hiato, P2 a severidade (mais peso aos mais miseráveis). Não confunda pobreza absoluta (linha fixa) com relativa (relativa à mediana). Saiba que o BPC vem da LOAS (8.742/93) e é benefício assistencial (não exige contribuição nem contrapartida), enquanto o Bolsa Família é transferência CONDICIONADA. Para o DF, associe SEDES, SUAS, Cadastro Único e os programas distritais."
+  }
+ ]
+}

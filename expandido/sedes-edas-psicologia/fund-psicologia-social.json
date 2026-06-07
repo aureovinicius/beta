@@ -1,0 +1,85 @@
+{
+  "slug": "fund-psicologia-social",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Abordagens teóricas da Psicologia",
+      "intro": "A Psicologia não é um campo unificado por uma única teoria, mas um conjunto de abordagens (escolas ou enfoques teórico-metodológicos) que partem de pressupostos distintos sobre o que é o psiquismo, o que causa o sofrimento e como se promove a mudança. As quatro abordagens mais cobradas em concursos da assistência social são a psicanálise, a terapia cognitivo-comportamental (TCC), a abordagem humanista-existencial (com destaque para a Abordagem Centrada na Pessoa, de Carl Rogers) e a psicologia sócio-histórica (de matriz vigotskiana e marxista, base teórica de boa parte da atuação no SUAS).\n\nPara a prova, o essencial é distinguir os pressupostos de cada abordagem: a concepção de sujeito, o papel do inconsciente, a importância do ambiente/sociedade e o método de intervenção. A banca costuma trocar autores entre escolas (atribuir o inconsciente a Skinner, por exemplo) ou misturar conceitos. Dominar quem é quem e qual o conceito-chave de cada abordagem resolve a maioria das questões.\n\nNo contexto do SUAS, a psicologia sócio-histórica ganha protagonismo porque entende o sujeito como constituído nas relações sociais e na cultura, o que dialoga diretamente com a perspectiva crítica da assistência social e com o compromisso social da profissão.",
+      "secoes": [
+        {
+          "h": "Psicanálise (Freud e sucessores)",
+          "p": "Fundada por Sigmund Freud, a psicanálise tem como conceito central o inconsciente: a maior parte da vida psíquica é determinada por conteúdos, desejos e conflitos dos quais o sujeito não tem consciência. Freud propôs a primeira tópica (consciente, pré-consciente e inconsciente) e a segunda tópica (id, ego e superego). O id é o polo pulsional, regido pelo princípio do prazer; o ego media a realidade; o superego representa as exigências morais internalizadas.\n\nMecanismos de defesa (repressão, projeção, negação, sublimação, formação reativa) protegem o ego da angústia. O método clássico é a associação livre, a análise dos sonhos (\"via régia para o inconsciente\") e a interpretação da transferência. Autores posteriores ampliaram o campo: Melanie Klein (relações objetais), Winnicott (\"mãe suficientemente boa\", objeto transicional) e Lacan (\"o inconsciente é estruturado como uma linguagem\")."
+        },
+        {
+          "h": "Terapia Cognitivo-Comportamental (TCC)",
+          "p": "A TCC integra duas tradições. O behaviorismo (comportamentalismo), de Watson e principalmente B. F. Skinner, foca no comportamento observável e na aprendizagem: condicionamento clássico (Pavlov) e condicionamento operante (reforço positivo/negativo, punição, extinção). O cognitivismo, de Aaron Beck (terapia cognitiva) e Albert Ellis (terapia racional-emotiva), entende que não são os eventos em si, mas a interpretação que fazemos deles que gera emoção e comportamento.\n\nConceitos-chave: pensamentos automáticos, distorções cognitivas (catastrofização, leitura mental, generalização) e crenças centrais/disfuncionais. A intervenção é estruturada, focada no presente, orientada a metas e de duração mais breve, usando técnicas como reestruturação cognitiva, exposição e tarefas de casa. É a abordagem com mais evidências empíricas para transtornos de ansiedade e depressão."
+        },
+        {
+          "h": "Humanista-existencial (Rogers, Maslow)",
+          "p": "A chamada \"terceira força\" da psicologia (em contraposição à psicanálise e ao behaviorismo) parte de uma visão positiva do ser humano, dotado de uma tendência atualizante para crescer e se autorrealizar. Carl Rogers criou a Abordagem Centrada na Pessoa (ACP), na qual o terapeuta oferece três atitudes facilitadoras: empatia, aceitação positiva incondicional e congruência (autenticidade). O foco está na experiência subjetiva do cliente, não em diagnóstico ou interpretação.\n\nAbraham Maslow propôs a hierarquia das necessidades (fisiológicas, segurança, sociais, estima e autorrealização). A vertente existencial (Viktor Frankl, com a logoterapia e a busca de sentido; Rollo May) acrescenta os temas da liberdade, da responsabilidade, da angústia e da finitude. O sujeito é ativo e responsável pela construção de sua existência."
+        },
+        {
+          "h": "Psicologia sócio-histórica (Vigotski)",
+          "p": "De base marxista e desenvolvida a partir de Lev Vigotski (e Luria e Leontiev), a psicologia sócio-histórica (ou histórico-cultural) afirma que o psiquismo se constitui social e historicamente: o ser humano se humaniza ao apropriar-se da cultura por meio da mediação de instrumentos e signos (com destaque para a linguagem). Não há uma \"natureza humana\" dada; o sujeito é produzido nas relações sociais concretas.\n\nConceitos centrais: mediação, internalização, funções psicológicas superiores e a zona de desenvolvimento proximal (ZDP) — distância entre o que a pessoa faz sozinha e o que faz com ajuda do outro. No Brasil, Silvia Lane foi referência na crítica à psicologia individualizante. Essa abordagem fundamenta a leitura do sofrimento como produção social e sustenta o compromisso social da psicologia no SUAS."
+        },
+        {
+          "h": "Quadro comparativo para a prova",
+          "p": "Concepção de sujeito: determinado pelo inconsciente (psicanálise); produto da aprendizagem e da cognição (TCC); ser livre com tendência ao crescimento (humanista); constituído histórica e socialmente (sócio-histórica).\n\nMétodo: associação livre e interpretação (psicanálise); técnicas estruturadas e mensuráveis (TCC); relação empática e não diretiva (humanista); compreensão do sujeito em seu contexto sócio-cultural (sócio-histórica). Autores-âncora: Freud, Klein, Lacan / Skinner, Beck, Ellis / Rogers, Maslow, Frankl / Vigotski, Leontiev, Lane."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"Na abordagem sócio-histórica de Vigotski, a zona de desenvolvimento proximal refere-se ao conjunto de pulsões inconscientes que determinam o comportamento do indivíduo.\" — ERRADO. A ZDP é a distância entre o nível de desenvolvimento real (o que se faz sozinho) e o potencial (o que se faz com a mediação de outra pessoa); não tem relação com pulsões inconscientes, conceito da psicanálise. A banca mistura propositalmente um conceito vigotskiano com um conceito freudiano.",
+      "pontos_chave": [
+        "Psicanálise (Freud): inconsciente, id/ego/superego, associação livre, transferência.",
+        "TCC: behaviorismo (Skinner) + cognitivismo (Beck, Ellis); pensamentos e crenças disfuncionais.",
+        "Humanista (Rogers): tendência atualizante; empatia, aceitação incondicional e congruência.",
+        "Sócio-histórica (Vigotski): psiquismo constituído na cultura; mediação e ZDP.",
+        "Maslow = hierarquia de necessidades; Frankl = logoterapia/sentido (vertente existencial).",
+        "Cada abordagem tem concepção própria de sujeito, de sofrimento e de método.",
+        "A sócio-histórica é a base teórica privilegiada da atuação no SUAS.",
+        "Cuidado com a troca de autores entre escolas — pegadinha clássica."
+      ],
+      "dica_prova": "A pegadinha mais comum é atribuir um conceito a autor/escola errados (ex.: \"reforço positivo\" para a psicanálise, \"inconsciente\" para Skinner, \"empatia incondicional\" para a TCC). Memorize o conceito-âncora de cada abordagem e seu autor. Lembre que reforço/punição = behaviorismo (Skinner); pensamentos automáticos e distorções = cognitivismo (Beck); empatia, congruência e aceitação positiva incondicional = Rogers (humanista); mediação e ZDP = Vigotski (sócio-histórica)."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Psicologia social crítica e desenvolvimento",
+      "intro": "A psicologia social crítica é a vertente que rompe com a psicologia social tradicional (de matriz norte-americana, centrada em experimentos de laboratório e em fenômenos como atitudes e influência) para entender os fenômenos psicossociais a partir das condições históricas, econômicas e políticas concretas. Na América Latina, ela está ligada ao compromisso social da psicologia, ao questionamento da neutralidade científica e à crítica à psicologia que individualiza e culpabiliza os sujeitos por problemas que são, na verdade, sociais.\n\nO segundo eixo deste subtópico é a psicologia do desenvolvimento, que estuda as transformações do ser humano ao longo do ciclo de vida (infância, adolescência, vida adulta e envelhecimento). Para o trabalho na assistência social, conhecer as fases do desenvolvimento e seus principais teóricos é essencial para a avaliação, o acolhimento e a proteção de crianças, adolescentes e idosos.\n\nA banca costura os dois temas porque o psicólogo do SUAS atua a partir de uma leitura crítica da realidade (a pessoa em sua situação de vulnerabilidade não é \"culpada\"), e ao mesmo tempo precisa reconhecer marcos do desenvolvimento para identificar violações de direitos e orientar intervenções protetivas.",
+      "secoes": [
+        {
+          "h": "Da psicologia social tradicional à crítica",
+          "p": "A psicologia social tradicional firmou-se com estudos clássicos sobre conformidade (Asch), obediência à autoridade (Milgram), atitudes e cognição social, geralmente em ambiente experimental e com pretensão de neutralidade. A partir da \"crise da psicologia social\" (anos 1960-70), surgem críticas: esses estudos descontextualizavam o sujeito, ignoravam o poder e a história e reproduziam uma ordem social.\n\nA psicologia social crítica busca, então, explicar os fenômenos sociais considerando as relações de poder, a ideologia, a desigualdade e o contexto histórico. Recupera contribuições como as de Serge Moscovici (teoria das representações sociais — conhecimentos do senso comum compartilhados que orientam a vida cotidiana) e dialoga com a perspectiva sócio-histórica de Vigotski."
+        },
+        {
+          "h": "Compromisso social e psicologia latino-americana",
+          "p": "Na América Latina, o marco é a psicologia da libertação de Ignacio Martín-Baró (jesuíta e psicólogo, assassinado em El Salvador), que defendeu uma psicologia a serviço das maiorias populares oprimidas, partindo de seus problemas reais. No Brasil, Silvia Lane e a ABRAPSO (Associação Brasileira de Psicologia Social) lideraram a virada crítica nos anos 1980, criticando a psicologia adaptacionista e individualizante.\n\nO compromisso social da psicologia significa colocar o saber psicológico a serviço da transformação das condições de vida da população, especialmente dos grupos vulnerabilizados. É o fundamento ético-político da atuação na assistência social: o psicólogo não \"trata\" a pobreza como falha individual, mas atua sobre os processos de subjetivação ligados às violações de direitos."
+        },
+        {
+          "h": "Conceitos da psicologia social aplicados",
+          "p": "Alguns conceitos recorrentes: representações sociais (Moscovici), identidade social, estigma (Goffman), preconceito, estereótipo e discriminação, vulnerabilidade social, território e pertencimento. Para o SUAS, são centrais as noções de vínculos (familiares e comunitários), redes de apoio social e protagonismo dos usuários.\n\nA atuação parte da leitura do território e dos processos coletivos, valorizando a participação e a autonomia, e não a tutela. A escuta e o trabalho com grupos e famílias têm prioridade sobre o atendimento clínico individualizado."
+        },
+        {
+          "h": "Psicologia do desenvolvimento: principais teóricos",
+          "p": "Jean Piaget (epistemologia genética) propôs estágios de desenvolvimento cognitivo: sensório-motor (0-2 anos), pré-operatório (2-7), operatório concreto (7-11/12) e operatório formal (a partir dos 12), com os processos de assimilação, acomodação e equilibração. Vigotski enfatiza a mediação social e a linguagem (ZDP). Henri Wallon destaca a afetividade e a integração entre emoção, movimento e cognição.\n\nErik Erikson descreveu oito estágios psicossociais ao longo de toda a vida, cada um com uma crise (ex.: confiança x desconfiança na primeira infância; identidade x confusão de papéis na adolescência; integridade x desespero na velhice). John Bowlby formulou a teoria do apego, fundamental para entender vínculos primários e suas implicações na proteção de crianças."
+        },
+        {
+          "h": "Desenvolvimento e ciclo de vida na proteção social",
+          "p": "Conhecer os marcos do desenvolvimento permite ao psicólogo identificar atrasos, sofrimentos e indicadores de violação de direitos adequados a cada fase. Na infância e adolescência, o referencial é o ECA (Lei 8.069/90) e a doutrina da proteção integral; o adolescente é sujeito em condição peculiar de desenvolvimento. Na velhice, o Estatuto do Idoso (Lei 10.741/03) orienta a proteção.\n\nA leitura desenvolvimentista, articulada à perspectiva crítica, evita dois erros: patologizar comportamentos próprios de uma fase e, ao mesmo tempo, naturalizar situações de risco. O desenvolvimento é entendido como processo biopsicossocial, atravessado pelas condições materiais e pelos vínculos."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"O compromisso social da psicologia, tal como formulado na tradição crítica latino-americana, orienta o psicólogo a interpretar a situação de pobreza dos usuários como expressão de fragilidades individuais a serem corrigidas por meio de psicoterapia.\" — ERRADO. O compromisso social rompe justamente com a leitura individualizante e culpabilizadora; a pobreza e as vulnerabilidades são compreendidas como produções sociais e históricas, e a atuação se volta à transformação das condições de vida e à garantia de direitos, não à \"correção\" do indivíduo.",
+      "pontos_chave": [
+        "Psicologia social crítica: contextualiza os fenômenos no poder, na ideologia e na história.",
+        "Martín-Baró (psicologia da libertação) e Silvia Lane/ABRAPSO (virada crítica no Brasil).",
+        "Compromisso social = saber psicológico a serviço da transformação social e dos direitos.",
+        "Representações sociais = Moscovici; estigma = Goffman.",
+        "Piaget = estágios cognitivos; Vigotski = mediação/ZDP; Wallon = afetividade.",
+        "Erikson = oito estágios psicossociais; Bowlby = teoria do apego.",
+        "Adolescente: sujeito em condição peculiar de desenvolvimento (ECA, proteção integral).",
+        "Desenvolvimento como processo biopsicossocial, ligado a condições materiais e vínculos."
+      ],
+      "dica_prova": "Duas pegadinhas frequentes: (1) atribuir à psicologia crítica a leitura individualizante/culpabilizadora que ela combate — sempre errado; (2) confundir os estágios de Piaget (cognitivo, até a adolescência) com os de Erikson (psicossociais, toda a vida) ou trocar a ordem/idades de Piaget. Memorize: sensório-motor → pré-operatório → operatório concreto → operatório formal. Lembre também: apego = Bowlby; afetividade = Wallon; ZDP = Vigotski."
+    }
+  ]
+}

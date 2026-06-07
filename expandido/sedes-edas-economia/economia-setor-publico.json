@@ -1,0 +1,87 @@
+{
+ "slug": "economia-setor-publico",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Despesa pública, orçamento e gastos",
+   "intro": "A economia do setor público estuda como o Estado capta recursos e os aplica para cumprir suas funções. Richard Musgrave sistematizou essas funções em três: alocativa (prover bens públicos e corrigir falhas de mercado), distributiva (redistribuir renda em busca de maior equidade) e estabilizadora (usar política fiscal para amenizar flutuações do produto e do emprego). A despesa pública é o instrumento por meio do qual essas funções se materializam em saúde, educação, segurança, assistência social e investimentos.\n\nO orçamento público é o documento que prevê as receitas e fixa as despesas para um período (em regra, um exercício financeiro). No Brasil, ele é regido pela Constituição, pela Lei 4.320/1964 (normas gerais de direito financeiro), pela Lei de Responsabilidade Fiscal (LC 101/2000) e estruturado em três instrumentos integrados: o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).\n\nA classificação e o controle dos gastos são essenciais tanto para a gestão quanto para a prova: distinguir despesa corrente de despesa de capital, entender os estágios da despesa e conhecer os limites legais ao gasto são temas recorrentes."
+   ,
+   "secoes": [
+    {
+     "h": "As três funções fiscais de Musgrave",
+     "p": "A função alocativa trata da provisão de bens e serviços que o mercado não oferece adequadamente (bens públicos, externalidades), determinando o que e quanto o setor público deve produzir. A função distributiva ajusta a distribuição de renda e riqueza por meio de tributos progressivos e transferências (como os programas de assistência social). A função estabilizadora emprega a política fiscal — variando gastos e tributos — para controlar inflação, desemprego e o nível de atividade.\n\nNa prática, as três se entrelaçam: um programa de transferência de renda cumpre a função distributiva, mas também pode ter efeito estabilizador (sustenta a demanda em recessões) e alocativo (corrige sub-investimento das famílias em educação e saúde dos filhos)."
+    },
+    {
+     "h": "Orçamento: PPA, LDO e LOA",
+     "p": "O PPA, com vigência de quatro anos, define diretrizes, objetivos e metas da administração para as despesas de capital e os programas de duração continuada — é o planejamento de médio prazo. A LDO, anual, faz a ponte entre o PPA e a LOA: estabelece as metas e prioridades, orienta a elaboração da lei orçamentária, dispõe sobre alterações na legislação tributária e inclui o Anexo de Metas Fiscais e o Anexo de Riscos Fiscais (exigências da LRF).\n\nA LOA, também anual, estima a receita e fixa a despesa. Compõe-se de três orçamentos: o fiscal, o da seguridade social e o de investimento das estatais. Vige o princípio do orçamento bruto (receitas e despesas pelos valores totais, sem deduções) e o da exclusividade (a LOA só contém matéria orçamentária)."
+    },
+    {
+     "h": "Classificação da despesa: corrente e de capital",
+     "p": "Pela natureza econômica (Lei 4.320/64), a despesa divide-se em corrente e de capital. As despesas correntes mantêm a máquina e os serviços: despesas de custeio (pessoal, material de consumo, serviços) e transferências correntes (subvenções, juros, benefícios assistenciais e previdenciários). As despesas de capital alteram o patrimônio: investimentos (obras, equipamentos), inversões financeiras (compra de imóveis ou participações já existentes) e transferências de capital (auxílios para investimento, amortização da dívida).\n\nUma distinção cobrada é que pagamento de juros da dívida é despesa corrente, mas a amortização (pagamento do principal) é despesa de capital. Já transferência de renda assistencial é despesa corrente (transferência), e não investimento."
+    },
+    {
+     "h": "Estágios da despesa pública",
+     "p": "A execução da despesa segue três estágios legais: empenho, liquidação e pagamento (a Lei 4.320/64 trata expressamente desses). O empenho é o ato que reserva a dotação e cria a obrigação para o Estado — é vedado realizar despesa sem prévio empenho. A liquidação verifica o direito do credor, com base nos títulos e documentos comprobatórios da efetiva entrega do bem ou serviço (apura-se o quê, quanto e a quem pagar). O pagamento, último estágio, é a quitação da obrigação, mediante ordem bancária.\n\nUm estágio anterior e informal é a programação (fixação na LOA). As despesas empenhadas e não pagas até 31/12 inscrevem-se em Restos a Pagar (processados, se já liquidados; não processados, se ainda não)."
+    },
+    {
+     "h": "Limites de gasto e crescimento da despesa pública",
+     "p": "A LRF impõe limites à despesa com pessoal (por exemplo, 60% da receita corrente líquida para Estados e Municípios; 50% para a União), exige compensação para a criação de despesas obrigatórias de caráter continuado e veda a expansão de gastos sem fonte de custeio. Há ainda os limites de endividamento e a regra de ouro (vedação de operações de crédito que superem as despesas de capital).\n\nA teoria explica a tendência de crescimento do gasto público: a Lei de Wagner postula que a demanda por serviços públicos cresce mais que proporcionalmente à renda; o efeito deslocamento (translação) de Peacock e Wiseman afirma que crises elevam o gasto a um novo patamar que não recua totalmente após a crise. Esses conceitos costumam aparecer como itens conceituais."
+    }
+   ],
+   "exemplo": "Cenário aplicado: a SEDES-DF executa um contrato de aquisição de cestas básicas. Após a licitação e o empenho (reserva da dotação), a empresa entrega as cestas; o setor competente atesta o recebimento e apura o valor devido — isso é a liquidação; por fim, o Tesouro emite a ordem bancária — o pagamento. A despesa, por ser material de consumo distribuído, é corrente (custeio). Item Cebraspe: 'O empenho é o estágio em que se verifica o direito do credor com base nos documentos comprobatórios da entrega do bem.' Errado. Isso descreve a liquidação; o empenho apenas reserva a dotação e cria a obrigação.",
+   "pontos_chave": [
+    "Funções fiscais de Musgrave: alocativa, distributiva e estabilizadora.",
+    "PPA (4 anos, planejamento), LDO (anual, metas e prioridades + Anexo de Metas Fiscais), LOA (anual, estima receita e fixa despesa).",
+    "LOA contém três orçamentos: fiscal, seguridade social e investimento das estatais.",
+    "Despesa corrente = custeio + transferências correntes; despesa de capital = investimentos + inversões + transferências de capital.",
+    "Juros da dívida = despesa corrente; amortização do principal = despesa de capital.",
+    "Estágios da despesa: empenho (reserva), liquidação (verifica o direito do credor), pagamento (quitação).",
+    "LRF limita gasto com pessoal (60% RCL Estados/Municípios; 50% União) e veda gasto sem fonte de custeio.",
+    "Lei de Wagner (gasto cresce mais que a renda) e efeito deslocamento de Peacock-Wiseman explicam a expansão do gasto."
+   ],
+   "dica_prova": "A pegadinha mais frequente é trocar as definições dos estágios da despesa — guarde: empenho RESERVA, liquidação VERIFICA o direito do credor, pagamento QUITA. Outra é classificar amortização da dívida como despesa corrente (é de capital) ou juros como despesa de capital (são correntes). Não confunda os prazos: PPA = 4 anos; LDO e LOA = anuais. Lembre que a LDO traz o Anexo de Metas Fiscais (LRF) e que a 'regra de ouro' veda crédito acima das despesas de capital."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "Tributação e federalismo fiscal",
+   "intro": "A teoria da tributação estuda como o Estado deve arrecadar recursos minimizando distorções e perdas de bem-estar, ao mesmo tempo em que persegue objetivos de equidade. Os tributos financiam a despesa pública, mas todo imposto altera preços relativos e decisões dos agentes, gerando uma perda de peso morto (excesso de gravame). O desafio é desenhar um sistema que concilie eficiência, equidade, simplicidade e suficiência arrecadatória.\n\nO sistema tributário brasileiro é definido na Constituição, que reparte competências entre União, Estados, Distrito Federal e Municípios e disciplina os princípios e as limitações ao poder de tributar (legalidade, anterioridade, isonomia, capacidade contributiva, não-confisco).\n\nO federalismo fiscal trata da divisão de receitas, despesas e competências entre os entes da Federação e dos mecanismos de transferências intergovernamentais que corrigem os desequilíbrios verticais (entre níveis de governo) e horizontais (entre entes do mesmo nível). É tema central para o DF, que acumula competências estaduais e municipais."
+   ,
+   "secoes": [
+    {
+     "h": "Princípios da tributação: equidade e eficiência",
+     "p": "Dois princípios de equidade orientam a tributação. O princípio do benefício defende que cada um pague conforme o benefício que recebe dos serviços públicos (aplicável a taxas e pedágios). O princípio da capacidade contributiva (ability to pay) defende que se pague conforme a capacidade econômica — base da tributação da renda e do patrimônio.\n\nA equidade tem duas dimensões: a equidade horizontal (iguais devem ser tratados igualmente) e a equidade vertical (desiguais, desigualmente — quem tem mais paga mais). A eficiência exige minimizar o peso morto: tributos sobre bases de demanda/oferta inelásticas distorcem menos (regra de Ramsey: tributar mais o que é mais inelástico). Há um trade-off entre eficiência e equidade, pois bens inelásticos (essenciais) costumam pesar mais no orçamento dos pobres."
+    },
+    {
+     "h": "Progressividade, regressividade e neutralidade",
+     "p": "Um tributo é progressivo quando a alíquota efetiva cresce com a renda (ex.: imposto de renda), regressivo quando cai com a renda (ex.: tributos sobre consumo, que pesam proporcionalmente mais sobre os pobres) e proporcional/neutro quando a alíquota é constante.\n\nO sistema tributário brasileiro é criticado por ser fortemente baseado em tributos indiretos sobre o consumo, o que lhe confere caráter regressivo e reduz seu poder redistributivo. Reforços de progressividade (tributação da renda e do patrimônio, seletividade que isenta produtos da cesta básica) são instrumentos para melhorar a equidade — ponto que conecta a tributação à economia social e à distribuição de renda."
+    },
+    {
+     "h": "Classificação dos tributos e competências",
+     "p": "Quanto à incidência, os tributos são diretos (incidem sobre renda e patrimônio, suportados por quem a lei indica — IR, IPTU, IPVA) ou indiretos (incidem sobre o consumo e são repassados ao preço — ICMS, IPI, ISS). As espécies tributárias incluem impostos, taxas (contraprestação de serviço específico e divisível ou poder de polícia), contribuições de melhoria, empréstimos compulsórios e contribuições especiais.\n\nA competência é repartida: à União cabem, entre outros, IR, IPI, II, IE, IOF e ITR; aos Estados/DF, ICMS, IPVA e ITCMD; aos Municípios/DF, IPTU, ISS e ITBI. O DF acumula as competências estaduais e municipais. (A reforma tributária do consumo prevê a substituição gradual de ICMS, ISS, PIS/Cofins e IPI por IBS e CBS, com transição ao longo dos próximos anos.)"
+    },
+    {
+     "h": "Federalismo fiscal: desequilíbrios e transferências",
+     "p": "O federalismo fiscal busca alocar cada competência ao nível de governo que melhor a executa. O teorema da descentralização (Oates) sugere que a provisão local de bens públicos é mais eficiente quando as preferências são heterogêneas, pois aproxima a decisão do cidadão. Em contrapartida, a arrecadação tende a concentrar-se no nível central, gerando o desequilíbrio fiscal vertical (a União arrecada mais do que gasta diretamente; entes subnacionais, o oposto).\n\nAs transferências intergovernamentais corrigem esses desequilíbrios. Podem ser constitucionais e obrigatórias (FPE, FPM, repartição do ICMS) ou voluntárias (convênios). Quanto à forma, há transferências incondicionais (livre uso) e condicionais/vinculadas (uso definido, como saúde e educação), estas podendo ser de contrapartida (matching grants), que estimulam o gasto local na função desejada."
+    },
+    {
+     "h": "Guerra fiscal e o caso do Distrito Federal",
+     "p": "A guerra fiscal ocorre quando entes concedem benefícios fiscais (renúncias de ICMS, por exemplo) para atrair investimentos, o que pode degenerar em soma negativa: todos perdem arrecadação sem ganho líquido de eficiência — um dilema do prisioneiro entre Estados. A LRF disciplina a renúncia de receita, exigindo estimativa de impacto e medidas de compensação.\n\nO DF tem natureza singular: é vedado dividi-lo em municípios e ele acumula competências legislativas e tributárias de Estado e de Município (CF, art. 32). Assim, recebe recursos do FPE e do FPM e arrecada simultaneamente ICMS, IPVA, ITCMD (estaduais) e IPTU, ISS, ITBI (municipais), o que lhe dá uma base tributária ampla, mas também responsabilidades acumuladas."
+    }
+   ],
+   "exemplo": "Cenário aplicado: o GDF reduz a alíquota efetiva de ICMS para atrair um centro de distribuição que outro Estado também disputa. Cada ente, isoladamente, tem incentivo a oferecer o maior benefício; se ambos o fazem, anulam a vantagem e perdem receita — guerra fiscal, estruturalmente um dilema do prisioneiro. Item Cebraspe: 'Tributos indiretos sobre o consumo, como o ICMS, são tipicamente progressivos, pois melhoram a distribuição de renda.' Errado. Tributos sobre consumo são regressivos: pesam proporcionalmente mais sobre os mais pobres, piorando a distribuição de renda; a progressividade vem sobretudo da tributação da renda e do patrimônio.",
+   "pontos_chave": [
+    "Princípio do benefício (paga quem usa) x princípio da capacidade contributiva (paga quem pode).",
+    "Equidade horizontal: iguais tratados igualmente; equidade vertical: desiguais, desigualmente.",
+    "Eficiência: minimizar o peso morto (regra de Ramsey — tributar mais o que é mais inelástico); há trade-off com a equidade.",
+    "Progressivo (alíquota sobe com a renda), regressivo (cai) e proporcional (constante); consumo é regressivo.",
+    "Diretos (IR, IPTU, IPVA) x indiretos (ICMS, IPI, ISS); o Brasil depende muito de indiretos.",
+    "Teorema da descentralização de Oates: provisão local é eficiente sob preferências heterogêneas.",
+    "Transferências corrigem desequilíbrios vertical e horizontal: FPE/FPM (obrigatórias) e convênios (voluntárias); condicionais x incondicionais.",
+    "O DF acumula competências estaduais e municipais (CF, art. 32) e não pode ser dividido em municípios."
+   ],
+   "dica_prova": "A pegadinha mais cobrada é classificar tributos sobre consumo (ICMS) como progressivos — são regressivos. Cuidado para não inverter equidade horizontal x vertical e benefício x capacidade contributiva. Na regra de Ramsey, lembre: tributa-se MAIS o que é mais INELÁSTICO (menor distorção, mas pode ferir a equidade). No federalismo, associe Oates à descentralização e saiba diferenciar transferências obrigatórias (FPE/FPM) de voluntárias, e condicionais (vinculadas) de incondicionais. Para o DF, memorize: acumula competências de Estado e de Município e não se divide em municípios."
+  }
+ ]
+}

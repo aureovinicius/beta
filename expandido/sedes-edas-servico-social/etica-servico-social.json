@@ -1,0 +1,75 @@
+{
+  "slug": "etica-servico-social",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Projeto ético-político e Lei 8.662/1993",
+      "intro": "O projeto ético-político do Serviço Social é a expressão coletiva e hegemônica da profissão construída a partir dos anos 1980, vinculando-se à perspectiva crítico-dialética. Ele tem como valor central a liberdade e como horizonte uma nova ordem societária, sem dominação, exploração de classe, etnia e gênero. Não é um documento único, mas um projeto profissional sustentado por três pilares normativos: o Código de Ética de 1993, a Lei 8.662/1993 (que regulamenta a profissão) e as Diretrizes Curriculares da ABEPSS (1996).\n\nA Lei 8.662, de 7 de junho de 1993, é a Lei de Regulamentação da Profissão. Ela define quem pode exercer a profissão, fixa as competências e atribuições privativas do assistente social e estrutura o conjunto CFESS/CRESS (Conselho Federal e Conselhos Regionais), responsáveis pela orientação, fiscalização e disciplina do exercício profissional.\n\nDistinguir competências (compartilhadas) de atribuições privativas (exclusivas do assistente social) é uma das cobranças mais frequentes em prova.",
+      "secoes": [
+        {
+          "h": "O que é o projeto ético-político",
+          "p": "O projeto ético-político (PEP) articula uma imagem de profissão, valores, opções teóricas, práticas e políticas. Seu núcleo é o reconhecimento da liberdade como valor ético central e a defesa intransigente dos direitos humanos, da democracia, da equidade e da justiça social, com posicionamento em favor da classe trabalhadora.\n\nNão se confunde com projeto pessoal: é coletivo, hegemônico (mas em permanente disputa) e materializado em normas. Seus três sustentáculos jurídico-políticos são o Código de Ética/1993, a Lei 8.662/1993 e as Diretrizes Curriculares da ABEPSS/1996."
+        },
+        {
+          "h": "Lei 8.662/1993: estrutura e finalidade",
+          "p": "A lei reconhece o Serviço Social como profissão de nível superior e estabelece que só pode exercê-la quem possui diploma de bacharel em Serviço Social (reconhecido ou revalidado) e registro no respectivo Conselho Regional (CRESS). O exercício sem registro caracteriza exercício ilegal da profissão.\n\nA lei também institucionaliza o sistema CFESS/CRESS como autarquias dotadas de personalidade jurídica de direito público, com função de fiscalizar e disciplinar o exercício profissional."
+        },
+        {
+          "h": "Competências (art. 4º) x atribuições privativas (art. 5º)",
+          "p": "As competências do art. 4º são atividades que o assistente social está habilitado a realizar, mas que podem ser compartilhadas com outros profissionais: elaborar e executar planos e programas, prestar orientação social, realizar estudos socioeconômicos, planejar e administrar serviços sociais etc.\n\nAs atribuições privativas do art. 5º são exclusivas do assistente social: coordenar e assessorar unidades de Serviço Social, dirigir e coordenar cursos e a formação na área, supervisionar diretamente estagiários, realizar perícia técnica e emitir parecer sobre matéria de Serviço Social, ocupar cargos e funções de direção em órgãos da categoria etc. A chave da pegadinha: estudo socioeconômico é competência (compartilhável); perícia/parecer de Serviço Social é atribuição privativa."
+        },
+        {
+          "h": "Sistema CFESS/CRESS",
+          "p": "O CFESS (Conselho Federal de Serviço Social) e os CRESS (Conselhos Regionais) formam um sistema de fiscalização do exercício profissional. Cabe-lhes orientar, disciplinar, fiscalizar e defender o exercício da profissão, aplicar penalidades (advertência, multa, suspensão e cassação do registro) e zelar pelo cumprimento do Código de Ética.\n\nO registro profissional é obrigatório e o pagamento da anuidade é condição para o exercício regular. Os conselhos têm natureza de autarquia federal, com poder de polícia administrativa sobre a categoria."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'Realizar estudo socioeconômico é atribuição privativa do assistente social, vedada a qualquer outro profissional.' — ERRADO. O estudo socioeconômico, segundo o art. 4º da Lei 8.662/1993, é competência do assistente social, e não atribuição privativa (art. 5º). São privativas, por exemplo, a supervisão direta de estagiários e o exercício de perícia/emissão de parecer técnico em matéria de Serviço Social. Outro item: 'É condição para o exercício da profissão de assistente social o registro no CRESS da respectiva área de atuação.' — CERTO.",
+      "pontos_chave": [
+        "Projeto ético-político: valor central = liberdade; defesa dos direitos humanos e da classe trabalhadora.",
+        "Três sustentáculos do PEP: Código de Ética/1993, Lei 8.662/1993 e Diretrizes Curriculares ABEPSS/1996.",
+        "Lei 8.662/1993 = Lei de Regulamentação da Profissão (7 de junho de 1993).",
+        "Exigência para exercer: bacharelado em Serviço Social + registro no CRESS.",
+        "Art. 4º = competências (compartilháveis); art. 5º = atribuições privativas (exclusivas).",
+        "Privativas: supervisão direta de estágio, perícia/parecer de Serviço Social, direção de Serviço Social e de cursos.",
+        "CFESS/CRESS = autarquias federais que fiscalizam e disciplinam, podendo aplicar penalidades."
+      ],
+      "dica_prova": "O ponto mais cobrado é trocar competência por atribuição privativa. Fixe: estudo socioeconômico e orientação social = competência; supervisão DIRETA de estagiário e perícia/parecer = privativas. Cuidado com a confusão entre os três pilares do PEP — Diretrizes Curriculares são da ABEPSS (1996), não do CFESS. E lembre: o PEP não é um documento, é um projeto coletivo materializado em vários instrumentos."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Código de Ética e sigilo (CFESS)",
+      "intro": "O Código de Ética Profissional do Assistente Social vigente foi aprovado pela Resolução CFESS nº 273, de 13 de março de 1993. Ele traduz, no plano da ética profissional, os valores do projeto ético-político: tem a liberdade como valor ético central e organiza-se em princípios fundamentais, direitos e deveres, relações com usuários, instituições e demais profissionais, e o regime de sigilo profissional.\n\nMais do que um conjunto de regras de conduta, o Código expressa uma concepção de ética ancorada na ontologia social de tradição marxista (a ética como capacidade humana de fazer escolhas conscientes e orientadas por valores). Por isso, seus princípios não são neutros: assumem posição em defesa dos direitos humanos, da democracia, da equidade, da justiça social e do pluralismo.\n\nO sigilo profissional é tema sensível e muito cobrado, pois envolve a tensão entre proteger a confiança do usuário e os limites desse dever diante de situações de risco.",
+      "secoes": [
+        {
+          "h": "Estrutura e princípios fundamentais",
+          "p": "O Código de Ética/1993 traz onze princípios fundamentais. Entre eles: reconhecimento da liberdade como valor ético central; defesa intransigente dos direitos humanos e recusa do arbítrio e do autoritarismo; ampliação e consolidação da cidadania; defesa do aprofundamento da democracia; posicionamento em favor da equidade e justiça social; empenho na eliminação de todas as formas de preconceito; garantia do pluralismo; opção por um projeto profissional vinculado ao processo de construção de uma nova ordem societária, sem dominação-exploração de classe, etnia e gênero; e exercício profissional sem ser discriminado nem discriminar.\n\nApós a inclusão pela Resolução CFESS 594/2011, consta também o respeito à diversidade e à orientação e expressão sexual."
+        },
+        {
+          "h": "Direitos e deveres do assistente social",
+          "p": "O Código assegura direitos como a garantia de exercício pleno sem ser discriminado, a inviolabilidade do local de trabalho e dos arquivos, a liberdade na realização de estudos e pesquisas, e a defesa de condições dignas de trabalho.\n\nEntre os deveres: desempenhar atividades com qualidade técnica, informar à população usuária sobre seus direitos e a utilização dos serviços, devolver as informações colhidas (transparência), não ser conivente com falhas éticas e democratizar as informações disponíveis. As relações com usuários devem garantir a participação e o acesso a informações sobre programas e serviços."
+        },
+        {
+          "h": "O sigilo profissional",
+          "p": "O sigilo protege a intimidade do usuário e a relação de confiança. A regra geral é guardar sigilo sobre o que se sabe em razão do exercício profissional. O sigilo, contudo, não é absoluto: o Código admite a quebra apenas em situações cujo silêncio prejudique os interesses do próprio usuário, de terceiros ou da coletividade.\n\nMesmo quando a revelação é necessária, ela deve restringir-se ao estritamente indispensável, ser feita à autoridade ou pessoa competente e jamais ultrapassar os limites do necessário. Em trabalho multiprofissional, as informações verbais ou escritas só podem ser reveladas quando estritamente necessárias ao serviço prestado. O assistente social pode ainda recusar-se a depor como testemunha sobre situação sigilosa de que tenha conhecimento."
+        },
+        {
+          "h": "Penalidades e o papel do CFESS/CRESS",
+          "p": "As infrações ao Código são apuradas pelos Conselhos por meio de processo ético, garantido o contraditório e a ampla defesa. As penalidades vão de multa e advertência (reservada ou pública) à suspensão e à cassação do registro profissional, conforme a gravidade.\n\nO CFESS edita resoluções que complementam e atualizam o Código (por exemplo, regulamentando a guarda de documentos, o trabalho em condições éticas e a inserção de novos princípios), o que reforça que o Código é um instrumento vivo do exercício profissional."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: 'O sigilo profissional do assistente social é absoluto, não comportando qualquer hipótese de quebra.' — ERRADO. O Código de Ética/1993 estabelece o sigilo como regra, mas admite a revelação quando o silêncio prejudicar interesses do usuário, de terceiros ou da coletividade, sempre restrita ao estritamente necessário. Outro item: 'O valor ético central do Código de Ética do assistente social é a liberdade.' — CERTO. Cenário aplicado: em atendimento no CRAS, a assistente social toma conhecimento de risco grave de violência contra criança; nesse caso a revelação às autoridades competentes é compatível com o Código, pois protege terceiro/coletividade, limitando-se ao indispensável.",
+      "pontos_chave": [
+        "Código de Ética vigente: Resolução CFESS nº 273/1993.",
+        "Valor ético central: a liberdade; base na ontologia social de tradição marxista.",
+        "Onze princípios fundamentais (direitos humanos, democracia, equidade, pluralismo, não discriminação, nova ordem societária).",
+        "Resolução CFESS 594/2011 incluiu o respeito à diversidade e à livre orientação e expressão sexual.",
+        "Sigilo é a regra, mas NÃO é absoluto: pode ser quebrado para proteger usuário, terceiros ou coletividade.",
+        "A revelação deve restringir-se ao estritamente necessário e à autoridade competente.",
+        "Penalidades (via processo ético com ampla defesa): advertência, multa, suspensão e cassação do registro."
+      ],
+      "dica_prova": "A pegadinha número 1 é afirmar que o sigilo é absoluto — sempre ERRADO. Memorize as três hipóteses de quebra (usuário, terceiros, coletividade) e o princípio do 'estritamente necessário'. Cuidado também com confundir o Código de Ética (Resolução 273/93) com a Lei 8.662/93: o Código trata de princípios/deveres/sigilo; a Lei trata de regulamentação, competências e atribuições. Fixe 'liberdade' como valor ético central."
+    }
+  ]
+}

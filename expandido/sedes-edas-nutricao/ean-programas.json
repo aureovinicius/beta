@@ -1,0 +1,46 @@
+{
+ "slug": "ean-programas",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Educação alimentar e PNAE",
+   "intro": "A Educação Alimentar e Nutricional (EAN) é um campo de ação contínua e permanente, transdisciplinar e intersetorial, que visa promover a prática autônoma e voluntária de hábitos alimentares saudáveis, no contexto da realização do DHAA e da SAN. Suas referências são o Marco de Referência de EAN para as Políticas Públicas (2012) e o Guia Alimentar para a População Brasileira (2014).\n\nA EAN superou o modelo prescritivo e culpabilizador (apenas 'informar o certo e o errado') em favor de abordagens dialógicas, problematizadoras, que valorizam a cultura, a autonomia e o sistema alimentar de forma sustentável. O principal programa institucional que materializa a EAN é o Programa Nacional de Alimentação Escolar (PNAE), o maior programa de alimentação e nutrição do país.\n\nO subtópico cobra os conceitos e princípios da EAN, suas estratégias e metodologias, e o PNAE: objetivos, diretrizes, financiamento, a compra da agricultura familiar e o papel do nutricionista como responsável técnico."
+  ,
+   "secoes": [
+    {
+     "h": "Conceito e princípios da EAN",
+     "p": "A EAN é uma estratégia para promover a autonomia das pessoas quanto às suas escolhas alimentares. O Marco de Referência (2012) estabelece princípios como: sustentabilidade social, ambiental e econômica; abordagem do sistema alimentar na sua integralidade; valorização da cultura alimentar; respeito à autonomia e à diversidade; educação como processo permanente e gerador de autonomia; e diversidade de cenários de prática (escolas, equipamentos de SAN, serviços de saúde, comunidades).\n\nEla rompe com a lógica meramente prescritiva e adota o diálogo, a problematização e a participação ativa dos sujeitos."
+    },
+    {
+     "h": "Estratégias e metodologias de EAN",
+     "p": "As ações de EAN podem usar metodologias ativas e dialógicas: oficinas culinárias, hortas educativas, rodas de conversa, dinâmicas, leitura crítica de rótulos e de publicidade, e atividades vivenciais com o alimento. O Guia Alimentar para a População Brasileira (2014) é referência central, com a regra de ouro 'preferir sempre alimentos in natura ou minimamente processados e preparações culinárias a alimentos ultraprocessados' e a classificação NOVA (in natura/minimamente processados, ingredientes culinários, processados e ultraprocessados).\n\nO foco é fortalecer hábitos saudáveis de forma sustentável e culturalmente adequada, não apenas transmitir informação."
+    },
+    {
+     "h": "PNAE: objetivos e diretrizes",
+     "p": "O PNAE oferta alimentação escolar e ações de EAN a todos os alunos da educação básica pública (educação infantil, ensino fundamental, médio e EJA), contribuindo para o crescimento, o desenvolvimento, a aprendizagem e a formação de hábitos saudáveis. É regido pela Lei 11.947/2009 e por resoluções do FNDE (atualmente a Resolução FNDE nº 6/2020).\n\nSuas diretrizes incluem: alimentação saudável e adequada; inclusão da EAN no processo de ensino-aprendizagem; universalidade do atendimento aos alunos da rede pública; participação da comunidade no controle social; apoio ao desenvolvimento sustentável (preferência a gêneros locais); e direito à alimentação escolar como segurança alimentar."
+    },
+    {
+     "h": "Financiamento, agricultura familiar e cardápios",
+     "p": "O PNAE é executado de forma descentralizada: o FNDE repassa recursos federais suplementares aos entes (estados, DF e municípios), em valores per capita por etapa de ensino, e os entes complementam. A lei exige que no mínimo 30% dos recursos repassados pelo FNDE sejam usados na aquisição de gêneros da agricultura familiar, preferencialmente local, fortalecendo a SAN e a economia local (dispensa de licitação por chamada pública).\n\nOs cardápios devem ser elaborados pelo nutricionista responsável técnico, respeitando a cultura, a sustentabilidade, a sazonalidade e as necessidades nutricionais, com restrição a alimentos ultraprocessados e a doces/bebidas açucaradas. É vedada a aquisição de bebidas com baixo valor nutricional."
+    },
+    {
+     "h": "Controle social e papel do nutricionista",
+     "p": "O controle social do PNAE é exercido pelo Conselho de Alimentação Escolar (CAE), órgão deliberativo, fiscalizador e de assessoramento, com participação da sociedade civil, pais, professores e poder público, que acompanha a execução e a prestação de contas.\n\nO nutricionista é o responsável técnico pelo PNAE: planeja cardápios, coordena a EAN, realiza o diagnóstico e o acompanhamento do estado nutricional dos escolares, supervisiona as boas práticas e a aquisição da agricultura familiar. A presença do nutricionista é obrigatória, com parâmetros numéricos definidos pelo CFN."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'O PNAE exige que pelo menos 30% dos recursos repassados pelo FNDE sejam destinados à aquisição de gêneros alimentícios da agricultura familiar.' Certo: é a regra dos 30% da Lei 11.947/2009, que fortalece a agricultura familiar e a SAN. Cenário: um nutricionista do PNAE planeja cardápios com frutas regionais compradas da agricultura familiar via chamada pública e desenvolve oficinas de horta como ação de EAN, articulando educação e alimentação saudável.",
+   "pontos_chave": [
+    "EAN é contínua, transdisciplinar e dialógica; referência: Marco de EAN (2012) e Guia Alimentar (2014).",
+    "EAN supera o modelo prescritivo/culpabilizador, valorizando autonomia e cultura.",
+    "Classificação NOVA e regra de ouro do Guia Alimentar (preferir in natura/minimamente processados).",
+    "PNAE: Lei 11.947/2009; atende toda a educação básica pública; gestão descentralizada com repasse do FNDE.",
+    "Mínimo de 30% dos recursos do FNDE para a agricultura familiar (chamada pública).",
+    "CAE = Conselho de Alimentação Escolar (controle social, deliberativo e fiscalizador).",
+    "Nutricionista é o responsável técnico (RT) do PNAE; presença obrigatória.",
+    "Cardápios restringem ultraprocessados e bebidas açucaradas."
+   ],
+   "dica_prova": "Os 30% da agricultura familiar (Lei 11.947/2009) são quase certeza de aparecer. Não confunda o CAE (controle social do PNAE) com o CONSEA (SAN). Lembre que a EAN moderna é dialógica e não prescritiva, e que o PNAE atende toda a educação básica pública (não só o ensino fundamental). A regra de ouro e a classificação NOVA vêm do Guia Alimentar de 2014."
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "fund-politica-social",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Seguridade social no Brasil",
+      "intro": "A seguridade social, instituída pela Constituição Federal de 1988 (arts. 194 a 204), é o conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência social e à assistência social. É o chamado 'tripé' da seguridade. Esse modelo representa uma das maiores conquistas sociais da redemocratização, ao consolidar a noção de proteção social como direito de cidadania e não como favor ou caridade.\n\nCada um dos três pilares tem lógica própria: a saúde é universal e gratuita (direito de todos, dever do Estado); a previdência é contributiva (exige filiação e contribuição); e a assistência social é não contributiva (prestada a quem dela necessitar, independentemente de contribuição). Para o Educador Social, compreender esse desenho é essencial, pois sua atuação se dá no campo da assistência social, distinguindo-a dos demais ramos.",
+      "secoes": [
+        {
+          "h": "Conceito e fundamento constitucional",
+          "p": "A seguridade social é definida no art. 194 da CF/88 como um conjunto integrado de ações de iniciativa dos poderes públicos e da sociedade. Ela materializa o princípio da proteção social, garantindo segurança contra os riscos sociais (doença, velhice, desemprego, invalidez, pobreza, maternidade).\n\nO parágrafo único do art. 194 estabelece os objetivos (princípios) da seguridade: universalidade da cobertura e do atendimento; uniformidade e equivalência dos benefícios urbanos e rurais; seletividade e distributividade na prestação; irredutibilidade do valor dos benefícios; equidade na forma de participação no custeio; diversidade da base de financiamento; e caráter democrático e descentralizado da administração."
+        },
+        {
+          "h": "Organização: o tripé saúde, previdência e assistência",
+          "p": "A SAÚDE (arts. 196-200) é direito de todos e dever do Estado, organizada no SUS, de acesso universal e igualitário, independentemente de contribuição. A PREVIDÊNCIA SOCIAL (arts. 201-202) tem caráter CONTRIBUTIVO e de filiação obrigatória; protege contra riscos como idade avançada, doença, invalidez, morte e desemprego involuntário, mediante benefícios como aposentadorias, pensões e auxílios.\n\nA ASSISTÊNCIA SOCIAL (arts. 203-204) é prestada a quem dela necessitar, INDEPENDENTEMENTE de contribuição, regulada pela LOAS (Lei 8.742/93). Seus objetivos incluem a proteção à família, maternidade, infância, adolescência e velhice; o amparo a crianças e adolescentes carentes; a habilitação e reabilitação de pessoas com deficiência; e a garantia do BPC (Benefício de Prestação Continuada) a idosos e pessoas com deficiência sem meios de subsistência."
+        },
+        {
+          "h": "Financiamento",
+          "p": "Pelo art. 195 da CF, a seguridade é financiada por TODA a sociedade, de forma direta e indireta, com recursos dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, e das contribuições sociais. As contribuições incidem sobre: a folha de salários e demais rendimentos do trabalho (empregador); a remuneração do trabalhador (segurado); a receita ou o faturamento (COFINS); o lucro (CSLL); a receita de concursos de prognósticos; e o importador de bens ou serviços.\n\nVigora o princípio da DIVERSIDADE DA BASE DE FINANCIAMENTO (não depende de uma única fonte) e o da EQUIDADE NA PARTICIPAÇÃO NO CUSTEIO (paga mais quem pode mais). A assistência social e a saúde não exigem contribuição direta do beneficiário; já a previdência depende da contribuição do segurado."
+        },
+        {
+          "h": "Princípio da contrapartida e regra da contrapartida orçamentária",
+          "p": "A CF veda a criação, majoração ou extensão de benefício ou serviço da seguridade social sem a correspondente fonte de custeio total (art. 195, § 5º) — é a chamada 'regra da contrapartida' ou 'preexistência do custeio'. Essa regra garante o equilíbrio financeiro e atuarial do sistema.\n\nVale distinguir: enquanto a previdência se rege pelo equilíbrio financeiro e atuarial (art. 201), a assistência social orienta-se pela necessidade do usuário, sendo seu financiamento estatal e não contributivo."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): 'A assistência social, por integrar a seguridade social, exige do beneficiário contribuição prévia para a concessão de seus benefícios.' — ERRADO. A assistência social é justamente o ramo NÃO contributivo da seguridade (art. 203, CF e LOAS): é prestada a quem dela necessitar, independentemente de contribuição. Quem exige contribuição é a previdência social.",
+      "pontos_chave": [
+        "Seguridade social = tripé: saúde + previdência + assistência (arts. 194-204, CF/88).",
+        "Saúde: universal, não contributiva (SUS).",
+        "Previdência: contributiva e de filiação obrigatória.",
+        "Assistência social: não contributiva, a quem dela necessitar (LOAS 8.742/93).",
+        "Financiada por toda a sociedade (art. 195): orçamentos públicos + contribuições sociais.",
+        "Diversidade da base de financiamento e equidade no custeio.",
+        "Regra da contrapartida: não há benefício novo sem fonte de custeio total (art. 195, § 5º)."
+      ],
+      "dica_prova": "A pegadinha clássica é trocar a natureza dos ramos: dizer que a assistência ou a saúde são contributivas, ou que a previdência é universal sem contribuição. Decore: SAÚDE = universal; PREVIDÊNCIA = contributiva; ASSISTÊNCIA = a quem necessitar, sem contribuir. Outra pegadinha: afirmar que a seguridade é financiada só pela União — na verdade é por TODA a sociedade e por todos os entes federados."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Família contemporânea e políticas públicas",
+      "intro": "A família contemporânea não corresponde mais ao modelo único nuclear (pai, mãe e filhos biológicos) que predominou no imaginário tradicional. As transformações sociais, econômicas e culturais produziram uma pluralidade de arranjos familiares, todos legítimos e merecedores de proteção do Estado. A própria CF/88 (art. 226) reconhece a família como base da sociedade e amplia seu conceito, e a jurisprudência e as políticas públicas acompanham essa diversidade.\n\nPara as políticas públicas — e especialmente para a assistência social, que tem na matricialidade sociofamiliar um de seus eixos —, compreender as configurações familiares é decisivo. O trabalho do Educador Social parte da família real, em seu território e em sua dinâmica concreta, e não de um modelo idealizado. Conhecer também o CICLO DE POLÍTICAS PÚBLICAS permite entender como demandas sociais se transformam em ações estatais."
+      ,
+      "secoes": [
+        {
+          "h": "Configurações familiares contemporâneas",
+          "p": "A família atual assume múltiplas formas: nuclear (casal e filhos); monoparental (um único responsável, frequentemente mulheres chefiando o lar); extensa ou ampliada (avós, tios, primos no mesmo núcleo ou na rede de cuidado); recomposta ou reconstituída (provenientes de novas uniões, com filhos de relacionamentos anteriores); homoafetiva (casais do mesmo sexo, reconhecida pelo STF e pelo CNJ); unipessoal (uma só pessoa); e famílias substitutas (guarda, tutela, adoção, conforme o ECA).\n\nA assistência social trabalha com o conceito ampliado: o ECA (Lei 8.069/90) distingue família natural, extensa/ampliada e substituta. O importante é a função protetiva e os vínculos afetivos e de cuidado, não a forma jurídica ou a consanguinidade."
+        },
+        {
+          "h": "Matricialidade sociofamiliar no SUAS",
+          "p": "A PNAS/2004 e a NOB/SUAS adotam a MATRICIALIDADE SOCIOFAMILIAR como diretriz: a família é a unidade de referência e o foco da atenção da assistência social. Isso significa que os serviços (como o PAIF e o PAEFI) não atendem apenas o indivíduo isolado, mas o grupo familiar, fortalecendo sua função protetiva e seus vínculos.\n\nA família é vista como sujeito de direitos e como espaço de proteção, mas também é reconhecida como podendo viver vulnerabilidades e até reproduzir violências — por isso o trabalho é de apoio, fortalecimento e, quando necessário, proteção de seus membros, sem culpabilizá-la pela pobreza."
+        },
+        {
+          "h": "Ciclo de políticas públicas",
+          "p": "O ciclo de políticas públicas (policy cycle) é um modelo analítico que descreve as fases pelas quais passa uma política: (1) IDENTIFICAÇÃO DO PROBLEMA e formação da AGENDA (agenda-setting) — quando uma questão social ganha visibilidade e entra na pauta governamental; (2) FORMULAÇÃO DE ALTERNATIVAS — elaboração de propostas e escolhas; (3) TOMADA DE DECISÃO — seleção da alternativa; (4) IMPLEMENTAÇÃO — execução concreta da política; e (5) AVALIAÇÃO/MONITORAMENTO — análise dos resultados, que pode realimentar o ciclo (manutenção, reformulação ou extinção).\n\nNa assistência social, esse ciclo se concretiza, por exemplo, na construção dos planos de assistência social, na deliberação das conferências e conselhos, na execução pelos CRAS/CREAS e na avaliação via Censo SUAS e vigilância socioassistencial."
+        },
+        {
+          "h": "Família como destinatária de políticas públicas",
+          "p": "A proteção à família é objetivo expresso da assistência social (art. 203, I, CF) e princípio do SUAS. Diversas políticas têm a família como foco: programas de transferência de renda (como o Bolsa Família/Auxílio Brasil), o PAIF, o SCFV, o BPC (que, embora individual, impacta a renda familiar) e ações intersetoriais com saúde, educação e habitação.\n\nO desafio é articular essas políticas em REDE e no TERRITÓRIO, evitando fragmentação. A família deve ser apoiada em sua autonomia e protagonismo, sem ser responsabilizada individualmente por problemas de origem estrutural (desigualdade, desemprego, ausência de serviços)."
+        }
+      ],
+      "exemplo": "Item comentado (estilo Cebraspe): 'Para fins de atuação da assistência social, considera-se família apenas o núcleo formado por pai, mãe e filhos unidos por laços de consanguinidade.' — ERRADO. A assistência social adota um conceito AMPLIADO de família, reconhecendo a diversidade de arranjos (monoparental, extensa, recomposta, homoafetiva, substituta). O que define a família para o SUAS é a função de proteção e os vínculos de afeto e cuidado, não a consanguinidade nem uma forma única.",
+      "pontos_chave": [
+        "Não existe modelo único de família: arranjos plurais e todos legítimos.",
+        "Conceito ampliado: vínculos e função protetiva importam mais que consanguinidade.",
+        "ECA distingue família natural, extensa/ampliada e substituta.",
+        "Matricialidade sociofamiliar: a família é unidade de referência do SUAS (PNAS/2004).",
+        "Ciclo de políticas: agenda, formulação, decisão, implementação e avaliação.",
+        "PAIF, SCFV, transferência de renda e BPC têm foco/impacto familiar.",
+        "Apoiar a família sem culpabilizá-la pela pobreza (que é estrutural)."
+      ],
+      "dica_prova": "Cuidado com itens que defendem um conceito 'fechado' de família ou que culpabilizam a família pela situação de vulnerabilidade — ambos costumam estar ERRADOS. No ciclo de políticas, a pegadinha é inverter a ordem das fases ou confundir 'formação da agenda' (problema entra na pauta) com 'implementação' (execução). Lembre: a matricialidade sociofamiliar é diretriz da PNAS/2004 e coloca a família — não o indivíduo isolado — no centro do trabalho."
+    }
+  ]
+}

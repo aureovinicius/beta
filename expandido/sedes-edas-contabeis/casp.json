@@ -1,0 +1,87 @@
+{
+ "slug": "casp",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "MCASP e PCASP",
+   "intro": "A Contabilidade Aplicada ao Setor Público (CASP) é o ramo da Contabilidade voltado ao registro, controle e evidenciação do patrimônio e dos atos da gestão pública, em convergência com as normas internacionais (IPSAS) e com os padrões da NBC TSP. Seus dois instrumentos operacionais centrais são o MCASP (Manual de Contabilidade Aplicada ao Setor Público) e o PCASP (Plano de Contas Aplicado ao Setor Público), ambos editados pela Secretaria do Tesouro Nacional (STN) com participação do Conselho Federal de Contabilidade.\n\nO MCASP padroniza os procedimentos contábeis em todos os entes da Federação (União, estados, DF e municípios), assegurando consolidação das contas nacionais e comparabilidade. Ele é dividido em partes: Procedimentos Contábeis Orçamentários (PCO), Procedimentos Contábeis Patrimoniais (PCP), o próprio PCASP, as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) e procedimentos específicos.\n\nO PCASP é a relação padronizada de contas que organiza o registro. Sua grande inovação foi separar os registros por natureza da informação, refletindo a coexistência de duas óticas no setor público: a orçamentária (controle da execução da lei orçamentária, base da Lei 4.320/64) e a patrimonial (regime de competência, foco no patrimônio)."
+   ,
+   "secoes": [
+    {
+     "h": "O que é o MCASP e sua função",
+     "p": "O MCASP é o manual editado pela STN que uniformiza conceitos, regras e procedimentos da contabilidade pública em âmbito nacional, obrigatório para todos os entes (CF, art. 163; LRF; e portarias da STN). Sua finalidade é viabilizar a consolidação das contas públicas e a convergência às normas internacionais.\n\nEstá estruturado em partes temáticas: Procedimentos Contábeis Orçamentários, Procedimentos Contábeis Patrimoniais, Plano de Contas (PCASP), Demonstrações Contábeis (DCASP) e perguntas/procedimentos específicos. A cada exercício a STN pode publicar nova edição, incorporando alterações normativas; o concurso costuma exigir os conceitos estruturais, não detalhes voláteis de versão."
+    },
+    {
+     "h": "Estrutura do PCASP por classes",
+     "p": "O PCASP organiza as contas em oito classes, identificadas pelo primeiro dígito do código: 1 Ativo, 2 Passivo, 3 Variações Patrimoniais Diminutivas (VPD), 4 Variações Patrimoniais Aumentativas (VPA), 5 Controles da aprovação do planejamento e orçamento, 6 Controles da execução do planejamento e orçamento, 7 e 8 Controles devedores e credores (atos potenciais e outros controles).\n\nAs classes 1 a 4 compõem a informação patrimonial (natureza patrimonial); as classes 5 e 6 a informação orçamentária; e as classes 7 e 8 os atos de controle. Há ainda contas de natureza típica de controle. Essa divisão materializa a coexistência das óticas orçamentária, patrimonial e de controle em um único plano integrado."
+    },
+    {
+     "h": "Naturezas da informação e o atributo da conta",
+     "p": "Cada conta do PCASP carrega um atributo de natureza da informação: P (patrimonial), O (orçamentária) ou C (controle). Isso permite que o mesmo sistema gere relatórios sob óticas distintas a partir de um único registro integrado.\n\nA ótica orçamentária acompanha a execução da despesa (empenho, liquidação, pagamento) e da receita (previsão, lançamento, arrecadação, recolhimento), em linha com a Lei 4.320/64. A ótica patrimonial registra as variações que afetam o patrimônio pelo regime de competência, independentemente da execução orçamentária. Por isso, um mesmo fato (ex.: aquisição de bem) gera lançamentos simultâneos nas classes orçamentárias e patrimoniais."
+    },
+    {
+     "h": "Mecanismo débito/crédito (MDC) e contas correntes",
+     "p": "O PCASP adota o método das partidas dobradas: todo lançamento tem débito e crédito de igual valor. Para as VPA e VPD, a lógica espelha a de receitas e despesas patrimoniais que alteram o patrimônio líquido.\n\nO plano admite o uso de contas correntes (detalhamento adicional do código contábil) para qualificar a informação por credor, fonte de recurso, função etc., conforme a necessidade de controle de cada ente, sempre respeitando a estrutura mínima nacional definida pela STN."
+    },
+    {
+     "h": "Integração com a Lei 4.320/64 e a LRF",
+     "p": "A CASP não revoga a Lei 4.320/64; integra-a. O controle orçamentário (classes 5 e 6) operacionaliza os estágios da receita e da despesa previstos naquela lei, enquanto a ótica patrimonial atende às exigências de convergência internacional e de evidenciação do patrimônio.\n\nA LRF (LC 101/2000) reforça a transparência e a responsabilidade fiscal, exigindo relatórios e demonstrativos que se apoiam nessa estrutura. O MCASP e o PCASP são, portanto, os instrumentos que conciliam o controle legal-orçamentário tradicional com a contabilidade patrimonial moderna."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'No PCASP, as contas das classes 1 a 4 registram a execução orçamentária da receita e da despesa.' Errado. As classes 1 a 4 (Ativo, Passivo, VPD e VPA) são de natureza patrimonial; o controle da execução orçamentária está nas classes 5 e 6. Trocar as óticas é a pegadinha clássica. Exemplo aplicado: ao adquirir equipamentos para uma unidade de assistência social, o ente registra simultaneamente a despesa orçamentária (empenho/liquidação nas classes 6) e a incorporação do bem ao ativo imobilizado com a respectiva VPD (classe 3), evidenciando as duas óticas integradas.",
+   "pontos_chave": [
+    "MCASP: manual da STN que padroniza a contabilidade pública nacional para consolidação e convergência.",
+    "PCASP: plano de contas único integrando óticas orçamentária, patrimonial e de controle.",
+    "Classes: 1 Ativo, 2 Passivo, 3 VPD, 4 VPA, 5 e 6 controle orçamentário, 7 e 8 controles devedor/credor.",
+    "Classes 1 a 4 = patrimonial (competência); 5 e 6 = orçamentária; 7 e 8 = controle.",
+    "Atributo de natureza da conta: P (patrimonial), O (orçamentária), C (controle).",
+    "VPD e VPA substituem a lógica de despesa/receita sob a ótica patrimonial.",
+    "CASP integra (não revoga) a Lei 4.320/64; o controle orçamentário fica nas classes 5 e 6.",
+    "Partidas dobradas e contas correntes detalham os registros mantendo o padrão nacional."
+   ],
+   "dica_prova": "Memorize a ordem das classes do PCASP (1 a 8) e qual ótica cada bloco representa. A banca troca patrimonial por orçamentária, confunde VPD/VPA com despesa/receita orçamentária e afirma que a CASP revogou a Lei 4.320/64 (errado: ela integra). Saiba que VPD reduz e VPA aumenta o patrimônio líquido, e que um único fato gera lançamentos nas duas óticas."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "DCASP, NBC TSP e PCO/PCP",
+   "intro": "Este subtópico fecha o tripé da Contabilidade Aplicada ao Setor Público: as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP), o conjunto de normas que as fundamentam (NBC TSP, editadas pelo CFC em convergência às IPSAS) e os procedimentos que alimentam os registros — os Procedimentos Contábeis Orçamentários (PCO) e os Procedimentos Contábeis Patrimoniais (PCP).\n\nAs DCASP são o produto final: os relatórios que evidenciam a situação orçamentária, financeira e patrimonial do ente, prestando contas à sociedade e aos órgãos de controle. Elas reúnem demonstrações de raiz orçamentária (herdadas da Lei 4.320/64) e demonstrações de raiz patrimonial (alinhadas ao padrão internacional).\n\nAs NBC TSP dão o arcabouço normativo (do reconhecimento à mensuração e divulgação), enquanto os PCO e PCP descrevem, no MCASP, como registrar respectivamente a execução do orçamento e as variações patrimoniais. Dominar a ligação entre normas (NBC TSP), procedimentos (PCO/PCP) e produtos (DCASP) é o que a banca cobra."
+   ,
+   "secoes": [
+    {
+     "h": "As Demonstrações Contábeis (DCASP)",
+     "p": "As DCASP compreendem: Balanço Orçamentário (BO), Balanço Financeiro (BF), Balanço Patrimonial (BP), Demonstração das Variações Patrimoniais (DVP), Demonstração dos Fluxos de Caixa (DFC) e, quando aplicável, a Demonstração das Mutações do Patrimônio Líquido (DMPL), além das notas explicativas.\n\nO Balanço Orçamentário confronta previsão x execução da receita e fixação x execução da despesa. O Balanço Financeiro evidencia receitas e despesas orçamentárias e os recebimentos e pagamentos extraorçamentários, mais os saldos em espécie. O Balanço Patrimonial mostra ativos, passivos e patrimônio líquido (quadro principal e quadros das contas de compensação/atos potenciais). A DVP é a demonstração 'de resultado' do setor público: confronta VPA e VPD, apurando o resultado patrimonial do período."
+    },
+    {
+     "h": "Balanço Orçamentário e Balanço Financeiro",
+     "p": "O Balanço Orçamentário tem raiz na Lei 4.320/64 e demonstra as receitas previstas e realizadas e as despesas fixadas, empenhadas, liquidadas e pagas, evidenciando o superávit ou déficit orçamentário, além dos restos a pagar e da execução de créditos adicionais.\n\nO Balanço Financeiro relaciona ingressos e dispêndios, orçamentários e extraorçamentários, e os saldos em espécie do exercício anterior (que viram saldo inicial) e do exercício seguinte. Não confundir: o BO trata da execução do orçamento; o BF trata do fluxo de caixa em sentido amplo (incluindo o extraorçamentário, como depósitos e cauções)."
+    },
+    {
+     "h": "Balanço Patrimonial e DVP",
+     "p": "O Balanço Patrimonial público é estruturado em ativo e passivo (circulante e não circulante), patrimônio líquido e em quadros complementares: o das contas de compensação (atos potenciais ativos e passivos) e o do superávit/déficit financeiro por fonte de recursos, base para abertura de créditos adicionais.\n\nA DVP evidencia as variações que aumentaram (VPA) e diminuíram (VPD) o patrimônio no período, apurando o resultado patrimonial — equivalente conceitual à DRE empresarial, porém sob a ótica patrimonial pública. Atenção: o resultado patrimonial (DVP) não se confunde com o resultado orçamentário (BO) nem com o financeiro (BF)."
+    },
+    {
+     "h": "NBC TSP e a convergência às IPSAS",
+     "p": "As NBC TSP (Normas Brasileiras de Contabilidade Aplicadas ao Setor Público) são editadas pelo CFC em convergência com as IPSAS do IPSASB. Iniciam pela NBC TSP Estrutura Conceitual e seguem por normas temáticas (imobilizado, provisões, receita, ativos contingentes, demonstrações etc.).\n\nElas trouxeram para o setor público o regime de competência patrimonial, o reconhecimento de depreciação/amortização, a constituição de provisões, o ajuste de perdas de créditos e a mensuração a valor justo quando cabível. O MCASP operacionaliza essas normas em procedimentos práticos. Em resumo: NBC TSP define o 'o quê' e o 'porquê'; o MCASP detalha o 'como'."
+    },
+    {
+     "h": "PCO e PCP: os procedimentos",
+     "p": "Os Procedimentos Contábeis Orçamentários (PCO) tratam do registro da execução orçamentária: estágios da receita (previsão, lançamento, arrecadação, recolhimento) e da despesa (empenho, liquidação, pagamento), além de restos a pagar, créditos adicionais e deduções da receita.\n\nOs Procedimentos Contábeis Patrimoniais (PCP) tratam do reconhecimento e mensuração sob o regime de competência: variações patrimoniais (VPA e VPD), depreciação, amortização e exaustão, provisões, créditos a receber e perdas, e demais fatos que alteram o patrimônio independentemente da execução do orçamento. O par PCO/PCP traduz, no dia a dia, a dupla ótica do PCASP."
+    }
+   ],
+   "exemplo": "Item Cebraspe: 'A Demonstração das Variações Patrimoniais (DVP) evidencia o resultado orçamentário do exercício, confrontando receitas previstas e realizadas.' Errado. Quem confronta previsão x realização da receita é o Balanço Orçamentário; a DVP confronta VPA e VPD e apura o resultado patrimonial. Exemplo aplicado: ao final do exercício, um órgão da assistência social reconhece a depreciação dos veículos (PCP, gerando VPD) e essa VPD compõe a DVP, reduzindo o resultado patrimonial — sem qualquer efeito na execução orçamentária registrada pelo PCO.",
+   "pontos_chave": [
+    "DCASP: BO, BF, BP, DVP, DFC e (quando aplicável) DMPL, mais notas explicativas.",
+    "Balanço Orçamentário: previsão x execução de receita e despesa (raiz na Lei 4.320/64).",
+    "Balanço Financeiro: ingressos e dispêndios orçamentários e extraorçamentários + saldos em espécie.",
+    "DVP confronta VPA x VPD e apura o resultado patrimonial (análoga à DRE).",
+    "Três resultados distintos: orçamentário (BO), financeiro (BF) e patrimonial (DVP).",
+    "NBC TSP = normas do CFC convergentes às IPSAS; definem reconhecimento, mensuração e divulgação.",
+    "PCO: estágios da receita e da despesa, restos a pagar, créditos adicionais.",
+    "PCP: variações patrimoniais, depreciação/amortização/exaustão, provisões e perdas (competência)."
+   ],
+   "dica_prova": "Não confunda os três resultados: orçamentário (BO), financeiro (BF) e patrimonial (DVP). A banca embaralha o que cada demonstração evidencia e atribui à DVP o papel do BO. Saiba que PCO cuida do orçamento e PCP do patrimônio (competência), e que as NBC TSP convergem às IPSAS. Lembre que o BF inclui o extraorçamentário e que o BP traz quadros de compensação e de superávit financeiro por fonte."
+  }
+ ]
+}

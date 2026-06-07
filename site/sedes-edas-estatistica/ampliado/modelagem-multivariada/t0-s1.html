@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ANOVA e análise multivariada — SEDES-DF</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEDES-DF</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEDES-DF</a> ›
+    <a href="../../disciplinas/modelagem-multivariada.html">📐 Modelagem Estatística e Análise Multivariada</a> ›
+    <span>ANOVA e análise multivariada</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Modelagem</p>
+    <h1>ANOVA e análise multivariada</h1>
+    
+    <p>A análise de variância (ANOVA) generaliza o teste t para comparar as médias de três ou mais grupos, evitando a inflação do erro tipo I que ocorreria ao se fazer múltiplos testes t dois a dois. Apesar do nome, ela compara MÉDIAS usando a decomposição da variância: se a variabilidade ENTRE grupos for grande em relação à variabilidade DENTRO dos grupos, conclui-se que as médias diferem.</p><p>A análise multivariada, por sua vez, reúne técnicas que tratam simultaneamente muitas variáveis: redução de dimensionalidade (PCA, análise fatorial), agrupamento de observações (cluster) e modelagem de relações complexas entre construtos latentes (equações estruturais). São amplamente usadas para construir indicadores sintéticos, segmentar territórios/famílias e testar modelos teóricos.</p><p>Esta seção apresenta a lógica e os pressupostos da ANOVA e os fundamentos das principais técnicas multivariadas cobradas em prova.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>ANOVA de um fator</h2><p>Hipóteses: H0 afirma que todas as médias dos grupos são iguais; H1 afirma que ao menos uma difere (não que todas diferem). A variação total dos dados é decomposta em variação entre grupos (explicada pelo fator) e variação dentro dos grupos (residual/erro).</p><p>A estatística de teste é F = (variância entre grupos) / (variância dentro dos grupos) = QMEntre / QMDentro, com distribuição F. F grande indica que as diferenças entre médias superam o ruído interno, levando à rejeição de H0. A ANOVA é sempre teste unilateral à direita.</p></section><section class="amp-sec"><h2>Pressupostos, post-hoc e extensões</h2><p>Pressupostos: independência das observações; normalidade dos resíduos em cada grupo; e homocedasticidade (variâncias iguais entre grupos, testável por Levene ou Bartlett). Violações graves remetem à alternativa não paramétrica (Kruskal-Wallis).</p><p>A ANOVA diz QUE há diferença, mas não ONDE; para localizar quais pares de médias diferem, usam-se testes post-hoc (Tukey HSD, Bonferroni, Scheffé). Extensões: ANOVA de dois fatores (dois fatores e sua interação), ANOVA de medidas repetidas e MANOVA (múltiplas variáveis dependentes simultâneas).</p></section><section class="amp-sec"><h2>Análise de componentes principais (PCA)</h2><p>A PCA é técnica de REDUÇÃO DE DIMENSIONALIDADE: transforma um conjunto de variáveis correlacionadas em um número menor de novas variáveis não correlacionadas (componentes principais), combinações lineares das originais. O primeiro componente capta a maior parte da variância total; o segundo, a maior parte da variância restante (ortogonal ao primeiro); e assim por diante.</p><p>Decide-se quantos componentes reter por critérios como o de Kaiser (autovalor &gt; 1), o gráfico scree plot (cotovelo) ou um percentual alvo de variância acumulada. A PCA é puramente descritiva/exploratória, sem pressupor um modelo de variáveis latentes; é sensível à escala, exigindo padronização das variáveis.</p></section><section class="amp-sec"><h2>Análise fatorial e análise de cluster</h2><p>A análise fatorial pressupõe que variáveis observadas são manifestações de fatores LATENTES (não observados) mais um termo único. Difere da PCA: a PCA explica a variância TOTAL e é orientada à redução; a fatorial modela a variância COMUM (comunalidade) e busca interpretar dimensões subjacentes. Há a exploratória (EFA, descobre a estrutura) e a confirmatória (CFA, testa uma estrutura hipotética). A rotação (varimax, oblíqua) facilita a interpretação das cargas fatoriais. A adequação é checada por KMO e teste de esfericidade de Bartlett.</p><p>A análise de cluster (agrupamento) classifica OBSERVAÇÕES (não variáveis) em grupos homogêneos internamente e heterogêneos entre si, com base em medidas de distância (euclidiana, etc.). Métodos hierárquicos (aglomerativos, geram dendrograma) e não hierárquicos (k-means, exigem definir k a priori). É técnica não supervisionada, sem variável-resposta.</p></section><section class="amp-sec"><h2>Modelagem de equações estruturais (SEM)</h2><p>A modelagem de equações estruturais combina análise fatorial confirmatória (modelo de mensuração, ligando indicadores a construtos latentes) com regressão (modelo estrutural, relações causais entre construtos). Permite testar simultaneamente um conjunto de hipóteses teóricas, incluindo variáveis latentes, mediação e moderação.</p><p>O ajuste do modelo é avaliado por índices como qui-quadrado/gl, CFI, TLI, RMSEA e SRMR. É técnica confirmatória, guiada por teoria prévia, muito usada em ciências sociais para validar escalas e modelos conceituais (ex.: relação entre vulnerabilidade, acesso a serviços e bem-estar).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado (Cebraspe). Um pesquisador deseja saber se o tempo médio de espera por atendimento difere entre quatro unidades de assistência social. Afirmativa I: &#x27;A ANOVA de um fator é adequada, e a rejeição de H0 indica que todas as quatro unidades têm tempos médios diferentes entre si.&#x27; ERRADO - a rejeição de H0 indica que AO MENOS UMA média difere, não que todas diferem; para identificar quais pares diferem é preciso um teste post-hoc (ex.: Tukey). Afirmativa II: &#x27;Para reduzir um conjunto de 15 indicadores socioeconômicos correlacionados a poucos fatores e construir um índice sintético, a análise de componentes principais é uma técnica apropriada.&#x27; CERTO - a PCA reduz a dimensionalidade preservando a maior parte da variância, sendo comum na construção de índices.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>Pegadinha clássica da ANOVA: a rejeição de H0 significa que TODAS as médias diferem - ERRADO, é ao menos uma; daí a necessidade de post-hoc. Outra: a ANOVA compara variâncias, não médias - ERRADO; ela compara MÉDIAS USANDO variâncias. Distinga firmemente: PCA agrupa/reduz VARIÁVEIS (variância total); cluster agrupa OBSERVAÇÕES; análise fatorial busca LATENTES (variância comum). Banca confunde PCA com análise fatorial - a chave é total vs comum e redução vs latente. SEM é CONFIRMATÓRIA (guiada por teoria), enquanto PCA e EFA são exploratórias.</p></section>
+      <div class="pager-row"><a class="pager prev" href="t0-s0.html">← Regressão e correlação</a><span></span></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>ANOVA compara 3+ médias via decomposição da variância; F = variância entre / variância dentro</li><li>H0 da ANOVA: todas as médias iguais; rejeição = AO MENOS UMA difere (não todas)</li><li>Pressupostos: independência, normalidade dos resíduos, homocedasticidade (Levene/Bartlett); post-hoc (Tukey) localiza diferenças</li><li>PCA: reduz dimensionalidade, componentes não correlacionados, explica variância TOTAL; reter por Kaiser/scree</li><li>Análise fatorial: fatores LATENTES, variância COMUM; EFA (explora) vs CFA (confirma); KMO e Bartlett</li><li>Cluster: agrupa OBSERVAÇÕES por distância; hierárquico (dendrograma) e k-means; não supervisionado</li><li>SEM: une CFA (mensuração) e regressão (estrutural) com variáveis latentes; ajuste por CFI, RMSEA</li><li>PCA vs fatorial: PCA = redução/variância total; fatorial = latentes/variância comum</li></ul></div>
+      <a class="back" href="../../disciplinas/modelagem-multivariada.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Estatística (SEDES-DF) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>

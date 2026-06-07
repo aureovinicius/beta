@@ -1,0 +1,46 @@
+{
+ "slug": "afo-analise-balancos",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "Capital de giro, caixa e risco x rentabilidade",
+   "intro": "Capital de giro é o conjunto de recursos aplicados nas operações de curto prazo da entidade: caixa, contas a receber e estoques. A gestão do capital de giro busca garantir que a empresa ou o órgão tenha liquidez para honrar compromissos sem manter recursos ociosos em excesso. O eixo dessa decisão é o trade-off entre risco e rentabilidade: quanto mais liquidez (mais caixa, mais estoque de segurança), menor o risco de insolvência, porém menor a rentabilidade, pois recursos parados não geram retorno.\n\nNa análise de balanços, esse tema aparece no estudo do equilíbrio financeiro: a regra de ouro é financiar ativos de longo prazo com recursos permanentes e ativos de curto prazo, idealmente, com passivos de curto prazo, evitando descasamento de prazos. O capital de giro líquido (CCL) mede a folga financeira de curto prazo e é o indicador-síntese desse equilíbrio.\n\nO modelo dinâmico (Fleuriet) refina a análise ao separar contas operacionais (cíclicas) de financeiras (erráticas), permitindo calcular a Necessidade de Capital de Giro (NCG) e o Saldo de Tesouraria (T), instrumentos centrais para diagnosticar a saúde financeira."
+   ,
+   "secoes": [
+    {
+     "h": "Capital Circulante Líquido (CCL)",
+     "p": "O CCL é a diferença entre o ativo circulante e o passivo circulante (CCL = AC − PC). Equivale também ao excedente de recursos permanentes (patrimônio líquido + passivo não circulante) sobre o ativo não circulante.\n\nCCL positivo indica que parte do ativo circulante é financiada por recursos de longo prazo, sinal de folga. CCL negativo significa que recursos de curto prazo financiam ativos de longo prazo, situação de risco (descasamento), embora alguns setores de giro muito rápido operem assim de forma saudável. CCL não é sinônimo de caixa: uma empresa pode ter CCL alto e estar sem dinheiro, porque o capital está preso em estoques e duplicatas a receber."
+    },
+    {
+     "h": "Necessidade de Capital de Giro (NCG) — modelo Fleuriet",
+     "p": "A NCG mede quanto a operação precisa de financiamento permanente. Separam-se as contas circulantes em operacionais (cíclicas), ligadas à atividade-fim, e financeiras (erráticas), independentes do ciclo. NCG = Ativo Circulante Operacional (ACO) − Passivo Circulante Operacional (PCO), ou seja, (estoques + clientes + outras operacionais) − (fornecedores + salários + impostos operacionais).\n\nNCG positiva é o caso comum: a operação consome caixa e precisa de funding. NCG negativa significa que os fornecedores e obrigações operacionais financiam a operação (típico de supermercados, que vendem à vista e pagam fornecedores a prazo). O Saldo de Tesouraria (T) = CCL − NCG; quando T é negativo e crescente, surge o 'efeito tesoura', sinal de dependência de empréstimos de curto prazo e risco de insolvência."
+    },
+    {
+     "h": "Ciclo operacional e ciclo de caixa",
+     "p": "O ciclo operacional vai da compra/produção até o recebimento da venda: prazo médio de estocagem (PME) + prazo médio de recebimento (PMR). O ciclo financeiro (ou ciclo de caixa) desconta o prazo que os fornecedores concedem: Ciclo de caixa = PME + PMR − PMP (prazo médio de pagamento).\n\nQuanto menor o ciclo de caixa, menos tempo o dinheiro fica imobilizado e menor a NCG. Estratégias para encurtá-lo: girar estoques mais rápido, reduzir prazos de recebimento e negociar prazos maiores com fornecedores. Um ciclo de caixa negativo (recebe antes de pagar) é altamente favorável à liquidez."
+    },
+    {
+     "h": "Risco x rentabilidade na gestão de caixa",
+     "p": "Manter caixa elevado reduz o risco de não pagar obrigações, mas o dinheiro parado tem custo de oportunidade (poderia render aplicado ou ser investido na operação). A política de caixa busca o nível ótimo que equilibra liquidez e retorno.\n\nA mesma lógica vale para estoques (estoque alto evita ruptura, mas imobiliza capital e gera custo de armazenagem) e crédito a clientes (prazos longos alavancam vendas, mas aumentam o risco de inadimplência e a NCG). Políticas conservadoras priorizam segurança (mais liquidez, menos retorno); agressivas priorizam rentabilidade (menos folga, mais risco)."
+    },
+    {
+     "h": "Indicadores de liquidez",
+     "p": "A liquidez corrente (AC / PC) mede a capacidade de pagar o passivo circulante com o ativo circulante; acima de 1 sugere folga. A liquidez seca [(AC − estoques) / PC] retira os estoques, item menos líquido, sendo mais rigorosa. A liquidez imediata (disponível / PC) considera só caixa e equivalentes.\n\nA liquidez geral [(AC + Realizável a Longo Prazo) / (PC + PNC)] avalia o longo prazo. Esses índices devem ser lidos em conjunto e comparados ao setor: liquidez muito alta pode indicar recursos ociosos (baixa rentabilidade), e não apenas saúde financeira."
+    }
+   ],
+   "exemplo": "Cenário aplicado: uma entidade tem AC = R$ 500 mil, PC = R$ 300 mil, sendo estoques R$ 200 mil. O CCL = 500 − 300 = R$ 200 mil (folga). A liquidez corrente = 500/300 = 1,67; a liquidez seca = (500−200)/300 = 1,0. A diferença mostra forte dependência de estoques para a liquidez. Item Cebraspe: 'CCL positivo garante que a entidade tem caixa suficiente para quitar suas dívidas de curto prazo imediatamente.' Errado. CCL positivo indica folga estrutural, mas o capital pode estar preso em estoques e recebíveis; quem mede a capacidade imediata é a liquidez imediata, não o CCL.",
+   "pontos_chave": [
+    "CCL = AC − PC; positivo indica folga, mas não equivale a caixa disponível.",
+    "NCG = ACO − PCO (contas operacionais); mede o financiamento permanente exigido pela operação.",
+    "Saldo de Tesouraria T = CCL − NCG; T negativo e crescente = efeito tesoura (risco).",
+    "Ciclo de caixa = PME + PMR − PMP; menor ciclo = menor NCG e mais liquidez.",
+    "Trade-off central: mais liquidez reduz risco e rentabilidade; menos liquidez aumenta ambos.",
+    "NCG negativa (fornecedores financiam a operação) é comum em varejo de giro rápido.",
+    "Liquidez seca exclui estoques; liquidez imediata só considera caixa e equivalentes.",
+    "Liquidez muito alta pode sinalizar recursos ociosos, não necessariamente boa gestão."
+   ],
+   "dica_prova": "A pegadinha mais frequente é igualar CCL a caixa/disponibilidade. Outra é inverter o trade-off (dizer que mais liquidez aumenta a rentabilidade). Lembre que NCG usa apenas contas operacionais (cíclicas) e que o efeito tesoura é T cada vez mais negativo. Saiba que ciclo de caixa = ciclo operacional − PMP, e que reduzi-lo melhora a liquidez."
+  }
+ ]
+}

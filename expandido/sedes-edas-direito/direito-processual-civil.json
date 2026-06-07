@@ -1,0 +1,89 @@
+{
+  "slug": "direito-processual-civil",
+  "itens": [
+    {
+      "ti": 0,
+      "si": 0,
+      "titulo": "Jurisdição, ação e pressupostos processuais",
+      "intro": "O Direito Processual Civil disciplina o exercício da função jurisdicional do Estado para resolver conflitos não penais. No Brasil é regido pelo Código de Processo Civil de 2015 (Lei 13.105/2015), que inaugura seus artigos com as normas fundamentais do processo (arts. 1º a 12), expressamente vinculadas à Constituição: o processo deve ser ordenado e interpretado conforme os valores e normas fundamentais da CF/88, assegurando contraditório, ampla defesa, isonomia, duração razoável, boa-fé objetiva e cooperação entre os sujeitos.\n\nTrês institutos formam a base do estudo: a jurisdição (poder-dever estatal de dizer o direito no caso concreto), a ação (direito subjetivo público de provocar essa jurisdição) e o processo (instrumento e relação jurídica pela qual a jurisdição se exerce). Sobre o processo incidem os pressupostos processuais, requisitos de existência e validade sem os quais não há julgamento legítimo de mérito. Soma-se a isso o estudo dos sujeitos do processo e do litisconsórcio (pluralidade de partes).\n\nPara a prova, o ponto central é que a jurisdição é, em regra, inerte (precisa ser provocada — princípio da demanda, art. 2º), substitutiva (o Estado substitui a vontade das partes) e definitiva (apta a produzir coisa julgada). Já o direito de ação independe da existência efetiva do direito material discutido: é direito abstrato e autônomo, exercido ainda que a pretensão seja, ao final, julgada improcedente.",
+      "secoes": [
+        {
+          "h": "Jurisdição: conceito e características",
+          "p": "Jurisdição é a função estatal de aplicar o direito ao caso concreto, em substituição às partes, de forma definitiva. Suas características clássicas são: inércia (art. 2º — o processo começa por iniciativa da parte e se desenvolve por impulso oficial), substitutividade, definitividade (coisa julgada material), unidade (a jurisdição é una, dividindo-se apenas por competência) e secundariedade (atua quando a composição espontânea falhou).\n\nO CPC/2015 valorizou os meios consensuais: o art. 3º consagra o acesso à justiça (inafastabilidade — art. 5º, XXXV, da CF), mas estimula a conciliação, a mediação e a arbitragem. A arbitragem (Lei 9.307/96) é jurisdição privada legítima, e o Poder Judiciário não reexamina o mérito da sentença arbitral."
+        },
+        {
+          "h": "Ação e condições da ação",
+          "p": "Ação é o direito público, subjetivo, abstrato e autônomo de provocar a jurisdição. O CPC/2015, adotando a teoria de Liebman em versão atualizada, manteve duas condições da ação: legitimidade ad causam (pertinência subjetiva — ser titular do direito afirmado e do polo passivo correto) e interesse de agir (necessidade + utilidade + adequação da via processual). A possibilidade jurídica do pedido, que era condição autônoma no CPC/73, foi absorvida pelo mérito (improcedência) ou pelo interesse de agir.\n\nA ausência de uma condição da ação gera carência de ação e extinção do processo sem resolução de mérito (art. 485, VI). Importante: legitimidade pode ser ordinária (defende-se direito próprio) ou extraordinária/substituição processual (defende-se, em nome próprio, direito alheio — só admitida quando autorizada pelo ordenamento, art. 18)."
+        },
+        {
+          "h": "Pressupostos processuais",
+          "p": "Pressupostos processuais são requisitos para a existência e a validade da relação processual. Dividem-se em: de existência (jurisdição/investidura do juiz, jurisdição/órgão investido, demanda/petição inicial e capacidade de ser parte) e de validade. Os de validade subdividem-se em subjetivos relativos ao juiz (competência e imparcialidade — ausência de impedimento ou suspeição), subjetivos relativos às partes (capacidade processual e capacidade postulatória — em regra exercida por advogado, salvo exceções como os Juizados) e objetivos (extrínsecos, como ausência de litispendência, coisa julgada, perempção e convenção de arbitragem; e intrínsecos, como a regularidade formal da petição inicial e da citação).\n\nVícios nos pressupostos, quando insanáveis, levam à extinção sem mérito (art. 485, IV); muitos, porém, são sanáveis, e o juiz deve oportunizar a correção antes de extinguir (princípio da primazia do julgamento de mérito, art. 4º e art. 317)."
+        },
+        {
+          "h": "Sujeitos do processo",
+          "p": "São sujeitos do processo as partes (autor e réu), o juiz e os terceiros que intervêm. O juiz dirige o processo (art. 139) e está sujeito a impedimentos (art. 144, taxativos e objetivos) e suspeições (art. 145, ligados a parcialidade subjetiva). Atuam ainda o Ministério Público (como parte ou como fiscal da ordem jurídica — custos legis, arts. 176-181), a Advocacia Pública, a Defensoria Pública e os auxiliares da justiça (escrivão, oficial de justiça, perito, etc.).\n\nAs partes têm deveres de boa-fé e cooperação (arts. 5º e 6º) e respondem por litigância de má-fé (arts. 79-81). A capacidade processual dos incapazes é suprida por representação ou assistência; entes despersonalizados (espólio, massa falida, condomínio) têm capacidade de ser parte por ficção legal (art. 75)."
+        },
+        {
+          "h": "Litisconsórcio",
+          "p": "Litisconsórcio é a pluralidade de pessoas no mesmo polo (ativo, passivo ou misto). Classifica-se quanto ao momento (inicial ou ulterior); quanto à posição (ativo, passivo, misto); quanto à obrigatoriedade (facultativo — art. 113; ou necessário — art. 114, imposto por lei ou pela natureza incindível da relação); e quanto ao resultado (simples — a decisão pode ser diferente para cada litisconsorte; ou unitário — a decisão deve ser uniforme para todos, art. 116).\n\nNo litisconsórcio necessário, a falta de citação de litisconsorte indispensável é nulidade (art. 115); no unitário, os atos de um litisconsorte aproveitam aos demais quando benéficos. Já no litisconsórcio facultativo multitudinário (número excessivo), o juiz pode limitá-lo para não comprometer a defesa ou a rápida solução (art. 113, §1º)."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"A possibilidade jurídica do pedido é, no CPC/2015, condição da ação cuja ausência acarreta a extinção do processo sem resolução de mérito.\" — ERRADO. O CPC/2015 manteve apenas duas condições da ação (legitimidade e interesse de agir); a possibilidade jurídica do pedido deixou de ser condição autônoma, sendo tratada como questão de mérito. Outro cenário: em ação de usucapião de imóvel pertencente a casal, ambos os cônjuges devem figurar no polo passivo — trata-se de litisconsórcio passivo necessário e unitário, e a ausência de citação de um deles vicia o processo.",
+      "pontos_chave": [
+        "Jurisdição é inerte (art. 2º), substitutiva, definitiva e una; o CPC/2015 estimula conciliação, mediação e arbitragem.",
+        "Ação é direito público, abstrato e autônomo, independente da procedência da pretensão.",
+        "Condições da ação no CPC/2015: legitimidade ad causam e interesse de agir (a possibilidade jurídica do pedido foi absorvida pelo mérito).",
+        "Pressupostos processuais classificam-se em de existência e de validade (subjetivos do juiz/partes e objetivos).",
+        "Vício sanável deve ser corrigido antes da extinção: primazia do julgamento de mérito (arts. 4º e 317).",
+        "Legitimidade extraordinária (substituição processual) só é admitida quando autorizada pelo ordenamento (art. 18).",
+        "Impedimento (art. 144) é objetivo; suspeição (art. 145) é subjetiva.",
+        "Litisconsórcio necessário decorre de lei ou da incindibilidade da relação; unitário exige decisão uniforme para todos."
+      ],
+      "dica_prova": "A banca adora confundir as classificações do litisconsórcio: necessário não é sinônimo de unitário, e facultativo não é sinônimo de simples — as combinações são possíveis. Outra pegadinha recorrente é afirmar que a possibilidade jurídica do pedido continua sendo condição da ação (errado no CPC/2015). Memorize também que ilegitimidade e falta de interesse extinguem sem mérito (art. 485, VI), enquanto pedido juridicamente impossível leva à improcedência (com mérito). Atenção ao impulso oficial: o processo começa por iniciativa da parte, mas anda por iniciativa do juiz."
+    },
+    {
+      "ti": 0,
+      "si": 1,
+      "titulo": "Tutela provisória e procedimento comum",
+      "intro": "A tutela provisória é o conjunto de técnicas que permitem ao juiz conceder, antes do julgamento definitivo, uma proteção imediata ao direito, com base em cognição sumária (não exauriente). Regulada nos arts. 294 a 311 do CPC/2015, divide-se em tutela de urgência (fundada em perigo de dano ou risco ao resultado útil do processo) e tutela de evidência (fundada na alta probabilidade do direito, independentemente de urgência).\n\nDe outro lado, o procedimento comum (arts. 318 e seguintes) é o rito padrão do processo de conhecimento, aplicável subsidiariamente aos procedimentos especiais e à execução. Suas fases típicas são: postulatória (petição inicial e resposta do réu), ordinatória/saneadora (organização e saneamento), instrutória (produção de provas) e decisória (sentença).\n\nPara o concurso, é essencial dominar os requisitos de cada espécie de tutela provisória, a diferença entre tutela antecipada (satisfativa) e cautelar (assecuratória), a possibilidade de estabilização da tutela antecipada antecedente (art. 304), e o passo a passo do procedimento comum: o que deve conter a petição inicial (art. 319), as modalidades de resposta do réu (com destaque para a contestação) e a importância do saneamento e organização do processo (art. 357).",
+      "secoes": [
+        {
+          "h": "Espécies de tutela provisória",
+          "p": "A tutela provisória (art. 294) divide-se em tutela de urgência e tutela de evidência. A tutela de urgência subdivide-se em cautelar (assegura o resultado útil do processo — ex.: arresto, sequestro) e antecipada (antecipa, no todo ou em parte, os efeitos da decisão final — é satisfativa). Quanto ao momento, pode ser antecedente (requerida antes do pedido principal) ou incidental (no curso do processo já instaurado). A tutela de evidência (art. 311) só pode ser incidental e nunca depende de urgência.\n\nA tutela provisória conserva sua eficácia enquanto pendente o processo, mas pode ser a qualquer tempo revogada ou modificada (art. 296), pois se baseia em cognição sumária."
+        },
+        {
+          "h": "Requisitos da tutela de urgência",
+          "p": "A tutela de urgência exige, cumulativamente (art. 300): probabilidade do direito (fumus boni iuris) e perigo de dano ou risco ao resultado útil do processo (periculum in mora). Para a tutela antecipada, exige-se ainda reversibilidade dos efeitos da decisão (art. 300, §3º) — embora a jurisprudência admita relativização quando o bem da vida em risco for mais relevante (ex.: saúde).\n\nPode ser concedida liminarmente (inaudita altera parte) ou após justificação prévia. Quem requer responde pelo prejuízo causado à parte adversa se a tutela for posteriormente revertida, nas hipóteses do art. 302 (responsabilidade objetiva)."
+        },
+        {
+          "h": "Tutela antecedente e estabilização",
+          "p": "Na tutela antecipada requerida em caráter antecedente (art. 303), a petição inicial pode limitar-se ao pedido de tutela e à indicação do pedido final; concedida a tutela, o autor deve aditar a inicial em 15 dias. A grande novidade do CPC/2015 é a estabilização (art. 304): concedida a tutela antecipada antecedente, se o réu não interpuser o recurso cabível (agravo de instrumento), a tutela se estabiliza e o processo é extinto, conservando seus efeitos. Qualquer das partes pode, em até 2 anos, ajuizar ação para rever, reformar ou invalidar a tutela estabilizada — que não faz coisa julgada material.\n\nJá a tutela cautelar antecedente segue os arts. 305 a 310, com efetivação da cautelar e formulação do pedido principal em 30 dias nos mesmos autos."
+        },
+        {
+          "h": "Tutela de evidência",
+          "p": "A tutela de evidência (art. 311) dispensa o perigo de dano e é concedida quando o direito do autor é evidente. As hipóteses são: abuso do direito de defesa ou propósito protelatório do réu; alegações comprovadas documentalmente e tese firmada em julgamento de casos repetitivos ou súmula vinculante; pedido reipersecutório baseado em prova documental de contrato de depósito; e petição inicial instruída com prova documental suficiente dos fatos, à qual o réu não oponha prova capaz de gerar dúvida razoável. Nas hipóteses dos incisos II e III, pode ser concedida liminarmente."
+        },
+        {
+          "h": "Petição inicial e contestação",
+          "p": "A petição inicial (art. 319) deve indicar: juízo, qualificação das partes, fato e fundamentos jurídicos do pedido (causa de pedir), o pedido com suas especificações, o valor da causa, as provas pretendidas e a opção (ou não) por audiência de conciliação/mediação. Defeitos sanáveis ensejam emenda em 15 dias (art. 321) antes do indeferimento (art. 330).\n\nA contestação (arts. 335-342) é a principal resposta do réu, apresentada em 15 dias, e concentra toda a defesa: o réu deve alegar nela tanto as preliminares (art. 337 — incompetência, litispendência, coisa julgada, ilegitimidade, etc.) quanto o mérito, sob pena de preclusão (princípio da eventualidade ou concentração da defesa). Vigora o ônus da impugnação especificada (art. 341): fatos não impugnados presumem-se verdadeiros. A reconvenção, hoje, é deduzida na própria contestação (art. 343)."
+        },
+        {
+          "h": "Saneamento e organização do processo",
+          "p": "Não havendo extinção nem julgamento antecipado, o juiz profere a decisão de saneamento e de organização do processo (art. 357), na qual: resolve as questões processuais pendentes, delimita as questões de fato sobre as quais recairá a prova, define a distribuição do ônus da prova, delimita as questões de direito relevantes e designa, se necessário, audiência de instrução. As partes podem, em 5 dias, pedir esclarecimentos ou ajustes, após o que a decisão se estabiliza. Admite-se ainda o saneamento compartilhado, em cooperação com as partes (art. 357, §3º)."
+        }
+      ],
+      "exemplo": "Item estilo Cebraspe: \"A tutela de evidência depende da demonstração de perigo de dano ou risco ao resultado útil do processo.\" — ERRADO. A tutela de evidência (art. 311) prescinde do perigo de dano; funda-se apenas na alta probabilidade do direito. Cenário aplicado: um beneficiário do SUAS ajuíza ação contra ato que suspendeu indevidamente benefício essencial à sua subsistência; demonstrando a probabilidade do direito (documento de concessão) e o perigo de dano (risco à subsistência imediata), pode obter tutela de urgência antecipada liminar. Se o ente público réu não recorrer da decisão antecedente, a tutela pode estabilizar-se (art. 304).",
+      "pontos_chave": [
+        "Tutela provisória = urgência (cautelar ou antecipada) + evidência; baseia-se em cognição sumária e é revogável (art. 296).",
+        "Tutela de urgência exige probabilidade do direito E perigo de dano (art. 300); a antecipada exige ainda reversibilidade.",
+        "Tutela de evidência (art. 311) dispensa urgência; baseia-se na evidência do direito.",
+        "Estabilização (art. 304): tutela antecipada antecedente não recorrida se estabiliza e não faz coisa julgada; revisável em até 2 anos.",
+        "Petição inicial: requisitos do art. 319; defeito sanável gera emenda em 15 dias (art. 321).",
+        "Contestação concentra toda a defesa (princípio da eventualidade); reconvenção vai na própria contestação (art. 343).",
+        "Ônus da impugnação especificada (art. 341): fatos não impugnados presumem-se verdadeiros.",
+        "Saneamento e organização (art. 357): fixa pontos controvertidos, ônus da prova e questões de direito."
+      ],
+      "dica_prova": "Cuidado com a distinção cautelar x antecipada: a cautelar apenas assegura (assecuratória), a antecipada satisfaz (entrega o bem da vida). A banca também explora que a tutela de evidência NUNCA exige urgência e só é incidental. Outra pegadinha: a tutela estabilizada NÃO faz coisa julgada material, podendo ser revista em até 2 anos. No procedimento comum, lembre que todas as defesas (preliminares e mérito) vão na contestação, e que a reconvenção deixou de ser peça autônoma. Por fim, fatos não impugnados na contestação presumem-se verdadeiros — salvo as exceções do art. 341 (direitos indisponíveis, fatos que demandam prova documental, ou incompatíveis com a defesa)."
+    }
+  ]
+}

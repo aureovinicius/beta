@@ -1,0 +1,85 @@
+{
+ "slug": "modelagem-multivariada",
+ "itens": [
+  {
+   "ti": 0,
+   "si": 0,
+   "titulo": "Regressão e correlação",
+   "intro": "A correlação mede a força e a direção da relação linear entre duas variáveis quantitativas, enquanto a regressão modela essa relação por meio de uma equação que permite explicar e prever uma variável (dependente, resposta) a partir de uma ou mais variáveis (independentes, explicativas). São ferramentas centrais para a análise de dados sociais: estimar como a renda familiar se associa à frequência escolar, prever a demanda por benefícios a partir de indicadores territoriais, ou identificar fatores associados a um desfecho binário.\n\nA regressão linear ajusta uma reta (ou hiperplano) minimizando a soma dos quadrados dos resíduos (método dos mínimos quadrados ordinários, MQO). Já a regressão logística modela a probabilidade de um evento binário, sendo a ponte natural com a razão de chances (odds ratio) vista na análise de contingência.\n\nEsta seção trata da correlação, da regressão linear simples e múltipla (com seus pressupostos e diagnósticos) e da regressão logística.",
+   "secoes": [
+    {
+     "h": "Correlação linear de Pearson",
+     "p": "O coeficiente de correlação linear de Pearson (r) varia de -1 a +1: +1 indica relação linear positiva perfeita, -1 negativa perfeita e 0 ausência de relação LINEAR (pode haver relação não linear forte com r próximo de 0). O sinal indica a direção; o módulo, a força.\n\nCorrelação NÃO implica causalidade: duas variáveis podem correlacionar-se por coincidência ou por causa comum (variável confundidora). Pearson exige variáveis quantitativas e mede só relação linear; para dados ordinais ou não lineares monotônicos, usa-se Spearman. O quadrado de r (r²) é o coeficiente de determinação na regressão simples."
+    },
+    {
+     "h": "Regressão linear simples",
+     "p": "Modelo: Y = beta0 + beta1 X + erro. O intercepto beta0 é o valor esperado de Y quando X=0; o coeficiente angular beta1 é a variação esperada em Y para cada unidade a mais em X. Os parâmetros são estimados por mínimos quadrados ordinários, que minimizam a soma dos quadrados dos resíduos (diferença entre Y observado e Y previsto).\n\nO coeficiente de determinação R² mede a proporção da variabilidade de Y explicada pelo modelo (0 a 1; quanto maior, melhor o ajuste). Decompõe-se a variação total: SQT = SQReg + SQRes, e R² = SQReg/SQT."
+    },
+    {
+     "h": "Regressão linear múltipla e pressupostos",
+     "p": "Com vários preditores: Y = beta0 + beta1 X1 + ... + betak Xk + erro. Cada coeficiente é o efeito parcial da sua variável, mantidas as demais constantes. Usa-se o R² ajustado, que penaliza a inclusão de variáveis irrelevantes (o R² simples nunca diminui ao se acrescentar preditores).\n\nPressupostos do MQO: linearidade nos parâmetros; erros com média zero; homocedasticidade (variância constante dos resíduos); independência dos erros (ausência de autocorrelação); normalidade dos resíduos (para inferência); e ausência de multicolinearidade severa (preditores muito correlacionados entre si, diagnosticada pelo VIF). A violação da homocedasticidade (heterocedasticidade) não viesa os coeficientes, mas torna os erros-padrão e os testes inválidos."
+    },
+    {
+     "h": "Inferência e diagnóstico na regressão",
+     "p": "Testa-se a significância individual de cada coeficiente por teste t (H0: beta = 0) e a significância global do modelo por teste F (H0: todos os coeficientes de inclinação = 0). A análise de resíduos é essencial: gráficos de resíduos vs ajustados (checar linearidade e homocedasticidade), Q-Q plot (normalidade), e identificação de outliers e pontos influentes (ex.: distância de Cook).\n\nMulticolinearidade infla os erros-padrão e desestabiliza os coeficientes; valores de VIF acima de 10 (alguns adotam 5) sinalizam problema. Autocorrelação dos resíduos (comum em séries temporais) pode ser detectada pelo teste de Durbin-Watson."
+    },
+    {
+     "h": "Regressão logística",
+     "p": "Quando a variável resposta é binária (0/1, ex.: recebe ou não o benefício), o MQO é inadequado. A regressão logística modela o logit (log da chance): ln[p/(1-p)] = beta0 + beta1 X1 + ... + betak Xk. A função liga a combinação linear dos preditores à probabilidade p por meio da função logística (sigmoide), garantindo p entre 0 e 1.\n\nInterpretação dos coeficientes: exp(beta) é a RAZÃO DE CHANCES (odds ratio) associada ao aumento de uma unidade no preditor. Por isso a logística é o elo direto com o OR da tabela de contingência. A estimação é por máxima verossimilhança (não MQO). A qualidade do ajuste é avaliada por testes como o de Hosmer-Lemeshow, pseudo-R², e a capacidade discriminante pela área sob a curva ROC (AUC)."
+    }
+   ],
+   "exemplo": "Item de prova comentado (Cebraspe). Em um modelo de regressão logística que prevê a probabilidade de uma família solicitar um benefício eventual, o coeficiente da variável 'número de filhos' foi beta = 0,40. Afirmativa: 'A cada filho a mais, a chance de solicitar o benefício é multiplicada por aproximadamente 1,49, mantidas as demais variáveis constantes.' CERTO. O odds ratio é exp(0,40) ≈ 1,49, ou seja, a chance aumenta cerca de 49% por filho adicional, ceteris paribus. Pegadinha comum: dizer que a PROBABILIDADE aumenta 49% - errado; o que se multiplica por exp(beta) é a CHANCE (odds), não a probabilidade.",
+   "pontos_chave": [
+    "Pearson (r) de -1 a +1: sinal = direção, módulo = força; r=0 não exclui relação não linear",
+    "Correlação não implica causalidade (cuidado com confundidores)",
+    "Regressão linear estimada por mínimos quadrados (MQO); beta1 = variação em Y por unidade de X",
+    "R² = proporção da variância explicada; use R² AJUSTADO na múltipla",
+    "Pressupostos MQO: linearidade, homocedasticidade, independência/sem autocorrelação, normalidade dos resíduos, sem multicolinearidade (VIF)",
+    "Significância: teste t (coeficiente individual) e teste F (modelo global)",
+    "Logística: modela o logit; resposta binária; estimação por máxima verossimilhança",
+    "Na logística, exp(beta) = odds ratio; avaliação por ROC/AUC e Hosmer-Lemeshow"
+   ],
+   "dica_prova": "A pegadinha número 1 da logística: confundir o efeito sobre a CHANCE (odds, exp(beta)) com efeito sobre a PROBABILIDADE - são coisas diferentes. Na linear, lembre que heterocedasticidade NÃO enviesa os coeficientes, mas invalida os erros-padrão/testes. Banca adora afirmar que correlação alta prova causalidade (errado) e que r=0 significa independência total (errado: só ausência de relação LINEAR). Use R² ajustado, não R² puro, ao comparar modelos com números diferentes de variáveis. Logística usa máxima verossimilhança, NÃO mínimos quadrados."
+  },
+  {
+   "ti": 0,
+   "si": 1,
+   "titulo": "ANOVA e análise multivariada",
+   "intro": "A análise de variância (ANOVA) generaliza o teste t para comparar as médias de três ou mais grupos, evitando a inflação do erro tipo I que ocorreria ao se fazer múltiplos testes t dois a dois. Apesar do nome, ela compara MÉDIAS usando a decomposição da variância: se a variabilidade ENTRE grupos for grande em relação à variabilidade DENTRO dos grupos, conclui-se que as médias diferem.\n\nA análise multivariada, por sua vez, reúne técnicas que tratam simultaneamente muitas variáveis: redução de dimensionalidade (PCA, análise fatorial), agrupamento de observações (cluster) e modelagem de relações complexas entre construtos latentes (equações estruturais). São amplamente usadas para construir indicadores sintéticos, segmentar territórios/famílias e testar modelos teóricos.\n\nEsta seção apresenta a lógica e os pressupostos da ANOVA e os fundamentos das principais técnicas multivariadas cobradas em prova.",
+   "secoes": [
+    {
+     "h": "ANOVA de um fator",
+     "p": "Hipóteses: H0 afirma que todas as médias dos grupos são iguais; H1 afirma que ao menos uma difere (não que todas diferem). A variação total dos dados é decomposta em variação entre grupos (explicada pelo fator) e variação dentro dos grupos (residual/erro).\n\nA estatística de teste é F = (variância entre grupos) / (variância dentro dos grupos) = QMEntre / QMDentro, com distribuição F. F grande indica que as diferenças entre médias superam o ruído interno, levando à rejeição de H0. A ANOVA é sempre teste unilateral à direita."
+    },
+    {
+     "h": "Pressupostos, post-hoc e extensões",
+     "p": "Pressupostos: independência das observações; normalidade dos resíduos em cada grupo; e homocedasticidade (variâncias iguais entre grupos, testável por Levene ou Bartlett). Violações graves remetem à alternativa não paramétrica (Kruskal-Wallis).\n\nA ANOVA diz QUE há diferença, mas não ONDE; para localizar quais pares de médias diferem, usam-se testes post-hoc (Tukey HSD, Bonferroni, Scheffé). Extensões: ANOVA de dois fatores (dois fatores e sua interação), ANOVA de medidas repetidas e MANOVA (múltiplas variáveis dependentes simultâneas)."
+    },
+    {
+     "h": "Análise de componentes principais (PCA)",
+     "p": "A PCA é técnica de REDUÇÃO DE DIMENSIONALIDADE: transforma um conjunto de variáveis correlacionadas em um número menor de novas variáveis não correlacionadas (componentes principais), combinações lineares das originais. O primeiro componente capta a maior parte da variância total; o segundo, a maior parte da variância restante (ortogonal ao primeiro); e assim por diante.\n\nDecide-se quantos componentes reter por critérios como o de Kaiser (autovalor > 1), o gráfico scree plot (cotovelo) ou um percentual alvo de variância acumulada. A PCA é puramente descritiva/exploratória, sem pressupor um modelo de variáveis latentes; é sensível à escala, exigindo padronização das variáveis."
+    },
+    {
+     "h": "Análise fatorial e análise de cluster",
+     "p": "A análise fatorial pressupõe que variáveis observadas são manifestações de fatores LATENTES (não observados) mais um termo único. Difere da PCA: a PCA explica a variância TOTAL e é orientada à redução; a fatorial modela a variância COMUM (comunalidade) e busca interpretar dimensões subjacentes. Há a exploratória (EFA, descobre a estrutura) e a confirmatória (CFA, testa uma estrutura hipotética). A rotação (varimax, oblíqua) facilita a interpretação das cargas fatoriais. A adequação é checada por KMO e teste de esfericidade de Bartlett.\n\nA análise de cluster (agrupamento) classifica OBSERVAÇÕES (não variáveis) em grupos homogêneos internamente e heterogêneos entre si, com base em medidas de distância (euclidiana, etc.). Métodos hierárquicos (aglomerativos, geram dendrograma) e não hierárquicos (k-means, exigem definir k a priori). É técnica não supervisionada, sem variável-resposta."
+    },
+    {
+     "h": "Modelagem de equações estruturais (SEM)",
+     "p": "A modelagem de equações estruturais combina análise fatorial confirmatória (modelo de mensuração, ligando indicadores a construtos latentes) com regressão (modelo estrutural, relações causais entre construtos). Permite testar simultaneamente um conjunto de hipóteses teóricas, incluindo variáveis latentes, mediação e moderação.\n\nO ajuste do modelo é avaliado por índices como qui-quadrado/gl, CFI, TLI, RMSEA e SRMR. É técnica confirmatória, guiada por teoria prévia, muito usada em ciências sociais para validar escalas e modelos conceituais (ex.: relação entre vulnerabilidade, acesso a serviços e bem-estar)."
+    }
+   ],
+   "exemplo": "Item de prova comentado (Cebraspe). Um pesquisador deseja saber se o tempo médio de espera por atendimento difere entre quatro unidades de assistência social. Afirmativa I: 'A ANOVA de um fator é adequada, e a rejeição de H0 indica que todas as quatro unidades têm tempos médios diferentes entre si.' ERRADO - a rejeição de H0 indica que AO MENOS UMA média difere, não que todas diferem; para identificar quais pares diferem é preciso um teste post-hoc (ex.: Tukey). Afirmativa II: 'Para reduzir um conjunto de 15 indicadores socioeconômicos correlacionados a poucos fatores e construir um índice sintético, a análise de componentes principais é uma técnica apropriada.' CERTO - a PCA reduz a dimensionalidade preservando a maior parte da variância, sendo comum na construção de índices.",
+   "pontos_chave": [
+    "ANOVA compara 3+ médias via decomposição da variância; F = variância entre / variância dentro",
+    "H0 da ANOVA: todas as médias iguais; rejeição = AO MENOS UMA difere (não todas)",
+    "Pressupostos: independência, normalidade dos resíduos, homocedasticidade (Levene/Bartlett); post-hoc (Tukey) localiza diferenças",
+    "PCA: reduz dimensionalidade, componentes não correlacionados, explica variância TOTAL; reter por Kaiser/scree",
+    "Análise fatorial: fatores LATENTES, variância COMUM; EFA (explora) vs CFA (confirma); KMO e Bartlett",
+    "Cluster: agrupa OBSERVAÇÕES por distância; hierárquico (dendrograma) e k-means; não supervisionado",
+    "SEM: une CFA (mensuração) e regressão (estrutural) com variáveis latentes; ajuste por CFI, RMSEA",
+    "PCA vs fatorial: PCA = redução/variância total; fatorial = latentes/variância comum"
+   ],
+   "dica_prova": "Pegadinha clássica da ANOVA: a rejeição de H0 significa que TODAS as médias diferem - ERRADO, é ao menos uma; daí a necessidade de post-hoc. Outra: a ANOVA compara variâncias, não médias - ERRADO; ela compara MÉDIAS USANDO variâncias. Distinga firmemente: PCA agrupa/reduz VARIÁVEIS (variância total); cluster agrupa OBSERVAÇÕES; análise fatorial busca LATENTES (variância comum). Banca confunde PCA com análise fatorial - a chave é total vs comum e redução vs latente. SEM é CONFIRMATÓRIA (guiada por teoria), enquanto PCA e EFA são exploratórias."
+  }
+ ]
+}

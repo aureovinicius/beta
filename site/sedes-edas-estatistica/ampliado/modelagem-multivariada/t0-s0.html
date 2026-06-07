@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regressão e correlação — SEDES-DF</title>
+<link rel="stylesheet" href="../../../assets/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../../../index.html">
+    <span class="brand-mark">GE</span>
+    <span class="brand-text"><strong>Guia de Estudos</strong><small>SEDES-DF</small></span>
+  </a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+</header>
+<main class="amp-page">
+  <nav class="crumbs">
+    <a href="../../../index.html">Concursos</a> ›
+    <a href="../../index.html">SEDES-DF</a> ›
+    <a href="../../disciplinas/modelagem-multivariada.html">📐 Modelagem Estatística e Análise Multivariada</a> ›
+    <span>Regressão e correlação</span>
+  </nav>
+  <header class="amp-head">
+    <p class="amp-eyebrow">1. Modelagem</p>
+    <h1>Regressão e correlação</h1>
+    
+    <p>A correlação mede a força e a direção da relação linear entre duas variáveis quantitativas, enquanto a regressão modela essa relação por meio de uma equação que permite explicar e prever uma variável (dependente, resposta) a partir de uma ou mais variáveis (independentes, explicativas). São ferramentas centrais para a análise de dados sociais: estimar como a renda familiar se associa à frequência escolar, prever a demanda por benefícios a partir de indicadores territoriais, ou identificar fatores associados a um desfecho binário.</p><p>A regressão linear ajusta uma reta (ou hiperplano) minimizando a soma dos quadrados dos resíduos (método dos mínimos quadrados ordinários, MQO). Já a regressão logística modela a probabilidade de um evento binário, sendo a ponte natural com a razão de chances (odds ratio) vista na análise de contingência.</p><p>Esta seção trata da correlação, da regressão linear simples e múltipla (com seus pressupostos e diagnósticos) e da regressão logística.</p>
+  </header>
+  <div class="amp-grid">
+    <article class="amp-body">
+      <section class="amp-sec"><h2>Correlação linear de Pearson</h2><p>O coeficiente de correlação linear de Pearson (r) varia de -1 a +1: +1 indica relação linear positiva perfeita, -1 negativa perfeita e 0 ausência de relação LINEAR (pode haver relação não linear forte com r próximo de 0). O sinal indica a direção; o módulo, a força.</p><p>Correlação NÃO implica causalidade: duas variáveis podem correlacionar-se por coincidência ou por causa comum (variável confundidora). Pearson exige variáveis quantitativas e mede só relação linear; para dados ordinais ou não lineares monotônicos, usa-se Spearman. O quadrado de r (r²) é o coeficiente de determinação na regressão simples.</p></section><section class="amp-sec"><h2>Regressão linear simples</h2><p>Modelo: Y = beta0 + beta1 X + erro. O intercepto beta0 é o valor esperado de Y quando X=0; o coeficiente angular beta1 é a variação esperada em Y para cada unidade a mais em X. Os parâmetros são estimados por mínimos quadrados ordinários, que minimizam a soma dos quadrados dos resíduos (diferença entre Y observado e Y previsto).</p><p>O coeficiente de determinação R² mede a proporção da variabilidade de Y explicada pelo modelo (0 a 1; quanto maior, melhor o ajuste). Decompõe-se a variação total: SQT = SQReg + SQRes, e R² = SQReg/SQT.</p></section><section class="amp-sec"><h2>Regressão linear múltipla e pressupostos</h2><p>Com vários preditores: Y = beta0 + beta1 X1 + ... + betak Xk + erro. Cada coeficiente é o efeito parcial da sua variável, mantidas as demais constantes. Usa-se o R² ajustado, que penaliza a inclusão de variáveis irrelevantes (o R² simples nunca diminui ao se acrescentar preditores).</p><p>Pressupostos do MQO: linearidade nos parâmetros; erros com média zero; homocedasticidade (variância constante dos resíduos); independência dos erros (ausência de autocorrelação); normalidade dos resíduos (para inferência); e ausência de multicolinearidade severa (preditores muito correlacionados entre si, diagnosticada pelo VIF). A violação da homocedasticidade (heterocedasticidade) não viesa os coeficientes, mas torna os erros-padrão e os testes inválidos.</p></section><section class="amp-sec"><h2>Inferência e diagnóstico na regressão</h2><p>Testa-se a significância individual de cada coeficiente por teste t (H0: beta = 0) e a significância global do modelo por teste F (H0: todos os coeficientes de inclinação = 0). A análise de resíduos é essencial: gráficos de resíduos vs ajustados (checar linearidade e homocedasticidade), Q-Q plot (normalidade), e identificação de outliers e pontos influentes (ex.: distância de Cook).</p><p>Multicolinearidade infla os erros-padrão e desestabiliza os coeficientes; valores de VIF acima de 10 (alguns adotam 5) sinalizam problema. Autocorrelação dos resíduos (comum em séries temporais) pode ser detectada pelo teste de Durbin-Watson.</p></section><section class="amp-sec"><h2>Regressão logística</h2><p>Quando a variável resposta é binária (0/1, ex.: recebe ou não o benefício), o MQO é inadequado. A regressão logística modela o logit (log da chance): ln[p/(1-p)] = beta0 + beta1 X1 + ... + betak Xk. A função liga a combinação linear dos preditores à probabilidade p por meio da função logística (sigmoide), garantindo p entre 0 e 1.</p><p>Interpretação dos coeficientes: exp(beta) é a RAZÃO DE CHANCES (odds ratio) associada ao aumento de uma unidade no preditor. Por isso a logística é o elo direto com o OR da tabela de contingência. A estimação é por máxima verossimilhança (não MQO). A qualidade do ajuste é avaliada por testes como o de Hosmer-Lemeshow, pseudo-R², e a capacidade discriminante pela área sob a curva ROC (AUC).</p></section>
+      <section class="amp-exemplo"><h2>💡 Exemplo aplicado</h2><p>Item de prova comentado (Cebraspe). Em um modelo de regressão logística que prevê a probabilidade de uma família solicitar um benefício eventual, o coeficiente da variável &#x27;número de filhos&#x27; foi beta = 0,40. Afirmativa: &#x27;A cada filho a mais, a chance de solicitar o benefício é multiplicada por aproximadamente 1,49, mantidas as demais variáveis constantes.&#x27; CERTO. O odds ratio é exp(0,40) ≈ 1,49, ou seja, a chance aumenta cerca de 49% por filho adicional, ceteris paribus. Pegadinha comum: dizer que a PROBABILIDADE aumenta 49% - errado; o que se multiplica por exp(beta) é a CHANCE (odds), não a probabilidade.</p></section>
+      <section class="amp-dica"><h2>🎯 Na prova</h2><p>A pegadinha número 1 da logística: confundir o efeito sobre a CHANCE (odds, exp(beta)) com efeito sobre a PROBABILIDADE - são coisas diferentes. Na linear, lembre que heterocedasticidade NÃO enviesa os coeficientes, mas invalida os erros-padrão/testes. Banca adora afirmar que correlação alta prova causalidade (errado) e que r=0 significa independência total (errado: só ausência de relação LINEAR). Use R² ajustado, não R² puro, ao comparar modelos com números diferentes de variáveis. Logística usa máxima verossimilhança, NÃO mínimos quadrados.</p></section>
+      <div class="pager-row"><span></span><a class="pager next" href="t0-s1.html">ANOVA e análise multivariada →</a></div>
+    </article>
+    <aside class="amp-aside">
+      <div class="amp-card"><h3>Pontos-chave</h3><ul class="amp-chave"><li>Pearson (r) de -1 a +1: sinal = direção, módulo = força; r=0 não exclui relação não linear</li><li>Correlação não implica causalidade (cuidado com confundidores)</li><li>Regressão linear estimada por mínimos quadrados (MQO); beta1 = variação em Y por unidade de X</li><li>R² = proporção da variância explicada; use R² AJUSTADO na múltipla</li><li>Pressupostos MQO: linearidade, homocedasticidade, independência/sem autocorrelação, normalidade dos resíduos, sem multicolinearidade (VIF)</li><li>Significância: teste t (coeficiente individual) e teste F (modelo global)</li><li>Logística: modela o logit; resposta binária; estimação por máxima verossimilhança</li><li>Na logística, exp(beta) = odds ratio; avaliação por ROC/AUC e Hosmer-Lemeshow</li></ul></div>
+      <a class="back" href="../../disciplinas/modelagem-multivariada.html">↩ Voltar à disciplina</a>
+    </aside>
+  </div>
+</main>
+<footer class="foot"><p>Estatística (SEDES-DF) — material de estudo de apoio.</p></footer>
+<script src="../../../assets/script.js"></script>
+</body></html>
