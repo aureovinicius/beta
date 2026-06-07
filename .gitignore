@@ -9,3 +9,6 @@ _*.txt
 
 # Artefato gerado — NÃO versionar (reconstruído por gerar_site.py no CI)
 site/
+
+# Editais (fonte de referência) — manter localmente, fora do versionamento
+*.pdf
