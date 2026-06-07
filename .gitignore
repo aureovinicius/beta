@@ -12,3 +12,6 @@ site/
 
 # Editais (fonte de referência) — manter localmente, fora do versionamento
 *.pdf
+
+# macOS
+.DS_Store
