@@ -281,7 +281,8 @@ def prova_bloco(t, prova):
         alts_html = f"<ol class='q-alts' type='A'>{alts}</ol>" if alts else ""
         if q.get("gabarito"):
             com = f"<span class='q-com'>{e(q['comentario'])}</span>" if q.get("comentario") else ""
-            gab = f"<details class='q-gab'><summary>Gabarito comentado: <strong>{e(q['gabarito'])}</strong></summary>{com}</details>"
+            gab = (f"<details class='q-gab'><summary>Ver gabarito comentado</summary>"
+                   f"<p class='q-resp'>Resposta: <strong>{e(q['gabarito'])}</strong></p>{com}</details>")
         else:
             gab = ""
         cards += f"""
