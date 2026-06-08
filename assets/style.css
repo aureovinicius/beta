@@ -140,6 +140,8 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
 .q-enun{margin:0 0 8px;font-size:.92rem;line-height:1.55}
 .q-alts{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted)}
 .q-gab{margin:8px 0 0;font-size:.85rem;color:var(--brand)}
+.q-gab>summary{cursor:pointer;font-weight:700}
+.q-com{display:block;margin-top:6px;font-size:.86rem;color:var(--muted);line-height:1.55;font-weight:400}
 .explica{margin:0 0 18px;color:var(--text)}
 .subs{display:grid;gap:12px}
 .sub{padding:14px 16px;border-radius:10px;background:color-mix(in srgb,var(--brand) 6%,transparent);

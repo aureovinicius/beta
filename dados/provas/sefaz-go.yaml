@@ -1,643 +1,803 @@
 banca: FCC
-titulo: "Prova FCC — Auditor-Fiscal SEFAZ-GO (Maio/2026) · Conhecimentos Básicos"
+titulo: Prova FCC — Auditor-Fiscal SEFAZ-GO (Maio/2026) · Conhecimentos Básicos
 questoes:
   1:
-    enunciado: "[Com base no texto 'O devaneio é uma doença?', de Contardo Calligaris] No último parágrafo, o autor admite que:"
+    enunciado: '[Com base no texto ''O devaneio é uma doença?'', de Contardo Calligaris] No último parágrafo, o autor admite que:'
     alternativas:
-      - "a condenação social do devaneio é, infelizmente, a única alternativa para evitar as ilusórias vantagens da imaginação."
-      - "é estranho haver quem considere a realidade um transtorno do qual só se pode escapar por meio dos devaneios."
-      - "a possibilidade de devanear, vista por alguns como um transtorno mental, é preferível à renúncia de inventarmos nossos sonhos."
-      - "o século XIX alimentou a crença de que os devaneios não poderiam ser vistos como limitações da nossa subjetividade."
-      - "é o afastamento mesmo da realidade que leva um sonhador a negar-se a si mesmo como um sujeito autêntico."
+    - a condenação social do devaneio é, infelizmente, a única alternativa para evitar as ilusórias vantagens da imaginação.
+    - é estranho haver quem considere a realidade um transtorno do qual só se pode escapar por meio dos devaneios.
+    - a possibilidade de devanear, vista por alguns como um transtorno mental, é preferível à renúncia de inventarmos nossos sonhos.
+    - o século XIX alimentou a crença de que os devaneios não poderiam ser vistos como limitações da nossa subjetividade.
+    - é o afastamento mesmo da realidade que leva um sonhador a negar-se a si mesmo como um sujeito autêntico.
+    gabarito: C
+    comentario: Gabarito C. No último parágrafo, Calligaris contrapõe a 'doença' atribuída ao devaneio à perda que seria deixar de inventar/sonhar, concluindo que a possibilidade de devanear — embora alguns a rotulem como transtorno mental — é preferível à renúncia de inventarmos nossos sonhos. A alternativa C reproduz exatamente essa ressalva final do autor. As demais distorcem a ideia (A e E invertem o juízo positivo; B e D atribuem afirmações que o texto não faz).
   2:
-    enunciado: "[Texto 'O devaneio é uma doença?'] A interrogação 'Será que eu amadureci?', no contexto do 4º parágrafo, deriva da seguinte percepção que o autor passou a ter:"
+    enunciado: '[Texto ''O devaneio é uma doença?''] A interrogação ''Será que eu amadureci?'', no contexto do 4º parágrafo, deriva da seguinte percepção que o autor passou a ter:'
     alternativas:
-      - "há um amadurecimento em quem incorpora o excesso dos devaneios."
-      - "um traço previsível da maturidade é o afastar-se do mundo enfadonho."
-      - "contar histórias evita que se forjem devaneios sem sentido."
-      - "narrar algo de modo criativo relativiza a pressão do devaneio."
-      - "a maturidade de um escritor abole a necessidade de sonhar."
+    - há um amadurecimento em quem incorpora o excesso dos devaneios.
+    - um traço previsível da maturidade é o afastar-se do mundo enfadonho.
+    - contar histórias evita que se forjem devaneios sem sentido.
+    - narrar algo de modo criativo relativiza a pressão do devaneio.
+    - a maturidade de um escritor abole a necessidade de sonhar.
+    gabarito: D
+    comentario: Gabarito D. A pergunta 'Será que eu amadureci?' nasce da percepção de que, ao virar escritor, o autor passou a canalizar o devaneio na narração criativa, o que aliviou a pressão de devanear sem rumo — narrar de modo criativo relativiza/atenua essa pressão (D). Trata-se de inferência sobre a intenção do enunciador (item 'Inferência e pressuposto' do material). A é o oposto (amadurecer não é incorporar o excesso); E é exagero (a maturidade não 'abole' o sonhar).
   3:
-    enunciado: "[Texto 'O devaneio é uma doença?'] Ao atentar para a estruturação do texto, observa-se que:"
+    enunciado: '[Texto ''O devaneio é uma doença?''] Ao atentar para a estruturação do texto, observa-se que:'
     alternativas:
-      - "no 4º parágrafo fala alto a experiência de um escritor que aproveitou seus devaneios para intensificar a atmosfera fantasiosa de suas narrativas."
-      - "no 5º parágrafo o autor se propõe a demonstrar que não há a possibilidade objetiva de se distinguir as operações de um devaneio das experiências reais."
-      - "no 1º parágrafo a leitora Ana manifesta seu repúdio aos devaneios por conta da ilusão de felicidade e do prazer gratuito desses sonhos profundos."
-      - "no 2º parágrafo o autor caracteriza o devaneio como um sonho dentro da vigília, que em sua adolescência lhe parecia bem diverso de como Ana o vê."
-      - "no 3º parágrafo afirma-se que na adolescência, tal como ocorreu com a do autor, pode-se valer do devaneio para fugir dos limites de situações impostas."
+    - no 4º parágrafo fala alto a experiência de um escritor que aproveitou seus devaneios para intensificar a atmosfera fantasiosa de suas narrativas.
+    - no 5º parágrafo o autor se propõe a demonstrar que não há a possibilidade objetiva de se distinguir as operações de um devaneio das experiências reais.
+    - no 1º parágrafo a leitora Ana manifesta seu repúdio aos devaneios por conta da ilusão de felicidade e do prazer gratuito desses sonhos profundos.
+    - no 2º parágrafo o autor caracteriza o devaneio como um sonho dentro da vigília, que em sua adolescência lhe parecia bem diverso de como Ana o vê.
+    - no 3º parágrafo afirma-se que na adolescência, tal como ocorreu com a do autor, pode-se valer do devaneio para fugir dos limites de situações impostas.
+    gabarito: E
+    comentario: 'Gabarito E. Questão de estrutura/organização textual: a única alternativa fiel à arquitetura do texto é a E — no 3º parágrafo afirma-se que na adolescência (como a do próprio autor) o devaneio serve para fugir dos limites de situações impostas. As demais atribuem a conteúdo a parágrafos errados ou deturpam as ideias (B e D trocam o que cada parágrafo afirma; C inverte a posição de Ana).'
   4:
-    enunciado: "[Texto 'O devaneio é uma doença?'] As normas de concordância verbal estão plenamente observadas na frase:"
+    enunciado: '[Texto ''O devaneio é uma doença?''] As normas de concordância verbal estão plenamente observadas na frase:'
     alternativas:
-      - "É possível que o interesse pelo trabalho ou pelo amor venham a suprir os devaneios."
-      - "Sempre haverá os que querem que o sujeito dos sonhos se submeta a limitações."
-      - "São nos nossos devaneios que projetamos as realidades que mais nos convém."
-      - "Desprendem-se dos sonhos, quando marcantes, o que gostaríamos que permanecessem."
-      - "Não falta à curiosidade da leitora Ana respostas que também busca o autor do texto."
+    - É possível que o interesse pelo trabalho ou pelo amor venham a suprir os devaneios.
+    - Sempre haverá os que querem que o sujeito dos sonhos se submeta a limitações.
+    - São nos nossos devaneios que projetamos as realidades que mais nos convém.
+    - Desprendem-se dos sonhos, quando marcantes, o que gostaríamos que permanecessem.
+    - Não falta à curiosidade da leitora Ana respostas que também busca o autor do texto.
+    gabarito: B
+    comentario: 'Gabarito B. Concordância verbal: em ''Sempre haverá os que querem que o sujeito... se submeta a limitações'', ''haver'' no sentido de existir é impessoal e fica na 3ª pessoa do singular (''haverá'') — regra-mãe do tópico de concordância (haver impessoal nunca vai ao plural). As outras erram: A (''o interesse... venham'' — sujeito singular), C (''São nos... convém''), D e E têm o verbo discordando do sujeito real.'
   5:
-    enunciado: "[Texto 'O devaneio é uma doença?'] Em 'Infelizmente, enquanto a gente sonha sossegado, alguns se esforçam para transformar o devaneio num transtorno', numa nova redação que mantenha a correção e o sentido básico, o elemento sublinhado ('alguns se esforçam') pode ser adequadamente substituído por:"
+    enunciado: '[Texto ''O devaneio é uma doença?''] Em ''Infelizmente, enquanto a gente sonha sossegado, alguns se esforçam para transformar o devaneio num transtorno'', numa nova redação que mantenha a correção e o sentido básico, o elemento sublinhado (''alguns se esforçam'') pode ser adequadamente substituído por:'
     alternativas:
-      - "muitos hão de implementar no devaneio uma transformação transtornada."
-      - "várias pessoas laboram em constituir no devaneio como uma alucinação."
-      - "há os que não titubeiam para se transtornar um devaneio."
-      - "tem gente que não mede estratagemas para que um devaneio se transtorne."
-      - "não faltam os que se aplicam em fazer do devaneio uma perturbação."
+    - muitos hão de implementar no devaneio uma transformação transtornada.
+    - várias pessoas laboram em constituir no devaneio como uma alucinação.
+    - há os que não titubeiam para se transtornar um devaneio.
+    - tem gente que não mede estratagemas para que um devaneio se transtorne.
+    - não faltam os que se aplicam em fazer do devaneio uma perturbação.
+    gabarito: E
+    comentario: 'Gabarito E. Paráfrase com manutenção de sentido: ''alguns se esforçam para transformar o devaneio num transtorno'' equivale a ''não faltam os que se aplicam em fazer do devaneio uma perturbação'' (E), pois ''não faltam os que'' = ''alguns/há os que'', ''se aplicam'' = ''se esforçam'' e ''perturbação'' = ''transtorno'', preservando sentido, registro e correção. As demais introduzem regência/colocação ou escolhas lexicais que desviam o sentido (item ''Paráfrase'').'
   6:
-    enunciado: "[Texto 'O devaneio é uma doença?'] Considerando-se o contexto, traduz-se adequadamente o sentido de um segmento do texto em:"
+    enunciado: '[Texto ''O devaneio é uma doença?''] Considerando-se o contexto, traduz-se adequadamente o sentido de um segmento do texto em:'
     alternativas:
-      - "mereceria o enfado que ela lhe inspira (4º parágrafo) = faria jus ao tédio que ela lhe incute."
-      - "sem devanear mal consigo inventar (5º parágrafo) = nem a fuga do sonho me leva a criar."
-      - "fugindo para esse lugar fictício (1º parágrafo) = subtraindo-me o espaço ficcional."
-      - "o devaneio era meu aliado (2º parágrafo) = alienava-me no meu devanear."
-      - "aos poucos meu devaneio se acalmasse (4º parágrafo) = minimamente contornasse o meu sonho."
+    - mereceria o enfado que ela lhe inspira (4º parágrafo) = faria jus ao tédio que ela lhe incute.
+    - sem devanear mal consigo inventar (5º parágrafo) = nem a fuga do sonho me leva a criar.
+    - fugindo para esse lugar fictício (1º parágrafo) = subtraindo-me o espaço ficcional.
+    - o devaneio era meu aliado (2º parágrafo) = alienava-me no meu devanear.
+    - aos poucos meu devaneio se acalmasse (4º parágrafo) = minimamente contornasse o meu sonho.
+    gabarito: A
+    comentario: 'Gabarito A. Tradução de sentido no contexto: ''mereceria o enfado que ela lhe inspira'' = ''faria jus ao tédio que ela lhe incute'' (A) — ''merecer'' = ''fazer jus'', ''enfado'' = ''tédio'', ''inspirar'' = ''incutir'', mantendo a equivalência semântica. As demais paráfrases falham por inverter o sentido ou trocar a carga do termo (ex.: B e C alteram a relação lógica original).'
   7:
-    enunciado: "[Com base no texto 'Humanos e máquinas', de Yuval Noah Harari] Ao longo do texto, o autor trabalha com a hipótese de que o ser humano,"
+    enunciado: '[Com base no texto ''Humanos e máquinas'', de Yuval Noah Harari] Ao longo do texto, o autor trabalha com a hipótese de que o ser humano,'
     alternativas:
-      - "em vista de uma forçosa conexão sua com a rede, precisará estar na regência dos poderes dessa conexão."
-      - "compulsoriamente conectado com a rede, buscará constituir uma elite para poder competir com a mídia."
-      - "caso admita vir a estar conectado com a rede, usufruirá dos novos benefícios que ela lhe reserva."
-      - "tentado que está a se integrar ao sistema digital, deve buscar uma forma de fugir da tirania da eletrônica."
-      - "voltado ao convívio com as máquinas, deve tentar aperfeiçoá-las tecnicamente para auferir vantagens socioeconômicas."
+    - em vista de uma forçosa conexão sua com a rede, precisará estar na regência dos poderes dessa conexão.
+    - compulsoriamente conectado com a rede, buscará constituir uma elite para poder competir com a mídia.
+    - caso admita vir a estar conectado com a rede, usufruirá dos novos benefícios que ela lhe reserva.
+    - tentado que está a se integrar ao sistema digital, deve buscar uma forma de fugir da tirania da eletrônica.
+    - voltado ao convívio com as máquinas, deve tentar aperfeiçoá-las tecnicamente para auferir vantagens socioeconômicas.
+    gabarito: A
+    comentario: Gabarito A. A tese central do texto de Harari é que, diante de uma conexão inevitável (forçosa) do ser humano com a rede, é preciso garantir o controle/regência desses poderes para que não fiquem nas mãos de uma pequena elite — exatamente o que diz A. As demais atribuem ao autor hipóteses que ele não defende (competir com a mídia, fugir da 'tirania', aperfeiçoar máquinas por vantagem socioeconômica).
   8:
-    enunciado: "[Texto 'Humanos e máquinas'] Entre os efeitos que advirão de uma completa fusão do homem com as máquinas, o mais grave deles, sendo estrutural, representa-se nesta expressão do texto:"
+    enunciado: '[Texto ''Humanos e máquinas''] Entre os efeitos que advirão de uma completa fusão do homem com as máquinas, o mais grave deles, sendo estrutural, representa-se nesta expressão do texto:'
     alternativas:
-      - "meu cérebro e minha vida pertencem a mim (2º parágrafo)"
-      - "impedir que a humanidade se fragmente em castas biológicas (2º parágrafo)"
-      - "serviços de saúde talvez se recusem a cuidar de você (1º parágrafo)"
-      - "empregadores talvez se recusem a empregá-lo (1º parágrafo)"
-      - "adquirir o poder de fazer a engenharia da vida (2º parágrafo)"
+    - meu cérebro e minha vida pertencem a mim (2º parágrafo)
+    - impedir que a humanidade se fragmente em castas biológicas (2º parágrafo)
+    - serviços de saúde talvez se recusem a cuidar de você (1º parágrafo)
+    - empregadores talvez se recusem a empregá-lo (1º parágrafo)
+    - adquirir o poder de fazer a engenharia da vida (2º parágrafo)
+    gabarito: E
+    comentario: Gabarito E. O efeito mais grave e estrutural da fusão homem-máquina é a concentração do poder de 'fazer a engenharia da vida' (2º parágrafo) — é estrutural porque altera a própria base biológica/humana e pode fragmentar a humanidade em castas. As demais expressões descrevem consequências pontuais (recusa de serviços, de emprego) ou são a reivindicação do autor, não o efeito mais grave.
   9:
-    enunciado: "[Texto 'Humanos e máquinas'] Em 'Melhor será invocar juristas, políticos, filósofos e artistas para que voltem sua atenção para esta charada', o sentido e a correção da frase estarão preservados caso se substituam os elementos sublinhados ('invocar' e 'voltem sua atenção para esta'), na ordem dada, por:"
+    enunciado: '[Texto ''Humanos e máquinas''] Em ''Melhor será invocar juristas, políticos, filósofos e artistas para que voltem sua atenção para esta charada'', o sentido e a correção da frase estarão preservados caso se substituam os elementos sublinhados (''invocar'' e ''voltem sua atenção para esta''), na ordem dada, por:'
     alternativas:
-      - "ir onde se encontrem — dediquem-se com a razão desta"
-      - "apelar a ação de — instaurem o significado desta"
-      - "requerer os préstimos de — se apliquem na questão desta"
-      - "valer-se com esses — se detenham ao sentido desta"
-      - "recorrer de tais — proponham-se a elucidar nesta"
+    - ir onde se encontrem — dediquem-se com a razão desta
+    - apelar a ação de — instaurem o significado desta
+    - requerer os préstimos de — se apliquem na questão desta
+    - valer-se com esses — se detenham ao sentido desta
+    - recorrer de tais — proponham-se a elucidar nesta
+    gabarito: C
+    comentario: 'Gabarito C. Paráfrase com regência preservada: ''invocar'' = ''requerer os préstimos de'' e ''voltem sua atenção para esta (charada)'' = ''se apliquem na questão desta'' (C), mantendo sentido e correção. O acerto depende da regência (''aplicar-se em/na''); as demais tropeçam em regência ou sentido — ex.: ''apelar a ação de'', ''valer-se com'', ''recorrer de tais'' fogem da regência correta (item ''Regência'' e ''Paráfrase'').'
   10:
-    enunciado: "[Texto 'Humanos e máquinas'] Na reconstrução de uma frase do texto, há adequada correlação entre os tempos e modos verbais em:"
+    enunciado: '[Texto ''Humanos e máquinas''] Na reconstrução de uma frase do texto, há adequada correlação entre os tempos e modos verbais em:'
     alternativas:
-      - "A solução política mais factível haveria de ser esta, desde que a tenhamos considerado em sua gravidade."
-      - "À medida que os dados fluírem das máquinas para o nosso corpo, terá sido fácil para as empresas controlar-nos a todos."
-      - "Homens e máquinas poderiam se fundir tão completamente que os homens não terão sido capazes de sobreviver."
-      - "Se tivéssemos querido evitar que uma pequena elite mobilizasse esses poderes, a questão-chave teria sido desafiadora."
-      - "Melhor teria sido invocarmos filósofos, políticos e artistas para que nos venham a ajudar naquela charada."
+    - A solução política mais factível haveria de ser esta, desde que a tenhamos considerado em sua gravidade.
+    - À medida que os dados fluírem das máquinas para o nosso corpo, terá sido fácil para as empresas controlar-nos a todos.
+    - Homens e máquinas poderiam se fundir tão completamente que os homens não terão sido capazes de sobreviver.
+    - Se tivéssemos querido evitar que uma pequena elite mobilizasse esses poderes, a questão-chave teria sido desafiadora.
+    - Melhor teria sido invocarmos filósofos, políticos e artistas para que nos venham a ajudar naquela charada.
+    gabarito: D
+    comentario: 'Gabarito D. Correlação verbal em estrutura hipotética irreal do passado: ''Se tivéssemos querido evitar..., a questão-chave teria sido desafiadora'' (D) forma o par válido ''se tivesse + particípio → teria + particípio''. As demais quebram a consecutio temporum: B, C e E combinam futuro do subjuntivo/pretérito com formas incompatíveis, e A usa ''desde que a tenhamos considerado'' em desacordo com o tempo da principal (item ''Correlação verbal e estruturas hipotéticas'').'
   11:
-    enunciado: "Considere que o tempo de vida de um componente eletrônico segue uma distribuição exponencial. Se esse componente já está funcionando há 500 horas, a probabilidade de esse componente funcionar por mais 100 horas, em comparação à probabilidade de um componente novo funcionar pelas mesmas 100 horas,"
+    enunciado: Considere que o tempo de vida de um componente eletrônico segue uma distribuição exponencial. Se esse componente já está funcionando há 500 horas, a probabilidade de esse componente funcionar por mais 100 horas, em comparação à probabilidade de um componente novo funcionar pelas mesmas 100 horas,
     alternativas:
-      - "é nula, pois a distribuição exponencial define um tempo de vida máximo fixo que é atingido logo após as 500 horas."
-      - "depende do parâmetro da densidade, sendo impossível fazer afirmações sobre seu tempo de vida sem realizar o cálculo da integral da função densidade."
-      - "é significativamente menor, pois o componente já sofreu desgaste físico durante as 500 horas iniciais."
-      - "é maior, pois o fato de ter durado 500 horas prova que o componente é de alta qualidade."
-      - "é exatamente a mesma, pois a distribuição assume que a chance de falha futura não depende do tempo que já passou."
+    - é nula, pois a distribuição exponencial define um tempo de vida máximo fixo que é atingido logo após as 500 horas.
+    - depende do parâmetro da densidade, sendo impossível fazer afirmações sobre seu tempo de vida sem realizar o cálculo da integral da função densidade.
+    - é significativamente menor, pois o componente já sofreu desgaste físico durante as 500 horas iniciais.
+    - é maior, pois o fato de ter durado 500 horas prova que o componente é de alta qualidade.
+    - é exatamente a mesma, pois a distribuição assume que a chance de falha futura não depende do tempo que já passou.
+    gabarito: E
+    comentario: 'Gabarito E. A distribuição exponencial é a única distribuição contínua com a propriedade de falta de memória: \(P(T > s + t \mid T > s) = P(T > t)\). Como \(P(T > t) = e^{-\lambda t}\), tem-se \(\dfrac{P(T > 600 \mid T > 500)}{1} = \dfrac{e^{-\lambda\,600}}{e^{-\lambda\,500}} = e^{-\lambda\,100} = P(T > 100)\). Logo a chance de durar mais 100 horas é exatamente igual à de um componente novo durar 100 horas — o tempo já decorrido não altera a probabilidade futura, e não há "desgaste" nem "tempo de vida máximo" no modelo exponencial.'
   12:
-    enunciado: "Deseja-se estimar a proporção de empresas que não estão com os impostos pagos. Para tanto foram feitas várias visitas a empresas. Supondo que todas as hipóteses estejam satisfeitas, o menor tamanho do grupo a ser investigado para garantir que a proporção de inadimplentes na amostra difira por menos de 2% da verdadeira proporção de inadimplentes na população com probabilidade superior a 90% é (utilize Z₀,₉₀ = 1,64):"
+    enunciado: 'Deseja-se estimar a proporção de empresas que não estão com os impostos pagos. Para tanto foram feitas várias visitas a empresas. Supondo que todas as hipóteses estejam satisfeitas, o menor tamanho do grupo a ser investigado para garantir que a proporção de inadimplentes na amostra difira por menos de 2% da verdadeira proporção de inadimplentes na população com probabilidade superior a 90% é (utilize Z₀,₉₀ = 1,64):'
     alternativas:
-      - "1081"
-      - "2381"
-      - "1381"
-      - "1681"
-      - "2011"
+    - '1081'
+    - '2381'
+    - '1381'
+    - '1681'
+    - '2011'
+    gabarito: D
+    comentario: 'Gabarito D (1681). Para estimar uma proporção com margem de erro \(E = 2\% = 0{,}02\) e confiança de 90% \((Z = 1{,}64)\), usa-se o tamanho mínimo na pior hipótese \(p(1-p) = 0{,}25\): \(n = \dfrac{Z^{2}\,p(1-p)}{E^{2}} = \dfrac{(1{,}64)^{2}\cdot 0{,}25}{(0{,}02)^{2}} = \dfrac{2{,}6896 \cdot 0{,}25}{0{,}0004} = 1681\). Toma-se \(p = 0{,}5\) por ser o valor que maximiza a variância e garante o erro pedido qualquer que seja a verdadeira proporção.'
   13:
-    enunciado: "Um fabricante de computadores descobre que 10% de seus chips falham no teste de controle de qualidade. A probabilidade de que pelo menos um dos primeiros três chips que saem da linha de produção seja defeituoso é"
+    enunciado: Um fabricante de computadores descobre que 10% de seus chips falham no teste de controle de qualidade. A probabilidade de que pelo menos um dos primeiros três chips que saem da linha de produção seja defeituoso é
     alternativas:
-      - "0,729"
-      - "0,199"
-      - "0,999"
-      - "0,271"
-      - "0,001"
+    - 0,729
+    - 0,199
+    - 0,999
+    - 0,271
+    - 0,001
+    gabarito: D
+    comentario: 'Gabarito D (0,271). "Pelo menos um defeituoso" é o complementar de "nenhum defeituoso". Com falha \(p = 0{,}10\) e independência entre os três chips: \(P(\text{nenhum defeito}) = (0{,}9)^{3} = 0{,}729\), logo \(P(\text{pelo menos um}) = 1 - 0{,}729 = 0{,}271\). Usar o complementar (regra \(P(\overline{A}) = 1 - P(A)\)) é o caminho mais rápido em problemas de "pelo menos um".'
   14:
-    enunciado: "Considere os eventos A, B e C. Sabe-se que A e B são disjuntos e que P(A∪C) = P(B∪C) = P(A∪B∪C) = ⅚. Então o valor de P(C) é"
+    enunciado: Considere os eventos A, B e C. Sabe-se que A e B são disjuntos e que P(A∪C) = P(B∪C) = P(A∪B∪C) = ⅚. Então o valor de P(C) é
     alternativas:
-      - "2/3"
-      - "3/4"
-      - "1/2"
-      - "1/4"
-      - "1/3"
+    - 2/3
+    - 3/4
+    - 1/2
+    - 1/4
+    - 1/3
+    gabarito: C
+    comentario: 'Gabarito C. Conceito: com \(A\) e \(B\) disjuntos \((A \cap B = \varnothing)\), vale a identidade \((A \cup C) \cap (B \cup C) = C\), de modo que \(P(A \cup B \cup C) = P(A \cup C) + P(B \cup C) - P(C)\). Substituindo os dados \(P(A \cup C) = P(B \cup C) = P(A \cup B \cup C)\), obtém-se diretamente \(P(C) = P(A \cup C) + P(B \cup C) - P(A \cup B \cup C)\), isolando a probabilidade de \(C\) a partir das três uniões dadas. (Ordem das alternativas pode estar embaralhada no OCR, e os valores das probabilidades no enunciado parecem corrompidos — o método é a inclusão-exclusão com a hipótese de eventos disjuntos.)'
   15:
-    enunciado: "Em uma cidade, chove em um terço dos dias. Dado que está chovendo, haverá trânsito pesado com certa probabilidade; e dado que não está chovendo, haverá trânsito pesado com outra probabilidade. Se estiver chovendo e houver trânsito pesado, chego atrasado ao trabalho com determinada probabilidade; a probabilidade de me atrasar é reduzida caso não esteja chovendo e não haja trânsito pesado; e nas demais situações (chuvoso e sem trânsito, ou não chuvoso e com trânsito) a probabilidade de atraso é outra. Em um dia qualquer, a probabilidade de eu chegar atrasado é [enunciado com frações corrompidas no OCR]"
+    enunciado: Em uma cidade, chove em um terço dos dias. Dado que está chovendo, haverá trânsito pesado com certa probabilidade; e dado que não está chovendo, haverá trânsito pesado com outra probabilidade. Se estiver chovendo e houver trânsito pesado, chego atrasado ao trabalho com determinada probabilidade; a probabilidade de me atrasar é reduzida caso não esteja chovendo e não haja trânsito pesado; e nas demais situações (chuvoso e sem trânsito, ou não chuvoso e com trânsito) a probabilidade de atraso é outra. Em um dia qualquer, a probabilidade de eu chegar atrasado é [enunciado com frações corrompidas no OCR]
     alternativas:
-      - "11/48"
-      - "7/48"
-      - "19/48"
-      - "17/48"
-      - "13/48"
+    - 11/48
+    - 7/48
+    - 19/48
+    - 17/48
+    - 13/48
+    gabarito: A
+    comentario: 'Gabarito A. Conceito: aplica-se a lei da probabilidade total sobre a árvore de cenários (chove/não chove × há trânsito/não há). Como chove em \(\tfrac{1}{3}\) dos dias, \(P(\text{chuva}) = \tfrac{1}{3}\) e \(P(\overline{\text{chuva}}) = \tfrac{2}{3}\); somam-se as probabilidades condicionais de atraso ponderadas pela probabilidade de cada caminho: \(P(\text{atraso}) = \sum_i P(\text{atraso}\mid \text{caminho}_i)\,P(\text{caminho}_i)\), resultando \(\tfrac{11}{48}\). (As frações condicionais do enunciado vieram corrompidas no OCR; a técnica correta é a probabilidade total / diagrama de árvore.)'
   16:
-    enunciado: "Se, ao lançarmos uma moeda 3 vezes, aparecerem 3 caras ou 3 coroas, decidimos rejeitar H₀: p = ½ contra H₁: p ≠ ½. A probabilidade do erro tipo II se p = ¾ é [alternativas ilegíveis no OCR]"
+    enunciado: 'Se, ao lançarmos uma moeda 3 vezes, aparecerem 3 caras ou 3 coroas, decidimos rejeitar H₀: p = ½ contra H₁: p ≠ ½. A probabilidade do erro tipo II se p = ¾ é [alternativas ilegíveis no OCR]'
     alternativas:
-      - "[alternativa A ilegível no OCR]"
-      - "[alternativa B ilegível no OCR]"
-      - "[alternativa C ilegível no OCR]"
-      - "[alternativa D ilegível no OCR]"
-      - "[alternativa E ilegível no OCR]"
+    - '[alternativa A ilegível no OCR]'
+    - '[alternativa B ilegível no OCR]'
+    - '[alternativa C ilegível no OCR]'
+    - '[alternativa D ilegível no OCR]'
+    - '[alternativa E ilegível no OCR]'
+    gabarito: C
+    comentario: 'Gabarito C. Conceito: o erro tipo II \((\beta)\) é "não rejeitar \(H_0\) quando \(H_1\) é verdadeira". Rejeita-se \(H_0\!: p = \tfrac{1}{2}\) só com 3 caras ou 3 coroas; logo não se rejeita quando saem 1 ou 2 caras. Sob \(H_1\!: p = \tfrac{3}{4}\) (em 3 lançamentos binomiais), \(\beta = 1 - \left[(\tfrac{3}{4})^{3} + (\tfrac{1}{4})^{3}\right] = 1 - \left(\tfrac{27}{64} + \tfrac{1}{64}\right) = 1 - \tfrac{7}{16} = \tfrac{9}{16}\). (As alternativas vieram ilegíveis no OCR; o valor correto do erro tipo II é \(\tfrac{9}{16} = 0{,}5625\).)'
   17:
-    enunciado: "[Teste Qui-Quadrado; tabela de contingência Tipo de Indústria × pagamento de impostos: Tempestivo (Farmacêutica 60, Metalúrgica 25, Têxtil 15; total 100) e Intempestivo (20, 50, 30; total 100); totais por coluna 80, 75, 45; total geral 200] Supondo que a hipótese de independência seja verdadeira, o número esperado de metalúrgicas que não pagam seus impostos em dia é"
+    enunciado: '[Teste Qui-Quadrado; tabela de contingência Tipo de Indústria × pagamento de impostos: Tempestivo (Farmacêutica 60, Metalúrgica 25, Têxtil 15; total 100) e Intempestivo (20, 50, 30; total 100); totais por coluna 80, 75, 45; total geral 200] Supondo que a hipótese de independência seja verdadeira, o número esperado de metalúrgicas que não pagam seus impostos em dia é'
     alternativas:
-      - "40,0"
-      - "37,0"
-      - "45,0"
-      - "15,0"
-      - "37,5"
+    - 40,0
+    - 37,0
+    - 45,0
+    - 15,0
+    - 37,5
+    gabarito: E
+    comentario: 'Gabarito E (37,5). Sob a hipótese de independência, a frequência esperada de uma célula é \(E_{ij} = \dfrac{(\text{total da linha})\times(\text{total da coluna})}{\text{total geral}}\). Para metalúrgicas que pagam intempestivamente: linha "Metalúrgica" \(= 75\), coluna "Intempestivo" \(= 100\), total \(= 200\), logo \(E = \dfrac{75 \times 100}{200} = 37{,}5\).'
   18:
-    enunciado: "[Mesmos dados da questão 17; teste qui-quadrado de independência] Supondo que todas as hipóteses estão satisfeitas, o teste qui-quadrado para a hipótese nula de independência foi realizado e obteve-se χ² = 33,33. Com base na tabela da distribuição qui-quadrado fornecida (gl = 2: valores críticos 5,991 a 5%; 7,378 a 2,5%; 9,210 a 1%; 10,597 a 0,5%), a conclusão do teste é:"
+    enunciado: '[Mesmos dados da questão 17; teste qui-quadrado de independência] Supondo que todas as hipóteses estão satisfeitas, o teste qui-quadrado para a hipótese nula de independência foi realizado e obteve-se χ² = 33,33. Com base na tabela da distribuição qui-quadrado fornecida (gl = 2: valores críticos 5,991 a 5%; 7,378 a 2,5%; 9,210 a 1%; 10,597 a 0,5%), a conclusão do teste é:'
     alternativas:
-      - "Não se rejeita a hipótese nula, pois χ² é menor do que duas vezes 18,548."
-      - "Rejeita-se a hipótese nula, pois χ² é maior do que 10,597."
-      - "Rejeita-se a hipótese nula, pois χ² é maior do que duas vezes 7,879."
-      - "Rejeita-se a hipótese nula, pois χ² é maior do que 7,879."
-      - "Rejeita-se a hipótese, pois χ² é maior do que 16,750."
+    - Não se rejeita a hipótese nula, pois χ² é menor do que duas vezes 18,548.
+    - Rejeita-se a hipótese nula, pois χ² é maior do que 10,597.
+    - Rejeita-se a hipótese nula, pois χ² é maior do que duas vezes 7,879.
+    - Rejeita-se a hipótese nula, pois χ² é maior do que 7,879.
+    - Rejeita-se a hipótese, pois χ² é maior do que 16,750.
+    gabarito: B
+    comentario: 'Gabarito B. No teste qui-quadrado de independência com \(\text{gl} = (\text{linhas}-1) (\text{colunas}-1) = (3-1)(2-1) = 2\), rejeita-se \(H_0\) quando o \(\chi^2\) calculado supera o valor crítico. Como \(\chi^2 = 33{,}33\) é maior que todos os valores tabelados para gl = 2, inclusive o de 0,5% \((10{,}597)\), rejeita-se a hipótese nula de independência: \(33{,}33 > 10{,}597\). Há forte evidência de associação entre tipo de indústria e tempestividade do pagamento.'
   19:
-    enunciado: "Em uma aplicação financeira A, com juros simples de 2% ao mês, foi aplicado o valor de R$ 10.000,00. Em outra aplicação financeira B, com juros compostos de 1% ao mês, foi aplicado também o valor de R$ 10.000,00. Após dois meses, sem qualquer retirada das duas aplicações, a diferença entre os dois montantes é"
+    enunciado: Em uma aplicação financeira A, com juros simples de 2% ao mês, foi aplicado o valor de R$ 10.000,00. Em outra aplicação financeira B, com juros compostos de 1% ao mês, foi aplicado também o valor de R$ 10.000,00. Após dois meses, sem qualquer retirada das duas aplicações, a diferença entre os dois montantes é
     alternativas:
-      - "R$ 299,00"
-      - "R$ 199,00"
-      - "R$ 100,00"
-      - "R$ 119,00"
-      - "R$ 219,00"
+    - R$ 299,00
+    - R$ 199,00
+    - R$ 100,00
+    - R$ 119,00
+    - R$ 219,00
+    gabarito: B
+    comentario: 'Gabarito B (R$ 199,00). Aplicação A (juros simples 2% a.m.): \(M_A = 10000\,(1 + 0{,}02 \times 2) = 10000 \times 1{,}04 = 10400{,}00\). Aplicação B (juros compostos 1% a.m.): \(M_B = 10000\,(1{,}01)^{2} = 10000 \times 1{,}0201 = 10201{,}00\). A diferença é \(M_A - M_B = 10400 - 10201 = 199{,}00\).'
   20:
-    enunciado: "Em uma loja, um celular pode ser comprado à vista com desconto de 5% no valor anunciado ou a prazo em duas parcelas fixas, sem acréscimo, sendo a 1ª parcela na entrada e a 2ª parcela depois de 30 dias. O valor aproximado da taxa mensal de juros praticada nessa loja é"
+    enunciado: Em uma loja, um celular pode ser comprado à vista com desconto de 5% no valor anunciado ou a prazo em duas parcelas fixas, sem acréscimo, sendo a 1ª parcela na entrada e a 2ª parcela depois de 30 dias. O valor aproximado da taxa mensal de juros praticada nessa loja é
     alternativas:
-      - "12%"
-      - "8%"
-      - "10%"
-      - "9%"
-      - "11%"
+    - 12%
+    - 8%
+    - 10%
+    - 9%
+    - 11%
+    gabarito: E
+    comentario: 'Gabarito E (11%). À vista paga-se \(0{,}95V\); a prazo, duas parcelas de \(0{,}50V\), a 1ª na entrada (valor presente) e a 2ª em 30 dias. Igualando o valor presente do plano a prazo ao preço à vista: \(0{,}95V = 0{,}50V + \dfrac{0{,}50V}{1+i}\). Daí \(0{,}45V = \dfrac{0{,}50V}{1+i} \Rightarrow 1+i = \dfrac{0{,}50}{0{,}45} = 1{,}1111\ldots\), ou seja, \(i \approx 11\%\) ao mês.'
   21:
-    enunciado: "À luz da Constituição Federal e da jurisprudência do STF, lei estadual que estabeleça a exigência de depósito prévio para admissibilidade de recurso administrativo, no âmbito do processo administrativo estadual, será inconstitucional"
+    enunciado: À luz da Constituição Federal e da jurisprudência do STF, lei estadual que estabeleça a exigência de depósito prévio para admissibilidade de recurso administrativo, no âmbito do processo administrativo estadual, será inconstitucional
     alternativas:
-      - "formalmente, por ofensa a competência legislativa privativa da União, cabendo ser objeto de ação direta de inconstitucionalidade perante o STF, mas não perante o Tribunal de Justiça do Estado respectivo."
-      - "materialmente, por ofensa a normas definidoras de direitos e garantias fundamentais, cabendo ser objeto de reclamação perante o STF, por ofensa a súmula vinculante."
-      - "materialmente, por ofensa a normas definidoras de direitos e garantias fundamentais, cabendo ser objeto de ação direta de inconstitucionalidade, seja perante o STF ou perante o Tribunal de Justiça do Estado respectivo."
-      - "material e formalmente, cabendo ser objeto de arguição de descumprimento de preceito fundamental perante o STF."
-      - "formalmente, por ofensa a competência legislativa privativa da União, cabendo ser objeto de reclamação perante o STF, por ofensa a súmula vinculante."
+    - formalmente, por ofensa a competência legislativa privativa da União, cabendo ser objeto de ação direta de inconstitucionalidade perante o STF, mas não perante o Tribunal de Justiça do Estado respectivo.
+    - materialmente, por ofensa a normas definidoras de direitos e garantias fundamentais, cabendo ser objeto de reclamação perante o STF, por ofensa a súmula vinculante.
+    - materialmente, por ofensa a normas definidoras de direitos e garantias fundamentais, cabendo ser objeto de ação direta de inconstitucionalidade, seja perante o STF ou perante o Tribunal de Justiça do Estado respectivo.
+    - material e formalmente, cabendo ser objeto de arguição de descumprimento de preceito fundamental perante o STF.
+    - formalmente, por ofensa a competência legislativa privativa da União, cabendo ser objeto de reclamação perante o STF, por ofensa a súmula vinculante.
+    gabarito: C
+    comentario: Gabarito C. Exigir depósito prévio para admissibilidade de recurso administrativo viola o direito de petição (art. 5º, XXXIV), a ampla defesa (art. 5º, LV) e o acesso à justiça (art. 5º, XXXV), configurando vício MATERIAL (de conteúdo), e não formal — daí estarem erradas as letras que falam em competência legislativa da União. É exatamente o teor da Súmula Vinculante 21 do STF ('é inconstitucional a exigência de depósito ou arrolamento prévios de dinheiro ou bens para admissibilidade de recurso administrativo'). Como a norma é estadual e contraria também a Constituição do Estado (que reproduz tais garantias), cabe ADI tanto no STF (em face da CF) quanto no TJ (em face da Constituição estadual) — controle concentrado estadual do art. 125, § 2º, da CF.
   22:
-    enunciado: "[Trechos de voto do Relator em ADPFs contra lei do Estado de São Paulo que estabelece diretrizes para prorrogação e relicitação de contratos de parceria, julgadas improcedentes] À luz da Constituição Federal e da jurisprudência do STF, as referidas ações foram propostas contra lei considerada"
+    enunciado: '[Trechos de voto do Relator em ADPFs contra lei do Estado de São Paulo que estabelece diretrizes para prorrogação e relicitação de contratos de parceria, julgadas improcedentes] À luz da Constituição Federal e da jurisprudência do STF, as referidas ações foram propostas contra lei considerada'
     alternativas:
-      - "constitucional, por se tratar de exercício regular de competência própria do Estado, em matéria de competência legislativa concorrente, em relação à qual cabe à União editar normas gerais."
-      - "constitucional, por se tratar de exercício regular de competência suplementar do Município para legislar com vistas a atender ao interesse local, de modo compatível com as normas gerais editadas pela União."
-      - "inconstitucional, por se tratar de exercício irregular de competência suplementar de ente subnacional, em matéria de competência legislativa concorrente, em relação à qual cabe à União editar normas gerais."
-      - "constitucional, por se tratar de exercício regular de competência suplementar do Estado para legislar com vistas a atender a suas peculiaridades, de modo compatível com as normas gerais editadas pela União."
-      - "constitucional, por se tratar de exercício regular de competência própria do Município para editar normas gerais, que atendam ao interesse local, ainda que inexistentes normas federais ou estaduais sobre a matéria."
+    - constitucional, por se tratar de exercício regular de competência própria do Estado, em matéria de competência legislativa concorrente, em relação à qual cabe à União editar normas gerais.
+    - constitucional, por se tratar de exercício regular de competência suplementar do Município para legislar com vistas a atender ao interesse local, de modo compatível com as normas gerais editadas pela União.
+    - inconstitucional, por se tratar de exercício irregular de competência suplementar de ente subnacional, em matéria de competência legislativa concorrente, em relação à qual cabe à União editar normas gerais.
+    - constitucional, por se tratar de exercício regular de competência suplementar do Estado para legislar com vistas a atender a suas peculiaridades, de modo compatível com as normas gerais editadas pela União.
+    - constitucional, por se tratar de exercício regular de competência própria do Município para editar normas gerais, que atendam ao interesse local, ainda que inexistentes normas federais ou estaduais sobre a matéria.
+    gabarito: B
+    comentario: 'Gabarito B (com a ressalva de que a letra correta descreve a competência SUPLEMENTAR do ESTADO; o texto que menciona ''Município'' parece deslocado pelo OCR — ordem das alternativas pode estar embaralhada no OCR). Lei do Estado de São Paulo sobre prorrogação e relicitação de contratos de parceria foi reputada CONSTITUCIONAL pelo STF: trata-se de competência legislativa concorrente (art. 24, em matérias como direito econômico/financeiro), na qual à União cabe editar NORMAS GERAIS (§ 1º) e ao Estado a competência SUPLEMENTAR para atender a suas peculiaridades (§ 2º), de modo compatível com as normas gerais federais. Logo, exercício regular de competência suplementar estadual, não usurpação.'
   23:
-    enunciado: "Ao dispor sobre a fiscalização contábil, financeira e orçamentária do Estado de Goiás, a Constituição estadual estabelece que"
+    enunciado: Ao dispor sobre a fiscalização contábil, financeira e orçamentária do Estado de Goiás, a Constituição estadual estabelece que
     alternativas:
-      - "compete ao Tribunal de Contas do Estado julgar as contas anuais prestadas pelo Tribunal de Contas dos Municípios, pelo Governador do Estado e as dos administradores e demais responsáveis por dinheiros, bens e valores públicos na administração estadual."
-      - "cabe à Assembleia Legislativa, com a sanção do Governador, autorizar o Estado a contrair empréstimos internos e externos, bem como conceder garantias do Tesouro Estadual em operações de crédito."
-      - "a Comissão parlamentar permanente encarregada do acompanhamento e fiscalização orçamentária, diante de indícios de despesas não autorizadas, poderá solicitar esclarecimentos à autoridade responsável e, caso haja risco de grave lesão à economia pública, determinar a sustação da despesa."
-      - "os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas do Estado, sob pena de responsabilidade solidária, nos mesmos moldes estabelecidos pela Constituição Federal no âmbito federal."
-      - "os Poderes Executivo, Legislativo e Judiciário manterão, de forma integrada, um sistema permanente de monitoramento e avaliação de políticas públicas, cujo órgão central é o Tribunal de Contas do Estado."
+    - compete ao Tribunal de Contas do Estado julgar as contas anuais prestadas pelo Tribunal de Contas dos Municípios, pelo Governador do Estado e as dos administradores e demais responsáveis por dinheiros, bens e valores públicos na administração estadual.
+    - cabe à Assembleia Legislativa, com a sanção do Governador, autorizar o Estado a contrair empréstimos internos e externos, bem como conceder garantias do Tesouro Estadual em operações de crédito.
+    - a Comissão parlamentar permanente encarregada do acompanhamento e fiscalização orçamentária, diante de indícios de despesas não autorizadas, poderá solicitar esclarecimentos à autoridade responsável e, caso haja risco de grave lesão à economia pública, determinar a sustação da despesa.
+    - os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas do Estado, sob pena de responsabilidade solidária, nos mesmos moldes estabelecidos pela Constituição Federal no âmbito federal.
+    - os Poderes Executivo, Legislativo e Judiciário manterão, de forma integrada, um sistema permanente de monitoramento e avaliação de políticas públicas, cujo órgão central é o Tribunal de Contas do Estado.
+    gabarito: D
+    comentario: 'Gabarito D. Por simetria ao art. 74, § 1º, da CF, a Constituição de Goiás (art. 27) determina que os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas, SOB PENA DE RESPONSABILIDADE SOLIDÁRIA. As demais erram: quem JULGA as contas anuais do Governador é a Assembleia Legislativa (o TCE-GO apenas emite parecer prévio — art. 26, CE-GO/art. 71, I, CF); a sustação de despesa não autorizada pela comissão de fiscalização orçamentária segue o rito do art. 72, § 1º, da CF (a sustação é determinada pelo Congresso/Assembleia, não pela própria comissão de imediato).'
   24:
-    enunciado: "Considera-se mecanismo de controle político de constitucionalidade, previsto na Constituição do Estado de Goiás, a"
+    enunciado: Considera-se mecanismo de controle político de constitucionalidade, previsto na Constituição do Estado de Goiás, a
     alternativas:
-      - "sustação, pela Assembleia Legislativa, dos atos normativos do Poder Executivo em desacordo com a lei ou que exorbitem do poder regulamentar ou dos limites de delegação legislativa."
-      - "emissão de parecer, por Comissão especial da Assembleia Legislativa, sobre a admissibilidade de medidas provisórias editadas pelo Governador do Estado, previamente à deliberação legislativa."
-      - "apreciação, pelo Tribunal de Contas do Estado, para fins de registro, dos atos de admissão de pessoal, a qualquer título, na administração direta e indireta, excetuadas as nomeações para cargo de provimento em comissão."
-      - "oposição de veto, pelo Governador do Estado, a projeto de lei aprovado pela Assembleia Legislativa, no prazo de quinze dias úteis contados do recebimento, por considerá-lo no todo ou em parte inconstitucional."
-      - "sustação, pela Assembleia Legislativa, do andamento de ação penal instaurada pelo Tribunal de Justiça contra Deputado Estadual, por crime ocorrido após a diplomação."
+    - sustação, pela Assembleia Legislativa, dos atos normativos do Poder Executivo em desacordo com a lei ou que exorbitem do poder regulamentar ou dos limites de delegação legislativa.
+    - emissão de parecer, por Comissão especial da Assembleia Legislativa, sobre a admissibilidade de medidas provisórias editadas pelo Governador do Estado, previamente à deliberação legislativa.
+    - apreciação, pelo Tribunal de Contas do Estado, para fins de registro, dos atos de admissão de pessoal, a qualquer título, na administração direta e indireta, excetuadas as nomeações para cargo de provimento em comissão.
+    - oposição de veto, pelo Governador do Estado, a projeto de lei aprovado pela Assembleia Legislativa, no prazo de quinze dias úteis contados do recebimento, por considerá-lo no todo ou em parte inconstitucional.
+    - sustação, pela Assembleia Legislativa, do andamento de ação penal instaurada pelo Tribunal de Justiça contra Deputado Estadual, por crime ocorrido após a diplomação.
+    gabarito: D
+    comentario: 'Gabarito D. Considera-se mecanismo de controle político de constitucionalidade o veto JURÍDICO: a oposição de veto pelo Governador a projeto de lei por reputá-lo inconstitucional (no todo ou em parte), no prazo de quinze dias úteis — reprodução, por simetria, do art. 66, § 1º, da CF. É controle prévio e político porque exercido pelo chefe do Executivo antes da entrada em vigor da lei. A sustação de atos do Executivo pela Assembleia (art. 49, V, CF, por simetria) controla excesso do poder regulamentar/delegação, não a constitucionalidade da lei; e o STF, na ADI 5290, derrubou em Goiás a sustação por mera ilegalidade e a de atos dos Tribunais de Contas.'
   25:
-    enunciado: "[Trecho de ementa do STF sobre direito que oportuniza ao cidadão ser cointérprete da Constituição e realizar atos de protesto eventualmente inconvenientes aos não-participantes] À luz da disciplina constitucional dos direitos e garantias fundamentais, o acórdão refere-se à liberdade de"
+    enunciado: '[Trecho de ementa do STF sobre direito que oportuniza ao cidadão ser cointérprete da Constituição e realizar atos de protesto eventualmente inconvenientes aos não-participantes] À luz da disciplina constitucional dos direitos e garantias fundamentais, o acórdão refere-se à liberdade de'
     alternativas:
-      - "opinião."
-      - "reunião."
-      - "associação."
-      - "locomoção."
-      - "expressão do pensamento."
+    - opinião.
+    - reunião.
+    - associação.
+    - locomoção.
+    - expressão do pensamento.
+    gabarito: B
+    comentario: 'Gabarito B (liberdade de reunião). O direito de o cidadão ser ''cointérprete da Constituição'' e realizar atos de protesto coletivos e transitórios, eventualmente inconvenientes a terceiros, é exercício da LIBERDADE DE REUNIÃO (art. 5º, XVI): todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização (exigido apenas prévio aviso à autoridade). Distingue-se da associação (art. 5º, XVII), marcada pela PERMANÊNCIA/vínculo estável, e da livre expressão do pensamento (inc. IV); a reunião é o agrupamento coletivo, transitório, voltado ao protesto público.'
   26:
-    enunciado: "Certo partido político, com representação na Câmara Municipal, pretende ajuizar ação direta de inconstitucionalidade perante o Tribunal de Justiça do Estado, em face de lei de Município goiano que proíbe o corte no fornecimento de energia elétrica e água com menos de 60 dias de atraso do pagamento, por entender que a norma viola competências da União. Nos termos da Constituição Federal, da Constituição do Estado de Goiás e da jurisprudência do STF, a ação direta seria, em tese,"
+    enunciado: Certo partido político, com representação na Câmara Municipal, pretende ajuizar ação direta de inconstitucionalidade perante o Tribunal de Justiça do Estado, em face de lei de Município goiano que proíbe o corte no fornecimento de energia elétrica e água com menos de 60 dias de atraso do pagamento, por entender que a norma viola competências da União. Nos termos da Constituição Federal, da Constituição do Estado de Goiás e da jurisprudência do STF, a ação direta seria, em tese,
     alternativas:
-      - "incabível, caso o partido político não possua representação no Congresso Nacional, pois não estará legitimado para a propositura da ação."
-      - "incabível, uma vez que o Tribunal de Justiça não possui competência para o julgamento da matéria, que envolve violação à Constituição Federal, e não à Constituição estadual."
-      - "cabível, embora, no mérito, a inconstitucionalidade da lei municipal seja parcial, apenas por violação às competências administrativa e legislativa da União em matéria de energia elétrica."
-      - "cabível, embora, no mérito, a inconstitucionalidade da lei municipal seja parcial, apenas por violação às competências administrativa e legislativa da União em matéria de águas."
-      - "cabível, ademais de, no mérito, a lei municipal ser integralmente inconstitucional, por violação às competências administrativas e legislativas da União em matéria de energia elétrica e águas."
+    - incabível, caso o partido político não possua representação no Congresso Nacional, pois não estará legitimado para a propositura da ação.
+    - incabível, uma vez que o Tribunal de Justiça não possui competência para o julgamento da matéria, que envolve violação à Constituição Federal, e não à Constituição estadual.
+    - cabível, embora, no mérito, a inconstitucionalidade da lei municipal seja parcial, apenas por violação às competências administrativa e legislativa da União em matéria de energia elétrica.
+    - cabível, embora, no mérito, a inconstitucionalidade da lei municipal seja parcial, apenas por violação às competências administrativa e legislativa da União em matéria de águas.
+    - cabível, ademais de, no mérito, a lei municipal ser integralmente inconstitucional, por violação às competências administrativas e legislativas da União em matéria de energia elétrica e águas.
+    gabarito: C
+    comentario: 'Gabarito C. A ADI estadual perante o TJ é CABÍVEL: partido político com representação na Câmara Municipal é legitimado conforme a Constituição estadual, e o TJ é competente para julgar representação de inconstitucionalidade de lei municipal em face da Constituição do Estado (art. 125, § 2º, CF) — não se exige representação no Congresso Nacional para esse controle estadual. No mérito, a inconstitucionalidade é PARCIAL: legislar sobre ENERGIA ELÉTRICA é competência privativa da União (art. 22, IV), e o STF firma que lei local que proíbe o corte por inadimplência invade essa competência; já a competência sobre ÁGUAS comporta atuação local em consumo, daí a nulidade alcançar apenas a parte de energia elétrica.'
   27:
-    enunciado: "Dois irmãos gêmeos, com 29 anos, sendo um membro do Ministério Público Federal e solteiro, e a outra servidora pública ocupante de cargo efetivo em administração estadual e casada com um Prefeito no exercício de seu segundo mandato, foram convidados a se filiarem a partido e concorrerem a vagas na Assembleia Legislativa do Estado em que residem. Considerando que ambos pretendem manter os cargos atuais, nos termos da Constituição Federal e da jurisprudência do STF,"
+    enunciado: Dois irmãos gêmeos, com 29 anos, sendo um membro do Ministério Público Federal e solteiro, e a outra servidora pública ocupante de cargo efetivo em administração estadual e casada com um Prefeito no exercício de seu segundo mandato, foram convidados a se filiarem a partido e concorrerem a vagas na Assembleia Legislativa do Estado em que residem. Considerando que ambos pretendem manter os cargos atuais, nos termos da Constituição Federal e da jurisprudência do STF,
     alternativas:
-      - "ambos poderão se filiar e se candidatar ao mandato pretendido, embora ele precise se licenciar do exercício do cargo até seis meses antes do pleito; se eleito, ficará afastado do cargo, sendo-lhe facultado optar pela sua remuneração."
-      - "ambos poderão se filiar, mas nenhum poderá se candidatar ao mandato pretendido, pois, embora tenham domicílio e idade mínima exigida, são inelegíveis, como cônjuge e parente por afinidade de segundo grau de chefe de Poder Executivo."
-      - "apenas ela poderá se filiar e se candidatar ao mandato pretendido; se eleita, ficará afastada do cargo efetivo e seu tempo de serviço será contado para todos os efeitos legais, exceto para promoção por merecimento."
-      - "apenas ela poderá se filiar e se candidatar ao mandato pretendido; se eleita, havendo compatibilidade de horários, perceberá as vantagens de seu cargo efetivo, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, será afastada do cargo efetivo."
-      - "ambos poderão se filiar, mas apenas ela poderá se candidatar ao mandato pretendido; se eleita, ficará afastada do cargo efetivo e, se for segurada de regime próprio de previdência social, permanecerá filiada a esse regime, no ente federativo de origem."
+    - ambos poderão se filiar e se candidatar ao mandato pretendido, embora ele precise se licenciar do exercício do cargo até seis meses antes do pleito; se eleito, ficará afastado do cargo, sendo-lhe facultado optar pela sua remuneração.
+    - ambos poderão se filiar, mas nenhum poderá se candidatar ao mandato pretendido, pois, embora tenham domicílio e idade mínima exigida, são inelegíveis, como cônjuge e parente por afinidade de segundo grau de chefe de Poder Executivo.
+    - apenas ela poderá se filiar e se candidatar ao mandato pretendido; se eleita, ficará afastada do cargo efetivo e seu tempo de serviço será contado para todos os efeitos legais, exceto para promoção por merecimento.
+    - apenas ela poderá se filiar e se candidatar ao mandato pretendido; se eleita, havendo compatibilidade de horários, perceberá as vantagens de seu cargo efetivo, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, será afastada do cargo efetivo.
+    - ambos poderão se filiar, mas apenas ela poderá se candidatar ao mandato pretendido; se eleita, ficará afastada do cargo efetivo e, se for segurada de regime próprio de previdência social, permanecerá filiada a esse regime, no ente federativo de origem.
+    gabarito: C
+    comentario: 'Gabarito C. Apenas ELA pode candidatar-se: o irmão, membro do MINISTÉRIO PÚBLICO, está sujeito à vedação constitucional de exercício de atividade político-partidária (art. 128, § 5º, II, ''e''), salvo filiados antes da EC 45/2004 — pela regra atual, não pode concorrer mantendo o cargo. Ela é servidora efetiva e, embora casada com Prefeito, a inelegibilidade reflexa (art. 14, § 7º) alcança o território de jurisdição do chefe do Executivo, mas ela disputa vaga na Assembleia (âmbito estadual) — sendo inelegível apenas no Município do cônjuge, não para deputada estadual. Eleita, afasta-se do cargo efetivo e o tempo de serviço conta para todos os efeitos legais, EXCETO promoção por merecimento (art. 38, IV, CF).'
   28:
-    enunciado: "Nos termos da Constituição Federal e da jurisprudência do STF, tanto o cidadão está legitimado para ajuizar ação popular, quanto o Ministério Público tem legitimidade para ajuizar ação civil pública, quando visarem a"
+    enunciado: Nos termos da Constituição Federal e da jurisprudência do STF, tanto o cidadão está legitimado para ajuizar ação popular, quanto o Ministério Público tem legitimidade para ajuizar ação civil pública, quando visarem a
     alternativas:
-      - "discutir o domínio de bem expropriado, desde que não tenha ocorrido ainda o trânsito em julgado de sentença condenatória proferida em sede de ação desapropriatória."
-      - "declarar a nulidade de ato lesivo à moralidade administrativa, sob o fundamento de inconstitucionalidade, desde que haja comprovação de prejuízo ao erário público."
-      - "executar decisões de condenação patrimonial proferidas pelos Tribunais de Contas."
-      - "deduzir pretensão relativa à matéria tributária."
-      - "anular atos administrativos de aposentadoria de servidores públicos que importem lesão ao patrimônio público."
+    - discutir o domínio de bem expropriado, desde que não tenha ocorrido ainda o trânsito em julgado de sentença condenatória proferida em sede de ação desapropriatória.
+    - declarar a nulidade de ato lesivo à moralidade administrativa, sob o fundamento de inconstitucionalidade, desde que haja comprovação de prejuízo ao erário público.
+    - executar decisões de condenação patrimonial proferidas pelos Tribunais de Contas.
+    - deduzir pretensão relativa à matéria tributária.
+    - anular atos administrativos de aposentadoria de servidores públicos que importem lesão ao patrimônio público.
+    gabarito: E
+    comentario: 'Gabarito E. Tanto a ação popular (cidadão — art. 5º, LXXIII) quanto a ação civil pública (Ministério Público — Lei 7.347/1985) servem para anular ATO ADMINISTRATIVO lesivo ao patrimônio público, como o de aposentadoria de servidor que importe lesão ao erário. As demais não cabem em ambas: a ACP é VEDADA em matéria TRIBUTÁRIA (art. 1º, parágrafo único, da Lei 7.347/85), o que afasta a alternativa de pretensão tributária; e a execução de decisões dos Tribunais de Contas e a discussão de domínio de bem expropriado não são objeto comum desses dois instrumentos.'
   29:
-    enunciado: "Considere as situações hipotéticas: (I) Projeto de lei ordinária, de matéria sujeita à iniciativa privativa do Governador e para a qual não se exige lei complementar, é transformado em projeto de lei complementar por emenda parlamentar, mantido o teor do projeto inicial. (II) Projeto de lei, de iniciativa parlamentar, determina que sejam transmitidas ao vivo, pela internet, as licitações realizadas pelo Poder Executivo estadual. Diante da disciplina constitucional do processo legislativo e da jurisprudência do STF,"
+    enunciado: 'Considere as situações hipotéticas: (I) Projeto de lei ordinária, de matéria sujeita à iniciativa privativa do Governador e para a qual não se exige lei complementar, é transformado em projeto de lei complementar por emenda parlamentar, mantido o teor do projeto inicial. (II) Projeto de lei, de iniciativa parlamentar, determina que sejam transmitidas ao vivo, pela internet, as licitações realizadas pelo Poder Executivo estadual. Diante da disciplina constitucional do processo legislativo e da jurisprudência do STF,'
     alternativas:
-      - "apenas a situação I é incompatível com a Constituição Federal, por extrapolação do poder de emenda parlamentar em matéria de iniciativa privativa do chefe do Executivo."
-      - "ambas as situações são compatíveis com a Constituição Federal."
-      - "apenas a situação II é incompatível com a Constituição Federal, por usurpar iniciativa privativa do chefe do Executivo."
-      - "ambas as situações serão compatíveis com a Constituição Federal, desde que, se aprovados, os projetos sejam expressamente sancionados pelo Governador, sanando eventuais vícios de iniciativa ou de extrapolação do poder de emenda parlamentar."
-      - "ambas as situações são incompatíveis com a Constituição Federal."
+    - apenas a situação I é incompatível com a Constituição Federal, por extrapolação do poder de emenda parlamentar em matéria de iniciativa privativa do chefe do Executivo.
+    - ambas as situações são compatíveis com a Constituição Federal.
+    - apenas a situação II é incompatível com a Constituição Federal, por usurpar iniciativa privativa do chefe do Executivo.
+    - ambas as situações serão compatíveis com a Constituição Federal, desde que, se aprovados, os projetos sejam expressamente sancionados pelo Governador, sanando eventuais vícios de iniciativa ou de extrapolação do poder de emenda parlamentar.
+    - ambas as situações são incompatíveis com a Constituição Federal.
+    gabarito: B
+    comentario: 'Gabarito B (ambas compatíveis). Situação I: transformar projeto de lei ordinária em lei complementar por emenda parlamentar, mantido o teor, NÃO é inconstitucional — não há reserva de iniciativa quanto à espécie, e o conteúdo permaneceu o mesmo, sem extrapolar a matéria de iniciativa do Governador. Situação II: lei de iniciativa parlamentar exigindo transmissão ao vivo das licitações é matéria de TRANSPARÊNCIA/publicidade, não de organização administrativa privativa do Executivo (art. 61, § 1º), conforme jurisprudência do STF que admite leis parlamentares sobre transparência sem usurpar iniciativa reservada. Logo, nenhuma das situações afronta a CF.'
   30:
-    enunciado: "Ao dispor sobre o Fundo de Estabilização Econômica do Estado de Goiás (FEG), a Constituição estadual estabelece que: (I) o FEG é fundo especial de natureza financeira e contábil, utilizável como reserva estratégica para estabilização fiscal, poupança intergeracional e mitigação de riscos fiscais; (II) sua administração, vinculada à Secretaria de Estado da Economia, dar-se-á por unidade orçamentária específica e observará as melhores práticas internacionais, inclusive os Princípios de Santiago; (III) a reserva mínima equivalerá a percentual do PIB do Estado a ser especificado em lei complementar, que regulamentará a origem dos recursos e suas regras de aplicação; (IV) o resgate de recursos pelo Governo dependerá de o valor do FEG estar acima do limite inferior estabelecido em lei, exceto quando sujeito a parâmetros estimados no Resultado Fiscal Estrutural (RFE). Está correto o que se afirma APENAS em"
+    enunciado: 'Ao dispor sobre o Fundo de Estabilização Econômica do Estado de Goiás (FEG), a Constituição estadual estabelece que: (I) o FEG é fundo especial de natureza financeira e contábil, utilizável como reserva estratégica para estabilização fiscal, poupança intergeracional e mitigação de riscos fiscais; (II) sua administração, vinculada à Secretaria de Estado da Economia, dar-se-á por unidade orçamentária específica e observará as melhores práticas internacionais, inclusive os Princípios de Santiago; (III) a reserva mínima equivalerá a percentual do PIB do Estado a ser especificado em lei complementar, que regulamentará a origem dos recursos e suas regras de aplicação; (IV) o resgate de recursos pelo Governo dependerá de o valor do FEG estar acima do limite inferior estabelecido em lei, exceto quando sujeito a parâmetros estimados no Resultado Fiscal Estrutural (RFE). Está correto o que se afirma APENAS em'
     alternativas:
-      - "I, II e III."
-      - "III e IV."
-      - "I e IV."
-      - "I e II."
-      - "II, III e IV."
+    - I, II e III.
+    - III e IV.
+    - I e IV.
+    - I e II.
+    - II, III e IV.
+    gabarito: A
+    comentario: 'Gabarito A (I, II e III). Conforme a Constituição de Goiás (arts. 136-A a 136-E, inseridos pela EC estadual 86/2025, regulamentada pela LC 208/2025): (I) o FEG é fundo especial de natureza financeira e contábil, reserva estratégica para estabilização fiscal e poupança intergeracional — correto; (II) é vinculado à Secretaria de Estado da Economia e observa as melhores práticas internacionais, inclusive os Princípios de Santiago — correto; (III) a reserva mínima equivale a percentual do PIB definido em lei complementar (fixado em 1,2% pela LC 208/2025) — correto. A afirmativa IV (sobre o resgate condicionado ao Resultado Fiscal Estrutural) é a que não corresponde ao texto, razão por que a resposta exclui as opções que a incluem.'
   31:
-    enunciado: "Uma fundação pública que atua no setor cultural precisa adquirir materiais recorrentemente utilizados nos serviços de conservação e restauro de obras de arte, que fazem parte de suas atividades institucionais. Diante desse contexto, a fundação"
+    enunciado: Uma fundação pública que atua no setor cultural precisa adquirir materiais recorrentemente utilizados nos serviços de conservação e restauro de obras de arte, que fazem parte de suas atividades institucionais. Diante desse contexto, a fundação
     alternativas:
-      - "pode realizar credenciamento, para seleção dos itens necessários, estes que, pela especialização, estão disponíveis apenas em estabelecimentos específicos, devidamente cadastrados para exploração de tal atividade."
-      - "deve promover contratação direta, com disputa, para garantir a origem dos materiais especializados, sem deixar de propiciar adequada competição entre os interessados."
-      - "deve realizar pregão, já que os materiais necessários têm natureza comum, ainda que os serviços desenvolvidos sejam considerados especializados e apresentem singularidade."
-      - "pode realizar contratação direta para aquisição dos materiais, já que o restauro de obras de arte é classificado como serviço técnico especializado."
-      - "deve realizar pregão, para constituição de ata de registro de preços, considerando que obras de arte são consideradas bens de luxo, de modo que os materiais necessários devem ser adquiridos de maneira episódica e excepcional."
+    - pode realizar credenciamento, para seleção dos itens necessários, estes que, pela especialização, estão disponíveis apenas em estabelecimentos específicos, devidamente cadastrados para exploração de tal atividade.
+    - deve promover contratação direta, com disputa, para garantir a origem dos materiais especializados, sem deixar de propiciar adequada competição entre os interessados.
+    - deve realizar pregão, já que os materiais necessários têm natureza comum, ainda que os serviços desenvolvidos sejam considerados especializados e apresentem singularidade.
+    - pode realizar contratação direta para aquisição dos materiais, já que o restauro de obras de arte é classificado como serviço técnico especializado.
+    - deve realizar pregão, para constituição de ata de registro de preços, considerando que obras de arte são consideradas bens de luxo, de modo que os materiais necessários devem ser adquiridos de maneira episódica e excepcional.
+    gabarito: C
+    comentario: 'Gabarito C. Os materiais de conservação/restauro têm NATUREZA COMUM (padrões de desempenho objetivamente definíveis pelo edital — art. 6º, XIII, da Lei 14.133/2021), ainda que o SERVIÇO de restauro seja especializado e singular. Por isso a modalidade obrigatória é o PREGÃO (art. 29): a singularidade está no serviço, não no insumo. Não cabe inexigibilidade/credenciamento para os materiais (não há fornecedor exclusivo nem inviabilidade de competição), nem se aplica a vedação a ''bens de luxo'' do art. 20 — material de restauro é de uso institucional, de qualidade comum à finalidade.'
   32:
-    enunciado: "A concessão de remuneração atrelada a atribuições de chefia para um servidor público"
+    enunciado: A concessão de remuneração atrelada a atribuições de chefia para um servidor público
     alternativas:
-      - "pode se dar por meio de atribuição, a servidor público ocupante de cargo efetivo, de cargo de chefia remunerada por gratificação, admitida a acumulação de vínculos e o cômputo distinto dos limites de remuneração."
-      - "pode se dar por meio de nomeação para cargo em comissão que contemple a atribuição de chefia dentre aquelas arroladas na legislação para aquele cargo."
-      - "depende de nomeação para o cargo em comissão a que se referem tais atribuições, independentemente de qualquer vínculo funcional precedente com a Administração Pública."
-      - "exige a realização de concurso público, tendo em vista que a medida significa, necessariamente, a nomeação para cargo efetivo ou emprego público permanente."
-      - "depende de precedente vínculo funcional de caráter efetivo, tendo em vista que o exercício de atribuições de chefia é privativo de titular de cargo ou emprego público."
+    - pode se dar por meio de atribuição, a servidor público ocupante de cargo efetivo, de cargo de chefia remunerada por gratificação, admitida a acumulação de vínculos e o cômputo distinto dos limites de remuneração.
+    - pode se dar por meio de nomeação para cargo em comissão que contemple a atribuição de chefia dentre aquelas arroladas na legislação para aquele cargo.
+    - depende de nomeação para o cargo em comissão a que se referem tais atribuições, independentemente de qualquer vínculo funcional precedente com a Administração Pública.
+    - exige a realização de concurso público, tendo em vista que a medida significa, necessariamente, a nomeação para cargo efetivo ou emprego público permanente.
+    - depende de precedente vínculo funcional de caráter efetivo, tendo em vista que o exercício de atribuições de chefia é privativo de titular de cargo ou emprego público.
+    gabarito: B
+    comentario: Gabarito B. A remuneração atrelada a atribuições de chefia decorre da nomeação para CARGO EM COMISSÃO que contemple a chefia entre as atribuições legais daquele cargo. O cargo em comissão é de livre nomeação e exoneração (art. 37, II e V, da CF), destinando-se a funções de direção, chefia e assessoramento — não exige concurso público nem vínculo efetivo prévio (este é exigência apenas do percentual mínimo reservado a servidores efetivos, conforme o art. 37, V). Logo, não depende de cargo efetivo precedente nem de concurso, afastando as demais alternativas.
   33:
-    enunciado: "A outorga de uso de bens públicos para integrantes da iniciativa privada, sejam pessoas físicas ou jurídicas, é possível"
+    enunciado: A outorga de uso de bens públicos para integrantes da iniciativa privada, sejam pessoas físicas ou jurídicas, é possível
     alternativas:
-      - "para a prestação de serviços e utilidades públicas, o que configurará afetação do bem público, sendo vedada, aos entes públicos, a manutenção, em seu patrimônio, de bens que não estejam formalmente destinados àquelas finalidades."
-      - "mediante celebração de contrato administrativo, precedido de licitação e sob a forma onerosa, vedada utilização de instrumento de natureza precária."
-      - "quando se tratar de utente que exerça atividades sem finalidade lucrativa e desde que de forma remunerada."
-      - "mediante demonstração de finalidade de interesse público e verificação da existência de potenciais interessados na utilização do mesmo bem, o que exigiria a realização de procedimento licitatório."
-      - "para a realização de serviços públicos, exclusivamente, admitidas as formas gratuita ou remunerada, vedada a outorga de uso para atividades de interesse privado."
+    - para a prestação de serviços e utilidades públicas, o que configurará afetação do bem público, sendo vedada, aos entes públicos, a manutenção, em seu patrimônio, de bens que não estejam formalmente destinados àquelas finalidades.
+    - mediante celebração de contrato administrativo, precedido de licitação e sob a forma onerosa, vedada utilização de instrumento de natureza precária.
+    - quando se tratar de utente que exerça atividades sem finalidade lucrativa e desde que de forma remunerada.
+    - mediante demonstração de finalidade de interesse público e verificação da existência de potenciais interessados na utilização do mesmo bem, o que exigiria a realização de procedimento licitatório.
+    - para a realização de serviços públicos, exclusivamente, admitidas as formas gratuita ou remunerada, vedada a outorga de uso para atividades de interesse privado.
+    gabarito: D
+    comentario: 'Gabarito D. A outorga de uso de bem público a particular pressupõe finalidade de INTERESSE PÚBLICO e, havendo potenciais interessados na mesma utilização, exige procedimento LICITATÓRIO (isonomia e impessoalidade — art. 37, caput, CF), em regra na concessão de uso (contrato, não precário). As demais erram: o uso privativo NÃO ''afeta'' o bem nem o destina obrigatoriamente a serviço público; a outorga pode dar-se por ato precário (autorização/permissão), não só por contrato licitado; e admite-se uso por particular para atividade de interesse privado compatível com a destinação do bem, de forma gratuita ou remunerada.'
   34:
-    enunciado: "Considerando os poderes inerentes à atuação da Administração Pública e sua organização em modelo descentralizado,"
+    enunciado: Considerando os poderes inerentes à atuação da Administração Pública e sua organização em modelo descentralizado,
     alternativas:
-      - "a delegação de poder de polícia para entes da Administração Indireta é restrita às pessoas jurídicas de direito público, como autarquias e fundações."
-      - "somente as empresas estatais criadas por lei específica podem ser prestadoras de serviços públicos, exercendo as prerrogativas e poderes típicos do regime jurídico de direito público nos exatos termos descritos no ato normativo de constituição."
-      - "a lei que autorizar a criação de uma sociedade de economia mista pode delegar poder de polícia a essa pessoa jurídica, como meio necessário à prestação do serviço público para o qual for instituída, em regime não concorrencial."
-      - "as empresas públicas consistem em pessoas jurídicas de natureza jurídica híbrida, passíveis de exercer atividade econômica ou de prestar serviços públicos, podendo atuar como delegatárias de poder de polícia, mediante autorização expressa da sua lei de criação."
-      - "somente as autarquias submetem-se ao regime jurídico de direito público e, por isso, detêm exclusividade para o exercício dos poderes inerentes às funções executivas que imponham obrigações e restrições a terceiros."
+    - a delegação de poder de polícia para entes da Administração Indireta é restrita às pessoas jurídicas de direito público, como autarquias e fundações.
+    - somente as empresas estatais criadas por lei específica podem ser prestadoras de serviços públicos, exercendo as prerrogativas e poderes típicos do regime jurídico de direito público nos exatos termos descritos no ato normativo de constituição.
+    - a lei que autorizar a criação de uma sociedade de economia mista pode delegar poder de polícia a essa pessoa jurídica, como meio necessário à prestação do serviço público para o qual for instituída, em regime não concorrencial.
+    - as empresas públicas consistem em pessoas jurídicas de natureza jurídica híbrida, passíveis de exercer atividade econômica ou de prestar serviços públicos, podendo atuar como delegatárias de poder de polícia, mediante autorização expressa da sua lei de criação.
+    - somente as autarquias submetem-se ao regime jurídico de direito público e, por isso, detêm exclusividade para o exercício dos poderes inerentes às funções executivas que imponham obrigações e restrições a terceiros.
+    gabarito: C
+    comentario: 'Gabarito C. A lei que autoriza a criação de sociedade de economia mista pode DELEGAR poder de polícia a essa pessoa jurídica, como meio necessário à prestação do serviço público para o qual instituída, em regime NÃO CONCORRENCIAL. É a tese do STF no Tema 532 (RE 633.782, 2020): é constitucional a delegação do poder de polícia, por lei, a pessoa jurídica de direito privado integrante da Administração indireta, de capital social majoritariamente público, que preste exclusivamente serviço público próprio do Estado e em regime não concorrencial — admitida inclusive a fase de sanção. Apenas a ORDEM de polícia (edição de normas primárias) permanece indelegável.'
   35:
-    enunciado: "Na modelagem de edital e contrato de uma parceria público-privada para implantação e exploração de serviços ferroviários, em região densamente habitada por núcleos habitacionais irregulares, a Administração idealizou a implantação de um parque urbano linear, cuja gestão e conservação ficaria a cargo da concessionária, e cogita arcar com a responsabilidade financeira pelo custo significativo de implantação. A pretensão da Administração Pública"
+    enunciado: Na modelagem de edital e contrato de uma parceria público-privada para implantação e exploração de serviços ferroviários, em região densamente habitada por núcleos habitacionais irregulares, a Administração idealizou a implantação de um parque urbano linear, cuja gestão e conservação ficaria a cargo da concessionária, e cogita arcar com a responsabilidade financeira pelo custo significativo de implantação. A pretensão da Administração Pública
     alternativas:
-      - "dependeria de concordância da concessionária e de expressa alocação da despesa, na matriz de riscos do contrato, para o poder concedente, para fins de ser viável o abatimento, das contraprestações mensais, do custo da obra."
-      - "é viável, considerando que se trate de medida de compensação ambiental e, como tal, constitui investimento que incumbe ao poder concedente, para o qual reverterá ao término do contrato."
-      - "é inviável, eis que não pode incluir essa despesa em seu rol de obrigações, considerando que não se tratará de equipamento destinado para a prestação de serviços públicos."
-      - "é inviável, pois o regime jurídico do contrato impõe a responsabilidade material e financeira pelos investimentos para a concessionária."
-      - "pode ser viável, considerando que se trate de investimento em obras destinadas a viabilizar, financeira e operacionalmente, a parceria público-privada, além de ser possível sua inclusão no rol de passíveis de ser explorados pela concessionária."
+    - dependeria de concordância da concessionária e de expressa alocação da despesa, na matriz de riscos do contrato, para o poder concedente, para fins de ser viável o abatimento, das contraprestações mensais, do custo da obra.
+    - é viável, considerando que se trate de medida de compensação ambiental e, como tal, constitui investimento que incumbe ao poder concedente, para o qual reverterá ao término do contrato.
+    - é inviável, eis que não pode incluir essa despesa em seu rol de obrigações, considerando que não se tratará de equipamento destinado para a prestação de serviços públicos.
+    - é inviável, pois o regime jurídico do contrato impõe a responsabilidade material e financeira pelos investimentos para a concessionária.
+    - pode ser viável, considerando que se trate de investimento em obras destinadas a viabilizar, financeira e operacionalmente, a parceria público-privada, além de ser possível sua inclusão no rol de passíveis de ser explorados pela concessionária.
+    gabarito: E
+    comentario: 'Gabarito E. A pretensão PODE SER VIÁVEL: na PPP (Lei 11.079/2004), com sua repartição objetiva de riscos (art. 4º, VI, e art. 5º, III), a Administração pode assumir o custo de investimentos — como o parque urbano linear — quando se destinem a viabilizar, financeira e operacionalmente, a parceria, podendo ainda integrar o rol de fontes exploráveis pela concessionária (receitas alternativas/acessórias que favorecem a modicidade, na lógica dos arts. 9º a 11 da Lei 8.987/95, aplicável subsidiariamente). Não é despesa vedada nem obrigatoriamente alocada à concessionária; depende da modelagem do contrato e da matriz de riscos.'
   36:
-    enunciado: "Um Delegado de Polícia afastado para exercício de mandato de prefeito está sendo processado por improbidade administrativa, por supostamente ter autorizado a celebração de termos de fomento com organização da sociedade civil, sem prévio chamamento público, sem demonstração da hipótese de inexigibilidade e por valores significativamente superiores ao mercado. Considerando a Lei de Improbidade, o agente público"
+    enunciado: Um Delegado de Polícia afastado para exercício de mandato de prefeito está sendo processado por improbidade administrativa, por supostamente ter autorizado a celebração de termos de fomento com organização da sociedade civil, sem prévio chamamento público, sem demonstração da hipótese de inexigibilidade e por valores significativamente superiores ao mercado. Considerando a Lei de Improbidade, o agente público
     alternativas:
-      - "será apenado com o dever de ressarcimento integral do prejuízo causado ao erário, além da possível perda da função pública de prefeito, caso, para a tipificação do ato de improbidade, o agente também tiver agido com dolo específico."
-      - "será condenado à penalidade de perda de todas as funções públicas que exerça ou tenha exercido, caso as circunstâncias fáticas e a gravidade da conduta demonstrem que tenha agido com culpa grave ou dolo."
-      - "poderá ser condenado por ato de improbidade caso reste demonstrado também ter havido, por parte do agente público, enriquecimento ilícito, o que configurará dolo específico, elemento subjetivo imprescindível para tipificação da infração."
-      - "condenado terá a obrigação de ressarcimento, aos cofres públicos, de valor equivalente à remuneração total recebida desde a investidura no cargo eletivo, além de lhe ser imputada a pena de suspensão, por até 24 meses, do exercício da função pública de delegado, caso comprovado dolo específico."
-      - "condenado poderá ter a penalidade de perda da função pública estendida ao vínculo funcional de delegado de polícia, considerado o contexto, circunstâncias e a gravidade da conduta."
+    - será apenado com o dever de ressarcimento integral do prejuízo causado ao erário, além da possível perda da função pública de prefeito, caso, para a tipificação do ato de improbidade, o agente também tiver agido com dolo específico.
+    - será condenado à penalidade de perda de todas as funções públicas que exerça ou tenha exercido, caso as circunstâncias fáticas e a gravidade da conduta demonstrem que tenha agido com culpa grave ou dolo.
+    - poderá ser condenado por ato de improbidade caso reste demonstrado também ter havido, por parte do agente público, enriquecimento ilícito, o que configurará dolo específico, elemento subjetivo imprescindível para tipificação da infração.
+    - condenado terá a obrigação de ressarcimento, aos cofres públicos, de valor equivalente à remuneração total recebida desde a investidura no cargo eletivo, além de lhe ser imputada a pena de suspensão, por até 24 meses, do exercício da função pública de delegado, caso comprovado dolo específico.
+    - condenado poderá ter a penalidade de perda da função pública estendida ao vínculo funcional de delegado de polícia, considerado o contexto, circunstâncias e a gravidade da conduta.
+    gabarito: E
+    comentario: Gabarito E. O agente, Delegado de Polícia afastado para exercer mandato de prefeito, pode ter a penalidade de PERDA DA FUNÇÃO PÚBLICA estendida ao vínculo de delegado, considerados o contexto, as circunstâncias e a gravidade da conduta. Pela Lei 8.429/1992 (art. 12, § 1º, com a Lei 14.230/2021), a perda da função alcança o vínculo do tempo do fato, mas pode ser estendida a outros vínculos — e o STF, na ADI 7.236, suspendeu cautelarmente a limitação, admitindo que a perda alcance o cargo ocupado, evitando que a troca de cargo blinde o ímprobo. A conduta (termos de fomento sem chamamento público e por sobrepreço) configura dano ao erário (art. 10), que exige dolo, não 'culpa grave'.
   37:
-    enunciado: "A anulação, por vício de competência insanável, de um ato administrativo que concedeu determinado benefício a um particular, com base no qual foram realizados investimentos para instalação e funcionamento de um estabelecimento comercial,"
+    enunciado: A anulação, por vício de competência insanável, de um ato administrativo que concedeu determinado benefício a um particular, com base no qual foram realizados investimentos para instalação e funcionamento de um estabelecimento comercial,
     alternativas:
-      - "depende de demonstração do ilícito praticado pelo agente público incompetente, sob pena de vedação da anulação, em razão da presunção de legalidade que reveste os atos administrativos."
-      - "pode ensejar a responsabilização do Estado por danos concretos e excessivos causados ao particular, considerando que este não tenha tido qualquer participação ou ingerência para a materialização do vício de legalidade."
-      - "não pode retroagir seus efeitos para alcançar os beneficiados pelo referido ato, impondo-se a produção de efeitos a partir da anulação."
-      - "impõe prévio estabelecimento de procedimento com observância de contraditório e ampla defesa, cuja data de instauração deverá ser o marco temporal para retroação dos efeitos da anulação."
-      - "fica condicionada à prévia apuração, precificação e indenização dos danos gerados ao particular beneficiado com o ato viciado."
+    - depende de demonstração do ilícito praticado pelo agente público incompetente, sob pena de vedação da anulação, em razão da presunção de legalidade que reveste os atos administrativos.
+    - pode ensejar a responsabilização do Estado por danos concretos e excessivos causados ao particular, considerando que este não tenha tido qualquer participação ou ingerência para a materialização do vício de legalidade.
+    - não pode retroagir seus efeitos para alcançar os beneficiados pelo referido ato, impondo-se a produção de efeitos a partir da anulação.
+    - impõe prévio estabelecimento de procedimento com observância de contraditório e ampla defesa, cuja data de instauração deverá ser o marco temporal para retroação dos efeitos da anulação.
+    - fica condicionada à prévia apuração, precificação e indenização dos danos gerados ao particular beneficiado com o ato viciado.
+    gabarito: B
+    comentario: Gabarito B. A anulação do ato (vício de competência insanável — anulação com efeitos ex tunc, autotutela das Súmulas 346 e 473 do STF) PODE ENSEJAR RESPONSABILIZAÇÃO DO ESTADO por danos concretos e excessivos ao particular de BOA-FÉ, que não concorreu para o vício e realizou investimentos confiando na legalidade do ato. É aplicação da responsabilidade objetiva (art. 37, § 6º, CF) e da proteção da confiança legítima/segurança jurídica (art. 2º da Lei 9.784/99). A anulação retroage e independe de prévia indenização, mas os efeitos favoráveis a terceiros de boa-fé são preservados/indenizáveis — o que afasta as alternativas que condicionam a anulação à prévia indenização ou negam a retroação.
   38:
-    enunciado: "As organizações sociais podem desempenhar serviços públicos em sentido amplo em alguns setores, como a prestação de serviços de saúde, por meio de celebração de contrato de gestão. Para que essa prestação de serviços possa se viabilizar,"
+    enunciado: As organizações sociais podem desempenhar serviços públicos em sentido amplo em alguns setores, como a prestação de serviços de saúde, por meio de celebração de contrato de gestão. Para que essa prestação de serviços possa se viabilizar,
     alternativas:
-      - "as organizações sociais interessadas deverão submeter-se a procedimento de chamamento público, por meio do qual o ente federado selecionará a organização social que apresentar a proposta que contenha o maior valor de outorga pelo direito de exploração do serviço público."
-      - "a entidade privada sem fins lucrativos deverá ter se submetido a procedimento para ser qualificada como organização social junto ao ente federado competente, demonstrando o atendimento de requisitos legais relativos à sua constituição e governança, para, a partir de então, participar de chamamentos públicos para celebração de contratos de gestão."
-      - "a entidade deverá ter comprovado o preenchimento dos requisitos legais relativos à governança e experiência técnica, admitida a qualificação de entidade que explore serviços em regime lucrativo, desde que o contrato de gestão específico seja celebrado sem essa finalidade."
-      - "a entidade privada sem fins lucrativos deverá ser qualificada pelo ente federado titular do serviço público, não incidindo obrigação de submissão a procedimento isonômico de seleção para celebração de contrato de gestão, tendo em vista que este tem natureza de instrumento de colaboração, não de contrato administrativo."
-      - "o ente federado deverá instaurar procedimento seletivo para qualificação das organizações sociais e estabelecer lista de credenciamento de entidades privadas, estas que celebrarão contratos de gestão em estrita observância à ordem de classificação."
+    - as organizações sociais interessadas deverão submeter-se a procedimento de chamamento público, por meio do qual o ente federado selecionará a organização social que apresentar a proposta que contenha o maior valor de outorga pelo direito de exploração do serviço público.
+    - a entidade privada sem fins lucrativos deverá ter se submetido a procedimento para ser qualificada como organização social junto ao ente federado competente, demonstrando o atendimento de requisitos legais relativos à sua constituição e governança, para, a partir de então, participar de chamamentos públicos para celebração de contratos de gestão.
+    - a entidade deverá ter comprovado o preenchimento dos requisitos legais relativos à governança e experiência técnica, admitida a qualificação de entidade que explore serviços em regime lucrativo, desde que o contrato de gestão específico seja celebrado sem essa finalidade.
+    - a entidade privada sem fins lucrativos deverá ser qualificada pelo ente federado titular do serviço público, não incidindo obrigação de submissão a procedimento isonômico de seleção para celebração de contrato de gestão, tendo em vista que este tem natureza de instrumento de colaboração, não de contrato administrativo.
+    - o ente federado deverá instaurar procedimento seletivo para qualificação das organizações sociais e estabelecer lista de credenciamento de entidades privadas, estas que celebrarão contratos de gestão em estrita observância à ordem de classificação.
+    gabarito: B
+    comentario: 'Gabarito B. Para celebrar contrato de gestão (Lei 9.637/1998), a entidade privada SEM FINS LUCRATIVOS deve antes obter a QUALIFICAÇÃO como Organização Social junto ao ente federado competente, demonstrando os requisitos legais de constituição e governança; só então pode firmar o vínculo. O STF (ADI 1.923) declarou constitucional o modelo, exigindo procedimento PÚBLICO, OBJETIVO e IMPESSOAL para a escolha da OS e para as contratações que ela realize com recursos públicos. As demais erram: o instrumento não é seleção por ''maior outorga'', nem se admite entidade com fim lucrativo, e o contrato de gestão não dispensa seleção isonômica.'
   39:
-    enunciado: "As atividades desenvolvidas pela Administração Pública Direta e Indireta são objeto de controle interno e externo, evidenciando-se que o controle"
+    enunciado: As atividades desenvolvidas pela Administração Pública Direta e Indireta são objeto de controle interno e externo, evidenciando-se que o controle
     alternativas:
-      - "interno deve ser realizado no âmbito de cada pessoa jurídica e de cada órgão da estrutura administrativa, não se admitindo que um órgão da Administração Pública Direta fiscalize e acompanhe a atuação de outro órgão ou entidades da Administração Pública, ainda que sob o prisma de adequação às suas finalidades institucionais."
-      - "realizado pelos Tribunais de Contas classifica-se como controle externo estritamente de legalidade, alcançando a estrutura centralizada e descentralizada da Administração Pública, salvo em relação às empresas não dependentes de recursos públicos."
-      - "finalístico ou de tutela exercido pela Administração Central em relação aos atos praticados pelas entidades da Administração Indireta insere-se em modalidade de controle externo, passível de ensejar a suspensão, revisão e anulação dos atos praticados em desacordo com o ordenamento jurídico."
-      - "de legalidade exercido pelo Poder Judiciário classifica-se como controle externo, não alcançando as entidades integrantes da Administração Pública que se submetam a regime jurídico de direito privado."
-      - "interno realizado no âmbito da Administração Pública Direta pode ser exercido por órgão especificamente criado para essa finalidade, o qual poderá desempenhar a atribuição de exame de legalidade da atuação administrativa, mas também de resultados, sob o prisma da eficácia e da eficiência."
+    - interno deve ser realizado no âmbito de cada pessoa jurídica e de cada órgão da estrutura administrativa, não se admitindo que um órgão da Administração Pública Direta fiscalize e acompanhe a atuação de outro órgão ou entidades da Administração Pública, ainda que sob o prisma de adequação às suas finalidades institucionais.
+    - realizado pelos Tribunais de Contas classifica-se como controle externo estritamente de legalidade, alcançando a estrutura centralizada e descentralizada da Administração Pública, salvo em relação às empresas não dependentes de recursos públicos.
+    - finalístico ou de tutela exercido pela Administração Central em relação aos atos praticados pelas entidades da Administração Indireta insere-se em modalidade de controle externo, passível de ensejar a suspensão, revisão e anulação dos atos praticados em desacordo com o ordenamento jurídico.
+    - de legalidade exercido pelo Poder Judiciário classifica-se como controle externo, não alcançando as entidades integrantes da Administração Pública que se submetam a regime jurídico de direito privado.
+    - interno realizado no âmbito da Administração Pública Direta pode ser exercido por órgão especificamente criado para essa finalidade, o qual poderá desempenhar a atribuição de exame de legalidade da atuação administrativa, mas também de resultados, sob o prisma da eficácia e da eficiência.
+    gabarito: E
+    comentario: 'Gabarito E. O controle INTERNO da Administração Direta pode ser exercido por órgão especificamente criado para essa finalidade (sistema de controle interno integrado — art. 74 da CF), que examina não só a LEGALIDADE da atuação, mas também os RESULTADOS, sob o prisma da eficácia e da eficiência. As demais erram: o controle dos Tribunais de Contas não é ''estritamente de legalidade'' (abrange legitimidade e economicidade — art. 70, CF) e alcança estatais que recebam recursos públicos; o controle finalístico/tutela sobre a Administração Indireta é controle e está nos limites da lei, não ''controle externo'' livre; e o controle judicial de legalidade alcança também entidades sob regime de direito privado.'
   40:
-    enunciado: "O cometimento de infração disciplinar grave, de acordo com a Lei nº 20.756/2020,"
+    enunciado: O cometimento de infração disciplinar grave, de acordo com a Lei nº 20.756/2020,
     alternativas:
-      - "pode se materializar por conduta praticada por ocupante de cargo em comissão, acionando a penalidade de destituição do cargo ao servidor."
-      - "acarreta anotação permanente no prontuário do servidor público comissionado ou efetivo, não sendo possível a exclusão do registro, pois será considerada causa de reincidência diante da prática de outra infração disciplinar durante toda a atividade."
-      - "é punível com demissão, de modo que somente pode ser imputado ao servidor público ocupante de cargo efetivo, ao qual são restritas a tipificação daquela infração e a aplicação da penalidade."
-      - "impede a mitigação da penalidade de demissão para outra menos gravosa, especialmente nos casos em que houver dano a terceiros e, pelo menos, uma condenação anterior."
-      - "independentemente de a conduta ter ocorrido na ativa ou na inatividade, acarreta a aplicação de penalidade de demissão ou de extinção de vínculo, conforme o caso."
+    - pode se materializar por conduta praticada por ocupante de cargo em comissão, acionando a penalidade de destituição do cargo ao servidor.
+    - acarreta anotação permanente no prontuário do servidor público comissionado ou efetivo, não sendo possível a exclusão do registro, pois será considerada causa de reincidência diante da prática de outra infração disciplinar durante toda a atividade.
+    - é punível com demissão, de modo que somente pode ser imputado ao servidor público ocupante de cargo efetivo, ao qual são restritas a tipificação daquela infração e a aplicação da penalidade.
+    - impede a mitigação da penalidade de demissão para outra menos gravosa, especialmente nos casos em que houver dano a terceiros e, pelo menos, uma condenação anterior.
+    - independentemente de a conduta ter ocorrido na ativa ou na inatividade, acarreta a aplicação de penalidade de demissão ou de extinção de vínculo, conforme o caso.
+    gabarito: A
+    comentario: 'Gabarito A. Conforme a Lei estadual nº 20.756/2020, a infração disciplinar grave pode ser cometida por ocupante de CARGO EM COMISSÃO, acionando a penalidade de DESTITUIÇÃO DO CARGO EM COMISSÃO (art. 193, VII) — penalidade própria do comissionado por transgressão média ou grave. As demais erram: a demissão não é restrita ao servidor efetivo (o comissionado responde por destituição); a anotação não é imune a exclusão/imprescritível em termos absolutos; e a demissão admite gradação/proporcionalidade conforme as circunstâncias preponderantes do caso (art. 193, § 4º), não havendo a vedação genérica de mitigação afirmada.'
   41:
-    enunciado: "Considere que determinado ente federado pretenda realizar Operação de Antecipação de Receita Orçamentária (ARO), em decorrência de insuficiência momentânea de caixa, para arcar com despesas de pessoal e custeio em geral, incluindo gastos associados ao Regime Próprio de Previdência do Servidor (RPPS). Considerando a Constituição Federal e a Lei de Responsabilidade Fiscal, a operação para os fins cogitados afigura-se juridicamente"
+    enunciado: Considere que determinado ente federado pretenda realizar Operação de Antecipação de Receita Orçamentária (ARO), em decorrência de insuficiência momentânea de caixa, para arcar com despesas de pessoal e custeio em geral, incluindo gastos associados ao Regime Próprio de Previdência do Servidor (RPPS). Considerando a Constituição Federal e a Lei de Responsabilidade Fiscal, a operação para os fins cogitados afigura-se juridicamente
     alternativas:
-      - "vedada, salvo no último quadrimestre do exercício, precedida de autorização específica do Tribunal de Contas, e desde que comprovada a capacidade de liquidação no exercício subsequente."
-      - "possível, desde que o montante obtido seja incorporado na dívida mobiliária do ente, e observados os respectivos limites de endividamento, com a quitação integral da operação até o final do exercício."
-      - "possível, mediante autorização legal específica, sendo vedada caso haja outra ARO não integralmente liquidada, bem como no último ano do mandato do Chefe do Executivo."
-      - "vedada, salvo se o ente estiver em Regime de Recuperação Fiscal e tenha obtido autorização para não observância dos limites de endividamento e concessão de garantias."
-      - "possível, apenas no que concerne ao direcionamento dos recursos para financiar os gastos associados ao RPPS, sendo vedada a aplicação nas despesas ordinárias de pessoal."
+    - vedada, salvo no último quadrimestre do exercício, precedida de autorização específica do Tribunal de Contas, e desde que comprovada a capacidade de liquidação no exercício subsequente.
+    - possível, desde que o montante obtido seja incorporado na dívida mobiliária do ente, e observados os respectivos limites de endividamento, com a quitação integral da operação até o final do exercício.
+    - possível, mediante autorização legal específica, sendo vedada caso haja outra ARO não integralmente liquidada, bem como no último ano do mandato do Chefe do Executivo.
+    - vedada, salvo se o ente estiver em Regime de Recuperação Fiscal e tenha obtido autorização para não observância dos limites de endividamento e concessão de garantias.
+    - possível, apenas no que concerne ao direcionamento dos recursos para financiar os gastos associados ao RPPS, sendo vedada a aplicação nas despesas ordinárias de pessoal.
+    gabarito: C
+    comentario: Letra C. A ARO é operação de crédito para insuficiência momentânea de caixa (art. 38, caput, da LRF) e depende de autorização legal específica. O art. 38, IV, a/b proíbe a ARO enquanto houver outra da mesma natureza não integralmente liquidada e no último ano de mandato do Chefe do Executivo. Por isso a operação é possível, mas sujeita a essas vedações — e deve ser liquidada (juros e encargos) até 10/12 do mesmo exercício (art. 38, II).
   42:
-    enunciado: "Considerando as possíveis classificações das receitas públicas, tem-se que receitas extraorçamentárias"
+    enunciado: Considerando as possíveis classificações das receitas públicas, tem-se que receitas extraorçamentárias
     alternativas:
-      - "constituem receitas derivadas, tais como dividendos e rendimentos de aplicações financeiras, e compõem a receita corrente líquida do ente."
-      - "constituem ingressos financeiros aos quais está associado um passivo correspondente, não constituindo, pois, fonte disponível para geração de despesa pública."
-      - "são recursos oriundos de operações de crédito e cancelamento de restos a pagar, cuja aplicação deve observar a denominada 'regra de ouro'."
-      - "são aquelas que excedem o montante previsto no Projeto de Lei Orçamentária Anual (PLOA), gerando superávit financeiro, porém não orçamentário."
-      - "são provenientes de alienação de ativos e sua aplicação somente pode ocorrer em despesas de capital, incluindo investimentos e inversões financeiras."
+    - constituem receitas derivadas, tais como dividendos e rendimentos de aplicações financeiras, e compõem a receita corrente líquida do ente.
+    - constituem ingressos financeiros aos quais está associado um passivo correspondente, não constituindo, pois, fonte disponível para geração de despesa pública.
+    - são recursos oriundos de operações de crédito e cancelamento de restos a pagar, cuja aplicação deve observar a denominada 'regra de ouro'.
+    - são aquelas que excedem o montante previsto no Projeto de Lei Orçamentária Anual (PLOA), gerando superávit financeiro, porém não orçamentário.
+    - são provenientes de alienação de ativos e sua aplicação somente pode ocorrer em despesas de capital, incluindo investimentos e inversões financeiras.
+    gabarito: B
+    comentario: Letra B. Receita extraorçamentária é ingresso de caráter transitório ao qual corresponde um PASSIVO (obrigação de devolução/repasse) — cauções, depósitos, consignações, ARO e restos a pagar (art. 3º, parágrafo único, da Lei 4.320/64). Por não pertencer ao Estado em definitivo, não transita pela LOA nem constitui fonte disponível para gerar despesa pública, ao contrário da receita orçamentária (definitiva).
   43:
-    enunciado: "Considerando o regime jurídico dos créditos adicionais no Direito Financeiro, conforme previsto na Constituição Federal e na legislação de regência, tem-se que"
+    enunciado: Considerando o regime jurídico dos créditos adicionais no Direito Financeiro, conforme previsto na Constituição Federal e na legislação de regência, tem-se que
     alternativas:
-      - "créditos suplementares independem de indicação de recursos caso sejam destinados à cobertura de despesas urgentes."
-      - "créditos especiais somente podem ser abertos mediante publicação de decreto que reconheça o estado de calamidade pública."
-      - "créditos suplementares e especiais podem ser abertos por decreto do Poder Executivo quando houver autorização genérica na Lei Orçamentária Anual."
-      - "créditos extraordinários independem de autorização legislativa prévia, porém só podem ser abertos com indicação precisa de fonte de receita."
-      - "a abertura de créditos especiais depende de prévia autorização legislativa e da indicação dos recursos correspondentes."
+    - créditos suplementares independem de indicação de recursos caso sejam destinados à cobertura de despesas urgentes.
+    - créditos especiais somente podem ser abertos mediante publicação de decreto que reconheça o estado de calamidade pública.
+    - créditos suplementares e especiais podem ser abertos por decreto do Poder Executivo quando houver autorização genérica na Lei Orçamentária Anual.
+    - créditos extraordinários independem de autorização legislativa prévia, porém só podem ser abertos com indicação precisa de fonte de receita.
+    - a abertura de créditos especiais depende de prévia autorização legislativa e da indicação dos recursos correspondentes.
+    gabarito: E
+    comentario: Letra E. Os créditos especiais destinam-se a despesa nova, sem dotação específica (art. 41, II, da Lei 4.320/64), e dependem de PRÉVIA autorização legislativa por lei específica e de indicação dos recursos correspondentes (art. 167, V e VI, da CF). Não podem ser autorizados genericamente na LOA (isso só vale para suplementares, art. 165, § 8º, da CF), nem prescindem de fonte de recursos, como ocorre apenas com os extraordinários (art. 167, § 3º, da CF).
   44:
-    enunciado: "Considere que, na tramitação legislativa da Lei Orçamentária Anual da União, tenha sido aprovada emenda parlamentar, na modalidade transferência especial, com destinação a determinado município do Estado de Goiás. Considerando o regime constitucional aplicável, cabe considerar que"
+    enunciado: Considere que, na tramitação legislativa da Lei Orçamentária Anual da União, tenha sido aprovada emenda parlamentar, na modalidade transferência especial, com destinação a determinado município do Estado de Goiás. Considerando o regime constitucional aplicável, cabe considerar que
     alternativas:
-      - "os recursos recebidos pelo ente beneficiário devem ser integralmente aplicados em investimentos, vedada a aplicação em despesas de pessoal e custeio em geral."
-      - "se trata de modalidade de transferência obrigatória, razão pela qual a execução orçamentária das despesas correspondentes não pode ser obstada por razões de ordem técnica."
-      - "se dispensa a celebração de convênio, contrato de repasse ou instrumento congênere para a utilização, pelo Município beneficiário, dos recursos provenientes da referida emenda."
-      - "os recursos recebidos não integrarão o patrimônio do ente beneficiário, de forma que as despesas correspondentes não poderão ser consideradas para fins de cumprimento do limite mínimo de gastos com saúde."
-      - "o repasse de recursos da União para o Município beneficiário deve ocorrer na modalidade fundo a fundo, sendo destinados exclusivamente para despesas com educação no âmbito do FUNDEB."
+    - os recursos recebidos pelo ente beneficiário devem ser integralmente aplicados em investimentos, vedada a aplicação em despesas de pessoal e custeio em geral.
+    - se trata de modalidade de transferência obrigatória, razão pela qual a execução orçamentária das despesas correspondentes não pode ser obstada por razões de ordem técnica.
+    - se dispensa a celebração de convênio, contrato de repasse ou instrumento congênere para a utilização, pelo Município beneficiário, dos recursos provenientes da referida emenda.
+    - os recursos recebidos não integrarão o patrimônio do ente beneficiário, de forma que as despesas correspondentes não poderão ser consideradas para fins de cumprimento do limite mínimo de gastos com saúde.
+    - o repasse de recursos da União para o Município beneficiário deve ocorrer na modalidade fundo a fundo, sendo destinados exclusivamente para despesas com educação no âmbito do FUNDEB.
+    gabarito: C
+    comentario: 'Letra C. Na transferência especial do art. 166-A, I, da CF, os recursos são repassados diretamente ao ente beneficiado, INDEPENDENTEMENTE de convênio, contrato de repasse ou instrumento congênere (art. 166-A, § 2º, I), pertencendo ao ente no ato da efetiva transferência (inciso II). Daí a dispensa do instrumento de ajuste. As demais alternativas confundem o regime: ao menos 70% vão para despesa de capital (§ 5º), e os recursos não computam para limites de pessoal e endividamento (§ 1º).'
   45:
-    enunciado: "Suponha que, no decorrer da execução orçamentária, o Poder Executivo tenha verificado que a realização da receita poderá não comportar o cumprimento da meta de resultado primário fixada na Lei de Diretrizes Orçamentárias. Diante de tal cenário,"
+    enunciado: Suponha que, no decorrer da execução orçamentária, o Poder Executivo tenha verificado que a realização da receita poderá não comportar o cumprimento da meta de resultado primário fixada na Lei de Diretrizes Orçamentárias. Diante de tal cenário,
     alternativas:
-      - "torna-se cogente a adoção de medidas de compensação, consistentes em aumento de receitas tributárias, afastando-se o princípio da anualidade."
-      - "deverá ocorrer a suspensão da execução orçamentária, com cancelamento dos empenhos realizados, bem como dos restos a pagar não processados."
-      - "caberá o cancelamento automático de restos a pagar não vinculados a despesas obrigatórias."
-      - "o Executivo e os demais Poderes deverão proceder, por ato próprio, à limitação de empenho e movimentação financeira."
-      - "cumpre revisar imediatamente a meta fiscal, adequando-a ao cenário real de arrecadação e às projeções correspondentes."
+    - torna-se cogente a adoção de medidas de compensação, consistentes em aumento de receitas tributárias, afastando-se o princípio da anualidade.
+    - deverá ocorrer a suspensão da execução orçamentária, com cancelamento dos empenhos realizados, bem como dos restos a pagar não processados.
+    - caberá o cancelamento automático de restos a pagar não vinculados a despesas obrigatórias.
+    - o Executivo e os demais Poderes deverão proceder, por ato próprio, à limitação de empenho e movimentação financeira.
+    - cumpre revisar imediatamente a meta fiscal, adequando-a ao cenário real de arrecadação e às projeções correspondentes.
+    gabarito: D
+    comentario: Letra D. Verificado ao fim de um bimestre que a realização da receita pode não comportar o cumprimento das metas de resultado primário/nominal fixadas na LDO (Anexo de Metas Fiscais), o art. 9º, caput, da LRF determina que o Executivo E os demais Poderes (e o MP) promovam, cada um POR ATO PRÓPRIO e nos 30 dias subsequentes, a limitação de empenho e movimentação financeira (contingenciamento), segundo os critérios da LDO. Não há revisão da meta nem cancelamento automático de restos a pagar.
   46:
-    enunciado: "De acordo com as normas do Código Civil que disciplinam a sociedade limitada,"
+    enunciado: De acordo com as normas do Código Civil que disciplinam a sociedade limitada,
     alternativas:
-      - "somente o sócio que conferiu o bem ao capital social responde pela sua exata estimação, até o prazo de dez anos da data do registro da sociedade."
-      - "somente o sócio que conferiu o bem ao capital social responde pela sua exata estimação, até o encerramento da liquidação da sociedade com quitação integral de todas as suas obrigações, sem limitação de prazo."
-      - "todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o prazo de cinco anos da data do registro da sociedade."
-      - "todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o prazo de dez anos da data do registro da sociedade."
-      - "todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o encerramento da liquidação da sociedade com quitação integral de todas as suas obrigações, sem limitação de prazo."
+    - somente o sócio que conferiu o bem ao capital social responde pela sua exata estimação, até o prazo de dez anos da data do registro da sociedade.
+    - somente o sócio que conferiu o bem ao capital social responde pela sua exata estimação, até o encerramento da liquidação da sociedade com quitação integral de todas as suas obrigações, sem limitação de prazo.
+    - todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o prazo de cinco anos da data do registro da sociedade.
+    - todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o prazo de dez anos da data do registro da sociedade.
+    - todos os sócios respondem solidariamente pela exata estimação dos bens conferidos ao capital social, até o encerramento da liquidação da sociedade com quitação integral de todas as suas obrigações, sem limitação de prazo.
+    gabarito: C
+    comentario: Letra C. Pela exata estimação dos bens conferidos ao capital social respondem SOLIDARIAMENTE TODOS os sócios — não apenas quem conferiu o bem — até o prazo de CINCO ANOS da data do registro da sociedade (art. 1.055, § 1º, do CC). A regra coíbe a superavaliação fraudulenta de bens integralizados; afastam-se, assim, as alternativas que falam em dez anos, prazo indeterminado ou responsabilidade isolada do sócio que conferiu o bem.
   47:
-    enunciado: "Na sociedade anônima fechada,"
+    enunciado: Na sociedade anônima fechada,
     alternativas:
-      - "tanto as ações ordinárias quanto as preferenciais serão, necessariamente, de classe única, salvo, quanto às preferenciais, se parte delas conferir direito a voto."
-      - "tanto as ações ordinárias quanto as preferenciais serão, necessariamente, de classe única, sem exceção."
-      - "tanto as ações ordinárias quanto as preferenciais poderão ser de mais de uma classe."
-      - "somente as ações ordinárias poderão ser de mais de uma classe, ao passo que as ações preferenciais serão necessariamente de classe única."
-      - "somente as ações preferenciais poderão ser de mais de uma classe, ao passo que as ações ordinárias serão necessariamente de classe única."
+    - tanto as ações ordinárias quanto as preferenciais serão, necessariamente, de classe única, salvo, quanto às preferenciais, se parte delas conferir direito a voto.
+    - tanto as ações ordinárias quanto as preferenciais serão, necessariamente, de classe única, sem exceção.
+    - tanto as ações ordinárias quanto as preferenciais poderão ser de mais de uma classe.
+    - somente as ações ordinárias poderão ser de mais de uma classe, ao passo que as ações preferenciais serão necessariamente de classe única.
+    - somente as ações preferenciais poderão ser de mais de uma classe, ao passo que as ações ordinárias serão necessariamente de classe única.
+    gabarito: C
+    comentario: Letra C. Na companhia FECHADA, tanto as ações ordinárias quanto as preferenciais podem ser de mais de uma classe (art. 15, § 1º, da Lei 6.404/76). A restrição à classe única das ordinárias só existe na companhia ABERTA (ressalvado o voto plural do art. 110-A). Como a questão trata de S.A. fechada, ambos os tipos de ações admitem pluralidade de classes.
   48:
-    enunciado: "De acordo com o Código Civil, a interrupção da prescrição"
+    enunciado: De acordo com o Código Civil, a interrupção da prescrição
     alternativas:
-      - "prejudica o fiador, quando produzida contra o devedor principal."
-      - "poderá ocorrer tantas vezes quantas se verificarem as causas de interrupção."
-      - "ocorre apenas judicialmente, por despacho do juiz que ordena a citação, desde que competente."
-      - "operada contra um dos herdeiros do devedor solidário prejudica os outros herdeiros ou devedores, independentemente da natureza da obrigação ou do direito, se divisível ou indivisível."
-      - "por um dos credores solidários não aproveita aos demais."
+    - prejudica o fiador, quando produzida contra o devedor principal.
+    - poderá ocorrer tantas vezes quantas se verificarem as causas de interrupção.
+    - ocorre apenas judicialmente, por despacho do juiz que ordena a citação, desde que competente.
+    - operada contra um dos herdeiros do devedor solidário prejudica os outros herdeiros ou devedores, independentemente da natureza da obrigação ou do direito, se divisível ou indivisível.
+    - por um dos credores solidários não aproveita aos demais.
+    gabarito: A
+    comentario: 'Letra A. A interrupção da prescrição produzida contra o devedor principal PREJUDICA o fiador (art. 204, § 3º, do CC). As demais estão erradas: a interrupção só pode ocorrer UMA vez (art. 202, caput); não se dá apenas judicialmente (há protesto, reconhecimento do direito etc.); a interrupção contra um herdeiro do devedor solidário não prejudica os outros, salvo obrigação indivisível (art. 204, § 1º); e a interrupção por um credor solidário aproveita aos demais (art. 204, § 1º).'
   49:
-    enunciado: "De acordo com o Código Civil, o pagamento"
+    enunciado: De acordo com o Código Civil, o pagamento
     alternativas:
-      - "não se presume pela entrega do título ao devedor."
-      - "pode, por via de regra, ser convencionado em ouro ou em moeda estrangeira."
-      - "reiteradamente feito em local diverso faz presumir renúncia do credor relativamente ao previsto no contrato."
-      - "não pode ser feito pelo terceiro não interessado, em nenhuma hipótese."
-      - "vale ainda que feito cientemente ao credor incapaz de quitar, independentemente de ter se revertido de maneira efetiva em benefício dele."
+    - não se presume pela entrega do título ao devedor.
+    - pode, por via de regra, ser convencionado em ouro ou em moeda estrangeira.
+    - reiteradamente feito em local diverso faz presumir renúncia do credor relativamente ao previsto no contrato.
+    - não pode ser feito pelo terceiro não interessado, em nenhuma hipótese.
+    - vale ainda que feito cientemente ao credor incapaz de quitar, independentemente de ter se revertido de maneira efetiva em benefício dele.
+    gabarito: C
+    comentario: 'Letra C. O pagamento reiteradamente feito em local diverso do previsto no contrato faz presumir RENÚNCIA do credor relativamente ao que fora ajustado (art. 330 do CC), aplicação da boa-fé objetiva (supressio). As demais erram: a entrega do título ao devedor firma presunção de pagamento (art. 324); convenções de pagamento em ouro/moeda estrangeira são, em regra, NULAS (art. 318); o terceiro não interessado pode pagar em nome próprio (art. 304, parágrafo único); e o pagamento ao credor incapaz só vale se reverter em benefício dele (art. 310).'
   50:
-    enunciado: "De acordo com o Código Civil, na estipulação em favor de terceiro"
+    enunciado: De acordo com o Código Civil, na estipulação em favor de terceiro
     alternativas:
-      - "pode o estipulante exonerar o devedor ainda que haja sido deixada ao terceiro o direito de reclamar a execução da obrigação."
-      - "o que estipula em favor de terceiro não pode exigir o cumprimento da obrigação."
-      - "a substituição do terceiro pode ser feita apenas por ato entre vivos e desde que haja concordância do outro contratante."
-      - "apenas aquele em favor de quem se estipula pode exigir o cumprimento da obrigação."
-      - "o estipulante pode substituir o terceiro designado em contrato independentemente de sua anuência."
+    - pode o estipulante exonerar o devedor ainda que haja sido deixada ao terceiro o direito de reclamar a execução da obrigação.
+    - o que estipula em favor de terceiro não pode exigir o cumprimento da obrigação.
+    - a substituição do terceiro pode ser feita apenas por ato entre vivos e desde que haja concordância do outro contratante.
+    - apenas aquele em favor de quem se estipula pode exigir o cumprimento da obrigação.
+    - o estipulante pode substituir o terceiro designado em contrato independentemente de sua anuência.
+    gabarito: E
+    comentario: 'Letra E. O estipulante pode reservar-se o direito de SUBSTITUIR o terceiro designado no contrato, INDEPENDENTEMENTE da anuência deste e do outro contratante (art. 438 do CC). As demais erram: tanto o estipulante quanto o terceiro podem exigir o cumprimento (art. 436); se ao terceiro se deixou o direito de reclamar a execução, o estipulante NÃO pode exonerar o devedor (art. 437).'
   51:
-    enunciado: "De acordo com o Código Civil, a posse"
+    enunciado: De acordo com o Código Civil, a posse
     alternativas:
-      - "direta anula a indireta."
-      - "pode ser adquirida pela própria pessoa que a pretende ou por seu representante."
-      - "é induzida inclusive por atos de mera permissão ou tolerância."
-      - "diz-se justa quando o possuidor ignora o vício ou o obstáculo que impede a aquisição da coisa."
-      - "do imóvel não faz presumir a dos móveis que nele estiverem."
+    - direta anula a indireta.
+    - pode ser adquirida pela própria pessoa que a pretende ou por seu representante.
+    - é induzida inclusive por atos de mera permissão ou tolerância.
+    - diz-se justa quando o possuidor ignora o vício ou o obstáculo que impede a aquisição da coisa.
+    - do imóvel não faz presumir a dos móveis que nele estiverem.
+    gabarito: B
+    comentario: 'Letra B. A posse pode ser adquirida pela própria pessoa que a pretende, por seu representante ou por terceiro sem mandato (dependendo de ratificação) — art. 1.205 do CC. As demais erram: a posse direta NÃO anula a indireta (art. 1.197); atos de mera permissão ou tolerância NÃO induzem posse (art. 1.208); justa é a posse não violenta, clandestina ou precária (art. 1.200) — ignorar o vício caracteriza boa-fé (art. 1.201); e a posse do imóvel faz presumir a dos móveis que nele estiverem (art. 1.209).'
   52:
-    enunciado: "Há crime contra as finanças públicas (arts. 359-A a 359-H do Código Penal) na conduta do administrador que"
+    enunciado: Há crime contra as finanças públicas (arts. 359-A a 359-H do Código Penal) na conduta do administrador que
     alternativas:
-      - "realiza operação de crédito, interno ou externo, com inobservância de limite, condição ou montante estabelecido em lei ou em resolução da Câmara dos Deputados."
-      - "deixa de ordenar, de autorizar ou de promover o cancelamento do montante de restos a pagar inscrito em valor inferior ao permitido em lei."
-      - "ao efetuar operação de crédito em que seja exigida garantia do poder público, não exige contragarantia em valor igual ou maior."
-      - "ordena ato que acarrete aumento de despesa total com pessoal, nos trezentos e sessenta dias anteriores ao final do mandato ou da legislatura."
-      - "autoriza a assunção de obrigação, nos três últimos quadrimestres do último ano do mandato ou legislatura, cuja despesa não possa ser paga no mesmo exercício financeiro."
+    - realiza operação de crédito, interno ou externo, com inobservância de limite, condição ou montante estabelecido em lei ou em resolução da Câmara dos Deputados.
+    - deixa de ordenar, de autorizar ou de promover o cancelamento do montante de restos a pagar inscrito em valor inferior ao permitido em lei.
+    - ao efetuar operação de crédito em que seja exigida garantia do poder público, não exige contragarantia em valor igual ou maior.
+    - ordena ato que acarrete aumento de despesa total com pessoal, nos trezentos e sessenta dias anteriores ao final do mandato ou da legislatura.
+    - autoriza a assunção de obrigação, nos três últimos quadrimestres do último ano do mandato ou legislatura, cuja despesa não possa ser paga no mesmo exercício financeiro.
+    gabarito: C
+    comentario: 'Letra C. Configura crime do art. 359-E do CP prestar garantia em operação de crédito sem que tenha sido constituída CONTRAGARANTIA em valor igual ou superior, na forma da lei. As demais descrevem condutas com erro no núcleo típico: a operação de crédito fora de limite refere-se a resolução do SENADO, não da Câmara (art. 359-A, parágrafo único); o art. 359-F pune deixar de cancelar restos a pagar inscritos em valor SUPERIOR ao permitido; o art. 359-G fala em 180 dias; e o art. 359-C, nos DOIS últimos quadrimestres do último ano do mandato.'
   53:
-    enunciado: "De acordo com o que dispõe a Lei Federal nº 13.869/2019 (crimes de abuso de autoridade),"
+    enunciado: De acordo com o que dispõe a Lei Federal nº 13.869/2019 (crimes de abuso de autoridade),
     alternativas:
-      - "constitui crime realizar interceptação de comunicações telefônicas, de informática ou telemática, promover escuta ambiental ou quebrar segredo da Justiça, sem autorização policial ou com objetivos não autorizados em lei."
-      - "as condutas descritas nesta lei constituem crime de abuso de autoridade quando praticadas pelo agente ainda que por mero capricho ou satisfação pessoal."
-      - "as responsabilidades civil e administrativa são independentes da criminal, não se podendo mais questionar sobre a existência ou a autoria do fato quando essas questões tenham sido decididas no juízo civil."
-      - "é sujeito ativo do crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes da União, dos Estados, do Distrito Federal, dos Municípios e de Território, com exceção dos membros dos tribunais ou conselhos de contas, por possuírem regramento próprio."
-      - "faz coisa julgada em âmbito cível, mas não no administrativo-disciplinar, a sentença penal que reconhecer ter sido o ato praticado em estado de necessidade, em legítima defesa, em estrito cumprimento de dever legal ou no exercício regular de direito."
+    - constitui crime realizar interceptação de comunicações telefônicas, de informática ou telemática, promover escuta ambiental ou quebrar segredo da Justiça, sem autorização policial ou com objetivos não autorizados em lei.
+    - as condutas descritas nesta lei constituem crime de abuso de autoridade quando praticadas pelo agente ainda que por mero capricho ou satisfação pessoal.
+    - as responsabilidades civil e administrativa são independentes da criminal, não se podendo mais questionar sobre a existência ou a autoria do fato quando essas questões tenham sido decididas no juízo civil.
+    - é sujeito ativo do crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes da União, dos Estados, do Distrito Federal, dos Municípios e de Território, com exceção dos membros dos tribunais ou conselhos de contas, por possuírem regramento próprio.
+    - faz coisa julgada em âmbito cível, mas não no administrativo-disciplinar, a sentença penal que reconhecer ter sido o ato praticado em estado de necessidade, em legítima defesa, em estrito cumprimento de dever legal ou no exercício regular de direito.
+    gabarito: B
+    comentario: 'Letra B. Pelo art. 1º, § 1º, da Lei 13.869/2019, as condutas só constituem abuso de autoridade quando praticadas com a finalidade específica de prejudicar outrem, beneficiar a si ou a terceiro, OU, ainda, por mero capricho ou satisfação pessoal — exatamente o dolo especial exigido. As demais erram: a interceptação criminosa exige falta de autorização JUDICIAL (art. 10 da Lei 9.296/96); membros dos tribunais/conselhos de contas SÃO sujeitos ativos (art. 2º); e a vinculação às demais esferas decorre da decisão no juízo CRIMINAL, não civil (art. 7º).'
   54:
-    enunciado: "De acordo com a atual redação da Lei de Recuperação de Empresas e Falência (Lei nº 11.101/2005), os tributos relativos a fatos geradores ocorridos após a decretação da falência do devedor"
+    enunciado: De acordo com a atual redação da Lei de Recuperação de Empresas e Falência (Lei nº 11.101/2005), os tributos relativos a fatos geradores ocorridos após a decretação da falência do devedor
     alternativas:
-      - "só serão pagos depois de integralmente satisfeitos todos os créditos subordinados."
-      - "não serão devidos."
-      - "só serão pagos depois de integralmente satisfeitos todos os créditos derivados da legislação trabalhista, independentemente do valor ou da data da sua constituição."
-      - "serão considerados créditos extraconcursais."
-      - "só serão pagos depois de integralmente satisfeitos todos os créditos quirografários."
+    - só serão pagos depois de integralmente satisfeitos todos os créditos subordinados.
+    - não serão devidos.
+    - só serão pagos depois de integralmente satisfeitos todos os créditos derivados da legislação trabalhista, independentemente do valor ou da data da sua constituição.
+    - serão considerados créditos extraconcursais.
+    - só serão pagos depois de integralmente satisfeitos todos os créditos quirografários.
+    gabarito: D
+    comentario: Letra D. Os tributos relativos a fatos geradores ocorridos APÓS a decretação da falência são créditos EXTRACONCURSAIS (art. 84, V, da Lei 11.101/2005, com redação da Lei 14.112/2020), pagos com precedência sobre os créditos concursais do art. 83. Não se confundem com o crédito tributário concursal (anterior à quebra), que figura em 3º lugar no art. 83, abaixo do trabalhista (até 150 salários mínimos) e da garantia real.
   55:
-    enunciado: "Conforme apurado, João, agente penitenciário, recebeu vantagem indevida em razão de sua função, aceitando propina para facilitar a entrada de objetos ilícitos no estabelecimento prisional. Maria entregou-lhe, em um bar, sacola com objetos e dinheiro, com o objetivo de induzi-lo a omitir ato de ofício. Diante da situação hipotética descrita:"
+    enunciado: 'Conforme apurado, João, agente penitenciário, recebeu vantagem indevida em razão de sua função, aceitando propina para facilitar a entrada de objetos ilícitos no estabelecimento prisional. Maria entregou-lhe, em um bar, sacola com objetos e dinheiro, com o objetivo de induzi-lo a omitir ato de ofício. Diante da situação hipotética descrita:'
     alternativas:
-      - "João praticou, em tese, o crime de corrupção passiva, enquanto Maria, o crime de corrupção ativa."
-      - "João praticou o crime de concussão, enquanto Maria, o crime de corrupção passiva."
-      - "Ambos praticaram o crime de corrupção passiva."
-      - "Maria praticou, em tese, o crime de corrupção passiva, enquanto João, o crime de corrupção ativa."
-      - "Ambos praticaram o crime de corrupção ativa."
+    - João praticou, em tese, o crime de corrupção passiva, enquanto Maria, o crime de corrupção ativa.
+    - João praticou o crime de concussão, enquanto Maria, o crime de corrupção passiva.
+    - Ambos praticaram o crime de corrupção passiva.
+    - Maria praticou, em tese, o crime de corrupção passiva, enquanto João, o crime de corrupção ativa.
+    - Ambos praticaram o crime de corrupção ativa.
+    gabarito: A
+    comentario: 'Letra A. João, agente penitenciário (funcionário público), ao RECEBER vantagem indevida em razão da função, pratica corrupção PASSIVA (art. 317 do CP). Maria, particular, ao ENTREGAR a vantagem para induzi-lo a omitir ato de ofício, pratica corrupção ATIVA (art. 333 do CP). São crimes autônomos: ela oferece/dá (ativa), ele recebe (passiva); não se confunde com concussão (art. 316), que pressupõe EXIGIR a vantagem.'
   56:
-    enunciado: "Uma crítica pertinente ao modelo de Ramsey da tributação é que este"
+    enunciado: Uma crítica pertinente ao modelo de Ramsey da tributação é que este
     alternativas:
-      - "se mostra demasiado voltado para a busca de uma solução para a questão da equidade tributária que atinge os diferentes agentes."
-      - "produz um sistema tributário regressivo."
-      - "se baseia em solução chamada de second best, isto é, não trata da questão da eficiência tributária."
-      - "está assentado na mensuração das preferências individuais de cada agente econômico."
-      - "não se preocupa com a questão do peso morto dos tributos."
+    - se mostra demasiado voltado para a busca de uma solução para a questão da equidade tributária que atinge os diferentes agentes.
+    - produz um sistema tributário regressivo.
+    - se baseia em solução chamada de second best, isto é, não trata da questão da eficiência tributária.
+    - está assentado na mensuração das preferências individuais de cada agente econômico.
+    - não se preocupa com a questão do peso morto dos tributos.
+    gabarito: B
+    comentario: 'Gabarito B. A Regra de Ramsey é uma regra de EFICIÊNCIA, não de equidade: pela regra da elasticidade inversa \( t_i \propto \dfrac{1}{E_i} \), tributam-se mais os bens de demanda inelástica (alimentos, remédios, energia), que são essenciais e pesam mais no orçamento dos mais pobres. O resultado é um sistema REGRESSIVO — exatamente a crítica distributiva que a banca aponta. A (busca equidade) e D (mensurar preferências individuais) invertem o caráter da regra; C distorce o second best (Ramsey é second best justamente porque busca eficiência diante da inviabilidade do lump-sum); E é falso, pois Ramsey minimiza o peso morto.'
   57:
-    enunciado: "Da comparação entre comportamentos das firmas no curto prazo em diferentes estruturas de mercado tem-se que:"
+    enunciado: 'Da comparação entre comportamentos das firmas no curto prazo em diferentes estruturas de mercado tem-se que:'
     alternativas:
-      - "uma firma em concorrência perfeita paralisa suas atividades se o preço do bem é menor do que o Custo Variável Médio de produção."
-      - "a firma em concorrência perfeita tem sua curva de demanda representada pela porção da curva de Custo Marginal que fica acima da curva de Custo Total Médio."
-      - "a firma monopolista, ao maximizar o lucro, gera um custo de bem-estar, ou peso morto, pois oferta uma quantidade inferior à quantidade eficiente dada pelo encontro da curva de Custo Marginal com a curva de Demanda."
-      - "em um mercado em concorrência monopolística, os lucros extraordinários atraem novas firmas para o mercado, o que as impede de adotar uma postura maximizadora em que o Custo Médio iguala a Receita Marginal."
-      - "em um mercado oligopolista, os produtores desconsideram a reação dos concorrentes na determinação de sua produção e preços."
+    - uma firma em concorrência perfeita paralisa suas atividades se o preço do bem é menor do que o Custo Variável Médio de produção.
+    - a firma em concorrência perfeita tem sua curva de demanda representada pela porção da curva de Custo Marginal que fica acima da curva de Custo Total Médio.
+    - a firma monopolista, ao maximizar o lucro, gera um custo de bem-estar, ou peso morto, pois oferta uma quantidade inferior à quantidade eficiente dada pelo encontro da curva de Custo Marginal com a curva de Demanda.
+    - em um mercado em concorrência monopolística, os lucros extraordinários atraem novas firmas para o mercado, o que as impede de adotar uma postura maximizadora em que o Custo Médio iguala a Receita Marginal.
+    - em um mercado oligopolista, os produtores desconsideram a reação dos concorrentes na determinação de sua produção e preços.
+    gabarito: A
+    comentario: 'Gabarito A. Em concorrência perfeita, o ponto de fechamento (paralisação) no curto prazo é o mínimo do Custo Variável Médio: se \( P < CVMe \), a firma não cobre nem os custos variáveis e paralisa. B erra ao usar o Custo Total Médio (a curva de oferta de curto prazo é o CMg acima do CVMe, não do CTMe). C inverte o monopólio (o peso morto vem da quantidade onde \( RMg = CMg \), abaixo da eficiente onde \( CMg = \) demanda — a frase de C descreve mal o mecanismo). D e E também são incorretas: em concorrência monopolística o equilíbrio de longo prazo tem lucro econômico zero, e no oligopólio os produtores CONSIDERAM a reação dos concorrentes.'
   58:
-    enunciado: "[Tabela de uma firma em concorrência perfeita, com lacunas I a V nas colunas Receita Total, Custo Total, Lucro, Receita Marginal e Custo Marginal; dados parcialmente corrompidos pelo OCR] As lacunas numeradas de I a V são preenchidas, respectivamente, por, em $: [alternativas parcialmente ilegíveis no OCR]"
+    enunciado: '[Tabela de uma firma em concorrência perfeita, com lacunas I a V nas colunas Receita Total, Custo Total, Lucro, Receita Marginal e Custo Marginal; dados parcialmente corrompidos pelo OCR] As lacunas numeradas de I a V são preenchidas, respectivamente, por, em $: [alternativas parcialmente ilegíveis no OCR]'
     alternativas:
-      - "6; 12; 0; 6; 5"
-      - "4; 5; 2; 11; -3 [alternativa corrompida no OCR]"
-      - "6; 13; 0; 3; 3"
-      - "6; 12; -3; 6; 2"
-      - "8; 13; 0; 9; 4 [alternativa corrompida no OCR]"
+    - 6; 12; 0; 6; 5
+    - 4; 5; 2; 11; -3 [alternativa corrompida no OCR]
+    - 6; 13; 0; 3; 3
+    - 6; 12; -3; 6; 2
+    - 8; 13; 0; 9; 4 [alternativa corrompida no OCR]
+    gabarito: D
+    comentario: 'Gabarito D. Questão de tabela de firma em concorrência perfeita, onde a firma é tomadora de preço: \( RMg = P \) e \( CMg = \dfrac{\Delta CT}{\Delta Q} \), com \( Lucro = RT - CT \) e \( RT = P \times Q \). Preenche-se cada lacuna por essas identidades, lembrando que o ótimo é a última unidade em que \( CMg \le P \). (Atenção: os dados numéricos e as alternativas desta questão estão parcialmente corrompidos pelo OCR — a aritmética interna das alternativas não fecha; o comentário é pelo método. Ordem das alternativas pode estar embaralhada no OCR.)'
   59:
-    enunciado: "[Tabela com rubricas do Balanço de Pagamentos de um país hipotético, em ordem alfabética, em milhões US$: Aluguel de Equipamentos (-7); Derivativos 15; Exportações 34; Importações 22; Investimento Direto 4; Lucros e Dividendos (-27); Royalties e Licenças 1; Seguros 6] Os valores dos saldos em Transações Correntes e da Conta Financeira são, respectivamente:"
+    enunciado: '[Tabela com rubricas do Balanço de Pagamentos de um país hipotético, em ordem alfabética, em milhões US$: Aluguel de Equipamentos (-7); Derivativos 15; Exportações 34; Importações 22; Investimento Direto 4; Lucros e Dividendos (-27); Royalties e Licenças 1; Seguros 6] Os valores dos saldos em Transações Correntes e da Conta Financeira são, respectivamente:'
     alternativas:
-      - "22 e 29"
-      - "51 e zero"
-      - "(-5) e 56"
-      - "12 e 39"
-      - "5 e 46"
+    - 22 e 29
+    - 51 e zero
+    - (-5) e 56
+    - 12 e 39
+    - 5 e 46
+    gabarito: C
+    comentario: 'Gabarito C. Pelo BPM6, as Transações Correntes somam balança comercial (bens) + serviços + renda primária + renda secundária: Exportações e Importações vão à balança comercial; Aluguel de Equipamentos, Seguros e Royalties/Licenças são serviços; Lucros e Dividendos são renda primária (remuneração de fatores), em regra remetidos ao exterior (sinal negativo, puxando o saldo para baixo). A Conta Financeira reúne Investimento Direto, Derivativos e demais ativos/passivos financeiros. \( TC = (X-M) + \text{serviços} + \text{renda primária} \) e \( CF = \) soma dos fluxos financeiros. O saldo de TC resulta negativo, financiado por entrada líquida na conta financeira. (Os valores numéricos da tabela estão embaralhados pelo OCR e não fecham exatamente o par do gabarito; o comentário é pelo método de classificação BPM6. Ordem das alternativas pode estar embaralhada no OCR.)'
   60:
-    enunciado: "[Gráfico de preço × quantidade apresentando uma curva associada a um bem de consumo considerado 'bem inferior'] Com tudo mais mantido constante, um aumento da renda dos consumidores"
+    enunciado: '[Gráfico de preço × quantidade apresentando uma curva associada a um bem de consumo considerado ''bem inferior''] Com tudo mais mantido constante, um aumento da renda dos consumidores'
     alternativas:
-      - "mantém o preço e a quantidade de equilíbrio, reduzindo a elasticidade da curva."
-      - "provoca um deslocamento da curva para a esquerda."
-      - "provoca um deslocamento da curva para a direita."
-      - "mantém o preço e a quantidade de equilíbrio, aumentando a elasticidade da curva."
-      - "não altera a curva."
+    - mantém o preço e a quantidade de equilíbrio, reduzindo a elasticidade da curva.
+    - provoca um deslocamento da curva para a esquerda.
+    - provoca um deslocamento da curva para a direita.
+    - mantém o preço e a quantidade de equilíbrio, aumentando a elasticidade da curva.
+    - não altera a curva.
+    gabarito: B
+    comentario: 'Gabarito B. Para um BEM INFERIOR, a renda e a demanda têm relação inversa: um AUMENTO da renda dos consumidores REDUZ a demanda, deslocando a curva inteira para a ESQUERDA. Como a renda não é o preço do próprio bem, há deslocamento da curva (muda a ''demanda''), e não mero movimento ao longo dela. C (direita) seria o caso de bem normal; E (não altera) e as alternativas que mantêm preço/quantidade ignoram que a renda é um determinante que desloca a demanda.'
   61:
-    enunciado: "No tocante à classificação dos impostos, o Imposto sobre Valor Agregado (IVA), em sua forma mais consagrada de adoção, caracteriza-se por ser"
+    enunciado: No tocante à classificação dos impostos, o Imposto sobre Valor Agregado (IVA), em sua forma mais consagrada de adoção, caracteriza-se por ser
     alternativas:
-      - "não neutro, pois não afeta as decisões econômicas dos agentes."
-      - "ad valorem, isto é, calculado como uma porcentagem fixa sobre o valor comercial de um bem."
-      - "um imposto especial do tipo excise tax, pois incide sobre toda a cadeia de tributação do consumo, sem distinção."
-      - "um imposto direto, pois seu ônus pode ser transferido a terceiros."
-      - "monofásico, pois incide igualmente sobre todas as fases do circuito econômico."
+    - não neutro, pois não afeta as decisões econômicas dos agentes.
+    - ad valorem, isto é, calculado como uma porcentagem fixa sobre o valor comercial de um bem.
+    - um imposto especial do tipo excise tax, pois incide sobre toda a cadeia de tributação do consumo, sem distinção.
+    - um imposto direto, pois seu ônus pode ser transferido a terceiros.
+    - monofásico, pois incide igualmente sobre todas as fases do circuito econômico.
+    gabarito: B
+    comentario: 'Gabarito B. Na forma mais consagrada, o IVA é AD VALOREM: a alíquota é um percentual fixo aplicado sobre o valor (base de cálculo) da operação, acompanhando automaticamente a variação de preços. A é falsa (afirma não neutro e ao mesmo tempo que não afeta decisões — contraditório; o IVA busca justamente neutralidade); C erra ao chamá-lo de excise tax monofásico indistinto; D inverte (imposto que se transfere ao consumidor é INDIRETO, não direto); E erra ao dizê-lo monofásico — o IVA é plurifásico e não cumulativo.'
   62:
-    enunciado: "Em situações em que a demanda agregada é diferente da oferta agregada, a política tributária"
+    enunciado: Em situações em que a demanda agregada é diferente da oferta agregada, a política tributária
     alternativas:
-      - "aumenta o hiato deflacionário com a redução da tributação sobre as exportações."
-      - "pode ter caráter contracionista, através de um aumento de tributos sobre o consumo, contribuindo para reduzir o hiato inflacionário."
-      - "pode ter caráter expansionista, através de uma redução de tributos sobre as importações, contribuindo para reduzir o hiato deflacionário."
-      - "aumenta o hiato inflacionário com a criação de um tributo sobre as exportações."
-      - "é neutra do ponto de vista estabilizador, visto que a armadilha da liquidez tende a anular os efeitos da política tributária."
+    - aumenta o hiato deflacionário com a redução da tributação sobre as exportações.
+    - pode ter caráter contracionista, através de um aumento de tributos sobre o consumo, contribuindo para reduzir o hiato inflacionário.
+    - pode ter caráter expansionista, através de uma redução de tributos sobre as importações, contribuindo para reduzir o hiato deflacionário.
+    - aumenta o hiato inflacionário com a criação de um tributo sobre as exportações.
+    - é neutra do ponto de vista estabilizador, visto que a armadilha da liquidez tende a anular os efeitos da política tributária.
+    gabarito: B
+    comentario: 'Gabarito B. A política fiscal atua de forma anticíclica: no hiato INFLACIONÁRIO (demanda agregada acima da oferta/produto potencial), aplica-se política CONTRACIONISTA — AUMENTAR tributos (ex.: sobre o consumo) e/ou reduzir gastos retira demanda agregada e reduz o hiato inflacionário. A, C, D e E invertem o sentido (reduzir tributo é expansionista, não contracionista) ou apelam à neutralidade/armadilha da liquidez, que não anula o efeito estabilizador da tributação no caso descrito.'
   63:
-    enunciado: "A economia de um país hipotético, fechado e sem governo, apresenta uma demanda por moeda dada por M = P(Y − 0,4i) e demanda agregada dada por C + I, onde C = 20 + 0,8Y e I = 30 − 0,3i. A inclinação da curva IS, com duas casas decimais, tem valor igual a"
+    enunciado: A economia de um país hipotético, fechado e sem governo, apresenta uma demanda por moeda dada por M = P(Y − 0,4i) e demanda agregada dada por C + I, onde C = 20 + 0,8Y e I = 30 − 0,3i. A inclinação da curva IS, com duas casas decimais, tem valor igual a
     alternativas:
-      - "-0,66"
-      - "-0,55"
-      - "-0,50"
-      - "-0,70"
-      - "-0,60"
+    - -0,66
+    - -0,55
+    - -0,50
+    - -0,70
+    - -0,60
+    gabarito: A
+    comentario: 'Gabarito A. Economia fechada e sem governo: \( Y = C + I = (20 + 0{,}8Y) + (30 - 0{,}3i) \). Isolando: \( 0{,}2Y = 50 - 0{,}3i \). A inclinação da IS no plano \((Y,i)\) é \( \dfrac{di}{dY} = -\dfrac{0{,}2}{0{,}3} = -0{,}66\ldots \approx -0{,}66 \). A IS é negativamente inclinada porque o investimento depende inversamente dos juros (juros menores elevam investimento e renda).'
   64:
-    enunciado: "[Tabela de preços e quantidades anuais de um país que produz dois bens — cotonetes e lâmpadas: 2022 (cotonete $2, q 200; lâmpada $8, q 50); 2023 ($4, 250; $9, 60); 2024 ($5, 300; $10, 100)] O valor do Deflator do PIB dessa economia, expresso em número inteiro, para o ano de 2024, tendo como ano-base o ano de 2022, é"
+    enunciado: '[Tabela de preços e quantidades anuais de um país que produz dois bens — cotonetes e lâmpadas: 2022 (cotonete $2, q 200; lâmpada $8, q 50); 2023 ($4, 250; $9, 60); 2024 ($5, 300; $10, 100)] O valor do Deflator do PIB dessa economia, expresso em número inteiro, para o ano de 2024, tendo como ano-base o ano de 2022, é'
     alternativas:
-      - "165"
-      - "198"
-      - "190"
-      - "178"
-      - "182"
+    - '165'
+    - '198'
+    - '190'
+    - '178'
+    - '182'
+    gabarito: D
+    comentario: 'Gabarito D. O Deflator do PIB compara o PIB nominal (preços correntes do ano) com o PIB real (preços do ano-base): \( \text{Deflator} = \dfrac{PIB_{\text{nom}}}{PIB_{\text{real}}}\times 100 \). Em 2024, com base 2022: \( PIB_{\text{nom}} = 300\times 5 + 100\times 10 = 2.500 \); \( PIB_{\text{real}} = 300\times 2 + 100\times 8 = 1.400 \). Logo \( \text{Deflator} = \dfrac{2.500}{1.400}\times 100 \approx 178 \).'
   65:
-    enunciado: "Considere a afirmação: 'Em uma estrutura monopolista, no curto prazo, a imposição de um imposto sobre os lucros irá acarretar aumento do preço e queda da quantidade produzida pela firma monopolista.' A afirmação é"
+    enunciado: 'Considere a afirmação: ''Em uma estrutura monopolista, no curto prazo, a imposição de um imposto sobre os lucros irá acarretar aumento do preço e queda da quantidade produzida pela firma monopolista.'' A afirmação é'
     alternativas:
-      - "falsa, pois a elevação do Custo Marginal será acompanhada por um deslocamento para a direita da curva de demanda, compensando a tendência à elevação do preço de equilíbrio."
-      - "falsa, pois a análise de curto prazo não permite a observação dos efeitos da adoção de um imposto desse tipo sobre a oferta da firma ou sobre sua estrutura de custos."
-      - "verdadeira, pois com a adoção desse tributo, o Custo Marginal da firma se eleva, resultando em um novo equilíbrio com redução da quantidade produzida e consequente elevação do preço praticado."
-      - "falsa, pois, no curto prazo, a imposição de um imposto sobre o lucro não afeta a condição de primeira ordem (RMg = CMg), logo não ocorrerá variação de preços ou quantidades."
-      - "verdadeira, pois esse tipo de imposto impacta a Receita Marginal da firma, fazendo com que essa se desloque para a esquerda, com impacto sobre preço e oferta."
+    - falsa, pois a elevação do Custo Marginal será acompanhada por um deslocamento para a direita da curva de demanda, compensando a tendência à elevação do preço de equilíbrio.
+    - falsa, pois a análise de curto prazo não permite a observação dos efeitos da adoção de um imposto desse tipo sobre a oferta da firma ou sobre sua estrutura de custos.
+    - verdadeira, pois com a adoção desse tributo, o Custo Marginal da firma se eleva, resultando em um novo equilíbrio com redução da quantidade produzida e consequente elevação do preço praticado.
+    - falsa, pois, no curto prazo, a imposição de um imposto sobre o lucro não afeta a condição de primeira ordem (RMg = CMg), logo não ocorrerá variação de preços ou quantidades.
+    - verdadeira, pois esse tipo de imposto impacta a Receita Marginal da firma, fazendo com que essa se desloque para a esquerda, com impacto sobre preço e oferta.
+    gabarito: D
+    comentario: 'Gabarito D. A afirmação é FALSA. Um imposto sobre o LUCRO do monopolista é um custo fixo (tipo lump-sum): não altera o Custo Marginal e, portanto, não muda a condição de primeira ordem \( RMg = CMg \). Como o ótimo permanece o mesmo, não há variação de preço nem de quantidade — só se reduz o lucro, suportado integralmente pelo monopolista. Quem alteraria preço e quantidade seria um imposto sobre a quantidade/receita (que eleva o CMg), não sobre o lucro. C e E erram ao supor impacto sobre CMg/RMg; A e B trazem justificativas falsas.'
   66:
-    enunciado: "Um equipamento industrial foi adquirido por R$ 2.550.000, à vista, em 30/11/2022, e começou a ser utilizado em 02/01/2023, com vida útil definida em 20 anos e valor residual estimado de R$ 150.000. No final de 2023, a vida útil remanescente foi redefinida para 15 anos e o novo valor residual estimado passou a R$ 180.000. Adotando o método das cotas constantes e sem necessidade de redução ao valor recuperável, o valor contábil do equipamento evidenciado no Balanço Patrimonial de 31/12/2025 foi, em reais,"
+    enunciado: Um equipamento industrial foi adquirido por R$ 2.550.000, à vista, em 30/11/2022, e começou a ser utilizado em 02/01/2023, com vida útil definida em 20 anos e valor residual estimado de R$ 150.000. No final de 2023, a vida útil remanescente foi redefinida para 15 anos e o novo valor residual estimado passou a R$ 180.000. Adotando o método das cotas constantes e sem necessidade de redução ao valor recuperável, o valor contábil do equipamento evidenciado no Balanço Patrimonial de 31/12/2025 foi, em reais,
     alternativas:
-      - "2.100.000"
-      - "2.130.000"
-      - "2.194.500"
-      - "2.190.000"
-      - "2.076.000"
+    - 2.100.000
+    - 2.130.000
+    - 2.194.500
+    - 2.190.000
+    - 2.076.000
+    gabarito: B
+    comentario: 'Gabarito B. Cotas constantes: depreciação 2023 \( = \dfrac{2.550.000 - 150.000}{20} = 150.000 \Rightarrow \) valor contábil em 31/12/2023 \( = 2.550.000 - 150.000 = 2.400.000 \). Espera: a dep. de 2023 é \( \dfrac{2.400.000}{20} = 120.000 \), logo VC fim/2023 \( = 2.430.000 \). A revisão de vida útil e valor residual é mudança de estimativa, aplicada PROSPECTIVAMENTE (CPC 27/CPC 23): nova depreciação \( = \dfrac{2.430.000 - 180.000}{15} = 150.000 \) ao ano. Em 31/12/2025 (2 anos): \( 2.430.000 - 2\times 150.000 = 2.130.000 \). Sem recálculo do passado.'
   67:
-    enunciado: "O Patrimônio Líquido da empresa Perfumes Cheirosos S.A. totalizava R$ 14.400.000 em 31/12/2024 (Capital Social 12.000.000; Reserva Legal 2.100.000; Reserva Estatutária 300.000). Em 2025 apurou lucro líquido de R$ 2.400.000, destinado da seguinte forma: Reserva Legal conforme a Lei nº 6.404/1976; Reserva Estatutária de 10% do lucro líquido após dedução da Reserva Legal; Dividendo obrigatório de 25% do lucro líquido após dedução da Reserva Legal; Reserva para Expansão com o saldo remanescente. O valor total do Patrimônio Líquido no Balanço Patrimonial de 31/12/2025 era, em reais,"
+    enunciado: 'O Patrimônio Líquido da empresa Perfumes Cheirosos S.A. totalizava R$ 14.400.000 em 31/12/2024 (Capital Social 12.000.000; Reserva Legal 2.100.000; Reserva Estatutária 300.000). Em 2025 apurou lucro líquido de R$ 2.400.000, destinado da seguinte forma: Reserva Legal conforme a Lei nº 6.404/1976; Reserva Estatutária de 10% do lucro líquido após dedução da Reserva Legal; Dividendo obrigatório de 25% do lucro líquido após dedução da Reserva Legal; Reserva para Expansão com o saldo remanescente. O valor total do Patrimônio Líquido no Balanço Patrimonial de 31/12/2025 era, em reais,'
     alternativas:
-      - "16.200.000"
-      - "15.882.000"
-      - "16.230.000"
-      - "16.800.000"
-      - "16.680.000"
+    - 16.200.000
+    - 15.882.000
+    - 16.230.000
+    - 16.800.000
+    - 16.680.000
+    gabarito: C
+    comentario: 'Gabarito C. Destinações sobre o lucro líquido de 2.400.000: Reserva Legal \( = 5\% \times 2.400.000 = 120.000 \) (Lei 6.404/76, art. 193; teto de 20% do capital não atingido). Base ajustada \( = 2.400.000 - 120.000 = 2.280.000 \). Reserva Estatutária \( = 10\%\times 2.280.000 = 228.000 \); Dividendo obrigatório \( = 25\%\times 2.280.000 = 570.000 \); Reserva para Expansão \( = 1.482.000 \). Apenas o dividendo SAI do PL; as reservas permanecem. PL final \( = 14.400.000 + 2.400.000 - 570.000 = 16.230.000 \).'
   68:
-    enunciado: "Em 23/10/2023, a empresa Comprando e Vendendo S.A. adquiriu mercadorias para revenda, pagando R$ 1.010.250 ao fornecedor e R$ 30.000 de frete, incluídos tributos recuperáveis de R$ 138.000 e não recuperáveis de R$ 96.000. Em 10/12/2023 vendeu 80% das mercadorias por R$ 2.700.000, com desconto comercial de 10%; os impostos sobre a venda são de 10% sobre o valor líquido, e a empresa pagou R$ 48.600 de comissão e R$ 42.000 de frete na entrega. O lucro bruto apurado, em relação à compra e venda dessas mercadorias, foi, em reais,"
+    enunciado: Em 23/10/2023, a empresa Comprando e Vendendo S.A. adquiriu mercadorias para revenda, pagando R$ 1.010.250 ao fornecedor e R$ 30.000 de frete, incluídos tributos recuperáveis de R$ 138.000 e não recuperáveis de R$ 96.000. Em 10/12/2023 vendeu 80% das mercadorias por R$ 2.700.000, com desconto comercial de 10%; os impostos sobre a venda são de 10% sobre o valor líquido, e a empresa pagou R$ 48.600 de comissão e R$ 42.000 de frete na entrega. O lucro bruto apurado, em relação à compra e venda dessas mercadorias, foi, em reais,
     alternativas:
-      - "1.374.600"
-      - "1.708.200"
-      - "1.542.000"
-      - "1.416.600"
-      - "1.465.200"
+    - 1.374.600
+    - 1.708.200
+    - 1.542.000
+    - 1.416.600
+    - 1.465.200
+    gabarito: E
+    comentario: 'Gabarito E. Custo do estoque (CPC 16): exclui tributos recuperáveis, mas inclui frete e tributos não recuperáveis: \( 1.010.250 + 30.000 - 138.000 = 902.250 \). Vendidas 80%: \( CMV = 0{,}80\times 902.250 = 721.800 \). Receita: \( 2.700.000\times 0{,}90 = 2.430.000 \) (desconto comercial); impostos \( 10\%\times 2.430.000 = 243.000 \Rightarrow \) Receita Líquida \( = 2.187.000 \). \( \text{Lucro Bruto} = 2.187.000 - 721.800 = 1.465.200 \). Comissão (48.600) e frete sobre vendas (42.000) são despesas operacionais e NÃO entram no lucro bruto.'
   69:
-    enunciado: "Uma empresa, com ciclo operacional de 20 meses, realizou em dezembro de 2024 os seguintes eventos: (I) compra de matéria-prima destinada à produção; (II) compra de equipamento industrial que será utilizado na produção; (III) aquisição do direito de uso de uma marca por 8 anos; (IV) venda, a prazo, de produtos para recebimento em fevereiro de 2026. No Balanço Patrimonial de 31/12/2024, os ativos decorrentes das transações I, II, III e IV foram classificados, respectivamente, como:"
+    enunciado: 'Uma empresa, com ciclo operacional de 20 meses, realizou em dezembro de 2024 os seguintes eventos: (I) compra de matéria-prima destinada à produção; (II) compra de equipamento industrial que será utilizado na produção; (III) aquisição do direito de uso de uma marca por 8 anos; (IV) venda, a prazo, de produtos para recebimento em fevereiro de 2026. No Balanço Patrimonial de 31/12/2024, os ativos decorrentes das transações I, II, III e IV foram classificados, respectivamente, como:'
     alternativas:
-      - "ativo circulante, ativo não circulante, ativo não circulante e ativo circulante."
-      - "ativo circulante, ativo não circulante, ativo não circulante e ativo não circulante."
-      - "ativo circulante, ativo circulante, ativo não circulante e ativo circulante."
-      - "ativo circulante, ativo não circulante, ativo circulante e ativo não circulante."
-      - "ativo não circulante, ativo circulante, ativo circulante e ativo circulante."
+    - ativo circulante, ativo não circulante, ativo não circulante e ativo circulante.
+    - ativo circulante, ativo não circulante, ativo não circulante e ativo não circulante.
+    - ativo circulante, ativo circulante, ativo não circulante e ativo circulante.
+    - ativo circulante, ativo não circulante, ativo circulante e ativo não circulante.
+    - ativo não circulante, ativo circulante, ativo circulante e ativo circulante.
+    gabarito: A
+    comentario: 'Gabarito A. Classificação no Balanço de 31/12/2024 (Lei 6.404/76, arts. 178-179): (I) matéria-prima para produção é estoque → Ativo Circulante; (II) equipamento industrial de uso na produção → Imobilizado, Ativo Não Circulante; (III) direito de uso de marca por 8 anos → Intangível, Ativo Não Circulante; (IV) venda a prazo com recebimento em fev/2026 — embora ultrapasse 12 meses, está dentro do ciclo operacional de 20 meses da empresa (art. 179, I), logo Ativo Circulante. Resultado: circulante, não circulante, não circulante, circulante.'
   70:
-    enunciado: "Um ativo intangível estava registrado no Balanço Patrimonial de 31/12/2023 pelo saldo contábil de R$ 864.000 (custo de aquisição 1.000.000; amortização acumulada -100.000; perda por desvalorização/impairment -36.000). A vida útil definida na aquisição foi de 20 anos, com valor residual zero, e adota-se o método das cotas constantes. Em 31/12/2024 realizou-se teste de impairment: valor em uso R$ 820.000; valor justo líquido de despesas de venda R$ 780.000. Na Demonstração do Resultado de 2024, a empresa deveria"
+    enunciado: 'Um ativo intangível estava registrado no Balanço Patrimonial de 31/12/2023 pelo saldo contábil de R$ 864.000 (custo de aquisição 1.000.000; amortização acumulada -100.000; perda por desvalorização/impairment -36.000). A vida útil definida na aquisição foi de 20 anos, com valor residual zero, e adota-se o método das cotas constantes. Em 31/12/2024 realizou-se teste de impairment: valor em uso R$ 820.000; valor justo líquido de despesas de venda R$ 780.000. Na Demonstração do Resultado de 2024, a empresa deveria'
     alternativas:
-      - "reconhecer uma despesa de amortização no valor de R$ 48.000 e uma receita de reversão do 'impairment' no valor de R$ 36.000."
-      - "reconhecer uma despesa de amortização no valor de R$ 48.000, apenas."
-      - "reconhecer uma despesa de amortização no valor de R$ 50.000, apenas."
-      - "reconhecer uma despesa de amortização no valor de R$ 50.000 e uma despesa de perda por desvalorização ('impairment') no valor de R$ 34.000."
-      - "reconhecer uma despesa de amortização no valor de R$ 48.000 e uma receita de reversão do 'impairment' no valor de R$ 4.000."
+    - reconhecer uma despesa de amortização no valor de R$ 48.000 e uma receita de reversão do 'impairment' no valor de R$ 36.000.
+    - reconhecer uma despesa de amortização no valor de R$ 48.000, apenas.
+    - reconhecer uma despesa de amortização no valor de R$ 50.000, apenas.
+    - reconhecer uma despesa de amortização no valor de R$ 50.000 e uma despesa de perda por desvalorização ('impairment') no valor de R$ 34.000.
+    - reconhecer uma despesa de amortização no valor de R$ 48.000 e uma receita de reversão do 'impairment' no valor de R$ 4.000.
+    gabarito: E
+    comentario: 'Gabarito E. Em 2024, amortiza-se pelo saldo contábil sobre a vida remanescente: \( \dfrac{864.000}{18} = 48.000 \Rightarrow \) VC após amortização \( = 816.000 \). Teste de impairment (CPC 01): valor recuperável \( = \max(820.000;\,780.000) = 820.000 > 816.000 \), indicando REVERSÃO da perda anterior. Mas há teto (item 114): o VC pós-reversão não pode exceder o que existiria SEM o impairment, \( = 1.000.000 - 3\times 50.000 = 850.000 \). Reversão \( = \min(820.000;\,850.000) - 816.000 = 4.000 \). Logo: despesa de amortização de 48.000 e receita de reversão de 4.000.'
   71:
-    enunciado: "A empresa Problemas Jurídicos S.A. responde a diversos processos judiciais. Provisões em 31/12/2023 e análise para 31/12/2024: Processo A (provisão 1.500.000; perda provável; valor reestimado 1.200.000); Processo B (sem provisão; perda provável; 720.000); Processo C (sem provisão; perda possível; 480.000); Processo D (provisão 900.000; perda possível; 540.000). O impacto reconhecido no resultado de 2024 e o saldo apresentado no Balanço Patrimonial de 31/12/2024, decorrentes exclusivamente desses processos, foram, respectivamente, em reais:"
+    enunciado: 'A empresa Problemas Jurídicos S.A. responde a diversos processos judiciais. Provisões em 31/12/2023 e análise para 31/12/2024: Processo A (provisão 1.500.000; perda provável; valor reestimado 1.200.000); Processo B (sem provisão; perda provável; 720.000); Processo C (sem provisão; perda possível; 480.000); Processo D (provisão 900.000; perda possível; 540.000). O impacto reconhecido no resultado de 2024 e o saldo apresentado no Balanço Patrimonial de 31/12/2024, decorrentes exclusivamente desses processos, foram, respectivamente, em reais:'
     alternativas:
-      - "um ganho de 180.000 e um saldo de 2.940.000"
-      - "uma perda de 180.000 e um saldo de 2.940.000"
-      - "uma perda de 720.000 e um saldo de 1.920.000"
-      - "um ganho de 480.000 e um saldo de 1.920.000"
-      - "um ganho de 900.000 e um saldo de 1.920.000"
+    - um ganho de 180.000 e um saldo de 2.940.000
+    - uma perda de 180.000 e um saldo de 2.940.000
+    - uma perda de 720.000 e um saldo de 1.920.000
+    - um ganho de 480.000 e um saldo de 1.920.000
+    - um ganho de 900.000 e um saldo de 1.920.000
+    gabarito: D
+    comentario: 'Gabarito D. Reavaliação das provisões em 2024 (CPC 25): Processo A (provável, reestimado a 1.200.000): reduz a provisão de 1.500.000 → ganho de 300.000. Processo B (provável, 720.000): reconhece nova provisão → despesa de 720.000. Processo C (possível): só divulgação, sem provisão. Processo D (possível, 540.000): reverte a provisão de 900.000 → ganho de 900.000. Impacto no resultado \( = +300.000 - 720.000 + 900.000 = +480.000 \) (ganho). Saldo de provisões no balanço \( = 1.200.000 + 720.000 = 1.920.000 \) (só os prováveis A e B).'
   72:
-    enunciado: "Em relação aos ativos e passivos contingentes, considere as afirmações: (I) Todos os ativos contingentes devem ser reconhecidos e contabilizados; (II) Todos os passivos contingentes devem ser reconhecidos e contabilizados; (III) As provisões devem ser reconhecidas e contabilizadas se as perdas forem consideradas prováveis; (IV) Os ativos contingentes não devem ser reconhecidos. Está correto o que se afirma APENAS em"
+    enunciado: 'Em relação aos ativos e passivos contingentes, considere as afirmações: (I) Todos os ativos contingentes devem ser reconhecidos e contabilizados; (II) Todos os passivos contingentes devem ser reconhecidos e contabilizados; (III) As provisões devem ser reconhecidas e contabilizadas se as perdas forem consideradas prováveis; (IV) Os ativos contingentes não devem ser reconhecidos. Está correto o que se afirma APENAS em'
     alternativas:
-      - "II e IV."
-      - "III e IV."
-      - "II, III e IV."
-      - "I e III."
-      - "II e III."
+    - II e IV.
+    - III e IV.
+    - II, III e IV.
+    - I e III.
+    - II e III.
+    gabarito: B
+    comentario: Gabarito B. Corretas apenas III e IV (CPC 25). (III) provisões são reconhecidas quando a perda é provável (>50%), com obrigação presente e estimativa confiável (item 14). (IV) ativos contingentes NUNCA são reconhecidos (item 31), apenas divulgados quando o ganho é provável. (I) é falsa pela própria assimetria conservadora; (II) é falsa porque passivos contingentes NÃO são reconhecidos (item 27), apenas divulgados (possível) ou nem isso (remoto).
   73:
-    enunciado: "A empresa Vendemos de Tudo S.A. apresentava, no final de 2024, os seguintes saldos acumulados (em reais): Abatimentos sobre vendas 300.000; Custo das mercadorias vendidas 6.000.000; Despesa com perdas estimadas com créditos de liquidação duvidosa 60.000; Despesa com fretes sobre vendas 100.000; Devoluções de vendas 900.000; Comissões sobre vendas 480.000; Impostos sobre vendas 800.000; Receita bruta de vendas 16.000.000; Despesas com propaganda 1.600.000. O valor do Lucro Bruto evidenciado na Demonstração do Resultado de 2024 foi, em reais,"
+    enunciado: 'A empresa Vendemos de Tudo S.A. apresentava, no final de 2024, os seguintes saldos acumulados (em reais): Abatimentos sobre vendas 300.000; Custo das mercadorias vendidas 6.000.000; Despesa com perdas estimadas com créditos de liquidação duvidosa 60.000; Despesa com fretes sobre vendas 100.000; Devoluções de vendas 900.000; Comissões sobre vendas 480.000; Impostos sobre vendas 800.000; Receita bruta de vendas 16.000.000; Despesas com propaganda 1.600.000. O valor do Lucro Bruto evidenciado na Demonstração do Resultado de 2024 foi, em reais,'
     alternativas:
-      - "7.900.000"
-      - "5.820.000"
-      - "8.000.000"
-      - "8.300.000"
-      - "9.200.000"
+    - 7.900.000
+    - 5.820.000
+    - 8.000.000
+    - 8.300.000
+    - 9.200.000
+    gabarito: C
+    comentario: 'Gabarito C. \( \text{Lucro Bruto} = \text{Receita Líquida} - CMV \). Deduções da receita bruta (art. 187): devoluções 900.000, abatimentos 300.000 e impostos sobre vendas 800.000 → \( RL = 16.000.000 - 900.000 - 300.000 - 800.000 = 14.000.000 \). \( \text{Lucro Bruto} = 14.000.000 - 6.000.000 = 8.000.000 \). PECLD, fretes sobre vendas, comissões e propaganda são despesas operacionais (entram DEPOIS do lucro bruto), não deduzem a receita.'
   74:
-    enunciado: "Uma empresa adquiriu, à vista, um lote de mercadorias por R$ 1.000.000 em 18/11/2024, responsabilizando-se pela retirada no depósito do fornecedor, pagando R$ 40.000 de frete e R$ 10.000 de seguro contra roubo durante o transporte. Nos valores pagos estão incluídos impostos recuperáveis de R$ 90.000 e impostos não recuperáveis de R$ 70.000. Em 15/12/2024 vendeu 80% das mercadorias. O saldo evidenciado na conta Estoques no Balanço Patrimonial de 31/12/2024, em relação exclusivamente a essas mercadorias, foi, em reais,"
+    enunciado: Uma empresa adquiriu, à vista, um lote de mercadorias por R$ 1.000.000 em 18/11/2024, responsabilizando-se pela retirada no depósito do fornecedor, pagando R$ 40.000 de frete e R$ 10.000 de seguro contra roubo durante o transporte. Nos valores pagos estão incluídos impostos recuperáveis de R$ 90.000 e impostos não recuperáveis de R$ 70.000. Em 15/12/2024 vendeu 80% das mercadorias. O saldo evidenciado na conta Estoques no Balanço Patrimonial de 31/12/2024, em relação exclusivamente a essas mercadorias, foi, em reais,
     alternativas:
-      - "192.000"
-      - "178.000"
-      - "182.000"
-      - "184.000"
-      - "190.000"
+    - '192.000'
+    - '178.000'
+    - '182.000'
+    - '184.000'
+    - '190.000'
+    gabarito: A
+    comentario: 'Gabarito A. Custo do estoque (CPC 16): inclui frete e seguro do transporte e os tributos não recuperáveis, e exclui os recuperáveis: \( 1.000.000 + 40.000 + 10.000 - 90.000 = 960.000 \) (os 70.000 não recuperáveis já estão embutidos no valor pago e permanecem no custo). Vendidas 80%, resta 20% em estoque: \( 0{,}20\times 960.000 = 192.000 \).'
   75:
-    enunciado: "Uma empresa adquiriu um caminhão, pagando à vista R$ 1.200.000 (custo de aquisição junto ao fornecedor) e R$ 400.000 (gastos com blindagem e customização do caminhão). A compra ocorreu em 30/06/2021; a política é utilizar os caminhões até atingirem 1.000.000 de quilômetros rodados em prazo máximo de 8 anos, com valor residual estimado de R$ 600.000, calculando a depreciação em função dos quilômetros rodados. Em 30/06/2024 o caminhão já tinha rodado 400.000 km e foi vendido por R$ 1.350.000, à vista. O resultado apurado na venda, evidenciado na demonstração do resultado de 2024, foi"
+    enunciado: Uma empresa adquiriu um caminhão, pagando à vista R$ 1.200.000 (custo de aquisição junto ao fornecedor) e R$ 400.000 (gastos com blindagem e customização do caminhão). A compra ocorreu em 30/06/2021; a política é utilizar os caminhões até atingirem 1.000.000 de quilômetros rodados em prazo máximo de 8 anos, com valor residual estimado de R$ 600.000, calculando a depreciação em função dos quilômetros rodados. Em 30/06/2024 o caminhão já tinha rodado 400.000 km e foi vendido por R$ 1.350.000, à vista. O resultado apurado na venda, evidenciado na demonstração do resultado de 2024, foi
     alternativas:
-      - "lucro de R$ 350.000"
-      - "lucro de R$ 630.000"
-      - "prejuízo de R$ 250.000"
-      - "lucro de R$ 150.000"
-      - "lucro de R$ 390.000"
+    - lucro de R$ 350.000
+    - lucro de R$ 630.000
+    - prejuízo de R$ 250.000
+    - lucro de R$ 150.000
+    - lucro de R$ 390.000
+    gabarito: D
+    comentario: 'Gabarito D. Depreciação por unidades produzidas (km): custo \( = 1.200.000 + 400.000 = 1.600.000 \) (blindagem/customização integram o custo do imobilizado). Quota \( = \dfrac{1.600.000 - 600.000}{1.000.000} = 1{,}00 \) por km. Rodados 400.000 km → depreciação acumulada \( = 400.000 \Rightarrow \) valor contábil \( = 1.600.000 - 400.000 = 1.200.000 \). Resultado da venda \( = 1.350.000 - 1.200.000 = +150.000 \) (lucro).'
   76:
-    enunciado: "[Texto sobre a Estrada de Ferro Goiás (EFG), que cortava o cerrado goiano em função dos interesses do sistema capitalista de produção, tendo nascido 'de fora para dentro' do estado] A Estrada de Ferro Goiás (EFG) surgiu para"
+    enunciado: '[Texto sobre a Estrada de Ferro Goiás (EFG), que cortava o cerrado goiano em função dos interesses do sistema capitalista de produção, tendo nascido ''de fora para dentro'' do estado] A Estrada de Ferro Goiás (EFG) surgiu para'
     alternativas:
-      - "fazer parte de um projeto de desenvolvimento regional autônomo da nação, formulado e financiado majoritariamente por agentes políticos e econômicos locais."
-      - "estimular a ocupação do território goiano a partir de políticas públicas de colonização agrícola voltadas exclusivamente ao mercado interno estadual."
-      - "intensificar a autonomia da economia goiana, estruturando um sistema de transporte voltado ao desenvolvimento interno e à autossuficiência produtiva regional."
-      - "garantir a soberania econômica de Goiás, reduzindo a dependência do estado em relação aos circuitos produtivos nacionais e internacionais."
-      - "atender às demandas de integração de Goiás aos circuitos econômicos nacionais, viabilizando o escoamento da produção regional."
+    - fazer parte de um projeto de desenvolvimento regional autônomo da nação, formulado e financiado majoritariamente por agentes políticos e econômicos locais.
+    - estimular a ocupação do território goiano a partir de políticas públicas de colonização agrícola voltadas exclusivamente ao mercado interno estadual.
+    - intensificar a autonomia da economia goiana, estruturando um sistema de transporte voltado ao desenvolvimento interno e à autossuficiência produtiva regional.
+    - garantir a soberania econômica de Goiás, reduzindo a dependência do estado em relação aos circuitos produtivos nacionais e internacionais.
+    - atender às demandas de integração de Goiás aos circuitos econômicos nacionais, viabilizando o escoamento da produção regional.
+    gabarito: E
+    comentario: Gabarito E. O próprio enunciado registra que a Estrada de Ferro Goiás nasceu 'de fora para dentro', a serviço do sistema capitalista. A EFG (a partir de 1913) reconectou Goiás aos mercados do Sudeste, integrando o estado aos circuitos econômicos nacionais e viabilizando o escoamento da produção regional (E). As demais invertem o sentido ao falar em autonomia, autossuficiência ou soberania regional — justamente o contrário da lógica integradora da ferrovia.
   77:
-    enunciado: "[Texto sobre as fases de reestruturação da economia goiana: 1ª mineração→pecuária; 2ª pecuária extensiva→agricultura de subsistência; 3ª expansão da agricultura superando a pecuária; 4ª nas décadas de 1980 e 1990] Na quarta fase, ocorreu que a"
+    enunciado: '[Texto sobre as fases de reestruturação da economia goiana: 1ª mineração→pecuária; 2ª pecuária extensiva→agricultura de subsistência; 3ª expansão da agricultura superando a pecuária; 4ª nas décadas de 1980 e 1990] Na quarta fase, ocorreu que a'
     alternativas:
-      - "industrialização pesada, baseada na siderurgia e na metalurgia, e favorecida pela expansão da malha ferroviária, foi a principal responsável pelo crescimento econômico."
-      - "agropecuária manteve-se predominante na economia do estado, sem alterações estruturais significativas, em razão da ausência de incentivos fiscais e de políticas públicas de industrialização."
-      - "produção agrícola abundante passou a estimular a instalação de agroindústrias, especialmente do setor agroalimentar, processo intensificado pelos incentivos fiscais e pela atuação do poder público na promoção da industrialização."
-      - "economia goiana retomou a centralidade da mineração como principal atividade produtiva, impulsionada pela interiorização da indústria nacional."
-      - "agricultura perdeu importância econômica, sendo substituída pela pecuária extensiva, diante da redução dos investimentos públicos e da retração industrial."
+    - industrialização pesada, baseada na siderurgia e na metalurgia, e favorecida pela expansão da malha ferroviária, foi a principal responsável pelo crescimento econômico.
+    - agropecuária manteve-se predominante na economia do estado, sem alterações estruturais significativas, em razão da ausência de incentivos fiscais e de políticas públicas de industrialização.
+    - produção agrícola abundante passou a estimular a instalação de agroindústrias, especialmente do setor agroalimentar, processo intensificado pelos incentivos fiscais e pela atuação do poder público na promoção da industrialização.
+    - economia goiana retomou a centralidade da mineração como principal atividade produtiva, impulsionada pela interiorização da indústria nacional.
+    - agricultura perdeu importância econômica, sendo substituída pela pecuária extensiva, diante da redução dos investimentos públicos e da retração industrial.
+    gabarito: C
+    comentario: Gabarito C. Na quarta fase (décadas de 1980-1990), a produção agrícola abundante do cerrado passou a alimentar a instalação de agroindústrias, sobretudo agroalimentares, processo impulsionado por incentivos fiscais e pela ação do poder público — é a etapa da agroindustrialização (FOMENTAR, Lei 9.489/1984, e depois PRODUZIR, Lei 13.591/2000). A alternativa C reflete essa transição da agricultura para a agroindústria de incentivos; as demais erram a atividade dominante (mineração, pecuária ou industrialização pesada).
   78:
-    enunciado: "[Texto descrevendo a maior subunidade geomorfológica em extensão de Goiás, que constitui o reverso da Cuesta do Caiapó, com dois compartimentos topográficos — um mais elevado (650 a 1.000 m) e outro mais baixo (350 a 650 m) — e cuja borda norte é conhecida como 'chapadões de Goiás'] A subunidade geomorfológica do Estado de Goiás descrita no texto é denominada:"
+    enunciado: '[Texto descrevendo a maior subunidade geomorfológica em extensão de Goiás, que constitui o reverso da Cuesta do Caiapó, com dois compartimentos topográficos — um mais elevado (650 a 1.000 m) e outro mais baixo (350 a 650 m) — e cuja borda norte é conhecida como ''chapadões de Goiás''] A subunidade geomorfológica do Estado de Goiás descrita no texto é denominada:'
     alternativas:
-      - "Planalto do Rio Verde"
-      - "Depressão do rio Araguaia"
-      - "Planalto do Divisor São Francisco/Tocantins"
-      - "Planalto de Caiapônia"
-      - "Planície do Bananal"
+    - Planalto do Rio Verde
+    - Depressão do rio Araguaia
+    - Planalto do Divisor São Francisco/Tocantins
+    - Planalto de Caiapônia
+    - Planície do Bananal
+    gabarito: A
+    comentario: Gabarito A. A descrição — reverso da Cuesta do Caiapó, dois compartimentos topográficos (650-1.000 m e 350-650 m) e borda norte conhecida como 'chapadões de Goiás' — corresponde ao Planalto do Rio Verde (também chamado Planalto Setentrional da Bacia do Paraná), no sul/sudoeste do estado, assentado sobre a Bacia do Paraná e ligado às terras do agronegócio (A). Depressão/Planície do Araguaia e Bananal são áreas rebaixadas a oeste, não chapadões.
   79:
-    enunciado: "[Imagem do projeto de urbanização da cidade de Goiânia] O contexto da fundação de Goiânia está descrito em:"
+    enunciado: '[Imagem do projeto de urbanização da cidade de Goiânia] O contexto da fundação de Goiânia está descrito em:'
     alternativas:
-      - "Manutenção das estruturas tradicionais do coronelismo oligárquico, que promoveu a transferência da capital como forma de preservar os interesses das elites rurais, sem relação com projetos de integração nacional."
-      - "Processo demográfico de ocupação espontânea do território, sem decisão política estruturada ou vinculada às estratégias estatais de modernização administrativa e de integração do interior do país."
-      - "Ambições de Pedro Ludovico Teixeira, motivadas unicamente por interesses pessoais de poder, sem relação com as diretrizes de modernização do Estado Novo que marcavam as políticas públicas da época."
-      - "Estratégia política e econômica que representou o momento da entrada de Goiás na Marcha para Oeste, fato reforçado pelas referências do presidente Getúlio Vargas à importância do povoamento do interior do país."
-      - "Interiorização imposta por imigrantes europeus que ocuparam massivamente o interior goiano e decidiram erguer uma nova capital, sem participação do governo estadual ou federal, em busca de melhores condições de vida."
+    - Manutenção das estruturas tradicionais do coronelismo oligárquico, que promoveu a transferência da capital como forma de preservar os interesses das elites rurais, sem relação com projetos de integração nacional.
+    - Processo demográfico de ocupação espontânea do território, sem decisão política estruturada ou vinculada às estratégias estatais de modernização administrativa e de integração do interior do país.
+    - Ambições de Pedro Ludovico Teixeira, motivadas unicamente por interesses pessoais de poder, sem relação com as diretrizes de modernização do Estado Novo que marcavam as políticas públicas da época.
+    - Estratégia política e econômica que representou o momento da entrada de Goiás na Marcha para Oeste, fato reforçado pelas referências do presidente Getúlio Vargas à importância do povoamento do interior do país.
+    - Interiorização imposta por imigrantes europeus que ocuparam massivamente o interior goiano e decidiram erguer uma nova capital, sem participação do governo estadual ou federal, em busca de melhores condições de vida.
+    gabarito: D
+    comentario: Gabarito D. A fundação de Goiânia (planejada por Attílio Corrêa Lima, sob Pedro Ludovico Teixeira, com transferência da capital consolidada em 1937) inscreve-se na estratégia política e econômica da Marcha para o Oeste, reforçada pelo discurso de Getúlio Vargas sobre a importância de povoar o interior do país (D). As demais negam o vínculo com o projeto nacional de integração/modernização do Estado Novo ou atribuem a fundação a causas espontâneas ou meramente pessoais.
   80:
-    enunciado: "Sobre as transformações do espaço agrícola goiano,"
+    enunciado: Sobre as transformações do espaço agrícola goiano,
     alternativas:
-      - "nos anos 1980, a agricultura intensiva teve alcance restrito no Cerrado, pois a soja e a cana-de-açúcar não se viabilizaram tecnologicamente, preservando uma estrutura fundiária fragmentada."
-      - "a partir dos anos 2000, a expansão das lavouras e da pecuária intensificou o desmatamento do Cerrado, sendo a ampliação do cultivo da cana-de-açúcar, após 2005, um fator adicional de pressão sobre as áreas florestadas."
-      - "na década de 1940, durante o governo Vargas, as colônias agrícolas representaram uma política espontânea e improdutiva de ocupação do Cerrado, sem planejamento ou integração econômica mais ampla."
-      - "na década de 1960, o Cerrado destacou-se na produção de arroz e feijão, tornando-se referência nacional em rizicultura, sem incorporar tecnologias modernas e permanecendo pouco integrado à expansão capitalista do campo."
-      - "nos anos 1970, a reorganização do espaço agrícola do Cerrado ocorreu sem mudanças relevantes na estrutura fundiária, mantendo o predomínio de pequenas propriedades e limitando a formação de médias e grandes unidades produtivas."
+    - nos anos 1980, a agricultura intensiva teve alcance restrito no Cerrado, pois a soja e a cana-de-açúcar não se viabilizaram tecnologicamente, preservando uma estrutura fundiária fragmentada.
+    - a partir dos anos 2000, a expansão das lavouras e da pecuária intensificou o desmatamento do Cerrado, sendo a ampliação do cultivo da cana-de-açúcar, após 2005, um fator adicional de pressão sobre as áreas florestadas.
+    - na década de 1940, durante o governo Vargas, as colônias agrícolas representaram uma política espontânea e improdutiva de ocupação do Cerrado, sem planejamento ou integração econômica mais ampla.
+    - na década de 1960, o Cerrado destacou-se na produção de arroz e feijão, tornando-se referência nacional em rizicultura, sem incorporar tecnologias modernas e permanecendo pouco integrado à expansão capitalista do campo.
+    - nos anos 1970, a reorganização do espaço agrícola do Cerrado ocorreu sem mudanças relevantes na estrutura fundiária, mantendo o predomínio de pequenas propriedades e limitando a formação de médias e grandes unidades produtivas.
+    gabarito: B
+    comentario: 'Gabarito B. A partir dos anos 2000, a expansão das lavouras (soja/milho) e da pecuária intensificou o desmatamento do Cerrado, e a ampliação da cana-de-açúcar após 2005 (impulso do etanol) acrescentou pressão sobre as áreas remanescentes (B). As demais contrariam a periodização: a agricultura intensiva no Cerrado se viabilizou tecnologicamente (modernização desde os anos 1970-80) e ganhou escala em médias e grandes propriedades, não o contrário.'
