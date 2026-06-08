@@ -390,10 +390,9 @@ def build_ampliado(c, d):
             next_l = "<span></span>"
 
         banner = ""
-        if origem and origem in CONCURSO_POR_ID:
-            on = CONCURSO_POR_ID[origem]["nome"]
-            banner = (f'<div class="reuse-banner">♻ Conteúdo compartilhado com o concurso '
-                      f'<strong>{e(on)}</strong> — mesmo assunto cobrado em ambos.</div>')
+        if origem:
+            banner = ('<div class="reuse-banner">♻ Conteúdo compartilhado entre concursos '
+                      '— mesmo assunto cobrado em mais de um certame.</div>')
 
         doc = head(f"{sub_titulo} — {c['orgao']}", 3, katex=True)
         doc += topbar(3, c["orgao"])
