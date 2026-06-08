@@ -71,9 +71,35 @@ insuficientes, (d) o que adicionar para responder tudo.
 - Onde o OCR embaralhou alternativas/enunciado (ex.: estatística, tabelas), comentar pelo
   método/conceito e acrescentar a ressalva "(ordem das alternativas pode estar embaralhada no OCR)".
 
-### 8. Regenerar, verificar, publicar
+### 8. Panorama da prova (home do concurso)
+- Bloco `panorama` em `dados/provas/<id>.yaml` (irmão de `banca`/`titulo`/`questoes`):
+  `resumo:` (texto autoral de como foi a prova, blocos `|`) e `fora_edital:` (lista de
+  `{tema, questoes:[nums], nota}` — temas cobrados sem previsão clara no edital; **confirmar o
+  edital oficial na web antes** e sinalizar incerteza na `nota`, nunca inventar).
+- `gerar_site.py` (`panorama_bloco`) injeta na home, após o hero, uma seção **"📊 Panorama da
+  prova"**: resumo + **gráfico de pizza (donut SVG inline, `svg_pie`) de questões por disciplina**
+  + tabela "⚠️ Caíram, mas não estavam claros no edital" (de `fora_edital`) + `<details>`
+  "📉 Conteúdos que não caíram" (tópicos sem `prova:`, calculado automaticamente). Só aparece
+  se o concurso tem `prova`. Gráficos são **SVG puro** (sem libs) — paleta por ângulo áureo.
+
+### 9. Regenerar, verificar, publicar
 - `python gerar_site.py`; conferir no preview: badges, bloco de questões, gabarito revelando só ao
-  clicar, KaTeX sem `.katex-error`. Validar JSON/cobertura. Commit + push (Actions publica sozinho).
+  clicar, KaTeX sem `.katex-error`, **panorama (pizza+tabelas), `/estatisticas.html` e `/areas/`**,
+  tema claro/escuro e mobile. Validar JSON/cobertura. Commit + push (Actions publica sozinho).
+
+---
+
+## Menus globais (gerados sempre)
+- **📊 Estatísticas** (`estatisticas.html` + dado aberto `estatisticas.json`): `coletar_estatisticas()`
+  agrega, entre TODAS as provas catalogadas, quantas **provas** e **questões** cada **tópico** foi
+  cobrado (com rollup por **área**). A base cresce a cada nova prova com `prova:[nums]`. A página
+  traz barras por área, top-20 tópicos e ranking completo.
+- **🧭 Áreas de Conhecimento** (`areas/index.html` + `areas/<id>.html`): agrupa as disciplinas de
+  todos os concursos por área, deduplicando por título e linkando para cada concurso que a contém.
+- **Categorização obrigatória:** `dados/_areas.yaml` define as áreas (`areas:`) e o mapa
+  `mapa: {slug: area_id}`. Toda disciplina (nova inclusive) precisa de área — por `mapa` ou pelo
+  campo `area:` na disciplina. **Sem área, o build FALHA** (`dados._resolver_areas`). Ao criar um
+  concurso/disciplina novos, acrescentar o slug ao `mapa`.
 
 ## Armadilhas registradas (não repetir)
 - Não apagar arquivos intermediários (parciais, _todo) **antes** de validar o merge/uso.

@@ -1,0 +1,179 @@
+# Áreas de Conhecimento — taxonomia e mapa slug→área.
+# Toda disciplina (atual ou futura) precisa cair em uma área: ou pelo `mapa` abaixo
+# (chave = slug da disciplina), ou por um campo `area: <id>` no próprio dados/<id>.yaml
+# (que tem precedência). Se uma disciplina ficar sem área, o build FALHA de propósito.
+areas:
+  - id: linguagens
+    nome: Linguagens e Comunicação
+    icone: 📝
+    cor: '#3a7ca5'
+    descricao: Língua portuguesa e inglesa, redação, teorias e práticas de comunicação.
+  - id: quantitativas
+    nome: Matemática e Raciocínio Quantitativo
+    icone: 🔢
+    cor: '#d97706'
+    descricao: Raciocínio lógico e analítico, matemática, estatística e probabilidade.
+  - id: juridicas
+    nome: Ciências Jurídicas
+    icone: ⚖️
+    cor: '#7b2230'
+    descricao: Direito constitucional, administrativo, civil, penal, tributário e legislação.
+  - id: economico-contabil
+    nome: Ciências Econômicas, Contábeis e Financeiras
+    icone: 💰
+    cor: '#1f6f54'
+    descricao: Economia, contabilidade, orçamento público, finanças e auditoria.
+  - id: gestao-publica
+    nome: Administração e Gestão Pública
+    icone: 🏛️
+    cor: '#6d597a'
+    descricao: Teoria administrativa, gestão de pessoas e projetos, controle e ética pública.
+  - id: tecnologia
+    nome: Tecnologia da Informação
+    icone: 💻
+    cor: '#2563eb'
+    descricao: Engenharia de software e dados, infraestrutura, segurança, IA e nuvem.
+  - id: humanas-sociais
+    nome: Ciências Humanas e Sociais
+    icone: 🌍
+    cor: '#b45309'
+    descricao: Sociologia, história, geografia, atualidades e realidades regionais.
+  - id: natureza-saude
+    nome: Ciências da Natureza e Saúde
+    icone: 🩺
+    cor: '#15803d'
+    descricao: Ciências da natureza, nutrição, saúde pública e saúde mental.
+  - id: assistencia-social
+    nome: Serviço Social e Assistência (SUAS)
+    icone: 🤝
+    cor: '#be185d'
+    descricao: Fundamentos do serviço social, política de assistência e práticas no SUAS.
+  - id: educacao
+    nome: Educação e Pedagogia
+    icone: 📚
+    cor: '#7c3aed'
+    descricao: Fundamentos da educação, pedagogia social e intervenção pedagógica.
+  - id: psicologia
+    nome: Psicologia
+    icone: 🧠
+    cor: '#0891b2'
+    descricao: Psicologia social, avaliação psicológica e ética profissional.
+
+# slug da disciplina -> id da área
+mapa:
+  # Linguagens e Comunicação
+  lingua-portuguesa: linguagens
+  lingua-inglesa: linguagens
+  linguagens: linguagens
+  fund-comunicacao: linguagens
+  comunicacao-organizacional: linguagens
+  comunicacao-digital: linguagens
+  jornalismo-crise: linguagens
+  etica-comunicacao: linguagens
+  # Matemática e Raciocínio Quantitativo
+  raciocinio-logico: quantitativas
+  raciocinio-analitico: quantitativas
+  matematica: quantitativas
+  estatistica-descritiva: quantitativas
+  probabilidade-inferencia: quantitativas
+  modelagem-multivariada: quantitativas
+  # Ciências Jurídicas
+  direito-administrativo: juridicas
+  direito-civil: juridicas
+  direito-civil-empresarial: juridicas
+  direito-constitucional: juridicas
+  direito-educacional: juridicas
+  direito-financeiro: juridicas
+  direito-penal: juridicas
+  direito-processual-civil: juridicas
+  direito-tributario-1: juridicas
+  direito-tributario-2-reforma: juridicas
+  legislacao-goias: juridicas
+  legislacao-tributaria: juridicas
+  nocoes-dir-administrativo: juridicas
+  nocoes-dir-constitucional: juridicas
+  # Ciências Econômicas, Contábeis e Financeiras
+  economia: economico-contabil
+  economia-setor-publico: economico-contabil
+  economia-social: economico-contabil
+  teoria-economica: economico-contabil
+  contabilidade-geral: economico-contabil
+  contabilidade-avancada-custos: economico-contabil
+  contab-geral-soc: economico-contabil
+  casp: economico-contabil
+  afo-administracao: economico-contabil
+  afo-analise-balancos: economico-contabil
+  orcamento-afo-contab: economico-contabil
+  auditoria: economico-contabil
+  auditoria-contab: economico-contabil
+  auditoria-governamental: economico-contabil
+  # Administração e Gestão Pública
+  administracao-publica: gestao-publica
+  teoria-adm: gestao-publica
+  gestao-pessoas-adm: gestao-publica
+  gestao-projetos-adm: gestao-publica
+  osm-qualidade: gestao-publica
+  recursos-materiais-compras: gestao-publica
+  etica-servico-publico: gestao-publica
+  atendimento-arquivologia: gestao-publica
+  controle-externo: gestao-publica
+  # Tecnologia da Informação
+  tecnologia-da-informacao: tecnologia
+  gestao-ti: tecnologia
+  engenharia-dados: tecnologia
+  engenharia-software: tecnologia
+  infraestrutura-ti: tecnologia
+  seguranca-informacao: tecnologia
+  inteligencia-artificial: tecnologia
+  computacao-nuvem: tecnologia
+  contratacoes-ti: tecnologia
+  bancos-dados-estat: tecnologia
+  transparencia-dados: tecnologia
+  # Ciências Humanas e Sociais
+  ciencias-humanas: humanas-sociais
+  sociologia-urbana: humanas-sociais
+  teoria-sociologica: humanas-sociais
+  pensamento-social-etnico: humanas-sociais
+  realidade-de-goias: humanas-sociais
+  conhecimentos-df: humanas-sociais
+  temas-diretrizes-internacionais: humanas-sociais
+  eixos-cognitivos: humanas-sociais
+  # Ciências da Natureza e Saúde
+  ciencias-natureza: natureza-saude
+  dietoterapia: natureza-saude
+  ean-programas: natureza-saude
+  gestao-uan: natureza-saude
+  nutricao-saude-publica: natureza-saude
+  san-politicas: natureza-saude
+  saude-mental-drogas: natureza-saude
+  saude-mental-cuidador: natureza-saude
+  # Serviço Social e Assistência (SUAS)
+  abordagem-rua: assistencia-social
+  direitos-vulnerabilidades: assistencia-social
+  estado-politicas-ss: assistencia-social
+  etica-servico-social: assistencia-social
+  fund-politica-social: assistencia-social
+  fund-servico-social: assistencia-social
+  fundamentos-suas-edas: assistencia-social
+  fundamentos-suas-tdas: assistencia-social
+  metodologia-pesquisa-social: assistencia-social
+  metodologia-trabalho-social: assistencia-social
+  pop-rua-cuidador: assistencia-social
+  pratica-psicossocial-suas: assistencia-social
+  pratica-socioeducativa: assistencia-social
+  programas-beneficios-df: assistencia-social
+  psb-familias: assistencia-social
+  pse-alta-complexidade: assistencia-social
+  pse-as: assistencia-social
+  rede-intersetorialidade: assistencia-social
+  rede-territorio: assistencia-social
+  rotinas-acolhimento: assistencia-social
+  tecnico-operativo-ss: assistencia-social
+  # Educação e Pedagogia
+  fund-pedagogia-social: educacao
+  pedagogo-suas: educacao
+  intervencao-pedagogica: educacao
+  # Psicologia
+  fund-psicologia-social: psicologia
+  avaliacao-instrumentos-psi: psicologia
+  etica-documentos-psi: psicologia

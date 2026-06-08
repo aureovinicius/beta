@@ -201,3 +201,88 @@ main{max-width:var(--max);margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,
   .toc{position:static}
   .toc nav{max-height:none}
 }
+
+/* ===== Navegação global na topbar ===== */
+.topnav{display:flex;align-items:center;gap:6px;margin-left:auto;margin-right:8px}
+.topnav a{display:inline-flex;align-items:center;gap:5px;padding:7px 12px;border-radius:999px;
+  font-size:.85rem;font-weight:600;color:var(--muted);border:1px solid transparent;transition:.15s}
+.topnav a:hover{color:var(--brand);background:color-mix(in srgb,var(--brand) 12%,transparent)}
+@media(max-width:560px){
+  .topnav a{padding:7px 9px}
+  .topnav .nav-txt,.brand-text small{display:none}
+}
+
+/* ===== Panorama da prova (home do concurso) ===== */
+.panorama{margin-top:40px;padding:24px;background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);box-shadow:var(--shadow)}
+.pan-sub{margin:-8px 0 14px;color:var(--muted);font-size:.9rem;font-weight:600}
+.pan-resumo{margin-bottom:20px}
+.pan-resumo p{margin:.5em 0;color:var(--text);line-height:1.7}
+.panorama-grid{display:grid;grid-template-columns:minmax(280px,360px) 1fr;gap:28px;align-items:start}
+.pan-grafico h3,.pan-tabela h3,.pan-tabela>summary{font-size:1rem;font-weight:700;margin:0 0 12px}
+.pan-nota{color:var(--muted);font-size:.84rem;margin:10px 0 0}
+.pan-tabelas{display:flex;flex-direction:column;gap:18px;min-width:0}
+@media(max-width:760px){.panorama-grid{grid-template-columns:1fr}}
+@media(max-width:520px){
+  .pie-wrap{flex-direction:column;align-items:center}
+  .pie-legend{min-width:0;width:100%}
+}
+
+/* gráfico de pizza (donut) + legenda */
+.pie-wrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.pie{width:180px;height:180px;flex:none}
+.pie text{text-anchor:middle;fill:var(--text)}
+.pie .pie-num{font-size:26px;font-weight:800}
+.pie .pie-cap{font-size:11px;fill:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.pie-legend{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;flex:1;min-width:170px}
+.pie-legend li{display:flex;align-items:center;gap:8px;font-size:.86rem}
+.lg-dot{width:11px;height:11px;border-radius:3px;flex:none}
+.lg-label{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text)}
+.lg-val{color:var(--muted);font-variant-numeric:tabular-nums;font-weight:600;flex:none}
+
+/* tabelas de prova (caíram fora do edital / não caíram) */
+.tabela-prova{width:100%;border-collapse:collapse;font-size:.88rem}
+.tabela-prova th{text-align:left;padding:8px 10px;color:var(--muted);font-size:.74rem;
+  text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid var(--border)}
+.tabela-prova td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.tabela-prova tbody tr:nth-child(odd){background:color-mix(in srgb,var(--brand) 4%,transparent)}
+.tabela-prova{table-layout:fixed}
+.tabela-prova .td-disc{font-weight:700;color:var(--brand)}
+.tabela-prova th:first-child,.tabela-prova .td-disc{width:38%}
+.tabela-prova td{overflow-wrap:anywhere}
+details.pan-tabela>summary{cursor:pointer;color:var(--text)}
+.prova-badge.fora{background:color-mix(in srgb,#d97706 22%,transparent);color:#b45309;
+  border:1px solid color-mix(in srgb,#d97706 45%,transparent)}
+
+/* ===== Barras horizontais (estatísticas) ===== */
+.bars{display:flex;flex-direction:column;gap:9px}
+.bar-row{display:grid;grid-template-columns:minmax(120px,1fr) 2fr auto;gap:12px;align-items:center}
+.bar-label{font-size:.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text)}
+.bar-track{height:14px;border-radius:999px;background:color-mix(in srgb,var(--muted) 16%,transparent);overflow:hidden}
+.bar-fill{display:block;height:100%;border-radius:999px;min-width:4px}
+.bar-val{font-size:.82rem;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr 1.4fr auto;gap:8px}}
+
+/* ===== Tabela de ranking (estatísticas) ===== */
+.rank-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius)}
+.rank-table{width:100%;border-collapse:collapse;font-size:.88rem}
+.rank-table th{position:sticky;top:0;background:var(--surface);text-align:left;padding:10px 12px;
+  color:var(--muted);font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid var(--border)}
+.rank-table td{padding:9px 12px;border-bottom:1px solid var(--border)}
+.rank-table .td-disc{color:var(--brand);font-weight:600}
+.rank-table tbody tr:nth-child(odd){background:color-mix(in srgb,var(--brand) 4%,transparent)}
+.rank-table .num{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+
+/* ===== Áreas de Conhecimento ===== */
+.area-card{border-top:4px solid var(--accent)}
+.area-discs{display:flex;flex-direction:column;gap:16px}
+.area-disc{padding:18px;background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);box-shadow:var(--shadow)}
+.ad-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.ad-icon{font-size:1.3rem}
+.ad-head h3{margin:0;font-size:1.05rem;font-weight:700}
+.area-chips{display:flex;flex-wrap:wrap;gap:8px}
+.area-chip{display:inline-flex;align-items:center;padding:6px 12px;border-radius:999px;
+  font-size:.8rem;font-weight:600;color:var(--brand);border:1px solid var(--border);
+  background:color-mix(in srgb,var(--brand) 8%,transparent);transition:.15s}
+.area-chip:hover{border-color:var(--brand);transform:translateY(-1px)}

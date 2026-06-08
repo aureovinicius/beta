@@ -1,5 +1,50 @@
 banca: FCC
 titulo: Prova FCC — Auditor-Fiscal SEFAZ-GO (Maio/2026) · Conhecimentos Básicos
+panorama:
+  resumo: |
+    A prova de Conhecimentos Básicos da FCC para Auditor-Fiscal da SEFAZ-GO (caderno aplicado
+    em maio de 2026) trouxe 80 questões de nível médio-alto, no estilo consagrado da banca:
+    enunciados longos, casos hipotéticos detalhados e alternativas que punem leitura apressada.
+    Em Língua Portuguesa (questões 1 a 10), os dois textos-base — "O devaneio é uma doença?",
+    de Contardo Calligaris, e "Humanos e máquinas", de Yuval Harari — comandaram interpretação,
+    estrutura textual e, sobretudo, gramática aplicada ao texto: concordância verbal (haver
+    impessoal), correlação de tempos em estruturas hipotéticas, regência e paráfrase com
+    manutenção de sentido. Pouca decoreba de regra isolada e muita reescrita.
+
+    Raciocínio Lógico, Matemática Financeira e Estatística (questões 11 a 20) foi o bloco mais
+    pesado e técnico, com forte predomínio de probabilidade e inferência: falta de memória da
+    exponencial, dimensionamento de amostra para proporção, binomial ("pelo menos um"),
+    probabilidade total em árvore, erro tipo II, e duas questões de teste qui-quadrado sobre a
+    mesma tabela de contingência (frequência esperada e decisão pela tabela). Matemática
+    Financeira apareceu de forma aplicada (juros simples x compostos e taxa embutida em
+    parcelamento "sem juros"). Foi a área que mais exigiu domínio de fórmulas e cálculo.
+
+    O bloco jurídico foi o de maior peso somado. Direito Constitucional (21 a 30) e Direito
+    Administrativo (31 a 40) cobraram muita jurisprudência do STF aplicada a casos (Súmula
+    Vinculante 21, delegação de poder de polícia a sociedade de economia mista, improbidade
+    após a Lei 14.230/2021, organizações sociais e contrato de gestão, PPP e matriz de riscos),
+    além de farta dose de Constituição e legislação do Estado de Goiás (TCE/TCM-GO, controle
+    político de constitucionalidade, Fundo de Estabilização Econômica e Estatuto dos servidores,
+    Lei 20.756/2020). Direito Financeiro (41 a 45) ficou centrado na LRF e na Lei 4.320/64 (ARO,
+    receita extraorçamentária, créditos adicionais, transferência especial, limitação de empenho)
+    e Direito Civil, Penal e Empresarial (46 a 55) explorou literalidade de artigos do Código
+    Civil, sociedades (limitada e S.A.), falência (crédito extraconcursal) e crimes contra a
+    Administração e as finanças públicas.
+
+    Economia (56 a 65) teve nítido recorte fiscal — regra de Ramsey, peso morto, estruturas de
+    mercado, IS-LM, balanço de pagamentos e classificação de tributos. Contabilidade Geral
+    (66 a 75) seguiu os CPCs (provisões e contingências, impairment, mudança de estimativa,
+    estoques, depreciação, demonstrações e destinação do resultado), e as 5 questões de Realidade
+    de Goiás (76 a 80) cobraram história econômica, geomorfologia, capital e agronegócio. No
+    geral, uma prova que premiou o candidato com base teórica sólida e capacidade de aplicar lei
+    e jurisprudência a situações concretas, mais do que memorização pura.
+  fora_edital:
+    - tema: Fundo de Estabilização Econômica de Goiás (FEG) e Princípios de Santiago
+      questoes: [30]
+      nota: O FEG foi criado por emenda recente à Constituição estadual (EC 86/2025) e regulamentado pela LC 208/2025; o edital descreve a Constituição de Goiás de forma genérica, sem prever esse fundo nem os Princípios de Santiago — aparentemente além do que o programa enunciava. Estudar pelo texto da EC 86/2025 e da LC 208/2025.
+    - tema: Jurisprudência recente e específica do STF aplicada a casos
+      questoes: [22, 26, 29, 34, 36, 37, 38]
+      nota: O edital lista os institutos (improbidade, poder de polícia, terceiro setor, processo legislativo), mas a prova exigiu o teor de julgados pontuais (Tema 532/RE 633.782, ADI 7.236, ADI 1.923 e decisões correlatas), o que extrapola a simples leitura dos tópicos do programa. Acompanhar informativos do STF.
 questoes:
   1:
     enunciado: '[Com base no texto ''O devaneio é uma doença?'', de Contardo Calligaris] No último parágrafo, o autor admite que:'

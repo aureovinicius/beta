@@ -13,11 +13,14 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 DADOS = os.path.join(BASE, "dados")
 
 
+_META = {"_grupos.yaml", "_areas.yaml"}
+
+
 def _carregar_raw():
     grupos = yaml.safe_load(open(os.path.join(DADOS, "_grupos.yaml"), encoding="utf-8")) or {}
     raw = {}
     for f in sorted(glob.glob(os.path.join(DADOS, "*.yaml"))):
-        if os.path.basename(f) == "_grupos.yaml":
+        if os.path.basename(f) in _META:
             continue
         c = yaml.safe_load(open(f, encoding="utf-8"))
         validar_concurso_raw(c, os.path.basename(f))
@@ -77,6 +80,51 @@ def _construir():
     return concursos
 
 
+def _carregar_areas_def():
+    f = os.path.join(DADOS, "_areas.yaml")
+    data = yaml.safe_load(open(f, encoding="utf-8")) or {}
+    return data.get("areas", []), (data.get("mapa") or {})
+
+
+def _resolver_areas(concursos):
+    """Atribui d['area'] a cada disciplina (campo explícito > mapa) e devolve a lista de
+    áreas com as disciplinas agregadas (deduplicadas por título, com os concursos que as têm).
+    Falha alto se alguma disciplina ficar sem área — força a categorização de toda disciplina."""
+    areas_def, mapa = _carregar_areas_def()
+    sem_area = []
+    for c in concursos:
+        for d in c["disciplinas"]:
+            aid = d.get("area") or mapa.get(d.get("slug"))
+            if not aid:
+                sem_area.append(f"{c['id']}/{d.get('slug')}")
+            d["area"] = aid
+    if sem_area:
+        raise ValueError(
+            "Disciplina(s) sem Área de Conhecimento (cadastre em dados/_areas.yaml "
+            "ou no campo 'area:'):\n  " + "\n  ".join(sem_area))
+
+    areas = [dict(a, disciplinas=[]) for a in areas_def]
+    por_id = {a["id"]: a for a in areas}
+    ocorr = {a["id"]: {} for a in areas}  # area_id -> {titulo: disciplina_agregada}
+    for c in concursos:
+        if c.get("oculto"):
+            continue
+        for d in c["disciplinas"]:
+            a = por_id.get(d["area"])
+            if not a:
+                continue
+            n_sub = sum(len(t["subtopicos"]) for t in d["topicos"])
+            disc = ocorr[a["id"]].setdefault(d["titulo"], {
+                "titulo": d["titulo"], "icone": d.get("icone", "📘"),
+                "slug": d["slug"], "ocorrencias": []})
+            disc["ocorrencias"].append({
+                "concurso_id": c["id"], "concurso_nome": c["nome"],
+                "orgao": c.get("orgao", ""), "slug": d["slug"], "n_subtopicos": n_sub})
+    for a in areas:
+        a["disciplinas"] = sorted(ocorr[a["id"]].values(), key=lambda x: x["titulo"].lower())
+    return areas
+
+
 def _carregar_provas(concursos):
     """Anexa a cada concurso o banco de questões da prova, se existir (dados/provas/<id>.yaml)."""
     for c in concursos:
@@ -89,3 +137,5 @@ def _carregar_provas(concursos):
 
 CONCURSOS = _construir()
 CONCURSO_POR_ID = {c["id"]: c for c in CONCURSOS}
+AREAS = _resolver_areas(CONCURSOS)
+AREA_POR_ID = {a["id"]: a for a in AREAS}
