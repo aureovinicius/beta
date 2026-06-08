@@ -18,3 +18,8 @@ site/
 
 # Material do canal (TTS + descrições) — NÃO versionar
 youtube/
+
+# Provas (referência local) — NÃO versionar
+/provas/
+/prova sefaz go/
+gerar_pdf_prova*.html

@@ -262,6 +262,35 @@ def build_concurso_home(c):
     open(os.path.join(SITE, cid, "index.html"), "w", encoding="utf-8").write(doc)
 
 
+def prova_bloco(t, prova):
+    """Retorna (badge_html, questoes_html) para um tópico, dado o banco da prova."""
+    if not prova:
+        return "", ""
+    nums = t.get("prova") or []
+    if not nums:
+        badge = '<span class="prova-badge naocaiu" title="Não foi cobrado na última prova">○ Não caiu</span>'
+        return badge, ""
+    qs = ", ".join(f"Q{n}" for n in nums)
+    badge = f'<span class="prova-badge caiu" title="Cobrado na última prova">📝 Caiu na prova · {e(qs)}</span>'
+    cards = ""
+    for n in nums:
+        q = prova["questoes"].get(str(n)) or prova["questoes"].get(n)
+        if not q:
+            continue
+        alts = "".join(f"<li>{e(a)}</li>" for a in q.get("alternativas", []))
+        alts_html = f"<ol class='q-alts' type='A'>{alts}</ol>" if alts else ""
+        gab = f"<p class='q-gab'>Gabarito: <strong>{e(q['gabarito'])}</strong></p>" if q.get("gabarito") else ""
+        cards += f"""
+        <div class="questao">
+          <p class="q-num">Questão {n} — {e(prova.get('banca',''))}</p>
+          <p class="q-enun">{e(q.get('enunciado',''))}</p>
+          {alts_html}{gab}
+        </div>"""
+    questoes_html = (f'<details class="prova-questoes"><summary>📄 Ver {len(nums)} questão(ões) '
+                     f'desta prova</summary>{cards}</details>') if cards else ""
+    return badge, questoes_html
+
+
 # ============================= PÁGINA DISCIPLINA =============================
 def build_disciplina(c, d, idx):
     cid = c["id"]
@@ -272,6 +301,7 @@ def build_disciplina(c, d, idx):
         f'<li><a href="#t{i}">{e(t["titulo"])}</a></li>' for i, t in enumerate(d["topicos"])
     )
 
+    prova = c.get("prova")  # {"titulo":..., "questoes":{num:{enunciado,alternativas}}}
     topicos_html = ""
     for ti, t in enumerate(d["topicos"]):
         subs = ""
@@ -289,11 +319,13 @@ def build_disciplina(c, d, idx):
           {texto_html}
           {vermais}
         </div>"""
+        badge, questoes_html = prova_bloco(t, prova)
         topicos_html += f"""
       <article class="topico" id="t{ti}">
-        <h2>{e(t['titulo'])}</h2>
+        <h2>{e(t['titulo'])}{badge}</h2>
         <p class="explica">{e(t['explicacao'])}</p>
         <div class="subs">{subs}</div>
+        {questoes_html}
       </article>"""
 
     nav_prev = f'<a class="pager prev" href="{prev_d["slug"]}.html">← {e(prev_d["titulo"])}</a>' if prev_d else "<span></span>"

@@ -161,6 +161,10 @@
         {
           "h": "Mensuração: custo x valor realizável líquido",
           "p": "O CPC 16 exige que o estoque seja avaliado pelo MENOR valor entre o custo e o valor realizável líquido (\\( \\text{VRL} = \\text{preço de venda estimado} - \\text{gastos para concluir e vender} \\)). Se o VRL ficar abaixo do custo (mercadoria obsoleta, danificada, em queda de preço), reconhece-se uma perda por redução ao valor realizável líquido. É aplicação da prudência."
+        },
+        {
+          "h": "Exemplo resolvido — da compra ao lucro bruto (tributos, frete, desconto e CMV)",
+          "p": "O custo de aquisição do estoque inclui o preço de compra, os tributos NÃO recuperáveis e os gastos necessários para colocar o item em condições de venda (frete sobre compras, seguros). Dele se EXCLUEM os tributos RECUPERÁVEIS (ICMS, e PIS/COFINS não-cumulativos), que viram direito a recuperar no ativo, e os descontos comerciais/incondicionais, que reduzem o custo (CPC 16 / Lei 6.404, art. 183).\n\nDados: compra de mercadorias por 10.000; ICMS recuperável embutido a 18% = 1.800; IPI não recuperável (comprador não é contribuinte do IPI) = 500; frete sobre a compra = 300; desconto comercial/incondicional obtido = 1.000.\n\nPasso 1 — Custo do estoque: \\( 10.000 - 1.800\\ (\\text{ICMS recuperável}) - 1.000\\ (\\text{desconto}) + 500\\ (\\text{IPI não recuperável}) + 300\\ (\\text{frete}) = 8.000 \\).\n\nPasso 2 — Venda de todas as mercadorias por 12.000. Como todo o estoque foi vendido, \\( CMV = 8.000 \\).\n\nPasso 3 — Lucro bruto: \\( \\text{Receita líquida} - CMV = 12.000 - 8.000 = 4.000 \\).\n\nResumo do raciocínio: tributo recuperável e desconto incondicional SAEM do custo; tributo não recuperável e frete-compra ENTRAM no custo. Errar o tratamento do ICMS recuperável é a pegadinha mais comum: ele não compõe o CMV."
         }
       ],
       "exemplo": "Movimentação no período: EI = 100 un a R$ 10 (R$ 1.000). Compra de 200 un a R$ 12 (R$ 2.400). Venda de 250 un. Calcule o CMV e o EF pelo PEPS e pela Média Ponderada (inventário permanente).\n\nPEPS: vende-se primeiro as 100 un a R$ 10 (1.000) + 150 un a R$ 12 (1.800) = CMV de R$ 2.800. EF = 50 un a R$ 12 = R$ 600.\n\nMédia Ponderada: custo médio \\( = \\dfrac{1.000 + 2.400}{100 + 200} = \\dfrac{3.400}{300} = R\\$\\ 11{,}333\\text{/un} \\). \\( \\text{CMV} = 250 \\times 11{,}333 = R\\$\\ 2.833{,}33 \\). \\( EF = 50 \\times 11{,}333 = R\\$\\ 566{,}67 \\).\n\nObserve que com preços em alta o PEPS produziu menor CMV (R$ 2.800 < R$ 2.833,33) e, portanto, maior lucro e maior estoque final — exatamente o esperado.",
@@ -196,6 +200,10 @@
         {
           "h": "Registro contábil e a depreciação acumulada",
           "p": "A depreciação é registrada: D - Despesa (ou Custo) de Depreciação (resultado) / C - Depreciação Acumulada (conta RETIFICADORA do ativo imobilizado, saldo credor). O \\( \\text{valor contábil líquido} = \\text{custo} - \\text{depreciação acumulada} \\).\n\nA Depreciação Acumulada NÃO reduz o caixa — é despesa não desembolsável (por isso é readicionada na DFC pelo método indireto). Quando o ativo é vendido, baixam-se tanto o custo quanto a depreciação acumulada, e a diferença entre o valor contábil residual e o preço de venda gera ganho ou perda."
+        },
+        {
+          "h": "Exemplo resolvido — venda de imobilizado (depreciação por km) e ganho/perda na baixa",
+          "p": "No método das unidades produzidas (ou de uso), a depreciação acompanha o consumo do bem (horas, peças, quilômetros), e não o tempo. A quota por unidade é \\( \\dfrac{\\text{custo} - \\text{valor residual}}{\\text{capacidade total estimada}} \\). Na venda, o resultado da baixa é \\( \\text{preço de venda} - \\text{valor contábil} \\), sendo o valor contábil \\( = \\text{custo} - \\text{depreciação acumulada} \\).\n\nDados: caminhão com custo 100.000, valor residual estimado 10.000 e vida útil de 200.000 km. Até a venda rodou 120.000 km.\n\nPasso 1 — Quota por km: \\( \\dfrac{100.000 - 10.000}{200.000} = 0,45\\ \\text{por km} \\).\n\nPasso 2 — Depreciação acumulada: \\( 0,45 \\times 120.000 = 54.000 \\).\n\nPasso 3 — Valor contábil na data da venda: \\( 100.000 - 54.000 = 46.000 \\).\n\nPasso 4 — Resultado da baixa, se vendido por 50.000: \\( 50.000 - 46.000 = +4.000 \\) — GANHO (outras receitas). Se fosse vendido por 40.000: \\( 40.000 - 46.000 = -6.000 \\) — PERDA na baixa. Note que o valor residual de 10.000 NÃO se deprecia: por isso a base depreciável é \\( 100.000 - 10.000 = 90.000 \\), e não 100.000."
         }
       ],
       "exemplo": "Uma máquina foi adquirida por R$ 100.000, com valor residual estimado de R$ 10.000 e vida útil de 5 anos. Calcule a depreciação anual pelo método linear e o valor contábil após 2 anos.\n\n\\( \\text{Valor depreciável} = 100.000 - 10.000 = R\\$\\ 90.000 \\). \\( \\text{Depreciação anual} = \\dfrac{90.000}{5} = R\\$\\ 18.000 \\).\n\nApós 2 anos: \\( \\text{Depreciação Acumulada} = 18.000 \\times 2 = R\\$\\ 36.000 \\). \\( \\text{Valor contábil líquido} = 100.000 - 36.000 = R\\$\\ 64.000 \\).\n\nPela soma dos dígitos (5 anos, soma = 15): ano 1 \\( = 90.000 \\times \\dfrac{5}{15} = R\\$\\ 30.000 \\); ano 2 \\( = 90.000 \\times \\dfrac{4}{15} = R\\$\\ 24.000 \\). Após 2 anos a depreciação acumulada seria R$ 54.000 e o valor contábil R$ 46.000 — bem menor, pois o método acelera no início.",
@@ -231,6 +239,10 @@
         {
           "h": "Conexão entre BP e DRE",
           "p": "O resultado da DRE não fica isolado: o lucro líquido aumenta o PL e o prejuízo o reduz. As receitas e despesas (contas de resultado) são encerradas na conta Apuração do Resultado do Exercício; o saldo é transferido para o PL. Por isso diz-se que a DRE 'explica' a variação do PL decorrente das operações (sem considerar aportes/distribuições aos sócios)."
+        },
+        {
+          "h": "Classificação pelo ciclo operacional (não só pelos 12 meses)",
+          "p": "A regra padrão classifica no Ativo Circulante o que será realizado em até 12 meses após o balanço; o restante vai para o Ativo Não Circulante. Mas a Lei 6.404/76 (art. 179, I) traz um critério ADICIONAL: também é circulante o realizável dentro do CICLO OPERACIONAL da empresa, mesmo que ultrapasse 12 meses, quando o ciclo for mais longo que o exercício.\n\nO ciclo operacional vai da compra/produção até o recebimento da venda. Em setores como construção civil, estaleiros, vinícolas ou pecuária de engorda, esse ciclo pode durar 2, 3 anos. Nesses casos, estoques e contas a receber ligados à atividade são CIRCULANTES, ainda que sua realização ocorra além de 12 meses, porque ocorrem dentro de um único ciclo operacional. O mesmo raciocínio vale, por simetria, para o Passivo Circulante (obrigações exigíveis dentro do ciclo operacional). Pegadinha de prova: o prazo de 12 meses é a regra geral, mas o ciclo operacional, quando maior, é que define a separação circulante x não circulante."
         }
       ],
       "exemplo": "Dados (R$): Receita Bruta de Vendas 1.000.000; ICMS sobre vendas 180.000; Devoluções 20.000; CMV 480.000; Despesas com Vendas 90.000; Despesas Administrativas 60.000; Despesas Financeiras 30.000; IR e CSLL 40.000. Monte a DRE até o lucro líquido.\n\n\\( \\text{Receita Líquida} = 1.000.000 - 180.000 - 20.000 = 800.000 \\).\n\\( \\text{Lucro Bruto} = 800.000 - 480.000 = 320.000 \\).\n\\( \\text{Resultado operacional} = 320.000 - 90.000 - 60.000 - 30.000 = 140.000 \\).\nLucro antes do IR/CSLL = 140.000. \\( \\text{Lucro Líquido} = 140.000 - 40.000 = R\\$\\ 100.000 \\).\n\nEsse lucro líquido de R$ 100.000 será destinado e parte irá compor as Reservas de Lucros no PL do Balanço.",
@@ -315,6 +327,146 @@
         "Índice isolado não conclui; análise é comparativa e por tendência."
       ],
       "dica_prova": "Confusões clássicas: trocar liquidez seca por imediata (seca tira ESTOQUES; imediata usa só DISPONÍVEL); inverter o numerador/denominador de ROE e ROA; achar que liquidez quanto maior sempre melhor (excesso indica ociosidade). Na análise vertical/horizontal, lembre: vertical = % sobre o total da demonstração (base 100% é o Ativo Total no BP e a Receita Líquida na DRE); horizontal = evolução percentual entre períodos (base 100 é o ano-base). Saiba que ciclo financeiro menor (ou negativo) é desejável."
+    },
+    {
+      "sid": "provisao-x-contingencia",
+      "titulo": "Provisão x contingência",
+      "intro": "O CPC 25 (correlato à IAS 37) disciplina três figuras facilmente confundidas: provisão, passivo contingente e ativo contingente. A chave para a prova é entender que cada uma recebe um tratamento contábil diferente conforme o grau de probabilidade do evento e a possibilidade de mensuração confiável.\n\nProvisão é definida no item 10 como um passivo de prazo ou de valor incerto. Note: provisão É um passivo (vai ao balanço), não uma mera estimativa. Já as contingências (passivas ou ativas) NÃO são reconhecidas no balanço; no máximo são divulgadas em nota explicativa.\n\nA gradação de probabilidade adotada pela norma é: provável, possível e remota. Essa escala é o que decide se o item é reconhecido, apenas divulgado ou ignorado.",
+      "secoes": [
+        {
+          "h": "Provisão: os três requisitos cumulativos (item 14)",
+          "p": "Reconhece-se uma provisão quando, e somente quando, os três requisitos do item 14 são atendidos simultaneamente: (a) a entidade tem uma obrigação presente (legal ou construtiva/não formalizada) como resultado de evento passado; (b) é provável (mais provável que sim do que não, ou seja, probabilidade > 50%) que será necessária uma saída de recursos para liquidar a obrigação; e (c) pode ser feita uma estimativa confiável do valor da obrigação.\n\nSe qualquer um dos três faltar, NÃO há provisão. Faltando apenas a estimativa confiável, ou sendo a saída apenas possível, o item vira passivo contingente. Exemplos clássicos de provisão: garantias sobre produtos vendidos, processos judiciais com perda provável, custos de desmontagem/restauração ambiental."
+        },
+        {
+          "h": "Passivo contingente: só divulgação (itens 27-28)",
+          "p": "Passivo contingente (item 10) é a obrigação possível (cuja existência será confirmada por evento futuro incerto) OU a obrigação presente que não atende aos critérios de reconhecimento (porque a saída não é provável ou não há estimativa confiável).\n\nRegra do item 27: o passivo contingente NÃO é reconhecido. O item 28 determina que ele seja DIVULGADO em nota explicativa, salvo se a probabilidade de saída de recursos for remota — caso em que nada se faz (nem divulga). Resumindo a régua do passivo: provável e mensurável vira provisão (reconhece); possível só divulga; remota nada."
+        },
+        {
+          "h": "Ativo contingente: assimetria conservadora (itens 31-35)",
+          "p": "Ativo contingente (item 10) é o ativo possível, decorrente de evento passado, cuja existência será confirmada por evento futuro incerto (ex.: ação judicial movida pela entidade com expectativa de ganho).\n\nO tratamento é mais conservador (prudência): o ativo contingente NUNCA é reconhecido (item 31), pois isso poderia resultar no reconhecimento de receita que talvez nunca se realize. Ele é apenas DIVULGADO quando a entrada de benefícios for PROVÁVEL (item 34). Se for apenas possível, não se divulga. E quando a realização do ganho se torna praticamente certa, o ativo deixa de ser contingente e passa a ser reconhecido normalmente como ativo (não é mais uma contingência)."
+        },
+        {
+          "h": "Mensuração e quadro-resumo",
+          "p": "A provisão é mensurada pela melhor estimativa do desembolso exigido para liquidar a obrigação na data do balanço (item 36). Havendo muitos itens (ex.: garantias), usa-se o valor esperado ponderado pelas probabilidades; havendo obrigação única, usa-se o desfecho individual mais provável.\n\nQuadro-resumo por probabilidade — PASSIVO: provável + mensurável = reconhece provisão; possível = divulga (passivo contingente); remota = nada. ATIVO: praticamente certo = reconhece ativo; provável = divulga (ativo contingente); possível/remota = nada. Perceba a assimetria: o passivo é reconhecido já no 'provável', enquanto o ativo só no 'praticamente certo'."
+        }
+      ],
+      "exemplo": "Uma empresa figura como ré em três ações na data do balanço. Os advogados classificam: Ação A — perda provável, valor estimável em \\( R\\$\\,200.000 \\); Ação B — perda possível, \\( R\\$\\,150.000 \\); Ação C — perda remota, \\( R\\$\\,500.000 \\). Tratamento:\n\nAção A: provável e mensurável, logo RECONHECE provisão de \\( R\\$\\,200.000 \\) no passivo, com lançamento \\( \\text{D — Despesa com processos} \\;/\\; \\text{C — Provisão para riscos} = R\\$\\,200.000 \\).\n\nAção B: possível, logo NÃO reconhece, apenas DIVULGA em nota explicativa o passivo contingente de \\( R\\$\\,150.000 \\).\n\nAção C: remota, logo NADA é feito (nem provisão nem divulgação).\n\nEfeito no resultado do exercício: apenas \\( R\\$\\,200.000 \\) de despesa. Total que afeta o balanço como provisão: \\( R\\$\\,200.000 \\).",
+      "pontos_chave": [
+        "Provisão = passivo de prazo ou valor incerto; vai ao balanço (CPC 25, item 10).",
+        "Três requisitos cumulativos da provisão (item 14): obrigação presente de evento passado, saída provável e estimativa confiável.",
+        "Provável na norma = mais provável que sim do que não (> 50%).",
+        "Passivo contingente (possível): não reconhece, apenas divulga; remoto não divulga (itens 27-28).",
+        "Ativo contingente: nunca reconhece; divulga só se provável (itens 31-34).",
+        "Assimetria: passivo reconhecido no 'provável'; ativo só quando 'praticamente certo'.",
+        "Mensuração: melhor estimativa na data do balanço (item 36).",
+        "Faltando estimativa confiável, mesmo com saída provável, vira passivo contingente."
+      ],
+      "dica_prova": "A FCC adora montar tabelas de processos com classificações provável/possível/remota e pedir o valor da provisão a reconhecer (soma só dos 'prováveis e mensuráveis') ou o que vai apenas em nota (os 'possíveis'). Cuidado com a pegadinha da assimetria entre ativo e passivo contingente: o examinador troca o tratamento, afirmando que ativo contingente provável é reconhecido — está ERRADO, ele só é divulgado. Outra pegadinha: dizer que passivo contingente remoto deve ser divulgado (não deve)."
+    },
+    {
+      "sid": "impairment-e-reversao",
+      "titulo": "Impairment e reversão",
+      "intro": "O CPC 01 (R1), correlato à IAS 36, trata da redução ao valor recuperável de ativos (impairment). O princípio é simples e cai muito em prova: nenhum ativo pode permanecer registrado por valor superior àquele que a entidade consegue recuperar com ele, seja usando-o, seja vendendo-o.\n\nPeriodicamente (e sempre que houver indício de desvalorização) a entidade compara o valor contábil do ativo com seu valor recuperável. Se o valor contábil exceder o recuperável, a diferença é uma perda por desvalorização (impairment), reconhecida no resultado.\n\nO segundo ponto mais cobrado é a REVERSÃO dessa perda: ela é permitida (exceto para o ágio/goodwill), mas tem um teto rígido que a banca explora em cálculos.",
+      "secoes": [
+        {
+          "h": "Valor recuperável: o maior entre dois",
+          "p": "Valor recuperável de um ativo é o MAIOR valor entre: (a) o valor justo líquido de despesas de venda (quanto se obteria vendendo o ativo, menos custos diretos da venda); e (b) o valor em uso (valor presente dos fluxos de caixa futuros que se espera obter com o uso continuado do ativo e sua baixa).\n\nA lógica é que a entidade recuperará o ativo pela melhor das duas alternativas — vender ou continuar usando. Por isso usa-se o MAIOR. Se qualquer um dos dois já for superior ao valor contábil, não há perda e não é necessário calcular o outro."
+        },
+        {
+          "h": "Reconhecimento da perda",
+          "p": "Há perda por desvalorização quando o valor contábil (VC) supera o valor recuperável (VR): a perda é \\( VC - VR \\). Ela é reconhecida imediatamente no resultado do período (como despesa), reduzindo o valor contábil do ativo até igualá-lo ao recuperável.\n\nApós o impairment, a depreciação dos períodos seguintes passa a ser calculada sobre o NOVO valor contábil (já reduzido), distribuída pela vida útil remanescente. Em ativos reavaliados (raros no Brasil pós-Lei 11.638), a perda primeiro reduz a reserva de reavaliação correspondente e o excedente vai ao resultado."
+        },
+        {
+          "h": "Reversão: existe, mas com teto (item 114)",
+          "p": "Se em período posterior os indícios que geraram a perda deixarem de existir ou diminuírem (mudança nas estimativas), a perda por desvalorização DEVE ser revertida — exceto a do ágio. A reversão é reconhecida imediatamente no resultado (item 119), aumentando o valor contábil do ativo.\n\nO teto da reversão (item 114) é decisivo: o valor contábil após a reversão NÃO pode exceder o valor contábil que o ativo teria (líquido de depreciação/amortização) caso a perda por desvalorização NÃO tivesse sido reconhecida em períodos anteriores. Ou seja, a reversão não pode 'criar' valorização — só desfaz a perda anterior, descontada a depreciação que teria ocorrido nesse meio-tempo."
+        },
+        {
+          "h": "Ágio (goodwill) não reverte (item 124)",
+          "p": "O item 124 é uma exceção que a FCC adora: a perda por desvalorização reconhecida para o ÁGIO por expectativa de rentabilidade futura (goodwill) NÃO pode ser revertida em períodos subsequentes.\n\nA razão: qualquer aumento posterior do valor recuperável de uma unidade geradora de caixa com ágio seria, na prática, um ágio gerado internamente — e o CPC 04 proíbe reconhecer ágio/intangível gerado internamente. Portanto, impairment de goodwill é definitivo. Demais ativos (imobilizado, intangíveis de vida definida etc.) podem ter a perda revertida dentro do teto."
+        }
+      ],
+      "exemplo": "Máquina adquirida por \\( R\\$\\,100.000 \\), vida útil de 10 anos, depreciação linear, sem valor residual. No fim do ano 2, valor contábil \\( = 100.000 - 2\\times 10.000 = R\\$\\,80.000 \\). Teste de impairment: valor justo líquido \\( = R\\$\\,55.000 \\); valor em uso \\( = R\\$\\,60.000 \\). Valor recuperável \\( = \\max(55.000;\\,60.000) = R\\$\\,60.000 \\).\n\nPerda \\( = VC - VR = 80.000 - 60.000 = R\\$\\,20.000 \\), reconhecida no resultado. Novo VC \\( = R\\$\\,60.000 \\), depreciado pela vida remanescente (8 anos): \\( 60.000 / 8 = R\\$\\,7.500\\,\\text{/ano} \\).\n\nNo fim do ano 4 (dois anos depois), VC \\( = 60.000 - 2\\times 7.500 = R\\$\\,45.000 \\). Os indícios desaparecem e o recuperável sobe para \\( R\\$\\,70.000 \\). Teto da reversão = valor que existiria SEM a perda: \\( 100.000 - 4\\times 10.000 = R\\$\\,60.000 \\). Como \\( 70.000 > 60.000 \\), a reversão é LIMITADA a \\( 60.000 - 45.000 = R\\$\\,15.000 \\) (e não \\( 70.000 - 45.000 = 25.000 \\)). VC final \\( = R\\$\\,60.000 \\).",
+      "pontos_chave": [
+        "Valor recuperável = MAIOR entre valor justo líquido de despesas de venda e valor em uso.",
+        "Há perda quando valor contábil > valor recuperável; perda = VC - VR, no resultado.",
+        "Após o impairment, deprecia-se o novo VC pela vida útil remanescente.",
+        "Reversão é obrigatória se os indícios cessarem (CPC 01, item 114), reconhecida no resultado.",
+        "Teto da reversão: VC após reversão não excede o VC líquido de depreciação que existiria sem a perda.",
+        "A reversão nunca transforma o ativo em valor maior do que teria sem impairment.",
+        "Perda do ágio/goodwill NÃO é revertida (item 124) - é definitiva.",
+        "Indício de impairment dispara o teste; sem indício, certos intangíveis e ágio têm teste anual obrigatório."
+      ],
+      "dica_prova": "A FCC cobra dois cálculos: (1) o valor da perda (sempre VC menos o MAIOR entre VJ líquido e valor em uso - cuidado, alguns candidatos pegam o menor); (2) o limite da reversão. O erro clássico é reverter até o novo valor recuperável cheio, ignorando o teto: a reversão para no valor contábil líquido de depreciação que existiria se a perda nunca tivesse ocorrido. E memorize a exceção do goodwill: impairment de ágio não reverte jamais."
+    },
+    {
+      "sid": "revisao-prospectiva-de-estimativas",
+      "titulo": "Revisão prospectiva de estimativas",
+      "intro": "O CPC 23 (Políticas Contábeis, Mudança de Estimativa e Retificação de Erro) distingue três situações com tratamentos contábeis opostos: mudança de POLÍTICA contábil (retrospectiva), mudança de ESTIMATIVA contábil (prospectiva) e retificação de ERRO (retrospectiva). A confusão entre elas é a pegadinha favorita das bancas.\n\nO foco deste subtópico é a mudança de estimativa, que abrange a revisão de vida útil, valor residual e método de depreciação/amortização de ativos. Pelo CPC 27 (Ativo Imobilizado), esses parâmetros devem ser revisados pelo menos ao fim de cada exercício.\n\nA regra de ouro: mudança de estimativa é aplicada de forma PROSPECTIVA — não se mexe no passado, ajusta-se o presente e o futuro sobre o valor contábil remanescente.",
+      "secoes": [
+        {
+          "h": "Estimativa x política: prospectiva x retrospectiva",
+          "p": "Mudança de política contábil (ex.: trocar o critério de avaliação de estoques de média ponderada para PEPS, quando permitido) é aplicada RETROSPECTIVAMENTE: ajusta-se o saldo de abertura dos lucros acumulados e reapresentam-se os períodos comparativos, como se a nova política sempre tivesse sido usada.\n\nMudança de estimativa contábil resulta de novas informações ou novos desenvolvimentos e, por isso, NÃO é correção de erro. É aplicada PROSPECTIVAMENTE: reconhece-se o efeito no resultado do período da mudança e dos períodos futuros afetados. Não se retifica o passado nem se reapresentam comparativos. Exemplos: vida útil, valor residual, método de depreciação, provisão para devedores duvidosos, obsolescência de estoques."
+        },
+        {
+          "h": "Vida útil, valor residual e método (CPC 27)",
+          "p": "O CPC 27 (item 51) determina que o valor residual e a vida útil de um ativo sejam revisados pelo menos ao final de cada exercício; se as expectativas diferirem das estimativas anteriores, a mudança é tratada como mudança de estimativa contábil conforme o CPC 23 — logo, prospectivamente.\n\nO método de depreciação também é revisado periodicamente (CPC 27, item 61): alterado o padrão de consumo dos benefícios econômicos (ex.: de linear para soma dos dígitos), a troca também é mudança de estimativa, aplicada prospectivamente. Em nenhum desses casos se recalcula a depreciação já lançada em exercícios anteriores."
+        },
+        {
+          "h": "Mecânica do cálculo prospectivo",
+          "p": "O procedimento prático: (1) toma-se o valor contábil atual do ativo (custo menos depreciação acumulada até a data da revisão) - o que já foi depreciado fica como está; (2) subtrai-se o novo valor residual estimado, obtendo a nova base depreciável; (3) divide-se essa base pela nova vida útil REMANESCENTE (não pela vida total nova).\n\nFórmula: \\( \\text{Depreciação anual} = \\dfrac{\\text{Valor contábil atual} - \\text{Novo valor residual}}{\\text{Vida útil remanescente}} \\). O passado permanece intocado; apenas a despesa do ano da mudança em diante muda."
+        },
+        {
+          "h": "Quando há incerteza: tratar como estimativa",
+          "p": "O CPC 23 traz uma regra subsidiária útil em prova: quando for difícil distinguir uma mudança de política de uma mudança de estimativa, a alteração é tratada como mudança de ESTIMATIVA (prospectiva). Isso porque a aplicação prospectiva é menos disruptiva e a norma presume estimativa na dúvida.\n\nJá a retificação de erro (omissão ou distorção por uso indevido de informação disponível à época) tem tratamento RETROSPECTIVO, com reapresentação dos períodos anteriores - não se confunde com revisão de estimativa, que decorre de informação NOVA, não de erro."
+        }
+      ],
+      "exemplo": "Equipamento adquirido por \\( R\\$\\,120.000 \\), vida útil estimada em 10 anos, valor residual zero, depreciação linear. Depreciação anual inicial \\( = 120.000/10 = R\\$\\,12.000 \\).\n\nNo fim do ano 4, valor contábil \\( = 120.000 - 4\\times 12.000 = R\\$\\,72.000 \\). A empresa revisa as estimativas: a vida útil TOTAL passa a ser de 12 anos (restam, portanto, 8 anos a partir de agora) e o valor residual passa a \\( R\\$\\,8.000 \\).\n\nAplicação prospectiva — nova depreciação anual:\n\\[ \\dfrac{72.000 - 8.000}{8} = \\dfrac{64.000}{8} = R\\$\\,8.000\\,\\text{/ano}. \\]\n\nOs \\( R\\$\\,48.000 \\) já depreciados nos anos 1 a 4 NÃO são recalculados. A partir do ano 5, deprecia-se \\( R\\$\\,8.000 \\) ao ano pelos 8 anos remanescentes. Nenhum ajuste em lucros acumulados ou em demonstrações comparativas.",
+      "pontos_chave": [
+        "Mudança de ESTIMATIVA = prospectiva; mudança de POLÍTICA e ERRO = retrospectivos (CPC 23).",
+        "Vida útil, valor residual e método de depreciação são estimativas (CPC 27, itens 51 e 61).",
+        "CPC 27 exige revisar vida útil e valor residual ao menos ao fim de cada exercício.",
+        "Prospectiva = passado intocado; recalcula-se só do período da mudança em diante.",
+        "Base do recálculo: valor contábil ATUAL e vida útil REMANESCENTE (não a vida total nova).",
+        "Não há reapresentação de comparativos nem ajuste em lucros acumulados na mudança de estimativa.",
+        "Na dúvida entre política e estimativa, trata-se como estimativa (prospectiva).",
+        "Estimativa decorre de informação nova; erro decorre de informação que existia e foi mal usada."
+      ],
+      "dica_prova": "A FCC monta o enunciado com um ativo já parcialmente depreciado e depois muda a vida útil e/ou o valor residual, pedindo a nova depreciação anual. O erro mais comum é dividir pelo NÚMERO TOTAL de anos da nova vida útil, em vez da vida REMANESCENTE, ou recalcular a depreciação dos anos passados. Lembre: prospectivo significa valor contábil atual dividido pelos anos que ainda faltam. E não caia na troca conceitual: revisão de vida útil é mudança de estimativa (prospectiva), nunca correção de erro."
+    },
+    {
+      "sid": "reserva-legal-estatutaria-e-dividendo-obrigatorio",
+      "titulo": "Reserva legal, estatutária e dividendo obrigatório",
+      "intro": "A destinação do lucro líquido nas sociedades anônimas é regida pelos artigos 193 a 202 da Lei 6.404/76. Apurado o lucro líquido do exercício e feitos os ajustes iniciais (compensação de prejuízos acumulados e provisão para o imposto de renda já estão refletidos no lucro líquido), a assembleia delibera sobre a destinação, seguindo uma ordem definida em lei.\n\nA sequência típica é: (1) reserva legal; (2) reservas estatutárias; (3) reservas para contingências; (4) reserva de retenção de lucros (orçamento de capital); (5) reserva de lucros a realizar; e o dividendo obrigatório aos acionistas.\n\nA banca cobra os percentuais e limites exatos de cada reserva e o cálculo do dividendo obrigatório quando o estatuto é omisso.",
+      "secoes": [
+        {
+          "h": "Reserva legal (art. 193): 5% até o teto de 20%",
+          "p": "Do lucro líquido do exercício, 5% serão aplicados, ANTES de qualquer outra destinação, na constituição da reserva legal, que não excederá 20% do capital social (art. 193, caput). É a primeira destinação e tem natureza obrigatória.\n\nFaculdade do art. 193, §1º: a companhia PODE deixar de constituir a reserva legal no exercício em que o saldo dessa reserva, somado às reservas de capital (art. 182, §1º), exceder 30% do capital social. Finalidade (art. 193, §2º): a reserva legal só pode ser usada para compensar prejuízos ou aumentar o capital social - assegura a integridade do capital."
+        },
+        {
+          "h": "Reservas estatutárias, de contingências e de retenção",
+          "p": "Reserva estatutária (art. 194): criada pelo estatuto, que deve indicar sua finalidade, o critério de cálculo do valor anual e o limite máximo. Não pode prejudicar o pagamento do dividendo obrigatório.\n\nReserva para contingências (art. 195): destina parte do lucro à compensação, em exercício futuro, de diminuição de lucro decorrente de perda julgada PROVÁVEL, cujo valor possa ser estimado (ex.: geada esperada). Quando deixa de existir a causa, a reserva é revertida. Reserva de retenção de lucros / orçamento de capital (art. 196): retém lucros para financiar projeto de investimento previsto em orçamento de capital aprovado pela assembleia."
+        },
+        {
+          "h": "Limite global das reservas de lucros (art. 199)",
+          "p": "O art. 199 impõe um teto agregado: o saldo das reservas de lucros, EXCETO a reserva de lucros a realizar e as reservas para contingências, não poderá ultrapassar o capital social. Atingido esse limite, a assembleia deliberará sobre aplicar o excesso na integralização ou no aumento do capital social, ou na distribuição de dividendos.\n\nReserva de lucros a realizar (art. 197): permite postergar a distribuição da parcela do dividendo obrigatório que excede a parcela do lucro efetivamente realizada financeiramente (ganhos ainda não convertidos em caixa, como equivalência patrimonial ou vendas a prazo de longo prazo)."
+        },
+        {
+          "h": "Dividendo obrigatório (art. 202)",
+          "p": "Os acionistas têm direito ao dividendo obrigatório, em cada exercício, na parcela fixada no estatuto. Se o estatuto for OMISSO, o art. 202, I, manda calcular: metade (50%) do lucro líquido do exercício diminuído ou acrescido de (a) a importância destinada à reserva legal; e (b) a importância destinada à reserva para contingências e a reversão dessa reserva formada em exercícios anteriores.\n\nSe o estatuto for omisso e a assembleia deliberar alterá-lo para fixar a matéria, o dividendo obrigatório não poderá ser inferior a 25% do lucro líquido ajustado (art. 202, §2º). A base é o LUCRO LÍQUIDO AJUSTADO, nunca o lucro bruto."
+        }
+      ],
+      "exemplo": "Companhia com capital social de \\( R\\$\\,1.000.000 \\), reserva legal acumulada de \\( R\\$\\,150.000 \\) e lucro líquido do exercício de \\( R\\$\\,400.000 \\). Estatuto OMISSO quanto ao dividendo. Não há reserva para contingências.\n\nPasso 1 - Reserva legal (art. 193): 5% de \\( 400.000 = R\\$\\,20.000 \\). Verificar o teto de 20% do capital \\( = 0{,}20\\times 1.000.000 = R\\$\\,200.000 \\). Saldo após a constituição: \\( 150.000 + 20.000 = 170.000 \\le 200.000 \\). OK, constitui \\( R\\$\\,20.000 \\).\n\nPasso 2 - Lucro líquido ajustado (art. 202, I): \\( 400.000 - 20.000 = R\\$\\,380.000 \\) (sem contingências a ajustar).\n\nPasso 3 - Dividendo obrigatório (estatuto omisso = 50% do ajustado):\n\\[ 0{,}50 \\times 380.000 = R\\$\\,190.000. \\]\n\nRestam \\( 380.000 - 190.000 = R\\$\\,190.000 \\) para outras reservas (estatutária, retenção etc.), respeitado o teto do art. 199 (reservas de lucros não superiores ao capital de \\( R\\$\\,1.000.000 \\)).",
+      "pontos_chave": [
+        "Reserva legal (art. 193): 5% do lucro líquido, antes de tudo, teto de 20% do capital social.",
+        "Faculdade (art. 193, §1º): dispensa quando reserva legal + reservas de capital > 30% do capital.",
+        "Reserva legal só compensa prejuízo ou aumenta capital (art. 193, §2º).",
+        "Reserva estatutária (art. 194): finalidade, critério e limite no estatuto; não barra dividendo obrigatório.",
+        "Reserva para contingências (art. 195): perda futura provável e estimável; revertida ao cessar a causa.",
+        "Reserva de retenção/orçamento de capital (art. 196): financia investimento aprovado pela assembleia.",
+        "Art. 199: reservas de lucros (salvo a realizar e contingências) não podem ultrapassar o capital social.",
+        "Dividendo obrigatório (art. 202): estatuto omisso = 50% do lucro líquido AJUSTADO; alteração não pode fixar menos de 25%."
+      ],
+      "dica_prova": "A FCC arma o cálculo em cascata: aplica 5% para a reserva legal, ajusta o lucro e cobra o dividendo obrigatório como 50% do lucro líquido AJUSTADO quando o estatuto é omisso. Pegadinhas frequentes: (1) calcular a reserva legal sobre o capital, e não sobre o lucro líquido; (2) esquecer o teto de 20% do capital; (3) usar 25% como percentual do dividendo quando o estatuto é omisso - o 25% só é piso para alteração estatutária, sendo 50% a regra da omissão total; (4) calcular o dividendo sobre o lucro líquido sem deduzir a reserva legal."
     }
   ]
 }

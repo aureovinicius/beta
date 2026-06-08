@@ -1,558 +1,630 @@
 {
-  "slug": "lingua-portuguesa",
-  "itens": [
+ "slug": "lingua-portuguesa",
+ "itens": [
+  {
+   "sid": "compreensao-x-interpretacao",
+   "titulo": "Compreensão x interpretação",
+   "intro": "Compreender e interpretar são operações de leitura distintas e complementares. A compreensão fica no nível do que o texto literalmente afirma: extrair informações explícitas, parafrasear o que foi dito, identificar dados, definições e afirmações postas de forma direta. Interpretar é dar um passo adiante: concluir logicamente algo que o texto autoriza, ainda que não esteja escrito com todas as letras.\n\nEm prova de Auditor-Fiscal, a banca explora justamente a fronteira entre as duas. A maioria dos erros do candidato nasce de extrapolar (afirmar o que o texto não diz, trazendo conhecimento de mundo não autorizado) ou de reduzir (ignorar ressalvas, modalizadores e condições). Dominar essa distinção é o alicerce de toda a interpretação textual.",
+   "secoes": [
     {
-      "sid": "compreensao-x-interpretacao",
-      "titulo": "Compreensão x interpretação",
-      "intro": "Compreender e interpretar são operações de leitura distintas e complementares. A compreensão fica no nível do que o texto literalmente afirma: extrair informações explícitas, parafrasear o que foi dito, identificar dados, definições e afirmações postas de forma direta. Interpretar é dar um passo adiante: concluir logicamente algo que o texto autoriza, ainda que não esteja escrito com todas as letras.\n\nEm prova de Auditor-Fiscal, a banca explora justamente a fronteira entre as duas. A maioria dos erros do candidato nasce de extrapolar (afirmar o que o texto não diz, trazendo conhecimento de mundo não autorizado) ou de reduzir (ignorar ressalvas, modalizadores e condições). Dominar essa distinção é o alicerce de toda a interpretação textual.",
-      "secoes": [
-        {
-          "h": "Compreensão: o nível do explícito",
-          "p": "Compreender é responder à pergunta \"o que o texto diz?\". Trabalha-se com informações que estão na superfície: o autor afirmou X, citou o dado Y, definiu o conceito Z. Itens de compreensão costumam ser paráfrases fiéis — trocam as palavras do enunciado por sinônimos, mas mantêm o conteúdo intacto.\n\nO grande risco da compreensão é a paráfrase infiel: a banca substitui um termo por outro que parece sinônimo, mas altera o sentido (por exemplo, trocar \"a maioria\" por \"todos\", ou \"pode\" por \"deve\")."
-        },
-        {
-          "h": "Interpretação: o nível do inferível",
-          "p": "Interpretar é responder \"o que se conclui a partir do texto?\". A conclusão precisa ser uma decorrência lógica e necessária do que foi dito — não uma possibilidade entre muitas. Se o texto afirma que \"todo tributo exige lei\", interpreta-se validamente que \"não há tributo sem lei\".\n\nA interpretação legítima se apoia exclusivamente nas informações do texto e em raciocínio lógico. Ela não pode depender de uma opinião pessoal do leitor nem de um conhecimento externo que o texto não tenha mobilizado."
-        },
-        {
-          "h": "Extrapolação: o erro mais cobrado",
-          "p": "Extrapolar é ir além do que o texto permite, geralmente trazendo conhecimento de mundo. Exemplo clássico: o texto fala sobre os efeitos econômicos de um tributo e o item conclui que \"o autor defende o aumento da carga tributária\" — algo que o texto nunca disse. Mesmo que a afirmação seja verdadeira no mundo real, se o texto não a sustenta, o item está ERRADO em interpretação.\n\nA pergunta-chave para detectar extrapolação é: \"onde, no texto, está escrito ou logicamente implicado isso?\". Se não há base textual, é extrapolação."
-        },
-        {
-          "h": "Redução e distorção de sentido",
-          "p": "O erro inverso é reduzir: o texto traz uma ressalva (\"em regra\", \"na maioria dos casos\", \"salvo exceções\") e o item a ignora, transformando uma afirmação relativa em absoluta. Também há a distorção, em que se inverte uma relação de causa/consequência ou se atribui ao autor uma posição contrária à que ele defende.\n\nModalizadores são palavras decisivas: \"pode/deve\", \"sempre/geralmente\", \"todo/alguns\", \"é/parece\". Trocar um pelo outro muda completamente o valor de verdade do item."
-        }
-      ],
-      "exemplo": "Texto: \"A informatização da fiscalização, em geral, reduz a sonegação, embora não a elimine.\"\n\nItem A (compreensão correta): \"Segundo o texto, a informatização da fiscalização tende a diminuir a sonegação.\" — CORRETO, é paráfrase fiel de \"em geral, reduz\".\n\nItem B (redução/erro): \"O texto afirma que a informatização elimina a sonegação.\" — ERRADO: o texto diz expressamente \"embora não a elimine\". O candidato ignorou a ressalva.\n\nItem C (extrapolação/erro): \"O autor defende o aumento de investimentos públicos em tecnologia.\" — ERRADO: o texto descreve um efeito, mas não emite juízo de defesa sobre investimentos; não há base textual.",
-      "pontos_chave": [
-        "Compreensão = o que o texto diz explicitamente; interpretação = o que se conclui logicamente dele.",
-        "Inferência válida é decorrência necessária do texto, não mera possibilidade.",
-        "Extrapolar (afirmar além do texto) é o erro mais cobrado pelas bancas.",
-        "Reduzir é ignorar ressalvas e modalizadores, tornando absoluto o que era relativo.",
-        "Conhecimento de mundo só vale se o próprio texto o autorizar.",
-        "Pergunta-teste: 'onde, no texto, isso está dito ou implicado?'."
-      ],
-      "dica_prova": "Sublinhe modalizadores (pode/deve, em geral/sempre, todo/alguns) e ressalvas (embora, salvo, exceto) antes de ler as alternativas — é nelas que a banca constrói as pegadinhas. Desconfie de itens que pareçam 'verdade do mundo real' mas que o texto não sustenta: a prova mede leitura, não opinião."
+     "h": "Compreensão: o nível do explícito",
+     "p": "Compreender é responder à pergunta \"o que o texto diz?\". Trabalha-se com informações que estão na superfície: o autor afirmou X, citou o dado Y, definiu o conceito Z. Itens de compreensão costumam ser paráfrases fiéis — trocam as palavras do enunciado por sinônimos, mas mantêm o conteúdo intacto.\n\nO grande risco da compreensão é a paráfrase infiel: a banca substitui um termo por outro que parece sinônimo, mas altera o sentido (por exemplo, trocar \"a maioria\" por \"todos\", ou \"pode\" por \"deve\")."
     },
     {
-      "sid": "ideia-central-e-secundarias",
-      "titulo": "Ideia central e secundárias",
-      "intro": "Todo texto bem construído gira em torno de uma ideia central (tese ou tema dominante) sustentada por ideias secundárias (argumentos, exemplos, dados, contra-argumentos). Saber separar o núcleo do que é apenas apoio é essencial para responder questões de \"título adequado\", \"síntese do texto\" e \"finalidade do parágrafo\".\n\nA ideia central responde à pergunta \"sobre o que o texto trata, no fundo, e o que ele defende?\". As secundárias respondem \"como o autor sustenta isso?\". Confundir uma ideia secundária (um exemplo chamativo, um dado curioso) com a tese é um erro frequente que a banca induz.",
-      "secoes": [
-        {
-          "h": "Tópico frasal e estrutura do parágrafo",
-          "p": "Cada parágrafo costuma ter um tópico frasal: a frase que condensa sua ideia principal, geralmente na abertura. O restante do parágrafo desenvolve, exemplifica ou comprova esse tópico. Localizar o tópico frasal de cada parágrafo e depois encadeá-los revela a linha argumentativa do texto inteiro.\n\nEm textos dissertativos, a ideia central aparece com frequência na introdução (onde se anuncia a tese) ou na conclusão (onde ela é retomada e reforçada)."
-        },
-        {
-          "h": "Como identificar a ideia central",
-          "p": "A ideia central é aquela que, se retirada, faz o texto perder o sentido global; as secundárias podem ser suprimidas sem destruir o todo. Um teste prático: tente resumir o texto em uma frase. O que sobrevive nesse resumo é o núcleo.\n\nOutro indício é a recorrência: a ideia central tende a ser retomada ao longo dos parágrafos, por repetição, paráfrase ou referência (pronomes, sinônimos). Já as secundárias aparecem pontualmente."
-        },
-        {
-          "h": "Funções das ideias secundárias",
-          "p": "As ideias secundárias cumprem papéis específicos: exemplificar (ilustrar a tese com um caso), comprovar (apresentar dados e citações), contrapor (introduzir um contra-argumento que será refutado) e detalhar (explicar um aspecto da tese). Reconhecer a função de cada parágrafo é cobrado em itens do tipo \"o terceiro parágrafo tem a finalidade de...\".\n\nUm contra-argumento, em especial, engana: ele expressa uma posição que o autor NÃO defende, apenas apresenta para depois rebater. Tomá-lo como tese do texto é erro grave."
-        },
-        {
-          "h": "Título e síntese",
-          "p": "O título adequado deve abranger a ideia central, sem ser amplo demais (genérico) nem estreito demais (preso a um detalhe secundário). Questões de \"melhor título\" testam exatamente essa calibragem. A síntese (resumo) deve preservar a tese e a hierarquia das ideias, eliminando exemplos e repetições.\n\nUm bom resumo é fiel (não inclui o que não está no texto), seletivo (corta o acessório) e proporcional (dá mais peso ao que o texto enfatiza)."
-        }
-      ],
-      "exemplo": "Suponha um texto cuja tese é: \"A simplificação tributária aumenta a arrecadação porque reduz a sonegação e o custo de conformidade.\" Os parágrafos trazem (1) a tese, (2) o exemplo de um país que simplificou seu sistema, (3) dados de arrecadação e (4) a conclusão.\n\nQuestão: \"Assinale o melhor título.\"\n- 'Um país que reformou seus impostos' — ERRADO: prende-se ao exemplo (ideia secundária do parágrafo 2).\n- 'Simplificar para arrecadar mais' — CORRETO: captura a tese central.\n- 'A economia mundial no século XXI' — ERRADO: amplo demais, genérico, extrapola o recorte do texto.",
-      "pontos_chave": [
-        "Tópico frasal: frase que condensa a ideia principal do parágrafo, geralmente na abertura.",
-        "A ideia central costuma estar na introdução ou na conclusão e é retomada ao longo do texto.",
-        "Ideias secundárias sustentam a tese: exemplificam, comprovam, detalham ou contrapõem.",
-        "Contra-argumento NÃO é a tese do autor — é apresentado para ser refutado.",
-        "Teste do resumo em uma frase: o que sobrevive é o núcleo.",
-        "Título ideal não é genérico nem preso a um detalhe secundário."
-      ],
-      "dica_prova": "Cuidado com a 'armadilha do exemplo marcante': a banca oferece como título ou como ideia principal justamente o exemplo mais chamativo do texto, que é apenas apoio. E desconfie de tomar um contra-argumento como posição do autor — verifique se logo depois há uma refutação introduzida por 'mas', 'porém', 'contudo'."
+     "h": "Interpretação: o nível do inferível",
+     "p": "Interpretar é responder \"o que se conclui a partir do texto?\". A conclusão precisa ser uma decorrência lógica e necessária do que foi dito — não uma possibilidade entre muitas. Se o texto afirma que \"todo tributo exige lei\", interpreta-se validamente que \"não há tributo sem lei\".\n\nA interpretação legítima se apoia exclusivamente nas informações do texto e em raciocínio lógico. Ela não pode depender de uma opinião pessoal do leitor nem de um conhecimento externo que o texto não tenha mobilizado."
     },
     {
-      "sid": "inferencia-e-pressuposto",
-      "titulo": "Inferência e pressuposto",
-      "intro": "Nem tudo num texto é dito de forma explícita. Parte do sentido fica implícita e precisa ser recuperada pelo leitor. Os dois principais mecanismos de implícito são o pressuposto e o subentendido (ou inferência contextual), conceitos que as bancas adoram cobrar porque exigem leitura fina.\n\nPressuposto é a informação implícita ancorada na própria estrutura linguística da frase — está embutido em certas palavras e não pode ser negado sem contradição. Subentendido depende do contexto e da intenção, sendo mais frágil e dedutível por inferência.",
-      "secoes": [
-        {
-          "h": "O que é pressuposto",
-          "p": "Pressuposto é a informação que a frase dá como certa para que seu enunciado faça sentido. Ele está marcado por elementos linguísticos específicos chamados marcadores de pressuposição. Por exemplo, em \"O contribuinte continuou pagando o imposto\", o verbo \"continuou\" pressupõe que ele já pagava antes. Negar a frase principal (\"não continuou pagando\") não anula o pressuposto: ele continua valendo.\n\nPrincipais marcadores: verbos como continuar, parar, deixar de, voltar a; advérbios como já, ainda, também; orações adjetivas; certos adjetivos e o artigo definido."
-        },
-        {
-          "h": "O que é subentendido (inferência contextual)",
-          "p": "Subentendido é o sentido implícito que depende do contexto, da situação e da intenção do falante, não da estrutura gramatical. Em \"Está frio aqui\", dependendo do contexto, pode-se subentender um pedido para fechar a janela. Diferentemente do pressuposto, o subentendido pode ser negado pelo falante sem contradição (\"só comentei, não pedi nada\").\n\nO subentendido é responsabilidade do ouvinte/leitor que o deduz; o pressuposto é responsabilidade da frase que o carrega."
-        },
-        {
-          "h": "Inferência: o raciocínio que liga as informações",
-          "p": "Inferir é deduzir uma informação nova a partir das informações dadas, combinando-as com regras lógicas ou de conhecimento compartilhado. A inferência válida em prova é aquela autorizada pelo texto: ela não acrescenta dados externos não previstos.\n\nHá inferências quase obrigatórias (decorrência lógica direta) e inferências autorizadas pelo contexto (o texto fornece pistas suficientes). A banca cobra que o candidato distinga uma inferência sustentada de uma mera suposição."
-        },
-        {
-          "h": "Marcadores de pressuposição mais cobrados",
-          "p": "Vale memorizar exemplos: \"voltou a fiscalizar\" pressupõe que fiscalizava, parou e retomou; \"deixou de declarar\" pressupõe que declarava antes; \"também sonegou\" pressupõe que outra pessoa sonegou; \"ainda não pagou\" pressupõe que se espera o pagamento. O artigo definido pressupõe existência e conhecimento prévio (\"o auditor chegou\" pressupõe que há um auditor identificável).\n\nO teste do pressuposto: aplique a negação à frase principal. Se a informação implícita permanece intacta, trata-se de pressuposto."
-        }
-      ],
-      "exemplo": "Frase: \"O Estado de Goiás também reduziu a alíquota do ICMS sobre alimentos.\"\n\nPressuposto (marcador 'também'): algum outro ente (outro Estado, por exemplo) já havia reduzido a alíquota. Esse implícito é estrutural e não some se negarmos a frase: em \"O Estado de Goiás não reduziu...\", a ideia de que outro reduziu permanece pressuposta pelo 'também'.\n\nQuestão típica: \"Da frase, infere-se que outro ente já havia reduzido a alíquota.\" — CORRETO, é pressuposto do advérbio 'também'.\n\nContraste — subentendido: se o contexto fosse uma crítica, poderíamos subentender que o autor considera a medida tardia; mas isso depende do entorno e pode ser negado, logo é subentendido, não pressuposto.",
-      "pontos_chave": [
-        "Pressuposto está embutido na estrutura da frase (verbos, advérbios, artigos) e resiste à negação.",
-        "Subentendido depende do contexto/intenção e pode ser negado sem contradição.",
-        "Marcadores de pressuposição: continuar, parar, deixar de, voltar a, já, ainda, também.",
-        "Inferência válida é a autorizada pelo texto, sem acrescentar dados externos.",
-        "Teste do pressuposto: negue a frase principal; se o implícito permanece, é pressuposto.",
-        "O artigo definido pressupõe existência e identificação do referente."
-      ],
-      "dica_prova": "A pegadinha clássica é chamar de 'pressuposto' algo que é apenas subentendido (ou vice-versa). Aplique o teste da negação: pressuposto sobrevive à negação da frase; subentendido, não. E lembre que 'inferir' em prova só vale quando o texto dá base — não confunda inferência com adivinhação ou opinião pessoal."
+     "h": "Extrapolação: o erro mais cobrado",
+     "p": "Extrapolar é ir além do que o texto permite, geralmente trazendo conhecimento de mundo. Exemplo clássico: o texto fala sobre os efeitos econômicos de um tributo e o item conclui que \"o autor defende o aumento da carga tributária\" — algo que o texto nunca disse. Mesmo que a afirmação seja verdadeira no mundo real, se o texto não a sustenta, o item está ERRADO em interpretação.\n\nA pergunta-chave para detectar extrapolação é: \"onde, no texto, está escrito ou logicamente implicado isso?\". Se não há base textual, é extrapolação."
     },
     {
-      "sid": "acentuacao-grafica",
-      "titulo": "Acentuação gráfica",
-      "intro": "A acentuação gráfica marca, na escrita, a sílaba tônica e a qualidade de certas vogais, seguindo regras fixas do Acordo Ortográfico vigente. Saber acentuar corretamente depende de dominar dois pré-requisitos: identificar a sílaba tônica (oxítona, paroxítona ou proparoxítona) e reconhecer estruturas como ditongos e hiatos.\n\nApós o Acordo Ortográfico (em vigor obrigatoriamente desde 2016 no Brasil), algumas regras mudaram — caíram o trema e certos acentos diferenciais, e palavras como 'ideia' e 'heroico' perderam o acento. Esse é justamente um ponto que as bancas exploram.",
-      "secoes": [
-        {
-          "h": "Classificação tônica: a base de tudo",
-          "p": "As palavras se classificam pela posição da sílaba tônica: oxítonas (tônica na última sílaba: café, urubu), paroxítonas (na penúltima: lápis, fácil) e proparoxítonas (na antepenúltima: médico, lâmpada). Essa identificação é o primeiro passo, porque cada grupo tem regras próprias.\n\nRegra de ouro: TODAS as proparoxítonas são acentuadas, sem exceção (rápido, álgebra, tributário não — esta é paroxítona; mas 'líquido', 'sólido', 'cônjuge' são proparoxítonas acentuadas)."
-        },
-        {
-          "h": "Oxítonas e monossílabos tônicos",
-          "p": "Acentuam-se as oxítonas terminadas em -a(s), -e(s), -o(s), -em/-ens: sofá, você, cipó, parabéns, também. Os monossílabos tônicos terminados em -a, -e, -o (e plurais) também recebem acento: pá, pé, dó, lás.\n\nAtenção: oxítonas terminadas em -i e -u (sozinhos) NÃO são acentuadas pela regra das oxítonas (caju, abacaxi, Itu)."
-        },
-        {
-          "h": "Paroxítonas",
-          "p": "A maioria das palavras é paroxítona e, por isso, NÃO é acentuada (são as mais numerosas). Acentuam-se apenas as paroxítonas terminadas em terminações 'menos comuns': -i(s), -us, -um, -uns, -l, -n, -r, -x, -ps, -ã(s), -ão(s), -ditongo. Exemplos: júri, vírus, álbum, fácil, hífen, caráter, tórax, órfã, órgão, série.\n\nPonto-chave pós-Acordo: paroxítonas com ditongo aberto 'ei' e 'oi' deixaram de ser acentuadas — ideia, assembleia, heroico, jiboia, paranoico não levam mais acento."
-        },
-        {
-          "h": "Ditongos abertos e hiatos",
-          "p": "Os ditongos abertos éi, éu, ói são acentuados SOMENTE em oxítonas e monossílabos: herói, céu, chapéu, dói, anéis, troféu. Em paroxítonas, não (ideia, heroico).\n\nHiato: o 'i' e o 'u' tônicos, formando hiato, sozinhos na sílaba ou seguidos de 's', são acentuados — saída, baú, juízes, faísca. Mas há exceções importantes: não se acentua se vier seguido de 'nh' (rainha, moinho) nem quando, em paroxítonas, o i/u for precedido de ditongo (regra que retirou o acento de 'feiura', 'baiuca')."
-        },
-        {
-          "h": "Mudanças do Acordo Ortográfico",
-          "p": "Caiu o trema (exceto em nomes próprios estrangeiros): linguiça, frequente, cinquenta. Caíram os acentos diferenciais de 'pára/para', 'pêlo/pelo', 'pólo/polo' — hoje se escreve 'para', 'pelo', 'polo' sem acento. Permanecem, porém, dois diferenciais: 'pôde' (pretérito) x 'pode' (presente), e 'pôr' (verbo) x 'por' (preposição). Facultativo: 'fôrma' x 'forma'.\n\nTambém caiu o acento dos hiatos 'oo' e 'ee' (voo, enjoo, creem, leem) e o do 'u' tônico nas formas verbais como 'arguir' e em 'averigue/apazigue'."
-        }
-      ],
-      "exemplo": "Questão típica: \"Assinale a alternativa em que a acentuação está correta conforme o Acordo Ortográfico.\"\n\n- 'idéia, heróico, assembléia' — ERRADO: ditongo aberto em paroxítona não é mais acentuado (ideia, heroico, assembleia).\n- 'pôde (ele pôde sair ontem), pôr os documentos na mesa' — CORRETO: acentos diferenciais mantidos.\n- 'vôo, enjôo, lêem' — ERRADO: caíram os acentos de 'oo' e 'ee' (voo, enjoo, leem).\n- 'saída, baú, faísca' — CORRETO: i/u tônicos em hiato, sozinhos ou com 's'.\n\nObserve que 'tributário' é paroxítona terminada em ditongo crescente (-io), por isso acentuada; já 'tributaria' (verbo, 'eu tributaria') NÃO leva acento: nela o 'i' e o 'a' formam hiato (tri-bu-ta-ri-a), resultando em paroxítona terminada em -a, que não é acentuada — atenção a essa diferença de pronúncia.",
-      "pontos_chave": [
-        "Todas as proparoxítonas são acentuadas, sem exceção.",
-        "Oxítonas: acentuam-se as terminadas em a/e/o (s), em/ens; não as em i/u sozinhos.",
-        "Ditongos abertos éi/éu/ói só são acentuados em oxítonas e monossílabos.",
-        "Pós-Acordo: ideia, heroico, assembleia (paroxítonas com ditongo aberto) NÃO levam acento.",
-        "Hiato i/u tônico, sozinho ou com s, é acentuado (saída, baú); exceto antes de nh.",
-        "Caíram trema, acentos de 'oo'/'ee' (voo, leem) e os diferenciais para/pelo/polo.",
-        "Permanecem os diferenciais pôde/pode e pôr/por."
-      ],
-      "dica_prova": "As bancas adoram cobrar as mudanças do Acordo: ideia, heroico, voo, leem, linguiça (sem trema) e os diferenciais que sobreviveram (pôde/pode, pôr/por). Memorize também a justificativa de cada acento — muitas questões pedem 'palavra acentuada pela mesma regra que X', então saber o porquê (oxítona? hiato? proparoxítona?) vale mais que decorar a palavra."
-    },
-    {
-      "sid": "emprego-da-crase",
-      "titulo": "Emprego da crase",
-      "intro": "A crase é a fusão de duas vogais idênticas 'a + a', indicada pelo acento grave (à). Na maioria dos casos, resulta do encontro da preposição 'a' (exigida por um verbo ou nome) com o artigo definido feminino 'a' (que acompanha o substantivo). Por isso, a regra mestra é: há crase quando houver, ao mesmo tempo, preposição 'a' E artigo 'a'.\n\nA crase é um dos temas mais cobrados em provas de Auditor-Fiscal porque combina regência (de onde vem a preposição) e concordância/gênero (de onde vem o artigo). Dominá-la depende de identificar esses dois elementos.",
-      "secoes": [
-        {
-          "h": "A regra mestra: preposição + artigo",
-          "p": "Ocorre crase quando um termo rege a preposição 'a' e a palavra seguinte é feminina e admite o artigo 'a'. Em \"Refiro-me à proposta\", o verbo 'referir-se' pede preposição 'a' e 'proposta' admite artigo 'a' (a proposta): a + a = à.\n\nDois testes práticos: (1) troque a palavra feminina por uma masculina equivalente — se aparecer 'ao', há crase (\"vou à escola\" / \"vou ao colégio\"); (2) se puder substituir por 'para a', costuma haver crase."
-        },
-        {
-          "h": "Casos em que SEMPRE há crase",
-          "p": "Há crase obrigatória: nas locuções adverbiais, prepositivas e conjuntivas femininas (às vezes, às pressas, à toa, à medida que, à proporção que, à custa de, à frente de); na indicação de horas determinadas (às 8h, à meia-noite); e na expressão 'à moda de' / 'à maneira de', inclusive quando subentendida (bife à milanesa = à moda milanesa, sapato à Luís XV).\n\nEssas locuções são frequentemente cobradas porque o acento grave aparece mesmo quando o artigo é 'invisível' — caso de 'à moda de'."
-        },
-        {
-          "h": "Casos em que NUNCA há crase",
-          "p": "Não há crase: antes de palavra masculina (a cavalo, a pé, a prazo); antes de verbo (começou a chover, disposto a colaborar); antes de pronomes que rejeitam artigo (a ela, a você, a Vossa Senhoria, a quem); antes de artigo indefinido (a uma escola); entre palavras repetidas (cara a cara, gota a gota, dia a dia); e, em regra, antes de nomes de cidades que não admitem artigo (cheguei a Goiânia).\n\nDecorre daí que 'a distância' (sem complemento) não tem crase, mas 'à distância de 100 metros' (especificada) tem."
-        },
-        {
-          "h": "Crase facultativa",
-          "p": "A crase é facultativa em três situações: antes de nomes próprios femininos de pessoas (Refiro-me a Maria / à Maria); antes de pronomes possessivos femininos (Entreguei a/à minha colega); e após a preposição 'até' (Fui até a/à porta). Nesses casos, qualquer das formas é aceita.\n\nSaber identificar a facultatividade evita que o candidato marque como 'erro' uma construção que, na verdade, é opção válida."
-        },
-        {
-          "h": "Crase com pronomes 'aquele(s)/aquela(s)/aquilo' e relativos",
-          "p": "Há crase na fusão da preposição 'a' com os demonstrativos iniciados por a-: àquele, àquela, àquilo (Refiro-me àquele documento). Com o pronome relativo 'a qual / as quais', haverá crase se o verbo da oração adjetiva exigir preposição 'a' (A empresa à qual me referi). Já 'a que' pode receber crase pela mesma lógica (a meta à qual aspiramos).\n\nTeste do demonstrativo: troque por 'a este/a isto' — se a regência pedir 'a', então 'aquele' vira 'àquele' com crase."
-        }
-      ],
-      "exemplo": "Analise: \"O auditor entregou o relatório à chefia e encaminhou cópia a todos os setores, inclusive àquele que solicitou a fiscalização.\"\n\n- 'à chefia' — CRASE CORRETA: 'entregar a' (preposição) + 'a chefia' (artigo, palavra feminina). Teste: 'entregou ao chefe' → confirma a crase.\n- 'a todos os setores' — SEM CRASE: 'todos' é masculino e o termo não admite o artigo 'a' feminino.\n- 'àquele que solicitou' — CRASE CORRETA: preposição 'a' (de 'encaminhou a') + demonstrativo 'aquele' = àquele.\n\nPegadinha frequente: 'a partir de' NUNCA tem crase (não há artigo, e 'partir' é verbo na origem da locução). E 'à vista' (pagamento à vista) tem crase por ser locução adverbial feminina.",
-      "pontos_chave": [
-        "Crase = preposição 'a' + artigo 'a'; só ocorre se ambos estiverem presentes.",
-        "Teste: troque por palavra masculina — se surgir 'ao', há crase.",
-        "Sempre há crase em 'às vezes', 'à medida que', horas determinadas e 'à moda de'.",
-        "Nunca há crase antes de masculino, verbo, pronome que rejeita artigo e palavras repetidas.",
-        "Facultativa antes de nome próprio feminino, possessivo feminino e após 'até'.",
-        "Fusão com demonstrativos: àquele, àquela, àquilo.",
-        "'A partir de' nunca tem crase."
-      ],
-      "dica_prova": "Memorize os 'nuncas' (masculino, verbo, pronome de tratamento, palavras repetidas) porque a banca costura frases longas para esconder a ausência de artigo. Atenção especial a 'a distância' x 'à distância especificada', 'à vista' (com crase) e 'a partir de' (sem crase) — campeões de pegadinha. E sempre faça o teste do masculino: é o atalho mais seguro."
-    },
-    {
-      "sid": "pronomes",
-      "titulo": "Pronomes",
-      "intro": "Pronomes são palavras que substituem ou acompanham o substantivo, indicando as pessoas do discurso, situando elementos no espaço/tempo, atribuindo posse ou retomando termos já citados. São essenciais para a coesão textual e aparecem em questões de regência, colocação pronominal, concordância e interpretação (referenciação).\n\nClassificam-se em pessoais, possessivos, demonstrativos, relativos, indefinidos, interrogativos e de tratamento. Para a prova merecem destaque especial os relativos (que regem a sintaxe da oração adjetiva) e os demonstrativos (referência textual e temporal).",
-      "secoes": [
-        {
-          "h": "Pronomes pessoais: retos e oblíquos",
-          "p": "Os pessoais do caso reto (eu, tu, ele, nós, vós, eles) funcionam tipicamente como sujeito. Os oblíquos funcionam como complementos e dividem-se em átonos (me, te, se, o, a, lhe, nos, vos, lhes) e tônicos (mim, ti, si, conosco, convosco, ele/ela com preposição).\n\nErro clássico: usar pronome reto como objeto. O correto é \"O fiscal convidou-me\" (oblíquo), não \"convidou eu\". Após preposição, usa-se a forma tônica: 'para mim fazer' está errado quando há verbo — 'para eu fazer' (sujeito do infinitivo)."
-        },
-        {
-          "h": "Pronomes possessivos e demonstrativos",
-          "p": "Possessivos (meu, teu, seu, nosso, vosso) indicam posse e concordam com o objeto possuído, não com o possuidor. A ambiguidade do 'seu' (pode referir-se a 'dele' ou 'de você') é fonte de questões.\n\nDemonstrativos (este, esse, aquele e variações) situam no espaço (este=perto de quem fala; esse=perto do ouvinte; aquele=distante de ambos), no tempo (este=presente; esse=passado próximo; aquele=passado remoto) e no texto: 'este' anuncia o que virá (catáfora) e 'esse/aquele' retoma o que já foi dito (anáfora)."
-        },
-        {
-          "h": "Pronomes relativos: o coração da oração adjetiva",
-          "p": "Os relativos (que, qual, quem, cujo, onde, quanto) retomam um termo antecedente e introduzem orações adjetivas, exercendo função sintática dentro delas. 'Que' é o mais versátil ('o relatório que li' — objeto direto). 'Cujo' indica posse e NÃO admite artigo entre ele e o substantivo ('o contribuinte cujo nome consta', nunca 'cujo o nome').\n\n'Onde' refere-se apenas a lugar físico (= em que); para o resto, usa-se 'em que' ('a situação em que', não 'a situação onde'). A regência do verbo da oração adjetiva define a preposição que antecede o relativo: 'o filme a que assisti' (assistir a), 'a meta em que penso' (pensar em)."
-        },
-        {
-          "h": "Pronomes indefinidos e a referenciação textual",
-          "p": "Indefinidos (algum, nenhum, todo, vários, certo, qualquer, alguém, ninguém, tudo, nada) referem-se de modo vago. Atenção a 'todo' x 'todo o': 'toda cidade' = qualquer cidade; 'toda a cidade' = a cidade inteira.\n\nNa interpretação, os pronomes são peças de coesão referencial: identificar a que termo um 'ele', 'isso', 'tal' ou 'o mesmo' se refere é cobrança constante. Substituir um pronome por seu referente sem alterar o sentido é um teste típico de questão."
-        }
-      ],
-      "exemplo": "Frase para análise: \"Conheço o auditor cujo parecer fundamentou a autuação à qual o contribuinte se opôs.\"\n\n- 'cujo parecer' — CORRETO: 'cujo' liga possuidor (auditor) e coisa possuída (parecer), sem artigo intermediário. Seria erro escrever 'cujo o parecer'.\n- 'à qual o contribuinte se opôs' — CORRETO: o verbo 'opor-se' rege preposição 'a' ('opor-se a algo'), daí a preposição diante de 'qual'; como 'autuação' é feminina e admite artigo, ocorre crase (à qual).\n\nPegadinha de prova: trocar 'em que' por 'onde' em contexto não locativo — 'a reunião onde decidimos' está ERRADO (não é lugar físico); o correto é 'a reunião em que decidimos'.",
-      "pontos_chave": [
-        "Pessoais retos = sujeito; oblíquos = complemento (átonos e tônicos).",
-        "Após preposição, forma tônica (mim, ti); mas 'para eu fazer' quando há verbo.",
-        "Possessivo concorda com o objeto possuído; 'seu' gera ambiguidade.",
-        "Demonstrativos: este (presente/catáfora), esse/aquele (passado/anáfora).",
-        "'Cujo' indica posse e não admite artigo após ele.",
-        "'Onde' só para lugar físico; use 'em que' nos demais casos.",
-        "A regência do verbo da adjetiva define a preposição antes do relativo."
-      ],
-      "dica_prova": "Os relativos são minas de pegadinha: 'cujo o' (sempre errado), 'onde' fora de lugar físico, e a falta da preposição exigida pela regência ('o assunto que me referi' está errado — o certo é 'a que me referi'). Em demonstrativos, lembre da regra textual: 'este' aponta para frente (o que será dito), 'esse' retoma o que já foi dito."
-    },
-    {
-      "sid": "conjuncoes",
-      "titulo": "Conjunções",
-      "intro": "Conjunções são palavras invariáveis que conectam orações ou termos de mesma função, estabelecendo entre eles uma relação lógica (adição, oposição, causa, condição etc.). São decisivas para a coesão e a coerência: trocar uma conjunção altera o sentido da frase, e por isso o tema cai muito em questões de reescrita e de relações semânticas.\n\nDividem-se em coordenativas (ligam elementos sintaticamente independentes) e subordinativas (ligam uma oração dependente a uma principal). Mais importante que decorar listas é reconhecer a relação lógica que cada conjunção expressa.",
-      "secoes": [
-        {
-          "h": "Conjunções coordenativas",
-          "p": "Ligam orações independentes e classificam-se em cinco tipos: aditivas (e, nem, não só...mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou, ou...ou, ora...ora, quer...quer), conclusivas (logo, portanto, pois - depois do verbo, por isso, assim) e explicativas (pois - antes do verbo, porque, que, porquanto).\n\nO 'pois' é versátil e exige atenção: posposto ao verbo é conclusivo ('Estude, pois, o edital' = portanto); anteposto/explicativo justifica ('Estude, pois o edital é extenso' = porque)."
-        },
-        {
-          "h": "Conjunções subordinativas adverbiais",
-          "p": "Introduzem orações adverbiais e expressam circunstâncias: causais (porque, como - início, visto que, já que, uma vez que), consecutivas (tão/tanto/tal...que, de modo que), condicionais (se, caso, contanto que, desde que, salvo se, a menos que), concessivas (embora, ainda que, mesmo que, conquanto, posto que, se bem que), comparativas (como, que nem, assim como), conformativas (conforme, segundo, consoante, como), finais (para que, a fim de que), temporais (quando, enquanto, assim que, logo que) e proporcionais (à medida que, à proporção que, quanto mais).\n\nDistinguir causal de concessiva é vital: causa apresenta o motivo real ('Não foi, porque chovia'); concessão apresenta um obstáculo superado/contrariado ('Foi, embora chovesse')."
-        },
-        {
-          "h": "Conjunções subordinativas integrantes",
-          "p": "São apenas 'que' e 'se', e introduzem orações substantivas (que completam o sentido de um verbo ou nome, funcionando como sujeito, objeto etc.). Ex.: \"É certo que o tributo é devido\" ('que o tributo é devido' = sujeito); \"Não sei se ele pagou\" ('se ele pagou' = objeto).\n\nNão se deve confundir o 'que' integrante (introduz oração substantiva) com o 'que' pronome relativo (introduz adjetiva e tem antecedente) nem com o 'que' conjunção coordenativa. Teste: o relativo pode ser substituído por 'o qual'; o integrante, não."
-        },
-        {
-          "h": "Relações semânticas e reescrita",
-          "p": "As bancas cobram a equivalência entre conjunções que expressam a mesma relação e a mudança de sentido quando se troca a relação. 'Porque' (causa) pode virar 'já que', 'visto que', 'uma vez que' sem alterar sentido; mas trocá-lo por 'embora' (concessão) inverte a lógica.\n\nÉ comum a questão pedir a reescrita de uma frase mantendo o sentido: aí é preciso casar a conjunção com a relação original (adição com adição, oposição com oposição) e ajustar o modo verbal (concessivas e condicionais costumam pedir subjuntivo: 'embora chova', 'se chovesse')."
-        }
-      ],
-      "exemplo": "Considere: \"Embora a empresa tenha recolhido o ICMS, o Fisco manteve a autuação.\"\n\nA conjunção 'embora' é concessiva: introduz um fato (recolhimento) que seria um obstáculo, mas não impede o resultado (autuação mantida). Reescritas que MANTÊM o sentido: 'Ainda que a empresa tenha recolhido...', 'Mesmo tendo recolhido...'. \n\nReescrita que MUDA o sentido (pegadinha): 'Porque a empresa recolheu o ICMS, o Fisco manteve a autuação' — ERRADO, pois transforma concessão em causa, sugerindo absurdamente que o recolhimento motivou a autuação.\n\nObserve ainda o modo verbal: a concessiva pede subjuntivo ('tenha recolhido'), enquanto a causal pediria indicativo ('recolheu').",
-      "pontos_chave": [
-        "Coordenativas: aditiva, adversativa, alternativa, conclusiva, explicativa.",
-        "Adversativa (mas, porém) opõe; concessiva (embora, ainda que) admite obstáculo superado.",
-        "'Pois' posposto ao verbo é conclusivo; anteposto é explicativo/causal.",
-        "Integrantes são só 'que' e 'se' e introduzem orações substantivas.",
-        "Causa = motivo real (indicativo); concessão = contrariedade (subjuntivo).",
-        "Trocar a conjunção pode preservar ou inverter o sentido — atenção à reescrita.",
-        "Relativo 'que' tem antecedente e equivale a 'o qual'; integrante 'que' não."
-      ],
-      "dica_prova": "A pegadinha número um é confundir adversidade/concessão com causa, invertendo a lógica na reescrita. Memorize os grupos de equivalência (causais: porque/já que/visto que/uma vez que; concessivas: embora/ainda que/mesmo que/conquanto). E cuidado com 'pois': sua classificação muda conforme a posição em relação ao verbo."
-    },
-    {
-      "sid": "concordancia-verbal-e-nominal",
-      "titulo": "Concordância verbal e nominal",
-      "intro": "Concordância é o ajuste das palavras entre si. Na concordância verbal, o verbo se flexiona em número e pessoa para harmonizar-se com o sujeito; na nominal, artigos, adjetivos, pronomes e numerais ajustam-se em gênero e número ao substantivo a que se referem. É um dos temas mais densos da sintaxe e cobradíssimo em provas fiscais, pois envolve dezenas de casos especiais.\n\nA regra geral é simples (verbo concorda com o sujeito; nome concorda com o substantivo), mas as exceções — sujeito composto, partitivos, verbos impessoais, expressões fracionárias — é que decidem as questões.",
-      "secoes": [
-        {
-          "h": "Concordância verbal: regra geral e sujeito composto",
-          "p": "O verbo concorda em número e pessoa com o sujeito. Com sujeito composto anteposto, o verbo vai ao plural ('O auditor e o contribuinte compareceram'). Posposto, admite-se concordância com o sujeito mais próximo ou no plural ('Compareceu/Compareceram o auditor e o contribuinte').\n\nQuando o sujeito composto é resumido por um pronome ('Goiás, São Paulo, Minas, tudo prosperou'), o verbo concorda com o resumidor. Sujeitos ligados por 'ou' e 'nem' podem levar o verbo ao singular ou ao plural conforme haja exclusão ou inclusão."
-        },
-        {
-          "h": "Casos especiais de concordância verbal",
-          "p": "Expressões partitivas e quantitativas ('a maioria de', 'grande parte de', 'um terço dos') admitem o verbo no singular (concordando com o núcleo) ou no plural (com o especificador): 'A maioria dos fiscais aprovou/aprovaram'. Porcentagens e frações seguem o numeral ('1% concorda', '30% concordam') ou o termo seguinte.\n\nA expressão 'mais de um' leva o verbo ao singular ('Mais de um auditor compareceu'), salvo se houver reciprocidade ou repetição ('Mais de um fiscal se cumprimentaram'). 'Um e outro' admite singular ou plural; 'um ou outro' fica no singular."
-        },
-        {
-          "h": "Verbos impessoais: a grande pegadinha",
-          "p": "Verbos impessoais não têm sujeito e ficam SEMPRE na 3ª pessoa do singular. Os principais: 'haver' no sentido de existir ('Havia muitos processos', nunca 'Haviam'); 'fazer' indicando tempo decorrido ('Faz dez anos', 'Fazia meses'); e verbos que indicam fenômenos da natureza ('Choveu', 'Anoiteceu').\n\nAtenção: o verbo 'existir' NÃO é impessoal e concorda normalmente ('Existiam muitos processos'). Já o verbo auxiliar de 'haver' impessoal também fica no singular ('Pode haver problemas', 'Deve haver razões')."
-        },
-        {
-          "h": "Concordância nominal: regra e casos especiais",
-          "p": "O adjetivo concorda em gênero e número com o substantivo. Com vários substantivos, o adjetivo anteposto concorda com o mais próximo ('belas casas e jardins'); posposto, vai ao plural ou concorda com o mais próximo ('casas e jardins belos/belas').\n\nCasos especiais: 'é proibido', 'é necessário', 'é bom' ficam invariáveis se o substantivo não tiver determinante ('Entrada é proibido' / 'A entrada é proibida'); 'anexo', 'incluso', 'obrigado' variam (concordam: 'as cópias anexas'); 'menos' e 'pseudo' são invariáveis ('menos pessoas', nunca 'menas'); 'meio' como advérbio é invariável ('meio cansada')."
-        }
-      ],
-      "exemplo": "Avalie a correção: \"Havia muitos débitos tributários, e fazia anos que a maioria dos contribuintes não os quitava.\"\n\n- 'Havia muitos débitos' — CORRETO: 'haver' no sentido de existir é impessoal, fica no singular, ainda que 'débitos' esteja no plural. Escrever 'Haviam muitos débitos' é ERRO clássico.\n- 'fazia anos' — CORRETO: 'fazer' indicando tempo é impessoal, singular.\n- 'a maioria dos contribuintes não os quitava' — CORRETO (concordância com o núcleo 'maioria'); também seria aceito 'não os quitavam' (concordância atrativa com 'contribuintes').\n\nPegadinha frequente: 'Devem haver razões' está ERRADO; como 'haver' é impessoal, o auxiliar também fica no singular: 'Deve haver razões'.",
-      "pontos_chave": [
-        "Verbo concorda com o sujeito; nome concorda com o substantivo.",
-        "'Haver' (existir) e 'fazer' (tempo) são impessoais: sempre 3ª pessoa do singular.",
-        "'Existir' NÃO é impessoal e vai ao plural ('Existiam processos').",
-        "Auxiliar de 'haver' impessoal também fica no singular ('Deve haver').",
-        "Partitivos (a maioria de, parte de) admitem singular ou plural.",
-        "'Mais de um' + verbo no singular (salvo reciprocidade).",
-        "'É proibido/necessário' varia conforme o substantivo tenha ou não determinante."
-      ],
-      "dica_prova": "O 'haver' impessoal flexionado no plural é a pegadinha mais cobrada do Brasil — 'haviam pessoas', 'devem haver motivos' estão sempre ERRADOS. Memorize o contraste com 'existir' (concorda) e fique atento aos partitivos, em que ambas as concordâncias costumam ser aceitas. Em concordância nominal, revise 'anexo/incluso' (variam), 'menos' (invariável) e 'meio' advérbio (invariável)."
-    },
-    {
-      "sid": "regencia-verbal-e-nominal",
-      "titulo": "Regência verbal e nominal",
-      "intro": "Regência estuda a relação de dependência entre um termo regente (verbo ou nome) e seu complemento, indicando se essa ligação exige ou não preposição, e qual. É a base para decidir o uso da crase, a escolha do pronome relativo (a que, em que, de que) e a correção de complementos.\n\nNa regência verbal, o verbo é o termo regente; na nominal, são nomes (substantivos, adjetivos, advérbios). Muitos verbos mudam de sentido conforme a regência (assistir, aspirar, visar, proceder), e é exatamente essa variação que as bancas exploram.",
-      "secoes": [
-        {
-          "h": "Regência verbal: verbos que mudam de sentido",
-          "p": "Vários verbos têm regências diferentes conforme o significado. 'Assistir' = ver/presenciar pede preposição 'a' ('assistir ao filme'); = ajudar é transitivo direto ('o médico assistiu o paciente'); = caber/pertencer pede 'a' ('assiste-lhe esse direito'). 'Aspirar' = desejar pede 'a' ('aspirar ao cargo'); = inalar é direto ('aspirar o ar').\n\n'Visar' = mirar/almejar pede 'a' ('visar ao alvo', 'visar ao lucro'); = dar visto é direto ('visar o cheque'). 'Proceder' = ter fundamento é intransitivo ('a alegação procede'); = originar-se pede 'de'; = realizar pede 'a' ('proceder a uma análise')."
-        },
-        {
-          "h": "Verbos com complemento sempre preposicionado",
-          "p": "Alguns verbos exigem preposição de modo fixo: 'obedecer/desobedecer a' ('obedecer às normas'), 'responder a' ('responder ao ofício'), 'agradar a' (no sentido de contentar: 'agradar aos clientes'; mas 'agradar alguém' = fazer carinho), 'simpatizar com', 'implicar' (no sentido de acarretar é direto: 'a fraude implica pena').\n\n'Preferir' rege complemento direto e indireto com 'a', sem 'do que': o correto é 'prefiro estudar a trabalhar', nunca 'prefiro estudar do que trabalhar'."
-        },
-        {
-          "h": "Verbo 'ir', 'chegar' e a preposição de destino",
-          "p": "Verbos de movimento como 'ir' e 'chegar' regem a preposição 'a', não 'em': o padrão culto é 'Vou a Goiânia', 'Cheguei ao escritório' — e não 'Vou em Goiânia'. Esse é um desvio comum na fala que a prova cobra como erro.\n\nComo esses verbos pedem 'a', surge a possibilidade de crase quando o destino é feminino e admite artigo: 'Vou à escola' (a + a). É a regência que justifica a crase."
-        },
-        {
-          "h": "Regência nominal",
-          "p": "Nomes (substantivos, adjetivos, advérbios) também regem complementos preposicionados. Exemplos cobrados: 'acessível a', 'apto a', 'ávido de/por', 'compatível com', 'consciente de', 'favorável a', 'preferível a', 'respeito a/por', 'curioso de/por', 'imune a/de'.\n\nMuitas vezes o nome compartilha a regência do verbo correspondente: 'obedecer a' / 'obediência a'; 'aspirar a' / 'aspiração a'. Conhecer a regência nominal é o que permite escolher o pronome relativo correto ('o cargo a que aspiro', 'o documento de que preciso')."
-        },
-        {
-          "h": "Regência e a escolha do pronome relativo",
-          "p": "A preposição exigida pela regência 'sobe' para junto do pronome relativo. Se o verbo é 'precisar de', diz-se 'o documento DE que preciso'; se é 'confiar em', 'a pessoa EM quem confio'; se é 'aspirar a', 'a meta A que aspiro' (ou 'à qual').\n\nOmitir a preposição é erro frequente: 'o assunto que me refiro' está ERRADO ('referir-se a' exige 'a'); o correto é 'o assunto A que me refiro'. Esse mecanismo conecta regência, crase e pronome relativo num só ponto."
-        }
-      ],
-      "exemplo": "Analise: \"O auditor a que o contribuinte se referiu assistiu à sessão e aspira ao cargo de chefia.\"\n\n- 'a que o contribuinte se referiu' — CORRETO: 'referir-se a' exige preposição 'a', que aparece antes do relativo 'que'.\n- 'assistiu à sessão' — CORRETO: 'assistir' no sentido de presenciar pede 'a'; como 'sessão' é feminina e admite artigo, há crase (a + a = à).\n- 'aspira ao cargo' — CORRETO: 'aspirar' no sentido de almejar pede 'a' ('ao cargo' = a + o).\n\nPegadinha clássica: 'assisti o jogo' (sem preposição) está ERRADO no padrão culto quando significa presenciar; e 'prefiro isto do que aquilo' está ERRADO — o correto é 'prefiro isto a aquilo'.",
-      "pontos_chave": [
-        "Assistir/aspirar/visar/proceder mudam de regência conforme o sentido.",
-        "Assistir (ver) = preposição 'a'; assistir (ajudar) = direto.",
-        "'Preferir' pede 'a', nunca 'do que' ('prefiro X a Y').",
-        "Verbos de movimento (ir, chegar) regem 'a', não 'em' ('vou a Goiânia').",
-        "Obedecer, responder, referir-se exigem preposição 'a'.",
-        "A preposição da regência sobe para junto do pronome relativo (a que, de que, em que).",
-        "A regência verbal/nominal é o que justifica (ou proíbe) a crase."
-      ],
-      "dica_prova": "Decore o quarteto 'assistir/aspirar/visar/proceder' com seus dois sentidos — é presença garantida. Lembre que 'preferir' nunca aceita 'do que' e que verbos de movimento pedem 'a' (não 'em'). E sempre que vir um pronome relativo, verifique a regência do verbo da oração adjetiva: a ausência da preposição obrigatória ('o que me refiro' em vez de 'a que me refiro') é erro recorrente."
-    },
-    {
-      "sid": "colocacao-pronominal",
-      "titulo": "Colocação pronominal",
-      "intro": "Colocação pronominal é o estudo da posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, lhes) em relação ao verbo. Há três posições possíveis: próclise (antes do verbo: 'me diga'), mesóclise (no meio do verbo: 'dir-me-á') e ênclise (depois do verbo: 'diga-me').\n\nA regra padrão da norma culta brasileira favorece a ênclise, mas há fatores de atração que obrigam a próclise e situações específicas que pedem mesóclise. Saber identificar as palavras atrativas é o segredo para acertar as questões.",
-      "secoes": [
-        {
-          "h": "Próclise: pronome antes do verbo",
-          "p": "Usa-se próclise quando há uma palavra atrativa antes do verbo. As principais palavras atrativas são: advérbios (não, nunca, jamais, sempre, talvez, aqui — 'Nunca me disseram'); palavras negativas (ninguém, nada — 'Ninguém o viu'); pronomes relativos ('o documento que me enviaram'); pronomes indefinidos ('Alguém te chamou'); conjunções subordinativas ('quando se trata de tributos'); pronomes interrogativos ('Quem te avisou?'); e orações exclamativas/optativas ('Deus te abençoe!').\n\nRegra prática: se houver palavra de sentido negativo, advérbio ou conjunção subordinante antes do verbo (sem vírgula entre eles), a próclise é obrigatória."
-        },
-        {
-          "h": "Ênclise: pronome depois do verbo",
-          "p": "A ênclise é a colocação padrão quando não há fator de próclise. Usa-se obrigatoriamente: no início de oração ('Diga-me a verdade', nunca 'Me diga' na escrita formal); após pausa/vírgula ('Terminado o prazo, intimou-se o réu'); com o verbo no imperativo afirmativo ('Faça-o agora'); com gerúndio sem 'em' precedente ('Saiu reclamando-se do imposto').\n\nObservação: na fala e na escrita informal a próclise inicial é comum, mas em prova a regra culta proíbe começar oração com pronome átono."
-        },
-        {
-          "h": "Mesóclise: pronome no meio do verbo",
-          "p": "A mesóclise ocorre apenas com verbos no futuro do presente ('far-se-á') e no futuro do pretérito ('far-se-ia'), desde que NÃO haja palavra atrativa que exija próclise. O pronome encaixa-se entre o radical e a desinência: 'entregar-lhe-ei', 'dir-te-ia'.\n\nSe houver fator de próclise, ela prevalece sobre a mesóclise: 'Não lhe entregarei' (e não 'não entregar-lhe-ei'). A mesóclise é rara na fala, mas cobrada na escrita formal — e a banca testa se o candidato sabe que palavra atrativa cancela a mesóclise."
-        },
-        {
-          "h": "Colocação em locuções verbais",
-          "p": "Com locuções (auxiliar + principal), as regras variam conforme a forma do verbo principal. Com infinitivo ou gerúndio, o pronome pode vir após o auxiliar ou após o principal ('Vou dizer-lhe' / 'Vou-lhe dizer' / 'Quero contar-te'). Se houver palavra atrativa, o pronome vai antes do auxiliar ('Não lhe vou dizer').\n\nCom particípio, o pronome NÃO pode ficar depois do particípio: 'Tinha-me avisado' (correto), 'Tinha avisado-me' (errado). Vai antes do auxiliar ou junto a ele."
-        }
-      ],
-      "exemplo": "Classifique a colocação em: \"Não me convém adiar o pagamento; far-se-á a cobrança assim que se vencer o prazo.\"\n\n- 'Não me convém' — PRÓCLISE obrigatória: o advérbio 'não' atrai o pronome para antes do verbo.\n- 'far-se-á' — MESÓCLISE correta: verbo no futuro do presente ('fará') sem palavra atrativa antes; o pronome 'se' encaixa-se no meio.\n- 'assim que se vencer' — PRÓCLISE: a conjunção subordinativa 'assim que' atrai o pronome.\n\nPegadinha de prova: \"Não far-se-á a cobrança\" está ERRADO — a presença do 'não' (atrativo) cancela a mesóclise e exige próclise: 'Não se fará a cobrança'. Igualmente, começar frase formal com 'Me parece...' é considerado erro; o correto é 'Parece-me...'.",
-      "pontos_chave": [
-        "Próclise: pronome antes do verbo, exigida por palavras atrativas.",
-        "Atrativos: negação, advérbio, conjunção subordinativa, pronome relativo/indefinido/interrogativo.",
-        "Ênclise: padrão; obrigatória no início de oração e após pausa.",
-        "Mesóclise: só em futuro do presente e do pretérito, sem palavra atrativa.",
-        "Palavra atrativa cancela a mesóclise e impõe próclise.",
-        "Não se inicia oração formal com pronome átono ('Me diga' é informal).",
-        "Com particípio, o pronome nunca vem depois dele."
-      ],
-      "dica_prova": "O coração das questões é detectar a palavra atrativa: presença de 'não', advérbio ou conjunção subordinante antes do verbo (sem vírgula) torna a próclise obrigatória e proíbe ênclise/mesóclise. As duas pegadinhas mais cobradas: (1) mesóclise indevida com 'não' antes ('não far-se-á' é erro); (2) iniciar oração com pronome átono na escrita formal."
-    },
-    {
-      "sid": "periodo-composto",
-      "titulo": "Período composto",
-      "intro": "Período é a frase organizada em torno de um ou mais verbos. Período simples tem uma só oração (um verbo); período composto tem duas ou mais orações. As orações de um período composto relacionam-se por coordenação (são independentes entre si) ou por subordinação (uma depende sintaticamente da outra).\n\nReconhecer o tipo de relação entre as orações é o que orienta a pontuação e a interpretação. Por isso, esse tópico costura sintaxe e pontuação: saber se uma oração é coordenada ou subordinada, e de que tipo, define onde a vírgula pode ou não entrar.",
-      "secoes": [
-        {
-          "h": "Período composto por coordenação",
-          "p": "Na coordenação, as orações são sintaticamente independentes — nenhuma exerce função dentro da outra. Podem ser assindéticas (justapostas, sem conjunção: 'Cheguei, vi, venci') ou sindéticas (introduzidas por conjunção coordenativa). As sindéticas classificam-se conforme a conjunção: aditivas, adversativas, alternativas, conclusivas e explicativas.\n\nA pontuação na coordenação é generosa: separam-se orações coordenadas por vírgula, e antes de 'mas', 'porém', 'pois' (conclusivo/explicativo) costuma haver vírgula. Antes de 'e' aditivo, em regra não se usa vírgula, salvo quando os sujeitos são diferentes ou para efeito enfático."
-        },
-        {
-          "h": "Período composto por subordinação",
-          "p": "Na subordinação, uma oração (subordinada) exerce uma função sintática dentro de outra (principal). Conforme a função, classificam-se em três grandes grupos: substantivas (valor de substantivo — sujeito, objeto, complemento nominal etc.), adjetivas (valor de adjetivo — modificam um substantivo) e adverbiais (valor de advérbio — expressam circunstâncias como causa, condição, tempo).\n\nA dependência sintática é o que distingue a subordinação da coordenação: a subordinada 'preenche um espaço' da principal, enquanto a coordenada apenas se soma a outra oração completa."
-        },
-        {
-          "h": "Orações subordinadas substantivas",
-          "p": "Funcionam como um substantivo. São introduzidas pelas conjunções integrantes 'que' e 'se' e classificam-se pela função: subjetiva (sujeito: 'É necessário que estudes'), objetiva direta (objeto direto: 'Quero que venças'), objetiva indireta (objeto indireto: 'Lembro-me de que prometi'), completiva nominal, predicativa e apositiva.\n\nDica: para reconhecer, substitua a oração por 'isto' — se couber, é substantiva ('É necessário ISTO', 'Quero ISTO')."
-        },
-        {
-          "h": "Orações adverbiais e a pontuação",
-          "p": "As subordinadas adverbiais expressam circunstâncias e são introduzidas por conjunções subordinativas adverbiais (causa, condição, concessão, tempo, finalidade etc.). Quando vêm antepostas ou intercaladas à principal, são isoladas por vírgula ('Se chover, ficaremos'; 'Ficaremos, se chover' — a vírgula é facultativa quando posposta e curta).\n\nA posição da adverbial é decisiva para a pontuação: deslocada para o início, exige vírgula; em sua posição natural (depois da principal), a vírgula muitas vezes é dispensável. Esse é um ponto de prova: justificar a vírgula pela existência de oração adverbial deslocada."
-        }
-      ],
-      "exemplo": "Classifique as orações em: \"Embora o prazo tenha vencido, o contribuinte alegou que desconhecia a regra, mas o Fisco não aceitou a justificativa.\"\n\n- 'Embora o prazo tenha vencido,' — subordinada adverbial concessiva, anteposta (por isso a vírgula).\n- 'o contribuinte alegou' — oração principal.\n- 'que desconhecia a regra' — subordinada substantiva objetiva direta (complementa 'alegou'; cabe 'alegou isto').\n- 'mas o Fisco não aceitou a justificativa' — coordenada sindética adversativa (independente, ligada por 'mas').\n\nPegadinha: a vírgula antes de 'que desconhecia' seria ERRO, pois não se separa por vírgula a oração substantiva objetiva direta de seu verbo; já a vírgula antes de 'mas' é obrigatória (coordenada adversativa).",
-      "pontos_chave": [
-        "Período simples = 1 oração; composto = 2 ou mais orações.",
-        "Coordenação: orações independentes (assindéticas ou sindéticas).",
-        "Subordinação: uma oração exerce função sintática dentro da outra.",
-        "Subordinadas substantivas (= isto), adjetivas (= adjetivo) e adverbiais (= circunstância).",
-        "Integrantes 'que/se' introduzem substantivas; não se separam do verbo por vírgula.",
-        "Adverbial deslocada (anteposta/intercalada) exige vírgula.",
-        "Antes de 'mas/porém' há vírgula; antes de 'e' aditivo, em regra, não."
-      ],
-      "dica_prova": "A grande pegadinha é colocar vírgula entre o verbo e a oração substantiva objetiva direta ('Acredito, que...' é ERRO). Diferencie sempre coordenação (orações completas que se somam) de subordinação (oração que preenche função). E lembre: oração adverbial deslocada para o início pede vírgula — é a justificativa mais cobrada para o uso da vírgula no período composto."
-    },
-    {
-      "sid": "oracoes-adjetivas",
-      "titulo": "Orações adjetivas",
-      "intro": "As orações subordinadas adjetivas funcionam como um adjetivo: modificam um substantivo antecedente e são introduzidas por pronomes relativos (que, qual, quem, cujo, onde). Dividem-se em dois tipos com consequências decisivas para a pontuação e o sentido: explicativas e restritivas.\n\nA diferença entre elas não é só gramatical — é semântica. Trocar uma pela outra (colocando ou retirando vírgulas) muda o significado da frase. Por isso, esse é um dos pontos mais cobrados em provas, sobretudo em itens de reescrita e de alteração de sentido.",
-      "secoes": [
-        {
-          "h": "Oração adjetiva explicativa",
-          "p": "A explicativa acrescenta uma informação acessória sobre o antecedente, que já está suficientemente definido. Vem SEMPRE isolada por vírgulas (ou travessões/parênteses) e poderia ser retirada sem prejuízo essencial ao sentido nuclear. Ela atribui a característica a TODO o conjunto do antecedente.\n\nExemplo: 'Os auditores, que passaram no concurso, foram nomeados' — entende-se que TODOS os auditores passaram (e todos foram nomeados); a oração apenas comenta um fato já dado."
-        },
-        {
-          "h": "Oração adjetiva restritiva",
-          "p": "A restritiva delimita/especifica o antecedente, restringindo seu alcance a um subconjunto. NÃO vem entre vírgulas e é indispensável ao sentido pretendido. Ela seleciona, dentro do universo do antecedente, apenas aqueles que satisfazem a condição.\n\nExemplo: 'Os auditores que passaram no concurso foram nomeados' (sem vírgulas) — entende-se que SOMENTE os que passaram foram nomeados; havia auditores que não passaram. A ausência de vírgula muda completamente a leitura."
-        },
-        {
-          "h": "A vírgula como divisor de sentido",
-          "p": "O contraste entre os dois exemplos acima mostra que a vírgula é semântica nas adjetivas: presente, transforma a oração em explicativa (vale para todos); ausente, em restritiva (vale só para alguns). As bancas exploram exatamente essa troca: dão a frase com vírgula e perguntam se o sentido muda quando ela é retirada (muda!).\n\nRegra mnemônica: vírgula = explicativa = comentário sobre o todo; sem vírgula = restritiva = recorte de uma parte."
-        },
-        {
-          "h": "O pronome relativo e sua função",
-          "p": "Em ambos os tipos, o relativo exerce uma função sintática dentro da oração adjetiva (sujeito, objeto, adjunto). A regência do verbo da adjetiva pode exigir preposição antes do relativo ('o assunto a que me referi', 'a cidade em que nasci', 'o livro de que gosto'). 'Cujo' estabelece posse entre dois substantivos e nunca vem acompanhado de artigo.\n\nUma adjetiva mal pontuada combinada com relativo mal regido é um campo fértil de erros: a prova pode cobrar ao mesmo tempo a vírgula (tipo da adjetiva) e a preposição (regência)."
-        }
-      ],
-      "exemplo": "Compare os dois períodos e seus sentidos:\n\n(1) 'Os contribuintes, que sonegaram, serão autuados.' — EXPLICATIVA: a vírgula indica que TODOS os contribuintes sonegaram e, portanto, todos serão autuados. Interpretação absurda se o contexto pressupõe contribuintes honestos.\n\n(2) 'Os contribuintes que sonegaram serão autuados.' — RESTRITIVA: sem vírgula, apenas o subconjunto que sonegou será autuado; os demais, não.\n\nQuestão típica: \"A retirada das vírgulas em (1) altera o sentido?\" — SIM: passa de 'todos sonegaram' para 'apenas alguns sonegaram'. Essa alteração de sentido por pontuação é a pegadinha mais clássica das adjetivas.",
-      "pontos_chave": [
-        "Adjetiva = oração com valor de adjetivo, introduzida por pronome relativo.",
-        "Explicativa: entre vírgulas, informação acessória, vale para todo o antecedente.",
-        "Restritiva: sem vírgulas, delimita o antecedente a um subconjunto.",
-        "A vírgula é semântica: incluí-la ou retirá-la muda o sentido.",
-        "A regência do verbo da adjetiva pode exigir preposição antes do relativo.",
-        "'Cujo' indica posse e não admite artigo após ele.",
-        "Mnemônico: com vírgula = todos (explicativa); sem vírgula = alguns (restritiva)."
-      ],
-      "dica_prova": "A pegadinha-mãe é a alteração de sentido pela vírgula: a banca acrescenta ou retira as vírgulas e pergunta se o significado muda — e quase sempre muda (de 'todos' para 'apenas alguns', ou vice-versa). Treine reconhecer se o antecedente já está definido (pede explicativa) ou se precisa ser delimitado (pede restritiva). E combine com regência: verifique a preposição antes do relativo."
-    },
-    {
-      "sid": "coesao-e-coerencia",
-      "titulo": "Coesão e coerência",
-      "intro": "Coesão e coerência são as duas propriedades que transformam um amontoado de frases em um texto. A coesão é a amarração formal e visível entre as partes (conectivos, pronomes, elipses, repetições controladas); a coerência é a unidade de sentido, a lógica global que faz o texto 'fechar'.\n\nUm texto pode ser coeso e incoerente (bem conectado, mas sem sentido lógico) ou coerente com falhas de coesão. Em prova, o tema aparece em questões de substituição de conectivos, identificação de referentes e avaliação se uma reescrita preserva a articulação textual.",
-      "secoes": [
-        {
-          "h": "Coesão referencial",
-          "p": "É a que retoma ou antecipa elementos por meio de palavras de referência. Os mecanismos: anáfora (retoma um termo já dito: 'O auditor chegou; ele...'), catáfora (anuncia o que virá: 'Só peço isto: silêncio'), pronomes, advérbios e expressões resumitivas ('tal medida', 'esse fato', 'o referido processo').\n\nA elipse (omissão de um termo recuperável pelo contexto) também é coesiva: 'O fiscal entrou e [o fiscal] sentou-se'. Em prova, cobra-se identificar o referente correto de um pronome ou expressão — erro comum é apontar referente errado."
-        },
-        {
-          "h": "Coesão sequencial (conectivos)",
-          "p": "É a que encadeia as ideias por meio de conectivos (conjunções, preposições, advérbios) que expressam relações lógico-semânticas: adição (além disso, ademais), oposição (porém, no entanto, em contrapartida), causa (porque, já que), consequência (portanto, por isso), condição (caso, desde que), finalidade (para que, a fim de), conclusão (logo, assim).\n\nO conectivo é a 'ponte' que sinaliza a relação. Substituí-lo por outro de relação diferente quebra a lógica: trocar 'portanto' (conclusão) por 'porque' (causa) inverte a direção do raciocínio."
-        },
-        {
-          "h": "Coerência: a lógica do sentido",
-          "p": "A coerência depende de princípios como não contradição (o texto não pode afirmar e negar a mesma coisa), continuidade temática (as ideias se conectam ao tema), progressão (o texto avança, acrescenta informação) e relação adequada com o contexto/conhecimento de mundo.\n\nUma quebra de coerência ocorre quando uma conclusão não decorre das premissas, quando há contradição entre parágrafos ou quando se rompe a relação lógica esperada. A coerência é avaliada no nível global do texto, não apenas frase a frase."
-        },
-        {
-          "h": "Substituição de conectivos e reescrita",
-          "p": "Questões clássicas pedem para substituir um conectivo por outro 'mantendo o sentido'. Só é válido trocar por um da MESMA relação lógica: 'porque' por 'visto que' (ambas causa), 'mas' por 'contudo' (ambas oposição). Trocar por relação diferente é erro, ainda que a frase continue gramatical.\n\nAtenção também à pontuação e ao modo verbal que certos conectivos arrastam: condicionais e concessivas pedem subjuntivo ('caso pague', 'embora pague'). Uma reescrita coerente preserva relação lógica, regência, modo verbal e referentes."
-        }
-      ],
-      "exemplo": "Texto: \"A empresa quitou todos os débitos; portanto, regularizou sua situação fiscal.\"\n\nQuestão: \"Assinale a substituição de 'portanto' que mantém o sentido.\"\n- 'por conseguinte' / 'logo' — CORRETO: conectivos conclusivos, mesma relação (conclusão).\n- 'porque' — ERRADO: introduz causa, invertendo a lógica (sugeriria que regularizar a situação foi a causa de quitar os débitos).\n- 'embora' — ERRADO: concessão, muda totalmente o sentido.\n\nOutra pegadinha (coesão referencial): em \"O Fisco notificou a empresa, mas ela não respondeu\", o pronome 'ela' retoma 'a empresa', não 'o Fisco'. Apontar 'o Fisco' como referente seria erro de identificação anafórica.",
-      "pontos_chave": [
-        "Coesão = amarração formal (conectivos, pronomes, elipses); coerência = unidade de sentido.",
-        "Coesão referencial: anáfora (retoma), catáfora (antecipa), elipse (omite).",
-        "Coesão sequencial: conectivos que marcam adição, oposição, causa, conclusão etc.",
-        "Trocar conectivo só preserva o sentido se for da mesma relação lógica.",
-        "Coerência exige não contradição, continuidade temática e progressão.",
-        "Um texto pode ser coeso e incoerente, ou vice-versa.",
-        "Identificar o referente correto de um pronome é cobrança frequente."
-      ],
-      "dica_prova": "Nas questões de substituição de conectivos, classifique primeiro a relação lógica do original (causa? oposição? conclusão?) e só aceite a troca por um conectivo da mesma classe. A pegadinha é oferecer um conectivo gramaticalmente encaixável, mas de relação diferente (trocar conclusão por causa). Em referenciação, sempre confirme qual termo o pronome retoma — o mais próximo nem sempre é o correto."
-    },
-    {
-      "sid": "figuras-de-linguagem",
-      "titulo": "Figuras de linguagem",
-      "intro": "Figuras de linguagem são recursos expressivos que afastam a linguagem de seu sentido literal (denotativo) para criar efeitos de estilo, ênfase ou conotação. Aparecem sobretudo em textos literários, publicitários e jornalísticos, e são cobradas em questões de interpretação que perguntam o efeito de sentido de uma passagem.\n\nClassificam-se, didaticamente, em figuras de palavras (semânticas), figuras de pensamento, figuras de sintaxe (construção) e figuras de som. Em textos oficiais predomina a denotação; por isso o conhecimento das figuras é mobilizado mais na leitura de outros gêneros do que na redação oficial.",
-      "secoes": [
-        {
-          "h": "Figuras de palavras (semânticas)",
-          "p": "Baseiam-se na transferência de sentido. Metáfora: comparação implícita por semelhança ('Aquele auditor é uma raposa' = astuto). Comparação (símile): explícita, com conectivo ('astuto como uma raposa'). Metonímia: substituição por relação de contiguidade ('ler Machado' = a obra pelo autor; 'beber um copo' = o conteúdo pelo recipiente).\n\nCatacrese: metáfora desgastada, já lexicalizada ('pé da mesa', 'asa da xícara'). Sinestesia: cruzamento de sensações ('cor quente', 'voz doce')."
-        },
-        {
-          "h": "Figuras de pensamento",
-          "p": "Operam sobre as ideias. Antítese: oposição de palavras/ideias ('do amor ao ódio'). Paradoxo: contradição aparente que encerra um sentido ('é ferida que dói e não se sente'). Ironia: dizer o contrário do que se pensa, com intenção crítica ('Que pontualidade!' a quem chega tarde). Eufemismo: suavizar uma ideia desagradável ('passou desta para melhor' = morreu). Hipérbole: exagero ('chorar rios de lágrimas'). Prosopopeia/personificação: atribuir traços humanos a seres inanimados ('o vento sussurrava')."
-        },
-        {
-          "h": "Figuras de sintaxe (construção)",
-          "p": "Atuam na estrutura da frase. Elipse: omissão de termo facilmente recuperável ('Na sala, apenas dois fiscais' — omite-se 'havia'). Zeugma: elipse de termo já citado ('Ela prefere o café; eu, o chá'). Pleonasmo: redundância para ênfase ('vi com meus próprios olhos'); o pleonasmo vicioso é erro ('subir para cima'). Anáfora: repetição de palavra no início de versos/orações. Hipérbato/inversão: alteração da ordem natural. Polissíndeto: repetição de conectivos ('e corre, e grita, e chora')."
-        },
-        {
-          "h": "Figuras de som e denotação x conotação",
-          "p": "Figuras de som: aliteração (repetição de consoantes), assonância (repetição de vogais), onomatopeia (imitação de sons: 'tique-taque') e paronomásia (jogo com palavras parecidas).\n\nO pano de fundo de tudo é a oposição denotação (sentido literal, objetivo, dos dicionários) x conotação (sentido figurado, subjetivo, contextual). O texto oficial e o técnico exigem denotação; a literatura e a publicidade exploram a conotação. Saber distinguir o uso denotativo do conotativo de uma palavra é cobrança frequente em interpretação."
-        }
-      ],
-      "exemplo": "Identifique a figura predominante em cada caso:\n\n(1) 'O Palácio das Esmeraldas anunciou o novo programa fiscal.' — METONÍMIA: o prédio (sede do governo de Goiás) pela instituição/autoridade que o ocupa (continente pelo conteúdo).\n\n(2) 'A reforma tributária é um parto interminável.' — METÁFORA: comparação implícita entre a dificuldade da reforma e um parto difícil.\n\n(3) 'Que reforma simples!' dito sobre um sistema complexíssimo — IRONIA: afirma-se o contrário do que se quer dizer, com crítica.\n\nPegadinha de prova: confundir metáfora (sem conectivo, comparação implícita) com comparação (com conectivo 'como', 'tal qual'); e tomar por metáfora o que é metonímia (relação de contiguidade, não de semelhança).",
-      "pontos_chave": [
-        "Metáfora: comparação implícita por semelhança; comparação tem conectivo explícito.",
-        "Metonímia: substituição por contiguidade (autor/obra, continente/conteúdo).",
-        "Ironia: dizer o contrário do pretendido, com crítica; eufemismo suaviza.",
-        "Hipérbole exagera; personificação humaniza o inanimado.",
-        "Elipse e zeugma omitem termos; pleonasmo enfatiza (vicioso quando redundante).",
-        "Denotação = sentido literal; conotação = sentido figurado.",
-        "Texto oficial é denotativo; figuras predominam em literatura e jornalismo."
-      ],
-      "dica_prova": "As confusões mais cobradas: metáfora x comparação (a comparação tem 'como'; a metáfora, não) e metáfora x metonímia (semelhança x contiguidade). Lembre que metonímia abrange casos como 'autor pela obra' e 'lugar pela instituição'. Em interpretação, a banca costuma perguntar se uma palavra está em sentido denotativo ou conotativo — leia sempre no contexto, pois a mesma palavra pode ter os dois usos."
-    },
-    {
-      "sid": "atributos-do-texto-oficial",
-      "titulo": "Atributos do texto oficial",
-      "intro": "A redação oficial é a maneira pela qual a Administração Pública redige atos normativos e comunicações. Não é um estilo pessoal, mas um conjunto de atributos padronizados que decorrem do princípio constitucional da impessoalidade (art. 37 da CF/88) e visam a uma comunicação clara, uniforme e eficiente entre os órgãos e com o cidadão.\n\nO Manual de Redação da Presidência da República é a referência nacional e consolida esses atributos. Para o Auditor-Fiscal, que redige pareceres, despachos e autos, dominar esses princípios é tanto matéria de prova quanto requisito da atividade profissional.",
-      "secoes": [
-        {
-          "h": "Impessoalidade",
-          "p": "A comunicação oficial não tem um autor 'pessoal' nem um destinatário 'particular': é a Administração (o cargo, o órgão) que se comunica com outro órgão ou com o cidadão em geral. Por isso, evita-se a impressão individual de quem redige; o texto trata do assunto de forma objetiva, sem marcas de subjetividade, emoção ou estilo próprio.\n\nA impessoalidade decorre diretamente do princípio constitucional homônimo (LIMPE, art. 37). Na prática, traduz-se no uso de terceira pessoa, na ausência de expressões afetivas e no foco no interesse público, não no interlocutor específico."
-        },
-        {
-          "h": "Clareza, concisão e objetividade",
-          "p": "Clareza é a qualidade do texto que se faz entender de imediato, sem ambiguidade; exige período bem estruturado, pontuação correta e ausência de jargão obscuro. Concisão é dizer o necessário com o mínimo de palavras, sem rodeios nem redundâncias — mas sem prejuízo da clareza. Objetividade é ir direto ao ponto, evitando divagações.\n\nEsses três atributos andam juntos: um texto oficial deve transmitir a informação de modo direto e econômico, de forma que o leitor a apreenda na primeira leitura. Rebuscamento e prolixidade são defeitos, não virtudes."
-        },
-        {
-          "h": "Formalidade, padronização e uso da norma culta",
-          "p": "A redação oficial emprega a norma-padrão (culta) da língua: gramática correta, vocabulário formal, sem gírias, regionalismos ou abreviações informais. A formalidade refere-se ao tratamento polido e cerimonioso (pronomes de tratamento adequados, fechos respeitosos) e à civilidade.\n\nA padronização (uniformidade) garante que documentos do mesmo tipo sigam a mesma estrutura, diagramação e linguagem, independentemente de quem os redige — o que reforça a impessoalidade e facilita a tramitação. Uma observação importante do Manual atual: o uso de pronome de tratamento deve manter a concordância na terceira pessoa."
-        },
-        {
-          "h": "Concordância dos pronomes de tratamento",
-          "p": "Embora os pronomes de tratamento se dirijam à segunda pessoa (a quem se fala), gramaticalmente exigem concordância em terceira pessoa: 'Vossa Senhoria conhece o assunto e apresentará seu parecer' (não 'apresentareis vosso'). Os pronomes possessivos e os verbos vão para a 3ª pessoa.\n\nOutra regra: 'Vossa' usa-se quando falamos COM a autoridade (interlocutor presente); 'Sua' quando falamos DELA, em sua ausência ('Sua Excelência o Governador'). Esse contraste Vossa/Sua é uma pegadinha recorrente."
-        }
-      ],
-      "exemplo": "Avalie o trecho de um ofício: \"Venho, mui respeitosamente e com imensa alegria, comunicar a Vossa Senhoria que ficastes incumbido da análise.\"\n\nProblemas: (1) 'com imensa alegria' fere a impessoalidade e a objetividade (marca subjetiva/emocional); (2) 'mui respeitosamente' é rebuscamento, contra a concisão; (3) 'ficastes' (2ª pessoa do plural) viola a concordância dos pronomes de tratamento, que exigem 3ª pessoa.\n\nReescrita adequada: \"Comunico a Vossa Senhoria que ficou incumbido da análise.\" — impessoal, conciso, claro e com concordância correta (3ª pessoa: 'ficou').\n\nPegadinha clássica: o Manual atual eliminou os fechos exageradamente cerimoniosos e adotou apenas 'Atenciosamente' e 'Respeitosamente'; usar fechos antigos e pomposos é considerado inadequado.",
-      "pontos_chave": [
-        "Impessoalidade decorre do art. 37 da CF/88 (princípio LIMPE).",
-        "Atributos centrais: impessoalidade, clareza, concisão, objetividade, formalidade, uniformidade.",
-        "Usa-se a norma culta; proíbem-se gírias, regionalismos e rebuscamento.",
-        "Pronomes de tratamento exigem concordância em 3ª pessoa.",
-        "'Vossa' (falando COM a autoridade) x 'Sua' (falando DELA, ausente).",
-        "Concisão é economia de palavras sem perder a clareza.",
-        "O Manual atual admite só dois fechos: 'Atenciosamente' e 'Respeitosamente'."
-      ],
-      "dica_prova": "A pegadinha número um é a concordância dos pronomes de tratamento: eles pedem verbo e possessivo na 3ª pessoa ('Vossa Senhoria apresentará seu parecer', nunca 'apresentareis vosso'). Memorize também o par Vossa/Sua e o fato de que marcas de subjetividade/emoção e o rebuscamento ferem a impessoalidade e a concisão. A banca adora trechos pomposos para você apontar o erro."
-    },
-    {
-      "sid": "tipos-de-documentos",
-      "titulo": "Tipos de documentos",
-      "intro": "A redação oficial materializa-se em diferentes espécies de documentos, cada um com função, estrutura e formalidades próprias. O candidato deve reconhecer cada tipo, suas partes constitutivas (vocativo, corpo, fecho), o pronome de tratamento adequado e o fecho correto.\n\nUma novidade importante do Manual de Redação da Presidência (3ª edição) foi a unificação das comunicações oficiais sob o nome de 'ofício', extinguindo a antiga distinção entre ofício, memorando e aviso. Esse ponto é muito cobrado e atualiza conceitos que ainda circulam em materiais antigos.",
-      "secoes": [
-        {
-          "h": "O padrão ofício",
-          "p": "A 3ª edição do Manual de Redação da Presidência unificou as três antigas modalidades (ofício, aviso e memorando) em um único tipo: o ofício, que adota o chamado 'padrão ofício'. Assim, tanto comunicações internas quanto externas usam essa mesma estrutura.\n\nO padrão ofício compõe-se de: tipo e número do documento, local e data, endereçamento, assunto (resumido), vocativo, texto (corpo dividido em introdução, desenvolvimento e conclusão), fecho, assinatura (nome e cargo do signatário) e identificação do signatário. A numeração dos parágrafos é recomendada quando o texto tem três ou mais."
-        },
-        {
-          "h": "Documentos de instrução e decisão: parecer e despacho",
-          "p": "Parecer é a manifestação técnica ou jurídica, fundamentada, sobre determinada matéria, opinando e orientando a decisão da autoridade (muito usado pela fiscalização para fundamentar autuações). Estrutura típica: relatório (o que se examina), fundamentação (análise) e conclusão (opinião).\n\nDespacho é a decisão ou o encaminhamento proferido pela autoridade sobre um requerimento ou processo; pode ser decisório (resolve) ou de mero expediente (encaminha). É geralmente breve e lançado nos próprios autos do processo."
-        },
-        {
-          "h": "Documentos de registro: ata, relatório e exposição de motivos",
-          "p": "Ata é o registro fiel e resumido dos fatos, deliberações e ocorrências de uma reunião ou sessão; redige-se em texto corrido, sem parágrafos numerados, e tradicionalmente sem rasuras (correções com 'digo' ou 'em tempo'). Relatório é a exposição circunstanciada de atividades, fatos ou resultados, com finalidade informativa ou de prestação de contas.\n\nExposição de Motivos é o expediente dirigido ao Presidente ou Vice para informar, propor medida ou submeter projeto de ato normativo. Mensagem é a comunicação entre chefes de Poder (do Executivo ao Legislativo, por exemplo)."
-        },
-        {
-          "h": "Vocativos, pronomes de tratamento e fechos",
-          "p": "O vocativo invoca o destinatário. Para autoridades em geral, usa-se 'Senhor' + cargo ('Senhor Secretário'); para as mais altas (chefes de Poder), 'Excelentíssimo Senhor'. Os pronomes de tratamento variam conforme a autoridade: 'Vossa Excelência' (altas autoridades dos três Poderes, como governador, ministros, parlamentares, juízes); 'Vossa Senhoria' (demais autoridades e particulares); 'Vossa Magnificência' (reitores, embora hoje se admita 'Vossa Excelência').\n\nQuanto aos fechos, o Manual atual reduziu a apenas dois: 'Respeitosamente' (para autoridade superior) e 'Atenciosamente' (para autoridades de mesma hierarquia ou inferior). Os abreviações dos pronomes: V. Exa., V. Sa."
-        }
-      ],
-      "exemplo": "Questão típica: \"Conforme o Manual de Redação da Presidência (3ª ed.), assinale a alternativa correta.\"\n\n- 'O memorando é a comunicação interna e o aviso, a externa entre ministros.' — ERRADO (desatualizado): o Manual atual unificou tudo no 'padrão ofício'; memorando e aviso deixaram de existir como tipos distintos.\n- 'Há apenas dois fechos: Respeitosamente e Atenciosamente.' — CORRETO.\n- 'Usa-se Vossa Excelência para reitor de universidade e Vossa Senhoria para um secretário de Estado.' — questionável: secretário de Estado, como autoridade, recebe tratamento elevado; reitor tradicionalmente recebia 'Vossa Magnificência'. Atenção às atualizações.\n\nPegadinha frequente: cobrar a antiga tríade ofício/aviso/memorando como se ainda vigorasse — quem estuda por material desatualizado erra.",
-      "pontos_chave": [
-        "A 3ª edição do Manual unificou ofício, aviso e memorando no 'padrão ofício'.",
-        "Padrão ofício: tipo/número, data, endereçamento, assunto, vocativo, texto, fecho, assinatura.",
-        "Parecer: relatório + fundamentação + conclusão; orienta a decisão.",
-        "Despacho: decisão/encaminhamento da autoridade nos autos.",
-        "Ata: registro corrido de reunião; relatório: exposição circunstanciada de fatos.",
-        "Vossa Excelência (altas autoridades) x Vossa Senhoria (demais e particulares).",
-        "Fechos atuais: apenas 'Respeitosamente' e 'Atenciosamente'."
-      ],
-      "dica_prova": "A atualização do Manual é a maior fonte de pegadinha: o 'padrão ofício' substituiu a tríade ofício/aviso/memorando, e os fechos foram reduzidos a 'Respeitosamente' e 'Atenciosamente'. Decore o emprego de 'Vossa Excelência' (chefes de Poder, parlamentares, magistrados, governador) versus 'Vossa Senhoria' (demais), e lembre que esses pronomes exigem concordância em 3ª pessoa."
+     "h": "Redução e distorção de sentido",
+     "p": "O erro inverso é reduzir: o texto traz uma ressalva (\"em regra\", \"na maioria dos casos\", \"salvo exceções\") e o item a ignora, transformando uma afirmação relativa em absoluta. Também há a distorção, em que se inverte uma relação de causa/consequência ou se atribui ao autor uma posição contrária à que ele defende.\n\nModalizadores são palavras decisivas: \"pode/deve\", \"sempre/geralmente\", \"todo/alguns\", \"é/parece\". Trocar um pelo outro muda completamente o valor de verdade do item."
     }
-  ]
+   ],
+   "exemplo": "Texto: \"A informatização da fiscalização, em geral, reduz a sonegação, embora não a elimine.\"\n\nItem A (compreensão correta): \"Segundo o texto, a informatização da fiscalização tende a diminuir a sonegação.\" — CORRETO, é paráfrase fiel de \"em geral, reduz\".\n\nItem B (redução/erro): \"O texto afirma que a informatização elimina a sonegação.\" — ERRADO: o texto diz expressamente \"embora não a elimine\". O candidato ignorou a ressalva.\n\nItem C (extrapolação/erro): \"O autor defende o aumento de investimentos públicos em tecnologia.\" — ERRADO: o texto descreve um efeito, mas não emite juízo de defesa sobre investimentos; não há base textual.",
+   "pontos_chave": [
+    "Compreensão = o que o texto diz explicitamente; interpretação = o que se conclui logicamente dele.",
+    "Inferência válida é decorrência necessária do texto, não mera possibilidade.",
+    "Extrapolar (afirmar além do texto) é o erro mais cobrado pelas bancas.",
+    "Reduzir é ignorar ressalvas e modalizadores, tornando absoluto o que era relativo.",
+    "Conhecimento de mundo só vale se o próprio texto o autorizar.",
+    "Pergunta-teste: 'onde, no texto, isso está dito ou implicado?'."
+   ],
+   "dica_prova": "Sublinhe modalizadores (pode/deve, em geral/sempre, todo/alguns) e ressalvas (embora, salvo, exceto) antes de ler as alternativas — é nelas que a banca constrói as pegadinhas. Desconfie de itens que pareçam 'verdade do mundo real' mas que o texto não sustenta: a prova mede leitura, não opinião."
+  },
+  {
+   "sid": "ideia-central-e-secundarias",
+   "titulo": "Ideia central e secundárias",
+   "intro": "Todo texto bem construído gira em torno de uma ideia central (tese ou tema dominante) sustentada por ideias secundárias (argumentos, exemplos, dados, contra-argumentos). Saber separar o núcleo do que é apenas apoio é essencial para responder questões de \"título adequado\", \"síntese do texto\" e \"finalidade do parágrafo\".\n\nA ideia central responde à pergunta \"sobre o que o texto trata, no fundo, e o que ele defende?\". As secundárias respondem \"como o autor sustenta isso?\". Confundir uma ideia secundária (um exemplo chamativo, um dado curioso) com a tese é um erro frequente que a banca induz.",
+   "secoes": [
+    {
+     "h": "Tópico frasal e estrutura do parágrafo",
+     "p": "Cada parágrafo costuma ter um tópico frasal: a frase que condensa sua ideia principal, geralmente na abertura. O restante do parágrafo desenvolve, exemplifica ou comprova esse tópico. Localizar o tópico frasal de cada parágrafo e depois encadeá-los revela a linha argumentativa do texto inteiro.\n\nEm textos dissertativos, a ideia central aparece com frequência na introdução (onde se anuncia a tese) ou na conclusão (onde ela é retomada e reforçada)."
+    },
+    {
+     "h": "Como identificar a ideia central",
+     "p": "A ideia central é aquela que, se retirada, faz o texto perder o sentido global; as secundárias podem ser suprimidas sem destruir o todo. Um teste prático: tente resumir o texto em uma frase. O que sobrevive nesse resumo é o núcleo.\n\nOutro indício é a recorrência: a ideia central tende a ser retomada ao longo dos parágrafos, por repetição, paráfrase ou referência (pronomes, sinônimos). Já as secundárias aparecem pontualmente."
+    },
+    {
+     "h": "Funções das ideias secundárias",
+     "p": "As ideias secundárias cumprem papéis específicos: exemplificar (ilustrar a tese com um caso), comprovar (apresentar dados e citações), contrapor (introduzir um contra-argumento que será refutado) e detalhar (explicar um aspecto da tese). Reconhecer a função de cada parágrafo é cobrado em itens do tipo \"o terceiro parágrafo tem a finalidade de...\".\n\nUm contra-argumento, em especial, engana: ele expressa uma posição que o autor NÃO defende, apenas apresenta para depois rebater. Tomá-lo como tese do texto é erro grave."
+    },
+    {
+     "h": "Título e síntese",
+     "p": "O título adequado deve abranger a ideia central, sem ser amplo demais (genérico) nem estreito demais (preso a um detalhe secundário). Questões de \"melhor título\" testam exatamente essa calibragem. A síntese (resumo) deve preservar a tese e a hierarquia das ideias, eliminando exemplos e repetições.\n\nUm bom resumo é fiel (não inclui o que não está no texto), seletivo (corta o acessório) e proporcional (dá mais peso ao que o texto enfatiza)."
+    },
+    {
+     "h": "Finalidade de cada parágrafo (estilo FCC)",
+     "p": "Um tipo de questão recorrente, sobretudo na FCC, pede a FINALIDADE (a função argumentativa) de um bloco textual: \"O parágrafo X tem a finalidade de...\", \"O segundo parágrafo, em relação ao primeiro, serve para...\". Não se trata de resumir o que o parágrafo diz (conteúdo), mas de identificar PARA QUE ele está ali — o papel que cumpre na arquitetura do texto.\n\nMétodo prático em três passos: (1) localize o tópico frasal do parágrafo e diga, em uma frase, o que ele afirma; (2) pergunte qual a relação desse bloco com o anterior e com a tese geral — ele introduz o tema, apresenta um exemplo, traz dados que comprovam, levanta uma objeção (contra-argumento), faz uma ressalva, explica uma causa, tira uma conclusão ou faz uma comparação?; (3) escolha o VERBO que nomeia essa função. Os verbos típicos do gabarito são: introduzir/apresentar, exemplificar/ilustrar, comprovar/fundamentar, detalhar/explicitar, contrapor/ressalvar, comparar, concluir/sintetizar.\n\nDois sinais ajudam a reconhecer a função: os conectivos de abertura (\"por exemplo\", \"de fato\", \"além disso\" sinalizam adição/comprovação; \"no entanto\", \"por outro lado\", \"é certo que... mas\" sinalizam objeção/ressalva; \"portanto\", \"assim\" sinalizam conclusão) e a posição (parágrafos iniciais tendem a introduzir/contextualizar; finais, a concluir; intermediários, a desenvolver, exemplificar ou contrapor).\n\nOs DISTRATORES que a FCC monta para distorcer o conteúdo de um parágrafo costumam ter formato previsível: (a) trocar a FUNÇÃO — dizem que o parágrafo 'defende' uma ideia que ele apenas 'apresenta para refutar' (confundir contra-argumento com tese), ou que 'comprova' algo que apenas 'exemplifica'; (b) extrapolar a abrangência — atribuem ao parágrafo uma finalidade que pertence ao texto inteiro, e não àquele bloco; (c) inverter a relação entre parágrafos — afirmam que o segundo 'contraria' o primeiro quando, na verdade, o 'complementa' (ou vice-versa); (d) trocar um detalhe periférico pelo núcleo — apontam como finalidade um dado secundário citado de passagem, ignorando o tópico frasal; (e) inserir conteúdo verdadeiro, porém ausente daquele parágrafo (mistura de parágrafos). A defesa contra todos eles é a mesma: reler SÓ o parágrafo indicado, fixar seu tópico frasal e conferir se o verbo da alternativa corresponde de fato à função que aquele bloco — e não outro — desempenha."
+    }
+   ],
+   "exemplo": "Suponha um texto cuja tese é: \"A simplificação tributária aumenta a arrecadação porque reduz a sonegação e o custo de conformidade.\" Os parágrafos trazem (1) a tese, (2) o exemplo de um país que simplificou seu sistema, (3) dados de arrecadação e (4) a conclusão.\n\nQuestão: \"Assinale o melhor título.\"\n- 'Um país que reformou seus impostos' — ERRADO: prende-se ao exemplo (ideia secundária do parágrafo 2).\n- 'Simplificar para arrecadar mais' — CORRETO: captura a tese central.\n- 'A economia mundial no século XXI' — ERRADO: amplo demais, genérico, extrapola o recorte do texto.",
+   "pontos_chave": [
+    "Tópico frasal: frase que condensa a ideia principal do parágrafo, geralmente na abertura.",
+    "A ideia central costuma estar na introdução ou na conclusão e é retomada ao longo do texto.",
+    "Ideias secundárias sustentam a tese: exemplificam, comprovam, detalham ou contrapõem.",
+    "Contra-argumento NÃO é a tese do autor — é apresentado para ser refutado.",
+    "Teste do resumo em uma frase: o que sobrevive é o núcleo.",
+    "Título ideal não é genérico nem preso a um detalhe secundário."
+   ],
+   "dica_prova": "Cuidado com a 'armadilha do exemplo marcante': a banca oferece como título ou como ideia principal justamente o exemplo mais chamativo do texto, que é apenas apoio. E desconfie de tomar um contra-argumento como posição do autor — verifique se logo depois há uma refutação introduzida por 'mas', 'porém', 'contudo'."
+  },
+  {
+   "sid": "inferencia-e-pressuposto",
+   "titulo": "Inferência e pressuposto",
+   "intro": "Nem tudo num texto é dito de forma explícita. Parte do sentido fica implícita e precisa ser recuperada pelo leitor. Os dois principais mecanismos de implícito são o pressuposto e o subentendido (ou inferência contextual), conceitos que as bancas adoram cobrar porque exigem leitura fina.\n\nPressuposto é a informação implícita ancorada na própria estrutura linguística da frase — está embutido em certas palavras e não pode ser negado sem contradição. Subentendido depende do contexto e da intenção, sendo mais frágil e dedutível por inferência.",
+   "secoes": [
+    {
+     "h": "O que é pressuposto",
+     "p": "Pressuposto é a informação que a frase dá como certa para que seu enunciado faça sentido. Ele está marcado por elementos linguísticos específicos chamados marcadores de pressuposição. Por exemplo, em \"O contribuinte continuou pagando o imposto\", o verbo \"continuou\" pressupõe que ele já pagava antes. Negar a frase principal (\"não continuou pagando\") não anula o pressuposto: ele continua valendo.\n\nPrincipais marcadores: verbos como continuar, parar, deixar de, voltar a; advérbios como já, ainda, também; orações adjetivas; certos adjetivos e o artigo definido."
+    },
+    {
+     "h": "O que é subentendido (inferência contextual)",
+     "p": "Subentendido é o sentido implícito que depende do contexto, da situação e da intenção do falante, não da estrutura gramatical. Em \"Está frio aqui\", dependendo do contexto, pode-se subentender um pedido para fechar a janela. Diferentemente do pressuposto, o subentendido pode ser negado pelo falante sem contradição (\"só comentei, não pedi nada\").\n\nO subentendido é responsabilidade do ouvinte/leitor que o deduz; o pressuposto é responsabilidade da frase que o carrega."
+    },
+    {
+     "h": "Inferência: o raciocínio que liga as informações",
+     "p": "Inferir é deduzir uma informação nova a partir das informações dadas, combinando-as com regras lógicas ou de conhecimento compartilhado. A inferência válida em prova é aquela autorizada pelo texto: ela não acrescenta dados externos não previstos.\n\nHá inferências quase obrigatórias (decorrência lógica direta) e inferências autorizadas pelo contexto (o texto fornece pistas suficientes). A banca cobra que o candidato distinga uma inferência sustentada de uma mera suposição."
+    },
+    {
+     "h": "Marcadores de pressuposição mais cobrados",
+     "p": "Vale memorizar exemplos: \"voltou a fiscalizar\" pressupõe que fiscalizava, parou e retomou; \"deixou de declarar\" pressupõe que declarava antes; \"também sonegou\" pressupõe que outra pessoa sonegou; \"ainda não pagou\" pressupõe que se espera o pagamento. O artigo definido pressupõe existência e conhecimento prévio (\"o auditor chegou\" pressupõe que há um auditor identificável).\n\nO teste do pressuposto: aplique a negação à frase principal. Se a informação implícita permanece intacta, trata-se de pressuposto."
+    }
+   ],
+   "exemplo": "Frase: \"O Estado de Goiás também reduziu a alíquota do ICMS sobre alimentos.\"\n\nPressuposto (marcador 'também'): algum outro ente (outro Estado, por exemplo) já havia reduzido a alíquota. Esse implícito é estrutural e não some se negarmos a frase: em \"O Estado de Goiás não reduziu...\", a ideia de que outro reduziu permanece pressuposta pelo 'também'.\n\nQuestão típica: \"Da frase, infere-se que outro ente já havia reduzido a alíquota.\" — CORRETO, é pressuposto do advérbio 'também'.\n\nContraste — subentendido: se o contexto fosse uma crítica, poderíamos subentender que o autor considera a medida tardia; mas isso depende do entorno e pode ser negado, logo é subentendido, não pressuposto.",
+   "pontos_chave": [
+    "Pressuposto está embutido na estrutura da frase (verbos, advérbios, artigos) e resiste à negação.",
+    "Subentendido depende do contexto/intenção e pode ser negado sem contradição.",
+    "Marcadores de pressuposição: continuar, parar, deixar de, voltar a, já, ainda, também.",
+    "Inferência válida é a autorizada pelo texto, sem acrescentar dados externos.",
+    "Teste do pressuposto: negue a frase principal; se o implícito permanece, é pressuposto.",
+    "O artigo definido pressupõe existência e identificação do referente."
+   ],
+   "dica_prova": "A pegadinha clássica é chamar de 'pressuposto' algo que é apenas subentendido (ou vice-versa). Aplique o teste da negação: pressuposto sobrevive à negação da frase; subentendido, não. E lembre que 'inferir' em prova só vale quando o texto dá base — não confunda inferência com adivinhação ou opinião pessoal."
+  },
+  {
+   "sid": "acentuacao-grafica",
+   "titulo": "Acentuação gráfica",
+   "intro": "A acentuação gráfica marca, na escrita, a sílaba tônica e a qualidade de certas vogais, seguindo regras fixas do Acordo Ortográfico vigente. Saber acentuar corretamente depende de dominar dois pré-requisitos: identificar a sílaba tônica (oxítona, paroxítona ou proparoxítona) e reconhecer estruturas como ditongos e hiatos.\n\nApós o Acordo Ortográfico (em vigor obrigatoriamente desde 2016 no Brasil), algumas regras mudaram — caíram o trema e certos acentos diferenciais, e palavras como 'ideia' e 'heroico' perderam o acento. Esse é justamente um ponto que as bancas exploram.",
+   "secoes": [
+    {
+     "h": "Classificação tônica: a base de tudo",
+     "p": "As palavras se classificam pela posição da sílaba tônica: oxítonas (tônica na última sílaba: café, urubu), paroxítonas (na penúltima: lápis, fácil) e proparoxítonas (na antepenúltima: médico, lâmpada). Essa identificação é o primeiro passo, porque cada grupo tem regras próprias.\n\nRegra de ouro: TODAS as proparoxítonas são acentuadas, sem exceção (rápido, álgebra, tributário não — esta é paroxítona; mas 'líquido', 'sólido', 'cônjuge' são proparoxítonas acentuadas)."
+    },
+    {
+     "h": "Oxítonas e monossílabos tônicos",
+     "p": "Acentuam-se as oxítonas terminadas em -a(s), -e(s), -o(s), -em/-ens: sofá, você, cipó, parabéns, também. Os monossílabos tônicos terminados em -a, -e, -o (e plurais) também recebem acento: pá, pé, dó, lás.\n\nAtenção: oxítonas terminadas em -i e -u (sozinhos) NÃO são acentuadas pela regra das oxítonas (caju, abacaxi, Itu)."
+    },
+    {
+     "h": "Paroxítonas",
+     "p": "A maioria das palavras é paroxítona e, por isso, NÃO é acentuada (são as mais numerosas). Acentuam-se apenas as paroxítonas terminadas em terminações 'menos comuns': -i(s), -us, -um, -uns, -l, -n, -r, -x, -ps, -ã(s), -ão(s), -ditongo. Exemplos: júri, vírus, álbum, fácil, hífen, caráter, tórax, órfã, órgão, série.\n\nPonto-chave pós-Acordo: paroxítonas com ditongo aberto 'ei' e 'oi' deixaram de ser acentuadas — ideia, assembleia, heroico, jiboia, paranoico não levam mais acento."
+    },
+    {
+     "h": "Ditongos abertos e hiatos",
+     "p": "Os ditongos abertos éi, éu, ói são acentuados SOMENTE em oxítonas e monossílabos: herói, céu, chapéu, dói, anéis, troféu. Em paroxítonas, não (ideia, heroico).\n\nHiato: o 'i' e o 'u' tônicos, formando hiato, sozinhos na sílaba ou seguidos de 's', são acentuados — saída, baú, juízes, faísca. Mas há exceções importantes: não se acentua se vier seguido de 'nh' (rainha, moinho) nem quando, em paroxítonas, o i/u for precedido de ditongo (regra que retirou o acento de 'feiura', 'baiuca')."
+    },
+    {
+     "h": "Mudanças do Acordo Ortográfico",
+     "p": "Caiu o trema (exceto em nomes próprios estrangeiros): linguiça, frequente, cinquenta. Caíram os acentos diferenciais de 'pára/para', 'pêlo/pelo', 'pólo/polo' — hoje se escreve 'para', 'pelo', 'polo' sem acento. Permanecem, porém, dois diferenciais: 'pôde' (pretérito) x 'pode' (presente), e 'pôr' (verbo) x 'por' (preposição). Facultativo: 'fôrma' x 'forma'.\n\nTambém caiu o acento dos hiatos 'oo' e 'ee' (voo, enjoo, creem, leem) e o do 'u' tônico nas formas verbais como 'arguir' e em 'averigue/apazigue'."
+    }
+   ],
+   "exemplo": "Questão típica: \"Assinale a alternativa em que a acentuação está correta conforme o Acordo Ortográfico.\"\n\n- 'idéia, heróico, assembléia' — ERRADO: ditongo aberto em paroxítona não é mais acentuado (ideia, heroico, assembleia).\n- 'pôde (ele pôde sair ontem), pôr os documentos na mesa' — CORRETO: acentos diferenciais mantidos.\n- 'vôo, enjôo, lêem' — ERRADO: caíram os acentos de 'oo' e 'ee' (voo, enjoo, leem).\n- 'saída, baú, faísca' — CORRETO: i/u tônicos em hiato, sozinhos ou com 's'.\n\nObserve que 'tributário' é paroxítona terminada em ditongo crescente (-io), por isso acentuada; já 'tributaria' (verbo, 'eu tributaria') NÃO leva acento: nela o 'i' e o 'a' formam hiato (tri-bu-ta-ri-a), resultando em paroxítona terminada em -a, que não é acentuada — atenção a essa diferença de pronúncia.",
+   "pontos_chave": [
+    "Todas as proparoxítonas são acentuadas, sem exceção.",
+    "Oxítonas: acentuam-se as terminadas em a/e/o (s), em/ens; não as em i/u sozinhos.",
+    "Ditongos abertos éi/éu/ói só são acentuados em oxítonas e monossílabos.",
+    "Pós-Acordo: ideia, heroico, assembleia (paroxítonas com ditongo aberto) NÃO levam acento.",
+    "Hiato i/u tônico, sozinho ou com s, é acentuado (saída, baú); exceto antes de nh.",
+    "Caíram trema, acentos de 'oo'/'ee' (voo, leem) e os diferenciais para/pelo/polo.",
+    "Permanecem os diferenciais pôde/pode e pôr/por."
+   ],
+   "dica_prova": "As bancas adoram cobrar as mudanças do Acordo: ideia, heroico, voo, leem, linguiça (sem trema) e os diferenciais que sobreviveram (pôde/pode, pôr/por). Memorize também a justificativa de cada acento — muitas questões pedem 'palavra acentuada pela mesma regra que X', então saber o porquê (oxítona? hiato? proparoxítona?) vale mais que decorar a palavra."
+  },
+  {
+   "sid": "emprego-da-crase",
+   "titulo": "Emprego da crase",
+   "intro": "A crase é a fusão de duas vogais idênticas 'a + a', indicada pelo acento grave (à). Na maioria dos casos, resulta do encontro da preposição 'a' (exigida por um verbo ou nome) com o artigo definido feminino 'a' (que acompanha o substantivo). Por isso, a regra mestra é: há crase quando houver, ao mesmo tempo, preposição 'a' E artigo 'a'.\n\nA crase é um dos temas mais cobrados em provas de Auditor-Fiscal porque combina regência (de onde vem a preposição) e concordância/gênero (de onde vem o artigo). Dominá-la depende de identificar esses dois elementos.",
+   "secoes": [
+    {
+     "h": "A regra mestra: preposição + artigo",
+     "p": "Ocorre crase quando um termo rege a preposição 'a' e a palavra seguinte é feminina e admite o artigo 'a'. Em \"Refiro-me à proposta\", o verbo 'referir-se' pede preposição 'a' e 'proposta' admite artigo 'a' (a proposta): a + a = à.\n\nDois testes práticos: (1) troque a palavra feminina por uma masculina equivalente — se aparecer 'ao', há crase (\"vou à escola\" / \"vou ao colégio\"); (2) se puder substituir por 'para a', costuma haver crase."
+    },
+    {
+     "h": "Casos em que SEMPRE há crase",
+     "p": "Há crase obrigatória: nas locuções adverbiais, prepositivas e conjuntivas femininas (às vezes, às pressas, à toa, à medida que, à proporção que, à custa de, à frente de); na indicação de horas determinadas (às 8h, à meia-noite); e na expressão 'à moda de' / 'à maneira de', inclusive quando subentendida (bife à milanesa = à moda milanesa, sapato à Luís XV).\n\nEssas locuções são frequentemente cobradas porque o acento grave aparece mesmo quando o artigo é 'invisível' — caso de 'à moda de'."
+    },
+    {
+     "h": "Casos em que NUNCA há crase",
+     "p": "Não há crase: antes de palavra masculina (a cavalo, a pé, a prazo); antes de verbo (começou a chover, disposto a colaborar); antes de pronomes que rejeitam artigo (a ela, a você, a Vossa Senhoria, a quem); antes de artigo indefinido (a uma escola); entre palavras repetidas (cara a cara, gota a gota, dia a dia); e, em regra, antes de nomes de cidades que não admitem artigo (cheguei a Goiânia).\n\nDecorre daí que 'a distância' (sem complemento) não tem crase, mas 'à distância de 100 metros' (especificada) tem."
+    },
+    {
+     "h": "Crase facultativa",
+     "p": "A crase é facultativa em três situações: antes de nomes próprios femininos de pessoas (Refiro-me a Maria / à Maria); antes de pronomes possessivos femininos (Entreguei a/à minha colega); e após a preposição 'até' (Fui até a/à porta). Nesses casos, qualquer das formas é aceita.\n\nSaber identificar a facultatividade evita que o candidato marque como 'erro' uma construção que, na verdade, é opção válida."
+    },
+    {
+     "h": "Crase com pronomes 'aquele(s)/aquela(s)/aquilo' e relativos",
+     "p": "Há crase na fusão da preposição 'a' com os demonstrativos iniciados por a-: àquele, àquela, àquilo (Refiro-me àquele documento). Com o pronome relativo 'a qual / as quais', haverá crase se o verbo da oração adjetiva exigir preposição 'a' (A empresa à qual me referi). Já 'a que' pode receber crase pela mesma lógica (a meta à qual aspiramos).\n\nTeste do demonstrativo: troque por 'a este/a isto' — se a regência pedir 'a', então 'aquele' vira 'àquele' com crase."
+    }
+   ],
+   "exemplo": "Analise: \"O auditor entregou o relatório à chefia e encaminhou cópia a todos os setores, inclusive àquele que solicitou a fiscalização.\"\n\n- 'à chefia' — CRASE CORRETA: 'entregar a' (preposição) + 'a chefia' (artigo, palavra feminina). Teste: 'entregou ao chefe' → confirma a crase.\n- 'a todos os setores' — SEM CRASE: 'todos' é masculino e o termo não admite o artigo 'a' feminino.\n- 'àquele que solicitou' — CRASE CORRETA: preposição 'a' (de 'encaminhou a') + demonstrativo 'aquele' = àquele.\n\nPegadinha frequente: 'a partir de' NUNCA tem crase (não há artigo, e 'partir' é verbo na origem da locução). E 'à vista' (pagamento à vista) tem crase por ser locução adverbial feminina.",
+   "pontos_chave": [
+    "Crase = preposição 'a' + artigo 'a'; só ocorre se ambos estiverem presentes.",
+    "Teste: troque por palavra masculina — se surgir 'ao', há crase.",
+    "Sempre há crase em 'às vezes', 'à medida que', horas determinadas e 'à moda de'.",
+    "Nunca há crase antes de masculino, verbo, pronome que rejeita artigo e palavras repetidas.",
+    "Facultativa antes de nome próprio feminino, possessivo feminino e após 'até'.",
+    "Fusão com demonstrativos: àquele, àquela, àquilo.",
+    "'A partir de' nunca tem crase."
+   ],
+   "dica_prova": "Memorize os 'nuncas' (masculino, verbo, pronome de tratamento, palavras repetidas) porque a banca costura frases longas para esconder a ausência de artigo. Atenção especial a 'a distância' x 'à distância especificada', 'à vista' (com crase) e 'a partir de' (sem crase) — campeões de pegadinha. E sempre faça o teste do masculino: é o atalho mais seguro."
+  },
+  {
+   "sid": "pronomes",
+   "titulo": "Pronomes",
+   "intro": "Pronomes são palavras que substituem ou acompanham o substantivo, indicando as pessoas do discurso, situando elementos no espaço/tempo, atribuindo posse ou retomando termos já citados. São essenciais para a coesão textual e aparecem em questões de regência, colocação pronominal, concordância e interpretação (referenciação).\n\nClassificam-se em pessoais, possessivos, demonstrativos, relativos, indefinidos, interrogativos e de tratamento. Para a prova merecem destaque especial os relativos (que regem a sintaxe da oração adjetiva) e os demonstrativos (referência textual e temporal).",
+   "secoes": [
+    {
+     "h": "Pronomes pessoais: retos e oblíquos",
+     "p": "Os pessoais do caso reto (eu, tu, ele, nós, vós, eles) funcionam tipicamente como sujeito. Os oblíquos funcionam como complementos e dividem-se em átonos (me, te, se, o, a, lhe, nos, vos, lhes) e tônicos (mim, ti, si, conosco, convosco, ele/ela com preposição).\n\nErro clássico: usar pronome reto como objeto. O correto é \"O fiscal convidou-me\" (oblíquo), não \"convidou eu\". Após preposição, usa-se a forma tônica: 'para mim fazer' está errado quando há verbo — 'para eu fazer' (sujeito do infinitivo)."
+    },
+    {
+     "h": "Pronomes possessivos e demonstrativos",
+     "p": "Possessivos (meu, teu, seu, nosso, vosso) indicam posse e concordam com o objeto possuído, não com o possuidor. A ambiguidade do 'seu' (pode referir-se a 'dele' ou 'de você') é fonte de questões.\n\nDemonstrativos (este, esse, aquele e variações) situam no espaço (este=perto de quem fala; esse=perto do ouvinte; aquele=distante de ambos), no tempo (este=presente; esse=passado próximo; aquele=passado remoto) e no texto: 'este' anuncia o que virá (catáfora) e 'esse/aquele' retoma o que já foi dito (anáfora)."
+    },
+    {
+     "h": "Pronomes relativos: o coração da oração adjetiva",
+     "p": "Os relativos (que, qual, quem, cujo, onde, quanto) retomam um termo antecedente e introduzem orações adjetivas, exercendo função sintática dentro delas. 'Que' é o mais versátil ('o relatório que li' — objeto direto). 'Cujo' indica posse e NÃO admite artigo entre ele e o substantivo ('o contribuinte cujo nome consta', nunca 'cujo o nome').\n\n'Onde' refere-se apenas a lugar físico (= em que); para o resto, usa-se 'em que' ('a situação em que', não 'a situação onde'). A regência do verbo da oração adjetiva define a preposição que antecede o relativo: 'o filme a que assisti' (assistir a), 'a meta em que penso' (pensar em)."
+    },
+    {
+     "h": "Pronomes indefinidos e a referenciação textual",
+     "p": "Indefinidos (algum, nenhum, todo, vários, certo, qualquer, alguém, ninguém, tudo, nada) referem-se de modo vago. Atenção a 'todo' x 'todo o': 'toda cidade' = qualquer cidade; 'toda a cidade' = a cidade inteira.\n\nNa interpretação, os pronomes são peças de coesão referencial: identificar a que termo um 'ele', 'isso', 'tal' ou 'o mesmo' se refere é cobrança constante. Substituir um pronome por seu referente sem alterar o sentido é um teste típico de questão."
+    }
+   ],
+   "exemplo": "Frase para análise: \"Conheço o auditor cujo parecer fundamentou a autuação à qual o contribuinte se opôs.\"\n\n- 'cujo parecer' — CORRETO: 'cujo' liga possuidor (auditor) e coisa possuída (parecer), sem artigo intermediário. Seria erro escrever 'cujo o parecer'.\n- 'à qual o contribuinte se opôs' — CORRETO: o verbo 'opor-se' rege preposição 'a' ('opor-se a algo'), daí a preposição diante de 'qual'; como 'autuação' é feminina e admite artigo, ocorre crase (à qual).\n\nPegadinha de prova: trocar 'em que' por 'onde' em contexto não locativo — 'a reunião onde decidimos' está ERRADO (não é lugar físico); o correto é 'a reunião em que decidimos'.",
+   "pontos_chave": [
+    "Pessoais retos = sujeito; oblíquos = complemento (átonos e tônicos).",
+    "Após preposição, forma tônica (mim, ti); mas 'para eu fazer' quando há verbo.",
+    "Possessivo concorda com o objeto possuído; 'seu' gera ambiguidade.",
+    "Demonstrativos: este (presente/catáfora), esse/aquele (passado/anáfora).",
+    "'Cujo' indica posse e não admite artigo após ele.",
+    "'Onde' só para lugar físico; use 'em que' nos demais casos.",
+    "A regência do verbo da adjetiva define a preposição antes do relativo."
+   ],
+   "dica_prova": "Os relativos são minas de pegadinha: 'cujo o' (sempre errado), 'onde' fora de lugar físico, e a falta da preposição exigida pela regência ('o assunto que me referi' está errado — o certo é 'a que me referi'). Em demonstrativos, lembre da regra textual: 'este' aponta para frente (o que será dito), 'esse' retoma o que já foi dito."
+  },
+  {
+   "sid": "conjuncoes",
+   "titulo": "Conjunções",
+   "intro": "Conjunções são palavras invariáveis que conectam orações ou termos de mesma função, estabelecendo entre eles uma relação lógica (adição, oposição, causa, condição etc.). São decisivas para a coesão e a coerência: trocar uma conjunção altera o sentido da frase, e por isso o tema cai muito em questões de reescrita e de relações semânticas.\n\nDividem-se em coordenativas (ligam elementos sintaticamente independentes) e subordinativas (ligam uma oração dependente a uma principal). Mais importante que decorar listas é reconhecer a relação lógica que cada conjunção expressa.",
+   "secoes": [
+    {
+     "h": "Conjunções coordenativas",
+     "p": "Ligam orações independentes e classificam-se em cinco tipos: aditivas (e, nem, não só...mas também), adversativas (mas, porém, contudo, todavia, entretanto, no entanto), alternativas (ou, ou...ou, ora...ora, quer...quer), conclusivas (logo, portanto, pois - depois do verbo, por isso, assim) e explicativas (pois - antes do verbo, porque, que, porquanto).\n\nO 'pois' é versátil e exige atenção: posposto ao verbo é conclusivo ('Estude, pois, o edital' = portanto); anteposto/explicativo justifica ('Estude, pois o edital é extenso' = porque)."
+    },
+    {
+     "h": "Conjunções subordinativas adverbiais",
+     "p": "Introduzem orações adverbiais e expressam circunstâncias: causais (porque, como - início, visto que, já que, uma vez que), consecutivas (tão/tanto/tal...que, de modo que), condicionais (se, caso, contanto que, desde que, salvo se, a menos que), concessivas (embora, ainda que, mesmo que, conquanto, posto que, se bem que), comparativas (como, que nem, assim como), conformativas (conforme, segundo, consoante, como), finais (para que, a fim de que), temporais (quando, enquanto, assim que, logo que) e proporcionais (à medida que, à proporção que, quanto mais).\n\nDistinguir causal de concessiva é vital: causa apresenta o motivo real ('Não foi, porque chovia'); concessão apresenta um obstáculo superado/contrariado ('Foi, embora chovesse')."
+    },
+    {
+     "h": "Conjunções subordinativas integrantes",
+     "p": "São apenas 'que' e 'se', e introduzem orações substantivas (que completam o sentido de um verbo ou nome, funcionando como sujeito, objeto etc.). Ex.: \"É certo que o tributo é devido\" ('que o tributo é devido' = sujeito); \"Não sei se ele pagou\" ('se ele pagou' = objeto).\n\nNão se deve confundir o 'que' integrante (introduz oração substantiva) com o 'que' pronome relativo (introduz adjetiva e tem antecedente) nem com o 'que' conjunção coordenativa. Teste: o relativo pode ser substituído por 'o qual'; o integrante, não."
+    },
+    {
+     "h": "Relações semânticas e reescrita",
+     "p": "As bancas cobram a equivalência entre conjunções que expressam a mesma relação e a mudança de sentido quando se troca a relação. 'Porque' (causa) pode virar 'já que', 'visto que', 'uma vez que' sem alterar sentido; mas trocá-lo por 'embora' (concessão) inverte a lógica.\n\nÉ comum a questão pedir a reescrita de uma frase mantendo o sentido: aí é preciso casar a conjunção com a relação original (adição com adição, oposição com oposição) e ajustar o modo verbal (concessivas e condicionais costumam pedir subjuntivo: 'embora chova', 'se chovesse')."
+    }
+   ],
+   "exemplo": "Considere: \"Embora a empresa tenha recolhido o ICMS, o Fisco manteve a autuação.\"\n\nA conjunção 'embora' é concessiva: introduz um fato (recolhimento) que seria um obstáculo, mas não impede o resultado (autuação mantida). Reescritas que MANTÊM o sentido: 'Ainda que a empresa tenha recolhido...', 'Mesmo tendo recolhido...'. \n\nReescrita que MUDA o sentido (pegadinha): 'Porque a empresa recolheu o ICMS, o Fisco manteve a autuação' — ERRADO, pois transforma concessão em causa, sugerindo absurdamente que o recolhimento motivou a autuação.\n\nObserve ainda o modo verbal: a concessiva pede subjuntivo ('tenha recolhido'), enquanto a causal pediria indicativo ('recolheu').",
+   "pontos_chave": [
+    "Coordenativas: aditiva, adversativa, alternativa, conclusiva, explicativa.",
+    "Adversativa (mas, porém) opõe; concessiva (embora, ainda que) admite obstáculo superado.",
+    "'Pois' posposto ao verbo é conclusivo; anteposto é explicativo/causal.",
+    "Integrantes são só 'que' e 'se' e introduzem orações substantivas.",
+    "Causa = motivo real (indicativo); concessão = contrariedade (subjuntivo).",
+    "Trocar a conjunção pode preservar ou inverter o sentido — atenção à reescrita.",
+    "Relativo 'que' tem antecedente e equivale a 'o qual'; integrante 'que' não."
+   ],
+   "dica_prova": "A pegadinha número um é confundir adversidade/concessão com causa, invertendo a lógica na reescrita. Memorize os grupos de equivalência (causais: porque/já que/visto que/uma vez que; concessivas: embora/ainda que/mesmo que/conquanto). E cuidado com 'pois': sua classificação muda conforme a posição em relação ao verbo."
+  },
+  {
+   "sid": "concordancia-verbal-e-nominal",
+   "titulo": "Concordância verbal e nominal",
+   "intro": "Concordância é o ajuste das palavras entre si. Na concordância verbal, o verbo se flexiona em número e pessoa para harmonizar-se com o sujeito; na nominal, artigos, adjetivos, pronomes e numerais ajustam-se em gênero e número ao substantivo a que se referem. É um dos temas mais densos da sintaxe e cobradíssimo em provas fiscais, pois envolve dezenas de casos especiais.\n\nA regra geral é simples (verbo concorda com o sujeito; nome concorda com o substantivo), mas as exceções — sujeito composto, partitivos, verbos impessoais, expressões fracionárias — é que decidem as questões.",
+   "secoes": [
+    {
+     "h": "Concordância verbal: regra geral e sujeito composto",
+     "p": "O verbo concorda em número e pessoa com o sujeito. Com sujeito composto anteposto, o verbo vai ao plural ('O auditor e o contribuinte compareceram'). Posposto, admite-se concordância com o sujeito mais próximo ou no plural ('Compareceu/Compareceram o auditor e o contribuinte').\n\nQuando o sujeito composto é resumido por um pronome ('Goiás, São Paulo, Minas, tudo prosperou'), o verbo concorda com o resumidor. Sujeitos ligados por 'ou' e 'nem' podem levar o verbo ao singular ou ao plural conforme haja exclusão ou inclusão."
+    },
+    {
+     "h": "Casos especiais de concordância verbal",
+     "p": "Expressões partitivas e quantitativas ('a maioria de', 'grande parte de', 'um terço dos') admitem o verbo no singular (concordando com o núcleo) ou no plural (com o especificador): 'A maioria dos fiscais aprovou/aprovaram'. Porcentagens e frações seguem o numeral ('1% concorda', '30% concordam') ou o termo seguinte.\n\nA expressão 'mais de um' leva o verbo ao singular ('Mais de um auditor compareceu'), salvo se houver reciprocidade ou repetição ('Mais de um fiscal se cumprimentaram'). 'Um e outro' admite singular ou plural; 'um ou outro' fica no singular."
+    },
+    {
+     "h": "Verbos impessoais: a grande pegadinha",
+     "p": "Verbos impessoais não têm sujeito e ficam SEMPRE na 3ª pessoa do singular. Os principais: 'haver' no sentido de existir ('Havia muitos processos', nunca 'Haviam'); 'fazer' indicando tempo decorrido ('Faz dez anos', 'Fazia meses'); e verbos que indicam fenômenos da natureza ('Choveu', 'Anoiteceu').\n\nAtenção: o verbo 'existir' NÃO é impessoal e concorda normalmente ('Existiam muitos processos'). Já o verbo auxiliar de 'haver' impessoal também fica no singular ('Pode haver problemas', 'Deve haver razões')."
+    },
+    {
+     "h": "Concordância nominal: regra e casos especiais",
+     "p": "O adjetivo concorda em gênero e número com o substantivo. Com vários substantivos, o adjetivo anteposto concorda com o mais próximo ('belas casas e jardins'); posposto, vai ao plural ou concorda com o mais próximo ('casas e jardins belos/belas').\n\nCasos especiais: 'é proibido', 'é necessário', 'é bom' ficam invariáveis se o substantivo não tiver determinante ('Entrada é proibido' / 'A entrada é proibida'); 'anexo', 'incluso', 'obrigado' variam (concordam: 'as cópias anexas'); 'menos' e 'pseudo' são invariáveis ('menos pessoas', nunca 'menas'); 'meio' como advérbio é invariável ('meio cansada')."
+    }
+   ],
+   "exemplo": "Avalie a correção: \"Havia muitos débitos tributários, e fazia anos que a maioria dos contribuintes não os quitava.\"\n\n- 'Havia muitos débitos' — CORRETO: 'haver' no sentido de existir é impessoal, fica no singular, ainda que 'débitos' esteja no plural. Escrever 'Haviam muitos débitos' é ERRO clássico.\n- 'fazia anos' — CORRETO: 'fazer' indicando tempo é impessoal, singular.\n- 'a maioria dos contribuintes não os quitava' — CORRETO (concordância com o núcleo 'maioria'); também seria aceito 'não os quitavam' (concordância atrativa com 'contribuintes').\n\nPegadinha frequente: 'Devem haver razões' está ERRADO; como 'haver' é impessoal, o auxiliar também fica no singular: 'Deve haver razões'.",
+   "pontos_chave": [
+    "Verbo concorda com o sujeito; nome concorda com o substantivo.",
+    "'Haver' (existir) e 'fazer' (tempo) são impessoais: sempre 3ª pessoa do singular.",
+    "'Existir' NÃO é impessoal e vai ao plural ('Existiam processos').",
+    "Auxiliar de 'haver' impessoal também fica no singular ('Deve haver').",
+    "Partitivos (a maioria de, parte de) admitem singular ou plural.",
+    "'Mais de um' + verbo no singular (salvo reciprocidade).",
+    "'É proibido/necessário' varia conforme o substantivo tenha ou não determinante."
+   ],
+   "dica_prova": "O 'haver' impessoal flexionado no plural é a pegadinha mais cobrada do Brasil — 'haviam pessoas', 'devem haver motivos' estão sempre ERRADOS. Memorize o contraste com 'existir' (concorda) e fique atento aos partitivos, em que ambas as concordâncias costumam ser aceitas. Em concordância nominal, revise 'anexo/incluso' (variam), 'menos' (invariável) e 'meio' advérbio (invariável)."
+  },
+  {
+   "sid": "regencia-verbal-e-nominal",
+   "titulo": "Regência verbal e nominal",
+   "intro": "Regência estuda a relação de dependência entre um termo regente (verbo ou nome) e seu complemento, indicando se essa ligação exige ou não preposição, e qual. É a base para decidir o uso da crase, a escolha do pronome relativo (a que, em que, de que) e a correção de complementos.\n\nNa regência verbal, o verbo é o termo regente; na nominal, são nomes (substantivos, adjetivos, advérbios). Muitos verbos mudam de sentido conforme a regência (assistir, aspirar, visar, proceder), e é exatamente essa variação que as bancas exploram.",
+   "secoes": [
+    {
+     "h": "Regência verbal: verbos que mudam de sentido",
+     "p": "Vários verbos têm regências diferentes conforme o significado. 'Assistir' = ver/presenciar pede preposição 'a' ('assistir ao filme'); = ajudar é transitivo direto ('o médico assistiu o paciente'); = caber/pertencer pede 'a' ('assiste-lhe esse direito'). 'Aspirar' = desejar pede 'a' ('aspirar ao cargo'); = inalar é direto ('aspirar o ar').\n\n'Visar' = mirar/almejar pede 'a' ('visar ao alvo', 'visar ao lucro'); = dar visto é direto ('visar o cheque'). 'Proceder' = ter fundamento é intransitivo ('a alegação procede'); = originar-se pede 'de'; = realizar pede 'a' ('proceder a uma análise')."
+    },
+    {
+     "h": "Verbos com complemento sempre preposicionado",
+     "p": "Alguns verbos exigem preposição de modo fixo: 'obedecer/desobedecer a' ('obedecer às normas'), 'responder a' ('responder ao ofício'), 'agradar a' (no sentido de contentar: 'agradar aos clientes'; mas 'agradar alguém' = fazer carinho), 'simpatizar com', 'implicar' (no sentido de acarretar é direto: 'a fraude implica pena').\n\n'Preferir' rege complemento direto e indireto com 'a', sem 'do que': o correto é 'prefiro estudar a trabalhar', nunca 'prefiro estudar do que trabalhar'."
+    },
+    {
+     "h": "Verbo 'ir', 'chegar' e a preposição de destino",
+     "p": "Verbos de movimento como 'ir' e 'chegar' regem a preposição 'a', não 'em': o padrão culto é 'Vou a Goiânia', 'Cheguei ao escritório' — e não 'Vou em Goiânia'. Esse é um desvio comum na fala que a prova cobra como erro.\n\nComo esses verbos pedem 'a', surge a possibilidade de crase quando o destino é feminino e admite artigo: 'Vou à escola' (a + a). É a regência que justifica a crase."
+    },
+    {
+     "h": "Regência nominal",
+     "p": "Nomes (substantivos, adjetivos, advérbios) também regem complementos preposicionados. Exemplos cobrados: 'acessível a', 'apto a', 'ávido de/por', 'compatível com', 'consciente de', 'favorável a', 'preferível a', 'respeito a/por', 'curioso de/por', 'imune a/de'.\n\nMuitas vezes o nome compartilha a regência do verbo correspondente: 'obedecer a' / 'obediência a'; 'aspirar a' / 'aspiração a'. Conhecer a regência nominal é o que permite escolher o pronome relativo correto ('o cargo a que aspiro', 'o documento de que preciso')."
+    },
+    {
+     "h": "Regência e a escolha do pronome relativo",
+     "p": "A preposição exigida pela regência 'sobe' para junto do pronome relativo. Se o verbo é 'precisar de', diz-se 'o documento DE que preciso'; se é 'confiar em', 'a pessoa EM quem confio'; se é 'aspirar a', 'a meta A que aspiro' (ou 'à qual').\n\nOmitir a preposição é erro frequente: 'o assunto que me refiro' está ERRADO ('referir-se a' exige 'a'); o correto é 'o assunto A que me refiro'. Esse mecanismo conecta regência, crase e pronome relativo num só ponto."
+    }
+   ],
+   "exemplo": "Analise: \"O auditor a que o contribuinte se referiu assistiu à sessão e aspira ao cargo de chefia.\"\n\n- 'a que o contribuinte se referiu' — CORRETO: 'referir-se a' exige preposição 'a', que aparece antes do relativo 'que'.\n- 'assistiu à sessão' — CORRETO: 'assistir' no sentido de presenciar pede 'a'; como 'sessão' é feminina e admite artigo, há crase (a + a = à).\n- 'aspira ao cargo' — CORRETO: 'aspirar' no sentido de almejar pede 'a' ('ao cargo' = a + o).\n\nPegadinha clássica: 'assisti o jogo' (sem preposição) está ERRADO no padrão culto quando significa presenciar; e 'prefiro isto do que aquilo' está ERRADO — o correto é 'prefiro isto a aquilo'.",
+   "pontos_chave": [
+    "Assistir/aspirar/visar/proceder mudam de regência conforme o sentido.",
+    "Assistir (ver) = preposição 'a'; assistir (ajudar) = direto.",
+    "'Preferir' pede 'a', nunca 'do que' ('prefiro X a Y').",
+    "Verbos de movimento (ir, chegar) regem 'a', não 'em' ('vou a Goiânia').",
+    "Obedecer, responder, referir-se exigem preposição 'a'.",
+    "A preposição da regência sobe para junto do pronome relativo (a que, de que, em que).",
+    "A regência verbal/nominal é o que justifica (ou proíbe) a crase."
+   ],
+   "dica_prova": "Decore o quarteto 'assistir/aspirar/visar/proceder' com seus dois sentidos — é presença garantida. Lembre que 'preferir' nunca aceita 'do que' e que verbos de movimento pedem 'a' (não 'em'). E sempre que vir um pronome relativo, verifique a regência do verbo da oração adjetiva: a ausência da preposição obrigatória ('o que me refiro' em vez de 'a que me refiro') é erro recorrente."
+  },
+  {
+   "sid": "colocacao-pronominal",
+   "titulo": "Colocação pronominal",
+   "intro": "Colocação pronominal é o estudo da posição dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, lhes) em relação ao verbo. Há três posições possíveis: próclise (antes do verbo: 'me diga'), mesóclise (no meio do verbo: 'dir-me-á') e ênclise (depois do verbo: 'diga-me').\n\nA regra padrão da norma culta brasileira favorece a ênclise, mas há fatores de atração que obrigam a próclise e situações específicas que pedem mesóclise. Saber identificar as palavras atrativas é o segredo para acertar as questões.",
+   "secoes": [
+    {
+     "h": "Próclise: pronome antes do verbo",
+     "p": "Usa-se próclise quando há uma palavra atrativa antes do verbo. As principais palavras atrativas são: advérbios (não, nunca, jamais, sempre, talvez, aqui — 'Nunca me disseram'); palavras negativas (ninguém, nada — 'Ninguém o viu'); pronomes relativos ('o documento que me enviaram'); pronomes indefinidos ('Alguém te chamou'); conjunções subordinativas ('quando se trata de tributos'); pronomes interrogativos ('Quem te avisou?'); e orações exclamativas/optativas ('Deus te abençoe!').\n\nRegra prática: se houver palavra de sentido negativo, advérbio ou conjunção subordinante antes do verbo (sem vírgula entre eles), a próclise é obrigatória."
+    },
+    {
+     "h": "Ênclise: pronome depois do verbo",
+     "p": "A ênclise é a colocação padrão quando não há fator de próclise. Usa-se obrigatoriamente: no início de oração ('Diga-me a verdade', nunca 'Me diga' na escrita formal); após pausa/vírgula ('Terminado o prazo, intimou-se o réu'); com o verbo no imperativo afirmativo ('Faça-o agora'); com gerúndio sem 'em' precedente ('Saiu reclamando-se do imposto').\n\nObservação: na fala e na escrita informal a próclise inicial é comum, mas em prova a regra culta proíbe começar oração com pronome átono."
+    },
+    {
+     "h": "Mesóclise: pronome no meio do verbo",
+     "p": "A mesóclise ocorre apenas com verbos no futuro do presente ('far-se-á') e no futuro do pretérito ('far-se-ia'), desde que NÃO haja palavra atrativa que exija próclise. O pronome encaixa-se entre o radical e a desinência: 'entregar-lhe-ei', 'dir-te-ia'.\n\nSe houver fator de próclise, ela prevalece sobre a mesóclise: 'Não lhe entregarei' (e não 'não entregar-lhe-ei'). A mesóclise é rara na fala, mas cobrada na escrita formal — e a banca testa se o candidato sabe que palavra atrativa cancela a mesóclise."
+    },
+    {
+     "h": "Colocação em locuções verbais",
+     "p": "Com locuções (auxiliar + principal), as regras variam conforme a forma do verbo principal. Com infinitivo ou gerúndio, o pronome pode vir após o auxiliar ou após o principal ('Vou dizer-lhe' / 'Vou-lhe dizer' / 'Quero contar-te'). Se houver palavra atrativa, o pronome vai antes do auxiliar ('Não lhe vou dizer').\n\nCom particípio, o pronome NÃO pode ficar depois do particípio: 'Tinha-me avisado' (correto), 'Tinha avisado-me' (errado). Vai antes do auxiliar ou junto a ele."
+    }
+   ],
+   "exemplo": "Classifique a colocação em: \"Não me convém adiar o pagamento; far-se-á a cobrança assim que se vencer o prazo.\"\n\n- 'Não me convém' — PRÓCLISE obrigatória: o advérbio 'não' atrai o pronome para antes do verbo.\n- 'far-se-á' — MESÓCLISE correta: verbo no futuro do presente ('fará') sem palavra atrativa antes; o pronome 'se' encaixa-se no meio.\n- 'assim que se vencer' — PRÓCLISE: a conjunção subordinativa 'assim que' atrai o pronome.\n\nPegadinha de prova: \"Não far-se-á a cobrança\" está ERRADO — a presença do 'não' (atrativo) cancela a mesóclise e exige próclise: 'Não se fará a cobrança'. Igualmente, começar frase formal com 'Me parece...' é considerado erro; o correto é 'Parece-me...'.",
+   "pontos_chave": [
+    "Próclise: pronome antes do verbo, exigida por palavras atrativas.",
+    "Atrativos: negação, advérbio, conjunção subordinativa, pronome relativo/indefinido/interrogativo.",
+    "Ênclise: padrão; obrigatória no início de oração e após pausa.",
+    "Mesóclise: só em futuro do presente e do pretérito, sem palavra atrativa.",
+    "Palavra atrativa cancela a mesóclise e impõe próclise.",
+    "Não se inicia oração formal com pronome átono ('Me diga' é informal).",
+    "Com particípio, o pronome nunca vem depois dele."
+   ],
+   "dica_prova": "O coração das questões é detectar a palavra atrativa: presença de 'não', advérbio ou conjunção subordinante antes do verbo (sem vírgula) torna a próclise obrigatória e proíbe ênclise/mesóclise. As duas pegadinhas mais cobradas: (1) mesóclise indevida com 'não' antes ('não far-se-á' é erro); (2) iniciar oração com pronome átono na escrita formal."
+  },
+  {
+   "sid": "periodo-composto",
+   "titulo": "Período composto",
+   "intro": "Período é a frase organizada em torno de um ou mais verbos. Período simples tem uma só oração (um verbo); período composto tem duas ou mais orações. As orações de um período composto relacionam-se por coordenação (são independentes entre si) ou por subordinação (uma depende sintaticamente da outra).\n\nReconhecer o tipo de relação entre as orações é o que orienta a pontuação e a interpretação. Por isso, esse tópico costura sintaxe e pontuação: saber se uma oração é coordenada ou subordinada, e de que tipo, define onde a vírgula pode ou não entrar.",
+   "secoes": [
+    {
+     "h": "Período composto por coordenação",
+     "p": "Na coordenação, as orações são sintaticamente independentes — nenhuma exerce função dentro da outra. Podem ser assindéticas (justapostas, sem conjunção: 'Cheguei, vi, venci') ou sindéticas (introduzidas por conjunção coordenativa). As sindéticas classificam-se conforme a conjunção: aditivas, adversativas, alternativas, conclusivas e explicativas.\n\nA pontuação na coordenação é generosa: separam-se orações coordenadas por vírgula, e antes de 'mas', 'porém', 'pois' (conclusivo/explicativo) costuma haver vírgula. Antes de 'e' aditivo, em regra não se usa vírgula, salvo quando os sujeitos são diferentes ou para efeito enfático."
+    },
+    {
+     "h": "Período composto por subordinação",
+     "p": "Na subordinação, uma oração (subordinada) exerce uma função sintática dentro de outra (principal). Conforme a função, classificam-se em três grandes grupos: substantivas (valor de substantivo — sujeito, objeto, complemento nominal etc.), adjetivas (valor de adjetivo — modificam um substantivo) e adverbiais (valor de advérbio — expressam circunstâncias como causa, condição, tempo).\n\nA dependência sintática é o que distingue a subordinação da coordenação: a subordinada 'preenche um espaço' da principal, enquanto a coordenada apenas se soma a outra oração completa."
+    },
+    {
+     "h": "Orações subordinadas substantivas",
+     "p": "Funcionam como um substantivo. São introduzidas pelas conjunções integrantes 'que' e 'se' e classificam-se pela função: subjetiva (sujeito: 'É necessário que estudes'), objetiva direta (objeto direto: 'Quero que venças'), objetiva indireta (objeto indireto: 'Lembro-me de que prometi'), completiva nominal, predicativa e apositiva.\n\nDica: para reconhecer, substitua a oração por 'isto' — se couber, é substantiva ('É necessário ISTO', 'Quero ISTO')."
+    },
+    {
+     "h": "Orações adverbiais e a pontuação",
+     "p": "As subordinadas adverbiais expressam circunstâncias e são introduzidas por conjunções subordinativas adverbiais (causa, condição, concessão, tempo, finalidade etc.). Quando vêm antepostas ou intercaladas à principal, são isoladas por vírgula ('Se chover, ficaremos'; 'Ficaremos, se chover' — a vírgula é facultativa quando posposta e curta).\n\nA posição da adverbial é decisiva para a pontuação: deslocada para o início, exige vírgula; em sua posição natural (depois da principal), a vírgula muitas vezes é dispensável. Esse é um ponto de prova: justificar a vírgula pela existência de oração adverbial deslocada."
+    }
+   ],
+   "exemplo": "Classifique as orações em: \"Embora o prazo tenha vencido, o contribuinte alegou que desconhecia a regra, mas o Fisco não aceitou a justificativa.\"\n\n- 'Embora o prazo tenha vencido,' — subordinada adverbial concessiva, anteposta (por isso a vírgula).\n- 'o contribuinte alegou' — oração principal.\n- 'que desconhecia a regra' — subordinada substantiva objetiva direta (complementa 'alegou'; cabe 'alegou isto').\n- 'mas o Fisco não aceitou a justificativa' — coordenada sindética adversativa (independente, ligada por 'mas').\n\nPegadinha: a vírgula antes de 'que desconhecia' seria ERRO, pois não se separa por vírgula a oração substantiva objetiva direta de seu verbo; já a vírgula antes de 'mas' é obrigatória (coordenada adversativa).",
+   "pontos_chave": [
+    "Período simples = 1 oração; composto = 2 ou mais orações.",
+    "Coordenação: orações independentes (assindéticas ou sindéticas).",
+    "Subordinação: uma oração exerce função sintática dentro da outra.",
+    "Subordinadas substantivas (= isto), adjetivas (= adjetivo) e adverbiais (= circunstância).",
+    "Integrantes 'que/se' introduzem substantivas; não se separam do verbo por vírgula.",
+    "Adverbial deslocada (anteposta/intercalada) exige vírgula.",
+    "Antes de 'mas/porém' há vírgula; antes de 'e' aditivo, em regra, não."
+   ],
+   "dica_prova": "A grande pegadinha é colocar vírgula entre o verbo e a oração substantiva objetiva direta ('Acredito, que...' é ERRO). Diferencie sempre coordenação (orações completas que se somam) de subordinação (oração que preenche função). E lembre: oração adverbial deslocada para o início pede vírgula — é a justificativa mais cobrada para o uso da vírgula no período composto."
+  },
+  {
+   "sid": "oracoes-adjetivas",
+   "titulo": "Orações adjetivas",
+   "intro": "As orações subordinadas adjetivas funcionam como um adjetivo: modificam um substantivo antecedente e são introduzidas por pronomes relativos (que, qual, quem, cujo, onde). Dividem-se em dois tipos com consequências decisivas para a pontuação e o sentido: explicativas e restritivas.\n\nA diferença entre elas não é só gramatical — é semântica. Trocar uma pela outra (colocando ou retirando vírgulas) muda o significado da frase. Por isso, esse é um dos pontos mais cobrados em provas, sobretudo em itens de reescrita e de alteração de sentido.",
+   "secoes": [
+    {
+     "h": "Oração adjetiva explicativa",
+     "p": "A explicativa acrescenta uma informação acessória sobre o antecedente, que já está suficientemente definido. Vem SEMPRE isolada por vírgulas (ou travessões/parênteses) e poderia ser retirada sem prejuízo essencial ao sentido nuclear. Ela atribui a característica a TODO o conjunto do antecedente.\n\nExemplo: 'Os auditores, que passaram no concurso, foram nomeados' — entende-se que TODOS os auditores passaram (e todos foram nomeados); a oração apenas comenta um fato já dado."
+    },
+    {
+     "h": "Oração adjetiva restritiva",
+     "p": "A restritiva delimita/especifica o antecedente, restringindo seu alcance a um subconjunto. NÃO vem entre vírgulas e é indispensável ao sentido pretendido. Ela seleciona, dentro do universo do antecedente, apenas aqueles que satisfazem a condição.\n\nExemplo: 'Os auditores que passaram no concurso foram nomeados' (sem vírgulas) — entende-se que SOMENTE os que passaram foram nomeados; havia auditores que não passaram. A ausência de vírgula muda completamente a leitura."
+    },
+    {
+     "h": "A vírgula como divisor de sentido",
+     "p": "O contraste entre os dois exemplos acima mostra que a vírgula é semântica nas adjetivas: presente, transforma a oração em explicativa (vale para todos); ausente, em restritiva (vale só para alguns). As bancas exploram exatamente essa troca: dão a frase com vírgula e perguntam se o sentido muda quando ela é retirada (muda!).\n\nRegra mnemônica: vírgula = explicativa = comentário sobre o todo; sem vírgula = restritiva = recorte de uma parte."
+    },
+    {
+     "h": "O pronome relativo e sua função",
+     "p": "Em ambos os tipos, o relativo exerce uma função sintática dentro da oração adjetiva (sujeito, objeto, adjunto). A regência do verbo da adjetiva pode exigir preposição antes do relativo ('o assunto a que me referi', 'a cidade em que nasci', 'o livro de que gosto'). 'Cujo' estabelece posse entre dois substantivos e nunca vem acompanhado de artigo.\n\nUma adjetiva mal pontuada combinada com relativo mal regido é um campo fértil de erros: a prova pode cobrar ao mesmo tempo a vírgula (tipo da adjetiva) e a preposição (regência)."
+    }
+   ],
+   "exemplo": "Compare os dois períodos e seus sentidos:\n\n(1) 'Os contribuintes, que sonegaram, serão autuados.' — EXPLICATIVA: a vírgula indica que TODOS os contribuintes sonegaram e, portanto, todos serão autuados. Interpretação absurda se o contexto pressupõe contribuintes honestos.\n\n(2) 'Os contribuintes que sonegaram serão autuados.' — RESTRITIVA: sem vírgula, apenas o subconjunto que sonegou será autuado; os demais, não.\n\nQuestão típica: \"A retirada das vírgulas em (1) altera o sentido?\" — SIM: passa de 'todos sonegaram' para 'apenas alguns sonegaram'. Essa alteração de sentido por pontuação é a pegadinha mais clássica das adjetivas.",
+   "pontos_chave": [
+    "Adjetiva = oração com valor de adjetivo, introduzida por pronome relativo.",
+    "Explicativa: entre vírgulas, informação acessória, vale para todo o antecedente.",
+    "Restritiva: sem vírgulas, delimita o antecedente a um subconjunto.",
+    "A vírgula é semântica: incluí-la ou retirá-la muda o sentido.",
+    "A regência do verbo da adjetiva pode exigir preposição antes do relativo.",
+    "'Cujo' indica posse e não admite artigo após ele.",
+    "Mnemônico: com vírgula = todos (explicativa); sem vírgula = alguns (restritiva)."
+   ],
+   "dica_prova": "A pegadinha-mãe é a alteração de sentido pela vírgula: a banca acrescenta ou retira as vírgulas e pergunta se o significado muda — e quase sempre muda (de 'todos' para 'apenas alguns', ou vice-versa). Treine reconhecer se o antecedente já está definido (pede explicativa) ou se precisa ser delimitado (pede restritiva). E combine com regência: verifique a preposição antes do relativo."
+  },
+  {
+   "sid": "coesao-e-coerencia",
+   "titulo": "Coesão e coerência",
+   "intro": "Coesão e coerência são as duas propriedades que transformam um amontoado de frases em um texto. A coesão é a amarração formal e visível entre as partes (conectivos, pronomes, elipses, repetições controladas); a coerência é a unidade de sentido, a lógica global que faz o texto 'fechar'.\n\nUm texto pode ser coeso e incoerente (bem conectado, mas sem sentido lógico) ou coerente com falhas de coesão. Em prova, o tema aparece em questões de substituição de conectivos, identificação de referentes e avaliação se uma reescrita preserva a articulação textual.",
+   "secoes": [
+    {
+     "h": "Coesão referencial",
+     "p": "É a que retoma ou antecipa elementos por meio de palavras de referência. Os mecanismos: anáfora (retoma um termo já dito: 'O auditor chegou; ele...'), catáfora (anuncia o que virá: 'Só peço isto: silêncio'), pronomes, advérbios e expressões resumitivas ('tal medida', 'esse fato', 'o referido processo').\n\nA elipse (omissão de um termo recuperável pelo contexto) também é coesiva: 'O fiscal entrou e [o fiscal] sentou-se'. Em prova, cobra-se identificar o referente correto de um pronome ou expressão — erro comum é apontar referente errado."
+    },
+    {
+     "h": "Coesão sequencial (conectivos)",
+     "p": "É a que encadeia as ideias por meio de conectivos (conjunções, preposições, advérbios) que expressam relações lógico-semânticas: adição (além disso, ademais), oposição (porém, no entanto, em contrapartida), causa (porque, já que), consequência (portanto, por isso), condição (caso, desde que), finalidade (para que, a fim de), conclusão (logo, assim).\n\nO conectivo é a 'ponte' que sinaliza a relação. Substituí-lo por outro de relação diferente quebra a lógica: trocar 'portanto' (conclusão) por 'porque' (causa) inverte a direção do raciocínio."
+    },
+    {
+     "h": "Coerência: a lógica do sentido",
+     "p": "A coerência depende de princípios como não contradição (o texto não pode afirmar e negar a mesma coisa), continuidade temática (as ideias se conectam ao tema), progressão (o texto avança, acrescenta informação) e relação adequada com o contexto/conhecimento de mundo.\n\nUma quebra de coerência ocorre quando uma conclusão não decorre das premissas, quando há contradição entre parágrafos ou quando se rompe a relação lógica esperada. A coerência é avaliada no nível global do texto, não apenas frase a frase."
+    },
+    {
+     "h": "Substituição de conectivos e reescrita",
+     "p": "Questões clássicas pedem para substituir um conectivo por outro 'mantendo o sentido'. Só é válido trocar por um da MESMA relação lógica: 'porque' por 'visto que' (ambas causa), 'mas' por 'contudo' (ambas oposição). Trocar por relação diferente é erro, ainda que a frase continue gramatical.\n\nAtenção também à pontuação e ao modo verbal que certos conectivos arrastam: condicionais e concessivas pedem subjuntivo ('caso pague', 'embora pague'). Uma reescrita coerente preserva relação lógica, regência, modo verbal e referentes."
+    }
+   ],
+   "exemplo": "Texto: \"A empresa quitou todos os débitos; portanto, regularizou sua situação fiscal.\"\n\nQuestão: \"Assinale a substituição de 'portanto' que mantém o sentido.\"\n- 'por conseguinte' / 'logo' — CORRETO: conectivos conclusivos, mesma relação (conclusão).\n- 'porque' — ERRADO: introduz causa, invertendo a lógica (sugeriria que regularizar a situação foi a causa de quitar os débitos).\n- 'embora' — ERRADO: concessão, muda totalmente o sentido.\n\nOutra pegadinha (coesão referencial): em \"O Fisco notificou a empresa, mas ela não respondeu\", o pronome 'ela' retoma 'a empresa', não 'o Fisco'. Apontar 'o Fisco' como referente seria erro de identificação anafórica.",
+   "pontos_chave": [
+    "Coesão = amarração formal (conectivos, pronomes, elipses); coerência = unidade de sentido.",
+    "Coesão referencial: anáfora (retoma), catáfora (antecipa), elipse (omite).",
+    "Coesão sequencial: conectivos que marcam adição, oposição, causa, conclusão etc.",
+    "Trocar conectivo só preserva o sentido se for da mesma relação lógica.",
+    "Coerência exige não contradição, continuidade temática e progressão.",
+    "Um texto pode ser coeso e incoerente, ou vice-versa.",
+    "Identificar o referente correto de um pronome é cobrança frequente."
+   ],
+   "dica_prova": "Nas questões de substituição de conectivos, classifique primeiro a relação lógica do original (causa? oposição? conclusão?) e só aceite a troca por um conectivo da mesma classe. A pegadinha é oferecer um conectivo gramaticalmente encaixável, mas de relação diferente (trocar conclusão por causa). Em referenciação, sempre confirme qual termo o pronome retoma — o mais próximo nem sempre é o correto."
+  },
+  {
+   "sid": "figuras-de-linguagem",
+   "titulo": "Figuras de linguagem",
+   "intro": "Figuras de linguagem são recursos expressivos que afastam a linguagem de seu sentido literal (denotativo) para criar efeitos de estilo, ênfase ou conotação. Aparecem sobretudo em textos literários, publicitários e jornalísticos, e são cobradas em questões de interpretação que perguntam o efeito de sentido de uma passagem.\n\nClassificam-se, didaticamente, em figuras de palavras (semânticas), figuras de pensamento, figuras de sintaxe (construção) e figuras de som. Em textos oficiais predomina a denotação; por isso o conhecimento das figuras é mobilizado mais na leitura de outros gêneros do que na redação oficial.",
+   "secoes": [
+    {
+     "h": "Figuras de palavras (semânticas)",
+     "p": "Baseiam-se na transferência de sentido. Metáfora: comparação implícita por semelhança ('Aquele auditor é uma raposa' = astuto). Comparação (símile): explícita, com conectivo ('astuto como uma raposa'). Metonímia: substituição por relação de contiguidade ('ler Machado' = a obra pelo autor; 'beber um copo' = o conteúdo pelo recipiente).\n\nCatacrese: metáfora desgastada, já lexicalizada ('pé da mesa', 'asa da xícara'). Sinestesia: cruzamento de sensações ('cor quente', 'voz doce')."
+    },
+    {
+     "h": "Figuras de pensamento",
+     "p": "Operam sobre as ideias. Antítese: oposição de palavras/ideias ('do amor ao ódio'). Paradoxo: contradição aparente que encerra um sentido ('é ferida que dói e não se sente'). Ironia: dizer o contrário do que se pensa, com intenção crítica ('Que pontualidade!' a quem chega tarde). Eufemismo: suavizar uma ideia desagradável ('passou desta para melhor' = morreu). Hipérbole: exagero ('chorar rios de lágrimas'). Prosopopeia/personificação: atribuir traços humanos a seres inanimados ('o vento sussurrava')."
+    },
+    {
+     "h": "Figuras de sintaxe (construção)",
+     "p": "Atuam na estrutura da frase. Elipse: omissão de termo facilmente recuperável ('Na sala, apenas dois fiscais' — omite-se 'havia'). Zeugma: elipse de termo já citado ('Ela prefere o café; eu, o chá'). Pleonasmo: redundância para ênfase ('vi com meus próprios olhos'); o pleonasmo vicioso é erro ('subir para cima'). Anáfora: repetição de palavra no início de versos/orações. Hipérbato/inversão: alteração da ordem natural. Polissíndeto: repetição de conectivos ('e corre, e grita, e chora')."
+    },
+    {
+     "h": "Figuras de som e denotação x conotação",
+     "p": "Figuras de som: aliteração (repetição de consoantes), assonância (repetição de vogais), onomatopeia (imitação de sons: 'tique-taque') e paronomásia (jogo com palavras parecidas).\n\nO pano de fundo de tudo é a oposição denotação (sentido literal, objetivo, dos dicionários) x conotação (sentido figurado, subjetivo, contextual). O texto oficial e o técnico exigem denotação; a literatura e a publicidade exploram a conotação. Saber distinguir o uso denotativo do conotativo de uma palavra é cobrança frequente em interpretação."
+    }
+   ],
+   "exemplo": "Identifique a figura predominante em cada caso:\n\n(1) 'O Palácio das Esmeraldas anunciou o novo programa fiscal.' — METONÍMIA: o prédio (sede do governo de Goiás) pela instituição/autoridade que o ocupa (continente pelo conteúdo).\n\n(2) 'A reforma tributária é um parto interminável.' — METÁFORA: comparação implícita entre a dificuldade da reforma e um parto difícil.\n\n(3) 'Que reforma simples!' dito sobre um sistema complexíssimo — IRONIA: afirma-se o contrário do que se quer dizer, com crítica.\n\nPegadinha de prova: confundir metáfora (sem conectivo, comparação implícita) com comparação (com conectivo 'como', 'tal qual'); e tomar por metáfora o que é metonímia (relação de contiguidade, não de semelhança).",
+   "pontos_chave": [
+    "Metáfora: comparação implícita por semelhança; comparação tem conectivo explícito.",
+    "Metonímia: substituição por contiguidade (autor/obra, continente/conteúdo).",
+    "Ironia: dizer o contrário do pretendido, com crítica; eufemismo suaviza.",
+    "Hipérbole exagera; personificação humaniza o inanimado.",
+    "Elipse e zeugma omitem termos; pleonasmo enfatiza (vicioso quando redundante).",
+    "Denotação = sentido literal; conotação = sentido figurado.",
+    "Texto oficial é denotativo; figuras predominam em literatura e jornalismo."
+   ],
+   "dica_prova": "As confusões mais cobradas: metáfora x comparação (a comparação tem 'como'; a metáfora, não) e metáfora x metonímia (semelhança x contiguidade). Lembre que metonímia abrange casos como 'autor pela obra' e 'lugar pela instituição'. Em interpretação, a banca costuma perguntar se uma palavra está em sentido denotativo ou conotativo — leia sempre no contexto, pois a mesma palavra pode ter os dois usos."
+  },
+  {
+   "sid": "atributos-do-texto-oficial",
+   "titulo": "Atributos do texto oficial",
+   "intro": "A redação oficial é a maneira pela qual a Administração Pública redige atos normativos e comunicações. Não é um estilo pessoal, mas um conjunto de atributos padronizados que decorrem do princípio constitucional da impessoalidade (art. 37 da CF/88) e visam a uma comunicação clara, uniforme e eficiente entre os órgãos e com o cidadão.\n\nO Manual de Redação da Presidência da República é a referência nacional e consolida esses atributos. Para o Auditor-Fiscal, que redige pareceres, despachos e autos, dominar esses princípios é tanto matéria de prova quanto requisito da atividade profissional.",
+   "secoes": [
+    {
+     "h": "Impessoalidade",
+     "p": "A comunicação oficial não tem um autor 'pessoal' nem um destinatário 'particular': é a Administração (o cargo, o órgão) que se comunica com outro órgão ou com o cidadão em geral. Por isso, evita-se a impressão individual de quem redige; o texto trata do assunto de forma objetiva, sem marcas de subjetividade, emoção ou estilo próprio.\n\nA impessoalidade decorre diretamente do princípio constitucional homônimo (LIMPE, art. 37). Na prática, traduz-se no uso de terceira pessoa, na ausência de expressões afetivas e no foco no interesse público, não no interlocutor específico."
+    },
+    {
+     "h": "Clareza, concisão e objetividade",
+     "p": "Clareza é a qualidade do texto que se faz entender de imediato, sem ambiguidade; exige período bem estruturado, pontuação correta e ausência de jargão obscuro. Concisão é dizer o necessário com o mínimo de palavras, sem rodeios nem redundâncias — mas sem prejuízo da clareza. Objetividade é ir direto ao ponto, evitando divagações.\n\nEsses três atributos andam juntos: um texto oficial deve transmitir a informação de modo direto e econômico, de forma que o leitor a apreenda na primeira leitura. Rebuscamento e prolixidade são defeitos, não virtudes."
+    },
+    {
+     "h": "Formalidade, padronização e uso da norma culta",
+     "p": "A redação oficial emprega a norma-padrão (culta) da língua: gramática correta, vocabulário formal, sem gírias, regionalismos ou abreviações informais. A formalidade refere-se ao tratamento polido e cerimonioso (pronomes de tratamento adequados, fechos respeitosos) e à civilidade.\n\nA padronização (uniformidade) garante que documentos do mesmo tipo sigam a mesma estrutura, diagramação e linguagem, independentemente de quem os redige — o que reforça a impessoalidade e facilita a tramitação. Uma observação importante do Manual atual: o uso de pronome de tratamento deve manter a concordância na terceira pessoa."
+    },
+    {
+     "h": "Concordância dos pronomes de tratamento",
+     "p": "Embora os pronomes de tratamento se dirijam à segunda pessoa (a quem se fala), gramaticalmente exigem concordância em terceira pessoa: 'Vossa Senhoria conhece o assunto e apresentará seu parecer' (não 'apresentareis vosso'). Os pronomes possessivos e os verbos vão para a 3ª pessoa.\n\nOutra regra: 'Vossa' usa-se quando falamos COM a autoridade (interlocutor presente); 'Sua' quando falamos DELA, em sua ausência ('Sua Excelência o Governador'). Esse contraste Vossa/Sua é uma pegadinha recorrente."
+    }
+   ],
+   "exemplo": "Avalie o trecho de um ofício: \"Venho, mui respeitosamente e com imensa alegria, comunicar a Vossa Senhoria que ficastes incumbido da análise.\"\n\nProblemas: (1) 'com imensa alegria' fere a impessoalidade e a objetividade (marca subjetiva/emocional); (2) 'mui respeitosamente' é rebuscamento, contra a concisão; (3) 'ficastes' (2ª pessoa do plural) viola a concordância dos pronomes de tratamento, que exigem 3ª pessoa.\n\nReescrita adequada: \"Comunico a Vossa Senhoria que ficou incumbido da análise.\" — impessoal, conciso, claro e com concordância correta (3ª pessoa: 'ficou').\n\nPegadinha clássica: o Manual atual eliminou os fechos exageradamente cerimoniosos e adotou apenas 'Atenciosamente' e 'Respeitosamente'; usar fechos antigos e pomposos é considerado inadequado.",
+   "pontos_chave": [
+    "Impessoalidade decorre do art. 37 da CF/88 (princípio LIMPE).",
+    "Atributos centrais: impessoalidade, clareza, concisão, objetividade, formalidade, uniformidade.",
+    "Usa-se a norma culta; proíbem-se gírias, regionalismos e rebuscamento.",
+    "Pronomes de tratamento exigem concordância em 3ª pessoa.",
+    "'Vossa' (falando COM a autoridade) x 'Sua' (falando DELA, ausente).",
+    "Concisão é economia de palavras sem perder a clareza.",
+    "O Manual atual admite só dois fechos: 'Atenciosamente' e 'Respeitosamente'."
+   ],
+   "dica_prova": "A pegadinha número um é a concordância dos pronomes de tratamento: eles pedem verbo e possessivo na 3ª pessoa ('Vossa Senhoria apresentará seu parecer', nunca 'apresentareis vosso'). Memorize também o par Vossa/Sua e o fato de que marcas de subjetividade/emoção e o rebuscamento ferem a impessoalidade e a concisão. A banca adora trechos pomposos para você apontar o erro."
+  },
+  {
+   "sid": "tipos-de-documentos",
+   "titulo": "Tipos de documentos",
+   "intro": "A redação oficial materializa-se em diferentes espécies de documentos, cada um com função, estrutura e formalidades próprias. O candidato deve reconhecer cada tipo, suas partes constitutivas (vocativo, corpo, fecho), o pronome de tratamento adequado e o fecho correto.\n\nUma novidade importante do Manual de Redação da Presidência (3ª edição) foi a unificação das comunicações oficiais sob o nome de 'ofício', extinguindo a antiga distinção entre ofício, memorando e aviso. Esse ponto é muito cobrado e atualiza conceitos que ainda circulam em materiais antigos.",
+   "secoes": [
+    {
+     "h": "O padrão ofício",
+     "p": "A 3ª edição do Manual de Redação da Presidência unificou as três antigas modalidades (ofício, aviso e memorando) em um único tipo: o ofício, que adota o chamado 'padrão ofício'. Assim, tanto comunicações internas quanto externas usam essa mesma estrutura.\n\nO padrão ofício compõe-se de: tipo e número do documento, local e data, endereçamento, assunto (resumido), vocativo, texto (corpo dividido em introdução, desenvolvimento e conclusão), fecho, assinatura (nome e cargo do signatário) e identificação do signatário. A numeração dos parágrafos é recomendada quando o texto tem três ou mais."
+    },
+    {
+     "h": "Documentos de instrução e decisão: parecer e despacho",
+     "p": "Parecer é a manifestação técnica ou jurídica, fundamentada, sobre determinada matéria, opinando e orientando a decisão da autoridade (muito usado pela fiscalização para fundamentar autuações). Estrutura típica: relatório (o que se examina), fundamentação (análise) e conclusão (opinião).\n\nDespacho é a decisão ou o encaminhamento proferido pela autoridade sobre um requerimento ou processo; pode ser decisório (resolve) ou de mero expediente (encaminha). É geralmente breve e lançado nos próprios autos do processo."
+    },
+    {
+     "h": "Documentos de registro: ata, relatório e exposição de motivos",
+     "p": "Ata é o registro fiel e resumido dos fatos, deliberações e ocorrências de uma reunião ou sessão; redige-se em texto corrido, sem parágrafos numerados, e tradicionalmente sem rasuras (correções com 'digo' ou 'em tempo'). Relatório é a exposição circunstanciada de atividades, fatos ou resultados, com finalidade informativa ou de prestação de contas.\n\nExposição de Motivos é o expediente dirigido ao Presidente ou Vice para informar, propor medida ou submeter projeto de ato normativo. Mensagem é a comunicação entre chefes de Poder (do Executivo ao Legislativo, por exemplo)."
+    },
+    {
+     "h": "Vocativos, pronomes de tratamento e fechos",
+     "p": "O vocativo invoca o destinatário. Para autoridades em geral, usa-se 'Senhor' + cargo ('Senhor Secretário'); para as mais altas (chefes de Poder), 'Excelentíssimo Senhor'. Os pronomes de tratamento variam conforme a autoridade: 'Vossa Excelência' (altas autoridades dos três Poderes, como governador, ministros, parlamentares, juízes); 'Vossa Senhoria' (demais autoridades e particulares); 'Vossa Magnificência' (reitores, embora hoje se admita 'Vossa Excelência').\n\nQuanto aos fechos, o Manual atual reduziu a apenas dois: 'Respeitosamente' (para autoridade superior) e 'Atenciosamente' (para autoridades de mesma hierarquia ou inferior). Os abreviações dos pronomes: V. Exa., V. Sa."
+    }
+   ],
+   "exemplo": "Questão típica: \"Conforme o Manual de Redação da Presidência (3ª ed.), assinale a alternativa correta.\"\n\n- 'O memorando é a comunicação interna e o aviso, a externa entre ministros.' — ERRADO (desatualizado): o Manual atual unificou tudo no 'padrão ofício'; memorando e aviso deixaram de existir como tipos distintos.\n- 'Há apenas dois fechos: Respeitosamente e Atenciosamente.' — CORRETO.\n- 'Usa-se Vossa Excelência para reitor de universidade e Vossa Senhoria para um secretário de Estado.' — questionável: secretário de Estado, como autoridade, recebe tratamento elevado; reitor tradicionalmente recebia 'Vossa Magnificência'. Atenção às atualizações.\n\nPegadinha frequente: cobrar a antiga tríade ofício/aviso/memorando como se ainda vigorasse — quem estuda por material desatualizado erra.",
+   "pontos_chave": [
+    "A 3ª edição do Manual unificou ofício, aviso e memorando no 'padrão ofício'.",
+    "Padrão ofício: tipo/número, data, endereçamento, assunto, vocativo, texto, fecho, assinatura.",
+    "Parecer: relatório + fundamentação + conclusão; orienta a decisão.",
+    "Despacho: decisão/encaminhamento da autoridade nos autos.",
+    "Ata: registro corrido de reunião; relatório: exposição circunstanciada de fatos.",
+    "Vossa Excelência (altas autoridades) x Vossa Senhoria (demais e particulares).",
+    "Fechos atuais: apenas 'Respeitosamente' e 'Atenciosamente'."
+   ],
+   "dica_prova": "A atualização do Manual é a maior fonte de pegadinha: o 'padrão ofício' substituiu a tríade ofício/aviso/memorando, e os fechos foram reduzidos a 'Respeitosamente' e 'Atenciosamente'. Decore o emprego de 'Vossa Excelência' (chefes de Poder, parlamentares, magistrados, governador) versus 'Vossa Senhoria' (demais), e lembre que esses pronomes exigem concordância em 3ª pessoa."
+  },
+  {
+   "sid": "correlacao-verbal-e-estruturas-hipoteticas",
+   "titulo": "Correlação verbal e estruturas hipotéticas",
+   "intro": "A correlação verbal (ou consecutio temporum) é o ajuste entre tempos e modos dos verbos de orações ligadas, de modo que a sequência temporal e a atitude do enunciador (certeza, hipótese, desejo) fiquem coerentes. O ponto mais cobrado pela FCC é a articulação entre indicativo (fato dado como real/certo) e subjuntivo (fato hipotético, eventual ou desejado), sobretudo nas estruturas condicionais introduzidas por \"se\". Errar a correlação produz frases agramaticais como \"se eu teria tempo\" ou \"quando eu ver\", que as bancas adoram colocar como pegadinha.",
+   "secoes": [
+    {
+     "h": "Indicativo x subjuntivo: a regra de decisão",
+     "p": "O indicativo apresenta o processo como fato real, certo ou efetivamente ocorrido (\"o tributo foi recolhido\", \"a empresa paga em dia\"). O subjuntivo apresenta o processo como hipótese, dúvida, desejo ou condição ainda não realizada (\"talvez recolha\", \"espero que pague\", \"se pagasse\"). A regra prática: orações iniciadas por conjunções/expressões de hipótese, finalidade, concessão ou desejo (caso, embora, a fim de que, talvez, oxalá, ainda que) puxam subjuntivo; orações de fato consumado ou certo ficam no indicativo."
+    },
+    {
+     "h": "Os três tempos do subjuntivo e seus gatilhos",
+     "p": "Presente do subjuntivo: hipótese no presente/futuro (\"que eu pague\", \"que ele recolha\"). Pretérito imperfeito do subjuntivo: hipótese irreal ou condição no passado/condicional (\"se eu pagasse\", \"se ele recolhesse\"). Futuro do subjuntivo: condição eventual projetada para o futuro, típico do \"quando\" e do \"se\" reais (\"quando eu recolher\", \"se ele pagar\", \"assim que chegarem\"). Atenção: o futuro do subjuntivo de muitos verbos é irregular e diferente do infinitivo — \"ver\" faz \"quando eu vir\"; \"vir\" faz \"quando eu vier\"; \"pôr\" faz \"quando eu puser\"; \"ter\" faz \"quando ele tiver\"."
+    },
+    {
+     "h": "Os três tipos de período condicional com \"se\"",
+     "p": "Condicional real (o fato é possível): se + presente do indicativo / futuro do subjuntivo, com a principal no presente ou futuro do indicativo — \"Se a empresa paga (ou pagar) em dia, evita multa\". Condicional hipotética (presente irreal ou pouco provável): se + imperfeito do subjuntivo, principal no futuro do pretérito — \"Se a empresa pagasse em dia, evitaria a multa\". Condicional irreal do passado (o fato não aconteceu): se + pretérito-mais-que-perfeito composto do subjuntivo, principal no futuro do pretérito (simples ou composto) — \"Se a empresa tivesse pagado em dia, teria evitado a multa\". Memorize o par padrão da FCC: \"se tivesse... teria/teria feito\"."
+    },
+    {
+     "h": "Futuro do presente x futuro do pretérito",
+     "p": "O futuro do presente (cantarei, recolherá) indica fato posterior tomado como certo ou programado a partir do presente. O futuro do pretérito (cantaria, recolheria) indica fato futuro condicionado a outro (em geral hipotético) ou um futuro visto do passado, e é o tempo da apódose (oração principal) nas condicionais hipotéticas e irreais. Por isso é erro grave usar futuro do pretérito ou condicional na prótase com \"se\": não se diz \"se eu teria tempo, iria\", e sim \"se eu tivesse tempo, iria\". O \"se\" hipotético pede subjuntivo, nunca o \"-ria\"."
+    }
+   ],
+   "exemplo": "Reescreva mantendo a hipótese: \"Caso o contribuinte declare corretamente, não sofrerá autuação.\"\n\nEquivalência correta (condicional real): \"Se o contribuinte declarar corretamente, não sofrerá autuação.\" — note o futuro do subjuntivo \"declarar\".\n\nAgora a versão irreal do passado: \"Se o contribuinte tivesse declarado corretamente, não teria sofrido autuação.\" — par \"tivesse declarado / teria sofrido\".\n\nPegadinha típica da FCC: \"Se o contribuinte declararia corretamente, não sofreria autuação.\" — ERRADA, pois colocou futuro do pretérito (\"declararia\") na prótase do \"se\", onde só cabe o subjuntivo (\"declarasse\" ou \"declarar\").",
+   "pontos_chave": [
+    "Indicativo = fato real/certo; subjuntivo = hipótese, dúvida, desejo, condição.",
+    "Pares de ouro: \"se + presente do subj. → não cabe\"; o \"se\" hipotético pede imperfeito do subjuntivo (se pagasse) e a principal vai a futuro do pretérito (pagaria).",
+    "Irreal do passado: \"se tivesse + particípio... teria + particípio\" (Se tivesse pago, teria evitado).",
+    "Futuro do subjuntivo é irregular: quando eu vir (ver), vier (vir), puser (pôr), tiver (ter), fizer (fazer), quiser (querer).",
+    "NUNCA usar futuro do pretérito (-ria) na oração iniciada por \"se\" condicional.",
+    "\"Quando\", \"assim que\", \"logo que\" + ação futura eventual pedem futuro do subjuntivo, não presente do indicativo.",
+    "A correlação deve manter a coerência temporal entre as duas orações: passado combina com passado, hipótese com hipótese."
+   ],
+   "dica_prova": "A FCC explora isso de dois jeitos: (1) achar o erro de correlação numa frase reescrita — quase sempre o vilão é \"se\" + futuro do pretérito (\"se faria\", \"se teria\") ou um futuro do subjuntivo regularizado errado (\"quando eu ver\" em vez de \"quando eu vir\"); (2) pedir a reescrita que preserva o sentido hipotético, em que a alternativa correta troca o par mantendo \"se tivesse... teria\". Ao bater o olho numa oração condicional, verifique imediatamente se prótase e apódose formam um par válido (real, hipotético ou irreal); se o \"se\" estiver acompanhado de verbo em \"-ria\", elimine a alternativa."
+  },
+  {
+   "sid": "parafrase-com-manutencao-de-sentido",
+   "titulo": "Paráfrase com manutenção de sentido",
+   "intro": "Paráfrase é a reescrita de um trecho com outras palavras ou outra organização sintática, preservando o sentido essencial, a correção gramatical e o registro do original. A FCC cobra isso pedindo a alternativa que \"NÃO altera o sentido\" ou, ao contrário, a única que \"mantém o sentido e a correção\". O candidato precisa controlar três frentes ao mesmo tempo: equivalência semântica (sinônimo adequado ao contexto), regência (ao trocar o verbo, muda a preposição) e transformações estruturais (voz ativa/passiva, nominalização, troca de conectivo). Basta uma dessas frentes falhar para a reescrita ficar errada, ainda que pareça \"parecida\".",
+   "secoes": [
+    {
+     "h": "Sinonímia depende do contexto",
+     "p": "Sinônimos não são intercambiáveis em todo contexto: \"alto\" pode equivaler a \"elevado\" (preço alto) mas não a \"sonoro\" no mesmo sentido; \"sanção\" pode ser \"aprovação\" (sancionar uma lei) ou \"punição\" (sanção tributária), sentidos opostos. Na reescrita, o sinônimo escolhido tem de caber na mesma rede de sentido do original e manter a mesma carga (positiva/negativa). Cuidado com palavras antônimas-vizinhas: \"infligir\" (impor castigo) x \"infringir\" (violar norma); \"ratificar\" (confirmar) x \"retificar\" (corrigir); \"deferir\" (conceder) x \"diferir\" (adiar/divergir)."
+    },
+    {
+     "h": "Trocar o verbo muda a regência",
+     "p": "Ao substituir um verbo por outro de sentido próximo, a preposição (regência) frequentemente muda, e a reescrita só é correta se a preposição também for ajustada. Exemplos clássicos da FCC: \"recorrer a algo\" e \"apelar a/para algo\" (ambos com preposição) podem substituir \"interpor recurso contra algo\", mas \"requerer\" é transitivo direto — \"requerer algo\" (sem preposição). Assim, \"recorreu da decisão\" pode virar \"apelou da decisão\", mas não \"requereu da decisão\" (correto seria \"requereu a revisão da decisão\"). Outros pares: aspirar ao cargo (pretender, com \"a\") x aspirar o ar (sorver, sem prep.); assistir ao filme (ver, com \"a\") x assistir o doente (prestar assistência)."
+    },
+    {
+     "h": "Mudança de voz (ativa ↔ passiva)",
+     "p": "Converter voz ativa em passiva mantém o sentido se os papéis forem preservados: o objeto direto vira sujeito paciente e o sujeito vira agente da passiva (introduzido por \"por\"). Ativa: \"O fisco autuou a empresa\". Passiva analítica: \"A empresa foi autuada pelo fisco\". Passiva sintética (com \"se\"): \"Autuou-se a empresa\". O erro comum nas alternativas é inverter quem pratica e quem sofre a ação, ou transformar verbo intransitivo (que não tem objeto direto) em passiva — o que é impossível. Verifique sempre a concordância do verbo passivo com o novo sujeito: \"Foram autuadas as empresas\"."
+    },
+    {
+     "h": "Nominalização e troca de conectivo",
+     "p": "Pode-se reescrever uma oração transformando o verbo em substantivo (nominalização): \"Quando o tributo é recolhido...\" → \"Com o recolhimento do tributo...\". O sentido se mantém se a relação lógica original (tempo, causa, condição) for respeitada. A troca de conectivo é a armadilha favorita da FCC: substituir \"embora\" (concessão) por \"porque\" (causa) inverte a lógica; trocar \"portanto\" (conclusão) por \"contudo\" (oposição) destrói o sentido. Conectivos que se equivalem: embora = ainda que = conquanto (concessão); porque = visto que = uma vez que (causa); portanto = logo = por conseguinte (conclusão); contudo = todavia = no entanto (oposição)."
+    }
+   ],
+   "exemplo": "Original: \"Embora a fiscalização tenha sido intensificada, a sonegação não diminuiu.\"\n\nParáfrase CORRETA (mantém a concessão, muda o conectivo equivalente): \"A sonegação não diminuiu, ainda que a fiscalização tenha sido intensificada.\"\n\nParáfrase CORRETA com nominalização: \"Apesar da intensificação da fiscalização, a sonegação não diminuiu.\"\n\nParáfrase ERRADA (troca concessão por causa, invertendo o sentido): \"Porque a fiscalização foi intensificada, a sonegação não diminuiu.\" — sugere que a fiscalização causou a manutenção da sonegação, o que não está no original.\n\nReescrita de regência: \"A empresa recorreu da autuação\" → CORRETO \"A empresa apelou da autuação\"; ERRADO \"A empresa requereu da autuação\" (requerer é direto).",
+   "pontos_chave": [
+    "Paráfrase correta preserva sentido + correção gramatical + registro.",
+    "Sinônimo só vale se couber no contexto e mantiver a mesma carga (positiva/negativa).",
+    "Ao trocar o verbo, ajuste a regência: recorrer a / apelar a / apelar de, mas requerer (direto, sem preposição).",
+    "Voz ativa ↔ passiva: objeto direto vira sujeito paciente; cuidado com a concordância e com verbos sem objeto direto.",
+    "Troca de conectivo só mantém sentido entre equivalentes (embora=ainda que; porque=visto que; portanto=logo; contudo=todavia).",
+    "Parônimos perigosos: ratificar/retificar, deferir/diferir, infligir/infringir, tráfego/tráfico.",
+    "Nominalização preserva o sentido se a relação lógica (causa, tempo, condição) for mantida."
+   ],
+   "dica_prova": "Na FCC, a questão de reescrita costuma ter 4 alternativas plausíveis e 1 com um desvio sutil. Cheque, nesta ordem: (1) o conectivo trocado mudou a relação lógica? (causa virou concessão?); (2) a regência do novo verbo está certa? (apareceu/sumiu uma preposição indevida?); (3) a voz passiva inverteu agente e paciente, ou errou a concordância?; (4) o sinônimo cabe mesmo neste contexto? Se a questão pede a que MANTÉM o sentido, elimine as que tropeçam em qualquer um desses pontos; se pede a que ALTERA, a resposta é justamente a que cometeu um desses deslizes."
+  }
+ ]
 }

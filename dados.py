@@ -73,7 +73,18 @@ def _construir():
         for d in c["disciplinas"]:
             assign_sids(d)
     validar_concursos(concursos)
+    _carregar_provas(concursos)
     return concursos
+
+
+def _carregar_provas(concursos):
+    """Anexa a cada concurso o banco de questões da prova, se existir (dados/provas/<id>.yaml)."""
+    for c in concursos:
+        f = os.path.join(DADOS, "provas", f"{c['id']}.yaml")
+        if os.path.exists(f):
+            prova = yaml.safe_load(open(f, encoding="utf-8")) or {}
+            prova["questoes"] = {str(k): v for k, v in (prova.get("questoes") or {}).items()}
+            c["prova"] = prova
 
 
 CONCURSOS = _construir()

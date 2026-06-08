@@ -24,6 +24,12 @@ disciplinas:
       texto: Localize o tópico frasal de cada parágrafo. A ideia central costuma aparecer na introdução ou conclusão; as secundárias dão sustentação (exemplos, dados, contra-argumentos).
     - titulo: Inferência e pressuposto
       texto: 'Pressuposto está implícito na própria estrutura da frase (ex.: ''continuou estudando'' pressupõe que já estudava). Subentendido depende do contexto.'
+    prova:
+    - 1
+    - 2
+    - 3
+    - 7
+    - 8
   - titulo: 2. Ortografia, acentuação e crase
     explicacao: 'Domínio das regras do Acordo Ortográfico vigente. A crase (fusão da preposição ''a'' com o artigo ''a'') é tema recorrente: ocorre diante de palavra feminina que admita artigo e seja regida por preposição ''a''.'
     subtopicos:
@@ -47,6 +53,8 @@ disciplinas:
       texto: 'Ex.: ''assistir a um filme'' (ver), ''obedecer a alguém''. A regência justifica o uso ou não da crase e a escolha do pronome relativo (a que, em que, de que).'
     - titulo: Colocação pronominal
       texto: Próclise (pronome antes) com palavras atrativas (negação, advérbio, pronomes relativos); mesóclise no futuro do presente/pretérito sem atração; ênclise como regra padrão no início de oração.
+    prova:
+    - 4
   - titulo: 5. Pontuação, coordenação e subordinação
     explicacao: A pontuação organiza o período e marca relações sintáticas. Vírgula separa termos de mesma função, isola apostos/vocativos e adjuntos deslocados, mas não separa sujeito de predicado nem verbo de objeto.
     subtopicos:
@@ -61,6 +69,8 @@ disciplinas:
       texto: Coesão é a amarração formal (conectivos, pronomes, elipses); coerência é a unidade de sentido. Substituir um conectivo pode quebrar a lógica argumentativa.
     - titulo: Figuras de linguagem
       texto: Metáfora, metonímia, ironia, eufemismo, hipérbole. Em textos oficiais predomina a denotação; figuras aparecem mais na interpretação de textos literários/jornalísticos.
+    prova:
+    - 6
   - titulo: 7. Redação oficial
     explicacao: Reconhecimento e produção de correspondências e atos oficiais conforme o padrão do Manual de Redação. Prioriza clareza, concisão, impessoalidade, formalidade e uso do padrão culto.
     subtopicos:
@@ -68,6 +78,21 @@ disciplinas:
       texto: Impessoalidade, linguagem formal padrão, clareza, concisão, uniformidade. Evita-se rebuscamento e ambiguidade.
     - titulo: Tipos de documentos
       texto: Ofício (padrão único de comunicação oficial), memorando, parecer, despacho, ata, relatório. Conhecer o fecho, o vocativo e o pronome de tratamento adequados.
+  - titulo: 8. Correlação de tempos e modos verbais
+    explicacao: Articulação entre tempos e modos verbais (indicativo x subjuntivo, condicionais e hipotéticas) — frequente na FCC.
+    subtopicos:
+    - titulo: Correlação verbal e estruturas hipotéticas
+      texto: 'Consecutio temporum: ''se tivéssemos querido, teria sido''; futuro do presente/pretérito; subjuntivo nas condicionais/concessivas.'
+    prova:
+    - 10
+  - titulo: 9. Reescrita e equivalência de sentido
+    explicacao: Reescrever frases/trechos mantendo sentido, correção e registro — substituição de palavras e reorganização sintática.
+    subtopicos:
+    - titulo: Paráfrase com manutenção de sentido
+      texto: Equivalência semântica, sinonímia de expressões, regência ao trocar verbos (apelar a, recorrer a, requerer) e mudança de voz.
+    prova:
+    - 5
+    - 9
 - slug: raciocinio-logico
   titulo: Raciocínio Lógico, Matemática Financeira e Estatística
   grupo: Conhecimentos Básicos
@@ -109,6 +134,9 @@ disciplinas:
     subtopicos:
     - titulo: Regras fundamentais
       texto: 'P(A∪B)=P(A)+P(B)−P(A∩B). Eventos independentes: P(A∩B)=P(A)·P(B). Probabilidade condicional: P(A|B)=P(A∩B)/P(B).'
+    prova:
+    - 13
+    - 14
   - titulo: 6. Matemática Financeira
     explicacao: Juros simples e compostos, descontos, taxas de juros, equivalência de capitais, séries de pagamentos (amortização) e fluxo de caixa. Base para análise tributária e econômica.
     subtopicos:
@@ -120,6 +148,8 @@ disciplinas:
       texto: Taxas nominal, efetiva e equivalente; capitais são equivalentes quando, levados a uma mesma data por uma taxa, têm o mesmo valor.
     - titulo: Amortização
       texto: Sistemas SAC (amortização constante) e Price (prestação constante). Compreender a composição juros+amortização de cada parcela.
+    prova:
+    - 19
   - titulo: 7. Estatística descritiva
     explicacao: 'Organização e resumo de dados: tabelas, gráficos, medidas de posição (média, mediana, moda), de dispersão (variância, desvio-padrão) e de assimetria/curtose.'
     subtopicos:
@@ -131,6 +161,47 @@ disciplinas:
       texto: Binomial (eventos discretos com 2 resultados), Poisson (eventos raros), Normal (contínua, simétrica) e t de Student (amostras pequenas).
     - titulo: Amostragem e estimação
       texto: Amostra probabilística representa a população; estimação por ponto e por intervalo de confiança; testes de hipótese para validar afirmações sobre parâmetros.
+  - titulo: 8. Distribuição exponencial
+    explicacao: Modelo contínuo do tempo até um evento; densidade, probabilidade de cauda e a propriedade de falta de memória.
+    subtopicos:
+    - titulo: Falta de memória da exponencial
+      texto: f(x)=λe^{-λx}, P(X>t)=e^{-λt}, média 1/λ; P(X>s+t | X>s)=P(X>t) — usado em tempo de vida de componentes.
+    prova:
+    - 11
+  - titulo: '9. Inferência aplicada: amostra e erros'
+    explicacao: Dimensionamento de amostra para proporção e cálculo das probabilidades de erro tipo I e II.
+    subtopicos:
+    - titulo: Tamanho de amostra para proporção
+      texto: n=(z/E)^2·p(1-p), com pior caso p=0,5; exemplo com z=1,64 e E=2%.
+    - titulo: Cálculo do erro tipo II (β)
+      texto: β = P(não rejeitar H0 | H1 verdadeira); definir região crítica e calcular sob H1; poder = 1-β.
+    prova:
+    - 12
+    - 16
+  - titulo: 10. Probabilidade total e teorema de Bayes
+    explicacao: Marginalizar por uma partição de eventos e inverter condicionais (Bayes), inclusive em árvores de vários níveis.
+    subtopicos:
+    - titulo: Lei da probabilidade total e Bayes
+      texto: P(B)=Σ P(Ai)·P(B|Ai); P(Ai|B)=P(Ai)P(B|Ai)/P(B). Árvores chuva→trânsito→atraso.
+    prova:
+    - 15
+  - titulo: 11. Teste qui-quadrado de independência
+    explicacao: 'Tabela de contingência: frequências esperadas, estatística qui-quadrado, graus de liberdade e decisão pela tabela.'
+    subtopicos:
+    - titulo: Frequências esperadas e estatística
+      texto: E_ij=(total linha·total coluna)/total geral; χ²=Σ(O-E)²/E.
+    - titulo: Graus de liberdade e decisão
+      texto: gl=(l-1)(c-1); rejeita-se H0 se χ² calculado > valor crítico tabelado.
+    prova:
+    - 17
+    - 18
+  - titulo: 12. Equivalência de capitais aplicada
+    explicacao: Comparar pagamento à vista com desconto x parcelado sem acréscimo e extrair a taxa de juros embutida.
+    subtopicos:
+    - titulo: À vista com desconto x parcelado
+      texto: Igualar o valor à vista ao valor presente das parcelas e isolar i; taxa embutida no parcelamento 'sem juros'.
+    prova:
+    - 20
 - slug: direito-constitucional
   titulo: Direito Constitucional
   grupo: Conhecimentos Básicos
@@ -151,6 +222,11 @@ disciplinas:
       texto: Igualdade, legalidade, liberdade de expressão, devido processo legal, contraditório e ampla defesa, inviolabilidade de domicílio e sigilos. São cláusulas pétreas.
     - titulo: Direitos sociais, nacionalidade e políticos
       texto: Direitos sociais (art. 6º), regras de aquisição/perda da nacionalidade e dos direitos políticos (alistamento, elegibilidade, inelegibilidades).
+    prova:
+    - 21
+    - 25
+    - 27
+    - 28
   - titulo: 3. Organização do Estado
     explicacao: 'Federação brasileira: União, Estados, DF e Municípios, todos autônomos. Distribuição de competências (administrativas e legislativas) e repartição de receitas.'
     subtopicos:
@@ -158,6 +234,9 @@ disciplinas:
       texto: Competências privativas da União, comuns (administrativas a todos os entes) e concorrentes (legislação onde a União fixa normas gerais e os Estados suplementam).
     - titulo: Administração Pública (arts. 37 a 41)
       texto: Princípios LIMPE (legalidade, impessoalidade, moralidade, publicidade, eficiência), concursos, servidores públicos, estabilidade e responsabilidade.
+    prova:
+    - 22
+    - 26
   - titulo: 4. Organização dos Poderes
     explicacao: Separação e independência entre Legislativo, Executivo e Judiciário, com freios e contrapesos. Inclui processo legislativo, funções de cada Poder e funções essenciais à Justiça.
     subtopicos:
@@ -165,6 +244,8 @@ disciplinas:
       texto: Espécies normativas (EC, LC, LO, medidas provisórias, leis delegadas), iniciativa, tramitação, sanção/veto e quóruns. Essencial para o Direito Tributário.
     - titulo: Poder Judiciário e funções essenciais
       texto: STF como guardião da Constituição, controle de constitucionalidade (difuso e concentrado), Ministério Público, Advocacia Pública e Defensoria.
+    prova:
+    - 29
   - titulo: 5. Tributação, orçamento e ordem econômica
     explicacao: O Sistema Tributário Nacional na CF (arts. 145 a 162), as finanças públicas (arts. 163 a 169) e a ordem econômica e financeira (arts. 170 e seguintes) constituem o núcleo de interesse fiscal.
     subtopicos:
@@ -204,11 +285,15 @@ disciplinas:
       texto: 'Limita o exercício de direitos individuais em prol da coletividade (fiscalização tributária, sanitária, ambiental). Atributos: discricionariedade, autoexecutoriedade e coercibilidade.'
     - titulo: Poder disciplinar e hierárquico
       texto: Hierárquico organiza e ordena; disciplinar apura e pune infrações funcionais por meio do processo administrativo.
+    prova:
+    - 34
   - titulo: 5. Agentes públicos
     explicacao: Toda pessoa que exerce função pública, ainda que transitoriamente. Inclui agentes políticos, servidores estatutários, empregados públicos e particulares em colaboração.
     subtopicos:
     - titulo: Regime e responsabilidade
       texto: Provimento, vacância, direitos e deveres, regime disciplinar. Responsabilidade civil, penal e administrativa, que são independentes entre si.
+    prova:
+    - 32
   - titulo: 6. Licitações e contratos (Lei 14.133/2021)
     explicacao: Procedimento para seleção da proposta mais vantajosa, regido pela nova Lei de Licitações. Princípios, modalidades, fases e hipóteses de contratação direta.
     subtopicos:
@@ -216,6 +301,8 @@ disciplinas:
       texto: Pregão, concorrência, concurso, leilão e diálogo competitivo. Fase preparatória, divulgação, apresentação de propostas, julgamento, habilitação e homologação.
     - titulo: Contratação direta
       texto: Dispensa e inexigibilidade de licitação (quando a competição é inviável). Exige justificativa e formalização adequada.
+    prova:
+    - 31
   - titulo: 7. Controle, responsabilidade e improbidade
     explicacao: Controle interno, externo (Tribunais de Contas) e judicial da Administração. Responsabilidade civil do Estado (objetiva) e improbidade administrativa (Lei 8.429/1992).
     subtopicos:
@@ -223,11 +310,42 @@ disciplinas:
       texto: 'Regra objetiva (teoria do risco administrativo): basta o nexo entre conduta e dano; admite excludentes (culpa exclusiva da vítima, caso fortuito/força maior).'
     - titulo: Improbidade administrativa
       texto: Atos que importam enriquecimento ilícito, prejuízo ao erário ou violação a princípios. A Lei 14.230/2021 alterou o regime, exigindo dolo.
+    prova:
+    - 36
+    - 37
   - titulo: 8. Processo administrativo e acesso à informação
     explicacao: Processo administrativo (Lei 9.784/1999) garante contraditório, motivação e razoável duração. A Lei de Acesso à Informação (12.527/2011) assegura transparência.
     subtopicos:
     - titulo: Bens públicos e intervenção na propriedade
       texto: Bens de uso comum, especial e dominical; desapropriação, servidão, requisição, tombamento e limitações administrativas.
+  - titulo: 9. Concessões e Parcerias Público-Privadas (PPP)
+    explicacao: 'Delegação de serviços públicos: concessão comum (Lei 8.987/95) e PPPs (Lei 11.079/04), com matriz de riscos e contraprestação.'
+    subtopicos:
+    - titulo: Concessão, permissão e PPP
+      texto: Concessão comum x patrocinada x administrativa; equilíbrio econômico-financeiro; bens reversíveis; contraprestação do poder concedente.
+    prova:
+    - 35
+  - titulo: 10. Terceiro setor e organizações sociais
+    explicacao: 'Entidades paraestatais: OS (Lei 9.637/98), OSCIP, serviços sociais autônomos e o MROSC (Lei 13.019/14).'
+    subtopicos:
+    - titulo: OS, OSCIP e contrato de gestão
+      texto: Qualificação, contrato de gestão/termo de parceria, dispensa de licitação, controle pelo TC; chamamento público no MROSC.
+    prova:
+    - 38
+  - titulo: 11. Uso de bens públicos por particular
+    explicacao: Formas de uso privativo de bem público por particular e seu regime.
+    subtopicos:
+    - titulo: Autorização, permissão e concessão de uso
+      texto: Uso comum x especial x privativo; precariedade; com/sem licitação; oneroso/gratuito; afetação e desafetação.
+    prova:
+    - 33
+  - titulo: 12. Controle da Administração Pública
+    explicacao: Mecanismos de controle interno, externo e judicial dos atos administrativos.
+    subtopicos:
+    - titulo: Controle interno, externo e judicial
+      texto: Autotutela (Súmulas 346/473 STF); controle do Legislativo e dos Tribunais de Contas; controle de legalidade x mérito; tutela.
+    prova:
+    - 39
 - slug: direito-financeiro
   titulo: Direito Financeiro
   grupo: Conhecimentos Básicos
@@ -244,12 +362,16 @@ disciplinas:
     subtopicos:
     - titulo: Estágios da receita
       texto: Previsão, lançamento, arrecadação e recolhimento. A classificação por categoria econômica separa receitas correntes (tributárias, contribuições) de capital (operações de crédito, alienação de bens).
+    prova:
+    - 42
   - titulo: 3. Despesa pública
     explicacao: Aplicação de recursos públicos. Classifica-se em corrente (manutenção, custeio) e de capital (investimentos, inversões, amortização da dívida). Segue estágios legais de execução.
     subtopicos:
     - titulo: Estágios da despesa
       texto: Empenho (reserva de dotação), liquidação (verificação do direito do credor) e pagamento. Restos a pagar e despesas de exercícios anteriores são exceções controladas.
   - titulo: 4. Créditos adicionais
+    prova:
+    - 43
     explicacao: Autorizações de despesa não computadas ou insuficientes na LOA. Dividem-se em suplementares (reforço), especiais (nova dotação) e extraordinários (urgência imprevisível, como guerra/calamidade).
     subtopicos:
     - titulo: Tipos e fontes
@@ -259,11 +381,22 @@ disciplinas:
     subtopicos:
     - titulo: Limites e controle
       texto: A LRF e resoluções do Senado fixam limites de endividamento e operações de crédito. A 'regra de ouro' veda crédito que financie despesa corrente além do permitido.
+    prova:
+    - 41
   - titulo: 6. Responsabilidade Fiscal (LC 101/2000)
     explicacao: A LRF impõe planejamento, transparência e equilíbrio entre receitas e despesas, com limites para pessoal e endividamento e mecanismos de compensação para renúncias e novas despesas.
     subtopicos:
     - titulo: Gestão fiscal responsável
       texto: Metas fiscais na LDO, limites de despesa com pessoal, renúncia de receita compensada, vedações em fim de mandato e relatórios de gestão fiscal.
+    prova:
+    - 45
+  - titulo: 7. Emendas e transferências especiais
+    explicacao: Emendas parlamentares impositivas e a transferência especial (art. 166-A, CF; EC 105/2019).
+    subtopicos:
+    - titulo: Transferência especial (art. 166-A)
+      texto: Dispensa convênio; recursos integram o patrimônio do ente; vedada despesa de pessoal; aplicação mínima em investimento.
+    prova:
+    - 44
 - slug: direito-civil-empresarial
   titulo: Direito Civil e Empresarial
   grupo: Conhecimentos Básicos
@@ -289,6 +422,8 @@ disciplinas:
       texto: Vícios de consentimento (erro, dolo, coação, estado de perigo, lesão) e vício social (fraude contra credores, simulação). Geram anulabilidade ou nulidade.
     - titulo: Prescrição e decadência
       texto: Prescrição extingue a pretensão; decadência extingue o próprio direito potestativo. Distinção relevante em matéria de crédito tributário.
+    prova:
+    - 48
   - titulo: 4. Obrigações e responsabilidade civil
     explicacao: Vínculo jurídico em que o devedor deve uma prestação ao credor. Classes de obrigações (dar, fazer, não fazer), adimplemento, inadimplemento e a responsabilidade civil daí decorrente.
     subtopicos:
@@ -296,11 +431,15 @@ disciplinas:
       texto: Obrigações solidárias, divisíveis/indivisíveis. Extinção por pagamento, compensação, novação, confusão, remissão e dação em pagamento.
     - titulo: Responsabilidade civil
       texto: Subjetiva (exige culpa) e objetiva (independe de culpa, baseada no risco). Pressupõe conduta, dano e nexo causal.
+    prova:
+    - 49
   - titulo: 5. Contratos
     explicacao: 'Acordo de vontades que cria, modifica ou extingue obrigações. Princípios: autonomia da vontade, boa-fé objetiva, função social do contrato e força obrigatória (pacta sunt servanda).'
     subtopicos:
     - titulo: Teoria geral e espécies
       texto: 'Formação, classificação e extinção dos contratos. Espécies típicas: compra e venda, prestação de serviços, locação, fiança, entre outras.'
+    prova:
+    - 50
   - titulo: 6. Direito de Empresa
     explicacao: Empresário é quem exerce profissionalmente atividade econômica organizada para a produção/circulação de bens ou serviços. Regula-se o registro, o nome, o estabelecimento e as sociedades.
     subtopicos:
@@ -310,6 +449,17 @@ disciplinas:
       texto: Personificadas e não personificadas; sociedade simples e empresária; tipos (limitada, anônima, em nome coletivo). A limitada é a mais comum no Brasil.
     - titulo: Falência e recuperação
       texto: Recuperação judicial/extrajudicial visa preservar a empresa viável; a falência liquida o patrimônio do insolvente. Lei 11.101/2005.
+    prova:
+    - 46
+    - 47
+    - 54
+  - titulo: 7. Posse e direitos reais (noções)
+    explicacao: Posse e sua proteção no Código Civil — base para questões de Direito das Coisas.
+    subtopicos:
+    - titulo: 'Posse: classificação e aquisição'
+      texto: Posse direta/indireta; justa x injusta (violenta, clandestina, precária); detenção (arts. 1.198/1.208); aquisição por representante.
+    prova:
+    - 51
 - slug: economia
   titulo: Economia
   grupo: Conhecimentos Básicos
@@ -328,6 +478,8 @@ disciplinas:
       texto: Variação de preço move-se ao longo da curva; mudanças em renda, gostos, preço de bens relacionados ou expectativas deslocam a curva inteira.
     - titulo: Bens substitutos e complementares
       texto: 'Substitutos: alta no preço de um eleva a demanda do outro. Complementares: alta no preço de um reduz a demanda do outro.'
+    prova:
+    - 60
   - titulo: 3. Elasticidades
     explicacao: Mede a sensibilidade da quantidade a variações de preço ou renda. Elasticidade-preço da demanda indica se a demanda é elástica (>1), inelástica (<1) ou unitária (=1) — crucial para política tributária.
     subtopicos:
@@ -338,16 +490,23 @@ disciplinas:
     subtopicos:
     - titulo: Custos no curto e longo prazo
       texto: No curto prazo há fator fixo; no longo prazo todos variam, permitindo economias e deseconomias de escala.
+    prova:
+    - 58
   - titulo: 5. Estruturas de mercado
     explicacao: Concorrência perfeita (muitos agentes, produto homogêneo, preço dado), monopólio (um vendedor), oligopólio (poucos) e concorrência monopolística (diferenciação de produto).
     subtopicos:
     - titulo: Falhas de mercado
       texto: Externalidades, bens públicos, assimetria de informação e poder de mercado justificam a intervenção do Estado e a tributação corretiva.
+    prova:
+    - 57
+    - 65
   - titulo: '6. Macroeconomia: contas nacionais'
     explicacao: 'Mensuração da atividade econômica: PIB pelas óticas da produção, da renda e da despesa. Diferença entre variáveis nominais e reais e o papel dos agregados macroeconômicos.'
     subtopicos:
     - titulo: PIB e agregados
       texto: PIB = C + I + G + (X − M). Identidades entre poupança e investimento; PIB nominal usa preços correntes, PIB real, preços constantes.
+    prova:
+    - 64
   - titulo: 7. Moeda, inflação e sistema financeiro
     explicacao: Funções da moeda, oferta monetária, criação de moeda pelos bancos e o papel do Banco Central. Inflação como elevação contínua do nível geral de preços.
     subtopicos:
@@ -360,6 +519,32 @@ disciplinas:
     subtopicos:
     - titulo: Política fiscal
       texto: Expansionista (mais gasto/menos imposto) estimula a demanda; contracionista, o contrário. Relaciona-se diretamente ao orçamento e à tributação.
+    prova:
+    - 62
+  - titulo: 9. Tributação ótima e classificação de tributos
+    explicacao: 'Teoria da tributação: regra de Ramsey, second best e a tipologia dos tributos (direto/indireto, IVA).'
+    subtopicos:
+    - titulo: Regra de Ramsey e trade-off eficiência×equidade
+      texto: Tributar mais o que tem demanda inelástica; second best; crítica distributiva.
+    - titulo: Classificação dos tributos e o IVA
+      texto: Direto x indireto; específico x ad valorem; monofásico x plurifásico; não cumulatividade e neutralidade do IVA.
+    prova:
+    - 56
+    - 61
+  - titulo: 10. Balanço de Pagamentos
+    explicacao: 'Registro das transações de um país com o exterior: contas e saldos.'
+    subtopicos:
+    - titulo: Transações correntes e conta financeira
+      texto: TC = balança comercial + serviços + rendas + transferências; Conta Capital; Conta Financeira (IDP, carteira, reservas).
+    prova:
+    - 59
+  - titulo: 11. Modelo IS-LM
+    explicacao: Equilíbrio conjunto dos mercados de bens (IS) e de moeda (LM) e a determinação de produto e juros.
+    subtopicos:
+    - titulo: Curva IS, curva LM e inclinação
+      texto: 'IS: equilíbrio no mercado de bens (Y=C+I+G); LM: demanda por moeda = oferta; inclinações, multiplicador e deslocamentos.'
+    prova:
+    - 63
 - slug: contabilidade-geral
   titulo: Contabilidade Geral
   grupo: Conhecimentos Básicos
@@ -385,11 +570,16 @@ disciplinas:
     subtopicos:
     - titulo: CMV e avaliação de estoques
       texto: CMV = EI + Compras − EF. Métodos PEPS (primeiro que entra, primeiro que sai) e média ponderada afetam o resultado e os tributos.
+    prova:
+    - 68
+    - 74
   - titulo: 4. Ativo imobilizado, intangível e depreciação
     explicacao: Reconhecimento e mensuração de ativos de longo prazo. Depreciação, amortização e exaustão distribuem o custo pela vida útil; teste de recuperabilidade (impairment) ajusta perdas.
     subtopicos:
     - titulo: Depreciação
       texto: Métodos linear (cotas constantes), soma dos dígitos e unidades produzidas. Reduz o ativo e gera despesa ao longo da vida útil do bem.
+    prova:
+    - 75
   - titulo: 5. Demonstrações financeiras
     explicacao: 'Conjunto exigido pela Lei 6.404/76 e CPCs: Balanço Patrimonial, DRE, DRA, DFC, DMPL e DVA, com notas explicativas. Cada uma evidencia um aspecto da situação econômico-financeira.'
     subtopicos:
@@ -397,11 +587,43 @@ disciplinas:
       texto: BP é estático (posição em uma data); DRE é dinâmica (resultado do período, do lucro bruto ao lucro líquido).
     - titulo: DFC e DVA
       texto: DFC mostra entradas/saídas de caixa (operacional, investimento, financiamento); DVA evidencia a riqueza gerada e sua distribuição.
+    prova:
+    - 69
+    - 73
   - titulo: 6. Análise de balanços
     explicacao: Interpretação das demonstrações por meio de indicadores de liquidez, endividamento, rentabilidade e atividade, além das análises horizontal e vertical.
     subtopicos:
     - titulo: Índices
       texto: Liquidez (corrente, seca, geral), endividamento, rentabilidade (ROE, ROA, margens) e prazos médios. Avaliam capacidade de pagamento e desempenho.
+  - titulo: 7. Provisões, passivos e ativos contingentes (CPC 25)
+    explicacao: Reconhecimento e divulgação de obrigações e ativos incertos.
+    subtopicos:
+    - titulo: Provisão x contingência
+      texto: Provisão só para perda provável e mensurável; passivo contingente (possível) apenas se divulga; ativo contingente não se reconhece.
+    prova:
+    - 71
+    - 72
+  - titulo: 8. Redução ao valor recuperável (CPC 01)
+    explicacao: Teste de impairment de ativos, mensuração da perda e sua reversão.
+    subtopicos:
+    - titulo: Impairment e reversão
+      texto: Valor recuperável = maior entre valor em uso e valor justo líquido; perda quando VC > recuperável; reversão limitada ao que existiria sem a perda.
+    prova:
+    - 70
+  - titulo: 9. Mudança de estimativa e vida útil (CPC 23/CPC 27)
+    explicacao: Revisão prospectiva de vida útil, valor residual e método de depreciação/amortização.
+    subtopicos:
+    - titulo: Revisão prospectiva de estimativas
+      texto: Recalcula a depreciação sobre o valor contábil remanescente, sem retroagir; afeta o exercício atual e os futuros.
+    prova:
+    - 66
+  - titulo: 10. Destinação do resultado e reservas (Lei 6.404/76)
+    explicacao: 'Distribuição do lucro líquido: reservas e dividendo obrigatório.'
+    subtopicos:
+    - titulo: Reserva legal, estatutária e dividendo obrigatório
+      texto: 'Reserva legal 5% (limite 20% do capital); dividendo obrigatório (ex.: 25% do lucro ajustado); reservas estatutária e de retenção de lucros.'
+    prova:
+    - 67
 - slug: realidade-de-goias
   titulo: Realidade Étnica, Social, Histórica, Geográfica, Cultural, Política e Econômica de Goiás
   grupo: Conhecimentos Básicos
@@ -428,11 +650,30 @@ disciplinas:
     subtopicos:
     - titulo: Goiânia e Brasília
       texto: A nova capital simbolizou a modernização; a interiorização promovida por Brasília dinamizou a economia e a infraestrutura regional.
+    prova:
+    - 76
+    - 79
   - titulo: 5. Economia contemporânea
     explicacao: Agronegócio (grãos, carne), agroindústria, mineração, energia e serviços compõem a economia goiana, com forte inserção no comércio exterior e atração de investimentos.
     subtopicos:
     - titulo: Agronegócio e indústria
       texto: Goiás é grande produtor de soja, milho, cana e proteína animal; a agroindústria e a logística reforçam sua relevância econômica e fiscal.
+    prova:
+    - 80
+  - titulo: 6. Geomorfologia e relevo de Goiás
+    explicacao: 'Compartimentação do relevo goiano: planaltos, chapadões, cuestas e depressões.'
+    subtopicos:
+    - titulo: Subunidades geomorfológicas
+      texto: Planalto Central; Planalto do Rio Verde; Cuesta do Caiapó; Planaltos do Distrito Federal; Depressão do Araguaia; Planície do Bananal.
+    prova:
+    - 78
+  - titulo: 7. Fases da economia goiana
+    explicacao: Periodização econômica de Goiás, da mineração à agroindústria com incentivos.
+    subtopicos:
+    - titulo: Da mineração à agroindustrialização
+      texto: 1) ouro (séc. XVIII); 2) pecuária/subsistência; 3) agricultura (Marcha para o Oeste, ferrovia, soja/Embrapa); 4) agroindústria com FOMENTAR/PRODUZIR (1980-90).
+    prova:
+    - 77
 - slug: tecnologia-da-informacao
   titulo: Tecnologias da Informação
   grupo: Conhecimentos Específicos
@@ -691,3 +932,62 @@ disciplinas:
     subtopicos:
     - titulo: Hierarquia normativa
       texto: Constituição, leis complementares e ordinárias, decretos (RICMS), instruções normativas e atos do CONFAZ compõem a legislação tributária aplicável.
+- slug: direito-penal
+  titulo: Direito Penal
+  grupo: Conhecimentos Básicos
+  icone: 🚔
+  resumo: Crimes contra a Administração e as finanças públicas, abuso de autoridade e corrupção — recorte fiscal.
+  topicos:
+  - titulo: 1. Crimes contra a Administração Pública
+    explicacao: Tipos penais praticados por funcionário público ou contra a Administração.
+    subtopicos:
+    - titulo: Corrupção passiva e ativa (arts. 317 e 333)
+      texto: Solicitar/receber vantagem (passiva, servidor) x oferecer (ativa, particular); concussão (316) e peculato (312).
+    - titulo: Conceito de funcionário público (art. 327)
+      texto: Abrangência ampla para fins penais; equiparação.
+    prova:
+    - 55
+  - titulo: 2. Crimes contra as finanças públicas
+    explicacao: Tipos inseridos no CP pela LRF (arts. 359-A a 359-H).
+    subtopicos:
+    - titulo: Arts. 359-A a 359-H do CP
+      texto: Contratação de operação de crédito irregular, inscrição de despesa não empenhada, assunção de obrigação no fim do mandato, não cancelamento de restos a pagar.
+    prova:
+    - 52
+  - titulo: 3. Lei de Abuso de Autoridade (Lei 13.869/2019)
+    explicacao: Crimes de abuso de autoridade praticados por agentes públicos.
+    subtopicos:
+    - titulo: Sujeitos, dolo específico e instâncias
+      texto: Exige finalidade específica de prejudicar/beneficiar ou capricho; independência das esferas civil, penal e administrativa.
+    prova:
+    - 53
+- slug: legislacao-goias
+  titulo: Constituição e Legislação do Estado de Goiás
+  grupo: Conhecimentos Básicos
+  icone: 🏛️
+  resumo: Constituição estadual, TCE/TCM-GO, controle político, Fundo de Estabilização (FEG) e regime dos servidores (Lei 20.756/2020).
+  topicos:
+  - titulo: 1. Constituição do Estado de Goiás
+    explicacao: Organização do Estado de Goiás, fiscalização e controle no plano estadual.
+    subtopicos:
+    - titulo: Fiscalização contábil e financeira (TCE-GO e TCM-GO)
+      texto: Controle externo pela Assembleia com auxílio do Tribunal de Contas; controle interno; responsabilidade solidária.
+    - titulo: Controle político de constitucionalidade
+      texto: Sustação, pela ALEGO, de atos normativos do Executivo que exorbitem o poder regulamentar (espelho do art. 49, V, CF).
+    prova:
+    - 23
+    - 24
+  - titulo: 2. Fundo de Estabilização (FEG)
+    explicacao: Fundo de Estabilização Econômica de Goiás na Constituição estadual.
+    subtopicos:
+    - titulo: Natureza, vinculação e reserva
+      texto: Vinculação à Secretaria da Economia; finalidade de estabilização fiscal; reserva mínima definida em lei complementar.
+    prova:
+    - 30
+  - titulo: 3. Regime jurídico dos servidores (Lei 20.756/2020)
+    explicacao: Estatuto dos servidores públicos civis do Estado de Goiás.
+    subtopicos:
+    - titulo: Regime disciplinar e penalidades
+      texto: Deveres, proibições, penalidades (advertência, suspensão, demissão, destituição de cargo em comissão); PAD e independência de instâncias.
+    prova:
+    - 40

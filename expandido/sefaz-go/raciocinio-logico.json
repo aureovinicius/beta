@@ -612,6 +612,244 @@
         "Teste de hipóteses: erro tipo I (\\(\\alpha\\), rejeitar H0 verdadeira) e tipo II (\\(\\beta\\))."
       ],
       "dica_prova": "A relação entre margem de erro e tamanho da amostra é cobrada: \\(E\\) é proporcional a \\(\\dfrac{1}{\\sqrt{n}}\\), então para reduzir o erro à metade quadruplica-se \\(n\\). Não troque os valores z (1,96 é o de 95%, o mais frequente). Cuidado com a interpretação do intervalo: a confiança refere-se ao procedimento de amostragem, não à probabilidade de o parâmetro estar no intervalo específico. Memorize a diferença entre erro tipo I (\\(\\alpha\\)) e tipo II (\\(\\beta\\)) — questão clássica de prova."
+    },
+    {
+      "sid": "falta-de-memoria-da-exponencial",
+      "titulo": "Falta de memória da exponencial",
+      "intro": "A distribuição exponencial é o modelo contínuo padrão para o tempo de espera até a ocorrência de um evento — o tempo até a próxima chamada chegar a um atendimento, até uma peça falhar, até um contribuinte entrar na fila. É caracterizada por um único parâmetro, a taxa \\(\\lambda > 0\\) (eventos por unidade de tempo), e está intimamente ligada ao processo de Poisson: se o número de eventos por intervalo segue Poisson com média \\(\\lambda\\), o tempo entre eventos segue a exponencial de taxa \\(\\lambda\\).\n\nSua propriedade mais marcante — e a mais cobrada por bancas como a FCC — é a falta de memória: o tempo já decorrido sem que o evento ocorra não influencia a probabilidade de ele ocorrer no futuro. É a única distribuição contínua com essa propriedade, o que a torna alvo certo de questões teóricas e de cálculo.",
+      "secoes": [
+        {
+          "h": "Densidade, distribuição acumulada e cauda",
+          "p": "A função densidade é \\(f(x) = \\lambda e^{-\\lambda x}\\) para \\(x \\ge 0\\) (e zero para \\(x < 0\\)). A função de distribuição acumulada é \\(F(x) = P(X \\le x) = 1 - e^{-\\lambda x}\\).\n\nA probabilidade de cauda — usada o tempo todo em problemas de confiabilidade — é o complementar: \\(P(X > x) = e^{-\\lambda x}\\). Em palavras: a chance de o evento ainda NÃO ter ocorrido até o instante \\(x\\) decai exponencialmente. Essa fórmula \\(P(X > x) = e^{-\\lambda x}\\) é a que mais aparece em prova."
+        },
+        {
+          "h": "Média e desvio-padrão",
+          "p": "A média (esperança) é \\(E(X) = \\dfrac{1}{\\lambda}\\) e a variância é \\(\\mathrm{Var}(X) = \\dfrac{1}{\\lambda^{2}}\\), de modo que o desvio-padrão também vale \\(\\dfrac{1}{\\lambda}\\) — média e desvio-padrão coincidem, marca registrada da exponencial.\n\nAtenção à interpretação do parâmetro: se um atendimento dura em média 5 minutos, então \\(\\dfrac{1}{\\lambda} = 5\\), logo \\(\\lambda = \\dfrac{1}{5} = 0{,}2\\) atendimento por minuto. Confundir \\(\\lambda\\) com a média (em vez de seu inverso) é o erro de cálculo mais frequente."
+        },
+        {
+          "h": "A propriedade de falta de memória",
+          "p": "Formalmente: \\(P(X > s + t \\mid X > s) = P(X > t)\\) para quaisquer \\(s, t \\ge 0\\). Ou seja, sabendo que já se esperou \\(s\\) sem o evento, a probabilidade de esperar mais \\(t\\) é a mesma que a de esperar \\(t\\) desde o início — o passado é 'esquecido'.\n\nA demonstração usa a cauda: \\(P(X > s + t \\mid X > s) = \\dfrac{P(X > s + t)}{P(X > s)} = \\dfrac{e^{-\\lambda(s+t)}}{e^{-\\lambda s}} = e^{-\\lambda t} = P(X > t)\\). O cancelamento de \\(e^{-\\lambda s}\\) é o coração da propriedade. Na prática, modela componentes que 'não envelhecem': a taxa de falha é constante no tempo."
+        },
+        {
+          "h": "Unicidade e contraste com modelos com desgaste",
+          "p": "Entre as distribuições contínuas, a exponencial é a ÚNICA que tem falta de memória — assim como a geométrica é a única discreta. Por isso ela representa falhas puramente aleatórias, sem desgaste nem 'amaciamento'.\n\nQuando há desgaste (a chance de falhar cresce com a idade) ou mortalidade infantil (cai com a idade), o modelo correto é a Weibull, não a exponencial. A FCC explora essa fronteira: se o enunciado diz que 'a peça não se desgasta' ou que 'a taxa de falha é constante', está sinalizando exponencial e, portanto, falta de memória."
+        }
+      ],
+      "exemplo": "O tempo de atendimento num posto da SEFAZ-GO segue distribuição exponencial com média de 5 minutos. (a) Qual a probabilidade de um atendimento durar mais de 8 minutos? (b) Sabendo que já dura 5 minutos, qual a probabilidade de durar mais 8 (ou seja, ultrapassar 13 no total)?\n\nPrimeiro, a taxa: \\(\\dfrac{1}{\\lambda} = 5 \\Rightarrow \\lambda = 0{,}2\\) por minuto.\n\n(a) \\(P(X > 8) = e^{-\\lambda \\cdot 8} = e^{-0{,}2 \\cdot 8} = e^{-1{,}6} \\approx 0{,}202\\), cerca de 20%.\n\n(b) Pela falta de memória, \\(P(X > 13 \\mid X > 5) = P(X > 8) = e^{-1{,}6} \\approx 0{,}202\\) — exatamente o mesmo valor de (a)! Não importa que já se passaram 5 minutos: a probabilidade de durar mais 8 é a mesma de durar mais de 8 desde o início. Esse é o pulo do gato que a banca testa: o candidato distraído tenta calcular \\(e^{-0{,}2 \\cdot 13}\\), que estaria errado para o item (b).",
+      "pontos_chave": [
+        "Densidade: \\(f(x) = \\lambda e^{-\\lambda x}\\); acumulada: \\(F(x) = 1 - e^{-\\lambda x}\\).",
+        "Cauda (a mais usada): \\(P(X > x) = e^{-\\lambda x}\\).",
+        "Média \\(= \\dfrac{1}{\\lambda}\\); desvio-padrão \\(= \\dfrac{1}{\\lambda}\\) (coincidem).",
+        "Se a média é \\(m\\), então \\(\\lambda = \\dfrac{1}{m}\\) (cuidado: é o inverso).",
+        "Falta de memória: \\(P(X > s+t \\mid X > s) = P(X > t)\\).",
+        "É a única distribuição contínua sem memória (taxa de falha constante).",
+        "Com desgaste/envelhecimento, o modelo é Weibull, não exponencial."
+      ],
+      "dica_prova": "Quando a questão fornecer um tempo já decorrido e perguntar a probabilidade de durar 'mais t', aplique a falta de memória: a resposta é \\(P(X > t) = e^{-\\lambda t}\\), ignorando o tempo já passado. A pegadinha da FCC é induzir você a somar os tempos no expoente. Antes de tudo, converta a média em taxa: \\(\\lambda = 1/\\text{média}\\) — trocar um pelo outro é o erro mais comum. Lembre que média e desvio-padrão são iguais nessa distribuição."
+    },
+    {
+      "sid": "tamanho-de-amostra-para-proporcao",
+      "titulo": "Tamanho de amostra para proporção",
+      "intro": "Antes de coletar dados, o estatístico precisa decidir quantos elementos amostrar para que a estimativa de uma proporção (percentual de sonegadores, de contribuintes satisfeitos, de itens defeituosos) tenha a precisão desejada. Esse dimensionamento parte da margem de erro \\(E\\) do intervalo de confiança para proporção e isola o tamanho da amostra \\(n\\).\n\nA fórmula é uma das mais cobradas em provas fiscais porque combina três decisões do pesquisador: o nível de confiança (que define \\(z\\)), a margem de erro tolerada \\(E\\) e uma estimativa da proporção \\(p\\). Quando não se tem ideia de \\(p\\), usa-se o 'pior caso' \\(p = 0{,}5\\), que maximiza a amostra necessária.",
+      "secoes": [
+        {
+          "h": "Da margem de erro à fórmula do n",
+          "p": "A margem de erro de um intervalo de confiança para proporção é \\(E = z \\cdot \\sqrt{\\dfrac{p(1-p)}{n}}\\). Isolando \\(n\\): elevando ao quadrado, \\(E^{2} = z^{2}\\,\\dfrac{p(1-p)}{n}\\), e portanto\n\n\\[ n = \\dfrac{z^{2}\\,p(1-p)}{E^{2}} = \\left(\\dfrac{z}{E}\\right)^{2} p\\,(1-p). \\]\n\nAqui \\(z\\) é o valor crítico da normal (1,645 para 90%; 1,96 para 95%; 2,576 para 99%), \\(E\\) é a metade da largura do intervalo (a precisão), e \\(p\\) é a proporção estimada (em decimal)."
+        },
+        {
+          "h": "O pior caso p = 0,5",
+          "p": "O produto \\(p(1-p)\\) é máximo quando \\(p = 0{,}5\\), valendo \\(0{,}5 \\cdot 0{,}5 = 0{,}25\\). Como esse produto multiplica \\(n\\), o maior valor de \\(p(1-p)\\) gera a maior amostra exigida.\n\nPor isso, quando não há informação prévia sobre \\(p\\), adota-se \\(p = 0{,}5\\): é a escolha conservadora, que garante a precisão desejada para qualquer proporção real. A fórmula simplifica para \\(n = \\left(\\dfrac{z}{E}\\right)^{2} \\cdot 0{,}25 = \\dfrac{z^{2}}{4E^{2}}\\)."
+        },
+        {
+          "h": "Atenção às unidades e ao arredondamento",
+          "p": "A margem de erro deve estar em decimal: 2% é \\(E = 0{,}02\\), 3% é \\(0{,}03\\), 5% é \\(0{,}05\\). Esquecer de converter o percentual é causa frequente de erro por fator de 100 ou 10.000.\n\nO resultado de \\(n\\) quase nunca é inteiro; arredonda-se SEMPRE para cima (teto), pois um valor menor não garantiria a precisão. Assim, se a conta der 1680,49, a resposta é 1681 — nunca 1680."
+        },
+        {
+          "h": "Como E e z afetam o tamanho",
+          "p": "Como \\(n\\) é proporcional a \\(\\dfrac{1}{E^{2}}\\), reduzir a margem de erro à metade EXIGE quadruplicar a amostra. Diminuir \\(E\\) de 4% para 2% multiplica \\(n\\) por 4.\n\nDe modo análogo, \\(n\\) cresce com \\(z^{2}\\): passar de 95% (\\(z = 1{,}96\\)) para 99% (\\(z = 2{,}576\\)) aumenta bastante a amostra. Há sempre um trade-off: mais confiança e mais precisão custam mais coleta. Em populações finitas pequenas, aplica-se ainda uma correção, mas a FCC costuma cobrar a versão para população grande/infinita."
+        }
+      ],
+      "exemplo": "Uma pesquisa quer estimar a proporção de contribuintes goianos que aprovam um novo serviço digital, com 90% de confiança (\\(z = 1{,}64\\)) e margem de erro de 2% (\\(E = 0{,}02\\)). Sem ideia prévia da proporção, usa-se o pior caso \\(p = 0{,}5\\). Quantos contribuintes amostrar?\n\nFórmula com pior caso: \\(n = \\left(\\dfrac{z}{E}\\right)^{2} \\cdot p(1-p) = \\left(\\dfrac{1{,}64}{0{,}02}\\right)^{2} \\cdot 0{,}25\\).\n\nPasso 1: \\(\\dfrac{1{,}64}{0{,}02} = 82\\).\nPasso 2: \\(82^{2} = 6724\\).\nPasso 3: \\(6724 \\cdot 0{,}25 = 1681\\).\n\nResposta: \\(n = 1681\\) contribuintes. Note como o pior caso \\(p = 0{,}5\\) (que dá \\(p(1-p) = 0{,}25\\)) simplifica a conta. Se a banca usasse \\(z = 1{,}645\\), o resultado seria praticamente o mesmo (~1691); a FCC costuma arredondar \\(z\\) para 1,64 e chegar ao redondo 1681.",
+      "pontos_chave": [
+        "Margem de erro: \\(E = z\\sqrt{\\dfrac{p(1-p)}{n}}\\).",
+        "Tamanho da amostra: \\(n = \\left(\\dfrac{z}{E}\\right)^{2} p(1-p)\\).",
+        "Pior caso \\(p = 0{,}5\\): \\(p(1-p) = 0{,}25\\) (máximo), gera n máximo.",
+        "Pior caso simplificado: \\(n = \\dfrac{z^{2}}{4E^{2}}\\).",
+        "Converta E para decimal (2% = 0,02) e arredonde n para CIMA.",
+        "z: 1,645 (90%), 1,96 (95%), 2,576 (99%).",
+        "\\(n\\) é proporcional a \\(1/E^{2}\\): metade do erro exige 4× a amostra."
+      ],
+      "dica_prova": "Memorize a forma do pior caso \\(n = \\dfrac{z^{2}}{4E^{2}}\\): com \\(z = 1{,}64\\) e \\(E = 0{,}02\\) cai direto em 1681. Os dois erros que a FCC explora são: (1) não converter a margem percentual para decimal e (2) arredondar n para baixo — sempre use o teto. Se o enunciado fornecer uma proporção estimada (ex.: 'estudo anterior achou 30%'), use \\(p = 0{,}3\\) em vez de 0,5; só recorra a 0,5 quando NÃO houver informação prévia."
+    },
+    {
+      "sid": "calculo-do-erro-tipo-ii",
+      "titulo": "Cálculo do erro tipo II (β)",
+      "intro": "Em um teste de hipóteses, decidimos entre a hipótese nula \\(H_0\\) (status quo) e a alternativa \\(H_1\\) com base na amostra. Como a decisão se baseia em dados aleatórios, há dois tipos de erro: o erro tipo I (rejeitar \\(H_0\\) sendo ela verdadeira, com probabilidade \\(\\alpha\\)) e o erro tipo II (NÃO rejeitar \\(H_0\\) sendo ela falsa, com probabilidade \\(\\beta\\)).\n\nO erro tipo II é o mais sutil e o mais cobrado em cálculo: enquanto \\(\\alpha\\) é fixado pelo pesquisador (o nível de significância), \\(\\beta\\) depende do valor verdadeiro do parâmetro sob \\(H_1\\) e precisa ser calculado. Seu complementar, \\(1 - \\beta\\), é o poder do teste — a capacidade de detectar que \\(H_0\\) é falsa.",
+      "secoes": [
+        {
+          "h": "Os dois erros e a região de aceitação",
+          "p": "Erro tipo I: rejeitar \\(H_0\\) verdadeira; sua probabilidade é \\(\\alpha\\) (nível de significância, fixado, ex.: 5%). Erro tipo II: aceitar \\(H_0\\) falsa; sua probabilidade é \\(\\beta\\).\n\nO teste define uma região de aceitação de \\(H_0\\) (os valores da estatística que NÃO levam à rejeição). O erro tipo II ocorre quando o verdadeiro estado é \\(H_1\\), mas a estatística cai dentro dessa região de aceitação. Logo, \\(\\beta\\) é a probabilidade de a estatística cair na região de aceitação CALCULADA SOB o valor verdadeiro de \\(H_1\\)."
+        },
+        {
+          "h": "Passo a passo para calcular β",
+          "p": "1) Com o \\(\\alpha\\) e \\(H_0\\), encontre o(s) valor(es) crítico(s) que delimitam a região de aceitação — em geral em torno do valor de \\(H_0\\) usando o erro-padrão. 2) Identifique o valor verdadeiro do parâmetro sob \\(H_1\\) (ex.: a média real \\(\\mu_1\\)). 3) Recalcule a posição dos limites de aceitação em escala padronizada \\(z\\), AGORA centrando na distribuição de \\(H_1\\). 4) \\(\\beta\\) é a probabilidade de a estatística cair na região de aceitação sob \\(H_1\\), obtida na tabela normal.\n\nResumo do cálculo do poder e de \\(\\beta\\): \\(\\beta = P(\\text{aceitar } H_0 \\mid H_1 \\text{ verdadeira})\\) e \\(\\text{poder} = 1 - \\beta\\)."
+        },
+        {
+          "h": "Relação entre α, β, n e o poder",
+          "p": "Para um \\(n\\) fixo, há um trade-off: diminuir \\(\\alpha\\) (região de rejeição menor) aumenta \\(\\beta\\), e vice-versa. Não dá para reduzir os dois simultaneamente sem mexer na amostra.\n\nO que reduz \\(\\beta\\) (aumenta o poder) sem mexer em \\(\\alpha\\): (1) aumentar \\(n\\), pois o erro-padrão \\(\\sigma/\\sqrt{n}\\) cai e as distribuições de \\(H_0\\) e \\(H_1\\) se 'separam'; (2) um efeito maior, ou seja, \\(H_1\\) mais distante de \\(H_0\\). Quanto mais longe o verdadeiro parâmetro está do valor de \\(H_0\\), menor \\(\\beta\\)."
+        },
+        {
+          "h": "Poder do teste",
+          "p": "O poder é \\(1 - \\beta\\): a probabilidade de rejeitar \\(H_0\\) quando ela é de fato falsa — exatamente o que se deseja de um bom teste. Um teste com poder de 0,80 acerta a rejeição em 80% das vezes em que \\(H_0\\) é falsa naquele cenário.\n\nA curva de poder mostra como \\(1 - \\beta\\) cresce à medida que o parâmetro verdadeiro se afasta de \\(H_0\\). Para um efeito muito pequeno (\\(H_1\\) quase colado em \\(H_0\\)), o poder é baixo e \\(\\beta\\) alto; para efeitos grandes, o poder se aproxima de 1."
+        }
+      ],
+      "exemplo": "Testa-se \\(H_0: \\mu = 50\\) contra \\(H_1: \\mu > 50\\), com \\(\\sigma = 10\\), amostra \\(n = 100\\) e nível \\(\\alpha = 0{,}05\\) (teste unilateral). Suponha que o valor verdadeiro seja \\(\\mu_1 = 52\\). Calcule \\(\\beta\\).\n\nPasso 1 — limite crítico sob \\(H_0\\): erro-padrão \\(= \\dfrac{\\sigma}{\\sqrt{n}} = \\dfrac{10}{\\sqrt{100}} = 1\\). Para \\(\\alpha = 0{,}05\\) unilateral, \\(z = 1{,}645\\), logo o valor crítico da média é \\(\\bar{x}_c = 50 + 1{,}645 \\cdot 1 = 51{,}645\\). Aceita-se \\(H_0\\) se \\(\\bar{x} < 51{,}645\\).\n\nPasso 2 — padronizar esse limite sob \\(H_1\\) (\\(\\mu_1 = 52\\)): \\(z = \\dfrac{51{,}645 - 52}{1} = -0{,}355\\).\n\nPasso 3 — \\(\\beta = P(\\bar{x} < 51{,}645 \\mid \\mu = 52) = P(Z < -0{,}355) \\approx 0{,}36\\).\n\nLogo \\(\\beta \\approx 0{,}36\\) (36% de chance de não detectar a diferença) e o poder é \\(1 - \\beta \\approx 0{,}64\\). Se aumentássemos \\(n\\), o erro-padrão cairia, o limite crítico se aproximaria de 50 e \\(\\beta\\) diminuiria.",
+      "pontos_chave": [
+        "Erro tipo I (\\(\\alpha\\)): rejeitar \\(H_0\\) verdadeira (fixado pelo pesquisador).",
+        "Erro tipo II (\\(\\beta\\)): NÃO rejeitar \\(H_0\\) falsa (precisa ser calculado).",
+        "\\(\\beta = P(\\text{aceitar } H_0 \\mid H_1 \\text{ verdadeira})\\).",
+        "Calcule o limite crítico sob \\(H_0\\) e padronize-o sob \\(H_1\\).",
+        "Poder do teste \\(= 1 - \\beta\\) (detectar que \\(H_0\\) é falsa).",
+        "Com n fixo, reduzir \\(\\alpha\\) aumenta \\(\\beta\\) (trade-off).",
+        "Aumentar n ou o tamanho do efeito reduz \\(\\beta\\) e aumenta o poder."
+      ],
+      "dica_prova": "O erro mais comum é confundir os dois erros: tipo I rejeita o verdadeiro (\\(\\alpha\\)), tipo II aceita o falso (\\(\\beta\\)). Decore: 'I rejeita Inocente; II Ignora o culpado'. No cálculo, o passo que mais derruba candidatos é padronizar o limite crítico usando a média de \\(H_1\\) (não a de \\(H_0\\)). E lembre: \\(\\alpha\\) e \\(\\beta\\) não somam 1 — quem soma 1 com \\(\\beta\\) é o poder. A FCC adora a relação 'aumentar n reduz \\(\\beta\\) sem mexer em \\(\\alpha\\)'."
+    },
+    {
+      "sid": "lei-da-probabilidade-total-e-bayes",
+      "titulo": "Lei da probabilidade total e Bayes",
+      "intro": "Muitos problemas de probabilidade envolvem um evento que pode ocorrer por vários 'caminhos' mutuamente exclusivos — por exemplo, um produto defeituoso pode vir de qualquer uma de três fábricas. A lei da probabilidade total soma as contribuições de todos os caminhos, enquanto o teorema de Bayes 'inverte' a condicional, perguntando: dado que o evento ocorreu, qual a probabilidade de ele ter vindo por determinado caminho?\n\nEsses dois resultados andam juntos e são clássicos em provas de Auditor-Fiscal, especialmente em formato de árvore de vários níveis (testes diagnósticos, controle de qualidade, classificação de contribuintes). Dominar a árvore de probabilidades é o atalho mais seguro para resolver.",
+      "secoes": [
+        {
+          "h": "Partição e lei da probabilidade total",
+          "p": "Uma partição é um conjunto de eventos \\(B_1, B_2, \\ldots, B_k\\) mutuamente exclusivos e que cobrem todo o espaço amostral (exaustivos). A lei da probabilidade total marginaliza um evento \\(A\\) sobre essa partição:\n\n\\[ P(A) = \\sum_{i} P(B_i)\\,P(A \\mid B_i) = P(B_1)P(A\\mid B_1) + \\ldots + P(B_k)P(A\\mid B_k). \\]\n\nEm palavras: a probabilidade total de \\(A\\) é a soma, sobre cada caminho \\(B_i\\), da probabilidade do caminho vezes a probabilidade de \\(A\\) dado o caminho. Cada parcela é um 'galho' da árvore."
+        },
+        {
+          "h": "Teorema de Bayes",
+          "p": "Bayes inverte a condicional. Para uma das causas \\(B_j\\):\n\n\\[ P(B_j \\mid A) = \\dfrac{P(B_j)\\,P(A \\mid B_j)}{P(A)} = \\dfrac{P(B_j)\\,P(A \\mid B_j)}{\\sum_i P(B_i)\\,P(A \\mid B_i)}. \\]\n\nO numerador é o galho específico (causa \\(B_j\\) seguida de \\(A\\)); o denominador é a probabilidade total de \\(A\\) (todos os galhos que levam a \\(A\\)). Bayes é, portanto, 'galho de interesse dividido pela soma de todos os galhos que produzem o efeito \\(A\\)'."
+        },
+        {
+          "h": "A árvore de probabilidades",
+          "p": "Desenhe um nó inicial e ramifique pelas causas \\(B_i\\), anotando \\(P(B_i)\\) em cada galho. De cada \\(B_i\\), ramifique em \\(A\\) e \\(\\overline{A}\\), anotando \\(P(A \\mid B_i)\\). A probabilidade de um caminho completo é o PRODUTO dos galhos percorridos.\n\nPara \\(P(A)\\), some as probabilidades de todos os caminhos que terminam em \\(A\\). Para Bayes, divida a probabilidade do caminho de interesse pela soma de todos os caminhos que terminam em \\(A\\). Em árvores de vários níveis, basta continuar multiplicando ao longo do caminho — a lógica não muda."
+        },
+        {
+          "h": "Prevalência baixa e o efeito 'falso positivo'",
+          "p": "Em testes diagnósticos, mesmo com sensibilidade e especificidade altas, se a condição é rara (prevalência baixa) a maioria dos positivos pode ser de pessoas SADIAS — porque há muito mais sadios sendo testados. É o resultado contraintuitivo mais famoso de Bayes.\n\nMatematicamente, o denominador \\(P(\\text{positivo})\\) acumula os falsos positivos vindos do grande grupo de sadios, derrubando \\(P(\\text{doente} \\mid \\text{positivo})\\). A FCC adora explorar exatamente essa surpresa: alta acurácia do teste NÃO garante alta probabilidade de doença dado um positivo."
+        }
+      ],
+      "exemplo": "Três fábricas abastecem a SEFAZ: A produz 50% dos itens, B produz 30% e C produz 20%. As taxas de defeito são: A = 2%, B = 4%, C = 5%. (a) Qual a probabilidade de um item, sorteado ao acaso, ser defeituoso? (b) Dado que um item é defeituoso, qual a probabilidade de ter vindo da fábrica B?\n\nÁrvore — probabilidade de cada caminho até 'defeituoso' (produto dos galhos):\nA e defeito: \\(0{,}50 \\cdot 0{,}02 = 0{,}010\\).\nB e defeito: \\(0{,}30 \\cdot 0{,}04 = 0{,}012\\).\nC e defeito: \\(0{,}20 \\cdot 0{,}05 = 0{,}010\\).\n\n(a) Lei da probabilidade total: \\(P(\\text{defeito}) = 0{,}010 + 0{,}012 + 0{,}010 = 0{,}032\\) (3,2%).\n\n(b) Bayes: \\(P(B \\mid \\text{defeito}) = \\dfrac{0{,}012}{0{,}032} = 0{,}375\\). Logo, 37,5% dos itens defeituosos vêm da fábrica B — bem mais que sua fatia de produção (30%), porque B tem taxa de defeito alta. Verificação: \\(P(A\\mid d) = 0{,}010/0{,}032 = 0{,}3125\\) e \\(P(C\\mid d) = 0{,}010/0{,}032 = 0{,}3125\\); soma \\(0{,}3125 + 0{,}375 + 0{,}3125 = 1\\). Confere.",
+      "pontos_chave": [
+        "Partição: eventos mutuamente exclusivos e exaustivos (\\(B_1,\\ldots,B_k\\)).",
+        "Prob. total: \\(P(A) = \\sum_i P(B_i)P(A\\mid B_i)\\).",
+        "Bayes: \\(P(B_j\\mid A) = \\dfrac{P(B_j)P(A\\mid B_j)}{P(A)}\\).",
+        "Numerador de Bayes = galho de interesse; denominador = prob. total de A.",
+        "Na árvore, probabilidade de um caminho = produto dos galhos.",
+        "\\(P(A)\\) = soma de todos os caminhos que terminam em A.",
+        "Condição rara: muitos 'positivos' podem ser falsos positivos."
+      ],
+      "dica_prova": "Sempre desenhe a árvore: galhos das causas \\(\\times\\) galhos do efeito. Para Bayes, a conta é mecânica — galho de interesse sobre a soma de todos os galhos que produzem o efeito. O erro clássico é esquecer um caminho no denominador (a soma deve incluir TODAS as causas que levam a A). Em testes diagnósticos, desconfie da intuição: prevalência baixa faz \\(P(\\text{doente}\\mid\\text{positivo})\\) ser menor do que parece. Confira somando as probabilidades a posteriori — devem dar 1."
+    },
+    {
+      "sid": "frequencias-esperadas-e-estatistica",
+      "titulo": "Frequências esperadas e estatística",
+      "intro": "O teste qui-quadrado de independência verifica se duas variáveis categóricas (por exemplo, região do contribuinte e regime de tributação) estão associadas ou são independentes. Os dados são organizados em uma tabela de contingência com as frequências OBSERVADAS, e o teste compara essas observações com as frequências que seriam ESPERADAS caso as variáveis fossem independentes.\n\nO coração do procedimento é o cálculo das frequências esperadas por linha e coluna e a montagem da estatística qui-quadrado, que mede o quanto o observado se afasta do esperado. Esse conteúdo é o passo prévio indispensável à decisão (graus de liberdade e tabela), e a FCC cobra justamente a montagem da conta.",
+      "secoes": [
+        {
+          "h": "Tabela de contingência e hipóteses",
+          "p": "A tabela cruza as categorias de duas variáveis; cada célula traz a frequência observada \\(O_{ij}\\). Calculam-se os totais de cada linha, de cada coluna e o total geral \\(N\\).\n\nAs hipóteses são: \\(H_0\\) — as variáveis são INDEPENDENTES (não há associação); \\(H_1\\) — as variáveis são dependentes (há associação). O teste qui-quadrado de independência é sempre unilateral à direita: valores grandes da estatística indicam afastamento do esperado e levam a rejeitar \\(H_0\\)."
+        },
+        {
+          "h": "Frequência esperada de cada célula",
+          "p": "Sob a hipótese de independência, a frequência esperada de cada célula é o produto do total da sua linha pelo total da sua coluna, dividido pelo total geral:\n\n\\[ E_{ij} = \\dfrac{(\\text{total da linha } i)\\times(\\text{total da coluna } j)}{N}. \\]\n\nA lógica vem da definição de independência: se as variáveis fossem independentes, a proporção em cada célula seria o produto das proporções marginais, e multiplicar isso por \\(N\\) dá \\(E_{ij}\\). Some os \\(E_{ij}\\) de cada linha/coluna para conferir: os totais esperados batem com os observados."
+        },
+        {
+          "h": "A estatística qui-quadrado",
+          "p": "A estatística é a soma, sobre todas as células, do quadrado da diferença entre observado e esperado, dividido pelo esperado:\n\n\\[ \\chi^{2} = \\sum_{i,j} \\dfrac{(O_{ij} - E_{ij})^{2}}{E_{ij}}. \\]\n\nCada parcela mede a contribuição de uma célula. Quanto maior a discrepância entre \\(O\\) e \\(E\\), maior \\(\\chi^{2}\\) e mais evidência contra a independência. Se \\(O = E\\) em todas as células, \\(\\chi^{2} = 0\\) (independência perfeita na amostra)."
+        },
+        {
+          "h": "Pressupostos e cuidados de cálculo",
+          "p": "O teste exige amostras razoavelmente grandes: a regra prática é que cada frequência esperada \\(E_{ij}\\) seja pelo menos 5; caso contrário, agrupam-se categorias. As frequências esperadas podem (e costumam) ser números não inteiros — não arredonde antes do cálculo final, sob risco de distorcer \\(\\chi^{2}\\).\n\nOutro cuidado: o teste usa as frequências ABSOLUTAS (contagens), nunca percentuais. E divide-se por \\(E\\), não por \\(O\\) — inverter o denominador é erro comum."
+        }
+      ],
+      "exemplo": "Pesquisa com 200 contribuintes cruzando Região (Capital, Interior) e Adesão a um serviço digital (Sim, Não). Observados: Capital — Sim 40, Não 60 (total 100); Interior — Sim 30, Não 70 (total 100). Totais de coluna: Sim 70, Não 130; total geral \\(N = 200\\).\n\nFrequências esperadas \\(E = \\dfrac{\\text{linha}\\times\\text{coluna}}{N}\\):\nCapital/Sim: \\(\\dfrac{100 \\cdot 70}{200} = 35\\). Capital/Não: \\(\\dfrac{100 \\cdot 130}{200} = 65\\).\nInterior/Sim: \\(\\dfrac{100 \\cdot 70}{200} = 35\\). Interior/Não: \\(\\dfrac{100 \\cdot 130}{200} = 65\\).\n\nEstatística \\(\\chi^{2} = \\sum \\dfrac{(O-E)^2}{E}\\):\nCapital/Sim: \\(\\dfrac{(40-35)^2}{35} = \\dfrac{25}{35} \\approx 0{,}714\\).\nCapital/Não: \\(\\dfrac{(60-65)^2}{65} = \\dfrac{25}{65} \\approx 0{,}385\\).\nInterior/Sim: \\(\\dfrac{(30-35)^2}{35} = \\dfrac{25}{35} \\approx 0{,}714\\).\nInterior/Não: \\(\\dfrac{(70-65)^2}{65} = \\dfrac{25}{65} \\approx 0{,}385\\).\n\nSoma: \\(\\chi^{2} \\approx 0{,}714 + 0{,}385 + 0{,}714 + 0{,}385 = 2{,}198\\). Esse valor será comparado ao valor crítico da tabela (ver tópico de graus de liberdade e decisão).",
+      "pontos_chave": [
+        "Tabela de contingência: frequências observadas \\(O_{ij}\\) + totais marginais.",
+        "\\(H_0\\): variáveis independentes; \\(H_1\\): há associação.",
+        "Esperada: \\(E_{ij} = \\dfrac{\\text{total linha}\\times\\text{total coluna}}{N}\\).",
+        "Estatística: \\(\\chi^{2} = \\sum \\dfrac{(O_{ij}-E_{ij})^{2}}{E_{ij}}\\).",
+        "Divide-se por E (esperada), não por O (observada).",
+        "Use frequências absolutas; cada \\(E_{ij}\\) deve ser \\(\\ge 5\\).",
+        "Se \\(O = E\\) em tudo, \\(\\chi^{2} = 0\\) (independência na amostra)."
+      ],
+      "dica_prova": "A fórmula \\(E = \\dfrac{\\text{linha}\\times\\text{coluna}}{\\text{total}}\\) é o que a FCC mais cobra como passo isolado: saiba montá-la célula a célula. Cuidado para dividir por \\(E\\) (esperada) e não por \\(O\\). Não arredonde as esperadas antes de somar e não use percentuais — só contagens. Confira somando as \\(E_{ij}\\) por linha e coluna: devem reproduzir os totais marginais observados. Esse cálculo é o insumo para a decisão pela tabela."
+    },
+    {
+      "sid": "graus-de-liberdade-e-decisao",
+      "titulo": "Graus de liberdade e decisão",
+      "intro": "Calculada a estatística qui-quadrado, falta a parte decisiva: compará-la com um valor crítico para concluir se as variáveis são independentes ou associadas. Esse valor crítico depende do nível de significância \\(\\alpha\\) e, sobretudo, dos graus de liberdade da tabela de contingência, que dependem apenas do número de linhas e colunas.\n\nA regra de decisão é simples e bastante cobrada: rejeita-se a independência quando a estatística calculada supera o valor crítico tabelado. Saber contar os graus de liberdade e ler corretamente a tabela qui-quadrado é o que fecha a questão da prova.",
+      "secoes": [
+        {
+          "h": "Graus de liberdade",
+          "p": "Para uma tabela de contingência com \\(l\\) linhas e \\(c\\) colunas, os graus de liberdade são:\n\n\\[ gl = (l - 1)\\,(c - 1). \\]\n\nA intuição: fixados os totais marginais, apenas \\((l-1)(c-1)\\) células podem variar livremente; as demais ficam determinadas. Exemplos: tabela 2×2 tem \\(gl = (2-1)(2-1) = 1\\); tabela 3×4 tem \\(gl = (3-1)(4-1) = 2 \\cdot 3 = 6\\). Note que o tamanho da amostra NÃO entra nos graus de liberdade — só o número de categorias."
+        },
+        {
+          "h": "Valor crítico na tabela qui-quadrado",
+          "p": "Com \\(gl\\) e o nível \\(\\alpha\\) (geralmente 5%), busca-se na tabela qui-quadrado o valor crítico \\(\\chi^{2}_{\\alpha}\\), que delimita a região de rejeição à direita. Para \\(\\alpha = 0{,}05\\): \\(gl = 1 \\to 3{,}84\\); \\(gl = 2 \\to 5{,}99\\); \\(gl = 3 \\to 7{,}81\\); \\(gl = 4 \\to 9{,}49\\).\n\nO teste é sempre unilateral à direita: a cauda relevante é a dos valores grandes de \\(\\chi^{2}\\), que indicam grande afastamento entre observado e esperado. Não existe rejeição 'pela esquerda' nesse teste."
+        },
+        {
+          "h": "Regra de decisão",
+          "p": "Compare a estatística calculada \\(\\chi^{2}_{calc}\\) com o valor crítico \\(\\chi^{2}_{\\alpha}\\):\n\n— Se \\(\\chi^{2}_{calc} > \\chi^{2}_{\\alpha}\\): REJEITA-SE \\(H_0\\). Conclui-se que há associação (dependência) entre as variáveis.\n— Se \\(\\chi^{2}_{calc} \\le \\chi^{2}_{\\alpha}\\): NÃO se rejeita \\(H_0\\). Não há evidência de associação; as variáveis são tratadas como independentes.\n\nAlternativamente, pelo p-valor: rejeita-se \\(H_0\\) se \\(p\\text{-valor} < \\alpha\\)."
+        },
+        {
+          "h": "Influência de gl e α na decisão",
+          "p": "Quanto MAIOR o nível de significância \\(\\alpha\\), MENOR o valor crítico e mais fácil rejeitar \\(H_0\\) (ex.: 10% rejeita mais que 1%). E quanto mais graus de liberdade, MAIOR o valor crítico — tabelas com mais categorias exigem um \\(\\chi^{2}\\) maior para rejeitar.\n\nPor isso é essencial casar corretamente \\(gl\\) e \\(\\alpha\\) ao ler a tabela: pegar a linha errada de \\(gl\\) ou a coluna errada de \\(\\alpha\\) leva a uma decisão equivocada. A FCC explora justamente esse pareamento."
+        }
+      ],
+      "exemplo": "Retomando o exemplo da tabela 2×2 (Região × Adesão) com \\(\\chi^{2}_{calc} \\approx 2{,}198\\), decida a 5% de significância.\n\nPasso 1 — graus de liberdade: tabela com \\(l = 2\\) linhas e \\(c = 2\\) colunas, \\(gl = (2-1)(2-1) = 1\\).\n\nPasso 2 — valor crítico: para \\(gl = 1\\) e \\(\\alpha = 0{,}05\\), a tabela qui-quadrado dá \\(\\chi^{2}_{0{,}05} = 3{,}84\\).\n\nPasso 3 — comparação: \\(\\chi^{2}_{calc} = 2{,}198 < 3{,}84 = \\chi^{2}_{crítico}\\).\n\nDecisão: como a estatística calculada é MENOR que o valor crítico, NÃO se rejeita \\(H_0\\). Conclui-se que não há evidência de associação entre a região e a adesão ao serviço — as variáveis podem ser consideradas independentes ao nível de 5%. Se a estatística tivesse dado, digamos, 4,50 (> 3,84), a decisão seria rejeitar \\(H_0\\) e afirmar que há associação.",
+      "pontos_chave": [
+        "Graus de liberdade: \\(gl = (l-1)(c-1)\\) (só nº de linhas e colunas).",
+        "Tabela 2×2 → \\(gl = 1\\); tabela 3×4 → \\(gl = 6\\).",
+        "O tamanho da amostra NÃO entra nos graus de liberdade.",
+        "Valores críticos a 5%: gl 1 → 3,84; gl 2 → 5,99; gl 3 → 7,81.",
+        "Teste unilateral à direita: valores grandes de \\(\\chi^{2}\\) rejeitam \\(H_0\\).",
+        "Decisão: \\(\\chi^{2}_{calc} > \\chi^{2}_{crítico}\\Rightarrow\\) rejeita \\(H_0\\) (há associação).",
+        "Maior \\(\\alpha\\) → menor crítico → mais fácil rejeitar."
+      ],
+      "dica_prova": "Memorize \\(gl = (l-1)(c-1)\\) e o valor crítico 3,84 para a tabela 2×2 a 5% — é o caso mais cobrado. A regra de decisão é 'rejeita se o calculado supera o tabelado'; rejeitar significa AFIRMAR associação. O erro frequente é inverter a desigualdade ou usar o nº de células como gl. Lembre que o tamanho da amostra não altera os graus de liberdade, apenas o valor da estatística. Sempre case a linha de gl com a coluna de \\(\\alpha\\) certa na tabela."
+    },
+    {
+      "sid": "a-vista-com-desconto-x-parcelado",
+      "titulo": "À vista com desconto x parcelado",
+      "intro": "Uma situação corriqueira de matemática financeira — e cobrada pela FCC — é comparar duas formas de pagamento do mesmo bem: à vista com desconto OU parcelado sem acréscimo aparente. A intuição engana: 'parcelado sem juros' quase sempre embute juros, porque o preço à vista com desconto é o verdadeiro valor presente da mercadoria.\n\nA chave é o conceito de equivalência de capitais: dois fluxos de pagamento só são equivalentes se tiverem o mesmo valor presente a uma dada taxa. Comparando o preço à vista (com desconto) com o valor presente das parcelas, descobre-se a taxa de juros implícita — quanto realmente se 'paga a mais' por parcelar.",
+      "secoes": [
+        {
+          "h": "Por que 'sem juros' costuma ter juros",
+          "p": "Quando a loja oferece desconto para pagamento à vista, o preço à vista é o valor 'de verdade' do bem (seu valor presente). O preço parcelado 'sem acréscimo' é, na prática, MAIOR que esse valor à vista — e essa diferença, distribuída no tempo, corresponde a juros.\n\nExemplo de raciocínio: se o bem custa R$ 1.000 parcelado, mas R$ 900 à vista, então quem parcela paga R$ 100 a mais por não desembolsar tudo agora. Esses R$ 100 são o custo financeiro embutido — há juros, ainda que o vendedor diga 'sem juros'."
+        },
+        {
+          "h": "Equivalência por valor presente",
+          "p": "Dois fluxos são equivalentes a uma taxa \\(i\\) quando têm o mesmo valor presente (VP). Para descontar um valor futuro \\(VF\\) que vence em \\(n\\) períodos, no regime composto:\n\n\\[ VP = \\dfrac{VF}{(1+i)^{n}}. \\]\n\nPara achar a taxa embutida numa comparação à vista x a prazo, igualam-se os valores presentes: o preço à vista (com desconto) deve ser igual ao valor presente das parcelas descontadas pela taxa \\(i\\). Resolve-se então em \\(i\\)."
+        },
+        {
+          "h": "Caso de uma única parcela futura",
+          "p": "No caso mais simples — pagar tudo à vista por \\(V\\) ou tudo daqui a \\(n\\) períodos por \\(F\\) (preço 'cheio') — a taxa por período sai diretamente de \\(V = \\dfrac{F}{(1+i)^{n}}\\), ou seja, \\((1+i)^{n} = \\dfrac{F}{V}\\).\n\nPara um único período (\\(n = 1\\)): \\(i = \\dfrac{F}{V} - 1 = \\dfrac{F - V}{V}\\). A taxa embutida é simplesmente a diferença (acréscimo) dividida pelo preço à vista — base do raciocínio em quase todas essas questões."
+        },
+        {
+          "h": "Desconto não é o mesmo percentual que o acréscimo",
+          "p": "Pegadinha clássica: um desconto de 10% à vista NÃO equivale a um acréscimo de 10% no parcelado. Se o preço cheio é 100 e o desconto à vista é 10% (paga 90), o acréscimo de 90 para 100 é \\(\\dfrac{100 - 90}{90} = \\dfrac{10}{90} \\approx 11{,}1\\%\\), não 10%.\n\nIsso porque a base muda: o desconto incide sobre o preço cheio, mas o juro embutido incide sobre o preço à vista (a base 'verdadeira'). Sempre calcule o juro com o preço à vista no denominador."
+        }
+      ],
+      "exemplo": "Um equipamento custa R$ 1.200 à vista (já com desconto) ou em 2 parcelas mensais iguais de R$ 660, a primeira vencendo em 1 mês e a segunda em 2 meses (preço a prazo de R$ 1.320, 'sem juros'). Qual a taxa mensal de juros embutida?\n\nIgualando o valor à vista ao valor presente das parcelas, a uma taxa \\(i\\) ao mês:\n\\[ 1200 = \\dfrac{660}{(1+i)} + \\dfrac{660}{(1+i)^{2}}. \\]\n\nTestando \\(i = 5\\%\\) (0,05): \\(\\dfrac{660}{1{,}05} = 628{,}57\\); \\(\\dfrac{660}{1{,}05^{2}} = \\dfrac{660}{1{,}1025} = 598{,}64\\). Soma \\(= 628{,}57 + 598{,}64 = 1227{,}21\\) — ainda acima de 1200, logo a taxa real é um pouco maior.\n\nTestando \\(i = 8\\%\\) (0,08): \\(\\dfrac{660}{1{,}08} = 611{,}11\\); \\(\\dfrac{660}{1{,}1664} = 565{,}84\\). Soma \\(= 1176{,}95\\) — abaixo de 1200. A taxa que zera está entre 5% e 8%, em torno de 6,6% ao mês. Interpretação: embora anunciado 'sem juros', parcelar custa cerca de 6,6% ao mês — muito acima da inflação. Em provas com número 'redondo', o teste de uma taxa candidata costuma fechar exatamente o valor à vista.",
+      "pontos_chave": [
+        "Preço à vista com desconto = valor presente 'verdadeiro' do bem.",
+        "'Parcelado sem juros' geralmente embute juros (diferença para o à vista).",
+        "Equivalência: igualar valores presentes a uma taxa \\(i\\).",
+        "Valor presente composto: \\(VP = \\dfrac{VF}{(1+i)^{n}}\\).",
+        "Parcela única em 1 período: \\(i = \\dfrac{F - V}{V}\\).",
+        "Desconto de x% NÃO equivale a acréscimo de x% (a base muda).",
+        "O juro embutido usa o preço À VISTA no denominador."
+      ],
+      "dica_prova": "Use sempre o preço à VISTA como base (denominador) para a taxa embutida — esse é o ponto que a FCC explora. Lembre que 'desconto de 10%' e 'acréscimo de 10%' são percentuais diferentes (bases diferentes). Em parcelas múltiplas, monte a equação de valor presente e teste as taxas das alternativas (substituição é mais rápido que resolver a equação). Para uma única parcela, a taxa é direta: acréscimo dividido pelo preço à vista."
     }
   ]
 }
